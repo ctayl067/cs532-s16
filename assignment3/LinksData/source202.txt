@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQ8AVFVVGwoAUldQAwU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>The Weeknd - Beauty Behind the Madness</title>
+        <meta name="description" content="">
+        <meta name="author" content="Linkfire.com">
+        <link rel="shortcut icon" href="https://30362208fb0010f60042-0290c4f6b2235c127de3238391f2b960.ssl.cf3.rackcdn.com/images/favicon/favicon.ico">
+        <!-- load scripts -->
+        <!--<script src="https://30362208fb0010f60042-0290c4f6b2235c127de3238391f2b960.ssl.cf3.rackcdn.com/24/scripts/mediaPlayer.min.js"></script>-->
+        <script src="https://30362208fb0010f60042-0290c4f6b2235c127de3238391f2b960.ssl.cf3.rackcdn.com/24/scripts/main.min.js"></script>
+        <!-- laod styles -->
+        <link rel="stylesheet" href="https://30362208fb0010f60042-0290c4f6b2235c127de3238391f2b960.ssl.cf3.rackcdn.com/24/styles/main.min.css">
+        <link rel="stylesheet" href="https://30362208fb0010f60042-0290c4f6b2235c127de3238391f2b960.ssl.cf3.rackcdn.com/24/styles/fonts.css">
+                            <script src='//dmsn0cdst6m8x.cloudfront.net/init.js'></script>
+            </head>
+
+    <body id="prefpage">
+    <div id="trackingcontainer" style="display:none;">
+    <img src="https://stats.linkfire.com/Api/Click/click/85596082fcb65c5828119190a7177d1a?shortlink=theweeknd.co/BeautyBehindTheMadness&linkId=31354&url=https%3A%2F%2Fgeo.itunes.apple.com%2Fus%2Falbum%2Fbeauty-behind-the-madness%2Fid1017804831%3F%26app%3Ditunes%26at%3D11lc6Z%26ct%3DLF_MzEzNTQsMCxjcmF3bGVy&ip=128.82.4.182&referrer=&userAgent=curl%2F7.35.0&linkChannel=0&uid=56c623b86f23c2.50853735&browser=cURL&device=crawler&os=unknown&querystring=&artists=The Weeknd&boardId=1146&tags=&orgId=96&sourcetype=landingpage"/>    </div>
+
+
+        <img src="https://30362208fb0010f60042-0290c4f6b2235c127de3238391f2b960.ssl.cf3.rackcdn.com/images/player/play_button.svg" style="display:none"/>
+        <img src="https://30362208fb0010f60042-0290c4f6b2235c127de3238391f2b960.ssl.cf3.rackcdn.com/images/player/pause_button.svg" style="display:none"/>
+        <div id="scroller-anchor" style="overflow: visible"></div>
+        <div id="layout"></div>
+            <div id="header" class="service-container sticky" style="z-index:9000">
+            <div class="header">
+                <h1 class="artist">The Weeknd<br/>Beauty Behind the Madness</h1>
+                <p class="where">Choose your preferred service</p>
+         </div>
+         <div class="arrow"></div>
+     </div>
+     <div class="hideme" style="display:none;z-index:1"></div>
+     <div id="service" class="service-container">
+         <!--Artist information-->
+
+         <!--End of artist information-->
+         <div class="service">
+             <a class="img-btn redirect"
+                 href="http://shop.theweeknd.com/store/?lf=85596082fcb65c5828119190a7177d1a"
+                                  data-player="theweeknd"
+                 data-apptype="manual"
+             >
+
+             <img class="" width="125px" height="40px" style="display:inline-block;" src="https://b8dc26f18050b3315e3d-25699625cd604ffbdd1a1ecb34531b42.ssl.cf3.rackcdn.com/images/music-service_theweeknd.svg" alt="theweeknd"/>
+             <span class="play">Go To</span>
+             </a>
+         </div>
+         <div class="service">
+             <a class="img-btn redirect"
+                 href="https://open.spotify.com/album/28ZKQMoNBB0etKXZ97G2SN?lf=85596082fcb65c5828119190a7177d1a"
+                 data-uri="spotify:album:28ZKQMoNBB0etKXZ97G2SN?lf=85596082fcb65c5828119190a7177d1a"                 data-player="spotify"
+                 data-apptype="manual"
+             >
+
+             <img class="" width="125px" height="40px" style="display:inline-block;" src="https://b8dc26f18050b3315e3d-25699625cd604ffbdd1a1ecb34531b42.ssl.cf3.rackcdn.com/images/music-service_spotify.svg" alt="spotify"/>
+             <span class="play">Play</span>
+             </a>
+         </div>
+         <div class="service">
+             <a class="img-btn redirect"
+                 href="https://play.google.com/store/music/album/The_Weeknd_Beauty_Behind_The_Madness?id=Bx66ktdxdk3xiq4ic4s6qz4qlri&PAffiliateID=1l3varo&ct=LF_MzEzNTQsMCxjcmF3bGVy"
+                                  data-player="google-play"
+                 data-apptype="manual"
+             >
+
+             <img class="" width="125px" height="40px" style="display:inline-block;" src="https://b8dc26f18050b3315e3d-25699625cd604ffbdd1a1ecb34531b42.ssl.cf3.rackcdn.com/images/music-service_google-play.svg" alt="google-play"/>
+             <span class="play">Download</span>
+             </a>
+         </div>
+         <div class="service">
+             <a class="img-btn redirect"
+                 href="http://amazon.com/Beauty-Behind-The-Madness/dp/B011D0KARI?tag=republicrecor-20&lf=85596082fcb65c5828119190a7177d1a"
+                                  data-player="amazon"
+                 data-apptype="manual"
+             >
+
+             <img class="" width="125px" height="40px" style="display:inline-block;" src="https://b8dc26f18050b3315e3d-25699625cd604ffbdd1a1ecb34531b42.ssl.cf3.rackcdn.com/images/music-service_amazon.svg" alt="amazon"/>
+             <span class="play">Go To</span>
+             </a>
+         </div>
+         <div class="service">
+             <a class="img-btn redirect"
+                 href="http://on.beatsmusic.com/albums/al377196591?lf=85596082fcb65c5828119190a7177d1a"
+                 data-uri="beatsmusic://beatsmusic.com/albums/al377196591?lf=85596082fcb65c5828119190a7177d1a"                 data-player="beats"
+                 data-apptype="manual"
+             >
+
+             <img class="" width="125px" height="40px" style="display:inline-block;" src="https://b8dc26f18050b3315e3d-25699625cd604ffbdd1a1ecb34531b42.ssl.cf3.rackcdn.com/images/music-service_beats.svg" alt="beats"/>
+             <span class="play">Play</span>
+             </a>
+         </div>
+         <!--Last option should be 'i dont know'-->
+         <a id="idontknow" class="dontknow redirect" style="display: block;"
+             href="http://shop.theweeknd.com/store/?lf=85596082fcb65c5828119190a7177d1a"
+                          data-player="theweeknd "
+             data-apptype="dontknow"
+            >
+            <span>I don't know</span>
+         </a>
+    </div>
+    <iframe id="redirect_iframe" src="" style="display:none"></iframe>
+    <div id="loader" class="loader-bg"></div>
+    <div id="loader-spinner" class="loader-image"><img src="https://30362208fb0010f60042-0290c4f6b2235c127de3238391f2b960.ssl.cf3.rackcdn.com/images/loader/bx_loader.gif" alt="Loading"></div>
+
+   <script>
+        $(window).load(function(){
+        var sticky = $('.sticky'),
+            hideme = $('.hideme'),
+            scroll = $(window).scrollTop();
+        var stickyOffset = $('.sticky').offset().top;
+                    $("#layout").css("position", "absolute");
+            $("#layout").css("z-index", "0");
+                    });
+
+
+    </script>
+
+    <script>
+        var mediaPlayer;
+        var playList;
+        var playListAlbum;
+        var isPlaylist;
+        var isMobile;
+                    isMobile = true;
+            var size = 200;
+                $("#scroller-anchor").css("height", size);
+        dom.onReady( function () {
+            'use strict';
+            (function($){
+                $(window).load(function(){
+                    $(".tracks-container").mCustomScrollbar();
+                });
+            })(jQuery);
+
+            var tracks = JSON.parse("[{\"track\":\"Real Life\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/86645d7af5f19d5ebb9f86422aae89a70dbebdba\",\"type\":\"audio\\/mpeg\"},\"trackNum\":0,\"duration\":223,\"timer\":0},{\"track\":\"Losers\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/184ef3d6062dfa1702225da32b81d1b568a63c83\",\"type\":\"audio\\/mpeg\"},\"trackNum\":1,\"duration\":281},{\"track\":\"Tell Your Friends\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/c9316a014e7ef654cc478a6d627a32a0ef5f20e8\",\"type\":\"audio\\/mpeg\"},\"trackNum\":2,\"duration\":334},{\"track\":\"Often\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/38fa34376576b8642b18af7ab9e8439fd2a3c79c\",\"type\":\"audio\\/mpeg\"},\"trackNum\":3,\"duration\":249},{\"track\":\"The Hills\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/33f6078adf116067745653088fcc5d04f8d19375\",\"type\":\"audio\\/mpeg\"},\"trackNum\":4,\"duration\":242},{\"track\":\"Acquainted\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/8f07ee391b105927a6af9e31426cca4b57220f39\",\"type\":\"audio\\/mpeg\"},\"trackNum\":5,\"duration\":348},{\"track\":\"Can\'t Feel My Face\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/7a80b84fd0391d86e9906746f724158bdef49ae4\",\"type\":\"audio\\/mpeg\"},\"trackNum\":6,\"duration\":213},{\"track\":\"Shameless\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/e3723be7e63dbb2aa073cce2acd00e92731a5adf\",\"type\":\"audio\\/mpeg\"},\"trackNum\":7,\"duration\":253},{\"track\":\"Earned It (Fifty Shades Of Grey)\",\"sample\":{\"src\":null,\"type\":\"audio\\/mpeg\"},\"trackNum\":8,\"duration\":277},{\"track\":\"In The Night\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/ad626ec06a2f0e61affbda76f574ec40664bdb20\",\"type\":\"audio\\/mpeg\"},\"trackNum\":9,\"duration\":235},{\"track\":\"As You Are\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/f805971851395e1cc48c1cb2ebd0063c6a8c1987\",\"type\":\"audio\\/mpeg\"},\"trackNum\":10,\"duration\":340},{\"track\":\"Dark Times\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/2dd0cb282c2adc8719fd394a0cf66e62739d4462\",\"type\":\"audio\\/mpeg\"},\"trackNum\":11,\"duration\":260},{\"track\":\"Prisoner\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/20d7a47e86ee76837687e0443224602e816cae18\",\"type\":\"audio\\/mpeg\"},\"trackNum\":12,\"duration\":274},{\"track\":\"Angel\",\"sample\":{\"src\":\"https:\\/\\/p.scdn.co\\/mp3-preview\\/a491fb028dd1543581833a8a94c65a62e1f61db5\",\"type\":\"audio\\/mpeg\"},\"trackNum\":13,\"duration\":377}]");
+
+            if(tracks.length > 1){
+                isPlaylist = true;
+                $(".play-list-controls").css("top", size/2-20);
+            } else {
+                isPlaylist = false;
+            }
+            mediaPlayer = new window.MP({
+                width:320,
+                height :size,
+                mobile : isMobile,
+                playlist : isPlaylist,
+                type : 'audio',
+                authorName : "The Weeknd",
+                albumName : "Beauty Behind the Madness",
+                onPause : function () {
+                    if(tracks.length == 1) {
+                        $( ".where").css("padding", "5px 20px 20px");
+                        $( ".artist").show();
+                        $( ".where").show();
+                    }
+                    else{
+                    }
+                    $('.hideme').css('display', 'none');
+                    $('.sticky').removeClass('fixed');
+                    window.scrollTo(0, -1);
+                },
+                onPlay : function () {
+                    trackPlay();
+                    if(tracks.length == 1) {
+                        $(".play-list-controls").hide();
+                    }
+                    else{
+                        $( ".where").hide();
+                    }
+                    $( ".artist").hide();
+                    //$( ".where").text("Continue listening below");
+                    $( ".where").css("padding", "20px 20px 20px");
+                    //window.scrollTo(0, 0);
+                },
+                onStop : function () {
+                    //$('#service').show();
+                },
+                //volume : 0,
+                poster : 'https://284fc2d5f6f33a52cd9f-ce476c3c56a27f320262daffab84f1af.ssl.cf3.rackcdn.com/artwork_55a479e4a7b4c_15UMGIM36513.400x400-75.jpg',
+                appendTo: '#layout',
+                loop : false,
+                fade : false,
+                buttonPlayList : false,
+                visuaLizer : {
+                    barWidth : 1.5,
+                    spaceWidth : 0.5,
+                    barColor : '#ff3000',
+                },
+                heightProgressBar: 3
+
+            });
+
+
+            if(isMobile){
+                $( ".content-overlay").css("background-color", "rgba(0,0,0,0.8)");
+            }
+
+            playListAlbum = new window.PL(mediaPlayer,{
+                loop : false,
+                autoPlayNextTrack : true,
+                autoPlayFirstTrack : false,
+                marginLeft : 15,
+                marginRight : 15,
+                columns : [
+                    { name : 'Track', index : 'track', width : '50%'},
+                    { name : 'Artist', index : 'artisName', width : '40%' },
+                    { name : 'Time', index : 'duration', width : '10%' }
+                ]
+            });
+            playListAlbum.appendTo('#header .header');
+            dom('#' + mediaPlayer.id + ' .button-play-list.music-bnt').on('click', function (e) {
+                playListAlbum.toggle();
+            });
+            playListAlbum.addTracks(tracks);
+            playListAlbum.show();
+            window.scrollTo(0, 0);
+            // Set height Progress Bar
+            dom('#heightProgressBar').on('change', function () {
+                var height = this.value;
+                if(typeof mediaPlayer !== 'undefined'){
+                    mediaPlayer.setHeightProgressBar(height);
+                }
+            });
+        });
+    </script>
+
+<iframe id="detectURI" src="" style="display:none"></iframe>
+
+  <script type="text/javascript">
+    // Avoid namespace polution
+    var linkfireDeeplink = {
+      clicked: false,
+      iframeTarget: document.getElementById('detectURI'),
+      isDesktop: false,
+      services: document.getElementsByClassName('redirect'),
+      visited: 0
+    };
+
+    // Attach event listeners to all anchors
+    for (var i = 0; i < linkfireDeeplink.services.length; i++) {
+      linkfireDeeplink.services[i].addEventListener('click', redirectHandler, false);
+    }
+
+    function redirectHandler(e) {
+      e.preventDefault();
+      if(linkfireDeeplink.clicked) return false;
+
+      // set user has clicked a service
+      linkfireDeeplink.clicked = true;
+      // Reset after 3sec
+      setTimeout(function() {
+          linkfireDeeplink.clicked = false;
+      },3000);
+      linkfireDeeplink.visited = 0;
+
+      if(e.target.hasAttribute('href')){
+        var link = e.target;
+      }else{
+        var link = this;
+      }
+
+      var uri = link.getAttribute('data-uri');
+      var url = link.getAttribute('href');
+      var player = link.getAttribute('data-player');
+      var appType = link.getAttribute('data-apptype');
+
+      if(!appType || appType.length == 0){
+          appType = 'manual';
+      }
+
+      setCookie('LF_prefPlayer', player, 90);
+      $('#trackingcontainer').append($('<img>', {
+                    src : "https://stats.linkfire.com/Api/Click/app/85596082fcb65c5828119190a7177d1a?shortlink=theweeknd.co/BeautyBehindTheMadness&linkId=31354&url=https%3A%2F%2Fgeo.itunes.apple.com%2Fus%2Falbum%2Fbeauty-behind-the-madness%2Fid1017804831%3F%26app%3Ditunes%26at%3D11lc6Z%26ct%3DLF_MzEzNTQsMCxjcmF3bGVy&ip=128.82.4.182&referrer=&userAgent=curl%2F7.35.0&linkChannel=0&uid=56c623b86f23c2.50853735&browser=cURL&device=crawler&os=unknown&querystring=&artists=The Weeknd&boardId=1146&tags=&orgId=96&channel=" + player + "&apptype=" + appType + "",
+                    width : 1,
+                    height : 1,
+                }));
+      if(typeof(trackEvent) == 'function'){
+        trackEvent('service', 'click', player);
+      }
+
+      if(typeof(triggerPixels) == 'function'){
+        triggerPixels(player);
+      }
+      var open = false;
+      if(link.hasAttribute('target')) {
+        opren = true;
+      }
+
+      redirect(url, uri, open);
+    }
+
+    function redirect(url, uri, open){
+        // If URI is not set or if isDesktop == true, then open URL in new window
+        if(!uri || uri.length === 0 || linkfireDeeplink.isDesktop) {
+            if(open) {
+                window.open(url, '_blank');
+                return false;
+            }
+        }
+        var userPrompted = false;
+        // Give trigger pixels a chance to load
+
+            // if no URI and coming from tablet or phone OR desktop has no target="_blank", then redirect in same window
+            if(!uri || uri.length === 0) {
+              setTimeout(function() {
+                window.top.location.href = url;
+              }, 300);
+
+              return false;
+            }
+
+            // Set iframe URI (prompt user with "open application" dialog)
+            linkfireDeeplink.iframeTarget.src = uri;
+
+            // Check when window is not in focus (prompt is created)
+            window.onblur = function() {
+                userPrompted = true;
+            };
+
+            window.onfocus = function() {
+                linkfireDeeplink.clicked = false;
+                if(linkfireDeeplink.visited === 0) {
+                    window.top.location.href = url;
+                }
+                linkfireDeeplink.visited++;
+            };
+
+            // If window hasn't been out of focus, then no prompt was made, and we sent user to URL
+            setTimeout(function() {
+                if(userPrompted == false) {
+                    window.top.location.href = url;
+                }
+            }, 300);
+    }
+
+    function setCookie(cname,cvalue,exdays) {
+      var d = new Date();
+      d.setTime(d.getTime() + (exdays*24*60*60*1000));
+      var expires = "expires=" + d.toGMTString();
+      document.cookie = cname+"="+cvalue+"; "+expires;
+    }
+  </script>
+
+
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-54175133-1', 'auto', {'name': 'linkfire'});
+      ga('linkfire.set', 'dimension1', 'theweeknd.co');
+      ga('linkfire.set', 'dimension2', 1);
+      ga('linkfire.send', 'pageview');
+//Ga event tracking
+function trackEvent(category, label, param){
+	ga('linkfire.send', 'event', category, label, param);
+	
+	
+}
+//lf player tracking
+var trackedPlay = false;
+function trackPlay(){
+    if(trackedPlay){
+        return;
+    }
+    trackedPlay = true;        
+    $('#trackingcontainer').append($('<img>', {
+                    src : "https://stats.linkfire.com/Api/Click/app/85596082fcb65c5828119190a7177d1a?shortlink=theweeknd.co/BeautyBehindTheMadness&linkId=31354&url=https%3A%2F%2Fgeo.itunes.apple.com%2Fus%2Falbum%2Fbeauty-behind-the-madness%2Fid1017804831%3F%26app%3Ditunes%26at%3D11lc6Z%26ct%3DLF_MzEzNTQsMCxjcmF3bGVy&ip=128.82.4.182&referrer=&userAgent=curl%2F7.35.0&linkChannel=0&uid=56c623b86f23c2.50853735&browser=cURL&device=crawler&os=unknown&querystring=&artists=The Weeknd&boardId=1146&tags=&orgId=96&channel=linkfireplayer&apptype=lfplayer",
+                    width : 1,
+                    height : 1,
+                }));    if(typeof(trackEvent) == 'function'){
+        trackEvent('musicplayer', 'play');
+    }
+}
+</script>
+<script>
+	function triggerPixels(player){
+		// Send to facebook
+        if(window._fbq){
+            window._fbq.push(['track', 'LF', {musicservice: player}]);
+        }
+        // Send to google adwords
+        if (typeof(TriggerGooglePixel) == 'function') {
+            window.google_custom_params = {musicservice: player};
+            TriggerGooglePixel();
+        }
+        // Send to adform
+        if (typeof(TriggerAfPixel) == 'function') {
+            window.afParams = window.afParams + '|' + player;
+            TriggerAfPixel();
+        }
+		
+				              
+	}
+</script>
+
+
+    <script>(function() {
+      var _fbq = window._fbq || (window._fbq = []);
+      if (!_fbq.loaded) {
+        var fbds = document.createElement('script');
+        fbds.async = true;
+        fbds.src = '//connect.facebook.net/en_US/fbds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fbds, s);
+        _fbq.loaded = true;
+      }
+      _fbq.push(['addPixelId', '399736106876066']);
+      _fbq.push(['addPixelId', '686001558117965']);
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', 'LF', {"artists":["The Weeknd"],"artist":"The Weeknd","album":"Beauty Behind the Madness","genre":"R&B\/Soul","organisation":"Republic Records","board":"republic-records","url":"theweeknd.co\/BeautyBehindTheMadness"}]);
+    </script>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=399736106876066&ev=LF&cd[artists]=The+Weeknd&cd[artist]=The+Weeknd&cd[album]=Beauty+Behind+the+Madness&cd[genre]=R%26B%2FSoul&cd[organisation]=Republic+Records&cd[board]=republic-records&cd[url]=theweeknd.co%2FBeautyBehindTheMadness" /></noscript>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=686001558117965&ev=LF&cd[artists]=The+Weeknd&cd[artist]=The+Weeknd&cd[album]=Beauty+Behind+the+Madness&cd[genre]=R%26B%2FSoul&cd[organisation]=Republic+Records&cd[board]=republic-records&cd[url]=theweeknd.co%2FBeautyBehindTheMadness" /></noscript>
+
+
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js"></script>
+    <script>
+    var google_custom_params = {"artists":["The Weeknd"],"artist":"The Weeknd","album":"Beauty Behind the Madness","genre":"R&B\/Soul","organisation":"Republic Records","board":"republic-records","url":"theweeknd.co\/BeautyBehindTheMadness"};
+    var conv_handler = window['google_trackConversion'];
+    var gaIds = [950249395,1017011664];
+    function TriggerGooglePixel(){
+        for(var i = 0; i < gaIds.length; i++){
+            window.google_conversion_id = gaIds[i];
+            if (typeof(conv_handler) == 'function') {
+                conv_handler();
+            }
+        }
+    }
+    TriggerGooglePixel();
+    
+</script>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/950249395/?value=0&amp;guid=ON&amp;script=0&amp;data=artists%3DThe+Weeknd;artist%3DThe+Weeknd;album%3DBeauty+Behind+the+Madness;genre%3DR%26B%2FSoul;organisation%3DRepublic+Recordsboard%3Drepublic-recordsurl%3Dtheweeknd.co%2FBeautyBehindTheMadness" /></noscript>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1017011664/?value=0&amp;guid=ON&amp;script=0&amp;data=artists%3DThe+Weeknd;artist%3DThe+Weeknd;album%3DBeauty+Behind+the+Madness;genre%3DR%26B%2FSoul;organisation%3DRepublic+Recordsboard%3Drepublic-recordsurl%3Dtheweeknd.co%2FBeautyBehindTheMadness" /></noscript>
+    
+
+
+<script>
+    var lotameData = {"artists":["The Weeknd"],"artist":"The Weeknd","album":"Beauty Behind the Madness","genre":"R&B\/Soul","organisation":"Republic Records","board":"republic-records","url":"theweeknd.co\/BeautyBehindTheMadness"};
+</script>
+    
+
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"eaf8520a81","applicationID":"9066244","transactionName":"ZwMBNkpXCxUHV0ZYDF5JNhBRGQwIAlFKHxNYFg==","queueTime":0,"applicationTime":208,"atts":"S0QCQAJNGBs=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+</html>

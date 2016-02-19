@@ -1,0 +1,630 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="IqLJl7b5ybH9-rspVm4g8SHY7UTvXLBb4A-uT-l2bJU" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<title>Office de Tourisme de Châtel - Station de sports d'hiver et d'été - Haute-Savoie</title><meta name="Description" content=""/><meta name="Keywords" content="CHÂTEL EN IMAGES, CHÂTEL INFOS, CHÂTEL HÉBERGEMENT, CHÂTEL SKIPASS, CHÂTEL LIVE, CHÂTEL EVENTS, CHATEL EN FAMILLE"/><script language="JavaScript" type="text/javascript">
+<!--
+//v1.7
+// Flash Player Version Detection
+// Detect Client Browser type
+// Copyright 2005-2008 Adobe Systems Incorporated.  All rights reserved.
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+function ControlVersion()
+{
+	var version;
+	var axo;
+	var e;
+	// NOTE : new ActiveXObject(strFoo) throws an exception if strFoo isn't in the registry
+	try {
+		// version will be set for 7.X or greater players
+		axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");
+		version = axo.GetVariable("$version");
+	} catch (e) {
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 6.X players only
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");
+			
+			// installed player is some revision of 6.0
+			// GetVariable("$version") crashes for versions 6.0.22 through 6.0.29,
+			// so we have to be careful. 
+			
+			// default to the first public version
+			version = "WIN 6,0,21,0";
+			// throws if AllowScripAccess does not exist (introduced in 6.0r47)		
+			axo.AllowScriptAccess = "always";
+			// safe to call for 6.0r47 or greater
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 4.X or 5.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 3.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = "WIN 3,0,18,0";
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 2.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");
+			version = "WIN 2,0,0,11";
+		} catch (e) {
+			version = -1;
+		}
+	}
+	
+	return version;
+}
+// JavaScript helper required to detect Flash Player PlugIn version information
+function GetSwfVer(){
+	// NS/Opera version >= 3 check for Flash plugin in plugin array
+	var flashVer = -1;
+	
+	if (navigator.plugins != null && navigator.plugins.length > 0) {
+		if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) {
+			var swVer2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+			var flashDescription = navigator.plugins["Shockwave Flash" + swVer2].description;
+			var descArray = flashDescription.split(" ");
+			var tempArrayMajor = descArray[2].split(".");			
+			var versionMajor = tempArrayMajor[0];
+			var versionMinor = tempArrayMajor[1];
+			var versionRevision = descArray[3];
+			if (versionRevision == "") {
+				versionRevision = descArray[4];
+			}
+			if (versionRevision[0] == "d") {
+				versionRevision = versionRevision.substring(1);
+			} else if (versionRevision[0] == "r") {
+				versionRevision = versionRevision.substring(1);
+				if (versionRevision.indexOf("d") > 0) {
+					versionRevision = versionRevision.substring(0, versionRevision.indexOf("d"));
+				}
+			}
+			var flashVer = versionMajor + "." + versionMinor + "." + versionRevision;
+		}
+	}
+	// MSN/WebTV 2.6 supports Flash 4
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.6") != -1) flashVer = 4;
+	// WebTV 2.5 supports Flash 3
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.5") != -1) flashVer = 3;
+	// older WebTV supports Flash 2
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 2;
+	else if ( isIE && isWin && !isOpera ) {
+		flashVer = ControlVersion();
+	}	
+	return flashVer;
+}
+// When called with reqMajorVer, reqMinorVer, reqRevision returns true if that version or greater is available
+function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision)
+{
+	versionStr = GetSwfVer();
+	if (versionStr == -1 ) {
+		return false;
+	} else if (versionStr != 0) {
+		if(isIE && isWin && !isOpera) {
+			// Given "WIN 2,0,0,11"
+			tempArray         = versionStr.split(" "); 	// ["WIN", "2,0,0,11"]
+			tempString        = tempArray[1];			// "2,0,0,11"
+			versionArray      = tempString.split(",");	// ['2', '0', '0', '11']
+		} else {
+			versionArray      = versionStr.split(".");
+		}
+		var versionMajor      = versionArray[0];
+		var versionMinor      = versionArray[1];
+		var versionRevision   = versionArray[2];
+        	// is the major.revision >= requested major.revision AND the minor version >= requested minor
+		if (versionMajor > parseFloat(reqMajorVer)) {
+			return true;
+		} else if (versionMajor == parseFloat(reqMajorVer)) {
+			if (versionMinor > parseFloat(reqMinorVer))
+				return true;
+			else if (versionMinor == parseFloat(reqMinorVer)) {
+				if (versionRevision >= parseFloat(reqRevision))
+					return true;
+			}
+		}
+		return false;
+	}
+}
+function AC_AddExtension(src, ext)
+{
+  if (src.indexOf('?') != -1)
+    return src.replace(/\?/, ext+'?'); 
+  else
+    return src + ext;
+}
+function AC_Generateobj(objAttrs, params, embedAttrs) 
+{ 
+  var str = '';
+  if (isIE && isWin && !isOpera)
+  {
+    str += '<object ';
+    for (var i in objAttrs)
+    {
+      str += i + '="' + objAttrs[i] + '" ';
+    }
+    str += '>';
+    for (var i in params)
+    {
+      str += '<param name="' + i + '" value="' + params[i] + '" /> ';
+    }
+    str += '</object>';
+  }
+  else
+  {
+    str += '<embed ';
+    for (var i in embedAttrs)
+    {
+      str += i + '="' + embedAttrs[i] + '" ';
+    }
+    str += '> </embed>';
+  }
+  document.write(str);
+}
+function AC_FL_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".swf", "movie", "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+     , "application/x-shockwave-flash"
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+function AC_SW_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".dcr", "src", "clsid:166B1BCA-3F9C-11CF-8075-444553540000"
+     , null
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
+  var ret = new Object();
+  ret.embedAttrs = new Object();
+  ret.params = new Object();
+  ret.objAttrs = new Object();
+  for (var i=0; i < args.length; i=i+2){
+    var currArg = args[i].toLowerCase();    
+    switch (currArg){	
+      case "classid":
+        break;
+      case "pluginspage":
+        ret.embedAttrs[args[i]] = args[i+1];
+        break;
+      case "src":
+      case "movie":	
+        args[i+1] = AC_AddExtension(args[i+1], ext);
+        ret.embedAttrs["src"] = args[i+1];
+        ret.params[srcParamName] = args[i+1];
+        break;
+      case "onafterupdate":
+      case "onbeforeupdate":
+      case "onblur":
+      case "oncellchange":
+      case "onclick":
+      case "ondblclick":
+      case "ondrag":
+      case "ondragend":
+      case "ondragenter":
+      case "ondragleave":
+      case "ondragover":
+      case "ondrop":
+      case "onfinish":
+      case "onfocus":
+      case "onhelp":
+      case "onmousedown":
+      case "onmouseup":
+      case "onmouseover":
+      case "onmousemove":
+      case "onmouseout":
+      case "onkeypress":
+      case "onkeydown":
+      case "onkeyup":
+      case "onload":
+      case "onlosecapture":
+      case "onpropertychange":
+      case "onreadystatechange":
+      case "onrowsdelete":
+      case "onrowenter":
+      case "onrowexit":
+      case "onrowsinserted":
+      case "onstart":
+      case "onscroll":
+      case "onbeforeeditfocus":
+      case "onactivate":
+      case "onbeforedeactivate":
+      case "ondeactivate":
+      case "type":
+      case "codebase":
+      case "id":
+        ret.objAttrs[args[i]] = args[i+1];
+        break;
+      case "width":
+      case "height":
+      case "align":
+      case "vspace": 
+      case "hspace":
+      case "class":
+      case "title":
+      case "accesskey":
+      case "name":
+      case "tabindex":
+        ret.embedAttrs[args[i]] = ret.objAttrs[args[i]] = args[i+1];
+        break;
+      default:
+        ret.embedAttrs[args[i]] = ret.params[args[i]] = args[i+1];
+    }
+  }
+  ret.objAttrs["classid"] = classid;
+  if (mimeType) ret.embedAttrs["type"] = mimeType;
+  return ret;
+}
+// -->
+</script>
+
+
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	background-color: #462a1f;
+}
+#footerTertiaire {
+	height: 20px;
+	width: 1000px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #b59368;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	float: left;
+	padding-right: 10px;
+	padding-top:5px;
+}
+#footerTertiaire li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-weight: normal;
+	float: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #b59368;
+	line-height:10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	width: auto;
+	padding-right: 2px;
+	padding-left: 2px;
+	list-style: none;
+}
+#footerTertiaire li a {
+	color: #b59368;
+	text-decoration: none;
+}
+#footerTertiaire li a:hover {
+	color: #eac98a;
+}
+#footerTertiaire li.contact {
+	float: right;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#footerTertiaire li.contact a {
+	color: #FFFFFF;
+}
+#footerTertiaire li.contact a:hover {
+	color: #edf3d9;
+}
+
+/* Footer niveau 4 (mentions) */
+#mentions {
+	width: 940px;
+	height: 10px;
+	float: left;
+	
+	margin-bottom: 5px;
+}
+#mentions li {
+	height: 10px;
+	line-height: 8px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-weight: normal;
+	width: auto;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #7c6a6c;
+	display: block;
+	
+}
+#mentions li a {
+	color: #7c6a6c;
+	text-decoration: none;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+#mentions li a:hover {
+	color: #a08e8c;
+}
+#footerPrincipal {
+	height: 5px;
+	width: 960px;
+	float: left;
+	background-image: url(../images/design_infos/trameFooterPrincipal.gif);
+	background-repeat: repeat;
+	font-size: 1px;
+	margin-bottom: 5px;
+}
+.opacity20 {
+	background-image: url(../images/design/opacity20.png);
+	background-repeat: repeat;
+}
+/* PROPOSITION 2 */
+
+#plan_site_pied_page_2 a:link,
+#plan_site_pied_page_2 a:visited{
+color:#B59368;
+text-decoration:none;
+font-family:arial,helvetica,sans-serif;
+font-size:11px;
+}
+
+#plan_site_pied_page_2 a:hover{
+text-decoration:underline;
+}
+#footerTertiaire div#plan_site_pied_page_2 li a:hover {
+    color: none;
+}
+
+
+#footerTertiaire div#plan_site_pied_page_2{
+float:left; border: 0px solid #ff0000; display:table; margin-right:5px; padding-right:5px;
+} 
+
+#footerTertiaire div#plan_site_pied_page_2 ul{
+margin-top:5px;
+padding:0px;
+}      
+
+#footerTertiaire div#plan_site_pied_page_2 ul li {
+float:none;
+width:auto;
+border: 0px;
+padding:0px;
+margin: 3px 0px;
+}
+
+@-moz-document url-prefix()
+{
+#footerTertiaire div#plan_site_pied_page_2{
+
+ display:table;
+  margin-right:3px; padding-right:3px;
+}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+#footerTertiaire div#plan_site_pied_page_2{
+
+ display:block;
+  margin-right:3px; padding-right:3px;
+}
+}
+
+
+
+#footerTertiaire div#plan_site_pied_page_2:last-child{
+margin:0px;
+border: 0px;
+}
+
+#footerTertiaire div#plan_site_pied_page_2 .niv1plansite{
+margin-bottom:10px; display:table;
+}
+
+#footerTertiaire div#plan_site_pied_page_2 .niv1plansite a:link,
+#footerTertiaire div#plan_site_pied_page_2 .niv1plansite a:visited{
+background-color:#342422;
+color:#ffffff;
+padding: 3px 3px;
+width:100%;
+white-space:nowrap;
+font-size:10px;
+}
+
+#footerTertiaire div#plan_site_pied_page_2 table div a{
+margin: 3px 0px;
+}
+-->
+</style>
+  	<script type="text/javascript" src="plugin/jquery.min.js"></script>
+	<link type="text/css" media="screen" rel="stylesheet" href="plugin/colorbox/colorbox.css" />
+	<script type="text/javascript" src="plugin/colorbox/jquery.colorbox.js"></script>
+	
+	
+
+	
+	<SCRIPT LANGUAGE="JavaScript">
+	//window.open('http://info.chatel.com/popup_jeu_novembre_2011.php','_blank','toolbar=0,location=0,directories=0,status=0,scrollbars=0,resizable=0,copyhistory=0,menuBar=0,width=593,height=443');
+</SCRIPT>
+	
+</head><body>
+<div style="clear: both;">
+<!--URL utilis�es dans l'animation-->
+<!--texte utilis� dans l'animation-->
+<!-- saved from url=(0013)about:internet -->
+<script language="JavaScript" type="text/javascript">
+	AC_FL_RunContent(
+		'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0',
+		'width', '100%',
+		'height', '90%',
+		'src', 'http://portail.chatel.com/swf/preloadIndex',
+		'quality', 'high',
+		'pluginspage', 'http://www.adobe.com/go/getflashplayer_fr',
+		'align', 'left',
+		'play', 'true',
+		'loop', 'true',
+		'scale', 'exactfit',
+		'wmode', 'window',
+		'devicefont', 'false',
+		'id', 'preloadIndex',
+		'bgcolor', '#ffffff',
+		'name', 'preloadIndex',
+		'menu', 'true',
+		'allowFullScreen', 'false',
+		'allowScriptAccess','always',
+		'Flashvars' , 'initPath=init/&amp;saison=0&amp;langue=Fr',
+		'movie', 'http://portail.chatel.com/swf/preloadIndex',
+		'salign', 'lt'
+		); //end AC code
+</script>
+<noscript>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="100%" height="100%" id="preloadIndex" align="left">
+	<param name="allowScriptAccess" value="always" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="http://portail.chatel.com/swf/preloadIndex.swf" /><param name="quality" value="high" /><param name="scale" value="exactfit" /><param name="salign" value="lt" /><param name="bgcolor" value="#ffffff" />
+	<param name="Flashvars" value="initPath=init/&amp;saison=0&amp;langue=Fr">
+	<embed src="http://portail.chatel.com/swf/preloadIndex.swf" width="100%" height="100%" align="left" quality="high" scale="exactfit" salign="lt" bgcolor="#ffffff" name="preloadIndex" wmode="window" allowScriptAccess="always" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_fr" Flashvars="initPath=init/&amp;saison=0&amp;langue=Fr" />
+	</object>
+</noscript>
+
+
+<!--/FOOTER/-->
+</div>
+<div style="clear: both; position:relative;">
+		<div id="container" >
+			<div style="font-size: 12px;
+font-family: arial,hevetica,'sans-serif';
+position: absolute;
+top: 22px;
+left: 50%;
+margin-left: -266px;
+z-index: 200;
+color: white;">
+
+		<a href="https://www.facebook.com/ChatelTourisme" target="_blank"><img src="images/design_infos/fb.png" style="position:relative;top:4px;" border="0" style="vertical-align:middle;" /></a>
+
+	</div>
+	<table align="center" border="0" style="width: 980px;">
+		<tr>
+			<td>
+
+				  <div id="footerTertiaire" class="opacity20" >
+			<table cellpadding="0" cellspacing="0" border="0" style="width: 100%;"><tr><td  valign="top">
+			<div style="margin-top: 3px; border: 0px solid #000000; width:770px; position:relative;">
+
+
+	<!--<div id="footerPrincipal"></div>-->
+	<div id="mentions" style="border: 0px solid #ffffff;">
+		<ul style="margin: 0px 0px 0px 0px;  padding: 0px 0px 0px 0px;">
+			<li style="margin: 0px;  padding: 0px 0px 0px 0px;"><a href="http://info.chatel.com/www-rubrique_2-2611-FR-ACCUEIL.html">MENTIONS LÉGALES</a></li>
+	        	<li style="margin: 0px;  padding: 0px 0px 0px 0px;"><a href="http://info.chatel.com/www-rubrique_2-2611-FR-ACCUEIL.html">CRÉDITS</a></li>
+			<!--<li style="margin: 0px;  padding: 0px 0px 0px 0px;"><a href="#">PLAN DU SITE</a></li>-->
+			<li style="margin: 0px;  padding: 0px 0px 0px 0px;"><a href="http://info.chatel.com/les_partenaires_sites_des_partenaires-sommaire_niveau_2_liens_vignettes-1779-FR-PRATIQUE.html">PARTENAIRES</a></li>
+	        	<!--<li><a href="#">CHÂTEL</a></li>-->
+	        	<li style="margin: 0px;  padding: 0px 0px 0px 0px;"><a href="http://info.chatel.com/offices_tourisme_de_tourisme_a-formulaire_contact-1774-FR-PRATIQUE.html">CONTACT</a></li>
+		</ul>
+	</div>
+
+
+</div>
+	</td>
+	<td align="right" style="width: 120px;" valign="top">
+		<div style="float: right;">
+	<ul style="margin: 0px;  padding: 0px;">
+<!--<li class="contact" style="margin: 0px;  padding: 0px;"><a href="http://info.chatel.com/offices_tourisme_de_tourisme_a-formulaire_contact-1774-FR-PRATIQUE.html" style="display: block; height: 18px; line-height: 18px; margin-left: 5px;">CONTACT</a></li>-->
+
+	</ul>
+</div>
+	</td>
+	<td align="right" valign="top">
+		<div align="right">
+			<table cellpadding="0" cellspacing="0" border="0">
+				<tr>
+			<td>
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			<div class="fb-like" data-href="http://www.facebook.com/ChatelTourisme" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"></div>
+			<!--<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffr-fr.facebook.com%2Fpeople%2FChatel-Tourisme%2F1421081622&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>-->
+			</td>
+			<td style="display:none;"><span class="hotspot" onmouseover="tooltip.show('VOIR NOTRE PAGE FACEBOOK');" onmouseout="tooltip.hide();"><a href="http://genius2chatel.ingenie.fr/scripts/stats/web/stats.php?lien_page=http://fr-fr.facebook.com/people/Chatel-Tourisme/1421081622&organisme=74&site=WEB2INFO&params[TYPAGE]=ZIBLOCNE&params[CODEPAGE]=LIENSRESOC" target="_blank"><img src="http://info.chatel.com/images/design_infos/bt_facebook.gif" border="0" hspace="2" /></a></span></td>
+			<td><a href="/version-francaise.html"><img src="http://info.chatel.com/images/design_infos/drapeau_FR.gif" border="0" hspace="2" /></a></td>
+			<td><a href="/english-version.html"><img src="http://info.chatel.com/images/design_infos/drapeau_UK.gif" border="0" hspace="2" /></a></td>
+					</tr>
+	</table>
+		</div>
+	</td>
+</table>
+<div style="margin-top:20px;">
+
+						<div id="plan_site_pied_page_2" style="width:830px; height:250px;"><div class="niv1plansite"><a  href="http://info.chatel.com">CHÂTEL INFOS</a></div><table cellpadding="0" cellspacing="0" border="0" style="float:left; width:830px;"><tr><td valign="top"><div style="background-color:#342422; white-space: nowrap; padding:4px; display:table;"><a href="http://info.chatel.com/chatel-station-village-de-haute-savoie.html" style="color:#939393;">Un village à découvrir</a></div><ul><li><a href="http://info.chatel.com/petit-historique-du-village.html"  >Historique</a></li><li><a href="http://info.chatel.com/tout-le-charme-et-les-traditions-d-un-village.html"  >Charme et traditions</a></li><li><a href="http://info.chatel.com/l-architecture-d-un-village-de-montagne.html"  >Architecture</a></li><li><a href="http://info.chatel.com/centre-d-interpretation-sur-la-contrebande-en-montagne.html"  >La Vieille Douane</a></li><li><a href="http://info.chatel.com/les-villes-jumelees-avec-chatel.html"  >Jumelages</a></li><li><a href="http://info.chatel.com/la-gastronomie-regionale.html"  >Gastronomie</a></li><li><a href="http://info.chatel.com/toutes-les-infos-pour-venir-a-chatel.html"  >Accès</a></li><li><a href="http://info.chatel.com/les-navettes-et-bus-a-chatel.html"  >Navettes et bus</a></li><li><a href="http://info.chatel.com/le-stationnement-a-chatel.html"  >Stationnement</a></li><li><a href="http://info.chatel.com/la-collecte-des-dechets-a-chatel.html"  >La collecte des déchets</a></li><li><a href="http://info.chatel.com/le-geopark-du-chablais.html"  >Geopark du Chablais</a></li></ul></td><td valign="top"><div style="background-color:#342422; white-space: nowrap; padding:4px; display:table;"><a href="http://info.chatel.com/hebergement-cote-cosy.html" style="color:#939393;">Hébergement côté cosy</a></div><ul><li><a href="http://info.chatel.com/agences-immobilieres.html"  >Agences immobilières</a></li><li><a href="http://info.chatel.com/les-agences-de-voyages-de-chatel.html"  >Agences de voyages</a></li><li><a href="http://info.chatel.com/le-camping-et-caravaneige-de-chatel-html.html"  >Camping</a></li><li><a href="http://info.chatel.com/la-centrale-de-reservations-de-chatel.html"  >Centrale de réservation</a></li><li><a href="http://info.chatel.com/les-centres-de-vacances-de-chatel.html"  >Hôtels pour groupes, Centres de vacances</a></li><li><a href="http://info.chatel.com/les-chambres-d-hotes-et-gites-d-etape.html"  >Gîtes et chambres d'hôtes</a></li><li><a href="http://info.chatel.com/auberge-de-jeunesse-chatel.html"  >Auberge de jeunesse</a></li><li><a href="http://info.chatel.com/autre-hebergement-a-chatel.html"  >Autres hébergements</a></li><li><a href="http://info.chatel.com/les-hotels-et-residences.html"  >Hôtels & Résidences</a></li><li><a href="http://info.chatel.com/les-locations-de-meubles-de-particuliers.html"  >Meublés de Particuliers</a></li><li><a href="http://info.chatel.com/tarifs-des-locations-d-appartements.html"  >Tarifs locations</a></li><li><a href="http://info.chatel.com/le-multipass-des-portes-du-soleil.html"  >Multipass</a></li><li><a href="http://info.chatel.com/le-calendrier-des-vacances-scolaires.html"  >Calendrier vacances</a></li><li><a href="http://info.chatel.com/la-taxe-de-sejour.html"  >La taxe de séjour</a></li><li><a href="http://info.chatel.com/le-classement-des-meubles.html"  >Classement des meublés...</a></li></ul></td><td valign="top"><div style="background-color:#342422; white-space: nowrap; padding:4px; display:table;"><a href="http://info.chatel.com/des-vacances-d-ete-a-la-montagne.html" style="color:#939393;">Un été à respirer</a></div><ul><li><a href="http://info.chatel.com/balade-en-montagne.html"  >Autour de la montagne</a></li><li><a href="http://info.chatel.com/vtt-pour-tous-bike-park-rando.html"  >VTT</a></li><li><a href="http://info.chatel.com/trotinette-descente.html"  >Trottinette de descente</a></li><li><a href="http://info.chatel.com/http://www.chatelactivites.com/fr/ete/fantasticable/" rel="nofollow" target="_blank">Fantasticable</a></li><li><a href="http://info.chatel.com/http://www.chatelactivites.com/fr/ete/remontees-mecaniques-2/" rel="nofollow" target="_blank">Remontées mécaniques</a></li><li><a href="http://info.chatel.com/vols-biplace-en-parapente.html"  >Parapente</a></li><li><a href="http://info.chatel.com/carte-multi-activites.html"  >Multipass</a></li><li><a href="http://info.chatel.com/le-cyclotourisme-a-chatel.html"  >Cyclotourisme</a></li><li><a href="http://info.chatel.com/les-cartes-et-topo-guides.html"  >Cartes et topo guides</a></li><li><a href="http://info.chatel.com/forme-d-o-le-centre-aquatique.html"  >Centre Aquatique</a></li><li><a href="http://info.chatel.com/activites-et-loisirs-autour-de-l-eau.html"  >Autour de l'eau</a></li><li><a href="http://info.chatel.com/golf-tennis-tir-a-l-arc-football-petanque.html"  >Balles et adresse</a></li><li><a href="http://info.chatel.com/luge-d-ete-devalkart-rollerbe-les-glisses-de-l-ete.html"  >Glisse d'été</a></li><li><a href="http://info.chatel.com/espace-forme.html"  >Espace Forme</a></li><li><a href="http://info.chatel.com/activites-pour-les-enfants-en-ete-a-chatel.html"  >Enfants</a></li><li><a href="http://info.chatel.com/les-navettes-et-bus.html"  >Navettes et bus</a></li></ul></td><td valign="top"><div style="background-color:#342422; white-space: nowrap; padding:4px; display:table;"><a href="http://info.chatel.com/chatel-une-station-des-portes-du-soleil.html" style="color:#939393;">Un hiver à explorer</a></div><ul><li><a href="http://info.chatel.com/le-domaine-skiable-de-chatel.html"  >Domaine skiable</a></li><li><a href="http://info.chatel.com/tous-les-tarifs-des-forfaits-de-ski.html"  >Forfaits</a></li><li><a href="http://info.chatel.com/les-assurances.html"  >Assurances</a></li><li><a href="http://info.chatel.com/le-snowpark-de-chatel.html"  >Snowpark</a></li><li><a href="http://info.chatel.com/les-regles-de-securite.html"  >Votre sécurité sur le domaine</a></li><li><a href="http://info.chatel.com/les-coulisses.html"  >Coulisses</a></li><li><a href="http://info.chatel.com/domaine-nordique.html"  >Domaine nordique</a></li><li><a href="http://info.chatel.com/les-ecoles-de-ski.html"  >Ecoles de ski</a></li><li><a href="http://info.chatel.com/les-moniteurs-independants.html"  >Moniteurs indépendants</a></li><li><a href="http://info.chatel.com/la-glisse-pour-les-enfants.html"  >La glisse des enfants</a></li><li><a href="http://info.chatel.com/louer-ou-acheter-son-materiel-de-ski.html"  >Location de matériel</a></li><li><a href="http://info.chatel.com/sports-et-loisirs-d-hiver.html"  >Sports & loisirs</a></li><li><a href="http://info.chatel.com/pour-les-enfants.html"  >Enfants</a></li><li><a href="http://info.chatel.com/navettes-chatel-gratuites-pour-tous.html"  >Navettes et bus</a></li></ul></td><td valign="top"><div style="background-color:#342422; white-space: nowrap; padding:4px; display:table;"><a href="http://info.chatel.com/detente-et-loisirs-a-chatel.html" style="color:#939393;">Détente et loisirs</a></div><ul><li><a href="http://info.chatel.com/les-animations-et-spectacles.html"  >Animations, spectacles, concerts..</a></li><li><a href="http://info.chatel.com/detente-soins-bien-etre.html"  >Détente, bien-être</a></li><li><a href="http://info.chatel.com/centre-aquatique-a-chatel.html"  >Centre Aquatique</a></li><li><a href="http://info.chatel.com/goutez-a-la-ferme.html"  >Goûters à la ferme</a></li><li><a href="http://info.chatel.com/decouverte-de-la-fabrication-du-fromage.html"  >Fabrication du fromage</a></li><li><a href="http://info.chatel.com/le-petit-train-touristique.html"  >Petit train</a></li><li><a href="http://info.chatel.com/le-musee-de-la-vieille-douane.html"  >La Vieille Douane</a></li><li><a href="http://info.chatel.com/radio-chatel-radio-de-vos-vacances.html"  >Radio</a></li><li><a href="http://info.chatel.com/tous-les-restaurants-et-bars-de-chatel.html"  >Restaurants, bars</a></li><li><a href="http://info.chatel.com/le-bowling-de-chatel.html"  >Bowling</a></li><li><a href="http://info.chatel.com/cinemas-de-chatel.html"  >Cinémas</a></li><li><a href="http://info.chatel.com/la-discotheque-de-chatel.html"  >Discothèque</a></li></ul></td><td valign="top"><div style="background-color:#342422; white-space: nowrap; padding:4px; display:table;"><a href="http://info.chatel.com/infos-pratiques.html" style="color:#939393;">Pratique toute l'info</a></div><ul><li><a href="http://info.chatel.com/annuaire-et-numeros-utiles.html"  >Annuaire et numéros utiles</a></li><li><a href="http://info.chatel.com/le-stationnement.html"  >Stationnement</a></li><li><a href="http://info.chatel.com/les-bus-et-navettes.html"  >Navettes et bus</a></li><li><a href="http://info.chatel.com/l-acces-a-chatel.html"  >Accès</a></li><li><a href="http://info.chatel.com/l-office-de-tourisme.html"  >Châtel Tourisme</a></li><li><a href="http://info.chatel.com/la-societe-des-remontees-mecaniques.html"  >Remontées Mécaniques</a></li><li><a href="http://info.chatel.com/la-mairie-de-chatel.html"  >Mairie</a></li><li><a href="http://info.chatel.com/nos-brochures-et-documentations.html"  >Brochures / Documentations</a></li><li><a href="http://info.chatel.com/nos-partenaires.html"  >Nos partenaires</a></li><li><a href="http://info.chatel.com/le-livre-d-or.html"  >Livre d'or</a></li><li><a href="http://info.chatel.com/les-fonds-d-ecran.html"  >Fonds d'écran</a></li><li><a href="http://info.chatel.com/notre-boutique.html"  >Boutique</a></li></ul></td></tr></table></div>			
+
+						<div id="plan_site_pied_page_2" style="width:110px; height:80px;"><div class="niv1plansite"><a  href="http://live.chatel.com">CHÂTEL LIVE</a></div><div style="color:#B59368; font-size:10px; font-family:arial,helvetica,sans-serif;">Météo, Webcams, Ouverture des pistes</div></div>			
+
+						<div id="plan_site_pied_page_2" style="width:110px; height:75px;"><div class="niv1plansite"><a  href="http://seduction.chatel.com">CHÂTEL EN IMAGES</a></div><div style="color:#B59368; font-size:10px; font-family:arial,helvetica,sans-serif;">La station de Châtel en photos et vidéos</div></div>			
+
+						<div id="plan_site_pied_page_2" style="width:110px; height:90px;"><div class="niv1plansite"><a target="_blank" href="http://tv.chatel.com">CHÂTEL TV</a></div><div style="color:#B59368; font-size:10px; font-family:arial,helvetica,sans-serif;">La Chaine TV de Châtel, disponible sur Youtube et sur la TNT</div></div>			
+
+						<div id="plan_site_pied_page_2" style="width:110px; "><div class="niv1plansite"><a target="_blank" href="http://www.chatelactivites.com">CHÂTEL BIKE PARK</a></div><div style="color:#B59368; font-size:10px; font-family:arial,helvetica,sans-serif;">Mountain bikepark de Châtel</div></div>			
+
+						<div id="plan_site_pied_page_2" style="width:224px; height:250px;"><div class="niv1plansite"><a  href="http://skipass.chatel.com">CHÂTEL LE SKI</a></div><table cellpadding="0" cellspacing="0" border="0" style="float:left; width:224px;"><tr><tr><td valign="top"><div><a href="http://skipass.chatel.com/le-domaine-skiable.html">Le domaine skiable</a></div></td></tr><tr><td valign="top"><div><a href="http://skipass.chatel.com/tous-les-forfaits.html">Les forfaits de ski</a></div></td></tr><tr><td valign="top"><div><a href="http://www.skipass-chatel.com">Vente en ligne 24h/24</a></div></td></tr><tr><td valign="top"><div><a href="http://skipass.chatel.com/les-nouveautes-de-l-hiver.html">Saem sports et tourisme</a></div></td></tr><tr><td valign="top"><div><a href="http://skipass.chatel.com/snowpark-freestyle.html">Snowpark freestyle</a></div></td></tr><tr><td valign="top"><div><a href="http://skipass.chatel.com/la-saem-recrute.html">Nous recrutons</a></div></td></tr></tr></table></div>			
+
+						<div id="plan_site_pied_page_2" style="width:224px; height:250px;"><div class="niv1plansite"><a  href="http://events.chatel.com">CHÂTEL ANIMATIONS</a></div><table cellpadding="0" cellspacing="0" border="0" style="float:left; width:224px;"><tr><tr><td valign="top"><div><a href="http://events.chatel.com/evenements-les-incontournables.html">Événements les incontournables</a></div></td></tr><tr><td valign="top"><div><a href="http://events.chatel.com/agenda-toute-l-animation.html">Agenda toute l'animation</a></div></td></tr><tr><td valign="top"><div><a href="http://events.chatel.com/votre-semaine-type.html">Votre semaine type</a></div></td></tr></tr></table></div>			
+
+						<div id="plan_site_pied_page_2" style="width:224px; height:250px;"><div class="niv1plansite"><a  href="http://presse.chatel.com">CHÂTEL PRESSE</a></div><table cellpadding="0" cellspacing="0" border="0" style="float:left; width:224px;"><tr><tr><td valign="top"><div><a href="http://presse.chatel.com/presse-chatel-communique.html">Presse Châtel communique</a></div></td></tr><tr><td valign="top"><div><a href="http://presse.chatel.com/les-bons-plans.html">Bon plan à découvrir</a></div></td></tr><tr><td valign="top"><div><a href="http://presse.chatel.com/les-nouveautes-de-la-station.html">Nouveautés station</a></div></td></tr><tr><td valign="top"><div><a href="http://mediatheque.chatel.com">Médiathèque pro</a></div></td></tr><tr><td valign="top"><div><a href="http://presse.chatel.com/les-resultats-des-competitions.html">Résultats des compétitions</a></div></td></tr></tr></table></div>			
+
+						<div id="plan_site_pied_page_2" style="width:224px; height:250px;"><div class="niv1plansite"><a  href="http://www.chatelenfamille.com">CHÂTEL EN FAMILLE</a></div><table cellpadding="0" cellspacing="0" border="0" style="float:left; width:224px;"><tr><tr><td valign="top"><div><a href="http://www.chatelenfamille.com/famille-plus-tout-savoir.html">Famille plus tout savoir</a></div></td></tr><tr><td valign="top"><div><a href="http://www.chatelenfamille.com/un-hiver-en-famille.html">Un hiver en famille</a></div></td></tr><tr><td valign="top"><div><a href="http://www.chatelenfamille.com/un-ete-en-famille-a-la-montagne.html">Un été en famille</a></div></td></tr><tr><td valign="top"><div><a href="http://www.chatelenfamille.com/infos-pratique-pour-la-famille.html">Pratique toute l'info</a></div></td></tr><tr><td valign="top"><div><a href="http://www.chatelenfamille.com/a-vous-de-jouer-jeux-et-coloriages.html">À&nbsp;vous&nbsp;de&nbsp;jouer jeux et coloriages</a></div></td></tr></tr></table></div>			
+</div></div>
+
+
+			</td>
+		</tr>
+	</table>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22562931-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

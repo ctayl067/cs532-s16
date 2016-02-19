@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=4407ac63b04a974114891da19b333539"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ 
+<!-----
+ 
+theme one by jo @ sentimental themes
+ 
+do not steal | have a nice day don't forget to smile
+ 
+----->
+ 
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">  
+ 
+    <title>serendipity</title>
+    <style>figure{margin:0}</style>
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_f410e6f94ceb_128.png">
+    <link rel="alternate" type="application/rss+xml" href="http://craezycapulet.tumblr.com/rss">
+    <meta name="description" content="There&#039;s only one chance as you walk on this dark path"/>
+   
+    <meta name="color:background" content="#ffffff"/>
+    <meta name="color:text" content="#bbbaba"/>
+    <meta name="color:link" content="#868686"/>
+    <meta name="color:link hover" content="#c1c1c1"/>
+    <meta name="color:accent" content="#444444"/>
+    <meta name="color:description" content="#6b6b6b"/>
+    <meta name="color:description background" content="#f3f3f3"/>
+   
+    <meta name="if:500px Posts" content="1"/>
+    <meta name="if:Bold Title" content="1"/>
+ 
+    <meta name="text:sidebar title" content=""/>
+ 
+    <meta name="text:link 1" content=""/>
+    <meta name="text:link 1 url" content=""/>
+   
+    <meta name="text:link 2" content=""/>
+    <meta name="text:link 2 url" content=""/>
+   
+    <meta name="text:link 3" content=""/>
+    <meta name="text:link 3 url" content=""/>
+   
+    <meta name="text:link 4" content=""/>
+    <meta name="text:link 4 url" content=""/>
+ 
+    <meta name="text:link 5" content=""/>
+    <meta name="text:link 5 url" content=""/>
+ 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+ 
+<script src="http://static.tumblr.com/rzl30kg/eAxm7a751/jquery.style-my-tooltips.js"></script>
+<script>
+   (function($){
+       $(document).ready(function(){
+           $("[title]").style_my_tooltips({
+               tip_follows_cursor:true,
+               tip_delay_time:200,
+               tip_fade_speed:300
+           }
+               );
+       });
+   })(jQuery);
+</script>
+ 
+ 
+    <style type="text/css">
+   
+/*basics*/
+ 
+body {
+    background-color:#f9f1f6;
+    font-family:verdana;
+    font-size:11px;
+    color:#8f8f8f;
+}
+ 
+a {
+    color:#868686;
+    text-decoration:none;
+    -webkit-transition-duration:.3s;
+    -moz-transition-duration:.3s;
+    -o-transition-duration:.3s;
+}
+ 
+a:hover {
+    color:#c1c1c1;
+ 
+    -webkit-transition-duration:.5s;
+    -moz-transition-duration:.5s;
+    -o-transition-duration:.5s;
+}
+ 
+h1 {
+    text-align:left;
+    padding:5px;
+    font-family:arial;
+    font-size:20px;
+    color:#444444;
+    letter-spacing:0px;
+    font-weight:bold;
+}
+ 
+blockquote {
+    padding-left:5px;
+    border-left:2px solid #444444;;
+}
+ 
+blockquote blockquote {
+    padding-left:10px;
+    border-left:2px solid #444444;
+}
+       
+/*sidebar*/
+ 
+#sidebar {
+    width:180px;
+    height:150px;
+    margin-left:215px;
+    margin-top:80px;
+    position:fixed;
+}
+ 
+/*desc*/
+     
+#desc {
+    width:200px;
+    color:#6b6b6b;
+    background-color:#f3f3f3;
+    text-align:left;
+    font-family:helvetica;
+    padding:9px;
+    margin-left:-16px;
+    margin-top:-2px;
+    font-size:10px;
+}
+ 
+/*title*/
+ 
+#blogt {
+    font-family:arial;
+    
+    font-weight:bold;
+      
+    font-size:20px;
+    letter-spacing:0px;
+    padding:5px;
+    text-align:left;
+    margin-top:20px;
+    margin-left:-20px;
+  -moz-transition:all 1s;
+    -ms-transition:all 1s;
+    -o-transition:all 1s;
+    transition:all 1s;  
+}
+ 
+#blogt a {
+     color:#444444;
+   -moz-transition:all 1s;
+    -ms-transition:all 1s;
+    -o-transition:all 1s;
+    transition:all 1s;  
+}
+ 
+#blogt a:hover {
+    border-bottom:none;
+    letter-spacing:2.5px;
+    -moz-transition:all 1s;
+    -ms-transition:all 1s;
+    -o-transition:all 1s;
+    transition:all 1s;  
+}
+ 
+/*links*/
+       
+   #links{
+    width:200px;
+    word-spacing:1px;
+    display:inline-block;
+    font-family:arial;
+    text-align:left;
+    font-size:12px;
+    line-height:20px;
+    padding:4px;
+    font-weight:bold;
+    opacity:0;
+    margin-top:1px;
+    margin-left:60px;
+    letter-spacing:1px;
+    -moz-transition:all ease-in-out 0.8s;
+    -ms-transition:all ease-in-out 0.8s;
+    -o-transition:all ease-in-out 0.8s;
+    transition:all ease-in-out 0.8s;  
+}
+     
+#sidebar:hover #links{
+    opacity:1;
+    margin-left:105px;
+    -moz-transition:all ease-in-out 0.8s;
+    -ms-transition:all ease-in-out 0.8s;
+    -o-transition:all ease-in-out 0.8s;
+    transition:all ease-in-out 0.8s;  
+}
+ 
+#links a {
+    color:;
+    padding:3px;
+}
+ 
+#links a:hover {
+    color:#c1c1c1;
+    -moz-transition:all 0.8s;
+    -ms-transition:all 0.8s;
+    -o-transition:all 0.8s;
+    transition:all 0.8s;  
+}
+ 
+ /*posts*/
+ 
+#entries {
+    margin-left:600px;
+    margin-top:90px;
+    
+    
+    width:550px;
+    
+}
+     
+#posts {
+     
+    text-align:left;
+    margin-bottom:0px;
+    
+    
+    width:500px;
+    
+}
+ 
+/*audio*/
+ 
+.audio player {
+    width:100%;
+}
+ 
+.audio {
+    width:50px;
+    text-align:left;
+    padding:5px;
+    font-family:arial;
+    font-size:18px;
+    color:#444444;
+    letter-spacing:-1px;
+    text-transform:lowercase;
+    font-weight:bold;
+}
+   
+/*chat*/
+   
+.chat ol {
+    padding:0;
+    list-style:none;
+}
+ 
+.line {
+    padding:5px 0;
+}
+ 
+.label {
+    font-weight:bold;
+}
+ 
+/*asks*/
+     
+.asks {
+    width:100%;
+    text-align:left;
+    font-family:helvetica;
+    font-size:16px;
+    color:#444444;
+    letter-spacing:-1px;
+    word-spacing:1px;
+    text-transform:lowercase;
+    font-weight:bold;
+}
+     
+.asks a {
+    color:#444444;
+    border:none;
+}
+ 
+.asks a:hover{
+    color:#c1c1c1;
+    border:none;
+}
+ 
+.reply {
+    padding:5px;
+}
+ 
+/*post infor + permalink*/
+ 
+#permalink {
+    opacity:0;
+    font-size:9px;
+    letter-spacing:1.2px;
+    text-align:left;
+    text-transform:none;
+    margin-bottom:20px;
+    -moz-transition:all ease-in-out 0.6s;
+    -ms-transition:all ease-in-out 0.6s;
+    -o-transition:all ease-in-out 0.6s;
+    transition:all ease-in-out 0.6s;  
+}
+ 
+ 
+#info {
+    font-size:9px;
+    letter-spacing:0px;
+    text-align:right;
+    word-spacing:1.5px;
+    text-transform:none;
+    color:#8f8f8f;
+    margin-bottom:80px;
+    margin-right:10px;
+    width:100%;
+    -moz-transition:all ease-in-out 0.6s;
+    -ms-transition:all ease-in-out 0.6s;
+    -o-transition:all ease-in-out 0.6s;
+    transition:all ease-in-out 0.6s;  
+}
+ 
+#posts:hover #permalink {
+    opacity:1;
+    -moz-transition:all ease-in-out 0.6s;
+    -ms-transition:all ease-in-out 0.6s;
+    -o-transition:all ease-in-out 0.6s;
+    transition:all ease-in-out 0.6s;  
+}
+ 
+ol.notes li {
+    padding-bottom:10px;
+    width:400px;
+}
+ 
+ol.notes li img, .x {
+    display:none;
+}
+ 
+/*credit*/
+ 
+#cred {
+    bottom:5px;
+    position:fixed;
+    right:10px;
+    float:right;
+    font-family:arial;
+    font-size:10px;
+    text-align:center;
+    font-weight:bold;
+    letter-spacing:0px;
+}
+ 
+#cred a {
+    color:#868686;
+}
+ 
+/*tooltip*/
+   
+    #s-m-t-tooltip{
+    max-width:300px;
+    margin:10px;
+    padding:3px 4px;
+    background:#fff;
+    color:#aaa;
+    z-index:999999;
+    font-size:10px;
+    text-transform:lowercase;
+}
+ 
+/*scrollbar*/
+ 
+::-webkit-scrollbar {width: 9px; height: 3px; background: #fff;}
+::-webkit-scrollbar-thumb {background-color:#444444;}
+ 
+ 
+    </style>
+   
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=craezycapulet" />
+<link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=craezycapulet" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=8b0553f75283ecbeb78be24f096f4c2c"></script>
+
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="serendipity" /><meta property="og:url" content="http://craezycapulet.tumblr.com/?og=1" /><meta property="og:description" content="There&#039;s only one chance as you walk on this dark path" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_f410e6f94ceb_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=craezycapulet" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=craezycapulet" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="app" /><meta name="twitter:description" content="craezycapulet" /><meta name="twitter:title" content="craezycapulet" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=craezycapulet&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=craezycapulet&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=craezycapulet&amp;referrer=twitter-cards" />
+
+<!-- GOOGLE CAROUSEL --><script type="application/ld+json">{"@type":"ItemList","url":"http:\/\/craezycapulet.tumblr.com","itemListElement":[{"@type":"ListItem","position":1,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139538189284\/mysilentmemory-x-x-x-x-x-x-x-x-x-x-x"},{"@type":"ListItem","position":2,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139538096334\/forthedisneylove-the-best-moment-in-tv-history"},{"@type":"ListItem","position":3,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139537082329\/tin4b3lch3r-i-grew-up-with-the-right-idiots"},{"@type":"ListItem","position":4,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139536655184\/sprousetwinsblog-social-experiment-20"},{"@type":"ListItem","position":5,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139536501069\/sprousetwinsblog-walkthrough-by-cole-sprouse"},{"@type":"ListItem","position":6,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139536499649"},{"@type":"ListItem","position":7,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139536188519"},{"@type":"ListItem","position":8,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139536176704\/onguk-x"},{"@type":"ListItem","position":9,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139536054964"},{"@type":"ListItem","position":10,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139535998109"},{"@type":"ListItem","position":11,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139535987724\/in-your-opinion-which-dwarf-would-each-got7"},{"@type":"ListItem","position":12,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139535943629\/intoasylum-when-someone-brings-up-your"},{"@type":"ListItem","position":13,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139535771619\/hellazelo-can-you-hear-me-screaming"},{"@type":"ListItem","position":14,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139535497264\/bap-ftw-proud-hyungs"},{"@type":"ListItem","position":15,"url":"http:\/\/craezycapulet.tumblr.com\/post\/139535491119\/ot9s-gorgeous-yoona-with-her-new-short-hair"}],"@context":"http:\/\/schema.org"}</script>
+<link rel="canonical" href="http://craezycapulet.tumblr.com" />
+
+</head>
+<body>
+ 
+ 
+<div id="sidebar">
+ 
+    <div id="blogt"><a href="/"></a></div>  
+ 
+    <div id="desc">There's only one chance as you walk on this dark path</div>
+ 
+        <div id="links">    
+     <a href="twitter.com/bangmegukk" title="">I</a>
+     <a href="facebook.com/RaeLovesYou407" title="">II</a>
+     <a href="instagram.com/g.rrae" title="">III</a>
+     <a href="" title="">IV</a>
+     <a href="" title="">V</a>
+    
+    
+    <a title="more" href="/page/2"> + </a>
+    
+    
+    
+ 
+    </div>
+ 
+</div>
+ 
+<div id="entries">
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+
+ 
+<!---video--->
+ 
+<div id="photoset_139538189284" class="html_photoset">    <iframe id="photoset_iframe_139538189284" class="photoset" scrolling="no" frameborder="0" height="5798" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://craezycapulet.tumblr.com/post/139538189284/photoset_iframe/craezycapulet/tumblr_o2ppf0OT5C1qfwvmm/500/false" name="photoset_iframe_139538189284"></iframe></div>
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+<div id="caption"><p><a class="tumblr_blog" href="http://mysilentmemory.tumblr.com/post/139505196290">mysilentmemory</a>:</p>
+<blockquote>
+<p><figure data-orig-width="960" data-orig-height="640" class="tmblr-full"><img src="http://41.media.tumblr.com/0222ec614e9e3a8ddd2d3c0d69212ce4/tumblr_inline_o2pt4flNwh1qef4em_500.jpg" alt="image" data-orig-width="960" data-orig-height="640" width="500" height="333"></figure><figure data-orig-width="600" data-orig-height="450" class="tmblr-full"><img src="http://41.media.tumblr.com/7d6578005936fb5b2a21ef954b395546/tumblr_inline_o2pt3nG26N1qef4em_500.jpg" alt="image" data-orig-width="600" data-orig-height="450" width="500" height="375"></figure><figure data-orig-width="600" data-orig-height="400" class="tmblr-full"><img src="http://36.media.tumblr.com/36520ecc8aba21f6a0078a546c3915c5/tumblr_inline_o2pt4qj3je1qef4em_500.jpg" alt="image" data-orig-width="600" data-orig-height="400" width="500" height="333"></figure><figure data-orig-width="640" data-orig-height="960" class="tmblr-full"><img src="http://40.media.tumblr.com/ca16e87cb60478591667a34f03c31be2/tumblr_inline_o2pt1pPkre1qef4em_500.jpg" alt="image" data-orig-width="640" data-orig-height="960" width="500" height="750"></figure><figure data-orig-width="600" data-orig-height="400" class="tmblr-full"><img src="http://36.media.tumblr.com/441cc746d7e2dfb3148572b236093f82/tumblr_inline_o2pt24gXJJ1qef4em_500.jpg" alt="image" data-orig-width="600" data-orig-height="400" width="500" height="333"></figure><figure data-orig-width="540" data-orig-height="810" class="tmblr-full"><img src="http://41.media.tumblr.com/7263e15600deb0554439831c666b4be3/tumblr_inline_o2pr1h03gy1qef4em_500.jpg" alt="image" data-orig-width="540" data-orig-height="810" width="500" height="750"></figure><figure data-orig-width="600" data-orig-height="400" class="tmblr-full"><img src="http://40.media.tumblr.com/ff15da18a34bd3e29b1a2517a4a43728/tumblr_inline_o2pt06u7Ju1qef4em_500.jpg" alt="image" data-orig-width="600" data-orig-height="400" width="500" height="333"></figure><figure data-orig-width="720" data-orig-height="960" class="tmblr-full"><img src="http://40.media.tumblr.com/1d9823cc0a1a1001fadccf996c9ef8dd/tumblr_inline_o2pt0tJDg31qef4em_500.jpg" alt="image" data-orig-width="720" data-orig-height="960" width="500" height="666"></figure><figure data-orig-width="960" data-orig-height="640" class="tmblr-full"><img src="http://36.media.tumblr.com/acf02cf2efdc4f87273473f4f05afd3c/tumblr_inline_o2pt5iuDjG1qef4em_500.jpg" alt="image" data-orig-width="960" data-orig-height="640" width="500" height="333"></figure><figure data-orig-width="960" data-orig-height="640" class="tmblr-full"><img src="http://40.media.tumblr.com/72711ad158aa0c64e3f2c86cc85102dd/tumblr_inline_o2pt63bSxn1qef4em_500.jpg" alt="image" data-orig-width="960" data-orig-height="640" width="500" height="333"></figure></p>
+<p><a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fvyrlbeta.s3-ap-northeast-1.amazonaws.com%2Fvyrl%2Fimages%2Fpost%2F_temp%2Fab9fde7320214538c37ba255a7d6afa3.jpg&amp;t=MGZjN2Y5NGViODgwMTg4ODhmYWJlOTVjOWNlMDA5NDE5Nzc4MGQzZCwwOHFUdGg4NQ%3D%3D">x</a>&nbsp;<a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fvyrlbeta.s3-ap-northeast-1.amazonaws.com%2Fvyrl%2Fimages%2Fpost%2F_temp%2F803e99a1e6a0f7107ea300dac0a3608c.jpg&amp;t=MTBlNGE5ZTdkMTI1YmI2MDRkNDMyN2JlNzZiZTNlZTYzNjI4ODY0MiwwOHFUdGg4NQ%3D%3D">x</a>&nbsp;<a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fvyrlbeta.s3-ap-northeast-1.amazonaws.com%2Fvyrl%2Fimages%2Fpost%2F_temp%2Fc04025cfa49d5e96ef46eb8a28855bc3.jpg&amp;t=N2Q2MjI4YzcwOWY3NmY0NWE5MjdkOTU1ZWY5ODZmMTNjMTM1YTRhYSwwOHFUdGg4NQ%3D%3D">x</a>&nbsp;<a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fvyrlbeta.s3-ap-northeast-1.amazonaws.com%2Fvyrl%2Fimages%2Fpost%2F_temp%2F62d7d28f48f11cd80d6179770a60739e.jpg&amp;t=NTdkN2FmODBkZjQzNWExMGFiY2ZmMTI5Yzg0NjM4OTUwZjRmYjI5NiwwOHFUdGg4NQ%3D%3D">x</a>&nbsp;<a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fvyrlbeta.s3-ap-northeast-1.amazonaws.com%2Fvyrl%2Fimages%2Fpost%2F_temp%2F24d5b16b8ee04a83c7f16e59e3ae2c62.jpg&amp;t=ZjhmMWYxYTA1ZmI0MDk5YWU5NmNjMTliYWJjNTcyYWJiNTc2NDczNCwwOHFUdGg4NQ%3D%3D">x</a>&nbsp;<a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fvyrlbeta.s3-ap-northeast-1.amazonaws.com%2Fvyrl%2Fimages%2Fpost%2F_temp%2Ff9274086ada43c3faaf8bd03ba6d341c.jpg&amp;t=NTIzYWY0ZGEzZjU0MDk0YjhkMjEwMDRmNTdhOGZmYTVhMGQ0N2RkMiwwOHFUdGg4NQ%3D%3D">x</a>&nbsp;<a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fvyrlbeta.s3-ap-northeast-1.amazonaws.com%2Fvyrl%2Fimages%2Fpost%2F_temp%2F3b100c7a5c47d0603ad5f545d4b7399c.jpg&amp;t=MGJjZGI0MjhjZGE2MGNkOGQyMjgzZGE3YzBjM2UzOWY2MDRkNzA3NSwwOHFUdGg4NQ%3D%3D">x</a>&nbsp;<a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fvyrlbeta.s3-ap-northeast-1.amazonaws.com%2Fvyrl%2Fimages%2Fpost%2F_temp%2F05e927537519119494d694e87983eb2e.jpg&amp;t=MTAzYWM1ZGM2OWU1ZTJlYTUxYTg2NmU5MDBlNWFlM2JhNjkwZmQyNywwOHFUdGg4NQ%3D%3D">x</a>&nbsp;<a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fvyrlbeta.s3-ap-northeast-1.amazonaws.com%2Fvyrl%2Fimages%2Fpost%2F_temp%2Fbc018d8cef96f59969e3282432d62870.jpg&amp;t=NWFmZWI5NmVkMDAwODU0Nzk0NGY4MTA1NGZkZjA2Y2QzNjc1YmQ2NCwwOHFUdGg4NQ%3D%3D">x</a>&nbsp;<a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fvyrlbeta.s3-ap-northeast-1.amazonaws.com%2Fvyrl%2Fimages%2Fpost%2F_temp%2F5f575500326279dd0a4c411191209aa8.jpg&amp;t=ODdmYWZlZDUyY2I1N2Q2OTY1OTMwZWM0ODUzMTQzYzkxYjUxMDVlYSwwOHFUdGg4NQ%3D%3D">x</a>&nbsp;<a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fvyrlbeta.s3-ap-northeast-1.amazonaws.com%2Fvyrl%2Fimages%2Fpost%2F_temp%2Feb07ca5edcb16db85f23034e225a6be3.jpg&amp;t=ZjQ5ZWQ4OGNlMDQ5NjQ2NGFhOTlkM2IxNmFiYzZkYWJhYjNiNGEyZCwwOHFUdGg4NQ%3D%3D">x</a></p>
+<p>[full]SUPER JUNIOR + SUPER JUNIOR-M 2016 CALENDAR &#50728;&#46972;&#51064; &#44396;&#47588;</p>
+</blockquote></div>
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139538189284/mysilentmemory-x-x-x-x-x-x-x-x-x-x-x">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139538189284/mysilentmemory-x-x-x-x-x-x-x-x-x-x-x">193</a>
+<a href="http://mysilentmemory.tumblr.com/post/139538057580">via</a>
+
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+
+ 
+<!---video--->
+ 
+<div id="photoset_139538096334" class="html_photoset">    <iframe id="photoset_iframe_139538096334" class="photoset" scrolling="no" frameborder="0" height="378" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://craezycapulet.tumblr.com/post/139538096334/photoset_iframe/craezycapulet/tumblr_mbe46mj71S1r3tlbt/500/false" name="photoset_iframe_139538096334"></iframe></div>
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+<div id="caption"><p><a class="tumblr_blog" href="http://forthedisneylove.tumblr.com/post/32898143989">forthedisneylove</a>:</p>
+<blockquote>
+<p><i>The best moment in tv history</i></p>
+</blockquote></div>
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139538096334/forthedisneylove-the-best-moment-in-tv-history">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139538096334/forthedisneylove-the-best-moment-in-tv-history">1183962</a>
+<a href="http://dylanandcole-sprouse.tumblr.com/post/111210985462">via</a>
+<a href="http://forthedisneylove.tumblr.com">source</a>
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+
+ 
+<!---video--->
+ 
+<div id="photoset_139537082329" class="html_photoset">    <iframe id="photoset_iframe_139537082329" class="photoset" scrolling="no" frameborder="0" height="1858" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://craezycapulet.tumblr.com/post/139537082329/photoset_iframe/craezycapulet/tumblr_notvzvhMgM1uoeths/500/false" name="photoset_iframe_139537082329"></iframe></div>
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+<div id="caption"><p><a class="tumblr_blog" href="http://tin4b3lch3r.tumblr.com/post/119721621404">tin4b3lch3r</a>:</p>
+<blockquote>
+<p>I grew up with the right idiots.</p>
+</blockquote></div>
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139537082329/tin4b3lch3r-i-grew-up-with-the-right-idiots">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139537082329/tin4b3lch3r-i-grew-up-with-the-right-idiots">98721</a>
+<a href="http://tin4b3lch3r.tumblr.com/post/119721621404/i-grew-up-with-the-right-idiots">via</a>
+
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+<center><img src="http://36.media.tumblr.com/45523651e6d0d1e7fb56f47f5649edd3/tumblr_n99dkdUtJu1rl7jbmo1_500.png" width="500px">
+</center>
+ 
+<!---video--->
+ 
+
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+<div id="caption"><p><a class="tumblr_blog" href="http://sprousetwinsblog.tumblr.com/post/92812369100">sprousetwinsblog</a>:</p>
+<blockquote>
+<p>Social Experiment 2.0</p>
+</blockquote></div>
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139536655184/sprousetwinsblog-social-experiment-20">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139536655184/sprousetwinsblog-social-experiment-20">379479</a>
+<a href="http://sprousetwinsblog.tumblr.com/post/92812369100/social-experiment-20">via</a>
+
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+
+ 
+<!---video--->
+ 
+<div id="photoset_139536501069" class="html_photoset">    <iframe id="photoset_iframe_139536501069" class="photoset" scrolling="no" frameborder="0" height="782" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://craezycapulet.tumblr.com/post/139536501069/photoset_iframe/craezycapulet/tumblr_nfyk91N3Ez1rl7jbm/500/false" name="photoset_iframe_139536501069"></iframe></div>
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+<div id="caption"><p><a class="tumblr_blog" href="http://sprousetwinsblog.tumblr.com/post/104158242380">sprousetwinsblog</a>:</p>
+<blockquote>
+<p>Walkthrough by Cole Sprouse</p>
+</blockquote></div>
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139536501069/sprousetwinsblog-walkthrough-by-cole-sprouse">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139536501069/sprousetwinsblog-walkthrough-by-cole-sprouse">596703</a>
+<a href="http://sprousetwinsblog.tumblr.com/post/104158242380/walkthrough-by-cole-sprouse">via</a>
+
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+
+ 
+<!---video--->
+ 
+<div id="photoset_139536499649" class="html_photoset">    <iframe id="photoset_iframe_139536499649" class="photoset" scrolling="no" frameborder="0" height="516" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://craezycapulet.tumblr.com/post/139536499649/photoset_iframe/craezycapulet/tumblr_ngdn8y6c6D1rl7jbm/500/false" name="photoset_iframe_139536499649"></iframe></div>
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139536499649">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139536499649">199556</a>
+<a href="http://sprousetwinsblog.tumblr.com/post/104852607970">via</a>
+
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+<center><img src="http://41.media.tumblr.com/a01dcd95dc27d42626f58b9def398065/tumblr_o2q3nvR8Ma1rnkj5ho1_500.jpg" width="500px">
+</center>
+ 
+<!---video--->
+ 
+
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139536188519">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139536188519">1169</a>
+<a href="http://proudelfbana.tumblr.com/post/139528254973">via</a>
+<a href="http://itsbap.tumblr.com/post/139519929304">source</a>
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+<center><img src="http://49.media.tumblr.com/746adc6250204934560eecc1c871c5e5/tumblr_o21n6jz4tD1r6lokto1_500.gif" width="500px">
+</center>
+ 
+<!---video--->
+ 
+
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+<div id="caption"><p><a class="tumblr_blog" href="http://onguk.tumblr.com/post/138690407666">onguk</a>:</p>
+<blockquote>
+<p><i><a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DjECLXOxhECY&amp;t=Nzg4NzI1Nzg3ZmMyMDUzM2RjMjQzMDFkODk3NDE1OGQzYzdiY2IxZSxqZWVXMzUwNg%3D%3D">x</a></i></p>
+</blockquote></div>
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139536176704/onguk-x">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139536176704/onguk-x">417</a>
+<a href="http://bapquality.tumblr.com/post/139528396588">via</a>
+<a href="http://onguk.tumblr.com/post/138690407666/x">source</a>
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+<center><img src="http://40.media.tumblr.com/21d742da0807d9b97c060a58bcea3814/tumblr_o2p5e5kj0B1rnkj5ho1_500.jpg" width="500px">
+</center>
+ 
+<!---video--->
+ 
+
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139536054964">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139536054964">518</a>
+<a href="http://bapquality.tumblr.com/post/139529127080">via</a>
+<a href="http://itsbap.tumblr.com/post/139485467509">source</a>
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+<center><img src="http://36.media.tumblr.com/4196be4c5ef4e174fd065ba500a5eed4/tumblr_n7w764rsBi1r1z303o1_500.jpg" width="500px">
+</center>
+ 
+<!---video--->
+ 
+
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139535998109">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139535998109">18283</a>
+<a href="http://peachyemo.tumblr.com/post/139529535361">via</a>
+<a href="http://n-i-c-o-t-i-n-e.tumblr.com/">source</a>
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+
+ 
+<!---video--->
+ 
+
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+<div class="asks">Anonymous said: in your opinion, which dwarf would each got7 member be? </div>
+<div class="reply">
+<p><a class="tumblr_blog" href="http://markbutton.tumblr.com/post/139520197782/in-your-opinion-which-dwarf-would-each-got7">markbutton</a>:</p>
+
+<blockquote><figure data-orig-width="500" data-orig-height="200" class="tmblr-full"><img src="http://41.media.tumblr.com/8b3c7ba0d7489beb16153c3e03e14e47/tumblr_inline_o2q3paWbGJ1t09t08_500.png" alt="image" data-orig-width="500" data-orig-height="200" width="500" height="200"></figure><figure data-orig-width="500" data-orig-height="200" class="tmblr-full"><img src="http://40.media.tumblr.com/7f95fa3899069cf15c77f1673ec11376/tumblr_inline_o2q3pb4yON1t09t08_500.png" alt="image" data-orig-width="500" data-orig-height="200" width="500" height="200"></figure><figure data-orig-width="500" data-orig-height="200" class="tmblr-full"><img src="http://40.media.tumblr.com/c157025de49bbb72393366b307371a8e/tumblr_inline_o2q3p8c0QE1t09t08_500.png" alt="image" data-orig-width="500" data-orig-height="200" width="500" height="200"></figure><figure data-orig-width="500" data-orig-height="200" class="tmblr-full"><img src="http://41.media.tumblr.com/7c2456fe5635efe649e332bc7ce3645c/tumblr_inline_o2q456t1431t09t08_500.png" alt="image" data-orig-width="500" data-orig-height="200" width="500" height="200"></figure><figure class="tmblr-full" data-orig-height="200" data-orig-width="500"><img src="http://41.media.tumblr.com/175b11de6b8947c681a144145500cf1a/tumblr_inline_o2q4apnnfl1t09t08_500.png" data-orig-height="200" data-orig-width="500" width="500" height="200"></figure><figure data-orig-width="500" data-orig-height="200" class="tmblr-full"><img src="http://36.media.tumblr.com/36d4736ab97e7044f55635e813b79402/tumblr_inline_o2q3pcuWLn1t09t08_500.png" alt="image" data-orig-width="500" data-orig-height="200" width="500" height="200"></figure><figure data-orig-width="500" data-orig-height="200" class="tmblr-full"><img src="http://40.media.tumblr.com/b3b75b4eb5aa0e637e479ec2937af1a7/tumblr_inline_o2q3pbCL2B1t09t08_500.png" alt="image" data-orig-width="500" data-orig-height="200" width="500" height="200"></figure><figure data-orig-width="500" data-orig-height="200" class="tmblr-full"><img src="http://41.media.tumblr.com/5a67a579cb9b3da717d99f92583f9e49/tumblr_inline_o2q3p8tzrP1t09t08_500.png" alt="image" data-orig-width="500" data-orig-height="200" width="500" height="200"></figure></blockquote><p></p>
+</div>
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139535987724/in-your-opinion-which-dwarf-would-each-got7">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139535987724/in-your-opinion-which-dwarf-would-each-got7">1109</a>
+<a href="http://markbutton.tumblr.com/post/139520197782/in-your-opinion-which-dwarf-would-each-got7">via</a>
+
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+<p><a class="tumblr_blog" href="http://intoasylum.tumblr.com/post/135728328985">intoasylum</a>:</p>
+<blockquote>
+<p>when someone brings up your celebrity crush in a casual conversation and you have to play it cool</p>
+<figure class="tmblr-full"><img src="http://31.media.tumblr.com/125f9075b375d18552feb56db2e12eac/tumblr_inline_nzsv1fw9ll1qf213u_500.gif" class=""></figure></blockquote>
+ 
+<!---photosets--->
+ 
+
+ 
+<!---video--->
+ 
+
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139535943629/intoasylum-when-someone-brings-up-your">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139535943629/intoasylum-when-someone-brings-up-your">107049</a>
+<a href="http://mukenope.tumblr.com/post/139529861041/intoasylum-when-someone-brings-up-your">via</a>
+<a href="http://intoasylum.tumblr.com/post/135728328985/when-someone-brings-up-your-celebrity-crush-in-a">source</a>
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+
+ 
+<!---video--->
+ 
+<iframe class="vine-embed" src="https://vine.co/v/ivw1d7Y20r2/embed/simple" width="500" height="500" frameborder="0"></iframe><script async src="//platform.vine.co/static/scripts/embed.js"></script>
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+<div id="caption"><p><a class="tumblr_blog" href="http://hellazelo.tumblr.com/post/139518694414">hellazelo</a>:</p>
+<blockquote>
+<p>CAN YOU HEAR ME SCREAMING<br></p>
+</blockquote></div>
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139535771619/hellazelo-can-you-hear-me-screaming">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139535771619/hellazelo-can-you-hear-me-screaming">1043</a>
+<a href="http://hellazelo.tumblr.com/post/139518694414/can-you-hear-me-screaming">via</a>
+
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+
+ 
+<!---video--->
+ 
+<div id="photoset_139535497264" class="html_photoset">    <iframe id="photoset_iframe_139535497264" class="photoset" scrolling="no" frameborder="0" height="468" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://craezycapulet.tumblr.com/post/139535497264/photoset_iframe/craezycapulet/tumblr_o2p77mOfz11s71y28/500/false" name="photoset_iframe_139535497264"></iframe></div>
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+<div id="caption"><p><a class="tumblr_blog" href="http://bap-ftw.tumblr.com/post/139487515699">bap-ftw</a>:</p>
+<blockquote>
+<blockquote><p><small>Proud hyungs&nbsp;&hearts;</small></p></blockquote>
+</blockquote></div>
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139535497264/bap-ftw-proud-hyungs">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139535497264/bap-ftw-proud-hyungs">1305</a>
+<a href="http://matoki-project.tumblr.com/post/139530533749/bap-ftw-proud-hyungs">via</a>
+<a href="http://bap-ftw.tumblr.com/post/139487515699/proud-hyungs">source</a>
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+<div id="posts">
+ 
+<!---textposts--->
+ 
+
+ 
+<!---photosets--->
+ 
+
+ 
+<!---video--->
+ 
+<div id="photoset_139535491119" class="html_photoset">    <iframe id="photoset_iframe_139535491119" class="photoset" scrolling="no" frameborder="0" height="869" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://craezycapulet.tumblr.com/post/139535491119/photoset_iframe/craezycapulet/tumblr_o2pyf1pMQh1rgr04o/500/false" name="photoset_iframe_139535491119"></iframe></div>
+ 
+<!---audio--->
+ 
+
+ 
+<!---quotes--->
+ 
+
+ 
+<!---links--->
+ 
+
+ 
+<!---asks--->
+ 
+
+ 
+<!---chat--->
+ 
+
+ 
+<!---caption--->
+ 
+<div id="caption"><p><a class="tumblr_blog" href="http://ot9s.tumblr.com/post/139514443680">ot9s</a>:</p>
+<blockquote>
+<blockquote><p><small>gorgeous yoona with her new short hair &hearts;
+
+</small></p></blockquote>
+</blockquote></div>
+ 
+ 
+<!---info--->
+ 
+<div id="permalink">
+<div id="info">
+<br><a href="http://craezycapulet.tumblr.com/post/139535491119/ot9s-gorgeous-yoona-with-her-new-short-hair">18.02.16        </a>
+ +<a href="http://craezycapulet.tumblr.com/post/139535491119/ot9s-gorgeous-yoona-with-her-new-short-hair">836</a>
+<a href="http://taeyeon.info/post/139530841192/ot9s-gorgeous-yoona-with-her-new-short-hair">via</a>
+<a href="http://ot9s.tumblr.com">source</a>
+<br><br>
+</div>
+
+</div>
+ 
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+ 
+<div id="cred"><a href="http://sentimentalthemes.tumblr.com/">CREDIT</a></div>
+ 
+   
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?f63f62d9d04a996a8fcb505da4e74841#" +
+                              "http://craezycapulet.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/';
+                    var tumblelog_id = '9133644';
+                    var yahoo_space_id = '1197719229';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455827654&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvY3JhZXp5Y2FwdWxldC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=DOKGFDLOPF&K=9f19528d34c81d84f827e0f6229a016022389149b762f6260912decfd8101441&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455827654&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvY3JhZXp5Y2FwdWxldC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=DOKGFDLOPF&K=b630f0bdb78499b1ef7d4a0ff8b33c8ebddf48d58e63bf8d44a18d5ad5e380a1&R="></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455827654&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2NyYWV6eWNhcHVsZXQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjEwNzgyOTU5Iiwicm9vdF9wb3N0aWQiOiIxMzk1MDUxOTYyOTAiLCJwb3N0aWQiOiIxMzk1MzgxODkyODQiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI5MTM5MDg4Iiwicm9vdF9wb3N0aWQiOjMyODk4MTQzOTg5LCJwb3N0aWQiOiIxMzk1MzgwOTYzMzQiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIyNDQ2NDY0NyIsInJvb3RfcG9zdGlkIjoiMTE5NzIxNjIxNDA0IiwicG9zdGlkIjoiMTM5NTM3MDgyMzI5IiwiYmxvZ2lkIjoiOTEzMzY0NCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4MDc4NDcwNyIsInJvb3RfcG9zdGlkIjoiOTI4MTIzNjkxMDAiLCJwb3N0aWQiOiIxMzk1MzY2NTUxODQiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgwNzg0NzA3Iiwicm9vdF9wb3N0aWQiOiIxMDQxNTgyNDIzODAiLCJwb3N0aWQiOiIxMzk1MzY1MDEwNjkiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgwNzg0NzA3Iiwicm9vdF9wb3N0aWQiOiIxMDQ4NTI2MDc5NzAiLCJwb3N0aWQiOiIxMzk1MzY0OTk2NDkiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQxNjg2MjkwIiwicm9vdF9wb3N0aWQiOiIxMzk1MTk5MjkzMDQiLCJwb3N0aWQiOiIxMzk1MzYxODg1MTkiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM31dfQ==&U=BJCPGCIAHD&K=5530376538846e537cd6ad5f6547e2ab162414ee3a1cd711e4b146940fdb5c7d&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455827654&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2NyYWV6eWNhcHVsZXQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjEwNzgyOTU5Iiwicm9vdF9wb3N0aWQiOiIxMzk1MDUxOTYyOTAiLCJwb3N0aWQiOiIxMzk1MzgxODkyODQiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI5MTM5MDg4Iiwicm9vdF9wb3N0aWQiOjMyODk4MTQzOTg5LCJwb3N0aWQiOiIxMzk1MzgwOTYzMzQiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIyNDQ2NDY0NyIsInJvb3RfcG9zdGlkIjoiMTE5NzIxNjIxNDA0IiwicG9zdGlkIjoiMTM5NTM3MDgyMzI5IiwiYmxvZ2lkIjoiOTEzMzY0NCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4MDc4NDcwNyIsInJvb3RfcG9zdGlkIjoiOTI4MTIzNjkxMDAiLCJwb3N0aWQiOiIxMzk1MzY2NTUxODQiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgwNzg0NzA3Iiwicm9vdF9wb3N0aWQiOiIxMDQxNTgyNDIzODAiLCJwb3N0aWQiOiIxMzk1MzY1MDEwNjkiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgwNzg0NzA3Iiwicm9vdF9wb3N0aWQiOiIxMDQ4NTI2MDc5NzAiLCJwb3N0aWQiOiIxMzk1MzY0OTk2NDkiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQxNjg2MjkwIiwicm9vdF9wb3N0aWQiOiIxMzk1MTk5MjkzMDQiLCJwb3N0aWQiOiIxMzk1MzYxODg1MTkiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=BJCPGCIAHD&K=09d8e2663d038af409b3c1a2d0fbf932603cdde5ccb154b761befa1068414fd3&R="></noscript><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455827654&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2NyYWV6eWNhcHVsZXQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjM0OTg4MjYwIiwicm9vdF9wb3N0aWQiOiIxMzg2OTA0MDc2NjYiLCJwb3N0aWQiOiIxMzk1MzYxNzY3MDQiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQxNjg2MjkwIiwicm9vdF9wb3N0aWQiOiIxMzk0ODU0Njc1MDkiLCJwb3N0aWQiOiIxMzk1MzYwNTQ5NjQiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI2MDE4NzM5Iiwicm9vdF9wb3N0aWQiOiI5MDE3NjYyMDEzOCIsInBvc3RpZCI6IjEzOTUzNTk5ODEwOSIsImJsb2dpZCI6IjkxMzM2NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjU0NDY0ODcxIiwicm9vdF9wb3N0aWQiOiIxMzk1MjAxOTc3ODIiLCJwb3N0aWQiOiIxMzk1MzU5ODc3MjQiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExNTIxMDQiLCJyb290X3Bvc3RpZCI6IjEzNTcyODMyODk4NSIsInBvc3RpZCI6IjEzOTUzNTk0MzYyOSIsImJsb2dpZCI6IjkxMzM2NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjE2Mjc5ODk5Iiwicm9vdF9wb3N0aWQiOiIxMzk1MTg2OTQ0MTQiLCJwb3N0aWQiOiIxMzk1MzU3NzE2MTkiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk1NjA2MjQwIiwicm9vdF9wb3N0aWQiOjEzOTQ4NzUxNTY5OSwicG9zdGlkIjoiMTM5NTM1NDk3MjY0IiwiYmxvZ2lkIjoiOTEzMzY0NCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3MjY3MTAwMyIsInJvb3RfcG9zdGlkIjoiMTM5NTE0NDQzNjgwIiwicG9zdGlkIjoiMTM5NTM1NDkxMTE5IiwiYmxvZ2lkIjoiOTEzMzY0NCIsInNvdXJjZSI6MzN9XX0=&U=EHEDLKEENK&K=1ef393845ee2ec57ab2f8370893464005d8dd4fc37711dd0db45dcbfe90240ee&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455827654&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2NyYWV6eWNhcHVsZXQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjM0OTg4MjYwIiwicm9vdF9wb3N0aWQiOiIxMzg2OTA0MDc2NjYiLCJwb3N0aWQiOiIxMzk1MzYxNzY3MDQiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQxNjg2MjkwIiwicm9vdF9wb3N0aWQiOiIxMzk0ODU0Njc1MDkiLCJwb3N0aWQiOiIxMzk1MzYwNTQ5NjQiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI2MDE4NzM5Iiwicm9vdF9wb3N0aWQiOiI5MDE3NjYyMDEzOCIsInBvc3RpZCI6IjEzOTUzNTk5ODEwOSIsImJsb2dpZCI6IjkxMzM2NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjU0NDY0ODcxIiwicm9vdF9wb3N0aWQiOiIxMzk1MjAxOTc3ODIiLCJwb3N0aWQiOiIxMzk1MzU5ODc3MjQiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExNTIxMDQiLCJyb290X3Bvc3RpZCI6IjEzNTcyODMyODk4NSIsInBvc3RpZCI6IjEzOTUzNTk0MzYyOSIsImJsb2dpZCI6IjkxMzM2NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjE2Mjc5ODk5Iiwicm9vdF9wb3N0aWQiOiIxMzk1MTg2OTQ0MTQiLCJwb3N0aWQiOiIxMzk1MzU3NzE2MTkiLCJibG9naWQiOiI5MTMzNjQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk1NjA2MjQwIiwicm9vdF9wb3N0aWQiOjEzOTQ4NzUxNTY5OSwicG9zdGlkIjoiMTM5NTM1NDk3MjY0IiwiYmxvZ2lkIjoiOTEzMzY0NCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3MjY3MTAwMyIsInJvb3RfcG9zdGlkIjoiMTM5NTE0NDQzNjgwIiwicG9zdGlkIjoiMTM5NTM1NDkxMTE5IiwiYmxvZ2lkIjoiOTEzMzY0NCIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=EHEDLKEENK&K=f034a0aba67fac08f51db886632e5835025ee739c0949bba9d1a516dad5f0693&R="></noscript>
+<noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;TumblelogIframe&quot;:{&quot;tumblelogBundleSrc&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.js?_v=c9101434ce49257cacfb5fcf03aa4a17&quot;,&quot;tumblelogName&quot;:&quot;craezycapulet&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;tumblelogTitle&quot;:&quot;serendipity&quot;,&quot;tumblelogAvatar&quot;:&quot;http:\/\/38.media.tumblr.com\/avatar_f410e6f94ceb_40.png&quot;,&quot;tumblelogHost&quot;:&quot;http:\/\/craezycapulet.tumblr.com&quot;,&quot;brag&quot;:true,&quot;currentPage&quot;:&quot;1&quot;,&quot;postId&quot;:&quot;&quot;,&quot;src&quot;:&quot;http:\/\/craezycapulet.tumblr.com\/&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;http:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=282357db21d8a5883cc1c780ace4cb5f&quot;,&quot;appInstallUrl&quot;:&quot;https:\/\/go.onelink.me\/893408789?pid=tumblr_blog_network\u0026c=tumblr_blog_network\u0026af_sub3=blog_name&quot;}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aV9wYXJzZV90ZXN0Ijp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJkZXByZWNhdGVfZmVhdHVyZWRfdGFncyI6dHJ1ZSwicmVibG9nX3VpX3JlZnJlc2giOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJkYXNoYm9hcmRfcmVmcmVzaCI6dHJ1ZSwibW9iaWxlX3dlYl9waG90b3NldHMiOnRydWUsIm1vYmlsZV93ZWJfZ2F0ZSI6dHJ1ZSwibW9iaWxlX3dlYl9wYWdlX3RpdGxlcyI6dHJ1ZSwibW9iaWxlX3dlYl9zZWFyY2giOnRydWUsIm1vYmlsZV93ZWJfc2VhcmNoX2ZpbHRlciI6dHJ1ZSwibW9iaWxlX3dlYl9hYnVzZV9mb3JtIjp0cnVlLCJkb250X2Nhc3RfanNfZm9sbG93cyI6dHJ1ZSwiYWRzX25ld192ZW5kb3JfYnV0dG9ucyI6dHJ1ZSwiYmxvY2tfZmVhdHVyZSI6dHJ1ZSwicmVhY3RpdmF0aW9uX2Zsb3ciOnRydWUsImd1bHBqc19hZG1pbiI6dHJ1ZSwiZW5hYmxlX2pzX2Vycm9yc19sb2ciOnRydWUsImVuYWJsZV9qc19lcGhlbWVyYWxfbG9nIjp0cnVlLCJqc19lcnJvcnNfYiI6dHJ1ZSwibG9nX2xhZHkiOnRydWUsImNzbG9nZ2VyX2pzIjp0cnVlLCJkaXNjb3ZlcnlfaHViX2FjY2VzcyI6dHJ1ZSwiaGVhZGVyX2FjY291bnRfbWVudSI6dHJ1ZSwiZW5hYmxlX3ByaW1hX3NoYXJlX3BvcG92ZXIiOnRydWUsImVuYWJsZV9zaGFyZV9lbWJlZF9jb2RlIjp0cnVlLCJwaW50ZXJlc3Rfc2hhcmluZyI6dHJ1ZSwicmVkZGl0X3NoYXJpbmciOnRydWUsInBvc3RfaXRfZm9yd2FyZCI6dHJ1ZSwicGVlcHJfc2VhcmNoX2FuZF9maWx0ZXIiOnRydWUsImludGVybnNfcGFnZSI6dHJ1ZSwiZm9sbG93ZWRfc2VhcmNoZXNfYmlnX3dlYiI6dHJ1ZSwiZGlzYWJsZV9wdWJsaWNfcmVwbGllcyI6dHJ1ZSwiZGlzYWJsZV95YWhvb19iX2Nvb2tpZSI6dHJ1ZSwicHJpbWFfdHVtYmxlbG9nX2J1bmRsZSI6dHJ1ZX0=&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1455827654000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;http:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/secure.assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;http:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;http:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;http:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;},&quot;Translations&quot;:[]}"></noscript>
+<script src="http://assets.tumblr.com/client/prod/standalone/tumblelog/index.js?_v=c9101434ce49257cacfb5fcf03aa4a17"></script>
+
+</body>
+</html>

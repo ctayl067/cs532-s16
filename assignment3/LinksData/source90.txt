@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>Abin controls automation &amp; machines</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_showHideLayers() { //v3.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#C0C0C0" text="#CCFFFF" link="#66FFFF" vlink="#00CCCC" alink="#009999" topmargin="15" background="abin/images/fgballs.gif">
+ 
+
+  <div id="backgroundmessage" style="position: absolute; left: 283; top: 245; width: 244; height: 194; z-index: 3; visibility: show">
+    <a href"../abin/index.htm" onMouseOver="MM_showHideLayers('backgroundmessage','','show')" onMouseOut="MM_showHideLayers('backgroundmessage','','show')"></div> 
+  <div id="sales7x" style="position: absolute; left: 260; top: 186; width: 364; height: 190; z-index: 11; visibility: show">
+    <p align="center"><font face="Eras Bold ITC" color="#333333" size="5">Controls
+    fabrication and automation.</font></p>
+    <p align="center"><font face="Eras Bold ITC" color="#333333" size="5">Programming
+    for PLC's and microcontrollers. 
+    Program streamlining.</font></p>
+    <p align="center"></a><a onmouseover="MM_showHideLayers('sales7','','hide')" onmouseout="MM_showHideLayers('sales7','','show')" index.htm? abin href?..><font face="Eras Bold ITC" color="#333333" size="5">Safe
+    reliable and on time.</font></p>
+    </a>&nbsp;
+</div>
+  <div id="sales7xb" style="position: absolute; left: -102; top: 431; width: 311; height: 72; z-index: 25; visibility: hidden"><span style="position: absolute; left: 329; top: -266; z-index: -1"><img src="http://www.abin.com/images/kinneypumpsupplies&equip.gif" alt="kinneyktc112-4-7x" width="409" height="276"></span></div>
+  <div id="controls3a" style="position: absolute; width: 160; height: 38; z-index: 21; left: 45; top: 250"> 
+    <p><a href="abin/electric_controls.htm"><font face="Eras Bold ITC" color="#000000"><b>Control
+    panels</b></font></a></p></div>
+  <div id="programming5a" style="position: absolute; width: 93; height: 24; z-index: 22; left: 38; top: 596">
+    <p><a href="abin/programming.htm"><font face="Eras Bold ITC" color="#000000"><b>Programming</b></font></a></div>
+  <div align="center">
+    <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#003366">&nbsp;
+    <font size="7"> <span style="letter-spacing: 0pt"><font face="Impact">ABIN</font></span>&nbsp;&nbsp;<font face="Impact"><span style="letter-spacing: 0pt">INC</span></font> </font> <font size="4" face="Eras Bold ITC"> 143 N Fountain St Allentown, Pa</font></font><font color="#000000" face="Eras Bold ITC">&nbsp;</font> 
+  </div>
+    <div align="center">
+    <p align="left"><font color="#000000" face="Eras Bold ITC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </font> 
+  </div>
+        <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="Eras Bold ITC" color="#000000">
+    &nbsp;
+    </font>
+  </div>
+    <div align="center">
+    <p align="left"><font face="Eras Bold ITC" color="#000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </font>
+  </div>
+    <div align="center">
+    <p align="left">&nbsp; 
+  </div>
+    <div id="sales7" style="position: absolute; width: 155; height: 126; z-index: 26; left: 40; top: 443"><a href="sales/equipment.htm" onMouseOver="MM_showHideLayers('sales7xb','','show','sales7x','','hide')" onMouseOut="MM_showHideLayers('sales7xb','','hide','sales7x','','show')" onMouseUp="MM_goToURL('parent','sales.htm');return document.MM_returnValue"><img src="http://www.abin.com/images/gould100mhz.gif" border="0" alt="sales7" width="144" height="84"></a>
+      <a href="sales/equipment.htm"><b><font face="Eras Bold ITC" color="#000000">Industrial Surplus Equipment Sales</font></b></a></div> 
+  <div id="controls3x" style="position: absolute; left: 244; top: 129; width: 403; height: 397; z-index: 20; visibility: hidden"><img src="http://www.abin.com/images/dualheadcontrolpanel.jpg" width="389" height="384" alt="dual head panel"></div>  
+  <div id="machines4" style="position: absolute; width: 155; height: 119; z-index: 14; left: 44; top: 283"><a href="abin/machine_building.htm" onMouseOver="MM_showHideLayers('machines4x','','show')" onMouseOut="MM_showHideLayers('machines4x','','hide')"><img src="http://www.abin.com/images/dualheadmachine1small.JPG" border="0" alt="machines4" width="144" height="108"></a></div>
+  <div id="programming5" style="position: absolute; width: 93; height: 36; z-index: 15; left: 38; top: 637">&nbsp;</div>
+  <div id="controls3" style="position: absolute; width: 151; height: 155; z-index: 9; left: 46; top: 96"><a href="abin/electric_controls.htm" onMouseOver="MM_showHideLayers('controls3x','','show')" onMouseOut="MM_showHideLayers('controls3x','','hide')"><font color="#000000"><img src="http://www.abin.com/images/moen_relay_panel_small.jpg" width="141" height="146" border="0" alt="controls3"></font></a></div>
+  <div id="machines4x" style="position: absolute; width: 390; height: 294; z-index: 16; left: 257; top: 179; visibility: hidden"><font color="#000000"><img src="http://www.abin.com/images/dualheadmachine1.JPG" width="376" height="278" alt="dualheadmachine">&nbsp;&nbsp;</font></div>
+  <div id="contacts8x" style="position: absolute; width: 177; height: 35; z-index: 12; left: 319; top: 572; visibility: show"><font color="#000000" size="3">&nbsp;<font face="Eras Demi ITC">?004 ABIN Inc</font></font></div>
+  <div id="programming5x" style="position: absolute; width: 292; height: 212; z-index: 18; visibility: hidden; left: 286; top: 195"><font color="#000000"><img src="abin/images/Ab_plc.jpg" width="270" height="194" alt="Allen Bradley PLC 5x programming"></font></div>
+  <div id="contacts8" style="position: absolute; width: 147; height: 35; z-index: 13; left: 38; top: 636"><b><a href="mailto:info@abin.com"><font size="4" color="#000000">Contact</font></a></b></div>  <div id="machines4a" style="position: absolute; width: 120; height: 27; z-index: 20; left: 42; top: 399"> 
+    <div align="left"><a href="abin/machine_building.htm"><b><font face="Eras Bold ITC" color="#000000">Machines</font></b></a><font face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></div>
+    </div>
+<ul style="position: absolute;left: -10000px;">
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Alitza/">Vibram Five Fingers 
+Alitza</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Bikila/">Vibram Five Fingers 
+Bikila</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Bikila-Ls/">Vibram Five Fingers Bikila 
+Ls</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Classic/">Vibram Five Fingers 
+Classic</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Classic-Fresca/">Vibram Five Fingers 
+Classic Fresca</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Entrada/">Vibram Five Fingers 
+Entrada</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Jaya/">Vibram Five Fingers 
+Jaya</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Jaya-Lr/">Vibram Five Fingers Jaya 
+Lr</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Komodosport/">Vibram Five Fingers 
+Komodosport</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Komodosport-Ls/">Vibram Five Fingers 
+Komodosport Ls</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Kso/">Vibram Five Fingers Kso</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Kso-Trek/">Vibram Five Fingers Kso 
+Trek</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Kso-Trek-Soft/">Vibram Five Fingers Kso 
+Trek Soft</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Speed/">Vibram Five Fingers 
+Speed</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Speed-Xc/">Vibram Five Fingers Speed 
+Xc</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Sprint/">Vibram Five Fingers 
+Sprint</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Spyridon-Ls/">Vibram Five Fingers 
+Spyridon Ls</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Treksport/">Vibram Five Fingers 
+Treksport</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Treksport-Sandal/">Vibram Five Fingers 
+Treksport Sandal</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-El-x/">Vibram Five Fingers El-
+x</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Lontra/">Vibram Five Fingers 
+Lontra</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Moc/">Vibram Five Fingers Moc</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Seeya/">Vibram Five Fingers 
+Seeya</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Seeya-Ls/">Vibram Five Fingers Seeya 
+Ls</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Signa/">Vibram Five Fingers 
+Signa</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Sorrento/">Vibram Five Fingers 
+Sorrento</a></li>
+<li><a href="http://www.claxtonllc.com/Vibram-Five-Fingers-Trek-Ls/">Vibram Five Fingers Trek 
+Ls</a></li>
+</ul>
+</body>
+</html>
+

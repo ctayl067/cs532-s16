@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js ie8 ie" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js ie9 ie" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+		<meta charset="utf-8">
+		<title>EnergyFM.al - Stream</title>
+		<meta name="description" content="THE WORLD'S #1 Dance Station">
+		<meta name="robots" content="index, follow">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Styles -->
+		<link id="theme" rel="stylesheet" href="css/webradio.css" type="text/css">
+
+		<!-- Fav and touch icons -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- JS -->
+		<script src="js/libs/jquery.js"></script>
+		<script src="js/libs/modernizr.js"></script>
+		<script src="js/plugins/bootstrap.min.js"></script>
+		<script src="js/plugins/jquery.slider.js"></script>
+		<script src="js/plugins/jquery.jplayer.min.js"></script>
+		<script src="js/plugins/jquery.selectbox.js"></script>
+		<script type="text/javascript">var lang = {"likeus":"Like us on Facebook","loading":"Loading, please wait...","stopped":"Player stopped...","volume":"Volume"};</script>
+		<script src="js/player.js"></script>
+		<script src="https://use.edgefonts.net/open-sans.js"></script>
+	</head>
+	<body>
+		<div id="loading" class="loading"><div class="text">Loading player, please wait... <br /><br /><img src="images/ajax-loader-light.gif"></div></div>
+		<div class="nosupport"><div class="text">We are sorry but your browser doesn't support neither Flash or HTML version of player. <br />
+		Please upgrade your browser or install <a href="http://get.adobe.com/flashplayer/">Adobe Flash</a>.</div></div>
+
+		<div id="wrapper">
+			<div id="header">
+				<ul>
+					<li><a href="#" onclick="newWindow('http://twitter.com/share?text=Listen+EnergyFM.al+Stream+@EnergyFMAlbania+', 550, 380, 'share');"><i class="icon twitter"></i> Twitter</a></li>
+					<li><a id="facelike" href="#"><i class="icon like"></i> Like</a></li>
+					
+					<li class="pull-right"><img class="logoimg" alt="logo" src="images/logo.png"></li>
+				</ul>
+			</div>
+
+			<div id="content">
+
+				<!-- Settings -->
+				<div class="extra">
+					<form method="POST" action="http://energyfm.al/hello/player/" id="playerSettings">
+						<div class="left">
+							<div class="sline">Stream Quality:</div>
+							<div class="sline">Use Adobe Flash Player:</div>
+							<div class="sline">Start playing automatically:</div>
+							<div class="sline">Player Background:</div>
+						</div>
+						<div class="right">
+							<div class="sline"><select id="quality" name="quality"><option>Best Quality (320K)</option><option>High Quality (192K)</option><option>Low Quality (128K)</option></select></div>
+							<div class="sline"><input type="checkbox" name="useflash" value="true" id="useflash"><label for="useflash"></label></div>
+							<div class="sline"><input type="checkbox" name="autoplay" value="true" id="autoplay"><label for="autoplay"></label></div>
+							<div class="sline"><select id="background" name="background"><option>Neat Blue</option><option>Dark Noise</option><option>Mixed Colors</option></select></div>
+						</div>
+						<a class="settings close" href="#"><i class="icon closeset"></i></a>
+					</form>
+					<div class="clearfix"></div>
+				</div>
+
+				<!-- Player UI -->
+				<div class="main">
+					<div class="left">
+						
+						<img id="artist-image" width="339" height="117" src="images/artists/default.png">
+					</div>
+					<div class="right">
+						<span id="stream_info_song">Loading...</span><br />
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="footer">
+
+				<div id="radio-player">
+					<div id="RadioPlayer"></div>
+					<div class="control">
+						<a class="play" style="display: none;"></a>
+						<a class="stop" style="display: block;"><div class="spinner"></div></a>
+					</div>
+					<div class="volume">
+						<a class="mute"></a>
+						<div class="bar"><div class="vol" style="width:50px;"></div></div>
+						<br />
+						<span id="nowplaying">You are listening to a live stream...</span>
+					</div>
+				</div>
+
+				<div id="playlists">
+					Listen in your favourite player <br />
+					<a target="_blank" href="Listen38b5.asx?name=listen.asx" title="Windows Media Player"><i class="icon wmp"></i></a>
+					<a target="_blank" href="Listenb5ba.pls?name=listen.pls" title="Winamp"><i class="icon winamp"></i></a>
+					<a target="_blank" href="Listenb5ba.pls?name=listen.pls" title="Real Player"><i class="icon realplayer"></i></a>
+					<a target="_blank" href="Listenaff4.m3u?name=listen.m3u" title="Quick Time"><i class="icon quicktime"></i></a>
+				</div>
+
+			</div>
+		</div>
+<script language="javascript" type="text/javascript" src="http://cloudrad.io/snippets/streaminfo.js"></script>
+<script language="javascript" type="text/javascript" src="http://cloudrad.io/energyfmal/streaminfo.js"></script>
+		<div style="display: none;" id="facebook-link" data-url="https://www.facebook.com/RadioEnergyFMAL"></div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-31300337-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</body>
+</html>

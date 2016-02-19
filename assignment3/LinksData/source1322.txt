@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>N.Ito(@itopun_n247) - Twilog</title>
+<meta name="description" content="N.Ito(@itopun_n247)のTwilog">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="icon" type="image/png" sizes="32x32" href="http://twilog.org/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="http://pbs.twimg.com/profile_images/1121647056/_____bigger.jpg">
+<link rel="alternate" type="application/rss+xml" title="N.Ito(@itopun_n247) - Twilog" href="http://twilog.org/rss-feed/itopun_n247">
+
+<link rel="stylesheet" href="http://twilog.org/css-dir/user.css?i=1">
+
+<style type="text/css">
+body {background:#89C9FA url(http://pbs.twimg.com/profile_background_images/577865834678218752/3xUt3m_O.jpeg) repeat fixed 0 0; color:#333;}
+a,a:hover {color:#3B94D9;}
+.side-list-icon,.nav-link a,.cal-nav a {background-color:#3B94D9 !important;}
+.tl-del a,.tl-del a:hover,.tl-name a:hover strong {color:#3B94D9 !important;}
+
+</style>
+
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+<script>
+
+$(function(){
+
+	$('a[href=#pagetop]').click(function(){
+		$('html, body').animate({scrollTop:0}, 'fast');
+		return false;
+	});
+	$("#user-search-form").submit(function(){
+		user_search();
+		return false;
+	});
+	$("#uf").submit(function(){ $("#ub").attr("disabled","disabled"); });
+
+	add_twbutton();
+	$("#ub").removeAttr("disabled");
+
+	c_id = "";
+	c_str = document.cookie+";";
+	start = c_str.indexOf("update_id=");
+	if (start != -1){
+		end = c_str.indexOf(";", start);
+		c_id = c_str.substring(start+10, end);
+		if(c_id=="itopun_n247") return;
+	}
+
+	exp=new Date(); exp.setTime(exp.getTime()+1000*60*5);
+	document.cookie = "update_id=itopun_n247; expires=" + exp.toGMTString();
+
+	url = "http://twilog.org/check-update.rb?c=168100237&l=700262880361328640&s=1086963";
+	$.ajax({
+		dataType : "jsonp",
+		url: url,
+		success: function(data) {
+			if(data.tw<0) return;
+
+			if(data.tw==0) {
+				$("#ub").attr("disabled","disabled").css("cursor","default").val("情報は最新です");
+				return;
+			}
+			$("#info").slideDown();
+		}
+	});
+	
+
+
+});
+
+function user_search(){
+	var user_id = $("#user-search-form input[type=text]").val();
+
+	user_id = user_id.replace(/^[ ]+|[ ]+$/g, "");
+	if(user_id=="") {
+		alert("Twitter IDを入力してください");
+		return;
+	}else if(!user_id.match(/^@?[a-zA-Z0-9_]+$/)) {
+		alert("不正なTwitter IDです");
+		return;
+	}
+
+	user_id = user_id.replace("@","");
+	location.href = "http://twilog.org/"+user_id;
+}
+
+
+function word_search(){
+	var param = {}
+	param["word"] = encodeURIComponent($("#wsearch input[name='word']").val());
+	param["ao"] = ($("#ao-a").is(":checked")) ? "a" : "o";
+
+	var ar = [];
+	for(k in param){
+		if(param[k]=="") continue;
+		ar.push(k + "=" + param[k]);
+	}
+	location.href = "http://twilog.org/itopun_n247/search?" + ar.join("&");
+}
+
+
+var srcbtn_date = false;
+
+function show_srcbtn(date){
+
+	if(!srcbtn_date){
+		var str = "<p class=\"mb5\">ソースを取得</p>";
+		str += "<p class=\"bt-src bt-common\"><a href=\"javascript:show_srcbox('')\">div・p</a></p>";
+		str += "<p class=\"bt-src bt-common\"><a href=\"javascript:show_srcbox('ul')\">ul・li</a></p>";
+		str += "<p class=\"bt-src bt-common\"><a href=\"javascript:show_srcbox('p')\">p</a></p>";
+		$("#s"+date).html(str).fadeIn("fast"); srcbtn_date = date;;
+	} else {
+		if(srcbtn_date==date){
+			$("#s"+date).fadeOut("fast"); srcbtn_date = false;
+		} else {
+			$("#s"+srcbtn_date).fadeOut("fast"); $("#s"+date).fadeIn("fast"); srcbtn_date = date;
+		}
+	}
+
+}
+
+function show_srcbox(type){
+
+	var date = srcbtn_date;
+	$("#s"+date).fadeOut("fast"); srcbtn_date = false;
+
+	$("#source-box").fadeOut("fast",function(){
+		$("#source-box").html("<img src='http://twilog.org/img-dir/r/ajax-loader.gif' class='mt50'>")
+	    wx = $(window).scrollLeft() + Math.floor(($(window).width() - $('#source-box').outerWidth()) / 2);
+	    wy = $(window).scrollTop() + Math.floor(($(window).height() - $('#source-box').outerHeight()) / 2);
+	    $("#source-box").css({ "top": wy, "left": wx }).fadeIn("fast");
+
+		$.ajax({
+			url : "http://twilog.org/source.rb?word=" ,
+			data : { "id":"itopun_n247", "date":date, "cate":"", "param":"desc-", "type":type },
+			success : get_source_success,
+			error : function(){
+				alert("Error!!"); close_srcbox();
+			}
+
+		});
+	});
+}
+
+function get_source_success(src){ $("#source-box").html(src); }
+function close_srcbox(){ $("#source-box").fadeOut("fast"); }
+
+function add_twbutton(){
+	$("article.tl-tweet").each(function(){
+		var id = $(this).attr("id").substr(2);
+
+		var p_elem = $("<p/>").attr("class","tw-buttons");
+		var a_elem = $("<a/>").html("&nbsp;").attr({"href":"javascript:void(0);","class":"tb-rep","title":"返信"}).click({url:"https://twitter.com/intent/tweet?in_reply_to="+id},open_window);
+		$(p_elem).append(a_elem);
+		a_elem = $("<a/>").html("&nbsp;").attr({"href":"javascript:void(0);","class":"tb-rt","title":"リツイート"}).click({url:"https://twitter.com/intent/retweet?tweet_id="+id},open_window);
+		$(p_elem).append(a_elem);
+		a_elem = $("<a/>").html("&nbsp;").attr({"href":"javascript:void(0);","class":"tb-fav","title":"いいね"}).click({url:"https://twitter.com/intent/favorite?tweet_id="+id},open_window);
+		$(p_elem).append(a_elem);
+		$(this).append(p_elem);
+	});
+}
+
+
+function open_window(e){
+	var ww=550; var hh=520;
+    var x = (screen.width - ww) / 2; var y = (screen.height - hh) / 2;
+    open(e.data.url, "childWindow", "width="+ww+",height="+hh+",left="+x+",top="+y);
+}
+
+
+
+</script>
+</head>
+
+<body>
+
+<header>
+<section>
+<p id="ti-twilog"><a href="http://twilog.org/">Twilog</a></p>
+<ul>
+	<li><a href="http://twilog.org/page-about">このサイトについて</a></li>
+	<li><a href="http://twilog.org/page-help">ヘルプ</a></li>
+	<li><a href="http://twilog.org/page-register">新規登録</a></li>
+	<li><a href="http://twilog.org/settings.rb">ログイン</a></li>
+
+</ul>
+
+<form action="http://twilog.org/tl-tweets.rb" method="get" id="user-search-form">
+<input type="text" name="id" value="" placeholder="Twitter ID">
+<input type="submit" value="検索">
+</form>
+</section>
+</header>
+
+
+<div id="container">
+<div id="content">
+
+<ul class="breadcrumb">
+	<li class="home"><a href="http://twilog.org/">Twilog ホーム</a></li>
+	<li>@itopun_n247</li>
+</ul>
+
+
+<section id="user-info">
+<p id="user-info-bg"><img src="https://pbs.twimg.com/profile_banners/168100237/1426607938/ipad" width="610" height="305"></p>
+<p id="user-info-shadow">&nbsp;</p>
+<div id="user-info-content">
+<p id="user-info-icon"><a href="http://twilog.org/itopun_n247" title="@itopun_n247のTwilogへ"><img src="http://pbs.twimg.com/profile_images/1121647056/_____bigger.jpg" alt="@itopun_n247" width="73" height="73"></a></p>
+<h1><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></h1>
+<ul class="user-follow">
+	<li><a href="https://twitter.com/itopun_n247/following" target="_blank">187</a>フォロー</li>
+	<li><a href="https://twitter.com/itopun_n247/followers" target="_blank">239</a>フォロワー</li>
+	<li><a href="https://twitter.com/itopun_n247/memberships" target="_blank">24</a>リスト</li>
+</ul>
+<ul class="user-info-col">
+<li class="user-info-place">Tokyo</li>
+<li class="user-info-web"><a href="http://twilog.org/itopun_n247" target="_blank">http://twilog.org/itopun_n247</a></li>
+<li class="user-info-comment">大学院生。主に東地中海を巡るイギリス外交史／冷戦史を研究しています。長州出身。HR/HM、ギター、お酒、蒙古タンメン中本と広島カープが好きです。International History, British Diplomacy on Eastern Mediterranean & the Cold War.</li>
+</ul>
+</div>
+</section><!-- /user-info -->
+
+<section class="box-stats">
+<table>
+	<tr>
+		<td class="title"><a href="http://twilog.org/itopun_n247/stats">Stats</a></td>
+		<td class="stats"><strong>Twitter歴</strong><br>2,043日<span>（2010/07/18より）</span></td>
+		<td class="stats"><strong>ツイート数</strong><br>18,144<span>（8.8件/日）</span></td>
+	</tr>
+</table>
+</section><!-- /box-stats -->
+
+
+<section class="box-sort mb10 mt15">
+<div>
+<p>ツイートの並び順 :</p>
+<ul>
+	<li class="w4em"><span>通常</span></li>
+	<li class="w4em"><a href="http://twilog.org/itopun_n247/asc">朝→夜</a></li>
+	<li class="w4em"><a href="http://twilog.org/itopun_n247/allasc">古→新</a></li>
+</ul>
+</div>
+
+<div>
+<p>表示するツイート :</p>
+<ul>
+	<li class="w4em"><span>全て</span></li>
+	<li><a href="http://twilog.org/itopun_n247/norep" title="先頭に@のあるツイートを除く">Replyを除く</a></li>
+	<li><a href="http://twilog.org/itopun_n247/nomen" title="文中に@のあるツイートを除く">Mentionを除く</a></li>
+	<li><a href="http://twilog.org/itopun_n247/rt">公式RTのみ</a></li>
+	<li><a href="http://twilog.org/itopun_n247/nort">公式RTを除く</a></li>
+</ul>
+</div>
+
+
+</section><!-- /box-sort -->
+
+
+<div style="text-align:center; margin-bottom:15px;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Twilog メイン上部 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-2613098592193304"
+	 data-ad-region="ad1"
+     data-ad-slot="4733284342"
+ 	 data-color-link = "3B94D9"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+
+
+
+
+<ul class="nav-link mb10 mt0">
+	<li class="nav-prev"><span>前のページ</span></li>
+	<li class="nav-user"><a href="http://twilog.org/itopun_n247">@itopun_n247</a></li>
+	<li class="nav-next"><a href="http://twilog.org/itopun_n247/2">次のページ</a></li>
+</ul>
+
+
+<div id="info" class="mb10" style="display:none;"><p class="box-balloon"><a href="http://twilog.org/update.rb?id=itopun_n247&order=&filter=&kind=reg"><span>新しいツイートが投稿されています</span></a></p></div>
+<h3 class="title01" id="d160218">
+<a href="http://twilog.org/itopun_n247/date-160218">2016年02月18日(木)</a><span>6 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160218');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160218" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw700262880361328640">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/700262880361328640" target="_blank">10時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/archenemymetal" target="_blank"><img src="http://pbs.twimg.com/profile_images/1721805233/AAA_normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/archenemymetal" target="_blank"><strong>Arch Enemy</strong><span>@archenemymetal</span></a></p>
+<p class="tl-text"> 90年代後期メンバーによる新プロジェクトBLACK EARTH、5月来日決定！<a href="https://t.co/eosFyQZNIO" target="_blank" title="http://japan.archenemy.net"><span class="invisible">http://</span>japan.archenemy.net</a> <a href="https://twitter.com/hashtag/archenemy?src=hash" target="_blank">#archenemy</a> <a href="https://twitter.com/hashtag/blackearth?src=hash" target="_blank">#blackearth</a> <a href="https://twitter.com/hashtag/japan?src=hash" target="_blank">#japan</a> <span class="invisible">https://</span><a href="https://t.co/OTLwnGSxRC" target="_blank">pic.twitter.com/OTLwnGSxRC</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/700262880361328640" target="_blank">19:17:35</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700246943193169920">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/700246943193169920" target="_blank">11時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/nhk_news" target="_blank"><img src="http://pbs.twimg.com/profile_images/471463249481711616/EDSBn8Vm_normal.png" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/nhk_news" target="_blank"><strong>NHKニュース</strong><span>@nhk_news</span></a></p>
+<p class="tl-text"> 【速報 JUST IN 】羽田空港のアメリカ路線 日米合意 <a href="https://t.co/47cCsJGhJT" target="_blank" title="http://nhk.jp/N4Nl4Mug"><span class="invisible">http://</span>nhk.jp/N4Nl4Mug</a> <a href="https://twitter.com/hashtag/nhk_news?src=hash" target="_blank">#nhk_news</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/700246943193169920" target="_blank">18:14:15</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700146997467033600">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/700146997467033600" target="_blank">18時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/DefenceHQ" target="_blank"><img src="http://pbs.twimg.com/profile_images/664761648410849282/aqJKtd_a_normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/DefenceHQ" target="_blank"><strong>Ministry of Defence</strong><span>@DefenceHQ</span></a></p>
+<p class="tl-text"> .<a href="https://twitter.com/RoyalAirForce" target="_blank">@RoyalAirForce</a> Typhoons intercepted Russian Blackjack bombers earlier today. Here's our statement. <span class="invisible">https://</span><a href="https://t.co/94o54v1C1F" target="_blank">pic.twitter.com/94o54v1C1F</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/700146997467033600" target="_blank">11:37:06</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699976174869417985">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/699976174869417985" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">【近刊】Kennedy, Decolonization: A Very Short Introduction <a href="https://t.co/w2wdyAN6c3" target="_blank" title="http://amzn.to/1oJHH2U"><span class="invisible">http://</span>amzn.to/1oJHH2U</a>  これは欲しい！逆に今まで無かったのが意外かも。版元情報→ <a href="https://t.co/ijJoHaoXVk" target="_blank" title="http://bit.ly/1Q1mPOQ"><span class="invisible">http://</span>bit.ly/1Q1mPOQ</a>  <a href="https://twitter.com/hashtag/book?src=hash" target="_blank">#book</a></p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/699976174869417985" target="_blank">00:18:19</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699975576786903042">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/699975576786903042" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">目次を見ると時代も中世から現代まで。読んでみたいが図書館かなぁ。HCにしてはお手頃価格だけど。あと、版元情報（<a href="https://t.co/reFf8Gbw6b" target="_blank" title="http://bit.ly/1Lty7pC"><span class="invisible">http://</span>bit.ly/1Lty7pC</a>）だと2月11日刊行なのだがもう出てるのかしら？</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/699975576786903042" target="_blank">00:15:57</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699974344714268672">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/699974344714268672" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">【近刊】Belich, Darwin, Frenz &amp; Wickham (eds.), The Prospect of Global History <a href="https://t.co/2axPUD6GTB" target="_blank" title="http://amzn.to/1XxFzae"><span class="invisible">http://</span>amzn.to/1XxFzae</a> グローバルヒストリーの論文集。ちょっと気になる。<a href="https://twitter.com/hashtag/book?src=hash" target="_blank">#book</a></p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/699974344714268672" target="_blank">00:11:03</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160217">
+<a href="http://twilog.org/itopun_n247/date-160217">2016年02月17日(水)</a><span>2 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160217');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160217" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw699970957595684864">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/699970957595684864" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">【近刊】Kuniholm, The Origins of the Cold War in the Near East <a href="https://t.co/Yof5GPYkiy" target="_blank" title="http://amzn.to/1PFuWiB"><span class="invisible">http://</span>amzn.to/1PFuWiB</a> エピローグ改訂版。14年刊のPB版と同じもの？版元→ <a href="https://t.co/0bLV0xes3f" target="_blank" title="http://bit.ly/1LtwvfB"><span class="invisible">http://</span>bit.ly/1LtwvfB</a> <a href="https://twitter.com/hashtag/book?src=hash" target="_blank">#book</a></p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/699970957595684864" target="_blank">23:57:35</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699969279110721536">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/699969279110721536" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">【新刊】Melakopides, Russia-Cyprus Relations: A Pragmatic Idealist Perspective <a href="https://t.co/hIpQ0FgalR" target="_blank" title="http://amzn.to/1RN9ZVv"><span class="invisible">http://</span>amzn.to/1RN9ZVv</a> な、なんてマニアックな本なんだ…（しかも個人的に必読）。図書館へGo。<a href="https://twitter.com/hashtag/book?src=hash" target="_blank">#book</a></p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/699969279110721536" target="_blank">23:50:55</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160215">
+<a href="http://twilog.org/itopun_n247/date-160215">2016年02月15日(月)</a><span>5 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160215');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160215" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw699238608071294977">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/699238608071294977" target="_blank">2月15日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">お酒を飲んでも酔っ払うどころの話ではなかったのが今日のハイライト。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/699238608071294977" target="_blank">23:27:30</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699237362291707904">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/699237362291707904" target="_blank">2月15日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/DefenceHQ" target="_blank"><img src="http://pbs.twimg.com/profile_images/664761648410849282/aqJKtd_a_normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/DefenceHQ" target="_blank"><strong>Ministry of Defence</strong><span>@DefenceHQ</span></a></p>
+<p class="tl-text"> STRIKE UPDATE: <a href="https://twitter.com/RoyalAirForce" target="_blank">@RoyalAirForce</a> Typhoon destroys <a href="https://twitter.com/hashtag/Daesh?src=hash" target="_blank">#Daesh</a> armoured vehicle in Iraq &gt; <a href="https://t.co/POzB1OO2en" target="_blank" title="http://ow.ly/YkLle"><span class="invisible">http://</span>ow.ly/YkLle</a><br><a href="https://t.co/s5X3kZ7zVZ" target="_blank" title="https://amp.twimg.com/v/e8fb313c-8ee1-49e8-81dd-b9381af30e5c"><span class="invisible">https://</span>amp.twimg.com/v/e8fb313c-8ee<span class="invisible">-49e8-81dd-b9381af30e5c</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/699237362291707904" target="_blank">23:22:33</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699177494704889856">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/699177494704889856" target="_blank">2月15日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">雪降ってますがな@最寄駅</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/699177494704889856" target="_blank">19:24:39</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699153601696915456">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/699153601696915456" target="_blank">2月15日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/kswith" target="_blank"><img src="http://pbs.twimg.com/profile_images/1277367829/IMG_0053_normal.JPG" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/kswith" target="_blank"><strong>Shuichi KAWASHIMA</strong><span>@kswith</span></a></p>
+<p class="tl-text"> 明日のイベントですが告知。講演者はストラスブール大学の二名のブリリアントな先生方です。「ヨーロッパのレジリエンス‐歴史・現在‐」会場：東洋大学白山キャンパス6102教室（6号館1階）2月16日 16時～18時。<a href="https://t.co/2I4ySCKeq6" target="_blank" title="http://www.toyo.ac.jp/site/hirc21/91575.html"><span class="invisible">http://</span>www.toyo.ac.jp/site/hirc21/91<span class="invisible">75.html</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/699153601696915456" target="_blank">17:49:42</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699110301505949696">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/699110301505949696" target="_blank">2月15日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">昨日の式は良い宴だった（そして飲み過ぎた笑）。というわけで再び東へ。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/699110301505949696" target="_blank">14:57:39</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160213">
+<a href="http://twilog.org/itopun_n247/date-160213">2016年02月13日(土)</a><span>2 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160213');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160213" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw698324537499217921">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/698324537499217921" target="_blank">2月13日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">気付いたらここから月末まで謎のハードスケジュールになっていて目が点になっている。イベント物は重なるものですね。そしてゲラは来ない。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/698324537499217921" target="_blank">10:55:18</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw698323628299948032">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/698323628299948032" target="_blank">2月13日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">気温は高いが風は意外に冷たい。ということで一瞬西の京に帰ります。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/698323628299948032" target="_blank">10:51:41</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160211">
+<a href="http://twilog.org/itopun_n247/date-160211">2016年02月11日(木)</a><span>4 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160211');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160211" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw697728433304895488">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/697728433304895488" target="_blank">2月11日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/BBCBreaking" target="_blank"><img src="http://pbs.twimg.com/profile_images/460740982498013184/wIPwMwru_normal.png" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/BBCBreaking" target="_blank"><strong>BBC Breaking News</strong><span>@BBCBreaking</span></a></p>
+<p class="tl-text"> Nato ready to patrol Aegean Sea to deter people-smugglers taking migrants from Turkey to Greece, US says <a href="https://t.co/COrLjbKf86" target="_blank" title="http://bbc.in/1PEHm82"><span class="invisible">http://</span>bbc.in/1PEHm82</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/697728433304895488" target="_blank">19:26:36</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw697714716467032064">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/697714716467032064" target="_blank">2月11日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">International Journal of Intelligence and CounterIntelligence, 29:2 <a href="https://t.co/4CRDXbQ2qT" target="_blank" title="http://bit.ly/1SiyN8J"><span class="invisible">http://</span>bit.ly/1SiyN8J</a> Matei, Xharo &amp; Bala論文の圧倒的なマニアックさ。<a href="https://twitter.com/hashtag/journal?src=hash" target="_blank">#journal</a></p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/697714716467032064" target="_blank">18:32:05</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw697713607002316800">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/697713607002316800" target="_blank">2月11日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">The Historical Journal, 59:1 <a href="https://t.co/GRvk02T9A9" target="_blank" title="http://bit.ly/1o1hyvJ"><span class="invisible">http://</span>bit.ly/1o1hyvJ</a> 久しぶりに戦後系で興味を引く論文が。Review Articleも一応DLしておくか。。。<a href="https://twitter.com/hashtag/journal?src=hash" target="_blank">#journal</a></p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/697713607002316800" target="_blank">18:27:41</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw697693718577451008">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/697693718577451008" target="_blank">2月11日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/victoria1819" target="_blank"><img src="http://pbs.twimg.com/profile_images/2401881309/iy7t2l0s1dykii9husu5_normal.jpeg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/victoria1819" target="_blank"><strong>女王陛下</strong><span>@victoria1819</span></a></p>
+<p class="tl-text"> 今月号が出ました！今年シルバー・ジュビリーのハラルド国王一家です！【世界王室物語－ノブレス・オブリージュ】ノルウェー　国王陛下はオリンピアン　関東学院大教授・君塚直隆 - 産経ニュース <a href="https://t.co/sr9MrXpQWn" target="_blank" title="http://www.sankei.com/life/news/160211/lif1602110018-n1.html"><span class="invisible">http://</span>www.sankei.com/life/news/1602<span class="invisible">1/lif1602110018-n1.html</span>…</a> <a href="https://twitter.com/Sankei_news" target="_blank">@Sankei_news</a>さんから<p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/697693718577451008" target="_blank">17:08:39</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160210">
+<a href="http://twilog.org/itopun_n247/date-160210">2016年02月10日(水)</a><span>3 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160210');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160210" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw697336234172030976">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/697336234172030976" target="_blank">2月10日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/eusipol" target="_blank"><img src="http://pbs.twimg.com/profile_images/3420405235/743f69efad478c16b8a27a74db5ae88b_normal.jpeg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/eusipol" target="_blank"><strong>EUSI Politics</strong><span>@eusipol</span></a></p>
+<p class="tl-text"> 【お知らせ】これまでの「EUに関するニュース」を、この度EUSIのHP上にアーカイブとして全てをまとめて掲載したページを新たに作成いたしました。近年のEUに関する動向を把握する上でご活用頂ければ幸いです→ <a href="https://t.co/t1lTAEns8P" target="_blank" title="http://eusi.jp/mail-magazine/eunews/"><span class="invisible">http://</span>eusi.jp/mail-magazine/<span class="invisible">unews/</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/697336234172030976" target="_blank">17:28:08</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw697335471710408705">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/697335471710408705" target="_blank">2月10日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/eusipol" target="_blank"><img src="http://pbs.twimg.com/profile_images/3420405235/743f69efad478c16b8a27a74db5ae88b_normal.jpeg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/eusipol" target="_blank"><strong>EUSI Politics</strong><span>@eusipol</span></a></p>
+<p class="tl-text"> 【EUに関する新刊】伊藤武『イタリア現代史 第二次世界大戦からベルルスコーニ後まで』(中公新書、2016年1月25日刊行)　著者である伊藤武先生 <a href="https://twitter.com/tito_labo" target="_blank">@tito_labo</a> よりご紹介を頂きました→ <a href="https://t.co/RpE71d7yOO" target="_blank" title="http://eusi.jp/collaboration/report/ito-takeshi2016/"><span class="invisible">http://</span>eusi.jp/collaboration/<span class="invisible">eport/ito-takeshi2016/</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/697335471710408705" target="_blank">17:25:06</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw697334611819409408">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/697334611819409408" target="_blank">2月10日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/eusipol" target="_blank"><img src="http://pbs.twimg.com/profile_images/3420405235/743f69efad478c16b8a27a74db5ae88b_normal.jpeg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/eusipol" target="_blank"><strong>EUSI Politics</strong><span>@eusipol</span></a></p>
+<p class="tl-text"> 【Commentary Vol. 068】<br>「2015年2つの選挙に見るスペイン政治とカタルーニャ政治の連関形態の変容」 加藤伸吾 (慶應義塾大学経済学部専任講師)　<a href="https://t.co/e6gudW9xxv" target="_blank" title="http://eusi.jp/mail-magazine/commentary/commentary_068/"><span class="invisible">http://</span>eusi.jp/mail-magazine/<span class="invisible">ommentary/commentary_068/</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/697334611819409408" target="_blank">17:21:41</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160209">
+<a href="http://twilog.org/itopun_n247/date-160209">2016年02月09日(火)</a><span>3 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160209');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160209" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw697017738363994112">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/697017738363994112" target="_blank">2月9日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/DefenceHQ" target="_blank"><img src="http://pbs.twimg.com/profile_images/664761648410849282/aqJKtd_a_normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/DefenceHQ" target="_blank"><strong>Ministry of Defence</strong><span>@DefenceHQ</span></a></p>
+<p class="tl-text"> STRIKE UPDATE: <a href="https://twitter.com/RoyalAirForce" target="_blank">@RoyalAirForce</a> aircraft have been tackling <a href="https://twitter.com/hashtag/Daesh?src=hash" target="_blank">#Daesh</a> in <a href="https://twitter.com/hashtag/Iraq?src=hash" target="_blank">#Iraq</a> &amp; <a href="https://twitter.com/hashtag/Syria?src=hash" target="_blank">#Syria</a>: <a href="https://t.co/Xc5anFtQ7N" target="_blank" title="http://ow.ly/Y76XU"><span class="invisible">http://</span>ow.ly/Y76XU</a> <span class="invisible">https://</span><a href="https://t.co/CwH9IB5jWY" target="_blank">pic.twitter.com/CwH9IB5jWY</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/697017738363994112" target="_blank">20:22:33</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw696926894600675329">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/696926894600675329" target="_blank">2月9日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text"><a href="https://twitter.com/HOX3125" target="_blank">@HOX3125</a> 流石。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/696926894600675329" target="_blank">14:21:34</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw696873365722673152">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/696873365722673152" target="_blank">2月9日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text"><a href="https://twitter.com/HOX3125" target="_blank">@HOX3125</a> 二郎？</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/696873365722673152" target="_blank">10:48:52</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160208">
+<a href="http://twilog.org/itopun_n247/date-160208">2016年02月08日(月)</a><span>4 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160208');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160208" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw696572177269653504">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/696572177269653504" target="_blank">2月8日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">土曜日はひょんなことから（憲）法と政治のコラボレーション的なシンポジウムの末席に座っていたのですが、領域が違うと語り口がこうも変わるのかということを改めて感じたのでした。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/696572177269653504" target="_blank">14:52:03</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw696567051880509440">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/696567051880509440" target="_blank">2月8日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/nekonoizumi" target="_blank"><img src="http://pbs.twimg.com/profile_images/768270603/mypictr_280x305_normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/nekonoizumi" target="_blank"><strong>猫の泉</strong><span>@nekonoizumi</span></a></p>
+<p class="tl-text"> 3月。「サントリー学芸賞受賞作に大幅増補。イスラーム世界の全体像を内在的かつ動的に把握するための枠組みを提示する。」<br>⇒池内恵『増補新版 イスラーム世界の論じ方』中央公論新社 <a href="https://t.co/UgyjAVpj1k" target="_blank" title="http://www.amazon.co.jp/dp/4120048349"><span class="invisible">http://</span>www.amazon.co.jp/dp/4120048349</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/696567051880509440" target="_blank">14:31:41</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw696567020519710720">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/696567020519710720" target="_blank">2月8日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/nekonoizumi" target="_blank"><img src="http://pbs.twimg.com/profile_images/768270603/mypictr_280x305_normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/nekonoizumi" target="_blank"><strong>猫の泉</strong><span>@nekonoizumi</span></a></p>
+<p class="tl-text"> 3月。「ヨーロッパが揺れている。統合という壮大な試みは失敗だったのか。EUの境界線をめぐる各国間の格闘を地球規模の視野で徹底検証。」<br>⇒羽場久美子『ヨーロッパの分断と統合 拡大EUのナショナリズムと境界線 包摂か排除か』中央公論新社 <a href="https://t.co/4eaTWArjG2" target="_blank" title="http://www.amazon.co.jp/dp/4120048179"><span class="invisible">http://</span>www.amazon.co.jp/dp/4120048179</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/696567020519710720" target="_blank">14:31:33</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw696566997459439617">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/696566997459439617" target="_blank">2月8日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/nekonoizumi" target="_blank"><img src="http://pbs.twimg.com/profile_images/768270603/mypictr_280x305_normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/nekonoizumi" target="_blank"><strong>猫の泉</strong><span>@nekonoizumi</span></a></p>
+<p class="tl-text"> 3月。「中国の南シナ海侵出を世界は傍観してはならない。海上の紛争防止のために秩序をつくり監視能力を備えた地域機構を今こそ創設すべきだ。」<br>⇒北岡伸一、久保文明監修／世界平和研究所編『海上安全保障と日米同盟』中央公論新社 <a href="https://t.co/18BC210xri" target="_blank" title="http://www.amazon.co.jp/dp/4120048292"><span class="invisible">http://</span>www.amazon.co.jp/dp/4120048292</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/696566997459439617" target="_blank">14:31:28</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160207">
+<a href="http://twilog.org/itopun_n247/date-160207">2016年02月07日(日)</a><span>4 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160207');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160207" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw696279653963530240">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/696279653963530240" target="_blank">2月7日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/earthquake_jp" target="_blank"><img src="http://pbs.twimg.com/profile_images/368358807/eqjp_normal.png" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/earthquake_jp" target="_blank"><strong>地震速報</strong><span>@earthquake_jp</span></a></p>
+<p class="tl-text"> 【気象庁速報】07日　19時27分頃　最大震度4の地震が発生。( <a href="https://t.co/ukhO7Je0yi" target="_blank" title="http://j.mp/1KyCDId"><span class="invisible">http://</span>j.mp/1KyCDId</a> ) 震度4：茨城県北部他/震度3：栃木県南部他 <a href="https://twitter.com/hashtag/saigai?src=hash" target="_blank">#saigai</a> <a href="https://twitter.com/hashtag/jishin?src=hash" target="_blank">#jishin</a> <a href="https://twitter.com/hashtag/earthquake?src=hash" target="_blank">#earthquake</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/696279653963530240" target="_blank">19:29:40</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw696279373670813696">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/696279373670813696" target="_blank">2月7日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/earthquake_jp" target="_blank"><img src="http://pbs.twimg.com/profile_images/368358807/eqjp_normal.png" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/earthquake_jp" target="_blank"><strong>地震速報</strong><span>@earthquake_jp</span></a></p>
+<p class="tl-text"> 【速報LV1】07日　19時26分頃　茨城県南部（N36.1/E139.9）(推定)にて　M5.1（推定）の地震が発生。　震源の深さは推定40.2km。( <a href="https://t.co/jqprwLTToY" target="_blank" title="http://j.mp/1nQMsXy"><span class="invisible">http://</span>j.mp/1nQMsXy</a> ) <a href="https://twitter.com/hashtag/saigai?src=hash" target="_blank">#saigai</a> <a href="https://twitter.com/hashtag/jishin?src=hash" target="_blank">#jishin</a> <a href="https://twitter.com/hashtag/earthquake?src=hash" target="_blank">#earthquake</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/696279373670813696" target="_blank">19:28:33</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw696279342041534464">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/696279342041534464" target="_blank">2月7日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">嫌な揺れ方だった。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/696279342041534464" target="_blank">19:28:26</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw695999786923626496">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695999786923626496" target="_blank">2月7日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">今週四回目の午前様。楽しすぎました。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/695999786923626496" target="_blank">00:57:34</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160206">
+<a href="http://twilog.org/itopun_n247/date-160206">2016年02月06日(土)</a><span>4 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160206');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160206" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw695640521134329858">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695640521134329858" target="_blank">2月6日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">寝る前に今日（昨日）の感想。自分が今後数年かけてやるべきこと／答えるべき課題を提示してもらったのが凄く大きかった。博士号持ちの大先輩から励ましの言葉を頂いたのがとても嬉しい。今後も精進いたします。あと、二次会は謎のdisを受けたことも含めてカオスで楽しかったです。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/695640521134329858" target="_blank">01:09:59</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw695639312092700673">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695639312092700673" target="_blank">2月6日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">まだゲラ来てないけど大丈夫なんだろうか（笑）</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/695639312092700673" target="_blank">01:05:11</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw695638895296270336">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695638895296270336" target="_blank">2月6日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">情報出てた→ <a href="https://t.co/MRPJVg6tzw" target="_blank" title="http://bit.ly/1PEXsCc"><span class="invisible">http://</span>bit.ly/1PEXsCc</a></p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/695638895296270336" target="_blank">01:03:31</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw695638287768113153">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695638287768113153" target="_blank">2月6日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">今週三回目の午前様。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/695638287768113153" target="_blank">01:01:06</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160205">
+<a href="http://twilog.org/itopun_n247/date-160205">2016年02月05日(金)</a><span>3 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160205');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160205" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw695538633172856832">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695538633172856832" target="_blank">2月5日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">Got it! <span class="invisible">https://</span><a href="https://t.co/WlgHzWjv8o" target="_blank">pic.twitter.com/WlgHzWjv8o</a></p>
+<p class="tl-image"><a href="https://t.co/WlgHzWjv8o" target="_blank"><img src="https://pbs.twimg.com/media/CacMs33UMAUAlhT.jpg:small" class="tl-image" width="255" height="340"></a></p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/695538633172856832" target="_blank">18:25:07</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw695470817648312321">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695470817648312321" target="_blank">2月5日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/t_gordau" target="_blank"><img src="http://pbs.twimg.com/profile_images/683723336262770689/cAEbCUHe_normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/t_gordau" target="_blank"><strong>TGR</strong><span>@t_gordau</span></a></p>
+<p class="tl-text"> 添谷芳秀『東アジアの国際環境と日本外交』（慶應義塾大学出版界、2016年3月） <a href="https://t.co/o7EvQ7yTFP" target="_blank" title="http://honto.jp/netstore/pd-book_27703797.html"><span class="invisible">http://</span>honto.jp/netstore/pd-bo<span class="invisible">k_27703797.html</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/695470817648312321" target="_blank">13:55:38</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw695470598294601728">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695470598294601728" target="_blank">2月5日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">キャンパスにスーツ姿の学生さんがやたら多いなと思ったら、今日は学部の入ゼミ試験の日か。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/695470598294601728" target="_blank">13:54:46</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160204">
+<a href="http://twilog.org/itopun_n247/date-160204">2016年02月04日(木)</a><span>10 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160204');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160204" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw695252492435599362">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695252492435599362" target="_blank">2月4日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text"><a href="https://twitter.com/derhye" target="_blank">@derhye</a> go to message on FB</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/695252492435599362" target="_blank">23:28:06</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw695250753342976000">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695250753342976000" target="_blank">2月4日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">ひええええ！</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/695250753342976000" target="_blank">23:21:11</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw695250593472876544">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695250593472876544" target="_blank">2月4日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/nekonoizumi" target="_blank"><img src="http://pbs.twimg.com/profile_images/768270603/mypictr_280x305_normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/nekonoizumi" target="_blank"><strong>猫の泉</strong><span>@nekonoizumi</span></a></p>
+<p class="tl-text"> 「…2006年に公開されたスタンフォード大学フーバー研究所所蔵の「蔣介石日記」や王世杰、徐永昌など中国要人の日記などを利用し、1937年～41年における、蔣介石率いる国民政府の政策決定過程を追うと共に、その時々の蔣介石の内面に迫る。」<p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/695250593472876544" target="_blank">23:20:33</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw695250566604128256">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695250566604128256" target="_blank">2月4日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/nekonoizumi" target="_blank"><img src="http://pbs.twimg.com/profile_images/768270603/mypictr_280x305_normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/nekonoizumi" target="_blank"><strong>猫の泉</strong><span>@nekonoizumi</span></a></p>
+<p class="tl-text"> 「蔣介石は、日中間の問題を欧米諸国の動向と結びつけて解決しようとする「国際的解決」戦略を主導した。…」<br>⇒鹿錫俊『蔣介石の「国際的解決」戦略：1937-1941 「蔣介石日記」から見る日中戦争の深層』東方書店 <a href="https://t.co/9tDXR1Le5y" target="_blank" title="http://www.toho-shoten.co.jp/toho-web/search/detail?id=4497216021&bookType=jp"><span class="invisible">http://</span>www.toho-shoten.co.jp/toho-web/searc<span class="invisible">/detail?id=4497216021&bookType=jp</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/695250566604128256" target="_blank">23:20:26</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw695160941160169472">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695160941160169472" target="_blank">2月4日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">で、時間を作ってコンタクトレンズの処方箋兼定期検診で眼科に行ったら緑内障の検査を真剣に勧められた。眼が悪いのは生まれつきなので気を付けねば…ということで近々きちんと検査しようと思います。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/695160941160169472" target="_blank">17:24:18</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw695160268817444865">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695160268817444865" target="_blank">2月4日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">現状では今夜の予定は自然消滅しそうなのだが、ここ最近の突発的懇親会ラッシュを考えると一息つけるので良いかもしれない。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/695160268817444865" target="_blank">17:21:38</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw695090013894094848">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/695090013894094848" target="_blank">2月4日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text"><a href="https://twitter.com/10anj10" target="_blank">@10anj10</a> 元気よー、また色々とお店を新規開拓中なので飲みに行きませう。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/695090013894094848" target="_blank">12:42:28</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw694899383481946113">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/694899383481946113" target="_blank">2月4日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/itopun_n247" target="_blank"><img src="http://pbs.twimg.com/profile_images/1121647056/_____normal.jpg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/itopun_n247" target="_blank"><strong>N.Ito</strong><span>@itopun_n247</span></a></p>
+<p class="tl-text">二日連続で午前様になりました。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/itopun_n247/status/694899383481946113" target="_blank">00:04:58</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw694898382926540801">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/694898382926540801" target="_blank">2月4日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/UN_Press" target="_blank"><img src="http://pbs.twimg.com/profile_images/562569496175464449/QwElU4Dd_normal.jpeg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/UN_Press" target="_blank"><strong>名古屋大学出版会</strong><span>@UN_Press</span></a></p>
+<p class="tl-text"> 【近刊】小野沢透『幻の同盟――冷戦初期アメリカの中東政策（上下巻）』下巻：「同盟プロジェクト」の挫折と迷走をへて、米国の政策決定者たちはどのように舵を切ったのか。今日にまでつながる歴史の転換を精緻に描き出した画期的労作。⇒ <a href="https://t.co/aSfOfHbeiY" target="_blank" title="http://www.unp.or.jp/ISBN/ISBN978-4-8158-0830-3.html"><span class="invisible">http://</span>www.unp.or.jp/ISBN/ISBN978-4<span class="invisible">8158-0830-3.html</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/694898382926540801" target="_blank">00:00:59</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw694898352945631232">
+<p class="tl-time"><a href="https://twitter.com/itopun_n247/status/694898352945631232" target="_blank">2月4日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/UN_Press" target="_blank"><img src="http://pbs.twimg.com/profile_images/562569496175464449/QwElU4Dd_normal.jpeg" alt="@itopun_n247" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/UN_Press" target="_blank"><strong>名古屋大学出版会</strong><span>@UN_Press</span></a></p>
+<p class="tl-text"> 【近刊】小野沢透『幻の同盟――冷戦初期アメリカの中東政策（上下巻）』上巻：1950年代初頭、西側世界の同盟相手として中東は再発見された。膨大な一次史料を読み解き、知られざる地域構想の運命を鮮やかに描き出した一大叙事詩。⇒ <a href="https://t.co/xd3ourbeKJ" target="_blank" title="http://www.unp.or.jp/ISBN/ISBN978-4-8158-0829-7.html"><span class="invisible">http://</span>www.unp.or.jp/ISBN/ISBN978-4<span class="invisible">8158-0829-7.html</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/itopun_n247" target="_blank">N.Ito</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/itopun_n247/status/694898352945631232" target="_blank">00:00:52</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+
+<ul class="nav-link mb10 mt0">
+	<li class="nav-prev"><span>前のページ</span></li>
+	<li class="nav-user"><a href="http://twilog.org/itopun_n247">@itopun_n247</a></li>
+	<li class="nav-next"><a href="http://twilog.org/itopun_n247/2">次のページ</a></li>
+</ul>
+
+
+
+<div class="ta-c" style="margin:25px auto">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-2613098592193304";
+/* Twilog ボトムレクタングル */
+google_ad_slot = "4924708346";
+google_ad_width = 336;
+google_ad_height = 280;
+google_ad_region = "ad1";
+google_color_link = "3B94D9";
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+
+
+
+
+<img src="http://ad.twi-log.com/img-dir/kk5-1t10.gif" style="width:1px;height:1px;">
+
+</div><!-- /content -->
+
+<aside id="sidebar">
+
+<section class="sidebox sidebox-update">
+<form id="uf" action="http://twilog.org/update.rb" method="get">
+<input type="submit" id="ub" value="最新の情報に更新する">
+<input type="hidden" name="id" value="itopun_n247">
+<input type="hidden" name="order" value="">
+<input type="hidden" name="filter" value="">
+<input type="hidden" name="kind" value="reg">
+</form>
+<p><span>last update 02/18 21:31</span></p>
+</section>
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-2613098592193304";
+/* Twilog サイド300x250 */
+google_ad_slot = "1706159544";
+google_ad_width = 300;
+google_ad_height = 250;
+google_ad_region = "ad1";
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+<section class="sidebox sidebox-search">
+<h2 class="side-title">Search</h2>
+<div class="side-pd">
+<!-- -->
+<form id="wsearch" action="http://twilog.org/tl-tweets.rb" method="get" onsubmit="word_search();return false;">
+<input type="hidden" name="id" value="itopun_n247">
+<input type="hidden" name="param" value="desc">
+<input type="text" id="sch-word" name="word" value="" placeholder="ツイート検索" class="input01">
+<input type="submit" value="検索" class="submit01">
+<div id="search-opt">
+<p class="ta-c mb0">
+<input type="radio" id="ao-a" name="ao" value="a" checked> <label for="ao-a">AND検索</label>　
+<input type="radio" id="ao-o" name="ao" value="o"> <label for="ao-o">OR検索</label>
+</p>
+<!-- -->
+</div>
+</form>
+</div><!-- /side-pd -->
+</section>
+
+<section class="sidebox sidebox-cal">
+<p class="cal-title">2016年2月</p>
+<ul class="cal-nav">
+	<li class="ic-arrow-l"><a href="http://twilog.org/itopun_n247/month-1601">前の月へ</a></li>
+	<li class="ic-arrow-r"><span>次の月へ</span></li>
+</ul>
+<table id="cal">
+<tr><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th><th>日</th></tr>
+<tr><td><a href="http://twilog.org/itopun_n247/date-160201">1</a></td><td><a href="http://twilog.org/itopun_n247/date-160202">2</a></td><td><a href="http://twilog.org/itopun_n247/date-160203">3</a></td><td><a href="http://twilog.org/itopun_n247/date-160204">4</a></td><td><a href="http://twilog.org/itopun_n247/date-160205">5</a></td><td><a href="http://twilog.org/itopun_n247/date-160206">6</a></td><td><a href="http://twilog.org/itopun_n247/date-160207">7</a></td></tr>
+<tr><td><a href="http://twilog.org/itopun_n247/date-160208">8</a></td><td><a href="http://twilog.org/itopun_n247/date-160209">9</a></td><td><a href="http://twilog.org/itopun_n247/date-160210">10</a></td><td><a href="http://twilog.org/itopun_n247/date-160211">11</a></td><td>12</td><td><a href="http://twilog.org/itopun_n247/date-160213">13</a></td><td>14</td></tr>
+<tr><td><a href="http://twilog.org/itopun_n247/date-160215">15</a></td><td>16</td><td><a href="http://twilog.org/itopun_n247/date-160217">17</a></td><td><a href="http://twilog.org/itopun_n247/date-160218">18</a></td><td>19</td><td>20</td><td>21</td></tr>
+<tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
+<tr><td>29</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+<p class="cal-link"><a href="http://twilog.org/itopun_n247/date-150219">1年前の今日のツイートを見る</a></p>
+
+</section>
+
+<section class="sidebox">
+<h2 class="side-title">Recent</h2>
+<ul class="side-list wide">
+<li><a href="http://twilog.org/itopun_n247/date-160218">02月18日(木) <span>6</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/date-160217">02月17日(水) <span>2</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/date-160215">02月15日(月) <span>5</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/date-160213">02月13日(土) <span>2</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/date-160211">02月11日(木) <span>4</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/date-160210">02月10日(水) <span>3</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/date-160209">02月09日(火) <span>3</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/date-160208">02月08日(月) <span>4</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/date-160207">02月07日(日) <span>4</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/date-160206">02月06日(土) <span>4</span></a></li>
+
+</ul>
+<p class="side-more">&nbsp;</p>
+</section>
+
+
+<section class="sidebox">
+<h2 class="side-title">Archives</h2>
+<ul class="side-list">
+<li><a href="http://twilog.org/itopun_n247/monthlist-1602" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1602">2016年02月<span>59</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1601" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1601">2016年01月<span>98</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1512" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1512">2015年12月<span>109</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1511" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1511">2015年11月<span>95</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1510" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1510">2015年10月<span>93</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1509" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1509">2015年09月<span>101</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1508" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1508">2015年08月<span>121</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1507" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1507">2015年07月<span>118</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1506" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1506">2015年06月<span>75</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1505" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1505">2015年05月<span>172</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1504" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1504">2015年04月<span>128</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1503" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1503">2015年03月<span>109</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1502" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1502">2015年02月<span>111</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1501" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1501">2015年01月<span>79</span></a></li><li><a href="http://twilog.org/itopun_n247/monthlist-1412" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/month-1412">2014年12月<span>83</span></a></li>
+</ul>
+<p class="side-more"><a href="http://twilog.org/itopun_n247/archives">すべて表示 &raquo;</a></p>
+</section>
+
+
+<section class="sidebox">
+<h2 class="side-title">Friends</h2>
+<ul class="side-list">
+<li><a href="http://twilog.org/HOX3125" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/friends-HOX3125">@HOX3125<span>220</span></a></li>
+<li><a href="http://twilog.org/kuro0704" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/friends-kuro0704">@kuro0704<span>144</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/itopun_n247/friends-10andju10">@10andju10<span>130</span></a></li>
+<li><a href="http://twilog.org/jshiratori" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/friends-jshiratori">@jshiratori<span>118</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/itopun_n247/friends-kwakatabi">@kwakatabi<span>87</span></a></li>
+<li><a href="http://twilog.org/t_gordau" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/friends-t_gordau">@t_gordau<span>82</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/itopun_n247/friends-eusipol">@eusipol<span>58</span></a></li>
+<li><a href="http://twilog.org/MValdegamas" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/friends-MValdegamas">@MValdegamas<span>57</span></a></li>
+<li><a href="http://twilog.org/nekonoizumi" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/itopun_n247/friends-nekonoizumi">@nekonoizumi<span>55</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/itopun_n247/friends-ojioji777">@ojioji777<span>54</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/itopun_n247/friends-Sauf_k">@Sauf_k<span>46</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/itopun_n247/friends-gtpshou">@gtpshou<span>44</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/itopun_n247/friends-10anju10">@10anju10<span>42</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/itopun_n247/friends-pax_briTAnNIca">@pax_briTAnNIca<span>42</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/itopun_n247/friends-jeff_ryo">@jeff_ryo<span>41</span></a></li>
+
+</ul>
+<p class="side-more"><a href="http://twilog.org/itopun_n247/friends">すべて表示 &raquo;</a></p>
+
+</section>
+
+<section class="sidebox">
+<h2 class="side-title">Hashtags</h2>
+<ul class="side-list wide">
+<li><a href="http://twilog.org/itopun_n247/hashtags-journal">#journal<span>168</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-book">#book<span>151</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-loudpark">#loudpark<span>145</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-article">#article<span>73</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-carp">#carp<span>41</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-archive">#archive<span>38</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-nhk_news">#nhk_news<span>35</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-FRUS">#FRUS<span>27</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-Nowplaying">#Nowplaying<span>25</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-library">#library<span>18</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-jishin">#jishin<span>11</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-nicovideo">#nicovideo<span>11</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-earthquake">#earthquake<span>9</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-saigai">#saigai<span>9</span></a></li>
+<li><a href="http://twilog.org/itopun_n247/hashtags-Syria">#Syria<span>9</span></a></li>
+
+</ul>
+<p class="side-more"><a href="http://twilog.org/itopun_n247/hashtags">すべて表示 &raquo;</a></p>
+
+</section>
+
+
+<section class="sidebox sidebox-stats">
+<h2 class="side-title">Stats</h2>
+<p><a href="http://twilog.org/itopun_n247/stats">Twilog Stats</a></p>
+</section>
+
+
+<section class="sidebox sidebox-feed">
+<h2 class="side-title">Feed</h2>
+<p><a href="http://twilog.org/rss-feed/itopun_n247" target="_blank">RSS feed</a></p>
+</section>
+
+
+
+<div id="ad-side-bottom" style="height:250px">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-2613098592193304";
+/* Twilog サイド下部300x250 */
+google_ad_slot = "2430856343";
+google_ad_width = 300;
+google_ad_height = 250;
+google_ad_region = "ad2";
+google_color_link = "3B94D9";
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+
+
+
+
+
+</aside><!-- /sidebar -->
+</div><!-- /container -->
+
+<div class="f-pagetop">
+<p><a href="#pagetop">このページの先頭へ</a></p>
+</div>
+
+<div id="source-box"></div>
+
+<footer>
+<section>
+<p id="ti-f-twilog"><a href="http://twilog.org/">Twilog</a></p>
+<ul>
+	<li><a href="http://twilog.org/page-about">このサイトについて</a></li>
+	<li><a href="http://twilog.org/page-help">ヘルプ</a></li>
+	<li><a href="http://twilog.org/page-rule">利用規約</a></li>
+	<li><a href="http://twilog.org/page-about#author">運営者・お問い合わせ</a></li>
+</ul>
+<p><small>&copy; 2009-2016 <a href="http://www.ropross.net/" target="_blank">ropross.net</a>.
+Created by <a href="http://twitter.com/ropross" target="_blank">@ropross</a></small></p>
+</section>
+</footer>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-16209355-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

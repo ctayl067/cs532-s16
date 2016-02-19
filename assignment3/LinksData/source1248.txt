@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta name="robots" content="nofollow" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, post-check=0, pre-check=0" />
+	<meta http-equiv="Expires" content="Thu, 01 Dec 1994 16:00:00 GMT" />
+	<title>銀狼(@Ginro_X)のプロフィール - ツイフィール</title>
+	<meta property="og:locale" content="ja_JP" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://twpf.jp/Ginro_X" />
+	<meta property="og:image" content="http://pbs.twimg.com/profile_images/696348579636469760/jga1sr93_normal.jpg" />
+	<meta property="og:title" content="銀狼(@Ginro_X)のプロフィール - ツイフィール" />
+	<meta property="og:site_name" content="ツイフィール" />
+	<meta property="og:description" content="@銀狼(@Ginro_X)さんのプロフィールです。" />
+	<meta name="description" content="@銀狼(@Ginro_X)さんのプロフィールです。" />
+	<link rel="alternate" media="handheld" href="http://twpf.jp/Ginro_X" />
+	<link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" type="text/css" href="/css/common.css?1407302277" />
+	<link rel="stylesheet" type="text/css" href="/css/style_default.css?1407302277" />
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.laquu.custom.js?1407302279"></script>
+	<script type="text/javascript" src="/js/style_default.js?1407302280"></script>
+	<script type="text/javascript" src="/js/showFeed.js?1407302280"></script>
+	<style type="text/css">
+		body {
+							background-image: url("http://abs.twimg.com/images/themes/theme1/bg.png");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+						background-color: #C0DEED !important;
+		}
+		#container a { color: #0084B4 !important; }
+	</style>
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push( [ '_setAccount', 'UA-11147513-7' ]);
+	_gaq.push( [ '_trackPageview' ]);
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+<div id="topbar">
+	<div class="wrapper cf">
+		<div id="topbar-logo"><a href="/"><img src="/img/twpf-logo-mini.png?1407302278" alt="" /></a></div>
+		<ul id="topbar-navi">
+			<li><a href="/about">サイトについて</a></li>
+			<li><a href="/search/profile">プロフィール検索</a></li>
+			<li><a href="#">遊ぶ▼</a>
+				<ul>
+					<li><a href="http://tonchi.jp/" target="_blank">大喜利する</a></li>
+					<li><a href="http://qa-note.com/" target="_blank">質問する</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul id="topbar-login-navi">
+							<li><a href="/signup">プロフィール作成</a></li>
+				<li><a href="/login">ログイン</a></li>
+					</ul>
+	</div>
+</div>
+<div id="container">
+	<div id="header">
+	<h1 id="h-profile">Ginro_X's Profile</h1>
+	<div id="twitter-user" class="box">
+		<div class="pad">
+			<table id="user">
+				<tr>
+					<td id="user-icon">
+						<a href="https://twitter.com/Ginro_X" title="Ginro_X" target="_blank" rel="nofollow"><img src="http://pbs.twimg.com/profile_images/696348579636469760/jga1sr93_reasonably_small.jpg" alt="Ginro_X" /></a>					</td>
+					<td id="user-info">
+						<div class="uib-top uib-bottom clearfix">
+							<h2 id="h-screen-name" class="ui-top">ユーザー名</h2>
+							<p class="ui-top"><a href="https://twitter.com/Ginro_X" target="_blank" rel="nofollow">@Ginro_X</a></p>
+						</div>
+						<div class="uib-bottom clearfix">
+							<h2 id="h-name">名前</h2>
+							<p>銀狼</p>
+						</div>
+												<div class="uib-bottom clearfix">
+							<h2 id="h-location">場所</h2>
+							<p>大阪</p>
+						</div>
+																		<div class="uib-bottom clearfix">
+							<h2 id="h-web">Web</h2>
+							<p><a href="http://twpf.jp/Ginro_X" title="http://twpf.jp/Ginro_X" target="_blank" rel="nofollow">http://twpf.jp/Ginro_X</a></p>
+						</div>
+											</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<div id="contents" class="clearfix">
+	<div class="tabs">
+		<ul class="tab">
+			<li><a href="#profile">プロフィール</a></li>
+			<li><a href="#data">データ</a></li>
+								</ul>
+
+		<div id="profile" class="tab-panel">
+			<div class="box">
+				<h2 id="h-description">自己紹介</h2>
+				<div class="pad">Tmbox=http://tmbox.net/user/Ginro_X/sound ケモノ/DTM/EDM/シンセ/ドラム/UTAU/お絵描き アイコンは自作 ヘッダーは@<a class="tweet-url username" href="https://twitter.com/mk121039" target="_blank" rel="nofollow external">mk121039</a> さん</div>
+			</div>
+
+			<div class="box">
+				<h2 id="h-motto">もっと自己紹介</h2>
+				<div class="pad">どうも銀狼です｡･*･:≡(　ε:) <br />
+初めましての人は初めまして。こんにちはです。はい。<br />
+狼が特に大好きで、大好き過ぎて、大大大好き過ぎて、もう、ヤバい高2のケモナーです੯ੁૂ‧̀͡u\<br />
+ただ皆さんの想像する「ヤバい」ではないです<br />
+はい、よくホモかと思われますがホモじゃないです(激おこ<br />
+バイです覚えてくださいテストに出ます(´・ω・｀)<br />
+ただ成りすましは好きだし得意なのでSにもMにもツンデレにもショタにもなりますのでご希望あればどうぞ<br />
+獣人だけじゃなくてリアルの動物も愛してます<br />
+<br />
+ちなみに着ぐるみも好きです！関西でイベントが少ないのが辛いなぁー<br />
+<br />
+あとボーカロイドとかUTAUとか好きです<br />
+ボーカロイドだとIAちゃんが一番好きかなー<br />
+UTAU獣人好きですw<br />
+UTAUライブラリ作り始めました〜⁽⁽٩(๑˃̶͈̀ ᗨ ˂̶͈́)۶⁾⁾<br />
+それから、DTMもしてます！まだまだ初心者ですが(´・ω・｀)<br />
+Cubaseユーザーです<br />
+NIのMASSIVE神っすねw<br />
+DTMの方は、時々Tmboxとかに上げるのでアドバイスしていただけると嬉しいです！！<br />
+打ち込みじゃないのだと、ピアノとドラムしてます！！ただエレキギターの打ち込みがリアルにならないのでギターも始めたいところ(´・ω・｀)<br />
+ロックとかも好きですが、EDM系、dubstepなどゴリゴリなの好きです(＾ω＾≡＾ω＾)<br />
+<br />
+んなわけで、将来着ぐるみでDJしてみたいなとか思ってますw<br />
+<br />
+あと、たまに落書きしてます<br />
+真面目に描くのは中々ないですねーw<br />
+これもアドバイス、感想教えてくれるとものすごく喜びます<br />
+<br />
+甘いもの大好きです！！マカロンなどお菓子系は時々作りますー<br />
+<br />
+逆に嫌いなもので言うとキノコが本当に嫌いで食べられません(´・ω・｀)<br />
+本当気持ち悪くなって2mm角でも吐きます<br />
+<br />
+長々と書きましたが、大体こんな奴です<br />
+質問とかもあればお願いしますー！<br />
+そんな感じでよろしくお願いします！</div>
+			</div>
+
+			
+							<!-- google_ad_section_start -->
+				<div class="box">
+					<h2 id="h-like">好きなものタグ</h2>
+					<div class="pad">
+						<ul class="tagCloud clearfix">
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E9%9F%B3%E6%A5%BD">音楽</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=DTM">DTM</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=dubstep">dubstep</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=EDM">EDM</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=house">house</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=techno">techno</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=Disco">Disco</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=trance">trance</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=electro">electro</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=hands+up">hands up</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=hardcore">hardcore</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E3%83%AD%E3%83%83%E3%82%AF">ロック</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E3%82%B8%E3%83%A3%E3%82%BA">ジャズ</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E3%83%9C%E3%83%BC%E3%82%AB%E3%83%AD%E3%82%A4%E3%83%89">ボーカロイド</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=UTAU">UTAU</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E3%82%B1%E3%83%A2%E3%83%8E">ケモノ</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E7%8B%BC">狼</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84">スイーツ</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E3%81%8A%E7%B5%B5%E3%81%8B%E3%81%8D">お絵かき</a></li>
+													</ul>
+					</div>
+				</div>
+				<!-- google_ad_section_end -->
+			
+			
+					</div>
+
+		<div id="data" class="tab-panel">
+			<div class="box">
+				<h2 id="h-count">カウントデータ</h2>
+				<div class="pad">
+					<table id="tbl-count">
+						<tbody>
+							<tr>
+								<th>フォロー</th><td>1,022</td>
+								<th>お気に入り</th><td>74,912</td>
+							</tr>
+							<tr>
+								<th>フォロワー</th><td>1,002</td>
+								<th>リスト</th><td>30</td>
+							</tr>
+							<tr>
+								<th>ツイート</th><td>80,087</td>
+								<th>平均ツイート</th><td>153.1 / 日</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="box">
+				<h2 id="h-date">日付データ</h2>
+				<div class="pad">
+					<table id="tbl-date">
+						<tbody>
+							<tr>
+								<th>Twitter歴</th><td>523日</td>
+								<th>プロフ作成日</th><td>2015/02/16 03:01</td>
+							</tr>
+							<tr>
+								<th>Twitter登録日</th><td>2014/09/15 00:10</td>
+								<th>プロフ更新日</th><td>2015/08/15 14:59</td>
+							</tr>
+							<tr>
+								<th>API取得完了</th><td>2016/02/11 07:51</td>
+								<th>API取得予定</th><td>2016/02/12 07:51</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+			</div>
+
+</div>
+<div class="pr">	
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8179295293876270";
+/* twpf.jp big */
+google_ad_slot = "5297021042";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<div id="footer">
+	<p>&copy; 2010-2016 <a href="/">ツイフィール</a></p>
+</div></div>
+</body>
+</html>

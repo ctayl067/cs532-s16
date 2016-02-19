@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sem</title>
+<link href="http://static.dragplus.com/dragplus/img/favicon.ico" type="image/x-icon" rel="icon"/>
+<meta name="description" content="sem, Scanning Electron Microscope, Search Engine Marketing, Pollen, TEM, Afm, Blood,">
+<meta name="keywords" content="">
+<link rel='alternate' type='application/rss+xml' title='RSS' href='http://dragplus.com/feed/cat/sem'>
+<meta itemprop="name" content="sem"><meta itemprop="description" content="sem, Scanning Electron Microscope, Search Engine Marketing, Pollen, TEM, Afm, Blood,"><meta itemprop="image" content="http://dragplus.com/upload/avatar/624.jpg">
+
+<meta property="og:title" content="sem" /><meta property="og:type" content="website" /><meta property="og:url" content="http://dragplus.com/browse/sem" /><meta property="og:image" content="http://dragplus.com/upload/avatar/624.jpg" /><meta property="og:image:type" content="image/jpg" /><meta property="og:description" content="sem, Scanning Electron Microscope, Search Engine Marketing, Pollen, TEM, Afm, Blood," /><meta property="fb:app_id" content="233908386733637" />
+
+<meta name="twitter:card" content="summary"><meta name="twitter:url" content="http://dragplus.com/browse/sem"><meta name="twitter:title" content="sem"><meta name="twitter:description" content="sem, Scanning Electron Microscope, Search Engine Marketing, Pollen, TEM, Afm, Blood,"><meta name="twitter:image" content="http://dragplus.com/upload/avatar/624.jpg"><meta name="twitter:domain" content="dragplus.com"><meta name="twitter:site" content="dragplus"><meta name="twitter:creator" content="sem__agent">
+
+<!-- Bootstrap -->
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<link rel="stylesheet" href="http://static.dragplus.com/dragplus/css/style.css" />
+</head>
+<body data-spy="scroll" data-target="#affix-nav">
+
+<div data-spy="affix" id="affix-nav" class="col-xs-1 col-md-2 hidden-sm auto-height"><ul class="nav">
+<li><a href="http://twitter.com/sem__agent"><div class="glyphicon twitter-icon"></div> Twitter</a></li>
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=Dragplus', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Enter your email address:</p><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="Dragplus" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /><p>Delivered by <a href="https://feedburner.google.com" target="_blank">FeedBurner</a></p></form>
+      </div>
+      </ul>
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- r_browse_view -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8528643771541188"
+     data-ad-slot="2008866393"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+  <div class="container">
+    <div class="navbar-inner col-xs-offset-0 col-sm-offset-1"> <a class="navbar-brand" href="http://dragplus.com"><img src="http://static.dragplus.com/dragplus/img/logo.jpg" alt="drgplus" title="dragplus" width="32" height="32" /></a> </div>
+    <div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button>
+</div>
+    <div class="collapse navbar-collapse">
+      <div class="col-xs-1 col-sm-4">
+       <form class="navbar-form" role="search" action="http://dragplus.com/search">
+                <div class="input-group">
+                    <input class="form-control" placeholder="Search" name="q" type="text">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+      </div>
+      <div class="col-xs-0 col-lg-4 pull-right">
+      
+        <div class="btn-group" style="padding-top:8px"> <a href="http://dragplus.com/register" class="btn btn-danger"><span class="glyphicon glyphicon-registration-mark"></span> Register</a> <a href="http://dragplus.com/login" class="btn btn-success"><span class="glyphicon glyphicon-log-in"></span> Login</a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="sub-header collapse navbar-collapse navbar-ex1-collapse" style="position:relative">
+    <div class="container">
+    <div class=" ">
+      <ul class="nav nav-tabs col-xs-offset-0 col-sm-offset-0">
+        <li><a href="http://dragplus.com/users/addurl"><i class="glyphicon glyphicon-plus"></i> Suggest</a></li>
+        <li><a href="http://dragplus.com/browse"><i class="glyphicon glyphicon-list"></i> Browse</a></li>
+        <li><a href="http://dragplus.com/featured"><i class="glyphicon glyphicon-star"></i> Featured</a></li>
+        <li><a href="http://dragplus.com/feed/cat/sem"><i class="fa fa-rss"></i> Sem RSS</a></li>
+	 <li><a href="http://dragplus.com/dir/"><i class="fa fa-bars"></i> Web Directory</a></li>
+		  <li><a href="http://dev.dragplus.com/online-marketing-specialist/"><i class="fa fa-building"></i> We're Hiring</a></li>
+      </ul>
+      </div>
+    </div>
+     <div style="position:absolute;right:10px;top:5px"><div class="g-plusone"></div></div>
+  </div>
+</nav>
+<div class="container-fluid">
+<div class="row visible-sm-* hidden-lg hidden-xs hidden-md">
+<br/><br/><br/><br/>
+</div>
+  <div class="col-xs-10 col-xs-offset-2 col-sm-10 col-sm-offset-2">
+  <ol class="breadcrumb">
+    <li itemscope="" itemtype="http://data-vocabulary.org/breadcrumb"><a itemprop="url" href="http://dragplus.com"><span itemprop="title">Dragplus</span></a></li>
+     <li itemscope="" itemtype="http://data-vocabulary.org/breadcrumb"><a itemprop="url" href="http://dragplus.com/browse"><span itemprop="title">Browse</span></a></li>
+  <li itemscope="" itemtype="http://data-vocabulary.org/breadcrumb" class="active"><span itemprop="title">Sem</span></li>
+</ol>
+   <div class="row"><div class="col-xs-12 col-sm-12 col-md-12"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- r_browseview_top -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8528643771541188"
+     data-ad-slot="3485599594"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br>
+
+	<div id="slogan" class="row"><br><h1>Sem</h1></div>
+ 
+    <div class="row col-xs-12 col-sm-8 col-md-8 col-lg-8">
+    
+     <div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/32637230"><img data-original="" class="img-responsive lazy" alt="Agency Secrets: Adopting Digital Marketing in Healthcare" title="Agency Secrets: Adopting Digital Marketing in Healthcare" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/32637230">
+    <h3>Agency Secrets: Adopting Digital Marketing in Healthcare</h3>
+    </a>
+    <p>&lt;p&gt;For many health care systems, digital marketing can seem like a scary world. Every hospital has its own set of leaders and decision makers, and the strict privacy laws and...&lt;/p&gt;
+&lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;http://www.fathomdelivers.com/blog/healthcare/agency-secrets-adopting-digital-marketing-in-healthcare/&quot;&gt;Agency Secrets: Adopting Digital Marketing in Healthcare&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;http://www.fathomdelivers.com&quot;&gt;Fathom&lt;/a&gt;.&lt;/p&gt;</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://google.com">google.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 321 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li><li><a href="http://dragplus.com/tag/agency/"><span itemprop="keywords">agency</span></a></li><li><a href="http://dragplus.com/tag/adopting/"><span itemprop="keywords">adopting</span></a></li><li><a href="http://dragplus.com/tag/digital/"><span itemprop="keywords">digital</span></a></li><li><a href="http://dragplus.com/tag/marketing/"><span itemprop="keywords">marketing</span></a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/32565815"><img data-original="" class="img-responsive lazy" alt="6 Smart Social Media Solutions For Professional Services Businesses" title="6 Smart Social Media Solutions For Professional Services Businesses" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/32565815">
+    <h3>6 Smart Social Media Solutions For Professional Services Businesses</h3>
+    </a>
+    <p>&lt;p&gt;In light of the broad reach of social media today, many professional service businesses are seeking to engage in a professional manner in the online community for marketing and informational purposes. While there are no hard rules on how professional service businesses, such as financial advisors, attorneys, or realtors, must approach social media marketing and [&amp;#8230;]&lt;/p&gt;
+&lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;http://chaosmap.com/blog/6-smart-social-media-solutions-for-professional-services-businesses/&quot;&gt;6 Smart Social Media Solutions For Professional Services Businesses&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;http://chaosmap.com&quot;&gt;Chaosmap Digital Marketing&lt;/a&gt;.&lt;/p&gt;</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://chaosmap.com">chaosmap.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 152 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/26461353"><img data-original="http://marketingland.com/wp-content/ml-loads/2015/03/cortana-logo-1920.png" class="img-responsive lazy" alt="Google Says Not Worried If Microsoft&#039;s Cortana Comes To Android &amp; iOS" title="Google Says Not Worried If Microsoft&#039;s Cortana Comes To Android &amp; iOS" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/26461353">
+    <h3>Google Says Not Worried If Microsoft&#039;s Cortana Comes To Android &amp; iOS</h3>
+    </a>
+    <p>Company says it&amp;#039;s great to have more focused on predictive search. Google also seems to have no plans to bring Google Now to Windows Phone.</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://sphinn.com">sphinn.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 485 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li><li><a href="http://dragplus.com/tag/google/"><span itemprop="keywords">google</span></a></li><li><a href="http://dragplus.com/tag/says/"><span itemprop="keywords">says</span></a></li><li><a href="http://dragplus.com/tag/not/"><span itemprop="keywords">not</span></a></li><li><a href="http://dragplus.com/tag/worried/"><span itemprop="keywords">worried</span></a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/19770355"><img data-original="" class="img-responsive lazy" alt="25 Inbound Marketing Articles of the Week: January 23, 2014 &#8211; UpCity" title="25 Inbound Marketing Articles of the Week: January 23, 2014 &#8211; UpCity" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/19770355">
+    <h3>25 Inbound Marketing Articles of the Week: January 23, 2014 &#8211; UpCity</h3>
+    </a>
+    <p>Get ready for the long weekend by curling up with our top 25 inbound marketing articles!</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://upcity.com">upcity.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 227 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/15052495"><img data-original="" class="img-responsive lazy" alt="THAT Agency Hires New Search Engine Marketing Specialist" title="THAT Agency Hires New Search Engine Marketing Specialist" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/15052495">
+    <h3>THAT Agency Hires New Search Engine Marketing Specialist</h3>
+    </a>
+    <p>THAT Agency  (http://www.THATAgency.com), a fast-growing Internet marketing firm that caters to small- and mid-sized business-to-business (B2B) and business-to-consumer (B2C) companies, is pleased to announce the recent appointment of Matthew MacDonald to the role of Search Engine Marketing Specialist.</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://prweb.com">prweb.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 191 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li><li><a href="http://dragplus.com/tag/pressrelease/"><span itemprop="keywords">press release</span></a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/13882832"><img data-original="" class="img-responsive lazy" alt="Thirty Top Search Engine Marketing Agencies in India Revealed in November 2014 by topseos.com India | SYS-CON MEDIA" title="Thirty Top Search Engine Marketing Agencies in India Revealed in November 2014 by topseos.com India | SYS-CON MEDIA" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/13882832">
+    <h3>Thirty Top Search Engine Marketing Agencies in India Revealed in November 2014 by topseos.com India | SYS-CON MEDIA</h3>
+    </a>
+    <p>SYS-CON Media, NJ, The world&#039;s leading i-technology media company on breaking technology news.</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://sys-con.com">sys-con.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 147 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li><li><a href="http://dragplus.com/tag/thirty/"><span itemprop="keywords">thirty</span></a></li><li><a href="http://dragplus.com/tag/top/"><span itemprop="keywords">top</span></a></li><li><a href="http://dragplus.com/tag/search/"><span itemprop="keywords">search</span></a></li><li><a href="http://dragplus.com/tag/engine/"><span itemprop="keywords">engine</span></a></li><li><a href="http://dragplus.com/tag/marketing/"><span itemprop="keywords">marketing</span></a></li><li><a href="http://dragplus.com/tag/agencies/"><span itemprop="keywords">agencies</span></a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/13519748"><img data-original="http://searchengineland.com/figz/wp-content/seloads/2014/11/local-seo-2015-ss-1920.jpg" class="img-responsive lazy" alt="Simple Tips To Set The Stage For Local SEO In 2015" title="Simple Tips To Set The Stage For Local SEO In 2015" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/13519748">
+    <h3>Simple Tips To Set The Stage For Local SEO In 2015</h3>
+    </a>
+    <p>After Google&amp;#039;s most recent local algorithm update, the rules have changed for local SEO. Columnist Greg Gifford discusses how you can do well in local search in 2015.</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://searchengineland.com">searchengineland.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 158 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li><li><a href="http://dragplus.com/tag/simple/"><span itemprop="keywords">simple</span></a></li><li><a href="http://dragplus.com/tag/tips/"><span itemprop="keywords">tips</span></a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/13476496"><img data-original="http://cms.searchenginewatch.com/IMG/656/304656/classroom-desks-370x229.jpg?fbrefresh=1" class="img-responsive lazy" alt="3 Lessons Social Advertisers Can Learn From Search Marketing - SEW" title="3 Lessons Social Advertisers Can Learn From Search Marketing - SEW" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/13476496">
+    <h3>3 Lessons Social Advertisers Can Learn From Search Marketing - SEW</h3>
+    </a>
+    <p>As the newer kids on the block, social marketers should embrace the opportunity to take a cue from more seasoned residents of the digital world and adopt some tricks of the trade from SEM.</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://searchenginewatch.com">searchenginewatch.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 180 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li><li><a href="http://dragplus.com/tag/search/"><span itemprop="keyword"><span itemscope="itemscope" itemtype="http://schema.org/Text">search</span></span></a></li><li><a href="http://dragplus.com/tag/engine/"><span itemprop="keyword"><span itemscope="itemscope" itemtype="http://schema.org/Text">engine</span></span></a></li><li><a href="http://dragplus.com/tag/marketing/"><span itemprop="keyword"><span itemscope="itemscope" itemtype="http://schema.org/Text">marketing</span></span></a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/11307047"><img data-original="http://www.marketingtechblog.com/wp-content/uploads/2014/10/2015-b2b-marketing-benchmarks.png" class="img-responsive lazy" alt="2015 B2B Content Marketing Benchmarks, Budgets and Trends | Marketing Technology Blog" title="2015 B2B Content Marketing Benchmarks, Budgets and Trends | Marketing Technology Blog" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/11307047">
+    <h3>2015 B2B Content Marketing Benchmarks, Budgets and Trends | Marketing Technology Blog</h3>
+    </a>
+    <p>2015 B2B Content Marketing Benchmarks, Budgets and Trends by Douglas Karr on Marketing Technology Blog</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://google.com">google.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 102 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li><li><a href="http://dragplus.com/tag/2015/"><span itemprop="keywords">2015</span></a></li><li><a href="http://dragplus.com/tag/b2b/"><span itemprop="keywords">b2b</span></a></li><li><a href="http://dragplus.com/tag/content/"><span itemprop="keywords">content</span></a></li><li><a href="http://dragplus.com/tag/marketing/"><span itemprop="keywords">marketing</span></a></li><li><a href="http://dragplus.com/tag/budgets/"><span itemprop="keywords">budgets</span></a></li><li><a href="http://dragplus.com/tag/and/"><span itemprop="keywords">and</span></a></li><li><a href="http://dragplus.com/tag/trends/"><span itemprop="keywords">trends</span></a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/8482317"><img data-original="" class="img-responsive lazy" alt="Kindle writing challenge week 1: $1,000 on the line | Andrew Wee | Blogging | Affiliate Marketing | Social Traffic Generation | Internet Marketing" title="Kindle writing challenge week 1: $1,000 on the line | Andrew Wee | Blogging | Affiliate Marketing | Social Traffic Generation | Internet Marketing" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/8482317">
+    <h3>Kindle writing challenge week 1: $1,000 on the line | Andrew Wee | Blogging | Affiliate Marketing | Social Traffic Generation | Internet Marketing</h3>
+    </a>
+    <p>BizExcellerated Internet Marketing: Achieve mastery in blogging, affiliate marketing, social traffic generation at Andrew Wee</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://whoisandrewwee.com">whoisandrewwee.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 156 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li><li><a href="http://dragplus.com/tag/kindle/"><span itemprop="keywords">kindle</span></a></li><li><a href="http://dragplus.com/tag/writing/"><span itemprop="keywords">writing</span></a></li><li><a href="http://dragplus.com/tag/challenge/"><span itemprop="keywords">challenge</span></a></li><li><a href="http://dragplus.com/tag/week/"><span itemprop="keywords">week</span></a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- browse_view_inline -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8528643771541188"
+     data-ad-slot="9991511191"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div><div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/7840999"><img data-original="http://www.marketingtechblog.com/wp-content/uploads/2014/08/social-media-monitoring-analytics.png" class="img-responsive lazy" alt="The World of Social Media Monitoring and Analytics | Marketing Technology Blog" title="The World of Social Media Monitoring and Analytics | Marketing Technology Blog" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/7840999">
+    <h3>The World of Social Media Monitoring and Analytics | Marketing Technology Blog</h3>
+    </a>
+    <p>The World of Social Media Monitoring and Analytics by Douglas Karr on Marketing Technology Blog</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://google.com">google.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 226 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li><li><a href="http://dragplus.com/tag/the/"><span itemprop="keywords">the</span></a></li><li><a href="http://dragplus.com/tag/world/"><span itemprop="keywords">world</span></a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/7077287"><img data-original="" class="img-responsive lazy" alt="Google Algorithm Update and Changes Affecting Local Search" title="Google Algorithm Update and Changes Affecting Local Search" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/7077287">
+    <h3>Google Algorithm Update and Changes Affecting Local Search</h3>
+    </a>
+    <p>Google releases an algorithmic update impacting local search and introduces My Business for streamlined local listings on Google and Google Maps.</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://brickmarketing.com">brickmarketing.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 184 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li><li><a href="http://dragplus.com/tag/google/"><span itemprop="keywords">google</span></a></li><li><a href="http://dragplus.com/tag/algorithm/"><span itemprop="keywords">algorithm</span></a></li><li><a href="http://dragplus.com/tag/update/"><span itemprop="keywords">update</span></a></li><li><a href="http://dragplus.com/tag/and/"><span itemprop="keywords">and</span></a></li><li><a href="http://dragplus.com/tag/changes/"><span itemprop="keywords">changes</span></a></li><li><a href="http://dragplus.com/tag/affecting/"><span itemprop="keywords">affecting</span></a></li><li><a href="http://dragplus.com/tag/local/"><span itemprop="keywords">local</span></a></li><li><a href="http://dragplus.com/tag/search/"><span itemprop="keywords">search</span></a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/6993971"><img data-original="http://marketingland.com/wp-content/ml-loads/2013/08/mday240px.jpg" class="img-responsive lazy" alt="Marketing Day: Google Updates Local Search, Content Marketing Metrics &amp; More" title="Marketing Day: Google Updates Local Search, Content Marketing Metrics &amp; More" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/6993971">
+    <h3>Marketing Day: Google Updates Local Search, Content Marketing Metrics &amp; More</h3>
+    </a>
+    <p>Here&amp;#039;s our daily recap of what happened in online marketing today, as reported on Marketing Land and other places across the web. From Marketing Land: Goog</p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://sphinn.com">sphinn.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 161 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li><li><a href="http://dragplus.com/tag/marketing/"><span itemprop="keywords">marketing</span></a></li><li><a href="http://dragplus.com/tag/google/"><span itemprop="keywords">google</span></a></li><li><a href="http://dragplus.com/tag/updates/"><span itemprop="keywords">updates</span></a></li><li><a href="http://dragplus.com/tag/local/"><span itemprop="keywords">local</span></a></li><li><a href="http://dragplus.com/tag/content/"><span itemprop="keywords">content</span></a></li><li><a href="http://dragplus.com/tag/marketing/"><span itemprop="keywords">marketing</span></a></li><li><a href="http://dragplus.com/tag/metrics/"><span itemprop="keywords">metrics</span></a></li><li><a href="http://dragplus.com/tag/more/"><span itemprop="keywords">more</span></a></li></ul></div></div></div>
+  </div>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><a href="http://dragplus.com/link/view/6907044"><img data-original="" class="img-responsive lazy" alt="LinkedIn Direct Sponsored Content skips the page and goes straight to the target" title="LinkedIn Direct Sponsored Content skips the page and goes straight to the target" /></a></div>
+  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><a href="http://dragplus.com/link/view/6907044">
+    <h3>LinkedIn Direct Sponsored Content skips the page and goes straight to the target</h3>
+    </a>
+    <p></p>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Created by: <a href="http://marketingpilgrim.com">marketingpilgrim.com</a></div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> 100% </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><i class="glyphicon glyphicon-user"></i> 153 visit</div>
+    </div>
+	<div class="row"><div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"><div id="navcontainer" itemscope="itemscope" itemtype="http://schema.org/Dataset"><ul class="nav nav-pills"><li class="disabled"><a href="#">Tags:</a></li><li><a href="http://dragplus.com/tag/linkedin/"><span itemprop="keywords">linkedin</span></a></li><li><a href="http://dragplus.com/tag/direct/"><span itemprop="keywords">direct</span></a></li><li><a href="http://dragplus.com/tag/sponsored/"><span itemprop="keywords">sponsored</span></a></li><li><a href="http://dragplus.com/tag/content/"><span itemprop="keywords">content</span></a></li><li><a href="http://dragplus.com/tag/skips/"><span itemprop="keywords">skips</span></a></li><li><a href="http://dragplus.com/tag/the/"><span itemprop="keywords">the</span></a></li><li><a href="http://dragplus.com/tag/page/"><span itemprop="keywords">page</span></a></li><li><a href="http://dragplus.com/tag/and/"><span itemprop="keywords">and</span></a></li><li><a href="http://dragplus.com/tag/goes/"><span itemprop="keywords">goes</span></a></li><li><a href="http://dragplus.com/tag/straight/"><span itemprop="keywords">straight</span></a></li></ul></div></div></div>
+  </div>
+</div>
+
+    </div>
+    <div class="row panel panel-default col-xs-12 col-sm-4 col-md-4 col-lg-4">
+<h3>Latest headlines</h3>
+	<ul class="list-group"><li class="list-group-item"><a href="http://dragplus.com/link/view/29618435">(Video) Goal: Sunderland 1-0 Newcastle: Jermain Defoe nets one of the best strikes of the weekend | CaughtOffside.com</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29606057">Pillow pandemonium in Hong Kong | euronews, no comment</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29611609">Hong Kong builder shortage hits prices and delays key projects - FT.com</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29616520">Hong Kong&#039;s rules, not politics, were what decided ATV&#039;s fate | South China Morning Post</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29610029">Exploring Songs In Native Languages From Mexico, Guatemala, Bolivia : NPR</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29594358">Tourism Industry&rsquo;s Best - Manila Standard Today</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29609982">Travelers' Rest hosting clinic to teach Native American games</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29609994">RRPS offers special services for American Indian youth - Rio Rancho Observer: Local</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29613330">Nokia Lumia 940 specs rumors: Phone to pack cancelled McLaren aka Lumia 1030 features | Christian News on Christian Today</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29592088">AFL 2015 season preview: Hawks, Swans and three others with title aspirations | Sport | The Guardian</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29606589">Current Mortgage Rates May Be Headed For Chaos This Week</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29596801">Home lenders report increased demand</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29615282">BMW Foundation, Adessium Foundation, Omidyar Network with EU Support Venture Philanthropy Meeting | The Soho Loft</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29598339">Cookies must be enabled. |  The Australian</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29609791">Climate Change Makes Droughts in Australia Worse | Climate Central</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29599027">Golf-South Korean Kim takes three-shot lead at ANA Inspiration | Reuters</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29596987">Five observations: Wisconsin Badgers win one for the ages - Men's College Basketball Blog - ESPN</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29602568">Hainan&#039;s medical tourism zone gets a lift from two Hong Kong projects | South China Morning Post</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29596458">From AIIB to CES, Hong Kong needs to be more competitive | South China Morning Post</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29593527">Non-native fish discovered in California's San Joaquin River</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29590472">Hotels invitied to shape Abu Dhabi's tourism industry - eTurboNews.com</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29596802">Is now the time to refinance your mortgage?</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29589375">Counterclockwise: Nokia N8 and Lumia 930, Android minis - GSMArena.com news</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29585004">Toyota's economical Yaris SE gets a refresh</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29570458">Rithm wants to be WhatsApp for music messaging | Digital Trends</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29570468">Who&#039;s Who in music streaming: Tidal, Spotify, Pandora & more | Lubbock Online | Lubbock Avalanche-Journal</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29580359">Anti-oil scaremongering fails - The Orange County Register</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29586207">Best of the Blogs - AI, machine learning, data mining, and big  data | Algorithmic Trading Articles &amp; Financial Insight | Automated Trader</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29578898">The Marietta Daily Journal - Silverton Mortgage president recognized</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29570400">College football: Swiftwater looking to make impact at BHSU, beyond</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29570932">Japan, South Korea to resume security dialogue this month | The Japan Times</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29572868">Baseball’s Milestones Map - NYTimes.com</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29571027">Coderre to talk sustainability in South Korea | Montreal Gazette</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29571428">Gloria Steinem to End War between North and South Korea</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29571859">Arbitrry tax imposed on tourism industry | savannahnow.com</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29584244">Access Denied</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29570961">Settlement reached in Northern California teen suicide</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29575394">German expat returns to Taiwan for love | Society | FOCUS TAIWAN - CNA ENGLISH NEWS</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29571334">Golf prodigy, 7, makes hole-in-one at California golf club</a></li><li class="list-group-item"><a href="http://dragplus.com/link/view/29570955">Hong Kong Celebrates Pillow Fight Day - NBC News</a></li></ul>
+</div>
+<div class="row panel panel-default col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<div class="pagination pagination-centered pb-pagination"><ul><li class="active"><span>1</span></li><li><a href="http://dragplus.com/browse/sem/2">2</a></li><li><a href="http://dragplus.com/browse/sem/3">3</a></li> <li rel="next" class="next "><a href="http://dragplus.com/browse/sem/2">Next →</a></li>&nbsp;<a href="http://dragplus.com/browse/sem/10"></a></ul></div>
+</div>
+	  
+      <br>
+     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- r_browseview_bottom -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8528643771541188"
+     data-ad-slot="4962332795"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</div>
+       <footer>
+      <div class="row">
+       <div class="col-xs-12 col-sm-6 col-md-3"><h3>Information</h3><ul class="nav nav-stacked" style="max-width: 300px;">
+      <li><a href="http://dragplus.com/help/faq">FAQ</a></li>
+      <li><a href="http://dragplus.com/help/terms" title="Terms of Service">Terms of Service</a></li>
+<li><a href="http://dragplus.com/help/policy" title="Privacy Policy">Privacy Policy</a></li>
+<li><a href="http://dragplus.com/help/contact" title="Contact">Contact</a></li>
+    </ul></div>
+          <div class="col-xs-12 col-sm-6 col-md-3"><h3>Blogs & Websites</h3><ul class="nav nav-stacked" style="max-width: 300px;">
+         <li><a href="http://dragplus.com/help/remove" title="widgets" onClick="_gaq.push(['_trackEvent', 'removal', 'link', 'footer',, false]);">Link removal request</a></li>
+      <li><a href="http://dev.dragplus.com/alexa-boost/" title="widgets" onClick="_gaq.push(['_trackEvent', 'footer', 'click', 'alexarank',, false]);">Boost Alexa ranking</a></li>
+      <li><a href="http://dev.dragplus.com/linux-consultant-system-administrator/" title="widgets" onClick="_gaq.push(['_trackEvent', 'footer', 'click', 'linux',, false]);">Linux Consultant and System Administrator</a></li>
+        <li><a href="http://dev.dragplus.com/social-media-management/" title="widgets" onClick="_gaq.push(['_trackEvent', 'footer', 'click', 'social',, false]);">Social Media Management</a></li>
+         <li><a href="http://dev.dragplus.com/web-development/free-consultation/" title="widgets" onClick="_gaq.push(['_trackEvent', 'consultation', 'link', 'footer',, false]);">Free Consultation</a></li>
+    </ul></div>
+      <div class="col-xs-12 col-sm-6 col-md-3"><h3>Follow us</h3><ul class="nav nav-stacked" style="max-width: 300px;">
+    
+    </ul></div>
+      <div class="col-xs-12 col-sm-6 col-md-3"><h3>Offers</h3><ul class="nav nav-stacked" style="max-width: 300px;">
+      <li><a href="https://www.digitalocean.com/?refcode=052f19692600" onClick="_gaq.push(['_trackEvent', 'affilite link', 'digitaloccean', 'homepage', 1, false]);">DragPlus cloudserver powered by @digitalocean</a></li>
+    </ul></div>
+    
+          
+      
+      </div>
+      
+     
+      <section class="row"><h6>Copyright (c) 2014 all right reserved. </h6></section>
+      
+      </footer>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="http://static.dragplus.com/dragplus/js/bootstrap.min.js"></script>
+<script src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js" type="text/javascript"></script>
+<script language="javascript">
+ $(function() {
+      $("img.lazy").lazyload({
+          event : "sporty"
+      });
+  });
+  $(window).bind("load", function() {
+      var timeout = setTimeout(function() { $("img.lazy").trigger("sporty"); }, 5000);
+  });
+</script>
+
+
+   <script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7c33886d4c","applicationID":"6194196","transactionName":"Z11VYBRVWUJWVBIIXF4XdlcSXVhfGHUUDkRDXRhCD1FA","queueTime":0,"applicationTime":320,"atts":"SxpWFlxPSkw=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+</html>

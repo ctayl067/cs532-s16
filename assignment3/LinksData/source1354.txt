@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" class="ancient-ie old-ie no-js" lang="es-ES"
+ xmlns:fb="http://ogp.me/ns/fb#" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" class="ancient-ie old-ie no-js" lang="es-ES"
+ xmlns:fb="http://ogp.me/ns/fb#" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" class="old-ie no-js" lang="es-ES"
+ xmlns:fb="http://ogp.me/ns/fb#" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 9]>
+<html id="ie9" class="old-ie9 no-js" lang="es-ES"
+ xmlns:fb="http://ogp.me/ns/fb#" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html class="no-js" lang="es-ES"
+ xmlns:fb="http://ogp.me/ns/fb#" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="text/javascript">
+function createCookie(a,d,b){if(b){var c=new Date;c.setTime(c.getTime()+864E5*b);b="; expires="+c.toGMTString()}else b="";document.cookie=a+"="+d+b+"; path=/"}function readCookie(a){a+="=";for(var d=document.cookie.split(";"),b=0;b<d.length;b++){for(var c=d[b];" "==c.charAt(0);)c=c.substring(1,c.length);if(0==c.indexOf(a))return c.substring(a.length,c.length)}return null}function eraseCookie(a){createCookie(a,"",-1)}
+function areCookiesEnabled(){var a=!1;createCookie("testing","Hello",1);null!=readCookie("testing")&&(a=!0,eraseCookie("testing"));return a}(function(a){var d=readCookie("devicePixelRatio"),b=void 0===a.devicePixelRatio?1:a.devicePixelRatio;areCookiesEnabled()&&null==d&&(createCookie("devicePixelRatio",b,7),1!=b&&a.location.reload(!0))})(window);
+</script>	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://www.avaticabogados.com/xmlrpc.php" />
+	<!--[if IE]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!-- icon -->
+<link rel="icon" href="http://www.avaticabogados.com/wp-content/uploads/2015/07/avatic-favicon.jpg" type="image/jpeg" />
+<link rel="shortcut icon" href="http://www.avaticabogados.com/wp-content/uploads/2015/07/avatic-favicon.jpg" type="image/jpeg" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46821993-1', 'auto');
+  ga('send', 'pageview');
+
+</script><title>Abogados nuevas tecnologías en Barcelona</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Avatic Abogados nuevas tecnologías, propiedad intelectual, protección de datos lopd, emprendedores y startups tecnológicas en Barcelona"/>
+<link rel="canonical" href="http://www.avaticabogados.com/" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Abogados nuevas tecnologías en Barcelona" />
+<meta property="og:description" content="Avatic Abogados nuevas tecnologías, propiedad intelectual, protección de datos lopd, emprendedores y startups tecnológicas en Barcelona" />
+<meta property="og:url" content="http://www.avaticabogados.com/" />
+<meta property="og:site_name" content="Avatic Abogados" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="Avatic Abogados nuevas tecnologías, propiedad intelectual, protección de datos lopd, emprendedores y startups tecnológicas en Barcelona"/>
+<meta name="twitter:title" content="Abogados nuevas tecnologías en Barcelona"/>
+<meta name="twitter:domain" content="Avatic Abogados"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.avaticabogados.com\/","name":"Avatic Abogados","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.avaticabogados.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Avatic Abogados &raquo; Feed" href="http://www.avaticabogados.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Avatic Abogados &raquo; RSS de los comentarios" href="http://www.avaticabogados.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Avatic Abogados &raquo; Avatic abogados nuevas tecnologías RSS de los comentarios" href="http://www.avaticabogados.com/inicio/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.avaticabogados.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bxslider-css-css'  href='http://www.avaticabogados.com/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/jquery.bxslider.css?ver=4.3.3' type='text/css' media='' />
+<link rel='stylesheet' id='kiwi-logo-carousel-styles-css'  href='http://www.avaticabogados.com/wp-content/plugins/kiwi-logo-carousel/custom-styles.css?ver=4.3.3' type='text/css' media='' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.avaticabogados.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='http://www.avaticabogados.com/wp-content/plugins/recent-tweets-widget/tp_twitter_plugin.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://www.avaticabogados.com/wp-content/plugins/revslider/rs-plugin/css/settings.css?ver=4.6.93' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='js_composer_front-css'  href='http://www.avaticabogados.com/wp-content/plugins/js_composer/assets/css/js_composer.css?ver=4.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-web-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%7CRoboto%3A400%2C500&#038;ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-main-css'  href='http://www.avaticabogados.com/wp-content/themes/dt-the7/css/main.min.css?ver=1.0.0' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='dt-old-ie-css'  href='http://www.avaticabogados.com/wp-content/themes/dt-the7/css/old-ie.min.css?ver=1.0.0' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='dt-awsome-fonts-css'  href='http://www.avaticabogados.com/wp-content/themes/dt-the7/css/font-awesome.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-fontello-css'  href='http://www.avaticabogados.com/wp-content/themes/dt-the7/css/fontello/css/fontello.css?ver=1.0.0' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='dt-custom-old-ie.less-css'  href='http://www.avaticabogados.com/wp-content/uploads/wp-less/dt-the7/css/custom-old-ie-745fd6d72d.css?ver=1.0.0' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='dt-main.less-css'  href='http://www.avaticabogados.com/wp-content/uploads/wp-less/dt-the7/css/main-7e207ac4f0.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-custom.less-css'  href='http://www.avaticabogados.com/wp-content/uploads/wp-less/dt-the7/css/custom-745fd6d72d.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-media.less-css'  href='http://www.avaticabogados.com/wp-content/uploads/wp-less/dt-the7/css/media-7e207ac4f0.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://www.avaticabogados.com/wp-content/themes/dt-the7-child/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ultimate-style-min-css'  href='http://www.avaticabogados.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/ultimate.min.css?ver=3.11.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bsf-Defaults-css'  href='http://www.avaticabogados.com/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cookillian-pub-css'  href='http://www.avaticabogados.com/wp-content/plugins/cookillian/resources/css/pub.css?ver=1.2' type='text/css' media='all' />
+<script type="text/javascript">
+/* <![CDATA[ */
+var cookillian = {"use_async_ajax":false,"scrub_cookies":false};
+/* ]]> */
+</script>
+<script type="text/javascript">/* <![CDATA[ */window.cookillian_ajax={"url":"http:\/\/www.avaticabogados.com\/wp-admin\/admin-ajax.php","action":"cookillian","nonce":"aef4a23697","nonceresponse":"2010cee114"};/* ]]> */</script>
+<script type='text/javascript' src='http://www.avaticabogados.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.avaticabogados.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.avaticabogados.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?ver=4.6.93'></script>
+<script type='text/javascript' src='http://www.avaticabogados.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=4.6.93'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dtLocal = {"passText":"To view this protected post, enter the password below:","moreButtonText":{"loading":"Loading..."},"postID":"5","ajaxurl":"http:\/\/www.avaticabogados.com\/wp-admin\/admin-ajax.php","contactNonce":"015df3567c","ajaxNonce":"3f7e7339d5","pageData":{"type":"page","template":"page","layout":null},"themeSettings":{"smoothScroll":"off","lazyLoading":false,"accentColor":{"mode":"solid","color":"#6e267b"},"mobileHeader":{"firstSwitchPoint":970},"content":{"responsivenessTreshold":970,"textColor":"#777777","headerColor":"#555555"},"stripes":{"stripe1":{"textColor":"#777777","headerColor":"#333333"},"stripe2":{"textColor":"#f9f9f9","headerColor":"#f9f9f9"},"stripe3":{"textColor":"#2f363d","headerColor":"#2f363d"}}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.avaticabogados.com/wp-content/themes/dt-the7/js/above-the-fold.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://www.avaticabogados.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate.min.js?ver=3.11.1'></script>
+<script type='text/javascript' src='http://www.avaticabogados.com/wp-content/plugins/cookillian/resources/js/pub.js?ver=1.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.avaticabogados.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.avaticabogados.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+<link rel='shortlink' href='http://www.avaticabogados.com/' />
+<meta property="fb:app_id" content="405239533007847"/>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-46821993-1');
+			ga('send', 'pageview');
+		</script>
+				<script type="text/javascript">
+			jQuery(document).ready(function() {
+				// CUSTOM AJAX CONTENT LOADING FUNCTION
+				var ajaxRevslider = function(obj) {
+				
+					// obj.type : Post Type
+					// obj.id : ID of Content to Load
+					// obj.aspectratio : The Aspect Ratio of the Container / Media
+					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+					
+					var content = "";
+
+					data = {};
+					
+					data.action = 'revslider_ajax_call_front';
+					data.client_action = 'get_slider_html';
+					data.token = '68eddc7cb1';
+					data.type = obj.type;
+					data.id = obj.id;
+					data.aspectratio = obj.aspectratio;
+					
+					// SYNC AJAX REQUEST
+					jQuery.ajax({
+						type:"post",
+						url:"http://www.avaticabogados.com/wp-admin/admin-ajax.php",
+						dataType: 'json',
+						data:data,
+						async:false,
+						success: function(ret, textStatus, XMLHttpRequest) {
+							if(ret.success == true)
+								content = ret.data;								
+						},
+						error: function(e) {
+							console.log(e);
+						}
+					});
+					
+					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+					 return content;						 
+				};
+				
+				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+				var ajaxRemoveRevslider = function(obj) {
+					return jQuery(obj.selector+" .rev_slider").revkill();
+				};
+
+				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+				var extendessential = setInterval(function() {
+					if (jQuery.fn.tpessential != undefined) {
+						clearInterval(extendessential);
+						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+							// func: the Function Name which is Called once the Item with the Post Type has been clicked
+							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+						}
+					}
+				},30);
+			});
+		</script>
+		<style type="text/css">	.ssba {
+									
+									
+									
+									
+								}
+								.ssba img
+								{
+									width: 35px !important;
+									padding: 6px;
+									border:  0;
+									box-shadow: none !important;
+									display: inline !important;
+									vertical-align: middle;
+								}
+								.ssba, .ssba a
+								{
+									text-decoration:none;
+									border:0;
+									background: none;
+									
+									font-size: 	18px;
+									color: 		#6E267B!important;
+									font-weight: bold;
+								}.ssba_sharecount:after, .ssba_sharecount:before {
+									right: 100%;
+									border: solid transparent;
+									content: " ";
+									height: 0;
+									width: 0;
+									position: absolute;
+									pointer-events: none;
+								}
+								.ssba_sharecount:after {
+									border-color: rgba(224, 221, 221, 0);
+									border-right-color: #f5f5f5;
+									border-width: 5px;
+									top: 50%;
+									margin-top: -5px;
+								}
+								.ssba_sharecount:before {
+									border-color: rgba(85, 94, 88, 0);
+									border-right-color: #e0dddd;
+									border-width: 6px;
+									top: 50%;
+									margin-top: -6px;
+								}
+								.ssba_sharecount {
+									font: 11px Arial, Helvetica, sans-serif;
+
+									padding: 5px;
+									-khtml-border-radius: 6px;
+									-o-border-radius: 6px;
+									-webkit-border-radius: 6px;
+									-moz-border-radius: 6px;
+									border-radius: 6px;
+									position: relative;
+									border: 1px solid #e0dddd;color: #555e58;
+										background: #f5f5f5;
+									}
+									.ssba_sharecount:after {
+										border-right-color: #f5f5f5;
+									}.ssba.ssba-wrap {
+padding: 20px 0px 40px 0px !important;
+}</style>		<script type="text/javascript">
+			dtGlobals.logoEnabled = 0;
+			dtGlobals.logoURL = '';
+			dtGlobals.logoW = '0';
+			dtGlobals.logoH = '0';
+			smartMenu = 1;
+		</script>
+		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://www.avaticabogados.com/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]--><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="home page page-id-5 page-template-default image-blur rollover-show-icon srcset-enabled btn-material style-material-design boxes-transparent-bg light-icons phantom-fade wpb-js-composer js-comp-ver-4.5.2 vc_responsive">
+
+
+
+<div id="page">
+
+
+<!-- left, center, classic, side -->
+
+		<!-- !Header -->
+	<header id="header" class="line-mobile full-width-line show-device-logo show-mobile-logo logo-classic" role="banner"><!-- class="overlap"; class="logo-left", class="logo-center", class="logo-classic" -->
+
+				<!-- !Top-bar -->
+		<div id="top-bar" role="complementary" class="text-small solid-bg top-bar-hide">
+			<div class="wf-wrap">
+				<div class="wf-container-top">
+					<div class="wf-table wf-mobile-collapsed">
+
+						
+						<div class=" wf-td"><span class="mini-contacts phone">93.594.50.70 | 93.179.30.08</span><span class="mini-contacts email">info@avaticabogados.com</span></div>
+						<div class="right-block wf-td"><div class="soc-ico custom-bg hover-custom-bg"><a title="Rss" target="_blank" href="http://www.avaticabogados.com/feed/" class="rss"><span class="assistive-text">Rss</span></a><a title="YouTube" target="_blank" href="#" class="you-tube"><span class="assistive-text">YouTube</span></a><a title="Twitter" target="_blank" href="https://twitter.com/avaticabogados" class="twitter"><span class="assistive-text">Twitter</span></a><a title="Linkedin" target="_blank" href="https://www.linkedin.com/company/avatic-abogados" class="linkedin"><span class="assistive-text">Linkedin</span></a></div></div>
+					</div><!-- .wf-table -->
+				</div><!-- .wf-container-top -->
+			</div><!-- .wf-wrap -->
+		</div><!-- #top-bar -->
+		<div class="wf-wrap">
+			<div class="wf-table">
+
+								<!-- !- Branding -->
+				<div id="branding" class="wf-td">
+
+					<a href="http://www.avaticabogados.com/"><img class=" preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/07/logo-avatic.png 1x" width="219" height="77"  alt="Avatic Abogados" /><img class="mobile-logo preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/07/logo-avatic.png 1x" width="219" height="77"  alt="Avatic Abogados" /></a>
+					<div id="site-title" class="assistive-text">Avatic Abogados</div>
+					<div id="site-description" class="assistive-text">Abogados en Barcelona especialistas en Propiedad Intelectual y Nuevas Tecnologías</div>
+				</div>
+				<div class="right-block text-near-logo text-big wf-td"><div class="text-area"><p>Abogados especialistas en<br />
+Propiedad Intelectual y<br />
+Nuevas Tecnologías</p>
+</div></div>
+			</div><!-- .wf-table -->
+		</div><!-- .wf-wrap -->
+		<div class="navigation-holder">
+			<div class="wf-wrap ">
+
+						<!-- !- Navigation -->
+		<nav id="navigation">
+			<ul id="main-nav" class="fancy-rollovers wf-mobile-hidden downwards-effect">
+<li class=" menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-16 act first level-arrows-on"><a href="http://www.avaticabogados.com/"><span>Inicio</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1671 has-children no-link level-arrows-on"><a href="http://www.avaticabogados.com/el-despacho/" onclick="return false;"><span>El despacho</span></a><div class="sub-nav"><ul>
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-1486 first"><a href="http://www.avaticabogados.com/quienes-somos-avatic-abogados/"><span>Quiénes somos</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-1577"><a href="http://www.avaticabogados.com/clientes/"><span>Clientes</span></a></li> </ul></div></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-30 has-children no-link level-arrows-on"><a href="http://www.avaticabogados.com/servicios/" onclick="return false;"><span>Servicios</span></a><div class="sub-nav"><ul>
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-37 first"><a href="http://www.avaticabogados.com/proteccion-de-datos/"><span>Protección de datos</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="http://www.avaticabogados.com/propiedad-intelectual/"><span>Propiedad intelectual</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="http://www.avaticabogados.com/derecho-de-internet/"><span>Derecho de internet</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://www.avaticabogados.com/prevencion-de-blanqueo-de-capitales/"><span>Prevención de blanqueo de capitales</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="http://www.avaticabogados.com/derecho-empresarial-y-contratacion-mercantil/"><span>Derecho empresarial y contratación mercantil</span></a></li> </ul></div></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-1280 level-arrows-on"><a href="http://www.avaticabogados.com/emprendedores-y-startups/"><span>Emprendedores y Startups</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-29 has-children no-link level-arrows-on"><a href="http://www.avaticabogados.com/formacion/" onclick="return false;"><span>Formación</span></a><div class="sub-nav"><ul>
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-63 first"><a href="http://www.avaticabogados.com/formacion-en-proteccion-de-datos/"><span>Formación en protección de datos</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://www.avaticabogados.com/formacion-en-propiedad-intelectual/"><span>Formación en propiedad intelectual</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="http://www.avaticabogados.com/formacion-en-comercio-electronico/"><span>Formación en comercio electrónico</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="http://www.avaticabogados.com/formacion-en-prevencion-de-blanqueo-de-capitales/"><span>Formación en prevención de blanqueo de capitales</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="http://www.avaticabogados.com/formacion-a-medida/"><span>Formación a medida</span></a></li> </ul></div></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-28 level-arrows-on"><a href="http://www.avaticabogados.com/consulta-online/"><span>Consulta online</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-15 level-arrows-on"><a href="http://www.avaticabogados.com/blog/"><span>Blog</span></a></li> 
+<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-27 level-arrows-on"><a href="http://www.avaticabogados.com/contacto/"><span>Contacto</span></a></li> 
+</ul>
+				<a href="#show-menu" rel="nofollow" id="mobile-menu" class="accent-bg">
+					<span class="menu-open">Menu</span>
+					<span class="menu-back">back</span>
+					<span class="wf-phone-visible">&nbsp;</span>
+				</a>
+
+			
+			
+		</nav>
+
+			
+			</div><!-- .wf-wrap -->
+		</div><!-- .navigation-holder -->
+
+	</header><!-- #masthead -->
+
+	
+	
+	<div id="main" class="sidebar-none"><!-- class="sidebar-none", class="sidebar-left", class="sidebar-right" -->
+
+		
+		<div class="main-gradient"></div>
+		<div class="wf-wrap">
+			<div class="wf-container-main">
+
+				
+	
+		
+			<div id="content" class="content" role="main">
+
+			
+					
+					<div class="wpb_row wf-container" style="margin-top: 0px;margin-bottom: 0px" >
+	<div class="vc_col-sm-12 wpb_column column_container ">
+		<div class="wpb_wrapper">
+			<div class="wpb_revslider_element wpb_content_element">
+<div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;padding:0px;margin-top:0px;margin-bottom:0px;max-height:438px;">
+<!-- START REVOLUTION SLIDER 4.6.93 fullwidth mode -->
+	<div id="rev_slider_2_1" class="rev_slider fullwidthabanner" style="display:none;max-height:438px;height:438px;">
+<ul>	<!-- SLIDE  -->
+	<li data-transition="slideleft" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/slide1.jpg"  alt="slide1"  data-bgposition="center top" data-bgfit="contain" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="slideleft" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/slide2.jpg"  alt="slide2"  data-bgposition="center top" data-bgfit="contain" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="slideleft" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/slide3.jpg"  alt="slide3"  data-bgposition="center top" data-bgfit="contain" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="slideleft" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/slide4.jpg"  alt="slide4"  data-bgposition="center top" data-bgfit="contain" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="slideleft" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/slide5.jpg"  alt="slide5"  data-bgposition="center top" data-bgfit="contain" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+</ul>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+			
+
+			<style scoped></style>
+
+			<script type="text/javascript">
+
+				/******************************************
+					-	PREPARE PLACEHOLDER FOR SLIDER	-
+				******************************************/
+				
+
+				var setREVStartSize = function() {
+					var	tpopt = new Object();
+						tpopt.startwidth = 1200;
+						tpopt.startheight = 438;
+						tpopt.container = jQuery('#rev_slider_2_1');
+						tpopt.fullScreen = "off";
+						tpopt.forceFullWidth="off";
+
+					tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+				};
+
+				/* CALL PLACEHOLDER */
+				setREVStartSize();
+
+
+				var tpj=jQuery;
+				tpj.noConflict();
+				var revapi2;
+
+				tpj(document).ready(function() {
+
+				if(tpj('#rev_slider_2_1').revolution == undefined){
+					revslider_showDoubleJqueryError('#rev_slider_2_1');
+				}else{
+				   revapi2 = tpj('#rev_slider_2_1').show().revolution(
+					{	
+												dottedOverlay:"none",
+						delay:4000,
+						startwidth:1200,
+						startheight:438,
+						hideThumbs:200,
+
+						thumbWidth:100,
+						thumbHeight:50,
+						thumbAmount:5,
+						
+												
+						simplifyAll:"off",
+
+						navigationType:"bullet",
+						navigationArrows:"solo",
+						navigationStyle:"round-old",
+
+						touchenabled:"on",
+						onHoverStop:"on",
+						nextSlideOnWindowFocus:"off",
+
+						swipe_threshold: 75,
+						swipe_min_touches: 1,
+						drag_block_vertical: false,
+						
+												
+												
+						keyboardNavigation:"off",
+
+						navigationHAlign:"center",
+						navigationVAlign:"bottom",
+						navigationHOffset:0,
+						navigationVOffset:20,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+
+						shadow:0,
+						fullWidth:"on",
+						fullScreen:"off",
+
+												spinner:"off",
+												
+						stopLoop:"off",
+						stopAfterLoops:-1,
+						stopAtSlide:-1,
+
+						shuffle:"off",
+
+						autoHeight:"off",
+						forceFullWidth:"off",
+						
+						
+						hideTimerBar:"on",
+						hideThumbsOnMobile:"off",
+						hideNavDelayOnMobile:1500,
+						hideBulletsOnMobile:"off",
+						hideArrowsOnMobile:"off",
+						hideThumbsUnderResolution:0,
+
+												hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						startWithSlide:0					});
+
+
+
+									}
+				});	/*ready*/
+
+			</script>
+
+
+			</div><!-- END REVOLUTION SLIDER --></div>
+<div class="hr-thin style-line"></div>	<div class="vc_empty_space"  style="height: 30px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+
+		</div> 
+	</div> 
+</div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="4.5.2"  data-theme-support=""    ></div><div class="wpb_row wf-container benefits-home" style="margin-top: 0px;margin-bottom: 0px" >
+	<div class="vc_col-sm-12 wpb_column column_container ">
+		<div class="wpb_wrapper">
+			<section id="benefits-grid-1" class="benefits-grid wf-container light-bg light-hover-bg custom-icon-color custom-icon-hover-color static-line" data-width="165px" data-columns="6"><style type="text/css">#benefits-grid-1 .benefits-grid-ico > .fa { font-size: 40px; line-height: 40px; }#benefits-grid-1.custom-icon-color .benefits-grid-ico > .fa,
+					#benefits-grid-1.custom-icon-color .benefits-grid-ico > .fa:before { color: #6e267b; }#benefits-grid-1.custom-icon-hover-color a.benefits-grid-ico:hover > .fa,
+					#benefits-grid-1.custom-icon-hover-color a.benefits-grid-ico:hover > .fa:before { color: #a5acaf; -webkit-text-fill-color: #a5acaf; }</style><div class="wf-cell"><div><div class="text-small"><div class="line-decoration"><a href="http://www.avaticabogados.com/derecho-de-internet/" class="benefits-grid-ico fadeInDown animate-element"><i class="fa icon-mobile"></i></a><h4 class="benefit-title"><a href="http://www.avaticabogados.com/derecho-de-internet/">Apps</a></h4></div><p>Te ayudamos para que sepas cómo proteger tu app y a tus usuarios y te respaldamos con todos los avisos legales, trámites y documentos que necesitas tener en cuenta para ello.</p>
+</div></div></div><div class="wf-cell"><div><div class="text-small"><div class="line-decoration"><a href="http://www.avaticabogados.com/derecho-de-internet/" class="benefits-grid-ico fadeInDown animate-element"><i class="fa icon-basket"></i></a><h4 class="benefit-title"><a href="http://www.avaticabogados.com/derecho-de-internet/">Tiendas online</a></h4></div><p>Confeccionamos los avisos legales, políticas de privacidad y cookies, términos de uso, normas de la comunidad y condiciones de venta de tu tienda online.</p>
+</div></div></div><div class="wf-cell"><div><div class="text-small"><div class="line-decoration"><a href="#" class="benefits-grid-ico fadeInDown animate-element"><i class="fa icon-users"></i></a><h4 class="benefit-title"><a href="#">Protección de datos</a></h4></div><p>Te asesoramos para que tu startup o negocio cumpla con la LOPD. Contamos con amplia experiencia en la realización de auditorías de protección de datos.</p>
+</div></div></div><div class="wf-cell"><div><div class="text-small"><div class="line-decoration"><a href="http://www.avaticabogados.com/derecho-de-internet/" class="benefits-grid-ico fadeInDown animate-element"><i class="fa icon-star"></i></a><h4 class="benefit-title"><a href="http://www.avaticabogados.com/derecho-de-internet/">Registro de Marcas</a></h4></div><p>Te orientamos sobre cuál es la mejor vía para el registro de tu marca o nombre comercial y gestionamos todo el proceso hasta que la obtengas.</p>
+</div></div></div><div class="wf-cell"><div><div class="text-small"><div class="line-decoration"><a href="#" class="benefits-grid-ico fadeInDown animate-element"><i class="fa icon-doc-text"></i></a><h4 class="benefit-title"><a href="#">Modelos de contratos</a></h4></div><p>Confeccionamos cualquier contrato a medida, como contratos de desarrollo de software o web, aplicaciones móviles, cesión de derechos, licencia de uso o de marca o publicidad.</p>
+</div></div></div><div class="wf-cell"><div><div class="text-small"><div class="line-decoration"><a href="http://www.avaticabogados.com/formacion-a-medida/" class="benefits-grid-ico fadeInDown animate-element"><i class="fa icon-graduation-cap"></i></a><h4 class="benefit-title"><a href="http://www.avaticabogados.com/formacion-a-medida/">Formación</a></h4></div><p>Impartimos formación en: protección de datos y LSSI, requisitos legales de una página web o app, cómo proteger tu marca o propiedad intelectual o redes sociales.</p>
+</div></div></div></section>	<div class="vc_empty_space"  style="height: 30px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+
+		</div> 
+	</div> 
+</div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="4.5.2"  data-theme-support=""    ></div><div class="wpb_row wf-container" style="margin-top: 0px;margin-bottom: 0px" >
+	<div class="vc_col-sm-12 wpb_column column_container ">
+		<div class="wpb_wrapper">
+				<div class="vc_empty_space"  style="height: 20px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+<section class="shortcode-action-box box-style-table no-line"><div class="text-big"><h2 style="font-size: 30px; font-weight: normal;">Abogados Nuevas Tecnologías y Propiedad Intelectual<div class="gap" style="line-height: 10px; height: 10px;"></div></h2>
+<p><span style="color: #ffffff; font-size: 20px; padding-right: 40px;">Si tienes o quieres crear una tienda online, una página web, una app o un blog y te preocupa qué requisitos legales debes tener en cuenta, contacta con nosotros y te asesoraremos de manera personalizada.</span></p>
+</div><div class="shortcode-action-container action-button"><a href="/contacto" class="dt-btn-l dt-btn">Contactar</a></div></section>
+		</div> 
+	</div> 
+</div><!-- Row Backgrounds --><div class="upb_color" data-bg-override="full" data-bg-color="rgba(110,38,123,0.3)" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="4.5.2"  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    ></div><div class="wpb_row wf-container" style="margin-top: 0px;margin-bottom: 0px" >
+	<div class="vc_col-sm-6 wpb_column column_container ">
+		<div class="wpb_wrapper">
+				<div class="vc_empty_space"  style="height: 30px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+<div class="dt-fancy-separator h2-size title-color" style="width: 80%;"><div class="dt-fancy-title"><span class="separator-holder separator-left"></span>Sobre nosotros<span class="separator-holder separator-right"></span></div></div>	<div class="vc_empty_space"  style="height: 20px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+
+	<div class="wpb_text_column wpb_content_element  ">
+		<div class="wpb_wrapper">
+			<p>En <strong>Avatic Abogados</strong> trabajamos con <strong>emprendedores</strong> y <strong>startups</strong> desde el inicio, asesorándoles y guiándoles en todo el proceso que tenga que ver con el <strong>derecho mercantil</strong> o societario, la <strong>propiedad intelectual</strong>, el <strong>registro de marcas</strong> y/o patentes, aspectos relacionados con las <strong>nuevas tecnologías</strong> y la <strong>protección de datos</strong>, ofreciendo también charlas, formación y conferencias relacionadas con estos aspectos legales.</p>
+
+		</div> 
+	</div> 	<div class="vc_empty_space"  style="height: 30px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+
+		</div> 
+	</div> 
+
+	<div class="vc_col-sm-6 wpb_column column_container ">
+		<div class="wpb_wrapper">
+				<div class="vc_empty_space"  style="height: 30px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+<div class="dt-fancy-separator h2-size title-color" style="width: 80%;"><div class="dt-fancy-title"><span class="separator-holder separator-left"></span>Qué dicen nuestros clientes<span class="separator-holder separator-right"></span></div></div>	<div class="vc_empty_space"  style="height: 20px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+<section class="testimonial-item testimonial-item-slider"><ul class="testimonials slider-content rsCont" data-autoslide="6000">
+<li><article>
+	<div class="testimonial-content"><p>Ana y Vanesa, dos profesionales del más alto nivel. Captan las necesidades de forma inmediata y dan solución adecuada a cada situación. Muy recomendable. Seguiremos trabajando juntos</p>
+</div>
+	<div class="testimonial-vcard"><div class="wf-td"><span class="alignleft"><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2016/02/ramon-martin-ges-emer-60x60.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2016/02/ramon-martin-ges-emer-120x120.jpg 2x" width="60" height="60"  title="ramon-martin-ges-emer" alt="" /></span></div><div class="wf-td"><span class="text-primary">Ramón Martín</span><br /><span class="text-secondary color-secondary">CEO de Ges-Emer</span></div></div>
+</article>
+</li><li><article>
+	<div class="testimonial-content"><p><em>Lo que me convenció para trabajar con AVATIC fue su Equipo que, ante todo, escucha y, de manera cercana, cordial y clara, ofrece soluciones específicas para mi actividad. Destacaría la vocación de servicio de persona a persona, sin olvidar el altísimo nivel profesional.</em></p>
+</div>
+	<div class="testimonial-vcard"><div class="wf-td"><a href="http://estherhuelamo.com/" class="rollover" target="_blank"><span class="alignleft"><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/08/esther_huelamo-60x60.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/08/esther_huelamo-120x120.jpg 2x" width="60" height="60"  title="esther_huelamo" alt="" /></span></a></div><div class="wf-td"><a href="http://estherhuelamo.com/" class="text-primary" target="_blank"><span>Esther Huélamo</span></a><br /><span class="text-secondary color-secondary">Consultora en hostelería</span></div></div>
+</article>
+</li><li><article>
+	<div class="testimonial-content"><p><em>Trabajan rápido y de manera eficiente, buscando siempre maneras innovadoras de solucionar los problemas.</em></p>
+</div>
+	<div class="testimonial-vcard"><div class="wf-td"><a href="http://datosphera.com/" class="rollover" target="_blank"><span class="alignleft"><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/07/madalina-datosphera-60x60.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/07/madalina-datosphera-118x118.jpg 2x" width="60" height="60"  title="madalina-datosphera" alt="" /></span></a></div><div class="wf-td"><a href="http://datosphera.com/" class="text-primary" target="_blank"><span>Madalina Burghelea</span></a><br /><span class="text-secondary color-secondary">CEO de Datosphera</span></div></div>
+</article>
+</li><li><article>
+	<div class="testimonial-content"><p><em>Excelencia más allá de la profesionalidad y un espíritu de servicio que vale oro.</em></p>
+</div>
+	<div class="testimonial-vcard"><div class="wf-td"><a href="http://www.zyrcle.com/es/" class="rollover" target="_blank"><span class="alignleft"><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/07/Yago-Cyrcle-60x60.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/07/Yago-Cyrcle-120x120.jpg 2x" width="60" height="60"  title="Yago-Cyrcle" alt="" /></span></a></div><div class="wf-td"><a href="http://www.zyrcle.com/es/" class="text-primary" target="_blank"><span>Yago Bigatà Estruch</span></a><br /><span class="text-secondary color-secondary">CEO de Zyrcle Technology</span></div></div>
+</article>
+</li><li><article>
+	<div class="testimonial-content"><p><em>Describiría el trabajo recibido con una palabra: Profesionalidad</em></p>
+</div>
+	<div class="testimonial-vcard"><div class="wf-td"><a href="http://sharingacademy.com/" class="rollover" target="_blank"><span class="alignleft"><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/07/Jordi-Sharing-60x60.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/07/Jordi-Sharing-120x120.jpg 2x" width="60" height="60"  title="Jordi-Sharing" alt="" /></span></a></div><div class="wf-td"><a href="http://sharingacademy.com/" class="text-primary" target="_blank"><span>Jordi Llonch</span></a><br /><span class="text-secondary color-secondary">CEO de Sharing Academy</span></div></div>
+</article>
+</li><li><article>
+	<div class="testimonial-content"><p><em>Profesionalidad, eficacia y rapidez.</em></p>
+</div>
+	<div class="testimonial-vcard"><div class="wf-td"><a href="http://meserco.com/" class="rollover" target="_blank"><span class="alignleft"><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/07/rafael-garcia-meserco-60x60.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/07/rafael-garcia-meserco-120x120.jpg 2x" width="60" height="60"  title="rafael-garcia-meserco" alt="" /></span></a></div><div class="wf-td"><a href="http://meserco.com/" class="text-primary" target="_blank"><span>Rafael García Jovani</span></a><br /><span class="text-secondary color-secondary">CEO de Meserco</span></div></div>
+</article>
+</li><li><article>
+	<div class="testimonial-content"><p><em>Increíble capacidad de trabajo, velocidad y efectividad. Recomendables 100%</em></p>
+</div>
+	<div class="testimonial-vcard"><div class="wf-td"><a href="http://www.quizlyse.com/es/" class="rollover" target="_blank"><span class="alignleft"><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/07/diego-quizlyse-60x60.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/07/diego-quizlyse-120x120.jpg 2x" width="60" height="60"  title="diego-quizlyse" alt="" /></span></a></div><div class="wf-td"><a href="http://www.quizlyse.com/es/" class="text-primary" target="_blank"><span>Diego Torres</span></a><br /><span class="text-secondary color-secondary">CEO de Quizlyse Solutions</span></div></div>
+</article>
+</li><li><article>
+	<div class="testimonial-content"><p><em>Totalmente recomendables ya que identifican de inmediato las necesidades del cliente. Ágiles, efectivas y con presupuestos realmente competitivos.</em></p>
+</div>
+	<div class="testimonial-vcard"><div class="wf-td"><a href="http://www.print-makers.com/" class="rollover" target="_blank"><span class="alignleft"><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/07/fermin-printmakers-60x60.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/07/fermin-printmakers-120x120.jpg 2x" width="60" height="60"  title="fermin-printmakers" alt="" /></span></a></div><div class="wf-td"><a href="http://www.print-makers.com/" class="text-primary" target="_blank"><span>Fermín Estivill</span></a><br /><span class="text-secondary color-secondary">CEO de Printmakers</span></div></div>
+</article>
+</li></ul>
+</section>	<div class="vc_empty_space"  style="height: 30px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+
+		</div> 
+	</div> 
+</div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="4.5.2"  data-theme-support=""    ></div><div class="wpb_row wf-container entradas-home" style="margin-top: 0px;margin-bottom: 0px" >
+	<div class="vc_col-sm-12 wpb_column column_container ">
+		<div class="wpb_wrapper">
+				<div class="vc_empty_space"  style="height: 30px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+<div class="dt-fancy-separator h2-size title-color" style="width: 50%;"><div class="dt-fancy-title"><span class="separator-holder separator-left"></span>Últimos posts<span class="separator-holder separator-right"></span></div></div>	<div class="vc_empty_space"  style="height: 30px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+<div class="dt-blog-shortcode slider-wrapper arrows-light description-under-image" data-padding-side="30" data-autoslide="true" data-delay="6000" data-loop="true"><div class="frame fullwidth-slider"><ul class="clearfix"><li class="fs-entry">
+
+<article class="post post-1816 type-post status-publish format-standard has-post-thumbnail hentry category-privacidad category-proteccion-datos tag-derecho-a-la-intimidad tag-privacidad tag-proteccion-de-datos description-off">
+
+	<div class="blog-media wf-td"><p><a href="http://www.avaticabogados.com/dia-de-la-privacidad-y-su-significado/" class="alignnone rollover" ><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2016/01/privacy-270x180.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2016/01/privacy-399x266.jpg 2x" alt="" title="privacy" width="270" height="180"  /></a></p></div><div class="blog-content wf-td">
+
+		<h2 class="entry-title">
+		<a href="http://www.avaticabogados.com/dia-de-la-privacidad-y-su-significado/" title="Día de la Privacidad y su significado" rel="bookmark">Día de la Privacidad y su significado</a>
+	</h2>
+
+	<p>¿Qué es la privacidad y por qué es importante? La privacidad es un derecho fundamental que surge del derecho a la intimidad que tenemos todas las personas físicas o particulares, reconocido en la Declaración Universal de Derechos Humanos, un derecho que ha evolucionado y cambiado todavía más en los últimos tiempos debido a la incidencia de las&hellip;</p>
+
+	
+	<div class="entry-meta"><a href="http://www.avaticabogados.com/2016/01/28/" title="10:27 am" class="data-link" rel="bookmark"><time class="entry-date updated" datetime="2016-01-28T10:27:26+00:00">28 enero, 2016</time></a></div>
+	
+</div>
+</article><!-- #post-1816 -->
+
+</li><li class="fs-entry">
+
+<article class="post post-1795 type-post status-publish format-standard has-post-thumbnail hentry category-noticias-eventos-avaticabogados category-marcas category-propiedad-intelectual category-proteccion-datos category-info-startups tag-aspectos-legales tag-contratos tag-emprendedores tag-marcas tag-patentes tag-proteccion-de-datos tag-startups tag-yuzz-sant-cugat description-off">
+
+	<div class="blog-media wf-td"><p><a href="http://www.avaticabogados.com/emprendedores-y-aspectos-legales/" class="alignnone rollover" ><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2016/01/emprendedores-yuzz-sant-cugat-avatic-abogados-270x180.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2016/01/emprendedores-yuzz-sant-cugat-avatic-abogados-540x360.jpg 2x" alt="" title="emprendedores-yuzz-sant-cugat-avatic-abogados" width="270" height="180"  /></a></p></div><div class="blog-content wf-td">
+
+		<h2 class="entry-title">
+		<a href="http://www.avaticabogados.com/emprendedores-y-aspectos-legales/" title="Emprendedores y aspectos legales" rel="bookmark">Emprendedores y aspectos legales</a>
+	</h2>
+
+	<p>Aspectos legales en Yuzz Sant Cugat Una ocasión más, ayer, las abogadas del despacho Ana M. Vega y Vanesa Alarcón, tuvieron la oportunidad de explicar, a grandes rasgos, en el programa Yuzz Sant Cugat, los aspectos legales a tener en cuenta, relacionados con la propiedad intelectual y las nuevas tecnologías y que son claves para&hellip;</p>
+
+	
+	<div class="entry-meta"><a href="http://www.avaticabogados.com/2016/01/27/" title="9:38 pm" class="data-link" rel="bookmark"><time class="entry-date updated" datetime="2016-01-27T21:38:13+00:00">27 enero, 2016</time></a></div>
+	
+</div>
+</article><!-- #post-1795 -->
+
+</li><li class="fs-entry">
+
+<article class="post post-1778 type-post status-publish format-standard has-post-thumbnail hentry category-comercio-electronico category-marcas category-privacidad category-propiedad-intelectual category-proteccion-datos category-info-startups description-off">
+
+	<div class="blog-media wf-td"><p><a href="http://www.avaticabogados.com/consejos-legales-para-emprendedores/" class="alignnone rollover" ><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/12/3-consejos-legales-para-empresas-270x180.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/12/3-consejos-legales-para-empresas-540x360.jpg 2x" alt="" title="3 consejos legales para empresas" width="270" height="180"  /></a></p></div><div class="blog-content wf-td">
+
+		<h2 class="entry-title">
+		<a href="http://www.avaticabogados.com/consejos-legales-para-emprendedores/" title="Consejos legales para emprendedores" rel="bookmark">Consejos legales para emprendedores</a>
+	</h2>
+
+	<p>6 consejos clave para 2016 Como te hemos explicado en la sección #LegalSlang del programa de radio dirigido al mundo 2.0 SocialSlang, antes de finalizar este 2015, hemos preparado 12 lecciones legales para emprendedores. Las seis a destacar correspondientes a 2015 las podrás escuchar aquí; mientras que de cara al 2016, también hemos previsto una&hellip;</p>
+
+	
+	<div class="entry-meta"><a href="http://www.avaticabogados.com/2015/12/21/" title="9:12 pm" class="data-link" rel="bookmark"><time class="entry-date updated" datetime="2015-12-21T21:12:11+00:00">21 diciembre, 2015</time></a></div>
+	
+</div>
+</article><!-- #post-1778 -->
+
+</li><li class="fs-entry">
+
+<article class="post post-1766 type-post status-publish format-standard has-post-thumbnail hentry category-propiedad-intelectual category-info-startups tag-acuerdo-de-colaboracion tag-confidencialidad tag-contrato-con-proveedores tag-contrato-de-desarrollo-de-aplicacion tag-contrato-de-prestacion-de-servicios tag-derechos-de-autor tag-derechos-de-explotacion tag-licencia-de-marca tag-marketing tag-publicidad description-off">
+
+	<div class="blog-media wf-td"><p><a href="http://www.avaticabogados.com/contrato-con-proveedores/" class="alignnone rollover" ><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/12/aspectos-legales-contrato-con-proveedores-270x180.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/12/aspectos-legales-contrato-con-proveedores-540x360.jpg 2x" alt="" title="aspectos-legales-contrato-con-proveedores" width="270" height="180"  /></a></p></div><div class="blog-content wf-td">
+
+		<h2 class="entry-title">
+		<a href="http://www.avaticabogados.com/contrato-con-proveedores/" title="Contrato con proveedores" rel="bookmark">Contrato con proveedores</a>
+	</h2>
+
+	<p>Aspectos legales clave en los contratos con proveedores Seguramente te ha sucedido más de una ocasión. Estás emprendiendo y necesitas que alguien te ayude para desarrollar algo que tú mismo no puedes llevar a cabo por desconocimiento o por falta de tiempo. Por ejemplo, quieres crear una tienda online, desarrollar una aplicación o simplemente disponer de&hellip;</p>
+
+	
+	<div class="entry-meta"><a href="http://www.avaticabogados.com/2015/12/18/" title="8:22 pm" class="data-link" rel="bookmark"><time class="entry-date updated" datetime="2015-12-18T20:22:39+00:00">18 diciembre, 2015</time></a></div>
+	
+</div>
+</article><!-- #post-1766 -->
+
+</li><li class="fs-entry">
+
+<article class="post post-1739 type-post status-publish format-standard has-post-thumbnail hentry category-noticias-eventos-avaticabogados category-big-data category-privacidad category-info-startups tag-avatic-abogados tag-big-data tag-big-data-week tag-incubio tag-privacidad tag-propiedad-intelectual tag-proteccion-de-datos tag-retos-legales-del-big-data tag-startups description-off">
+
+	<div class="blog-media wf-td"><p><a href="http://www.avaticabogados.com/los-retos-legales-del-big-data/" class="alignnone rollover" ><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/11/Captura-de-pantalla-2015-11-25-a-las-11.05.44-270x180.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/11/Captura-de-pantalla-2015-11-25-a-las-11.05.44-540x360.jpg 2x" alt="" title="Captura de pantalla 2015-11-25 a las 11.05.44" width="270" height="180"  /></a></p></div><div class="blog-content wf-td">
+
+		<h2 class="entry-title">
+		<a href="http://www.avaticabogados.com/los-retos-legales-del-big-data/" title="Los retos legales del Big Data" rel="bookmark">Los retos legales del Big Data</a>
+	</h2>
+
+	<p>Esta tarde nuestras socias Ana M. Vega y Vanesa Alarcón estarán participando en el evento organizado por INCUBIO denominado “How Our Startups Use Big Data” con ocasión de la celebración de la Big Data Week. La intervención que realizarán nuestras abogadas y socias estará relacionada con los retos legales que deben afrontar las startups cuando&hellip;</p>
+
+	
+	<div class="entry-meta"><a href="http://www.avaticabogados.com/2015/11/25/" title="11:08 am" class="data-link" rel="bookmark"><time class="entry-date updated" datetime="2015-11-25T11:08:43+00:00">25 noviembre, 2015</time></a></div>
+	
+</div>
+</article><!-- #post-1739 -->
+
+</li><li class="fs-entry">
+
+<article class="post post-1728 type-post status-publish format-standard has-post-thumbnail hentry category-noticias-eventos-avaticabogados category-e-commerce category-comercio-electronico category-privacidad tag-aspectos-legales tag-big-data tag-emprendedores tag-firma-electronica tag-firma-electronica-avanzada tag-privacidad tag-safe-harbor tag-signaturit description-off">
+
+	<div class="blog-media wf-td"><p><a href="http://www.avaticabogados.com/avatic-abogados-colaborara-con-signaturit/" class="alignnone rollover" ><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/11/Acuerdo-de-colaboración-Avatic-Signaturit-270x180.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/11/Acuerdo-de-colaboración-Avatic-Signaturit-400x266.jpg 2x" alt="" title="Acuerdo-de-colaboración-Avatic-Signaturit" width="270" height="180"  /></a></p></div><div class="blog-content wf-td">
+
+		<h2 class="entry-title">
+		<a href="http://www.avaticabogados.com/avatic-abogados-colaborara-con-signaturit/" title="Avatic Abogados colaborará con Signaturit" rel="bookmark">Avatic Abogados colaborará con Signaturit</a>
+	</h2>
+
+	<p>Nuestro despacho, Avatic Abogados y la empresa Signaturit, que ofrece soluciones para la firma electrónica avanzada de documentos, han firmado un convenio de colaboración por el que el despacho publicará mensualmente en el blog de Signaturit un artículo relacionado con las nuevas tecnologías y los aspectos legales a tener en cuenta. Así, se tratarán temas de&hellip;</p>
+
+	
+	<div class="entry-meta"><a href="http://www.avaticabogados.com/2015/11/13/" title="9:10 am" class="data-link" rel="bookmark"><time class="entry-date updated" datetime="2015-11-13T09:10:14+00:00">13 noviembre, 2015</time></a></div>
+	
+</div>
+</article><!-- #post-1728 -->
+
+</li><li class="fs-entry">
+
+<article class="post post-1730 type-post status-publish format-standard has-post-thumbnail hentry category-privacidad category-proteccion-datos category-info-startups tag-adecuacion-proteccion-de-datos tag-auditoria tag-compliance tag-privacidad tag-proteccion-de-datos description-off">
+
+	<div class="blog-media wf-td"><p><a href="http://www.avaticabogados.com/auditoria-de-proteccion-de-datos/" class="alignnone rollover" ><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/11/Auditoria-de-protección-de-datos-270x180.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/11/Auditoria-de-protección-de-datos-400x266.jpg 2x" alt="" title="Auditoria-de-protección-de-datos" width="270" height="180"  /></a></p></div><div class="blog-content wf-td">
+
+		<h2 class="entry-title">
+		<a href="http://www.avaticabogados.com/auditoria-de-proteccion-de-datos/" title="Auditoria de protección de datos" rel="bookmark">Auditoria de protección de datos</a>
+	</h2>
+
+	<p>¿Qué es y por qué hay que hacerla? Una auditoria de protección de datos es necesaria y obligatoria, en virtud de la Ley Orgánica 15/1999, de 13 de diciembre, de protección de datos, cuando en nuestra empresa o negocio disponemos de ficheros de nivel medio y/o alto. Si nunca has llevado a cabo una implantación&hellip;</p>
+
+	
+	<div class="entry-meta"><a href="http://www.avaticabogados.com/2015/11/12/" title="5:59 pm" class="data-link" rel="bookmark"><time class="entry-date updated" datetime="2015-11-12T17:59:46+00:00">12 noviembre, 2015</time></a></div>
+	
+</div>
+</article><!-- #post-1730 -->
+
+</li><li class="fs-entry">
+
+<article class="post post-1705 type-post status-publish format-image has-post-thumbnail hentry category-marcas category-propiedad-industrial category-propiedad-intelectual category-info-startups tag-como-registrar-una-marca tag-marca-registrada tag-nombre-comercial tag-nombre-de-dominio tag-oepm tag-patentes tag-propiedad-industrial tag-que-debo-tener-en-cuenta-al-registrar-una-marca tag-registro-de-marcas post_format-post-format-image format-photo description-off">
+
+	<div class="blog-media wf-td"><p><a href="http://www.avaticabogados.com/wp-content/uploads/2015/10/ID-100214280.jpg" class="alignnone rollover dt-single-mfp-popup dt-mfp-item mfp-image"  title="" data-dt-img-description=""><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/10/ID-100214280-270x180.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/10/ID-100214280-400x266.jpg 2x" title="ID-100214280" alt="" width="270" height="180"  /></a></p></div><div class="blog-content wf-td">
+
+		<h2 class="entry-title">
+		<a href="http://www.avaticabogados.com/que-debes-tener-en-cuenta-al-registrar-tu-marca/" title="Cómo registrar una marca" rel="bookmark">Cómo registrar una marca</a>
+	</h2>
+
+	<p>Aspectos legales a tener en cuenta Si te estás planteando proteger tu nombre o producto en el mercado, aquí te indicamos algunos consejos a tener en cuenta en el proceso de registro de tu marca: 1. ¿Qué se entiende por marca? ¿Y por nombre comercial?¿Para qué sirve su registro? Por marca se entiende &#8220;todo signo susceptible de representación&hellip;</p>
+
+	
+	<div class="entry-meta"><a href="http://www.avaticabogados.com/2015/11/03/" title="10:10 pm" class="data-link" rel="bookmark"><time class="entry-date updated" datetime="2015-11-03T22:10:59+00:00">3 noviembre, 2015</time></a></div>
+	
+</div>
+</article><!-- #post-1705 -->
+
+</li><li class="fs-entry">
+
+<article class="post post-1684 type-post status-publish format-standard has-post-thumbnail hentry category-noticias-eventos-avaticabogados category-info-startups tag-emprendedores tag-firma-digital tag-incubio tag-inversion tag-inversores tag-privacidad tag-proteccion-de-datos tag-requisitos-legales tag-signaturit tag-startupbootcamp tag-startups description-off">
+
+	<div class="blog-media wf-td"><p><a href="http://www.avaticabogados.com/entrevistamos-a-juan-zamora-ceo-de-signaturit/" class="alignnone rollover" ><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/10/juan-zamora-signaturit-ana-vega-vanesa-alarcon-avatic-abogados-270x180.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/10/juan-zamora-signaturit-ana-vega-vanesa-alarcon-avatic-abogados-540x360.jpg 2x" alt="" title="juan-zamora-signaturit-ana-vega-vanesa-alarcon-avatic-abogados" width="270" height="180"  /></a></p></div><div class="blog-content wf-td">
+
+		<h2 class="entry-title">
+		<a href="http://www.avaticabogados.com/entrevistamos-a-juan-zamora-ceo-de-signaturit/" title="Entrevistamos a Juan Zamora, CEO de Signaturit" rel="bookmark">Entrevistamos a Juan Zamora, CEO de Signaturit</a>
+	</h2>
+
+	<p>Este mes entrevistamos a Juan Zamora, CEO de Signaturit, una empresa que ofrece una solución tecnológica que permite agilizar los procesos de contratación con una firma electrónica muy intuitiva y eficaz. Charlamos con él sobre cómo surgió esta idea, inició su startup, las experiencias que ha vivido por el camino y algunos consejos para otros&hellip;</p>
+
+	
+	<div class="entry-meta"><a href="http://www.avaticabogados.com/2015/10/23/" title="2:25 pm" class="data-link" rel="bookmark"><time class="entry-date updated" datetime="2015-10-23T14:25:57+00:00">23 octubre, 2015</time></a></div>
+	
+</div>
+</article><!-- #post-1684 -->
+
+</li><li class="fs-entry">
+
+<article class="post post-1678 type-post status-publish format-standard has-post-thumbnail hentry category-privacidad category-propiedad-intelectual category-proteccion-datos category-info-startups tag-big-data tag-big-data-week tag-bigdata tag-derechos-de-autor tag-internet-de-las-cosas tag-internet-of-things tag-nuevas-tecnologias tag-privacidad tag-proteccion-de-datos description-off">
+
+	<div class="blog-media wf-td"><p><a href="http://www.avaticabogados.com/que-es-el-big-data-y-que-retos-plantea-a-nivel-legal/" class="alignnone rollover" ><img class="preload-me" srcset="http://www.avaticabogados.com/wp-content/uploads/2015/10/big-data-270x180.jpg 1x, http://www.avaticabogados.com/wp-content/uploads/2015/10/big-data-540x360.jpg 2x" alt="" title="big-data" width="270" height="180"  /></a></p></div><div class="blog-content wf-td">
+
+		<h2 class="entry-title">
+		<a href="http://www.avaticabogados.com/que-es-el-big-data-y-que-retos-plantea-a-nivel-legal/" title="¿Qué es el Big Data y qué retos plantea a nivel legal?" rel="bookmark">¿Qué es el Big Data y qué retos plantea a nivel legal?</a>
+	</h2>
+
+	<p>El Big Data se ha definido en múltiples ocasiones y de muy diferentes formas. Si bien, en todas las definiciones que encontramos existen unos rasgos comunes como el hecho de que, bajo esta definición, convergen tecnologías o herramientas informáticas que permiten capturar, gestionar y procesar grandes volúmenes de datos en un plazo razonable. El Big&hellip;</p>
+
+	
+	<div class="entry-meta"><a href="http://www.avaticabogados.com/2015/10/23/" title="9:42 am" class="data-link" rel="bookmark"><time class="entry-date updated" datetime="2015-10-23T09:42:46+00:00">23 octubre, 2015</time></a></div>
+	
+</div>
+</article><!-- #post-1678 -->
+
+</li></ul></div><div class="prev"><i></i></div><div class="next"><i></i></div></div>	<div class="vc_empty_space"  style="height: 30px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+
+		</div> 
+	</div> 
+</div><!-- Row Backgrounds --><div class="upb_color" data-bg-override="full" data-bg-color="#eeeeee" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="4.5.2"  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    ></div><div class="wpb_row wf-container" style="margin-top: 0px;margin-bottom: 0px" >
+	<div class="vc_col-sm-12 wpb_column column_container ">
+		<div class="wpb_wrapper">
+				<div class="vc_empty_space"  style="height: 30px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+<div class="dt-fancy-separator h2-size title-color" style="width: 50%;"><div class="dt-fancy-title"><span class="separator-holder separator-left"></span>Clientes &amp; Partners<span class="separator-holder separator-right"></span></div></div>	<div class="vc_empty_space"  style="height: 40px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+
+	<div class="wpb_text_column wpb_content_element  logos_clientes ">
+		<div class="wpb_wrapper">
+			<ul class="kiwi-logo-carousel kiwi-logo-carousel-clientes-partners-home grayhovercolor align-center col4"><li style="height:75px;"><a target="_blank" href="http://meserco.com/"><div class="helper" style="height:75px; width:200px;" ><img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/meserco-1.jpg" alt="Meserco" title="Meserco"></div></a></li><li style="height:75px;"><a target="_blank" href="http://capitalcell.net"><div class="helper" style="height:75px; width:200px;" ><img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/capitalcell-1.jpg" alt="Capital Cell" title="Capital Cell"></div></a></li><li style="height:75px;"><a target="_blank" href="http://incubio.com/"><div class="helper" style="height:75px; width:200px;" ><img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/incubio-1.jpg" alt="Incubio" title="Incubio"></div></a></li><li style="height:75px;"><a target="_blank" href="http://www.quizlyse.com/es/"><div class="helper" style="height:75px; width:200px;" ><img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/quizlyse.jpg" alt="Quizlise" title="Quizlise"></div></a></li><li style="height:75px;"><a target="_blank" href="http://sharingacademy.com/"><div class="helper" style="height:75px; width:200px;" ><img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/sharing-academy-1.jpg" alt="Sharing Academy" title="Sharing Academy"></div></a></li><li style="height:75px;"><a target="_blank" href="http://www.lactapp.es/blog/"><div class="helper" style="height:75px; width:200px;" ><img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/lactApp1.jpg" alt="Lactapp" title="Lactapp"></div></a></li><li style="height:75px;"><a target="_blank" href="http://www.creoentuproyecto.com/"><div class="helper" style="height:75px; width:200px;" ><img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/creo-en-tu-proyecto-1.jpg" alt="Creo en tu proyecto" title="Creo en tu proyecto"></div></a></li><li style="height:75px;"><a target="_blank" href="http://www.zyrcle.com/es/"><div class="helper" style="height:75px; width:200px;" ><img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/zyrcle1.jpg" alt="Zyrcle" title="Zyrcle"></div></a></li><li style="height:75px;"><a target="_blank" href="http://www.print-makers.com/"><div class="helper" style="height:75px; width:200px;" ><img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/printmakers.jpg" alt="Printmakers" title="Printmakers"></div></a></li><li style="height:75px;" ><div class="helper" style="height:75px; width:200px;" ><img src="http://www.avaticabogados.com/wp-content/uploads/2015/07/egi.jpg" alt="EGI Group" title="EGI Group" style="max-width:200px; padding-left: 17.5px; padding-right:17.5px" ></div></li></ul>
+
+		</div> 
+	</div> 	<div class="vc_empty_space"  style="height: 30px" ><span
+			class="vc_empty_space_inner"></span></div>
+
+
+		</div> 
+	</div> 
+</div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="4.5.2"  data-theme-support=""    ></div>
+
+					
+					
+					
+
+				
+			
+			</div><!-- #content -->
+
+			
+		
+
+			</div><!-- .wf-container -->
+		</div><!-- .wf-wrap -->
+	</div><!-- #main -->
+
+	
+	<!-- !Footer -->
+	<footer id="footer" class="footer solid-bg">
+
+		
+			<div class="wf-wrap">
+				<div class="wf-container-footer">
+					<div class="wf-container">
+
+						<section id="text-6" class="widget widget_text wf-cell wf-1-4"><div class="widget-title">Newsletter</div>			<div class="textwidget"><p><!-- Begin MailChimp Signup Form --></p>
+<div id="mc_embed_signup">
+<form action="http://avaticabogados.us3.list-manage.com/subscribe/post?u=32eb6f56435b978c8d368b0f0&amp;id=0fb6b218ef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div class="mc-field-group">
+        <input type="text" value="" name="FNAME" class="required" id="mce-FNAME"  placeholder="Empresa o nombre">
+      </div>
+<div class="mc-field-group">
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="E-mail">
+      </div>
+<div id="condicionesNews" class="mc-field-group input-group">
+<ul>
+<li><input type="radio" value="He leído y acepto las condiciones legales" name="MMERGE2" id="mce-MMERGE2-0"><label for="mce-MMERGE2-0">He leído y acepto las condiciones legales.</label></li>
+<li><a href="/aviso-legal" target="_self"><br />Leer condiciones legales</a></li>
+</ul></div>
+<div id="mce-responses" class="clear">
+<div class="response" id="mce-error-response" style="display:none"></div>
+<div class="response" id="mce-success-response" style="display:none"></div>
+</p></div>
+<p><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--></p>
+<div style="position: absolute; left: -5000px;"><input type="text" name="b_32eb6f56435b978c8d368b0f0_0fb6b218ef" tabindex="-1" value=""></div>
+<div class="clear"><input type="submit" value="Subscribirme" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+<div class="newsAnteriores"><a href="http://us3.campaign-archive1.com/home/?u=32eb6f56435b978c8d368b0f0&id=0fb6b218ef" title="Ver newsletters anteriores">Ver newsletters anteriores</a></div>
+</p></form>
+</p></div>
+<p>  <!--End mc_embed_signup--></p>
+</div>
+		</section><section id="text-7" class="widget widget_text wf-cell wf-1-4"><div class="widget-title">Servicios jurídicos</div>			<div class="textwidget"><p>Protección de datos<br />
+Propiedad Intelectual<br />
+Derecho de Internet<br />
+Derecho de Telecomunicaciones<br />
+Prevención de Blanqueo de Capitales<br />
+Derecho empresarial y contratación mercantil</p>
+</div>
+		</section><section id="text-9" class="widget widget_text wf-cell wf-1-4"><div class="widget-title">Servicios de formación</div>			<div class="textwidget"><p>Formación en protección de datos<br />
+Formación en propiedad intelectual<br />
+Formación en comercio electrónico<br />
+Formación en prevención de blanqueo de capitales<br />
+Formación a medida</p>
+</div>
+		</section><section id="presscore-contact-info-widget-2" class="widget widget_presscore-contact-info-widget wf-cell wf-1-4"><div class="widget-title">Siguenos en:</div><div class="soc-ico"><p class="assistive-text">Find us on:</p><a class="twitter" href="https://twitter.com/avaticabogados" target="_blank" title="Twitter"><span class="assistive-text">Twitter</span></a><a class="you-tube" href="#" target="_blank" title="YouTube"><span class="assistive-text">YouTube</span></a><a class="rss" href="http://www.avaticabogados.com/feed/" target="_blank" title="Rss"><span class="assistive-text">Rss</span></a><a class="linkedin" href="https://www.linkedin.com/company/avatic-abogados" target="_blank" title="Linkedin"><span class="assistive-text">Linkedin</span></a></div></section>
+					</div><!-- .wf-container -->
+				</div><!-- .wf-container-footer -->
+			</div><!-- .wf-wrap -->
+
+		
+<!-- !Bottom-bar -->
+<div id="bottom-bar" class="solid-bg" role="contentinfo">
+	<div class="wf-wrap">
+		<div class="wf-container-bottom">
+			<div class="wf-table wf-mobile-collapsed">
+
+				
+					<div class="wf-td">
+						<div class="wf-float-left">
+
+							© Copyright 2015. Avatic Abogados | Barcelona | Tels. 93 179 30 08 / 93 594 50 70
+						</div>
+					</div>
+
+				
+				<div class="wf-td">
+
+					
+				</div>
+
+				
+					<div class="wf-td bottom-text-block">
+
+						<p>Desarrollo web: <a href="http://www.modografic.com">Modogràfic</a> | <a href="/aviso-legal/">Aviso legal</a> | <a href="/creditos">Créditos</a></p>
+
+					</div>
+
+				
+			</div>
+		</div><!-- .wf-container-bottom -->
+	</div><!-- .wf-wrap -->
+</div><!-- #bottom-bar -->
+	</footer><!-- #footer -->
+
+
+
+	<a href="#" class="scroll-top"></a>
+
+</div><!-- #page -->
+<script>jQuery(document).ready(function(){jQuery(".kiwi-logo-carousel-default").bxSlider({mode:"horizontal",speed:500,slideMargin:20,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:300,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-clientes-partners-home").bxSlider({mode:"horizontal",speed:500,slideMargin:35,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:true,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:5,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-partners-quienes-somos").bxSlider({mode:"horizontal",speed:500,slideMargin:35,infiniteLoop:false,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:false,autoControls:false,minSlides:1,maxSlides:5,moveSlides:1,slideWidth:200,auto:false,pause:4000,useCSS:false});});</script><div class="cookillian-alert" style="display:none;"><a class="close">&times;</a><h3 class="alert-heading">Información sobre cookies</h3><p>Utilizamos cookies propias y de terceros para realizar análisis de uso y de medición de nuestra web para mejorar nuestros servicios. Puede obtener más información <a href="#">aquí</a>.</p><div class="buttons"><a class="btn btn-ok" href="/?cookillian_resp=1" rel="nofollow"><i class=""></i>Acepto</a>&nbsp;
+        <a class="btn btn-no" href="/?cookillian_resp=0" rel="nofollow"><i class=""></i>No</a></div></div><script type='text/javascript' src='http://www.avaticabogados.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.avaticabogados.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Enviando..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.avaticabogados.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script>
+<script type='text/javascript' src='http://www.avaticabogados.com/wp-content/plugins/simple-share-buttons-adder/js/ssba.min.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.avaticabogados.com/wp-content/themes/dt-the7/js/main.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://www.avaticabogados.com/wp-content/plugins/js_composer/assets/js/js_composer_front.js?ver=4.5.2'></script>
+<script type='text/javascript' src='http://www.avaticabogados.com/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/jquery.bxslider.js?ver=4.3.3'></script>
+<!-- Facebook Comments Plugin for WordPress: http://peadig.com/wordpress-plugins/facebook-comments/ -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&appId=405239533007847&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+</html>

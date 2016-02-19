@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>もぐ_トップページ</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+<!--
+function disp(url){ 
+window.open(url, "window_name", "width=310,height=600,scrollbars=yes"); 
+} 
+// --> 
+</script>
+
+</head>
+
+<body>
+
+
+<style type="text/css">
+@import url(http://www.google.com/cse/api/branding.css);
+</style>
+<div class="cse-branding-bottom" style="background-color:#FFFFFF;color:#000000">
+  <div class="cse-branding-form">
+    <form action="http://mogu-chan.com/" id="cse-search-box">
+      <div>
+        <input type="hidden" name="cx" value="partner-pub-5092672448065810:867v5i31teu" />
+        <input type="hidden" name="cof" value="FORID:10" />
+        <input type="hidden" name="ie" value="Shift_JIS" />
+        <input type="text" name="q" size="31" />
+        <input type="submit" name="sa" value="&#x691c;&#x7d22;" />
+      </div>
+    </form>
+  </div>
+  <div class="cse-branding-logo">
+    <img src="http://www.google.com/images/poweredby_transparent/poweredby_FFFFFF.gif" alt="Google" />
+  </div>
+  <div class="cse-branding-text">
+    &#12459;&#12473;&#12479;&#12512;&#26908;&#32034;
+  </div>
+</div>
+ 
+
+
+
+<div id="cse-search-results"></div>
+<script type="text/javascript">
+  var googleSearchIframeName = "cse-search-results";
+  var googleSearchFormName = "cse-search-box";
+  var googleSearchFrameWidth = 800;
+  var googleSearchDomain = "www.google.co.jp";
+  var googleSearchPath = "/cse";
+</script>
+<script type="text/javascript" src="http://www.google.com/afsonline/show_afs_search.js"></script>
+ 
+
+<br />
+<a href="http://ganma.jp/magazine/6e64a3ee-31b6-11e4-ab8a-0a53fe82f17f" target="_blank"><img src="http://mogu-chan.com/pixt/food/gurume/image/illsouko001/mogusite_overhang_bn001.jpg" alt="hptop_shopbn.jpg" border="0"></a>
+<br />
+
+
+<br />
+
+<CENTER>
+<SCRIPT charset="utf-8" type="text/javascript" src="http://ws-fe.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Fmogu75-22%2F8003%2F4d823c40-1d2c-4b90-bb6d-9033f7e2feac&Operation=GetScriptTemplate"> </SCRIPT> <NOSCRIPT><A HREF="http://ws-fe.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Fmogu75-22%2F8003%2F4d823c40-1d2c-4b90-bb6d-9033f7e2feac&Operation=NoScript">Amazon.co.jp ウィジェット</A></NOSCRIPT>
+</CENTER>
+
+
+
+
+<CENTER>
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 250,
+  height: 150,
+  theme: {
+    shell: {
+      background: '#b8b4b8',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#6a787d',
+      color: '#ffffff',
+      links: '#07eb07'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().setUser('kuromog').start();
+</script>
+</CENTER>
+
+<br />
+
+
+
+
+<script language="javascript" type="text/javascript">
+<!--
+function jf_MMWindowOpen37371(ptype){
+ window.open("about:blank","MMSUB","width=500,height=200,scrollbars=yes,status=yes,resizable=yes");
+ document.frmLMM37371.target = "MMSUB";
+ document.frmLMM37371.action = "http://api.lolipop.jp/api/api.php?cmd=mm&type="+ptype;
+ document.frmLMM37371.submit();
+}
+//-->
+</script>
+<form name="frmLMM37371" method="post">
+ <input type="hidden" name="account" value="osirase">
+ <input type="hidden" name="domain" value="mm.yukomotohashi.com">
+ ☆本橋ゆうこのメールマガジンを希望するっ！→登録用メールアドレス <input type="text" style="width:130px;" name="user_mail">
+ <input type="button" name="join" value="登録" onClick="jf_MMWindowOpen37371('join');"><br />
+ ☆本橋ゆうこのメールマガジンを受け取らない→退会用メールアドレス <input type="text" style="width:130px;" name="user_mail_resign">
+ <input type="button" name="resign" value="退会" onClick="jf_MMWindowOpen37371('resign');">
+</form>
+
+
+<div id="wrapper">
+<img src="image/top_title.jpg" alt="～本橋ゆうこ公式ホームページ～ぶぶん的に日刊もぐニュース" border="0" /><br />
+<table width="735" border="0">
+<tr>
+	<td colspan="2">
+	<ul id="menu">
+	  <li><a href="./new/index.html">新着情報</a></li>
+	  <li><a href="./gallary/index.html">ギャラリー</a></li>
+	  <li><a href="./pixt/index.html">写真館</a></li>
+	  <li><a href="http://nikki.mogu-chan.com" target="_blank">日誌</a></li>
+	  <li><a href="http://blogs.yahoo.co.jp/yu_mogumogu" target="_blank">コラム</a></li>
+	  <li><a href="http://parody.mogu-chan.com/" target="_blank">パロディ</a></li>
+	  <li><a href="./mail/index.html">お手紙</a></li>
+	</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<a href="javascript:disp('./yonkoma/index.html')"><img src="image/yonkoma.gif" alt="よんこま" width="136" height="350" border="0" /></a><a href="./new/index.html"><img src="image/top_img02.jpg" alt="実録!!あのもぐは今…（新着情報）" width="244" height="349" border="0" /></a><a href="./gallary/index.html"><img src="image/top_img01.jpg" alt="常設ギャラリー堂々開館!!（ギャラリー）" width="338" height="350" border="0" /></a>
+</td>
+</tr>
+<tr>
+<td width="587" valign="top"><a href="http://nikki.mogu-chan.com" target="_blank"><img src="image/top_img05.jpg" alt="日々雑記（日誌）" width="296" height="269" border="0" /></a><a href="./pixt/index.html"><img src="image/top_img04.jpg" alt="フォトの小径（写真館）" width="291" height="269" border="0" /></a></td>
+<td width="138" rowspan="2"><a href="http://parody.mogu-chan.com/" target="_blank"><img src="image/top_img03.jpg" alt="パロディ" width="128" height="476" border="0" /></a></td>
+</tr>
+<tr>
+<td colspan="2"><img src="image/top_img07.jpg" alt="おことわり" width="124" height="205" border="0" /><a href="http://blogs.yahoo.co.jp/yu_mogumogu" target="_blank"><img src="image/top_img06.jpg" alt="天変人語（こらむ）" width="463" height="205" border="0" /></a></td>
+</tr>
+</table>
+</div>
+
+
+
+<br />
+<a href="http://mang.jp/profile/1163846#comics" target="_blank"><img src="http://mogu-chan.com/pixt/food/gurume/image/illsouko001/css_bn.jpg" alt="hptop_shopbn.jpg" border="0"></a>
+<br />
+
+
+
+<br />
+<CENTER>
+<a class="twitter-timeline"  href="https://twitter.com/kuromog"  data-widget-id="344831620475387905">@kuromog からのツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</CENTER>
+<br />
+
+
+
+<br />
+
+<CENTER>
+<iframe src="http://ameroad.net/?m=m_bp&sid=dLB&t=2" width="160" height="200" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
+</CENTER>
+
+
+
+<a href="http://mang.jp?sogo" target="_blank"><img src="http://dp57261787.lolipop.jp/pixt/food/gurume/image/illsouko001/88mg.png" alt="88mg.png" border="0"></a>
+<br />
+<br />
+
+<img src="http://accnt.dp57261787.lolipop.jp/cnt/accnt.php?cnt_id=1763510&ac_id=LA07561626&mode=total">
+<img src="http://accnt.dp57261787.lolipop.jp/cnt/accnt.php?cnt_id=1763510&ac_id=LA07561626&mode=today">
+<img src="http://accnt.dp57261787.lolipop.jp/cnt/accnt.php?cnt_id=1763510&ac_id=LA07561626&mode=yesterday">
+
+<br />
+<br />
+
+
+</body>
+</html>

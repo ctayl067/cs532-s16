@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8" lang="en"><![endif]--><!--[if gt IE 8]><!--><html lang="en">
+<!--<![endif]-->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>British Embassy Jakarta - GOV.UK</title>
+
+    <script type="text/javascript">
+      (function(){if(navigator.userAgent.match(/IEMobile\/10\.0/)){var d=document,c="appendChild",a=d.createElement("style");a[c](d.createTextNode("@-ms-viewport{width:auto!important}"));d.getElementsByTagName("head")[0][c](a);}})();
+    </script>
+
+    <!--[if gt IE 8]><!--><link href="https://assets.digital.cabinet-office.gov.uk/static/govuk-template-e14dae9d4aef41db2a1bec2751d20c1727cdd2c964b283dc8dc2c5456ba8f540.css" media="screen" rel="stylesheet" type="text/css">
+<!--<![endif]-->
+    <!--[if IE 6]><link href="https://assets.digital.cabinet-office.gov.uk/static/govuk-template-ie6-8eb38a4c5a3dfa29b823955d55dccd175eae45d1cf04e467254bff1b1b3dfacd.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+    <!--[if IE 7]><link href="https://assets.digital.cabinet-office.gov.uk/static/govuk-template-ie7-40143115f065eaccf0520a6eed4e314e6405961421fb6a948e51e2ba7a042c96.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+    <!--[if IE 8]><link href="https://assets.digital.cabinet-office.gov.uk/static/govuk-template-ie8-cc349a857d758e6fe7c463338ae66aeb3facf2637be1ad34effde81453909f46.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <link href="https://assets.digital.cabinet-office.gov.uk/static/govuk-template-print-e4515cc0129a011e04d70411d732b064ae130c10526c16fdab1159fb8bf3db0e.css" media="print" rel="stylesheet" type="text/css">
+
+    <!--[if IE 8]>
+    <script type="text/javascript">
+      (function(){if(window.opera){return;}
+       setTimeout(function(){var a=document,g,b={families:(g=
+       ["nta"]),urls:["https://assets.digital.cabinet-office.gov.uk/static/fonts-ie8-e119686ad063d9cf6a6ecde56ec4760b8084d32b80a6a0e0a790d3459316690c.css"]},
+       c="https://assets.digital.cabinet-office.gov.uk/static/vendor/goog/webfont-debug-733b09043a9050e3ccd9ad049535413e25ae4405dc9ec85f2c575b0ad3b19a74.js",d="script",
+       e=a.createElement(d),f=a.getElementsByTagName(d)[0],h=g.length;WebFontConfig
+       ={custom:b},e.src=c,f.parentNode.insertBefore(e,f);for(;h=h-1;a.documentElement
+       .className+=' wf-'+g[h].replace(/\s/g,'').toLowerCase()+'-n4-loading');},0)
+      })()
+    </script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+      <link href="https://assets.digital.cabinet-office.gov.uk/static/fonts-5ff8c53913434afd0072a480d7cfca67cace4c8d03f6ef96b78a4455728ce745.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if lt IE 9]>
+      <script src="https://assets.digital.cabinet-office.gov.uk/static/ie-105665c0105db53b92e57fabb90b0ef42b9034a0b8341beb3a20621a7f7eb4d3.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="https://assets.digital.cabinet-office.gov.uk/static/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" type="image/x-icon">
+
+    <!-- Size for iPad and iPad mini (high resolution) -->
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://assets.digital.cabinet-office.gov.uk/static/apple-touch-icon-152x152-55dd2af7a53abb7dd14ba6a3c6c3fc786c57a074ba809f6dd767e186955a87e1.png">
+    <!-- Size for iPhone and iPod touch (high resolution) -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://assets.digital.cabinet-office.gov.uk/static/apple-touch-icon-120x120-92580784afc35143f96b8cf5614e221427fdea444aeb13d912c879e884af7336.png">
+    <!-- Size for iPad 2 and iPad mini (standard resolution) -->
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://assets.digital.cabinet-office.gov.uk/static/apple-touch-icon-76x76-9b193f39cde53b92ba555efed856bcd103d6d1dc650919eb9f29dbe5f442cfb0.png">
+    <!-- Default non-defined size, also used for Android 2.1+ devices -->
+    <link rel="apple-touch-icon-precomposed" href="https://assets.digital.cabinet-office.gov.uk/static/apple-touch-icon-60x60-0af0a7cf886701647210f13b661e607b7223bc3221b6d275718a89af79b3e7b9.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="https://assets.digital.cabinet-office.gov.uk/static/opengraph-image-a1f7d89ffd0782738b1aeb0da37842d8bd0addbd724b8e58c3edbc7287cc11de.png">
+
+      <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/static/header-footer-only-260364537ca168a21b2b4aaa4f511e7c302e5910ae92a03275425c685c0337f1.css">
+<!--<![endif]-->
+<!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/static/header-footer-only-ie6-b380dc62c9335795552a75db55a933142a355300dee1d11030390647ab90b544.css" /><script>var ieVersion = 6;</script><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/static/header-footer-only-ie7-839940f994e3b96212d03065f132af94ca3105dd5d9401f0051263db8a6ca100.css" /><script>var ieVersion = 7;</script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/static/header-footer-only-ie8-31a9e67babd0db8b032c1c4b30e6e9fb70ce4a55dba82b02471bddeeab6f7fc8.css" /><script>var ieVersion = 8;</script><![endif]-->
+
+<link rel="stylesheet" media="print" href="https://assets.digital.cabinet-office.gov.uk/static/header-footer-only-print-f2d269bbcdcdddc9913dda7d3d37d7e09db7bd8f7c499b97bd9ba777e295b369.css">
+
+
+  <!--[if gt IE 9]><!--><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/government/assets/frontend/base-39857df516da8429c571ae6bb212bfbc87d73a57ca0a469e7768e943f3429ed7.css">
+<!--<![endif]--><link rel="stylesheet" media="print" href="https://assets.digital.cabinet-office.gov.uk/government/assets/frontend/print-d7bbf6e594aa2ff0ebbed133c3f65fdfe59e18be03d0713bb01d554c32444f18.css">
+<link rel="alternate" type="application/atom+xml" title="Recent updates" href="https://www.gov.uk/government/feed">
+<meta content="True" name="HandheldFriendly">
+<meta content="320" name="MobileOptimized">
+<meta name="description" content="UK and Indonesia enjoy a close relationship, with many common interests and values. We are partners in challenges like terrorism and global warming, and work together closely within the G20. We are also here to support and protect UK interests in Timor Leste.">
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="TGJ4TEaToy/WOi+kWkpsZfr4vvrwqE4U+4aWLmEPgC6pwHOhOdiAi8T7XQPvbGVJi/M+CVcILZ+921Wb1a9L0g==">
+<!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/government/assets/frontend/base-ie6-7a52c3edea88476d2d7a73f91b012c4235ee888e9024faf985eff248e6b9e3ef.css" /><script>var ieVersion = 6;</script><![endif]--><!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/government/assets/frontend/base-ie7-99334b06a21b2e448c51280a45dcf32eb546647acc26b8c7b2cf3814d7e56236.css" /><script>var ieVersion = 7;</script><![endif]--><!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/government/assets/frontend/base-ie8-119eb85f4d973b0e43ab382f8c4b9acf5c11518803275eda88bd99ff1df5564d.css" /><script>var ieVersion = 8;</script><![endif]--><!--[if IE 9]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/government/assets/frontend/base-ie9-7f567c7ea0110df329f9f0b9e1fa8355ca8de038c613aa938466dfe1b7c75033.css" /><script>var ieVersion = 9;</script><![endif]--><meta name="govuk:analytics:organisations" content="&lt;WO301&gt;&lt;D13&gt;">
+<meta name="govuk:analytics:world-locations" content="&lt;WL62&gt;&lt;WL139&gt;">
+<meta name="govuk:rendering-application" content="whitehall">
+</head>
+
+  <body class="website government">
+    <script type="text/javascript">document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    
+
+    <div id="skiplink-container">
+      <div>
+        <a href="#content" class="skiplink">Skip to main content</a>
+      </div>
+    </div>
+
+    <div id="global-cookie-message">
+        <p>GOV.UK uses cookies to make the site simpler. <a href="https://www.gov.uk/help/cookies">Find out more about cookies</a></p>
+    </div>
+    <!--end global-cookie-message-->
+
+    <header role="banner" id="global-header" class=" with-proposition">
+      <div class="header-wrapper">
+        <div class="header-global">
+          <div class="header-logo">
+            <a href="https://www.gov.uk" title="Go to the GOV.UK homepage" id="logo" class="content">
+              <img src="https://assets.digital.cabinet-office.gov.uk/static/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" width="35" height="31" alt=""> GOV.UK
+            </a>
+          </div>
+            <a href="#search" class="search-toggle js-header-toggle">Search</a>
+
+  <form id="search" class="site-search" action="/search" method="get" role="search">
+    <div class="content">
+      <label for="site-search-text">Search</label>
+      <input type="search" name="q" id="site-search-text" title="Search" class="js-search-focus">
+      <input class="submit" type="submit" value="Search">
+    </div>
+  </form>
+
+        </div>
+        
+      <div class="header-proposition">
+  <div class="content">
+    <a href="#proposition-links" class="js-header-toggle menu">Menu</a>
+  <nav id="proposition-menu" class="no-proposition-name">
+    <ul id="proposition-links">
+      <li><a class="" href="/government/organisations">Departments</a></li>
+      <li><a class="active" href="/government/world">Worldwide</a></li>
+      <li><a class="" href="/government/how-government-works">How government works</a></li>
+      <li><a class="" href="/government/get-involved">Get involved</a></li>
+      <li class="clear-child"><a class="" href="/government/policies">Policies</a></li>
+      <li><a class="" href="/government/publications">Publications</a></li>
+      <li><a class="" href="/government/publications?publication_filter_option=consultations">Consultations</a></li>
+      <li><a class="" href="/government/statistics">Statistics</a></li>
+      <li><a class="" href="/government/announcements">Announcements</a></li>
+    </ul>
+  </nav>
+</div>
+</div>
+</div>
+    </header>
+    <!--end header-->
+
+      <div id="user-satisfaction-survey-container" data-survey-url="https://www.surveymonkey.com/s/6HZFSVC"></div>
+
+    
+
+
+    <div id="global-header-bar"></div>
+    <!--end global-header-bar-->
+
+        <div class="header-context group"><!-- deliberately empty --></div>
+
+  <div id="whitehall-wrapper">
+      
+  
+  <main id="content" role="main" class="whitehall-content">
+    <div id="page" class="worldwide-organisations-show">
+      
+<header class="block worldwide-organisation-header">
+  <div class="inner-block floated-children">
+    <div class="logo">
+      <h1>
+          <span class="organisation-logo organisation-logo-stacked-single-identity organisation-logo-stacked-single-identity-large"><span>British Embassy<br>Jakarta</span></span>
+      </h1>
+    </div>
+    <div class="headings-block">
+        <div class="available-languages">
+    <ul>
+        <li class="translation">
+            <span>English</span>
+        </li>
+        <li class="translation last">
+            <a href="/government/world/organisations/british-embassy-jakarta.id">Bahasa Indonesia</a>
+        </li>
+    </ul>
+  </div>
+
+    </div>
+    <div class="metadata">
+      <dl>
+          <dt>Location:</dt>
+          <dd class="js-hide-other-links">
+<a href="/government/world/indonesia">Indonesia</a> and <a href="/government/world/timor-leste">Timor Leste</a>
+</dd>
+        <dt>Part of:</dt>
+        <dd><a class="sponsoring-organisation" href="/government/organisations/foreign-commonwealth-office">Foreign &amp; Commonwealth Office</a></dd>
+      </dl>
+    </div>
+  </div>
+</header>
+
+
+<section class="block about-block" id="about-us">
+  <div class="inner-block floated-children">
+    <div class="about-us">
+      <div class="content">
+        <p class="summary">UK and Indonesia enjoy a close relationship, with many common interests and values. We are partners in challenges like terrorism and global warming, and work together closely within the G20. We are also here to support and protect UK interests in Timor Leste.</p>
+        <div class="description">
+          <div class="govspeak">
+<p>Britain is a leading investor in this country. In April 2012 the Prime Minister announced a commitment to double trade (goods &amp; services) by 2015 to £4.4 billion.</p>
+
+<p>We cooperate with international and local agencies to address global challenges including human rights and democracy, regional security, prosperity and climate change. </p>
+
+<p>We also provide assistance, services and practical advice to British nationals visiting or living in Indonesia, and we deal with visa applications for those who wish to enter the UK to visit, study, live or work.</p>
+
+<h1 id="our-services">Our services</h1>
+
+<p>We develop and maintain relations between the UK and Indonesia. Our work covers a range of issues including building and improving trade and investment between the UK and Indonesia, and working with Indonesia on global challenges such as climate change, countering violent extremism, human rights and democracy, regional security and prosperity.</p>
+
+<p>We also provide services at <a href="https://www.gov.uk/government/world/organisations/british-consulate-bali">British Consulate Bali</a>. </p>
+
+<p><a href="https://www.gov.uk/government/world/organisations/british-embassy-jakarta#contact-us">Check our opening hours</a>.</p>
+
+<h1 id="services-for-british-nationals">Services for British nationals</h1>
+
+<h3 id="urgent-assistance">Urgent assistance</h3>
+
+<p>If you’re in Indonesia and you urgently need help (eg if you’ve been attacked, arrested or there has been a death), call (+62) (21) 2356 5200 If you’re in the UK and concerned about a British national in Indonesia call 020 7008 1500.</p>
+
+<h3 id="get-or-renew-a-passport">Get or renew a passport</h3>
+
+<p>The British embassy can’t help with passport enquiries. Contact <a href="https://www.gov.uk/government/organisations/hm-passport-office">Her Majesty’s Passport Office</a> if you need help. </p>
+
+<p>If you can’t <a href="https://www.gov.uk/overseas-passports">get a new or replacement passport</a> in time to travel, you may be able to get an <a href="https://www.gov.uk/emergency-travel-document">emergency travel document</a>. </p>
+
+<h3 id="get-an-emergency-travel-document">Get an emergency travel document</h3>
+
+<p>You can apply for an <a href="https://www.gov.uk/emergency-travel-document">emergency travel document</a> (ETD) if you’re abroad and your passport has been <a href="https://www.gov.uk/report-a-lost-or-stolen-passport">lost or stolen</a>, damaged or expired, and you can’t get a new or replacement passport in time to travel. </p>
+
+<p>If you’re due to travel in the next 24 hours, <a href="https://www.gov.uk/government/world/organisations/british-embassy-jakarta#contact-us">contact us</a> as soon as possible. Otherwise book an appointment at the Embassy in Jakarta or the Consulate in Bali. Call us before making an appointment if you’ve never applied for a British passport before or if you’re applying for a child under the age of 16.</p>
+
+<p><a rel="external" href="https://www.consular-appointments.service.gov.uk/fco/#!/british-embassy-jakarta/issuing-an-emergency-travel-document/slot_picker">Book an appointment for an emergency travel document in Jakarta.</a></p>
+
+<p><a rel="external" href="https://www.consular-appointments.service.gov.uk/fco/#!/british-consulate-bali/issuing-an-emergency-travel-document/slot_picker">Book an appointment for an emergency travel document in Bali.</a></p>
+
+<div class="call-to-action">
+<p>Travel advice: for information and advice on travelling to Indonesia, see <a href="https://www.gov.uk/foreign-travel-advice/indonesia">travel advice for Indonesia</a>.</p>
+</div>
+
+<h3 id="get-a-visa">Get a visa</h3>
+
+<p>The British Embassy can’t help with visa enquiries.</p>
+
+<p>If you’re not a British national, you may need a visa to travel to the UK. <a href="https://www.gov.uk/check-uk-visa">Check if you need a UK visa</a>. </p>
+
+<p>If you’re a British national travelling abroad and need to apply for a visa to visit a particular country or check if you need a visa, see the entry requirements on our <a href="https://www.gov.uk/foreign-travel-advice">foreign travel advice</a> for the country you want to visit.  </p>
+
+<p>For more information on visas, see <a href="https://www.gov.uk/government/organisations/uk-visas-and-immigration">UK visas and immigration</a>.</p>
+
+<h3 id="marriage">Marriage</h3>
+
+<p>We can issue affirmations or affidavits of marital status for British nationals. For information on getting married in Indonesia see <a href="https://www.gov.uk/marriage-abroad">getting married abroad</a>.</p>
+
+<h3 id="register-a-birth-or-death">Register a birth or death</h3>
+
+<p>Find out how to <a href="https://www.gov.uk/register-a-birth">register a birth</a> or <a href="https://www.gov.uk/register-a-death">register a death</a> that occurred in Indonesia. You can’t register a birth or death at the embassy or our consulates.</p>
+
+<h3 id="bereavement-support">Bereavement support</h3>
+
+<p>If the death occurred in Indonesia and you’re still in the country, <a href="https://www.gov.uk/government/world/organisations/british-embassy-jakarta#contact-us">contact us</a>. If you’re in the UK and hear of the death of a relative from a third party, you should contact the Foreign and Commonwealth Office on 020 7008 1500. </p>
+
+<p>Read our guidance on <a href="https://www.gov.uk/government/publications/coping-with-death-abroad">coping with death abroad</a>. </p>
+
+<h3 id="support-if-youve-been-arrested">Support if you’ve been arrested</h3>
+
+<p>We’ll do all we can to contact you within 24 hours of being told that you’ve been <a href="https://www.gov.uk/help-if-you-are-arrested-abroad/y">detained or arrested</a>, and will give you a <a href="https://www.gov.uk/government/publications/indonesia-prisoner-pack">prisoner pack</a> with information for British prisoners in Indonesia. We cannot get you out of prison, prevent the local authorities from deporting you after your prison sentence, or interfere in criminal or civil court proceedings.</p>
+
+<h3 id="notarial-and-documentary-services">Notarial and documentary services</h3>
+
+<p>See the full list of <a href="https://www.gov.uk/guidance/notarial-and-documentary-services-guide-for-indonesia">notarial and documentary services</a> we provide in Indonesia.</p>
+
+<h3 id="legalisation-services">Legalisation services</h3>
+
+<p>The British Embassy in Jakarta provides legalisation services. Read our <a href="https://www.gov.uk/guidance/notarial-and-documentary-services-guide-for-indonesia">notarial and documentary services page</a> for more information on legalisation in Indonesia.</p>
+
+<p>Ask the UK government to <a href="https://www.gov.uk/get-document-legalised">get a UK document legalised</a> (certified as genuine).</p>
+
+<h3 id="local-service-providers">Local service providers</h3>
+
+<p>Use our lists of local suppliers and services if you need help in Indonesia. Please note that inclusion in these lists does not constitute official endorsement by the British embassy or the UK government.</p>
+
+<ul>
+  <li>
+    <p><a href="https://www.gov.uk/government/publications/indonesia-list-of-lawyers">lawyers</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.gov.uk/government/publications/indonesia-list-of-lawyers">translators and interpreters</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors">funeral directors</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors">medical facilities</a></p>
+  </li>
+</ul>
+
+<h3 id="how-else-we-can-help">How else we can help</h3>
+
+<p>In addition to the services listed above we can also:</p>
+
+<ul>
+  <li>
+    <p>provide information about transferring funds.</p>
+  </li>
+  <li>
+    <p>provide appropriate help if you have suffered <a href="https://www.gov.uk/government/publications/rape-and-sexual-assault-abroad">rape</a> or serious assault, are a <a href="https://www.gov.uk/victim-crime-abroad">victim of other crime</a>, or are in hospital.</p>
+  </li>
+  <li>
+    <p>help people with <a href="https://www.gov.uk/government/publications/mental-health">mental illness</a>.</p>
+  </li>
+  <li>
+    <p>offer support and help in a range of other cases, such as <a href="https://www.gov.uk/government/publications/international-parental-child-abduction">child abductions</a>, <a href="https://www.gov.uk/government/publications/missing-persons">missing people</a>and kidnapping.</p>
+  </li>
+  <li>
+    <p>contact family or friends for you if you want.</p>
+  </li>
+  <li>
+    <p>make special arrangements in cases of <a href="https://www.gov.uk/reduce-your-risk-from-terrorism-while-abroad">terrorism</a>, civil disturbances or natural disasters or other <a href="https://www.gov.uk/how-to-deal-with-a-crisis-overseas">crises abroad</a>.</p>
+  </li>
+</ul>
+
+<p>For more information on the services we can provide, see <a href="https://www.gov.uk/government/publications/support-for-british-nationals-abroad-a-guide">Support for British nationals abroad: A guide</a>.</p>
+
+<div class="call-to-action">
+<p>General information on <a href="https://www.gov.uk/guidance/living-in-indonesia">living in Indonesia</a></p>
+</div>
+
+<h3 id="what-the-embassy-cannot-do-for-you">What the embassy cannot do for you</h3>
+
+<p>Although we try to help British nationals in a wide range of situations, we cannot:</p>
+
+<ul>
+  <li>
+    <p>help you enter a country, for example, if you don’t have a visa or your passport is not valid</p>
+  </li>
+  <li>
+    <p>give you legal advice, investigate crimes or carry out searches for missing people, although we can give you details of people who may be able to help you in these cases, such as English-speaking lawyers.</p>
+  </li>
+  <li>
+    <p>get you better treatment in hospital or prison than is given to local people</p>
+  </li>
+  <li>
+    <p>pay any bills or give you money (in very exceptional circumstances we may lend you some money from public funds, which you’ll have to pay back)</p>
+  </li>
+  <li>
+    <p>make travel arrangements for you, or find you work or accommodation</p>
+  </li>
+  <li>
+    <p>make business arrangements on your behalf</p>
+  </li>
+</ul>
+
+<h3 id="consular-fees">Consular fees</h3>
+
+<p>We charge fees for some of our services. See the full list of consular fees in <a href="https://www.gov.uk/government/publications/indonesia-consular-fees">Indonesia</a>. </p>
+
+</div>
+        </div>
+      </div>
+    </div>
+      <aside class="social-media-links">
+        <div class="content">
+          <h1>Follow us</h1>
+              <section>
+    <ul class="social-media-accounts js-hide-extra-social-media">
+        <li class="social_media_account" id="social_media_account_607">
+          <a class="social-media-link facebook" href="http://www.facebook.com/BritishEmbassyJakarta">
+            <span class="connect">Connect with British Embassy Jakarta on</span> Facebook
+</a>
+</li>        <li class="social_media_account" id="social_media_account_608">
+          <a class="social-media-link twitter" href="http://twitter.com/UKinIndonesia">
+            <span class="connect">Connect with British Embassy Jakarta on</span> Twitter
+</a>
+</li>        <li class="social_media_account" id="social_media_account_609">
+          <a class="social-media-link flickr" href="http://www.flickr.com/UKinIndonesia">
+            <span class="connect">Connect with British Embassy Jakarta on</span> Flickr
+</a>
+</li>        <li class="social_media_account" id="social_media_account_610">
+          <a class="social-media-link youtube" href="http://www.youtube.com/user/ukforeignoffice">
+            <span class="connect">Connect with British Embassy Jakarta on</span> YouTube
+</a>
+</li>        <li class="social_media_account" id="social_media_account_611">
+          <a class="social-media-link instagram" href="http://instagram.com/ukinindonesia">
+            <span class="connect">Connect with British Embassy Jakarta on</span> Instagram
+</a>
+</li>    </ul>
+  </section>
+
+        </div>
+      </aside>
+  </div>
+</section>
+
+  <section class="block people" id="people">
+    <div class="inner-block floated-children">
+      <h1 class="keyline-header">Our people</h1>
+        <div class="person person-excerpt " id="person_1271">
+    <div class="inner">
+          <div class="image-holder">
+            <a class="img" href="/government/people/moazzam-malik"><img alt="Moazzam Malik" src="https://assets.digital.cabinet-office.gov.uk/government/uploads/system/uploads/person/image/1271/s216_photo_1.JPG"></a>
+          </div>
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/moazzam-malik"><strong>Moazzam Malik</strong></a></h2>
+        <p class="role">
+          British Ambassador to Indonesia, ASEAN and Timor Leste
+          <span></span>        </p>
+      </div>
+    </div>
+</div>
+      <ul class="people-list">
+            <li class="person person-excerpt clear-person" id="person_2250">
+    <div class="inner">
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/juliet-maric-capeling"><strong>Juliet Maric Capeling OBE</strong></a></h2>
+        <p class="role">
+          Deputy Head of Mission to Indonesia and Timor Leste
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block contact-us" id="contact-us">
+    <div class="inner-block floated-children">
+      <h1 class="keyline-header">Contact us</h1>
+      <div class="worldwide_office main contact postal-address" id="worldwide_office_537">
+  <div class="content">
+    <h2>British Embassy Jakarta</h2>
+
+    <div class="vcard contact-inner">
+        <p class="adr">
+<span class="street-address">British Embassy Jakarta<br>
+Jl. Patra Kuningan Raya Blok L5-6<br>
+</span><br>
+<span class="locality">Jakarta</span><br>
+ <span class="postal-code">12950</span><br>
+<span class="country-name">Indonesia</span>
+</p>
+
+
+        <div class="email-url-number">
+            <p class="email">
+              <span class="type">Email</span>
+              <a class="email" href="mailto:Jakarta.mcs@fco.gov.uk">Jakarta.mcs@fco.gov.uk</a>
+            </p>
+            <p class="tel">
+              <span class="type">Telephone</span>
+              (+62) (21) 2356 5200
+            </p>
+            <p class="tel">
+              <span class="type">Fax</span>
+              (+62) (21) 2356 5351
+            </p>
+        </div>
+
+        <p class="comments">Opening hours (local time):<br>Monday to Thursday: 07:30 - 16:00<br>Friday: 07:30 - 13:00<br><br>Opening hours (GMT):<br>Monday to Thursday: 01:30 - 10:00<br>Friday: 01:30 - 07:00</p>
+
+        <a href="/government/world/organisations/british-embassy-jakarta/office/british-embassy-jakarta">Access and opening times</a>
+    </div>
+  </div>
+</div>
+      <div class="worldwide_office clear-contact contact postal-address" id="worldwide_office_538">
+  <div class="content">
+    <h2>Consular services (Jakarta)</h2>
+
+    <div class="vcard contact-inner">
+        <p class="adr">
+<span class="street-address">The British Embassy Jakarta<br>
+Jl Patra Kuningan Raya Blok L5-6<br>
+Jakarta</span><br>
+ <span class="postal-code">12950</span><br>
+<span class="country-name">Indonesia</span>
+</p>
+
+
+        <div class="email-url-number">
+            <p class="email">
+              <span class="type">Email</span>
+              <a class="email" href="mailto:Consulate.Jakarta@fco.gov.uk%20">Consulate.Jakarta@fco.gov.uk </a>
+            </p>
+            <p class="tel">
+              <span class="type">Telephone</span>
+              (+62) (21) 2356 5200
+            </p>
+            <p class="tel">
+              <span class="type">Fax</span>
+              (+62) (21) 3983 5538
+            </p>
+        </div>
+
+        <p class="comments">Opening hours (local time):<br>Monday, Tuesday, Thursday and Friday: 08:30 - 12.00<br><br>Access by appointment only.</p>
+
+        <a href="/government/world/organisations/british-embassy-jakarta/office/passport-and-consular-services-jakarta">Access and opening times</a>
+    </div>
+  </div>
+</div>
+<div class="worldwide_office contact postal-address" id="worldwide_office_539">
+  <div class="content">
+    <h2>Consular services (Bali)</h2>
+
+    <div class="vcard contact-inner">
+        <p class="adr">
+<span class="street-address">British Consulate Bali <br>
+Jl. Tirta Nadi 2 No. 20 <br>
+Sanur <br>
+Bali</span><br>
+ <br>
+<span class="country-name">Indonesia</span>
+</p>
+
+
+        <div class="email-url-number">
+            <p class="email">
+              <span class="type">Email</span>
+              <a class="email" href="mailto:Consulate.Bali@fco.gov.uk">Consulate.Bali@fco.gov.uk</a>
+            </p>
+            <p class="tel">
+              <span class="type">Telephone</span>
+              (+62) (21) 2356 5200 
+            </p>
+            <p class="tel">
+              <span class="type">Fax</span>
+              (+62) (21) 3983 5538
+            </p>
+        </div>
+
+        <p class="comments">Opening hours (local time): <br>Monday, Wednesday and Friday: 08:30 - 12.00</p>
+
+        <a href="/government/world/organisations/british-embassy-jakarta/office/consular-services-bali">Access and opening times</a>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  <section class="corporate-information" id="corporate-info">
+  <div class="inner-block">
+    <h1 class="keyline-header">Corporate information</h1>
+
+    <div class="corporate-information-block">
+      <nav class="group sub_navigation" role="navigation">
+        <ul>
+            <li><a href="/government/world/organisations/british-embassy-jakarta/about/access-and-opening">Office access and opening times</a></li>
+
+            <li><a href="/government/world/organisations/british-embassy-jakarta/about/recruitment">Working for British Embassy Jakarta</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="information">
+    </p>
+  </div>
+</section>
+
+
+      
+    </div>
+  </main>
+
+    <div class="report-a-problem-container">
+  <div class="report-a-problem-inner">
+    <div class="report-a-problem-content">
+      <h2>Help us improve GOV.UK</h2>
+      <form accept-charset="UTF-8" action="/contact/govuk/problem_reports" method="post">
+        <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+        <input id="url" name="url" type="hidden" value="https://www.gov.uk/government/world/organisations/british-embassy-jakarta">
+        
+          <input id="source" name="source" type="hidden" value="inside_government">
+        
+        
+          <input id="page_owner" name="page_owner" type="hidden" value="">
+        
+
+        <p>Don’t include personal or financial information, eg your National Insurance number or credit card details.</p>
+
+        <label for="what_doing">What you were doing</label>
+        <input id="what_doing" name="what_doing" type="text">
+
+        <label for="what_wrong">What went wrong</label>
+        <input id="what_wrong" name="what_wrong" type="text">
+
+        <div class="button-wrapper">
+          <button name="commit" type="submit" class="button">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    <footer class="group js-footer" id="footer" role="contentinfo">
+
+      <div class="footer-wrapper">
+          <div class="footer-categories">
+    <div class="footer-explore">
+      <h2>Services and information</h2>
+
+      <ul>
+        <li><a href="/browse/benefits">Benefits</a></li>
+        <li><a href="/browse/births-deaths-marriages">Births, deaths, marriages and care</a></li>
+        <li><a href="/browse/business">Business and self-employed</a></li>
+        <li><a href="/browse/childcare-parenting">Childcare and parenting</a></li>
+        <li><a href="/browse/citizenship">Citizenship and living in the UK</a></li>
+        <li><a href="/browse/justice">Crime, justice and the law</a></li>
+        <li><a href="/browse/disabilities">Disabled people</a></li>
+        <li><a href="/browse/driving">Driving and transport</a></li>
+      </ul>
+      <ul>
+        <li><a href="/browse/education">Education and learning</a></li>
+        <li><a href="/browse/employing-people">Employing people</a></li>
+        <li><a href="/browse/environment-countryside">Environment and countryside</a></li>
+        <li><a href="/browse/housing-local-services">Housing and local services</a></li>
+        <li><a href="/browse/tax">Money and tax</a></li>
+        <li><a href="/browse/abroad">Passports, travel and living abroad</a></li>
+        <li><a href="/browse/visas-immigration">Visas and immigration</a></li>
+        <li><a href="/browse/working">Working, jobs and pensions</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-inside-government">
+      <h2>Departments and policy</h2>
+
+      <ul>
+        <li><a href="/government/how-government-works">How government works</a></li>
+        <li><a href="/government/organisations">Departments</a></li>
+        <li><a href="/government/world">Worldwide</a></li>
+        <li><a href="/government/policies">Policies</a></li>
+        <li><a href="/government/publications">Publications</a></li>
+        <li><a href="/government/announcements">Announcements</a></li>
+      </ul>
+    </div>
+    <hr>
+  </div>
+
+
+        <div class="footer-meta">
+          <div class="footer-meta-inner">
+              <h2 class="visuallyhidden">Support links</h2>
+<ul>
+  <li><a href="/help">Help</a></li>
+  <li><a href="/help/cookies">Cookies</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/help/terms-conditions">Terms and conditions</a></li>
+  <li><a href="/cymraeg">Rhestr o Wasanaethau Cymraeg</a></li>
+  <li>Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>
+</li>
+</ul>
+
+
+
+            <div class="open-government-licence">
+              <p class="logo"><a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence</a></p>
+                <p>All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated</p>
+            </div>
+          </div>
+
+          <div class="copyright">
+            <a href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">© Crown copyright</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--end footer-->
+
+    <div id="global-app-error" class="app-error hidden"></div>
+
+    <script src="https://assets.digital.cabinet-office.gov.uk/static/govuk-template-c4f303154d2a238bdda4d5cf1ebd8d4487822e4cbc3e4c83e743da869443ce72.js" type="text/javascript"></script>
+
+      <script src="https://assets.digital.cabinet-office.gov.uk/static/libs/jquery/jquery-1.11.3-92dc85369a3bf658db02f5a3f52231ccf961a37627ae12486f4ce34eba12a3dd.js"></script>
+<script src="https://assets.digital.cabinet-office.gov.uk/static/header-footer-only-6f07bd69dba52f24286cc1e218ba09ffcbce17a1fc3d589462963541ee636330.js"></script>
+
+
+  <script src="https://assets.digital.cabinet-office.gov.uk/government/assets/application-3db4ca699274b3234336db6135ce16d48af6c83798f2cf8b2a243ff8647086ec.js"></script><script>
+//<![CDATA[
+
+//]]>
+</script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="copyright" content="" />
+<meta name="keywords" content="リュウ,コミック,漫画,雑誌,龍神賞,無料,ダウンロード" />
+<meta name="description" content="徳間書店の月刊漫画誌。新刊情報、作品紹介、新人賞案内。" />
+<meta property="og:title" content="月刊COMICリュウ" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://www.comic-ryu.jp/img/thumbnail.png" />
+<meta property="og:url" content="http://www.comic-ryu.jp/index.html" />
+<meta property="og:site_name" content="comic-ryu web" />
+<meta property="og:description" content="徳間書店の月刊漫画誌。新刊情報、作品紹介、新人賞案内。" />
+<title>月刊COMICリュウ</title>
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="css/home.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="js/feed.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript" src="js/func.js"></script>
+<script type="text/javascript">
+<!--
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24710292-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+//-->
+</script>
+
+</head>
+<body id="home">
+
+<div id="header"></div>
+<!-- /header -->
+
+<div id="topslide_area">
+<ul id="topslide">
+<li><a href="monthly/index.html"><img src="img/top_slide21.jpg" alt="" /></a></li>
+<li><a href="toryumon/index.html"><img src="img/top_slide22.jpg" alt="" /></a></li>
+<li><a href="comics/index.html"><img src="img/top_slide20.jpg" alt="" /></a></li>
+<!--<li><a href="ryujin/jusho18/index.html"><img src="img/top_slide17.jpg" alt="" /></a></li>
+<li><a href="http://www.comic-ryu.jp/blog/2015/10/1510_voicechat_drama/"><img src="img/top_slide12.jpg" alt="" /></a></li>-->
+<li><a href="http://monmusu.tv/" target="_blank"><img src="img/top_slide03.jpg" alt="" /></a></li>
+<!--<li><a href="yokoku/index.html"><img src="img/top_slide04.jpg" alt="" /></a></li>-->
+<li><a href="http://www.monmusu.jp/" target="_blank"><img src="img/top_slide05.jpg" alt="" usemap="#Map" /></a>
+<map name="Map" id="Map">
+    <area shape="rect" coords="447,296,937,357" href="http://www.monmusu.jp/news/855/" target="_blank" />
+</map></li>
+<!--
+<li><a href="comics/index.html"><img src="img/top_slide02.jpg" alt="" /></a></li>
+-->
+</ul>
+</div>
+
+<div id="container">
+
+<div id="topthumbnail">
+<img src="img/top_thumbnail_head.png" alt="" />
+<ul>
+<li class="monthly"><a data-slide-index="0" href=""><img src="img/top_thumbnail21.jpg" alt="" /></a><br />コミックリュウ4月号情報</li>
+<li class="ryujin"><a data-slide-index="1" href=""><img src="img/top_thumbnail22.jpg" alt="" /></a><br />登龍門6投票受付中!!</li>
+<li class="comics"><a data-slide-index="2" href=""><img src="img/top_thumbnail20.jpg" alt="" /></a><br />2月のリュウコミックス</li>
+<li class="anime"><a data-slide-index="3" href=""><img src="img/top_thumbnail03.jpg" alt="" /></a><br />BD/DVDシリーズ発売開始!!</li>
+<li class="cyumoku"><a data-slide-index="4" href=""><img src="img/top_thumbnail05.jpg" alt="" /></a><br />モン娘公式グッズ発売中!!</li>
+<!--
+<li class="ryujin"><a data-slide-index="2" href=""><img src="img/top_thumbnail17.jpg" alt="" /></a><br />第18回龍神賞受賞作品</li>
+<li class="cyumoku"><a data-slide-index="2" href=""><img src="img/top_thumbnail12.jpg" alt="" /></a><br />おとなりボイスチャット<br>TVドラマ化決定!!</li>
+<li class="monthly"><a data-slide-index="3" href=""><img src="img/top_thumbnail04.jpg" alt="" /></a><br />次号ついに通算100号!!</li>
+<li class="comics"><a data-slide-index="1" href=""><img src="img/top_thumbnail02.jpg" alt="" /></a><br />7月のリュウコミックス</li>
+-->
+</ul>
+</div>
+
+<div id="topmain">
+
+<div id="topblog">
+<img src="img/blog_head.png" alt="" />
+<div id="feed"></div>
+
+<a href="http://www.comic-ryu.jp/blog/"><img src="img/blog_more.png" alt="" /></a>
+</div>
+
+<div id="topmagazine">
+<a href="monthly/index.html"><img src="monthly/img/201604_cover.png" alt="" id="topmagazine_cover" /></a>
+
+
+<div class="topbanner">
+<p>最新情報、<br />つぶやいてます！</p>
+<a href="https://twitter.com/comicryu" target="_blank"><img src="img/bn_twitter.png" alt="" /></a>
+</div>
+
+<div class="topbanner">
+<p>リュウ作品PV<br />絶賛配信中！</p>
+<a href="https://www.youtube.com/user/comicryu" target="_blank"><img src="img/bn_channel.png" alt="" /></a>
+</div>
+
+<div class="topbanner">
+<p>新グッズ情報も<br />いっぱい♥</p>
+<a href="http://www.monmusu.jp/" target="_blank"><img src="img/bn_monmusu.png" alt="" /></a>
+</div>
+
+<div class="topbanner">
+<p>ファンアート投稿<br />大募集中！</p>
+<a href="http://www.kinokoinu.jp/" target="_blank"><img src="img/bn_kinoko.png" alt="" /></a>
+</div>
+
+
+</div>
+
+</div>
+<!-- /topmain -->
+
+
+</div>
+
+<div id="footer"></div>
+<!-- /footer -->
+
+</body>
+</html>

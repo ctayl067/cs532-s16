@@ -1,0 +1,1875 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<TITLE> Moneycontrol >>  Messageboard >>  Boarders >> Epic Research</TITLE>
+<meta property="og:image" content="http://img.moneycontrol.co.in/images/messageboard/57-57.png" />
+<script language="javascript" src="http://stat.moneycontrol.co.in/mcjs/common/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script type='text/javascript' src='http://stat.moneycontrol.co.in/mcjs/common/jquery.cookie.js' ></script>
+<script type="text/javascript" src="http://stat.moneycontrol.co.in/india/messageboard/js/mmb2011_pages.js?v41"></script>
+<!--<script type="text/javascript" src="http://mmbstg.moneycontrol.com/india/messageboard/js/mmb2011_pages.js?v38.5"></script> -->
+<link href="http://stat.moneycontrol.co.in/india/messageboard/css/m3_6style.css?3.1" rel="stylesheet" type="text/css" />
+<!--[if IE 6]> 
+<link href="http://stat.moneycontrol.co.in/india/messageboard/css/ie.css" rel="stylesheet" type="text/css" />
+<![endif]--> 
+<style>.blstr{color:#005B78;font-weight:bold;}</style>
+<script type='text/javascript' src='http://stat.moneycontrol.co.in/mcjs/mmb_js/popup.js'></script>
+<script type="text/javascript" src="http://stat.moneycontrol.co.in/mcjs/common/hintent.js"></script>
+<script type="text/javascript" src="http://stat.moneycontrol.co.in/india/messageboard/js/ddaccordion.js"></script>
+ <script src="http://stat.moneycontrol.co.in/mcjs/markets/jquery.lazyload.js" type="text/javascript"></script>
+<script type="text/javascript">
+var $jq = jQuery;
+$jq(function() {	
+	$jq("img").lazyload({
+		failure_limit   : 100,
+	   effect       : "fadeIn"
+	});
+});
+$('.mr_slide').live('click',function(){	
+	var nsecnt = $('.nse_cont').height();
+	if($('.ht55').height()<= 55)
+	{		
+		$('.ht55').animate({'height':nsecnt});
+		$(this).html("<div class='mr_slide'><span class='sl_arw_up'></span> less</div>") ;
+	}
+	else
+	{
+		$('.ht55').animate({'height':'55px'});
+		$(this).html("<div class='mr_slide'><span class='sl_arw'></span> more</div>") ;		
+	}
+});
+</script>
+	<script type="text/javascript">
+	/*jquery cookie*/
+		var dfp_cookie_userinfo = $.cookie('_w18userinfo');
+		var dfp_cookie_object = {};
+		var dfp_cookie_bucket;
+		var dfp_cookie_flag_floating = false;
+		var dfp_cookie_floating_val;
+		if(dfp_cookie_userinfo!='' && typeof(dfp_cookie_userinfo)!="undefined"){
+			dfp_cookie_floating_val = $.cookie('dfp_cookie_floating');
+			dfp_cookie_userinfo = unescape(dfp_cookie_userinfo);
+			dfp_cookie_object = JSON.parse(dfp_cookie_userinfo);
+			dfp_cookie_bucket = dfp_cookie_object['NW_Bucket'];
+			//console.log('case check >> ',dfp_cookie_bucket,' >> ',dfp_cookie_floating_val);
+			if(typeof dfp_cookie_bucket != 'undefined' && dfp_cookie_bucket=='m'){
+				dfp_cookie_flag_floating = false;
+				//console.log('case m');
+			}else if(typeof dfp_cookie_bucket != 'undefined' && dfp_cookie_bucket!='m'){
+				//console.log('case !m');
+				if(typeof dfp_cookie_floating_val == 'undefined' || dfp_cookie_floating_val.length==0){
+					dfp_cookie_flag_floating = true;
+					//console.log('case !m if');
+				}else{
+					//console.log('case !m else');
+				}
+			}
+		}
+
+		//dfp_cookie_flag_floating = true; //for testing
+		
+		//1280x800 actual
+		//1240x768 testing
+		/*
+		var dfp_flag_sticky = false;
+		var dfp_flag_gutter = false;
+		var w_flag = document.documentElement.clientWidth;
+		var h_flag = window.screen.height;
+
+		if(w_flag >= 1280 && h_flag>=800){ 
+			var dfp_flag_sticky = true;
+			var dfp_flag_gutter = true;
+		}*/
+
+		var dfp_flag_sticky = true;
+		var dfp_flag_gutter = true;
+
+		/*
+		console.log('dfp_cookie_floating_val >> ',dfp_cookie_floating_val); //string
+		console.log('dfp_cookie_userinfo >> ',dfp_cookie_userinfo); //string
+		console.log('dfp_cookie_object >> ',dfp_cookie_object); //object
+		console.log('dfp_cookie_bucket >> ',dfp_cookie_bucket);
+		console.log('dfp_cookie_flag_floating >> ',dfp_cookie_flag_floating);
+		console.log('dfp_flag_sticky >> ',dfp_flag_sticky ,'>>',w_flag,'>>',h_flag);
+		console.log('dfp_flag_gutter >> ',dfp_flag_gutter ,'>>',w_flag,'>>',h_flag);
+		*/
+		
+
+	</script>
+	<script type="text/javascript">var rhs_180x400 = false;var rhs_180x300_1 = false;var rhs_180x300_2 = false;</script><script type='text/javascript'>
+							var googletag = googletag || {};
+							googletag.cmd = googletag.cmd || [];
+							(function() {
+								var gads = document.createElement('script');
+								gads.async = true;
+								gads.type = 'text/javascript';
+								var useSSL = 'https:' == document.location.protocol;
+								gads.src = (useSSL ? 'https:' : 'http:') + 
+								'//www.googletagservices.com/tag/js/gpt.js';
+								var node = document.getElementsByTagName('script')[0];
+								node.parentNode.insertBefore(gads, node);
+							})();
+							</script>
+				<script type='text/javascript'>
+				googletag.cmd.push(function() {googletag.defineSlot('/1039154/Moneycontrol/MC_Messages/MC_Messages_Slug_200x100', [200,100], 'Moneycontrol/MC_Messages/MC_Messages_Slug_200x100').addService(googletag.pubads());googletag.defineSlot('/1039154/Moneycontrol/MC_Messages/MC_Messages_180x300', [180,300], 'Moneycontrol/MC_Messages/MC_Messages_180x300').addService(googletag.pubads());_w18setuserbehaviour();_w18_lc_settargeting();
+				googletag.pubads().enableSingleRequest();
+				googletag.pubads().collapseEmptyDivs(true);
+				googletag.enableServices();
+				});
+				</script>
+<script type="text/javascript">
+
+function _w18setuserbehaviour(){ //_w18userinfo
+	var i, x, y, cl = document.cookie.split(";");
+	var _w18userinfo_out = {};
+	var _w18userdetail_out = {}; _w18userdetail_out._w18userdetail='';
+	var c = 0;
+	for (i = 0; i < cl.length; i++) {
+		x = cl[i].substr(0, cl[i].indexOf("="));
+		y = cl[i].substr(cl[i].indexOf("=") + 1);
+		x = x.replace(/^\s+|\s+$/g, "");
+		
+		if (x == "_w18userinfo") {
+			_w18userinfo_out._w18userinfo = unescape(y);
+			c = c + 1
+		}
+		
+		if (x == "_w18userdetail") {
+					_w18userdetail_out._w18userdetail = unescape(y);
+					c = c + 1
+		}
+		if (c == 2) {break;}
+	}
+
+	if(c==1 || c==2){
+		var contact = JSON.parse(_w18userinfo_out._w18userinfo);
+		
+		for (var item in contact) {
+			googletag.pubads().setTargeting(item,contact[item]);
+			//console.log('item >> ',item,' ,contact >> ',contact[item]);
+		}
+		//console.log('before if lapsed_item');
+		if(_w18userdetail_out._w18userdetail != '' || _w18userdetail_out._w18userdetail.length >0 ){
+			//console.log('inside if lapsed_item');
+			var lapsed_contact = JSON.parse(_w18userdetail_out._w18userdetail);
+			if(_w18userdetail_out._w18userdetail){
+				for (var lapsed_item in lapsed_contact) {
+					googletag.pubads().setTargeting(lapsed_item,lapsed_contact[lapsed_item]);
+					//console.log('lapsed_item >> ',lapsed_item,' ,lapsed_contact >> ',lapsed_contact[lapsed_item]);
+				}
+			}
+		}
+	}
+} 
+
+function _w18_lc_settargeting() {
+	if(typeof localStorage !== "undefined") {
+		//start of code
+		if(localStorage.getItem("di_consume_articles") !== null) {
+			var di_consume_articles_json = localStorage.getItem("di_consume_articles");
+			if(!di_consume_articles_json || di_consume_articles_json !== null){
+				var di_consume_articles_old_arr = JSON.parse(di_consume_articles_json);
+				var default_list_json	=  '{"2089141":1, "1624181":1, "1623461":1, "1399696":1}';
+				var default_list	=  JSON.parse(default_list_json);
+			    //default_list = default_list.filter(function(n){ return n != undefined }); 
+				var not_consume = new Array();//send to dfp
+				for(key in default_list){
+					if(di_consume_articles_old_arr[key] != 1){
+						not_consume.push(key);
+					}
+				}
+				if(not_consume.length>0){
+					//console.log('not_consume >> ',not_consume);
+					googletag.pubads().setTargeting('di_consume_articles',not_consume);
+				}
+			}else{
+				//console.log('di_consume_articles not set in localStorage');
+			}
+		}
+		//end of code
+	}else {
+		//console.log('localStorage not supported');
+	}
+}
+
+function getDFPName(){
+	//DFPUser = mctop_getCookie('nnmc');
+	var DFPUser = $.cookie('nnmc');
+	if( typeof DFPUser != 'undefined' && DFPUser!="")
+		return DFPUser;
+	else
+		return 'User';
+}
+
+
+//mctop_getCookie //dfpGutter_getCookie
+//mctop_setCookie //dfpGutter_setCookie 
+
+var dfp_date = new Date();
+//var mc__gutter_ck = "MC_GUTTER__"+dfp_date.getFullYear()+"-"+(dfp_date.getMonth()+1)+"-"+dfp_date.getDate();
+
+var mc__gutter_ck = "MC_GUTTER_";
+
+
+function close_mc_gutter(){
+	dfpGutter_setCookie(mc__gutter_ck,1,1);		
+}
+
+
+function dfpGutter_setCookie(e,t,n){
+	var r=new Date;
+	r.setDate(r.getDate()+n);
+	var i=escape(t)+(n==null?"":"; expires="+r.toUTCString())+"; path=/; domain=.moneycontrol.com; ";
+	document.cookie=e+"="+i
+}
+function dfpGutter_getCookie(e){
+	var t,n,r,i=document.cookie.split(";");
+	for(t=0;t<i.length;t++){
+		n=i[t].substr(0,i[t].indexOf("="));
+		r=i[t].substr(i[t].indexOf("=")+1);
+		n=n.replace(/^\s+|\s+$/g,"");
+		if(n==e){
+			return unescape(r)
+			}
+		}
+}
+</script>
+<img src='http://analytics.moneycontrol.com/anlaytics/track.gif?cid=&amp;urlref=http%3A%2F%2Fmmb.moneycontrol.com%2Findia%2Fmessageboardblog%2Fboarders%2F657069637265736561726368696e646f7265' />
+
+<table cellpadding="0" cellspacing="0" border="0">
+<tr><td><link rel="alternate" TITLE="MoneyControl.com News" HREF="http://www.moneycontrol.com/rss/latestnews.xml" TYPE="application/rss+xml" /></td></tr>
+</table>
+
+<script type="text/javascript"> 
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-156703-1', 'moneycontrol.com');
+  ga('send', 'pageview');
+
+function urchinTracker(pa_str) {ga(['_trackPageview', ''+pa_str+'']);}
+function GAEventTracker(category,action,opt_label) {ga('send', 'event', ''+category+'', ''+action+'', ''+opt_label+'');}
+</script>
+<!-- Begin comScore Tag -->
+<script type="text/javascript"> 
+   var _comscore = _comscore || [];
+   _comscore.push({ c1: "2", c2: "6683813" });
+   (function() {
+     var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+     s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+     el.parentNode.insertBefore(s, el);
+   })();
+</script>
+<noscript>
+   <img src="http://b.scorecardresearch.com/p?c1=2&c2=6683813&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag --><script>
+var call_fun="";
+var call_param="";
+var call_param1="";
+var open_div="";
+var act_div="";
+function verify_signin_bdr(choe)
+{
+	if(choe==2){
+	   $.post('/msgboard/guest_login_ajaxverify.php', '', function(data) 
+		{		
+			if(data=='alldone'){
+					if(act_div=='1')
+						update_reply_msg(call_param,open_div,'2');
+					else if(act_div=='2')
+						update_rate(call_param,call_param1,'2');
+					else if(act_div=='3')
+						update_offence(call_param,'2');
+					else if(act_div=='4')
+						update_track_thrad(call_param,'2');
+					else if(act_div=='5')
+						chkfeed('2');
+					else if(act_div=='6')
+						track_add(call_param,'2');
+					else if(act_div=='7')
+						update_track_topic(call_param,call_param1,'2');
+					else if(act_div=='8')
+						del_track_topic(call_param,call_param1,'2');
+					else if(act_div=='9')
+						pop_chkfeed('2');
+					else if(act_div=='10')
+					  send_pmsg_bdr(call_param,'2');
+			}				
+		});
+	}else{
+		var f_idval="";
+		var f_fwdval="";
+		var remembermeval="";
+		if($('#f_id').val()==''){
+			alert("please enter username");
+			$("#f_id").focus();  
+			return;
+		}
+		if($('#f_pwd').val()==''){
+			alert("please enter password");
+			$("#f_pwd").focus();  
+			return;
+		}
+		if(document.getElementById('f_id')!=null&&document.getElementById('f_id').value!=''&&document.getElementById('f_id').value!='Username'){f_idval=$('#f_id').val();if(document.getElementById('rememberme')!=null){if(document.getElementById('rememberme').checked==true){remembermeval=$('#rememberme:checked').val()}}if(document.getElementById('f_pwd')!=null){f_fwdval=$('#f_pwd').val()}}	
+
+		$.post('/watchlist1/login_check.php?username='+f_idval+'&password='+f_fwdval, '', function(data) 
+		{	
+			if(data=='alldone'){
+			 if(act_div==10)
+                 send_pmsg_bdr(call_param,'2')
+             else if(act_div=='7')
+			    update_track_topic(call_param,call_param1,'2');
+			  else if(act_div=='8')
+				  del_track_topic(call_param,call_param1,'2');
+			  else
+				 track_add(call_param,'2');
+			}
+		});
+	}	
+}
+ 
+
+ 
+ 											 
+ 											
+ 										 
+function check_login_bdr(btn)
+{		
+	$('#loginchk').load($.post('/india/messageboard/home/update_reply_action.php', '', function(data) 
+	{					
+		if(data==0){
+			loginbx();
+		}else{	
+			//alert(act_div);
+			if(act_div==14)
+               send_pmsg_bdr(call_param,'2')
+            else if(act_div=='7')
+			    update_track_topic(call_param,call_param1,'2');
+			else if(act_div=='8')
+				  del_track_topic(call_param,call_param1,'2');
+		   else
+			 track_add(call_param,'2');
+		}			
+	}));
+}
+function send_msg(usr,data){	
+	if(readCookie('nnmc'))
+	{
+		$.post('/india/messageboard/update_privatemsg.php',{f_user_id:'epicresearchindore',follow_chk:'follow_chk'},
+			function(d){
+		if(d==2)document.getElementById('pdiv').style.display='block';	else alert(d);
+		});
+	}
+	else
+	{
+		document.getElementById('pdiv').style.display='block';		
+	}
+}
+function send_pmsg_bdr(usr,data){
+	var tmpvt=$('#pf_message').val();
+    
+	tmpvt.replace(" ","");
+	if(tmpvt.length < 1 || tmpvt=='Type your message here'){
+		alert("Please input your Message");
+		$("#pf_message").focus(); 
+
+		return false;
+	}else if(tmpvt.length < 20){
+		alert ("Please enter the message more then 20 character");
+		return false;
+	}
+	if(tmpvt.length > 4000){
+		alert("max 4000 characters allowed");
+		return false;
+	}	
+	
+	var char1=new Array('<','>','&lt;','&gt;','http://');
+	for(i=0;i<=char1.length;++i){
+		if(tmpvt.indexOf(char1[i],0)!=-1){
+			alert("No "+char1[i]+" allowed");
+			return false;
+		}			
+	}
+	var str=tmpvt;
+    str=str.toLowerCase();
+    var char1=new  Array('<','>','www','&lt;','&gt;','http://','.com','.net','.org','.fr','.in','fuck','aswhole','co.uk');
+		
+	for(i=0;i<=char1.length;++i){
+		if(str.indexOf(char1[i],0)!=-1)	{
+		    alert("Word "+char1[i]+" not allowed");
+		    return false;
+		}			
+	}	
+	if(data=="1"){	
+			call_param=tmpvt;	
+			act_div ='14';
+			call_param1=usr;	
+			check_login_bdr('2');
+	
+	}else{														
+       $('#pmsgID').load($.post('/india/messageboard/update_privatemsg.php',{f_user_id:'epicresearchindore',f_message:escape(tmpvt)}, function(data) 
+		{	
+			alert(data);			
+			closesignin();	
+			document.getElementById('pdiv').style.display='none';
+			
+		}));
+		
+	}
+	return false;
+}
+
+function get_data_sort(st){
+	
+	$('#discontent_div').html("<div style='margin:0px 0px 0px 240px;'><img src='http://img.moneycontrol.co.in/images/messageboard/mmb_loader.gif' ></div>");	$.get('/india/messageboard/get_ajaxv2_boarder_output.php?usr=657069637265736561726368696e646f7265&que='+st, '', function(data) {	
+			var newData = $(data);
+			newData.find("img").lazyload({effect : "fadeIn" });
+
+			$('#discontent_div').html(newData);
+	});
+}
+
+function tabs_alert(a,b,qu,u){
+	for(var i=1; i<=b; i++)	{
+		if(i == a) {
+			document.getElementById("ctab"+i).className = "active";
+			
+		}else{
+			document.getElementById("ctab"+i).className = "";
+			
+		}		
+	}
+
+	
+    var str_con='';
+	$('#discontent_div').html("<div style='margin:0px 0px 0px 240px;'><img src='http://img.moneycontrol.co.in/images/messageboard/mmb_loader.gif' ></div>");	
+	$.get('/india/messageboard/get_ajaxv2_boarder_output.php?que='+qu+'&usr='+u, '', function(data) 
+	{					
+			//var newData = $(data);
+			//newData.find("img").lazyload({effect : "fadeIn" });
+
+			$('#discontent_div').html(data);
+	});
+}
+function get_data_distopic(tpid,pg,qu,mtype,ptot,pg_squen,his_tab){
+	$('#discontent_div').html("<div style='margin:0px 0px 0px 240px;'><img src='http://img.moneycontrol.co.in/images/messageboard/mmb_loader.gif' ></div>");	
+	$.get('/india/messageboard/get_ajaxv2_boarder_output.php?usr='+tpid+'&pgno='+pg+'&que='+qu+'&msg_type='+mtype+'&his_tab='+his_tab+'&tot='+ptot+'&pg_squen='+pg_squen, '', function(data) 
+	{					
+			//var newData = $(data);
+			//newData.find("img").lazyload({effect : "fadeIn" });
+
+			$('#discontent_div').html(data);
+	});
+}
+
+function validateMessage(){
+	var strPostMsg = document.getElementById("txtMsg").value;
+
+	var strMessage = Quill.getLanguageText('txtMessage');
+		if(strMessage!="")
+		{
+			strMessage = strMessage.replace(/^\s+/,'');
+			strMessage = strMessage.replace(/\s+$/,'');
+			strPostMsg=strMessage;
+			document.m3callot_newmsg.f_message.value=strPostMsg;
+
+			//alert(strPostMsg);
+		}
+
+			var strMsg = "Post a message to Epic Research";		
+		
+	if(strPostMsg == "" || strPostMsg == strMsg){
+		alert("Please enter your message");
+		document.getElementById("txtMsg").focus();
+		return false;
+	}else if(strPostMsg.length < 20)
+	{
+		alert("Message needs to be more than 20 characters");
+		document.getElementById("txtMsg").focus();
+		return false;
+	}
+}
+
+function get_user_tp_out(sec,topicid,tpid,dvid)
+{
+	if(sec=='brd')
+      var dvnam='brddis_';
+	else
+      var dvnam='tpdis_';
+
+
+	document.getElementById(dvnam+dvid).style.display='block';
+
+	var callout_html=document.getElementById(dvnam+dvid).innerHTML;
+	if(callout_html=='')
+	{
+		$('#'+dvnam+dvid).html("<div><img src='http://im.in.com/connect/images/markets_new_loader.gif' ></div>");
+	$.get('/india/messageboard/topic_boarder_infocallout.php?sec='+sec+'&reqid='+topicid+'&tpid='+tpid+'&j='+dvid,		function(data) 
+		{		
+			$('#'+dvnam+dvid).html(data);
+		});
+	}
+	
+}
+
+function goto_postmsg(rqid,sec,topicid)
+{
+	var rid=rqid;
+	var seid=sec;
+	var topic_id=topicid;
+
+      document.gotopost.requid.value=rid;
+	  document.gotopost.secid.value=seid;
+	  document.gotopost.topicid.value=topic_id;
+	  document.gotopost.submit();
+}
+
+function update_track_topic(topicid,catid,data)
+{			
+	 if(data=="1")
+		{
+			call_fun="3";
+			call_param=topicid;
+			call_param1=catid;
+			act_div='7';
+			check_login_bdr('2');
+		}
+		else
+		{
+			$.post('/india/messageboard/home/update_track_topics.php',{f_topicid:topicid,f_categoryid:catid}, function(data) 
+			{		alert(data);								
+					$('#track_tp').html(data);
+					closesignin();	
+
+			});
+         
+		}
+}
+
+
+function del_track_topic(topicid,catid,data)
+{			
+	 if(data=="1")
+		{
+			call_fun="3";
+			call_param=topicid;
+			call_param1=catid;
+			act_div='8';
+			check_login_bdr('2');
+		}
+		else
+		{
+
+			$.post('/india/messageboard/home/delete_track_topics.php',{f_topicid:topicid,f_categoryid:catid}, function(data) 
+			{		alert(data);										
+					$('#track_tp').html(data);
+					closesignin();	
+
+			});
+         
+		}
+}
+
+
+function show_prompt_pg(user,sel)
+{				
+			$('#vistboarder_prompt').html("<div style='margin:50px 100px 50px 100px;'><img src='http://im.in.com/connect/images/markets_new_loader.gif' ></div>");	
+			$.post('/india/messageboard/boarder_topic_prompt.php',{userid:user,selpart:sel}, function(data) 
+			{			
+					$('#vistboarder_prompt').html(data);
+
+			});
+}
+
+
+</script>
+<script type="text/javascript" src="http://stat.moneycontrol.co.in/mcjs/hindi/common/config_v3.js" charset="utf-8"></script>
+
+			<script type="text/javascript" src="http://stat.moneycontrol.co.in/mcjs/hindi/common/mochikit.js"></script>
+			
+			<script type="text/javascript" src="http://stat.moneycontrol.co.in/mcjs/hindi/common/quill_v3.js?v2"></script>
+</head>
+<body>
+<!-- Header Start -->
+<div id="header_new">
+	<div class="main PT20">
+		<div class="clearfix" style="height:103px">
+			<div class="FL"><a href="http://mmb.moneycontrol.com/" class="logo_mmb"></a></div>
+			
+			<div class="FR" style="width:446px">
+				<p class="TAR"><span class="backm">Back to</span> <a href="http://www.moneycontrol.com/" class="wh_13">moneycontrol.com</a></p>
+				<div class="MT20 clearfix srchBx">
+					<div class="FL">
+						<input id=search_str name="search_str" autocomplete="off" onclick='javascript:if(this.value=="Search stocks, boarders etc.."){this.value=""};' type="text" onkeyup=m3Autosuggesion() value="Search stocks, boarders etc.." class="srch_txt" />
+					</div>
+					<div class="FL">
+                        <div class="srch_mid" onmouseover="document.getElementById('srcDD').style.display='block'" onmouseout="document.getElementById('srcDD').style.display='none'"></div>
+                        <div class="serchDd" id="srcDD" onmouseover="document.getElementById('srcDD').style.display='block'" onmouseout="document.getElementById('srcDD').style.display='none'" >
+							
+                        </div>
+                    </div>					
+					<input type="submit" class="srch_btn FR" name="" value="" id="search_topage">
+					
+				</div><div onmouseout="document.getElementById('autosugg_m3').style.display='none';" onmouseover="document.getElementById('autosugg_m3').style.display='block';" class="sugbx" id="autosugg_m3" style="display: none;"></div>
+				
+			</div>
+			<div class="CL"></div>
+		</div>
+		<div id="menu" class="clearfix">
+		<!--start of navigation menu-->
+        <script>
+function get_menudata(menuid)
+	{
+        var callout_navhtml=document.getElementById('div_'+menuid).innerHTML;
+		if(callout_navhtml=='')
+		{
+			$('#div_'+menuid).html("<div><img src='http://im.in.com/connect/images/markets_new_loader.gif' ></div>");
+             
+			 var fnavname='';
+	        if(menuid=='POSTMSG' || menuid=='READMSG' || menuid=='BROWSETOPICS' || menuid=='FINDBOARDER')
+		   
+
+			$.get('/india/messageboard/navigation_data_other_2011_v2.php?selbox='+menuid, '', function(data) 
+					{					
+						$('#div_'+menuid).html(data);
+					});
+
+		}
+		
+	}
+</script>
+<ul class="FL">
+				<li class="narrow"><a href="http://mmb.moneycontrol.com" class="sub"><b class="active">M3 Home</b></a></li>
+				<li><a class="sub" href="javascript:void(0);" onmouseover="get_menudata('POSTMSG');"><b><span>Post Messages</span></b></a>
+					<div class="holder" style="_margin-left:-148px;">
+						<div id='div_POSTMSG'></div>
+					</div>
+				
+				</li>
+				<li><a class="sub" href="javascript:void(0);" onmouseover="get_menudata('READMSG');"><b><span>Browse Messages</span></b>
+					</a>
+					<div class="holder" style="padding:0; _margin-left:-168px;">
+						<div id='div_READMSG'></div>
+					</div>
+					
+				</li>
+				<li><a class="sub" href="javascript:void(0);" onmouseover="get_menudata('BROWSETOPICS');"><b><span>Active Topics</span></b>
+					</a>
+					<div class="holder" style="_margin-left:-136px; padding:20px 15px;"">
+						<div id='div_BROWSETOPICS'></div>
+						
+					</div>
+					
+				</li>
+				<li><a class="sub" href="javascript:void(0);" onmouseover="get_menudata('FINDBOARDER');"><b><span>Top Boarders</span></b>
+					</a>
+					
+					<div class="holder" style="_margin-left:-140px; padding:10px 15px;">
+					<div id='div_FINDBOARDER'></div>	
+					</div>
+					
+				</li>
+			</ul>
+				<div id="mm1"></div>
+			<!--end navigation menu-->
+			<script>document.write(user_status);</script>
+		</div>
+	</div>
+</div>
+
+<style>
+#m3Ppoll_top{
+background:#fff;width:988px;margin:0 auto;padding:5px;
+}
+</style>
+
+
+<script>
+
+if(readCookie('m3_toppromo'))	
+{
+$('#m3Ppoll_top').empty();
+}
+else
+{
+$('#m3Ppoll_top').show();
+}
+</script>
+<!-- Header END -->
+	<style>
+	#trendingBox{background: none repeat scroll 0 0 #FFFFFF; margin: 0 auto; padding: 5px 8px 5px 10px; width: 980px;}
+	#trendingBox .navBox{background:url(http://img-d01.moneycontrol.co.in/images/promo/2014/trendingBg.gif) repeat-x 0 0; height:34px; border:1px solid #86b0c3; padding:9px 0 5px 90px; overflow:hidden}
+	#trendingBox .treding_tag{background:url(http://img-d01.moneycontrol.co.in/images/promo/2014/trending_tag.png) no-repeat 0 0; width:98px; height:39px; position:absolute; left:-6px; top:2px;}
+	#trendingBox .navBox ul li{float:left; background:url(http://img-d01.moneycontrol.co.in/images/promo/2014/treding_sep.png) no-repeat right 0; height:25px; font:14px Arial; color:#666; padding:7px 10px 5px 10px}
+	#trendingBox .navBox ul li a{color:#1a74c9; font-weight:normal;}
+	#trendingBox .navBox ul li a span{background:#f78c00; height:17px; min-width:23px; border-radius:4px 0 4px 0; display:inline-block; font:bold 11px/18px Arial; color:#FFF; text-align:center; border-right:1px solid #d66700; border-bottom:1px solid #d66700}
+	#trendingBox .navBox ul li.last{padding-right:0; background:none;}
+	</style>
+	<div id="trendingBox">
+		<div class="PR">
+			<span class="treding_tag"></span>
+			<div class="navBox">
+				<ul>
+					<li>#<a href="/stock-message-forum/drreddyslabs/comments/2201">Dr Reddys Labs <span>215</span></a></li>
+					<li>#<a href="/stock-message-forum//comments/7841">  <span>141</span></a></li>
+					<li>#<a href="/stock-message-forum/reliancecomm/comments/246345">Reliance Comm <span>84</span></a></li>
+					<li>#<a href="/stock-message-forum/saskencomm/comments/246231">Sasken Comm <span>75</span></a></li>
+					<li>#<a href="/stock-message-forum/spicejet/comments/246250">SpiceJet <span>252</span></a></li>
+					<li>#<a href="/stock-message-forum/indianindices/comments/246280">Indian indices <span>254</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<div class="breadcrumb">
+	<p class="FL b_11"><span class="here">You are here</span><a href="http://www.moneycontrol.com" class="bl_a_11">Moneycontrol</a><span class="brdDved"></span><a href="/messageboardblogindia/" class="bl_a_11"> Messageboard</a><span class="brdDved"></span><a href="/india/messageboardblog/13/39/trackedmore/" class="bl_a_11">Boarder</a><span class="brdDved"></span><span class="bl_a_11"><strong>Epic Research</strong></span>&nbsp;&nbsp;</p>
+    
+	<div class="FR">
+	<div class="bsens" style="width:430px"><strong>SENSEX</strong>  <span class="gD_15 PL5"><strong><span id="sensex_val_top"></span></strong></span>&nbsp;<span id="bse_img_top"></span> <span id='sensex_change'></span>  <span class="PL7 PR7">|</span>  <strong>NIFTY</strong> <span class="gD_15 PL5"><strong><span id="nifty_val_top"></span></strong></span>&nbsp;<span border="0" id="nse_img_top"></span> <span id='nifty_change'></span></div>
+</div>		<div class="CL"></div>
+</div>
+
+<div class="main_cnt">
+  <div class="innerDiv">	
+  	  <!--add new class-->
+     	<div class="inn_topim"></div>
+ 	<!--add new class-->
+ 	
+ 	<div id="boarder_detail"></div>
+	<div class="FL contWarp">
+		<div id="Ad_page_TOP" class="PB15 PL10">		
+		</div>
+		<div class="contHeader">
+			<div class="FL">
+				<div><img src='http://img-d02.moneycontrol.co.in/msgboard_image_files/2014/e/pic_epicresearchindore-140304121441.jpg' width='118px' height='118px' style='border:1px #E8EBF0 solid'></div>
+				<div class="gL_11 PT10">
+					New Member 
+				</div>
+				<div class="bar MT5"><span class="rbar" style="width:0%;"></span></div>
+
+										<div class="gL_10 PT7"><span class="b_10">Msgs Posted: </span>917</a></div>
+						<div class="gL_10 PT5"><span class="b_10">Since:</span> 09 Jan, 2014</div>
+							
+			</div>
+			<div class="FL" style="width:605px; padding-left:19px;">
+				<div class="FL">
+					<form name='m3callot_newmsg' method="post" action='http://mmb.moneycontrol.com/india/messageboard/home/update_msg2010.php'>
+					<input name="f_topicid" id="f_topicid" value="509249" type="hidden">
+					<input name="f_topic" id="f_topic" value="Just Posted" type="hidden">
+					<input name="f_topicname" id="f_topicname" value="Just Posted" type="hidden"> 
+					<input name="f_category" id="f_category" value="Market View" type="hidden">
+					<input name="f_categoryid" id="f_categoryid" value="4" type="hidden">
+					<input name="m_type" id="m_type" value="message" type="hidden">
+					<input name="gmsgid" id="gmsgid" value="" type="hidden">
+					<input name="boarderid" id="boarderid" value="657069637265736561726368696e646f7265" type="hidden">
+					<input name="addrnick_user" id="addrnick_user" value="Epic Research" type="hidden">
+					<input type='hidden' name='f_heading' id='f_heading' value='Just Posted'>
+					<input type='hidden' name='url_link' id='url_link' value=''>
+					<input type='hidden' value="18" name='ref_page_id'/>
+					<input type='hidden' value="0" id="lang_txt" name='lang_txt'/>
+					<div style="width:610px"><span class="b_35 FL"><strong>Epic Research</strong><span style="margin-left:5px" class="nflag"></span></span>
+								<div class="FR" align="center">                        <a href="javascript:void(0);" onclick="track_add('657069637265736561726368696e646f7265','1');" class="follw_bnt"></a>
+										
+					<br />
+					<span class="gL_11 PT2" style="display:inline-block;">
+						<div id="bfollowers_num"></div>
+					</span>				
+				</div>
+								
+<div class="CL"></div></div>
+						<br>
+						<div class="FL ML10 MT15" style="width:510px;"> <div class="PT5 gL_13" style="line-height:18px;">Epic Research - Investment Adviser has proven itself as company that produces and delivers high accuracy tips. <a href="/india/messageboard/profile.php?user_id=657069637265736561726368696e646f7265" class="bl_11"><strong>&nbsp;more..</strong></a>&nbsp;</div></div>				</div>
+				<div class="CL"></div>				
+				 
+				<div class="PL15 MT10">
+					<div class="FL b_12" style="width:50px; font-style:italic;"><strong>Post in</strong></div>
+					<div class="FL bl12mn" style="width:78px;"><input checked name="lang_choice" onclick="Quill.setLanguage('txtMessage','english');$('#lang_txt').val(0)" type="radio" value="0" /> English</div>
+					<div class="FL bl12mn" style="width:50px;"><input name="lang_choice" onclick="Quill.setLanguage('txtMessage','hindi');$('#lang_txt').val(1);" type="radio" value="1" /> Hindi</div>
+					<div class="FL" style="width:290px;">
+						<div onclick="$(this).hide();" class="hindibg"></div>
+					</div>
+					<div class="CL"></div>
+				</div>
+				<div class="inputBox2 MT10">
+					<div class="FL">
+					<select id="langlist" STYLE="display:none"></select>
+					<div style="width:494px;" class="input40" name="txtMessage" id="txtMessage" ROWS="5" COLS="40" onKeyDown="if(event.keyCode==13){javascript:get(document.getElementById('enter_msg1'));}"></div> 
+						<textarea style="display:none" id="txtMsg" name="f_message" type="text" class="input40" value="Post a message to Epic ResearchST ST " style="width:493px;" onclick="javascript:if(this.value=='Post a message to Epic Research'){this.value=''};">Post a message to Epic Research</textarea>					</div>
+					<span id="quillWordCount2" style="display:none"></span>
+					<script>
+					Quill.init('txtMessage', 'langlist');
+					Quill.setLanguage('txtMessage', 'english');				
+					</script>
+					<div class="FL PL5 PT5">
+						<input type="submit"  class="ML5 bntpost" align="absmiddle" onclick="return validateMessage()"/>
+					</div>
+					<div class="CL"></div>
+				</div>
+				</form>
+				<div class="gL_11 MT5" align="right">
+								  <div id='pdiv' style="display:none">
+				  <form method="post" name="pvtmsgfrm"  id="pvtmsgfrm"><div id="repl" style="width:480px; border:2px solid #a7bdc3; background:#f3f7fb; padding:0px 20px 20px 20px; position:absolute; margin:26px 0 0 14px; *margin:32px 0 0 -285px; text-align:left; display:block"><div class="pointer" style="right:55px"></div><div class="tar PT5"><a href="#" class="bl_11 ioc_close" onclick="document.getElementById('pdiv').style.display='none'"></a></div><div class="PT5"><div class="MT10"><textarea id="pf_message" onclick="if(this.value=='Type your message here')this.value=''" name="pf_message" class="gL_11 PA5 brd" style=" width:97%; height:150px;">Type your message here</textarea><div class="MT7 tar"><a href="javascript:void(0)" onclick="return send_pmsg_bdr('epicresearchindore','1');" class="btn_send"></a></div></div></div>	</div></form>
+				  </div>
+				  <div id='pmsgID'></div>
+				   <a href="javascript:void(0);" class="bl_11" onclick="javascript:send_msg('epicresearchindore','1');">Send private message</a>&nbsp;&nbsp;
+				   				
+					<input name="" type="checkbox" disabled value="" checked="checked" align="absmiddle" /> <span class="PL5">I agree to the <a target="blank" href="http://mmb.moneycontrol.com/india/messageboard/code_conduct.php" class="bl_11">M3 code of conduct</a></span>
+				</div>
+				
+				
+				
+				</div>
+				
+		
+			<div class="CL"></div>
+			<div id='pdiv'></div>
+			<div id='pmsgID'></div>
+		</div>
+		
+		
+		<div class="mainCont MT10">
+			<style>
+/* new LHS css*/
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url("/india/common/opensans-condensedlight.eot");
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url("/india/common/opensans-condensedlight.eot") format('embedded-opentype'), url("/india/common/opensans-condensedlight.woff") format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url("/india/common/opensans-condbold.woff") format('woff');
+}
+
+#lhsMenu1{ box-shadow:2px 2px 2px #b0b0b1; width:150px;}
+#lhsMenu{ width:150px;  margin-left:-15px !important;}
+.accCont{background:#fff; border-top:1px solid #fff;}
+.l_head{background:url(http://img-d02.moneycontrol.co.in/images/messageboard/act_lhbg.gif) right top repeat-y #6d7982; color:#ffffff; position:relative;}
+.accCont.active .l_head{background:url("http://img-d02.moneycontrol.co.in/images/messageboard/act_lhbg.gif") repeat-y scroll right top #6D7982; color:#FFF; border-top:1px solid #6d7982; border-right:1px solid #6d7982; border-bottom:1px solid #6d7982; border-left:1px solid #6d7982;padding-right:25px;}
+.accCont .b_13{font:700 14px 'Open Sans Condensed', sans-serif; color:#ffffff;}
+.mnLink li a, .mnLink2 li a{background:url(http://img-d02.moneycontrol.co.in/images/messageboard/or_bulet.gif) no-repeat 5px 12px; padding:5px 0 5px 15px ; font:600 14px 'Open Sans Condensed', sans-serif; color:#666666; }
+.mnLink li, .mnLink2 li{background:#FFF; border-bottom:1px solid #e8e8e8; padding:1px 0}
+.mnLink li a:hover, .mnLink2 li a:hover, .mnLink li a.active, .mnLink2 li a.active, .mnLink li.active a, .mnLink2 li.active a{background:#e9f7fb url(http://img-d02.moneycontrol.co.in/images/messageboard/or_bulet.gif) no-repeat 5px 12px; color:#1a74bd;}
+.mnLink li a:hover .arw_blu, .mnLink2 li a:hover .arw_blu, .mnLink li a.active .arw_blu, .mnLink2 li a.active .arw_blu,  .mnLink li.active a .arw_blu, .mnLink2 li.active a .arw_blu{background:url(http://img-d02.moneycontrol.co.in/images/messageboard/bl_arow.png) no-repeat 0 0; color:#1a74bd; display:inline-block; float:right; margin:7px 7px 0 0; width:4px; height:6px;}
+.onmc{font:italic 11px Arial !important; color:#86e0ff;}
+.onmc a{color:#FFF;}
+.closeDiv .arw_lhs_up{ background:url(http://img-d02.moneycontrol.co.in/images/messageboard/arw_lhs.png) -3px -37px no-repeat; display:inline-block; width:7px; height:13px; position:absolute; right:5%; top:35%; }
+.openDiv .arw_lhs_up{ background:url(http://img-d02.moneycontrol.co.in/images/messageboard/arw_lhs.png) 0 0 no-repeat; display:inline-block; width:13px; height:7px; position:absolute; right:3%; top:35%;}
+.sub_act{ background:#f6f6f6; padding:7px; color:#000000; font:700 13px 'Open Sans Condensed', sans-serif;}
+.mainCont{background:none;}
+.FL.rghtCont{ float:right !important; width:570px !important; padding-left:30px !important;}
+.mnLink2 {padding-left:0px;}
+.mnLink2.PB10{padding-bottom:0px;}
+.accCont.l_head {padding-right: 25px;}
+
+</style>
+<script>
+/*28-01-2014 end*/
+
+			$(document).ready(function() {
+				var offset = 570;
+				var duration = 500;
+				var footerY = parseInt($('#footerMMB').offset().top);
+				$(window).scroll(function() {
+					var lhsH = $('#lhsMenu').height();
+					var ac = footerY - lhsH;
+					if($(this).scrollTop() + lhsH > footerY) {
+						$('#lhsMenu').css({position:'absolute'})
+						$('#lhsMenu').css({top:ac})
+						
+					}
+					else if ($(this).scrollTop() > offset && $(this).scrollTop() < footerY)  {
+						$('#lhsMenu').css({position:'fixed'})
+						$('#lhsMenu').css({top:'0'})
+						$('#lhsMenu').css({'z-index':999})
+					}
+					else {
+						$('#lhsMenu').css({position:'relative'})
+					}
+				});
+			});
+		
+</script>
+<script>
+var chkval_lhs;
+		if(readCookie('nnmc'))	
+		{
+			lhs_act='sw_track';	
+			var lhsval= 0;
+		}
+		else if(readCookie('stocks'))
+		{
+			lhs_act='stlv';
+			var lhsval= 0;
+		}
+		else
+		{
+			lhs_act='lm';
+			var lhsval= 1;
+		}
+
+		if(chkval_lhs==1)
+		{
+		  var lhsval= 1;
+		 var lhs_act='';
+		}
+</script>
+<script>var lhsval= 2;var lhs_act="";</script><script type="text/javascript">
+$(function(){
+$("ul.mnLink2 li").mouseover(function(){
+	 $('.subDrop:first',this).css('display', 'block');
+});
+$("ul.mnLink2 li").mouseout(function(){
+  $('.subDrop:first',this).css('display', 'none');
+
+});
+});
+//var lhs_act='';
+
+//alert(lhsval);
+function get_cc1()
+{
+	//alert(lhs_act);
+
+     $('#cc1').html("<div style='margin:10px 10px 10px 10px;'><img src='http://img.moneycontrol.co.in/images/messageboard/mmb_loader.gif' ></div>");
+
+	$('#cc1').load($.get('/india/messageboard/user_cookie_details_2011_v2.php?act_lhs='+lhs_act, '', function(data) 
+	{					
+		$('#cc1').html(data);
+	}));
+}
+
+function get_cc2()
+{
+	$('#cc2').html("<div style='margin:10px 10px 10px 10px;'><img src='http://img.moneycontrol.co.in/images/messageboard/mmb_loader.gif' ></div>");
+
+	$('#cc2').load($.get('/india/messageboard/common/home_tab_2011_v2.html', '', function(data) 
+	{					
+		$('#cc2').html(data);
+	}));
+}
+
+function get_cc3()
+{
+	$('#cc3').html("<div style='margin:10px 10px 10px 10px;'><img src='http://img.moneycontrol.co.in/images/messageboard/mmb_loader.gif' ></div>");
+
+	$('#cc3').load($.get('/india/messageboard/boarder_details_2011_v2.php?user_id=657069637265736561726368696e646f7265&act_lhs='+lhs_act, '', function(data) 
+	{					
+		$('#cc3').html(data);
+	}));
+}
+
+//alert(lhsval);
+
+//Initialize first demo:
+ddaccordion.init({
+	headerclass: "l_head", //Shared CSS class name of headers group
+	contentclass: "l_cont", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [lhsval], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: false, //persist state of opened contents within browser session?
+	toggleclass: ["closeDiv", "openDiv"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["none", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+		$("#cnbc_on").show();
+
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+</script>
+
+
+
+<div id="lhsMenu" class="FL leftNav">
+	<div id="lhsMenu1">
+				<div class="accCont">
+					<div class="b_13 l_head" onclick="window.location='/india/messageboard/boarders.php?que=latest'"><strong>My Space</strong><span class="arw_lhs_up"></span></div>
+					<div class="l_cont">
+						<ul class="mnLink">	
+						   						   <li ><a href="/india/messageboard/profile.php"><span class="arw_blu"></span><strong>My Profile</strong></a></li>
+							<li ><a href="/india/messageboard/boarders.php?que=latest"><span class="arw_blu"></span><strong>My Posts</strong></a></li>
+							<li ><a href="/india/messageboard/boarders.php?que=repost"><span class="arw_blu"></span><strong>My Reposts</strong></a></li>
+							<li ><a href="/india/messageboard/boarders.php?que=reply"><span class="arw_blu"></span><strong>My Replies</strong></a></li>							
+							<li ><a href="/india/messageboard/boarders.php?que=addr"><span class="arw_blu"></span><strong>Addressed to me</strong></a></li>
+							<li ><a href="/india/messageboard/boarders.php?que=rated"><span class="arw_blu"></span><strong>My Top Rated</strong></a></li>
+							<li ><a href="/india/messageboard/home.php?que=sp_us&queTyp=tracking&pgno=1"><span class="arw_blu"></span><strong>My Portfolio</strong></a></li>
+							<li id="prvt_msgs" ><a href="/india/messageboard/privateinbox.php?que=pri_tab"><span class="arw_blu"></span><strong>My Private Msgs</strong></a></li>
+						</ul>
+						
+						<!-- USER LAST VISIED -->
+			            <div id="cc1"></div>
+												<script>get_cc1();</script>
+												<!-- USER LAST VISIED -->
+											</div>
+				</div>
+				
+				<div class="accCont">
+					<div class="b_13 l_head" onclick="window.location='/india/messageboard/home.php?que=lm&queTyp=tracking&pgno=1&tot='"><strong>Discover Messages</strong><span class="arw_lhs_up"></span></div>
+					<div class="l_cont">
+						<p class="sub_act">Messages</p>
+						<ul class="mnLink2 PB10">							
+                            								<li><a href="/india/messageboard/home.php?que=lm&queTyp=tracking&pgno=1&tot="><span class="arw_blu"></span>Latest</a></li>
+								<li><a href="/india/messageboard/home.php?que=rated&queTyp=tracking&pgno=1"><span class="arw_blu"></span>Top Rated</a></li>
+								<li><a href="/india/messageboard/home.php?que=active&queTyp=tracking&pgno=1"><span class="arw_blu"></span>Most Debated</a></li>
+								<li><a href="/india/messageboard/home.php?que=activeborder&queTyp=tracking&pgno=1"><span class="arw_blu"></span>Top Boarder</a></li>
+														
+						</ul>
+					</div>
+				</div>
+				
+												               
+			    <div class="accCont active" id='brd_space'>
+					<div class="b_13 l_head"><strong>Epic Research Space</strong><span class="arw_lhs_up"></span></div>
+					<div class="l_cont">
+						<ul class="mnLink">		
+							<li ><a href="/india/messageboard/profile.php?user_id=657069637265736561726368696e646f7265"><span class="arw_blu"></span><strong>Profile</strong></a></li>
+							<li class="active"><a href="/india/messageboard/boarders.php?user_id=657069637265736561726368696e646f7265&que=latest"><span class="arw_blu"></span><strong>Posts</strong></a></li>
+							<li ><a href="/india/messageboard/boarders.php?user_id=657069637265736561726368696e646f7265&que=reply"><span class="arw_blu"></span><strong>Replies</strong></a></li>
+							<li ><a href="/india/messageboard/boarders.php?user_id=657069637265736561726368696e646f7265&que=addr"><span class="arw_blu"></span><strong>Addressed</strong></a></li>
+							<li ><a href="/india/messageboard/boarders.php?user_id=657069637265736561726368696e646f7265&que=rated"><span class="arw_blu"></span><strong>Top Rated</strong></a></li>
+						</ul>
+						<!-- USER LAST VISIED -->
+						<div id="cc3"></div>
+						<script>get_cc3();</script>
+						<!-- USER LAST VISIED -->
+											</div>
+					
+				</div>
+				
+				<script>
+					$(document).ready(function (){
+						$("#brd_space .l_head").removeClass('closeDiv');
+						$("#brd_space .l_head").addClass('openDiv');
+						$("#brd_space .l_cont").show();
+					});
+				</script>
+                				
+				<!-- USER LAST VISIED -->
+				<div id="cc2">
+					<div class="accCont">
+					<div class="b_13 l_head"><strong>TRENDING TOPICS</strong><span class="arw_lhs_up"></span></div>
+					<div class="l_cont">
+						<ul class="mnLink2 PB10"><li><a href="/stock-message-forum/-/comments/7841" ><span class="arw_blu"></span> </a></li><li><a href="/stock-message-forum/reliance-comm/comments/246345" ><span class="arw_blu"></span>Reliance Comm</a></li><li><a href="/stock-message-forum/sasken-comm/comments/246231" ><span class="arw_blu"></span>Sasken Comm</a></li><li><a href="/stock-message-forum/spicejet/comments/246250" ><span class="arw_blu"></span>SpiceJet</a></li><li><a href="/stock-message-forum/dr-reddys-labs/comments/2201" ><span class="arw_blu"></span>Dr Reddys Labs</a></li><li><a href="/stock-message-forum/indian-indices/comments/246280" ><span class="arw_blu"></span>Indian indices</a></li></ul></div></div>		
+				</div>
+				
+				<!-- USER LAST VISIED -->
+									<script>//get_cc2();</script>
+								<script>
+				/*
+					$(document).ready(function (){
+						$("#cc2 .l_head").removeClass('openDiv');
+						$("#cc2 .l_head").addClass('closeDiv');
+						$("#cc2 .accCont .l_cont").hide();
+						$("#cc2 .accCont .l_cont").css("display", "none");
+					});
+				*/
+				</script>
+			</div>
+				<div class="btllink" style='width:126px;padding:0px;margin-left:15px;'>
+					<!-- <a href="#">About this page</a> -->
+					<p style="padding: 3px 5px; border-bottom: 1px solid rgb(232, 232, 232);">
+						<a href="/india/messageboard/faq.php" class="bl_14" style='background:none;'><strong>FAQ's</strong></a>
+					</p>
+					<p style="padding: 3px 5px;">
+						<a href="/india/messageboard/code_conduct.php" target="_new" class="bl_14" style='background:none;'><strong>Code of conduct</strong></a>
+					</p>
+					<!-- <a href="/india/messageboard/faq.php" class="bl_14"><strong>FAQ's</strong></a>
+					<a href="/india/messageboard/code_conduct.php" target="_new" class="bl_14"><strong>Code of conduct</strong></a> -->
+				</div>
+			</div>
+<script type="text/javascript">
+<!--
+	function tabs_alert_new(a,b,qu,tpid){
+
+		var st_filter="";
+		var ref_time="";
+		var dt="5";
+		if(st_filter==1 && ref_time  >= '0855' && ref_time <= '1600' && dt>0 && dt< 6)
+		load_ajaxprice();
+		for(var i=1; i<=b; i++)	{
+			if(i == a) {
+				document.getElementById("ctab"+i).className = "active";
+			}else{
+				document.getElementById("ctab"+i).className = "";
+			}
+		}
+		var str_con='';
+
+		$('#discontent_div').html("<div style='margin:0px 0px 0px 240px;'><img src='http://im.in.com/connect/images/markets_new_loader.gif' ></div>");	
+
+		var fname='';
+		if(qu=='rated' || qu=='active' || qu=='activeborder' || qu=='topborders' || qu=='queries' || qu=='tips' || qu=='bresult')
+			var fname='_other';
+		
+		var url = '/india/messageboard/get_ajaxv2_topic'+fname+'_output.php?que='+qu+'&topic_id='+tpid;
+
+		$.get(url, '', function(data) 
+		{	
+			$("#ajax_url").attr("value",url);
+			$("#last_loaded").attr("value",1);
+			$("#last_seen").attr("value",0);
+			//alert(url);
+			//alert($("#ajax_url").attr("value"));
+			$('#discontent_div').html(data);	
+			showloadedad('Ad_MiddleSpot','Ad_pos');
+		});
+	}
+//-->
+</script>			
+			<div class="FL PL30 PR18 rghtCont">
+						<div CLASS="b_20 PT10">
+													</div>
+						<div id='discontent_div' name='discontent_div'></div>
+                        <div class="MB10">							
+							
+							<div class="gD_14 MB10" style="padding:20px 0px 0px 70px;" id='userLin' name='userLin'></div>
+							<div class="CL"></div>
+						</div>
+						
+						<script>	
+						$(document).ready(function(){get_data_distopic('657069637265736561726368696e646f7265','','','','','','');});
+						</script>
+					</div>
+				</div>
+				<div class="CL"></div>
+			</div>
+			
+<div class="FR rightcon PT10 PL15l">
+
+
+
+<!--<div class="MB10">
+	<a href="http://www.moneycontrol.com/ipo/?utm_source=mmb" target="_blank">	<img src="http://img-d03.moneycontrol.co.in/images/promo/2015/28102015/1a.gif" width="200" height="100" alt="" /></a>
+</div>-->
+<div class="MB10">
+    <a href="http://www.moneycontrol.com/apps?utm_source=m3banner&utm_medium=Web&utm_campaign=AppInstall" target="_blank">	<img src="http://img-d03.moneycontrol.co.in/images/promo/2015/16122015/180x150.jpg" width="180" height="150" alt="" /></a>
+</div>
+
+<div class="lastVist" style="display:none;">
+    <div class="last_vtop"></div>
+    <div class="last_vmid">
+    <p class="title PL10 b_13"><strong>YOU LAST VISITED</strong></p>
+    <div class="alink">
+        
+    </div>
+    </div>
+    <div class="last_vbtm"></div>
+</div>
+
+<div id="Moneycontrol/MC_Messages/MC_Messages_Slug_200x100_div" class="MT10">			
+			<div id="Moneycontrol/MC_Messages/MC_Messages_Slug_200x100">
+				<script type="text/javascript">
+					googletag.cmd.push(function() { googletag.display("Moneycontrol/MC_Messages/MC_Messages_Slug_200x100"); });
+				</script>
+			</div>
+		  </div>
+
+<!-- END OF YSE -->
+<div id="mmbpromoplace" class="PT10"></div>
+<div id="suggestWho" class="suggestWho"></div>
+<script type="text/javascript">
+var script_page="/india/messageboardblog/boarders/657069637265736561726368696e646f7265";
+if(readCookie('stocks') || readCookie('MBTOPICS') || readCookie('nnmc')) 
+{		
+	$.get('/india/messageboard/suggestionLastvisted.php?flag=stocks_tofl',function(data) 
+	{			
+		var strData=data.split("~~~")
+		$('.lastVist .alink').html(strData[0]);
+		$('.lastVist').css('display','block');	
+		$('#suggestWho').html(strData[1]); 
+	});
+}
+
+function validate_rhslogin(){
+	if(document.rhs_login.login_id.value=="" || document.rhs_login.login_id.value=="User Id"){
+		alert("Please enter your Login");
+		document.rhs_login.login_id.focus();
+		return false;
+	}
+	if(document.rhs_login.password.value==""){
+		alert("Please enter your Password");
+		document.rhs_login.password.focus();
+		return false;
+	}	
+
+	document.rhs_login.action="http://www.moneycontrol.com/portfolio_plus/sso/login_verify_mc_new1.php";
+	document.rhs_login.submit();
+}
+
+if(!readCookie('nnmc')){				   
+   $('#rhsLogin').load($.post('/india/messageboard/m3_rhs_login.php', '', function(data){
+	  $('#rhsLogin').html(data);
+   }));
+}
+</script>
+
+<div id="rhsLogin"></div>
+
+			<div class="b_13 brdb2 PB7 PT40"><strong>EPIC RESEARCH NETWORK</strong></div>
+					
+										<div class="PT20">
+					<span class="dnarwnd"></span> &nbsp;
+					<label class="bl_13"><a href="/india/messageboardblog/01/47/boardertrackingme/657069637265736561726368696e646f7265" class="bl_13"><strong>Followers</strong></a> (84)</label>
+					</div>	
+																		
+
+		<div class="clearfix brdb PT10 PB10">
+			<div class="FL imgBrd PR7"><img src='http://img-d02.moneycontrol.co.in/images/messageboard/home/img.jpg' width='28px' height='28px' style='border:1px #E8EBF0 solid'></div>
+			<div class="FL"><a class="bl_12"  href="http://mmb.moneycontrol.com/india/messageboardblog/boarders/6973656375726974797373" title="isecurityss">isecurityss</a><br /><span class="b_11">New Member</span>
+			</div>			
+		</div>
+
+													
+
+		<div class="clearfix brdb PT10 PB10">
+			<div class="FL imgBrd PR7"><img src='http://img-d02.moneycontrol.co.in/images/messageboard/user/talk_bubble_red.gif' width='28px' height='28px' style='border:1px #E8EBF0 solid'></div>
+			<div class="FL"><a class="bl_12"  href="http://mmb.moneycontrol.com/india/messageboardblog/boarders/616b7368617934313130" title="Akky4110">Akky4110</a><br /><span class="b_11">New Member</span>
+			</div>			
+		</div>
+
+													
+
+		<div class="clearfix brdb PT10 PB10">
+			<div class="FL imgBrd PR7"><img src='http://img-d02.moneycontrol.co.in/msgboard_image_files/2016/m/pic_moneymakerresearch-160211114715.jpg' width='28px' height='28px' style='border:1px #E8EBF0 solid'></div>
+			<div class="FL"><a class="bl_12"  href="http://mmb.moneycontrol.com/india/messageboardblog/boarders/6d6f6e65796d616b65727265736561726368" title="Money-Maker">Money-Maker</a><br /><span class="b_11">New Member</span>
+			</div>			
+		</div>
+
+						<div class="FR"><a href="/india/messageboardblog/01/47/boardertrackingme/657069637265736561726368696e646f7265" target="_blank" class="bl_11">more</a></div>
+				<div class="PT20">
+					<span class="dnarwnd"></span> &nbsp;
+					<label class="bl_13"><a href="/india/messageboardblog/01/47/trackedboarders/657069637265736561726368696e646f7265" class="bl_13"><strong>Following</strong></a> (34)</label>
+					</div>	
+					
+													
+		<div class="clearfix brdb PT10 PB10">
+			<div class="FL imgBrd PR7"><img src='http://img-d02.moneycontrol.co.in/msgboard_image_files/home/Rights Announcer.gif' width='28px' height='28px' style='border:1px #E8EBF0 solid'></div>
+			<div class="FL"><a class="bl_12"  href="http://mmb.moneycontrol.com/india/messageboardblog/boarders/526967687473416e6e6f756e6365" title="Rights Announcer">Rights Announcer</a><br /><span class="b_11">Platinum Member</span>
+			</div>			
+		</div>
+
+
+													
+		<div class="clearfix brdb PT10 PB10">
+			<div class="FL imgBrd PR7"><img src='http://img-d02.moneycontrol.co.in/msgboard_image_files/2015/09/pic_10baggers-150908185428.jpg' width='28px' height='28px' style='border:1px #E8EBF0 solid'></div>
+			<div class="FL"><a class="bl_12"  href="http://mmb.moneycontrol.com/india/messageboardblog/boarders/313062616767657273" title="10baggers">10baggers</a><br /><span class="b_11">Platinum Member</span>
+			</div>			
+		</div>
+
+
+													
+		<div class="clearfix brdb PT10 PB10">
+			<div class="FL imgBrd PR7"><img src='http://img-d02.moneycontrol.co.in/images/messageboard/user/bull_green.gif' width='28px' height='28px' style='border:1px #E8EBF0 solid'></div>
+			<div class="FL"><a class="bl_12"  href="http://mmb.moneycontrol.com/india/messageboardblog/boarders/3135363961626869" title="1569abhi">1569abhi</a><br /><span class="b_11">Platinum Member</span>
+			</div>			
+		</div>
+
+
+						<div class="FR"><a href="/india/messageboardblog/01/47/trackedboarders/657069637265736561726368696e646f7265" target="_blank" class="bl_11">more</a></div>					
+			<script>
+				
+				if(document.getElementById("bfollowers_num")){
+									document.getElementById("bfollowers_num").innerHTML = 84+" followers";
+								}
+			</script>
+						
+				
+	
+
+<div class="rhsACC PT20"><label class="bl_13"><strong>Boarder of the Day</strong></label><div class="PB30 PT10">
+						<div class="FL PR5">
+						<a href="/india/messageboardblog/boarders/617272756e" class="bl_11"><img src='http://img-d02.moneycontrol.co.in/images/messageboard/user/msg_arrow_red.gif' width='50px' height='50px' style='border:1px #E8EBF0 solid'></a>
+						</div>
+						<div class="FL" style="width:95px;">
+							<div>
+							<a class="bl_11" href="/india/messageboardblog/boarders/617272756e"><strong>arrun</strong></a>
+							</div>
+							<div class="gL_11 PT2 PB2">
+							<a class="bl_10" href="/india/messageboardblog/boarders/617272756e">1748 messages</a>
+							Platinum Member
+							</div>
+							<div class="bar">
+							<span class="grbar" style="width:12%;"></span>
+							</div>
+						</div>	
+						<div class="FL" style="text-align:center">
+							<a class="bl_11 bnt_foll" onclick=track_add("617272756e","1"); href="javascript:void(0);"></a><br><span class="bl_10" style="color:grey">99</span>
+						</div>
+						<div class="CL"></div>
+					</div>
+					<label class="bl_13"><strong>Top boarders</strong></label>
+						<div class="rhsCont"><div class="clearfix brdb PT10 PB10"><div class="FL imgBrd PR7"><img src='http://img-d02.moneycontrol.co.in/msgboard_image_files/mmb_sx/pic_sudarshansukhani1965-120419155720.jpg' width='28px' height='28px' style='border:1px #E8EBF0 solid'></div>
+			<div class="FL"><a class="bl_12" href="/india/messageboardblog/boarders/73756461727368616e73756b68616e6931393635">Sudarshan Sukhani</a><br><span class="b_11">Platinum Member</span></div><div class="FR" style="text-align:center"><a onclick=track_add("73756461727368616e73756b68616e6931393635","1") href="javascript:void(0);" class="bnt_foll"></a>
+			<br><span class="bl_10" style="color:grey">60953</span></div>
+			
+			<div class="CL"></div></div><div class="clearfix brdb PT10 PB10"><div class="FL imgBrd PR7"><img src='http://img-d02.moneycontrol.co.in/msgboard_image_files/mmb_sx/pic_SPTulsian.gif' width='28px' height='28px' style='border:1px #E8EBF0 solid'></div>
+			<div class="FL"><a class="bl_12" href="/india/messageboardblog/boarders/53502054756c7369616e">SP Tulsian</a><br><span class="b_11">Platinum Member</span></div><div class="FR" style="text-align:center"><a onclick=track_add("53502054756c7369616e","1") href="javascript:void(0);" class="bnt_foll"></a>
+			<br><span class="bl_10" style="color:grey">43847</span></div>
+			
+			<div class="CL"></div></div><div class="clearfix brdb PT10 PB10"><div class="FL imgBrd PR7"><img src='http://img-d02.moneycontrol.co.in/msgboard_image_files/2012/a/pic_arvind151-120821130532.JPG' width='28px' height='28px' style='border:1px #E8EBF0 solid'></div>
+			<div class="FL"><a class="bl_12" href="/india/messageboardblog/boarders/617276696e64313531">arvind151</a><br><span class="b_11">Platinum Member</span></div><div class="FR" style="text-align:center"><a onclick=track_add("617276696e64313531","1") href="javascript:void(0);" class="bnt_foll"></a>
+			<br><span class="bl_10" style="color:grey">43617</span></div>
+			
+			<div class="CL"></div></div><div class="clearfix brdb PT10 PB10"><div class="FL imgBrd PR7"><img src='http://img-d02.moneycontrol.co.in/msgboard_image_files/2012/s/pic_soniashenoy_1988-120606125919.jpg' width='28px' height='28px' style='border:1px #E8EBF0 solid'></div>
+			<div class="FL"><a class="bl_12" href="/india/messageboardblog/boarders/736f6e69617368656e6f795f31393838">Sonia Shenoy</a><br><span class="b_11">Platinum Member</span></div><div class="FR" style="text-align:center"><a onclick=track_add("736f6e69617368656e6f795f31393838","1") href="javascript:void(0);" class="bnt_foll"></a>
+			<br><span class="bl_10" style="color:grey">26346</span></div>
+			
+			<div class="CL"></div></div><div class="clearfix brdb PT10 PB10"><div class="FL imgBrd PR7"><img src='http://img-d02.moneycontrol.co.in/msgboard_image_files/2015/p/pic_pramodreddy-150902052503.jpg' width='28px' height='28px' style='border:1px #E8EBF0 solid'></div>
+			<div class="FL"><a class="bl_12" href="/india/messageboardblog/boarders/7072616d6f647265646479">marketman</a><br><span class="b_11">Platinum Member</span></div><div class="FR" style="text-align:center"><a onclick=track_add("7072616d6f647265646479","1") href="javascript:void(0);" class="bnt_foll"></a>
+			<br><span class="bl_10" style="color:grey">23301</span></div>
+			
+			<div class="CL"></div></div><div class="FR"><a class="bl_11" target="_blank"  href="/india/messageboardblog/11/00/trackedmore/">see all</a></div></div></div>		
+
+
+
+
+
+<script type="text/javascript">
+function validate_ysu_ys()
+{
+	 var usu_query = $("#usu_query").val();
+	 var usu_name = $("#usu_name").val();
+	 var usu_city = $("#usu_city").val();
+
+	 if(usu_query==''){
+		 alert('Please input your query here.'); $("#usu_query").focus();return false;
+	 }
+	 if(usu_query=='Your Query Here'){
+		 alert('Please input your query here.'); $("#usu_query").focus();return false;
+	 }
+	 else if(usu_query.length<5){
+		 alert('Please input atleast 20 character.'); $("#usu_query").focus();return false;
+	 }
+	 else if(usu_name==''){
+		 alert('Please input your name.'); $("#usu_name").focus();return false;
+	 }
+	 else if(usu_name=='Name'){
+		 alert('Please input your name.'); $("#usu_name").focus();return false;
+	 }
+	 else if(usu_name.length<3){
+		 alert('Please input valid name.'); $("#usu_name").focus();return false;
+	 }
+	 else if(usu_city==''){
+		 alert('Please input your city.'); $("#usu_city").focus();return false;
+	 }
+	 else if(usu_city=='City'){
+		 alert('Please input your city.'); $("#usu_city").focus();return false;
+	 }
+	 else if(usu_city.length<3){
+		 alert('Please input valid city.'); $("#usu_city").focus();return false;
+	 }
+	 else{
+		 $("#usu_form").attr("action","http://mmbstg.moneycontrol.com/india/messageboard/promo/usu_form.php");
+		 $("#usu_form").submit();
+		 $("#show_tkm").html("");
+		 $("#show_tkm").html("<div class='MT10 w13'>Thank you for submitting your query.</div>");
+		return true;
+	 }
+}
+</script>
+<style>
+	*{margin:0px; padding:0px;}
+	#m3_ystck_rhs.slid1bann{ background: url(http://img.moneycontrol.co.in/images/m3_ysBg.png) no-repeat; width:160px; height:315px; padding:6px 10px 10px;}
+	
+	#m3_ystck_rhs.slid1bann_mkt{ background: url(http://img-d02.moneycontrol.co.in/images/promo/market_masters_180.jpg) no-repeat; width:160px; height:315px; padding:6px 10px 10px;}
+
+
+	#m3_ystck_rhs .slikde1banlft{ width:123px;}
+	.FL{float:left;}
+	.MT10{margin-top:10px;}
+	.MT6{margin-top:6px;}
+	.CL{clear:both;}
+	.CTR{text-align:center;}
+	.FR{float:right;}
+	.MT3{margin-top:3px;}
+	#m3_ystck_rhs .slikde1banrht{ width:139px; float:right; margin-top:23px;}
+	#m3_ystck_rhs .cnbclogon{ width:42px; height:37px; display:inline-block;}
+	#m3_ystck_rhs .yourstock{width:123px; height:23px; display:inline-block; margin-top:20px;}
+	#m3_ystck_rhs .stockrht{ width:138px; height:67px; display:inline-block;}
+	#m3_ystck_rhs .w13{ font:13px/16px Arial, Helvetica, sans-serif; color:#fff;}
+	#m3_ystck_rhs .grn_11{color:#79deac; font:11px Arial, Helvetica, sans-serif; }
+	#m3_ystck_rhs .stocktxtbox{ width:143px; height:50px; font:12px/12px Arial; color:#999; text-align:left; vertical-align:text-top; padding:6px 7px; resize:none;}
+	#m3_ystck_rhs .stockbtn{ background:#79deac; padding:0px 16px; font:bold 12px/30px Arial; color:#000; display:inline-block; text-decoration:none !important; border-radius:5px; margin-top:6px; display:inline-block;}
+	#m3_ystck_rhs .slidlbann_txtbox{font:13px/13px Arial; color:#999; padding:6px 7px; resize:none; width:60px; border:1px solid #d5d5d5; display:inline-block;}
+	#m3_ystck_rhs #show_tkm{margin-top:15px;}
+</style>
+<form method="post" name="usu_form" id="usu_form" target="_blank">
+	<div class="slid1bann_mkt" id="m3_ystck_rhs" style="margin:30px 8px 0 8px;">
+		<div class="w13"><br /><br /></div>
+		<div class="slikde1banlft"><a class="cnbclogon" href="#"></a></div>
+		<div id="show_tkm">
+			<p class="grn_11">&nbsp;</p>
+			<p class="w13 MT3">Post your queries<br /> & get them answered<br /> on CNBC-TV18 			</p>
+			<div class="MT10">
+				
+				<textarea AUTOCOMPLETE=OFF id="usu_query" name="usu_query" value="" onfocus="if(this.value=='Your Query Here')this.value='';" onblur="if(this.value=='')this.value='Your Query Here';" class="stocktxtbox">Your Query Here</textarea>
+			</div>
+			<div class="MT6">
+				<input type="hidden" name="sec_act" id="sec_act" value="MKT_MASTER" />
+				
+				<input type="text" class="slidlbann_txtbox FL" name="usu_name" id="usu_name" value="Name" onfocus="if(this.value=='Name')this.value='';" onblur="if(this.value=='')this.value='Name';" />
+				
+				<input type="text" class="slidlbann_txtbox FR" name="usu_city" id="usu_city" value="City" onfocus="if(this.value=='City')this.value='';" onblur="if(this.value=='')this.value='City';"  />
+				<div class="CL"></div>
+                                <input type='hidden' value="MTQ1NTgyNjY3OUdZNFdFWUZaR1VHWjdZMVY5VkhaRFk3WTBXNVdHVw==" name='add_bot_form' id='add_bot_form'/>
+			</div>
+			<div class=" CTR">
+				<a class="stockbtn" style="cursor:pointer" onclick="return validate_ysu_ys();">SUBMIT</a>
+			</div>
+		</div>
+	</div>
+</form>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function validate_mp_poll()
+{
+	// set var radio_choice to false
+	var radio_choice = false;
+
+	// Loop from zero to the one minus the number of radio button selections
+	for (counter = 0; counter < document.form_mp_poll.radio_mp_poll.length; counter++)
+	{
+	// If a radio button has been selected it will return true
+	// (If not it will return false)
+		if (document.form_mp_poll.radio_mp_poll[counter].checked)
+		{
+			radio_choice = true; 
+			var check_var=counter+1;
+		}
+	}
+
+	if (!radio_choice)
+	{
+		// If there were no selections made display an alert box 
+		alert("Please select a option.")
+		return (false);
+	}
+	
+	if(check_var==1)
+		pass_val="opt1";
+	if(check_var==2)
+		pass_val="opt2";
+	if(check_var==3)
+		pass_val="opt3";
+
+	pollid=document.getElementById('pollid').value;
+
+	window.open('http://mmb.moneycontrol.com/india/messageboard/poll_inter_all.php?op=poll&poll_id='+pollid+'&radio_mp_poll='+pass_val,'Polldetails'); 
+	return false;
+}
+//-->
+</SCRIPT>
+
+ 
+ <div class="PT40">
+	<form name="form_mp_poll" method="post" onSubmit="return validate_mp_poll();" >
+		<input type="hidden" name="pollid" id="pollid" value="15943">
+			<div>
+			
+			<img src="http://img.moneycontrol.co.in/images/promo/m3_kur_opinion_178x35.jpg" width="178" height="35" border="0">
+			
+			</div>
+            <div class="PA10" style="background:#f5f5f5;">
+            	<div class="gL_12_a PB10"><strong>Will market sell off if the government brings back long term capital gains on equity investments?</strong> </div>
+                <div class="gD_12 PB10">
+					<input type="radio" name="radio_mp_poll"  value="opt1" /> Yes				</div>
+                <div class="gD_12 PB10">
+				<input name="radio_mp_poll" type="radio" value="opt2" /> No				</div>
+											
+                <div style="border-bottom:#949495 1px dotted;" class="PB15"><input type="submit" value="" class="submit_btn"></div>
+                <div class="PT10">
+                	<div class="FL"><a class="bl_11" href="/india/messageboardblog/message_thread/36952697/38752697#m38752697">50 comments</a></div>
+                    <div class="FR"><a class="bl_11" href="http://mmb.moneycontrol.com/india/messageboard/poll_graph_all.php?pollid=15943&cst=n">view results</a></div>
+                    <div class="CL"></div>
+                </div>
+            </div>
+			</form>
+			</div>
+ 
+ 
+ <div class="PT10">
+	<script>
+		function ii_verify(){
+			if(document.getElementById('ii_query').value==''){
+				alert('Please write your query');
+				return false;
+			}else{
+				document.ii_site.submit();
+			}
+		}
+	</script>
+	
+</div>
+<form action="/india/messageboard/sendmsg.php" method="post" name="gotopost">
+<input type="hidden" value="" id="requid" name="requid">
+<input type="hidden" value="" id="secid" name="secid">
+<input type="hidden" value="" id="topicid" name="topicid">
+<input type='hidden' value="MTQ1NTgyNjY3OUJVOFo5VkRaNFdEVjZVQ1Y1WjVXN1dCVUhaQVY0VQ==" name='add_bot_form' id='gotopost_add_bot_form'/>
+</form>
+
+<div id="Moneycontrol/MC_Messages/MC_Messages_180x300_div" class="MT10">			
+				<div id="Moneycontrol/MC_Messages/MC_Messages_180x300">
+					<script type="text/javascript">
+						googletag.cmd.push(function() { googletag.display("Moneycontrol/MC_Messages/MC_Messages_180x300"); });
+					</script>
+				</div>
+			  </div>
+
+</div>	<div class="CL PT20"></div>
+	 
+
+<script>
+function get_data_explore()
+{
+	if(document.getElementById("expl_mmb").className=='plus')
+	{
+		document.getElementById("expl_mmb").className='minus';
+	    document.getElementById("new_forum2010").style.display='block';		
+	}
+	else
+	{  
+		document.getElementById("expl_mmb").className='plus';
+		document.getElementById("new_forum2010").style.display='none';
+	}
+	                                                                                                    
+}
+  </script>
+
+  <style>
+  ul.liacs > li >a {font-size:14px;padding:0 5px 0 10px !important;}
+  </style>
+<div id='footerMMB' style="border: 1px solid rgb(233, 233, 233);background:#fff; width: 950px;" class="MT20 PA10">
+                 	<h2 id="expl_mmb" class="plus" onclick="get_data_explore()" style="font-size:14px"><font color='#333'>Explore Messageboard</font></h2>
+					<div id="expl_mmb_d">
+                      
+					  <!-- Explore -->
+					  <div id='new_forum2010' style='display:none'>
+ <!-- Explore Mutual Funds Starts-->
+                <div>
+                    <div class="borderLnk MT10" style="padding-bottom:10px;">
+                    	<div class="FL "><a href='/india/messageboardblog/11/00/viewcategory/1' class="b_14 imgstocks"></a></div>
+                        <div class="FL brdlk" style="width:750px;	">
+                        	<div class="link7  PL10">
+                            <ul class="liacs">
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=A">A</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=B">B</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=C">C</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=D">D</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=E">E</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=F">F</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=G">G</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=H">H</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=I">I</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=J">J</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=K">K</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=L">L</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=M">M</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=N">N</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=O">O</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=P">P</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=Q">Q</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=R">R</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=S">S</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=T">T</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=U">U</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=V">V</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=W">W</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=X">X</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=Y">Y</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=Z">Z</a></li>
+                                <li><a href="/india/messageboard/stock_search_result.php?f_search=Others" style="background-image:none;">Others</a></li>
+                            </ul>
+                            <div class="CL"></div>
+                            </div>
+                        </div>
+                        <div class="CL"></div>
+                        
+                     </div>
+                    <div class="MT10" style="width:900">
+                    	<div style="max-width:170px; border-right:1px solid #e9e9e9" class="FL">
+                        	<p class="b_14"><a href='/india/messageboardblog/11/00/viewcategory/4' class="b_14"><strong>Market View</strong></a></p>
+							
+                            <ul class='list5 MT5'>
+							  <li><a href='/stock-message-forum/astrology/comments/509397' class='gL_12'>Astrology  (1077)</a> </li><li><a href='/stock-message-forum/atf/comments/509304' class='gL_12'>ATF  (158)</a> </li><li><a href='/stock-message-forum/brokeragerecommendation/comments/509152' class='gL_12'>Brokerage Recommendation  (59345)</a> </li><li><a href='/stock-message-forum/budget/comments/509416' class='gL_12'>Budget  (4262)</a> </li><li><a href='/stock-message-forum/commodities/comments/25381' class='gL_12'>Commodities  (2075961)</a> <a href='/stock-message-forum/commodities/comments/25381'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/currencies/comments/509163' class='gL_12'>Currencies  (37405)</a> </li><li><a href='/stock-message-forum/developedmarkets/comments/7481' class='gL_12'>Developed Markets  (11862)</a> </li><li><a href='/stock-message-forum/economy/comments/6421' class='gL_12'>Economy  (77891)</a> </li><li><a href='/stock-message-forum/emergingmarkets/comments/160058' class='gL_12'>Emerging Markets  (5682)</a> </li><li><a href='/stock-message-forum/frontlinesec/comments/509159' class='gL_12'>Frontline Sec  (584)</a> </li><li><a href='/stock-message-forum/globalmarkets/comments/509414' class='gL_12'>Global Markets  (4232)</a> </li><li><a href='/stock-message-forum/index/comments/246280' class='gL_12'>index  (672172)</a> <a href='/stock-message-forum/index/comments/246280'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/ipogreymarketpremium/comments/509136' class='gL_12'>IPO Grey Market Premium  (714)</a> </li><li><a href='/stock-message-forum/iponewissues/comments/25981' class='gL_12'>IPO, New Issues  (178394)</a> </li></ul><p class='b_14'><strong>View</strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/marketadvice/comments/509413' class='gL_12'>Market Advice  (6541)</a> <a href='/stock-message-forum/marketadvice/comments/509413'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/marketanalysisfundamentalview/comments/37225' class='gL_12'>Market Analysis - Fundamental View  (33135)</a> </li><li><a href='/stock-message-forum/marketanalysistechnicalview/comments/2662' class='gL_12'>Market Analysis - Technical View  (142965)</a> </li></ul><p class='b_14'><strong></strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/marketinstitutions/comments/15303' class='gL_12'>Market Institutions  (1630)</a> </li></ul><p class='b_14'><strong>Outlook</strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/marketoutlooklongterm/comments/155855' class='gL_12'>Market Outlook - Long Term  (10395)</a> </li><li><a href='/stock-message-forum/marketoutlookmediumterm/comments/159015' class='gL_12'>Market Outlook - Medium Term  (7024)</a> </li><li><a href='/stock-message-forum/marketoutlookshortterm/comments/159995' class='gL_12'>Market Outlook - Short Term  (235936)</a> </li></ul><p class='b_14'><strong>Strategy</strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/marketstrategydaytrading/comments/44043' class='gL_12'>Market Strategy - Day Trading  (170075)</a> <a href='/stock-message-forum/marketstrategydaytrading/comments/44043'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/marketstrategylongterm/comments/159075' class='gL_12'>Market Strategy - Long Term  (4619)</a> </li><li><a href='/stock-message-forum/marketstrategymediumterm/comments/157997' class='gL_12'>Market Strategy - Medium Term  (2506)</a> </li><li><a href='/stock-message-forum/marketstrategyshortterm/comments/36583' class='gL_12'>Market Strategy - Short Term  (22769)</a> </li></ul><p class='b_14'><strong></strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/oilgassector/comments/166195' class='gL_12'>Oil & Gas - Sector  (1830)</a> </li><li><a href='/stock-message-forum/otherfiitopics/comments/5126' class='gL_12'>Other FII Topics  (7408)</a> </li><li><a href='/stock-message-forum/othermarkettopics/comments/160976' class='gL_12'>Other Market Topics  (285163)</a> <a href='/stock-message-forum/othermarkettopics/comments/160976'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/othertechnologyissues/comments/74910' class='gL_12'>Other Technology Issues  (1558)</a> </li><li><a href='/stock-message-forum/portfolioreview/comments/509173' class='gL_12'>Portfolio Review  (283)</a> </li><li><a href='/stock-message-forum/poweryourtrade/comments/246239' class='gL_12'>PowerYourTrade  (216)</a> </li></ul><p class='b_14'><strong>Strategy</strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/premarkets/comments/509412' class='gL_12'>Pre markets  (1709)</a> </li></ul><p class='b_14'><strong></strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/rbi/comments/509660' class='gL_12'>RBI  (14)</a> </li>                           	</ul>
+                        </div>
+
+
+					<div style="max-width:170px; border-right:1px solid #e9e9e9" class="FL ML15">
+                        	<p class="b_14"><!-- <a href='/india/messageboardblog/11/00/viewcategory/3' class="b_14"> -->
+							<a href='/stock-message-forum/commodities/comments/25381' class="b_14">
+							<strong>Commodities</strong></a>
+							</p>
+                            <ul class="list5 MT5">
+							<li><a href='/stock-message-forum/acesugar/comments/507259' class='gL_12'>ACE Sugar  (10)</a> </li><li><a href='/stock-message-forum/acecastorp/comments/509563' class='gL_12'>ACE Castorp  (0)</a> </li><li><a href='/stock-message-forum/acemustard/comments/509565' class='gL_12'>ACE Mustard  (2)</a> </li><li><a href='/stock-message-forum/acesoybean/comments/509566' class='gL_12'>ACE Soybean  (2)</a> </li><li><a href='/stock-message-forum/acesoymeal/comments/509567' class='gL_12'>ACE Soymeal  (0)</a> </li><li><a href='/stock-message-forum/acechana/comments/509569' class='gL_12'>ACE Chana  (8)</a> </li><li><a href='/stock-message-forum/acecotton118/comments/509570' class='gL_12'>ACE Cotton118  (1)</a> </li><li><a href='/stock-message-forum/acerbd/comments/509571' class='gL_12'>ACE Rbd  (0)</a> </li><li><a href='/stock-message-forum/acerefsoyoil/comments/509594' class='gL_12'>ACE Refsoyoil  (2)</a> </li><li><a href='/stock-message-forum/mcxalmond/comments/509301' class='gL_12'>MCX Almond  (173)</a> </li><li><a href='/stock-message-forum/mcxalumini/comments/509302' class='gL_12'>MCX Alumini  (331)</a> </li><li><a href='/stock-message-forum/mcxaluminium/comments/509303' class='gL_12'>MCX Aluminium  (13057)</a> </li><li><a href='/stock-message-forum/mcxbrcrudeoil/comments/509305' class='gL_12'>MCX Brcrudeoil  (127)</a> </li><li><a href='/stock-message-forum/mcxcardamom/comments/509306' class='gL_12'>MCX Cardamom  (536)</a> </li><li><a href='/stock-message-forum/mcxchanadel/comments/509307' class='gL_12'>MCX Chanadel  (296)</a> </li><li><a href='/stock-message-forum/mcxcopper/comments/509308' class='gL_12'>MCX Copper  (153503)</a> <a href='/stock-message-forum/mcxcopper/comments/509308'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/mcxcoriander/comments/509309' class='gL_12'>MCX Coriander  (215)</a> </li><li><a href='/stock-message-forum/mcxcpo/comments/509310' class='gL_12'>MCX Cpo  (1489)</a> </li><li><a href='/stock-message-forum/mcxcrudeoil/comments/509311' class='gL_12'>MCX Crudeoil  (174820)</a> <a href='/stock-message-forum/mcxcrudeoil/comments/509311'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/mcxgasoline/comments/509312' class='gL_12'>MCX Gasoline  (77)</a> </li><li><a href='/stock-message-forum/mcxgold/comments/509313' class='gL_12'>MCX Gold  (50395)</a> <a href='/stock-message-forum/mcxgold/comments/509313'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/mcxgoldguinea/comments/509314' class='gL_12'>MCX Goldguinea  (524)</a> </li><li><a href='/stock-message-forum/mcxgoldm/comments/509315' class='gL_12'>MCX Goldm  (4051)</a> </li><li><a href='/stock-message-forum/mcxgoldpetal/comments/509316' class='gL_12'>MCX Goldpetal  (291)</a> </li><li><a href='/stock-message-forum/mcxironore/comments/509317' class='gL_12'>MCX Ironore  (47)</a> </li><li><a href='/stock-message-forum/mcxkapas/comments/509318' class='gL_12'>MCX Kapas  (834)</a> </li><li><a href='/stock-message-forum/mcxlead/comments/509319' class='gL_12'>MCX Lead  (12728)</a> <a href='/stock-message-forum/mcxlead/comments/509319'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/mcxleadmini/comments/509320' class='gL_12'>MCX Leadmini  (581)</a> </li><li><a href='/stock-message-forum/mcxmenthaoil/comments/509321' class='gL_12'>MCX Menthaoil  (6301)</a> </li><li><a href='/stock-message-forum/mcxnaturalgas/comments/509322' class='gL_12'>MCX Naturalgas  (107824)</a> <a href='/stock-message-forum/mcxnaturalgas/comments/509322'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/mcxnickel/comments/509323' class='gL_12'>MCX Nickel  (29966)</a> <a href='/stock-message-forum/mcxnickel/comments/509323'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/mcxplatinum/comments/509324' class='gL_12'>MCX Platinum  (200)</a> </li><li><a href='/stock-message-forum/mcxpotato/comments/509325' class='gL_12'>MCX Potato  (634)</a> </li><li><a href='/stock-message-forum/mcxpotatotrwr/comments/509326' class='gL_12'>MCX Potatotrwr  (197)</a> </li><li><a href='/stock-message-forum/mcxrefsoyoil/comments/509327' class='gL_12'>MCX Refsoyoil  (1469)</a> </li><li><a href='/stock-message-forum/mcxsilver/comments/509328' class='gL_12'>MCX Silver  (21127)</a> <a href='/stock-message-forum/mcxsilver/comments/509328'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/mcxsilverm/comments/509329' class='gL_12'>MCX Silverm  (7042)</a> <a href='/stock-message-forum/mcxsilverm/comments/509329'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/mcxsilvermic/comments/509330' class='gL_12'>MCX Silvermic  (7339)</a> </li><li><a href='/stock-message-forum/mcxsugarmkol/comments/509331' class='gL_12'>MCX Sugarmkol  (766)</a> </li><li><a href='/stock-message-forum/mcxwheat/comments/509332' class='gL_12'>MCX Wheat  (381)</a> </li><li><a href='/stock-message-forum/mcxzinc/comments/509333' class='gL_12'>MCX Zinc  (19180)</a> <a href='/stock-message-forum/mcxzinc/comments/509333'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/mcxzincmini/comments/509334' class='gL_12'>MCX Zincmini  (759)</a> </li><li><a href='/stock-message-forum/mcxcopperm/comments/509572' class='gL_12'>MCX Copperm  (50)</a> </li><li><a href='/stock-message-forum/mcxcotton/comments/509573' class='gL_12'>MCX Cotton  (2235)</a> </li><li><a href='/stock-message-forum/mcxgoldptldel/comments/509574' class='gL_12'>MCX Goldptldel  (9)</a> </li><li><a href='/stock-message-forum/mcxsteelrpr/comments/509575' class='gL_12'>MCX Steelrpr  (6)</a> </li><li><a href='/stock-message-forum/mcxsilver1000/comments/509591' class='gL_12'>MCX Silver1000  (20)</a> </li><li><a href='/stock-message-forum/mcxkapaskhali/comments/509592' class='gL_12'>MCX Kapaskhali  (30)</a> </li><li><a href='/stock-message-forum/mcxnickelm/comments/509593' class='gL_12'>MCX Nickelm  (20)</a> </li><li><a href='/stock-message-forum/ncdexsugarm/comments/510032' class='gL_12'>NCDEX Sugarm  (0)</a> </li><li><a href='/stock-message-forum/ncdexsybean2mt/comments/510033' class='gL_12'>NCDEX Sybean2mt  (0)</a> </li><li><a href='/stock-message-forum/ncdexsybeanidr/comments/510034' class='gL_12'>NCDEX Sybeanidr  (0)</a> </li><li><a href='/stock-message-forum/ncdexsyorefidr/comments/510035' class='gL_12'>NCDEX Syorefidr  (0)</a> </li><li><a href='/stock-message-forum/ncdexgoldhedge/comments/510036' class='gL_12'>NCDEX Goldhedge  (0)</a> </li><li><a href='/stock-message-forum/ncdexsilver/comments/510037' class='gL_12'>NCDEX Silver  (0)</a> </li><li><a href='/stock-message-forum/ncdexcotton/comments/510038' class='gL_12'>NCDEX Cotton  (0)</a> </li><li><a href='/stock-message-forum/ncdexkapassrnr/comments/510039' class='gL_12'>NCDEX Kapassrnr  (0)</a> </li><li><a href='/stock-message-forum/ncdexshankrkpas/comments/510040' class='gL_12'>NCDEX Shankrkpas  (0)</a> </li><li><a href='/stock-message-forum/ncdexsugars/comments/510041' class='gL_12'>NCDEX Sugars  (1)</a> </li><li><a href='/stock-message-forum/ncdexcopper/comments/510042' class='gL_12'>NCDEX Copper  (1)</a> </li><li><a href='/stock-message-forum/ncdexcpo/comments/510043' class='gL_12'>NCDEX Cpo  (0)</a> </li><li><a href='/stock-message-forum/ncdexsilverhedg/comments/510044' class='gL_12'>NCDEX Silverhedg  (0)</a> </li><li><a href='/stock-message-forum/ncdexbajra/comments/510045' class='gL_12'>NCDEX Bajra  (0)</a> </li><li><a href='/stock-message-forum/ncdexguar2mt/comments/510046' class='gL_12'>NCDEX Guar2mt  (0)</a> </li><li><a href='/stock-message-forum/ncdexguargum/comments/510047' class='gL_12'>NCDEX Guargum  (0)</a> </li><li><a href='/stock-message-forum/ncdexguarseed10/comments/510048' class='gL_12'>NCDEX Guarseed10  (0)</a> </li><li><a href='/stock-message-forum/ncdexgold/comments/510049' class='gL_12'>NCDEX Gold  (3)</a> </li><li><a href='/stock-message-forum/ncdexsyoref/comments/510050' class='gL_12'>NCDEX Syoref  (0)</a> </li><li><a href='/stock-message-forum/ncdexbarleyjpr/comments/510051' class='gL_12'>NCDEX Barleyjpr  (0)</a> </li><li><a href='/stock-message-forum/ncdexcastor2mt/comments/510052' class='gL_12'>NCDEX Castor2mt  (0)</a> </li><li><a href='/stock-message-forum/ncdexcastorseed/comments/510053' class='gL_12'>NCDEX Castorseed  (0)</a> </li><li><a href='/stock-message-forum/ncdexchana2mt/comments/510054' class='gL_12'>NCDEX Chana2mt  (1)</a> </li><li><a href='/stock-message-forum/ncdexcharjddel/comments/510055' class='gL_12'>NCDEX Charjddel  (0)</a> </li><li><a href='/stock-message-forum/ncdexchilli/comments/510056' class='gL_12'>NCDEX Chilli  (0)</a> </li><li><a href='/stock-message-forum/ncdexcocudakl/comments/510057' class='gL_12'>NCDEX Cocudakl  (0)</a> </li><li><a href='/stock-message-forum/ncdexdhaniya/comments/510058' class='gL_12'>NCDEX Dhaniya  (1)</a> </li><li><a href='/stock-message-forum/ncdexgold100/comments/510059' class='gL_12'>NCDEX Gold100  (0)</a> </li><li><a href='/stock-message-forum/ncdexgoldh100/comments/510060' class='gL_12'>NCDEX Goldh100  (0)</a> </li><li><a href='/stock-message-forum/ncdexjeeraunjha/comments/510061' class='gL_12'>NCDEX Jeeraunjha  (1)</a> </li><li><a href='/stock-message-forum/ncdexmaizekhrf/comments/510062' class='gL_12'>NCDEX Maizekhrf  (0)</a> </li><li><a href='/stock-message-forum/ncdexrmseed/comments/510063' class='gL_12'>NCDEX Rmseed  (0)</a> </li><li><a href='/stock-message-forum/ncdexrmseed2mt/comments/510064' class='gL_12'>NCDEX Rmseed2mt  (0)</a> </li><li><a href='/stock-message-forum/ncdexsilverh5/comments/510065' class='gL_12'>NCDEX Silverh5  (0)</a> </li><li><a href='/stock-message-forum/ncdexsteellong/comments/510066' class='gL_12'>NCDEX Steellong  (0)</a> </li><li><a href='/stock-message-forum/ncdextmcfgrnzm/comments/510067' class='gL_12'>NCDEX Tmcfgrnzm  (0)</a> </li><li><a href='/stock-message-forum/ncdexwheat/comments/510068' class='gL_12'>NCDEX Wheat  (1)</a> </li><li><a href='/stock-message-forum/ncdexcrudeoil/comments/510069' class='gL_12'>NCDEX Crudeoil  (1)</a> </li>
+
+							</ul>
+						</div>
+
+                    	<div style="max-width:170px; border-right:1px solid #e9e9e9" class="FL ML15">
+							
+                        	<p class="b_14"><!-- <a href='/india/messageboardblog/11/00/viewcategory/4' class="b_14"> --><strong>Sectors</strong><!-- </a> -->
+							</p>
+                            <ul class='list5 MT5'>
+							  <li><a href='/stock-message-forum/automotivesector/comments/156535' class='gL_12'>Automotive - Sector  (6858)</a> </li><li><a href='/stock-message-forum/bankingfinancialservicessector/comments/156537' class='gL_12'>Banking & Financial Services - Sector  (20147)</a> </li><li><a href='/stock-message-forum/bpo/comments/156995' class='gL_12'>BPO  (316)</a> </li><li><a href='/stock-message-forum/cementconstructionsector/comments/156538' class='gL_12'>Cement & Construction - Sector  (3545)</a> </li><li><a href='/stock-message-forum/chemicalssector/comments/156539' class='gL_12'>Chemicals - Sector  (629)</a> </li><li><a href='/stock-message-forum/consumerdurablessector/comments/156541' class='gL_12'>Consumer Durables - Sector  (2315)</a> </li><li><a href='/stock-message-forum/consumernondurablessector/comments/156542' class='gL_12'>Consumer Non-durables - Sector  (312)</a> </li><li><a href='/stock-message-forum/engineeringcapitalgoodssector/comments/156543' class='gL_12'>Engineering & Capital Goods - Sector  (2174)</a> </li><li><a href='/stock-message-forum/fmcgsector/comments/44601' class='gL_12'>FMCG - Sector  (3132)</a> </li><li><a href='/stock-message-forum/foodbeveragessector/comments/156544' class='gL_12'>Food & Beverages - Sector  (1726)</a> </li><li><a href='/stock-message-forum/hotelsector/comments/69610' class='gL_12'>Hotel - Sector  (368)</a> </li><li><a href='/stock-message-forum/informationtechnologysector/comments/156545' class='gL_12'>Information Technology - Sector  (5825)</a> </li><li><a href='/stock-message-forum/manufacturingsector/comments/156546' class='gL_12'>Manufacturing - Sector  (982)</a> </li><li><a href='/stock-message-forum/mediaentertainmentsector/comments/156547' class='gL_12'>Media & Entertainment - Sector  (1747)</a> </li><li><a href='/stock-message-forum/metalsminingsector/comments/156548' class='gL_12'>Metals & Mining - Sector  (3786)</a> </li><li><a href='/stock-message-forum/oilgassector/comments/156549' class='gL_12'>Oil & Gas - Sector  (5003)</a> </li><li><a href='/stock-message-forum/pharmaceuticalssector/comments/156550' class='gL_12'>Pharmaceuticals - Sector  (3126)</a> </li><li><a href='/stock-message-forum/realestate/comments/246813' class='gL_12'>Real Estate  (3264)</a> </li><li><a href='/stock-message-forum/servicessector/comments/156551' class='gL_12'>Services - Sector  (3074)</a> </li><li><a href='/stock-message-forum/shippingsector/comments/160055' class='gL_12'>Shipping - Sector  (406)</a> </li><li><a href='/stock-message-forum/telecommunicationsector/comments/156552' class='gL_12'>Telecommunication - Sector  (6273)</a> </li><li><a href='/stock-message-forum/tobaccosector/comments/156553' class='gL_12'>Tobacco - Sector  (116)</a> </li><li><a href='/stock-message-forum/utilitiessector/comments/156554' class='gL_12'>Utilities - Sector  (1379)</a> </li>                           	</ul>
+							
+							<p class="b_14">
+								<a href = "/india/messageboardblog/16/00/viewcategory/13" class="b_14"><strong>SME</strong></a>
+							</p>
+								<ul class='list5 MT5'>
+								<li><a href='/stock-message-forum/compliance/comments/509943' class='gL_12'>Compliance  (3)</a> </li><li><a href='/stock-message-forum/entrepreneurship/comments/509944' class='gL_12'>Entrepreneurship  (12)</a> </li><li><a href='/stock-message-forum/exim/comments/509945' class='gL_12'>EXIM  (7)</a> </li><li><a href='/stock-message-forum/finance/comments/509946' class='gL_12'>Finance  (416)</a> </li><li><a href='/stock-message-forum/government/comments/509947' class='gL_12'>Government  (467)</a> </li><li><a href='/stock-message-forum/hr/comments/509948' class='gL_12'>HR  (333)</a> </li><li><a href='/stock-message-forum/innovations/comments/509949' class='gL_12'>Innovations  (5)</a> </li><li><a href='/stock-message-forum/legal/comments/510016' class='gL_12'>Legal  (0)</a> </li><li><a href='/stock-message-forum/management/comments/510017' class='gL_12'>Management  (0)</a> </li><li><a href='/stock-message-forum/manufacturing/comments/509950' class='gL_12'>Manufacturing  (145)</a> </li><li><a href='/stock-message-forum/marketing/comments/509951' class='gL_12'>Marketing  (19)</a> </li><li><a href='/stock-message-forum/mentoring/comments/510018' class='gL_12'>Mentoring  (0)</a> </li><li><a href='/stock-message-forum/policy/comments/510019' class='gL_12'>Policy  (0)</a> </li><li><a href='/stock-message-forum/processing/comments/509952' class='gL_12'>Processing  (9)</a> </li><li><a href='/stock-message-forum/productivity/comments/510020' class='gL_12'>Productivity  (0)</a> </li><li><a href='/stock-message-forum/rawmaterials/comments/509953' class='gL_12'>Raw Materials  (2)</a> </li><li><a href='/stock-message-forum/retail/comments/509954' class='gL_12'>Retail  (104)</a> </li><li><a href='/stock-message-forum/service/comments/509955' class='gL_12'>Service  (279)</a> </li><li><a href='/stock-message-forum/sme/comments/510118' class='gL_12'>SME  (15)</a> </li><li><a href='/stock-message-forum/startups/comments/509956' class='gL_12'>Start ups  (6)</a> </li><li><a href='/stock-message-forum/strategy/comments/510021' class='gL_12'>Strategy  (0)</a> </li><li><a href='/stock-message-forum/taxation/comments/510022' class='gL_12'>Taxation  (0)</a> </li><li><a href='/stock-message-forum/technology/comments/509957' class='gL_12'>Technology  (173)</a> </li><li><a href='/stock-message-forum/trends/comments/510023' class='gL_12'>Trends  (0)</a> </li>	
+								
+                        	<!-- <p class="b_14"><a href='/stock-message-forum/budget/comments/509416' class="b_14"><strong>Budget</strong></a></p>
+	
+							<ul class="list5 MT5">
+							 
+                               </ul><p class='b_14'><strong></strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/globalnews/comments/509668' class='gL_12'>Global News  (2)</a> </li><li><a href='/stock-message-forum/rbi/comments/509660' class='gL_12'>RBI  (14)</a> </li><li><a href='/stock-message-forum/livetradingcalls/comments/509604' class='gL_12'>Live Trading Calls  (4)</a> </li><li><a href='/stock-message-forum/inflation/comments/509546' class='gL_12'>Inflation  (3)</a> </li><li><a href='/stock-message-forum/fiscaldeficit/comments/509545' class='gL_12'>Fiscal deficit  (-12)</a> </li><li><a href='/stock-message-forum/environment/comments/509544' class='gL_12'>Environment  (0)</a> </li><li><a href='/stock-message-forum/unemployment/comments/509543' class='gL_12'>Unemployment  (2)</a> </li>						</ul> -->
+					  </div>
+
+
+					<div style="max-width:170px; border-right:1px solid #e9e9e9" class="FL ML15">
+                
+                        	<p class="b_14"><a href='/india/messageboardblog/11/00/viewcategory/3' class="b_14"><strong>General</strong></a></p>
+                            <ul class="list5 MT5">
+                               <li><a href='/stock-message-forum/medianewspapers/comments/5461' class='gL_12'>Media & Newspapers  (8516)</a> </li><li><a href='/stock-message-forum/messagesemail/comments/509148' class='gL_12'>Messages from Email  (6042)</a> </li><li><a href='/stock-message-forum/newsnow/comments/160977' class='gL_12'>News Now  (625355)</a> <a href='/stock-message-forum/newsnow/comments/160977'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/newsmakers/comments/21125' class='gL_12'>Newsmakers  (25412)</a> </li><li><a href='/stock-message-forum/politics/comments/159656' class='gL_12'>Politics  (313802)</a> <a href='/stock-message-forum/politics/comments/159656'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/smsmessages/comments/509147' class='gL_12'>SMS messages  (942)</a> </li></ul><p class='b_14'><strong>Life Style</strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/advertising/comments/246861' class='gL_12'>Advertising  (2033)</a> </li><li><a href='/stock-message-forum/booksmagazines/comments/42061' class='gL_12'>Books & Magazines  (1416)</a> </li><li><a href='/stock-message-forum/internet/comments/44279' class='gL_12'>Internet  (18135)</a> </li><li><a href='/stock-message-forum/moneybhai/comments/246206' class='gL_12'>Moneybhai  (1808)</a> </li><li><a href='/stock-message-forum/movies/comments/30721' class='gL_12'>Movies  (7713)</a> </li><li><a href='/stock-message-forum/sportshobbiescontests/comments/12025' class='gL_12'>Sports/Hobbies/Contests  (34388)</a> </li><li><a href='/stock-message-forum/wheels/comments/156735' class='gL_12'>Wheels  (4347)</a> </li></ul><p class='b_14'><strong>My space</strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/birthdaywishes/comments/160057' class='gL_12'>Birthday Wishes  (4749)</a> </li><li><a href='/stock-message-forum/debates/comments/7843' class='gL_12'>Debates  (12987)</a> </li><li><a href='/stock-message-forum/grievances/comments/63401' class='gL_12'>Grievances  (4415)</a> </li><li><a href='/stock-message-forum/ideasfromyou/comments/44123' class='gL_12'>Ideas From You  (8679)</a> </li><li><a href='/stock-message-forum/oddoneout/comments/160975' class='gL_12'>Odd One Out  (146009)</a> <a href='/stock-message-forum/oddoneout/comments/160975'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/quotablequotes/comments/156540' class='gL_12'>Quotable quotes  (17892)</a> </li></ul><p class='b_14'><strong>Spend</strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/fashion/comments/160056' class='gL_12'>Fashion  (423)</a> </li><li><a href='/stock-message-forum/fooddrinks/comments/79110' class='gL_12'>Food & Drinks  (674)</a> </li><li><a href='/stock-message-forum/healthgrooming/comments/43201' class='gL_12'>Health & Grooming  (2172)</a> </li><li><a href='/stock-message-forum/travel/comments/41921' class='gL_12'>Travel  (850)</a> </li></ul><p class='b_14'><strong>Study</strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/kotakpsubank/comments/246906' class='gL_12'>Kotak PSU Bank  (922)</a> </li><li><a href='/stock-message-forum/piramalphytoca/comments/246905' class='gL_12'>Piramal Phytoca  (2588)</a> </li><li><a href='/stock-message-forum/psubankbees/comments/246907' class='gL_12'>PSU BANK BEES  (1628)</a> </li><li><a href='/stock-message-forum/studyindia/comments/46323' class='gL_12'>Study in India  (1855)</a> </li></ul><p class='b_14'><strong>Work</strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/bankbees/comments/246908' class='gL_12'>BANK BEES  (1323)</a> </li><li><a href='/stock-message-forum/businesstalk/comments/26728' class='gL_12'>Business Talk  (23861)</a> </li><li><a href='/stock-message-forum/entrepreneurship/comments/76370' class='gL_12'>Entrepreneurship  (686)</a> </li><li><a href='/stock-message-forum/salarynegotiation/comments/246909' class='gL_12'>Salary & Negotiation  (905)</a> </li><li><a href='/stock-message-forum/smallmediumenterprises/comments/246873' class='gL_12'>Small & Medium Enterprises  (2027)</a> </li>								</ul>
+                           	
+							
+						<!--
+							<p class="b_14 PT10"><strong>Personalities</strong></p>
+                            <ul class="list8 MT5">
+                                <li><a href="http://connect.in.com/Celebrities.html">Celebrities</a></li>
+                                <li><a href="http://connect.in.com/Corporates.html">Corporates</a></li>
+                                <li><a href="http://connect.in.com/Sportsmen.html">Sportsmen</a></li>
+                                <li><a href="http://connect.in.com/Politicians.html">Politicians</a></li>
+                                <li><a href="http://connect.in.com/Others.html">Others</a></li>
+                            </ul>
+                           	-->
+							
+                        </div>
+
+
+
+
+						
+
+                        <div style="max-width:170px;" class="FL ML15">
+                        	<p class="b_14"><a href='/india/messageboardblog/11/00/viewcategory/5' class="b_14"><strong>Personal Finance </strong></a></p>
+                             <ul class="list5 MT5">
+                               </ul><p class='b_14'><strong></strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/loans/comments/3231' class='gL_12'>Loans  (1614)</a> </li><li><a href='/stock-message-forum/smallsavingsschemes/comments/509408' class='gL_12'>Small Savings Schemes  (4)</a> </li><li><a href='/stock-message-forum/bonds/comments/509407' class='gL_12'>Bonds  (419)</a> <a href='/stock-message-forum/bonds/comments/509407'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li><li><a href='/stock-message-forum/companydeposits/comments/509406' class='gL_12'>Company Deposits  (2)</a> </li><li><a href='/stock-message-forum/bankdeposits/comments/509405' class='gL_12'>Bank Deposits  (11)</a> </li><li><a href='/stock-message-forum/legal/comments/246381' class='gL_12'>Legal  (1824)</a> </li><li><a href='/stock-message-forum/retirement/comments/246380' class='gL_12'>Retirement  (1606)</a> </li><li><a href='/stock-message-forum/nri/comments/246237' class='gL_12'>NRI  (1139)</a> </li><li><a href='/stock-message-forum/budgetingplanning/comments/74291' class='gL_12'>Budgeting and planning  (2654)</a> </li><li><a href='/stock-message-forum/taxplanninghelp/comments/10303' class='gL_12'>Tax Planning & Help  (19669)</a> </li><li><a href='/stock-message-forum/creditcards/comments/47561' class='gL_12'>Credit Cards  (705)</a> <a href='/stock-message-forum/creditcards/comments/47561'><img src='http://img.moneycontrol.co.in/images/promo/justposted.gif' border='0' align='absmiddle'></a></li></ul><p class='b_14'><strong>Insurance</strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/planscan/comments/153915' class='gL_12'>Plan Scan  (486)</a> </li><li><a href='/stock-message-forum/otherinsuranceissues/comments/144395' class='gL_12'>Other Insurance Issues  (1809)</a> </li><li><a href='/stock-message-forum/insurancehelp/comments/7904' class='gL_12'>Insurance Help  (5791)</a> </li></ul><p class='b_14'><strong>Invest</strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/property/comments/246238' class='gL_12'>Property  (5429)</a> </li><li><a href='/stock-message-forum/firsttimestockinvestors/comments/246911' class='gL_12'>First time stock investors  (1491)</a> </li><li><a href='/stock-message-forum/fixedincome/comments/246910' class='gL_12'>Fixed Income  (1439)</a> </li></ul><p class='b_14'><strong>Mutual fund</strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/fundmanagers/comments/11364' class='gL_12'>Fund Managers  (342)</a> </li><li><a href='/stock-message-forum/mftaxes/comments/246742' class='gL_12'>MF & Taxes  (1598)</a> </li><li><a href='/stock-message-forum/mfadvisorsdistributors/comments/246741' class='gL_12'>MF Advisors/Distributors  (610)</a> </li><li><a href='/stock-message-forum/newfundoffersnfos/comments/138595' class='gL_12'>New Fund Offers (NFOs)  (1411)</a> </li><li><a href='/stock-message-forum/mfinvestmenthelp/comments/159955' class='gL_12'>MF Investment Help  (68409)</a> </li><li><a href='/stock-message-forum/othermftopics/comments/159635' class='gL_12'>Other MF Topics  (4893)</a> </li><li><a href='/stock-message-forum/mfsmarkets/comments/158775' class='gL_12'>MFs & Markets  (7458)</a> </li><li><a href='/stock-message-forum/bestfundstobuy/comments/158335' class='gL_12'>Best Funds to Buy  (6198)</a> </li><li><a href='/stock-message-forum/exchangetradedfundsetfs/comments/509411' class='gL_12'>Exchange Traded Funds (ETFs)  (2)</a> </li>								</ul>
+
+								
+
+								
+								 <p class="btn2 MT5"><span></span><a href="/india/messageboard/forums_more.php?fid=2">more</a></p>
+								 <div class="CL"></div>
+								<ul class="list5 MT5">
+								<p class='b_14'><a href='/india/messageboardblog/11/00/viewcategory/2' class="b_14"><strong>Feedback</strong></a></p>
+                               </ul><p class='b_14'><strong></strong></p><ul class='list5 MT5'><li><a href='/stock-message-forum/aboutmmb/comments/160978' class='gL_12'>About MMB  (247563)</a> </li><li><a href='/stock-message-forum/aboutmoneycontrol/comments/160979' class='gL_12'>About Moneycontrol  (2636)</a> </li><li><a href='/stock-message-forum/aboutshows/comments/159515' class='gL_12'>About Shows  (3425)</a> </li><li><a href='/stock-message-forum/bazaarcorporateradar/comments/246971' class='gL_12'>Bazaar Corporate Radar  (46)</a> </li><li><a href='/stock-message-forum/bazaarmorningcall/comments/246969' class='gL_12'>Bazaar Morning Call  (28)</a> </li><li><a href='/stock-message-forum/beautifulpeople/comments/246964' class='gL_12'>Beautiful People  (6)</a> </li><li><a href='/stock-message-forum/brandhouse/comments/246958' class='gL_12'>Brandhouse  (2471)</a> </li><li><a href='/stock-message-forum/businesslunch/comments/246972' class='gL_12'>Business Lunch  (2)</a> </li>								</ul>
+                            <p class="btn2 MT5"><span></span><a href="/india/messageboard/forums_more.php?fid=1">more</a></p>
+                            <div class="CL"></div>
+                            <p class="b_14 PT10"><a href="http://mmb.moneycontrol.com/india/messageboard/code_conduct.php" class="b_14"><strong>Do's and Dont's</strong></a></p>
+                            <p class="b_14 PT10"><a href="/india/messageboard/faq.php" class="b_14"><strong>Faqs</strong></a></p>	
+                        </div>
+                        <div class="CL"></div>
+                    </div>
+                </div>
+                <!-- Explore Mutual Funds Ends-->
+
+				</div>
+					  <!-- Explore Ends -->
+
+					</div>
+                </div><script>
+sensex_ajax_auto();
+</script>
+<div class="footer b_11">
+<p><a href="http://www.moneycontrol.com/news/sitemap/sitemap.php" class="gD_11"><strong>Site Map</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.moneycontrol.com/cdata/aboutus.php" class="gD_11"><strong>About Us</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.moneycontrol.com/cdata/contact.php" class="gD_11"><strong>Contact Us</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://adspecs.web18.in/" class="gD_11"><strong>Advertise</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" onclick="javascript:bookmarksite('Moneycontrol.com', 'http://www.moneycontrol.com');" class="gD_11"><strong>Bookmark</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.moneycontrol.com/cdata/disclaim.php" class="gD_11"><strong>Disclaimer</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.moneycontrol.com/cdata/prystat.php" class="gD_11"><strong>Privacy Statement</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.moneycontrol.com/cdata/termsofuse.php" class="gD_11"><strong>Terms of Use</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://impact-in.jobstreet.com/jobs/jobs.asp?eid=20756359&de=1&fil=1" class="gD_11"><strong>Careers</strong></a></p>
+	<p class="MT10" style="padding:0 50px 10px 50px;">Copyright &copy; e-Eighteen.com Ltd. All rights reserved. Reproduction of news articles, photos, videos or any other content in whole or in part in any form or medium without express written permission of moneycontrol.com is prohibited.</p>
+</div>
+
+
+<!-- HeatMap -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0022/2343.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); </script>
+
+<!-- HeatMap -->
+<form method="post" name="repostredirect">
+<input type="hidden" name="repost" id="repost" value="1">
+<input type="hidden" name="repostmsgid" id="repostmsgid" value="">
+</form><div id="pytinclout"></div>
+<script>function getcookie_add(name)
+{
+	var m_cookies = (document.cookie).split(";");
+	for(m_ctr=0; m_ctr < m_cookies.length; m_ctr++)
+	{
+		m_str = (m_cookies[m_ctr]).split("=");
+		if(m_str[0] == " "+name || m_str[0] == name)
+			return m_str[1];
+	}
+	return "";
+}
+	var expDays_pcusr = 1;
+	var exp_pcusr = new Date(); 
+	exp_pcusr.setTime(exp_pcusr.getTime() + (expDays_pcusr*24*60*60*1000));
+    
+	var puser_visit = getcookie_add('PMSALCK');
+	var mcuser_netwroth= getcookie_add('mcusr_netwrth');
+	var mcuser_netwrth='';	
+
+	
+	if(puser_visit=="" && (mcuser_netwroth>10000000 || mcuser_netwrth>10000000))
+	{
+	  $.post('/mccode/common/alchemy_promo_callout.php', '', function(data) 
+			{			
+				$('#pytinclout').html(data);		
+			});
+	}
+	
+</script>
+
+<div id="Ad_TOPSpot" style='display:none'></div>
+<div id="Ad_MiddleSpot" style='display:none'></div>
+<script>
+	//showloadedad('Ad_TOPSpot','');
+	//showloadedad('Ad_MiddleSpot','');
+	if(readCookie('user_loginid')) {
+		var trckusrid = "mc_" + readCookie("user_loginid");
+	} else {
+		var trckusrid = "";
+	}
+	var wMeta = document.createElement('meta'); wMeta.name = '_w18Id'; wMeta.content = trckusrid;
+	var m = document.getElementsByTagName('meta')[0]; m.parentNode.insertBefore(wMeta, m);
+
+	(function() {
+		window._w18hn = "MC";
+		window._w18_config={"microsite":"own","sections":"Messages"}; 
+		var w18 = document.createElement('script'); w18.type = 'text/javascript'; w18.async = true;
+		w18.src = 'http://s.web-18.com/common/script_catch.js?v2';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(w18, s);
+	})();
+</script>
+<script type="text/javascript">
+var interval_calculation=0;
+interval_calculation=((1000*60)*30);  // half an hour			
+setTimeout(function(){window.location.reload();},interval_calculation)
+</script>
+
+<script>
+$(document).ready(function(){
+$('.mr_slide').click(function(){	
+	var nsecnt = $('.nse_cont').height();
+	if($('.ht55').height()<= 55)
+	{		
+		$('.ht55').animate({'height':nsecnt});
+		$(this).html("<div class='mr_slide'><span class='sl_arw_up'></span> less</div>") ;
+	}
+	else
+	{
+		$('.ht55').animate({'height':'55px'});
+		$(this).html("<div class='mr_slide'><span class='sl_arw'></span> more</div>") ;		
+	}
+});});
+function mctop_getCookie(c_name)
+{
+	var i,x,y,ARRcookies=document.cookie.split(";");
+	for (i=0;i<ARRcookies.length;i++)
+	{
+		x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+		y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+		x=x.replace(/^\s+|\s+$/g,"");
+		
+		if (x==c_name)
+		{
+			return unescape(y);
+		}
+	}
+}
+</script>
+
+<script>
+Floating10 = mctop_getCookie('Floating10');
+
+if( typeof Floating10 == "undefined" )
+{
+	var c_name = 'Floating10'; exhours = 1; var now = new Date(); var time = now.getTime(); time += exhours * 600 * 1000; now.setTime(time);
+	var c_value = escape('1') + ((exhours==null) ? "" : "; expires="+now.toUTCString()) + "; path=/; domain=.moneycontrol.com; ";
+	document.cookie = c_name + "=" + c_value;
+}
+</script><script src="http://stat.moneycontrol.co.in/india/messageboard/js/m3loginbx.js?v3" type="text/javascript"></script>
+<style>
+#TopCallout_stk,#aboutPage {font:12px Arial,Helvetica,sans-serif;padding:20px;background:none repeat scroll 0 0 #EEEDF0; display:none; position:fixed; _position:absolute; top:50%; margin-top:700px; margin-top:400px\9; left:50%; margin-left:-200px; width:455px; z-index:999999	; }
+.back__Inner { padding:5px; margin:0 auto;/*margin:20px 0 0 27%;*/ width:430px; background:#FFFFFF; border: 1px solid #bcbcbc; font-size:12px; color: #666666; overflow:auto; text-align:left;}
+#lightbox_cb { display: none; background: #000; position: fixed; _position:absolute; left: 0; top: 0; z-index: 10; width: 100%; height: 100%; opacity: .80; z-index: 100000; _height:1000px }
+input.btn_plog{display:block; width:68px; height:33px; background:url(http://img.moneycontrol.co.in/images/messageboard/mmb_iconsprite.gif) no-repeat -199px -179px; text-indent:-99999px; border:none;cursor:pointer;}
+input.btn_pglog{display:block; width:116px; height:33px; background:url(http://img.moneycontrol.co.in/images/messageboard/mmb_iconsprite.gif) no-repeat -82px -179px; text-indent:-99999px; border:none;cursor:pointer;}
+.callclose{ display:inline-block; width:15px; height:15px; background:url(http://img.moneycontrol.co.in/images/messageboard/mmb_iconsprite.gif) -89px -17px no-repeat;}
+</style>
+<div id="aboutPage" style="display:none">
+	 <a href="javaScript:;" onclick="closePop('aboutPage')" class="callclose FR"></a>
+	<div style="border-bottom:#b7b7b7 1px solid;" class="PB10 PT5">
+    	<div class="FL" style="font-size:28px; _line-height:32px;">Sign in</div>
+        
+		<div class="FR b_13 PR40" id="social_flag" style="display:none">
+		<strong>or Login with</strong> 
+		<a onclick=Popup1('openFacebookPopup') class="icn_fb"></a> 
+		<a onclick="Popup1('twitterLoginPopup')" class="icn_twit"></a> 
+		<a onclick="Popup1('yahooLoginPopup')" class="icn_yahoo"></a> 
+		<a  onclick="Popup1('googleLoginPopup')" class="icn_gplus"></a>
+		<a href="#" class="iconin"></a>
+		</div>
+
+        <div class="CL"></div>
+    </div>
+	<style>.gL_12 { font:12px/16px arial; color:#000;}</style>
+    <div class="PT10">
+    	<div class="PB10"><label><span class="gL_12 PR7"><strong>Username</strong></span>
+		<input type='text'  name='f_id' id = 'f_id' value="" size='40' class='inpuLg' onkeypress='if(event.keyCode==13) verify_signin()' /><input type='hidden' name='f_sourcelogin' id='f_sourcelogin' />
+		</label></div>
+        <div class="PB10"><label><span class="gL_12 PR7"><strong>Password</strong></span>
+		
+		<input type='password' name='f_pwd' id = 'f_pwd' size='40' class='inpuLg' onkeypress='if(event.keyCode==13) verify_signin()' value="" />
+		</label></div>
+       	<div class="PB18 b_11" style="padding-left:70px;">
+        	<div class="PT5"><input type="checkbox" name="keepsignin" id="keepsignin" value="1"/> Keep me signed in </div>
+        </div>
+		
+        <div class="PB10" style="padding-left:70px;">
+		<input type="submit" onclick='verify_signin()' class="btn_plog FL" /> &nbsp;
+		<input id="guest_lgn" onclick='verify_signin(2)' type="submit"  class="btn_pglog FL ML5"/>
+		</div>
+        <div class="PB5 bl_11 FL" style="padding-left:70px;"><a href='http://www3.in.com/sso/forgotpwd.php?ref=MC' class="bl_11"><strong>Forgot password?</strong></a></div>
+        <div class="b_11 FL" style="padding-left:70px;"><strong>Don't have an account yet? -</strong> <a href='http://www3.in.com/sso/commonregister.php?ref=MC&returnurl=http://mmb.moneycontrol.com/india/messageboard/post_registration.php' style='cursor:pointer;' class="bl_11"><strong>Register now</strong></a></div>
+    </div>
+</div>
+
+
+
+
+
+	
+</div>
+<script type="text/javascript">
+<!--
+	$('html,body').animate({scrollTop: $(".main_cnt").offset().top},'slow');
+//-->
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,899 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 oldie"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="it-IT" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<head>
+    <!-- start:global -->
+    <meta charset="UTF-8" />
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><![endif]-->
+    <!-- end:global -->
+
+    <!-- start:page title -->
+    <title>  Gruppo Anteprima - Dal 1996 leader negli eventi  </title>
+    <!-- end:page title -->
+
+    <!-- start:responsive web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- end:responsive web design -->
+    
+    <link rel="pingback" href="http://www.gruppoanteprima.com/xmlrpc.php" />
+    
+    <link rel="icon" type="image/png" href="http://www.gruppoanteprima.com/wp-content/uploads/2015/02/favicon.ico">    
+    <!-- start:wp_head -->
+                            <script>
+                            /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
+                            if ( typeof WebFontConfig === "undefined" ) {
+                                WebFontConfig = new Object();
+                            }
+                            WebFontConfig['google'] = {families: ['Roboto:400,700', 'Roboto+Condensed:400,700']};
+
+                            (function() {
+                                var wf = document.createElement( 'script' );
+                                wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+                                wf.type = 'text/javascript';
+                                wf.async = 'true';
+                                var s = document.getElementsByTagName( 'script' )[0];
+                                s.parentNode.insertBefore( wf, s );
+                            })();
+                        </script>
+                    
+<!-- This site is optimized with the Yoast WordPress SEO plugin v2.1.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Leader nell&#039;organizzazione di eventi teatrali e spettacoli in Piemonte, Valle d&#039;Aosta, Veneto, Emilia Romagna, Toscana, Liguria, Sardegna e Lombardia."/>
+<link rel="canonical" href="http://www.gruppoanteprima.com/" />
+<meta property="og:locale" content="it_IT" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Spettacoli,Teatro ed Eventi- Benvenuto in Gruppo Anteprima -" />
+<meta property="og:description" content="Leader nell&#039;organizzazione di eventi teatrali e spettacoli in Piemonte, Valle d&#039;Aosta, Veneto, Emilia Romagna, Toscana, Liguria, Sardegna e Lombardia." />
+<meta property="og:url" content="http://www.gruppoanteprima.com/" />
+<meta property="og:site_name" content="Gruppo Anteprima" />
+<meta property="article:publisher" content="https://www.facebook.com/GRUPPOANTEPRIMA-158356217524493/timeline/" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.gruppoanteprima.com\/","name":"Gruppo Anteprima","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.gruppoanteprima.com\/?s={search_term}","query-input":"required name=search_term"}}</script>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Gruppo Anteprima &raquo; Feed" href="http://www.gruppoanteprima.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Gruppo Anteprima &raquo; Feed dei commenti" href="http://www.gruppoanteprima.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Gruppo Anteprima &raquo; Benvenuto Feed dei commenti" href="http://www.gruppoanteprima.com/home/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.gruppoanteprima.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-swipebox-front-css'  href='http://www.gruppoanteprima.com/wp-content/plugins/responsive-lightbox/assets/swipebox/css/swipebox.min.css?ver=4.1.10' type='text/css' media='all' />
+<link rel='stylesheet' id='miptheme-bootstrap-css'  href='http://www.gruppoanteprima.com/wp-content/themes/weeklynews/assets/css/bootstrap.min.css?ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='miptheme-external-styles-css'  href='http://www.gruppoanteprima.com/wp-content/themes/weeklynews/assets/css/mip.external.css?ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='miptheme-style-css'  href='http://www.gruppoanteprima.com/wp-content/themes/weeklynews/style.css?ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dynamic-css-css'  href='http://www.gruppoanteprima.com/wp-admin/admin-ajax.php?action=dynamic_css&#038;ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C500italic%2C400italic%2C700%2C700italic%7CRoboto+Condensed%3A400%2C700%7CRoboto+Slab&#038;subset=latin&#038;ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-styles-css'  href='http://www.gruppoanteprima.com/wp-content/themes/weeklynews/assets/css/font-style.css?ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-cookies-popup-css'  href='http://www.gruppoanteprima.com/wp-content/plugins/easy-wp-cookie-popup/css/popup.css?ver=1.5' type='text/css' media='screen' />
+<link rel='stylesheet' id='wp-cookies-fontawesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?ver=1.5' type='text/css' media='screen' />
+<link rel='stylesheet' id='js_composer_front-css'  href='http://www.gruppoanteprima.com/wp-content/plugins/js_composer/assets/css/js_composer.css?ver=4.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_custom_css-css'  href='http://www.gruppoanteprima.com/wp-content/uploads/js_composer/custom.css?ver=4.3.5' type='text/css' media='screen' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://www.gruppoanteprima.com/wp-content/plugins/jetpack/css/jetpack.css?ver=3.5.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=4.1.10'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rlArgs = {"script":"swipebox","selector":"lightbox","custom_events":"","activeGalleries":"1","animation":"1","hideCloseButtonOnMobile":"0","hideBars":"1","hideBarsDelay":"5000","videoMaxWidth":"1080","useSVG":"1","loopAtEnd":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-content/plugins/responsive-lightbox/js/front.js?ver=4.1.10'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.gruppoanteprima.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.gruppoanteprima.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.10" />
+<link rel='shortlink' href='http://www.gruppoanteprima.com/' />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" /><style type='text/css'>img#wpstats{display:none}</style>            <!--Customizer CSS--> 
+            <style type="text/css">
+                body { background-color:#d1d1d1; }                #header-branding { background-color:#ec3923; }                #page-header-mobile { background-color:#ec3923; }                #header-branding { border-top-color:#ec3923; }                #page-header-mobile { border-top-color:#ec3923; }                #header-branding { border-bottom-color:#ec3923; } 
+                 
+                 
+                 
+                                 
+                 
+                 
+                 
+                #header-branding #search-form { -webkit-box-shadow:inset 0 3px 0 0 #3d3d3d; } 
+                #header-branding #search-form { box-shadow:inset 0 3px 0 0 #3d3d3d; } 
+                 
+                                
+                #top-navigation { background-color:#ec3923; }                #header-navigation { background-color:#9b0000; }                
+                #header-navigation ul li.search-nav .dropdown-menu { background-color:#9b0000; }                #header-navigation ul li.search-nav .dropdown-menu input { background-color:#ec3923; }                 
+                #top-navigation ul ul { background-color:#ec3923; }                #header-navigation ul ul { background-color:#9b0000; }                #top-navigation ul li { border-color:#ec3923; }                #header-navigation ul li { border-color:#9b0000; }                
+                #page-content { background-color:#ffffff; }                #page-content { -webkit-box-shadow:0 0 12px 0 #cecece; } 
+                #page-content { box-shadow:0 0 12px 0 #cecece; } 
+                                #sidebar { background-color:#ffffff; }                                                                                                                                        
+                #page-footer .container { background-color:#9b0000; }                #foot-menu ul li a { border-color:#ffffff; } 
+                #foot-menu { color:#9b0000; }                #page-footer .foot-widgets h2 { color:#ffffff; }                #page-footer .foot-widgets aside { color:#ffffff; }                #page-footer .foot-widgets aside.widget li:before { color:#ffffff; }                #page-footer .copyright { color:#ffffff; }                #page-footer .foot-widgets a { color:#ffffff; } 
+                #page-footer .copyright a { color:#ffffff; } 
+        
+            </style> 
+            <!--/Customizer CSS-->
+            <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://www.gruppoanteprima.com/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]--><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; background-image: url('http://www.gruppoanteprima.com/wp-content/uploads/2015/01/bg_intro_lavagna.jpg'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+</style>
+<script>                                            </script><style type="text/css" title="dynamic-css" class="options-output">#page-content header h2{}</style><style type="text/css" data-type="vc_custom-css">media="all"
+@media (min-width: 1200px)
+#page-content.left-sidebar #main, #page-content.right-sidebar #main, #page-content.hide-sidebar #main {
+padding: 5px 5px 5px 5px;
+}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1421833269772{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;border-top-width: 0px !important;border-right-width: 0px !important;border-bottom-width: 0px !important;border-left-width: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;}.vc_custom_1421833269772{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;border-top-width: 0px !important;border-right-width: 0px !important;border-bottom-width: 0px !important;border-left-width: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;}.vc_custom_1426148001645{border-width: 0px !important;padding: 0px !important;}.vc_custom_1426148099194{padding-top: 25px !important;padding-right: 10px !important;padding-bottom: 0px !important;padding-left: 10px !important;}.vc_custom_1426148584610{border-top-width: 0px !important;border-right-width: 0px !important;border-bottom-width: 0px !important;border-left-width: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;}</style>    <!-- end:wp_head -->
+</head>
+<body class="home page page-id-7 page-template page-template-template-visual-composer page-template-template-visual-composer-php custom-background wpb-js-composer js-comp-ver-4.3.5 vc_responsive" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+    
+    <!-- start:body-start -->
+        <!-- end:body-start -->
+    
+    <!-- start:ad-top-banner -->
+        <!-- end:ad-top-banner -->
+    
+    <!-- start:page outer wrap -->
+    <div id="page-outer-wrap">
+        <!-- start:page inner wrap -->
+        <div id="page-inner-wrap"> 
+            
+            <!-- start:page header mobile -->
+            
+<header id="page-header-mobile" class="visible-xs visible-sm">
+    
+    <!-- start:sidr -->
+    <nav id="mobile-menu">
+        <form id="search-form-mobile" role="search" method="get" action="http://www.gruppoanteprima.com/">
+            <input type="text" name="s" placeholder="Search Gruppo Anteprima" value="" />
+        </form>
+        <ul id="menu-menu-principale" class="nav clearfix"><li id="mobile-nav-menu-item-56" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item "><a href="http://www.gruppoanteprima.com/">Benvenuto</a></li>
+<li id="mobile-nav-menu-item-139" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.gruppoanteprima.com/chi-siamo/">Chi siamo</a></li>
+<li id="mobile-nav-menu-item-420" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-category-43 "><a href="http://www.gruppoanteprima.com/category/servizi/">Servizi</a>
+<ul class="sub-menu">
+	<li id="mobile-nav-menu-item-421" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-44 "><a href="http://www.gruppoanteprima.com/category/servizi/a-ticket/">A-Ticket</a></li>
+	<li id="mobile-nav-menu-item-624" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-138 "><a href="http://www.gruppoanteprima.com/category/servizi/call-tel/">Call tel</a></li>
+	<li id="mobile-nav-menu-item-625" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-139 "><a href="http://www.gruppoanteprima.com/category/servizi/group-service/">Group Service</a></li>
+	<li id="mobile-nav-menu-item-422" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-45 "><a href="http://www.gruppoanteprima.com/category/servizi/gruppo-anteprima/">Gruppo Anteprima</a></li>
+	<li id="mobile-nav-menu-item-423" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-46 "><a href="http://www.gruppoanteprima.com/category/servizi/industria-creativa-italiana/">Industria Creativa Italiana</a></li>
+	<li id="mobile-nav-menu-item-424" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-47 "><a href="http://www.gruppoanteprima.com/category/servizi/new-promotion/">New Promotion</a></li>
+</ul>
+</li>
+<li id="mobile-nav-menu-item-458" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-category-93 "><a href="http://www.gruppoanteprima.com/category/evento/">Eventi</a>
+<ul class="sub-menu">
+	<li id="mobile-nav-menu-item-611" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-132 "><a href="http://www.gruppoanteprima.com/category/evento/emilia-romagna/">Emilia Romagna</a></li>
+	<li id="mobile-nav-menu-item-612" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-129 "><a href="http://www.gruppoanteprima.com/category/evento/liguria/">Liguria</a></li>
+	<li id="mobile-nav-menu-item-613" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-131 "><a href="http://www.gruppoanteprima.com/category/evento/lombardia/">Lombardia</a></li>
+	<li id="mobile-nav-menu-item-610" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-128 "><a href="http://www.gruppoanteprima.com/category/evento/piemonte/">Piemonte</a></li>
+	<li id="mobile-nav-menu-item-614" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-135 "><a href="http://www.gruppoanteprima.com/category/evento/sardegna/">Sardegna</a></li>
+	<li id="mobile-nav-menu-item-615" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-134 "><a href="http://www.gruppoanteprima.com/category/evento/toscana/">Toscana</a></li>
+	<li id="mobile-nav-menu-item-616" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-130 "><a href="http://www.gruppoanteprima.com/category/evento/valle-daosta/">Valle d&#8217;Aosta</a></li>
+	<li id="mobile-nav-menu-item-617" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-133 "><a href="http://www.gruppoanteprima.com/category/evento/veneto/">Veneto</a></li>
+</ul>
+</li>
+<li id="mobile-nav-menu-item-604" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="#">News</a>
+<ul class="sub-menu">
+	<li id="mobile-nav-menu-item-605" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-127 "><a href="http://www.gruppoanteprima.com/category/news/gruppo-anteprima-news/">Gruppo Anteprima</a></li>
+	<li id="mobile-nav-menu-item-603" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-124 "><a href="http://www.gruppoanteprima.com/category/news/cultura-ansa/">Cultura &#8211; Ansa</a></li>
+</ul>
+</li>
+<li id="mobile-nav-menu-item-171" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.gruppoanteprima.com/biglietteria-online/">Biglietteria online</a></li>
+<li id="mobile-nav-menu-item-401" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-category-39 "><a href="http://www.gruppoanteprima.com/category/anteprima-vintage/">Anteprima Vintage</a>
+<ul class="sub-menu">
+	<li id="mobile-nav-menu-item-709" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-140 "><a href="http://www.gruppoanteprima.com/category/anteprima-vintage/eventi/">Eventi</a></li>
+	<li id="mobile-nav-menu-item-413" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-40 "><a href="http://www.gruppoanteprima.com/category/anteprima-vintage/pubblicita/">Pubblicità</a></li>
+</ul>
+</li>
+<li id="mobile-nav-menu-item-172" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.gruppoanteprima.com/contatti/">Contatti</a></li>
+<li id="mobile-nav-menu-item-482" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom "><a href="http://www.icipromotion.com/">E-shop</a></li>
+</ul>    </nav>
+    <!-- end:sidr -->
+    
+    <!-- start:row -->
+    <div  class="row">
+        
+        <!-- start:col -->
+        <div class="col-xs-6">
+            <!-- start:logo -->
+            <h1><a href="http://www.gruppoanteprima.com/"><img src="http://www.gruppoanteprima.com/wp-content/uploads/2015/02/logogpmob.jpg" width="390" height="30" alt="Gruppo Anteprima" /></a></h1>
+            <!-- end:logo -->
+        </div>
+        <!-- end:col -->
+        
+        <!-- start:col -->
+        <div class="col-xs-6 text-right">
+            <a id="nav-expander" href="#mobile-menu"><span class="glyphicon glyphicon-th"></span></a>
+        </div>
+        <!-- end:col -->
+        
+    </div>
+    <!-- end:row -->
+
+</header>
+<!-- end:page-header-mobile -->
+
+<!-- start:page-header -->
+<header id="page-header" class="hidden-xs hidden-sm">
+<!-- start:container --><div class="container">
+    <div id="top-navigation"><div class="container"><nav id="top-menu"><ul id="menu-menu-footer" class="clearfix"><li id="menu-item-319" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item menu-item-319"><a href="http://www.gruppoanteprima.com/">Benvenuto</a></li>
+<li id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-320"><a href="http://www.gruppoanteprima.com/chi-siamo/">Chi Siamo</a></li>
+<li id="menu-item-425" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-425 menu-category-43"><a href="http://www.gruppoanteprima.com/category/servizi/">Servizi</a></li>
+<li id="menu-item-459" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-459 menu-category-93"><a href="http://www.gruppoanteprima.com/category/evento/">Eventi</a></li>
+<li id="menu-item-466" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-466 menu-category-94"><a href="http://www.gruppoanteprima.com/category/news/">News</a></li>
+<li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="http://www.gruppoanteprima.com/biglietteria-online/">Biglietteria Online</a></li>
+<li id="menu-item-418" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-418 menu-category-39"><a href="http://www.gruppoanteprima.com/category/anteprima-vintage/">Anteprima Vintage</a></li>
+<li id="menu-item-325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"><a href="http://www.gruppoanteprima.com/contatti/">Contatti</a></li>
+<li id="menu-item-483" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-483"><a href="http://www.icipromotion.com/">E-shop</a></li>
+<li class="soc-media"><a href="https://www.facebook.com/pages/GRUPPOANTEPRIMA/158356217524493"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/gruppoanteprima"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="http://vimeo.com/channels/326025"><i class="fa fa-vimeo-square"></i></a></li></ul></nav></div></div>    
+    <!-- start:header-branding -->
+<div id="header-branding" class="header-layout-4">                
+    <!-- start:container -->
+    <div class="container">
+        
+        <!-- start:row -->
+        <div class="row">
+        
+            <!-- start:col -->
+            <div class="col-sm-12 text-center table" itemscope="itemscope" itemtype="http://schema.org/Organization">
+                <!-- start:logo -->
+                <h1><a itemprop="url" href="http://www.gruppoanteprima.com/"><img src="http://www.gruppoanteprima.com/wp-content/uploads/2015/02/logogp.jpg" width="1170" height="90" alt="Gruppo Anteprima" /></a></h1>
+                <meta itemprop="name" content="Gruppo Anteprima">
+                <!-- end:logo -->
+            </div>
+            <!-- end:col -->
+            
+        </div>
+        <!-- end:row -->
+
+    </div>
+    <!-- end:container -->                    
+</div>
+<!-- end:header-branding -->    
+    <!-- start:sticky-header -->
+    <div id="sticky-header">
+    
+        <!-- start:header-navigation -->
+        <div id="header-navigation">                
+            <!-- start:container -->
+            <div class="container">
+                
+                <!-- start:menu -->
+                <nav id="menu">
+                    <ul id="menu-menu-principale-1" class="nav clearfix"><li id="nav-menu-item-56" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item "><a href="http://www.gruppoanteprima.com/" class="menu-link main-menu-link">Benvenuto</a></li>
+<li id="nav-menu-item-139" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.gruppoanteprima.com/chi-siamo/" class="menu-link main-menu-link">Chi siamo</a></li>
+<li id="nav-menu-item-420" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-category-43 "><a href="http://www.gruppoanteprima.com/category/servizi/" class="menu-link main-menu-link">Servizi</a>
+<div class="subnav-container"><ul class="subnav-menu">
+	<li id="nav-menu-item-421" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-44 "><a href="http://www.gruppoanteprima.com/category/servizi/a-ticket/" class="menu-link sub-menu-link">A-Ticket</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/biglietteria-automatizzataa/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/ati-65p4z1cj7lbe8g0ocxb3ps6rnwm8mmxbdqpj92cm5mz.jpg" width="190" height="140" alt="Biglietteria automatizzata" class="img-responsive" />
+                            <h3>Biglietteria automatizzata</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+	<li id="nav-menu-item-624" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-138 "><a href="http://www.gruppoanteprima.com/category/servizi/call-tel/" class="menu-link sub-menu-link">Call tel</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/call-centerr/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/call-65hzgfztp88n5imm20rt3nnm3zmvzk1a18dp93u8v7v.jpg" width="190" height="140" alt="Call Center" class="img-responsive" />
+                            <h3>Call Center</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+	<li id="nav-menu-item-625" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-139 "><a href="http://www.gruppoanteprima.com/category/servizi/group-service/" class="menu-link sub-menu-link">Group Service</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/groupservice/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/group-65ui2ct79n5b1fi9vi5fst41npschyuebkngec87h1n.jpg" width="190" height="140" alt="Groupservice" class="img-responsive" />
+                            <h3>Groupservice</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+	<li id="nav-menu-item-422" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-45 "><a href="http://www.gruppoanteprima.com/category/servizi/gruppo-anteprima/" class="menu-link sub-menu-link">Gruppo Anteprima</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/eventi-e-promozionee/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/eventi-65hzl5pkn7cyxs03b04s3utu986dtcn1b8e5cielvrf.jpg" width="190" height="140" alt="Eventi e Promozione" class="img-responsive" />
+                            <h3>Eventi e Promozione</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/fund-raisingg/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/fundrasing-654j720ozo8untxhyrd5qzttpg955vixrz0ds2ty9l7.jpg" width="190" height="140" alt="Fund Raising" class="img-responsive" />
+                            <h3>Fund Raising</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+	<li id="nav-menu-item-423" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-46 "><a href="http://www.gruppoanteprima.com/category/servizi/industria-creativa-italiana/" class="menu-link sub-menu-link">Industria Creativa Italiana</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/last-designn/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/last-65hzovnkp3gbw7lj2v148610wmu6s7wsbncu8fw093f.jpg" width="190" height="140" alt="Last Design" class="img-responsive" />
+                            <h3>Last Design</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/la-fantasia-al-servizio-delle-impresee/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/ici-65hzduirhlcomymdzud8pp8rxc7ly3m6z1q6z18u9zf.jpg" width="190" height="140" alt="La fantasia al servizio delle imprese" class="img-responsive" />
+                            <h3>La fantasia al servizio delle imprese</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+	<li id="nav-menu-item-424" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-47 "><a href="http://www.gruppoanteprima.com/category/servizi/new-promotion/" class="menu-link sub-menu-link">New Promotion</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/new-promotion/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/new-65hzqi536cce6m4kpcb8jb9pf9xwz5wz2cu5vfpadxn.jpg" width="190" height="140" alt="New Promotion" class="img-responsive" />
+                            <h3>New Promotion</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+</ul></div>
+</li>
+<li id="nav-menu-item-458" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-category-93 "><a href="http://www.gruppoanteprima.com/category/evento/" class="menu-link main-menu-link">Eventi</a>
+<div class="subnav-container"><ul class="subnav-menu">
+	<li id="nav-menu-item-611" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-132 "><a href="http://www.gruppoanteprima.com/category/evento/emilia-romagna/" class="menu-link sub-menu-link">Emilia Romagna</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/massimo-lopez-sing-and-swing/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/250196_1235261486500622_8155188854971680980_n-69smry1yewkk1k756pks4sg11btgb8hzq4ni2d4zqq3.jpg" width="190" height="140" alt="Massimo Lopez - Sing and Swing" class="img-responsive" />
+                            <h3>Massimo Lopez - Sing and Swing</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+	<li id="nav-menu-item-612" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-129 "><a href="http://www.gruppoanteprima.com/category/evento/liguria/" class="menu-link sub-menu-link">Liguria</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/ridi-chiavari-teatro-cantero/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/2015-10-15_102431-68m278puggarcnyn6x7f60gz8qpw0aiugllae2l8hzf.jpg" width="190" height="140" alt="&quot;Ridi Chiavari&quot; -  Teatro Cantero - Biglietteria" class="img-responsive" />
+                            <h3>"Ridi Chiavari" -  Teatro Cantero - Biglietteria</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/pucci-ce-sempre-e-solo-da-ridere/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/Andrea-Pucci-69zfndj5hvka45qltm883iw91r8p4px8nsffk7iv217.jpg" width="190" height="140" alt="Pucci - C&#039;è sempre e solo da ridere" class="img-responsive" />
+                            <h3>Pucci - C'è sempre e solo da ridere</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+	<li id="nav-menu-item-613" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-131 "><a href="http://www.gruppoanteprima.com/category/evento/lombardia/" class="menu-link sub-menu-link">Lombardia</a><div class="subnav-posts"></div></li>
+	<li id="nav-menu-item-610" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-128 "><a href="http://www.gruppoanteprima.com/category/evento/piemonte/" class="menu-link sub-menu-link">Piemonte</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/tour-promotion-121-paesi/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/11147143_1191671710859600_4884286505901813891_n-68o2swerzw76ys57liuvumrdybnwv88cd08acryjn63.jpg" width="190" height="140" alt="Tour Promotion 121 Paesi" class="img-responsive" />
+                            <h3>Tour Promotion 121 Paesi</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/teo-mammuccari-ricomincio-da-te-o/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/2016-01-25_113249-69zfemdtih8v7kcdjv054jf7fqi0tz84h4l8xpq4w7f.jpg" width="190" height="140" alt="Teo Mammuccari - Ricomincio da Te...o - SCONTO COUPON 50%" class="img-responsive" />
+                            <h3>Teo Mammuccari - Ricomincio da Te...o - SCONTO COUPON 50%</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/renato-pozzetto-siccome-laltro-e-impegnato/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/2016-02-09_113136-6a6obf0lvdxwgsc8o25i5it7ov1vso6zxtbzrftncwb.jpg" width="190" height="140" alt="Renato Pozzetto - Siccome l&#039;altro è impegnato" class="img-responsive" />
+                            <h3>Renato Pozzetto - Siccome l'altro è impegnato</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+	<li id="nav-menu-item-614" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-135 "><a href="http://www.gruppoanteprima.com/category/evento/sardegna/" class="menu-link sub-menu-link">Sardegna</a><div class="subnav-posts"></div></li>
+	<li id="nav-menu-item-615" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-134 "><a href="http://www.gruppoanteprima.com/category/evento/toscana/" class="menu-link sub-menu-link">Toscana</a><div class="subnav-posts"></div></li>
+	<li id="nav-menu-item-616" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-130 "><a href="http://www.gruppoanteprima.com/category/evento/valle-daosta/" class="menu-link sub-menu-link">Valle d&#8217;Aosta</a><div class="subnav-posts"></div></li>
+	<li id="nav-menu-item-617" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-133 "><a href="http://www.gruppoanteprima.com/category/evento/veneto/" class="menu-link sub-menu-link">Veneto</a><div class="subnav-posts"></div></li>
+</ul></div>
+</li>
+<li id="nav-menu-item-604" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="#" class="menu-link main-menu-link">News</a>
+<div class="subnav-container"><ul class="subnav-menu">
+	<li id="nav-menu-item-605" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-127 "><a href="http://www.gruppoanteprima.com/category/news/gruppo-anteprima-news/" class="menu-link sub-menu-link">Gruppo Anteprima</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/renato-pozzetto-siccome-laltro-e-impegnato/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/2016-02-09_113136-6a6obf0lvdxwgsc8o25i5it7ov1vso6zxtbzrftncwb.jpg" width="190" height="140" alt="Renato Pozzetto - Siccome l&#039;altro è impegnato" class="img-responsive" />
+                            <h3>Renato Pozzetto - Siccome l'altro è impegnato</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/teo-mammuccari-ricomincio-da-te-o/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/2016-01-25_113249-69zfemdtih8v7kcdjv054jf7fqi0tz84h4l8xpq4w7f.jpg" width="190" height="140" alt="Teo Mammuccari - Ricomincio da Te...o - SCONTO COUPON 50%" class="img-responsive" />
+                            <h3>Teo Mammuccari - Ricomincio da Te...o - SCONTO COUPON 50%</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/annullamento-e-sostituzione-date/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/images-69zf5oyw9iovhkj8yp2joxj375a8fx64plqhs1ip7uz.jpg" width="190" height="140" alt="Annullamento e sostituzione date" class="img-responsive" />
+                            <h3>Annullamento e sostituzione date</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/tour-promotion-121-paesi/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/11147143_1191671710859600_4884286505901813891_n-68o2swerzw76ys57liuvumrdybnwv88cd08acryjn63.jpg" width="190" height="140" alt="Tour Promotion 121 Paesi" class="img-responsive" />
+                            <h3>Tour Promotion 121 Paesi</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+	<li id="nav-menu-item-603" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-124 "><a href="http://www.gruppoanteprima.com/category/news/cultura-ansa/" class="menu-link sub-menu-link">Cultura &#8211; Ansa</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/a-milano-fotografo-americano-herb-ritts/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/ansa-65ti4ddg8143bvjbe27ca4a3nb86j5ldoa1jk5xxngr.jpg" width="190" height="140" alt="A Milano fotografo americano Herb Ritts" class="img-responsive" />
+                            <h3>A Milano fotografo americano Herb Ritts</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/onda-su-onda-papaleo-alla-ricerca-della-felicita/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/ansa-65ti4ddg8143bvjbe27ca4a3nb86j5ldoa1jk5xxngr.jpg" width="190" height="140" alt="Onda su onda, Papaleo alla ricerca della felicità" class="img-responsive" />
+                            <h3>Onda su onda, Papaleo alla ricerca della felicità</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/vinterberg-porta-a-berlino-il-coraggio-di-condividere/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/ansa-65ti4ddg8143bvjbe27ca4a3nb86j5ldoa1jk5xxngr.jpg" width="190" height="140" alt="Vinterberg porta a Berlino il coraggio di condividere" class="img-responsive" />
+                            <h3>Vinterberg porta a Berlino il coraggio di condividere</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/cindy-crawford-i-50-anni-della-top-model-con-il-neo/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/ansa-65ti4ddg8143bvjbe27ca4a3nb86j5ldoa1jk5xxngr.jpg" width="190" height="140" alt="Cindy Crawford, i 50 anni della top model con il neo" class="img-responsive" />
+                            <h3>Cindy Crawford, i 50 anni della top model con il neo</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+</ul></div>
+</li>
+<li id="nav-menu-item-171" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.gruppoanteprima.com/biglietteria-online/" class="menu-link main-menu-link">Biglietteria online</a></li>
+<li id="nav-menu-item-401" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-category-39 "><a href="http://www.gruppoanteprima.com/category/anteprima-vintage/" class="menu-link main-menu-link">Anteprima Vintage</a>
+<div class="subnav-container"><ul class="subnav-menu">
+	<li id="nav-menu-item-709" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-140 "><a href="http://www.gruppoanteprima.com/category/anteprima-vintage/eventi/" class="menu-link sub-menu-link">Eventi</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/evento-ducati-moto-alessandria-wake-up/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/12646958_1259080697452034_3909240268047950481_n-6a65y19we3w5rkt7w89e8147iz52j6nz1m1vyywl98r.jpg" width="190" height="140" alt="Evento Ducati Moto - Alessandria Wake UP" class="img-responsive" />
+                            <h3>Evento Ducati Moto - Alessandria Wake UP</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/pintus-ormai-sono-una-milf-alessandria/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/2016-01-25_094343-69zdwrgaks6m6lgs5uw1r6pdml2ro3yp97rrrpt0b9n.jpg" width="190" height="140" alt="Pintus - Ormai sono una Milf - Alessandria" class="img-responsive" />
+                            <h3>Pintus - Ormai sono una Milf - Alessandria</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/the-harlem-voices-vercelli/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/2015-11-16_1433512-698ehwpl3adyk8sz5yi7gujf59qqacziu853ysztmh7.jpg" width="190" height="140" alt="The Harlem Voices - Vercelli" class="img-responsive" />
+                            <h3>The Harlem Voices - Vercelli</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/perfect-harmony-voices-of-victory-alessandria/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/12359878_1223563697670401_9136148688675305169_n-69d6rzgmujw9g6dxy88u21xm1m1wepkt4zk1fi84g0b.jpg" width="190" height="140" alt="Perfect Harmony: Voices of Victory - Alessandria" class="img-responsive" />
+                            <h3>Perfect Harmony: Voices of Victory - Alessandria</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+	<li id="nav-menu-item-413" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-category-40 "><a href="http://www.gruppoanteprima.com/category/anteprima-vintage/pubblicita/" class="menu-link sub-menu-link">Pubblicità</a><div class="subnav-posts"><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/eveneto-bmw-x4/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/bmwx4-65whufh41evsopfur4fs995oejrrdept0vw0nkwn8cr.png" width="190" height="140" alt="EvenEto - Bmw x4" class="img-responsive" />
+                            <h3>EvenEto - Bmw x4</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/bmw-serie-2/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/bmwactive2-65ztjs65qh28kc75bs4mtdyazj6qemdqg78opbpx4i3.jpg" width="190" height="140" alt="Bmw Serie 2" class="img-responsive" />
+                            <h3>Bmw Serie 2</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/punto-enel/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/enelale-65zuknce45v1d3fcs0t1cy1muep9ktciq04zd2i3v2j.png" width="190" height="140" alt="Punto Enel" class="img-responsive" />
+                            <h3>Punto Enel</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --><!-- start:article -->
+                    <article class="linkbox large cat- text-center">
+                        <a href="http://www.gruppoanteprima.com/the-new-mini/">
+                            <img src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/newmini-65zuofdl98p99btrbolvmspudc6rwsek9dfv3e4eqkr.jpg" width="190" height="140" alt="The New Mini" class="img-responsive" />
+                            <h3>The New Mini</h3>
+                        </a>
+                        
+                    </article>
+                    <!-- end:article --></div></li>
+</ul></div>
+</li>
+<li id="nav-menu-item-172" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.gruppoanteprima.com/contatti/" class="menu-link main-menu-link">Contatti</a></li>
+<li id="nav-menu-item-482" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom "><a href="http://www.icipromotion.com/" class="menu-link main-menu-link">E-shop</a></li>
+</ul>                </nav>
+                <!-- end:menu -->
+                
+            </div>
+            <!-- end:container -->                    
+        </div>
+        <!-- end:header-navigation -->
+        
+            </div>
+    <!-- end:sticky-header -->
+
+</div><!-- end:container -->    
+</header>
+<!-- end:page-header -->
+
+            <!-- end:page header mobile -->
+
+<!-- start:page slider -->
+<div id="page-slider" class="slider-layout-4 hidden-xs clearfix">
+    
+    <!-- start:container -->
+    <div class="container">
+        
+        <!-- start:carousel -->
+        <div id="slider-carousel">
+
+<div class="row"><div class="col-sm-12"><!-- start:article.linkbox.large -->
+                    <article class="linkbox large cat-31" itemtype="http://schema.org/Article">
+                        <a itemprop="url" href="http://www.gruppoanteprima.com/popsnob-2/">
+                            <img itemprop="image" src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/Alessandria-T-67ymrkhzga66ipv4876t27k4piiodgd58m94ta0wmfv.jpg" width="1170" height="400" alt="Stagione Teatrale Pop&amp;Snob - Teatro Alessandrino" class="img-responsive" />
+                            <div class="overlay">
+                                
+                                <h2 itemprop="name">Stagione Teatrale Pop&Snob - Teatro Alessandrino</h2>
+                                <p>
+
+La Nuova Stagione Pop&amp;Snob al Teatro Alessandrino...</p>       
+                            </div>
+                        </a>
+                        <a href="http://www.gruppoanteprima.com/category/primo-piano/" class="theme">ZPrimo Piano</a>
+                    </article>
+                    <!-- end:article.linkbox.large --></div><div class="col-xs-4 col-sm-4"><!-- start:article.linkbox.large -->
+                    <article class="linkbox large cat-31" itemtype="http://schema.org/Article">
+                        <a itemprop="url" href="http://www.gruppoanteprima.com/teo-mammuccari-ricomincio-da-te-o/">
+                            <img itemprop="image" src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/2016-01-25_113249-69zfemdu6ucfxc4s7g7y3diej3fylbwqafo2occbq7v.jpg" width="390" height="200" alt="Teo Mammuccari - Ricomincio da Te...o - SCONTO COUPON 50%" class="img-responsive" />
+                            <div class="overlay">
+                                
+                                <h2 itemprop="name">Teo Mammuccari - Ricomincio da Te...o - SCONTO COUPON 50%</h2>
+                                <p>
+Stampa l'articolo e presenta il coupon qui a fianco alla cassa del teatro la sera dello...</p>       
+                            </div>
+                        </a>
+                        <a href="http://www.gruppoanteprima.com/category/primo-piano/" class="theme">ZPrimo Piano</a>
+                    </article>
+                    <!-- end:article.linkbox.large --></div><div class="col-xs-4 col-sm-4"><!-- start:article.linkbox.large -->
+                    <article class="linkbox large cat-31" itemtype="http://schema.org/Article">
+                        <a itemprop="url" href="http://www.gruppoanteprima.com/massimo-lopez-sing-and-swing/">
+                            <img itemprop="image" src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/250196_1235261486500622_8155188854971680980_n-69smry1z39o4rbzjuasl3mj84ore2l6ljfqbszr6kqj.jpg" width="390" height="200" alt="Massimo Lopez - Sing and Swing" class="img-responsive" />
+                            <div class="overlay">
+                                
+                                <h2 itemprop="name">Massimo Lopez - Sing and Swing</h2>
+                                <p>
+
+&nbsp;
+ ACQUISTA BIGLIETTO 
+Parma Concerti presenta:
+
+MASSIMO LOPEZ - SING AND...</p>       
+                            </div>
+                        </a>
+                        <a href="http://www.gruppoanteprima.com/category/primo-piano/" class="theme">ZPrimo Piano</a>
+                    </article>
+                    <!-- end:article.linkbox.large --></div><div class="col-xs-4 col-sm-4"><!-- start:article.linkbox.large -->
+                    <article class="linkbox large cat-31" itemtype="http://schema.org/Article">
+                        <a itemprop="url" href="http://www.gruppoanteprima.com/pucci-ce-sempre-e-solo-da-ridere/">
+                            <img itemprop="image" src="http://www.gruppoanteprima.com/wp-content/uploads/bfi_thumb/Andrea-Pucci-69zfndj668nutxj0h7g12czg546mw2luh3i9au51w1n.jpg" width="390" height="200" alt="Pucci - C&#039;è sempre e solo da ridere" class="img-responsive" />
+                            <div class="overlay">
+                                
+                                <h2 itemprop="name">Pucci - C'è sempre e solo da ridere</h2>
+                                <p>
+PUCCI - C'è Sempre e Solo da Ridere
+Venerdì 25 Marzo ore 21, Teatro Cantero, Chiavari
+Andrea...</p>       
+                            </div>
+                        </a>
+                        <a href="http://www.gruppoanteprima.com/category/primo-piano/" class="theme">ZPrimo Piano</a>
+                    </article>
+                    <!-- end:article.linkbox.large --></div></div>
+        </div>
+        <!-- end:slider-carousel -->
+        
+        <!-- start:slider-nav -->
+        <div class="slider-nav">
+            <a id="slider-prev" class="prev" href="#"><i class="fa fa-chevron-left"></i></a>
+            <a id="slider-next" class="next" href="#"><i class="fa fa-chevron-right"></i></a>
+        </div>
+        <!-- end:slider-nav -->
+    </div>
+    <!-- end:container -->
+    
+</div>
+<!-- end:page slider -->
+<script>
+    "use strict";
+    var initCarouFredSel = true;
+    var carouselStart    = true;
+    var carouselDelay    = 500;
+</script>
+
+<!-- start:ad-top-banner -->
+<!-- end:ad-top-banner -->
+
+<!-- start:container -->
+<div class="container">
+    <!-- start:page content -->
+    <div id="page-content" class="hide-sidebar">
+        
+                
+                
+        <!-- start:main -->
+        <div id="main">
+        <div class="vc_row wpb_row row-fluid">
+	<div class="vc_col-sm-12 wpb_column vc_column_container vc_custom_1426148001645">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_single_image wpb_content_element vc_align_center">
+		<div class="wpb_wrapper">
+			
+			<a href="http://www.gruppoanteprima.com/biglietteria-online/" target="_self"><img class=" vc_box_border_grey " src="http://www.gruppoanteprima.com/wp-content/uploads/2015/01/biglietteria.jpg" width="1160" height="120" alt="biglietteria" /></a>
+		</div> 
+	</div> 
+	<div class="wpb_single_image wpb_content_element vc_custom_1426148584610 vc_align_center">
+		<div class="wpb_wrapper">
+			
+			<a href="http://www.icipromotion.com/" target="_self"><img class=" vc_box_border_grey " src="http://www.gruppoanteprima.com/wp-content/uploads/2015/01/ici2.jpg" width="1160" height="120" alt="" /></a>
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+
+	<div class="vc_col-sm-12 wpb_column vc_column_container vc_custom_1426148099194">
+		<div class="wpb_wrapper">
+			
+		</div> 
+	</div> 
+</div><div class="vc_row wpb_row row-fluid vc_custom_1421833269772">
+	<div class="vc_col-sm-4 wpb_column vc_column_container">
+		<div class="wpb_wrapper">
+			<div class="vc_empty_space"  style="height: 15px" ><span class="vc_empty_space_inner"></span></div>
+
+
+	<div class="wpb_single_image wpb_content_element vc_align_center">
+		<div class="wpb_wrapper">
+			
+			<a href="http://www.gruppoanteprima.com/call-centerr" target="_self"><img class=" vc_box_border_grey " src="http://www.gruppoanteprima.com/wp-content/uploads/2015/01/call.jpg" width="384" height="120" alt="call" /></a>
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+
+	<div class="vc_col-sm-4 wpb_column vc_column_container">
+		<div class="wpb_wrapper">
+			<div class="vc_empty_space"  style="height: 15px" ><span class="vc_empty_space_inner"></span></div>
+
+
+	<div class="wpb_single_image wpb_content_element vc_align_center">
+		<div class="wpb_wrapper">
+			
+			<a href="http://www.gruppoanteprima.com/category/servizi/a-ticket/" target="_self"><img class=" vc_box_border_grey " src="http://www.gruppoanteprima.com/wp-content/uploads/2015/01/atick.jpg" width="384" height="120" alt="atick" /></a>
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+
+	<div class="vc_col-sm-4 wpb_column vc_column_container">
+		<div class="wpb_wrapper">
+			<div class="vc_empty_space"  style="height: 15px" ><span class="vc_empty_space_inner"></span></div>
+
+
+	<div class="wpb_single_image wpb_content_element vc_align_center">
+		<div class="wpb_wrapper">
+			
+			<a href="http://www.gruppoanteprima.com/category/servizi/gruppo-anteprima-servizi/" target="_self"><img class=" vc_box_border_grey " src="http://www.gruppoanteprima.com/wp-content/uploads/2015/01/ante1.jpg" width="384" height="120" alt="ante" /></a>
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+</div><div class="vc_row wpb_row row-fluid vc_custom_1421833269772">
+	<div class="vc_col-sm-4 wpb_column vc_column_container">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_single_image wpb_content_element vc_align_center">
+		<div class="wpb_wrapper">
+			
+			<a href="http://www.gruppoanteprima.com/category/servizi/industria-creativa-italiana/" target="_self"><img class=" vc_box_border_grey " src="http://www.gruppoanteprima.com/wp-content/uploads/2015/01/new2.jpg" width="384" height="120" alt="new2" /></a>
+		</div> 
+	</div> <div class="vc_empty_space"  style="height: 15px" ><span class="vc_empty_space_inner"></span></div>
+
+
+		</div> 
+	</div> 
+
+	<div class="vc_col-sm-4 wpb_column vc_column_container">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_single_image wpb_content_element vc_align_center">
+		<div class="wpb_wrapper">
+			
+			<a href="http://www.gruppoanteprima.com/groupservice/" target="_self"><img class=" vc_box_border_grey " src="http://www.gruppoanteprima.com/wp-content/uploads/2015/01/group1.jpg" width="384" height="120" alt="group" /></a>
+		</div> 
+	</div> <div class="vc_empty_space"  style="height: 15px" ><span class="vc_empty_space_inner"></span></div>
+
+
+		</div> 
+	</div> 
+
+	<div class="vc_col-sm-4 wpb_column vc_column_container">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_single_image wpb_content_element vc_align_center">
+		<div class="wpb_wrapper">
+			
+			<a href="http://www.gruppoanteprima.com/category/servizi/industria-creativa-italiana/" target="_self"><img class=" vc_box_border_grey " src="http://www.gruppoanteprima.com/wp-content/uploads/2015/01/ici.jpg" width="384" height="120" alt="ici" /></a>
+		</div> 
+	</div> <div class="vc_empty_space"  style="height: 15px" ><span class="vc_empty_space_inner"></span></div>
+
+
+		</div> 
+	</div> 
+</div><div class="vc_row wpb_row row-fluid">
+	<div class="vc_col-sm-8 wpb_column vc_column_container">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_single_image wpb_content_element vc_align_center">
+		<div class="wpb_wrapper">
+			
+			<a href="http://www.gruppoanteprima.com/expo-milano-2015/" target="_self"><img class=" vc_box_border_grey " src="http://www.gruppoanteprima.com/wp-content/uploads/2015/01/2016-02-02_115156prova211.jpg" width="237" height="100" alt="2016-02-02_115156prova21" /></a>
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+
+	<div class="vc_col-sm-4 wpb_column vc_column_container">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_widgetised_column wpb_content_element">
+		<div class="wpb_wrapper"><h2 class="wpb_heading wpb_widgetised_column_heading">Restiamo in contatto</h2>
+			<aside id="iiresocialmedia-3" class="widget iiReSocialMedia clearfix"><header><h2> </h2><span class="borderline"></span></header><div id="iire_social_widget" class="iire_social_widget" data-opacity="1" data-effect="" data-color="FFFF00" data-size="32" data-spacing="5"><a href="https://www.facebook.com/pages/GRUPPOANTEPRIMA/158356217524493" target="_blank" rel="nofollow" class="iire-facebook"><div id="iire-facebook" class="move horizontal opacity bounce alignleft sp5 icon32 iire-facebook32 ui-sortable-handle roundedcorners symbols_black" title="Facebook" href="https://www.facebook.com/pages/GRUPPOANTEPRIMA/158356217524493"></div></a><a href="https://twitter.com/gruppoanteprima" target="_blank" rel="nofollow" class="iire-twitter"><div id="iire-twitter" class="move horizontal opacity bounce alignleft sp5 icon32 iire-twitter32 ui-sortable-handle roundedcorners symbols_black" title="Seguici su Twitter" href="https://twitter.com/gruppoanteprima"></div></a><a href="https://plus.google.com" target="_blank" rel="nofollow" class="iire-googleplus"><div id="iire-googleplus" class="move horizontal opacity sp5 icon32 iire-googleplus32 ui-sortable-handle alignleft roundedcorners symbols_black" title="Google +" href="https://plus.google.com"></div></a><a href="http://www.youtube.com" target="_blank" rel="nofollow" class="iire-youtube"><div id="iire-youtube" class="move horizontal opacity sp5 icon32 iire-youtube32 ui-sortable-handle alignleft roundedcorners symbols_black" title="YouTube" href="http://www.youtube.com"></div></a><a href="http://vimeo.com/channels/326025" target="_blank" rel="nofollow" class="iire-vimeo"><div id="iire-vimeo" class="move horizontal opacity sp5 icon32 iire-vimeo32 ui-sortable-handle alignleft roundedcorners symbols_black" title="Vimeo" href="http://vimeo.com/channels/326025"></div></a><a href="https://it.linkedin.com/pub/gianluca-valorio/6/718/449" target="_blank" rel="nofollow" class="iire-linkedin"><div id="iire-linkedin" class="move horizontal opacity sp5 icon32 iire-linkedin32 ui-sortable-handle alignleft roundedcorners symbols_black" title="Linked In" href="https://it.linkedin.com/pub/gianluca-valorio/6/718/449"></div></a><a href="mailto:info@gruppoanteprima.com" target="_self" rel="nofollow" class="iire-email2" title="Avvia client email"><div id="iire-email2" class="icon32 horizontal sp5 roundedcorners opacity iire-email232 symbols_black" title="Avvia client email" href="mailto:info@gruppoanteprima.com"></div></a></div></aside>
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+</div><div class="vc_row wpb_row row-fluid">
+	<div class="vc_col-sm-12 wpb_column vc_column_container">
+		<div class="wpb_wrapper">
+			
+		</div> 
+	</div> 
+</div>
+        </div>
+        <!-- end:main -->
+
+                
+                
+    </div>
+    <!-- end:page content -->
+</div>
+<!-- end:container -->
+
+            
+            <!-- section:page footer -->
+            <section id="page-footer">
+                
+                <!-- start:container -->
+                <div class="container">
+                    
+                    <!-- start:foot-menu -->
+                    <nav id="foot-menu" class="hidden-xs">
+                    <ul id="menu-menu-footer-1" class="nav clearfix"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item menu-item-319"><a href="http://www.gruppoanteprima.com/">Benvenuto</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-320"><a href="http://www.gruppoanteprima.com/chi-siamo/">Chi Siamo</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-425 menu-category-43"><a href="http://www.gruppoanteprima.com/category/servizi/">Servizi</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-459 menu-category-93"><a href="http://www.gruppoanteprima.com/category/evento/">Eventi</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-466 menu-category-94"><a href="http://www.gruppoanteprima.com/category/news/">News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="http://www.gruppoanteprima.com/biglietteria-online/">Biglietteria Online</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-418 menu-category-39"><a href="http://www.gruppoanteprima.com/category/anteprima-vintage/">Anteprima Vintage</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"><a href="http://www.gruppoanteprima.com/contatti/">Contatti</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-483"><a href="http://www.icipromotion.com/">E-shop</a></li>
+<li class="options"><a href="#" class="scrollToTop">Back to top <span class="glyphicon glyphicon-chevron-up"></span></a></li></ul>                       
+                    </nav>
+                    <!-- end:foot-menu -->
+                    
+                                        
+                    <!-- start:row -->
+                    <div class="copyright row">
+                        <!-- start:col -->
+                        <div class="col-sm-6">
+                            © 2015 <a href="http://www.gruppoanteprima.com">Gruppo Anteprima</a> Piazza Garibaldi, 40 - 15121 Alessandria - Leggi la <a href="http://www.gruppoanteprima.com/s1t3/privacy/">Privacy</a>                        </div>
+                        <!-- end:col -->
+                        <!-- start:col -->
+                        <div class="col-sm-6 text-right">
+                                                    </div>
+                        <!-- end:col -->
+                    </div>
+                    <!-- end:row -->
+                    
+                                        
+                </div>
+                <!-- end:container -->
+                
+            </section>
+            <!-- end:page footer -->
+            
+        </div>
+        <!-- end:page inner wrap -->
+    </div>
+    <!-- end:page outer wrap -->
+
+    <!-- start:wp_footer -->
+    
+		<div id="eu-cookie" class="bottom">
+			<div class="popup-wrapper">
+				<a href="javascript:void(0)" class="close-icon"><i class="fa fa-times"></i><span>Close cookie popup</span></a>
+				<p>Questo sito, <a href="http://www.gruppoanteprima.com/">www.gruppoanteprima.com</a>, <u><b>non</b></u> utilizza cookie di profilazione ma <u><b>solamente</b></u> cookie tecnici.
+Se accedi a qualunque elemento di questa pagina acconsenti implicitamente a utilizzare i cookie.
+<a href="http://www.gruppoanteprima.com/privacy-cookie/">Per maggiori informazioni clicca qui.</a><br>
+</p>
+			</div>
+		</div>
+
+		<div style="display:none">
+	</div>
+<link rel='stylesheet' id='iire-social-widget-styles-css'  href='http://www.gruppoanteprima.com/wp-content/plugins/iire-social-icons/includes/iire_social_widget_styles.php?weff&#038;wresp=1&#038;cache=0&#038;w=100%25&#038;h=34&#038;a=left&#038;o=horizontal&#038;p=5%2C5%2C5%2C5&#038;m&#038;wbk=0&#038;wbgc=FFFFFF&#038;wbrc&#038;wbrs&#038;theme=symbols_black&#038;sz=32&#038;sp=5&#038;ds=0&#038;dshz=3&#038;dsvt=3&#038;dsblur=8&#038;dscolor=FFFFFF&#038;rc=1&#038;rctl=3&#038;rctr=3&#038;rcbl=3&#038;rcbr=3&#038;op=100&#038;bgc=0&#038;bup=AAFF00&#038;bov=FFFF00&#038;pluginurl=http%3A%2F%2Fwww.gruppoanteprima.com%2Fwp-content%2Fplugins%2Fiire-social-icons%2F&#038;ver=4.1.10' type='text/css' media='all' />
+<link rel='stylesheet' id='iire-social-shortcode-styles-css'  href='http://www.gruppoanteprima.com/wp-content/plugins/iire-social-icons/includes/iire_social_shortcode_styles.php?seff&#038;sresp=0&#038;cache=0&#038;w=600&#038;h=70&#038;a=left&#038;o=horizontal&#038;p&#038;m&#038;wbk=0&#038;wbgc=FFFFFF&#038;wbrc&#038;wbrs&#038;theme=symbols_white&#038;sz=24&#038;sp=4&#038;ds=1&#038;dshz=2&#038;dsvt=2&#038;dsblur=5&#038;dscolor=AAAAAA&#038;rc=1&#038;rctl=2&#038;rctr=2&#038;rcbl=2&#038;rcbr=2&#038;op=100&#038;bgc=0&#038;bup=AAFF00&#038;bov=FFFF00&#038;pluginurl=http%3A%2F%2Fwww.gruppoanteprima.com%2Fwp-content%2Fplugins%2Fiire-social-icons%2F&#038;ver=4.1.10' type='text/css' media='all' />
+<link rel='stylesheet' id='iire-social-widget-sizes-css'  href='http://www.gruppoanteprima.com/wp-content/plugins/iire-social-icons/includes/iire_social_icons32.css?ver=4.1.10' type='text/css' media='all' />
+<link rel='stylesheet' id='iire-social-shortcode-sizes-css'  href='http://www.gruppoanteprima.com/wp-content/plugins/iire-social-icons/includes/iire_social_icons24.css?ver=4.1.10' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.gruppoanteprima.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Invio..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.1.2'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201607'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2016Febaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.1.10'></script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-content/themes/weeklynews/assets/js/bootstrap.min.js?ver=2.0.1'></script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-content/themes/weeklynews/assets/js/mip.external.js?ver=2.0.1'></script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-content/themes/weeklynews/assets/js/functions.js?ver=2.0.1'></script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-content/plugins/easy-wp-cookie-popup/js/jquery.cookie.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-content/plugins/easy-wp-cookie-popup/js/popup.min.js?ver=1.5'></script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-content/plugins/iire-social-icons/includes/iire_social_functions.js?ver=4.1.10'></script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-content/plugins/js_composer/assets/js/js_composer_front.js?ver=4.3.5'></script>
+<script type='text/javascript' src='http://www.gruppoanteprima.com/wp-includes/js/comment-reply.min.js?ver=4.1.10'></script>
+<script>                                            </script><script type='text/javascript' src='http://stats.wp.com/e-201607.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.5.3',blog:'85823750',post:'7',tz:'1',srv:'www.gruppoanteprima.com'} ]);
+	_stq.push([ 'clickTrackerInit', '85823750', '7' ]);
+</script>
+    <!-- end:wp_footer -->
+    
+</body>
+</html>

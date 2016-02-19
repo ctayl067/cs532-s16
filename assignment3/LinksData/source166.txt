@@ -1,0 +1,1419 @@
+
+
+<!doctype html>
+<html lang="ja" class="columnC fixed" xmlns:og="http://ogp.me/ns#">
+<head>
+<!--base_skin_code:new,skin_code:wu_pf_default,default_custom_code:-->
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="keywords" content="記事一覧,リノのゆるーいふわふわなブログ,リノ,ブログ,アメブロ,アメーバ,ameba" />
+<link rel="alternate" href="android-app://jp.ameba/http/ameblo.jp/takaolove1121takao/entrylist.html" />
+<link rel="canonical" href="http://ameblo.jp/takaolove1121takao/entrylist.html">
+<link rel="next" href="http://ameblo.jp/takaolove1121takao/entrylist-2.html" />
+<title>ブログ記事一覧｜リノのゆるーいふわふわなブログ</title>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://rssblog.ameba.jp/takaolove1121takao/rss20.xml" />
+<link rel="shortcut icon" href="http://stat100.ameba.jp/common_style/img/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" href="http://stat100.ameba.jp/common_style/img/sp/apple-touch-icon.png" />
+<link rel="stylesheet" media="screen,print" type="text/css" href="http://stat100.ameba.jp/ameblo/pc/css/amebabar/ameblo.common.hf.white-1.0.2.css" />
+<link rel="stylesheet" media="screen,print" type="text/css" href="http://stat100.ameba.jp/ameblo/pc/css/amebabar/amebabar-1.1.0.css" />
+<link rel="stylesheet" type="text/css" href="http://stat100.ameba.jp/ameblo/pc/css/newBlog-1.21.0.css" />
+<link rel="stylesheet" type="text/css" href="http://stat100.ameba.jp/p_skin/wu_pf_default/css/skin.css" />
+<link rel="stylesheet" media="screen,print" href="http://stat100.ameba.jp/blog/css/user/blogiineEntry.1.000.css" charset="UTF-8" />
+<link rel="stylesheet" media="screen,print" href="http://stat100.ameba.jp/adsense/adsense.gss.css?v=1.0" charset="UTF-8" />
+<link rel="stylesheet" media="screen,print" href="http://stat100.ameba.jp/ameblo/pc/css/freshSp-1.0.0.css" charset="UTF-8" />
+<link rel="stylesheet" media="screen,print" href="http://stat100.ameba.jp/ameblo/pc/css/freshTopics-1.1.0.css" charset="UTF-8" />
+<link rel="stylesheet" media="screen,print" type="text/css" href="http://stat100.ameba.jp/ameblo/pc/css/bigfooter-1.6.0.css" charset="UTF-8" />
+<!--[if lt IE 9]><script src="http://stat100.ameba.jp/common_style/js/library/html5js/html5.js"></script><![endif]-->
+<script src="http://stat100.ameba.jp/blog/new/js/cmn/blog_head.js" charset="UTF-8"></script>
+<script src="http://stat100.ameba.jp/common_style/js/library/swfobject.js" charset="UTF-8"></script>
+<script src="http://stat100.ameba.jp/ad/dfp/js/dfp.js?20160113"></script>
+<script type="text/javascript">
+Amb.dfp.setTargetingParam('genre', 'middleschool,tohoku');
+Amb.dfp.setTargetingParam('adxOk', 'true');
+Amb.dfp.setTargetingParam('skinCode', 'wu_pf_default');
+Amb.dfp.setOpenX();
+</script>
+<!--ga-->
+<script>
+// 母数（[denom]分の1を評価対象に設定する）
+var denom = 500;
+// tracking id
+var trackingId = 'UA-53871743-4';
+</script>
+<script src="http://stat100.ameba.jp/ameblo/vendor/murmurhash3_gc.min.js"></script>
+<script src="http://stat100.ameba.jp/ameblo/vendor/ameblo_ga.js"></script>
+<!--/ga-->
+<!-- アドセンス対応 -->
+<script src="http://stat100.ameba.jp/adsense/js/gdn.js?ts=20160113"></script>
+<script>
+Amb.Ad.GDN.afc = new Amb.Ad.GDN.AFC({
+articleGenres : ["middleschool", "tohoku"],
+articleLength : 1
+});
+Amb.Ad.GDN.adex = new Amb.Ad.GDN.AdEX;
+</script><!--headBottom-->
+<script type="text/javascript">
+<!--
+var meta_words="";
+var theme_words = new Array("");
+article_length=1;
+
+var rank1 = "";
+var rank2 = "";
+
+var _gaq = _gaq || [];
+//-->
+</script>
+</head>
+<body>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WHNR29"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WHNR29');</script>
+<div id="iineEntryListMask" class="mask hide"></div>
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function(){
+      FB.init({
+          appId  : '311629842256842',
+          version: 'v2.3',
+          status : true,
+          xfbml  : true
+      });
+    };
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3&appId=311629842256842";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+
+<!--bodyTop-->
+
+
+
+<!-- HeaderImpact_AmebaBlog -->
+<div id="js_odj">
+<div id="js_odjFrame">
+<div class="gpt-frame" id="div-gpt-ad-1390887825437-0" name="/7765/HeaderImpact_AmebaBlog_woman"><script>Amb.dfp.setFrameHere();</script></div>
+</div>
+</div>
+
+<a name="pageTop"></a>
+
+
+<div class="skinBody">
+<div class="skinBody2">
+<div class="skinBody3">
+
+<ul id="keyJumpNav">
+<li><a class="skinBlock" href="#blogContent">本文へジャンプ</a></li>
+<li><a class="skinBlock" href="http://ameblo.jp/takaolove1121takao/entrylist-2.html">次のページヘ</a></li>
+<li><a class="skinBlock" href="http://ameblo.jp/takaolove1121takao/">ブログのトップページへ</a></li>
+<li><a class="skinBlock" href="http://ameblo.jp/takaolove1121takao/archiveentrylist-201602.html">最新の記事一覧ページへ</a></li>
+</ul>
+<div id="ambHeader">
+<div id="ambHeaderLeft"></div>
+<div id="ambHeaderRight">
+<div id="ameblo-option" class="-ameblo-cmnhf-service"></div>
+<div class="-ameblo-cmnhf-register"><a class="-ameblo-cmnhf-registerBtn" href="https://user.ameba.jp/regist/registerIntro.do">Ameba新規登録(無料)</a></div>
+</div>
+</div>
+
+<!--frameBefore-->
+
+<div class="skinFrame">
+
+<!--skinFrame2Upper-->
+
+<div class="skinFrame2">
+
+<!--subFrameTop-->
+
+<div class="skinHeaderFrame">
+
+<header>
+<div class="skinHeaderArea">
+<div class="skinHeaderArea2">
+
+<!--headerTop-->
+
+<div class="skinBlogHeadingGroupArea">
+<hgroup>
+<h1 class="skinTitleArea"><a href="http://ameblo.jp/takaolove1121takao/" class="skinTitle">リノのゆるーいふわふわなブログ</a></h1>
+<h2 class="skinDescriptionArea"><span class="skinDescription">ブログの説明を入力します。</span></h2>
+</hgroup>
+</div>
+
+<!--headerBottom-->
+
+</div>
+</div>
+</header>
+
+</div>
+
+<!--wrapBefore-->
+
+<div class="skinContentsFrame">
+
+<div class="skinContentsArea">
+<div class="skinContentsArea2">
+
+<!--firstContentsAreaTop-->
+
+<div class="layoutContentsA">
+
+<div id="main" class="skinMainArea">
+<div class="skinMainArea2">
+
+<!--subMainTop-->
+
+
+
+
+
+<div class="globalLinkArea">
+  <ul class="globalLinkAreaInner">
+    <li class="globalLinkNavItem globalLinkNavTop"><a class="skinImgBtnS blogTopBtn" href="http://ameblo.jp/takaolove1121takao/"><span>ブログトップ</span></a></li>
+    <li class="globalLinkNavItem globalLinkNavArticle"><a class="skinImgBtnS articleListBtn" href="http://ameblo.jp/takaolove1121takao/entrylist.html"><span>記事一覧</span></a></li>
+    <li class="globalLinkNavItem globalLinkNavImgList"><a class="skinImgBtnS imageListBtn" href="http://ameblo.jp/takaolove1121takao/imagelist.html"><span>画像一覧</span></a></li>
+  </ul>
+</div>
+
+
+<!--TopPagingBottom-->
+
+<a name="blogContent"></a>
+
+
+
+
+
+
+<article>
+
+<div class="listPageArea tabList">
+
+<div class="tabArea">
+<span class="tab currentTab skinBlock">
+<a href="http://ameblo.jp/takaolove1121takao/entrylist.html">最新の記事一覧</a>
+</span>
+
+<span class="tab skinBlock">
+<a href="http://ameblo.jp/takaolove1121takao/archiveentrylist-201602.html">月別記事一覧</a>
+</span>
+
+<span class="tab skinBlock">
+<a href="http://ameblo.jp/takaolove1121takao/themeentrylist-10081877429.html">テーマ別記事一覧</a>
+</span>
+</div>
+
+<div class="listContentsArea skinBlock">
+
+<div class="entryListSortArea skinBorderHr">
+<em>新しい順</em> <span class=" skinWeakColor">|</span> <a href="http://ameblo.jp/takaolove1121takao/entrylist-1-1.html">古い順</a>
+</div>
+<ul class="contentsList skinBorderList">
+
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-12112696279.html">新年の抱負</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2016-01-01 16:21:17</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-12112696279.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-12112352129.html">2016年START☆彡.。</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2016-01-01 00:00:27</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-12112352129.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-12111082912.html">今日は28日だよ</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2015-12-28 10:03:33</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-12111082912.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-12110869209.html">東京にｷﾀ━(ﾟ∀ﾟ)━!</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2015-12-27 18:07:08</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-12110869209.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-12110396216.html">明日は…！</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2015-12-26 10:17:36</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-12110396216.html">いいね！(3)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-12109575031.html">サンタさん</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2015-12-25 11:30:07</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-12109575031.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-12109677056.html">後輩が…！</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2015-12-24 12:21:16</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-12109677056.html">いいね！(2)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-12109269487.html">今日は</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2015-12-23 09:18:54</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-12109269487.html">いいね！(2)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-12109196882.html">ただいま！？</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2015-12-23 00:12:49</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-12109196882.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-11934451697.html">よし・・・ただのブログに化そう！</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2014-10-04 20:56:34</time>
+</div>
+
+<div>
+<a class="contentComment" href="http://ameblo.jp/takaolove1121takao/entry-11934451697.html#cbox">コメント(4)</a>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-11934451697.html">いいね！(2)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-11920038504.html">毎日こつこつブログ♪　２１</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2014-09-04 21:00:47</time>
+</div>
+
+<div>
+<a class="contentComment" href="http://ameblo.jp/takaolove1121takao/entry-11920038504.html#cbox">コメント(3)</a>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-11920038504.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-11911679642.html">もう放置ブログに化してる件について←（毎日こつこつブログ♪　２０）</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2014-08-18 16:12:06</time>
+</div>
+
+<div>
+<a class="contentComment" href="http://ameblo.jp/takaolove1121takao/entry-11911679642.html#cbox">コメント(2)</a>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-11911679642.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-11902276112.html">毎日こつこつブログ♪　１９</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2014-07-30 19:35:00</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-11902276112.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-11901835548.html">毎日こつこつブログ♪　18</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2014-07-29 21:35:54</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-11901835548.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-11894065018.html">毎日こつこつブログ♪　１７</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2014-07-14 16:49:51</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-11894065018.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-11892523455.html">毎日こつこつブロ♪　１６</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2014-07-11 17:48:56</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-11892523455.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-11891037122.html">毎日こつこつブログ♪　１5</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2014-07-08 21:10:19</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-11891037122.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-11890506171.html">毎日こつこつブログ♪　１4</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2014-07-07 21:35:47</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-11890506171.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-11889761959.html">本当にすみません(´Д⊂ヽ</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2014-07-06 15:12:55</time>
+</div>
+
+<div>
+<span class="contentComment skinWeakColor">コメント(0)</span>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-11889761959.html">いいね！(0)</a>
+
+</div>
+
+</div>
+
+</li>
+
+<li>
+
+<div class="contentTitleArea">
+<h1><a class="contentTitle" href="http://ameblo.jp/takaolove1121takao/entry-11880793497.html">毎日こつこつブログ♪　１３</a></h1>
+</div>
+
+<div class="contentDetailArea">
+
+<div class="contentTime skinWeakColor">
+<time>2014-06-19 18:56:12</time>
+</div>
+
+<div>
+<a class="contentComment" href="http://ameblo.jp/takaolove1121takao/entry-11880793497.html#cbox">コメント(1)</a>
+
+<span class="skinWeakColor">&nbsp;|&nbsp;</span>
+<a class="skinWeakColor" href="http://ameblo.jp/takaolove1121takao/entry-11880793497.html">いいね！(2)</a>
+
+</div>
+
+</div>
+
+</li>
+</ul>
+
+<div class="pagingArea listPagePaging largePagingArea">
+<a class="skinSimpleBtn pagingNext" href="http://ameblo.jp/takaolove1121takao/entrylist-2.html">次ページ<span class="pagingArrow">&nbsp;&gt;&gt;</span></a>
+</div>
+</div>
+
+</div>
+</article>
+
+<div style="border: 1px solid #ccc; height:130px; margin-top: 20px;">
+<div class="afc-frame" style="height:130px">
+<script>
+Amb.Ad.GDN.afc.setFrameHere({
+channel: 'opt3'
+});
+</script>
+</div>
+</div>
+<!--PagingUpper-->
+
+<!--bottomPagingTop-->
+
+
+
+
+<div class="globalLinkArea">
+  <ul class="globalLinkAreaInner">
+    <li class="globalLinkNavItem globalLinkNavTop"><a class="skinImgBtnS blogTopBtn" href="http://ameblo.jp/takaolove1121takao/"><span>ブログトップ</span></a></li>
+    <li class="globalLinkNavItem globalLinkNavArticle"><a class="skinImgBtnS articleListBtn" href="http://ameblo.jp/takaolove1121takao/entrylist.html"><span>記事一覧</span></a></li>
+    <li class="globalLinkNavItem globalLinkNavImgList"><a class="skinImgBtnS imageListBtn" href="http://ameblo.jp/takaolove1121takao/imagelist.html"><span>画像一覧</span></a></li>
+  </ul>
+</div>
+
+<div class="category-alliance-wrapper">
+  <div class="category-alliance-inner">
+
+    <div class="category-alliance-image-ad">
+      <p class="category-alliance-image-ad-text">AD</p>
+      <script type="text/javascript" language="JavaScript">
+      yads_ad_ds = '10206_39361';
+      </script>
+      <script type="text/javascript" language="JavaScript" src="http://yads.c.yimg.jp/js/yads.js"></script>
+    </div>
+
+    <div class="category-alliance-list-ad">
+      <p class="category-alliance-list-ad-title">Amebaおすすめキーワード</p>
+      <div class="adcross_loader pid_157 container_div"></div>
+    </div>
+
+  </div>
+</div>
+
+
+<div id="footer_ad" class="skinFieldBlock">
+<ul>
+<li>
+<div class="skinAnchorColor adcross_loader pid_165 container_div"></div>
+</li>
+</ul>
+</div>
+
+</div>
+</div><aside>
+<div class="skinSubA skinSubArea">
+<div class="skinSubA2">
+
+<!--subATop-->
+<div class="designSelectBtnArea"><a class="designSelectBtn skinImgBtnM" target="_blank" href="http://blog.ameba.jp/reader.do?bnm=takaolove1121takao"><span>このブログの読者になる</span></a></div>
+
+<div class="skinMenu profileMenu">
+<div class="skinMenu2">
+
+<div class="skinMenuHeader">
+<span class="skinMenuTitle">プロフィール</span>
+</div>
+
+<div class="skinMenuBody">
+
+
+<div class="skinMenuBody2">
+
+<div class="userProfileImageArea">
+<div class="userProfileImage"><a href="http://profile.ameba.jp/takaolove1121takao/"><img width="90" height="81" alt="" src="http://stat.profile.ameba.jp/profile_images/20151223/00/15/iA/j/o100709091450798989419.jpg" style="padding-top:4px" /></a></div>
+</div>
+
+
+
+<div class="profileUserNicknameArea">
+<div class="profileUserNickname">
+<em><a href="http://profile.ameba.jp/takaolove1121takao/">リノ</a></em>
+</div>
+<div class="profileUserPages skinWeakColor">
+<a href="http://profile.ameba.jp/takaolove1121takao/">プロフィール</a>｜<a target="_blank" href="http://r.ca-mpr.jp/s/10/?i4a=370834&targetAmebaId=takaolove1121takao">ピグの部屋</a>
+</div>
+<div class="profileUserPages skinWeakColor">
+<a href="http://now.ameba.jp/takaolove1121takao/">なう</a>｜
+<a href="http://group.ameba.jp/user/groups/takaolove1121takao/">グルっぽ</a>
+｜<a href="http://peta.ameba.jp/p/addPeta.do?targetAmebaId=takaolove1121takao&service=blog" rel="nofollow">ペタ</a>
+</div>
+</div>
+
+
+<div class="profileDetailArea">
+<ul>
+<li>性別：女性</li>
+<li>お住まいの地域：宮城県</li>
+<li class="freeText">
+自己紹介：特にないです
+
+あぁ！ありますあります
+
+アニメ好きな人
+
+ボカロ好きな人
+
+どうで...
+<a class="freeTextLink" href="http://profile.ameba.jp/takaolove1121takao/">続きを見る</a>
+</li>
+</ul>
+</div>
+
+<ul class="profileBtnArea">
+<li><a class="readerBtn skinImgBtnS" href="http://blog.ameba.jp/reader.do?bnm=takaolove1121takao"><span>読者になる</span></a></li>
+<li><a class="amemberBtn skinImgBtnS" href="http://amember.ameba.jp/amemberRequest.do?oAid=takaolove1121takao"><span>アメンバーになる</span></a></li>
+<li><a class="messageBtn skinImgBtnS" href="http://msg.ameba.jp/pub/send/index?toAmebaId=takaolove1121takao"><span>メッセージを送る</span></a></li>
+<li>
+<a class="presentBtn skinImgBtnS" href="http://r.ca-mpr.jp/s/10/?i4a=371959&targetAmebaId=takaolove1121takao"><span>ピグともになる</span></a>
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+</div>			<!--adSidePremium--><div class="subAdBannerArea subModule">
+<div class="subAdBannerHeader"><span>AD</span></div>
+
+
+<!-- adcloud Zone: [Amebaブログプレミアムバナー（女性面）] -->
+<div class="gpt-frame" id="div-gpt-ad-1341245551695-0" name="/7765/PremiumPanel_AmebaBlog_woman"><script>Amb.dfp.setFrameHere();</script></div>
+
+
+</div>
+
+<div class="skinMenu readerMenu">
+<div class="skinMenu2">
+
+<div class="skinMenuHeader">
+<span class="skinMenuTitle">このブログの読者</span>
+</div>
+
+<div class="skinMenuBody">
+
+<div class="readerHeader">
+読者数: <em>0</em> 人
+</div>
+
+
+
+<div class="readerRequestArea">
+
+<div class="readerRequestBtnArea">
+<a class="skinImgBtnS readerBtn" href="http://blog.ameba.jp/reader.do?bnm=takaolove1121takao" target="_self"><span>読者になる</span></a>
+</div>
+
+<div class="readerRequestDescription">読者になると、このブログの更新情報が届きます。</div>
+
+</div>
+
+</div>
+
+</div>
+</div><div class="skinMenu favoriteMenu">
+<div class="skinMenu2">
+
+<div class="skinMenuHeader">
+<span class="skinMenuTitle">お気に入りブログ</span>
+</div>
+
+<div class="skinMenuBody">
+
+
+</div>
+
+</div>
+</div><div class="registArea subModule">
+
+<div class="registBtnArea">
+<a class="registBtn skinImgBtnM" href="https://user.ameba.jp/regist/registerIntro.do?frmid=1012"><span>アメーバID登録（無料）</span></a>
+</div>
+
+<div class="skinMenu adMenu">
+<div class="skinMenu2">
+<div class="skinMenuHeader">
+<span class="skinMenuTitle">AD</span>
+</div>
+<div class="skinMenuBody">
+
+<!-- [Amebaサイドテキスト] -->
+<div class="skinSubList adcross_loader pid_166 container_div"></div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="rss skinFieldBlock">
+
+<div>
+<a class="rssBtn" href="http://rssblog.ameba.jp/takaolove1121takao/rss20.xml">RSS</a>
+</div>
+
+<div class="rssDescription">
+<a href="http://helps.ameba.jp/trouble/copyright.html" target="_blank">※著作権についてのご注意</a>
+</div>
+
+</div>
+<!--subABottom-->
+<div class="subAdBannerHeader"><span>AD</span></div>
+
+<div class="gpt-frame" id="div-gpt-ad-1341245517290-1" name="/7765/BTFSidePanel">
+<script>Amb.dfp.setFrameHere();</script>
+</div>
+
+
+</div>
+</div>
+</aside>
+
+</div>
+
+
+<div class="layoutContentsB">
+
+<aside>
+<div class="skinSubB skinSubArea">
+<div class="skinSubB2">
+
+<!--subBTop-->
+
+<div class="skinMenu recentEntriesMenu">
+<div class="skinMenu2">
+
+<div class="skinMenuHeader">
+<span class="skinMenuTitle">最新の記事</span>
+</div>
+
+<div class="skinMenuBody">
+
+<ul class="skinSubList">
+<li><a href="http://ameblo.jp/takaolove1121takao/entry-12112696279.html">新年の抱負</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/entry-12112352129.html">2016年START☆彡.。</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/entry-12111082912.html">今日は28日だよ</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/entry-12110869209.html">東京にｷﾀ━(ﾟ∀ﾟ)━!</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/entry-12110396216.html">明日は…！</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/entry-12109575031.html">サンタさん</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/entry-12109677056.html">後輩が…！</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/entry-12109269487.html">今日は</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/entry-12109196882.html">ただいま！？</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/entry-11934451697.html">よし・・・ただのブログに化そう！</a></li>
+</ul>
+
+<div class="listLink">
+<a href="http://ameblo.jp/takaolove1121takao/entrylist.html" >一覧を見る</a>
+<p class="list"><span class="listImagetop"></span><a href="http://ameblo.jp/takaolove1121takao/imagelist.html" >画像一覧を見る</a></p>
+</div>
+
+</div>
+
+</div>
+</div>
+<div class="skinMenu themeMenu">
+<div class="skinMenu2">
+
+<div class="skinMenuHeader">
+<span class="skinMenuTitle">テーマ</span>
+</div>
+
+<div class="skinMenuBody">
+
+<ul class="skinSubList">
+<li class="themeNumber10081877429"><a href="http://ameblo.jp/takaolove1121takao/theme-10081877429.html">ブログ ( 32 )</a></li>
+</ul>
+
+<div class="listLink">
+<a href="http://ameblo.jp/takaolove1121takao/themeentrylist-10081877429.html" >一覧を見る</a>
+</div>
+
+
+</div>
+
+</div>
+</div><div class="skinMenu calendarMenu">
+<div class="skinMenu2">
+
+<div class="skinMenuHeader">
+<span class="skinMenuTitle">カレンダー</span>
+</div>
+
+<div class="skinMenuBody">
+
+<div class="calendar">
+<table>
+<caption>
+<a href="http://ameblo.jp/takaolove1121takao/archive-201601.html" class="pre">&lt;&lt;</a>2月<a href="http://ameblo.jp/takaolove1121takao/archive-201603.html" class="next">&gt;&gt;</a></caption>
+<tr id="weekID">
+<th class="sun">日</th>
+<th class="mon">月</th>
+<th class="tue">火</th>
+<th class="wed">水</th>
+<th class="thu">木</th>
+<th class="fri">金</th>
+<th class="sat">土</th>
+</tr>
+<tr>
+<td></td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+</tr>
+<tr>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+</tr>
+<tr>
+<td>21</td>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+<td>27</td>
+</tr>
+<tr>
+<td>28</td>
+<td>29</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+</div>
+
+</div>
+
+</div>
+</div><div class="skinMenu archiveMenu">
+<div class="skinMenu2">
+
+<div class="skinMenuHeader">
+<span class="skinMenuTitle">月別</span>
+</div>
+
+<div class="skinMenuBody">
+
+<ul class="skinSubList">
+<li><a href="http://ameblo.jp/takaolove1121takao/archive1-201601.html">2016年01月 ( 2 )</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/archive1-201512.html">2015年12月 ( 7 )</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/archive1-201410.html">2014年10月 ( 1 )</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/archive1-201409.html">2014年09月 ( 1 )</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/archive1-201408.html">2014年08月 ( 1 )</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/archive1-201407.html">2014年07月 ( 7 )</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/archive1-201406.html">2014年06月 ( 11 )</a></li>
+<li><a href="http://ameblo.jp/takaolove1121takao/archive1-201405.html">2014年05月 ( 2 )</a></li>
+</ul>
+
+<div class="listLink">
+<a href="http://ameblo.jp/takaolove1121takao/archiveentrylist-201602.html" >一覧を見る</a>
+</div>
+
+</div>
+
+</div>
+</div><div class="blogSearchForm subModule">
+
+<form id="blogSearchForm" class="blogSearchForm" name="blogSearchForm" action="http://search.ameba.jp/search.html" method="get">
+<span id="blogSearchBtn" class="blogSearchBtn">検索</span>
+<input id="blogSearchInput" class="blogSearchInput" type="text" size="20" maxlength="255" name="q" title="このブログを検索する" value="このブログを検索する" />
+<input type="hidden" name="aid" value="takaolove1121takao" />
+</form>
+
+</div>
+<div class="skinMenu rankingMenu">
+<div class="skinMenu2">
+
+<div class="skinMenuHeader">
+<span class="skinMenuTitle">ランキング</span>
+</div>
+
+<div class="skinMenuBody">
+
+
+
+このブログはランキングに参加していません。
+ 
+ 
+ 
+
+</div>
+
+</div>
+</div><div class="skinMenu bookmarkMenu">
+<div class="skinMenu2">
+
+<div class="skinMenuHeader">
+<span class="skinMenuTitle">ブックマーク</span>
+</div>
+
+<div class="skinMenuBody">
+
+
+</div>
+
+</div>
+</div>
+<!--subBBottom-->
+
+</div>
+</div>
+</aside>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+<!--subFrameBottom-->
+
+</div>
+</div>
+
+<!--frameAfter-->
+
+</div>
+</div>
+</div><ul class="footerNav">
+<li><a class="footerNavNext" href="http://ameblo.jp/takaolove1121takao/entrylist-2.html"><div class="footPt23">次へ</div></a></li>
+<li class="inactive"><span class="footerNavPrev"><div class="footPt23">前へ</div></span></li>
+<li><a id="footerNavTop" class="footerNavTop" href="#"><div class="footPt23">上に戻る</div></a></li>
+</ul>
+<!--bodyBottom-->
+
+<div class="bfl-bigfooter" id="js-bigfooter" data-state="general">
+
+
+<div id="js-freshTopics"></div>
+  <div class="bfl-topics__outer" id="js-bigfooter-topics">
+    <div class="bfl-topics bfu-clear">
+      <div class="bfl-topics__headline">
+        <p class="bfl-topics__headline__title bfc-headline bfc-headline--large">Ameba人気のブログ</p>
+      </div>
+      <div class="bfl-news__outer bfu-clear bfu-is-hidden" id="js-bigfooter-news-outer">
+        <div class="bfl-news">
+          <div class="bfl-news__headline">
+            <h2 class="bfl-news__headline__title bfc-headline bfc-headline--middle">Amebaトピックス</h2>
+            <div class="bfl-news__headline__update bfc-text--weak" id="js-new-update"></div>
+          </div>
+          <div class="bfl-news__content bfu-clear" id="js-bigfooter-news">
+            <div class="bfl-news__text">
+              <ul class="bfp-news_list bfu-clear" id="js-bigfooter-news-text"></ul>
+            </div>
+            <div class="bfl-news__img" id="js-bigfooter-news-img">
+              <a href="" class="bfp-image-topics bfu-clear" id="js-bigfooter-news-img-link">
+                <div class="bfp-image-topics__img bfc-topics-image bfu-valign-m">
+                  <img src="" alt="" class="bfc-thumbnail__img bfu-img-link" id="js-bigfooter-news-img-item">
+                </div>
+                <div class="bfp-image-topics__caption bfu-text-link" id="js-bigfooter-news-img-label"></div>
+              </a>
+            </div>
+          </div>
+          <div class="bfl-topics__more bfl-topics__more--full bfu-clear" id="js-bigfooter-news-more">
+            <a class="bfc-more-link" href="http://ametopi.jp" data-ga-category="ametopi-more" data-ga-label="gen"><span class="bfc-more-link___text">もっと見る</span><i class="bfc-icon bfc-icon--more"></i></a>
+          </div>
+        </div>
+      </div>
+
+        <div class="bfl-ranking__outer bfu-clear bfu-is-hidden" id="js-bigfooter-ranking-outer">
+          <div class="bfl-ranking__headline">
+            <h2 class="bfl-ranking__headline__title bfc-headline bfc-headline--middle">ランキング</h2>
+            <ul class="bfl-ranking__headline__tab bfp-ranking__tab bfu-clear" id="js-bigfooter-ranking-tab">
+              <li class="bfp-ranking__tab__item" data-rank-index="0" data-ga-category="blogRankingTab-general" data-ga-label="gen">総合</li>
+              <li class="bfp-ranking__tab__item" data-rank-index="1" data-ga-category="blogRankingTab-new" data-ga-label="gen">新登場</li>
+              <li class="bfp-ranking__tab__item" data-rank-index="2" data-ga-category="blogRankingTab-trend" data-ga-label="gen">急上昇</li>
+              <li class="bfp-ranking__tab__item" data-rank-index="3" data-ga-category="blogRankingTab-trend-genre" data-ga-label="gen">トレンド</li>
+            </ul>
+            <div class="bfl-ranking__headline__update bfc-text--weak" id="js-bigfooter-ranking-update"></div>
+          </div>
+          <div class="bfp-ranking__list__outer" id="js-bigfooter-ranking-list"></div>
+          <div class="bfl-topics__more bfl-topics__more--full bfu-clear">
+            <a href="" class="bfc-more-link" id="js-bigfooter-ranking-more" data-ga-category="blogRanking-more" data-ga-label="gen"><span class="bfc-more-link___text">もっと見る</span><i class="bfc-icon bfc-icon--more"></i></a>
+          </div>
+        </div>
+        <div class="bfl-topics__button">
+          <div class="bfc-button--large"><a href="http://official.ameba.jp/" class="bfc-button__link bfu-valign-m" data-ga-category="button-officialTop" data-ga-label="gen"><span class="bfc-button__text">芸能人トップへ</span></a></div>
+        </div>
+    </div>
+  </div>
+
+  <div class="bfl-register">
+
+    <div class="bfl-register-columns bfu-clear">
+
+      <div class="bfl-register-columns__inner">
+        <h3 class="bf-register-column-title bfc-headline">
+          <span class="bfc-icon bfc-icon--general-blogger bfl-register-column-icon"></span>
+          <span class="bfl-register-column-text">ブログをはじめる</span>
+        </h3>
+        <p class="bf-register-lead">たくさんの芸能人・有名人が<br />
+        書いているAmebaブログを<br />
+        無料で簡単にはじめることができます。</p>
+        <div class="bfl-register__button">
+          <div class="bfc-button-register bfc-button-register--general">
+            <a href="http://lo.ameba.jp/v1/RvpCFPlDPJoJGmqPbahu" class="bfc-button__link bfu-valign-m" data-ga-category="button-generalBlogStart">
+              <span class="bfc-button__text bfc-button-register__text">はじめる</span>
+            </a>
+          </div>
+          <p class="bfl-register__moreInfo"><a href="http://lo.ameba.jp/v1/HsjpGgjFmlsWlFPyAGPU">他ブログからお引っ越しはこちら</a><span class="bfc-icon bfc-icon--more-register bfl-icon-register__moreInfo"></span></p>
+        </div>
+      </div>
+
+      <div class="bfl-register-columns__inner bfl-register-sideLine">
+        <h3 class="bf-register-column-title bfc-headline">
+          <span class="bfc-icon bfc-icon--top-blogger bfl-register-column-icon"></span>
+          <span class="bfl-register-column-text">公式トップブロガーへ応募</span>
+        </h3>
+        <p class="bf-register-lead">多くの方にご紹介したいブログを<br />
+          執筆する方を「公式トップブロガー」<br />
+          として認定しております。</p>
+        <div class="bfl-register__button">
+          <div class="bfc-button-register bfc-button-register--topBlogger">
+            <a href="http://lo.ameba.jp/v1/SGkprlkWSHymqjVylPTk" class="bfc-button__link bfu-valign-m" data-ga-category="button-generalBlogStart">
+              <span class="bfc-button__text bfc-button-register__text">詳しく見る</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bfl-register-columns__inner">
+        <h3 class="bf-register-column-title bfc-headline">
+          <span class="bfc-icon bfc-icon--official-blogger bfc-register-column-icon"></span>
+          <span class="bfl-register-column-text">芸能人・有名人ブログを開設</span>
+        </h3>
+        <p class="bf-register-lead">Amebaブログでは、芸能人・有名人ブログを<br />
+        ご希望される著名人の方／事務所様を<br />
+        随時募集しております。</p>
+        <div class="bfl-register__button">
+          <div class="bfc-button-register">
+            <a href="http://lo.ameba.jp/v1/vMTwIgvtPsXWZZylIRUk" class="bfc-button__link bfu-valign-m" data-ga-category="button-officialEntry" data-ga-label="gen">
+              <span class="bfc-button__text bfc-button-register__text">申し込む</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div id="ambFooter"></div>
+
+<img src="http://act.ameba.jp/blog/5166f6a6b2e13727e70743f214b4609613430353822353332391939330974f16b666f6c1f76633151323674611b616609314231333236893633373959e693b0e5e9b4e681ae968ab4e8b2100936" style="display:none" /><img src="http://act.ameba.jp/common/39667619b2643227770546221f8464a993634b53638123338123639f9360914661b676f4c63769533315233745163611f00621c6467fd676e947779ec6673f406" style="display:none" />
+<img src="http://ameblo.jp/accesslog/BlogAccessLog?bnm=takaolove1121takao&referAddr=&skincode=wu_pf_default" alt="" class="accessLog" />
+
+<img src="http://adt.measure.ameblo.jp/pc/takaolove1121takao/7a5984e40a58dd84e2e2dd5d41303da3b8d7de4c" style="display:none;" />
+
+<img src="//sy.ameblo.jp/sync/?org=sy.ameblo.jp" width="1" height="1" style="display:none;">
+
+
+<script>
+  window.ameblo = (typeof window.ameblo === 'object' && window.ameblo.nodeType !== 1) ? window.ameblo : {};
+  window.ameblo.config = {
+    urls: {
+      ameblo: 'http://ameblo.jp',
+      blog: 'http://blog.ameba.jp',
+      blogNews: 'http://blognews.ameba.jp',
+      official: 'http://official.ameba.jp',
+      stat: 'http://stat100.ameba.jp',
+      adcrossAPI: 'http://ad.pr.ameba.jp',
+      iine:'http://iine.blog.ameba.jp',
+      fresh: 'https://amebafresh.tv'
+    },
+    flags: {
+      isOfficial: false, 
+      isTopBlogger: false
+    },
+    user: {
+      amebaId: 'takaolove1121takao',
+      groupCheckerId: 0,
+      sex: '1',
+      topBloggerCategoryId: ''
+    }
+  };
+</script>
+
+<script src="http://stat100.ameba.jp/ameblo/pc/js/common-1.1.2.js"></script>
+<script>
+new Amb.CommentBtnAmb.PcBlog({
+setting:{
+commentDomain:'http://comment.ameba.jp',
+blogName:'takaolove1121takao',
+smartPhoneSwitchFlg:'0'
+}
+});
+</script>
+
+
+<script src="http://stat100.ameba.jp/common_style/js/ameba/sp/common/sp.viewswitcher.js" charset="UTF-8"></script>
+
+
+<script charset="UTF-8" src='http://stat100.ameba.jp/blog/js/newskin_imagelink-1.0.0.js'></script>
+
+<script src='http://stat100.ameba.jp/blog/js/apm001.js'></script><script src='http://stat100.ameba.jp/adcross/pub/js/adLoader-0.1.3.js?20141105' type='text/javascript' charset='utf-8'></script>
+<script type="text/javascript">
+  new window.amb.adcross()
+</script>
+
+<script src="http://stat100.ameba.jp/ameblo/pc/js/amebabar/ameblo.common.hf.1.4.0.js"></script>
+<script src="http://stat100.ameba.jp/ameblo/pc/js/amebabar/ameba_centertext.1.0.0.js"></script>
+<script src="http://stat100.ameba.jp/ameblo/pc/js/amebabar/amebabar-1.1.0.js"></script>
+<script>
+ameblo.amebabar.initialize({
+type: 1,
+centerText: {
+id: 'barPickup',
+callback: function(){ window.Amb.Ameblo.centertext.init(); }
+}
+});
+</script>
+<script src="http://stat100.ameba.jp/ameblo/pc/js/amebabar/footer_spm_link.1.0.0.js"></script>
+
+
+<script src="http://stat100.ameba.jp/ameblo/pc/js/freshSp-1.0.0.js"></script>
+
+<script src="http://stat100.ameba.jp/ameblo/pc/js/freshTopics-1.1.0.js"></script>
+
+<div id="iineEntryFrame">
+<div id="iineCloseBtn" class="iineListClose ico_close hide"></div>
+<div id="iineEntryLoading" class="loading hide"></div>
+</div>
+<script src="http://stat100.ameba.jp/blog/js/user/iineEntryDetail.1.000.js"></script>
+<script>
+new Amb.IineEntryAmb.PcBlog({
+setting:{
+receiveAmebaId:'takaolove1121takao',
+blogDomain:'http://ameblo.jp',
+statDomain:'http://stat100.ameba.jp',
+iineDomain:'http://iine.blog.ameba.jp',
+measureDomain:'http://measure.ameblo.jp'
+}
+});
+</script>
+<script src="http://stat100.ameba.jp/ameblo/pc/js/iineMoneyModal-1.2.0.js"></script>
+<script>
+new ameblo.IineMoneyModal();
+</script>
+
+<script type="text/javascript" src="http://stat100.ameba.jp/ameblo/pc/js/bigfooter-1.6.0.js"></script>
+
+
+<script charset="utf-8" src="http://stat100.ameba.jp/analytics/analytics_ameblo.js"></script>
+
+
+<script>
+	var _fout_queue = _fout_queue || {}; if (_fout_queue.segment === void 0) _fout_queue.segment = {};
+	if (_fout_queue.segment.queue === void 0) _fout_queue.segment.queue = [];
+
+	_fout_queue.segment.queue.push({
+		'user_id': 3949,
+		'dat' : "middleschool,tohoku"
+	});
+
+	(function() {
+		var el = document.createElement('script'); el.type = 'text/javascript'; el.async = true;
+		el.src = (('https:' == document.location.protocol) ? 'https://' : 'http://') + 'js.fout.jp/segmentation.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(el, s);
+	})();
+</script>
+<script type="text/javascript" language="javascript">
+if (window.addEventListener) { window.addEventListener('load', addViewModeElement, false); }
+if (window.attachEvent) { window.attachEvent('onload', addViewModeElement); }
+function addViewModeElement(){
+	var agent = navigator.userAgent;
+	if( agent.search(/iPhone/) != -1 || agent.search(/iPod/) != -1 || agent.search(/Android/) != -1){
+	var el = document.createElement("div");
+	el.setAttribute("id", "viewSwitcher");
+	el.innerHTML = '<dl><dt>表示切替</dt><dd><ul><li><a href="javascript:void(0);" onclick="setSpView(\'s_ameblo_view_type\', \'.ameblo.jp\', \'/\');">モバイル版</a></li><li><em>パソコン版</em></li></ul></dd></dl>';
+	document.getElementsByTagName("body").item(0).appendChild(el);
+	}
+}
+</script></body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>ark_B's Map</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: {lat: 36.6966967, lng: 137.8598119}
+  });
+
+  var ctaLayer = new google.maps.KmlLayer({
+    url: 'http://darkhaloes.sakura.ne.jp/bot/ark_B.kml',
+    map: map,
+    preserveViewport: true
+  });
+}
+    </script>
+    <script>
+        var script=document.createElement("script");
+        script.type="text/javascript";
+        script.async=true;
+        script.src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3Zl5hxDE6DBERN_LUWJ8q7ku0ZuzCRfw&signed_in=true&callback=initMap";
+        document.body.appendChild(script);
+    </script>
+  </body>
+</html>

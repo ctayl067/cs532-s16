@@ -1,0 +1,3167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- script type="text/javascript" src="http://blog.livedoor.jp/kijyosokuhou/js/fixed.js" charset="utf-8"></script -->
+<script type="text/javascript" src="http://blog.livedoor.jp/kijyosokuhou/js/scrolltopcontrol.js" charset="utf-8"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" /><link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://livedoor.blogimg.jp/kijyosokuhou/imgs/b/e/favicon.ico" /><link rel="icon" href="http://livedoor.blogimg.jp/kijyosokuhou/imgs/b/e/be833931.ico" />
+<link rel="stylesheet" href="http://parts.blog.livedoor.jp/css/template.css?v=20130404" type="text/css" />
+<link rel="stylesheet" href="http://kijyomatome.com/site.css?_=20151211172454" type="text/css" /><link rel="alternate" type="application/rss+xml" title="RSS" href="http://kijyomatome.com/index.rdf" />
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://kijyomatome.com/atom.xml" /><link rel="openid.server" href="http://auth.livedoor.com/openid/server" /><link rel="openid.delegate" href="http://profile.livedoor.com/kijyosokuhou/" /><link rel="next" href="http://kijyomatome.com/?p=2" />
+
+<meta name="keywords" content="鬼女,修羅場,キチママ,復讐,因果応報,生活まとめ" />
+<meta name="description" content="鬼女・修羅場・キチママ系などの日常生活に関する面白い話をまとめたブログです。" />
+<meta property="og:type" content="blog" />
+<meta property="og:title" content="鬼女まとめ速報 -修羅場・キチママ・生活まとめ-" />
+<meta property="og:description" content="鬼女・修羅場・キチママ系などの日常生活に関する面白い話をまとめたブログです。" />
+<meta property="og:url" content="http://kijyomatome.com/" />
+<meta property="og:image" content="http://livedoor.blogimg.jp/kijyosokuhou/imgs/5/0/5090a3cc.png" />
+<meta property="og:site_name" content="鬼女まとめ速報 -修羅場・キチママ・生活まとめ-" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="twitter:site" content="@kijyosokuhou" />
+<meta name="twitter:title" content="鬼女まとめ速報 -修羅場・キチママ・生活まとめ-" />
+<meta name="twitter:description" content="鬼女・修羅場・キチママ系などの日常生活に関する面白い話をまとめたブログです。" />
+<meta name="twitter:card" content="summary" />
+<link rel="alternate" media="handheld" type="application/xhtml+xml" href="http://blog.m.livedoor.jp/kijyosokuhou/" />
+
+<title>鬼女まとめ速報 -修羅場・キチママ・生活まとめ-</title>
+<link href="https://plus.google.com/+Kijyomatomeplus" rel="publisher" />
+<meta name="google-site-verification" content="gM0RqWH_QIuMeNY5wYq7_uXZuf7tDVxpRoLi5fC4Uq8" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37497347-1', 'kijyomatome.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type='text/javascript'>
+var path_value = location.pathname.substr(0,40);
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/83555300/pc_kijyomatome_left1st_160x600', [[160, 600], [1, 1]], 'div-gpt-ad-1443604771415-0').addService(googletag.pubads()).setTargeting("url", path_value);
+    googletag.defineSlot('/83555300/pc_kijyomatome_header_728x90', [[728, 90], [1, 1]], 'div-gpt-ad-1443604771415-1').addService(googletag.pubads()).setTargeting("url", path_value);
+    googletag.defineSlot('/83555300/pc_kijyomatome_2nd_728x90', [[728, 90], [1, 1]], 'div-gpt-ad-1443604771415-2').addService(googletag.pubads()).setTargeting("url", path_value);
+    googletag.defineSlot('/83555300/pc_kijyomatome_3rd_728x90', [[728, 90], [1, 1]], 'div-gpt-ad-1443604771415-3').addService(googletag.pubads()).setTargeting("url", path_value);
+    googletag.defineSlot('/83555300/pc_kijyomatome_left2nd_160x600', [160, 600], 'div-gpt-ad-1443604771415-4').addService(googletag.pubads()).setTargeting("url", path_value);
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<script type="text/javascript"><!--
+google_ad_client = 'ca-livedoor-blogmedia_js';
+google_ad_channel = 'blog184';
+google_ad_section = 'default';
+// -->
+</script>
+</head>
+<body class="default_2008 index"><script type="text/javascript"><!--
+var ld_blog_vars = {
+  provider_id : '1',
+  provider_name : 'livedoor',
+  id : '5553868',
+  name : 'kijyosokuhou',
+  charset : 'utf8',
+  url : 'http://kijyomatome.com/',
+  title : '鬼女まとめ速報 -修羅場・キチママ・生活まとめ-',
+  blog_design: {
+      version: 1
+  },
+  blog_category: {
+    id: '520',
+    permalink: 'http://blog.livedoor.com/category/520/',
+    name: 'まとめ(総合) > 鬼女まとめ',
+    is_adult : 0,
+    is_gambling : 0,
+    hierarchy: [{ id: '431', name: 'まとめ(総合)', permalink: 'http://blog.livedoor.com/category/431/' },{ id: '520', name: '鬼女まとめ', permalink: 'http://blog.livedoor.com/category/520/' }]
+  },
+  current_page : {
+    type : 'index',    page : '1'
+  },
+  articles : [  ]
+};
+//-->
+</script><div id="analyzer_tags" style="display:none">
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/js/c2.js"></script>
+<script type="text/javascript">blog_counter('kijyosokuhou', 5553868, 'http://kijyomatome.com/')</script>
+</div><script type="text/javascript" src="http://parts.blog.livedoor.jp/js/smartphone.js?v=20131007"></script>
+<script type="text/javascript" src="http://kijyomatome.com/settings/header.js"></script><script type="text/javascript" src="http://kijyomatome.com/settings/ad.js"></script>
+<script type="text/javascript">
+var palette_src = 'http://parts.blog.livedoor.jp/img/emoji/2/palette.png';
+if (typeof IMAGE_CACHE == 'object' && IMAGE_CACHE['emoji_palette']) IMAGE_CACHE['emoji_palette'].src = palette_src;
+</script>
+<!-- google_ad_section_start -->
+
+<a name="top"></a>
+
+<!-- Blog Common Header // -->
+<!-- // Blog Common Header -->
+
+
+<!-- ............... Container ............... -->
+<div id="container">
+
+<!-- ..... Title ..... -->
+
+<div class="blog-title-outer" style="cursor: pointer;" onclick="location.href='http://kijyomatome.com/'">
+<div class="blog-title-outer-2">
+<div class="blog-title-outer-3">
+	<h1 id="blog-title"><a href="http://kijyomatome.com/">鬼女まとめ速報 -修羅場・キチママ・生活まとめ-</a></h1>
+	<div class="blog-description-outer"><p id="blog-description">鬼女・修羅場系のおもしろスレをまとめるブログです。</p></div>
+</div>
+</div>
+</div>
+
+
+<div id="fixednavi">
+<div id="fixednaviinner">
+	<ul>
+		<li><a href="http://kijyomatome.com/">HOME</a></li>
+		<li><a href="http://kijyomatome.com/archives/cat_697551.html" target="_blank">ABOUT</a></li>
+		<li><a href="http://kijyomatome.com/index.rdf" target="_blank">RSS</a></li>
+		<li><a href="https://twitter.com/kijyosokuhou" target="_blank">Twitter</a></li>
+        <li><a href="https://www.facebook.com/kijyomatome" target="_blank">Facebook</a></li>
+		<li><a href="http://ws.formzu.net/fgen/S62153662/" target="_blank">体験談投稿</a></li>
+		<li><a href="http://goo.gl/forms/aanJYcz3Vw" target="_blank">アンケート</a></li>
+        <li><a href="http://ura-kijo.com/" target="_blank">裏・鬼女まとめ</a></li>
+		<li><a href="http://matome-alpha.com/" target="_blank">まとめアンテナα</a></li>
+		<li><a href="http://kijyo-antena.com/" target="_blank">KIJYO ANTENA</a></li>
+		<li><a href="http://mato-me.com/" target="_blank">まとめサイト図鑑</a></li>
+        <li><a href="http://a-matome.com/kichi/" target="_blank">キチママまとめアンテナ</a></li>
+	</ul></div>
+</div>
+
+
+
+
+
+<div id="content" class="hfeed">
+<!-- ..... MainColumn ..... -->
+<div id="main" class="column">
+
+
+<!-- Google AdSense -->
+<div class="google-user-ad-728-h">
+<script type="text/javascript">ldb_user_ads.display('728x90');</script>
+</div>
+<!-- /Google AdSense -->
+
+<!-- pickup2 -->
+<div class="rss" style="border:none !important;">
+<div>
+                <iframe src="http://blog.livedoor.jp/kijyosokuhou/toprss.html" height="307px" width="735px" frameborder="0" scrolling="no">お使いのブラウザは非対応です（この部分はiframeを使用しています）</iframe>
+				</div>
+</div>
+<!-- pickup2 -->
+
+ 
+
+
+<div class="column-inner">
+<div class="column-inner-2">
+
+<!-- ArticlesLoop Start -->
+<!-- google_ad_section_start -->
+<div class="autopagerize_page_element">
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47855495',
+       permalink : 'http://kijyomatome.com/archives/47855495.html',
+       title : '【プチネタ】午前2時に電話で夫婦生活のご指導くださるトメをDQNに撃退',
+       categories : [ { id:'1151446', name:'ﾄﾒ・ｳﾄ', permalink:'http://kijyomatome.com/archives/cat_1151446.html' }, { id:'', name:'', permalink:'' } ],
+       date : '2016-02-19 04:24:11'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47855495.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47855495"
+    dc:title="【プチネタ】午前2時に電話で夫婦生活のご指導くださるトメをDQNに撃退"
+    dc:identifier="http://kijyomatome.com/archives/47855495.html"
+    dc:subject="ﾄﾒ・ｳﾄ"
+    dc:description="683: 名無しさん＠ＨＯＭＥ 2010/05/27(木) 02:32:27 0今トメから電話有った。 トメ「今日は夜の方はどう？ｗ息子ちゃん頑張ってた？ｗ嫁はされるばっかりじゃだめよｗ」 私「…お前精/子細胞からやりなおせよ。精/子になっても卵子と結合する前に他の精子に取られて死に"
+    dc:creator="arakakinanao"
+    dc:date="2016-02-19T04:24:11+09:00" />
+</rdf:RDF>
+-->
+<div id="ad_rs" class="ad_rs_b"></div>
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-19T04:24:11+0900"><span class="article-date">2016年02月19日</span><span class="article-time"><!--04:24--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47855495.html" title="個別記事ページへ" rel="bookmark">【プチネタ】午前2時に電話で夫婦生活のご指導くださるトメをDQNに撃退</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_1151446.html" title="カテゴリアーカイブへ">ﾄﾒ・ｳﾄ</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/arakakinanao/" class="url"><img src="http://image.profile.livedoor.jp/icon/arakakinanao_60.gif" width="16" height="16" alt="鬼嫁ちゃん" border="0" /><span class="nickname fn">arakakinanao</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47855495.html#comments" title="コメント一覧へ">コメント(1)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><img  class="pict" hspace="5" alt="image" border="0" height="234" width="354" src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/e/1/e1dfe00c.jpg"></div>683:&nbsp;<span  style="font-weight: bold; color: green;">名無しさん＠ＨＯＭＥ</span>&nbsp;<span  style="color: gray;">2010/05/27(木) 02:32:27 0</span></div><div  style="font-size: 16px; font-weight: bold; line-height: 24px; color: rgb(128, 0, 128);" class="t_b"><br />今トメから電話有った。&nbsp;<br />トメ「今日は夜の方はどう？ｗ息子ちゃん頑張ってた？ｗ嫁はされるばっかりじゃだめよｗ」&nbsp;<br />私「…お前精/子細胞からやりなおせよ。精/子になっても卵子と結合する前に他の精子に取られて死に絶えろ」&nbsp;<br />で切っちゃった。&nbsp;<br />部下のドジのせいで自宅で明日必要な書類改稿中。徹夜覚悟でイライラ。&nbsp;<br />この夜中の下品な電凸を週３でいい加減我慢も限界。っつか寝たい。</div><!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47855495.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		
+
+	</div><!-- articleBody End -->
+
+
+<!-- Google AdSense -->
+<div class="google-user-ad-728-m">
+<script type="text/javascript">ldb_user_ads.display('728x90');</script>
+</div>
+<!-- /Google AdSense -->
+
+
+	<div id="ad2"></div>
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47855609',
+       permalink : 'http://kijyomatome.com/archives/47855609.html',
+       title : '【プチネタ】結婚祝いも出さなかった事を何度も謝ってくるトメにイラッとしたので',
+       categories : [ { id:'1151446', name:'ﾄﾒ・ｳﾄ', permalink:'http://kijyomatome.com/archives/cat_1151446.html' }, { id:'698262', name:'DQN返し', permalink:'http://kijyomatome.com/archives/cat_698262.html' } ],
+       date : '2016-02-18 23:34:35'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47855609.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47855609"
+    dc:title="【プチネタ】結婚祝いも出さなかった事を何度も謝ってくるトメにイラッとしたので"
+    dc:identifier="http://kijyomatome.com/archives/47855609.html"
+    dc:subject="ﾄﾒ・ｳﾄ,DQN返し"
+    dc:description="977: 名無しさん＠ＨＯＭＥ 2010/05/31(月) 23:11:25 0プチだけど、２年前結婚したとき旦那の親は何もしてくれなかった。 本当に、お祝い金１円もくれなかった。 理由は、ほかの子（旦那の兄弟）にもなにもしてないからだったので、 それはそれで別にいいと思っていた。"
+    dc:creator="arakakinanao"
+    dc:date="2016-02-18T23:34:35+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T23:34:35+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--23:34--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47855609.html" title="個別記事ページへ" rel="bookmark">【プチネタ】結婚祝いも出さなかった事を何度も謝ってくるトメにイラッとしたので</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_1151446.html" title="カテゴリアーカイブへ">ﾄﾒ・ｳﾄ</a></dd><dd class="article-category-second"><a href="http://kijyomatome.com/archives/cat_698262.html" title="カテゴリアーカイブへ">DQN返し</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/arakakinanao/" class="url"><img src="http://image.profile.livedoor.jp/icon/arakakinanao_60.gif" width="16" height="16" alt="鬼嫁ちゃん" border="0" /><span class="nickname fn">arakakinanao</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47855609.html#comments" title="コメント一覧へ">コメント(0)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><img  src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/3/1/3137d421.jpg" width="300" height="205" border="0" alt="image" hspace="5" class="pict"></div>977:&nbsp;<span  style="font-weight: bold; color: green;">名無しさん＠ＨＯＭＥ</span>&nbsp;<span  style="color: gray;">2010/05/31(月) 23:11:25 0</span></div><div  class="t_b" style="font-size: 16px; font-weight: bold; line-height: 24px; color: rgb(128, 0, 128);">プチだけど、２年前結婚したとき旦那の親は何もしてくれなかった。&nbsp;<br />本当に、お祝い金１円もくれなかった。&nbsp;<br />理由は、ほかの子（旦那の兄弟）にもなにもしてないからだったので、&nbsp;<br />それはそれで別にいいと思っていた。&nbsp;<br /><br />めんどくさいのが、姑が何かにつけて「何もしてやれなくて･･･。」っていうこと。&nbsp;<br />その度、いい嫁ぶって、そんなこと気になさらないでとか言っていたけど、&nbsp;<br />会うたびに毎回言うからめんどくさくなった。&nbsp;<br />別にいいのに、なんていってほしいのかと考えてた。プチ芝居って感じ。</div><!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47855609.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47855593',
+       permalink : 'http://kijyomatome.com/archives/47855593.html',
+       title : '【アホトメ】巧妙な嫁いびりを動画に撮ろうとセッティングした結果',
+       categories : [ { id:'', name:'', permalink:'' }, { id:'', name:'', permalink:'' } ],
+       date : '2016-02-18 22:24:31'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47855593.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47855593"
+    dc:title="【アホトメ】巧妙な嫁いびりを動画に撮ろうとセッティングした結果"
+    dc:identifier="http://kijyomatome.com/archives/47855593.html"
+    dc:subject=""
+    dc:description="929: 1/2 2010/05/29(土) 00:25:03 P流れ豚切り 近距離別居でよく凸してくるうちのトメ 嫌みを言ったり傘で突いたりするのだが、 料理や物を捨てるような証拠が残る事はしない しかも「私ったら家事が下手糞でごめんなさいね」とか言いながら叩くなど、 音だけで判断"
+    dc:creator="arakakinanao"
+    dc:date="2016-02-18T22:24:31+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T22:24:31+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--22:24--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47855593.html" title="個別記事ページへ" rel="bookmark">【アホトメ】巧妙な嫁いびりを動画に撮ろうとセッティングした結果</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/arakakinanao/" class="url"><img src="http://image.profile.livedoor.jp/icon/arakakinanao_60.gif" width="16" height="16" alt="鬼嫁ちゃん" border="0" /><span class="nickname fn">arakakinanao</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47855593.html#comments" title="コメント一覧へ">コメント(0)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><img  class="pict" hspace="5" alt="image" border="0" height="332" width="443" src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/e/d/edf706ed.jpg"></div>929:&nbsp;<span  style="font-weight: bold; color: green;">1/2</span>&nbsp;<span  style="color: gray;">2010/05/29(土) 00:25:03 P</span></div><div  class="t_b" style="font-size: 16px; font-weight: bold; line-height: 24px; color: rgb(128, 0, 128);">流れ豚切り&nbsp;<br />近距離別居でよく凸してくるうちのトメ&nbsp;<br />嫌みを言ったり傘で突いたりするのだが、&nbsp;<br />料理や物を捨てるような証拠が残る事はしない&nbsp;<br />しかも「私ったら家事が下手糞でごめんなさいね」とか言いながら叩くなど、&nbsp;<br />音だけで判断すると私が加害者みたいな事を口走りながら叩いたりするので録音できず&nbsp;<br />上の台詞は食器洗ってる時に「あらまあ汚れが残ってるじゃないの（洗った後の水です）」&nbsp;<br />とか「洗濯機止まってるわよ？干さなくていいの？（食器洗いの後に干すつもり）」とか&nbsp;<br />いちいち気に障る事を言った後に布団叩きで叩かれながら言われた言葉&nbsp;<br />最初は我慢してたけど限界が来て夫に相談しようとするも最近帰ってから&nbsp;<br />疲れたような、悩んでるような表情なので相談できなかった&nbsp;</div><!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47855593.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47855434',
+       permalink : 'http://kijyomatome.com/archives/47855434.html',
+       title : '【議論】プレゼント渡しても夫にしか礼を言わないトメ。今年からスルーしてみた',
+       categories : [ { id:'1151446', name:'ﾄﾒ・ｳﾄ', permalink:'http://kijyomatome.com/archives/cat_1151446.html' }, { id:'698262', name:'DQN返し', permalink:'http://kijyomatome.com/archives/cat_698262.html' } ],
+       date : '2016-02-18 21:24:40'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47855434.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47855434"
+    dc:title="【議論】プレゼント渡しても夫にしか礼を言わないトメ。今年からスルーしてみた"
+    dc:identifier="http://kijyomatome.com/archives/47855434.html"
+    dc:subject="ﾄﾒ・ｳﾄ,DQN返し"
+    dc:description="567: 名無しさん＠ＨＯＭＥ 2010/05/26(水) 23:01:27 0お歳暮やクリスマスプレゼント、誕生日プレゼント、母の日父の日などなどを、 送っていたんだけど姑はいつも電話で「息子ちゃんにありがとうっていっといてね」 私は一度もお礼を言われたことがない。 旦那はこうい"
+    dc:creator="arakakinanao"
+    dc:date="2016-02-18T21:24:40+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T21:24:40+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--21:24--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47855434.html" title="個別記事ページへ" rel="bookmark">【議論】プレゼント渡しても夫にしか礼を言わないトメ。今年からスルーしてみた</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_1151446.html" title="カテゴリアーカイブへ">ﾄﾒ・ｳﾄ</a></dd><dd class="article-category-second"><a href="http://kijyomatome.com/archives/cat_698262.html" title="カテゴリアーカイブへ">DQN返し</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/arakakinanao/" class="url"><img src="http://image.profile.livedoor.jp/icon/arakakinanao_60.gif" width="16" height="16" alt="鬼嫁ちゃん" border="0" /><span class="nickname fn">arakakinanao</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47855434.html#comments" title="コメント一覧へ">コメント(5)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><a  target="_blank" title="111221wrapping_lead" href="http://livedoor.blogimg.jp/kijyosokuhou/imgs/5/e/5ec2c066.jpg"><img  class="pict" hspace="5" alt="111221wrapping_lead" border="0" height="270" width="480" src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/5/e/5ec2c066-s.jpg"></a></div>567:&nbsp;<span  style="font-weight: bold; color: green;">名無しさん＠ＨＯＭＥ</span>&nbsp;<span  style="color: gray;">2010/05/26(水) 23:01:27 0</span></div><div  class="t_b" style="font-size: 16px; font-weight: bold; line-height: 24px; color: rgb(128, 0, 128);">お歳暮やクリスマスプレゼント、誕生日プレゼント、母の日父の日などなどを、&nbsp;<br />送っていたんだけど姑はいつも電話で「息子ちゃんにありがとうっていっといてね」&nbsp;<br />私は一度もお礼を言われたことがない。&nbsp;<br />旦那はこういうことにうとい人だから、私がかわりにやってあげてるんだけど。&nbsp;<br />姑も息子じゃなくて嫁が送っていたとちゃんとわかってるくせに、&nbsp;<br />それでも些細な嫁いびりをしたかったんだろうね。&nbsp;<br />感謝もしない人に使う金も手間もないよ。&nbsp;<br /></div><!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47855434.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47854185',
+       permalink : 'http://kijyomatome.com/archives/47854185.html',
+       title : '【場外乱闘】私実家の野菜を「汚い」と放棄したトメ。土付き野菜はイヤゲモノ？',
+       categories : [ { id:'698262', name:'DQN返し', permalink:'http://kijyomatome.com/archives/cat_698262.html' }, { id:'1204905', name:'レスが本編', permalink:'http://kijyomatome.com/archives/cat_1204905.html' } ],
+       date : '2016-02-18 20:24:19'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47854185.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47854185"
+    dc:title="【場外乱闘】私実家の野菜を「汚い」と放棄したトメ。土付き野菜はイヤゲモノ？"
+    dc:identifier="http://kijyomatome.com/archives/47854185.html"
+    dc:subject="DQN返し,レスが本編"
+    dc:description="544: 名無しさん＠ＨＯＭＥ 2010/05/26(水) 20:36:10 0田舎育ちの臭そうな女に貸す風呂は無いと言われたので 義実家のお風呂の栓をGボンドでガチガチに接着してきた "
+    dc:creator="arakakinanao"
+    dc:date="2016-02-18T20:24:19+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T20:24:19+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--20:24--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47854185.html" title="個別記事ページへ" rel="bookmark">【場外乱闘】私実家の野菜を「汚い」と放棄したトメ。土付き野菜はイヤゲモノ？</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_698262.html" title="カテゴリアーカイブへ">DQN返し</a></dd><dd class="article-category-second"><a href="http://kijyomatome.com/archives/cat_1204905.html" title="カテゴリアーカイブへ">レスが本編</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/arakakinanao/" class="url"><img src="http://image.profile.livedoor.jp/icon/arakakinanao_60.gif" width="16" height="16" alt="鬼嫁ちゃん" border="0" /><span class="nickname fn">arakakinanao</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47854185.html#comments" title="コメント一覧へ">コメント(21)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><a  target="_blank" title="fresh-vegetables-500x500" href="http://livedoor.blogimg.jp/kijyosokuhou/imgs/e/f/efdef90e.jpg"><img  class="pict" hspace="5" alt="fresh-vegetables-500x500" border="0" height="309" width="480" src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/e/f/efdef90e-s.jpg"></a></div>544:&nbsp;<span  style="font-weight: bold; color: green;">名無しさん＠ＨＯＭＥ</span>&nbsp;<span  style="color: gray;">2010/05/26(水) 20:36:10 0</span></div><div  class="t_b" style="font-size: 16px; font-weight: bold; line-height: 24px; color: rgb(128, 0, 128);">田舎育ちの臭そうな女に貸す風呂は無いと言われたので&nbsp;<br />義実家のお風呂の栓をGボンドでガチガチに接着してきた&nbsp;</div><br /><!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47854185.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47854006',
+       permalink : 'http://kijyomatome.com/archives/47854006.html',
+       title : '【DQN返し】妊娠報告の席で「家系図もない家の娘」と馬鹿にされ何かがふっきれた',
+       categories : [ { id:'698262', name:'DQN返し', permalink:'http://kijyomatome.com/archives/cat_698262.html' }, { id:'1151446', name:'ﾄﾒ・ｳﾄ', permalink:'http://kijyomatome.com/archives/cat_1151446.html' } ],
+       date : '2016-02-18 19:24:30'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47854006.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47854006"
+    dc:title="【DQN返し】妊娠報告の席で「家系図もない家の娘」と馬鹿にされ何かがふっきれた"
+    dc:identifier="http://kijyomatome.com/archives/47854006.html"
+    dc:subject="DQN返し,ﾄﾒ・ｳﾄ"
+    dc:description="522: 名無しさん＠ＨＯＭＥ  2010/05/26(水) 15:17:44 0  さっき姑からごめんなさいねという電話があったので、興奮して書きます。   うちの旦那の家は昔お侍さんだったという家で、なんか家系図もあります。  有名じゃないそうですが、有名じゃなくても家系図があるとかす"
+    dc:creator="arakakinanao"
+    dc:date="2016-02-18T19:24:30+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T19:24:30+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--19:24--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47854006.html" title="個別記事ページへ" rel="bookmark">【DQN返し】妊娠報告の席で「家系図もない家の娘」と馬鹿にされ何かがふっきれた</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_698262.html" title="カテゴリアーカイブへ">DQN返し</a></dd><dd class="article-category-second"><a href="http://kijyomatome.com/archives/cat_1151446.html" title="カテゴリアーカイブへ">ﾄﾒ・ｳﾄ</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/arakakinanao/" class="url"><img src="http://image.profile.livedoor.jp/icon/arakakinanao_60.gif" width="16" height="16" alt="鬼嫁ちゃん" border="0" /><span class="nickname fn">arakakinanao</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47854006.html#comments" title="コメント一覧へ">コメント(8)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><img  class="pict" hspace="5" alt="3b7699df-s" border="0" height="270" width="480" src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/b/d/bdcab105.jpg"></div>522: <span  style="font-weight: bold; color: green;">名無しさん＠ＨＯＭＥ</span> <span  style="color: gray;"> 2010/05/26(水) 15:17:44 0</span></div>
+<div  class="t_b" style="font-weight:bold;font-size:16px;line-height:24px;color:#800080;">  さっき姑からごめんなさいねという電話があったので、興奮して書きます。 <br /> <br /> うちの旦那の家は昔お侍さんだったという家で、なんか家系図もあります。 <br /> 有名じゃないそうですが、有名じゃなくても家系図があるとかすごいなあと思っていました。 <br /> それで、「すごいですねえ」と、いつも言っていました。 <br /> いつも遊びに行くと家系について色々昔話してくれるので、日本昔話聞いてる感じで。 <br /> <br /> たまに私の実家のことなんか言ってたようですが、あんまり気にならなかった。 <br /> <br /> この間の日曜日、「あなたのおうちは家系図もないおうちだし」って言われた。 <br /> 子供できましたって報告に行ったのになあ。 <br /> 家系図ない家の娘が生む子供は孫と認めたくないってこと？と思いました。 <br /> 旦那はすごく怒って、お袋馬鹿じゃねーのとか言ってすぐ帰ろうとしてくれたんだけど、 <br /> 私がなんかそのとき子供が出来た、 <br /> 私もお母さんになるんだってすごくハイテンションだったもんで、&nbsp;<br /></div>
+<!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47854006.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47794227',
+       permalink : 'http://kijyomatome.com/archives/47794227.html',
+       title : '【後編】つい方言で「子供服をバクった（交換した）」と言ってから園ママに恐喝されてる',
+       categories : [ { id:'1146438', name:'相談', permalink:'http://kijyomatome.com/archives/cat_1146438.html' }, { id:'805807', name:'おかしな奥様', permalink:'http://kijyomatome.com/archives/cat_805807.html' } ],
+       date : '2016-02-18 18:24:39'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47794227.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47794227"
+    dc:title="【後編】つい方言で「子供服をバクった（交換した）」と言ってから園ママに恐喝されてる"
+    dc:identifier="http://kijyomatome.com/archives/47794227.html"
+    dc:subject="相談,おかしな奥様"
+    dc:description="関連記事【前編】つい方言で「子供服をバクった（交換した）」と言ってから園ママに恐喝されてる634: 105  2009/01/31(土) 18:12:56 ID:2ad7rJNM  みなさん、ご心配ありがとうございます。  ええと、Ｋ田母擁護のようになりますが、今回のことがあるまで、本当に普通！と"
+    dc:creator="kijyosokuhou"
+    dc:date="2016-02-18T18:24:39+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T18:24:39+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--18:24--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47794227.html" title="個別記事ページへ" rel="bookmark">【後編】つい方言で「子供服をバクった（交換した）」と言ってから園ママに恐喝されてる</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_1146438.html" title="カテゴリアーカイブへ">相談</a></dd><dd class="article-category-second"><a href="http://kijyomatome.com/archives/cat_805807.html" title="カテゴリアーカイブへ">おかしな奥様</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/kijyosokuhou/" class="url"><img src="http://image.profile.livedoor.jp/icon/kijyosokuhou_60.gif" width="16" height="16" alt="kijyosokuhou" border="0" /><span class="nickname fn">kijyosokuhou</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47794227.html#comments" title="コメント一覧へ">コメント(7)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  align="center"><img  src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/b/b/bb9937a3.jpg" width="400" height="267" border="0" alt="941170l" hspace="5" class="pict"></div><br />
+<blockquote><span  style="font-size: medium;">関連記事</span><p><a  target="_blank" href="http://kijyomatome.com/archives/47794051.html"><span  style="font-size: medium; color: rgb(153, 0, 0);">【前編】つい方言で「子供服をバクった（交換した）」と言ってから園ママに恐喝されてる</span></a></p><span  style="font-size: medium; color: rgb(102, 102, 102);">
+
+</span></blockquote><br /><span  style="color: rgb(102, 102, 102);"><div  class="t_h">634: <span  style="font-weight: bold; color: green;">105</span> <span  style="color: gray;"> 2009/01/31(土) 18:12:56 ID:2ad7rJNM</span></div>
+<div  class="t_b" style="font-weight:bold;font-size:16px;line-height:24px;color:#800080;">  みなさん、ご心配ありがとうございます。 <br /> ええと、Ｋ田母擁護のようになりますが、今回のことがあるまで、本当に普通！というよりも <br /> 社交的で明るいお母さん、お話も楽しくてバス待ちの時間が楽しかったくらいなんです。 <br /> これで、子どもが同じ年齢や性別だったら、こちらからお友達になって貰うようにしていたかも <br /> しれません。  </div><br />
+<!-- Generated by Georgex  --></span>
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47794227.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		<dl class="article-tags"><dt>タグ ：</dt><dd><a href="http://kijyomatome.com/tag/%E7%97%85%E6%B0%97" title="病気 タグの一覧へ">病気</a></dd><dd><a href="http://kijyomatome.com/tag/%E3%82%AD%E3%83%81%E3%83%9E%E3%83%9E" title="キチママ タグの一覧へ">キチママ</a></dd><dd><a href="http://kijyomatome.com/tag/%E5%92%8C%E8%A7%A3" title="和解 タグの一覧へ">和解</a></dd></dl>
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47794051',
+       permalink : 'http://kijyomatome.com/archives/47794051.html',
+       title : '【前編】つい方言で「子供服をバクった（交換した）」と言ってから園ママに恐喝されてる',
+       categories : [ { id:'1146438', name:'相談', permalink:'http://kijyomatome.com/archives/cat_1146438.html' }, { id:'805807', name:'おかしな奥様', permalink:'http://kijyomatome.com/archives/cat_805807.html' } ],
+       date : '2016-02-18 17:24:05'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47794051.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47794051"
+    dc:title="【前編】つい方言で「子供服をバクった（交換した）」と言ってから園ママに恐喝されてる"
+    dc:identifier="http://kijyomatome.com/archives/47794051.html"
+    dc:subject="相談,おかしな奥様"
+    dc:description="関連記事【後編】つい方言で「子供服をバクった（交換した）」と言ってから園ママに恐喝されてる※記事が更新され次第リンクが繋がります。105: 名無しの心子知らず  2009/01/28(水) 15:33:09 ID:1IEqmdMd  すみません、ちょっと相談したいのですが、  お正月に、いつも"
+    dc:creator="kijyosokuhou"
+    dc:date="2016-02-18T17:24:05+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T17:24:05+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--17:24--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47794051.html" title="個別記事ページへ" rel="bookmark">【前編】つい方言で「子供服をバクった（交換した）」と言ってから園ママに恐喝されてる</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_1146438.html" title="カテゴリアーカイブへ">相談</a></dd><dd class="article-category-second"><a href="http://kijyomatome.com/archives/cat_805807.html" title="カテゴリアーカイブへ">おかしな奥様</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/kijyosokuhou/" class="url"><img src="http://image.profile.livedoor.jp/icon/kijyosokuhou_60.gif" width="16" height="16" alt="kijyosokuhou" border="0" /><span class="nickname fn">kijyosokuhou</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47794051.html#comments" title="コメント一覧へ">コメント(5)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  align="center"><img  src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/b/b/bb9937a3.jpg" width="400" height="267" border="0" alt="941170l" hspace="5" class="pict"></div><br />
+<blockquote><p><b><span  style="font-size: medium;">関連記事</span></b></p><p><a  href="http://kijyomatome.com/archives/47794227.html" target="_blank"><span  style="font-size: medium; color: rgb(153, 0, 0);">【後編】つい方言で「子供服をバクった（交換した）」と言ってから園ママに恐喝されてる</span></a></p><span  style="font-size: x-small; color: rgb(102, 102, 102);">
+※記事が更新され次第リンクが繋がります。
+</span></blockquote>
+<div  class="t_h">105: <span  style="font-weight: bold; color: green;">名無しの心子知らず</span> <span  style="color: gray;"> 2009/01/28(水) 15:33:09 ID:1IEqmdMd</span></div>
+<div  style="font-weight:bold;font-size:16px;line-height:24px;color:#800080;" class="t_b">  すみません、ちょっと相談したいのですが、 <br /> お正月に、いつも行く店で婦人服の幅袋を買ったところ、１点サイズが違うものが入ってました。  </div><br />
+<!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47794051.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		<dl class="article-tags"><dt>タグ ：</dt><dd><a href="http://kijyomatome.com/tag/%E3%83%A1%E3%83%BC%E3%83%AB" title="メール タグの一覧へ">メール</a></dd><dd><a href="http://kijyomatome.com/tag/%E5%BC%81%E8%AD%B7%E5%A3%AB" title="弁護士 タグの一覧へ">弁護士</a></dd><dd><a href="http://kijyomatome.com/tag/%E9%8C%B2%E9%9F%B3" title="録音 タグの一覧へ">録音</a></dd><dd><a href="http://kijyomatome.com/tag/%E6%81%90%E5%96%9D" title="恐喝 タグの一覧へ">恐喝</a></dd><dd><a href="http://kijyomatome.com/tag/%E4%BF%AE%E7%BE%85%E5%A0%B4" title="修羅場 タグの一覧へ">修羅場</a></dd><dd><a href="http://kijyomatome.com/tag/%E3%82%AD%E3%83%81%E3%83%9E%E3%83%9E" title="キチママ タグの一覧へ">キチママ</a></dd></dl>
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47852413',
+       permalink : 'http://kijyomatome.com/archives/47852413.html',
+       title : '【DQN返し】「波乱万丈な私を特別扱いして！」と言うウザコトメに本物の波乱万丈実話聞かせたった',
+       categories : [ { id:'', name:'', permalink:'' }, { id:'', name:'', permalink:'' } ],
+       date : '2016-02-18 16:44:38'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47852413.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47852413"
+    dc:title="【DQN返し】「波乱万丈な私を特別扱いして！」と言うウザコトメに本物の波乱万丈実話聞かせたった"
+    dc:identifier="http://kijyomatome.com/archives/47852413.html"
+    dc:subject=""
+    dc:description="454: 名無しさん＠ＨＯＭＥ 2010/05/24(月) 19:10:23 0私もついにDQ返しを出来たよ、ここ見て訓練したからだ、ありがとう！ ちょっと人とは違った人生を歩んでいるから、私の人生波乱万丈。私は特別♪ とことあるごとにうるさかったコトメ。 私は特別だから、そのように"
+    dc:creator="arakakinanao"
+    dc:date="2016-02-18T16:44:38+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T16:44:38+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--16:44--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47852413.html" title="個別記事ページへ" rel="bookmark">【DQN返し】「波乱万丈な私を特別扱いして！」と言うウザコトメに本物の波乱万丈実話聞かせたった</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/arakakinanao/" class="url"><img src="http://image.profile.livedoor.jp/icon/arakakinanao_60.gif" width="16" height="16" alt="鬼嫁ちゃん" border="0" /><span class="nickname fn">arakakinanao</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47852413.html#comments" title="コメント一覧へ">コメント(4)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><img  src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/e/7/e7409296.jpg" width="470" height="313" border="0" alt="image" hspace="5" class="pict"></div>454:&nbsp;<span  style="font-weight: bold; color: green;">名無しさん＠ＨＯＭＥ</span>&nbsp;<span  style="color: gray;">2010/05/24(月) 19:10:23 0</span></div><div  style="font-size: 16px; font-weight: bold; line-height: 24px; color: rgb(128, 0, 128);" class="t_b">私もついにDQ返しを出来たよ、ここ見て訓練したからだ、ありがとう！&nbsp;<br /><br />ちょっと人とは違った人生を歩んでいるから、私の人生波乱万丈。私は特別♪&nbsp;<br />とことあるごとにうるさかったコトメ。&nbsp;<br />私は特別だから、そのように扱って♪っていうのもあってウザさ倍増。&nbsp;<br /><br />あまりにもウザかったので、私の大好きなリアル波乱万丈物語を話してやった。&nbsp;<br />1つ目のは乳飲み子のときに親を亡くして、祖母に見捨てられて家なし子かつ、&nbsp;<br />孤児かつ迷子になったけど……という、感動ものの物語。&nbsp;<br />もう一つは宿敵一家の美男子と大恋愛の元、こっそりと赤ちゃん出産。それを&nbsp;<br />見つけて、怒り狂った実の姉に子供を殺されてしまったが……という、まさに&nbsp;<br />ロミジュリ系、でも美男子とちゃんと結ばれて幸せ大家族に……！という物語。&nbsp;<br /><br />これ、外国の話なんだが、両方とも実際にあった物語。&nbsp;</div><!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47852413.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47852341',
+       permalink : 'http://kijyomatome.com/archives/47852341.html',
+       title : '【DQN返し】育児に過干渉なトメに言っても分かって貰えそうにないので目で訴える事にした',
+       categories : [ { id:'1151446', name:'ﾄﾒ・ｳﾄ', permalink:'http://kijyomatome.com/archives/cat_1151446.html' }, { id:'698262', name:'DQN返し', permalink:'http://kijyomatome.com/archives/cat_698262.html' } ],
+       date : '2016-02-18 15:24:32'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47852341.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47852341"
+    dc:title="【DQN返し】育児に過干渉なトメに言っても分かって貰えそうにないので目で訴える事にした"
+    dc:identifier="http://kijyomatome.com/archives/47852341.html"
+    dc:subject="ﾄﾒ・ｳﾄ,DQN返し"
+    dc:description="451: 名無しさん＠ＨＯＭＥ 2010/05/24(月) 18:33:55 0期間限定、お試しというから結婚後同居したものの 妊娠したら色々大変だからと言われそのまま同居。 妊娠中は平気だったけど出産後子供の世話で随時寝不足なところに 母乳をあげろと毎日言われ、なかなか出なくて母"
+    dc:creator="arakakinanao"
+    dc:date="2016-02-18T15:24:32+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T15:24:32+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--15:24--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47852341.html" title="個別記事ページへ" rel="bookmark">【DQN返し】育児に過干渉なトメに言っても分かって貰えそうにないので目で訴える事にした</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_1151446.html" title="カテゴリアーカイブへ">ﾄﾒ・ｳﾄ</a></dd><dd class="article-category-second"><a href="http://kijyomatome.com/archives/cat_698262.html" title="カテゴリアーカイブへ">DQN返し</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/arakakinanao/" class="url"><img src="http://image.profile.livedoor.jp/icon/arakakinanao_60.gif" width="16" height="16" alt="鬼嫁ちゃん" border="0" /><span class="nickname fn">arakakinanao</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47852341.html#comments" title="コメント一覧へ">コメント(2)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><a  target="_blank" title="12813" href="http://livedoor.blogimg.jp/kijyosokuhou/imgs/5/a/5af47752.jpg"><img  class="pict" hspace="5" alt="12813" border="0" height="264" width="480" src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/5/a/5af47752-s.jpg"></a></div>451:&nbsp;<span  style="font-weight: bold; color: green;">名無しさん＠ＨＯＭＥ</span>&nbsp;<span  style="color: gray;">2010/05/24(月) 18:33:55 0</span></div><div  style="font-size: 16px; font-weight: bold; line-height: 24px; color: rgb(128, 0, 128);" class="t_b">期間限定、お試しというから結婚後同居したものの&nbsp;<br />妊娠したら色々大変だからと言われそのまま同居。&nbsp;<br /><br />妊娠中は平気だったけど出産後子供の世話で随時寝不足なところに&nbsp;<br />母乳をあげろと毎日言われ、なかなか出なくて母乳外来に通い&nbsp;<br />３ヶ月してようやく出るようになったらミルクをあげたいからとミルクにしろと言われ&nbsp;<br />もう哺乳瓶を受け付けなくなって嫌がるのに無理やりミルクを飲まそうとして子供ギャン泣き。&nbsp;<br />離乳食はまだ食べられないものをあげようとするし&nbsp;<br />勝手におもちゃを買ってきて置く場所ないし&nbsp;<br />他にもあるけど、育児に口を出されるのが辛くて鬱になりかけてた。&nbsp;<br /></div><!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47852341.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47850183',
+       permalink : 'http://kijyomatome.com/archives/47850183.html',
+       title : '【離婚】上がり込み勝手に洗濯「派手な下着」と罵るトメ。それ、私のじゃないです',
+       categories : [ { id:'1151446', name:'ﾄﾒ・ｳﾄ', permalink:'http://kijyomatome.com/archives/cat_1151446.html' }, { id:'1107404', name:'離婚問題', permalink:'http://kijyomatome.com/archives/cat_1107404.html' } ],
+       date : '2016-02-18 14:24:24'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47850183.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47850183"
+    dc:title="【離婚】上がり込み勝手に洗濯「派手な下着」と罵るトメ。それ、私のじゃないです"
+    dc:identifier="http://kijyomatome.com/archives/47850183.html"
+    dc:subject="ﾄﾒ・ｳﾄ,離婚問題"
+    dc:description="226: 名無しさん＠ＨＯＭＥ 2010/05/20(木) 10:41:54 0流れは読めない。 私が出張中にﾊﾞｶ夫が遠距離別居中のﾄﾒを夫婦の自宅に上げ、家事をしてもらってた。 夫もかなり多忙なため仕方がないことかもしれないが事前に断りも何もなかった。 というか、ばれなきゃいいと思"
+    dc:creator="arakakinanao"
+    dc:date="2016-02-18T14:24:24+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T14:24:24+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--14:24--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47850183.html" title="個別記事ページへ" rel="bookmark">【離婚】上がり込み勝手に洗濯「派手な下着」と罵るトメ。それ、私のじゃないです</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_1151446.html" title="カテゴリアーカイブへ">ﾄﾒ・ｳﾄ</a></dd><dd class="article-category-second"><a href="http://kijyomatome.com/archives/cat_1107404.html" title="カテゴリアーカイブへ">離婚問題</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/arakakinanao/" class="url"><img src="http://image.profile.livedoor.jp/icon/arakakinanao_60.gif" width="16" height="16" alt="鬼嫁ちゃん" border="0" /><span class="nickname fn">arakakinanao</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47850183.html#comments" title="コメント一覧へ">コメント(5)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><a  target="_blank" title="thumb5" href="http://livedoor.blogimg.jp/kijyosokuhou/imgs/f/6/f6d56b3b.jpg"><img  class="pict" hspace="5" alt="thumb5" border="0" height="318" width="480" src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/f/6/f6d56b3b-s.jpg"></a></div>226:&nbsp;<span  style="font-weight: bold; color: green;">名無しさん＠ＨＯＭＥ</span>&nbsp;<span  style="color: gray;">2010/05/20(木) 10:41:54 0</span></div><div  class="t_b" style="font-size: 16px; font-weight: bold; line-height: 24px; color: rgb(128, 0, 128);">流れは読めない。&nbsp;<br /><br />私が出張中にﾊﾞｶ夫が遠距離別居中のﾄﾒを夫婦の自宅に上げ、家事をしてもらってた。&nbsp;<br />夫もかなり多忙なため仕方がないことかもしれないが事前に断りも何もなかった。&nbsp;<br />というか、ばれなきゃいいと思っていたらしい（私が出張に出るたびに新幹線の距離を呼び出し＆その間ｳﾄ放置）&nbsp;<br /><br />うまく書けないので箇条書き。&nbsp;<br />・　たまたま出張が１日早く終わり、驚かせようと思って昼過ぎに帰宅&nbsp;<br />・　ベランダ（道路に面していてご近所から丸見え）に派手な下着がたくさん干してあった&nbsp;<br />・　玄関上がるとﾄﾒが当然のように家事をしている&nbsp;<br />・　「あんな派手な下着、恥ずかしい、恥を知れ」と延々罵られる（ご近所に見えるように干していたことは棚上げ）&nbsp;</div><!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47850183.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47850197',
+       permalink : 'http://kijyomatome.com/archives/47850197.html',
+       title : '【DQN返し】同居か近く部屋借りろというトメに丈夫な部屋をご案内',
+       categories : [ { id:'698262', name:'DQN返し', permalink:'http://kijyomatome.com/archives/cat_698262.html' }, { id:'697806', name:'夫婦不満・円満', permalink:'http://kijyomatome.com/archives/cat_697806.html' } ],
+       date : '2016-02-18 13:24:50'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47850197.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47850197"
+    dc:title="【DQN返し】同居か近く部屋借りろというトメに丈夫な部屋をご案内"
+    dc:identifier="http://kijyomatome.com/archives/47850197.html"
+    dc:subject="DQN返し,夫婦不満・円満"
+    dc:description="260: 名無しさん＠ＨＯＭＥ 2010/05/22(土) 00:12:03 0同居したいそれが駄目なら近くに部屋を借りろというトメ。 来月で今住んでるところのアパートの契約きれるから、この機会に 家賃タダ＋奴隷付の家に住みたいんだと。 旦那は同居はしたくないがトメに強く言えず、し"
+    dc:creator="arakakinanao"
+    dc:date="2016-02-18T13:24:50+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T13:24:50+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--13:24--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47850197.html" title="個別記事ページへ" rel="bookmark">【DQN返し】同居か近く部屋借りろというトメに丈夫な部屋をご案内</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_698262.html" title="カテゴリアーカイブへ">DQN返し</a></dd><dd class="article-category-second"><a href="http://kijyomatome.com/archives/cat_697806.html" title="カテゴリアーカイブへ">夫婦不満・円満</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/arakakinanao/" class="url"><img src="http://image.profile.livedoor.jp/icon/arakakinanao_60.gif" width="16" height="16" alt="鬼嫁ちゃん" border="0" /><span class="nickname fn">arakakinanao</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47850197.html#comments" title="コメント一覧へ">コメント(4)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><a  target="_blank" title="2c9179e6" href="http://livedoor.blogimg.jp/kijyosokuhou/imgs/3/9/39a185d8.jpg"><img  class="pict" hspace="5" alt="2c9179e6" border="0" height="360" width="480" src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/3/9/39a185d8-s.jpg"></a></div>260:&nbsp;<span  style="font-weight: bold; color: green;">名無しさん＠ＨＯＭＥ</span>&nbsp;<span  style="color: gray;">2010/05/22(土) 00:12:03 0</span></div><div  style="font-size: 16px; font-weight: bold; line-height: 24px; color: rgb(128, 0, 128);" class="t_b">同居したいそれが駄目なら近くに部屋を借りろというトメ。&nbsp;<br />来月で今住んでるところのアパートの契約きれるから、この機会に&nbsp;<br />家賃タダ＋奴隷付の家に住みたいんだと。&nbsp;<br />旦那は同居はしたくないがトメに強く言えず、しまいには&nbsp;<br />「嫁子が言ってよ。お袋そのほうが言うこと聞くしさ」と逃げた。&nbsp;<br />仕方がないので「ここはいかがですか」と、トメを案内したら&nbsp;<br />「バカにして！」と怒って帰っていった。&nbsp;<br />「もうアンタには頼まない、息子に頼むわ！」と絶叫していたので、&nbsp;<br />次からは旦那がなんとかしてくれるだろう。&nbsp;<br /><br />旦那の給料ではこれがせいいっぱいだって、ちゃんと説明したし、&nbsp;<br />100人乗っても大丈夫なしっかりした別宅なのに、贅沢な。</div><!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47850197.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47796257',
+       permalink : 'http://kijyomatome.com/archives/47796257.html',
+       title : '【後編】嫁いびりを夫にマヤったら左頬に衝撃が…病院に行ったら奥歯が折れてた',
+       categories : [ { id:'707805', name:'修羅場', permalink:'http://kijyomatome.com/archives/cat_707805.html' }, { id:'1107404', name:'離婚問題', permalink:'http://kijyomatome.com/archives/cat_1107404.html' } ],
+       date : '2016-02-18 12:24:55'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47796257.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47796257"
+    dc:title="【後編】嫁いびりを夫にマヤったら左頬に衝撃が…病院に行ったら奥歯が折れてた"
+    dc:identifier="http://kijyomatome.com/archives/47796257.html"
+    dc:subject="修羅場,離婚問題"
+    dc:description="関連記事【前編】嫁いびりを夫にマヤったら左頬に衝撃が…病院に行ったら奥歯が折れてた690: 歯折れ妻 ◆b2Lj/tH8Hg   2009/03/03(火) 04:58:09 O  深夜夫の夢を見て魘され、起きてしまいました。  こんな時間ですが、朝一番のお茶請けに報告させていただきます。 "
+    dc:creator="kijyosokuhou"
+    dc:date="2016-02-18T12:24:55+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T12:24:55+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--12:24--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47796257.html" title="個別記事ページへ" rel="bookmark">【後編】嫁いびりを夫にマヤったら左頬に衝撃が…病院に行ったら奥歯が折れてた</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_707805.html" title="カテゴリアーカイブへ">修羅場</a></dd><dd class="article-category-second"><a href="http://kijyomatome.com/archives/cat_1107404.html" title="カテゴリアーカイブへ">離婚問題</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/kijyosokuhou/" class="url"><img src="http://image.profile.livedoor.jp/icon/kijyosokuhou_60.gif" width="16" height="16" alt="kijyosokuhou" border="0" /><span class="nickname fn">kijyosokuhou</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47796257.html#comments" title="コメント一覧へ">コメント(0)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><img  class="pict" hspace="5" alt="KPqhAZYH9ZKJZan_XLw7e_10" border="0" height="200" width="200" src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/7/a/7a49e720.jpg"></div><br />
+</div><blockquote><div  class="t_h"><p><b><span  style="font-size: medium;">関連記事</span></b></p></div><div  class="t_h"><p><a  target="_blank" href="http://kijyomatome.com/archives/47796048.html"><b><span  style="font-size: medium;">【前編】嫁いびりを夫にマヤったら左頬に衝撃が…病院に行ったら奥歯が折れてた</span></b></a></p></div></blockquote><div  class="t_h">690: <span  style="font-weight: bold; color: green;">歯折れ妻 ◆b2Lj/tH8Hg </span> <span  style="color: gray;"> 2009/03/03(火) 04:58:09 O</span></div>
+<div  class="t_b" style="font-weight:bold;font-size:16px;line-height:24px;color:#800080;">  深夜夫の夢を見て魘され、起きてしまいました。 <br /> こんな時間ですが、朝一番のお茶請けに報告させていただきます。 </div><br />
+<!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47796257.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		<dl class="article-tags"><dt>タグ ：</dt><dd><a href="http://kijyomatome.com/tag/%E4%BF%AE%E7%BE%85%E5%A0%B4" title="修羅場 タグの一覧へ">修羅場</a></dd><dd><a href="http://kijyomatome.com/tag/%E9%9B%A2%E5%A9%9A" title="離婚 タグの一覧へ">離婚</a></dd><dd><a href="http://kijyomatome.com/tag/DV" title="DV タグの一覧へ">DV</a></dd><dd><a href="http://kijyomatome.com/tag/%E3%83%88%E3%83%A1" title="トメ タグの一覧へ">トメ</a></dd></dl>
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47796048',
+       permalink : 'http://kijyomatome.com/archives/47796048.html',
+       title : '【前編】嫁いびりを夫にマヤったら左頬に衝撃が…病院に行ったら奥歯が折れてた',
+       categories : [ { id:'707805', name:'修羅場', permalink:'http://kijyomatome.com/archives/cat_707805.html' }, { id:'1107404', name:'離婚問題', permalink:'http://kijyomatome.com/archives/cat_1107404.html' } ],
+       date : '2016-02-18 11:24:28'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47796048.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47796048"
+    dc:title="【前編】嫁いびりを夫にマヤったら左頬に衝撃が…病院に行ったら奥歯が折れてた"
+    dc:identifier="http://kijyomatome.com/archives/47796048.html"
+    dc:subject="修羅場,離婚問題"
+    dc:description="関連記事【後編】嫁いびりを夫にマヤったら左頬に衝撃が…病院に行ったら奥歯が折れてた※記事が更新され次第リンク先に繋がります。325: 1  2009/02/15(日) 14:11:30 O  スカスレに書き込もうと思ったんですが、急遽こちらに。   テンプレ通りのイビリを一通りするトメ"
+    dc:creator="kijyosokuhou"
+    dc:date="2016-02-18T11:24:28+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T11:24:28+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--11:24--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47796048.html" title="個別記事ページへ" rel="bookmark">【前編】嫁いびりを夫にマヤったら左頬に衝撃が…病院に行ったら奥歯が折れてた</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_707805.html" title="カテゴリアーカイブへ">修羅場</a></dd><dd class="article-category-second"><a href="http://kijyomatome.com/archives/cat_1107404.html" title="カテゴリアーカイブへ">離婚問題</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/kijyosokuhou/" class="url"><img src="http://image.profile.livedoor.jp/icon/kijyosokuhou_60.gif" width="16" height="16" alt="kijyosokuhou" border="0" /><span class="nickname fn">kijyosokuhou</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47796048.html#comments" title="コメント一覧へ">コメント(1)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><img  class="pict" hspace="5" alt="KPqhAZYH9ZKJZan_XLw7e_10" border="0" height="200" width="200" src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/7/a/7a49e720.jpg"></div><blockquote><div  class="t_h"><p><b><span  style="font-size: medium;">関連記事</span></b></p></div><div  class="t_h"><div  class="t_h"><p><a  target="_blank" href="http://kijyomatome.com/archives/47796257.html"><b><span  style="font-size: medium;">【後編】嫁いびりを夫にマヤったら左頬に衝撃が…病院に行ったら奥歯が折れてた</span></b></a></p></div></div><div  class="t_h"><div  class="t_h"><span  style="font-size: x-small; color: rgb(102, 102, 102);">※記事が更新され次第リンク先に繋がります。</span></div></div></blockquote>
+
+</div><div  class="t_h">
+325: <span  style="font-weight: bold; color: green;">1</span> <span  style="color: gray;"> 2009/02/15(日) 14:11:30 O</span></div>
+<div  style="font-weight:bold;font-size:16px;line-height:24px;color:#800080;" class="t_b">  スカスレに書き込もうと思ったんですが、急遽こちらに。 <br /> <br /> テンプレ通りのイビリを一通りするトメ。 <br /> それも夫の見ていないところでネチネチと。 </div><br />
+<!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47796048.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		<dl class="article-tags"><dt>タグ ：</dt><dd><a href="http://kijyomatome.com/tag/%E4%BF%AE%E7%BE%85%E5%A0%B4" title="修羅場 タグの一覧へ">修羅場</a></dd><dd><a href="http://kijyomatome.com/tag/%E3%82%A8%E3%83%8D%E3%83%9F%E3%83%BC" title="エネミー タグの一覧へ">エネミー</a></dd><dd><a href="http://kijyomatome.com/tag/%E3%83%88%E3%83%A1" title="トメ タグの一覧へ">トメ</a></dd><dd><a href="http://kijyomatome.com/tag/%E3%81%84%E3%81%B3%E3%82%8A" title="いびり タグの一覧へ">いびり</a></dd><dd><a href="http://kijyomatome.com/tag/%E3%83%9B%E3%83%86%E3%83%AB" title="ホテル タグの一覧へ">ホテル</a></dd><dd><a href="http://kijyomatome.com/tag/DV" title="DV タグの一覧へ">DV</a></dd><dd><a href="http://kijyomatome.com/tag/%E9%9B%A2%E5%A9%9A" title="離婚 タグの一覧へ">離婚</a></dd></dl>
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+<script type="text/javascript"><!--
+  if (ld_blog_vars) {
+     ld_blog_vars.articles.push({
+       id : '47850228',
+       permalink : 'http://kijyomatome.com/archives/47850228.html',
+       title : '【DQN返し】庭を消毒しろ、水を使うなとキレるトメのいう通りにして夕食まで作ってあげた',
+       categories : [ { id:'1151446', name:'ﾄﾒ・ｳﾄ', permalink:'http://kijyomatome.com/archives/cat_1151446.html' }, { id:'698262', name:'DQN返し', permalink:'http://kijyomatome.com/archives/cat_698262.html' } ],
+       date : '2016-02-18 10:53:31'
+     });
+  }
+//-->
+</script>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kijyomatome.com/archives/47850228.html"
+    trackback:ping="http://trackback.blogsys.jp/livedoor/kijyosokuhou/47850228"
+    dc:title="【DQN返し】庭を消毒しろ、水を使うなとキレるトメのいう通りにして夕食まで作ってあげた"
+    dc:identifier="http://kijyomatome.com/archives/47850228.html"
+    dc:subject="ﾄﾒ・ｳﾄ,DQN返し"
+    dc:description="286: 名無しさん＠ＨＯＭＥ 2010/05/22(土) 11:15:26 0庭の消毒しろしろうるさくて虫が出たら私のせい、 出なかったら「私の日々のケアが効いてるおかげ」、なトメ。 お前たまーに外から見えるところだけ草むしりしてるだけじゃねーか。 それも人がよく通る時間帯にうち"
+    dc:creator="arakakinanao"
+    dc:date="2016-02-18T10:53:31+09:00" />
+</rdf:RDF>
+-->
+
+<div class="article-outer hentry">
+<div class="article-outer-2">
+<div class="article-outer-3">
+	<div class="article-header">
+
+<div class="titlechar">
+<img src="http://kijyomatome.com/img/char1.png" width="85" alt="キャラ" />
+</div>
+
+		<div class="article-date-outer">
+			<abbr class="updated" title="2016-02-18T10:53:31+0900"><span class="article-date">2016年02月18日</span><span class="article-time"><!--10:53--></span></abbr>
+		</div>
+		<div class="article-title-outer">
+			<h2 class="article-title entry-title"><a href="http://kijyomatome.com/archives/47850228.html" title="個別記事ページへ" rel="bookmark">【DQN返し】庭を消毒しろ、水を使うなとキレるトメのいう通りにして夕食まで作ってあげた</a></h2>
+		</div>
+
+        
+	</div><!-- articleHeader End -->
+    
+    
+    
+
+	<!-- Button -->
+	<div class="article-tool-box-header">
+        <div class="article-category-outer">
+			<dl class="article-category"><dt>カテゴリ</dt><dd class="article-category"><a href="http://kijyomatome.com/archives/cat_1151446.html" title="カテゴリアーカイブへ">ﾄﾒ・ｳﾄ</a></dd><dd class="article-category-second"><a href="http://kijyomatome.com/archives/cat_698262.html" title="カテゴリアーカイブへ">DQN返し</a></dd></dl>
+		</div>
+		<ul class="article-meta">
+			<!--<li class="article-author vcard author"><a href="http://profile.livedoor.com/arakakinanao/" class="url"><img src="http://image.profile.livedoor.jp/icon/arakakinanao_60.gif" width="16" height="16" alt="鬼嫁ちゃん" border="0" /><span class="nickname fn">arakakinanao</span></a></li>-->
+			<li class="article-comment-count"><a href="http://kijyomatome.com/archives/47850228.html#comments" title="コメント一覧へ">コメント(0)</a></li>
+            
+  
+		</ul>
+
+    
+	</div>
+
+	<div class="article-body entry-content">
+		<div class="article-body-inner">
+
+		<div  class="t_h"><div  align="center"><a  target="_blank" title="m156" href="http://livedoor.blogimg.jp/kijyosokuhou/imgs/5/4/54dd8c2a.jpg"><img  class="pict" hspace="5" alt="m156" border="0" height="314" width="480" src="http://livedoor.blogimg.jp/kijyosokuhou/imgs/5/4/54dd8c2a-s.jpg"></a></div>286:&nbsp;<span  style="font-weight: bold; color: green;">名無しさん＠ＨＯＭＥ</span>&nbsp;<span  style="color: gray;">2010/05/22(土) 11:15:26 0</span></div><div  style="font-size: 16px; font-weight: bold; line-height: 24px; color: rgb(128, 0, 128);" class="t_b">庭の消毒しろしろうるさくて虫が出たら私のせい、&nbsp;<br />出なかったら「私の日々のケアが効いてるおかげ」、なトメ。&nbsp;<br />お前たまーに外から見えるところだけ草むしりしてるだけじゃねーか。&nbsp;<br />それも人がよく通る時間帯にうちの嫁がやらないから仕方なく…みたいな感じで。&nbsp;<br />消毒の時完全防御でやってもキレるし。&nbsp;<br />その後シャワー浴びても水がもったいないってキレる。&nbsp;<br />あぁそうかいってんで夕方に消毒した後、そのままで&nbsp;<br />トメの夕食を作った。生野菜サラダと手巻きずし。&nbsp;<br />ギャンギャン騒いでキレて風呂入って作り直せとわめいたが、&nbsp;<br />水がもったいないですから〜と無視して旦那と外食に出た。&nbsp;<br />出先で旦那も軽くシメて、消毒は業者に頼むことに。&nbsp;</div><!-- Generated by Georgex  -->
+
+<span class="article-continue"><a href="http://kijyomatome.com/archives/47850228.html" title="この記事の続きを読む"><img src="http://kijyomatome.com/img/button_all.png" alt="続き" /></a></span><br />
+
+		</div>
+		
+
+	</div><!-- articleBody End -->
+
+
+
+	
+
+</div>
+</div>
+</div><!-- articleOuter End -->
+</div><div class="autopagerize_insert_before"></div>
+
+<!-- google_ad_section_end -->
+<!-- ArticlesLoop End -->
+
+<div class="pager">
+      <div class="pager-inner"><div class="index-navigator-outer nextpage"><ul class="index-navigator"><li class="paging-number"><ol class="paging-number"><li class="current" title="現在の表示ページ"><span>1</span></li><li><a href="http://kijyomatome.com/?p=2" title="2ページ目へ">2</a></li><li><a href="http://kijyomatome.com/?p=3" title="3ページ目へ">3</a></li><li><a href="http://kijyomatome.com/?p=4" title="4ページ目へ">4</a></li><li><a href="http://kijyomatome.com/?p=5" title="5ページ目へ">5</a>...</li></ol></li><li class="paging-next"><a rel="next" href="http://kijyomatome.com/?p=2" title="次のページへ">次のページ</a></li><li class="paging-last"><a href="http://kijyomatome.com/?p=1511" title="最後のページへ">&gt;&gt;|</a></li></ul></div></div>
+</div>
+
+
+<!-- RSS -->
+<div class="rss2">
+<div id="feed">
+                <iframe src="http://kijyomatome.com/rss.html" height="300px" width="730px" frameborder="0" scrolling="no">お使いのブラウザは非対応です（この部分はiframeを使用しています）</iframe>
+				</div>
+</div>
+<!-- RSS -->
+
+<div class="acrrank">
+<!-- 人気ページランキング -->
+<SCRIPT TYPE="text/javascript" SRC="http://pranking10.ziyu.net/js/kijyosokuhou.js" charset=shift_jis></SCRIPT>
+<!-- 人気ページランキング -->
+</div>
+
+</div>
+</div>
+</div><!-- mainColumn End -->
+
+<div id="sub" class="column">
+<div class="column-inner">
+<div class="column-inner-2">
+<!-- ..... PluginList A ..... -->
+
+
+
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">スポンサードリンク</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<!-- Google AdSense -->
+<div class="google-user-ad-side ad-center">
+<script type="text/javascript">ldb_user_ads.display('160x600');</script>
+</div>
+<!-- /Google AdSense -->
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">RSS＆ソーシャルリンク</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<div align="center">
+<ul id="side-buttom">
+<li><a href="http://kijyomatome.com/index.rdf" target="_blank"><img src="http://kijyomatome.com/img/rss.png" alt="RSS"></a></li><!--RSS-->
+<li><a href="https://twitter.com/kijyosokuhou" target="_blank"><img src="http://kijyomatome.com/img/twitter.png" alt="Twitter"></a></li><!--Twitter-->
+<li><a href="https://www.facebook.com/kijyomatome" target="_blank"><img src="http://kijyomatome.com/img/facebook.png" alt="facebook" style="margin-top:-1px;"></a></li><!--facebook-->
+<li><a href="http://b.hatena.ne.jp/entry/kijyomatome.com/" target="_blank"><img src="http://kijyomatome.com/img/hatena.png" alt="はてブ"></a></li><!--はてブ-->
+<li>
+<li><a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fkijyomatome.com%2Findex.rdf'  target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-square-volume_2x.png' alt='follow us in feedly' width='33' height='33'></a></li>
+</ul>
+</div><br />
+いつも当ブログをご覧下さり有難うございます。<br />
+皆様に楽しんで貰える様更新して参ります。<br />
+もし宜しければRSS登録・はてぶ登録・ソーシャルメディアへの拡散等して頂けると嬉しいです。宜しくお願い致します。<br />
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-recent_articles sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">最新記事</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47855495.html">【プチネタ】午前2時に電話で夫婦生活のご指導くださるトメをDQNに撃退</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47855609.html">【プチネタ】結婚祝いも出さなかった事を何度も謝ってくるトメにイラッとしたので</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47855593.html">【アホトメ】巧妙な嫁いびりを動画に撮ろうとセッティングした結果</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47855434.html">【議論】プレゼント渡しても夫にしか礼を言わないトメ。今年からスルーしてみた</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47854185.html">【場外乱闘】私実家の野菜を「汚い」と放棄したトメ。土付き野菜はイヤゲモノ？</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47854006.html">【DQN返し】妊娠報告の席で「家系図もない家の娘」と馬鹿にされ何かがふっきれた</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47794227.html">【後編】つい方言で「子供服をバクった（交換した）」と言ってから園ママに恐喝されてる</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47794051.html">【前編】つい方言で「子供服をバクった（交換した）」と言ってから園ママに恐喝されてる</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47852413.html">【DQN返し】「波乱万丈な私を特別扱いして！」と言うウザコトメに本物の波乱万丈実話聞かせたった</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47852341.html">【DQN返し】育児に過干渉なトメに言っても分かって貰えそうにないので目で訴える事にした</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47850183.html">【離婚】上がり込み勝手に洗濯「派手な下着」と罵るトメ。それ、私のじゃないです</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47850197.html">【DQN返し】同居か近く部屋借りろというトメに丈夫な部屋をご案内</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47796257.html">【後編】嫁いびりを夫にマヤったら左頬に衝撃が…病院に行ったら奥歯が折れてた</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47796048.html">【前編】嫁いびりを夫にマヤったら左頬に衝撃が…病院に行ったら奥歯が折れてた</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47850228.html">【DQN返し】庭を消毒しろ、水を使うなとキレるトメのいう通りにして夕食まで作ってあげた</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47850358.html">【毒親】孫フィーバーな毒ウトメに記念DVDを贈ってあっちから縁を切って貰う事にした</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47850081.html">【馬鹿】高卒の私を小馬鹿にしてくる東京工業大っていう三流大卒のコトメ</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47849577.html">【職場】今まで何人も嫌がらせで人を辞めさせてるお局に目をつけられてる</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47846058.html">【セコ】私と友人の間に入って「○○まで乗せてって」という別部署女性。断ると…</a></div>
+
+<div class="sidebody"><a href="http://kijyomatome.com/archives/47846120.html">【セコ】家庭教師のバイトでメールで補習までしてた子の親が図々しかった</a></div>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-recent_articles -->
+
+<div class="plugin-recent_comments sidewrapper" id="recent_comments_4290556">
+<div class="sidetitlebody">
+<div class="sidetitle">最新コメント</div>
+</div>
+<div class="sidetop"></div>
+<div class="side" id="recent_comments_4290556_list" data-rows="10" data-order="">
+<script type="text/html" id="recent_comments_4290556_tmpl">
+  <style>div.recent-comment-oneline div { display: inline-block }</style>
+<% for(var i=0,l=comments.length;i<l;i++) {%><% var n=(order==='ASC')?(l-1-i):i; %>
+<div class="sidebody">
+  <div class="recent-comment">
+    <div class="recent-comment-title"><a href="<%=comments[i].permalink%>#comments"><%==comments[n].title%></a></div>    <div class="recent-comment-body"><%==comments[n].body.replace(/\<br[\s\/]*\>/g,'')%></div>    <div class="recent-comment-author"><%==comments[n].author%></div>  </div>
+</div>
+<% } %>
+</script>
+</div>
+<div class="sidebottom"></div>
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/js/recent_comments.js"></script>
+<script type="text/javascript">
+ var rc = new RecentComments('recent_comments_4290556');
+ rc.render();
+</script>
+</div><!-- // plugin-recent_comments -->
+
+<div class="plugin-categorize sidewrapper" id="plugin-categorize-4234607">
+    <div class="sidetitlebody">
+        <div class="sidetitle">カテゴリー</div>
+    </div>
+    <div class="sidetop"></div>
+    <div class="side">
+
+      
+
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_707805.html">修羅場 (3020)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_697821.html">義実家の話 (6210)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1151446.html">ﾄﾒ・ｳﾄ (1821)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1074417.html">ｺﾄﾒ・ｺｳﾄ (1598)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1076980.html">嫁同士 (1478)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1161703.html">姉妹の夫 (23)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_803979.html">実家の話 (1267)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1089371.html">兄弟の嫁 (598)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_697806.html">夫婦不満・円満 (1666)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1107404.html">離婚問題 (521)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1031937.html">旦那が好き (157)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_805807.html">おかしな奥様 (3782)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_988426.html">ｾｺｹﾁ (658)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_988424.html">窃盗・泥棒 (1159)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_951859.html">おかしな親たち (3340)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1132829.html">命名○○ (119)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_988420.html">その神経が分からん (1583)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1163721.html">ｽｶｯとする話 (1266)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_955760.html">因果応報 (89)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_698262.html">DQN返し (589)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-child"
+             
+          ><a href="http://kijyomatome.com/archives/cat_710065.html">ｽｶｯとした一言 (251)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_819537.html">親戚の話 (164)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_982556.html">ご近所ﾄﾗﾌﾞﾙ (216)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1121628.html">報告者がｷﾁ・ｱﾎ (401)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1143808.html">奥様の秘密 (39)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1179457.html">にゅー速 (39)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1146416.html">プチネタ (585)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1148325.html">閲覧注意指定 (385)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1155528.html">勉強になるｲﾝﾀーﾈｯﾄ (217)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_874383.html">冠婚葬祭 (235)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1160740.html">追記・関連記事有り (230)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1146438.html">相談 (594)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1153407.html">雑談 (1189)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1159392.html">質問 (78)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_810570.html">その後 (37)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1163707.html">感動・ほのぼの・いい話 (454)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1166513.html">怖い話 (289)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1157649.html">GJ！ (541)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1204905.html">レスが本編 (203)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1179385.html">管理人ｲﾁｵｼ (85)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_697551.html">鬼女まとめ速報について (4)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1207250.html">友達やめた (725)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1214629.html">ワロタ (397)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1217468.html">愚痴 (446)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1218969.html">投稿記事 (718)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1228458.html">イラッとした・ムカつく話 (898)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1228668.html">託児・放置児 (623)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1237487.html">自分語り (56)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1239032.html">衝撃 (1878)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1239242.html">不思議な話 (93)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1240693.html">悲しい話・切ない話 (162)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1262866.html">職場の話 (382)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1263483.html">ママ友 (118)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1264090.html">毒親 (7)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1266952.html">図々しい (773)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1281572.html">育児 (292)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1281607.html">浮気 (51)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1284208.html">おかしな人達 (369)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1284285.html">すごい話 (77)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1288898.html">彼氏彼女・婚約者 (158)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1288909.html">冷めた瞬間 (121)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1289682.html">変な店員・変な客 (98)</a>
+          
+        </div>
+        
+    
+        
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1290190.html">黒歴史 (28)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1293611.html">学校の話 (13)</a>
+          
+        </div>
+        
+    
+        
+        
+        <div class="sidebody category-parent"
+             
+          ><a href="http://kijyomatome.com/archives/cat_1293686.html">報告者逃亡 (1)</a>
+          
+        </div>
+        
+    
+    
+
+    </div>    
+    <div class="sidebottom"></div>
+</div><!-- // plugin-categorize -->
+
+<div class="plugin-popular_articles sidewrapper">
+  <div class="sidetitlebody">
+    <div class="sidetitle">先月の人気記事</div>
+  </div>
+  <div class="sidetop"></div>
+  <div class="side">
+
+
+    <div class="popular-articles">
+      <table id="populararticles-5438365"></table>
+      <div class="popular-articles-freearea"></div>
+    </div>
+  </div>
+
+  <div class="sidebottom"></div>
+</div>
+
+<script type="text/javascript" language="javascript"><!--
+(function(){
+  var url = 'http://kijyomatome.com/archives/popular_articles.json'
+         + '?rangetype=month1'
+         + '&from=0'
+         + '&range=1'
+         + '&limit=50'
+         + '&offset=0';
+
+  var callback = function(data) {
+    var table = document.getElementById('populararticles-5438365');
+    for (i = 0; i < data.articles.length; i++) {
+      var rank = i + 1;
+      var prefix = 'populararticles-5438365-'+ rank;
+
+      var row = table.insertRow(-1);
+      var elm1 = row.insertCell(-1);
+      elm1.className = 'populararticles-rank';
+      elm1.innerHTML = '<span><b>' + rank + '</b></span>';
+      var elm2 = row.insertCell(-1);
+      elm2.className = 'populararticles-title';
+      elm2.innerHTML = '<a href="' + data.articles[i].url + '">' + data.articles[i].title + '</a>'
+      ;
+
+    }
+  };
+
+  var xhr = (function () {
+      if (window.XMLHttpRequest)
+        return new XMLHttpRequest();
+      else {
+        var msxml = [
+          "Msxml2.ServerXMLHTTP.6.0", "Msxml2.ServerXMLHTTP.5.0", "Msxml2.ServerXMLHTTP.4.0", "Msxml2.ServerXMLHTTP.3.0",
+          "Msxml2.ServerXMLHTTP", "Microsoft.ServerXMLHTTP", "Msxml2.XMLHTTP.6.0", "Msxml2.XMLHTTP.5.0",
+          "Msxml2.XMLHTTP.4.0", "Msxml2.XMLHTTP.3.0", "Msxml2.XMLHTTP", "Microsoft.XMLHTTP"
+        ];
+        for (var i = 0; i<msxml.length; i++ ){
+          try {
+            return new ActiveXObject(msxml[i]);
+          }
+          catch(e) { }
+        }
+        return null;
+      }
+  })();
+    
+  if (!xhr) return;
+  xhr.open('GET', url, true);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      eval('var ld_popular_articles_json = ' + xhr.responseText);
+      callback(ld_popular_articles_json);
+    }
+  };
+  xhr.send();
+
+})();
+//-->
+</script>
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">スポンサードリンク</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<!-- Google AdSense -->
+<div id="gad-fixed-l" class="ad-center">
+<script type="text/javascript">ldb_user_ads.display('160x600');</script>
+</div>
+<!-- /Google AdSense -->
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+(function($){
+ 
+    $(document).ready(function(){floatingAd();});
+ 
+    function floatingAd(){
+        var a,ah,b,bh,c,cb,ch,l,p,t,w,wt,wl,wh,pa,pt,pl,nf,s,r,pt,aw,bm,cp,cl,bw;
+ 
+        //edit start
+        a=$('#gad-fixed-l');
+        b=$('#sub');
+        c=$('#main');
+        pt=1;
+        bm=10;
+        //edit end
+ 
+        if(pt===2) cl = parseInt(c.css('margin-left'), 10);
+ 
+        aw = a.closest('.plugin-memo');
+        aw.css({'overflow':'hidden'});
+        cp = $('#container').css('position');
+        p='static';
+ 
+        w=$(window);
+        l=b.offset().left;
+        t=aw.offset().top;
+ 
+        s=function(){
+            bh=b.height();
+            bw=b.outerWidth();
+            ch=c.height();
+            ah=aw.outerHeight();
+            cb=c.offset().top+ch;
+ 
+            wt=w.scrollTop();
+            wl=w.scrollLeft();
+            wh=w.height();
+            nf=(wt>t)&&(ch>bh)?true:false;
+            p=!nf?'static':(wt+ah)>cb?'absolute':'fixed';
+ 
+            if(p==='fixed'){
+                b.css({
+                    position:p,
+                    top:'',
+                    bottom:wh-ah-bm,
+                    left:l-wl,
+                    'margin-left':(pt===1)?0:''
+                });
+                if(pt===2) c.css({'margin-left':bw+cl});
+            }
+            else if(p==='absolute'){
+                b.css({
+                    position:p,
+                    top:cb-bh,
+                    bottom:'',
+                    left:(cp=='relative')?0:l
+                });
+                if(pt===2) c.css({'margin-left':bw+cl});
+            }
+            else{
+                b.css({
+                    position:p,
+                    'margin-left':(pt===1)?'-100%':''
+                });
+                if(pt===2) c.css({'margin-left':cl});
+            }
+        };
+ 
+        r=function(){
+            b.css({
+                position:'static'
+            });
+            wl=w.scrollLeft();
+            l=b.offset().left+0;
+            if(p==='fixed'){
+                b.css({
+                    position:p,
+                    left:l-wl
+                });
+                if(pt===2) c.css({'margin-left':bw+cl});
+            }
+            else if(p==='absolute'){
+                b.css({
+                    position:p,
+                    left:(cp=='relative')?0:l
+                });
+                if(pt===2) c.css({'margin-left':bw+cl});
+            }
+        };
+ 
+        w.on('load',s);
+        w.on('scroll',s);
+        w.on('resize',r);
+    }
+ 
+})(jQuery);
+</script>
+
+
+
+
+
+
+</div>
+</div>
+</div><!-- subColumn End -->
+
+<div id="extra" class="column"> 
+<div class="column-inner">
+<div class="column-inner-2">
+<!-- ..... PluginList B ..... -->
+
+
+
+
+<div class="plugin-search_internal sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">記事検索</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+ <form action="http://kijyomatome.com/search" method="GET" style="padding:0;margin:0px;">
+ <input type="TEXT" name="q" class="sf">
+ <input type="SUBMIT" value="検索" class="sfbtn">
+ </form>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-search_internal -->
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">体験談大募集中です！！</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<!--体験談募集-->
+只今、皆様の面白体験談募集中です！！<br />
+<span style="text-align:center; font-size:18px; display:block;">
+<a href="http://kijyomatome.com/archives/39107050.html">【投稿はこちらから】</a></span>
+<br />
+<!--アンケート-->
+簡単なアンケートを作ってみました。<br />
+管理人への質問や言いたいことなどみなさんのご意見を聞いてサイトの改善をしていきたいと思ってるので良かったらアンケートのご協力をお願いします。<br />
+m(_ _)m<br />
+<br />
+↓アンケートはこちらから↓<br />
+<a href="http://goo.gl/forms/aanJYcz3Vw" target="_blank">アンケート</a><br />
+<br />
+
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-twitter_profile sidewrapper">
+<div class="sidetop"></div>
+<div class="side">
+
+
+
+<div class="profile-header"><a href="https://twitter.com/kijyosokuhou" target="_blank"><span class="profile-avatar"><img src="http://pbs.twimg.com/profile_images/378800000668333030/69081dc1579a8f3bd1fda30e2ee7d674_bigger.png"></span><span class="profile-name">鬼女まとめ速報</span><span class="profile-screen-name">@kijyosokuhou</span></a></div>
+<div class="profile-body">主に更新情報を呟いています。
+宜しければフォローお願いします。
+このサイトいいなと思ったらブックマークもお願いします！</div>
+
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-twitter_profile -->
+
+<div class="plugin-popular_articles sidewrapper">
+  <div class="sidetitlebody">
+    <div class="sidetitle">今日の人気記事</div>
+  </div>
+  <div class="sidetop"></div>
+  <div class="side">
+
+
+    <div class="popular-articles">
+      <table id="populararticles-4245529"></table>
+      <div class="popular-articles-freearea"></div>
+    </div>
+  </div>
+
+  <div class="sidebottom"></div>
+</div>
+
+<script type="text/javascript" language="javascript"><!--
+(function(){
+  var url = 'http://kijyomatome.com/archives/popular_articles.json'
+         + '?rangetype=custom'
+         + '&from=0'
+         + '&range=1'
+         + '&limit=20'
+         + '&offset=0';
+
+  var callback = function(data) {
+    var table = document.getElementById('populararticles-4245529');
+    for (i = 0; i < data.articles.length; i++) {
+      var rank = i + 1;
+      var prefix = 'populararticles-4245529-'+ rank;
+
+      var row = table.insertRow(-1);
+      var elm1 = row.insertCell(-1);
+      elm1.className = 'populararticles-rank';
+      elm1.innerHTML = '<span><b>' + rank + '</b></span>';
+      var elm2 = row.insertCell(-1);
+      elm2.className = 'populararticles-title';
+      elm2.innerHTML = '<a href="' + data.articles[i].url + '">' + data.articles[i].title + '</a>'
+      ;
+
+    }
+  };
+
+  var xhr = (function () {
+      if (window.XMLHttpRequest)
+        return new XMLHttpRequest();
+      else {
+        var msxml = [
+          "Msxml2.ServerXMLHTTP.6.0", "Msxml2.ServerXMLHTTP.5.0", "Msxml2.ServerXMLHTTP.4.0", "Msxml2.ServerXMLHTTP.3.0",
+          "Msxml2.ServerXMLHTTP", "Microsoft.ServerXMLHTTP", "Msxml2.XMLHTTP.6.0", "Msxml2.XMLHTTP.5.0",
+          "Msxml2.XMLHTTP.4.0", "Msxml2.XMLHTTP.3.0", "Msxml2.XMLHTTP", "Microsoft.XMLHTTP"
+        ];
+        for (var i = 0; i<msxml.length; i++ ){
+          try {
+            return new ActiveXObject(msxml[i]);
+          }
+          catch(e) { }
+        }
+        return null;
+      }
+  })();
+    
+  if (!xhr) return;
+  xhr.open('GET', url, true);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      eval('var ld_popular_articles_json = ' + xhr.responseText);
+      callback(ld_popular_articles_json);
+    }
+  };
+  xhr.send();
+
+})();
+//-->
+</script>
+
+<div class="plugin-popular_articles sidewrapper">
+  <div class="sidetitlebody">
+    <div class="sidetitle">今週の人気記事</div>
+  </div>
+  <div class="sidetop"></div>
+  <div class="side">
+
+
+    <div class="popular-articles">
+      <table id="populararticles-5442079"></table>
+      <div class="popular-articles-freearea"></div>
+    </div>
+  </div>
+
+  <div class="sidebottom"></div>
+</div>
+
+<script type="text/javascript" language="javascript"><!--
+(function(){
+  var url = 'http://kijyomatome.com/archives/popular_articles.json'
+         + '?rangetype=week0'
+         + '&from=0'
+         + '&range=1'
+         + '&limit=50'
+         + '&offset=0';
+
+  var callback = function(data) {
+    var table = document.getElementById('populararticles-5442079');
+    for (i = 0; i < data.articles.length; i++) {
+      var rank = i + 1;
+      var prefix = 'populararticles-5442079-'+ rank;
+
+      var row = table.insertRow(-1);
+      var elm1 = row.insertCell(-1);
+      elm1.className = 'populararticles-rank';
+      elm1.innerHTML = '<span><b>' + rank + '</b></span>';
+      var elm2 = row.insertCell(-1);
+      elm2.className = 'populararticles-title';
+      elm2.innerHTML = '<a href="' + data.articles[i].url + '">' + data.articles[i].title + '</a>'
+      ;
+
+    }
+  };
+
+  var xhr = (function () {
+      if (window.XMLHttpRequest)
+        return new XMLHttpRequest();
+      else {
+        var msxml = [
+          "Msxml2.ServerXMLHTTP.6.0", "Msxml2.ServerXMLHTTP.5.0", "Msxml2.ServerXMLHTTP.4.0", "Msxml2.ServerXMLHTTP.3.0",
+          "Msxml2.ServerXMLHTTP", "Microsoft.ServerXMLHTTP", "Msxml2.XMLHTTP.6.0", "Msxml2.XMLHTTP.5.0",
+          "Msxml2.XMLHTTP.4.0", "Msxml2.XMLHTTP.3.0", "Msxml2.XMLHTTP", "Microsoft.XMLHTTP"
+        ];
+        for (var i = 0; i<msxml.length; i++ ){
+          try {
+            return new ActiveXObject(msxml[i]);
+          }
+          catch(e) { }
+        }
+        return null;
+      }
+  })();
+    
+  if (!xhr) return;
+  xhr.open('GET', url, true);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      eval('var ld_popular_articles_json = ' + xhr.responseText);
+      callback(ld_popular_articles_json);
+    }
+  };
+  xhr.send();
+
+})();
+//-->
+</script>
+
+<div class="plugin-popular_articles sidewrapper">
+  <div class="sidetitlebody">
+    <div class="sidetitle">今月の人気記事</div>
+  </div>
+  <div class="sidetop"></div>
+  <div class="side">
+
+
+    <div class="popular-articles">
+      <table id="populararticles-5442078"></table>
+      <div class="popular-articles-freearea"></div>
+    </div>
+  </div>
+
+  <div class="sidebottom"></div>
+</div>
+
+<script type="text/javascript" language="javascript"><!--
+(function(){
+  var url = 'http://kijyomatome.com/archives/popular_articles.json'
+         + '?rangetype=month0'
+         + '&from=0'
+         + '&range=1'
+         + '&limit=50'
+         + '&offset=0';
+
+  var callback = function(data) {
+    var table = document.getElementById('populararticles-5442078');
+    for (i = 0; i < data.articles.length; i++) {
+      var rank = i + 1;
+      var prefix = 'populararticles-5442078-'+ rank;
+
+      var row = table.insertRow(-1);
+      var elm1 = row.insertCell(-1);
+      elm1.className = 'populararticles-rank';
+      elm1.innerHTML = '<span><b>' + rank + '</b></span>';
+      var elm2 = row.insertCell(-1);
+      elm2.className = 'populararticles-title';
+      elm2.innerHTML = '<a href="' + data.articles[i].url + '">' + data.articles[i].title + '</a>'
+      ;
+
+    }
+  };
+
+  var xhr = (function () {
+      if (window.XMLHttpRequest)
+        return new XMLHttpRequest();
+      else {
+        var msxml = [
+          "Msxml2.ServerXMLHTTP.6.0", "Msxml2.ServerXMLHTTP.5.0", "Msxml2.ServerXMLHTTP.4.0", "Msxml2.ServerXMLHTTP.3.0",
+          "Msxml2.ServerXMLHTTP", "Microsoft.ServerXMLHTTP", "Msxml2.XMLHTTP.6.0", "Msxml2.XMLHTTP.5.0",
+          "Msxml2.XMLHTTP.4.0", "Msxml2.XMLHTTP.3.0", "Msxml2.XMLHTTP", "Microsoft.XMLHTTP"
+        ];
+        for (var i = 0; i<msxml.length; i++ ){
+          try {
+            return new ActiveXObject(msxml[i]);
+          }
+          catch(e) { }
+        }
+        return null;
+      }
+  })();
+    
+  if (!xhr) return;
+  xhr.open('GET', url, true);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      eval('var ld_popular_articles_json = ' + xhr.responseText);
+      callback(ld_popular_articles_json);
+    }
+  };
+  xhr.send();
+
+})();
+//-->
+</script>
+
+<div class="plugin-monthly sidewrapper" id="plugin-monthly-4234606">
+<div class="sidetitlebody">
+<div class="sidetitle">月別アーカイブ</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+
+
+<div class="sidebody"><a href="javascript:void(0)" class="year">2016</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://kijyomatome.com/archives/2016-02.html">2016年02月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2016-01.html">2016年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2015</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://kijyomatome.com/archives/2015-12.html">2015年12月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2015-11.html">2015年11月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2015-10.html">2015年10月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2015-09.html">2015年09月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2015-08.html">2015年08月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2015-07.html">2015年07月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2015-06.html">2015年06月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2015-05.html">2015年05月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2015-04.html">2015年04月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2015-03.html">2015年03月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2015-02.html">2015年02月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2015-01.html">2015年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2014</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://kijyomatome.com/archives/2014-12.html">2014年12月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2014-11.html">2014年11月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2014-10.html">2014年10月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2014-09.html">2014年09月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2014-08.html">2014年08月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2014-07.html">2014年07月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2014-06.html">2014年06月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2014-05.html">2014年05月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2014-04.html">2014年04月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2014-03.html">2014年03月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2014-02.html">2014年02月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2014-01.html">2014年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2013</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://kijyomatome.com/archives/2013-12.html">2013年12月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2013-11.html">2013年11月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2013-10.html">2013年10月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2013-09.html">2013年09月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2013-08.html">2013年08月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2013-07.html">2013年07月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2013-06.html">2013年06月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2013-05.html">2013年05月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2013-04.html">2013年04月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2013-03.html">2013年03月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2013-02.html">2013年02月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2013-01.html">2013年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2012</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://kijyomatome.com/archives/2012-12.html">2012年12月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2012-11.html">2012年11月</a></div>
+
+<div><a href="http://kijyomatome.com/archives/2012-10.html">2012年10月</a></div>
+</div></div>
+<script src="http://parts.blog.livedoor.jp/plugin/ldblog_monthly_plugin.js"></script>
+<script type="text/javascript">new LDBlogMonthlyFoldablePlugin('4234606')</script>
+
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-monthly -->
+
+<div class="plugin-tag_cloud sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">タグクラウド</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<ul class="tagcloud">
+  <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/DQN%E8%BF%94%E3%81%97" title="DQN返し タグの一覧へ">DQN返し</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/DV" title="DV タグの一覧へ">DV</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/GJ" title="GJ タグの一覧へ">GJ</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%81%82%E3%82%8B%E3%81%82%E3%82%8B" title="あるある タグの一覧へ">あるある</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%81%93%E3%81%BE%E3%81%91%E3%81%87%E3%81%93%E3%81%A8%E3%81%AF%E3%81%84%E3%81%84%E3%82%93%E3%81%A0%E3%82%88%EF%BC%81" title="こまけぇことはいいんだよ！ タグの一覧へ">こまけぇことはいいんだよ！</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%81%93%E3%82%8C%E3%81%AF%E3%81%B2%E3%81%A9%E3%81%84" title="これはひどい タグの一覧へ">これはひどい</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%81%AA%E3%82%93%E3%81%8B%E5%92%8C%E3%82%93%E3%81%A0" title="なんか和んだ タグの一覧へ">なんか和んだ</a></li>
+   <li class="tag-weight-2 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%81%BE%E3%81%A0%E3%81%BE%E3%81%A0%E7%B6%9A%E3%81%8F%E3%82%88%EF%BC%81" title="まだまだ続くよ！ タグの一覧へ">まだまだ続くよ！</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%82%A8%E3%83%8D%E5%A4%AB" title="エネ夫 タグの一覧へ">エネ夫</a></li>
+   <li class="tag-weight-3 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%82%AD%E3%83%81%E3%83%9E%E3%83%9E" title="キチママ タグの一覧へ">キチママ</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%82%B1%E3%83%81%E3%82%BB%E3%82%B3" title="ケチセコ タグの一覧へ">ケチセコ</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%82%B2%E3%82%B9%E3%83%91%E3%83%BC" title="ゲスパー タグの一覧へ">ゲスパー</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%82%B3%E3%83%88%E3%83%A1" title="コトメ タグの一覧へ">コトメ</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AB%E3%83%BC" title="ストーカー タグの一覧へ">ストーカー</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%82%BB%E3%82%AF%E3%83%8F%E3%83%A9" title="セクハラ タグの一覧へ">セクハラ</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%83%88%E3%83%A1" title="トメ タグの一覧へ">トメ</a></li>
+   <li class="tag-weight-2 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%83%9E%E3%82%B8%E3%82%AD%E3%83%81" title="マジキチ タグの一覧へ">マジキチ</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%83%9E%E3%83%9E%E5%8F%8B" title="ママ友 タグの一覧へ">ママ友</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%83%A0%E3%82%AB%E3%81%A4%E3%81%8F%E8%A9%B1" title="ムカつく話 タグの一覧へ">ムカつく話</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4%E3%81%97%E3%81%9F%E8%A9%B1" title="モヤモヤした話 タグの一覧へ">モヤモヤした話</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4%E3%81%99%E3%82%8B%E8%A9%B1" title="モヤモヤする話 タグの一覧へ">モヤモヤする話</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E4%B8%80%E6%99%82%E9%96%93%E5%BE%8C%E3%81%AB%E6%9B%B4%E6%96%B0%E3%81%97%E3%81%BE%E3%81%99" title="一時間後に更新します タグの一覧へ">一時間後に更新します</a></li>
+   <li class="tag-weight-2 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E4%B8%8D%E5%80%AB" title="不倫 タグの一覧へ">不倫</a></li>
+   <li class="tag-weight-3 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E4%BB%8A%E6%97%A5%E3%81%AE%E7%B2%98%E7%9D%80%E3%81%95%E3%82%93" title="今日の粘着さん タグの一覧へ">今日の粘着さん</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E4%BB%8B%E8%AD%B7" title="介護 タグの一覧へ">介護</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E4%BB%96%E4%BA%8B%E4%BA%89%E8%AB%96" title="他事争論 タグの一覧へ">他事争論</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E5%90%8C%E5%B1%85" title="同居 タグの一覧へ">同居</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E5%A0%B1%E5%91%8A%E8%80%85GJ" title="報告者GJ タグの一覧へ">報告者GJ</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E5%A0%B1%E5%91%8A%E8%80%85%E3%83%95%E3%83%AB%E3%83%9C%E3%83%83%E3%82%B3" title="報告者フルボッコ タグの一覧へ">報告者フルボッコ</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E5%A0%B1%E5%91%8A%E8%80%85%E5%8F%A9%E3%81%8D" title="報告者叩き タグの一覧へ">報告者叩き</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E5%A0%B1%E5%91%8A%E8%80%85%E9%80%83%E4%BA%A1" title="報告者逃亡 タグの一覧へ">報告者逃亡</a></li>
+   <li class="tag-weight-2 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E5%AD%90%E4%BE%9B" title="子供 タグの一覧へ">子供</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E5%AD%A6%E7%94%9F%E6%99%82%E4%BB%A3" title="学生時代 タグの一覧へ">学生時代</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E6%84%9A%E7%97%B4" title="愚痴 タグの一覧へ">愚痴</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E6%94%BE%E7%BD%AE%E5%AD%90" title="放置子 タグの一覧へ">放置子</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E6%AD%A6%E5%8B%87%E4%BC%9D" title="武勇伝 タグの一覧へ">武勇伝</a></li>
+   <li class="tag-weight-3 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E6%AF%92%E8%A6%AA" title="毒親 タグの一覧へ">毒親</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E6%B3%A3%E3%81%84%E3%81%9F" title="泣いた タグの一覧へ">泣いた</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E6%B3%A5%E3%83%9E%E3%83%9E" title="泥ママ タグの一覧へ">泥ママ</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E7%9A%86%E6%A7%98%E3%81%8A%E7%96%B2%E3%82%8C%E6%A7%98%E3%81%A7%E3%81%97%E3%81%9F" title="皆様お疲れ様でした タグの一覧へ">皆様お疲れ様でした</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E7%9B%B8%E8%AB%87" title="相談 タグの一覧へ">相談</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E7%9C%9F%E7%9B%B8%E3%81%AF%E9%97%87%E3%81%AE%E4%B8%AD" title="真相は闇の中 タグの一覧へ">真相は闇の中</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E7%BE%A9%E5%AE%9F%E5%AE%B6" title="義実家 タグの一覧へ">義実家</a></li>
+   <li class="tag-weight-1 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E8%81%B7%E5%A0%B4%E3%81%AE%E8%A9%B1" title="職場の話 タグの一覧へ">職場の話</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E8%83%B8%E7%B3%9E" title="胸糞 タグの一覧へ">胸糞</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E8%99%90%E5%BE%85" title="虐待 タグの一覧へ">虐待</a></li>
+   <li class="tag-weight-2 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E8%A8%97%E5%85%90" title="託児 タグの一覧へ">託児</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E8%AD%A6%E5%AF%9F" title="警察 タグの一覧へ">警察</a></li>
+   <li class="tag-weight-0 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E8%B6%85%E7%90%86%E8%AB%96" title="超理論 タグの一覧へ">超理論</a></li>
+   <li class="tag-weight-2 tag-lifetime-4"><a href="http://kijyomatome.com/tag/%E9%9B%A2%E5%A9%9A" title="離婚 タグの一覧へ">離婚</a></li>
+ </ul>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-tag_cloud -->
+<div class="plugin-link sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">アンテナサイト</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<div class="sidebody"><a href="http://newresu1.blog.fc2.com/" target="_blank">にゅーれす</a></div>
+
+<div class="sidebody"><a href="http://newpuru.doorblog.jp/" target="_blank">にゅーぷる</a></div>
+
+<div class="sidebody"><a href="http://newmofu.doorblog.jp/" target="_blank">にゅーもふ</a></div>
+
+<div class="sidebody"><a href="http://2ch-c.net/" target="_blank">しぃアンテナ</a></div>
+
+<div class="sidebody"><a href="http://moudamepo.com/" target="_blank">だめぽアンテナ</a></div>
+
+<div class="sidebody"><a href="http://besttrendnews.net/" target="_blank">Best Trend News</a></div>
+
+<div class="sidebody"><a href="http://a-matome.com/kichi/" target="_blank">キチママまとめアンテナ</a></div>
+
+<div class="sidebody"><a href="http://kijo.antenam.info/" target="_blank">鬼女まとめあんてな</a></div>
+
+<div class="sidebody"><a href="http://2ch.logpo.jp/" target="_blank">LogPo!2ch（ログポ2ちゃん）</a></div>
+
+<div class="sidebody"><a href="http://matomeantena.com/" target="_blank">ワロタあんてな</a></div>
+
+<div class="sidebody"><a href="http://kateich.net/" target="_blank">家庭ちゃんねる</a></div>
+
+<div class="sidebody"><a href="http://blog-news.doorblog.jp/" target="_blank">ぶろにゅー</a></div>
+
+<div class="sidebody"><a href="http://tokkaban.com/" target="_blank">激安特価版ブログ</a></div>
+
+<div class="sidebody"><a href="http://www.matomech.com/" target="_blank">まとめちゃんねる</a></div>
+
+<div class="sidebody"><a href="http://anaguro.yanen.org/" target="_blank">アナグロあんてな</a></div>
+
+<div class="sidebody"><a href="http://newser.cc/" target="_blank">News人</a></div>
+
+<div class="sidebody"><a href="http://mato-me.com/" target="_blank">まとめサイト図鑑</a></div>
+
+<div class="sidebody"><a href="http://matome-alpha.com/" target="_blank">まとめアンテナα</a></div>
+
+<div class="sidebody"><a href="http://antennabank.com/" target="_blank">アンテナバンク</a></div>
+
+<div class="sidebody"><a href="http://kijyo-antena.com/" target="_blank"> KIJYO ANTENA</a></div>
+
+<div class="sidebody"><a href="http://2chnavi.net/" target="_blank">2chnavi</a></div>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-link -->
+<div class="plugin-link sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">まとめブログ</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<div class="sidebody"><a href="http://kidan-m.com/" target="_blank">気団まとめ-噫無情-</a></div>
+
+<div class="sidebody"><a href="http://shuraba-matome.com/" target="_blank">修羅場まとめ速報</a></div>
+
+<div class="sidebody"><a href="http://www.kitimama-matome.net/" target="_blank">キチガイママまとめ保管庫</a></div>
+
+<div class="sidebody"><a href="http://kijosoku.com/" target="_blank">鬼女速</a></div>
+
+<div class="sidebody"><a href="http://okusama-kijyo.com/" target="_blank">奥様は鬼女</a></div>
+
+<div class="sidebody"><a href="http://uwakitaiken.com/" target="_blank">浮気体験！アンビリバボー</a></div>
+
+<div class="sidebody"><a href="http://ura-kijo.com/" target="_blank">裏・鬼女まとめ</a></div>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-link -->
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">よく出る用語</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<div class="side">
+<font color="#FF3366">義実家</font><br />
+義理の実家<br />
+<font color="#FF3366">トメ</font><br />
+姑　(夫の母親)<br />
+<font color="#FF3366">ウト</font><br />
+舅　(夫の父親)<br />
+<font color="#FF3366">ウトメ</font><br />
+姑＆舅<br />
+<font color="#FF3366">コトメ</font><br />
+小姑　(夫の姉妹)<br />
+<font color="#FF3366">鬼女</font><br />
+既婚女性<br />
+<font color="#FF3366">気団</font><br />
+既婚男性<br />
+<font color="#FF3366">エネミー</font><br />
+敵<br />
+<font color="#FF3366">エネ夫</font><br />
+妻を苦しめる敵になってしまう夫のこと<br />
+エネミー＋夫の造語<br />
+<font color="#FF3366">DQN</font><br />
+ヤンキー<br />
+<font color="#FF3366">DQN返し, DQ返し</font><br />
+DQNな仕返し<br />
+<font color="#FF3366">K</font><br />
+警察<br />
+<font color="#FF3366">FO</font><br />
+フェードアウト<br />
+徐々に縁を切ること<br />
+<font color="#FF3366">CO</font><br />
+カットアウト<br />
+すっぱり縁を切ること<br />
+<font color="#FF3366">毒</font><br />
+独身男性<br />
+<font color="#FF3366">毒女</font><br />
+独身女性<br />
+<font color="#FF3366">毒親</font><br>子どもにとって害にしかならない親のこと。<br />
+<font color="#FF3366">小梨</font><br />
+子供がいない事<br />
+<font color="#FF3366">ボッシー</font><br />
+母子家庭<br />
+<font color="#FF3366">プリン</font><br />
+不倫している女性<br />
+<font color="#FF3366">泥</font><br />
+泥棒<br />
+<font color="#FF3366">泥ママ</font><br />
+泥棒ママ<br />
+<font color="#FF3366">放置後</font><br />
+親に放置された子供<br />
+<font color="#FF3366">凸</font><br />
+突撃・突入<br />
+<font color="#FF3366">マヤる</font><br />
+「ガラスの仮面」で有名な北島マヤくらいの演技を見せる<br />
+<font color="#FF3366">24(ツーホー)</font><br />
+通報<br />
+<font color="#FF3366">ファビョる</font><br />
+反論できずに感情的になる事<br />
+<font color="#FF3366">pgr(プゲラ)</font><br />
+他人をあざ笑う事<br />
+<font color="#FF3366">gkbr(ガクガクブルブル)</font><br />
+恐怖で震えている<br />
+<font color="#FF3366">ktkr(キタコレ)</font><br />
+待ちに待ったものが来た時や登場したりする時に使う<br />
+
+</div>
+
+
+
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">逆アクセスランキング</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<SCRIPT TYPE="text/javascript" SRC="http://rranking13.ziyu.net/js/kijyosokuhou.js" charset=shift_jis></SCRIPT>
+
+<SCRIPT TYPE="text/javascript" SRC="http://rranking13.ziyu.net/rank.php?kijyosokuhou"></SCRIPT><A href="http://www.ziyu.net/" target=_blank><IMG SRC="http://rranking13.ziyu.net/rranking.gif" alt="アクセスランキング" border=0 width=35 height=11></A><NOSCRIPT><A href="http://www.ziyu.net/" target=_blank>アクセスランキング</A></NOSCRIPT>
+
+
+<A href="http://www.ziyu.net/" target="_blank"><IMG SRC="http://pranking10.ziyu.net/img.php?kijyosokuhou" alt="ブログパーツ" border=0 width=35 height=11></A>
+
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-oa_notifier_qr_code sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">LINE読者登録QRコード</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<div align="center">
+<img src="http://chart.apis.google.com/chart?cht=qr&amp;chs=123x123&amp;chl=http%3A%2F%2Fline.me%2FR%2Fch%2F1438249470%2Fnotifier%2F%3Fblog_id%3D5553868&amp;chld=M"
+     width="123"
+     height="123"
+     border="0"
+     alt="LINE読者登録QRコード" />
+</div>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-oa_notifier_qr_code -->
+
+
+
+
+
+
+
+</div>
+</div>
+</div><!-- extraColumn End -->
+
+
+
+
+</div><!-- content End -->
+</div><!-- container End -->
+
+
+ 
+
+<!-- ................ Footer .................. -->
+<div class="footer-outer">
+<div class="footer-outer-2">
+copyrightc <a href="http://kijyomatome.com/">鬼女まとめ速報</a> All Rights Reserved.
+<!-- Blog Common Footer // --><div id="footer"><p>Powered by <a href="http://blog.livedoor.com/" title="ライブドアブログ">ライブドアブログ</a></p></div><!-- // Blog Common Footer -->
+</div>
+</div>
+
+<!-- google_ad_section_end -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<!-- Add Body Tag // --> <div  id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&amp;version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><script type="text/javascript">
+(function(){
+  var traq = document.createElement('script'); traq.type = 'text/javascript'; traq.async = true;
+  traq.src = 'http://t.blog.livedoor.jp/u.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(traq, s);
+})();
+</script>
+<noscript>
+<img src="http://t.blog.livedoor.jp/u.gif" alt="traq">
+</noscript>
+<!-- // Add Body Tag -->
+
+</body>
+</html>

@@ -1,0 +1,608 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "Templates/flash_intro.dwt" -->
+
+<head>
+<!-- #BeginEditable "meta" -->
+<title>Welcome</title>
+<meta name="Keywords" content="place your keywords here" />
+<meta name="Description" content="place a description for your webpage here" />
+<!-- #EndEditable -->
+
+<!-- language content -->
+<meta name="language" content="en-US" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- shared style sheets -->
+<link href="Site/styles/content.css" rel="stylesheet" type="text/css" />
+<link href="Site/styles/menu.css" rel="stylesheet" type="text/css" />
+<link href="Site/styles/fonts.css" rel="stylesheet" type="text/css" />
+
+
+<!-- alternate style -->
+<!-- #BeginEditable "intro style" -->
+<link href="Site/styles/intro.css" rel="stylesheet" type="text/css" />
+
+
+
+<!-- #EndEditable -->
+
+<!-- IE6 style -->
+<!--[if IE 6]>
+<link href="Site/styles/ie6-intro.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<!-- #BeginEditable "flash_variables" -->
+<script type="text/javascript">
+// if this page is in:
+//   the root folder, then set this variable to ./
+//   a sub folder one level deep, then set this variable to ../
+//   a sub folder two levels deep, then set this variable to ../../
+var rootFlashLocation = "./";
+
+// 0 == off, 1 == on
+var playMusic          = 1;
+
+// -1 = always display, 0 = never display, and any other positive integer = the number of times to display the intro sequence
+// Note: Cookies will not work on pages saved on your local computer.
+// To test the cookied function, you must publish the page out to your web server and test it from your http:// website
+var maxIntroViews      = -1;
+
+// 0 ==  no, 1 == yes -- persistant means it will save even after the user closes their browser
+var isPersistantCookie = 1;
+</script>
+<style type="text/css">
+.style121 {
+	font-size: 11pt;
+}
+.style123 {
+	font-family: "Times New Roman", Times, serif;
+}
+.style124 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: large;
+}
+.style125 {
+	font-size: large;
+}
+</style>
+<!-- #EndEditable -->
+
+<!-- javascript files -->
+<script type="text/javascript" src="Site/javascript/special_functions_index.js"></script>
+<script type="text/javascript" src="Site/javascript/menu.js"></script>
+<script type="text/javascript">AC_FL_RunContent = 0; </script>
+<script type="text/javascript">DetectFlashVer = 0; </script>
+<script type="text/javascript" src="Site/javascript/AC_RunActiveContent.js"></script>
+<script type="text/javascript">
+<!--
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 8;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Revision of Flash required
+var requiredRevision = 0;
+// -->
+</script>
+
+<script type="text/javascript" src="Site/javascript/jquery-1.2.2.pack.js"></script>
+<script type="text/javascript" src="Site/javascript/ddaccordion.js">
+
+/***********************************************
+* Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+ddaccordion.init({
+	headerclass: "submenuheader", //Shared CSS class name of headers group
+	contentclass: "submenu", //Shared CSS class name of contents group
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc] [] denotes no content
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["suffix", "<img src='Site/graphics/menu/plus.gif' class='statusicon' />", "<img src='Site/graphics/menu/minus.gif' class='statusicon' />"], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "normal" //speed of animation: "fast", "normal", or "slow"
+})
+
+</script>
+
+<!-- IE6 png fix -->
+<!--[if lt IE 7.]>
+<script defer type="text/javascript" src="Site/javascript/pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+<div id="main" style="width:100%">
+<!--SEO H1 -->
+<div id="seo_1" style="top: 35px; position:absolute; width:900px; z-index:200; text-align:left; left: 50px;">
+<!-- #BeginEditable "seo_h1" -->
+<div class="style101"><h1>HOME</h1></div>
+<!-- #EndEditable -->
+</div>
+<!--SEO H2 -->
+<div id="seo_2" style="top: 160px; position:absolute; width:240px; z-index:200; text-align:left; left: 50px;">
+<!-- #BeginEditable "seo_h2" -->
+<!-- #EndEditable -->
+</div>
+
+<table id="outer_wrapper" style="width: 100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td class="top1">&nbsp;</td>
+		<td class="top2">
+		<table style="width: 100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td class="top2_left">&nbsp;</td>
+				<td class="top2_center">&nbsp;</td>
+				<td class="top2_right">&nbsp;</td>
+			</tr>
+		</table>
+		</td>
+		<td class="top3">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="center1"><div class="center1_top">&nbsp;</div></td>
+		<td class="center2">
+<!-- /header -->
+		<div id="header">
+	<div class="header2">
+		<div class="header3">
+			<div class="header1">
+				<div class="header_wrapper"  id="myIntroMovie">
+<div id="splash" style="left: 0px; top: -64px; position:absolute">
+<script type="text/javascript">
+<!--
+if (AC_FL_RunContent == 0 || DetectFlashVer == 0) {
+	alert("This page requires AC_RunActiveContent.js.");
+} else {
+	var hasRightVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+	if(hasRightVersion) {  // if we've detected an acceptable version
+		// embed the flash movie
+		AC_FL_RunContent(
+			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0',
+			'width', '938',
+			'height', '412',
+			'src', rootFlashLocation + 'Site/flash/master',
+			'quality', 'high',
+			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+			'align', 'middle',
+			'play', 'true',
+			'loop', 'true',
+			'scale', 'showall',
+			'wmode', 'transparent',
+			'devicefont', 'false',
+			'id', 'master',
+			'bgcolor', '#000000',
+			'name', 'master',
+			'base', rootFlashLocation + "Site/flash/",
+			'menu', 'true',
+			'allowScriptAccess','always',
+			'allowFullScreen','false',
+			'flashVars', 'playMusic=' + playMusic + "&localSkip=" + maxIntroViews,
+			'movie', rootFlashLocation + 'Site/flash/master',
+			'salign', ''
+			); //end AC code
+	} else {  // flash is too old or we can't detect the plugin
+		var alternateContent = '<div class="alternate_flash "><br /><br />'
+			+ 'Welcome to <p><img src="../Site/logo/logo.png" alt="logo"/></p><br />'
+			+ 'This website is best viewed with the Flash Player Plugin.<br /><br />'
+			+ '<a href=http://www.macromedia.com/go/getflash/>Click here to Get Flash!</a><br /><br />'
+			+ 'Or scroll down the page to enter our website.</div>';
+		document.write(alternateContent);  // insert non-flash content
+	}
+}
+// -->
+</script>
+<noscript>
+<div>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="938" height="412" id="myIntroMovie_alt">
+	<param name="allowScriptAccess" value="always" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="Site/flash/master.swf" />
+	<param name="src" value="Site/flash/master.swf" />
+	<param name="quality" value="high" />
+	<param name="wmode" value="transparent" />
+	<param name="base" value="Site/flash/" />
+	<param name="flashVars" value="playMusic&#61;1&amp;localSkip&#61;-1" />
+	  <!--[if !IE]-->
+      <object type="application/x-shockwave-flash" data="Site/flash/master.swf" width="938" height="412">
+	    <param name="quality" value="high" />
+	    <param name="allowScriptAccess" value="always" />
+	    <param name="allowFullScreen" value="false" />
+	    <param name="wmode" value="transparent" />
+	    <param name="base" value="Site/flash/" />
+        <param name="flashVars" value="playMusic&#61;1&amp;localSkip&#61;-1" />
+        <!--[endif]-->
+         <p><span class="alternate_flash "><br /><br />
+			Welcome to <span><img src="../Site/logo/logo.png" alt="logo"/></span><br />
+			Our website is best viewed with the Flash Player Plugin.<br /><br />
+			<a href="http://www.macromedia.com/go/getflash">Click here to Get Flash!</a><br /><br />
+			Or scroll down the page to enter our website.</span>         </p>
+      <!--[if !IE]-->
+      </object>
+      <!--[endif]-->
+	</object>
+  </div>
+</noscript>
+</div>
+
+<!--themed image-->
+<div id="themed_image" style="left: 240px; top: -30px; position:absolute; height: 131px;">
+<!-- #BeginEditable "themed_image" -->
+<!--webbot bot="Include" U-Include="Library/themed_image.htm" TAG="BODY" startspan -->
+&nbsp;
+<!--webbot bot="Include" i-checksum="14628" endspan --><!-- #EndEditable --></div>
+
+<!--logo-->
+<div id="logo" style="text-align:left; position:absolute; left:0px; top:0px;">
+<!--webbot bot="Include" U-Include="Library/logo.htm" TAG="BODY" startspan --> 
+
+&nbsp;
+
+
+<!--webbot bot="Include" i-checksum="27627" endspan --></div>
+
+<!-- dropmenu -->
+<div id="dropmenu" style="right: 6px; top: -70px; position:absolute">
+<!--webbot bot="Include" U-Include="Library/drop_menu.htm" TAG="BODY" startspan -->
+<div id="slidemenu" class="style104">
+<ul>
+
+<!--1st section: THESE IS THE MAIN MENU BUTTONS -->
+
+<li><a href="index.htm" 					title="Home"><span>Home</span></a></li>
+<li><a href="services.htm" 				title="Services" rel="dropmenu1_c"><span>Services</span></a></li>
+<li><a href="JAMS_CapabilityStatment.pdf"title="Capability Statement"><span>Capability</span></a></li>
+<li><a href="services_NAICS.htm"			title="NAICS Codes"><span>NAICS</span></a></li>
+<li><a href="contact.htm"				title="Contact"><span>Contact</span></a></li>
+
+
+<!--END MAIN BUTTONS -->
+</ul>
+</div>
+
+<br style="clear: left;" /><br class="IEonlybr" />
+
+<!--2nd section: THESE IS THE SUB MENU BUTTONS -->
+
+<!--1st sub menu -->                                                   
+<div id="dropmenu1_c" class="style105" style="width:150px">
+
+<a href="services_IT.htm" 				title="Information Technology">Information Technology</a> 
+<a href="services_web.htm" 				title="Web Services">Web Hosting and Development</a>
+<a href="services_comm.htm"	 			title="Telecommunications">Voice/Video Telecommunications</a>
+<a href="services_projectMgmt.htm"		title="Project Management">Project Management</a>
+</div>
+
+
+<!--4th sub menu -->                                                   
+<div id="dropmenu4_c" class="style105" style="width:150px">
+</div>
+
+<script type="text/javascript">
+//SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+tabdropdown.init("slidemenu", "auto")
+</script>
+
+<!--webbot bot="Include" i-checksum="64562" endspan --></div>
+<!-- dropmenu end -->
+
+<!--search-->
+<div id="search" style="left: 26px; top: -61px; position:absolute">
+<!--webbot bot="Include" U-Include="Library/search.htm" TAG="BODY" startspan -->
+
+<!-- Google CSE Search Box Begin222s -->
+<script type="text/javascript">
+
+// Google Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
+// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+// This notice must stay intact for use
+
+//Enter domain of site to search.
+var domainroot="jams.com"
+
+function Gsitesearch(curobj){
+  
+  if (domainroot == "www.yourweb.com") {
+    if (window.location.href.indexOf("http")) {
+      alert("This search box is not yet set up -- to edit, go to the 'Library/search.htm' file and configure the domain root");
+      return false;
+    } else {
+      domainroot = location.hostname;
+    }
+  } else {
+  
+    curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
+  }
+}
+
+function submitSearchForm() {
+  var myForm = document.getElementById("searchForm");
+  
+  if (Gsitesearch(myForm)) {
+    myForm.submit();
+  }
+}
+</script>
+<form id="searchForm" action="http://www.google.com/search" method="get" onsubmit="return Gsitesearch(this)">
+<div class="search-container"><input name="q" type="hidden" />
+<input name="qfront"  class="searchbox" type="text" style="width: 128px" /> 
+<a href="javascript:submitSearchForm()"><img alt="" class="search" src="Site/graphics/elements/search.png" /></a>
+</div></form>
+
+<!--webbot bot="Include" i-checksum="5560" endspan --></div>
+
+<!--icons-->
+<div id="icons" style="right: 0px; top: 368px; position:absolute; width:218px; height:17px">
+<!--webbot bot="Include" U-Include="Library/icons.htm" TAG="BODY" startspan -->
+<div class="style103">
+<a href="index.htm" class="icon1">HOME</a>
+<a href="contact.htm" class="icon2">CONTACT</a>&nbsp;
+</div>
+<!--webbot bot="Include" i-checksum="58310" endspan --></div>
+
+
+</div></div></div></div></div>
+
+<!-- /header -->
+<!-- content  -->
+<div id="content"><div class="layout1c2"><div class="layout1c6"><div class="layout1c4"><div class="layout1c8"><div class="layout1c5"><div class="layout1c7"><div class="layout1c3"><div class="layout1c1">
+
+<!-- content containers -->
+<table class="content_wrapper" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td class="left_padding">&nbsp;</td>
+				<td class="content1">
+
+<div class="body1" style="width: 100%">
+<!-- #BeginEditable "body1" -->
+
+<div class="body1" style="width: 100%">
+
+<div class="menu_container" style="width: 100%; position:relative; z-index:5; left: 0px; top: 0px; height: 560px;">
+<div class="m-heading"><span class="style106">Main</span><span class="style107">Menu</span></div>
+
+<!--webbot bot="Include" U-Include="Library/vertical_slidemenu.htm" TAG="BODY" startspan -->
+  
+  
+<!-- menu  -->
+<div class="glossymenu">
+
+<!-- button 1 -->
+<a class="style108" href="index.htm">Welcome</a>
+
+<!-- button 2 with sub menu -->
+<a class="style108 submenuheader" href="" >Services</a>
+<div class="submenu">
+	<ul>
+	<li><a href="services_IT.htm#1">Information Technology</a></li>
+	<li><a href="services_Web.htm#2">Website Hosting and Development</a></li>
+	<li><a href="services_comm.htm#3">Voice/Data Communications Services</a></li>
+	<li><a href="services_projectmgmt.htm#3">Project Management</a></li>
+	</ul>
+</div>
+
+<!-- button 3 -->
+<a class="style108" href="JAMS_CapabilityStatment.pdf">Capability Statement</a>
+
+<!-- button 4 -->
+<a class="style108" href="services_NAICS.htm">NAICS Codes</a>
+
+<!-- button 6 -->
+<a class="style108" href="employment.htm" style="left: 0px; top: 0px">Employment</a>
+
+<!-- button 5 with sub menu -->
+<a class="style108 submenuheader" href="" >Contact</a>
+<div class="submenu">
+	<ul>
+	<li><a href="contact.htm#1">Email</a></li>
+	<li><a href="contact.htm#2">Online</a></li>
+	<li><a href="contact.htm#3">Telephone</a></li>
+	<li><a href="contact.htm#4">Fax</a></li>
+	<li><a href="contact.htm#5">Snail mail</a></li>
+	</ul>
+</div>
+
+
+<!-- button 7  -->
+	<!-- button 8 with sub menu --><a class="style108 submenuheader" href="" >Seaport-e IDIQ</a>
+<div class="submenu">
+	<ul>
+	<li><a href="seaport-e_about.htm#1">About Seaport-e</a></li>
+	<li><a href="seaport-e_qap.htm#2">Quality Assurance Program</a></li>
+	<li><a href="seaport-e_taskorders.htm#3">Task Orders</a></li>
+	<li><a href="seaport-e_our_support_team.htm#4">Our Support Team</a></li>
+	</ul>
+</div>
+
+
+<!-- /menu  -->
+
+
+ <!--webbot bot="Include" i-checksum="34123" endspan -->
+</div></div>
+
+<!-- #EndEditable -->
+</div>
+
+				</td>
+				<td class="content2">
+
+<div class="body2" style="width: 100%">
+<!-- #BeginEditable "body2" -->
+<!-- #EndEditable -->
+</div>
+
+				</td>
+				<td class="content3">
+
+<div class="body3" style="width: 100%">
+<!-- #BeginEditable "body3" -->
+<!--start content3-->
+	<div class="content3_wrapper1">
+		<div class="content3_2">
+		<div class="content3_6">
+		<div class="content3_4">
+		<div class="content3_8">
+		<div class="content3_5">
+		<div class="content3_7">
+		<div class="content3_3">
+		<div class="content3_1">
+
+		<div class="content3_wrapper2">
+		<!-- header -->
+		<div class="content3_h_wrapper"><h3 class="style115">&nbsp;JAMS</h3>
+		</div>
+		<div class="style117"> </div><br />
+			<p class="MsoNormal" style="width: 657px">
+			<span style="color:black;letter-spacing:
+.05pt;mso-font-width:80%" class="style125"><span class="style123">Jackson 
+			Automated Management Systems Inc. dba JAMS™ is a premier information technology partner to 
+			the Department of Defense, businesses and organizations.<span style="mso-spacerun:yes">&nbsp; </span>
+			JAMS specializes in enabling businesses with information technology 
+			of tomorrow “today” so they compete and win in global marketplace.<span style="mso-spacerun:yes">&nbsp;
+			</span></span> </span></p>
+			<p class="MsoNormal" style="width: 657px">
+			&nbsp;</p>
+			<p class="MsoNormal" style="width: 657px">
+			<span style="color:black;letter-spacing:
+.05pt;mso-font-width:80%" class="style125"><span class="style123">Our services 
+			</span> </span>
+			<span style="color:black;mso-font-width:80%" class="style125">
+			<span class="style123">are 
+			organized in four areas: Information Technology Solutions, 
+			Communications, Web Site Development &amp; Hosting&nbsp; and Project 
+			Management.</span></span><span style="letter-spacing:.05pt"><span style="color:black;mso-font-width:80%" class="style125"><span class="style123"> Our clients praise 
+			our work, customer service and innovative solutions.&nbsp; </span></span>
+			<span style="font-size:11.0pt;color:black;mso-font-width:80%">
+			<span style="mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-font-width:80%;
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA" class="style124">As a 
+			Service-Disabled Veteran-Owned Small Business (SDVOSB) with 8(a) 
+			certification, JAMS is committed to excellence and
+			<span style="letter-spacing:.1pt">creating innovative and flexible 
+			solutions for all our clients.</span></span></span></span></p>
+			<p class="MsoNormal"><o:p></o:p>
+			</p>
+			<p class="style121">&nbsp;</p>
+		</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+<!-- #EndEditable -->
+</div>
+
+				</td>
+				<td class="content4">
+
+<div class="body4" style="width: 100%">
+<!-- #BeginEditable "body4" -->
+<p>&nbsp;</p>
+<!-- #EndEditable -->
+</div>
+
+				</td>
+				<td class="content5">
+
+<div class="body5" style="width: 100%">
+<!-- #BeginEditable "body5" -->
+<p>&nbsp;</p>
+<!-- #EndEditable -->
+</div>
+				</td>
+				<td class="right_padding">&nbsp;</td>
+			</tr>
+		</table>
+
+ </div></div></div></div></div></div></div></div></div>
+
+<!-- /content  -->
+<!-- footer -->
+
+<div id="footer"><div class="layout1f2"><div class="layout1f6"><div class="layout1f4"><div class="layout1f8"><div class="layout1f5"><div class="layout1f7"><div class="layout1f3"><div class="layout1f1">
+
+<!-- footer containers -->
+ 		<table class="footer_wrapper" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td class="footer1">&nbsp;</td>
+				<td class="footer2">
+
+<!-- copyright_links -->
+	<div id="copyright_links">
+		<!--webbot bot="Include" U-Include="Library/copyright_links.htm" TAG="BODY" startspan -->
+<div class="style118">
+Copyright © 2008. JAMS Inc. All Rights Reserved.
+</div>
+<br />
+<br />
+<div class="style119">
+<a href="index.htm">Home</a> | 
+<a href="services.htm">Services</a> | 
+<a href="contact.htm">Contact</a> | 
+<a href="about.htm">About</a> |&nbsp;
+</div>
+<!--webbot bot="Include" i-checksum="44402" endspan --><br />
+		<br />
+	<div id="contact_bookmark">
+		<!--webbot bot="Include" U-Include="Library/contact_bookmark.htm" TAG="BODY" startspan -->
+<a href="contact.htm">
+<img src="Site/graphics/elements/contact_us.gif" class="contact_button" alt="contact us" width="70" height="50" /></a>
+<a href="javascript:bookmark()">
+<img src="Site/graphics/elements/favorites.gif" class="favorites_button" alt="bookmark" width="70" height="50" /></a>
+<!--webbot bot="Include" i-checksum="24036" endspan --></div>
+				</div>
+
+<div class="special1">
+<!-- #BeginEditable "special1" -->
+<p>&nbsp;</p>
+<!-- #EndEditable -->
+</div>
+
+				</td>
+				<td class="footer3">&nbsp;</td>
+			</tr>
+		</table>
+<!-- end footer containers -->
+
+ </div></div></div></div></div></div></div></div></div>
+<!-- end footer -->
+		</td>
+		<td class="center3"><div class="center3_top">&nbsp;</div></td>
+	</tr>
+	<tr>
+		<td class="bottom1">&nbsp;</td>
+		<td class="bottom2">
+		<table style="width: 100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td class="bottom2_left">&nbsp;</td>
+				<td class="bottom2_center">&nbsp;</td>
+				<td class="bottom2_right">&nbsp;</td>
+			</tr>
+		</table>
+		</td>
+		<td class="bottom3">&nbsp;</td>
+	</tr>
+</table>
+
+
+</div>
+</body>
+<!-- #EndTemplate -->
+</html>
+
+

@@ -1,0 +1,682 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=1060, user-scalable=yes">
+<meta name="Keywords" content="ゆずソフト">
+<meta name="Description" content="ゆずソフトのオフィシャルサイトです。">
+<title>ゆずソフト｜YUZU SOFT</title>
+<link href="new/css/reset.css" rel="stylesheet" type="text/css">
+<link href="new/css/yuzu.css" rel="stylesheet" type="text/css">
+
+<!-- flexslider -->
+
+<link rel="stylesheet" href="new/css/flexslider.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+<script src="new/js/jquery.flexslider-min.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+	$(window).load(function() {
+		$('.flexslider').flexslider({
+			directionNav: false,
+			slideshowSpeed: 9000,
+			animationSpeed: 1500,
+			pauseOnAction: false
+		});	});
+</script>
+
+<!--bxslider-->
+
+<link rel="stylesheet" href="new/css/jquery.bxslider.css">
+<script src="new/js/jquery.bxslider.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+		auto: true,
+		pager: false,
+        pause:  4000,
+        speed: 1000,
+		slideWidth: 200,
+		maxSlides: 5,
+		minSlides: 5
+	});
+});
+</script>
+
+<!-- return top -->
+
+<script src="new/js/smoothscroll.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+	var topBtn = $('#page-top');	
+	topBtn.hide();
+	//スクロールが200に達したらボタン表示
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 200) {
+			topBtn.fadeIn();
+		} else {
+			topBtn.fadeOut();
+		}
+	});
+	//スクロールしてトップ
+    topBtn.click(function () {
+		$('#wrapper').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+    });
+});
+</script>
+
+<!-- cookie -->
+<script type="text/javascript" src="new/cookie/jquery.cookie.js"></script>
+<script type="text/javascript">
+	$(function(){
+		if($.cookie("caution") == 'yes'){
+			$('#caution').css({display:'none'});
+		}
+		$(window).load(function(){
+			$('body').addClass('access');
+		})
+	});
+</script>
+	
+<script type="text/javascript">
+	$(function () {
+	  $(".btn-yes").on('click',function() {
+      $.cookie("caution","yes",{ expires: 30 });
+      $("#caution").fadeOut(500);
+	  });
+    $(".btn-no").on('click',function() {
+      location.href = "https://www.google.co.jp";
+    });
+	});	
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-16773537-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</head>
+
+<body>
+
+
+	<!-- caution start -->
+	<div id="caution">
+    
+    <div id="caution-bg">
+    
+      <div class="btn-yes" style="cursor: pointer;"><img src="new/images/top/caution_yes.png" alt="はい"></div>
+      <div class="btn-no" style="cursor: pointer;"><img src="new/images/top/caution_no.png" alt="いいえ"></div>
+        
+    </div>
+    
+    </div>
+	<!-- caution end -->
+
+
+	<div id="wrapper">
+    
+    <!-- header start -->
+    
+    <div id="header">
+    
+    	<div class="logo"><h1><a href="index.html"><img src="new/images/common/logo.png" alt="YUZU SOFT"></a></h1></div>
+        
+        <!-- social link start -->
+        
+      <div class="sb-twitter"><a href="http://twitter.com/share?count=horizontal&original_referer=http://yuzu-soft.com&text=YUZU SOFT&url=http://yuzu-soft.com" onclick="window.open(this.href, 'tweetwindow', 'width=550, height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); return false;"><img src="new/images/common/sb_twitter.png" alt="twitter"></a></div>
+        
+        <div class="sb-fb"><a href="http://www.facebook.com/share.php?u=http://yuzu-soft.com" onclick="window.open(this.href,'facebookwindow','width=550,height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); return false;"><img src="new/images/common/sb_fb.png" alt="facebook"></a></div>
+        
+        <div class="sb-google"><a href="https://plus.google.com/share?url=http://yuzu-soft.com" onclick="window.open(this.href, 'Gwindow', 'width=550, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="new/images/common/sb_google.png" alt="google"></a></div>
+        
+        <div class="sb-rss"><a href="rss.rdf" target="_blank"><img src="new/images/common/sb_rss.png" alt="rss"></a></div>
+        
+        <!-- social link end -->
+    
+    </div>
+    
+    <!-- header end -->
+    
+    <!-- navi start -->
+    
+    <div id="navi">
+    
+    	<div class="navi01"><a href="new/product.html">製品情報</a></div>
+        <div class="navi02"><a href="http://yuzu-soft.jp/yzl/" target="_blank">スタッフブログ</a></div>
+        <div class="navi03"><a href="new/goods.html">関連グッズ</a></div>
+        <div class="navi04"><a href="http://ec-russell.jp/yuz/">Web通販</a></div>
+        <div class="navi05"><a href="new/support.html">サポート</a></div>
+        <div class="navi06"><a href="new/recruit.html">採用情報</a></div>
+        <div class="navi07"><a href="new/link.html">メーカーリンク</a></div>
+    
+    </div>
+    
+    <!-- navi end -->
+    
+    
+    <!-- main slider start -->
+    
+    <div id="main-slider">
+    <div class="flexslider">
+    
+    	<ul class="slides">
+        <li><a href="http://dlsoft.dmm.co.jp/feature/yuzusoft/"><img src="new/images/top/slider_pic07.jpg" alt="ドラクリDL販売"></a></li>
+        <li><a href="http://www.kako-tama.com/"><img src="new/images/top/slider_pic00.jpg" alt="カコタマ"></a></li>
+        <li><a href="new/product/sothewitch/index.html"><img src="new/images/top/slider_pic01.jpg" alt="サノバウィッチ"></a></li>
+        </ul>
+    
+    </div>
+    </div>
+    
+    <!-- main slider end -->
+    
+    <!-- sub slider start -->
+    
+    <div id="sub-slider">
+    
+    	<ul class="bxslider">
+        <li><a href="http://legacy.yuzu-soft.com/buraban/index.html" target="_blank"><img src="new/images/top/s_slider_pic01.jpg" alt="ぶらばん！"></a></li>
+        <li><a href="http://legacy.yuzu-soft.com/exe/index.html" target="_blank"><img src="new/images/top/s_slider_pic02.jpg" alt="Ｅ×Ｅ"></a></li>
+        <li><a href="http://legacy.yuzu-soft.com/natsu/index.html" target="_blank"><img src="new/images/top/s_slider_pic03.jpg" alt="夏空カナタ"></a></li>
+        <li><a href="http://legacy.yuzu-soft.com/tenshin/index.html"><img src="new/images/top/s_slider_pic04.jpg" alt="天神乱漫"></a></li>
+        <li><a href="http://legacy.yuzu-soft.com/nw/index.html" target="_blank"><img src="new/images/top/s_slider_pic05.jpg" alt="のーぶる☆わーくす"></a></li>
+        <li><a href="http://www.yuzu-soft.com/ja/dracuriot.html"><img src="new/images/top/s_slider_pic06.jpg" alt="ＤＲＡＣＵ－ＲＩＯＴ！"></a></li>
+        <li><a href="http://www.yuzu-soft.com/ja/amairo.html"><img src="new/images/top/s_slider_pic07.jpg" alt="天色＊アイルノーツ"></a></li>
+        </ul>
+    
+    </div>
+    
+    <!-- sub slider end -->
+    
+    <!-- banner area start -->
+    
+    <div class="frame-wide">
+    
+    	<div><img src="new/images/top/midashi_topics.jpg" alt="トピックス"></div>
+        <div class="top-banner-l"><a href="http://www.a-angle.net/"><img src="new/images/top/aa.jpg" alt="AnotherAngle"></div>
+        <div class="top-banner-l"><a href="https://www.toypla.com/event_info/yuzu-soft_shop/"><img src="new/images/top/yzshopbanner_1.jpg" alt="ゆずソフトショップ"></div>
+        <div class="top-banner-l"><a href="new/sound_vfb.html"><img src="new/images/top/vfb_l.jpg" alt="サントラ＆VFB情報"></div>
+        <div class="top-banner-l"><a href="http://dlsoft.dmm.co.jp/feature/yuzusoft/" target="_blank"><img src="new/images/top/dora_dl.jpg" alt="サノバウィッチダウンロード版"></div>
+        <div class="top-banner-l"><a href="new/product/sothewitch/download.html"><img src="new/images/top/banner_l_traial.jpg" alt="サノバウィッチ体験版"></div>
+        <div class="top-banner-l"><a href="new/music_dl.html"><img src="new/images/top/music_dl.jpg" alt="音楽配信"></div>
+	<div class="top-banner-l"><a href="https://www.broccoli.co.jp/chocosta/" target="_blank"><img src="new/images/top/yuzu_figure_chocosta.jpg" alt=""></a></div>
+
+        <div class="top-banner-m-box"><!--小サイズのバナーはこのクラスで囲む-->
+        <div class="top-banner-m"><a href="new/win8_64.html"><img src="new/images/top/win8_64_ban.jpg" alt=""></a></div>
+        <div class="top-banner-m"><a href="http://www.net-ride.com/index.php?R_km_url=yunosu" target="_blank"><img src="new/images/top/e_e_ban.jpg" alt="Ｅ×ＥDL配信"></a></div>
+    	</div>
+    
+    </div>
+    
+    <!-- banner area end -->
+    
+    <!-- info area start -->
+    
+    <div class="frame-middle-box">
+    
+   	  <div class="frame-middle-left">
+        
+        	<div><img src="new/images/top/midashi_update.jpg" alt="更新履歴"></div>
+        <div class="update-frame">
+            
+            <!-- 更新履歴 start -->
+       <dl>
+           <dt>2016.1.28</dt>
+			<dd><a href="https://www.toypla.com/event_info/yuzu-soft_shop/">ゆずソフトショップ1/30オープン！</a>よろしくお願いします！</dd>
+            </dl>
+                  <dl>
+          <dl>
+       <dl>
+           <dt>2016.1.1</dt>
+			<dd>新年あけましておめでとうございます、本年も宜しくお願いします。</dd>
+            </dl>
+                  <dl>
+          <dl>
+       <dl>
+           <dt>2015.12.11</dt>
+			<dd><a href="http://dlsoft.dmm.co.jp/feature/yuzusoft/">DRACU-RIOT!ダウンロード販売開始しました！</a></dd>
+            </dl>
+                  <dl>
+          <dl>
+       <dl>
+           <dt>2015.10.15</dt>
+			<dd><a href="new/yuzushop20158.html">ゆずソフトショップ仙台・名古屋・大阪で開催決定！！</a></dd>
+            </dl>
+                  <dl>
+          <dl>
+       <dl>
+           <dt>2015.8.27</dt>
+			<dd><a href="new/sound_vfb.html">サノバウィッチサントラ・ビジュアルファンブック発売</a></dd>
+			<dd><a href="">FF26参加情報</a></dd>
+            </dl>
+                  <dl>
+          <dl>
+       <dl>
+           <dt>2015.8.12</dt>
+			<dd><a href="new/comike88.html">コミケ８８参加情報を更新。販売物を追加。</a></dd>
+			<dd>ゆずソフトショップのお知らせを追加</dd>
+            </dl>
+                  <dl>
+          <dl>
+       <dl>
+           <dt>2015.7.03</dt>
+			<dd>コミケ８８参加情報を公開</dd>
+			<dd>ゆずソフトショップのお知らせを追加</dd>
+            </dl>
+                  <dl>
+          <dl>
+       <dl>
+           <dt>2015.5.29</dt>
+			<dd><a href="new/music_dl.html">『天神乱漫』『のーぶる☆わーくす』『DRACU-RIOT!』のサントラのDL販売を開始しました</a></dd>
+            </dl>
+                  <dl>
+          <dl>
+       <dl>
+           <dt>2015.5.01</dt>
+			<dd>TOP画像にお知らせを追加。</dd>
+            </dl>
+                  <dl>
+          <dl>
+       <dl>
+           <dt>2015.4.28</dt>
+			<dd>TOP画像にお知らせを追加。</dd>
+            </dl>
+                  <dl>
+          <dl>
+       <dl>
+           <dt>2015.4.24</dt>
+			<dd><a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+			<dd><a href="new/chara1_2015.html">Character１ 2015参加</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+       <dl>
+           <dt>2015.3.20</dt>
+			<dd><a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.3.06</dt>
+			<dd><a href="new/recruit.html">株式会社ユノス求人情報のお知らせ。</a></dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.26</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.25</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.24</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.23</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.22</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.21</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.20</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.19</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.18</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.17</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.16</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.15</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.14</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.13</dt>
+			<dd>ゆずソフト最新作「サノバウィッチ」マスターアップしました！２月２７日発売決定です！</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.12</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.11</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.10</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.09</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.08</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.07</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.06</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.05</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.04</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+          <dl>
+           <dt>2015.2.03</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+           <dl>
+           <dt>2015.2.02</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+           <dl>
+           <dt>2015.2.01</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+           <dl>
+           <dt>2015.1.31</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+             <dl>
+           <dt>2015.1.30</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+             <dl>
+           <dt>2015.1.29</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2015.1.28</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2015.1.26</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2015.1.23</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2015.1.21</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2015.1.16</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2015.1.15</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2015.1.14</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2015.1.13</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2015.1.12</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2015.1.09</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2015.1.07</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2015.1.01</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2014.12.31</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+              <dl>
+           <dt>2014.12.30</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+                 <dl>
+           <dt>2014.12.29</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+                  <dl>
+           <dt>2014.12.27</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+           <dt>2014.12.25</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+           <dt>2014.12.19</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                  <dl>
+           <dt>2014.12.12</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                   <dl>
+           <dt>2014.12.05</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+			<dd><a href="http://www.toypla.com/event_info/yuzu-soft_shop/" target="_blank">ゆずソフトショップ開催のお知らせ</a></dd>
+
+            </dl>
+                     <dl>
+           <dt>2014.11.28</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+
+            </dl>
+                     <dl>
+           <dt>2014.11.21</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+
+            </dl>
+                     <dl>
+           <dt>2014.11.18</dt>
+			<dd><a href="new/yuzupara_tape.html">ゆずぱらタペストリーコレクション</a>の発売が決定しました。</dd>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+
+            </dl>
+                     <dl>
+           <dt>2014.11.14</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+
+            </dl>
+                      <dl>
+           <dt>2014.11.8</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+
+            </dl>
+  <dl>
+            <dt>2014.11.7</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+
+            </dl>
+  <dl>
+            <dt>2014.10.31</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+  <dl>
+            <dt>2014.10.24</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                       <dl>
+            <dt>2014.10.17</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+			<dl>
+            <dt>2014.10.10</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+                       <dl>
+            <dt>2014.10.07</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+            <dl>
+            <dt>2014.10.03</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+            <dl>
+            <dt>2014.09.26</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+	<dl>
+            <dt>2014.09.19</dt>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイト更新。</dd>
+            </dl>
+	<dl>
+            <dt>2014.09.13</dt>
+			<dd>ゆずソフトWEBサイトリニューアル</dd>
+			<dd>最新作<a href="new/product/sothewitch/index.html">サノバウィッチ</a>公式WEBサイトオープンしました</dd>
+	</dl>
+            
+            
+          <!-- 更新履歴 end -->
+            
+            </div>
+        
+      </div>
+    
+    	<div class="frame-middle-right">
+        
+        	<div><img src="new/images/top/midashi_twitter.jpg" alt="ツイッター"></div>
+          <div class="twitter-frame"><a class="twitter-timeline" href="https://twitter.com/yuzusoft" data-widget-id="503824274704973825" width="460" height="300" data-chrome="noheader nofooter noborders">@yuzusoft からのツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+        
+        </div>
+    
+    </div>
+    
+    
+    <!-- info area end -->
+    
+    <!-- blog banner area start -->
+    
+    <div class="frame-middle-box">
+    
+    	<div class="frame-middle-left">
+        
+        	<div><img src="new/images/top/midashi_blog.jpg" alt="スタッフブログ"></div>
+            <div><a href="http://yuzu-soft.jp/yzl/" target="_blank"><img src="new/images/top/banner_blog01.jpg" alt="スタッフブログ"></a></div>
+        
+        </div>
+    
+    	<div class="frame-middle-right">
+        
+        	<div><img src="new/images/top/midashi_blog2.jpg" alt="ディレクターブログ"></div>
+            <div><a href="http://yuzu-soft.jp/dbl/" target="_blank"><img src="new/images/top/banner_blog02.jpg" alt="ディレクターブログ"></a></div>
+        
+        </div>
+    
+    </div>
+    
+    <!-- blog banner area end -->
+    
+    <!-- footer start -->
+    
+    <div id="footer">
+    <div class="copyright">&copy; 2014 YUZUSOFT/JUNOS inc. all rights reserved.<br>
+      著作権に関するガイドライン / 個人情報保護に関する事項<br>
+      ※当サイトは18歳未満の方の閲覧を禁止しています。</div>
+    </div>
+    
+    <div id="page-top"><a href="#wrapper"><img src="new/images/common/backtotop.png" alt="ページTOPへ戻る"></a></div>
+    
+    <!-- footer end -->
+    
+    
+</div>
+
+</body>
+</html>

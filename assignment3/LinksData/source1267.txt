@@ -1,0 +1,2076 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-itunes-app" content="app-id=1006817322"/>
+	<link rel="stylesheet" href="style.css">
+	<title>Cyber-Actualité</title>
+	<meta name="description" content="Retrouvez chaque jour le meilleur de la cyberpress et de la Cyber Actualité">
+	<meta name="keywords" content="actualité, cyberpress, france, monde, people">
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-41374444-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+
+	</script>
+	<script src='http://ads.themoneytizer.com/s/gen.js?type=24'></script><script src='http://ads.themoneytizer.com/s/requestform.js?siteId=1305&formatId=24'></script>
+    </head>
+    <body>
+    	<div id="menu">
+			<a href="/"><h1>Cyber-Actu</h1></a>
+			<form name="recherche" class="form-wrapper cf" onsubmit="document.location='/'+document.forms['recherche'].elements[0].value; return false;">
+				<input type="text" placeholder="Rechercher..." required>
+				<button type="submit">&#10004;</button>
+			</form>
+			<!--<ul>
+			  <li><a href="javascript:return false;">Pays <span style="font-size:0.5em">&#9660;</span></a>
+				<ul>
+				  <li><a href="#">France</a></li>
+				  <li><a href="javascript:return false;">A venir</a></li>
+				</ul>
+			  </li>
+			  <li><a href="javascript:return false;">Catégorie <span style="font-size:0.5em">&#9660;</span></a>
+				<ul>
+				  <li><a href="#">People</a></li>
+				  <li><a href="#">Monde</a></li>
+				  <li><a href="#">Sport</a></li>
+				</ul>
+			  </li>
+			  <li><a href="#">Mon compte</a></li>
+			</ul>-->
+    	</div>
+    	<div id="entete">
+    		<div class="contente">
+    			<h2>Edito</h2>
+    			<hr>
+				<p>Bonjour et bienvenue sur Cyber-Actu, cyber-magazine où vous retrouvez à chaque instant toute l’actualité disponible des plus grands sites de cyber-actualité, cyberpress, information, people…</p>
+				<p>Accédez directement à l’ensemble des actualités ou accédez aux actualités des catégories qui vous intéressent ci-dessous :<br>
+					<a href="/people">People</a> - 
+					<a href="/insolite">Insolite</a> - 
+					<a href="/monde">Monde</a> - 
+					<a href="/europe">Europe</a> - 
+					<a href="/france">France</a> - 
+					<a href="/moyen-orient">Moyen-orient</a> - 
+					<a href="/amerique-du-nord">Amerique du nord</a> - 
+					<a href="/asie">Asie</a> - 
+					<a href="/politique">Politique</a> - 
+					<a href="/economie">Economie</a> - 
+					<a href="/societe">Société</a> - 
+					<a href="/justice">Justice</a> - 
+					<a href="/faits-divers">Faits-divers</a> - 
+					<a href="/bourse">Bourse</a> - 
+					<a href="/cinema">Cinéma</a> - 
+					<a href="/musique">Musique</a> - 
+					<a href="/mode">Mode</a> - 
+					<a href="/livres">Livres</a> - 
+					<a href="/sciences">Sciences</a> - 
+					<a href="/technologies">Technologies</a> - 
+					<a href="/sante">Santé</a> - 
+					<a href="/catastrophes-naturelles">Catastrophes naturelles</a> - 
+					<a href="/environnement">Environnement</a> - 
+					<a href="/sports">Sports</a> - 
+					<a href="/football">Football</a> - 
+					<a href="/donnees-personnelles.html">Données Personnelles</a>
+				<br>Vous avez aussi la possibilité d'accéder directement à une recherche par un lien de type :
+				<br>http://cyber-actu.com/[votre recherche]<br>
+				par exemple : <a href="/françois hollande">http://cyber-actu.com/françois hollande</a>
+				</p>	
+				<p>En vous connectant par Facebook vous aurez bientôt de nouvelles possibilités telque de configurer votre fil d’actualité avec l’ensemble des catégories qui vous intéressent et obtenir des notifications sur les articles à ne pas rater.
+				</p>
+				<p>Cyber-Actu est compatible web-application pour vos tablettes et mobiles afin de retrouver rapidement votre fil d’actualité, ajouter simplement Cyber-Actu à votre écran d’accueil.</p>
+				<p>N'hésitez à nous soumettre vos articles (sujet qui vous passionne et que vous souhaitez faire découvrir au plus grand nombre, répondre ou donner un complément d'enquête à un article déjà publié...) sur <a href="mailto:laredaction@cyber-actu.com">laredaction@cyber-actu.com</a></p>
+				<p>Parler de nous à vos amis et nous suivre sur les réseaux sociaux :</p>
+				<div class="share-buttons">
+					<a href="https://www.facebook.com/CyberActualiteFR" target="_blank"><img src="/facebook.png" alt="Facebook" /></a>
+					<a href="https://twitter.com/CyberActualite" target="_blank"><img src="/twitter.png" alt="Twitter" /></a>
+					<!--<a href="https://plus.google.com/share?url=http://cyber-actu.com/" target="_blank"><img src="/google.png" alt="Google" /></a>-->
+				</div>
+    		</div>
+    	</div>
+    	<div id="articles">
+    	
+    		<a href="/ligue-europa-cest-toujours-crise-à-manchester-united-201813525--spt">
+				<div class="article">
+					<div class="content">
+						<img src="/img/ligue-europa-cest-toujours-crise-à-manchester-united-201813525--spt.jpg" alt="Ligue Europa: C&#39;est (toujours) la crise à Manchester United, battu par Midtjylland (2-1)">
+						<div class="groupdescription">
+							<h2 class="title">Ligue Europa: C&#39;est (toujours) la crise à Manchester United, battu par Midtjylland (2-1)</h2>
+							<div class="description"><hr>FOOTBALL - Les Anglais se sont inclinés au Danemark, et c&#39;est la honte...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:35</div>
+						<div class="source">20minutes.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/apple-pay-à-lassaut-chine-201635551">
+				<div class="article">
+					<div class="content">
+						<img src="/img/apple-pay-à-lassaut-chine-201635551.jpg" alt="Apple Pay à l&#39;assaut de la Chine">
+						<div class="groupdescription">
+							<h2 class="title">Apple Pay à l&#39;assaut de la Chine</h2>
+							<div class="description"><hr>TECHNOLOGIE - Le système de paiement mobile va se frotter à une concurrence relevée...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:35</div>
+						<div class="source">20minutes.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/blatter-départ-cest-dune-tristesse-200106002--spt">
+				<div class="article">
+					<div class="content">
+						<img src="/img/blatter-départ-cest-dune-tristesse-200106002--spt.jpg" alt="Blatter: &quot;mon départ, c&#39;est d&#39;une tristesse&quot;">
+						<div class="groupdescription">
+							<h2 class="title">Blatter: &quot;mon départ, c&#39;est d&#39;une tristesse&quot;</h2>
+							<div class="description"><hr>&quot;Le départ qu&#39;on me prépare, c&#39;est d&#39;une tristesse&quot;, a déploré le président démissionnaire de la Fifa, Joseph Blatter, regrettant qu&#39;il y ait des situations &quot;contre lesquelles vous n&#39;avez pas d&#39;arme&quot;, jeudi lors d&#39;une interview avec la radio RMC.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:30</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/immobilier-faut-vendre-bien-agence-202836637--finance">
+				<div class="article">
+					<div class="content">
+						<img src="/img/immobilier-faut-vendre-bien-agence-202836637--finance.jpg" alt="Immobilier : faut-il vendre son bien avec ou sans agence ?">
+						<div class="groupdescription">
+							<h2 class="title">Immobilier : faut-il vendre son bien avec ou sans agence ?</h2>
+							<div class="description"><hr>Les ventes immobilières sont en hausse après une période sombre. Les particuliers sont de plus en plus nombreux à gérer eux-mêmes la transaction. Une solution moins couteuse mais plus risquée.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:28</div>
+						<div class="source">Francetv info</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/europa-league-saint-étienne-dune-courte-tête-dortmund-202242130--sow">
+				<div class="article">
+					<div class="content">
+						<img src="/img/europa-league-saint-étienne-dune-courte-tête-dortmund-202242130--sow.jpg" alt="Europa League: Saint-Étienne d&#39;une courte tête, Dortmund tranquille en 16es">
+						<div class="groupdescription">
+							<h2 class="title">Europa League: Saint-Étienne d&#39;une courte tête, Dortmund tranquille en 16es</h2>
+							<div class="description"><hr>Saint-Étienne a pris une petite option sur la qualification en s&#39;imposant 3-2 contre le leader du championnat suisse, le FC Bâle, pendant que Dortmund sortait solide vainqueur du choc des 16es de finale aller d&#39;Europa League, jeudi contre Porto (2-0).</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:22</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/karine-marchand-lance-politique-202000654">
+				<div class="article">
+					<div class="content">
+						<img src="/img/karine-marchand-lance-politique-202000654.jpg" alt="Karine Le Marchand : elle se lance dans la politique !">
+						<div class="groupdescription">
+							<h2 class="title">Karine Le Marchand : elle se lance dans la politique !</h2>
+							<div class="description"><hr>Karine Le Marchand a plus d&#39;un projet sur le feu. Après avoir annoncé qu&#39;elle envisageait de lancer une ligne de vêtements grande taille, l&#39;animatrice va s&#39;essayer dans un domaine nouveau pour elle</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:20</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/limage-jour-logique-irréaliste-clash-of-clans-180000365">
+				<div class="article">
+					<div class="content">
+						<img src="/img/limage-jour-logique-irréaliste-clash-of-clans-180000365.jpg" alt="L&#39;image du jour : La logique irréaliste de Clash of Clans">
+						<div class="groupdescription">
+							<h2 class="title">L&#39;image du jour : La logique irréaliste de Clash of Clans</h2>
+							<div class="description"><hr>Le principe est très simple : chaque jour de la semaine, à 19h, retrouvez une image insolite sous forme de visuel, Gif, Vine ou vidéo, en rapport avec la sphère vidéoludique, high-tech, cinéma ou geek qui fait l&#39;actualité ou bien qui s&#39;avère complètement intemporelle.À voir aussi : Ces 10 jeux qui nous ont fait pleurerVia 9gag.comDÉCOUVREZ TOUTES NOS IMAGES DU JOUR ICIRendez-vous demain à 19H pour une nouvelle image ! Retrouvez cet article sur gameblog.fr</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:16</div>
+						<div class="source">Gameblog</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/ryan-reynolds-découvre-blake-lively-drague-hugh-jackman-195700467">
+				<div class="article">
+					<div class="content">
+						<img src="/img/ryan-reynolds-découvre-blake-lively-drague-hugh-jackman-195700467.jpg" alt="Ryan Reynolds : Quand il découvre que Blake Lively drague Hugh Jackman">
+						<div class="groupdescription">
+							<h2 class="title">Ryan Reynolds : Quand il découvre que Blake Lively drague Hugh Jackman</h2>
+							<div class="description"><hr>L&#39;interprète de &quot;Deadpool&quot; a interviewé l&#39;incarnation au cinéma de &quot;Wolverine&quot;, et c&#39;était très drôle.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:15</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/bernadette-chirac-claudia-cardinale-brouillées-raison-lointaine-201200650">
+				<div class="article">
+					<div class="content">
+						<img src="/img/bernadette-chirac-claudia-cardinale-brouillées-raison-lointaine-201200650.jpg" alt="Bernadette Chirac et Claudia Cardinale brouillées ? Une raison lointaine">
+						<div class="groupdescription">
+							<h2 class="title">Bernadette Chirac et Claudia Cardinale brouillées ? Une raison lointaine</h2>
+							<div class="description"><hr>Les deux femmes ont participé à la même soirée mais ont pris le soin de ne pas se croiser.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:12</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/juventus-bayern-pogba-réjouit-revoir-coman-201025869--sow">
+				<div class="article">
+					<div class="content">
+						<img src="/img/juventus-bayern-pogba-réjouit-revoir-coman-201025869--sow.jpg" alt="Juventus-Bayern: Pogba se réjouit de revoir Coman">
+						<div class="groupdescription">
+							<h2 class="title">Juventus-Bayern: Pogba se réjouit de revoir Coman</h2>
+							<div class="description"><hr>Paul Pogba se réjouit de ses retrouvailles avec Kingsley Coman, ex-coéquipier passé au Bayern Munich, a déclaré la star française de la Juventus jeudi, à cinq jours du 8e aller de la Ligue des champions à Turin.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:10</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/incidents-à-corte-cris-colère-à-lannonce-condamnation-195720991--spt">
+				<div class="article">
+					<div class="content">
+						<img src="/img/incidents-à-corte-cris-colère-à-lannonce-condamnation-195720991--spt.jpg" alt="Incidents à Corte : cris de colère à l&#39;annonce de la condamnation à cinq mois ferme d&#39;un jeune corse">
+						<div class="groupdescription">
+							<h2 class="title">Incidents à Corte : cris de colère à l&#39;annonce de la condamnation à cinq mois ferme d&#39;un jeune corse</h2>
+							<div class="description"><hr>Rémy Di Caro, 22 ans, était jugé pour violence en réunion lors d&#39;un rassemblement qui a dégénéré mardi soir. </div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:10</div>
+						<div class="source">Francetv info</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/rajoy-aparté-à-cameron-nouvelles-élections-probables-espagne-195439931">
+				<div class="article">
+					<div class="content">
+						<img src="/img/rajoy-aparté-à-cameron-nouvelles-élections-probables-espagne-195439931.jpg" alt="Rajoy en aparté à Cameron : nouvelles élections &quot;probables&quot; en Espagne le 26 juin">
+						<div class="groupdescription">
+							<h2 class="title">Rajoy en aparté à Cameron : nouvelles élections &quot;probables&quot; en Espagne le 26 juin</h2>
+							<div class="description"><hr>Le chef du gouvernement espagnol sortant Mariano Rajoy a déclaré jeudi à Bruxelles que de nouvelles élections en Espagne étaient &quot;probables&quot; à la date du 26 juin.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:05</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/pape-françois-critique-donald-trump-191836663">
+				<div class="article">
+					<div class="content">
+						<img src="/img/pape-françois-critique-donald-trump-191836663.jpg" alt="Le pape François critique Donald Trump">
+						<div class="groupdescription">
+							<h2 class="title">Le pape François critique Donald Trump</h2>
+							<div class="description"><hr>Interrogé sur le milliardaire, il a affirmé « qu&#39;une personne qui ne pense qu&#39;a faire des murs et non des ponts n&#39;est pas chrétienne ».</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:01</div>
+						<div class="source">LeFigaro.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/idf-emploi-stages-apprentissage-débat-tension-au-conseil-193630048">
+				<div class="article">
+					<div class="content">
+						<img src="/img/idf-emploi-stages-apprentissage-débat-tension-au-conseil-193630048.jpg" alt="IDF: Emploi, stages et apprentissage, débat sous tension au conseil régional">
+						<div class="groupdescription">
+							<h2 class="title">IDF: Emploi, stages et apprentissage, débat sous tension au conseil régional</h2>
+							<div class="description"><hr>Le conseil régional d&#39;Ile-de-France, présidé par Valérie Pécresse (Les Républicains), a adopté jeudi une série de mesures autour de l&#39;emploi, de l&#39;apprentissage et de la formation professionnelle, dans un contexte tendu, marqué par de nombreuses invectives dans l&#39;hémicycle.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:01</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/football-ligue-2-paris-fc-grange-camara-à-193500023--spt">
+				<div class="article">
+					<div class="content">
+						<img src="/img/football-ligue-2-paris-fc-grange-camara-à-193500023--spt.jpg" alt="Football, Ligue 2: Le Paris FC avec Grange et Camara à Nancy">
+						<div class="groupdescription">
+							<h2 class="title">Football, Ligue 2: Le Paris FC avec Grange et Camara à Nancy</h2>
+							<div class="description"><hr>  Depuis le 15 janvier et le but de Dylan Bahamboula au Havre (défaite 2-1), le Paris FC qui se rend ce  vendredi à Nancy (2e), n&#39;a pas trouvé le chemin des filets. Soit 475 longues minutes... La...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:00</div>
+						<div class="source">LeParisien.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/tennis-garcia-confirme-rendez-strycova-à-dubaï-194530960--spt">
+				<div class="article">
+					<div class="content">
+						<img src="/img/tennis-garcia-confirme-rendez-strycova-à-dubaï-194530960--spt.jpg" alt="Tennis: Garcia confirme et a rendez-vous avec Strycova à Dubaï">
+						<div class="groupdescription">
+							<h2 class="title">Tennis: Garcia confirme et a rendez-vous avec Strycova à Dubaï</h2>
+							<div class="description"><hr>Caroline Garcia, 38e mondiale, s&#39;est qualifiée pour les demi-finales du tournoi WTA de Dubaï en battant l&#39;Allemande Andrea Petkovic, 28e, jeudi, 24 heures après avoir vaincu l&#39;Espagnole Carla Suarez Navarro, 11e, et &quot;dompté&quot; un violent orage, et a rendez-vous avec la Tchèque Barbora Strycova.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:00</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/kate-middleton-ravissante-rouge-look-100pour-cent-recycle-200000254">
+				<div class="article">
+					<div class="content">
+						<img src="/img/kate-middleton-ravissante-rouge-look-100pour-cent-recycle-200000254.jpg" alt="Kate Middleton : ravissante en rouge, un look 100pour cent recycle pour la duchesse">
+						<div class="groupdescription">
+							<h2 class="title">Kate Middleton : ravissante en rouge, un look 100pour cent recycle pour la duchesse</h2>
+							<div class="description"><hr>24h seulement après avoir fait sensation à Kensington Palace auprès de la rédaction du Huffington Post , Kate Middleton est de nouveau présente face aux photographes dans un cadre tout à fait</div>
+						</div>
+						<div class="date">le 18/02/2016 à 21:00</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/obama-signé-loi-nouvelles-sanctions-contre-pyongyang-194422358">
+				<div class="article">
+					<div class="content">
+						<img src="/img/obama-signé-loi-nouvelles-sanctions-contre-pyongyang-194422358.jpg" alt="Obama a signé la loi sur les nouvelles sanctions contre Pyongyang">
+						<div class="groupdescription">
+							<h2 class="title">Obama a signé la loi sur les nouvelles sanctions contre Pyongyang</h2>
+							<div class="description"><hr>Le président des Etats-Unis Barack Obama a signé jeudi la loi, adoptée il y a une semaine par le Congrès, prévoyant de nouvelles sanctions contre la Corée du Nord en réaction à son quatrième essai nucléaire.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:56</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/pascal-nègre-quitte-présidence-duniversal-music-france-194300089">
+				<div class="article">
+					<div class="content">
+						<img src="/img/pascal-nègre-quitte-présidence-duniversal-music-france-194300089.jpg" alt="Pascal Nègre quitte la présidence d&#39;Universal Music France">
+						<div class="groupdescription">
+							<h2 class="title">Pascal Nègre quitte la présidence d&#39;Universal Music France</h2>
+							<div class="description"><hr>Pascal Nègre a été remercié par Vincent Bolloré. Il ne présidera plus à la destinée de Universal Music France, où il officiait depuis dix-huit ans.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:55</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/priorité-syrie-reste-lutte-anti-ei-affirme-chef-193716080">
+				<div class="article">
+					<div class="content">
+						<img src="/img/priorité-syrie-reste-lutte-anti-ei-affirme-chef-193716080.jpg" alt="La priorité en Syrie reste la lutte anti-EI, affirme le chef de la diplomatie saoudienne">
+						<div class="groupdescription">
+							<h2 class="title">La priorité en Syrie reste la lutte anti-EI, affirme le chef de la diplomatie saoudienne</h2>
+							<div class="description"><hr>La priorité de toute intervention terrestre qui serait lancée en Syrie doit être la lutte contre le groupe Etat islamique (EI), a déclaré jeudi le ministre saoudien des Affaires étrangères, tout en réaffirmant que le président Bachar al-Assad n&#39;avait &quot;pas d&#39;avenir&quot;.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:55</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/hépatite-c-traitement-malades-190000003">
+				<div class="article">
+					<div class="content">
+						<img src="/img/hépatite-c-traitement-malades-190000003.jpg" alt="Hépatite C : vers un traitement de tous les malades ?">
+						<div class="groupdescription">
+							<h2 class="title">Hépatite C : vers un traitement de tous les malades ?</h2>
+							<div class="description"><hr>A l&#39;heure actuelle, en France, seuls les patients atteints des formes les plus graves de l&#39;hépatite C peuvent recevoir un traitement. Pourtant, son efficacité permettrait très probablement d&#39;éradiquer la maladie. Les associations de malades et les hépatologues militent en faveur d&#39;un traitement de tous les malades. Décryptage.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:50</div>
+						<div class="source">Topsante</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/exclu-vidéo-ridsa-arrive-interview-public-fr-193313839">
+				<div class="article">
+					<div class="content">
+						<img src="/img/exclu-vidéo-ridsa-arrive-interview-public-fr-193313839.jpg" alt="Exclu Vidéo : Ridsa arrive en interview sur Public.fr !">
+						<div class="groupdescription">
+							<h2 class="title">Exclu Vidéo : Ridsa arrive en interview sur Public.fr !</h2>
+							<div class="description"><hr>Il est le chanteur / rappeur du moment à suivre de près... Ridsa se confie dans une interview exclusive à...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:50</div>
+						<div class="source">Public</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/top-14-atonio-prolonge-à-rochelle-jusquen-2020-194909176--spt">
+				<div class="article">
+					<div class="content">
+						<img src="/img/top-14-atonio-prolonge-à-rochelle-jusquen-2020-194909176--spt.jpg" alt="Top 14: Atonio prolonge à La Rochelle jusqu&#39;en 2020">
+						<div class="groupdescription">
+							<h2 class="title">Top 14: Atonio prolonge à La Rochelle jusqu&#39;en 2020</h2>
+							<div class="description"><hr>Le pilier droit international Uini Atonio a prolongé de trois ans, jusqu&#39;en 2020, son contrat avec La Rochelle, a-t-on appris jeudi soir auprès du club maritime, 10e de Top 14.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:49</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/apple-propose-solution-débloquer-iphone-victimes-lerreur-53-194846996">
+				<div class="article">
+					<div class="content">
+						<img src="/img/apple-propose-solution-débloquer-iphone-victimes-lerreur-53-194846996.jpg" alt="Apple propose une solution pour débloquer les iPhone victimes de «l&#39;erreur 53»">
+						<div class="groupdescription">
+							<h2 class="title">Apple propose une solution pour débloquer les iPhone victimes de «l&#39;erreur 53»</h2>
+							<div class="description"><hr>TECHNOLOGIE - Ceux qui ont payé pour une réparation pourront se faire rembourser...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:48</div>
+						<div class="source">20minutes.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/meryl-streep-chante-faux-catherine-frot-192800658">
+				<div class="article">
+					<div class="content">
+						<img src="/img/meryl-streep-chante-faux-catherine-frot-192800658.jpg" alt="Quand Meryl Streep chante aussi faux que... Catherine Frot !">
+						<div class="groupdescription">
+							<h2 class="title">Quand Meryl Streep chante aussi faux que... Catherine Frot !</h2>
+							<div class="description"><hr>La bande-annonce de &quot;Florence Foster Jenkins&quot; vient de débarquer et fait écho au film &quot;Marguerite&quot;.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:45</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/conflit-vincent-bolloré-pascal-nègre-quitte-universal-france-194148566">
+				<div class="article">
+					<div class="content">
+						<img src="/img/conflit-vincent-bolloré-pascal-nègre-quitte-universal-france-194148566.jpg" alt="En conflit avec Vincent Bolloré, Pascal Nègre quitte Universal France">
+						<div class="groupdescription">
+							<h2 class="title">En conflit avec Vincent Bolloré, Pascal Nègre quitte Universal France</h2>
+							<div class="description"><hr>MUSIQUE - Refusant une nouvelle réorganisation, il a préféré quitter le label de musique qu’il dirigeait depuis 1998…</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:41</div>
+						<div class="source">20minutes.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/kylie-minogue-romantique-diablement-sexy-robe-fleurs-194000503">
+				<div class="article">
+					<div class="content">
+						<img src="/img/kylie-minogue-romantique-diablement-sexy-robe-fleurs-194000503.jpg" alt="Kylie Minogue, romantique et diablement sexy dans une robe a fleurs">
+						<div class="groupdescription">
+							<h2 class="title">Kylie Minogue, romantique et diablement sexy dans une robe a fleurs</h2>
+							<div class="description"><hr>Kylie Minogue a surpris et charmé les NME Awards 2016. Il faut dire que dans une robe audacieuse et romantique, l&#39;Australienne était à tomber pour l&#39;évènement musical qui avait lieu à Londres le</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:40</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/emji-nouvelle-star-revient-chanter-métro-parisien-192740860">
+				<div class="article">
+					<div class="content">
+						<img src="/img/emji-nouvelle-star-revient-chanter-métro-parisien-192740860.jpg" alt="Emji, la «Nouvelle star», revient chanter dans le métro parisien">
+						<div class="groupdescription">
+							<h2 class="title">Emji, la «Nouvelle star», revient chanter dans le métro parisien</h2>
+							<div class="description"><hr>MUSIQUE - Jeudi, à la veille de la sortie de son premier album, Emji donnera trois concerts dans trois stations de métro différentes…</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:35</div>
+						<div class="source">20minutes.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/c-à-claire-chazal-colère-193416770">
+				<div class="article">
+					<div class="content">
+						<img src="/img/c-à-claire-chazal-colère-193416770.jpg" alt="C à Vous : Claire Chazal en colère contre Anne-Claire Coudray ? Elle répond ! (vidéo)">
+						<div class="groupdescription">
+							<h2 class="title">C à Vous : Claire Chazal en colère contre Anne-Claire Coudray ? Elle répond ! (vidéo)</h2>
+							<div class="description"><hr>A la tête d’Entrée libre sur France 5 depuis quelques semaines, Claire Chazal était l’invitée d’Anne-Sophie Lapix jeudi soir dans C à Vous. L’occasion évidemment pour la journaliste de revenir sur son éviction du JT de TF1 mais aussi sur sa relation avec celle qui lui a succédé, Anne-Claire Coudray. Une séquence que nous vous proposons de retrouver sur notre site Non Stop Zapping.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:34</div>
+						<div class="source">Non Stop Zapping</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/réforme-travail-propositions-fâchent-193355592--finance">
+				<div class="article">
+					<div class="content">
+						<img src="/img/réforme-travail-propositions-fâchent-193355592--finance.jpg" alt="Réforme du travail : des propositions qui fâchent">
+						<div class="groupdescription">
+							<h2 class="title">Réforme du travail : des propositions qui fâchent</h2>
+							<div class="description"><hr>Myriam El Khomri veut convaincre les parlementaires. Elle envisage même un passage en force avec le 49-3.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:33</div>
+						<div class="source">Francetv info</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/vivendi-lance-opa-gameloft-veut-redresser-canal-193310755--finance">
+				<div class="article">
+					<div class="content">
+						<img src="/img/vivendi-lance-opa-gameloft-veut-redresser-canal-193310755--finance.jpg" alt="Vivendi lance une OPA sur Gameloft et veut redresser Canal&quot;">
+						<div class="groupdescription">
+							<h2 class="title">Vivendi lance une OPA sur Gameloft et veut redresser Canal&quot;</h2>
+							<div class="description"><hr>Vivendi a annoncé jeudi une offensive tous azimuts pour parvenir à devenir &quot;un leader mondial des contenus et des médias&quot;, avec le lancement d&#39;une offre publique d&#39;achat sur l&#39;éditeur de jeux sur mobile Gameloft et une stratégie de redressement des comptes de Canal&quot; passant par un projet d&#39;alliance avec BeIN Sports.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:33</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/incidents-corse-dix-mois-prison-manifestant-191009185">
+				<div class="article">
+					<div class="content">
+						<img src="/img/incidents-corse-dix-mois-prison-manifestant-191009185.jpg" alt="Incidents en Corse : dix mois de prison pour un manifestant">
+						<div class="groupdescription">
+							<h2 class="title">Incidents en Corse : dix mois de prison pour un manifestant</h2>
+							<div class="description"><hr>Le jeune homme interpellé mardi soir lors d‘affrontements à Corte (Haute-Corse) a été condamné à dix mois de prison dont cinq ferme pour violence en réunion. Dès l&#39;énoncé du jugement, de nouvelles échauffourées ont éclaté à Bastia.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:30</div>
+						<div class="source">LeFigaro.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/droit-travail-projet-loi-augure-grands-changements-192851057--finance">
+				<div class="article">
+					<div class="content">
+						<img src="/img/droit-travail-projet-loi-augure-grands-changements-192851057--finance.jpg" alt="Droit du travail : un projet de loi qui augure de grands changements">
+						<div class="groupdescription">
+							<h2 class="title">Droit du travail : un projet de loi qui augure de grands changements</h2>
+							<div class="description"><hr>Une version intermédiaire du projet de loi de la ministre du Travail Myriam El Khomri remet notamment en cause l&#39;organisation du temps de travail.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:28</div>
+						<div class="source">Francetv info</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/bolloré-part-à-lassaut-gameloft-faire-plier-clan-191049810">
+				<div class="article">
+					<div class="content">
+						<img src="/img/bolloré-part-à-lassaut-gameloft-faire-plier-clan-191049810.jpg" alt="Bolloré part à l&#39;assaut de Gameloft pour faire plier le clan Guillemot">
+						<div class="groupdescription">
+							<h2 class="title">Bolloré part à l&#39;assaut de Gameloft pour faire plier le clan Guillemot</h2>
+							<div class="description"><hr>En lançant une OPA hostile, le PDG de Vivendi espère pousser la famille à lui vendre son navire amiral Ubisoft. La perte de l&#39;entreprise par le premier éditeur français de jeux vidéo serait un coup dur.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:26</div>
+						<div class="source">Liberation.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/vivendi-canal-va-conclure-accord-distribution-exclusive-bein-170449798">
+				<div class="article">
+					<div class="content">
+						<img src="/img/vivendi-canal-va-conclure-accord-distribution-exclusive-bein-170449798.jpg" alt="Vivendi: Canal+ va conclure un accord de distribution exclusive avec BeIn Sports">
+						<div class="groupdescription">
+							<h2 class="title">Vivendi: Canal+ va conclure un accord de distribution exclusive avec BeIn Sports</h2>
+							<div class="description"><hr>Canal+ va pouvoir conclure un accord de distribution exclusive avec la chaine sportive BeIN Sports, a annoncé jeudi Vivendi, la maison mère de la chaîne cryptée.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:25</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/vivendi-va-tenter-opa-gameloft-181610049">
+				<div class="article">
+					<div class="content">
+						<img src="/img/vivendi-va-tenter-opa-gameloft-181610049.jpg" alt="Vivendi va tenter une OPA sur Gameloft, Ubisoft résiste">
+						<div class="groupdescription">
+							<h2 class="title">Vivendi va tenter une OPA sur Gameloft, Ubisoft résiste</h2>
+							<div class="description"><hr>Technologie - En parallèle de résultats financiers décevants, le groupe dirigé par Vincent Bolloré a annoncé avoir franchi le seuil des 30% d’actions dans la société de jeux vidéos Gameloft. De quoi déclencher ...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:25</div>
+						<div class="source">La Tribune</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/aveyron-conseillère-agricole-tuée-morte-noyée-192438310">
+				<div class="article">
+					<div class="content">
+						<img src="/img/aveyron-conseillère-agricole-tuée-morte-noyée-192438310.jpg" alt="Aveyron - La conseillère agricole tuée est morte noyée">
+						<div class="groupdescription">
+							<h2 class="title">Aveyron - La conseillère agricole tuée est morte noyée</h2>
+							<div class="description"><hr>La jeune conseillère agricole tuée dans une ferme aveyronnaise est morte noyée, selon les résultats de l&#39;autopsie publiés jeudi, mais les motivations du suspect toujours en garde à vue restent mystérieuses. «L&#39;autopsie a confirmé la mort par noyade», a indiqué à un correspondant de l&#39;AFP le procureur de la République, Yves Delpérié. Le magistrat n&#39;a pas donné plus de précisions, renvoyant au parquet de Montpellier désormais chargé du dossier, en l&#39;absence de pôle d&#39;instruction criminelle dans la préfecture de l&#39;Aveyron.Mercredi tôt dans la matinée, Elodie Bonnefille, 26 ans, technicienne de la chambre d&#39;agriculture en mission sanitaire de routine à la ferme laitière de Mayran, à une vingtaine de kilomètres de Rodez, était «agressée», «trainée et tuée» et son corps jeté dans un étang, avait indiqué M. Delpérié, lors d&#39;une conférence de presse mercredi soir à Rodez. Le procureur avait fait état d&#39;ecchymoses sur le corps de la jeune femme mais pas de nature à ce qu&#39;elles puissent avoir entraîné la mort, laissant donc à penser que le décès était dû à une noyade. Un suspect, l&#39;un des deux frères gérant cette exploitation familiale, Xavier Espinasse, 47 ans, a été interpellé et placé en garde à vue. Mais il n&#39;a donné «aucune raison de son geste» et ses «motivations sont extrêmement floues», avait précisé le procureur. Sa garde à vue a été prolongée jusqu&#39;à vendredi vers 08H00. Il pourrait être déféré à ce moment-là à Montpellier en vue d&#39;une possible mise en examen, a-t-on précisé ...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:24</div>
+						<div class="source">Paris Match</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/edouard-baer-pousse-coup-gueule-contre-gouvernement-192400003">
+				<div class="article">
+					<div class="content">
+						<img src="/img/edouard-baer-pousse-coup-gueule-contre-gouvernement-192400003.jpg" alt="Edouard Baer pousse un coup de gueule contre le gouvernement">
+						<div class="groupdescription">
+							<h2 class="title">Edouard Baer pousse un coup de gueule contre le gouvernement</h2>
+							<div class="description"><hr>Dans un long message posté sur sa page Facebook ce mercredi, le comédien s&#39;indigne contre les « calculs politiciens » de l&#39;exécutif.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:24</div>
+						<div class="source">LePoint.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/attentats-paris-colère-parents-victime-française-lattaque-caire-192352127">
+				<div class="article">
+					<div class="content">
+						<img src="/img/attentats-paris-colère-parents-victime-française-lattaque-caire-192352127.jpg" alt="Attentats de Paris : la colère des parents de la victime française de l&#39;attaque du Caire">
+						<div class="groupdescription">
+							<h2 class="title">Attentats de Paris : la colère des parents de la victime française de l&#39;attaque du Caire</h2>
+							<div class="description"><hr>Des terroristes de novembre 2015 apparaissaient déjà dans le dossier de l&#39;attentat égyptien de 2009, qui a touché un groupe scolaire de Levallois-Perret. La famille de Cécile Vannier, tuée dans l&#39;explosion, pointe les ratés des services de renseignement et de l&#39;institution judiciaire.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:23</div>
+						<div class="source">LeFigaro.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/guantánamo-paris-sort-général-miller-retraite-190106165">
+				<div class="article">
+					<div class="content">
+						<img src="/img/guantánamo-paris-sort-général-miller-retraite-190106165.jpg" alt="Guantánamo : Paris sort le général Miller de sa retraite">
+						<div class="groupdescription">
+							<h2 class="title">Guantánamo : Paris sort le général Miller de sa retraite</h2>
+							<div class="description"><hr>Les efforts de deux anciens détenus ont abouti à la convocation le 1er mars par la justice française de l’ex-chef de la base américaine.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:21</div>
+						<div class="source">Liberation.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/médias-bolloré-rend-monnaie-pièce-182818936">
+				<div class="article">
+					<div class="content">
+						<img src="/img/médias-bolloré-rend-monnaie-pièce-182818936.jpg" alt="Médias : Bolloré rend la monnaie de sa pièce à Drahi">
+						<div class="groupdescription">
+							<h2 class="title">Médias : Bolloré rend la monnaie de sa pièce à Drahi</h2>
+							<div class="description"><hr>Technologie - A l’occasion des résultats annuels de Vivendi, le groupe a annoncé un accord de distribution des chaînes de BeIn Sports France en exclusivité sur Canal+. L’initiative sonne comme une réponse ...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:20</div>
+						<div class="source">La Tribune</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/kendall-jenner-regard-brulant-sex-appeal-au-top-192000518">
+				<div class="article">
+					<div class="content">
+						<img src="/img/kendall-jenner-regard-brulant-sex-appeal-au-top-192000518.jpg" alt="Kendall Jenner, regard brulant et sex-appeal au top pour Calvin Klein">
+						<div class="groupdescription">
+							<h2 class="title">Kendall Jenner, regard brulant et sex-appeal au top pour Calvin Klein</h2>
+							<div class="description"><hr>La collaboration entre la très sexy Kendall Jenner et la marque Calvin Klein se poursuit. Pour le découvrir, rendez-vous sur le compte Instagram du mannequin qui a partagé un cliché très sexy en</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:20</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/assouplissement-temps-travail-apprentis-mineurs-190551090">
+				<div class="article">
+					<div class="content">
+						<img src="/img/assouplissement-temps-travail-apprentis-mineurs-190551090.jpg" alt="Vers un assouplissement du temps de travail des apprentis mineurs">
+						<div class="groupdescription">
+							<h2 class="title">Vers un assouplissement du temps de travail des apprentis mineurs</h2>
+							<div class="description"><hr>Certains apprentis mineurs pourront, &quot;à titre exceptionnel ou lorsque des raisons objectives le justifient&quot;, travailler jusqu&#39;à 10 heures par jour et 40 heures par semaine, selon le projet de réforme du Code du travail.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:16</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/venezuela-président-maduro-pris-étau-entre-crise-lopposition-190927252">
+				<div class="article">
+					<div class="content">
+						<img src="/img/venezuela-président-maduro-pris-étau-entre-crise-lopposition-190927252.jpg" alt="Venezuela : le président Maduro pris en étau entre la crise et l&#39;opposition">
+						<div class="groupdescription">
+							<h2 class="title">Venezuela : le président Maduro pris en étau entre la crise et l&#39;opposition</h2>
+							<div class="description"><hr>Acculé par la crise économique, le président du Venezuela a été contraint d&#39;augmenter fortement le prix de l&#39;essence, une mesure impopulaire et cosmétique selon les analystes, mais dont pourrait profiter l&#39;opposition pour accentuer la pression sur le gouvernement.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:16</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/pascal-nègre-remplacé-olivier-nusse-à-tête-universal-190719653">
+				<div class="article">
+					<div class="content">
+						<img src="/img/pascal-nègre-remplacé-olivier-nusse-à-tête-universal-190719653.jpg" alt="Pascal Nègre remplacé par Olivier Nusse à la tête Universal Music France">
+						<div class="groupdescription">
+							<h2 class="title">Pascal Nègre remplacé par Olivier Nusse à la tête Universal Music France</h2>
+							<div class="description"><hr>L&#39;homme dirigeait le label de musique, filiale du groupe Vivendi, depuis 1998. </div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:16</div>
+						<div class="source">Francetv info</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/dame-landes-petite-histoire-vieille-lutte-france-185113013">
+				<div class="article">
+					<div class="content">
+						<img src="/img/dame-landes-petite-histoire-vieille-lutte-france-185113013.jpg" alt="Notre-Dame-des-Landes : petite histoire de « la plus vieille lutte de France »">
+						<div class="groupdescription">
+							<h2 class="title">Notre-Dame-des-Landes : petite histoire de « la plus vieille lutte de France »</h2>
+							<div class="description"><hr>Le conflit autour de ce projet d’aéroport, vieux de cinquante ans, est peu à peu devenu un symbole de la contestation contre les grands projets d’aménagement.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:15</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/migrants-lue-critique-lautriche-ne-relâche-pression-turquie-190143060">
+				<div class="article">
+					<div class="content">
+						<img src="/img/migrants-lue-critique-lautriche-ne-relâche-pression-turquie-190143060.jpg" alt="Migrants : l&#39;UE critique l&#39;Autriche, ne relâche pas la pression sur la Turquie">
+						<div class="groupdescription">
+							<h2 class="title">Migrants : l&#39;UE critique l&#39;Autriche, ne relâche pas la pression sur la Turquie</h2>
+							<div class="description"><hr>Les dirigeants européens ont critiqué mardi la décision de l&#39;Autriche d&#39;imposer des quotas quotidiens de demandeurs d&#39;asile, et exhorté une nouvelle fois Ankara à accentuer ses efforts dans la gestion des réfugiés.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:15</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/marc-trévidic-alliés-doivent-cesser-financer-l-extrémisme-191037310">
+				<div class="article">
+					<div class="content">
+						<img src="/img/marc-trévidic-alliés-doivent-cesser-financer-l-extrémisme-191037310.jpg" alt="Marc Trévidic - &quot;Nos alliés doivent cesser de financer l’extrémisme&quot;">
+						<div class="groupdescription">
+							<h2 class="title">Marc Trévidic - &quot;Nos alliés doivent cesser de financer l’extrémisme&quot;</h2>
+							<div class="description"><hr>Paris Match. Qu’est qui vous a poussé à publier un roman?Marc Trévidic. J’adore écrire, c’est même une passion depuis le début de l’adolescence. Mais comme l’écriture reste pour moi un loisir, je n’aime écrire que sur des sujets nouveaux, que je n’ai pas encore explorés. C’était le cas pour le sujet d’«Ahlam», autour des thèmes de la culture et de l’islam. Pourquoi situer votre histoire en Tunisie, sur une petite île en particulier ?La Tunisie est un pays de gens très cultivés, avec beaucoup de francophones dont je me sens proches. En la décrivant, je voulais montrer les bons côtés de la culture arabo-musulmane, les liens très forts qui l’unissent à la notre. C’est aussi une façon pour moi de répondre à la violence islamiste et à la haine radicale que j’ai vu défiler dans mon bureau pendant des années, en tant que juge anti-terroriste. Pourtant, dans votre roman, les artistes sont violemment mis à mal par les djihadistes.Oui, c’est une réflexion que je voulais mener. Le sujet me trottait dans la tête depuis un moment, mais le déclencheur pour moi, ça a été les attentats du 11 janvier contre «Charlie Hebdo». Au-delà des accusations de «blasphème» contre les caricatures de Mohamed, il y a cette haine profonde des islamistes contre toute forme de représentation visuelle, comme si les peintres et les sculpteurs voulaient rivaliser avec Dieu en représentant la nature. Je voulais approfondir ce mécanisme. C’est un rapport destructif à la création que j’ai remarqué depuis longtemps...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:10</div>
+						<div class="source">Paris Match</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/paris-paris-soixante-quinze-magazine-reportage-racontera-paris-190911203">
+				<div class="article">
+					<div class="content">
+						<img src="/img/paris-paris-soixante-quinze-magazine-reportage-racontera-paris-190911203.jpg" alt="Paris : Paris: «Soixante-Quinze», un magazine de reportage qui racontera le Paris de tous les jours">
+						<div class="groupdescription">
+							<h2 class="title">Paris : Paris: «Soixante-Quinze», un magazine de reportage qui racontera le Paris de tous les jours</h2>
+							<div class="description"><hr>MEDIAS - Il y a cinq ans, David Even et son équipe avaient déjà lancé « Le 13 du mois », un mensuel axé sur l’actualité du 13e arrondissement…</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:09</div>
+						<div class="source">20minutes.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/sénat-veut-modifier-plusieurs-règles-campagne-présidentielle-190911729">
+				<div class="article">
+					<div class="content">
+						<img src="/img/sénat-veut-modifier-plusieurs-règles-campagne-présidentielle-190911729.jpg" alt="Le Sénat veut modifier plusieurs règles de la campagne pour la présidentielle">
+						<div class="groupdescription">
+							<h2 class="title">Le Sénat veut modifier plusieurs règles de la campagne pour la présidentielle</h2>
+							<div class="description"><hr>Le Sénat a réduit jeudi de trois semaines à une dizaine de jours la &quot;période intermédiaire&quot; qui précède la campagne officielle pour l&#39;élection présidentielle, tout en maintenant le principe d&#39;&quot;égalité&quot; de temps de parole dans les médias entre les candidats.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:09</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/cyclisme-coquard-forfait-paris-nice-185001989--spt">
+				<div class="article">
+					<div class="content">
+						<img src="/img/cyclisme-coquard-forfait-paris-nice-185001989--spt.jpg" alt="Cyclisme: Coquard forfait pour Paris-Nice">
+						<div class="groupdescription">
+							<h2 class="title">Cyclisme: Coquard forfait pour Paris-Nice</h2>
+							<div class="description"><hr>L&#39;équipe Direct Energie a confirmé jeudi le forfait de Bryan Coquard à Paris-Nice (6-13 mars) à la suite de sa chute à l&#39;entraînement en début de semaine.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:05</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/google-moque-subtilement-dapple-162800212">
+				<div class="article">
+					<div class="content">
+						<img src="/img/google-moque-subtilement-dapple-162800212.jpg" alt="Quand Google se moque subtilement d&#39;Apple">
+						<div class="groupdescription">
+							<h2 class="title">Quand Google se moque subtilement d&#39;Apple</h2>
+							<div class="description"><hr>Android et iOS sont les deux mastodontes qui règnent sur le monde du mobile. La dernière pub de Google pour les Grammy Awards prend subtilement pour cible Apple et plus particulièrement le peu de diversité offert par la marque à la pomme.À voir aussi : Erreur 53 : Apple rend totalement inutilisables certains iPhone 6 et 6+Que nous montre cette publicité ? Un musicien ayant un piano de chaque côté. L&#39;un possède toutes les sonorités, tandis que l&#39;autre est monotune, ne jouant qu&#39;une seule note. ...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:05</div>
+						<div class="source">Gameblog</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/brexit-sommet-où-leurope-28-joue-182850768">
+				<div class="article">
+					<div class="content">
+						<img src="/img/brexit-sommet-où-leurope-28-joue-182850768.jpg" alt="Brexit: un sommet où l&#39;Europe des 28 se joue">
+						<div class="groupdescription">
+							<h2 class="title">Brexit: un sommet où l&#39;Europe des 28 se joue</h2>
+							<div class="description"><hr>Le maintien ou non du Royaume-Uni en son sein et la crise migratoire lancent un défi sans précédent à l&#39;Union européenne.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:01</div>
+						<div class="source">LeFigaro.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/pascal-nègre-remplacé-olivier-nusse-à-tête-d-182242808">
+				<div class="article">
+					<div class="content">
+						<img src="/img/pascal-nègre-remplacé-olivier-nusse-à-tête-d-182242808.jpg" alt="Pascal Nègre remplacé par Olivier Nusse à la tête d’Universal Music France">
+						<div class="groupdescription">
+							<h2 class="title">Pascal Nègre remplacé par Olivier Nusse à la tête d’Universal Music France</h2>
+							<div class="description"><hr>Olivier Nusse est actuellement directeur général de Mercury Music Group et d’Universal Classic &amp; Jazz France.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:01</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/shailene-woodley-découvrez-nouvelle-girlfriend-190120482">
+				<div class="article">
+					<div class="content">
+						<img src="/img/shailene-woodley-découvrez-nouvelle-girlfriend-190120482.jpg" alt="Shailene Woodley : découvrez sa nouvelle girlfriend !">
+						<div class="groupdescription">
+							<h2 class="title">Shailene Woodley : découvrez sa nouvelle girlfriend !</h2>
+							<div class="description"><hr>Main dans la main avec Isidora Goreshter, la star de Divergente s&#39;affiche épanouie...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:01</div>
+						<div class="source">Public</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/mise-examen-sarkozy-épée-damoclès-selon-fillon-175701995">
+				<div class="article">
+					<div class="content">
+						<img src="/img/mise-examen-sarkozy-épée-damoclès-selon-fillon-175701995.jpg" alt="Mise en examen de Sarkozy: une &quot;épée de Damoclès&quot; selon Fillon">
+						<div class="groupdescription">
+							<h2 class="title">Mise en examen de Sarkozy: une &quot;épée de Damoclès&quot; selon Fillon</h2>
+							<div class="description"><hr>L&#39;ancien Premier ministre François Fillon a jugé jeudi que la mise en examen de Nicolas Sarkozy pour financement illégal de sa campagne présidentielle de 2012 constituait &quot;une épée de Damoclès&quot; pour l&#39;ex-chef de l&#39;Etat.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/enseignant-relaxé-à-aubervilliers-parquet-fait-appel-185203194">
+				<div class="article">
+					<div class="content">
+						<img src="/img/enseignant-relaxé-à-aubervilliers-parquet-fait-appel-185203194.jpg" alt="Enseignant relaxé à Aubervilliers: Le parquet fait appel">
+						<div class="groupdescription">
+							<h2 class="title">Enseignant relaxé à Aubervilliers: Le parquet fait appel</h2>
+							<div class="description"><hr>JUSTICE - Le professeur de l’école maternelle Jean-Perrin avait affirmé en décembre qu’il s’était fait agresser dans sa classe par un homme qui se revendiquait de Daesh…</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">20minutes.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/réforme-marché-travail-gouvernement-divise-encore-ps-170956762">
+				<div class="article">
+					<div class="content">
+						<img src="/img/réforme-marché-travail-gouvernement-divise-encore-ps-170956762.jpg" alt="Réforme du marché du travail : le gouvernement divise (encore) le PS">
+						<div class="groupdescription">
+							<h2 class="title">Réforme du marché du travail : le gouvernement divise (encore) le PS</h2>
+							<div class="description"><hr>Le projet de loi El Khomri, qui introduit plus de flexibilité, est critiqué par les frondeurs mais aussi par Jean-Christophe Cambadélis. « Qu&#39;est-ce que c&#39;est que ce parti ? » s&#39;énerve l&#39;ex-ministre PS Nicole Bricq, qui dénonce « les réactions pour saboter le travail du gouvernement ».</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">Public Sénat</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/invention-dune-agression-jihadiste-parquet-fait-appel-relaxe-174801279">
+				<div class="article">
+					<div class="content">
+						<img src="/img/invention-dune-agression-jihadiste-parquet-fait-appel-relaxe-174801279.jpg" alt="Invention d&#39;une agression jihadiste: le parquet fait appel de la relaxe de l&#39;instituteur">
+						<div class="groupdescription">
+							<h2 class="title">Invention d&#39;une agression jihadiste: le parquet fait appel de la relaxe de l&#39;instituteur</h2>
+							<div class="description"><hr>Le parquet de Bobigny a annoncé jeudi sur Twitter avoir fait appel de la décision du tribunal correctionnel d&#39;éteindre les poursuites, en raison de vices de procédure, contre l&#39;instituteur d&#39;Aubervilliers qui dit avoir été victime d&#39;une attaque jihadiste mi-décembre dans sa classe.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/syndicats-montent-au-créneau-contre-projet-loi-el-184159969">
+				<div class="article">
+					<div class="content">
+						<img src="/img/syndicats-montent-au-créneau-contre-projet-loi-el-184159969.jpg" alt="Les syndicats montent au créneau contre le projet de loi El Khomri">
+						<div class="groupdescription">
+							<h2 class="title">Les syndicats montent au créneau contre le projet de loi El Khomri</h2>
+							<div class="description"><hr>«Gravissime», «hallucinante», «invraisemblable» : la réforme du code du travail, saluée par le patronat, secoue la majorité des centrales. Elles pourraient décider de faire bataille commune.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">Liberation.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/canal-droits-étrangers-clash-papal-lessentiel-lactu-jeudi-183415094">
+				<div class="article">
+					<div class="content">
+						<img src="/img/canal-droits-étrangers-clash-papal-lessentiel-lactu-jeudi-183415094.jpg" alt="Canal+, droits des étrangers, clash papal... l&#39;essentiel de l&#39;actu de ce jeudi">
+						<div class="groupdescription">
+							<h2 class="title">Canal+, droits des étrangers, clash papal... l&#39;essentiel de l&#39;actu de ce jeudi</h2>
+							<div class="description"><hr>Vous n&#39;avez rien suivi à l&#39;actu du jour ? Pas de problème, voici de quoi rattraper l&#39;essentiel.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">Liberation.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/attentat-dankara-turquie-accuse-kurdes-pkk-175827320">
+				<div class="article">
+					<div class="content">
+						<img src="/img/attentat-dankara-turquie-accuse-kurdes-pkk-175827320.jpg" alt="Attentat d&#39;Ankara : la Turquie accuse les Kurdes du PKK">
+						<div class="groupdescription">
+							<h2 class="title">Attentat d&#39;Ankara : la Turquie accuse les Kurdes du PKK</h2>
+							<div class="description"><hr>Selon les autorités, l&#39;attaque de mercredi est l&#39;œuvre du PKK et de sa branche kurde en Syrie, les YPG, que l&#39;armée turque pilonne depuis près d&#39;une semaine.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">LeFigaro.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/ukraine-coalition-pro-occidentale-au-pouvoir-point-déclater-175411964">
+				<div class="article">
+					<div class="content">
+						<img src="/img/ukraine-coalition-pro-occidentale-au-pouvoir-point-déclater-175411964.jpg" alt="Ukraine: la coalition pro-occidentale au pouvoir sur le point d&#39;éclater">
+						<div class="groupdescription">
+							<h2 class="title">Ukraine: la coalition pro-occidentale au pouvoir sur le point d&#39;éclater</h2>
+							<div class="description"><hr>La coalition pro-occidentale au pouvoir en Ukraine est sur le point d&#39;éclater après la sortie jeudi d&#39;un second parti, très critique envers le Premier ministre Arseni Iatseniouk, qui a échappé mardi à une motion de censure.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/allemagne-migrants-criminalité-détourner-statistiques-175134375">
+				<div class="article">
+					<div class="content">
+						<img src="/img/allemagne-migrants-criminalité-détourner-statistiques-175134375.jpg" alt="Allemagne, migrants, criminalité : comment détourner des statistiques">
+						<div class="groupdescription">
+							<h2 class="title">Allemagne, migrants, criminalité : comment détourner des statistiques</h2>
+							<div class="description"><hr>Extrait d’un rapport de la police allemande, le chiffre de « 200 000 actes criminels » commis par des migrants fait les délices de l’extrême droite française. Qui oublie bien souvent de le remettre en contexte.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/canal-france-enregistré-forte-perte-2015-174725467">
+				<div class="article">
+					<div class="content">
+						<img src="/img/canal-france-enregistré-forte-perte-2015-174725467.jpg" alt="Canal+ France a enregistré une forte perte en 2015">
+						<div class="groupdescription">
+							<h2 class="title">Canal+ France a enregistré une forte perte en 2015</h2>
+							<div class="description"><hr>Le groupe a perdu 405 000 abonnements en un an, qui lui vaut de subir une perte de 264 millions d’euros.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/face-au-virus-zika-l-avortement-crime-pape-181421193">
+				<div class="article">
+					<div class="content">
+						<img src="/img/face-au-virus-zika-l-avortement-crime-pape-181421193.jpg" alt="Face au virus Zika, l’avortement reste « un crime » pour le pape François">
+						<div class="groupdescription">
+							<h2 class="title">Face au virus Zika, l’avortement reste « un crime » pour le pape François</h2>
+							<div class="description"><hr>A l’issue d’un voyage de cinq jours au Mexique, la pape François a néanmoins estimé que le recours à la contraception pour faire face au virus Zika est un moindre mal.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/pape-françois-réaffirme-lavortement-crime-180539737">
+				<div class="article">
+					<div class="content">
+						<img src="/img/pape-françois-réaffirme-lavortement-crime-180539737.jpg" alt="Pour le pape François, Donald Trump n&#39;est pas un «chrétien» et l&#39;avortement est un «crime»">
+						<div class="groupdescription">
+							<h2 class="title">Pour le pape François, Donald Trump n&#39;est pas un «chrétien» et l&#39;avortement est un «crime»</h2>
+							<div class="description"><hr>RELIGION - En quittant le Mexique pour rejoindre Rome, le pape François s’est livré ce jeudi à une grande conférence de presse…</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">20minutes.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/contraception-trump-pédophilie-annonces-surprenantes-175959671">
+				<div class="article">
+					<div class="content">
+						<img src="/img/contraception-trump-pédophilie-annonces-surprenantes-175959671.jpg" alt="Virus Zika, avortement, pédophilie... Les déclarations chocs du pape François">
+						<div class="groupdescription">
+							<h2 class="title">Virus Zika, avortement, pédophilie... Les déclarations chocs du pape François</h2>
+							<div class="description"><hr>RELIGION - Ce jeudi 18 février, le pape François s&#39;est fendu d&#39;une série d&#39;annonces qui ne sont pas passées inaperçues. L&#39;avortement est un &quot;crime&quot;, mais la contraception peut exceptionnellement être un moindre mal, a-t-il notamment affirmé, interrogé sur les moyens de combattre l&#39;épidémie Zika, dans l&#39;avion qui le ramenait du Mexique.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">Le Huffington Post</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/congo-général-mokoko-convoqué-services-sécurité-brazzaville-174038719">
+				<div class="article">
+					<div class="content">
+						<img src="/img/congo-général-mokoko-convoqué-services-sécurité-brazzaville-174038719.jpg" alt="Congo : le général Mokoko convoqué par les services de sécurité de Brazzaville">
+						<div class="groupdescription">
+							<h2 class="title">Congo : le général Mokoko convoqué par les services de sécurité de Brazzaville</h2>
+							<div class="description"><hr>Le rival du président Denis Sassou Nguesso, qui cumule près de 32 années au pouvoir, est convoqué vendredi à la Direction générale de la surveillance du territoire</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/fashion-week-jennifer-hudson-emily-ratajkowski-stars-derniers-172700061">
+				<div class="article">
+					<div class="content">
+						<img src="/img/fashion-week-jennifer-hudson-emily-ratajkowski-stars-derniers-172700061.jpg" alt="Fashion Week : Jennifer Hudson, Emily Ratajkowski... stars des derniers défilés">
+						<div class="groupdescription">
+							<h2 class="title">Fashion Week : Jennifer Hudson, Emily Ratajkowski... stars des derniers défilés</h2>
+							<div class="description"><hr>Suite et fin du marathon mode pour les spectateurs stars des shows new-yorkais...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/fashion-week-new-york-show-calvin-klein-collection-183000260">
+				<div class="article">
+					<div class="content">
+						<img src="/img/fashion-week-new-york-show-calvin-klein-collection-183000260.jpg" alt="Fashion Week de New York : le show Calvin Klein Collection en live sur PureTrend">
+						<div class="groupdescription">
+							<h2 class="title">Fashion Week de New York : le show Calvin Klein Collection en live sur PureTrend</h2>
+							<div class="description"><hr>Ce jeudi 18 février 2016, Calvin Klein Collection clôture la Fashion Week de l&#39;Automne-Hiver 2016/2017. Un défilé que nous vous proposons de suivre en direct sur PureTrend .</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/magazine-public-célèbre-chroniqueuse-larguée-mec-couverture-171121048">
+				<div class="article">
+					<div class="content">
+						<img src="/img/magazine-public-célèbre-chroniqueuse-larguée-mec-couverture-171121048.jpg" alt="Magazine Public : Une célèbre chroniqueuse larguée par son mec en couverture !">
+						<div class="groupdescription">
+							<h2 class="title">Magazine Public : Une célèbre chroniqueuse larguée par son mec en couverture !</h2>
+							<div class="description"><hr>Cette semaine, retrouvez en exclusivité dans votre magazine Public, Une célèbre chroniqueuse larguée par son mec en couverture ! Également en une, un autre SCOOP sur une star de téléréalité : sa nouvelle vie de célib! Découvrez aussi les premières photos de son ex-footballeur avec sa nouvelle amoureuse. À ne pas manquer : Adele : une maman comme les autres ! Retrouvez aussi la Public Story : Loana peut-elle revenir dans la lumière? A découvrir également, quatre interviews exclusives : Louane : &quot;Je dédie ma victoire à mes parents!&quot;, Slimane (The Voice) : &quot;Tous les six mois? Je me demandais s&#39;il fallait continuer&quot;, Ryan Reynolds : &quot;Blake aime tant mon déguisement de Deadpool qu&#39;on ne fait plus l&#39;amour sans!&quot; et Joyce Jonathan : &quot;Je vis chaque rupture comme la fin du monde&quot;. Public vous dévoile aussi les coulisses d&#39;un Diner presque parfait avec le Marseillais Paga ! Enfin, ne loupez rien de notre Big Dossier : Déjà quinquas mais ce ne se voit pas, notre top 10 ! Et bien sûr, les dernières tendances du moment avec nos pages mode et beauté !</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">Public</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/bourse-paris-maintient-vert-surveillant-cours-pétrole-175805550--finance">
+				<div class="article">
+					<div class="content">
+						<img src="/img/bourse-paris-maintient-vert-surveillant-cours-pétrole-175805550--finance.jpg" alt="La Bourse de Paris se maintient dans le vert, en surveillant les cours du pétrole">
+						<div class="groupdescription">
+							<h2 class="title">La Bourse de Paris se maintient dans le vert, en surveillant les cours du pétrole</h2>
+							<div class="description"><hr>La Bourse de Paris s’est maintenue très légèrement dans le vert (+0,15%) jeudi, en surveillant les cours du pétrole qui servent de boussole aux investisseurs depuis le début de l’année.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">LeFigaro.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/edouard-baer-coup-gueule-lacteur-190000924">
+				<div class="article">
+					<div class="content">
+						<img src="/img/edouard-baer-coup-gueule-lacteur-190000924.jpg" alt="Edouard Baer : Le coup de gueule de l&#39;acteur">
+						<div class="groupdescription">
+							<h2 class="title">Edouard Baer : Le coup de gueule de l&#39;acteur</h2>
+							<div class="description"><hr>Il a choisi sa page Facebook pour écrire une chronique sur la France et son gouvernement.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/doutzen-kroes-andres-velencoso-lelegant-duo-massimo-dutti-190000122">
+				<div class="article">
+					<div class="content">
+						<img src="/img/doutzen-kroes-andres-velencoso-lelegant-duo-massimo-dutti-190000122.jpg" alt="Doutzen Kroes et Andres Velencoso : l&#39;elegant duo de Massimo Dutti">
+						<div class="groupdescription">
+							<h2 class="title">Doutzen Kroes et Andres Velencoso : l&#39;elegant duo de Massimo Dutti</h2>
+							<div class="description"><hr>Pour la nouvelle campagne publicitaire de sa collection NYC en édition limitée Printemps-Été 2016, Massimo Dutti a fait appel à un casting de premier choix. L&#39;enseigne espagnole s&#39;est ainsi</div>
+						</div>
+						<div class="date">le 18/02/2016 à 20:00</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/jean-marie-bigard-larmes-évoquant-mort-maman-174200401">
+				<div class="article">
+					<div class="content">
+						<img src="/img/jean-marie-bigard-larmes-évoquant-mort-maman-174200401.jpg" alt="Jean-Marie Bigard en larmes en évoquant la mort de sa maman">
+						<div class="groupdescription">
+							<h2 class="title">Jean-Marie Bigard en larmes en évoquant la mort de sa maman</h2>
+							<div class="description"><hr>Jean-Marie Bigard a brisé sa carapace dans &quot;Folie passagère&quot;...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:59</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/pascal-nègre-débarqué-duniversal-music-185911846">
+				<div class="article">
+					<div class="content">
+						<img src="/img/pascal-nègre-débarqué-duniversal-music-185911846.jpg" alt="Pascal Nègre débarqué d'Universal Music France">
+						<div class="groupdescription">
+							<h2 class="title">Pascal Nègre débarqué d'Universal Music France</h2>
+							<div class="description"><hr>Pascal Nègre, à la tête de Universal Music France depuis 18 ans, a été débarqué ce jeudi 18 février, rapporte le site Internet de l'hebdomadaire &quot;Le Point&quot;.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:59</div>
+						<div class="source">La Tribune</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/fleur-pellerin-victime-propos-sexistes-185850609">
+				<div class="article">
+					<div class="content">
+						<img src="/img/fleur-pellerin-victime-propos-sexistes-185850609.jpg" alt="Fleur Pellerin victime de propos sexistes ? Elle se confie">
+						<div class="groupdescription">
+							<h2 class="title">Fleur Pellerin victime de propos sexistes ? Elle se confie</h2>
+							<div class="description"><hr>Le remaniement ministériel a bouleversé la sphère politique et les médias sont nombreux à interroger les anciens ministres suite à leur éviction. Invitée aux micros de Marc-Olivier Fogiel, Fleur Pellerin est revenue sur les rumeurs qui disent qu&#39;elle se serait évanouie suite à l&#39;annonce de ce grand changement. Non Stop People vous en dit plus.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:58</div>
+						<div class="source">Non Stop People</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/20h-people-céline-dion-retour-185800199">
+				<div class="article">
+					<div class="content">
+						<img src="/img/20h-people-céline-dion-retour-185800199.jpg" alt="20h People : Céline Dion de retour en studio, le contrôle judiciaire de Karim Benzema levé">
+						<div class="groupdescription">
+							<h2 class="title">20h People : Céline Dion de retour en studio, le contrôle judiciaire de Karim Benzema levé</h2>
+							<div class="description"><hr>Qu&#39;ont fait les stars aujourd&#39;hui ? La réponse se trouve dans notre 20h people ! Au sommaire ce soir : Céline Dion de retour en studio et le contrôle judiciaire de Karim Benzema levé...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:58</div>
+						<div class="source">Closer</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/norwegian-annonce-prix-dingues-etats-185659435">
+				<div class="article">
+					<div class="content">
+						<img src="/img/norwegian-annonce-prix-dingues-etats-185659435.jpg" alt="Norwegian annonce des prix dingues vers les Etats-Unis!">
+						<div class="groupdescription">
+							<h2 class="title">Norwegian annonce des prix dingues vers les Etats-Unis!</h2>
+							<div class="description"><hr>La compagnie low-cost a annoncé le lancement, fin juillet, de vols au départ de Paris vers New York au prix d'appel de 179 euros TTC l'aller simple et vers Los Angeles et Fort Lauderdale à partir de 199 ...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:56</div>
+						<div class="source">La Tribune</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/immigration-etats-unis-donald-trump-nest-chrétien-selon-172935666">
+				<div class="article">
+					<div class="content">
+						<img src="/img/immigration-etats-unis-donald-trump-nest-chrétien-selon-172935666.jpg" alt="Immigration/Etats-Unis: Donald Trump n&#39;est &quot;pas chrétien&quot;, selon le pape François">
+						<div class="groupdescription">
+							<h2 class="title">Immigration/Etats-Unis: Donald Trump n&#39;est &quot;pas chrétien&quot;, selon le pape François</h2>
+							<div class="description"><hr>Le milliardaire américain Donald Trump ne peut se revendiquer comme &quot;chrétien&quot; quand il promet de construire des murs contre les immigrés, a affirmé jeudi le pape François dans l&#39;avion qui le ramenait du Mexique à Rome.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:56</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/argentine-dauphin-meurt-déshydraté-après-touristes-lont-sorti-185603970">
+				<div class="article">
+					<div class="content">
+						<img src="/img/argentine-dauphin-meurt-déshydraté-après-touristes-lont-sorti-185603970.jpg" alt="Argentine : un dauphin meurt déshydraté après que des touristes l&#39;ont sorti de l&#39;eau pour faire des selfies">
+						<div class="groupdescription">
+							<h2 class="title">Argentine : un dauphin meurt déshydraté après que des touristes l&#39;ont sorti de l&#39;eau pour faire des selfies</h2>
+							<div class="description"><hr>L&#39;animal est passé de main en main afin que les vacanciers aient tous une photo.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:56</div>
+						<div class="source">Francetv info</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/air-france-vidalies-conditions-dune-négociation-réussie-réunies-185542382">
+				<div class="article">
+					<div class="content">
+						<img src="/img/air-france-vidalies-conditions-dune-négociation-réussie-réunies-185542382.jpg" alt="Air France: pour Vidalies, les conditions d&#39;une négociation réussie sont réunies">
+						<div class="groupdescription">
+							<h2 class="title">Air France: pour Vidalies, les conditions d&#39;une négociation réussie sont réunies</h2>
+							<div class="description"><hr>Le secrétaire d&#39;Etat aux Transports Alain Vidalies a estimé jeudi, après les bons résultats annuels affichés par Air France, que &quot;les conditions d&#39;une réussite de la négociation&quot; avec le personnel pour la mise en place d&#39;un plan de croissance &quot;sont aujourd&#39;hui réunies&quot;.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:55</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/fifa-cest-facile-dire-cest-bête-noire-défend-182553350--spt">
+				<div class="article">
+					<div class="content">
+						<img src="/img/fifa-cest-facile-dire-cest-bête-noire-défend-182553350--spt.jpg" alt="Fifa: «C&#39;est trop facile de dire que c&#39;est moi la bête noire», se défend Blatter">
+						<div class="groupdescription">
+							<h2 class="title">Fifa: «C&#39;est trop facile de dire que c&#39;est moi la bête noire», se défend Blatter</h2>
+							<div class="description"><hr>FOOTBALL - Le dirigeant suisse était invité sur RMC ce jeudi...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:55</div>
+						<div class="source">20minutes.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/vivendi-va-lancer-opa-l-éditeur-jeux-vidéo-185142525">
+				<div class="article">
+					<div class="content">
+						<img src="/img/vivendi-va-lancer-opa-l-éditeur-jeux-vidéo-185142525.jpg" alt="Vivendi va lancer une OPA sur l’éditeur de jeux vidéo Gameloft">
+						<div class="groupdescription">
+							<h2 class="title">Vivendi va lancer une OPA sur l’éditeur de jeux vidéo Gameloft</h2>
+							<div class="description"><hr>Le groupe est monté à 30 % du capital de l’entreprise fondée par Michel Guillemot, cofondateur d’Ubisoft.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:51</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/après-dma-deux-jeunes-gens-vent-185047158">
+				<div class="article">
+					<div class="content">
+						<img src="/img/après-dma-deux-jeunes-gens-vent-185047158.jpg" alt="Après leur DMA, deux jeunes gens dans le vent">
+						<div class="groupdescription">
+							<h2 class="title">Après leur DMA, deux jeunes gens dans le vent</h2>
+							<div class="description"><hr>Passionnés de musique, Jérôme Wiss et Laura Weiss ont suivi une formation en alternance à l’Itemm, au Mans. Ils y ont appris à réparer ou à concevoir des instruments. Un parcours sans fausse note, clôt par un BMA pour elle, un DMA pour lui.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:50</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/molenbeek-accusé-laxisme-lancien-maire-contre-attaque-184700599">
+				<div class="article">
+					<div class="content">
+						<img src="/img/molenbeek-accusé-laxisme-lancien-maire-contre-attaque-184700599.jpg" alt="Molenbeek : accusé de laxisme, l&#39;ancien maire contre-attaque">
+						<div class="groupdescription">
+							<h2 class="title">Molenbeek : accusé de laxisme, l&#39;ancien maire contre-attaque</h2>
+							<div class="description"><hr>L&#39;ex-bourgmestre de la commune, Philippe Moureaux, publie un livre pour répondre aux nombreuses attaques sur sa gestion de la commune pendant 20 ans.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:47</div>
+						<div class="source">LePoint.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/ligue-2-red-star-change-défense-à-brest-184700950--spt">
+				<div class="article">
+					<div class="content">
+						<img src="/img/ligue-2-red-star-change-défense-à-brest-184700950--spt.jpg" alt="Ligue 2 : le Red Star change de défense à Brest">
+						<div class="groupdescription">
+							<h2 class="title">Ligue 2 : le Red Star change de défense à Brest</h2>
+							<div class="description"><hr>C’EST UNE comeilleure défense de Ligue 2 modifiée que le Red Star va aligner vendredi soir dans la rade de Brest, à l&#39;occasion de la 27e journée de Ligue 2. Les suspensions de Lloyd Palun...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:47</div>
+						<div class="source">LeParisien.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/dakota-johnson-sexplique-doublure-fesse-50-shades-184600590">
+				<div class="article">
+					<div class="content">
+						<img src="/img/dakota-johnson-sexplique-doublure-fesse-50-shades-184600590.jpg" alt="Dakota Johnson s&#39;explique sur sa doublure fesse pour 50 Shades">
+						<div class="groupdescription">
+							<h2 class="title">Dakota Johnson s&#39;explique sur sa doublure fesse pour 50 Shades</h2>
+							<div class="description"><hr>La jeune actrice américaine a révélé pourquoi elle a dû avoir recours à une doublure fesse pour ses scènes de nuit. Et ce n&#39;est pas qu&#39;une question de pudeur selon elle.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:46</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/dma-vingt-deux-spécialités-métiers-d-arts-184540036">
+				<div class="article">
+					<div class="content">
+						<img src="/img/dma-vingt-deux-spécialités-métiers-d-arts-184540036.jpg" alt="Le DMA, vingt-deux spécialités dans les métiers d’arts">
+						<div class="groupdescription">
+							<h2 class="title">Le DMA, vingt-deux spécialités dans les métiers d’arts</h2>
+							<div class="description"><hr>Le diplôme des métiers d’arts (DMA) se prépare en deux ans après le bac, en formation ­initiale ou en apprentissage.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:45</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/letizia-despagne-reine-printaniere-joli-manteau-pastel-184500951">
+				<div class="article">
+					<div class="content">
+						<img src="/img/letizia-despagne-reine-printaniere-joli-manteau-pastel-184500951.jpg" alt="Letizia d&#39;Espagne : une reine printaniere dans son joli manteau pastel">
+						<div class="groupdescription">
+							<h2 class="title">Letizia d&#39;Espagne : une reine printaniere dans son joli manteau pastel</h2>
+							<div class="description"><hr>Exit les tailleurs stricts et sombres, c&#39;est dans un manteau rose pastel que Letizia d&#39;Espagne a assuré mercredi ses fonctions de reine. Une allure qui fleure bon le printemps et dont on n&#39;hésite</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:45</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/euro-2016-lespagne-affrontera-bosnie-corée-sud-préparation-184443688--sow">
+				<div class="article">
+					<div class="content">
+						<img src="/img/euro-2016-lespagne-affrontera-bosnie-corée-sud-préparation-184443688--sow.jpg" alt="Euro-2016: l&#39;Espagne affrontera Bosnie et Corée du Sud en préparation">
+						<div class="groupdescription">
+							<h2 class="title">Euro-2016: l&#39;Espagne affrontera Bosnie et Corée du Sud en préparation</h2>
+							<div class="description"><hr>L&#39;Espagne, double championne d&#39;Europe en titre, affrontera la Bosnie le 29 mai en Suisse et la Corée du Sud le 1er juin en Autriche en matches de préparation à l&#39;Euro-2016 en France, a annoncé jeudi la Fédération espagnole (RFEF).</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:44</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/world-press-photo-choisi-bon-sujet-bonne-image-184401522">
+				<div class="article">
+					<div class="content">
+						<img src="/img/world-press-photo-choisi-bon-sujet-bonne-image-184401522.jpg" alt="Le World Press Photo a choisi le bon sujet, mais pas la bonne image">
+						<div class="groupdescription">
+							<h2 class="title">Le World Press Photo a choisi le bon sujet, mais pas la bonne image</h2>
+							<div class="description"><hr>Signée de l&#39;australien Warren Richardson, la photo de l&#39;année, qui montre des réfugiés à la frontière serbo-hongroise, est trop douce et trop classique pour un drame d&#39;une telle violence. Chaque année, le World Press Photo déçoit les attentes. 2016 ne fait pas exception.  Le 18 février, le prix de la «photo de l&#39;année» ...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:44</div>
+						<div class="source">Slate.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/c-à-mohamed-merah-touchant-184332139">
+				<div class="article">
+					<div class="content">
+						<img src="/img/c-à-mohamed-merah-touchant-184332139.jpg" alt="C à Vous - Mohamed Merah : Le touchant témoignage de la mère d’une de ses victimes (vidéo)">
+						<div class="groupdescription">
+							<h2 class="title">C à Vous - Mohamed Merah : Le touchant témoignage de la mère d’une de ses victimes (vidéo)</h2>
+							<div class="description"><hr>Anne-Sophie Lapix recevait jeudi soir dans C à Vous Latifa Ibn Ziaten, la mère de l’un des soldats assassinés par Mohamed Merah en 2012. Engagée depuis la mort de son fils dans la lutte contre la radicalisation des jeunes, elle a livré un témoignage très touchant sur son action. Une séquence que nous vous proposons de retrouver sur notre site Non Stop Zapping.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:43</div>
+						<div class="source">Non Stop Zapping</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/appel-parquet-après-relaxe-l-instituteur-d-aubervilliers-183746360">
+				<div class="article">
+					<div class="content">
+						<img src="/img/appel-parquet-après-relaxe-l-instituteur-d-aubervilliers-183746360.jpg" alt="Appel du parquet après la relaxe de l’instituteur d’Aubervilliers soupçonné d’avoir inventé une agression">
+						<div class="groupdescription">
+							<h2 class="title">Appel du parquet après la relaxe de l’instituteur d’Aubervilliers soupçonné d’avoir inventé une agression</h2>
+							<div class="description"><hr>Le parquet doute de la réalité de l’agression, bien que l’enseignant soit revenu sur ses aveux.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:37</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/pascal-nègre-quitte-présidence-duniversal-music-france-selon-183022985--finance">
+				<div class="article">
+					<div class="content">
+						<img src="/img/pascal-nègre-quitte-présidence-duniversal-music-france-selon-183022985--finance.jpg" alt="Pascal Nègre quitte la présidence d&#39;Universal Music France">
+						<div class="groupdescription">
+							<h2 class="title">Pascal Nègre quitte la présidence d&#39;Universal Music France</h2>
+							<div class="description"><hr>Pascal Nègre, figure de l&#39;industrie musicale, quitte la présidence d&#39;Universal Music France, plus grande maison de disque de l&#39;Hexagone, qu&#39;il dirigeait depuis 18 ans, a annoncé le groupe, filiale de Vivendi, jeudi.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:37</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/chine-sauve-femme-dun-immeuble-feu-183458926">
+				<div class="article">
+					<div class="content">
+						<img src="/img/chine-sauve-femme-dun-immeuble-feu-183458926.jpg" alt="Chine : il sauve une femme d&#39;un immeuble en feu">
+						<div class="groupdescription">
+							<h2 class="title">Chine : il sauve une femme d&#39;un immeuble en feu</h2>
+							<div class="description"><hr>Zhang Yang, un ancien policier, a grimpé au troisième étage d&#39;un bâtiment en feu de Xianning pour venir en aide à une jeune femme prisonnière des flammes.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:34</div>
+						<div class="source">Francetv info</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/the-walking-dead-michonne-titres-français-disponibles-dès-183000880">
+				<div class="article">
+					<div class="content">
+						<img src="/img/the-walking-dead-michonne-titres-français-disponibles-dès-183000880.jpg" alt="The Walking Dead Michonne : Les sous-titres français disponibles dès la sortie ?">
+						<div class="groupdescription">
+							<h2 class="title">The Walking Dead Michonne : Les sous-titres français disponibles dès la sortie ?</h2>
+							<div class="description"><hr>Comme vous le savez le premier épisode de The Walking Dead Michonne intitulé &quot;In too Deep&quot; sera disponible prochainement sur consoles et PC. Eh bien sachez qu&#39;aujourd&#39;hui, nous apprenons que le VOSTFR pourrait être disponible dès la sortie du jeu. ...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:30</div>
+						<div class="source">Gameblog</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/box-office-match-entre-jamel-debbouze-kev-adams-182928505">
+				<div class="article">
+					<div class="content">
+						<img src="/img/box-office-match-entre-jamel-debbouze-kev-adams-182928505.jpg" alt="Box-office: le match entre Jamel Debbouze et Kev Adams">
+						<div class="groupdescription">
+							<h2 class="title">Box-office: le match entre Jamel Debbouze et Kev Adams</h2>
+							<div class="description"><hr>VIDÉOS - Sur le ring des sorties du mercredi, les deux humoristes s&#39;affrontent: l&#39;un dans la comédie de Mohamed Hamidi La Vache, l&#39;autre dans Amis publics d&#39;Edouard Pluvieux.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:29</div>
+						<div class="source">LeFigaro.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/orelsan-laurent-fabius-canal-informations-à-retenir-fin-182847843">
+				<div class="article">
+					<div class="content">
+						<img src="/img/orelsan-laurent-fabius-canal-informations-à-retenir-fin-182847843.jpg" alt="Orelsan, Laurent Fabius, Canal+… Les informations à retenir en fin de journée">
+						<div class="groupdescription">
+							<h2 class="title">Orelsan, Laurent Fabius, Canal+… Les informations à retenir en fin de journée</h2>
+							<div class="description"><hr>Le rappeur Orelsan relaxé pour ses textes violents envers les femmes</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:28</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/canal-veut-sappuyer-bein-sports-redresser-182524915">
+				<div class="article">
+					<div class="content">
+						<img src="/img/canal-veut-sappuyer-bein-sports-redresser-182524915.jpg" alt="Canal+ veut s&#39;appuyer sur BeIN Sports pour se redresser">
+						<div class="groupdescription">
+							<h2 class="title">Canal+ veut s&#39;appuyer sur BeIN Sports pour se redresser</h2>
+							<div class="description"><hr>Les chaînes Canal+ en France ont perdu 405 000 abonnements en un an. Le groupe affiche une perte de 264 millions d&#39;euros l&#39;an dernier.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:25</div>
+						<div class="source">Liberation.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/au-venezuela-lessence-coûtera-60-fois-cher-182349835">
+				<div class="article">
+					<div class="content">
+						<img src="/img/au-venezuela-lessence-coûtera-60-fois-cher-182349835.jpg" alt="Au Venezuela, l&#39;essence coûtera 60 fois plus cher">
+						<div class="groupdescription">
+							<h2 class="title">Au Venezuela, l&#39;essence coûtera 60 fois plus cher</h2>
+							<div class="description"><hr>Le président Maduro espère que la mesure, qui s&#39;accompagne d&#39;une dévaluation de la monnaie, soulagera une économie en ruines.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:23</div>
+						<div class="source">Liberation.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/pape-françois-estime-donald-trump-nest-chrétien-honteux-182331257">
+				<div class="article">
+					<div class="content">
+						<img src="/img/pape-françois-estime-donald-trump-nest-chrétien-honteux-182331257.jpg" alt="Le pape François estime que Donald Trump n&#39;est &quot;pas chrétien&quot;, &quot;honteux&quot; lui répond le candidat républicain">
+						<div class="groupdescription">
+							<h2 class="title">Le pape François estime que Donald Trump n&#39;est &quot;pas chrétien&quot;, &quot;honteux&quot; lui répond le candidat républicain</h2>
+							<div class="description"><hr>&quot;Une personne qui veut construire des murs et non des ponts n&#39;est pas chrétienne&quot;, a déclaré le souverain pontif, interrogé sur les positions anti-immigrés du candidat à la primaire républicaine.  </div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:23</div>
+						<div class="source">Francetv info</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/exclu-découvrez-coulisses-nouveau-talk-show-dalessandra-sublet-182158512">
+				<div class="article">
+					<div class="content">
+						<img src="/img/exclu-découvrez-coulisses-nouveau-talk-show-dalessandra-sublet-182158512.jpg" alt="Exclu. Découvrez les coulisses du nouveau talk-show d&#39;Alessandra Sublet !">
+						<div class="groupdescription">
+							<h2 class="title">Exclu. Découvrez les coulisses du nouveau talk-show d&#39;Alessandra Sublet !</h2>
+							<div class="description"><hr>Arrivée sur TF1 en décembre dernier, Alessandra Sublet y lancera un talk-show, Action ou vérité, vendredi 18 mars prochain. Nous avons assisté à l&#39;enregistrement de la première. </div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:21</div>
+						<div class="source">Télé-Loisirs.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/léa-salamé-permis-mairie-paris-moque-182001183">
+				<div class="article">
+					<div class="content">
+						<img src="/img/léa-salamé-permis-mairie-paris-moque-182001183.jpg" alt="Léa Salamé sans permis : la Mairie de Paris se moque !">
+						<div class="groupdescription">
+							<h2 class="title">Léa Salamé sans permis : la Mairie de Paris se moque !</h2>
+							<div class="description"><hr>Après avoir constaté l&#39;arrestation de Léa Salamé dans la capitale pour défaut de permis, la Mairie de Paris lui propose un abonnement Vélib...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:20</div>
+						<div class="source">Public</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/corse-manifestant-condamné-à-cinq-mois-prison-ferme-181910453">
+				<div class="article">
+					<div class="content">
+						<img src="/img/corse-manifestant-condamné-à-cinq-mois-prison-ferme-181910453.jpg" alt="Corse : un manifestant condamné à cinq mois de prison ferme">
+						<div class="groupdescription">
+							<h2 class="title">Corse : un manifestant condamné à cinq mois de prison ferme</h2>
+							<div class="description"><hr>Le jeune homme avait été interpellé le soir du 16 février au centre de Corte, lors d’un rassemblement contre les poursuites engagées à Reims contre des supporteurs du club de football de Bastia.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:19</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/audio-kanye-west-pète-plombs-clashe-monde-même-181900256">
+				<div class="article">
+					<div class="content">
+						<img src="/img/audio-kanye-west-pète-plombs-clashe-monde-même-181900256.jpg" alt="AUDIO Kanye West pète les plombs et clashe tout le monde… même Pablo Picasso">
+						<div class="groupdescription">
+							<h2 class="title">AUDIO Kanye West pète les plombs et clashe tout le monde… même Pablo Picasso</h2>
+							<div class="description"><hr>Depuis sa nouvelle polémique avec Taylor Swift, Kanye West est à cran. Le rappeur a même piqué une grosse colère dans les coulisses d’une émission pour un problème de mise en scène.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:19</div>
+						<div class="source">Voici.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/bourgogne-piste-dun-tueur-série-chats-181751239">
+				<div class="article">
+					<div class="content">
+						<img src="/img/bourgogne-piste-dun-tueur-série-chats-181751239.jpg" alt="En Bourgogne, sur la piste d&#39;un tueur en série de chats">
+						<div class="groupdescription">
+							<h2 class="title">En Bourgogne, sur la piste d&#39;un tueur en série de chats</h2>
+							<div class="description"><hr>Depuis l&#39;été 2015, au moins 26 chats ont disparu dans cette ville située en périphérie de Dijon. Trois seulement ont été retrouvés, empoisonnés ou abattus. Des témoins rapportent la présence d&#39;un automobiliste qui, la nuit, tente d&#39;écraser les félins.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:17</div>
+						<div class="source">LeFigaro.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/nabilla-devoile-extension-look-hippie-chic-instagram-181500977">
+				<div class="article">
+					<div class="content">
+						<img src="/img/nabilla-devoile-extension-look-hippie-chic-instagram-181500977.jpg" alt="Nabilla se devoile sans extension et dans un look hippie chic sur Instagram">
+						<div class="groupdescription">
+							<h2 class="title">Nabilla se devoile sans extension et dans un look hippie chic sur Instagram</h2>
+							<div class="description"><hr>Nabilla a récemment eu l&#39;envie de retirer ses extensions et une fois que la chose était faite, la bimbo s&#39;est empressée de le montrer sur Instagram. Fière de sa nouvelle coupe, ou presque, la</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:15</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/test-plants-vs-zombies-garden-warfare-2-super-181500249">
+				<div class="article">
+					<div class="content">
+						<img src="/img/test-plants-vs-zombies-garden-warfare-2-super-181500249.jpg" alt="TEST de Plants vs Zombies Garden Warfare 2 : Une super garden party !">
+						<div class="groupdescription">
+							<h2 class="title">TEST de Plants vs Zombies Garden Warfare 2 : Une super garden party !</h2>
+							<div class="description"><hr>Plants Vs Zombies : Garden Warfare 2 se paye un joli jardin et offre une seconde chance aux zombies de prendre le pouvoir, et les plantes vont une fois de plus devoir sortir les armes et combattre le mal à coup d&#39;épines et de mauvaises herbes ! Est-ce que ce second volet reste aussi fun et efficace que le premier ? Le surpasse-t-il ? Accompagnez-moi dans le jardin histoire de prendre la température...Lorsque l&#39;aventure débute, vous aurez directement accès à Front de Jardin, un espace bien à vous et truffé de secrets. ...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:15</div>
+						<div class="source">Gameblog</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/4g-zones-peu-denses-larcep-met-bouygues-telecom-175217405--finance">
+				<div class="article">
+					<div class="content">
+						<img src="/img/4g-zones-peu-denses-larcep-met-bouygues-telecom-175217405--finance.jpg" alt="4G en zones peu denses: Bouygues Telecom et SFR mis en demeure">
+						<div class="groupdescription">
+							<h2 class="title">4G en zones peu denses: Bouygues Telecom et SFR mis en demeure</h2>
+							<div class="description"><hr>L&#39;Autorité de régulation des télécoms (Arcep) a mis en demeure les opérateurs Bouygues Telecom et SFR de &quot;respecter leur prochaine échéance&quot; concernant la couverture en 4G des zones peu denses, a-t-elle annoncé jeudi dans un communiqué.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:14</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/fumer-tue-personnes-quobama-létrange-181149461">
+				<div class="article">
+					<div class="content">
+						<img src="/img/fumer-tue-personnes-quobama-létrange-181149461.jpg" alt="&quot;Fumer tue plus de personnes qu&#39;Obama&quot;, l&#39;étrange campagne russe anti-tabac">
+						<div class="groupdescription">
+							<h2 class="title">&quot;Fumer tue plus de personnes qu&#39;Obama&quot;, l&#39;étrange campagne russe anti-tabac</h2>
+							<div class="description"><hr>Depuis le début de la semaine, les Moscovites peuvent voir une affiche anti-tabac très particulière. Son message? &quot;Fumer tue plus de personnes que Barack Obama&quot;. Ses auteurs sont à ce jour inconnus.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:11</div>
+						<div class="source">L&#39;Express.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/pascal-nègre-va-quitter-universal-music-181100230">
+				<div class="article">
+					<div class="content">
+						<img src="/img/pascal-nègre-va-quitter-universal-music-181100230.jpg" alt="Pascal Nègre va quitter Universal Music">
+						<div class="groupdescription">
+							<h2 class="title">Pascal Nègre va quitter Universal Music</h2>
+							<div class="description"><hr>INFO LEPOINT.FR. En désaccord avec une réorganisation que voulait lui imposer Bolloré, il quitte la major dont il a fait le numéro un mondial de la musique.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:11</div>
+						<div class="source">LePoint.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/guide-laïcité-publié-hôpitaux-rappeler-règles-180451869">
+				<div class="article">
+					<div class="content">
+						<img src="/img/guide-laïcité-publié-hôpitaux-rappeler-règles-180451869.jpg" alt="Un guide de la laïcité publié dans les hôpitaux pour &quot;rappeler les règles&quot;">
+						<div class="groupdescription">
+							<h2 class="title">Un guide de la laïcité publié dans les hôpitaux pour &quot;rappeler les règles&quot;</h2>
+							<div class="description"><hr>La publication de ce guide est la première décision prise par l&#39;Observatoire de la laïcité depuis les critiques formulées par Manuel Valls sur son fonctionnement.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:10</div>
+						<div class="source">Atlantico.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/moitié-planète-sera-myope-2050-180200127">
+				<div class="article">
+					<div class="content">
+						<img src="/img/moitié-planète-sera-myope-2050-180200127.jpg" alt="La moitié de la planète sera myope en 2050">
+						<div class="groupdescription">
+							<h2 class="title">La moitié de la planète sera myope en 2050</h2>
+							<div class="description"><hr>La moitié de la population mondiale sera myope en 2050 et un cinquième de ces myopes auront un risque de cécité définitive.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:02</div>
+						<div class="source">Topsante</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/rihanna-vs-adriana-lima-robe-transparente-brodee-marc-180000471">
+				<div class="article">
+					<div class="content">
+						<img src="/img/rihanna-vs-adriana-lima-robe-transparente-brodee-marc-180000471.jpg" alt="Rihanna vs Adriana Lima : la robe transparente et brodee Marc Jacobs">
+						<div class="groupdescription">
+							<h2 class="title">Rihanna vs Adriana Lima : la robe transparente et brodee Marc Jacobs</h2>
+							<div class="description"><hr>Une pièce : La robe transparente et fendue Marc Jacobs Printemps-Été 2016. Deux stars s&#39;opposent : Rihanna et Adriana Lima.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 19:00</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/adele-embarrassée-revient-prestation-ratée-175906610">
+				<div class="article">
+					<div class="content">
+						<img src="/img/adele-embarrassée-revient-prestation-ratée-175906610.jpg" alt="Adele, embarrassée : Elle revient sur sa prestation &quot;ratée&quot; aux Grammy Awards">
+						<div class="groupdescription">
+							<h2 class="title">Adele, embarrassée : Elle revient sur sa prestation &quot;ratée&quot; aux Grammy Awards</h2>
+							<div class="description"><hr>Invitée à performer sur la scène des Grammy Awards, la prestation d&#39;Adele a été marquée par quelques fausses notes et des problèmes techniques. Invitée sur le plateau d&#39;Ellen DeGeneres, elle revient sur sa réaction suite à son show. Non Stop People vous en dit plus.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:59</div>
+						<div class="source">Non Stop People</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/syrie-djihadiste-fait-fête-avant-175651394">
+				<div class="article">
+					<div class="content">
+						<img src="/img/syrie-djihadiste-fait-fête-avant-175651394.jpg" alt="Syrie : Un djihadiste fait la fête avant de se faire exploser le lendemain (vidéo)">
+						<div class="groupdescription">
+							<h2 class="title">Syrie : Un djihadiste fait la fête avant de se faire exploser le lendemain (vidéo)</h2>
+							<div class="description"><hr>France 2 diffuse ce jeudi soir à 22h45 un nouveau numéro d’Un œil sur la planète baptisé Syrie, le grand aveuglement. Sur son compte Twitter, la chaîne a dévoilé un premier extrait du reportage sur lequel un djihadiste célèbre sa dernière soirée avant de se faire exploser le lendemain avec une ceinture d’explosif. Une séquence que nous vous proposons de retrouver sur notre site Non Stop Zapping.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:56</div>
+						<div class="source">Non Stop Zapping</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/pamela-anderson-bombe-48-ans-sent-seule-175600362">
+				<div class="article">
+					<div class="content">
+						<img src="/img/pamela-anderson-bombe-48-ans-sent-seule-175600362.jpg" alt="Pamela Anderson : La bombe de 48 ans se sent seule">
+						<div class="groupdescription">
+							<h2 class="title">Pamela Anderson : La bombe de 48 ans se sent seule</h2>
+							<div class="description"><hr>La star lance un touchant cri du coeur et se dit prête à aller de l&#39;avant !</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:56</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/dany-boon-bizuté-raid-raconte-170909260">
+				<div class="article">
+					<div class="content">
+						<img src="/img/dany-boon-bizuté-raid-raconte-170909260.jpg" alt="Dany Boon : Bizuté par le Raid ? Il raconte (Vidéo)">
+						<div class="groupdescription">
+							<h2 class="title">Dany Boon : Bizuté par le Raid ? Il raconte (Vidéo)</h2>
+							<div class="description"><hr>Les médias ne parlent que du nouveau film de Dany Boom qui mettra en avant les équipes du RAID. Pour réaliser au mieux son film, l&#39;acteur a partagé l&#39;entraînement d&#39;une équipe. Loin d&#39;avoir été facile, il raconte comment il s&#39;est fait bizuter. Non Stop People vous en dit plus.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:51</div>
+						<div class="source">Non Stop People</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/apple-défie-fbi-gouvernement-américain-dune-manière-inédite-152200737">
+				<div class="article">
+					<div class="content">
+						<img src="/img/apple-défie-fbi-gouvernement-américain-dune-manière-inédite-152200737.jpg" alt="Apple défie le FBI et le gouvernement américain d&#39;une manière inédite">
+						<div class="groupdescription">
+							<h2 class="title">Apple défie le FBI et le gouvernement américain d&#39;une manière inédite</h2>
+							<div class="description"><hr>Le PDG  d&#39;Apple Tim Cook vient de déclarer publiquement son refus de soumettre son entreprise à un ordre émis par le gouvernement américain. Ce dernier souhaite en effet, pour les besoins d&#39;une enquête, qu&#39;Apple l&#39;aide à accéder aux données cryptées présentes dans un iPhone. Une situation jamais vue. À lire aussi : Apple refuse The Binding of Isaac sur l&#39;App StoreLa méthode est inédite. Ainsi dans une lettre à destination des clients d&#39;Apple publiée sur le site officiel de la marque, Tim Cook explique longuement pourquoi Apple s&#39;oppose à un ordre émis par le FBI. ...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:50</div>
+						<div class="source">Gameblog</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/larticle-l-113-1-vaut-à-sarkozy-mise-173901942">
+				<div class="article">
+					<div class="content">
+						<img src="/img/larticle-l-113-1-vaut-à-sarkozy-mise-173901942.jpg" alt="L&#39;article L.113-1 qui vaut à Sarkozy sa mise en examen, le cheval de Troie des juges">
+						<div class="groupdescription">
+							<h2 class="title">L&#39;article L.113-1 qui vaut à Sarkozy sa mise en examen, le cheval de Troie des juges</h2>
+							<div class="description"><hr>Cet article de loi du code électoral, qui punit toute personne qui «aura dépassé le plafond des dépenses électorales», est très rarement employé. Si ce dépassement n&#39;est pas en lui-même nouveau, il permet aux juges une mise en examen qui leur offre plus de possibilités de contrainte. La mise en ...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:50</div>
+						<div class="source">Slate.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/catastrophe-brétigny-expertise-métallurgique-complémentaire-ordonnée-juges-173758532">
+				<div class="article">
+					<div class="content">
+						<img src="/img/catastrophe-brétigny-expertise-métallurgique-complémentaire-ordonnée-juges-173758532.jpg" alt="Catastrophe de Brétigny: une expertise métallurgique complémentaire ordonnée par les juges">
+						<div class="groupdescription">
+							<h2 class="title">Catastrophe de Brétigny: une expertise métallurgique complémentaire ordonnée par les juges</h2>
+							<div class="description"><hr>Une expertise métallurgique complémentaire a été ordonnée le 8 février par les juges d&#39;instruction en charge de l&#39;enquête sur l&#39;accident ferroviaire de Brétigny-sur-Orge (Essonne), qui avait fait sept morts et des dizaines de blessés en juillet 2013, a-t-on appris jeudi de sources proches du dossier.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:50</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/pétrole-larabie-saoudite-nest-prête-174848457">
+				<div class="article">
+					<div class="content">
+						<img src="/img/pétrole-larabie-saoudite-nest-prête-174848457.jpg" alt="Pétrole: &quot;l'Arabie saoudite n'est pas prête à réduire sa production&quot;">
+						<div class="groupdescription">
+							<h2 class="title">Pétrole: &quot;l'Arabie saoudite n'est pas prête à réduire sa production&quot;</h2>
+							<div class="description"><hr>Riyad ne réduira pas sa production de brut pour endiguer la chute des prix, a affirmé ce jeudi le chef de la diplomatie saoudienne à l'AFP.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:48</div>
+						<div class="source">La Tribune</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/blake-lively-jolie-poupee-sexy-defile-michael-kors-172000848">
+				<div class="article">
+					<div class="content">
+						<img src="/img/blake-lively-jolie-poupee-sexy-defile-michael-kors-172000848.jpg" alt="Blake Lively : jolie poupee sexy pour le defile Michael Kors a New York">
+						<div class="groupdescription">
+							<h2 class="title">Blake Lively : jolie poupee sexy pour le defile Michael Kors a New York</h2>
+							<div class="description"><hr>La Fashion Week bat son plein à New York et lors du défilé Michael Kors, qui s&#39;est déroulé le 17 février 2016, Blake Lively est apparue telle une poupée vêtue d&#39;une robe nude. Véritable</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:46</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/homme-cadre-peut-espérer-vivre-six-ans-qu-174527694">
+				<div class="article">
+					<div class="content">
+						<img src="/img/homme-cadre-peut-espérer-vivre-six-ans-qu-174527694.jpg" alt="Un homme cadre peut espérer vivre six ans de plus qu’un ouvrier">
+						<div class="groupdescription">
+							<h2 class="title">Un homme cadre peut espérer vivre six ans de plus qu’un ouvrier</h2>
+							<div class="description"><hr>Selon des chiffres publiés jeudi par l’Insee, l’espérance de vie progresse mais les inégalités selon le niveau social et le niveau de diplôme perdurent.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:45</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/maya-victime-13-novembre-blessures-m-obligée-à-173022600">
+				<div class="article">
+					<div class="content">
+						<img src="/img/maya-victime-13-novembre-blessures-m-obligée-à-173022600.jpg" alt="Maya, victime du 13 novembre : « Mes blessures m’ont obligée à me battre »">
+						<div class="groupdescription">
+							<h2 class="title">Maya, victime du 13 novembre : « Mes blessures m’ont obligée à me battre »</h2>
+							<div class="description"><hr>Blessés du 13 novembre (2/6). La jeune femme a prêté serment, ce jeudi, à l’ordre des architectes. Elle s’y rendra appuyée sur ses béquilles, mais sans son mari, qui a perdu la vie à la terrasse du Carillon.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:45</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/jo-2024-quatre-villes-starting-blocks-174458562--spt">
+				<div class="article">
+					<div class="content">
+						<img src="/img/jo-2024-quatre-villes-starting-blocks-174458562--spt.jpg" alt="JO-2024: quatre villes dans les starting-blocks">
+						<div class="groupdescription">
+							<h2 class="title">JO-2024: quatre villes dans les starting-blocks</h2>
+							<div class="description"><hr>Budapest, Los Angeles, Paris et Rome ont reçu du CIO l&#39;accusé de réception de leur dossier de candidature à l&#39;organisation des JO-2024. Une étape qui donne le départ de dix-neuf mois de joutes entre quatre villes aux atouts et aux statuts déjà bien distincts.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:44</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/l-inde-eldorado-labyrinthe-réglementaire-entreprises-172244183">
+				<div class="article">
+					<div class="content">
+						<img src="/img/l-inde-eldorado-labyrinthe-réglementaire-entreprises-172244183.jpg" alt="L’Inde, eldorado ou labyrinthe réglementaire pour les entreprises ?">
+						<div class="groupdescription">
+							<h2 class="title">L’Inde, eldorado ou labyrinthe réglementaire pour les entreprises ?</h2>
+							<div class="description"><hr>Les groupes souhaitant s’installer sur le sous-continent doivent faire preuve de patience et d’astuces pour dépasser les lourdeurs administratives.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:44</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/parlement-adopte-définitivement-projet-loi-droit-étrangers-174224933">
+				<div class="article">
+					<div class="content">
+						<img src="/img/parlement-adopte-définitivement-projet-loi-droit-étrangers-174224933.jpg" alt="Le Parlement adopte définitivement le projet de loi sur le &quot;droit des étrangers&quot;">
+						<div class="groupdescription">
+							<h2 class="title">Le Parlement adopte définitivement le projet de loi sur le &quot;droit des étrangers&quot;</h2>
+							<div class="description"><hr>Le Parlement a adopté définitivement jeudi le projet de loi sur le &quot;droit des étrangers en France&quot;, qui instaure notamment un titre de séjour pluriannuel pour éviter aux immigrés en règle des passages répétés en préfecture.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:42</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/céline-dion-retour-studio-terminer-album-174154117">
+				<div class="article">
+					<div class="content">
+						<img src="/img/céline-dion-retour-studio-terminer-album-174154117.jpg" alt="Céline Dion de retour en studio pour terminer son album">
+						<div class="groupdescription">
+							<h2 class="title">Céline Dion de retour en studio pour terminer son album</h2>
+							<div class="description"><hr>Un peu plus d&#39;un mois après le décès de son mari René Angélil et de son frère Daniel, l&#39;artiste québécoise a annoncé son come-back musical dans une image postée sur le réseau social Instagram.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:41</div>
+						<div class="source">LeFigaro.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/espérance-vie-trois-graphiques-montrent-inégaux-face-à-174129543">
+				<div class="article">
+					<div class="content">
+						<img src="/img/espérance-vie-trois-graphiques-montrent-inégaux-face-à-174129543.jpg" alt="Espérance de vie : trois graphiques qui montrent que nous sommes inégaux face à la mort">
+						<div class="groupdescription">
+							<h2 class="title">Espérance de vie : trois graphiques qui montrent que nous sommes inégaux face à la mort</h2>
+							<div class="description"><hr>Un cadre peut espérer vivre sept années de plus qu&#39;un ouvrier. Un écart qui se maintient depuis une quarantaine d&#39;années.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:41</div>
+						<div class="source">Francetv info</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/corse-manifestant-corte-condamné-à-5-mois-ferme-172540443">
+				<div class="article">
+					<div class="content">
+						<img src="/img/corse-manifestant-corte-condamné-à-5-mois-ferme-172540443.jpg" alt="Corse: un manifestant de Corte condamné à 5 mois ferme">
+						<div class="groupdescription">
+							<h2 class="title">Corse: un manifestant de Corte condamné à 5 mois ferme</h2>
+							<div class="description"><hr>Un jeune manifestant interpellé mardi soir à Corte (Haute-Corse), lors d&#39;un rassemblement contre les poursuites engagées à Reims contre des supporters du club de football de Bastia, a été condamné jeudi à dix mois de prison, dont 5 ferme avec mandat de dépôt par le tribunal correctionnel de Bastia.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:40</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/kylie-jenner-nouvelle-egerie-puma-174000234">
+				<div class="article">
+					<div class="content">
+						<img src="/img/kylie-jenner-nouvelle-egerie-puma-174000234.jpg" alt="Kylie Jenner : la nouvelle egerie Puma">
+						<div class="groupdescription">
+							<h2 class="title">Kylie Jenner : la nouvelle egerie Puma</h2>
+							<div class="description"><hr>Jackpot pour Puma qui vient de s&#39;offrir Kylie Jenner. La benjamine du clan Kardashian-Jenner sera la prochaine égérie de la collection du Printemps-Été 2016 de la marque.  </div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:40</div>
+						<div class="source">Pure people</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/linsee-confirme-diplômés-vivent-longtemps-173455525">
+				<div class="article">
+					<div class="content">
+						<img src="/img/linsee-confirme-diplômés-vivent-longtemps-173455525.jpg" alt="L&#39;Insee le confirme : les diplômés vivent plus longtemps">
+						<div class="groupdescription">
+							<h2 class="title">L&#39;Insee le confirme : les diplômés vivent plus longtemps</h2>
+							<div class="description"><hr>En examinant pour la première fois l&#39;espérance de vie à 35 ans des Français selon leur niveau d&#39;études, l&#39;Institut confirme les inégalités sociales face à la mort.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:34</div>
+						<div class="source">Liberation.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/calais-8-associations-demandent-à-cazeneuve-reporter-démantèlement-173421054">
+				<div class="article">
+					<div class="content">
+						<img src="/img/calais-8-associations-demandent-à-cazeneuve-reporter-démantèlement-173421054.jpg" alt="Calais: 8 associations demandent à Cazeneuve de reporter le démantèlement programmé de la &quot;jungle&quot;">
+						<div class="groupdescription">
+							<h2 class="title">Calais: 8 associations demandent à Cazeneuve de reporter le démantèlement programmé de la &quot;jungle&quot;</h2>
+							<div class="description"><hr>Dans une lettre ouverte à Bernard Cazeneuve, huit associations parmi lesquelles Médecins du Monde, Emmaüs et le Secours Catholique, ont demandé jeudi au ministre de l&#39;Intérieur de reporter le démantèlement programmé d&#39;une vaste partie du bidonville annoncé par la préfecture.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:34</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/exclu-regardez-générique-marseillais-south-africa-173324002">
+				<div class="article">
+					<div class="content">
+						<img src="/img/exclu-regardez-générique-marseillais-south-africa-173324002.jpg" alt="Exclu. Regardez le générique des Marseillais : South Africa">
+						<div class="groupdescription">
+							<h2 class="title">Exclu. Regardez le générique des Marseillais : South Africa</h2>
+							<div class="description"><hr>Après Miami, Cancùn, Rio et la Thaïlande, cap sur l&#39;Afrique du Sud pour Les Marseillais. Et avant de se brancher sur W9 le lundi 22 février prochain à 18h50, découvrez le générique de cette nouvelle saison en exclu sur Téléloisirs.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:33</div>
+						<div class="source">Télé-Loisirs.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/emmanuelle-cosse-carton-rouge-à-171416920">
+				<div class="article">
+					<div class="content">
+						<img src="/img/emmanuelle-cosse-carton-rouge-à-171416920.jpg" alt="Emmanuelle Cosse : Carton rouge à l&#39;Elysée">
+						<div class="groupdescription">
+							<h2 class="title">Emmanuelle Cosse : Carton rouge à l&#39;Elysée</h2>
+							<div class="description"><hr>Pour son premier Conseil des Ministres, l&#39;ex verte Emmanuelle Cosse, n&#39;a pas fait d&#39;effort de look, du coup on lui propose une petite pause shopping pour ne plus se faire épingler par la fashion police.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:30</div>
+						<div class="source">Closer</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/zone-euro-dégage-excédent-commercial-163315798">
+				<div class="article">
+					<div class="content">
+						<img src="/img/zone-euro-dégage-excédent-commercial-163315798.jpg" alt="La zone euro dégage un excédent commercial record">
+						<div class="groupdescription">
+							<h2 class="title">La zone euro dégage un excédent commercial record</h2>
+							<div class="description"><hr>La balance des paiements courants (échange de biens et de services) a été excédentaire à hauteur de 314 milliards d'euros en 2015, selon la BCE. L'Allemagne y contribue largement</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:30</div>
+						<div class="source">La Tribune</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/départementales-vosges-élection-annulée-après-rejet-comptes-campagne-170745864">
+				<div class="article">
+					<div class="content">
+						<img src="/img/départementales-vosges-élection-annulée-après-rejet-comptes-campagne-170745864.jpg" alt="Départementales dans les Vosges: une élection annulée après le rejet de comptes de campagne">
+						<div class="groupdescription">
+							<h2 class="title">Départementales dans les Vosges: une élection annulée après le rejet de comptes de campagne</h2>
+							<div class="description"><hr>L&#39;élection de deux membres divers droite du conseil départemental des Vosges a été annulée jeudi après le rejet de leurs comptes de campagne, a annoncé le tribunal administratif de Nancy (Meurthe-et-Moselle).</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:30</div>
+						<div class="source">AFP</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/info-closer-pourquoi-bernadette-chirac-173000149">
+				<div class="article">
+					<div class="content">
+						<img src="/img/info-closer-pourquoi-bernadette-chirac-173000149.jpg" alt="Info Closer - Pourquoi Bernadette Chirac fait tout pour éviter Claudia Cardinale">
+						<div class="groupdescription">
+							<h2 class="title">Info Closer - Pourquoi Bernadette Chirac fait tout pour éviter Claudia Cardinale</h2>
+							<div class="description"><hr>Bernadette Chirac et Claudia Cardinale étaient toutes les deux présentes à l&#39;Olympia lundi soir pour un gala de charité au profit de la recherche sur Alzheimer. Et si elles ne se sont pas croisées au cours de la soirée, cela n&#39;a rien d&#39;un hasard...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:30</div>
+						<div class="source">Closer</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/alizée-nostalgique-premier-succès-musical-172853698">
+				<div class="article">
+					<div class="content">
+						<img src="/img/alizée-nostalgique-premier-succès-musical-172853698.jpg" alt="Alizée nostalgique de son premier succès musical sur Instagram">
+						<div class="groupdescription">
+							<h2 class="title">Alizée nostalgique de son premier succès musical sur Instagram</h2>
+							<div class="description"><hr>Toujours aussi amoureuse de Grégoire Lyonnet, Alizée partageait en début de semaine une tendre photo de leur Saint-Valentin. Actuellement sur la tournée DALS, l&#39;interprète de &#39;Blonde&#39; a également débuté le tournage de &quot;Super Kids&quot; sur M6. Ce jeudi 18 février 2016, la chanteuse s&#39;est montrée nostalgique, partageant sur Instagram le classement dans les charts de son premier succès : &#39;Moi... Lolita&#39;.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:28</div>
+						<div class="source">Non Stop People</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/exclu-vidéo-blac-chyna-amélie-neten-kim-kardashian-172714883">
+				<div class="article">
+					<div class="content">
+						<img src="/img/exclu-vidéo-blac-chyna-amélie-neten-kim-kardashian-172714883.jpg" alt="Exclu vidéo : Blac Chyna, Amélie Neten, Kim Kardashian: leur gros délire sur Instagram">
+						<div class="groupdescription">
+							<h2 class="title">Exclu vidéo : Blac Chyna, Amélie Neten, Kim Kardashian: leur gros délire sur Instagram</h2>
+							<div class="description"><hr>Sur Instagram les people se lâchent ... Blac Chyna, Amélie Neten, Kim Kardashian, découvrez leur gros délire en...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:27</div>
+						<div class="source">Public</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/pentagone-passe-à-windows-10-172700795">
+				<div class="article">
+					<div class="content">
+						<img src="/img/pentagone-passe-à-windows-10-172700795.jpg" alt="Quand le Pentagone passe à Windows 10">
+						<div class="groupdescription">
+							<h2 class="title">Quand le Pentagone passe à Windows 10</h2>
+							<div class="description"><hr>Le secrétaire à la Défense américaine vient de demander à ce que les 4 millions d&#39;ordinateurs du Pentagone soient mis à jour. Un projet titanesque.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:27</div>
+						<div class="source">LePoint.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/l-interdiction-moins-18-ans-documentaire-salafistes-suspendue-171346510">
+				<div class="article">
+					<div class="content">
+						<img src="/img/l-interdiction-moins-18-ans-documentaire-salafistes-suspendue-171346510.jpg" alt="L’interdiction aux moins de 18 ans du documentaire « Salafistes » suspendue">
+						<div class="groupdescription">
+							<h2 class="title">L’interdiction aux moins de 18 ans du documentaire « Salafistes » suspendue</h2>
+							<div class="description"><hr>Désavouant l’ex-ministre Fleur Pellerin, le juge des référés a estimé que le film « permet de prendre le recul nécessaire » face aux images violentes.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:26</div>
+						<div class="source">LeMonde.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/gros-fonds-souverain-monde-retour-165701319">
+				<div class="article">
+					<div class="content">
+						<img src="/img/gros-fonds-souverain-monde-retour-165701319.jpg" alt="Le plus gros fonds souverain du monde de retour en Iran">
+						<div class="groupdescription">
+							<h2 class="title">Le plus gros fonds souverain du monde de retour en Iran</h2>
+							<div class="description"><hr>La Norvège a annoncé que son fonds de pension public pouvait de nouveau acheter des titres de dette iraniens, ce qui lui était interdit depuis deux ans en raison des sanctions internationales.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:26</div>
+						<div class="source">La Tribune</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/céline-dion-retour-studio-mois-après-mort-rené-172500231">
+				<div class="article">
+					<div class="content">
+						<img src="/img/céline-dion-retour-studio-mois-après-mort-rené-172500231.jpg" alt="Céline Dion de retour en studio, un mois après la mort de René Angélil (photo)">
+						<div class="groupdescription">
+							<h2 class="title">Céline Dion de retour en studio, un mois après la mort de René Angélil (photo)</h2>
+							<div class="description"><hr>Bonne nouvelle pour les fans. Un mois après le décès tragique de son mari et manager René Angélil, Céline Dion est de retour en studio pour plancher sur son nouvel album, attendu dans les prochains mois. &quot;Oui elle est de retour&quot;.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:25</div>
+						<div class="source">Pure Charts</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/loire-atlantique-edf-confirme-fermeture-deux-unités-centrale-172413024--spt">
+				<div class="article">
+					<div class="content">
+						<img src="/img/loire-atlantique-edf-confirme-fermeture-deux-unités-centrale-172413024--spt.jpg" alt="Loire-Atlantique: EDF confirme la fermeture de deux unités de la centrale de Cordemais">
+						<div class="groupdescription">
+							<h2 class="title">Loire-Atlantique: EDF confirme la fermeture de deux unités de la centrale de Cordemais</h2>
+							<div class="description"><hr>ECONOMIE - Deux tranches sur quatre de la centrale électrique de Cordemais fermeront en 2018, a confirmé EDF ce jeudi...</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:24</div>
+						<div class="source">20minutes.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/arnaud-tabarec-hells-kitchen-si-létoile-revient-cest-172155430">
+				<div class="article">
+					<div class="content">
+						<img src="/img/arnaud-tabarec-hells-kitchen-si-létoile-revient-cest-172155430.jpg" alt="Arnaud Tabarec (Hell&#39;s Kitchen) : &quot;Si l&#39;étoile revient, c&#39;est bien. Sinon, tant pis !&quot;">
+						<div class="groupdescription">
+							<h2 class="title">Arnaud Tabarec (Hell&#39;s Kitchen) : &quot;Si l&#39;étoile revient, c&#39;est bien. Sinon, tant pis !&quot;</h2>
+							<div class="description"><hr>Alors que NT1 diffuse, ce jeudi 18 février, la finale de son programme culinaire Hell&#39;s Kitchen, le chef Arnaud Tabarec revient sur sa première expérience télé.</div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:21</div>
+						<div class="source">Télé-Loisirs.fr</div>
+					</div>   		
+				</div>
+			</a>
+    		<a href="/box-office-france-déjà-record-zootopie-première-journée-170148889">
+				<div class="article">
+					<div class="content">
+						<img src="/img/box-office-france-déjà-record-zootopie-première-journée-170148889.jpg" alt="Box-office France : déjà un record pour Zootopie pour sa première journée d&#39;exploitation">
+						<div class="groupdescription">
+							<h2 class="title">Box-office France : déjà un record pour Zootopie pour sa première journée d&#39;exploitation</h2>
+							<div class="description"><hr>Zootopie a fait se déplacer les foules pour sa première journée d&#39;exploitation en salles. Le nouveau dessin animé Disney a déjà réalisé plus de 350 000 entrées, faisant du film le meilleur démarrage de l&#39;année 2016. </div>
+						</div>
+						<div class="date">le 18/02/2016 à 18:21</div>
+						<div class="source">Télé-Loisirs.fr</div>
+					</div>   		
+				</div>
+			</a>
+    	</div>
+<script>
+function isExternal(url) {
+	var match = url.match(/^([^:\/?#]+:)?(?:\/\/([^\/?#]*))?([^?#]+)?(\?[^#]*)?(#.*)?/);
+	if (typeof match[1] === "string" && match[1].length > 0 && match[1].toLowerCase() !== location.protocol) return true;
+	if (typeof match[2] === "string" && match[2].length > 0 && match[2].replace(new RegExp(":("+{"http:":80,"https:":443}[location.protocol]+")?$"), "") !== location.host) return true;
+	return false;
+}
+var allLinks = document.links;
+for (var i = 0, n = allLinks.length; i < n; i++) {
+    if(isExternal(allLinks[i].toString())){
+    	allLinks[i].onclick = function () {
+        	//alert("next");//return false;
+    	}
+    }else{
+    	allLinks[i].onclick = function (event) {
+    		event.preventDefault();
+    		if(this.href!==undefined)document.location=this.href;
+    	}
+    }
+}
+</script>
+<div id='1305-15'><script src='http://ads.themoneytizer.com/s/gen.js?type=15'></script><script src='http://ads.themoneytizer.com/s/requestform.js?siteId=1305&formatId=15'></script></div>
+    </body>
+</html>

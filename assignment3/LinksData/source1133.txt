@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<title>SJATurney</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<frameset rows="86,*" cols="*" framespacing="0" frameborder="NO" border="0">
+  <frameset rows="*" cols="270,*" framespacing="0" frameborder="NO" border="0">
+    <frame src="logo.htm" name="leftFrame" scrolling="NO" noresize>
+    <frameset rows="*" cols="141,*" framespacing="0" frameborder="NO" border="0">
+      <frame src="menu1.htm" name="menu1" scrolling="NO" noresize id="menu1">
+      <frameset rows="*" cols="177,*" framespacing="0" frameborder="NO" border="0">
+        <frame src="menu2.htm" name="menu2" scrolling="NO" noresize id="menu2">
+        <frameset rows="*" cols="157,*" framespacing="0" frameborder="NO" border="0">
+          <frame src="menu3.htm" name="menu3" scrolling="NO" noresize id="menu3">
+          <frameset rows="*" cols="140,*" framespacing="0" frameborder="NO" border="0">
+            <frame src="menu4.htm" name="menu4" scrolling="NO" noresize id="menu4">
+            <frameset cols="80,*" frameborder="NO" border="0" framespacing="0"> 
+  <frame src="menu5.htm" name="leftFrame1" scrolling="NO" noresize>
+  <frame src="menu.htm" name="topFrame" scrolling="NO" noresize >
+</frameset>
+          </frameset>
+        </frameset>
+      </frameset>
+    </frameset>
+  </frameset>
+  <frameset rows="26,*" cols="*" framespacing="0" frameborder="NO" border="0">
+    <frame src="border.htm" name="topFrame1" scrolling="NO" noresize >
+    <frame src="main.htm" name="mainFrame">
+  </frameset>
+</frameset>
+<noframes><body>
+
+</body></noframes>
+</html>

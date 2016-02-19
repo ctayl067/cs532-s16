@@ -1,0 +1,1325 @@
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" type="text/css" href="http://cache.hiroba.dqx.jp/dq_resource/css/base.css?var=20160217" media="all" />
+<link rel="stylesheet" type="text/css" href="http://cache.hiroba.dqx.jp/dq_resource/css/mytop.css?var=20160217" media="all" />
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="http://cache.hiroba.dqx.jp/dq_resource/skin/2016/valentine/skin.css?20150714" media="all" />
+
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="http://cache.hiroba.dqx.jp/dq_resource/css/style_ie6.css" media="all" />
+<![endif]-->
+
+<script type="text/javascript" src="http://cache.hiroba.dqx.jp/dq_resource/js/jquery.js"></script>
+<script type="text/javascript" src="http://cache.hiroba.dqx.jp/dq_resource/js/common.js?var=20160217"></script>
+<script type="text/javascript" src="http://cache.hiroba.dqx.jp/dq_resource/js/jquery.mousewheel-3.0.4.pack.js"></script>
+
+<script src="http://cache.hiroba.dqx.jp/dq_resource/js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="http://cache.hiroba.dqx.jp/dq_resource/js/colorbox/colorbox.css" media="all" />
+<script src="http://cache.hiroba.dqx.jp/dq_resource/js/common_modal.js?var=20160217" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://cache.hiroba.dqx.jp/dq_resource/js/jquery.cookie-1.4.1.min.js"></script>
+
+
+<script type="text/javascript" src="http://cache.hiroba.dqx.jp/dq_resource/js/livepic_eventpic_movie.js?var=20160217"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="http://cache.hiroba.dqx.jp/dq_resource/js/common_ie.js"></script>
+<![endif]-->
+<script type="text/javascript">
+	var welcomestatus = $.cookie('welcomestatus');
+</script>
+
+	
+	<script type="text/javascript" src="http://cache.hiroba.dqx.jp/dq_resource/js/welcome_popup.js"></script>
+
+
+<script type="text/javascript">
+	var CDN_DOMAIN = 'cache.hiroba.dqx.jp';
+</script>
+
+<link rel="shortcut icon" type="image/x-icon" href="http://cache.hiroba.dqx.jp/favicon.ico" />
+<title>にじのTOP｜目覚めし冒険者の広場</title>
+<meta name="keywords" content="ドラクエ10,ドラクエX,ドラゴンクエスト,ドラゴンクエスト10,ドラゴンクエストX,目覚めし五つの種族,眠れる勇者と導きの盟友,オンライン,目覚めし冒険者の広場,冒険者の広場,プレイヤー専用サイト,RPG,DQX,DQ10,DoragonQuestX,堀井雄二,鳥山明,すぎやまこういち,Wii,Wii U,Windows,無料で冒険" />
+<meta lang="ja" name="description" content="「ドラゴンクエストX」のプレイヤー専用サイト「ドラゴンクエストX　目覚めし冒険者の広場」" />
+
+
+
+<script type="text/javascript" src="http://cache.hiroba.dqx.jp/dq_resource/js/dq_modal_dialog.js?var=20141031"></script>
+<script type="text/javascript" src="http://cache.hiroba.dqx.jp/dq_resource/js/playerbbs.js?var=20150106"></script>
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="http://cache.hiroba.dqx.jp/dq_resource/js/jquery.swfobject.1-1-1.min.js" ></script>
+	
+	<script type="text/javascript">
+	var isFlashAvailable = $.flash.available && $.flash.hasVersion(11.0);
+	
+	function pop_pict(url,w,h){
+		poppict = modaldialog("", {'show':false, 'clickhide':false });
+		var _p = 168279451003;
+		var _t = "73b742a4178e45a0ca5a0371b18b3c8939c55bddb6aefc5f4e451b7dd4a82f6c";
+
+		if(isFlashAvailable){
+			poppict.msg  =	'<div class="popupBox" style="height:433px;border:0px; padding: 5px; background-color:#000000;">';
+			poppict.msg +=		'<p class="closeBtn"><a href="javascript:void(0)" onclick="hide_pict()">閉じる</a></p>';
+			poppict.msg +=		'<p style="width: ' + w + 'px; height: ' + h +'px" id="Dqx3d">';
+			poppict.msg +=			'<img src="' + url + '" width=' + w + ' height=' + h + ' />';
+			poppict.msg +=		'</p>';
+			poppict.msg +=	'</div>';
+			
+			poppict.show();
+			$('#Dqx3d').flash({
+				swf: 'http://cache.hiroba.dqx.jp/dq_resource/web3d/DqxStage3DViewer.swf',
+				height: h,
+				width: w,
+				autostart: true,
+				FlashVars: {
+					model: '/sc/character/' + _p + '/img/web3d/?webToken=' + _t,
+					bg: 'http://cache.hiroba.dqx.jp/dq_resource/web3d/youhishi_32T.zip'
+				},
+				wmode: 'direct',
+				menu: false
+			});
+			
+			$("html").css('overflow-y','hidden');
+			$("#_mdlg_mask").fadeTo('fast', 1.0);
+		} else {
+			poppict.msg =	'<div class="popupBox">';
+			poppict.msg +=		'<p class="closeBtn"><a href="javascript:void(0)" onclick="hide_pict()">閉じる</a></p>';
+			poppict.msg +=		'<p><img src="' + url + '" width=' + w + ' height=' + h + ' /></p>';
+			poppict.msg +=	'</div>';
+			poppict.show();
+		}
+
+	}
+	
+	function hide_pict(){
+		if(isFlashAvailable)
+			$("html").css('overflow-y','auto');
+		poppict.hide();
+	}
+
+	$(document).ready(function(){
+		if(isFlashAvailable){
+			$('img#charazoom').attr("src", "http://cache.hiroba.dqx.jp/dq_resource/img/mypage/ico_zoom_3d.png");
+		}
+	});
+	</script>
+
+
+
+
+
+
+	<meta property="og:title" content="にじ&nbsp;-&nbsp;ドラゴンクエストX&nbsp;-&nbsp;目覚めし冒険者の広場" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="にじのページ" />
+	<meta property="og:image" content="http://hiroba.dqx.jp/sc/character/168279451003/img/bup/" />
+	<meta property="og:url" content="http://hiroba.dqx.jp/sc/character/168279451003/"></meta>
+	<meta property="og:site_name" content="ドラゴンクエストX - 目覚めし冒険者の広場" />
+
+
+
+
+</head>
+
+<body id="friendTop" class="myPage othersPage tab_f_friendtop">
+
+	
+	
+	
+
+	
+	<div id="globalHeader">
+		<div id="wrapper_header">
+			<div id="globalHeaderArea">
+				<p id="logo_square_enix"><a href="http://www.jp.square-enix.com/" target="_blank">SQUARE ENIX</a></p>
+				<div class="btnArea_g">
+					
+					
+					<div id="hirobaSearch">
+						<script>
+						(function() {
+							var cx = '001561201348966604375:gyiorhik4lk';
+							var gcse = document.createElement('script');
+							gcse.type = 'text/javascript';
+							gcse.async = true;
+							gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+							'//cse.google.com/cse.js?cx=' + cx;
+							var s = document.getElementsByTagName('script')[0];
+							s.parentNode.insertBefore(gcse, s);
+						})();
+						</script>
+						<gcse:search></gcse:search>
+					</div>
+					<ul id="navi_globalHeader">
+						<li><a target="_blank" href="http://support.jp.square-enix.com/rule.php?id=2620&la=0">ルール&nbsp;&amp;&nbsp;ポリシー</a></li>
+						
+						<li><a target="_blank" href="http://support.jp.square-enix.com/main.php?la=0&id=2620">サポートセンター</a></li>
+					</ul>
+				<!-- /.btnArea --></div>
+			<!-- /#globalHeaderArea --></div>
+		<!-- /#wrapper_header --></div>
+	<!-- end #globalHeader --></div>
+	
+
+	<div id="container">
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+		
+		<div id="lightTitle" class="title">
+			<p>目覚めし冒険者の広場－ドラゴンクエストXプレイヤー専用サイト</p>
+		<!-- end #superTopTitle --></div>
+		
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+<div id="globalNavi" class="mainNavi">
+	<ul>
+		<li class="navi_superTop">
+			<a href="/sc/">トップ</a>
+		</li>
+		<li class="navi_news">
+			<a href="/sc/news/information/">おしらせ</a>
+			<!-- プルダウンアイコン -->
+			<span class="globalnavi-down" style="display:none;"></span>
+			<div class="global-select">
+				<div class="global-select-border">
+					<div class="global-select-main">
+						<!-- class="is-new" でNEWアイコンを表示 -->
+						<a href="/sc/#topicInfo"><span>トピックス一覧</span></a>
+						<a href="/sc/news/information/"><span>おしらせ一覧</span></a>
+						<a href="/sc/news/category/0/"><span>ニュース</span></a>
+						<a href="/sc/news/category/1/"><span>イベント</span></a>
+						<a href="/sc/news/category/2/"><span>アップデート</span></a>
+						<a href="/sc/news/category/3/"><span>メンテナンス/障害</span></a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="navi_playguide">
+			<a href="/sc/public/playguide/guide01/">プレイガイド</a>
+			<!-- プルダウンアイコン -->
+			<span class="globalnavi-down" style="display:none;"></span>
+			<div class="global-select">
+				<div class="global-select-border">
+					<div class="global-select-main">
+						<!-- class="is-new" でNEWアイコンを表示 -->
+						<a href="/sc/public/playguide/guide_1_1"><span>Wii版</span></a>
+						<a href="/sc/public/playguide/guide_1_1_wiiu"><span>Wii&nbsp;U版</span></a>
+						<a href="/sc/public/playguide/guide_1_1_win"><span>Windows版</span></a>
+						<a href="/sc/public/playguide/guide_1_1_3ds"><span>ニンテンドー3DS版</span></a>
+						<a href="/sc/public/playguide/guide01#offline"><span>オフラインモードを冒険しよう</span></a>
+						<a href="/sc/public/playguide/guide01#onlinemode"><span>オンラインモードの準備</span></a>
+						<a href="/sc/public/playguide/guide01#onlinemode02"><span>オンラインモードを冒険しよう</span></a>
+						<a href="/sc/public/playguide/guide01#rule"><span>ルールとマナー</span></a>
+						<a href="/sc/public/playguide/guide_5_1"><span>このサイトについて</span></a>
+						<a href="/sc/public/playguide/guide01#tool"><span>冒険をさらに便利にするツール</span></a>
+						<a href="/sc/public/playguide/wintrial_1/"><span>Windows無料体験版で始めてみる</span></a>
+						<a href="/sc/public/dgameguide"><span>dゲーム版で始めてみる</span></a>
+						<a href="/sc/public/serviceguide"><span>様々なサービスや特典のご案内</span></a>
+						<a href="http://support.jp.square-enix.com/main.php?la=0&id=2620#_ga=1.264632011.515880283.1412748140" target="_blank"><span>FAQ</span></a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="navi_community">
+			<a href="/sc/diary/pub/">交流酒場</a>
+			<!-- NEWアイコン -->
+			
+			<!-- プルダウンアイコン -->
+			<span class="globalnavi-down" style="display:none;"></span>
+			<div class="global-select">
+				<div class="global-select-border">
+					<div class="global-select-main">
+						<!-- class="is-new" でNEWアイコンを表示 -->
+						<a href="/sc/diary/pub/"><span>交流酒場</span></a>
+						<a href="/sc/diary/pub/"><span>冒険日誌</span></a>
+						<a href="/sc/worldRanking/bossRanking"><span>討伐タイムランキング</span></a>
+						<a href="/sc/worldRanking/colosseumRanking"><span>コロシアムランキング</span></a>
+						<a href="/sc/dressup/"><span>みんなのドレスアップ</span></a>
+						<a href="/sc/diary/playerevent/week"><span>プレイヤーイベント告知</span></a>
+						<a href="/sc/bulletinBoard/" class=""><span>みんなのお知らせ広場</span></a>
+						<a href="/sc/bulletinBoard/top10/" class=""><span>トップ10掲示板</span></a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="navi_forum">
+			<a href="/sc/forum/">提案広場</a>
+			<!-- プルダウンアイコン -->
+			<span class="globalnavi-down" style="display:none;"></span>
+			<div class="global-select">
+				<div class="global-select-border">
+					<div class="global-select-main">
+						<!-- class="is-new" でNEWアイコンを表示 -->
+						<a href="/sc/forum/"><span>提案広場</span></a>
+						<a href="/sc/public/forumguide"><span>提案広場とは？</span></a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="navi_shop">
+			<a href="/sc/shop/">DQXショップ</a>
+			
+				<span class="globalnavi-new"></span>
+			
+		</li>
+	</ul>
+<!-- end #globalNavi --></div>
+
+
+
+
+
+	
+	
+
+
+
+  
+  
+
+
+
+
+		
+		
+
+<div class="sub-navi" id="character-navi">
+	<div>
+		<ul class="clearfix">
+			<li id="sub-navi-character">
+				<a href="/sc/character/168279451003/">
+					にじのページ
+				</a>
+			</li>
+			<li id="sub-navi-diary">
+				<a href="/sc/diary/168279451003/">
+					冒険日誌
+				</a>
+			</li>
+			<li id="sub-navi-status">
+				<a href="/sc/character/168279451003/status/">
+					つよさ
+				</a>
+			</li>
+			<li id="sub-navi-senreki">
+				<a >
+					せんれき
+				</a>
+			</li>
+			<li id="sub-navi-mercenarylist">
+				<a href="/sc/character/168279451003/monster/mercenarylist">
+					仲間モンスター
+				</a>
+			</li>
+			<li id="sub-navi-bazzar">
+				<a href="/sc/character/168279451003/bazaar/list">
+					マイバザー
+				</a>
+			</li>
+			<li id="sub-navi-friendlist">
+				<a href="/sc/character/168279451003/friendlist/">
+					フレンド
+				</a>
+			</li>
+		</ul>
+	</div>
+	
+</div>
+
+
+<div id="wrapper">
+<div id="leaf">
+<div id="leaf_l">
+<div id="leaf_r">
+<div id="illust">
+
+<div id="userArea">
+
+
+	
+	
+
+
+
+  
+  
+
+
+
+
+
+<div id="loginUserPanel">
+	<div class="lupBox"><div class="lupBox_f"><div class="lupBox_b">
+
+		<div id="myCharacter">
+
+			<div id="myCharacterRadius">
+
+				<p id="myCharacterTitle">あなたの妖精</p>
+
+				<p id="myCharacterImg"><a href="/sc/character/168279451003/"><img src="http://hiroba.dqx.jp/sc/character/168279451003/img/bup/" alt="にじ" /></a></p>
+
+				
+				<div id="myCharacterStatus">
+				<h2 id="myCharacterName">[にじ]</h2>
+					<div id="myCharacterStatusList">
+						<dl>
+							<dt>キャラID</dt>
+							<dd>：&nbsp;UL608-750</dd>
+							<dt>種　族</dt>
+							<dd>：&nbsp;人間</dd>
+							<dt>性　別</dt>
+							<dd>：&nbsp;女</dd>
+							<dt>職　業</dt>
+							<dd>：&nbsp;魔法戦士</dd>
+							<dt>レベル</dt>
+							<dd>：&nbsp;89</dd>
+						</dl>
+					</div><!-- /#myCharacterStatusList -->
+
+					
+					
+
+					
+					
+
+				</div><!-- /#myCharacterStatus -->
+
+			</div><!-- /#myCharacterRadius -->
+
+			
+			<div id="myThreadList" class="otherThreadList">
+				<ul>
+					
+					<li class="btn_viewdiary"><a href="/sc/diary/168279451003/">冒険日誌をみる</a></li>
+					<li class="btn_threadlist"><a href="/sc/forum/threadlist/168279451003">提案の記録</a></li>
+				</ul>
+			</div>
+
+		</div><!-- /#myCharacter -->
+
+	</div><!-- /.lupBox_b --></div><!-- /.lupBox_f --></div><!-- /.lupBox -->
+</div><!-- /#loginUserPanel -->			
+
+
+
+
+	
+
+
+
+  
+  
+
+
+
+
+
+
+	<!-- トップ１０導線 -->
+	<a class="mt20" id="btn-top10-shortcut" href="/sc/bulletinBoard/top10/"></a>
+
+	<script type="text/javascript">
+	
+	var liveUrl="livecamera.dqx.jp";
+	var movieUrl="http://livecamera.dqx.jp/youtube.jsonp";
+	var cameraMode = 0;
+	var isConsole = false;
+
+	function openWinLivecamera(){
+	newin = window.open("/sc/public/popup_livecamera_caution/","newwindow","width=680,height=370,scrollbars=no,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=no");
+	newin.focus();
+	}
+	</script>
+	
+	
+	
+
+	<div id="liveArea">
+		<h2>ライブカメラ画像</h2>
+		
+		<div id="toggleLive">
+			 <span class="toggleLiveBtnOff" id="toggleMovie2d" rel="2d"  onclick="liveSelect('2d')" >2D動画</span
+			><span class="toggleLiveBtnOff"                      id="toggleMovie3d" rel="3d"  onclick="liveSelect('3d')" >3D動画</span
+			><span class="toggleLiveBtn" id="togglePicture" rel="pic" onclick="liveSelect('pic')">静止画</span>
+		</div>
+		
+		<div id="livePicBox" >
+			<a id="livePic" href="#livePicLarge" title="休止中" class="nopscr">
+				<img alt="" src="http://cache.hiroba.dqx.jp/dq_resource/img/live/trans_small.png" width="200" height="120" />
+			</a>
+		</div>
+		<div id="liveMovie" style="display:none">
+			<div id="ytplayer"></div>
+		</div>
+	</div><!-- /#liveArea -->
+	<p class="btn_caution"><a href="javascript:void(0);" onclick="openWinLivecamera()">3D動画利用にあたってのご注意</a></p>
+	
+	
+	
+		<script type="text/javascript">var photoContestIdHash="Xkjfi";var rhst="cache.hiroba.dqx.jp";var topicsText="写真コンテストページヘ";var topicsUrl="/sc/topics/detail/dc58e3a306451c9d670adcd37004f48f/"</script>
+		<div id="eventArea">
+			<h2>写真コンテスト</h2>
+			<p>
+				<a id="eventPic" href="#live-modal" !href="#eventPicLarge" title="休止中" class="nopscr">
+					<img alt="" src="http://cache.hiroba.dqx.jp/dq_resource/img/live/trans_small.png" height="120" />
+					<span id="eventPicCaptionMask"></span>
+					<span id="eventPicCaption"></span>
+				</a>
+			</p>
+		</div><!-- /#eventArea -->
+	
+	<div style="display: none;">
+		<div id="live-modal">
+			<table>
+				<tr>
+					<td id="live-modal-hl">
+						<img src="http://cache.hiroba.dqx.jp/dq_resource/img/common/modal/live/frame/header_l.png" />
+					</td>
+					<td id="live-modal-hc">
+						
+						<div id="live-modal-head"></div>
+					</td>
+					<td id="live-modal-hr">
+						<img src="http://cache.hiroba.dqx.jp/dq_resource/img/common/modal/live/frame/header_r.png" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<table class="w100">
+							<tr>
+								<td id="live-modal-ml"><div></div></td>
+								<td id="live-modal-mc">
+									
+									<div id="live-modal-main">
+										
+										<div class="live-modal-template">
+											
+											<div class="live-modal-content" id="live-modal-photo">
+												<div id="live-modal-photo-frame">
+													{{ photoImg }}
+													<div id="live-modal-photo-info">
+														<table>
+															<tr>
+																<td>さつえい日</td>
+																<td>&nbsp;：&nbsp;</td>
+																<td>{{ photoDate }}</td>
+															</tr>
+															<tr>
+																<td>さつえい場所</td>
+																<td>&nbsp;：&nbsp;</td>
+																<td>{{ photoZone }}&nbsp;（{{ photoWorld }}）</td>
+															</tr>
+														</table>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										
+										<div class="live-modal-template">
+											
+											<div class="live-modal-content" id="live-modal-contest">
+												<div id="live-modal-photo-frame">
+													{{ photoImg }}
+													<ul class="clearfix mt15 mb10 fs12">
+														<li class="float-left">
+															エントリーナンバー&nbsp;：&nbsp;{{ entryNo }}
+															<br />{{ entryTitle }}&nbsp;&nbsp;{{ charaName }}
+														</li>
+														<li class="float-right">
+															<a id="live-modal-goto" target="_blank" href="/sc/topics/detail/dc58e3a306451c9d670adcd37004f48f/">
+																写真コンテストページヘ
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+										
+										<div class="live-modal-template">
+											
+											<div class="live-modal-content" id="live-modal-maintenace">
+												<div id="live-modal-photo-frame">
+													{{ photoImg }}
+												</div>
+											</div>
+										</div>
+
+										
+										<div class="live-modal-template">
+											
+											<div class="live-modal-content" id="live-modal-manga">
+												<div class="photocontest-4koma-view mra mla">
+													<div class="photocontest-4koma-view-main">
+														<dl>
+															<dt>{{ entryTitle }}</dt>
+															<dd>
+																<div>{{ mangaImg1 }}</div>
+																<div><span>{{ mangaText1 }}&nbsp;</span></div>
+															</dd>
+															<dd>
+																<div>{{ mangaImg2 }}</div>
+																<div><span>{{mangaText2 }}&nbsp;</span></div>
+															</dd>
+															<dd>
+																<div>{{ mangaImg3 }}</div>
+																<div><span>{{ mangaText3 }}&nbsp;</span></div>
+															</dd>
+															<dd>
+																<div>{{ mangaImg4 }}</div>
+																<div><span>{{ mangaText4 }}&nbsp;</span></div>
+															</dd>
+														</dl>
+													</div>
+												</div>
+												<ul class="clearfix mt15 mb10 fs12">
+													<li class="float-left">
+														エントリーナンバー&nbsp;：&nbsp;{{ entryNo }}
+														<br />{{ charaName }}
+													</li>
+													<li class="float-right">
+														<a id="live-modal-goto" target="_blank" href="/sc/topics/detail/dc58e3a306451c9d670adcd37004f48f/">
+															写真コンテストページヘ
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+
+									</div>
+									<div>
+										
+										<a class="mra mla" id="live-modal-close" href="javascript:$.hirobaModal.close();">閉じる</a>
+									</div>
+								</td>
+								<td id="live-modal-mr"><div></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td id="live-modal-fl">
+						<img src="http://cache.hiroba.dqx.jp/dq_resource/img/common/modal/live/frame/footer_l.png" />
+					</td>
+					<td id="live-modal-fc"></td>
+					<td id="live-modal-fr">
+						<img src="http://cache.hiroba.dqx.jp/dq_resource/img/common/modal/live/frame/footer_r.png" />
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
+	
+
+<!-- end #userArea --></div>
+
+
+
+
+	
+	<div id="contentArea">
+
+		<div class="cttBox">
+
+			<h1 id="cttTitle">にじ</h1>
+
+		
+		
+		
+		<script type="text/javascript">
+		
+			$.getScript("https://apis.google.com/js/plusone.js", function(){
+				{lang: 'ja'};
+			});
+
+			function facebook(){
+				window.open(
+					'http://www.facebook.com/share.php?u=http://hiroba.dqx.jp/sc/character/168279451003/',
+					'winFacebook',
+					'toolbar=no,status=no,location=no,directories=no,menubar=no,scrollbars=no,width=720,height=400'
+				);
+			}
+
+			function mixi(){
+				window.open(
+					'http://mixi.jp/share.pl?u=http://hiroba.dqx.jp/sc/character/168279451003/&amp;k=360afb2dcf7b86fe913adf57a349b0f256139b70',
+					'winmixi',
+					'toolbar=no,status=no,location=yes,directories=no,menubar=no,scrollbars=no,width=720,height=400'
+				);
+			}
+
+		</script>
+		
+			<div id="social_btn">
+				<div class="facebook"><a href="" class="facebook" onClick="facebook()" title="Facebookでシェア"><img src="http://www.jp.square-enix.com/common/templates/images/footer/share_fb_w.gif" alt="Facebookにシェアする"></a></div>
+				<div class="twitter"><a href="http://twitter.com/share?url&amp;text=%E3%81%AB%E3%81%98+-+%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88X" class="twitter" target="_blank" title="Twitterでシェア"><img src="http://www.jp.square-enix.com/common/templates/images/footer/share_tw_w.gif" alt="Twitterにシェアする"></a></div>
+				<div class="mixi"><a href="#" class="mixi" onClick="mixi()" title="mixiチェックに追加"><img src="http://www.jp.square-enix.com/common/templates/images/footer/share_mx_w2.gif" alt="mixiチェック"></a></div>
+				<div class="google"><div class="g-plusone" data-size="standard" data-count="false" data-href="http://hiroba.dqx.jp/sc/character/168279451003/" style="display:inline !important;"></div></div>
+			</div>
+		
+		
+	
+			
+			<div class="newsBox">
+			<h2 class="tit_note tit_icon">にじの状態</h2>
+
+			
+			
+				
+				
+			
+
+			<div id="statusArea">
+				
+				<h3 class="tit_compass">にじのそうび<span class="btn_more"><a href="/sc/character/168279451003/status/">もっとみる</a></span></h3>
+				<div class="equipment">
+					<!-- そうび -->
+					<table>
+						<tr>
+							<th><span>みぎて</span></th>
+							<td>
+								
+									
+									
+									<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/26.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+									
+										
+										
+										
+											オルフェウスの弓＋２
+										
+										
+									
+									<span class="starArea"><span class="star">★★</span>★</span>
+									
+								
+								
+							</td>
+						</tr>
+						
+						<tr>
+							<th><span>ひだりて</span></th>
+							<td>
+								
+									
+									
+									<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/26.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+									
+										
+											<span class="weakTxt">(オルフェウスの弓)</span>
+										
+										
+										
+										
+									
+									<span class="starArea"></span>
+									
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<th><span>アタマ</span></th>
+							<td>
+								
+									<div class="txt_effect">
+									
+									<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/11.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+									
+										
+										
+										
+											まほうサークレット＋３
+										
+										
+									
+									<span class="starArea"><span class="star">★★★</span></span>
+									</div>
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<th><span>からだ上</span></th>
+							<td>
+								
+									
+									
+									<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/12.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+									
+										
+										
+										
+											ファントムマント＋３
+										
+										
+									
+									<span class="starArea"><span class="star">★★★</span></span>
+									
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<th><span>からだ下</span></th>
+							<td>
+								
+									
+									
+									<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/14.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+									
+										
+										
+										
+											皮のズボン＋３
+										
+										
+									
+									<span class="starArea"><span class="star">★★★</span></span>
+									
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<th><span>ウデ</span></th>
+							<td>
+								
+									
+									
+									<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/13.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+									
+										
+										
+										
+											皮のてぶくろ＋３
+										
+										
+									
+									<span class="starArea"><span class="star">★★★</span></span>
+									
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<th><span>足</span></th>
+							<td>
+								
+									
+									
+									<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/15.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+									
+										
+										
+										
+											レイブンブーツ＋３
+										
+										
+									
+									<span class="starArea"><span class="star">★★★</span></span>
+									
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<th><span>顔アクセ</span></th>
+							<td>
+								
+									<div class="txt_effect">
+									
+									<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/2.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+									
+										
+										
+										
+											悪霊の仮面＋３
+										
+										
+									
+									</div>
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<th><span>首アクセ</span></th>
+							<td>
+								
+									
+									
+									<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/1.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+									
+										
+										
+										
+											きんのロザリオ＋１
+										
+										
+									
+									
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<th><span>指アクセ</span></th>
+							<td>
+								
+									
+									
+									<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/4.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+									
+										
+										
+										
+											めざましリング＋３
+										
+										
+									
+									
+								
+								
+							</td>
+						</tr>
+							<tr>
+								<th><span>胸アクセ</span></th>
+								<td>
+									
+										
+										<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/7.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+										
+											
+											
+											
+												アヌビスのアンク＋４
+											
+											
+										
+									
+									
+								</td>
+							</tr>
+							<tr>
+								<th><span>腰アクセ</span></th>
+								<td>
+									
+										
+										<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/8.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+										
+											
+											
+											
+												輝石のベルト＋４
+											
+											
+										
+									
+									
+								</td>
+							</tr>
+							<tr>
+								<th><span>札アクセ</span></th>
+								<td>
+									
+										
+										<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/9.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+										
+											
+											
+											
+												しんぴのカード＋３
+											
+											
+										
+									
+									
+								</td>
+							</tr>
+						<tr>
+							<th><span>他アクセ</span></th>
+							<td>
+								
+									
+									
+									<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/3.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+									
+										
+										
+										
+											大地の竜玉＋３
+										
+										
+									
+									
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<th><span>職業の証</span></th>
+							<td>
+								
+									<div class="txt_effect">
+									
+									<p style="background: url(http://cache.hiroba.dqx.jp/dq_resource/equipicon/5.jpg?var=20131205_3) no-repeat;" class="ico_equipicon"></p>
+									
+										
+										
+										
+											万能の証
+										
+										
+									
+									</div>
+								
+								
+							</td>
+						</tr>
+					</table>
+					<div id="characterImg">
+						<!-- ペーパードール -->
+						<p class="img_character"><a onClick="pop_pict('http://hiroba.dqx.jp/sc/character/168279451003/img/all/',300,400)" href="javascript:;"><img src="http://hiroba.dqx.jp/sc/character/168279451003/img/all/" alt="" /><span class="ico_zoom"><img src="http://cache.hiroba.dqx.jp/dq_resource/img/mypage/ico_zoom.png" width="24" height="28" id="charazoom" /></span></a></p>
+						<p class="btn_reload"><a href="javascript:;" id="reflectBtn" class="button" style="display:none"></a></p>
+						<p class="btn_reload"><a href="javascript:;" id="reflectCheckBtn" class="button" style="display:none"></a></p>
+						<p id="reflectMessageText"></p>
+						<p class="txt_update">更新日時：2016/02/13 22:43</p>
+					<!-- /.characterImg --></div>
+
+					<!-- 仲間 -->
+					<div id="mycompanion-container">
+						
+							<!-- 仲間モンスターは非公開です -->
+						
+						
+
+						
+					</div><!-- mycompanion-container -->
+					
+					<!-- /そうび -->
+				<!-- /.equipment --></div>
+	
+				
+					<div class="message">
+						<h3 class="tit_compass">メッセージ</h3>
+							<!-- メッセージ -->
+							<p><br />　　(Ｕ^ ω^)わっちは賢狼　わんわんお！<br />　　　　　　　　　　　　　　　　草原1324-6<br /></p>
+							<!-- /メッセージ -->
+					<!-- /.message --></div>
+				
+
+				<!-- ピラミッド -->
+				
+
+				
+
+				
+					<div class="where">
+						<h3 class="tit_compass">いる場所</h3>
+							<!-- いる場所 -->
+							<dl>
+								<dt>サーバー&nbsp;：</dt>
+								<dd>--</dd>
+								<dt>エリア&nbsp;：</dt>
+								<dd>--</dd>
+							</dl>
+							<!-- いる場所 -->
+					<!-- /.where --></div>
+				
+
+
+				<!-- 一緒に旅したキャラ履歴 -->
+				
+			<!-- /#statusArea --></div>
+
+			<!-- /.newsBox --></div>
+			
+
+		
+		
+		
+		
+
+
+
+		<!-- /.cttBox --></div>
+
+			<p class="btn_pagetop"><a href="#container">ページトップへもどる</a></p>
+	<!-- end #contentArea --></div>
+	
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<script type="text/javascript">
+$(function(){
+	var extraareaheight = $("#extraArea").height() + 30;
+	$("div#wrapExtraArea").css("height", extraareaheight + "px");
+});
+
+$(function(){
+ $('.dqbtn06 input')
+  .mouseover(
+     function() { $(this).css('background-position','-131px -210px');})
+  .mouseout(
+     function() { $(this).css('background-position','0 -210px');})
+})
+</script>
+<div id="wrapExtraArea">
+	<div id="extraArea">
+		<div id="dqBox">
+			
+			<p id="serverStatus">
+					
+				
+				
+				
+				
+				
+				<a href="/sc/serverstatus/" class="serverStatusBtn button" id="serverStatusLabelRunning"></a>
+			</p>
+			<div class="dqBox_body">
+				
+				<form method="post" target="_blank" action="https://secure.square-enix.com/account/app/svc/Login?cont=account&request=aio">
+				<p class="dqbtn06">
+					<input type="hidden" name="exs" value="" />
+					<input type="submit" name="submit" value="アストルティア入国管理局はコチラ" />
+				</p>
+				</form>
+				
+				<p class="dqbtn01"><a href="/sc/topics/detail/9fc3d7152ba9336a670e36d0ed79bc43/">イベント情報</a></p>
+				
+				<p class="dqbtn02"><a href="/sc/topics/detail/d645920e395fedad7bbbed0eca3fe2e0/">全配信クエスト</a></p>
+				
+				
+				<p class="dqbtn04"><a href="/sc/topics/detail/c52f1bd66cc19d05628bd8bf27af3ad6/">DQXの歴史</a></p>
+				
+					<p class="dqbtn05"><a href="/sc/public/serviceguide">様々な特典やサービスのご案内</a></p>
+			</div>
+			
+			<div class="dqBox_f">
+			</div>
+		</div><!-- /#dqBox -->
+	
+	
+		<div id="extraBox">
+<p class="banner frame"><a href="http://hiroba.dqx.jp/sc/public/playguide/guide_sp_1/" target="_target"><img src="http://cache.hiroba.dqx.jp/dq_resource/bannertool/img/12-1455617718162.jpg?var=20160216" width="120" height="120" alt="" /></a></p>
+<p class="banner frame"><a href="http://hiroba.dqx.jp/sc/public/playguide/guide3dssuper_1/" target="_target"><img src="http://cache.hiroba.dqx.jp/dq_resource/bannertool/img/11-1455617822514.jpg?var=20160216" width="120" height="120" alt="" /></a></p>
+<p class="banner frame"><a href="http://www.dqx.jp/" target="_blank"><img src="http://cache.hiroba.dqx.jp/dq_resource/bannertool/img/1-1406280607104.jpg?var=20160216" width="120" height="120" alt="" /></a></p>
+<p class="banner frame"><a href="http://ch.nicovideo.jp/dqxtv" target="_target"><img src="http://cache.hiroba.dqx.jp/dq_resource/bannertool/img/2-1431594538653.jpg?var=20160216" width="120" height="120" alt="" /></a></p>
+<p class="banner frame"><a href="http://blog.jp.square-enix.com/magazine/dqx_guide/" target="_target"><img src="http://cache.hiroba.dqx.jp/dq_resource/bannertool/img/3-1449835376475.jpg?var=20160216" width="124" height="124" alt="" /></a></p>
+<p class="banner frame"><a href="http://www.dragonquest.jp/#_ga=1.255412992.900646801.1375243328" target="_blank"><img src="http://cache.hiroba.dqx.jp/dq_resource/bannertool/img/6-1406280654808.jpg?var=20160216" width="120" height="70" alt="" /></a></p>
+<p class="banner frame"><a href="http://vjumpbooks.com/dqnetwork/" target="_target"><img src="http://cache.hiroba.dqx.jp/dq_resource/bannertool/img/7-1455523891721.jpg?var=20160216" width="120" height="120" alt="" /></a></p>
+<p class="banner frame"><a href="/sc/topics/detail/8b4066554730ddfaa0266346bdc1b202/" target=""><img src="http://cache.hiroba.dqx.jp/dq_resource/bannertool/img/10-1454306791070.jpg?var=20160216" width="120" height="192" alt="" /></a></p>
+</div>
+ 
+	
+
+	</div><!-- end #extraArea -->
+</div><!-- /#wrapExtraArea -->
+
+
+<!-- end #illust --></div>
+<!-- end #leaf_r --></div>
+<!-- end #leaf_l --></div>
+<!-- end #leaf --></div>
+<!-- end #wrapper --></div>
+
+
+
+
+
+
+  
+  
+
+
+
+	
+	<!-- end #container --></div>
+
+<!-- === footerArea === -->
+<div id="sqexFooter" class="sqex-footer-white">
+<!-- デフォルトフッター -->
+    <div id="sqex-footer-contents">
+				
+    <p class="sqex-footer-copyright">&copy; 2012-2016 ARMOR PROJECT/BIRD STUDIO/SQUARE ENIX All Rights Reserved.</p>
+    </div>
+</div>
+<!-- === /footerArea === -->
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33979266-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KK989P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KK989P');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+
+</body></html>

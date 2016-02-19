@@ -1,0 +1,484 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Cassandra Sheryl Lee">
+<meta name="author" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Cassandraslee.Com - Cassandra Sheryl Lee Official Website</title>
+
+<link rel="shortcut icon" href="img/sms-4.ico" />
+
+<!-- STYLES -->
+<link href="http://fonts.googleapis.com/css?family=Ubuntu:bold" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/fancybox.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/ayumi/stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/superfish.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/flexslider.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/ui.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css?v=1455825618" />
+
+<link rel="stylesheet" type="text/css" href="css/960.css" />
+<link rel="stylesheet" type="text/css" href="css/supersized.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/supersized.shutter.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/devices/959.css" media="only screen and (min-width: 768px) and (max-width: 959px)" />
+<link rel="stylesheet" type="text/css" href="css/devices/767.css" media="only screen and (min-width: 480px) and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="css/devices/479.css" media="only screen and (min-width: 200px) and (max-width: 479px)" />
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.97074.js"></script> <![endif]-->
+
+
+
+
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=276139492422056";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<!-- Body Wrapper -->
+<div class="body-wrapper">
+    <div class="mask"></div>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+        	<div class="logo">
+            	<a href="frontpage.php"><img src="img/logo.png" alt="CassandraSLee" /></a>
+            </div>
+            
+            <!-- Nav -->
+            <nav id="nav">
+                <ul class="sf-menu movement">
+                    <li>
+                        <a href="frontpage.php"><img src="img/home.png"></a>
+                    </li>
+                    <li>
+                        <a href="about.php">About</a>
+                        <ul>
+                        	<li><a href="frontpage.php">Halaman Utama</a></li>
+                            <li><a href="about.php">About Cassandra S. Lee</a></li>
+                            <li><a href="facts.php">Facts About CSL</a></li>
+                            <li><a href="myself.php" style="background-image:url(img/menu/myself.jpg); height:55px;"><span style="margin-left:3em; padding-top:2em;">About Myself</span></a></li>
+                        </ul>
+                    </li>   
+                    <li>
+                        <a href="about.php">Cassievers</a>
+                        <ul>
+                            <li><a href="aboutcv.php">About Cassievers</a></li>
+                            <li><a href="fanbase.php">Fan Base Resmi</a></li>
+                            <li><a href="creativecv.php">Creative Cassievers</a>
+                            	<ul>
+                                	<li><a href="creativecv.php">Edit Foto</a></li>
+                                	<li><a href="ccvpoems.php">Puisi</a></li>
+                                	<li><a href="ccvpaintings.php">Lukisan/Gambar</a></li>
+                                </ul>                              
+                            </li>
+                            <li><a href="cvidcard.php">Cassievers CV Card</a></li>
+                            <li><a href="meetings.php">MnG Videos</a></li>
+                        </ul>
+                    </li>                                       
+                    <li>
+                        <a href="albums.php">Album</a>
+                        <ul>
+                            <li><a href="albums.php">Cassie</a></li>
+                            <li><a href="creativecv.php">Creative CV</a>
+                            	<ul>
+                                	<li><a href="creativecv.php">Edit Foto</a></li>
+                                	<li><a href="ccvpoems.php">Puisi</a></li>
+                                	<li><a href="ccvpaintings.php">Lukisan/Gambar</a></li>
+                                </ul>                              
+                            </li>
+                            <li><a href="cvalbums.php">Cassie & Cassievers</a></li>
+                            <li><a href="nominations.php">Nominasi Lomba</a></li>
+                        </ul>                        
+                    </li>
+                    <li>
+                        <a href="cvidcard.php">CV Card</a>
+                        <ul>
+                        	<li><a href="idcard.php">Benefit CV Card</a></li>
+                            <li><a href="cvidcard.php">Registrasi CV Card</a></li>
+                            <li><a href="cvcoordinators.php">CV Card Coordinators Resmi</a></li>
+                            <li><a href="konfirmasi.php">Konfirmasi Pembayaran CV Card</a></li>
+                            <li><a href="checkid.php">Check CV Card</a></li>
+                            <li><a href="cvcardfaq.php">Pertanyaan Tentang CV Card</a></li>
+                            
+                        </ul>
+                    </li>   
+                    <li>
+                        <a href="funworld.php">CV World</a>
+                        <ul>
+                            <li><a href="puzzle.php">Cassie Puzzle</a></li>
+                            <li><a href="comic.php">Cassie Comic</a></li>
+                        </ul>
+                    </li> 
+                            
+
+                </ul>
+            </nav>
+            <!-- /Nav -->
+            
+            <!-- Mobile Nav -->
+            <div class="menu-toggle">
+                <div style="text-align:center"><a href="#" style="color:white; height: 50px;">Menu</a></div>
+            </div>
+            <div class="menu-device">
+                <ul>   
+                    <li>
+                        <a href="frontpage.php">Home</a>
+                        <ul>
+                            <li><a href="frontpage.php">Halaman Utama</a></li>
+                            <li><a href="index.php">Cover</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="about.php">About</a>
+                        <ul>
+                            <li><a href="about.php">About Cassandra S. Lee</a></li>
+                            <li><a href="facts.php">Facts About CSL</a></li>
+                            <li><a href="myself.php">Myself</a></li>
+                        </ul>
+                    </li>   
+                    <li>
+                        <a href="about.php">Cassievers</a>
+                        <ul>
+                            <li><a href="aboutcv.php">About Cassievers</a></li>
+                            <li><a href="fanbase.php">Fan Base Resmi</a></li>
+                            <li><a href="#">Creative Cassievers</a>
+                                <li><a href="creativecv.php">Edit Foto</a></li>
+                                <li><a href="ccvpoems.php">Puisi</a></li>
+                                <li><a href="ccvpaintings.php">Lukisan/Gambar</a></li>                            
+                            </li>
+                            <li><a href="cvidcard.php">Cassievers CV Card</a></li>
+                            <li><a href="meetings.php">MnG Videos</a></li>
+                        </ul>
+                    </li>   
+                    <li>
+                        <a href="cvidcard.php">CV Card</a>
+                        <ul>
+                        	<li><a href="idcard.php">Benefit CV Card</a></li>
+                            <li><a href="cvidcard.php">Registrasi CV Card</a></li>
+                            <li><a href="cvcoordinators.php">CV Card Coordinators Resmi</a></li>
+                            <li><a href="konfirmasi.php">Konfirmasi Pembayaran CV Card</a></li>
+                            <li><a href="checkid.php">Check CV Card</a></li>
+                            <li><a href="cvcardfaq.php">Pertanyaan Tentang CV Card</a></li>
+                        </ul>
+                    </li>                                                        
+                    <li>
+                        <a href="albums.php">Album</a>
+                        <ul>
+                            <li><a href="albums.php">Cassie</a></li>
+                            <li><a href="#">Creative CV</a>
+                            	<ul>
+                                	<li><a href="creativecv.php">Edit Foto</a></li>
+                                	<li><a href="ccvpoems.php">Puisi</a></li>
+                                	<li><a href="ccvpaintings.php">Lukisan/Gambar</a></li>
+                                </ul>                              
+                            </li>
+                            <li><a href="cvalbums.php">Cassie & Cassievers</a></li>
+                            <li><a href="nominations.php">Nominasi Lomba</a></li>
+                        </ul>                        
+                    </li>
+  
+                    <li>
+                        <a href="funworld.php">Fun World</a>
+                        <ul>
+                            <li><a href="puzzle.php">Cassie Puzzle</a></li>
+                            <li><a href="comic.php">Cassie Comic</a></li>
+                        </ul>
+                    </li>                                        
+
+                </ul>
+            </div>
+            <!-- /Mobile Nav -->
+            
+        </div>
+    </header>
+    <!-- /Header -->    
+    <!-- About -->
+    <section id="content">
+        <div class="container">
+        	<div class="contactcircle">
+            	            
+            
+            	<p class="man">
+                                    </p>
+				<!--div style="text-align:center; margin-top: 30px;"><a class="backlink" href="frontpage.php">Masuk Disini</a></div-->
+
+            </div>
+            <!-- Slider Controller -->
+            <div id="controls-wrapper" class="load-item">
+                <div id="controls">
+                	<a id="prevslide" class="load-item"></a>
+                    <a id="nextslide" class="load-item"></a>
+                </div>
+            </div>
+            
+        </div>    
+    </section>
+    <!-- / About -->
+    
+    <!-- Footer -->
+    <footer id="footer">
+		<div class="container">
+			<p class="copyright">Copyright 2013. Developed by <a href="http://www.selebritiapps.com">SelebritiApps.Com</a>. All rights reserved.</p>
+            <ul class="social">
+            	<li><span>Follow me on:</span></li>
+                <li class="facebook"><a href="http://www.facebook.com/cassandrawinxs"></a></li>
+                <li class="twitter"><a href="http://www.twitter.com/cassandrasleee"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- / Footer -->
+    
+</div>
+<!-- / Body Wrapper -->
+
+<!-- SCRIPTS -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.timeago.js"></script>
+<script type="text/javascript" src="js/jquery.autosize.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	var msg = '#message';
+	console.log('test');
+	
+	$('#likecontent').hide();	
+
+	$('.time').timeago();
+	$(msg).autosize();
+
+	$('#post_comment').click(function() {
+		$(msg).focus();
+	});
+
+	$(msg).keypress(function(e) {
+		
+		if(e.which == 13) {
+			var val = $(msg).val();
+			
+			$.ajax({
+				url: 'pcomments/ajax.php',
+				type: 'GET',
+				data: 'token=&ptid=&pid=&mid=&type=cmt&msg='+escape(val),
+				success: function(data) {
+					$(msg).val('');
+					$(msg).css('height','14px');
+					$('#commentscontainer').append(data);
+					$('.time').timeago();
+				}
+			});
+		}
+	});
+
+	$('#like_post').click(function() {
+		var count = parseFloat($('#count').html()) + 1;
+		if(count > 1) {
+			$('#if_like').html('You and');
+			$('#people').html('others');
+		} else {
+			$('#if_like').html('You like this.');
+			$('#likecontent').hide();
+		}
+		
+		$.ajax({
+			url: 'pcomments/ajax.php',
+			type: 'GET',
+			data: 'token=&ptid=&pid=&mid=&type=like&val=like',
+			success: function(data) {
+				$(msg).val('');
+				$(msg).css('height','14px');
+				$('#commentscontainer').append(data);
+				$('.time').timeago();
+			}
+		});		
+
+		$('#like_post').hide();
+		$('#unlike_post').show();
+	});
+
+	$('#unlike_post').click(function() {
+		var count = parseFloat($('#count').html()) - 1;
+		if(count < 1) {
+			$('#likecontent').hide();	
+		}
+
+		$.ajax({
+			url: 'pcomments/ajax.php',
+			type: 'GET',
+			data: 'token=&ptid=&pid=&mid=&type=like&val=unlike',
+			success: function(data) {
+				$(msg).val('');
+				$(msg).css('height','14px');
+				$('#commentscontainer').append(data);
+				$('.time').timeago();
+			}
+		});				
+		
+		$('#unlike_post').hide();
+		$('#like_post').show();
+		$('#if_like').html('');
+		$('#people').html('people');
+	});
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/jquery.imgareaselect.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    var oi = $('img#uploaded_photo').imgAreaSelect({
+        handles: true,
+		aspectRatio: '1:1',
+		minHeight: 300,
+		minWidth: 300,
+		x1: 0, y1: 0, x2: 400, y2: 400, 		
+		onSelectChange: updateSelection
+
+
+		
+    });
+	
+
+});
+
+
+function updateSelection(img, selection) { 	
+
+	/*
+    if (!selection.width || !selection.height)
+        return;
+    
+    var scaleX = 100 / selection.width;
+    var scaleY = 100 / selection.height;
+
+    $('#preview img').css({
+        width: Math.round(scaleX * 400),
+        height: Math.round(scaleY * 400),
+        marginLeft: -Math.round(scaleX * selection.x1),
+        marginTop: -Math.round(scaleY * selection.y1)
+    });
+	*/
+	
+	$('#x1').val(selection.x1);
+	$('#y1').val(selection.y1);
+	$('#w').val(selection.width);
+	$('#h').val(selection.height);	
+  
+
+}
+
+
+
+</script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.97074.js"></script>
+<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="plugin/jquery.form.js"></script>
+<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+<script type="text/javascript" src="js/supersized.shutter.min.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/tweetable.js"></script>
+<!--script type="text/javascript" src="js/timeago.js"></script-->
+<script type="text/javascript" src="js/jflickrfeed.min.js"></script>
+<script type="text/javascript" src="js/cycle.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/viewport.js"></script>
+<script type="text/javascript" src="js/jwplayer.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<!--[if lt IE 9]> <script type="text/javascript" src="js/html5.js"></script> <![endif]-->
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+<script type="text/javascript">
+
+
+$(function($){
+	"use strict";
+	
+	
+	$.supersized({
+		slide_interval:5000,// Length between transitions
+		transition:1,// 0-None,1-Fade,2-Slide-Top,3-Slide-Right,4-Slide-Bottom,5-Slide-Left,6-Carousel-Right,7-Carousel Left
+		transition_speed:800,									   						
+		slide_links:'false',//Individual links for each slide (Options: false, 'num', 'name', 'blank')
+		slides:[{image:'img/bg/9.jpg', title:'Image Credit: '},
+				{image:'img/bg/7.jpg', title:'Image Credit: '},  
+				{image:'img/bg/8.jpg', title:'Image Credit: '},
+				{image:'img/bg/10.jpg', title:'Image Credit: '}]	
+	});
+	
+});
+
+  
+
+
+</script>
+
+
+<script type="text/javascript" src="js/thememarket.js"></script>
+<script type="text/javascript" src="../plugin/player/projekktor-1.2.38r332.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    projekktor('#player_a', {
+	volume: 0.8,
+	width: 100,
+	playerFlashMP4: 'http://www.cassandraslee.com/plugin/player/jarisplayer.swf',
+	playerFlashMP3: 'http://www.cassandraslee.com/plugin/player/jarisplayer.swf'
+	
+    });
+});
+
+</script> 
+
+
+
+
+
+</body>
+</html>

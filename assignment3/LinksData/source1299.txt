@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<head>
+	<title>Overnight London Escorts | London Escort Agency Sugarbabes International</title>
+	<!-- META -->
+	<meta name="description" content="Sugarbabes International. The Finest Escort Agency - Owned & Managed by English. Provides discreet and beautiful Female Escort in London. Our honest reputation will meet your expectation. This is our promise to you!" />
+	<meta name="keywords" content="London Escorts, Escort Agency" />
+	<meta name="robots" content="INDEX, FOLLOW" />
+	<meta name="author" content="Sugarbabes International" />
+	<meta name="copyright" content="" />
+	<meta charset="UTF-8" />
+	<meta name="google-site-verification" content="38LGBHGTu7MVuBejjbmFoQkAdPwq_h5GsG0zq3IGvx8" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" />
+	<link type="text/css" rel="stylesheet" href="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/main.css" />
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?&sensor=false"></script>
+
+	<script src="http://www.sugarbabesinternational.com/_scripts/jquery.1.7.js"></script>
+	<script src="http://www.sugarbabesinternational.com/_scripts/jquery.ui.1.8.13.js"></script>
+	<script src="http://www.sugarbabesinternational.com/_scripts/jquery.gmap.js"></script>
+	<script src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_scripts/functions.js"></script>
+	<script src="http://www.sugarbabesinternational.com/_scripts/validate.js"></script>
+	<script src="http://www.sugarbabesinternational.com/_scripts/datetimepicker.js"></script>
+	<script src="http://www.sugarbabesinternational.com/_scripts/jquery.backstretch.js"></script>
+	<script src="http://www.sugarbabesinternational.com/_scripts/simplyscroll.js"></script>
+
+<script type="text/javascript">
+
+var __lc = {};
+__lc.license = 1190901;
+
+(function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+
+$.fn.ttip = function()
+{
+	
+	$(this).mouseover(function(){
+
+		var content = $(this).attr('ttip');
+		var css = '';
+		
+		if(strstr(content, '.jpg'))
+		{
+		
+			content = '<img src="' + content + '" width="300" />';
+			css = 'ttipImage';
+		
+		}
+		
+		var toolTip = '<div class="ttip ' + css + ' invisible">' + content + '</div>';
+			
+		$(this).after(toolTip);
+		$('.ttip').fadeIn();
+				
+	}).mousemove(function(kmouse){
+	
+		$('.ttip').css({left:kmouse.pageX+15, top:kmouse.pageY+15});
+				
+	}).mouseout(function(){
+	
+		$('.ttip').fadeOut(function(){
+		
+			$(this).remove();
+		
+		});
+				
+	});
+ 
+};
+
+$.fn.notify = function(options)
+{
+
+	var defaults = {
+		prependTo: 'body',
+		type: 'nuetral',
+		message: 'Hello World This is a notification',
+		delay: 1000,
+		animation: 'fade'
+	}
+	
+	var options = $.extend(defaults, options);
+	
+	var notification = '<div class="notification '+options.type+'">'+options.message+'</div>';
+	
+	if($('.notification').size() > 0)
+	{
+	
+		$('.notification').remove();
+	
+	}
+	
+	$(options.prependTo).before(notification);
+	
+	if(options.animation == 'fade')
+	{
+	
+		$('.notification').fadeIn();
+		$('.notification').delay(options.delay).fadeOut();
+	
+	}
+	else if(options.animation == 'slide')
+	{
+	
+		$('.notification').slideDown();
+		$('.notification').delay(options.delay).slideUp();
+	
+	}
+
+}
+
+</script>	<script>
+	
+		
+	$(document).ready(function(){
+	
+		$.backstretch('http://www.sugarbabesinternational.com/mediaLibrary/files/london.jpg');
+	
+	});
+	
+	</script>
+</head>
+<body>
+
+<div class="header">
+
+	<a href="http://www.sugarbabesinternational.com/" class="logo" title="SugarBabes International"><img src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/logo.png" alt="SugarBabes Escorts"></a>
+        
+	<div class="contactInfo">
+			<p class="ukContact"><span>UK:</span> 07881611069</p>
+	<p class="intContact"><span>INT:</span> +447881611069</p>
+	<p class="workingHours">7am - Late 7 days a week</p>
+<div id="socialLinks">
+	<a href="https://twitter.com/SugarbabesIntXX"><img src="http://www.sugarbabesinternational.com/mediaLibrary/files/1334944319_twitter.png" /></a>
+	<a href="http://www.facebook.com/pages/Sugarbabes-International/226478364121118?ref=ts"><img src="http://www.sugarbabesinternational.com/mediaLibrary/files/1334944322_facebook.png" /></a>
+</div>
+<div class="clear"></div>	</div><!-- End contact info -->
+	
+	<div class="clear"></div>
+	
+	<ul class="navigation">
+			<li><a href="http://www.sugarbabesinternational.com/available-today" class="">Available Today</a>
+				
+			</li>
+			
+			<li><a href="http://www.sugarbabesinternational.com/female-escorts" class="">Female Escorts</a>
+				
+			</li>
+			
+			<li><a href="http://www.sugarbabesinternational.com/male-escorts" class="">Male Escorts</a>
+				
+			</li>
+			
+                <li><a href="" class="">Locations</a>
+                    <ul class="locations-dropdown"><li><a href="/female-escorts/ct/touring" class="">Touring</a></li><li><a href="/female-escorts/ct/international" class="">International</a></li><li><a href="/female-escorts/ct/london" class="">All London</a><ul><li><a href="/female-escorts/ct/london-baker-street" class="">London - Baker Street</a></li><li><a href="/female-escorts/ct/london-barnes-bridge" class="">London - Barnes Bridge</a></li><li><a href="/female-escorts/ct/london-battersea" class="">London - Battersea</a></li><li><a href="/female-escorts/ct/london-bayswater" class="">London - Bayswater</a></li><li><a href="/female-escorts/ct/london-bermondsey" class="">London - Bermondsey</a></li><li><a href="/female-escorts/ct/london-bond-street" class="">London - Bond Street</a></li><li><a href="/female-escorts/ct/london-canada-water" class="">London - Canada Water</a></li><li><a href="/female-escorts/ct/london-chelsea" class="">London - Chelsea</a></li><li><a href="/female-escorts/ct/london-clapham-junction" class="">London - Clapham Junction</a></li><li><a href="/female-escorts/ct/london-earls-court" class="">London - Earls Court</a></li><li><a href="/female-escorts/ct/london-euston" class="">London - Euston</a></li><li><a href="/female-escorts/ct/london-euston-square" class="">London - Euston Square</a></li><li><a href="/female-escorts/ct/london-gloucester-road" class="">London - Gloucester Road</a></li><li><a href="/female-escorts/ct/london-golders-green" class="">London - Golders Green</a></li><li><a href="/female-escorts/ct/london-hampstead" class="">London - Hampstead</a></li><li><a href="/female-escorts/ct/london-harrow" class="">London - Harrow</a></li><li><a href="/female-escorts/ct/london-heathrow" class="">London - Heathrow</a></li><li><a href="/female-escorts/ct/london-high-street-kensington" class="">London - High Street Kensington</a></li><li><a href="/female-escorts/ct/london-hyde-park-corner" class="">London - Hyde Park Corner</a></li><li><a href="/female-escorts/ct/london-kensington" class="">London - Kensington</a></li><li><a href="/female-escorts/ct/london-kew-gardens" class="">London - Kew Gardens</a></li><li><a href="/female-escorts/ct/london-knightsbridge" class="">London - Knightsbridge</a></li><li><a href="/female-escorts/ct/london-lancaster-gate" class="">London - Lancaster Gate</a></li><li><a href="/female-escorts/ct/london-maida-vale" class="">London - Maida Vale</a></li><li><a href="/female-escorts/ct/london-mansion-house" class="">London - Mansion House</a></li><li><a href="/female-escorts/ct/london-marylebone" class="">London - Marylebone</a></li><li><a href="/female-escorts/ct/london-mayfair" class="">London - Mayfair</a></li><li><a href="/female-escorts/ct/london-mortlake" class="">London - Mortlake</a></li><li><a href="/female-escorts/ct/london-oxford-circus" class="">London - Oxford Circus</a></li><li><a href="/female-escorts/ct/london-paddington" class="">London - Paddington</a></li><li><a href="/female-escorts/ct/london-richmond" class="">London - Richmond</a></li><li><a href="/female-escorts/ct/london-royal-oak" class="">London - Royal Oak</a></li><li><a href="/female-escorts/ct/london-sloane-square" class="">London - Sloane Square</a></li><li><a href="/female-escorts/ct/london-south-harrow" class="">London - South Harrow</a></li><li><a href="/female-escorts/ct/london-south-kensington" class="">London - South Kensington</a></li><li><a href="/female-escorts/ct/london-southwark" class="">London - Southwark</a></li><li><a href="/female-escorts/ct/london-st-james" class="">London - St James</a></li><li><a href="/female-escorts/ct/london-the-city" class="">London - The City</a></li><li><a href="/female-escorts/ct/london-vauxhall" class="">London - Vauxhall</a></li><li><a href="/female-escorts/ct/london-victoria" class="">London - Victoria</a></li><li><a href="/female-escorts/ct/london-west-brompton" class="">London - West Brompton</a></li><li><a href="/female-escorts/ct/london-west-end" class="">London - West End</a></li><li><a href="/female-escorts/ct/london-west-hampstead" class="">London - West Hampstead</a></li><li><a href="/female-escorts/ct/london-west-kensington" class="">London - West Kensington</a></li></ul></li><li><a href="/female-escorts/ct/uk-cities" class="">All UK Cities</a><ul><li><a href="/female-escorts/ct/uk-cities-birmingham" class="">UK Cities - Birmingham</a></li><li><a href="/female-escorts/ct/uk-cities-bristol" class="">UK Cities - Bristol</a></li><li><a href="/female-escorts/ct/uk-cities-cardiff" class="">UK Cities - Cardiff</a></li><li><a href="/female-escorts/ct/uk-cities-derby" class="">UK Cities - Derby</a></li></ul></li><li><a href="/female-escorts/ct/europe" class="">All Europe</a><ul><li><a href="/female-escorts/ct/europe-berlin" class="">Europe - Berlin</a></li><li><a href="/female-escorts/ct/europe-bucharest" class="">Europe - Bucharest</a></li><li><a href="/female-escorts/ct/europe-budapest" class="">Europe - Budapest</a></li><li><a href="/female-escorts/ct/europe-milan" class="">Europe - Milan</a></li><li><a href="/female-escorts/ct/europe-paris" class="">Europe - Paris</a></li><li><a href="/female-escorts/ct/europe-prague" class="">Europe - Prague</a></li></ul></li><li><a href="/female-escorts/ct/middle-east" class="">All Middle East</a><ul><li><a href="/female-escorts/ct/middle-east-bahrain" class="">Middle East - Bahrain</a></li><li><a href="/female-escorts/ct/middle-east-dubai" class="">Middle East - Dubai</a></li></ul></li><li><a href="/female-escorts/ct/usa-cities" class="">All USA Cities</a><ul><li><a href="/female-escorts/ct/usa-cities-boston" class="">USA Cities - Boston</a></li><li><a href="/female-escorts/ct/usa-cities-las-vegas" class="">USA Cities - Las Vegas</a></li><li><a href="/female-escorts/ct/usa-cities-los-angeles" class="">USA Cities - Los Angeles</a></li><li><a href="/female-escorts/ct/usa-cities-miami" class="">USA Cities - Miami</a></li><li><a href="/female-escorts/ct/usa-cities-new-york" class="">USA Cities - New York</a></li></ul></li><li><a href="/female-escorts/ct/far-east" class="">All Far East</a><ul><li><a href="/female-escorts/ct/far-east-hong-kong" class="">Far East - Hong Kong</a></li><li><a href="/female-escorts/ct/far-east-singapore" class="">Far East - Singapore</a></li></ul></li>
+                    
+                    </ul>
+                </li>
+                <li><a href="" class="">Categories</a>
+                    <ul class="categories-dropdown"><li><a href="/female-escorts/c/exclusive" class="">Exclusive</a></li><li><a href="/female-escorts/c/new" class="">New</a></li><li><a href="/female-escorts/c/english-british" class="">English/British</a></li><li><a href="/female-escorts/c/porn-stars" class="">Porn Stars</a></li><li><a href="/female-escorts/c/mature" class="">Mature (35yrs & Over)</a></li><li><a href="/female-escorts/c/fetish-fantasy" class="">Fetish/Fantasy</a></li><li><a href="/female-escorts/c/british-asian" class="">British Asian and Indian</a></li><li><a href="/female-escorts/c/american" class="">American</a></li><li><a href="/female-escorts/c/150-200" class="">£150/£200</a></li><li><a href="/female-escorts/c/straight" class="">Straight</a></li><li><a href="/female-escorts/c/bisexual" class="">Bisexual</a></li>
+                    
+                    </ul>
+                </li>
+                <li><a href="" class="">Nationality</a>
+                    <ul class="nationality-dropdown"><li><a href="/female-escorts/n/american" class="">American</a></li><li><a href="/female-escorts/n/arabic" class="">Arabic</a></li><li><a href="/female-escorts/n/argentinian" class="">Argentinian</a></li><li><a href="/female-escorts/n/australian" class="">Australian</a></li><li><a href="/female-escorts/n/austrian" class="">Austrian</a></li><li><a href="/female-escorts/n/brazilian" class="">Brazilian</a></li><li><a href="/female-escorts/n/british" class="">British</a></li><li><a href="/female-escorts/n/british-indian" class="">British Indian</a></li><li><a href="/female-escorts/n/czech" class="">Czech</a></li><li><a href="/female-escorts/n/czech-republic" class="">Czech Republic</a></li><li><a href="/female-escorts/n/eastern-european" class="">Eastern European</a></li><li><a href="/female-escorts/n/egyptian" class="">Egyptian</a></li><li><a href="/female-escorts/n/english" class="">English</a></li><li><a href="/female-escorts/n/estonian" class="">Estonian</a></li><li><a href="/female-escorts/n/european" class="">European</a></li><li><a href="/female-escorts/n/french" class="">French</a></li><li><a href="/female-escorts/n/german" class="">German</a></li><li><a href="/female-escorts/n/hungarian" class="">Hungarian</a></li><li><a href="/female-escorts/n/indian" class="">Indian</a></li><li><a href="/female-escorts/n/italian" class="">Italian</a></li><li><a href="/female-escorts/n/latin-american" class="">Latin American</a></li><li><a href="/female-escorts/n/latino" class="">Latino</a></li><li><a href="/female-escorts/n/lebanese" class="">Lebanese</a></li><li><a href="/female-escorts/n/maltese" class="">Maltese</a></li><li><a href="/female-escorts/n/persian" class="">Persian</a></li><li><a href="/female-escorts/n/polish" class="">Polish</a></li><li><a href="/female-escorts/n/portuguese" class="">Portuguese</a></li><li><a href="/female-escorts/n/romanian" class="">Romanian</a></li><li><a href="/female-escorts/n/russian" class="">Russian</a></li><li><a href="/female-escorts/n/scottish" class="">Scottish</a></li><li><a href="/female-escorts/n/spanish" class="">Spanish</a></li><li><a href="/female-escorts/n/swedish" class="">Swedish</a></li><li><a href="/female-escorts/n/ukrainian" class="">Ukrainian</a></li><li><a href="/female-escorts/n/venezuelan" class="">Venezuelan</a></li>
+                    </ul>
+                </li>
+			<li><a href="http://www.sugarbabesinternational.com/tour-calendar" class="">Tour Calendar</a>
+				
+			</li>
+			
+			<li><a href="http://www.sugarbabesinternational.com/become-an-escort" class="">Become an Escort</a>
+				
+			</li>
+			
+			<li><a href="http://www.sugarbabesinternational.com/contact-us" class="last ">Contact Us</a>
+				
+			</li>
+			
+				<div class="clear"></div>
+			</ul><!--Navigation End-->
+			
+</div><!-- End header -->
+
+<div class="clear"></div>
+
+<div class="container">
+	
+		
+	<div class="homeTopBar">
+	
+		<h4>Featured Sugarbabes  Escorts</h4>
+		
+		<form class="searchForm" action="" method="post">
+		
+			<input type="text" name="search" id="search" placeholder="Search Sugarbabes website…" />
+		
+		</form>
+		
+		<div class="clear"></div>
+	
+	</div><!-- End home top bar -->
+	
+	
+		<div class="profilesContainer profilesContainerHome">
+			<ul class="profilesScroller">
+		
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/bambi-tiffany" class="profile">
+				
+				<div>
+				
+					<div class="newStrip newStrip"></div>
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNjAxMTUxNzA3NDN0aWZmYW55LSYtYmFtYmktMS5qcGc=/308/235/1/t" alt="Bambi & Tiffany - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Bambi & Tiffany</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/europe.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/ava-koxxx" class="profile">
+				
+				<div>
+				
+					<div class="newExclusive newStrip"></div>
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNjAxMjYyMDA5NDZhdmExMy5qcGc=/308/235/1/t" alt="Ava Koxxx - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Ava Koxxx</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/uk.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/cathy-heaven" class="profile">
+				
+				<div>
+				
+					
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNTEwMDUyMTQzNTBjYXRoeTEuanBn/308/235/1/t" alt="Cathy Heaven - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Cathy Heaven</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/europe.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/chessie-kay" class="profile">
+				
+				<div>
+				
+					
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNjAxMTkyMjUwMTRjaGVzc2llMi5qcGc=/308/235/1/t" alt="Chessie Kay - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Chessie Kay</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/uk.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/marta-la-croft" class="profile">
+				
+				<div>
+				
+					<div class="newPhotos newStrip"></div>
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNjAxMzAxNTE4MTdtYXJ0YTEuanBn/308/235/1/t" alt="Marta La Croft - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Marta La Croft</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/spain.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/lauren" class="profile">
+				
+				<div>
+				
+					<div class="newPhotos newStrip"></div>
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNjAyMDYxNTQ3MjZsYXVyZW4yLmpwZw==/308/235/1/t" alt="Lauren - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Lauren</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/australia.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/nala" class="profile">
+				
+				<div>
+				
+					<div class="newExclusive newStrip"></div>
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNjAxMjMyMTM5NDduYWxhNC5qcGc=/308/235/1/t" alt="Nala - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Nala</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/arabic.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/sonia" class="profile">
+				
+				<div>
+				
+					<div class="exclusive newStrip"></div>
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNTA4MDQxMTU0Mzlzb25pYTMuanBn/308/235/1/t" alt="Sonia - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Sonia</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/india.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/stacy-saran" class="profile">
+				
+				<div>
+				
+					
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNjAxMjgxOTU5NTlzdGFjeS5qcGc=/308/235/1/t" alt="Stacy Saran - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Stacy Saran</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/uk.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/lolly" class="profile">
+				
+				<div>
+				
+					<div class="newExclusive newStrip"></div>
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNjAyMDIxMzE3MDIyMDE2MDIwMTIzMDAwN2xvbGx5NC5qcGc=/308/235/1/t" alt="Lolly - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Lolly</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/uk.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/amira" class="profile">
+				
+				<div>
+				
+					<div class="exclusive newStrip"></div>
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNjAxMTkyMjQyMjBhbWlyYTMuanBn/308/235/1/t" alt="Amira - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Amira</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/arabic.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/abbie-summers" class="profile">
+				
+				<div>
+				
+					<div class="exclusive newStrip"></div>
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNTExMDQxNjExMzBhYmJpZXN1bW1lcnMxLmpwZw==/308/235/1/t" alt="Abbie Summers - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Abbie Summers</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/uk.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			<li>
+			<a href="http://www.sugarbabesinternational.com/female-escorts/charlotte" class="profile">
+				
+				<div>
+				
+					<div class="newPhotos newStrip"></div>
+					
+					<div class="mediumWatermark"></div>
+				
+					<img class="watermark" src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNjAyMDgxNDA5MDNjaGFybG90dGU1LmpwZw==/308/235/1/t" alt="Charlotte - Featured Escort" />
+				
+				</div>
+				
+				<div class="title">
+				
+					<span>Charlotte</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/uk.jpg" />
+					
+					<div class="clear"></div>
+									
+				</div>
+			</a>
+			<!-- End Profile -->
+			
+			</li>
+			
+			</ul><!-- End profiles scroller -->
+		</div><!-- End profiles container -->
+			
+	<div class="leftColumn">
+	
+				
+		<div class="block-area"><h4><span style="font-size: 2em; font-weight: normal; line-height: 1.5em;">Welcome to Sugarbabes International</span></h4>
+<p>Here at Sugarbabes International our aim is to give you an escort experience you are likely to remember for the rest of your life.  We do this by listing some of the most beautiful, intelligent and attentive girls in the world.  From Paris to New York, from London to Dubai we are widely considered as one of the best escort agencies in the UK and we are incredibly proud of our achievements in the world of escorting.</p>
+<p><strong>Sugarbabes International Key Features</strong></p>
+<ul>
+<li>Trusted International escort agency, established in 2007</li>
+<li>English owned and managed</li>
+<li>Friendly and reliable, English customer service</li>
+<li>100% genuine photographs and escort profiles</li>
+<li>Widely diverse range of International escorts</li>
+<li>The best selection of porn and glamour star escorts in the UK and beyond</li>
+<li>Unique touring escort category</li>
+</ul>
+<p><strong>The girls</strong></p>
+<p>Although our girls are clearly very beautiful, we do delve a little deeper during our selection process in order to provide the perfect escort experience.  Personality, interests, enthusiasm, command of the English language and conversational skills are all very important too; primarily because we know they’re important to you.  If you are able to converse over dinner or drinks with one of our beautiful Sugarbabes and have a lovely evening then we feel like we have fulfilled our role successfully, and hopefully you will consider us again for a repeat booking.</p>
+<p>You will notice that our pages feature the usual categories when it comes to listings, but we also have a few you may not have seen on other agency websites.  One of these is our quite vast gallery of genuine mature escorts, for those who prefer experience above all else.  Also, due to our excellent reputation in the industry, we have managed to build quite a database of girls from the world of glamour and porn; these girls often tour the UK and abroad, so they are widely available nationwide if you book through us.</p>
+<p><strong>Our boys</strong></p>
+<p>Never let it be said that we cater only for the gentlemen of London.  We also have quite a range of male escorts operating in London and internationally for the most discerning men and women in the city.  When we list guys on our website we look for the same qualities in them as we do the girls; looks are only the tip of the iceberg with our guys, we know just how and why women appreciate men!</p>
+<p><strong>Locations</strong></p>
+<p>Our vast and diverse database of girls cover the whole of central London and beyond, including: Baker Street, Paddington, Victoria, Mayfair, Knightsbridge, Oxford Circus, Notting Hill, Earls Court, Kensington and everywhere else.  Due to our vast coverage you will mostly be able to see one of our escorts, either incall or outcall, within the hour.  All our girls are experienced and know how to get ready for a booking in a hurry!</p>
+<p>Our base of operations is in the UK and we have most major cities here covered, but we have excellent connections in: Dubai and Abu Dhabi in United Arab Emirates, Paris, Monaco, Milan, Budapest, Los Angeles, New York and Miami, and many more places.  You can browse our girls by location by choosing from the menu.  Many of the girls listed with us do tours around the world, and many will accompany you on weekends away or even longer; see the individual girl profile or call us for details.</p>
+<p><strong>We are here to help</strong></p>
+<p>Remember that it’s our objective to ensure you have a fantastic time with your escort.  If there is anything we can do to enhance your experience we welcome you to call us and let us know your requirements; we can quite easily pass on any requests to our girls directly and get back to you.</p>
+<p align="right"> </p>
+<p class="quote"><strong><em><strong><em>’’</em></strong>In the end, it’s not going to matter how many breaths you took, but how many moments took your breath away’’</em></strong></p>
+<p><strong><em><br /></em></strong></p>
+<p>- From our friendly British team Caroline, Carrie, Katerina, Julie, Beth, Ellen &amp; Alison</p>
+<p> </p>
+<p><img src="../../mediaLibrary/files/signature.png" alt="" width="200" height="78" /></p>
+<p> </p>
+<p class="disclaimertext"><strong>DISCLAIMER</strong></p>
+<p class="disclaimertext">THE FOLLOWING PAGES CONTAIN MATERIAL OF AN ADULT NATURE.</p>
+<p class="disclaimertext">Before entering this site (www.SugarbabesInternational.com), please read the following and AGREE to the terms. By agreeing to these terms, you are providing your consent and are signing the agreement electronically.  </p>
+<p class="disclaimertext">I DECLARE AND CONFIRM that I am at least 18 years of age and that according to the law in the locality or country in which I reside, it is not deemed illegal to read and publish content of an adult nature on the internet. If you do not agree please LEAVE THIS SITE NOW.</p>
+<p class="disclaimertext">I understand fully that Sugarbabes International acts in the capacity of a companionship agency only. Any fees mentioned on the site <em>(</em>www.SugarbabesInternational.com)<em> </em>or on any websites that Sugarbabes International advertises on, or on any verbal or written correspondence in any formats (including and not limited to electronic formats) with people working with Sugarbabes International, are for time and companionship only. Anything ­that is implied or inferred is not to be taken as inducement for services other than companionship. If anything else occurs, it is on the strict understanding that it will be a matter of mutual choice between two consenting adults.</p>
+<p class="disclaimertext">I understand that all of the individual escorts advertised on this website (www.SugarbabesInternational.com) and on any other related/associated websites are working on a self-employed independent basis and are not direct employees of Sugarbabes International.The escorts are responsible for paying their government taxes, national/government, other personal/professional insurances and any other government fees and charges.</p>
+<p class="disclaimertext">I may not link to this page or any page on this website (www.SugarbabesInternational.com), and/or download/copy any contents on this website (www.SugarbabesInternational.com) without written permission from the webmaster and owner. I understand that Sugarbabes International is not responsible for the content of external websites. I am not accessing this material to use against any person in any conceivable manner. I will agree to all the terms and conditions of this website (www.SugarbabesInternational), Sugarbabes International agency.</p>
+<p class="disclaimertext">By agreeing to the above statements, I am giving my full consent, and am signing the agreement electronically.</p>
+		<div class="clear"></div>
+	</div><!--Block-area End-->
+		
+	</div><!-- End left column -->
+
+	<div class="rightColumn">
+
+		<p><span style="font-size: large;"><span style="color: #f5097a;"><strong>*PLEASE NOTE*</strong></span><strong><span style="color: #00ccff;"> If you are not receiving our Newsletter, please add:</span><span style="text-decoration: underline; color: #ffff00;"><span style="text-decoration: underline;"> <span style="text-decoration: underline;"><a href="mailto:info@sugarbabesinternational.com"><span style="color: #ffff00; text-decoration: underline;">info@sugarbabesinternational.com</span></a></span> </span></span><span style="color: #00ccff;">to</span> <span style="color: #00ccff;">your safe senders list. To sign up please 'Subscribe' below.<br /></span></strong></span></p><div class="rightBlock">
+
+	<h2>Sugarbabes Newsletter</h2>
+	
+	<form name="newsletterSignup" id="newsletterSignup" method="post">
+	
+		<input type="text" name="email" id="email" type="text" autocomplete="off" placeholder="Email address"/>
+		
+		<input type="submit" name="newsletterSubscribe" id="newsletterSubscribe" value="Subscribe" />	
+		
+	</form>
+	
+</div><!-- End right block --><h2>Featured Escort</h2>
+
+		<a href="http://www.sugarbabesinternational.com/female-escorts/abbie-summers" class="sidebarProfile">
+		
+			<div class="featuredWatermark"></div>
+		
+			<div class="imgContainer">
+			
+				<div class="exclusive newStrip"></div>
+			
+				
+				
+				
+				<img src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNTExMDQxNjExMzAyMDE1MTAwNTA2NDEwNGFiYmllLXN1bW1lcnMzLmpwZw==/482/368/1/tl" alt="Abbie Summers - Featured escort - photo 5" />
+				<img src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNTEwMDQxMTA5MDNhYmJpZS1zdW1tZXJzNC5qcGc=/482/368/1/tl" alt="Abbie Summers - Featured escort - photo 4" />
+				<img src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNTExMDQxNjExMzBhYmJpZXN1bW1lcnMzLmpwZw==/482/368/1/tl" alt="Abbie Summers - Featured escort - photo 3" />
+				<img src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNTExMDQxNjExMzBhYmJpZXN1bW1lcnMyLmpwZw==/482/368/1/tl" alt="Abbie Summers - Featured escort - photo 2" />
+				<img src="http://www.sugarbabesinternational.com/img/resize/aHR0cDovL3d3dy5zdWdhcmJhYmVzaW50ZXJuYXRpb25hbC5jb20vbWVkaWFMaWJyYXJ5L3Byb2ZpbGVJbWFnZXMvMjAxNTExMDQxNjExMzBhYmJpZXN1bW1lcnMxLmpwZw==/482/368/1/tl" alt="Abbie Summers - Featured escort - photo 1" />
+			
+			</div>
+			
+			<div class="title">
+			
+				<span>Abbie Summers</span> <img class="flag" src="http://www.sugarbabesinternational.com/_themes/SugarBabesInt/_style/_style-images/flags/uk.jpg" />
+				
+				<div class="clear"></div>
+			
+			</div>
+			
+			<div class="extraInfo">
+			
+				<p>£250<br />Very Open-Minded<br />Busty English Blonde<br />Duos with Harriet!<br /><span style="color: #daa520;"><strong>London - Chelsea</strong></span></p>
+			
+			</div>
+			
+		</a><!-- End Profile -->
+		
+<script>
+
+$(document).ready(function(){
+
+	setImageIndexes('imgContainer', 'activeFeaturedImage');
+	
+	//Call function 
+	loopFeaturedImages();
+	
+	//Loop through
+	setInterval(loopFeaturedImages, 2000);
+
+});
+
+function setImageIndexes(containerDivClass, activeImageClass)
+{
+
+	//Set the image count variable
+	var imageCount = 0;
+	
+	//Loop through each image
+	$('.' + containerDivClass + ' img').each(function(){
+	
+		//Incriment image
+		imageCount = imageCount + 1;
+	
+	});
+	
+	//Define the image index starting point
+	var imageIndex = imageCount;
+	
+	//Loop through each image
+	$('.' + containerDivClass + ' img').each(function(){
+		
+		//Set the image index
+		$(this).attr('imageIndex', imageIndex);
+		
+		//If this is the first set the first class
+		if(imageIndex == 1){ $(this).addClass(activeImageClass);}
+		
+		//Decrement the index
+		imageIndex = imageIndex - 1;
+	
+	});
+
+}
+
+function loopFeaturedImages()
+{
+
+	var lowRange = 1;
+	var highRange = 8;
+	var currentImageIndex = $('.activeFeaturedImage').attr('imageIndex');
+	var nextImageIndex = Number(currentImageIndex) + 1;
+	var speed = 1000;
+	var delay = 2000;
+	
+	if($('.imgContainer img[imageIndex=' + nextImageIndex + ']').size() > 0)
+	{
+	
+		$('.imgContainer img[imageIndex=' + nextImageIndex + ']').delay(delay).fadeIn(speed, function(){
+		
+			$('.imgContainer img[imageIndex=' + nextImageIndex + ']').addClass('activeFeaturedImage');
+			$('.imgContainer img[imageIndex=' + currentImageIndex + ']').removeClass('activeFeaturedImage');
+			$('.imgContainer img[imageIndex=' + currentImageIndex + ']').fadeOut(speed);
+		
+		});
+	
+	}
+	else
+	{
+	
+		$('.imgContainer img').last().delay(delay).fadeIn(speed, function(){
+		
+			$(this).addClass('activeFeaturedImage');
+			$('.imgContainer img[imageIndex=' + currentImageIndex + ']').removeClass('activeFeaturedImage');
+			$('.imgContainer img[imageIndex=' + currentImageIndex + ']').fadeOut(speed);
+		
+		});
+	
+	}
+	
+}
+
+</script>	
+	</div><!-- End right column -->
+	
+	<div class="clear"></div>
+
+	﻿<div class="footer">
+
+	<ul class="footerColumn">
+		<li><a href="http://www.sugarbabesinternational.com/female-escorts">Female Escorts</a></li>
+        <li><a href="http://www.sugarbabesinternational.com/male-escorts">Male Escorts</a></li>
+        <li><a href="http://www.sugarbabesinternational.com/diamond-service">Diamond Service</a></li>
+	</ul>
+	
+	<ul class="footerColumn">
+		<li><a href="http://www.sugarbabesinternational.com/female-escorts/c/mature">Mature Escorts UK</a></li>
+		<li><a href="http://www.sugarbabesinternational.com/female-escorts/c/porn-stars">XXX Porn Star Escorts</a></li>
+        <li><a href="http://www.sugarbabesinternational.com/faqs">FAQs</a></li>
+	</ul>
+	
+	<ul class="footerColumn">
+		<li><a href="http://www.sugarbabesinternational.com/female-escorts/c/150-200">£150 Escorts</a></li>
+		<li><a href="http://www.sugarbabesinternational.com/female-escorts/c/150-200">£200 Escorts</a></li>
+        <li><a href="http://www.sugarbabesinternational.com/blog">Blog</a></li>
+	</ul>
+
+</div><!-- End footer -->
+
+	
+</div><!-- End container -->
+
+<div class="subFooter">
+	&copy;2016 SugarbabesInternational All rights reserved	<a href="http://www.sugarbabesinternational.com/sitemap">Sitemap</a>
+	<a href="http://www.sugarbabesinternational.com/links">Links</a>
+	<a href="https://twitter.com/SugarbabesIntXX"><img src="http://www.sugarbabesinternational.com/mediaLibrary/files/1334944319_twitter.png" /></a>
+	<a href="http://www.facebook.com/pages/Sugarbabes-International/226478364121118?ref=ts"><img src="http://www.sugarbabesinternational.com/mediaLibrary/files/1334944322_facebook.png" /></a>
+</div><!-- End sub footer -->
+
+
+	
+	<div class="clear"></div>
+	
+    <p align="center"><a href="http://www.theeroticreview.com"><img src="http://www.theeroticreview.com/images/reviewed_seal.gif" alt="" border="0" /></a></p>
+<p align="center"><br /> <a href="http://www.londonescortguide.com"><img src="http://www.londonescortguide.com/london_escorts_home.gif" alt="london escort guide" width="133" height="36" border="0" /></a></p>
+<div align="center">
+<div align="center"><a href="http://www.punterlink.co.uk" target="_blank"><img src="http://www.punterlink.co.uk/images/storage/siteban1/1st5.gif" alt="Escorts" width="160" height="60" border="0" /></a><br /> <span style="font-size: large;"><span style="font-family: Arial,Helvetica,sans-serif;"><br /></span></span></div>
+<div class="luelink"><a title="London Escorts" href="http://www.londonukescorts.co.uk/index.php" target="_blank"><img src="http://www.londonukescorts.co.uk/grafix/rlinks/uk_banner_06.gif" alt="" width="120" height="114" border="0" /></a></div>
+<p align="center"><a href="http://www.turnonlondon.com"><img src="http://www.turnonlondon.com/images/TOL188X40.gif" alt="London Escorts, Escort Agencies" width="188" height="40" border="0" /></a></p>
+<div style="font: Arial; font-size: 11px; line-height: 1.5em; text-align: center;"><a href="http://www.captain69.co.uk/"><img onmousedown="return false;" src="http://www.captain69.co.uk/banners/Captain69-133x36.gif" alt="Captain69 escort reviews" border="0" /></a><br />    <br />
+<div><a href="http://www.adultguidetolondon.co.uk/independent-escorts/"><img src="http://www.adultguidetolondon.co.uk/agtl-banners/ag2-120x45.gif" alt="London escort agencies" width="120" height="45" border="0" /></a><a title="Bump My UK Adult Zone Profile" href="http://www.ukadultzone.com/31101.html" target="_blank"><img style="border: 0px;" src="http://pics.epoper.co.uk/images/buttons/bump.png" alt="Bump My UK Adult Zone Profile" width="72" height="72" /><br /></a><br />         <span style="font-size: 7pt;"><a href="http://www.adultguidetolondon.co.uk">London escorts directory</a></span>
+<p align="center">Going abroad and thinking of late night company? <a href="http://www.dubailove.me/independent">Independent Escorts</a></p>
+<p> </p>
+<!-- End  Adult Guide Escort Agencies code --></div>
+</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31356907-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
+  	

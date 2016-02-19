@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta charset="UTF-8"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="content-style-type" content="text/css"/>
+<meta http-equiv="content-script-type" content="text/javascript"/>
+<meta http-equiv="content-language" content="ja"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta name="description" content="iPhone, Android向けスマホゲームアプリの総合掲示板!!ゲームアプリの招待コードや情報交換でもっと楽しく!!"/>
+<meta name="keywords" content="iPhone, Android, ゲーム, アプリ, 掲示板"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="copyright" content="GameBBS"/>
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="/css/smoke.css"/>
+<link rel="stylesheet" type="text/css" href="/css/application.css"/>
+<link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.min.css"/>
+<link href="/img/favicon.ico" rel="shortcut icon" type="image/ico"/>
+<link href="http://gamebbs.info/" rel="canonical"/>
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome-ie7.min.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="/js/html5shiv.js"></script>
+<script src="/js/respond.min.js"></script>
+<![endif]-->
+<title>GameBBS iPhone, Android向けゲームアプリの総合掲示板</title>
+<meta property="og:site_name" content="GameBBS iPhone, Android向けゲームアプリの総合掲示板"/>
+<meta property="og:title" content="GameBBS iPhone, Android向けゲームアプリの総合掲示板"/>
+<meta property="og:description" content="iPhone, Android向けスマホゲームアプリの総合掲示板!!ゲームアプリの招待コードや情報交換でもっと楽しく!!"/>
+<meta property="og:url" content="http://gamebbs.info/"/>
+<meta property="og:image" content="http://gamebbs.info/img/logo.gif"/>
+<meta property="og:type" content="website"/>
+<meta property="fb:app_id" content="617246768326359"/>
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@bbs_game"/>
+<meta name="twitter:url" content="http://gamebbs.info/"/>
+<meta name="twitter:title" content="GameBBS iPhone, Android向けゲームアプリの総合掲示板"/>
+<meta name="twitter:description" content="iPhone, Android向けスマホゲームアプリの総合掲示板!!ゲームアプリの招待コードや情報交換でもっと楽しく!!"/>
+<meta name="twitter:image" content="http://gamebbs.info/img/logo.gif"/>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39513567-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ <script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+    typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+    b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+    mixpanel.init("492531f48c106fffd0b6a0b183ebb200");</script> 
+</head>
+<body>
+<div class="container">
+<div id="header">
+<div class="col-lg-12">
+<h1>
+<a href="/">
+<img src="http://gamebbs.info/img/logo.gif" width="50" class="pull-left"/>
+</a>
+<a href="/">
+<span style="font-size:20px;padding-left:10px;" class="pull-left">GameBBS<br/>iPhone, Android向けゲームアプリの総合掲示板</span>
+</a>
+</h1>
+<div class="clearfix"></div>
+<p class="users">
+<a href="/users/login" class="btn btn-default">ログイン</a>
+<a href="/users/sign_up" class="btn btn-primary" onClick="mixpanel.track('Open SignUp View')">ユーザー登録</a>
+</p>
+</div>
+</div>
+<div style="clear:both;"></div>
+<div class="row">
+<div class="col-lg-8">
+<div class="search">
+<form action="http://gamebbs.info/search" accept-charset="utf-8" method="get" class="form-inline" role="form"> <form>
+<div class="col-lg-12">
+<div class="input-group">
+<input type="text" class="form-control" name="keyword" method="GET" value="" placeholder="サイト内のゲームを検索"/>
+<span class="input-group-btn" style="padding-top:15px;">
+<button type="submit" class="btn btn-primary" onClick="mixpanel.track('Click Search Button')">検索</button>
+</span>
+</div>
+</div>
+</form>
+</div>
+<div class="row">
+<div class="col-lg-6">
+<h3 class="topic-title"><i class="icon-thumbs-up icon-large"></i> 総合人気ゲーム</h3>
+<ul class="list-unstyled clearfix">
+<li>
+<a href="game/134" class="game-face">
+<img src="http://a1.mzstatic.com/us/r30/Purple6/v4/80/0f/1e/800f1e81-b3ab-490f-4ac7-627952dc0123/mzl.ophawuoa.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE：ディズニ... <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 30396件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/162" class="game-face">
+<img src="http://a2.mzstatic.com/us/r30/Purple6/v4/f9/45/11/f94511eb-40f9-14e2-6977-561a7fd710aa/mzl.tzfokvei.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ほしの島のにゃんこ <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 4337件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/105" class="game-face">
+<img src="http://a4.mzstatic.com/us/r30/Purple/v4/84/b6/da/84b6da3a-698b-92d3-1c4d-7a06d88c566d/mzl.wfqattqs.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ウチの姫さまが... <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 2692件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/71" class="game-face">
+<img src="http://a3.mzstatic.com/us/r30/Purple4/v4/3e/12/a9/3e12a9fb-0fc9-50db-14a6-0b5b4efae54f/mzl.lqxofali.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+モンスタースト... <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 558件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/53" class="game-face">
+<img src="http://a1.mzstatic.com/us/r30/Purple6/v4/85/7b/d0/857bd005-5de7-c6bb-f440-f0b1164ff424/mzl.uudvdvtt.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+古の女神と宝石... <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 1335件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/331" class="game-face">
+<img src="http://a4.mzstatic.com/us/r30/Purple4/v4/75/92/c9/7592c932-1493-3137-4620-710c233f80d1/mzl.xiayvrch.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE ゲットリッチ <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 1185件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/30" class="game-face">
+<img src="http://a2.mzstatic.com/us/r30/Purple6/v4/14/e3/e7/14e3e765-55df-bc47-4b2c-436e9faae0f1/mzl.erclfrnf.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+にじいろ牧場 <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 953件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/25" class="game-face">
+<img src="http://a5.mzstatic.com/us/r30/Purple/v4/cc/d3/b8/ccd3b8f3-f0ec-b0a6-ace5-189491b4bce5/mzl.piqtxatn.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE ウィンドラ... <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 899件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/118" class="game-face">
+<img src="http://a3.mzstatic.com/us/r30/Purple6/v4/07/cc/12/07cc126b-509e-d90f-f770-a58bcb966bc7/mzl.zhwfoovf.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+三国志ロワイヤル <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 705件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/140" class="game-face">
+<img src="http://a4.mzstatic.com/us/r30/Purple4/v4/9a/04/c4/9a04c48a-30b4-aa7e-0604-7a3e7ac14a98/mzl.yfundpja.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE クッキーラン <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 583件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/5" class="game-face">
+<img src="http://a2.mzstatic.com/us/r1000/048/Purple/v4/55/c0/93/55c09321-5410-417d-a123-dc40e3d466f6/mzl.vuxpvhra.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+にゃんこ大戦争 <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 564件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/37" class="game-face">
+<img src="http://a3.mzstatic.com/us/r30/Purple6/v4/a3/7d/3f/a37d3f95-b344-526c-ffa4-8c87b4b50cd1/mzl.abyjujvv.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE ポコパン <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 433件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/34" class="game-face">
+<img src="http://a5.mzstatic.com/us/r30/Purple/v4/7c/fa/34/7cfa3488-4ac2-7381-5ee8-7ee2f09265d5/mzl.tvxrxjtd.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ギャングスター ... <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 278件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/108" class="game-face">
+<img src="http://a5.mzstatic.com/us/r30/Purple6/v4/f5/73/de/f573decb-5171-7df9-efb2-4df667619d18/mzl.tjgwgydl.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ハローキティの... <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 278件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/110" class="game-face">
+<img src="http://a4.mzstatic.com/us/r30/Purple6/v4/14/ac/e6/14ace677-39fe-8a98-87d9-11d6f9d739c0/mzl.nemyhbtj.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+にゃんこ大暴走 <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 23件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/268" class="game-face">
+<img src="http://a2.mzstatic.com/us/r30/Purple2/v4/34/5b/bb/345bbba4-8aee-5df4-ace0-795253bd93c6/mzl.jjwxxwzf.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+シャドウファイト2 <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 226件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/35" class="game-face">
+<img src="http://a4.mzstatic.com/us/r30/Purple4/v4/58/a3/4f/58a34f9c-50d9-4f40-3f49-0f0d381d709f/mzl.wvjkndnh.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ヘイ・デイ (Ha... <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 208件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/3" class="game-face">
+<img src="http://a3.mzstatic.com/us/r1000/017/Purple6/v4/53/de/1c/53de1c99-c752-3969-3faf-cfef69a15760/mzl.sngjaooy.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+パズル＆ドラゴ... <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 13件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/130" class="game-face">
+<img src="http://a3.mzstatic.com/us/r30/Purple6/v4/d0/63/72/d0637241-b941-92d6-b6df-23577afa27f0/mzl.mssjbeuw.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ドラゴンクエス... <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 146件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/163" class="game-face">
+<img src="http://a3.mzstatic.com/us/r30/Purple/v4/c0/b8/2f/c0b82f2b-edc5-a5c3-affb-28cf2a7aed55/mzl.kfsbcjwg.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE レンジャー <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 124件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/127" class="game-face">
+<img src="http://a2.mzstatic.com/us/r30/Purple4/v4/09/9c/8c/099c8c93-03ba-5041-f9b8-74f3339985e8/mzl.ynrsqium.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ミリオンチェイン <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 105件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/36" class="game-face">
+<img src="http://a5.mzstatic.com/us/r30/Purple/v4/b9/0a/24/b90a244c-8cb9-9519-e78c-d456206d3512/mzl.jdpbsagc.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ファームストー... <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 116件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/150" class="game-face">
+<img src="http://a5.mzstatic.com/us/r30/Purple/v4/4a/48/c8/4a48c8f4-7ccc-5511-6ba7-b6267f21fc5a/mzl.dhpjvdbl.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+聖闘士星矢小宇... <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 114件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/38" class="game-face">
+<img src="http://a1.mzstatic.com/us/r30/Purple4/v4/a4/ae/dd/a4aedd6d-a4ff-8554-978c-67d575d56cff/mzl.jqwhgyip.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE POP <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 94件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/79" class="game-face">
+<img src="http://a5.mzstatic.com/us/r30/Purple6/v4/c2/f4/d7/c2f4d793-62f9-9f22-95a9-5f4df372ace6/mzl.ffuqxldb.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ハコニワ ふしぎ... <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 103件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/402" class="game-face">
+<img src="http://a5.mzstatic.com/jp/r30/Purple3/v4/05/99/ec/0599ec0e-c462-d076-ed92-ae352daa5207/icon175x175.png" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+乖離性ミリオン... <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 97件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/145" class="game-face">
+<img src="http://a1.mzstatic.com/us/r30/Purple/v4/7d/27/26/7d27268b-e03d-f57c-7acc-18f613696292/mzl.cvxcrldw.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+デッドマンズクルス <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 82件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/121" class="game-face">
+<img src="http://a4.mzstatic.com/us/r30/Purple4/v4/f1/80/5a/f1805af9-ea7b-1cf6-699f-082cb8c0a975/mzl.bwfwuvhg.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ドリフトスピリ... <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 84件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/124" class="game-face">
+<img src="http://a2.mzstatic.com/us/r30/Purple6/v4/d7/5a/0e/d75a0e7a-1812-0020-281c-ebec86351284/mzl.xpccdyud.75x75-65.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+千メモ！【つな... <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 84件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/398" class="game-face">
+<img src="http://a5.mzstatic.com/jp/r30/Purple3/v4/18/29/84/1829845f-f8b8-5d18-568c-0633147a5668/icon175x175.jpeg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE ポコポコ <i class="icon-apple icon-large" style="color:gray;"></i> <i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 42件</span>
+ 
+</p>
+</a>
+</li>
+</ul>
+</div>
+<div class="col-lg-6">
+<h3 class="topic-title"><i class="icon-check icon-large"></i> 最新スレッド</h3>
+<ul class="list-unstyled clearfix">
+<li>
+<a href="game/71" class="game-face">
+<img src="http://a3.mzstatic.com/us/r30/Purple4/v4/3e/12/a9/3e12a9fb-0fc9-50db-14a6-0b5b4efae54f/mzl.lqxofali.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+モンスタースト... <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 558件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/134" class="game-face">
+<img src="http://a1.mzstatic.com/us/r30/Purple6/v4/80/0f/1e/800f1e81-b3ab-490f-4ac7-627952dc0123/mzl.ophawuoa.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE：ディズニ... <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 30396件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/37" class="game-face">
+<img src="http://a3.mzstatic.com/us/r30/Purple6/v4/a3/7d/3f/a37d3f95-b344-526c-ffa4-8c87b4b50cd1/mzl.abyjujvv.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE ポコパン <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 433件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/105" class="game-face">
+<img src="http://a4.mzstatic.com/us/r30/Purple/v4/84/b6/da/84b6da3a-698b-92d3-1c4d-7a06d88c566d/mzl.wfqattqs.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ウチの姫さまが... <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 2692件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/163" class="game-face">
+<img src="http://a3.mzstatic.com/us/r30/Purple/v4/c0/b8/2f/c0b82f2b-edc5-a5c3-affb-28cf2a7aed55/mzl.kfsbcjwg.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE レンジャー <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 124件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/118" class="game-face">
+<img src="http://a3.mzstatic.com/us/r30/Purple6/v4/07/cc/12/07cc126b-509e-d90f-f770-a58bcb966bc7/mzl.zhwfoovf.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+三国志ロワイヤル <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 705件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/36" class="game-face">
+<img src="http://a5.mzstatic.com/us/r30/Purple/v4/b9/0a/24/b90a244c-8cb9-9519-e78c-d456206d3512/mzl.jdpbsagc.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ファームストー... <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 116件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/158" class="game-face">
+<img src="http://a5.mzstatic.com/us/r30/Purple/v4/c5/da/7a/c5da7a34-53a7-3ab2-08a3-1a021fd65506/mzl.chrzjipq.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ポケットランド ... <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 7件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/121" class="game-face">
+<img src="http://a4.mzstatic.com/us/r30/Purple4/v4/f1/80/5a/f1805af9-ea7b-1cf6-699f-082cb8c0a975/mzl.bwfwuvhg.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ドリフトスピリ... <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 84件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/518" class="game-face">
+<img src="http://a5.mzstatic.com/jp/r30/Purple69/v4/2a/11/c4/2a11c45f-b42d-37d9-cba5-90575e1d5913/icon175x175.jpeg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ブレイブリーア... <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 4件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/140" class="game-face">
+<img src="http://a4.mzstatic.com/us/r30/Purple4/v4/9a/04/c4/9a04c48a-30b4-aa7e-0604-7a3e7ac14a98/mzl.yfundpja.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE クッキーラン <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 583件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/331" class="game-face">
+<img src="http://a4.mzstatic.com/us/r30/Purple4/v4/75/92/c9/7592c932-1493-3137-4620-710c233f80d1/mzl.xiayvrch.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE ゲットリッチ <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 1185件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/190" class="game-face">
+<img src="http://a5.mzstatic.com/us/r30/Purple/v4/c2/d4/d3/c2d4d39f-fae3-1836-3ce6-cc45ee1eae7d/mzl.fbylxiyy.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE ドリーム... <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 38件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/3" class="game-face">
+<img src="http://a3.mzstatic.com/us/r1000/017/Purple6/v4/53/de/1c/53de1c99-c752-3969-3faf-cfef69a15760/mzl.sngjaooy.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+パズル＆ドラゴ... <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 13件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/489" class="game-face">
+<img src="http://a1.mzstatic.com/jp/r30/Purple5/v4/b9/43/46/b94346c6-4ac2-2875-1b01-f8dda5e7bf26/icon175x175.png" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE バブル2 <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 58件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/35" class="game-face">
+<img src="http://a4.mzstatic.com/us/r30/Purple4/v4/58/a3/4f/58a34f9c-50d9-4f40-3f49-0f0d381d709f/mzl.wvjkndnh.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ヘイ・デイ (Ha... <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 208件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/268" class="game-face">
+<img src="http://a2.mzstatic.com/us/r30/Purple2/v4/34/5b/bb/345bbba4-8aee-5df4-ace0-795253bd93c6/mzl.jjwxxwzf.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+シャドウファイト2 <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 226件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/34" class="game-face">
+<img src="http://a5.mzstatic.com/us/r30/Purple/v4/7c/fa/34/7cfa3488-4ac2-7381-5ee8-7ee2f09265d5/mzl.tvxrxjtd.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ギャングスター ... <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 278件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/567" class="game-face">
+<img src="http://a3.mzstatic.com/jp/r30/Purple3/v4/d2/cc/54/d2cc541d-3d42-2894-8622-194247e85891/icon175x175.png" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+逆転オセロニア <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 4件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/440" class="game-face">
+<img src="http://a3.mzstatic.com/jp/r30/Purple3/v4/05/d1/2f/05d12f77-6c60-45ee-27d3-81f2a60e0cdc/icon175x175.jpeg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE パズル タ... <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 30件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/564" class="game-face">
+<img src="http://a1.mzstatic.com/jp/r30/Purple69/v4/5f/9b/54/5f9b547e-de3a-4087-711c-20d775a9b8de/icon175x175.png" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ALICE ORDER <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 4件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/5" class="game-face">
+<img src="http://a2.mzstatic.com/us/r1000/048/Purple/v4/55/c0/93/55c09321-5410-417d-a123-dc40e3d466f6/mzl.vuxpvhra.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+にゃんこ大戦争 <i class="icon-apple icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 564件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/38" class="game-face">
+<img src="http://a1.mzstatic.com/us/r30/Purple4/v4/a4/ae/dd/a4aedd6d-a4ff-8554-978c-67d575d56cff/mzl.jqwhgyip.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE POP <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 94件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/568" class="game-face">
+<img src="http://a2.mzstatic.com/jp/r30/Purple49/v4/87/ea/5e/87ea5e65-5bf4-045d-1a10-5248039d0c8d/icon175x175.png" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+【サムキン】戦... <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 3件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/398" class="game-face">
+<img src="http://a5.mzstatic.com/jp/r30/Purple3/v4/18/29/84/1829845f-f8b8-5d18-568c-0633147a5668/icon175x175.jpeg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE ポコポコ <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 42件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/25" class="game-face">
+<img src="http://a5.mzstatic.com/us/r30/Purple/v4/cc/d3/b8/ccd3b8f3-f0ec-b0a6-ace5-189491b4bce5/mzl.piqtxatn.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+LINE ウィンドラ... <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 899件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/270" class="game-face">
+<img src="http://a1.mzstatic.com/us/r30/Purple6/v4/f4/5d/67/f45d67a3-32ed-d57f-7644-57a1947c8260/mzl.vzejgtsk.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ゲーム・オブ・... <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 28件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/566" class="game-face">
+<img src="http://a4.mzstatic.com/jp/r30/Purple49/v4/d3/d4/4b/d3d44b3d-9062-06b1-2705-3b223812a106/icon175x175.png" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+セブンナイツ(Se... <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 2件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/162" class="game-face">
+<img src="http://a2.mzstatic.com/us/r30/Purple6/v4/f9/45/11/f94511eb-40f9-14e2-6977-561a7fd710aa/mzl.tzfokvei.175x175-75.jpg" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+ほしの島のにゃんこ <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 4337件</span>
+ 
+</p>
+</a>
+</li>
+<li>
+<a href="game/565" class="game-face">
+<img src="http://a5.mzstatic.com/jp/r30/Purple49/v4/82/c8/a2/82c8a2de-e77a-edbe-fc39-956e2cca3d91/icon175x175.png" width="70" height="70" onError="this.src='/img/noimage.jpg'"/>
+<span>
+Vainglory <i class="icon-apple icon-large" style="color:gray;"></i><i class="icon-android icon-large" style="color:gray;"></i> </span>
+<br/>
+<p>
+<span class="label label-info">スレッド: 3件</span>
+ 
+</p>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="to-all">
+<a href="http://gamebbs.info/game/all" class="btn btn-primary">ゲームアプリ掲示板一覧</a>
+<a href="http://gamebbs.info/thread/all" class="btn btn-primary">最新スレッド一覧</a>
+</div>
+<div class="announce">
+<h3><i class="icon-tags icon-large"></i>ゲームニュース</h3>
+<div class="announce_area">
+<ul>
+<li>2016-02-17:<a href="http://gamerz.wiki/news/56c3d45d67616d39ea0e0000">リアルタイム対戦ストラテジー『城とドラゴン』が「毎日変則リーグ」と「超絶好調になりやすいキャンペーン」を開催！</a></li>
+<li>2016-02-16:<a href="http://gamerz.wiki/news/56c27e5d67616d7f39110000">『ドラゴンポーカー』で復刻スペシャルダンジョン「創生の錬金術師」が開催！</a></li>
+<li>2016-02-15:<a href="http://gamerz.wiki/news/56c1727167616d7f390d0000">GREE版『スカイロック』×『ミリオンアーサー エクスタシス』コラボキャンペーンを実施！</a></li>
+<li>2016-02-15:<a href="http://gamerz.wiki/news/56c173c067616d01a10b0000">新作サッカーアクションゲーム『プニコンサッカー』友だち登録キャンペーンの特典となる選手カードを公開！</a></li>
+<li>2016-02-15:<a href="http://gamerz.wiki/news/56c1349567616d02be060000">全国のかわいいキャラクター達が登場する『いっしょにプルプル』に「ミナモ」「うなりくん」が初登場！リツイートキャンペーンも期間延長！</a></li>
+<li>2016-02-13:<a href="http://gamerz.wiki/news/56bf20d967616d4055080000">『忍たま乱太郎ふっとびパズル！の段』2/12より"☆５善法寺伊作"など新キャラクター4体を追加配信！</a></li>
+<li>2016-02-13:<a href="http://gamerz.wiki/news/56bf0f1a67616d4138030000">オンラインRPG『ワールド エンド エクリプス』"浅倉杏美さん（エステラ役）直筆サイン色紙"が当たる Twitter キャンペーンを開催！</a></li>
+<li>2016-02-12:<a href="http://gamerz.wiki/news/56bddcca67616d2fb50c0000">『リトル ノア』Google Playリリース1周年！ログインボーナスなど複数のキャンペーンを開催！</a></li>
+<li>2016-02-12:<a href="http://gamerz.wiki/news/56bd82a567616d30f80e0000">『グランブルーファンタジー』2/14より「HAPPY VALENTINE!キャンペーン」を開催！</a></li>
+<li>2016-02-12:<a href="http://gamerz.wiki/news/56bd3d9f67616d2fb5070000">リアルタイム対戦ストラテジー『城とドラゴン』でスペシャルバトル「森バトル」＆「リーグ」が開催！</a></li>
+<li>2016-02-12:<a href="http://gamerz.wiki/news/56bd3eb367616d30f80b0000">妖怪育成カードゲーム『あやかし百鬼夜行～妖怪育成奇譚～』がマンガ「鬼灯の冷徹」とコラボレーション！</a></li>
+<li>2016-02-10:<a href="http://gamerz.wiki/news/56bb1c1267616d52ef090000">『トイズドライブ』新ワールド＆バレンタインイベントスタート！記念ログインボーナスと期間限定ステップアップスカウト開催！</a></li>
+<li>2016-02-09:<a href="http://gamerz.wiki/news/56b99e4267616d5407040000">『アルスラーン戦記』 スマートフォン向けゲームアプリの開発が決定！</a></li>
+<li>2016-02-09:<a href="http://gamerz.wiki/news/56b9557767616d0f2a050000">『刀剣乱舞-ONLINE- Pocket』 3月1日にリリース決定＆事前登録キャンペーンがスタート！</a></li>
+<li>2016-02-09:<a href="http://gamerz.wiki/news/56b9559567616d5ec41f0000">悪魔城の姫君、覚醒！『ドラゴンポーカー』で新チャレンジダンジョン「小悪魔覚醒」が開催！</a></li>
+<li>2016-02-09:<a href="http://gamerz.wiki/news/56b955b267616d0f2a070000">リアルタイムバトルRPG 『ドラゴンリーグＸ』と『ドラゴンリーグＡ』でバトルイベント「ドラゴンリーグ」開催！</a></li>
+</ul>
+</div>
+</div>
+<div class="announce">
+<h3><i class="icon-tags icon-large"></i>運営からのお知らせ</h3>
+<div class="announce_area">
+<ul>
+<li>2014年10月16日：<a href="https://gamebbs.zendesk.com/hc/ja/articles/203372350" target="_blank">メールお知らせ機能の一時停止について(10/23 追記あり)</a></li>
+<li>2014年10月14日：<a href="https://gamebbs.zendesk.com/hc/ja/articles/203349620" target="_blank">メール機能の不具合について</a></li>
+<li>2014年9月25日：<a href="https://gamebbs.zendesk.com/hc/ja/articles/203264070-2014-09-25-%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E8%BF%94%E4%BF%A1%E6%A9%9F%E8%83%BD%E3%82%92%E5%AE%9F%E8%A3%85%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F-" target="_blank">返信機能を追加しました。</a></li>
+<li>2014年6月5日：<a href="https://gamebbs.zendesk.com/hc/ja/articles/202261704-2014-06-05-%E3%82%B2%E3%83%BC%E3%83%A0BBS-%E3%82%AC%E3%82%A4%E3%83%89%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F-" target="_blank">ゲームBBS ガイドをリリースしました。</a></li>
+<li>2014年6月5日：<a href="https://gamebbs.zendesk.com/hc/ja/articles/202485100-2014-06-02-%E7%94%BB%E5%83%8F%E6%8A%95%E7%A8%BF%E6%A9%9F%E8%83%BD%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F-" target="_blank">画像投稿機能を追加しました。</a></li>
+</ul>
+</div>
+</div>
+<div class="social">
+<br/><br/>
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-hashtags="gamebbs" style="float:left;">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fgamebbs.info%2F&amp;width=200&amp;height=21&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;send=false&amp;locale=ja_JP&amp;appId=617246768326359" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:21px;" allowTransparency="true"></iframe>
+</div>
+<div style="margin:15px 0;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ 
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2501489010599250" data-ad-slot="9778112481"></ins>
+<script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+</div>
+</div>
+<div class="col-lg-4">
+<div style="text-align:center; margin:0 auto;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ 
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2501489010599250" data-ad-slot="8301379283"></ins>
+<script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+</div>
+<div class="sidebar">
+<div class="to-all" style="padding-top:15px;">
+<a href="http://gamebbs.info/game/all" class="btn btn-primary">ゲームアプリ掲示板一覧</a>
+</div>
+<div class="to-all" style="padding-bottom:15px;">
+<a href="http://gamebbs.info/thread/all" class="btn btn-primary">最新スレッド一覧</a>
+</div>
+<p class="sidebar-head"><i class="icon icon-exclamation"></i> 新着コメント</p>
+<ul class="new-threads">
+<div class="panel">
+<div class="panel-heading clearfix">
+<a href="http://gamebbs.info/game/134"><img src="http://a1.mzstatic.com/us/r30/Purple6/v4/80/0f/1e/800f1e81-b3ab-490f-4ac7-627952dc0123/mzl.ophawuoa.175x175-75.jpg" width="50" height="50" class="pull-left"/></a>
+<p class="sidebar-game-title pull-left">
+<a href="http://gamebbs.info/game/134" class="panel-title">LINE：ディズニー ツムツム</a>
+<br/>
+<span class="sidebar-date">12秒前</span>
+</p>
+</div>
+<div class="panel-body">
+<p class="sidebar-thread-title"><a href="http://gamebbs.info/thread/57917">◆◇◆24時間自動個別返信10分間隔　手動自動OK◆◇◆ 頂いた分だけ必ず返信いたします！ <span><i class="icon-comments-alt"></i> 786</span></a></p>
+<ul style='padding-left:3px;'>
+<li>
+<b style="color:#888;font-size:12px;">tsumauto (12秒前):</b>
+<br/>
+≪24時間自動個別返信10分間隔≫で返信しております。個人募集です!! 頂いた分だけ必ず返信いたしま… </li>
+<li>
+<b style="color:#888;font-size:12px;">名無しさん (10分前):</b>
+<br/>
+よろしくお願い申し上げます。 </li>
+<li>
+<b style="color:#888;font-size:12px;">tsumauto (20分前):</b>
+<br/>
+≪24時間自動個別返信10分間隔≫で返信しております。個人募集です!! 頂いた分だけ必ず返信いたしま… </li>
+</ul>
+<a href="http://gamebbs.info/thread/57917" class="btn btn-md btn-default">すべて見る</a>
+<div class="panel-footer"><a href="http://gamebbs.info/game/134">スレッド一覧</a></div>
+</div>
+</div>
+<div class="panel">
+<div class="panel-heading clearfix">
+<a href="http://gamebbs.info/game/134"><img src="http://a1.mzstatic.com/us/r30/Purple6/v4/80/0f/1e/800f1e81-b3ab-490f-4ac7-627952dc0123/mzl.ophawuoa.175x175-75.jpg" width="50" height="50" class="pull-left"/></a>
+<p class="sidebar-game-title pull-left">
+<a href="http://gamebbs.info/game/134" class="panel-title">LINE：ディズニー ツムツム</a>
+<br/>
+<span class="sidebar-date">1分前</span>
+</p>
+</div>
+<div class="panel-body">
+<p class="sidebar-thread-title"><a href="http://gamebbs.info/thread/58653">【個人交換】●◎●24時間自動個別返信　手動送信・自動送信OK●◎●　ハートを頂いた分だけ自動で返信いたします！ <span><i class="icon-comments-alt"></i> 120</span></a></p>
+<ul style='padding-left:3px;'>
+<li>
+<b style="color:#888;font-size:12px;">名無しさん (1分前):</b>
+<br/>
+よろしくお願い申し上げます。 </li>
+<li>
+<b style="color:#888;font-size:12px;">あ (4時間前):</b>
+<br/>
+よろしくお願いします </li>
+<li>
+<b style="color:#888;font-size:12px;">dectam (4時間前):</b>
+<br/>
+■個人募集■　★高ノルマグループ所属者歓迎！★ =========================… </li>
+</ul>
+<a href="http://gamebbs.info/thread/58653" class="btn btn-md btn-default">すべて見る</a>
+<div class="panel-footer"><a href="http://gamebbs.info/game/134">スレッド一覧</a></div>
+</div>
+</div>
+<div class="panel">
+<div class="panel-heading clearfix">
+<a href="http://gamebbs.info/game/134"><img src="http://a1.mzstatic.com/us/r30/Purple6/v4/80/0f/1e/800f1e81-b3ab-490f-4ac7-627952dc0123/mzl.ophawuoa.175x175-75.jpg" width="50" height="50" class="pull-left"/></a>
+<p class="sidebar-game-title pull-left">
+<a href="http://gamebbs.info/game/134" class="panel-title">LINE：ディズニー ツムツム</a>
+<br/>
+<span class="sidebar-date">5分前</span>
+</p>
+</div>
+<div class="panel-body">
+<p class="sidebar-thread-title"><a href="http://gamebbs.info/thread/58262">[ノルマ3]新設ツムツムハート交換グループです！ ⭐︎カウント0:00〜23:59⭐︎ ⭐︎ツム通知任意⭐︎ ⭐︎誰でも⭐︎ QRコードのみ受け付けます <span><i class="icon-comments-alt"></i> 96</span></a></p>
+<ul style='padding-left:3px;'>
+<li>
+<b style="color:#888;font-size:12px;">名無しさん (5分前):</b>
+<br/>
+よろしくお願いします </li>
+<li>
+<b style="color:#888;font-size:12px;">名無しさん (1時間前):</b>
+<br/>
+&lt;91〜94番さん対応済みです 募集中です！ </li>
+<li>
+<b style="color:#888;font-size:12px;">名無しさん (3時間前):</b>
+<br/>
+宜しくお願いします </li>
+</ul>
+<a href="http://gamebbs.info/thread/58262" class="btn btn-md btn-default">すべて見る</a>
+<div class="panel-footer"><a href="http://gamebbs.info/game/134">スレッド一覧</a></div>
+</div>
+</div>
+<div class="panel">
+<div class="panel-heading clearfix">
+<a href="http://gamebbs.info/game/134"><img src="http://a1.mzstatic.com/us/r30/Purple6/v4/80/0f/1e/800f1e81-b3ab-490f-4ac7-627952dc0123/mzl.ophawuoa.175x175-75.jpg" width="50" height="50" class="pull-left"/></a>
+<p class="sidebar-game-title pull-left">
+<a href="http://gamebbs.info/game/134" class="panel-title">LINE：ディズニー ツムツム</a>
+<br/>
+<span class="sidebar-date">8分前</span>
+</p>
+</div>
+<div class="panel-body">
+<p class="sidebar-thread-title"><a href="http://gamebbs.info/thread/58822">ツムツムノルマフリー新設しました。 ツム側ONライン側自由 ノルマフリーですが、最低毎日ランキングから 1送信できたあと、個別受取可能な方募集中です。社会人、主婦、限定です。IDかQR載せて <span><i class="icon-comments-alt"></i> 3</span></a></p>
+<ul style='padding-left:3px;'>
+<li>
+<b style="color:#888;font-size:12px;">名無しさん (8分前):</b>
+<br/>
+検索できませんでした。 </li>
+<li>
+<b style="color:#888;font-size:12px;">名無しさん (14分前):</b>
+<br/>
+rejirin77 宜しくお願いします </li>
+<li>
+<b style="color:#888;font-size:12px;">名無しさん (2時間前):</b>
+<br/>
+定員50設定です。 募集中 </li>
+</ul>
+<a href="http://gamebbs.info/thread/58822" class="btn btn-md btn-default">すべて見る</a>
+<div class="panel-footer"><a href="http://gamebbs.info/game/134">スレッド一覧</a></div>
+</div>
+</div>
+<div class="panel">
+<div class="panel-heading clearfix">
+<a href="http://gamebbs.info/game/134"><img src="http://a1.mzstatic.com/us/r30/Purple6/v4/80/0f/1e/800f1e81-b3ab-490f-4ac7-627952dc0123/mzl.ophawuoa.175x175-75.jpg" width="50" height="50" class="pull-left"/></a>
+<p class="sidebar-game-title pull-left">
+<a href="http://gamebbs.info/game/134" class="panel-title">LINE：ディズニー ツムツム</a>
+<br/>
+<span class="sidebar-date">10分前</span>
+</p>
+</div>
+<div class="panel-body">
+<p class="sidebar-thread-title"><a href="http://gamebbs.info/thread/57829">❤❤女性限定グループ❤❤１日１０個以上送ってくれる方あつまれ❤定員３５名！ツム側ON厳守！IDかQRコードお願いいたします❤ <span><i class="icon-comments-alt"></i> 335</span></a></p>
+<ul style='padding-left:3px;'>
+<li>
+<b style="color:#888;font-size:12px;">名無しさん (10分前):</b>
+<br/>
+❤女性限定10以上フリー❤️ ☆パート1 定員35名➡︎現在35名ほど 　パート2 定員35名➡︎現… </li>
+<li>
+<b style="color:#888;font-size:12px;">名無しさん (9時間前):</b>
+<br/>
+今日もたくさんのご応募、ご参加ありがとうございました❤︎ また明日お待ちしてます❤︎ </li>
+<li>
+<b style="color:#888;font-size:12px;">名無しさん (9時間前):</b>
+<br/>
+322番様コチャしました </li>
+</ul>
+<a href="http://gamebbs.info/thread/57829" class="btn btn-md btn-default">すべて見る</a>
+<div class="panel-footer"><a href="http://gamebbs.info/game/134">スレッド一覧</a></div>
+</div>
+</div>
+</ul>
+</div>
+</div>
+</div> 
+<div class="clearfix"></div>
+<div id="footer">
+<div>
+<a href="http://gamebbs.info/privacy_policy">プライバシーポリシー</a><span> | </span>
+<a href="http://gamebbs.info/terms">利用規約</a><span> | </span>
+<a href="https://gamebbs.zendesk.com/hc/ja" target="_blank">お問い合わせ</a>
+<p>Copyright &copy; GameBBS 2013 All Rights Reserved.</p>
+</div>
+</div>
+</div> 
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/smoke.min.js"></script>
+<script type="text/javascript" src="/js/application.js"></script>
+</html>

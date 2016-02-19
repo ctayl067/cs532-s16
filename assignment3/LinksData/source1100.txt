@@ -1,0 +1,897 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="copyright" content="(C) DWANGO Co., Ltd.">
+<meta name="keywords"    content="ニコニコミュニティ,ニコニコ動画,ニコニコ生放送,動画,生放送,コミュニティ,SNS">
+<meta name="description" content="ニコニコミュニティ: 2016/01/18　累計視聴者 2,000,000人突破!!
+2016/01/20　コミュ登録者数 17,000人突破!!
+この放送はプ...">
+<title>
+Game Master FREE-ニコニコミュニティ
+</title>
+<base href="http://com.nicovideo.jp/">
+<link rel="shortcut icon" href="http://com.nicovideo.jp/img/favicon_com.ico">
+
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/css/common/common.css?131212">
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/css/common/chcom_prof.css?090727">
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/css/com/community.css?131204">
+
+<link rel="stylesheet" type="text/css" href="http://com.res.nimg.jp/css/com/blomaga.css?131028" media="all">
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/js/nicoheader/resources/siteHeader.css?150323">
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/js/nicoheader/resources/nicolib-CommonNotificationHeader.css?141023">
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/css/common/nicoheader_com_fixed.css?130319">
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/css/common/cmn_ads_sidebar.css?130228">
+
+
+<link rel="alternate" charset="utf-8" type="application/rss+xml" title="Game Master FREEコミュニティ動画" href="/video/co2032501?rss=2.0">
+
+<script type="text/javascript">
+
+if (typeof Nico === 'undefined') Nico = {};
+if (typeof Nico.messages === 'undefined') Nico.messages = {};
+
+Nico.messages.cant_fetch = '取得できませんでした';
+Nico.messages.no_res     = '書き込みはありません';
+Nico.messages.no_name    = 'ななしのよっしん';
+
+</script>
+
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/__utm.js?080117"></script><script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/common.js?090727"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/lib/prototype-1.7.2.js?150327"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/swfobject.js?4"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/nicolib.js?150128"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/ads.js?100611"></script>
+<script type="text/javascript" charset="utf-8" src="js/lib/ads-1.0.4.min.js?130130"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/combbs.js?120724"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/popup.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/nicoheader/siteHeader.js?150728"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/nicoheader/nicolib-CommonNotificationHeader.js?150618"></script>
+
+
+<script type="text/javascript" src="http://com.res.nimg.jp/js/lib/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">$j=jQuery.noConflict();</script>
+<script type="text/javascript" src="http://com.res.nimg.jp/js/follow.js?130207" charset="utf-8"></script>
+
+<script type="text/javascript" charset="utf-8"><!--
+
+Ads.get_segment_object = function(){
+	var segment = {};
+
+	return segment;
+
+};
+
+// -->
+</script>
+
+</head>
+
+<body>
+
+<!--site-head-->
+<div id="siteHeader">
+	<div id="siteHeaderInner">
+		<ul class="siteHeaderGlovalNavigation">
+			<li><a href="http://www.nicovideo.jp/?header" class="iconNiconico"><span>niconico</span></a></li>
+			<li><a href="http://www.nicovideo.jp/video_top?header"><span>動画</span></a></li>
+			<li><a href="http://seiga.nicovideo.jp/?header"><span>静画</span></a></li>
+			<li><a href="http://live.nicovideo.jp/?header"><span>生放送</span></a></li>
+			<li><a href="http://ch.nicovideo.jp/?header"><span>チャンネル</span></a></li>
+			<li><a href="http://ch.nicovideo.jp/portal/blomaga?header"><span>ブロマガ</span></a></li>
+			<li><a href="http://app.nicovideo.jp/?header"><span>アプリ</span></a></li>
+			<li class="siteHeaderOther" id="siteHeaderLeftMenu">
+				<a href="javascript:void(0);"><span>その他▼</span></a>
+				<ul id="siteHeaderLeftMenuContainer" style="display: none;">
+					<li><a href="http://ichiba.nicovideo.jp/?header">市場</a></li>
+					<li><a href="http://dic.nicovideo.jp/?header">大百科</a></li>
+					<li><a href="http://uad.nicovideo.jp/?header">ニコニ広告</a></li>
+					<li><a href="http://commons.nicovideo.jp/?header">コモンズ</a></li>
+					<li><a href="http://niconare.nicovideo.jp/?header">ニコナレ</a></li>
+					<li><a href="http://3d.nicovideo.jp/?header">ニコニ立体</a></li>
+					<li><a href="http://jk.nicovideo.jp/?header">実況</a></li>
+					<li><a href="http://com.nicovideo.jp/?header">コミュニティ</a></li>
+										<li><a href="http://news.nicovideo.jp/?header">ニュース</a></li>
+					<li class="menuServiceList"><a href="http://www.nicovideo.jp/top_service?header">サービス・デバイス一覧</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="siteHeaderMenuList">
+			<li id="siteHeaderNotification" class="siteHeaderLogin">
+				<a href="https://account.nicovideo.jp/login?site=community&time=1455827634&hash_key=6ec8476d&next_url=%2Fcommunity%2Fco2032501"><span>ログイン</span></a>
+			</li>
+<!-- end notification header -->
+			<li class="siteHeaderHorizon"><a href="https://account.nicovideo.jp/register?sec=common_header&mode=landing" style="color:#F1B700;" data-site="community" class="siteHeaderRegister"><span>ニコニコ会員登録</span></a></li>
+			<li class="siteHeaderOther" id="siteHeaderRightMenu">
+				<a href="javascript:void(0);"><span>メニュー▼</span></a>
+				<ul style="display: none;" id="siteHeaderRightMenuContainer">
+					<li><a href="/my_contact" id="btn_usermenu_mycontact">マイ申請BOX</a></li>
+					<li><a href="/create" id="btn_usermenu_create">コミュニティ作成</a></li>
+					<li><a href="http://www.nicovideo.jp/my/community" id="btn_usermenu_mypage">マイページ</a></li>
+                    <li><a href="http://point.nicovideo.jp/index/bank/?from_notification=2">ポイント購入</a></li>					<li id="siteHeaderRightMenuUnfix"><a href="javascript:void(0);">ヘッダー:<span class="siteHeaderScroll">追従</span></a></li>
+					<li id="siteHeaderRightMenuFix"><a href="javascript:void(0);">ヘッダー:<span class="siteHeaderFix">固定</span></a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="site-head-wrapper">
+<div id="header" class="cfix">
+	<div class="l">
+		<div id="com_logo"><a href="/"><img src="http://com.res.nimg.jp/img/com/header/logo.png" alt="ニコニコミュニティ"></a></div>
+		
+		<div id="search">
+			<form onsubmit="location.href='http://com.nicovideo.jp/search/'+encodeURIComponent(this.s.value.replace(/^\s+|\s+$/g, '')).replace(/%20/g, '+')+'?mode=s'; return false;">
+				<input type="text" id="search_text" value="" name="s">
+				<input type="submit"value="検索" id="search_submit">
+			</form>
+		</div>
+		
+	</div>
+
+	<!--広告-->
+<div id="community_pc_top" style="width:468px; height:60px; float:right;"></div>
+<script type="text/javascript">
+
+	(function(){
+		var segment = Ads.get_segment_object();
+		new Ads.Advertisement({zone: 72, segments: segment, impression: 2}).set('community_pc_top');
+	})();
+
+</script>
+<!--広告-->
+		
+	
+</div>
+<!--// header //-->
+
+</div>
+<!--// site-head-wrapper //-->
+</div>
+<!--/site-head-->
+
+
+<!--site-body-->
+<div id="site-body">
+
+			
+<script type="text/javascript">
+cdv = getCookie("ComDescVisibly");
+if(cdv == "null") { cdv = true; }
+else if(cdv == "true") { cdv = true; }
+else if(cdv == "false") { cdv = false; }
+else { cdv = true; }
+
+function getCookie(key,  tmp1, tmp2, xx1, xx2, xx3) {
+	tmp1 = " " + document.cookie + ";";
+	xx1 = xx2 = 0;
+	len = tmp1.length;
+	while (xx1 < len) {
+		xx2 = tmp1.indexOf(";", xx1);
+		tmp2 = tmp1.substring(xx1 + 1, xx2);
+		xx3 = tmp2.indexOf("=");
+		if (tmp2.substring(0, xx3) == key) {
+			return(unescape(tmp2.substring(xx3 + 1, xx2 - xx1 - 1)));
+		}
+		xx1 = xx2 + 1;
+	}
+	return("");
+}
+function setCookie(key, val, tmp) {
+	tmp = key + "=" + escape(val) + "; ";
+	// tmp += "path=" + location.pathname + "; ";
+	tmp += "expires=Tue, 31-Dec-2030 23:59:59; ";
+	document.cookie = tmp;
+}
+function clearCookie(key) {
+	document.cookie = key + "=" + "xx; expires=Tue, 1-Jan-1980 00:00:00;";
+}
+
+function comprfVisBtn(id,visible){
+if(id == "community_description") { document.getElementById(id).style.display = visible ? "block" : "none"; }
+else { document.getElementById(id).style.display = visible ? "inline" : "none"; }
+}
+
+
+jQuery(function() {
+    jQuery('#broadcast_default_community').mouseover(function() {
+        if (jQuery(this).data('is-queried')) {
+            return;
+        }
+        jQuery(this).data('is-queried', 1);
+        jQuery.getJSON('/api/check_function_limit', {'community_id': 'co2032501'}, function(res) {
+            if (res.is_limited) {
+                jQuery('#broadcast_default_community').hide();
+                jQuery('#broadcast_default_community_unable').show();
+            } else {
+                jQuery('#broadcast_default_community a').attr('href', jQuery('#broadcast_default_community a').data('original-href'));
+                jQuery('#broadcast_default_community a').css('cursor', 'pointer');
+            }
+        });
+    });
+});
+</script>
+
+
+	<!--↓エラーなし(2列)↓-->
+	
+			<!--↓メンバーでない↓-->
+		<div id="not_member_entry">
+							<p class="mb10 fs14">コミュニティを登録するには<a href="https://account.nicovideo.jp/login?site=community&time=1455827634&hash_key=6ec8476d&next_url=%2Fcommunity%2Fco2032501">ログイン</a>が必要です。</p>
+				<a href="https://account.nicovideo.jp/login?site=community&time=1455827634&hash_key=6ec8476d&next_url=%2Fcommunity%2Fco2032501" class="btnUI_yellow btn_login">ログイン</a>
+					</div>
+		<!--↑メンバーでない↑-->
+	
+
+<div class="cfix" style="padding:0px 4px;">
+
+	<div id="community_main">
+
+					<!---->
+
+				
+	<!--↓コミュニティ情報↓-->
+	<div id="community_prof_frm">
+		<div id="community_prof_frm2">
+
+			<div class="cfix">
+				<div class="l">
+					<img src="http://com.res.nimg.jp/img/community/type_open.gif" alt="オープンコミュニティ">
+				</div>
+                        				<div class="r" style="text-align:right;">
+					<p>開設日：<strong>2013年05月10日</strong></p>
+					<p>オーナー：<a href="http://www.nicovideo.jp/user/207989" style="color:#FFF;" target="_blank"><strong>FREE</strong></a></p>
+				</div>
+			</div>
+
+			<h1 id="community_name">Game Master FREE</h1>
+
+
+				
+<div id="cbox_profile">
+			<table width="592" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+			<td width="100%">
+				<table border="0" cellpadding="0" cellspacing="4">
+				<tr valign="top">
+				<td nowrap>レベル：</td>
+				<td>
+					<strong>93</strong> …
+					<span style="color:#FC0;">★★★★★★★★★★</span>
+					<br><a href="https://account.nicovideo.jp/premium/register?sec=com_community" target="_blank" style="color:#FFF;">プレミアム会員</a> があと <strong>34</strong> 人登録するとレベル <strong>94</strong> になります！				</td>
+				</tr>
+
+				<tr valign="top">
+				<td nowrap>メンバー：</td>
+				<td>
+					<strong>17772</strong>人 (最大: 87847人)				</td>
+				</tr>
+				<tr valign="top">
+				<td nowrap>設定：</td>
+				<td>
+					<div class="comsetting">
+						<span class="auto_accept on">登録申請を自動で承認</span>
+						<span class="userinfo_required on">登録時に個人情報公開必須</span>
+						<span class="privvideo_post off">特権メンバーのみ動画投稿可</span>
+						<span class="privuser_auth off">特権メンバーのみ登録承認可</span>
+						<span class="privlive_broadcast off">特権メンバーのみ生放送可</span>
+					</div>
+				</td>
+				</tr>
+				<tr valign="top">
+				<td nowrap>登録タグ：</td>
+				<td>
+																		<a href="/search/EXVSFB?mode=t" style="color:#FFF;"><strong>EXVSFB</strong></a>&nbsp;
+													<a href="/search/hearthstone?mode=t" style="color:#FFF;"><strong>hearthstone</strong></a>&nbsp;
+													<a href="/search/lol?mode=t" style="color:#FFF;"><strong>lol</strong></a>&nbsp;
+													<a href="/search/PSO2?mode=t" style="color:#FFF;"><strong>PSO2</strong></a>&nbsp;
+													<a href="/search/%E3%82%B2%E3%83%BC%E3%83%A0?mode=t" style="color:#FFF;"><strong>ゲーム</strong></a>&nbsp;
+													<a href="/search/%E3%83%9E%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88?mode=t" style="color:#FFF;"><strong>マインクラフト</strong></a>&nbsp;
+													<a href="/search/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E?mode=t" style="color:#FFF;"><strong>刀剣乱舞</strong></a>&nbsp;
+													<a href="/search/%E7%99%BD%E7%8C%AB%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88?mode=t" style="color:#FFF;"><strong>白猫プロジェクト</strong></a>&nbsp;
+													<a href="/search/%E8%89%A6%E3%81%93%E3%82%8C?mode=t" style="color:#FFF;"><strong>艦これ</strong></a>&nbsp;
+															</td>
+				</tr>
+
+				<tr>
+				<td colspan="2"><strong>[生放送関連情報]</strong></td>
+				</tr>
+								<tr valign="top">
+				<td nowrap style="padding-left:1em;">累計来場者数：</td>
+				<td>
+					<strong>2090380</strong> 人				</td>
+				</tr>
+								<tr valign="top">
+				<td nowrap style="padding-left:1em;">獲得した特権：</td>
+				<td>
+					<div>
+													<p>予約（500pt→0pt）</p>
+																		<p><a onclick="javascript:Element.toggle('other_privilege');Element.toggle('plus_string');Element.toggle('minus_string');" style="color:#FFF;cursor:pointer;"><span id="plus_string"><strong>＋ </strong></span><span id="minus_string" style="display: none;"><strong>－ </strong></span>その他の特権</a></p>
+											</div>
+					<div id="other_privilege" style="display: none; margin-left: 15px;">
+													<p>延長1回無料</p>
+							<p>バックステージパス（10人）</p>
+							<p>座席数増加（1000人→2000人）</p>
+							<p>割り込み割引（600pt→0pt）</p>
+							<p>アンケート</p>
+											</div>
+				</td>
+				</tr>
+
+				<tr>
+				<td colspan="2"><strong>[動画関連情報]</strong></td>
+				</tr>
+				<tr valign="top">
+				<td nowrap style="padding-left:1em;">投稿動画：</td>
+				<td>
+					<strong>5</strong>件 (最大: 10000件)				</td>
+				</tr>
+				</table>
+
+			</td>
+			<td style="padding:4px;" valign="top">
+				<p><img src="http://icon.nimg.jp/community/203/co2032501.jpg?1455781732" alt="Game Master FREE" class="comm_img_L"></p>
+						</td>
+			</tr>
+			</table>
+
+
+			
+
+	<div id="community_description"><!-- ID は暫定 -->
+				<!---->
+			<div class="subbox" id="profile"><div class="cnt">
+			<table class="title">
+			<tr>
+				<td class="icn"><img src="http://com.res.nimg.jp/img/community/icn_profile.gif" alt=""></td>
+				<td><h2 class="cttl">コミュニティプロフィール</h2></td>
+			</tr>
+			</table>
+			<div class="cnt2" style="overflow:hidden; word-break: break-all;">
+			<font size="4" color="red" ><b>2016/01/18　累計視聴者 2,000,000人突破!!</b></font><br>
+<font size="4" color="red" ><b>2016/01/20　コミュ登録者数 17,000人突破!!</b></font><br>
+この放送はプレイよりも、質問の回答や解説など多めで、あの人に聞けば間違いない！という配信を目指しております。ゲーム、PC、アニメ、雑学関連のお話もどうぞ！<br>
+ゲーム関連のお仕事お待ちしております。<br><br>
+<font size="3" color="blue"><b>Twitch</b></font>　<font size="3"><b>http://www.twitch.tv/freekantoku</b></font><br><br>
+<font size="3" color="blue"><b>Twitter</b></font>　<font size="3"><b>https://twitter.com/free_kantoku</b></font><br>
+<font size="3" color="blue"><b>Mail</b></font>　<font size="3"><b>freekantoku2525@gmail.com</b></font><br>
+<font size="3" color="blue"><b>skype</b></font>　<font size="3"><b>gamer_free</b></font><br>
+<font size="3" color="blue"><b>ブロマガ</b></font>　<font size="3"><b>http://<a href="http://ch.nicovideo.jp/gamerfree">ch.nicovideo.jp/gamerfree</a></b></font><br>
+<font size="3" color="blue"><b>ゲーム攻略まとめwiki</b></font>　<font size="3"><b>http://www.dopr.net/gamemaster</b></font><br>
+<font size="3" color="blue"><b>攻略情報まとめブログ</b></font>　<font size="3"><b>http://gamerfree.blog.fc2.com/</b></font><br>
+<font size="3" color="blue"><b>配信ほしいものリスト</b></font>　<font size="3"><b>http://www.amazon.co.jp/registry/wishlist/DAO8D29N6FLB</b></font><br>
+<br><br>
+
+<u>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</u><br>
+<u><font size="3" color="blue"><b>オーナー情報</b></font></u><br>
+Game Master<br>
+高橋名人をリスペクトしており、高橋名人みたくなれるようがんばっております。<br>
+アーケード、家庭用、オンラインゲーム、カードゲーム等、ゲームというものならほぼすべてに精通し、常に上位成績を出す。ゲーム雑誌ライター経験などあり<br>
+大会、講習会、オフイベ開催、攻略ブログなどゲームを盛り上げるべく行動しております。<br>
+アニメも好きなので毎期のオススメ情報出してます。<br>
+e-sportsプロクラブチームTeam Rising Sun代表。DetonaitoNに合併後解散。DetonaitoN元共同代表<br><br>
+<b>
+・「TV TOKYO MX e-スポーツMAX」芸能人LOLチーム　チーム金子　監督/コーチ<br>
+・「第２回 全日本高校生eスポーツ選手権」実況/解説出演/配信提供<br>
+・「第２回 日本eスポーツ学生選手権」解説/ゲスト出演/配信提供<br>
+・「CyACtv」解説/ゲスト出演<br>
+・「BLAZBLUE-REVOLUTION」公式協賛、関東圏複数店舗協力大会企画。企画発起人/総責任者<br>
+・「BLAZBLUE」初心者講習会、交流会主催<br>
+・「TRS LoL Japan Festival」「TRS Off in OSAKA」「LoL Japan DetonatioN TRS Cup」などのLoLオン・オフラインイベント企画/総責任者/配信/解説<br>
+・ LoL日本サーバー署名活動<br>
+・「LORD of VERMILION ARENA」株式会社プロゲーム様企画参加</b><br>
+その他、企業様協賛の大会・初心者講習会・店舗オフ会の主催・解説などを何度かやらせていただきました。<br><br>
+<b>-----League of Legends-----</b><br>
+Name:Free JP　Rank:Diamond<br>
+「LJCカップ」優勝　日本の大会優勝、大会企画、配信・解説など<br>
+<b>-----ファンタシースターオンライン2-----</b><br>
+Name:フリー　ship2 テクターLvカンスト<br>
+<b>-----Hearth stone-----</b><br>
+asia NA　ほぼ初期デッキでrank10到達<br>
+<b>-----LORD of VERMILION ARENA-----</b><br>
+Name:Free　Rank:オリハルコン(最上位)<br>
+<b>-----Chaos Heroes Online-----</b><br>
+Rank:Diamond(最上位)　ランキング上位入り<br>
+<b>-----ファンタジーアース・ゼロ-----</b><br>
+サーバー:すべてのサーバー　FEcβテスト出身。公式大会優勝経験<br>
+<b>-----ガンダムVSシリーズ-----</b><br>
+シリーズ通して、東京ゲームショウ優勝や公式大会準優勝、全国大会当日予選参加勝ち抜き全国ベスト8、団体戦連覇優勝など伝説は数知れず。初期シリーズからプレイしてます。<br>
+<b>-----World of Tanks-----</b><br>
+ソ連メイン<br>
+<b>-----ブラウザゲーム-----</b><br>
+<b>艦隊これくしょん</b><br>
+サーバー:大湊警備府(元横須賀) 名前:Free<br>
+艦これ先生、ランカー入賞、2013~イベント全攻略、海域全攻略、艦娘コンプ<br>
+<b>千年戦争アイギス</b><br>
+ランク:200 名前:フリー<br>
+完全無課金プレイでイベント攻略中<br>
+<b>フラワーナイトガール</b><br>
+Lv115 イベント全攻略、イベキャラすべて所持<br>
+<b>-----ドラゴンズドグマ オンライン-----</b><br>
+ハンター レベルカンスト<br>
+<b>-----白猫プロジェクト-----</b><br>
+メインキャラ シャルロット(正月)<br><br>
+<u>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</u><br>
+<u><font size="3" color="blue"><b>ゲームプレイ</b></font></u><br>
+RPG全般 / 格ゲー全般 / League of Legends LOL / カオスヒーローズオンライン CHO / ファンタジーアースゼロ FEZ / ガンダムオンライン ガンオン / Warframe / リネージュ2 / CSO / TERA  / ファンタシースターオンライン2 PSO2 / ファンタシースターユニバース PSU / L4D2 / BF3 / SDGO / マインクラフト Minecraft / ドラゴンネスト /ドラゴンボールZ / アルカナハート / ストリートファイター / ブレイブルー BB / ガンダムVS / ZDX / 連ザⅡ / EXVS / ポケモン / C9 / タルタロス / サドンアタック SA / アーキエイジ  ArcheAge / KRITIKA クリティカ / World of Tanks WoT / 機動戦士ガンダム EXTREME VS. FULL BOOST EXVSFB / AVA Alliance of Valiant Arms / コアマスターズ COREMASTERS / 人狼 / テラリア / ハンターヒーロー / ガンダムジオラマフロント /
+LORD of VERMILION ARENA / Hearthstone / CLOSERS / DDON ドラゴンズドグマオンライン<br><br>
+<u><font size="3" color="blue"><b>ブラウザ・ソーシャルゲーム</b></font></u><br>
+艦隊これくしょん 艦これ / 幻想戦姫 / アメーバピグ / Z/X IGNITION 五世界の輪舞 / ロボットガールズZ ONLINE / かくりよの門 / 対魔忍アサギ 決戦アリーナ / 千年戦争アイギス / エンジェリックサーガ / ラストサマナー / 俺タワー ～Over Legend Endless Tower～ / かんぱに☆ガールズ / グランドハーレム / アイドル☆シチュエーション / 絶対心撃！ピンボールハッカー / ハレハレ女学院 / 御城プロジェクト / 魔陣ソウルズ / モンスターハンター メゼポルタ開拓記 / ドラゴンプロヴィデンス / バニッシュメント・デイ / メイデンガーデン / 部活少女バトル / ミリ姫 / クリミナガールズ ブーセ / ガーディアン・ミストレス / 万引きGメン / しんけん！！ / 刀剣乱舞-ONLINE- / FLOWER KNIGHT GIRL フラワーナイトガール / 天頂-TEPPEN- / 神刻の娘 -VERITAS FILIA TEMPORIS- / ひつじクロニクル / ギャングオブヘブン / シューティングガール / 少女とドラゴン ‐幻獣契約クリプトラクト‐ / アイドルうぉーず / ガンダムジオラマフロント / 影牢～トラップガールズ～ / シューティングガール / レーシング娘 / ザクセスヘブン リベリオン / モンスター娘のいる日常 オンライン / X-Overd / 銀河英雄伝説タクティクス
+<br>
+白猫プロジェクト
+<br><br>
+<u>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</u><br>
+<u><font size="3" color="blue"><b>フレンド生主</b></font></u><br>
+eyesさん：<a href="http://com.nicovideo.jp/community/co1457338">co1457338</a><br>
+すねおさん：<a href="http://com.nicovideo.jp/community/co1391610">co1391610</a><br>
+熱血さん：<a href="http://com.nicovideo.jp/community/co1325830">co1325830</a><br>
+めろこさん：<a href="http://com.nicovideo.jp/community/co376131">co376131</a><br>
+くいにーさん：<a href="http://com.nicovideo.jp/community/co434285">co434285</a><br>
+ちんぴじさん：<a href="http://com.nicovideo.jp/community/co1659531">co1659531</a><br>
+Opayaさん：<a href="http://com.nicovideo.jp/community/co6414">co6414</a><br>
+ゆやんさん：<a href="http://com.nicovideo.jp/community/co2274357">co2274357</a><br>
+シナリオさん: <a href="http://com.nicovideo.jp/community/co2198258">co2198258</a><br>
+係長さん: <a href="http://com.nicovideo.jp/community/co2243243">co2243243</a><br>
+くろっくさん: <a href="http://com.nicovideo.jp/community/co1963368">co1963368</a><br><br>
+
+<u>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</u><br>
+<u><font size="3" color="blue"><b>コミュニティ歴史</b></font></u><br>
+2015/09/28　16,000人突破<br>
+2015/06/28　15,000人突破<br>
+2015/05/10　14,000人突破<br>
+2014/12/05　13,000人突破<br>
+2014/11/05   累計1,000,000人来場<br>
+2014/11/01　12,000人突破<br>
+2014/08/30　11,000人突破<br>
+2014/08/12　10,000人突破<br>
+2014/08/08　9,500人突破<br>
+2014/08/04　9,000人突破<br>
+2014/07/31　8,500人突破<br>
+2014/07/19　8,000人突破<br>
+2014/06/13　7,500人突破<br>
+2014/05/27　7,000人突破<br>
+2014/05/17　6,500人突破<br>
+2014/05/05　6,000人突破<br>
+2014/04/18　5,500人突破<br>
+2014/04/04　5,000人突破<br>
+2014/03/25　4,500人突破<br>
+2014/03/17　4,000人突破<br>
+2014/02/25　3,500人突破<br>
+2014/02/07　3,000人突破<br>
+2014/01/11　2,500人突破<br>
+2013/12/05　2,000人突破<br>
+2013/11/06　1,500人突破<br>
+2013/10/06　1,000人突破<br>
+2013/09/14　500人突破<br>
+2013/08　配信開始<br><br>
+
+第１回LoLシャッフルイベント優勝者<br>
+zaxa11 Markulf maxylo yoshikage1230 Raynow
+			</div></div></div>
+			<!-- subbox profile -->
+
+		<!---->
+					</div>
+
+</div>
+		<div id="cbox_news">
+		<div class="subbox" id="news"><div class="cnt">
+	<table class="title">
+	<tr>
+		<td class="icn"><img src="http://com.res.nimg.jp/img/community/icn_news.gif" alt=""></td>
+		<td><h2 class="cttl">お知らせ</h2></td>
+	</tr>
+	</table>
+	<div class="cnt2">
+	<div id="community_news">
+			<div class="item">
+			<h2 class="title">xin vs 最強ガードマン</h2>
+			<div class="desc">面白回みたいなので<br>
+http://live.nicovideo.jp/watch/<a href="http://live.nicovideo.jp/watch/lv252763864" class="watch">lv252763864</a>?ref=community<br>
+一週間限定</div>
+			<div class="date">2016年02月15日 23:57:24（FREE）</div>
+		</div>
+			<div class="item">
+			<h2 class="title">高画質配信</h2>
+			<div class="desc">こっちも見てね<br>
+http://www.twitch.tv/freekantoku</div>
+			<div class="date">2016年02月09日 12:04:11（FREE）</div>
+		</div>
+			<div class="item">
+			<h2 class="title">あけましておめでとうございます</h2>
+			<div class="desc">あけましておめでとうございます。<br>
+去年よりもパワーアップして皆様によい配信、活躍を届けられるようがんばりますので応援よろしくよろしくお願いいたします。</div>
+			<div class="date">2016年01月03日 19:18:38（FREE）</div>
+		</div>
+			<div class="item">
+			<h2 class="title">第2回全日本高校生eスポーツ選手権　配信します</h2>
+			<div class="desc">19日「鉄拳」学生選手権決勝。プロゲーマーのユウ・ノビ選手がゲストに！<br>
+20日「LOL」学生選手権決勝。チーム金子と対戦！<br>
+両方こちらのコミュニティで配信します。12時～予定です。<br>
+http://www.team-cinderella.com/hgs2015/</div>
+			<div class="date">2015年12月18日 19:57:30（FREE）</div>
+		</div>
+			<div class="item">
+			<h2 class="title">LoVA　攻略記事</h2>
+			<div class="desc">http://ch.nicovideo.jp/gamerfree/blomaga/<a href="http://ch.nicovideo.jp/article/ar780553">ar780553</a>#-</div>
+			<div class="date">2015年06月19日 17:08:23（FREE）</div>
+		</div>
+		</div>
+	</div></div></div>
+	<!-- subbox news -->
+
+		
+</div>	
+			<!---->
+				<table border="0" cellspacing="3" cellpadding="4" summary="" style="margin:0 auto;">
+				<tr>
+					<td>
+						<form name="form_iframe">
+						<p style="margin-bottom:2px;">ブログパーツ iframe</p>
+						<p><input type="text" readonly="true" class="paste_blog" name="input_iframe" onClick="javascript:document.form_iframe.input_iframe.focus(); document.form_iframe.input_iframe.select();" value='&lt;iframe width=&quot;312&quot; height=&quot;176&quot; src=&quot;http://ext.nicovideo.jp/thumb_community/co2032501&quot; scrolling=&quot;no&quot; style=&quot;border:solid 1px #CCC;&quot; frameborder=&quot;0&quot;&gt;&lt;a href=&quot;http://com.nicovideo.jp/community/co2032501&quot;&gt;【ニコニコ動画】Game Master FREE&lt;/a&gt;&lt;/iframe&gt;'></p>
+						</form>
+					</td>
+					<td>
+						<form name="form_link">
+						<p style="margin-bottom:2px;">ブログパーツ リンク</p>
+						<p><input type="text" readonly="true" class="paste_blog" name="input_link" onclick="javascript:document.form_link.input_link.focus(); document.form_link.input_link.select();" value='&lt;a target=&quot;_blank&quot; href=&quot;http://com.nicovideo.jp/community/co2032501&quot;&gt;【ニコニコミュニティ】Game Master FREE&lt;/a&gt;'></p>
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<form name="form_liveurl">
+						<p style="margin-bottom:2px;">ブログパーツ 生放送をお知らせ</p>
+						<p><input type="text" readonly="true" class="paste_blog" name="input_liveurl" onclick="javascript:document.form_liveurl.input_liveurl.focus(); document.form_liveurl.input_liveurl.select();" value='&lt;a target=&quot;_blank&quot; href=&quot;http://live.nicovideo.jp/watch/co2032501?ref=community&quot;&gt;【ニコニコミュニティ】Game Master FREEの生放送&lt;/a&gt; '></p>
+		
+						</form>
+					</td>
+				</tr>
+			</table>			<!---->
+
+		</div>
+	</div>
+	<!--↑コミュニティ情報↑-->
+
+	
+	</div>
+	<!--prof-->
+
+	<div id="community_side">
+											
+				<!--↓生放送のお知らせ↓-->
+		<div id="future_live">
+			<div class="side_bar_title_container">
+				<h2 class="side_bar_title">生放送のお知らせ</h2>
+				<span class="side_bar_title_sub">
+					<a href="http://twitter.com/share" class="twitter-share-button" data-text=" " data-url="http://nico.ms/l/co2032501" data-count="none">Tweet</a>
+					<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+				</span>
+			</div>
+
+						<h3 class="sttl">▼ 最近行われた生放送</h3>
+												<div class="item">
+				<p class="date">
+					2016年02月19日 00:21
+									</p>
+				<p class="title">
+					<a href="http://live.nicovideo.jp/watch/lv253109375?ref=community">【白猫】協力相互周回しましょう！</a>
+					<span class="user">（放送者：FREE）</span>
+				</p>
+			</div>
+									<div class="mb16p4" style="text-align:right;">
+				<a href="/live_archives/co2032501?side_bar=1">【生放送履歴一覧】</a>
+			</div>
+			
+			<h3 class="sttl">▼ 予約スケジュール</h3>
+						<p style="margin: 0px 0 16px 4px;">生放送の予約はありません。</p>
+					</div>
+		<!--↑生放送のお知らせ↑-->							  
+
+<script type="text/javascript"><!--
+  function change_channel_enable() {
+    if (confirm('オーナーのブロマガを非表示にします。よろしいですか？')) {
+      document.channel_blomaga_form.submit();
+    }
+    return false;
+  }
+  --></script>
+
+
+
+      <div class="side_bar_title_container channel_blomaga_head cfix">
+  <h2 class="side_bar_title channel_blomaga_head">オーナーのブロマガ</h2>
+  <div class="channel_blomaga_head_on_off"></div>
+</div>    <div class="channel_blomaga_body">
+                    
+    <div class="title_and_thumbnail cfix">
+          <img class="thumbnail" src="http://abch.nimg.jp/img/blog_thumbnail/gamerfree/gamerfree.jpg">
+        <div class="title">▼ Game Master FREE</div>
+  </div>
+  <ul class="articles">
+      
+    
+    <li class="article">
+            <p class="thumbnail"><a href="http://ch.nicovideo.jp/article/ar949744" target="_blank"><img src="http://abch.nimg.jp/img/article_thumbnail/9d/gamerfree_949744.jpg" alt=""></a>      <h3 class="title">
+        <a href="http://ch.nicovideo.jp/article/ar949744" target="_blank">【2016年冬】冬アニメランキング【おすすめ】</a>
+        <span class="date">
+          (01/14 17:17)
+        </span>
+      </h3>
+      <p class="more"><a href="http://ch.nicovideo.jp/article/ar949744" target="_blank">≫ 続きを読む</a></p>
+    </li>
+      
+    
+    <li class="article">
+            <p class="thumbnail"><a href="http://ch.nicovideo.jp/article/ar919625" target="_blank"><img src="http://abch.nimg.jp/img/article_thumbnail/9d/gamerfree_919625.jpg" alt=""></a>      <h3 class="title">
+        <a href="http://ch.nicovideo.jp/article/ar919625" target="_blank">【2015年秋】秋アニメランキング【おすすめ】</a>
+        <span class="date">
+          (11/28 15:08)
+        </span>
+      </h3>
+      <p class="more"><a href="http://ch.nicovideo.jp/article/ar919625" target="_blank">≫ 続きを読む</a></p>
+    </li>
+    </ul>
+                </div>
+  		        		<!--↓メンバー↓-->
+				<div class="side_bar_title_container">
+			<h2 class="side_bar_title">コミュニティメンバー</h2>
+			<span class="side_bar_title_sub">(17772人)</span>
+		</div>
+		<table border="0" cellpadding="4" cellspacing="0" summary="メンバー" style="text-align:center;">
+									<tr valign="top">
+						<td>
+				<div style="width:72px; overflow:hidden;">
+					<a href="http://www.nicovideo.jp/user/30030470?side_bar=top" target="_blank" style="font-weight:bold; text-decoration:none;">
+						<p style="margin:2px 0;">
+							<img src="http://com.res.nimg.jp/img/user/thumb/blank.jpg" alt="たかしくん" class="user_img_M">
+						</p>
+						<p class="fs10">たかしくん</p>
+					</a>
+				</div>
+			</td>
+												<td>
+				<div style="width:72px; overflow:hidden;">
+					<a href="http://www.nicovideo.jp/user/14103398?side_bar=top" target="_blank" style="font-weight:bold; text-decoration:none;">
+						<p style="margin:2px 0;">
+							<img src="http://usericon.nimg.jp/usericon/1410/14103398.jpg?1284894370" alt="じーど" class="user_img_M">
+						</p>
+						<p class="fs10">じーど</p>
+					</a>
+				</div>
+			</td>
+												<td>
+				<div style="width:72px; overflow:hidden;">
+					<a href="http://www.nicovideo.jp/user/53852862?side_bar=top" target="_blank" style="font-weight:bold; text-decoration:none;">
+						<p style="margin:2px 0;">
+							<img src="http://com.res.nimg.jp/img/user/thumb/blank.jpg" alt="ゲスト" class="user_img_M">
+						</p>
+						<p class="fs10">ゲスト</p>
+					</a>
+				</div>
+			</td>
+												<td>
+				<div style="width:72px; overflow:hidden;">
+					<a href="http://www.nicovideo.jp/user/2997384?side_bar=top" target="_blank" style="font-weight:bold; text-decoration:none;">
+						<p style="margin:2px 0;">
+							<img src="http://usericon.nimg.jp/usericon/299/2997384.jpg?1452737822" alt="こりにゃん" class="user_img_M">
+						</p>
+						<p class="fs10">こりにゃん</p>
+					</a>
+				</div>
+			</td>
+						</tr>
+												<tr valign="top">
+						<td>
+				<div style="width:72px; overflow:hidden;">
+					<a href="http://www.nicovideo.jp/user/130646?side_bar=bottom" target="_blank" style="font-weight:bold; text-decoration:none;">
+						<p style="margin:2px 0;">
+							<img src="http://com.res.nimg.jp/img/user/thumb/blank.jpg" alt="かた" class="user_img_M">
+						</p>
+						<p class="fs10">かた</p>
+					</a>
+				</div>
+			</td>
+												<td>
+				<div style="width:72px; overflow:hidden;">
+					<a href="http://www.nicovideo.jp/user/24566926?side_bar=bottom" target="_blank" style="font-weight:bold; text-decoration:none;">
+						<p style="margin:2px 0;">
+							<img src="http://com.res.nimg.jp/img/user/thumb/blank.jpg" alt="kuro" class="user_img_M">
+						</p>
+						<p class="fs10">kuro</p>
+					</a>
+				</div>
+			</td>
+												<td>
+				<div style="width:72px; overflow:hidden;">
+					<a href="http://www.nicovideo.jp/user/13016849?side_bar=bottom" target="_blank" style="font-weight:bold; text-decoration:none;">
+						<p style="margin:2px 0;">
+							<img src="http://com.res.nimg.jp/img/user/thumb/blank.jpg" alt="慈悲はない。" class="user_img_M">
+						</p>
+						<p class="fs10">慈悲はない。</p>
+					</a>
+				</div>
+			</td>
+												<td>
+				<div style="width:72px; overflow:hidden;">
+					<a href="http://www.nicovideo.jp/user/37162334?side_bar=bottom" target="_blank" style="font-weight:bold; text-decoration:none;">
+						<p style="margin:2px 0;">
+							<img src="http://com.res.nimg.jp/img/user/thumb/blank.jpg" alt="まっさー" class="user_img_M">
+						</p>
+						<p class="fs10">まっさー</p>
+					</a>
+				</div>
+			</td>
+						</tr>
+								</table>
+
+		<div class="mb16p4" style="text-align:right;">
+			<p><a href="/member/co2032501?side_bar=1">【メンバーの確認】</a></p>
+		</div>		<!--↑メンバー↑-->
+		<!--↓コミュニティ動画↓-->
+		
+		<div style="padding:4px;">
+			<div class="side_bar_title_container">
+				<h2 class="side_bar_title">コミュニティ動画</h2>
+				<span class="side_bar_title_sub">(5件)</span>
+			</div>
+		</div>
+
+					<table width="290" border="0" cellpadding="0" cellspacing="4" summary="">
+							<tr>
+					<td><a href="http://www.nicovideo.jp/watch/1392370835?side_bar=0"><img src="http://tn-skr2.smilevideo.jp/smile?i=22885901" alt="" class="video_img_S" title="結婚してみた"></a></td>
+					<td width="100%">
+						<p>
+														<a href="http://www.nicovideo.jp/watch/1392370835?side_bar=0" class="community_video">結婚してみた</a>
+													</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><p class="dot_1"><img src="http://com.res.nimg.jp/img/_.gif" alt="" width="1" height="1"></p></td>
+				</tr>
+							<tr>
+					<td><a href="http://www.nicovideo.jp/watch/1419571266?side_bar=1"><img src="http://tn-skr1.smilevideo.jp/smile?i=25033220" alt="" class="video_img_S" title="【悲報】改修工廠に重大なバグが見つかる"></a></td>
+					<td width="100%">
+						<p>
+														<a href="http://www.nicovideo.jp/watch/1419571266?side_bar=1" class="community_video">【悲報】改修工廠に重大なバグが見つかる</a>
+													</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><p class="dot_1"><img src="http://com.res.nimg.jp/img/_.gif" alt="" width="1" height="1"></p></td>
+				</tr>
+							<tr>
+					<td><a href="http://www.nicovideo.jp/watch/1389110331?side_bar=2"><img src="img/common/delete.jpg" alt="" class="video_img_S" title="金剛VSコンゴウ.masterfree"></a></td>
+					<td width="100%">
+						<p>
+														<a href="http://www.nicovideo.jp/watch/1389110331?side_bar=2" class="community_video">金剛VSコンゴウ.masterfree</a>
+													</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><p class="dot_1"><img src="http://com.res.nimg.jp/img/_.gif" alt="" width="1" height="1"></p></td>
+				</tr>
+							<tr>
+					<td><a href="http://www.nicovideo.jp/watch/1387884638?side_bar=3"><img src="http://tn-skr1.smilevideo.jp/smile?i=22522764" alt="" class="video_img_S" title="【艦これ】GETからわずか10分足らずで、タカオ轟沈【ブラック提督】"></a></td>
+					<td width="100%">
+						<p>
+														<a href="http://www.nicovideo.jp/watch/1387884638?side_bar=3" class="community_video">【艦これ】GETからわずか10分足らずで、タカオ轟沈【ブラック提督】</a>
+													</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><p class="dot_1"><img src="http://com.res.nimg.jp/img/_.gif" alt="" width="1" height="1"></p></td>
+				</tr>
+						</table>
+
+			<div class="mb16p4" style="text-align:right;">
+				<p><a href="/video/co2032501?side_bar=1">【コミュニティ動画の確認・編集】</a></p>
+			</div>
+				<!--↑コミュニティ動画↑-->
+		<!--広告-->
+		
+	<div align="center" class="mb10">
+		<a href="http://rd.nicovideo.jp/cc/app/co73dstm" target="_blank"><img src="http://com.res.nimg.jp/img/system/community_side_banners/1455699068_20160217_01.png" alt="3DSテーマ" class="community_side_banner_img"></a>
+	</div>
+
+	<div align="center" class="mb10">
+		<a href="http://app.nicovideo.jp/app/ap446?track=community" target="_blank"><img src="http://com.res.nimg.jp/img/system/community_side_banners/1455609177_20160129_3242399293.jpg" alt="ゴエティア" class="community_side_banner_img"></a>
+	</div>
+
+
+		<div id="followContainer" class="mb8p4">
+	<div id="community_pc_sidefollow_container">
+		<ins style="display:inline-table;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px">
+			<ins id="community_pc_sidefollow" style="display:block;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px">
+			</ins>
+		</ins>
+	</div>
+	<script type="text/javascript">
+	
+		(function(){
+			var segment = Ads.get_segment_object();
+			new Ads.Advertisement({zone: 260, segments: segment, impression: 2}).set('community_pc_sidefollow');
+		})();
+	
+	</script>
+</div>
+<script type="text/javascript">
+(function($) {
+	$(document).ready(function() {
+		FollowManager.register({
+			follower: '#followContainer',
+			main: '#community_prof_frm2',
+			side: '#community_side',
+			header: '#siteHeader'
+		});
+	});
+})(jQuery);
+</script>
+		<!--広告-->
+	</div>
+	<!--side-->
+
+</div>
+<!--content-->
+
+	<!--↑エラーなし(2列)↑-->
+
+	</div>
+<!--/site-body-->
+
+
+<!--site-foot-->
+<div id="site-foot" style="text-align:center; padding:10px 0 20px;">
+
+	<!--site-foot-wrapper-->
+	<div class="site-foot-wrapper">
+
+		<!--normal footer menu-->
+
+		<div style="background:#F9F9F9; border:dotted #999; border-width:1px 0; margin:10px 0; padding:6px 0;">
+
+<div id="web_pc_footer"></div>
+<script type="text/javascript">
+
+	(function(){
+		var segment = Ads.get_segment_object();
+		new Ads.Advertisement({zone: 130, segments: segment, impression: 2}).set('web_pc_footer');
+	})();
+
+</script>
+
+</div>
+
+
+		<div style="padding:4px;">
+			<div style="border:dotted #999; border-width:1px 0; margin:4px 0; padding:4px 0;">
+			<p>
+				<a href="http://com.nicovideo.jp/">ニコニコミュニティTOP</a> |
+				<a target="_blank" href="https://secure.nicovideo.jp/secure/rule">niconico利用規約</a> |
+							<a href="http://qa.nicovideo.jp/category/show/482" target="_blank">
+								ニコニコミュニティ ヘルプ
+				</a>
+			</p>
+			</div>
+		</div>
+
+				<div style="padding:4px;">
+			<p class="copyright">
+			<small>&copy; DWANGO Co., Ltd.</small>
+		</p>
+		</div>
+				<!--/normal footer menu-->
+
+	</div>
+	<!--/site-foot-wrapper-->
+
+
+</div>
+<!--/site-foot-->
+
+</body>
+</html>

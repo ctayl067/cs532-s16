@@ -1,0 +1,2338 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr'>
+<head>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://bobmcnair.blogspot.co.uk/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://bobmcnair.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Bob Mcnair, Corbynista and Left Wing Blogger. - Atom" href="http://bobmcnair.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Bob Mcnair, Corbynista and Left Wing Blogger. - RSS" href="http://bobmcnair.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Bob Mcnair, Corbynista and Left Wing Blogger. - Atom" href="https://www.blogger.com/feeds/7426146765397437632/posts/default" />
+<link rel="me" href="https://www.blogger.com/profile/14839646923554741777" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://bobmcnair.blogspot.com/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3978477444-ieretrofit.js"></script>
+<![endif]-->
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Bob Mcnair, Corbynista and Left Wing Blogger.</title>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/2973171168-css_bundle_v2.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=7426146765397437632&zx=a9181e9e-191a-42c3-b3d3-7bdfe31779dd' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Simple
+Designer: Josh Peterson
+URL:      www.noaesthetic.com
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#66bbdd"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#222222"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#66bbdd"/>
+<Variable name="content.background.color" description="Main Background" type="color" default="#ffffff"/>
+<Variable name="header.background.color" description="Header Background" type="color" default="transparent"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#2288bb"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#888888"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Font" type="font"
+default="normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Title Color" type="color" default="#3399bb" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#777777" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#999999"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#000000"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="#f5f5f5"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title, .comments h4">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+</Group>
+<Group description="Date Header" selector=".date-header">
+<Variable name="date.header.color" description="Text Color" type="color"
+default="#222222"/>
+<Variable name="date.header.background.color" description="Background Color" type="color"
+default="transparent"/>
+<Variable name="date.header.font" description="Text Font" type="font"
+default="normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="date.header.padding" description="Date Header Padding" type="string" default="inherit"/>
+<Variable name="date.header.letterspacing" description="Date Header Letter Spacing" type="string" default="inherit"/>
+<Variable name="date.header.margin" description="Date Header Margin" type="string" default="inherit"/>
+</Group>
+<Group description="Post Footer" selector=".post-footer">
+<Variable name="post.footer.text.color" description="Text Color" type="color" default="#666666"/>
+<Variable name="post.footer.background.color" description="Background Color" type="color"
+default="#f9f9f9"/>
+<Variable name="post.footer.border.color" description="Shadow Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Gadgets" selector="h2">
+<Variable name="widget.title.font" description="Title Font" type="font"
+default="normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#000000"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#999999"/>
+</Group>
+<Group description="Images" selector=".main-inner">
+<Variable name="image.background.color" description="Background Color" type="color" default="#ffffff"/>
+<Variable name="image.border.color" description="Border Color" type="color" default="#eeeeee"/>
+<Variable name="image.text.color" description="Caption Text Color" type="color" default="#222222"/>
+</Group>
+<Group description="Accents" selector=".content-inner">
+<Variable name="body.rule.color" description="Separator Line Color" type="color" default="#eeeeee"/>
+<Variable name="tabs.border.color" description="Tabs Border Color" type="color" default="#eeeeee"/>
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#ee3300" default="$(color) none repeat scroll top left"/>
+<Variable name="body.background.override" description="Body Background Override" type="string" default=""/>
+<Variable name="body.background.gradient.cap" description="Body Gradient Cap" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="body.background.gradient.tile" description="Body Gradient Tile" type="url"
+default="url(//www.blogblog.com/1kt/simple/body_gradient_tile_light.png)"/>
+<Variable name="content.background.color.selector" description="Content Background Color Selector" type="string" default=".content-inner"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="10px" min="0" max="100px"/>
+<Variable name="content.padding.horizontal" description="Content Horizontal Padding" type="length" default="10px" min="0" max="100px"/>
+<Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="40px" min="0" max="100px"/>
+<Variable name="content.shadow.spread.webkit" description="Content Shadow Spread (WebKit)" type="length" default="5px" min="0" max="100px"/>
+<Variable name="content.shadow.spread.ie" description="Content Shadow Spread (IE)" type="length" default="10px" min="0" max="100px"/>
+<Variable name="main.border.width" description="Main Border Width" type="length" default="0" min="0" max="10px"/>
+<Variable name="header.background.gradient" description="Header Gradient" type="url" default="none"/>
+<Variable name="header.shadow.offset.left" description="Header Shadow Offset Left" type="length" default="-1px" min="-50px" max="50px"/>
+<Variable name="header.shadow.offset.top" description="Header Shadow Offset Top" type="length" default="-1px" min="-50px" max="50px"/>
+<Variable name="header.shadow.spread" description="Header Shadow Spread" type="length" default="1px" min="0" max="100px"/>
+<Variable name="header.padding" description="Header Padding" type="length" default="30px" min="0" max="100px"/>
+<Variable name="header.border.size" description="Header Border Size" type="length" default="1px" min="0" max="10px"/>
+<Variable name="header.bottom.border.size" description="Header Bottom Border Size" type="length" default="0" min="0" max="10px"/>
+<Variable name="header.border.horizontalsize" description="Header Horizontal Border Size" type="length" default="0" min="0" max="10px"/>
+<Variable name="description.text.size" description="Description Text Size" type="string" default="140%"/>
+<Variable name="tabs.margin.top" description="Tabs Margin Top" type="length" default="0" min="0" max="100px"/>
+<Variable name="tabs.margin.side" description="Tabs Side Margin" type="length" default="30px" min="0" max="100px"/>
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="tabs.border.width" description="Tabs Border Width" type="length" default="1px" min="0" max="10px"/>
+<Variable name="tabs.bevel.border.width" description="Tabs Bevel Border Width" type="length" default="1px" min="0" max="10px"/>
+<Variable name="post.margin.bottom" description="Post Bottom Margin" type="length" default="25px" min="0" max="100px"/>
+<Variable name="image.border.small.size" description="Image Border Small Size" type="length" default="2px" min="0" max="10px"/>
+<Variable name="image.border.large.size" description="Image Border Large Size" type="length" default="5px" min="0" max="10px"/>
+<Variable name="page.width.selector" description="Page Width Selector" type="string" default=".region-inner"/>
+<Variable name="page.width" description="Page Width" type="string" default="auto"/>
+<Variable name="main.section.margin" description="Main Section Margin" type="length" default="15px" min="0" max="100px"/>
+<Variable name="main.padding" description="Main Padding" type="length" default="15px" min="0" max="100px"/>
+<Variable name="main.padding.top" description="Main Padding Top" type="length" default="30px" min="0" max="100px"/>
+<Variable name="main.padding.bottom" description="Main Padding Bottom" type="length" default="30px" min="0" max="100px"/>
+<Variable name="paging.background"
+color="#ffffff"
+description="Background of blog paging area" type="background"
+default="transparent none no-repeat scroll top center"/>
+<Variable name="footer.bevel" description="Bevel border length of footer" type="length" default="0" min="0" max="10px"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="mobile.background.size" description="Mobile Background Size" type="string" default="auto"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #222222;
+background: #ee3300 url(http://1.bp.blogspot.com/-7DFwACBry8o/Uwz46tIU3nI/AAAAAAAAByE/l3K9izz_SNk/s0/rose.jpg) repeat scroll top left;
+padding: 0 40px 40px 40px;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+h2 {
+font-size: 22px;
+}
+a:link {
+text-decoration:none;
+color: #cc1118;
+}
+a:visited {
+text-decoration:none;
+color: #888888;
+}
+a:hover {
+text-decoration:underline;
+color: #ff1a00;
+}
+.body-fauxcolumn-outer .fauxcolumn-inner {
+background: transparent none repeat scroll top left;
+_background-image: none;
+}
+.body-fauxcolumn-outer .cap-top {
+position: absolute;
+z-index: 1;
+height: 400px;
+width: 100%;
+background: #ee3300 url(http://1.bp.blogspot.com/-7DFwACBry8o/Uwz46tIU3nI/AAAAAAAAByE/l3K9izz_SNk/s0/rose.jpg) repeat scroll top left;
+}
+.body-fauxcolumn-outer .cap-top .cap-left {
+width: 100%;
+background: transparent none repeat-x scroll top left;
+_background-image: none;
+}
+.content-outer {
+-moz-box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 10px #333333;
+box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+margin-bottom: 1px;
+}
+.content-inner {
+padding: 10px 10px;
+}
+.content-inner {
+background-color: #ffffff;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+background: #cc1118 url(//www.blogblog.com/1kt/simple/gradients_light.png) repeat-x scroll 0 -400px;
+_background-image: none;
+}
+.Header h1 {
+font: normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #ffffff;
+text-shadow: 1px 2px 3px rgba(0, 0, 0, .2);
+}
+.Header h1 a {
+color: #ffffff;
+}
+.Header .description {
+font-size: 140%;
+color: #ffffff;
+}
+.header-inner .Header .titlewrapper {
+padding: 22px 30px;
+}
+.header-inner .Header .descriptionwrapper {
+padding: 0 30px;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner .section:first-child {
+border-top: 0 solid #eeeeee;
+}
+.tabs-inner .section:first-child ul {
+margin-top: -0;
+border-top: 0 solid #eeeeee;
+border-left: 0 solid #eeeeee;
+border-right: 0 solid #eeeeee;
+}
+.tabs-inner .widget ul {
+background: #f5f5f5 url(//www.blogblog.com/1kt/simple/gradients_light.png) repeat-x scroll 0 -800px;
+_background-image: none;
+border-bottom: 1px solid #eeeeee;
+margin-top: 0;
+margin-left: -30px;
+margin-right: -30px;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .6em 1em;
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #999999;
+border-left: 1px solid #ffffff;
+border-right: 1px solid #eeeeee;
+}
+.tabs-inner .widget li:first-child a {
+border-left: none;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+color: #000000;
+background-color: #eeeeee;
+text-decoration: none;
+}
+/* Columns
+----------------------------------------------- */
+.main-outer {
+border-top: 0 solid #eeeeee;
+}
+.fauxcolumn-left-outer .fauxcolumn-inner {
+border-right: 1px solid #eeeeee;
+}
+.fauxcolumn-right-outer .fauxcolumn-inner {
+border-left: 1px solid #eeeeee;
+}
+/* Headings
+----------------------------------------------- */
+div.widget > h2,
+div.widget h2.title {
+margin: 0 0 1em 0;
+font: normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #000000;
+}
+/* Widgets
+----------------------------------------------- */
+.widget .zippy {
+color: #999999;
+text-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+}
+.widget .popular-posts ul {
+list-style: none;
+}
+/* Posts
+----------------------------------------------- */
+h2.date-header {
+font: normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+.date-header span {
+background-color: transparent;
+color: #222222;
+padding: inherit;
+letter-spacing: inherit;
+margin: inherit;
+}
+.main-inner {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.main-inner .column-center-inner {
+padding: 0 15px;
+}
+.main-inner .column-center-inner .section {
+margin: 0 15px;
+}
+.post {
+margin: 0 0 25px 0;
+}
+h3.post-title, .comments h4 {
+font: normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+margin: .75em 0 0;
+}
+.post-body {
+font-size: 110%;
+line-height: 1.4;
+position: relative;
+}
+.post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
+.BlogList .item-thumbnail img {
+padding: 2px;
+background: #ffffff;
+border: 1px solid #eeeeee;
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+}
+.post-body img, .post-body .tr-caption-container {
+padding: 5px;
+}
+.post-body .tr-caption-container {
+color: #222222;
+}
+.post-body .tr-caption-container img {
+padding: 0;
+background: transparent;
+border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+.post-header {
+margin: 0 0 1.5em;
+line-height: 1.6;
+font-size: 90%;
+}
+.post-footer {
+margin: 20px -2px 0;
+padding: 5px 10px;
+color: #666666;
+background-color: #f9f9f9;
+border-bottom: 1px solid #eeeeee;
+line-height: 1.6;
+font-size: 90%;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: 1px solid #eeeeee;
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+#comments .avatar-image-container img {
+border: 1px solid #eeeeee;
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+}
+.comments .comment-thread.inline-thread {
+background-color: #f9f9f9;
+}
+.comments .continue {
+border-top: 2px solid #999999;
+}
+/* Accents
+---------------------------------------------- */
+.section-columns td.columns-cell {
+border-left: 1px solid #eeeeee;
+}
+.blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.blog-pager-older-link, .home-link,
+.blog-pager-newer-link {
+background-color: #ffffff;
+padding: 5px;
+}
+.footer-outer {
+border-top: 0 dashed #bbbbbb;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .body-fauxcolumn-outer .cap-top {
+background-size: 100% auto;
+}
+.mobile .content-outer {
+-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+}
+.mobile .tabs-inner .widget ul {
+margin-left: 0;
+margin-right: 0;
+}
+.mobile .post {
+margin: 0;
+}
+.mobile .main-inner .column-center-inner .section {
+margin: 0;
+}
+.mobile .date-header span {
+padding: 0.1em 10px;
+margin: 0 -10px;
+}
+.mobile h3.post-title {
+margin: 0;
+}
+.mobile .blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.mobile .footer-outer {
+border-top: none;
+}
+.mobile .main-inner, .mobile .footer-inner {
+background-color: #ffffff;
+}
+.mobile-index-contents {
+color: #222222;
+}
+.mobile-link-button {
+background-color: #cc1118;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile .tabs-inner .section:first-child {
+border-top: none;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background-color: #eeeeee;
+color: #000000;
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #eeeeee;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 960px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 960px;
+max-width: 960px;
+_width: 960px;
+}
+.main-inner .columns {
+padding-left: 0;
+padding-right: 310px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0;
+right: 310px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0") -
+parseInt("310px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 310px;
+}
+.main-inner .column-left-outer {
+width: 0;
+right: 100%;
+margin-left: -0;
+}
+.main-inner .column-right-outer {
+width: 310px;
+margin-right: -310px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<script type="text/javascript">var a="&m=1",d="(^|&)m=",e="?",f="?m=1";function g(){var b=window.location.href,c=b.split(e);switch(c.length){case 1:return b+f;case 2:return 0<=c[1].search(d)?null:b+a;default:return null}}var h=navigator.userAgent;if(-1!=h.indexOf("Mobile")&&-1!=h.indexOf("WebKit")&&-1==h.indexOf("iPad")||-1!=h.indexOf("Opera Mini")||-1!=h.indexOf("IEMobile")){var k=g();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='loading variant-bold'>
+<div class='navbar section' id='navbar' name='Navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: 'https://www.blogger.com/navbar.g?targetBlogID\0757426146765397437632\46blogName\75Bob+Mcnair,+Corbynista+and+Left+Wing+...\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://bobmcnair.blogspot.com/search\46blogLocale\75en_GB\46v\0752\46homepageUrl\75http://bobmcnair.blogspot.com/\46vt\0757075945482352790373',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+<meta content='Bob Mcnair, Corbynista and Left Wing Blogger.' itemprop='name'/>
+</div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header' name='Header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+Bob Mcnair, Corbynista and Left Wing Blogger.
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>Labour Party Member.
+Views expressed are my own.</span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol' name='Cross-Column'></div>
+<div class='tabs section' id='crosscol-overflow' name='Cross-Column 2'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main' name='Main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Monday, 18 January 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='7426146765397437632' itemprop='blogId'/>
+<meta content='9039661334422964233' itemprop='postId'/>
+<a name='9039661334422964233'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://bobmcnair.blogspot.co.uk/2016/01/my-move-to-france.html'>My Move to France</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-9039661334422964233' itemprop='description articleBody'>
+
+
+
+ 
+ 
+ 
+ <style type="text/css">p { margin-bottom: 0.25cm; line-height: 120%; }</style>
+
+
+<br />
+<div style="line-height: 100%; margin-bottom: 0cm;">
+I have not been
+posting as regularly as I would have liked, I have had a lot going on
+recently.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Things will be
+changing for me very soon, I will be re-locating to France where I
+have bought a small home. I live in rented accommodation here, and
+there is no way with our dysfunctional property market I could afford
+a home in the UK.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+I'm retiring from my
+profession of the last 40 plus years, I will have to earn some extra
+income in France, I cant afford complete retirement till I get my
+State Pension.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+I do hope to be able
+to spend more time on my Blog, and will be doing Video Blogging as
+well.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br />
+</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+All of course with a
+Left wing pro Corbyn message, I will be in another Country but I will
+keep up the fight against the Tories, and of course the Blairites who
+have done as much damage to the UK and are trying to destroy our
+Party.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br />
+</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+I will cover more of
+the reasons for my move another time, but it was essentially to give
+me some sort of security in my older years. I had none in the Private
+Rental Sector, and no other options open to me. It is a damning
+indictment on our &#8220;Property Market&#8221;, both rental and owner
+occupier, that the cost of the home I purchased in France, was equal
+to just over two and a half years rent in my current home.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+I think you call
+that sort of decision &#8220;a no brainer&#8221;. It was paid for with a
+pension release. I am happy its a wise move, my pension savings now
+benefit my retirement, rather than funding someone else&#8217;s.</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/14839646923554741777' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/14839646923554741777' rel='author' title='author profile'>
+<span itemprop='name'>Bob Mcnair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://bobmcnair.blogspot.com/2016/01/my-move-to-france.html' itemprop='url'/>
+<a class='timestamp-link' href='http://bobmcnair.blogspot.co.uk/2016/01/my-move-to-france.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-01-18T11:32:00-08:00'>11:32</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://bobmcnair.blogspot.co.uk/2016/01/my-move-to-france.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1988847390'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7426146765397437632&postID=9039661334422964233&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=9039661334422964233&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=9039661334422964233&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=9039661334422964233&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=9039661334422964233&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=9039661334422964233&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://bobmcnair.blogspot.com/2016/01/my-move-to-france.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Sunday, 10 January 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='7426146765397437632' itemprop='blogId'/>
+<meta content='2389639409742088716' itemprop='postId'/>
+<a name='2389639409742088716'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://bobmcnair.blogspot.co.uk/2016/01/p-margin-bottom-0.html'>The current "Crisis" and the troublemakers.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-2389639409742088716' itemprop='description articleBody'>
+<style type="text/css">p { margin-bottom: 0.25cm; line-height: 120%; }</style>
+
+
+<br />
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Here are a few
+thoughts on this never ending &#8220;Crisis&#8221; of the making of
+&#8220;Blairites&#8221;, &#8220;Progress members&#8221;, and self called &#8220;Social
+Democrats&#8221;.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Firstly, an
+overwhelming majority of us voted to return our Party to its
+Socialist roots, 60% of us.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+We don&#8217;t for one
+minute think that such a change will just be accepted by the voters,
+we are not stupid, it will need to be sold to our supporters. There
+have been years of anti-Socialist rhetoric, not least from within our
+own Party, yet alone the Murdoch empire. Years of so called
+&#8220;Pragmatism&#8221; from within have robbed us of our identity. What of
+this &#8220;Pragmatic Middle of the Road approach&#8221;??? It's just an
+excuse, an excuse for taking the easy option, not rocking the boat,
+not being too different to anyone else, not sticking ones head above
+the parapet.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+It is needless to
+say VERY popular within the Westminster Bubble that is the PLP.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+They don&#8217;t want to
+rock the boat or do anything that might jeopardise their lovely cosy
+existence as MP's. It even extends to some Councillors.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+They declare that
+this approach is the only way, that Corbyn is &#8220;ruining the Party
+and must go&#8221;. 
+</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+The only &#8220;Party&#8221;
+being ruined is theirs. The jolly is over. You have to work for your
+keep now, you have to sell our new found principles to the voters.
+You WONT have the cosy support of the Murdoch empire as Blair did,
+you WONT have the comfort of easy going BBC presenters.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+You will have to
+work bloody hard to sell the future to the voters, to convince them
+there IS an alternative to the endless austerity the Blairites are so
+comfortable with.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Is all this work too
+much for you? 
+</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Are you more worried
+about loosing your cosy positions of power?</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Would you rather
+take the easy option and not rock the boat?</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Are you more
+concerned that your gravy train might come off the rails than with
+the people your supposed to represent?</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Guess what? You are
+lazy worthless politicians who have no place in this Party. We have
+found our purpose, the one we always had, to fight for ordinary
+working people, to take on the powerful and the rich. To better the
+lives of the little people, those the Tories despise, trample and
+exploit for their gain. THAT is the purpose of Labour.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+We are SUPPOSED to
+rock the boat, We are SUPPOSED to be radical, we are SUPPOSED to
+stick our heads above the parapet.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+It's called
+conviction, conviction in Socialism.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+So, the next time
+you hear someone say &#8220;Corbyn must go&#8221;, &#8220;we must take action
+against him&#8221;, or any other similar talk of Coups, think very hard.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Why is the person
+making these statements doing this?</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+And more to the
+point does anyone who constantly demands Corbyn's removal even belong
+in the Labour Party?</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Even if they don&#8217;t
+like him, they should get on with the job in hand and sell Labour to
+the voters.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+If they are not
+prepared to do this, the door is open.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Please use it.</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/14839646923554741777' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/14839646923554741777' rel='author' title='author profile'>
+<span itemprop='name'>Bob Mcnair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://bobmcnair.blogspot.com/2016/01/p-margin-bottom-0.html' itemprop='url'/>
+<a class='timestamp-link' href='http://bobmcnair.blogspot.co.uk/2016/01/p-margin-bottom-0.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-01-10T07:42:00-08:00'>07:42</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://bobmcnair.blogspot.co.uk/2016/01/p-margin-bottom-0.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1988847390'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7426146765397437632&postID=2389639409742088716&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=2389639409742088716&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=2389639409742088716&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=2389639409742088716&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=2389639409742088716&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=2389639409742088716&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://bobmcnair.blogspot.com/2016/01/p-margin-bottom-0.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Thursday, 20 August 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='7426146765397437632' itemprop='blogId'/>
+<meta content='4289073806012427852' itemprop='postId'/>
+<a name='4289073806012427852'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://bobmcnair.blogspot.co.uk/2015/08/where-labour-lost-its-way.html'>Where Labour Lost its Way</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4289073806012427852' itemprop='description articleBody'>
+
+
+
+ 
+ 
+ 
+ <style type="text/css">p { margin-bottom: 0.25cm; line-height: 120%; }</style>
+
+
+<br />
+<div align="center" style="line-height: 100%; margin-bottom: 0cm;">
+<b><u>Where
+Labour Lost its Way</u></b></div>
+<div align="center" style="line-height: 100%; margin-bottom: 0cm;">
+<br />
+</div>
+<div align="left" style="line-height: 100%; margin-bottom: 0cm;">
+Under
+Blair we became obsessed with &#8220;Winning&#8221;.</div>
+<div align="left" style="line-height: 100%; margin-bottom: 0cm;">
+A
+sports team is ALL about winning, once you have won you have achieved
+the ultimate goal, there is no more for you to do.</div>
+<div align="left" style="line-height: 100%; margin-bottom: 0cm;">
+Managers
+will adapt the running of sports teams to win, change players, change
+tactics.</div>
+<div align="left" style="line-height: 100%; margin-bottom: 0cm;">
+That
+is exactly what &#8220;New Labour&#8221; did. It became ALL about winning,
+our politicians became &#8220;Managers&#8221;, and employed many unelected
+&#8220;advisor&#8217;s&#8221; to decide Party policy.</div>
+<div align="left" style="line-height: 100%; margin-bottom: 0cm;">
+But
+we are not a sports team, its not about some cup. We are a political
+party. We are supposed to change peoples lives for the better, not
+adopt certain policies just to make it easier to win.</div>
+<div align="left" style="line-height: 100%; margin-bottom: 0cm;">
+We
+should fight to convince people we are different, that we have real
+policies for real people. Even if that makes winning difficult in the
+eyes of &#8220;managers&#8221;.</div>
+<div align="left" style="line-height: 100%; margin-bottom: 0cm;">
+It
+is time we ditched &#8220;managers&#8221; who are only interested in the
+salary and the glory of winning. We need to become conviction
+politicians once more, people who strive to change the  lives of
+others, not strive for themselves.  We need selfless politicians,
+caring and honest politicians. That is how Labour wins. Labour wins
+when the People win, not a few self centred grandees. Political
+careers for careers sake, are immoral, selfish and not something that
+belongs in Labour. The voters want people interested in what they can
+give back, not how many millions they can earn from Politics.</div>
+<div align="left" style="line-height: 100%; margin-bottom: 0cm;">
+If
+Labour is to be a team that wins, that &#8220;Team&#8221; must comprise ALL
+our voters. The poor, the old, the young, the sick, the workers and
+the jobless.</div>
+<div align="left" style="line-height: 100%; margin-bottom: 0cm;">
+Not
+simply a handful of MP's and advisor&#8217;s, concerned only with their
+own comfortable futures.</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/14839646923554741777' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/14839646923554741777' rel='author' title='author profile'>
+<span itemprop='name'>Bob Mcnair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://bobmcnair.blogspot.com/2015/08/where-labour-lost-its-way.html' itemprop='url'/>
+<a class='timestamp-link' href='http://bobmcnair.blogspot.co.uk/2015/08/where-labour-lost-its-way.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-08-20T02:14:00-07:00'>02:14</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://bobmcnair.blogspot.co.uk/2015/08/where-labour-lost-its-way.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1988847390'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7426146765397437632&postID=4289073806012427852&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=4289073806012427852&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=4289073806012427852&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=4289073806012427852&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=4289073806012427852&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=4289073806012427852&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://bobmcnair.blogspot.com/2015/08/where-labour-lost-its-way.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Friday, 24 July 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='7426146765397437632' itemprop='blogId'/>
+<meta content='1875569020154245165' itemprop='postId'/>
+<a name='1875569020154245165'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://bobmcnair.blogspot.co.uk/2015/07/the-descent-of-our-leadership-contest.html'>The Descent of our Leadership contest into the depths of Despair.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-1875569020154245165' itemprop='description articleBody'>
+<style type="text/css">p { margin-bottom: 0.25cm; line-height: 120%; }</style>
+
+
+<br />
+<div style="line-height: 100%; margin-bottom: 0cm;">
+I have recently been
+enraged by what is going on in our Party.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+I have regretfully
+been drawn into the open warfare which is tearing us apart.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Why?</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Because something is
+very unjust with the way our Party is functioning, and especially
+with the way we choose our leader.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+The nominations for
+the leadership, are made solely by the Parliamentary Labour Party.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+This is very very
+wrong. It is undemocratic and it is tearing our Party apart.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+I invite everyone to
+read the following five questions, you may be familiar with them.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+1/ WHAT POWER HAVE
+YOU GOT?<br />
+2/ WHERE DID YOU GET IT FROM?<br />
+3/ IN WHOSE INTERESTS DO
+YOU EXERCISE IT?<br />
+4/ TO WHOM ARE YOU ACCOUNTABLE?<br />
+5/ HOW CAN WE
+GET RID OF YOU? 
+</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Now please apply
+these questions to our Shadow Cabinet and our Leaders.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+1/</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Firstly they have
+great power. They choose who sits in the Cabinet, Shadow or
+otherwise. At present they have sole control over who WE are
+permitted to vote for as Party Leader. By this virtue alone, they
+have SOLE AUTHORITY over determining who is in charge. We the members
+do not.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+2/</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+They were given this
+power, after at some point being part of a democratic selection
+process where a local Party evaluated them and selected them to stand
+as a prospective Parliamentary Candidate.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+It is indeed very
+rare for a sitting MP to ever be de-selected other than for gross
+misconduct.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+So once standing as
+an MP they are there for the long term in many instances.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+3/</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Now we come to the
+awkward bit. In whose interests exactly ARE they exercising this
+power when it comes to choosing our leader? I will suggest it is
+certainly not in the interests of root and branch members or the
+electorate they represent . Our leadership, as with that of many
+Party&#8217;s, has slipped into a form of succession or inheritance. A
+bit like an old fashioned Company  Boardroom, or a Club or Society of
+some sort. In these institutions it was customary for people on the
+board or committee,  to &#8220;work their way up&#8221; and &#8220;serve their
+time&#8221;, until they were the next in line for the big chair. In
+modern times, even big company boardrooms have moved away from this,
+and will often bring in new talent to revive a failing business. Our
+MP's, by being in sole charge of who is permitted to stand for
+leader, are able to perpetuate a form of agreed succession between
+themselves. We the membership, are excluded from absolute choice of
+our leader.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+4/</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+The next awkward
+bit. They are not really accountable to anyone. They choose their own
+leader (by selecting who WE can vote for), they choose their own
+positions and roles, and unless they loose a general election (as in
+the case of Ed Balls) are there till they choose to retire.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+5/</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Another awkward bit.
+As I said earlier, it is very rare indeed to replace a successful MP
+with a new candidate. It does happen, but it is obviously a very
+undesirable process for a local Branch, why after all replace someone
+who is winning elections with a possibly uncertain candidate. People
+do have voter loyalty to a sitting MP. Quite rightly if he is doing
+his job properly and representing them.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Now we return to
+where we are and the leadership contest which is rapidly descending
+into a cross between some comical farce, and an episode of a soap
+opera where everyone is stabbing everyone else in the back.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+It is clear  that
+the leadership selection process is not fit for purpose.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+It is obvious that
+there is a chasm between the wishes of the select few in the Shadow
+Cabinet, and those of the Membership. The correct path in this case
+is not open for debate. We are a Democratic Socialist Party. It is
+beyond all doubt that the vote of the Membership is the only correct
+way of selecting a leader. It is therefore completely unacceptable,
+that the Membership is not able to exercise complete control over the
+nominations for who appears on the ballot papers.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+What has happened,
+is that we have 3 very similar candidates, chosen by agreement of
+those in power, and one candidate who it seems, was begrudgingly put
+there to pacify calls for a more varied choice, and to prevent unrest
+amongst the membership. Some will of course, have nominated him
+because they believe it is the right thing to do for whatever reason.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Now that candidate
+is proving to be the choice of the membership, and grass roots, there
+is outrage and derision that the &#8220;natural order of succession&#8221;
+has been challenged. All of these people would do well to remember
+that they once relied on convincing ordinary members like us, that
+they were worthy of being put on a ballot paper in a General Election
+or Bye Election.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+All of them
+respected our choice then, they courted our votes at hustings, and
+convinced us to give them a chance.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Where has that
+respect gone now? We are &#8220;Loonies&#8221;, we need &#8220;transplants&#8221;,
+and we are suddenly treated with derision for exercising our
+democratic right as members to choose a leader.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+It is time that this
+sanitised selection of who we can vote for is ended. It is plainly
+vital that the Membership is allowed to nominate candidates for
+leadership. Those in the PLP must have no more say than a member
+working in a supermarket. One Member, One Vote.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+We must end this
+leadership selection by a Cabal of the powerful. Such a system
+belongs to our enemies, it is the Tory way. Had Jeremy Corbyn NOT
+received enough nominations, we would have a 3 way leadership contest
+between 3 very similar, agreed and sanitised candidates. Non of which
+are popular amongst either the grass roots membership, or the Labour
+voters whose job it is for the grass roots members to speak to every
+day.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+We need a change to
+how we do this, our leader must be chosen by ALL our members at every
+stage of the process. From nomination (via Primaries of many
+candidates if necessary) to a one member one vote final ballot. Only
+then do we have credibility, and only this will prevent ANY powerful
+faction from taking complete control of our Party&#8217;s leadership
+process.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+If we do not offer a
+transparently democratic choice to the rule by the 1% offered by The
+Tories, we will never be a true and decent alternative to them. An we
+will become more like them every day until our Politics differ in
+name only, much like in the USA.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+One thing is
+certain.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Absolute Power
+Corrupts Absolutely</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+The Labour Party
+must make this impossible within our ranks.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+All our leaders must
+be truly accountable on a regular basis. 
+</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+And removable by the
+Membership. 
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/14839646923554741777' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/14839646923554741777' rel='author' title='author profile'>
+<span itemprop='name'>Bob Mcnair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://bobmcnair.blogspot.com/2015/07/the-descent-of-our-leadership-contest.html' itemprop='url'/>
+<a class='timestamp-link' href='http://bobmcnair.blogspot.co.uk/2015/07/the-descent-of-our-leadership-contest.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-07-24T03:42:00-07:00'>03:42</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://bobmcnair.blogspot.co.uk/2015/07/the-descent-of-our-leadership-contest.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1988847390'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7426146765397437632&postID=1875569020154245165&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=1875569020154245165&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=1875569020154245165&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=1875569020154245165&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=1875569020154245165&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=1875569020154245165&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://bobmcnair.blogspot.com/2015/07/the-descent-of-our-leadership-contest.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Sunday, 21 June 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='7426146765397437632' itemprop='blogId'/>
+<meta content='7413499252438976437' itemprop='postId'/>
+<a name='7413499252438976437'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://bobmcnair.blogspot.co.uk/2015/06/our-party-stands-at-doors-of-last.html'>Our Party stands at the doors of "The Last Chance Saloon".</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-7413499252438976437' itemprop='description articleBody'>
+<style type="text/css">p { margin-bottom: 0.25cm; line-height: 120%; }</style>
+
+
+<br />
+<div style="line-height: 100%; margin-bottom: 0cm;">
+It has been some
+time since my last post, and much has changed.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Our Country is now
+run by a Tory Government which is hell bent on further rapid
+implementation of  its prime dogma, Austerity.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+This Austerity is
+based on a lie (in fact a stack of them), and it is sadly undeniably
+true, that the majority of our Parliamentary leadership have bought
+into this lie.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Some with
+misgivings, some with as much enthusiasm as the Tories themselves.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+During my
+campaigning, I spoke to many voters, on the street and on doorsteps.
+Many of them were apathetic about voting at all, many were drawn to
+extremist Party&#8217;s. Young people were most adamant about one thing
+&#8220;your all the same&#8221;, I heard that so many times, as I know
+canvassers up and down the Country did. Not just from young first
+time voters, but pensioners as well.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Where did we go
+wrong? Simple if you ask me. We WERE too similar. People had had 5
+years of hurt, with the certainty of much more on the way. They did
+not want the prospect we offered of guess what?? More of the same,
+from a Party they used to look to as an alternative to the Tories.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Yes we offered some
+good policies, and I fully supported Ed Miliband and still like the
+guy. But as for policies that stood out and set us apart? nowhere
+near enough of them, nor radical enough.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Worse still I was
+ashamed to hear people in our own leadership announcing that as a
+Party &#8220;we did not seek to represent those on benefits&#8221;, that we
+&#8220;could not condone scrounging&#8221;, that there must be &#8220;change to
+the welfare system to make work pay&#8221;, that &#8220;hard working people&#8221;
+(I HATE that bloody phrase), were &#8220;fed up of spongers and
+scroungers&#8221;. This was not quotes from the Express or Mail, it was
+from supposed LABOUR Politicians. A Month or so later they were
+wringing their hands stabbing Ed in the back, and wondering why we
+lost, and of all things saying it was because we were &#8220;too far
+Left&#8221;. Farcical. They are only worried about their own careers.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Can I beg to suggest
+to them, they THEY were to blame? To blame because we were not
+different enough. We did not offer any sort of structured ALTERNATIVE
+to Austerity, just more Austerity with a slightly different bias,
+&#8220;Tory-Lite&#8221; if you will.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Why has this
+happened? Well there is an explanation of sorts in my opinion, here
+it is.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Over recent years,
+the Tories, partly dragged by their UKIP Cousins, have moved very
+firmly to the Right in just about every way. Today&#8217;s Tory Party is
+a far more &#8220;Conservative&#8221; than ever, propped up and directed by
+the wishes of big business and lobby groups.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+There is within the
+Labour Party, a faction which has always stated erroneously in my
+belief,  that we cant win Elections unless we appeal to &#8220;The Centre
+Ground&#8221;. Well, this is how that works, and why we are in this mess
+now.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Our opposition moves
+firmly to the Right, the &#8220;Centre Ground&#8221; by definition follows
+them. So, we as a Party, in order to fill this Centre Ground, adopt
+policies and strategies which are themselves ever further to the
+Right. This benefits no-one but the Tories and their supporters, who
+can never really loose, as our policies are very similar in essence
+to theirs. By signing up to Austerity we do their job for them, and
+constrain our own ambitions in an ideological straight-jacket of
+their making.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+How do we defeat and
+counter this and offer policies that make us stand out as a viable
+alternative because we are different? We must reject the Tory Made
+Austerity. It benefits no-one but the wealthy. To do this we need a
+radical leadership.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+We have a Candidate
+for leader who can do this. His name is Jeremy Corbyn, he is standing
+on an Anti-Austerity platform.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+He is a radical, he
+is starkly different. He is proud to be a Socialist, and he is a
+champion of the poor, the unemployed, those on benefits, those in
+jobs, the disabled , and of the Working Class in general. He is
+feared by the Tories and their supporters.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+He is also feared by
+those in our own Party. The &#8220;Oxbridge Elite&#8221; cannot relate to
+him, nor can they relate to Socialism in general. There is good
+reason for this.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+I have stated before
+that many of our current leadership think and act the same as the
+Tories for good reason. Most were educated in the same Universities,
+by the same lecturers alongside the Tory Elite. Is it any wonder they
+think the same way, but with slightly different priorities?</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+In the early days of
+our Party, our leaders came from the same World as our voters, many
+were Trade Union officials, men who had worked in factories alongside
+the Voters, men passionate about Socialism who dedicated their lives
+to fight for change. They were not university boys, they were not
+Economics, Law and Sociology graduates, yet they gave us the NHS and
+the employment rights, human rights and social structure, all things
+we take for granted, and that the Tories are so desperate to
+dismantle.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+We were different,
+we were radical and we offered true change, we won the trust of the
+voters and we innovated and educated and effected true change.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+We have stagnated
+more and more the further to the Right we have become. The more our
+leadership has become complacent to Austerity, even complicit in
+Austerity. Our leadership hopefuls have bought to far into the Tory
+dream, and cannot see the way forward. Many are either terrified to
+admit to being Socialists, or worse declare they are NOT Socialists.
+Many I am sure are not.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+To further Socialism
+is the prime reason The Labour Party exists, your membership card
+used to say this (Until Blair had it removed).</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Without this
+commitment to Socialism, this commitment to change, we are nothing.
+We are never going to inspire.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Disenchanted voters
+are voting for radical alternatives, The Greens, and worse for UKIP,
+a far Right racist Party. And YES you are racist, most of your
+supporters are, I spoke to enough of them whilst canvassing and heard
+enough &#8220;I'm not a racist but&#8221; statements to last a lifetime.
+Working man has been set against working man on the basis of
+ethnicity in the cruellest con trick ever.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Divide and Rule they
+call it. The Tories used it to build The Empire, now they are using
+it to control us here in Britain.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+We are as an
+effective Opposition Party, that can offer any sort of an alternative
+which will galvanise our core voters, staring into the doors of &#8220;The
+Last Chance Saloon&#8221;. 
+</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+We can go in one at
+a time, quietly and meekly, apologising for our once proud beliefs,
+and be gunned down by the Tory Big Boys.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+Or we can go in as
+one with the big guns of our once proud Socialist principles blasting
+Equality and Democracy for all, and an end to the unjust Austerity. 
+</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+We must win this
+fight, or we must fail with our boots on and our flags flying, not go
+meekly into an endless Tory future betrayed by our own.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+I am ready to kick
+the shutter doors open carrying the red flag of freedom, who will
+march into the last Chance Saloon with me???</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+I know Jeremy Corbyn
+will.</div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+<br /></div>
+<div style="line-height: 100%; margin-bottom: 0cm;">
+More to follow.</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/14839646923554741777' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/14839646923554741777' rel='author' title='author profile'>
+<span itemprop='name'>Bob Mcnair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://bobmcnair.blogspot.com/2015/06/our-party-stands-at-doors-of-last.html' itemprop='url'/>
+<a class='timestamp-link' href='http://bobmcnair.blogspot.co.uk/2015/06/our-party-stands-at-doors-of-last.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-06-21T03:33:00-07:00'>03:33</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://bobmcnair.blogspot.co.uk/2015/06/our-party-stands-at-doors-of-last.html#comment-form' onclick=''>
+1 comment:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1988847390'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7426146765397437632&postID=7413499252438976437&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=7413499252438976437&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=7413499252438976437&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=7413499252438976437&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=7413499252438976437&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=7413499252438976437&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://bobmcnair.blogspot.com/2015/06/our-party-stands-at-doors-of-last.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Sunday, 10 May 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='7426146765397437632' itemprop='blogId'/>
+<meta content='3441041008179342833' itemprop='postId'/>
+<a name='3441041008179342833'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://bobmcnair.blogspot.co.uk/2015/05/blair-again.html'>Blair Again</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-3441041008179342833' itemprop='description articleBody'>
+We are days away from one of our biggest defeats ever, and Blair is already saying that we lost as we were too far to the left and need to be "in the centre ground".<br />
+This does not fit with my view of things. The SNP and the Greens both adopted an Anti-Austerity stance, and grew their vote. The SNP destroyed us in Scotland and contributed largely to our collapse. Whilst the Greens don&#8217;t have huge numbers of MP's, they drew an increased vote and undoubtedly hurt us by stealing votes from youngsters we needed to vote for us in order to win.<br />
+Locally here in Christchurch they hurt us in the local elections, pushing us into third place behind UKIP in a ward we should have won.<br />
+<br />
+Now Blair is telling us we need to be more lilly livered than we already are.<br />
+He is wrong.<br />
+<br />
+For many we were simply not different enough to The Tories, not radical enough.<br />
+Our version of "Austerity-Lite" did not appeal. People have had enough of bearing the brunt whilst they saw Millionaires get tax cuts (assuming they paid <b>ANY</b> in the first place). Whilst they were hit with cuts, pain and a never ending assault by the Coalition. WE were just not seen to have offered a clear enough alternative, allthough we in reality, were very different.<br />
+<br />
+So Mr Blair, if you take control of this Party again, with your Neo-Liberal pink Tory claptrap, I will resign from it.<br />
+If you do so, I sincerely hope that the Unions pull all Labours funding and start a new party.<br />
+<br />
+One with decent Socialist principles, one that has something like the "Clause 4" that you removed from Labour. That party SHOULD be Labour, there are many like me who will resist any attempt by the Blairites to take control of our Party, with all our might and to the last breath.<br />
+<br />
+But rest assured, if you do, many like me will resign, and we will form a new Party. We don&#8217;t want to believe me, we all fully believe that it is Labours job to win this fight against the Tories. But if you turn our proud Socialist Party into some sort of pink Neo-Liberal apology for the Party we should be, we WILL go.<br />
+<br />
+I hope that this nightmare from our past disappears where he belongs, in the dustbin of history.<br />
+<br />
+Go Away Mr Blair! and take your Progress chums with you.<br />
+Go and join the Lib-Dems, they need some new lilly livered supporters.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/14839646923554741777' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/14839646923554741777' rel='author' title='author profile'>
+<span itemprop='name'>Bob Mcnair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://bobmcnair.blogspot.com/2015/05/blair-again.html' itemprop='url'/>
+<a class='timestamp-link' href='http://bobmcnair.blogspot.co.uk/2015/05/blair-again.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-05-10T01:57:00-07:00'>01:57</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://bobmcnair.blogspot.co.uk/2015/05/blair-again.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1988847390'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7426146765397437632&postID=3441041008179342833&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=3441041008179342833&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=3441041008179342833&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=3441041008179342833&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=3441041008179342833&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=3441041008179342833&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://bobmcnair.blogspot.com/2015/05/blair-again.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Saturday, 9 May 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='7426146765397437632' itemprop='blogId'/>
+<meta content='5085524638348879905' itemprop='postId'/>
+<a name='5085524638348879905'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://bobmcnair.blogspot.co.uk/2015/05/post-7th-of-may.html'>Post 7th of May</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5085524638348879905' itemprop='description articleBody'>
+We sit currently, nursing ourselves from one of the biggest and unexpected defeats ever.<br />
+Th Nation sits under the rule of one of the most Right Wing, cruel and oppressive Tory regimes in modern history. One that would be unimaginable in its severity even to Margaret Thatcher.<br />
+I have just posted these words on our facebook page, they are my own personal view.<br />
+<br />
+Here we go, the BBC are now saying (quoting Alan Johnson) that "its a 10 year job for Labour to rebuild".<br />We DONT HAVE 10 ******* YEARS. The poor, the disabled, the sick, the old, any one who is just a bit different cant wait that long.<br />The Country will be nearly destroyed after 5, after 10 don&#8217;t even bother getting out of bed to challenge it, just march straight to the nearest poor house if your not too bloody sick or old.<br />If we don&#8217;t get our act together now, and put up a valid and radical alternative, one that is SO different it cant be mistaken, we are wasting our time.<br />Now if ever, is the time to bring back "Clause 4" of our once proud constitution.<br /><br />Clause 4 (as was)<br />"To secure for the workers by hand or by brain the full fruits of their industry and the most equitable distribution thereof that may be possible upon the basis of the common ownership of the means of production, distribution and exchange, and the best obtainable system of popular administration and control of each industry of service." <br /><br />We ditched this in 1995, under the leadership of one Tony (Tory Bastard) Blair. A socialist he was not.<br /><br />Time to bring it back?<br />If we cant be radical, cant be different, and cant offer hope to the weak.<br />What the hell is the bloody point???<br /><br />If you are obviously radical, obviously different, it is damn difficult for your opposition to deceive people as to your intentions. Your true motives can be seen and understood. It is time for us to have true conviction once more. We cant go on being " Tory-Lite" any more. We are not "Neo-Liberals".<br />If we are not going to be proper decent Socialists, with a democratically elected through the ballot box revolutionary agenda. <br /><br />Why do we exist??????<br />
+<br />
+The statement I am making is this. The Labour Party was founded as a Revolutionary Socialist Party, who believed in change through the democratic process.<br />
+It was via this belief, that our greatest achievements, such as the NHS, and the Welfare State were founded. These beliefs also inspired our principles of equality and justice, our hatred of prejudice of all forms, and were why we campaigned and achieved decent Human Rights legislation.<br />
+<br />
+All of this is in disarray and at risk of loss in the next 5 Years.<br />
+I truly believe we need to re-visit Clause 4, and incorporate a modern re-written version into our constitution.<br />
+<br />
+The Daily Mail and Murdochs finest will squeal in horror. Good, that means we have it right.<br />
+The time for appeasement is over, the time for being moderate is long gone, our opponents are certainly not moderate, and nor can we be if we hope to offer an alternative.<br />
+No More Mr Nice Guy.<br />
+It is time we are plain and clear what we stand for and what we offer the voters.<br />
+If we dont, as I said.<br />
+Why do we exist??? Simply to offer jobs to politicians who don&#8217;t want to be Tories but are too scared to be real Socialists?<br />
+There is a party for people like that.<br />
+Its called The Liberals.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/14839646923554741777' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/14839646923554741777' rel='author' title='author profile'>
+<span itemprop='name'>Bob Mcnair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://bobmcnair.blogspot.com/2015/05/post-7th-of-may.html' itemprop='url'/>
+<a class='timestamp-link' href='http://bobmcnair.blogspot.co.uk/2015/05/post-7th-of-may.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-05-09T12:26:00-07:00'>12:26</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://bobmcnair.blogspot.co.uk/2015/05/post-7th-of-may.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1988847390'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7426146765397437632&postID=5085524638348879905&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=5085524638348879905&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=5085524638348879905&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=5085524638348879905&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=5085524638348879905&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7426146765397437632&postID=5085524638348879905&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://bobmcnair.blogspot.com/2015/05/post-7th-of-may.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://bobmcnair.blogspot.co.uk/search?updated-max=2015-05-09T12:26:00-07:00&amp;max-results=7' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+<a class='home-link' href='http://bobmcnair.blogspot.co.uk/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://bobmcnair.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en_GB'};</script>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget Profile' id='Profile1'>
+<h2>About Me</h2>
+<div class='widget-content'>
+<a href='https://www.blogger.com/profile/14839646923554741777'><img alt='My Photo' class='profile-img' height='80' src='//4.bp.blogspot.com/-I1g7QWX0_Pk/VYZ_PPELqZI/AAAAAAAACuw/Qbb3zhAMo74/s80/Corbyn.png' width='80'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://www.blogger.com/profile/14839646923554741777' rel='author' style='background-image: url(//www.blogger.com/img/logo-16.png);'>
+Bob Mcnair
+</a>
+</dt>
+<dd class='profile-textblock'>I am Endorsing and voting for Jeremy Corbyn as our new leader.
+I am a lifelong Socialist, and proud to have stood for The Labour Party in the 2015 Council elections in the Portfield Ward of Christchurch Borough Council.
+I am devastated by what has happened to our Country, that it is run by a bunch of self serving greedy liars. People who over the next 5 Years will do untold harm to future Generations. It is my mission to help prepare those generations to take up the fight against the Ignorance, Fear, Greed, and Hatred which have returned this Tory Parliament. I cannot win this fight for our Young People, But I will try and help them win that fight themselves.
+</dd>
+</dl>
+<a class='profile-link' href='https://www.blogger.com/profile/14839646923554741777' rel='author'>View my complete profile</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7426146765397437632&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='sidebar section' id='sidebar-right-2-1'><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/search?updated-min=2016-01-01T00:00:00-08:00&amp;updated-max=2017-01-01T00:00:00-08:00&amp;max-results=2'>
+2016
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2016_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://bobmcnair.blogspot.co.uk/2016/01/my-move-to-france.html'>My Move to France</a></li>
+<li><a href='http://bobmcnair.blogspot.co.uk/2016/01/p-margin-bottom-0.html'>The current &quot;Crisis&quot; and the troublemakers.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/search?updated-min=2015-01-01T00:00:00-08:00&amp;updated-max=2016-01-01T00:00:00-08:00&amp;max-results=9'>
+2015
+</a>
+<span class='post-count' dir='ltr'>(9)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2015_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2015_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2015_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2015_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2015_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2015_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/search?updated-min=2014-01-01T00:00:00-08:00&amp;updated-max=2015-01-01T00:00:00-08:00&amp;max-results=19'>
+2014
+</a>
+<span class='post-count' dir='ltr'>(19)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2014_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2014_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2014_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2014_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2014_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://bobmcnair.blogspot.co.uk/2014_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7426146765397437632&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</td>
+<td class='columns-cell'>
+<div class='sidebar section' id='sidebar-right-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class='sidebar section' id='sidebar-right-3'></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3' name='Footer'><div class='widget Attribution' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+Simple template. Powered by <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7426146765397437632&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script>
+
+<!-- 'It is your responsibility to notify your visitors about cookies used on your blog. See http://www.blogger.com/go/cookiechoices for more details.' -->
+<script src="/js/cookiechoices.js" defer></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    window.cookieChoices && cookieChoices.showCookieConsentBar && cookieChoices.showCookieConsentBar(
+        (window.cookieOptions && cookieOptions.msg) || 'This site uses cookies from Google to deliver its services, to personalize ads and to analyze traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.',
+        (window.cookieOptions && cookieOptions.close) || 'Got it',
+        (window.cookieOptions && cookieOptions.learn) || 'Learn More',
+        (window.cookieOptions && cookieOptions.link) || 'https://www.blogger.com/go/blogspot-cookies');
+  });
+</script>
+
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2244687694-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '7426146765397437632';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d7426146765397437632','//bobmcnair.blogspot.co.uk/','7426146765397437632');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '7426146765397437632', 'bloggerUrl': 'https://www.blogger.com', 'title': 'Bob Mcnair, Corbynista and Left Wing Blogger.', 'pageType': 'index', 'url': 'http://bobmcnair.blogspot.co.uk/', 'canonicalUrl': 'http://bobmcnair.blogspot.com/', 'homepageUrl': 'http://bobmcnair.blogspot.co.uk/', 'canonicalHomepageUrl': 'http://bobmcnair.blogspot.com/', 'blogspotFaviconUrl': 'http://bobmcnair.blogspot.co.uk/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'Bob Mcnair, Corbynista and Left Wing Blogger.', 'encoding': 'UTF-8', 'locale': 'en_GB', 'localeUnderscoreDelimited': 'en_gb', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Bob Mcnair, Corbynista and Left Wing Blogger. - Atom\42 href\75\42http://bobmcnair.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Bob Mcnair, Corbynista and Left Wing Blogger. - RSS\42 href\75\42http://bobmcnair.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Bob Mcnair, Corbynista and Left Wing Blogger. - Atom\42 href\75\42https://www.blogger.com/feeds/7426146765397437632/posts/default\42 /\76\n', 'meTag': '\74link rel\75\42me\42 href\75\42https://www.blogger.com/profile/14839646923554741777\42 /\76\n', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://bobmcnair.blogspot.com/\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42https://www.blogger.com/static/v1/jsbin/3978477444-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/581377545bf84644', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'messages', 'data': {'archive': 'Archive', 'blogArchive': 'Blog Archive', 'by': 'By', 'byAuthor': 'By %1', 'byAuthorLink': 'By \74a href\75\42%2\42\76%1\74/a\076', 'deleteBacklink': 'Delete Backlink', 'deleteComment': 'Delete Comment', 'edit': 'Edit', 'emailAddress': 'Email Address', 'getEmailNotifications': 'Get email notifications', 'keepReading': 'Keep reading', 'labels': 'Labels', 'loadMorePosts': 'Load more posts', 'loading': 'Loading...', 'myBlogList': 'My Blog List', 'myFavoriteSites': 'My favourite sites', 'newer': 'Newer', 'newerPosts': 'Newer Posts', 'newest': 'Newest', 'noResultsFound': 'No results found', 'noTitle': 'No title', 'numberOfComments': '{numComments,plural, \0750{No comments}\0751{1 comment}other{# comments}}', 'older': 'Older', 'olderPosts': 'Older Posts', 'oldest': 'Oldest', 'onlyTeamMembersCanComment': 'Note: only a member of this blog may post a comment.', 'popularPosts': 'Popular Posts', 'popularPostsFromThisBlog': 'Popular posts from this blog', 'postAComment': 'Post a Comment', 'postedBy': 'Posted by', 'postedByAuthor': 'Posted by %1', 'postedByAuthorLink': 'Posted by \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'Read more', 'reportAbuse': 'Report Abuse', 'search': 'Search', 'searchBlog': 'Search blog', 'share': 'Share', 'showAll': 'Show All', 'someOfMyFavoriteSites': 'Some of my favourite sites', 'subscribe': 'Subscribe', 'subscribeToThisBlog': 'Subscribe to this blog', 'theresNothingHere': 'There\47s nothing here.', 'viewAll': 'View all', 'visitProfile': 'Visit profile'}}, {'name': 'skin', 'data': {'vars': {'post_footer_background_color': '#f9f9f9', 'image_background_color_transparent': 'rgba(255, 255, 255, 0)', 'tabs_text_color': '#999999', 'widget_title_text_color_transparent': 'rgba(0, 0, 0, 0)', 'content_shadow_spread': '40px', 'mobile_background_size': 'auto', 'body_background_color_transparent': 'rgba(238, 51, 0, 0)', 'description_text_color_transparent': 'rgba(255, 255, 255, 0)', 'tabs_selected_text_color_transparent': 'rgba(0, 0, 0, 0)', 'header_shadow_spread': '3px', 'tabs_background_color_transparent': 'rgba(245, 245, 245, 0)', 'image_border_color': '#eeeeee', 'post_footer_text_color_transparent': 'rgba(102, 102, 102, 0)', 'widget_alternate_text_color_transparent': 'rgba(153, 153, 153, 0)', 'keycolor_transparent': 'rgba(204, 17, 25, 0)', 'tabs_border_color': '#eeeeee', 'tabs_bevel_border_width': '1px', 'description_text_color': '#ffffff', 'main_section_margin': '15px', 'post_title_font': 'normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'page_width': 'auto', 'header_background_gradient': 'url(//www.blogblog.com/1kt/simple/gradients_light.png)', 'post_margin_bottom': '25px', 'content_background_color': '#ffffff', 'link_visited_color': '#888888', 'header_text_color_transparent': 'rgba(255, 255, 255, 0)', 'tabs_margin_side': '30px', 'image_border_large_size': '5px', 'post_footer_background_color_transparent': 'rgba(249, 249, 249, 0)', 'main_border_width': '0', 'link_color': '#cc1118', 'paging_background_color': 'transparent', 'tabs_text_color_transparent': 'rgba(153, 153, 153, 0)', 'date_header_background_color_transparent': 'rgba(0, 0, 0, 0)', 'content_padding_horizontal': '10px', 'date_header_color_transparent': 'rgba(34, 34, 34, 0)', 'image_border_color_transparent': 'rgba(238, 238, 238, 0)', 'tabs_border_color_transparent': 'rgba(238, 238, 238, 0)', 'header_border_size': '0', 'date_header_margin': 'inherit', 'footer_bevel': '0', 'image_border_small_size': '2px', 'body_rule_color_transparent': 'rgba(238, 238, 238, 0)', 'content_shadow_spread_ie': '10px', 'mobile_background_overlay': 'transparent none repeat scroll top left', 'image_background_color': '#ffffff', 'header_bottom_border_size': '0', 'page_width_selector': '.region-inner', 'date_header_background_color': 'transparent', 'tabs_border_width': '1px', 'image_text_color_transparent': 'rgba(34, 34, 34, 0)', 'link_hover_color': '#ff1a00', 'header_background_color': '#cc1118', 'keycolor': '#cc1119', 'main_padding_bottom': '30px', 'post_footer_text_color': '#666666', 'tabs_margin_top': '0', 'link_color_transparent': 'rgba(204, 17, 24, 0)', 'header_background_color_transparent': 'rgba(204, 17, 24, 0)', 'date_header_letterspacing': 'inherit', 'body_background_override': '', 'description_text_size': '140%', 'post_footer_border_color_transparent': 'rgba(238, 238, 238, 0)', 'date_header_color': '#222222', 'header_shadow_offset_top': '2px', 'header_border_horizontalsize': '0', 'widget_title_font': 'normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'body_background_gradient_tile': 'none', 'paging_background': 'transparent none no-repeat scroll top center', 'body_text_color': '#222222', 'content_padding': '10px', 'body_text_color_transparent': 'rgba(34, 34, 34, 0)', 'header_shadow_offset_left': '1px', 'tabs_background_color': '#f5f5f5', 'body_background_gradient_cap': 'none', 'main_padding_top': '30px', 'widget_alternate_text_color': '#999999', 'image_text_color': '#222222', 'content_background_color_transparent': 'rgba(255, 255, 255, 0)', 'content_shadow_spread_webkit': '5px', 'mobile_button_color': '#ffffff', 'tabs_selected_text_color': '#000000', 'content_background_color_selector': '.content-inner', 'post_footer_border_color': '#eeeeee', 'link_hover_color_transparent': 'rgba(255, 26, 0, 0)', 'date_header_font': 'normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'tabs_background_gradient': 'url(//www.blogblog.com/1kt/simple/gradients_light.png)', 'header_font': 'normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'startSide': 'left', 'link_visited_color_transparent': 'rgba(136, 136, 136, 0)', 'tabs_font': 'normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'widget_title_text_color': '#000000', 'tabs_selected_background_color': '#eeeeee', 'endSide': 'right', 'date_header_padding': 'inherit', 'body_rule_color': '#eeeeee', 'body_background_color': '#ee3300', 'header_text_color': '#ffffff', 'main_padding': '15px', 'mobile_button_color_transparent': 'rgba(255, 255, 255, 0)', 'body_font': 'normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'header_padding': '30px', 'tabs_selected_background_color_transparent': 'rgba(238, 238, 238, 0)'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/2922961613-lbx__en_gb.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/306752634-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar-right-1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-2-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading...'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {'attribution': 'Simple template. Powered by \74a href\75\47https://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+</script>
+</body>
+</html>

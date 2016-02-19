@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>KAZUU.NET</title>
+<link href="common/css/kazuu.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body bgcolor="#CCCCCC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="705" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="1005" border="0" align="left" cellpadding="0" cellspacing="0" bgcolor="#E4E4E4">
+      <tr>
+        <td><img src="common/images/top_rogo.gif" width="150" height="30"></td>
+        <td bgcolor="#CCCCCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="780" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><table width="770" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="navi_font"><a href="http://www.kazuu.net/">main</a></td>
+                </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td valign="top" bgcolor="#CCCCCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="780" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+              <tr>
+                <td height="310"><table width="770" border="0" align="center" cellpadding="0" cellspacing="0" class="main_box">
+                  <tr>
+                    <td><img src="common/images/main_img_201501.jpg" width="770" height="300"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFFF" class="body_box"><p class="midashi_font"><strong>CONTENTS</strong></p>
+              <p class="midashi_font">&nbsp;</p>
+              <p class="midashi_font"><strong><a href="http://boo.kazuu.net/">Blog: GO! GO! BOO! </a></strong><br>
+                我が家のコーギー犬、ブーさんの日記です。</p>
+              <p class="midashi_font"><strong><a href="http://blog.kazuu.net/">Blog: STUDIO KAZUU</a></strong><br>
+                Web、CG、TOY、DTMなどの作品や情報を紹介。まあ、雑記＆備忘録です。</p>
+              <p>&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+        <td valign="top" bgcolor="#CCCCCC"><table width="210" border="0" align="right" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><table width="210" border="0" align="left" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                <tr>
+                  <td height="25" align="center"><a href="http://boo.kazuu.net/" target="_blank"><img src="common/images/boo_bar.gif" alt="GO! GO! BOO!" width="200" height="15" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td><script language="JavaScript" src="http://kazuu.net/feed2js/feed2js.php?src=http%3A%2F%2Fboo.kazuu.net%2F%3Ffeed%3Drss2&num=3&desc=50&utf=y" charset="UTF-8" type="text/javascript"></script>
+
+<noscript>
+<a href="http://kazuu.net/feed2js/feed2js.php?src=http%3A%2F%2Fboo.kazuu.net%2F%3Ffeed%3Drss2&num=3&desc=50&utf=y&html=y">View RSS feed</a>
+</noscript></td>
+                </tr>
+                <tr>
+                  <td height="25"><div align="right"><a href="http://boo.kazuu.net/?feed=rss2" target="_blank"><img src="common/images/rss2.gif" width="80" height="15" border="0"></a>&nbsp;</div></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><table width="210" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                <tr>
+                  <td height="25" align="center"><a href="http://blog.kazuu.net/" target="_blank"><img src="common/images/studio_bar.gif" alt="STUDIO KAZUU" width="200" height="15" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td><script language="JavaScript" src="http://kazuu.net/feed2js/feed2js.php?src=http%3A%2F%2Fblog.kazuu.net%2F%3Ffeed%3Drss2&num=3&desc=50&utf=y"  charset="UTF-8" type="text/javascript"></script>
+
+<noscript>
+<a href="http://kazuu.net/feed2js/feed2js.php?src=http%3A%2F%2Fblog.kazuu.net%2F%3Ffeed%3Drss2&num=3&desc=50&utf=y&html=y">View RSS feed</a>
+</noscript>
+</td>
+                </tr>
+                <tr>
+                  <td height="25"><div align="right"><a href="http://blog.kazuu.net/?feed=rss2" target="_blank"><img src="common/images/rss2.gif" width="80" height="15" border="0"></a>&nbsp;</div></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="20" valign="bottom"><div align="right" class="copyright">Copyright &copy; 2006-2015 kazuu.net All Rights Reserved.</div></td>
+  </tr>
+</table>
+</body>
+</html>

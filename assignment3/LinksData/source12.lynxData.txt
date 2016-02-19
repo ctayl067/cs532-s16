@@ -1,0 +1,376 @@
+   #[1]G.E.K. » Feed [2]G.E.K. » Comments Feed
+
+Menu
+
+   [3]Skip to content
+     * [4]Home
+     * [5]3D printing
+     * [6]NSX
+     * [7]Mikrotik
+     * [8]Misc
+
+[9]Upgrading NSX from the Command line
+
+   [10]Leave a reply
+
+   Every once in a while a new version of NSX comes out which you need to
+   upgrade to. Last week NSX 6.1.3 was GAed and being the good techie I am
+   I needed(wanted) to upgrade to it. Now I travel a lot and use remove
+   VPN to access my lab at home and that’s where the problem started.
+
+   The upgrade process for NSX is pretty easy as long as you follow
+   procedure and have local access. The process involves in opening a WEB
+   connection to the NSX manager and then clicking on the upgrade button,
+   which then pop-ups a file browser… Uploading a 2.5 GB file using a VPN
+   connection from a hotel is something I attempted once and generally I
+   decided never to do this again. So I needed another solution, API
+   access!!!!
+
+Step 1 – Get the NSX upgrade bundle
+
+   The first thing you need to do is get the NSX upgrade bundle. The
+   problem with this is that you need to use a browser and the damn file
+   is then local which you then have to upload bla bla bla…  The solution
+   that I have found is by using my local browser to login to
+   my.vmware.com, select the file I need and start the download. Then I
+   copy the Download URL, login to my homelab and wget the file making
+   sure I use the -O option to save the file.
+wget "https://download2.vmware.com/software/NSX-V-610/VMware-NSX-Manager-upgrade
+-bundle-6.1.3-2591148.tar.gz?&lt;REMOVED&gt;" -O "VMware-NSX-Manager-upgrade-bun
+dle-6.1.3-2591148.tar.gz"
+
+   This will save the upgrade bundle locally.
+
+Step 2 – Upload the NSX upgrade bundle
+
+   The next step is to upload the NSX bundle to the NSX manager and for
+   that we use CURL. Here is the code:
+curl -i -v -k -u admin:<PASSWORD> -H 'Accept:application/xml' -F file=@VMware-NS
+X-Manager-upgrade-bundle-6.1.3-2591148.tar.gz -X POST https://<IP>/api/1.0/appli
+ance-management/upgrade/uploadbundle/NSX -o upload.out
+
+   This will allow you to upload the bundle from you local site.
+
+Step 3 – Check that the NSX bundle is uploaded
+
+   Next is to make sure that the bundle has been uploaded correctly:
+curl -k -u admin:<PASSWORD> -H "Accept:application/xml" -X GET https://<IP>/api/
+1.0/appliance-management/upgrade/information/NSX
+
+   This should output the following:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<upgradeInformation>
+    <fromVersion>6.1.1</fromVersion>
+    <toVersion>6.1.3</toVersion>
+    <upgradeBundleDescription>Upgrade to 6.1.3</upgradeBundleDescription>
+    <preUpgradeQuestionsAnswers>
+        <preUpgradeQuestionAnswer>
+            <questionId>preUpgradeChecks1:Q1</questionId>
+            <question>Do you want to enable SSH ?</question>
+            <questionAnserType>YESNO</questionAnserType>
+        </preUpgradeQuestionAnswer>
+    </preUpgradeQuestionsAnswers>
+    <upgradeStepsDto>
+        <step>
+            <stepId>ValidationStep</stepId>
+            <stepLabel>Upgrade Bundle Validation</stepLabel>
+            <description>Upgrade bundle will be validated before the actual upgr
+ade process.</description>
+        </step>
+        <step>
+            <stepId>UpgradeStep</stepId>
+            <stepLabel>Upgrade NSX manager</stepLabel>
+            <description>Upgrade process for NSX Manager will begin.</descriptio
+n>
+        </step>
+    </upgradeStepsDto>
+    <warningMessages>Please take a snapshot of the VM before proceeding with the
+ upgrade.</warningMessages>
+</upgradeInformation>
+
+Step 4 – Make a backup and snapshot
+
+   Before you upgrade make a backup!!!! how to do this LMGTFY :)
+   This entry was posted in [11]NSX on [12]March 26, 2015 by [13]geordy.
+
+[14]Marlin firmware send okokokokokok
+
+   [15]Leave a reply
+
+   Living on the edge sometimes is not where you want to be when building
+   a 3D printer.
+
+   After upgrading to the latest Master of marlin, every command I would
+   send to marlin would result in an OK message that would repeat itself a
+   gazillion times.
+Connecting...
+start
+Printer is now online.
+echo: External Reset
+Marlin1.0.0
+echo: Last Updated: Jan  8 2015 15:35:52 | Author: build 004
+Compiled: Jan  8 2015
+echo: Free Memory: 5184  PlannerBufferBytes: 1232
+echo:Hardcoded Default Settings Loaded
+echo:Steps per unit:
+echo:  M92 X80.00 Y80.00 Z80.00 E836.00
+echo:Maximum feedrates (mm/s):
+echo:  M203 X500.00 Y500.00 Z500.00 E25.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X9000 Y9000 Z9000 E10000
+echo:Acceleration: S=acceleration, T=retract acceleration
+echo:  M204 S3000.00 T3000.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=
+minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),
+E=maximum E jerk (mm/s)
+echo:  M205 S0.00 T0.00 B20000 X20.00 Z20.00 E5.00
+echo:Home offset (mm):
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:Endstop adjustement (mm):
+echo:  M666 X0.00 Y0.00 Z0.00
+echo:Delta settings: L=delta_diagonal_rod, R=delta_radius, S=delta_segments_per_
+second
+echo:  M665 L284.00 R126.00 S200.00
+echo:PID settings:
+echo:   M301 P22.20 I1.08 D114.00
+&gt;&gt;&gt;m119
+SENDING:M119
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok
+okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokReporting endsto
+p status
+
+   It seems that a patch was the culprit:
+
+   https://github.com/MarlinFirmware/Marlin/issues/1318
+
+   Enjoy!
+   This entry was posted in [16]3D printing and tagged [17]branch,
+   [18]marlin, [19]master, [20]minitronics, [21]ok on [22]January 9, 2015
+   by [23]geordy.
+
+[24]Rostock delta printer, Minitronics and MAX ENDSTOP
+
+   [25]Leave a reply
+
+   Welcome!!! You have arrived here most probably because you are in the
+   process of building a Roctock Delta or something that looks like it and
+   might be having the following issues:
+    1. When you type M119 (to check your endstops) it shows NOTHING
+    2. You’re an idiot like me and pressed the Home Button on your 3d HOST
+       and your delta decided to go thru the roof.
+
+   After a whole bunch of looking at code and debugging I figured out that
+   the pins.h file that is included in the Marlin code basically has the
+   MAX ENDSTOPS disabled.  To fix this edit the pins.h file and jump to
+   the section of the MINITRONICS (around line 2712) and update the
+   following:
+
+   Change
+   #define X_MIN_PIN -1
+   #define X_MAX_PIN 5 //2 //Max endstops default to disabled “-1″, set to
+   commented value to enable.
+   to
+   #define X_MIN_PIN 5
+   #define X_MAX_PIN -1 //2 //Max endstops default to disabled “-1″, set
+   to commented value to enable.
+
+   Change
+   #define Y_MIN_PIN -1
+   #define Y_MAX_PIN 2 //15
+   to
+   #define Y_MIN_PIN 2
+   #define Y_MAX_PIN -1 //15
+
+   Change
+   #define Z_MIN_PIN -1
+   #define Z_MAX_PIN 6
+   to
+   #define Z_MIN_PIN 6
+   #define Z_MAX_PIN -1
+
+   What this does is basically switch off the MIN ENDSTOP, which is not
+   used on a delta and assigns the pins on the MINITRONICS to the MAX
+   ENDSTOP.
+
+   Happy building!
+   This entry was posted in [26]3D printing and tagged [27]delta,
+   [28]endstop, [29]M119, [30]marlin, [31]MAX_ENDSTOP, [32]minitronics,
+   [33]rostock on [34]January 9, 2015 by [35]geordy.
+
+[36]Updating QU-BD hotend with 12V 40W heater cartridge
+
+   [37]Leave a reply
+
+   Way back, a long long time ago, I bought a QU-BD extruder thinking 40
+   bucks would be worth it. Well after about 3 weeks of printing the damn
+   thing kept failing. Upgrade the drive gear, printed some thingiverse
+   stuff and all was fine again, until this week when the resistor would
+   not take me to 180C which I needed for PLA.
+
+   So I decided to replace the Resistor with a 40W 12V ceramic cartridge
+   that I purchased from [38]MiniInTheBox.com. So after drilling out the
+   resistor and expanding the hole to accommodate the new cartridge it was
+   time to fire it up.
+
+   So first off let me warn you that when you turn this thing on for the
+   first it, it will SMOKE and smell like crap. But this did not deter me.
+   After the smoke died down it was time to get it to 180C and low and
+   behold it jumped to 180C then past it to 195C, then back down to 165C,
+   then back up to 195C…  It was giving me a sinus.  Right so next was PID
+   autotune:
+M303 S180
+
+   The value that was given back was uploaded in the firmware, and time to
+   test it again…  Hmmm not good still a very very big Sinus and no
+   stability what so ever.  So I jumped online and found a site that
+   pointed to me to the correct start settings:
+#define  DEFAULT_Kp 45.0
+#define  DEFAULT_Ki 4.2
+#define  DEFAULT_Kd 120
+
+   Again upload and testing, now the sinus was still there but it was
+   smaller. Then I realized something very important.  I had drilled out
+   the Brass block and therefore removed a lot of the material normally
+   needed for heat, and with that had failed to re-insulate the head!  I
+   wiped out a roll of Kanton tape and insulated the head with a lot of
+   tape. Results…  It now kept a nice 180C with a drift of 1C top and
+   bottom.
+   Next is M303 again to see if I can get it even more stable…
+   MOTTO OF THE STORY: Even-though most people on the Internet say that
+   you should not have to insulate your head, not doing so is really not
+   going to get your head temp stable.
+   This entry was posted in [39]3D printing on [40]December 30, 2014 by
+   [41]geordy.
+
+Post navigation
+
+   [42]← Older posts
+
+Sponsors
+
+   Search for: ____________________ Search
+   Designed by Alappin 2013 & Some icons from http://icons8.com/
+
+   These blogs are my OWN opinion and do my employers.
+
+References
+
+   Visible links
+   1. http://www.geordy.nl/feed/
+   2. http://www.geordy.nl/comments/feed/
+   3. file:///home/ctay/cs432/Asst3/source12.txt#content
+   4. http://www.geordy.nl/
+   5. http://www.geordy.nl/3d-printing/
+   6. http://www.geordy.nl/nsx-2/
+   7. http://www.geordy.nl/mikrotik-2/
+   8. http://www.geordy.nl/misc/
+   9. http://www.geordy.nl/upgrading-nsx-from-the-command-line/
+  10. http://www.geordy.nl/upgrading-nsx-from-the-command-line/#respond
+  11. http://www.geordy.nl/category/nsx/
+  12. http://www.geordy.nl/upgrading-nsx-from-the-command-line/
+  13. http://www.geordy.nl/author/geordy/
+  14. http://www.geordy.nl/marlin-firmware-send-okokokokokok/
+  15. http://www.geordy.nl/marlin-firmware-send-okokokokokok/#respond
+  16. http://www.geordy.nl/category/3d-printing/
+  17. http://www.geordy.nl/tag/branch/
+  18. http://www.geordy.nl/tag/marlin/
+  19. http://www.geordy.nl/tag/master/
+  20. http://www.geordy.nl/tag/minitronics/
+  21. http://www.geordy.nl/tag/ok/
+  22. http://www.geordy.nl/marlin-firmware-send-okokokokokok/
+  23. http://www.geordy.nl/author/geordy/
+  24. http://www.geordy.nl/rostock-delta-printer-minitronics-and-max-endstop/
+  25. http://www.geordy.nl/rostock-delta-printer-minitronics-and-max-endstop/#respond
+  26. http://www.geordy.nl/category/3d-printing/
+  27. http://www.geordy.nl/tag/delta/
+  28. http://www.geordy.nl/tag/endstop/
+  29. http://www.geordy.nl/tag/m119/
+  30. http://www.geordy.nl/tag/marlin/
+  31. http://www.geordy.nl/tag/max_endstop/
+  32. http://www.geordy.nl/tag/minitronics/
+  33. http://www.geordy.nl/tag/rostock/
+  34. http://www.geordy.nl/rostock-delta-printer-minitronics-and-max-endstop/
+  35. http://www.geordy.nl/author/geordy/
+  36. http://www.geordy.nl/updating-qu-bd-hotend-with-12v-40w-heater-cartridge/
+  37. http://www.geordy.nl/updating-qu-bd-hotend-with-12v-40w-heater-cartridge/#respond
+  38. http://www.miniinthebox.com/12v-40w-ceramic-cartridge-heater-for-reprap-3d-printer_p824487.html
+  39. http://www.geordy.nl/category/3d-printing/
+  40. http://www.geordy.nl/updating-qu-bd-hotend-with-12v-40w-heater-cartridge/
+  41. http://www.geordy.nl/author/geordy/
+  42. http://www.geordy.nl/page/2/
+
+   Hidden links:
+  44. http://www.geordy.nl/

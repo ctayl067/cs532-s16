@@ -1,0 +1,592 @@
+<!doctype html> 
+<html 
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://ogp.me/ns/fb#"
+      lang="es">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1;IE=8" >
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<title>Ladridos Vagabundos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!--[if lt IE 9]>
+<script src="html5/dist/html5shiv.js"></script>
+<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta name="generator" content="Bambú-cms">
+<base href="http://chuchos-gr.org/">
+<link rel="canonical" href="http://chuchos-gr.org/">
+ 
+<link href="http://chuchos-gr.org/_mibambu/_ladridosvagabundos/estilos_base.css?123" rel="stylesheet" type="text/css">
+<link href="http://chuchos-gr.org/_mibambu/_ladridosvagabundos/estilos_ladridosvagabundos.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="(max-width: 768px)" href="http://chuchos-gr.org/estilos-mobile.css">
+<link href="http://chuchos-gr.org/_mibambu/_ladridosvagabundos/estilos-mobile-ladridosvagabundos.css" media="(max-width: 768px)" rel="stylesheet">
+<link rel="stylesheet" href="http://chuchos-gr.org//includes/script/sidr-package/stylesheets/jquery.sidr.light.css">
+
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="alternate" type="application/rss+xml" href="rss.php" title="Contenidos generales">
+<meta name="Keywords" content="refugio, refugio de animales, asociacion de animales, animales abandonados, perro, gato, adopción, adoptar gato, adoptar perro, ladridos vagabundos, apadrinar, adoptar en españa, adoptar en andalucia, adoptar en granada">
+<meta name="description" content="Ladridos Vagabundos es una pequeña asociación en Granada (España) que intenta dar una vida mejor a los animales que han sufrido abandono o maltrato sobre todo en esta parte de Andalucía. Los voluntarios y socios buscamos nuevas familias para todos ellos haciendo lo que podemos con nuestros escasos medios. Por eso necesitamos más ayuda (tu ayuda) para seguir realizando nuestra labor y salvar al mayor número de animales. ">
+<meta property="og:title" content="Ladridos Vagabundos"/>
+<meta property="og:type" content="non_profit"/>
+<meta property="og:url" content="http://chuchos-gr.org/"/>
+<meta property="og:image" content="http://chuchos-gr.org/_mibambu/_ladridosvagabundos/imas/logo-lv.jpg"/>
+<meta property="og:site_name" content="Asociación Ladridos Vagabundos"/>
+<meta property="fb:admins" content="100000747712259"/>
+<meta property="og:locale" content="es_ES" />
+<meta property="fb:app_id" content="157443040933811"/> 
+	
+<meta property="og:description"
+      content="Ladridos Vagabundos es una pequeña asociación en Granada (España) que intenta dar una vida mejor a los animales que han sufrido abandono o maltrato sobre todo en esta parte de Andalucía. Los voluntarios y socios buscamos nuevas familias para todos ellos haciendo lo que podemos con nuestros escasos medios. Por eso necesitamos más ayuda (tu ayuda) para seguir realizando nuestra labor y salvar al mayor número de animales. "/>
+</head>
+
+<body id="secindex">
+ <script type="text/javascript">
+
+function activarCodigoJs(){
+		var html = document.documentElement;
+		var first = html.getElementsByTagName('script')[0]; //sí
+		first.setAttribute('src','cookies/codigo-post-cookies.php'); //sí
+			
+			if(document.getElementById('js_top')) document.getElementById('js_top').setAttribute('src','http://chuchos-gr.org/cookies/codigo-post-cookies.php')
+			
+			if(document.getElementById('fb_like')) document.getElementById('fb_like').setAttribute('src','http://connect.facebook.net/es_ES/all.js#xfbml=1')
+			
+			if(document.getElementById('js_analytics')) document.getElementById('js_analytics').setAttribute('src','http://chuchos-gr.org/_mibambu//_ladridosvagabundos/inc_analytics-cks.php')
+			
+			if(document.getElementById('js_pinterest')) document.getElementById('js_pinterest').setAttribute('src','//assets.pinterest.com/js/pinit.js')
+			
+			if(document.getElementById('js_tuenti')) document.getElementById('js_tuenti').setAttribute('src','http://widgets.tuenti.com/widgets.js')
+				//document.getElementById('pantalla_cookies').setAttribute('class','pantalla-on');
+		
+	for(m=0; m< document.documentElement.childNodes.length; m++){
+	}
+}
+function obtenerCookie(c){
+	var existe = false
+	var galleta = document.cookie
+	var galletas = galleta.split(";")
+	for(var m=0; m<galletas.length;m++){
+		var gal=galletas[m].split("=")
+		var nom=gal[0]
+		var valor = gal[1]
+		var esp = ' ';
+		var re = new RegExp(esp, 'g');
+		nom = nom.replace(re, '');
+		if(nom === c){ 
+			existe = valor
+		}
+	}
+		return existe; 
+}
+var acepta_cookies = obtenerCookie('bambu_ladridosvagabundos_acepta_cookies')
+var cookies_aceptadas = false;
+function aceptarCookies(){ 
+	var date = new Date();
+	date.setTime(date.getTime()+(24*30*24*60*60*1000));
+	var expira = "; expires="+date.toGMTString();
+	document.cookie= 'bambu_ladridosvagabundos_acepta_cookies=acepto' + expira +'; path=/';
+	activarCodigoJs();
+	cookies_aceptadas = true;
+	liberarEnlaces();
+	return false
+}
+var pos_top_inicio = 0
+window.onload = function(){pos_top_inicio = window.pageYOffset+1; }
+window.onscroll = function(){
+					pos_top_actual = window.pageYOffset;
+					if(!cookies_aceptadas && pos_top_inicio && (pos_top_actual > (pos_top_inicio + 400) || pos_top_actual < (pos_top_inicio - 400))){
+						aceptarCookies();
+					} 
+				}
+
+function prepararEnlaces(){
+	var num_enlaces = document.getElementsByTagName('a').length
+	for(var m=0; m<num_enlaces;m++){
+		if(document.getElementsByTagName('a')[m].id == 'acepta_cookies') continue;
+		if(document.getElementsByTagName('a')[m].id == 'cookies_leer_mas') continue;
+		document.getElementsByTagName('a')[m].onclick = function(){
+			aceptarCookies();
+			liberarEnlace(this)
+			return false;
+			
+		}
+	}
+}
+function liberarEnlace(el){
+	el.onclick=function(){return true}
+}
+function liberarEnlaces(){
+	var num_enlaces = document.getElementsByTagName('a').length
+	for(var m=0; m<num_enlaces;m++){
+		if(document.getElementsByTagName('a')[m].id == 'acepta_cookies') continue;
+		if(document.getElementsByTagName('a')[m].id == 'cookies_leer_mas') continue;
+		liberarEnlace(document.getElementsByTagName('a')[m])
+	}
+}
+</script>
+<script>
+function ocultarAvisoCookies(){
+	document.getElementById('pantalla_cookies').setAttribute('class','pantalla-on');
+	$mostrar_aviso_cookies = false;
+	var date = new Date();
+	date.setTime(date.getTime()+(24*30*24*60*60*1000));
+	var expira = "; expires="+date.toGMTString();
+	document.cookie= 'bambu_ladridosvagabundos_mostrar_aviso_cookies=no' + expira+'; path=/';
+}
+</script>
+<link href="cookies/estilos_cookies.css" rel="stylesheet" type="text/css" />
+<div id="pantalla_cookies">
+	<div id="pantalla_cookies-in">
+Le informamos que este sitio web instala cookies propias y de terceros al navegar por sus p&aacute;ginas con el fin de facilitar su navegaci&oacute;n y obtener datos estad&iacute;sticos. Si contin&uacute;a navegando consideramos que acepta su uso e instalaci&oacute;n.    <a href="" id="acepta_cookies" onclick=" aceptarCookies(); ocultarAvisoCookies(); return false;">Acepto</a>	<a href="politica-cookies" target="_blank" id="cookies_leer_mas">m&aacute;s informaci&oacute;n</a></div>
+</div>
+<script id="js_top"></script>
+<script id="js_analytics"></script>
+
+
+<div id="fb-root"></div>
+
+
+<div id="general" data-role="page">
+ <div id="encabezado" data-role="header">
+ <div id="mobile-header">
+    <a id="responsive-menu-button" href="#sidr-main"><span>Menu</span></a> <a id="responsive-menu-button2" href="#nav-barra"><span>Menu barra</span></a>
+   </div> 
+  <div id="nav-barra">
+
+<div id="encabezado_top">
+ <div>
+    <a id="usuario" href="usuarios/" class="usuario"> Acceso a usuarios</a> - 
+
+   
+  <a href="http://chuchos-gr.org/contacto.php" id="contacto2">Contactar</a>  
+
+ 
+
+ </div>
+
+</div>
+    <div id="encabezado_in"> 
+<a href="/" title="Inicio/Home" id="ir_a_inicio"><span>Inicio/home</span></a>
+  <div id="contacto"> 
+    
+</div>
+    </div>
+    <!--cierra encabezado in-->
+    <ul id="social_media">
+ <li id="ico-instagram"><a title="Instagram" href="https://instagram.com/ladridos_vagabundos/" target="_blank"><span>Instagram</span></a></li>
+ <li id="ico-yt"><a title="Youtube" href="https://www.youtube.com/channel/UC0EaOVFRR3ZjBcDGzekc0-A" target="_blank"><span>Youtube</span></a></li>
+ <li id="ico-fb"><a title="Facebook" href="https://www.facebook.com/pages/Asociación-Ladridos-Vagabundos/129479717095001" target="_blank"><span>Facebook</span></a></li>
+ <li id="ico-twitter"><a title="Twitter" href="https://twitter.com/ChuchosGranada" target="_blank"><span>Twitter</span></a></li>
+
+</ul>
+    </div><!-- cierra nav barra -->
+
+</div>
+<!--cierra encabezado-->
+<div id="cuerpo"  data-role="content">
+  <div id="cuerpo_in">
+
+
+	
+  <div role="main" id="principal"> 
+    <div id="principal_contenidos"> 
+      
+      <h1>Página principal</h1>
+		<p>&nbsp;<cite>Para ver todas las noticias, pinchar en &quot;Publicaciones&quot; de la columna de la derecha.</cite></p><div class="editorial_destacado bloq1">
+	<div class="destacado">
+	<h2><a href="http://chuchos-gr.org/noticia/284-barril-solidario-en-pub-vinilo/">Barril Solidario en Pub Vinilo</a></h2>
+
+<p class="fecha_nota">Fecha del evento: 25-02-16</p>
+
+<p>El pr&oacute;ximo<strong> jueves 25 de febrero </strong>a partir&nbsp;de las 20h os esperamos en el Pub Vinilo con un&nbsp;<strong>barril solidario&nbsp;</strong>organizado por nuestra Asociaci&oacute;n. Los beneficios ir&aacute;n destinados a nuestros perros y gatos rescatados.</p>
+
+<p>Colocaremos una hucha para recaudar fondos para pagar gastos veterinarios.&nbsp;Tendremos tambi&eacute;n muchas cositas para vender, camisetas, chapas, calendarios, tazas y mucho m&aacute;s!&nbsp;</p>
+
+<p>Tendremos ricas&nbsp;<strong>tapas</strong>&nbsp;vegetarianas y veganas. &nbsp;La cerveza o tinto + tapa solo cuesta 2&euro;.</p>
+
+<p>No os lo pod&eacute;is perder!!</p>
+		<p class="leer_completo"><a href="http://chuchos-gr.org/noticia/284-barril-solidario-en-pub-vinilo/"> Leer completo</a></p>
+	<hr class="limpia" />
+</div><!--cierra destacado-->
+	<div class="destacado">
+	<h2><a href="http://chuchos-gr.org/noticia/286-cachorritos-necesitan-acogidas-en-granada/">Cachorritos de un mes necesitan acogidas en Granada</a></h2>
+    <span class="fecha_nota">12-02-16</span>
+
+<p><img alt="" src="http://chuchos-gr.org//userfiles/image/dayracachorros.jpg" style="float:right; height:272px; width:360px" /><strong>URGENTE CASAS DE ACOGIDAS PARA LOS PEQUES DE DAYRA!!!</strong></p>
+
+<p>Los cachorros de Dayra ya est&aacute;n dejando de mamar y necesitamos casa para ellos. &iexcl;Son 8! Y la acogida ya no puede&nbsp;tenerlos m&aacute;s, y la madre no puede con tanto cachorro.<br />
+Lo ideal ser&iacute;a que se acojan de dos en dos, as&iacute; se dan calor y pueden jugar entre ellos, estar entretenidos y socializar. Por favor si eres de Granada y puedes acoger lo agradecer&iacute;amos much&iacute;simo... Tambi&eacute;n buscan&nbsp;adopciones.</p>
+
+<p><strong>Contacto acogidas</strong>: entradasladridosvagabundos@gmail.com</p>
+
+<p><strong>Contacto adopciones</strong>:adoptaladridosvagabundos@gmail.com&nbsp;/whatsapp adopciones 676 921 396</p>
+		<p class="leer_completo"><a href="http://chuchos-gr.org/noticia/286-cachorritos-necesitan-acogidas-en-granada/"> Leer completo</a></p>
+	<hr class="limpia" />
+</div><!--cierra destacado-->
+	<div class="destacado">
+	<h2><a href="http://chuchos-gr.org/noticia/287-visitas-guiadas-por-el-albaicin-junto-a-tu-perro/">Visitas guiadas por el Albaicín junto a tu perro</a></h2>
+    <span class="fecha_nota">08-02-16</span>
+
+<p><img alt="" src="http://chuchos-gr.org//userfiles/image/visitas.jpg" style="height:225px; width:300px" />&iquest;Viajas a Granada? &iquest;Quieres conocer la historia del&nbsp;Albaic&iacute;n, sus calles, sus secretos? Y sobre todo, &iquest;quieres llevar contigo a tu perro para disfrutarlo juntos?</p>
+
+<p>&nbsp;Reserva tu plaza con las visitas guiadas de Balea Travel, adem&aacute;s con tu&nbsp;visita estar&aacute;s donando a una de las&nbsp;asociaciones&nbsp;de perros que participamos en la campa&ntilde;a. Contacto:&nbsp;<strong>reservas@baleatravelevents.com /&nbsp;</strong><a href="tel:%2B%2034%20958%2007%2015%2034" style="color: rgb(17, 85, 204); font-family: 'Bookman Old Style', serif; font-size: 12px; line-height: normal;" target="_blank">958 07 15 34</a></p>
+		<p class="leer_completo"><a href="http://chuchos-gr.org/noticia/287-visitas-guiadas-por-el-albaicin-junto-a-tu-perro/"> Leer completo</a></p>
+	<hr class="limpia" />
+</div><!--cierra destacado-->
+	<div class="destacado">
+	<h2><a href="http://chuchos-gr.org/noticia/285-pack-solidario-consigue-el-tuyo/">Pack solidario ¡Consigue el tuyo!</a></h2>
+
+			<span class="destacado_contenedor_imagen"><a class="link_thumb_destacado" href="http://chuchos-gr.org/noticia/285-pack-solidario-consigue-el-tuyo/"><img class="thumb_destacado" src="imas/contenidos/ima_285.jpg" alt="" /></a></span>
+<p class="fecha_nota">Fecha del evento: 21-01-16</p>
+
+<p>Desde la campa&ntilde;a de venta online de camisetas solidarias de http://pongobongo.es/ han lanzado un <strong>Pack Solidario llamado &quot;I Love My Dog&quot;</strong>. El coste de cada pack es de <strong>15&euro;</strong> (gastos de env&iacute;o no incluidos)<strong> de los que 5&euro; se donan</strong> a aquellas protectoras que colaboren en la campa&ntilde;a solidaria. &iexcl;&iexcl;&iexcl;Y nuestra asociaci&oacute;n est&aacute; incluida!!!</p>
+
+<p>Cada pack solidario incluye:</p>
+
+<p>- 1 camiseta &quot;I Love My Dog&quot;</p>
+
+<p>- 1 camiseta solidaria de dise&ntilde;o exclusivo</p>
+
+<p>- 1 chapa &quot;MuyBienMuchachitos&quot;</p>
+
+<p>Todas las personas que est&eacute;n interesadas en hacer el el pedido del pack solidario deben de entrar en el siguiente enlace: http://pongobongo.es/producto/medalla-solidaria-muy-bien-muchachitos-i-love-my-dog</p>
+		<p class="leer_completo"><a href="http://chuchos-gr.org/noticia/285-pack-solidario-consigue-el-tuyo/"> Leer completo</a></p>
+	<hr class="limpia" />
+</div><!--cierra destacado-->
+	<div class="destacado">
+	<h2><a href="http://chuchos-gr.org/noticia/280-nico-se-ha-perdido-en-madrid/">NICO SE HA PERDIDO EN MADRID!</a></h2>
+    <span class="fecha_nota">22-12-15</span>
+
+<p>urgente!!! Nuestro Nico se ha escapado en un paseo con su casa de acogida en Madrid, zona de Sanchinarro!!! Por favor si alguien lo ve que lo coja o nos avise.&nbsp;Es un&nbsp;perro muy miedoso. &nbsp;Tiene microchip. Por favor si lo ves ll&aacute;manos:</p>
+
+<h2><strong>NICO P&Eacute;RDIDO &nbsp;-TEL&Eacute;FONO&nbsp;&nbsp;Mar 676 21 38 05</strong></h2>
+
+<p><img alt="" src="http://chuchos-gr.org//userfiles/image/web_-_copia.jpg" style="height:225px; line-height:20.8px; width:300px" /></p>
+
+<h2>&nbsp;</h2>
+		<p class="leer_completo"><a href="http://chuchos-gr.org/noticia/280-nico-se-ha-perdido-en-madrid/"> Leer completo</a></p>
+	<hr class="limpia" />
+</div><!--cierra destacado-->
+	<div class="destacado">
+	<h2><a href="http://chuchos-gr.org/noticia/268-canpaÑa-castraciÓn-gatos/">CAMPAÑA CASTRACIÓN PERROS Y GATOS</a></h2>
+
+			<span class="destacado_contenedor_imagen"><a class="link_thumb_destacado" href="http://chuchos-gr.org/noticia/268-canpaÑa-castraciÓn-gatos/"><img class="thumb_destacado" src="imas/contenidos/ima_268.jpg" alt="" /></a></span>
+<p class="fecha_nota">Fecha del evento: 02-11-16</p>
+
+		<p>&iexcl;Saludos a todos! Nos complace informaros de que gracias a nuestros animalistas veterinarios ofrecemos&nbsp;campa&ntilde;a de castraciones&nbsp;cada cierto tiempo. a precios m&aacute;s asequibles.&nbsp;Inf&oacute;rmate o reserva tu cita:&nbsp;<br />
+<br />
+CONTACTO: infoladridosvagabundos@gmail.com<br />
+</p>
+		<p class="leer_completo"><a href="http://chuchos-gr.org/noticia/268-canpaÑa-castraciÓn-gatos/"> Leer completo</a></p>
+	<hr class="limpia" />
+</div><!--cierra destacado-->
+	  
+</div><!-- cierra editorial destacado -->
+<div id="en_adopcion_home" class="bloque_animales bloq2">
+            <h2><a href="listado">Perros en adopcion</a></h2>
+            
+<div class="fila"><!--abre fila-->
+				<div class="cuadro_animal cuadro1">
+    	<div class="pepe">
+          <span class="contendor_thumb_cuadro"><a class="enlace_thumb estilo_enlace_thumb" href="ficha/844/"><img class="thumb_destacado" src="imas/animales/_844/thumbnail_mini.jpg" alt="CHIVO" /></a></span> <span class="deco"></span>
+		<h3>CHIVO</h3>
+		<p><strong>Edad:</strong> 7 meses  y  23 d&iacute;as</p>
+		<p>Esterilizado: a&uacute;n no
+Comportamiento con gatos: Desconocido
+Comportamiento con ni&ntilde;os: Bueno
+Comportamiento con otros perros: Bueno
+Car&aacute;cter: muy bu...</p>
+				</div>
+	      <p class="ver_ficha"><a href="ficha/844/" title="Ver a CHIVO"><span>Ver a CHIVO</span></a></p>
+<hr class="limpia" />
+		          </div><!--cierra cuadro_animal-->
+			<div class="cuadro_animal cuadro2">
+    	<div class="pepe">
+          <span class="contendor_thumb_cuadro"><a class="enlace_thumb estilo_enlace_thumb" href="ficha/880/"><img class="thumb_destacado" src="imas/animales/_880/thumbnail_mini.jpg" alt="KIMBA" /></a></span> <span class="deco"></span>
+		<h3>KIMBA</h3>
+		<p><strong>Edad:</strong> 1 mes  y  6 d&iacute;as</p>
+		<p>Esterilizado: No
+Comportamiento con gatos: bueno
+Comportamiento con ni&ntilde;os: bueno
+Comportamiento con otros perros: bueno
+Caracter:  juguetona, acti...</p>
+				</div>
+	      <p class="ver_ficha"><a href="ficha/880/" title="Ver a KIMBA"><span>Ver a KIMBA</span></a></p>
+<hr class="limpia" />
+		          </div><!--cierra cuadro_animal-->
+			<div class="cuadro_animal cuadro3">
+    	<div class="pepe">
+          <span class="contendor_thumb_cuadro"><a class="enlace_thumb estilo_enlace_thumb" href="ficha/759/"><img class="thumb_destacado" src="imas/animales/_759/thumbnail_mini.jpg" alt="HUGO" /></a></span> <span class="deco"></span>
+		<h3>HUGO</h3>
+		<p><strong>Edad:</strong> 1 a&ntilde;o y 3 meses </p>
+		<p>
+Esterilizado: Si
+Comportamiento con gatos: Desconocido
+Comportamiento con ni&ntilde;os: bueno
+Comportamiento con otros perros: Bueno
+Car&aacute;cter: Cari&ntilde;oso...</p>
+				</div>
+	      <p class="ver_ficha"><a href="ficha/759/" title="Ver a HUGO"><span>Ver a HUGO</span></a></p>
+<hr class="limpia" />
+		          </div><!--cierra cuadro_animal-->
+			<div class="cuadro_animal cuadro4">
+    	<div class="pepe">
+          <span class="contendor_thumb_cuadro"><a class="enlace_thumb estilo_enlace_thumb" href="ficha/194/"><img class="thumb_destacado" src="imas/animales/_194/thumbnail_mini.jpg" alt="SASHA" /></a></span> <span class="deco"></span>
+		<h3>SASHA</h3>
+		<p><strong>Edad:</strong> 7 a&ntilde;os y 10 meses </p>
+		<p>--- EN ALEMANIA ---
+
+
+
+
+Esterilizado: Si
+Comportamiento con gatos: Desconocido
+Comportamiento con ni&ntilde;os: Desconocido
+Comportamiento con otros ...</p>
+				</div>
+	      <p class="ver_ficha"><a href="ficha/194/" title="Ver a SASHA"><span>Ver a SASHA</span></a></p>
+<hr class="limpia" />
+		          </div><!--cierra cuadro_animal-->
+		<hr class="limpia" />
+	</div>
+      <!--cierra fila-->
+           
+		  </div><!-- cierra bloque -->
+            <span class="esquinap_d">&nbsp;</span> </div>
+    <!--cierra principal_contenidos-->
+    <div id="auxiliar2"> 
+      <div class="editorial  bloq1"> 
+  
+    	<h2><a href="publicaciones">Publicaciones</a></h2>
+	<ul class="noticias">
+		<li><h3><a href="http://chuchos-gr.org/noticia/284-barril-solidario-en-pub-vinilo/">Barril Solidario en Pub Vinilo</a></h3>
+			<a href="noticia/284-barril-solidario-en-pub-vinilo/"><img src="imas/contenidos/ima_284.jpg" alt="" /></a>
+				<p>El pr&oacute;ximo jueves 25 de febrero a partir&nbsp;de las 20h os esperamos en el Pub Vinilo con un&nbsp;barril solidario&nbsp;organizado por nuestra Asociaci&oacute;n. Los beneficios ir&aacute;n destinados a nuestros perros y gatos rescatados.<br />
+<br />
+Colocaremos una hucha para recaudar fondos para pagar gastos veterinarios.&nbsp;Tendremos ta</p>
+                <p class="leer_completo"><a href="http://chuchos-gr.org/noticia/284-barril-solidario-en-pub-vinilo/"> Leer completo</a></p>
+
+		</li>
+	<!--</ul>
+	<ul class="noticias">-->
+	</ul>
+	
+    <span class="esquina_c">&nbsp;</span><span class="esquina_d">&nbsp;</span>  
+      </div>
+      <!--cierra noticias -->
+		
+	<div class="bloque_perso bloq2">
+    	        <h2>Shopciable</h2>
+        		<div class="cuadro_perso" id="cuadro_perso22">
+<h3>Shopciable, una nueva forma de colaborar</h3>
+			<a href="http://www.shopciable.com/causas/nuevo-refugio-para-animales-205" title="Shopciable, una nueva forma de colaborar"><img  src="imas/cuadros/ima_22.jpg" alt="Shopciable, una nueva forma de colaborar" /></a>
+			<div class="cuadro_perso_texto">SHOPCIABLE es el Primer Centro Comercial Solidario On-line. Puedes donar dinero a nuestra causa realizando tus compras a trav&eacute;s de su web o simplemente visualizando v&iacute;deos.
+
+&iquest;C&oacute;mo funciona? Reg&iacute;strate en la web. &Uacute;nete a nuestra causa y a&ntilde;&aacute;dela como favorita. Ya puedes empezar a ver v&iacute;deos o realizar tus compras y una parte del dinero se destinar&aacute; a nuestra causa.</div>
+			
+			        </div><!--cierra cuadro perso -->
+    
+    </div><!--cierra bloque perso -->
+<div id="bloque_22" class="bloque_animales bloq2">
+            <h2><a href="la-51/afortunados-2014">Afortunados 2014</a></h2>
+            
+<div class="fila"><!--abre fila-->
+				<div class="cuadro_animal ">
+    	<div class="pepe">
+          <span class="contendor_thumb_cuadro"><a class="enlace_thumb estilo_enlace_thumb" href="ficha/492/"><img class="thumb_destacado" src="imas/animales/_492/thumbnail_mini.jpg" alt="BRILLO" /></a></span> <span class="deco"></span>
+		<h3>BRILLO</h3>
+		<p><strong>Edad:</strong> 7 a&ntilde;os y 9 meses </p>
+		<p>ESTERILIZADO: s&iacute;
+COMPORTAMIENTO CON GATOS: apto
+COMPORTAMIENTO CON OTROS PERROS: apto
+COMPORTAMIENTO CON NI&Ntilde;OS: apto
+HISTORIA: Fue encontrado en u...</p>
+				</div>
+	      <p class="ver_ficha"><a href="ficha/492/" title="Ver a BRILLO"><span>Ver a BRILLO</span></a></p>
+<hr class="limpia" />
+		          </div><!--cierra cuadro_animal-->
+		<hr class="limpia" />
+	</div>
+      <!--cierra fila-->
+           
+	    <p class="ver_mas_en_bloque"><a href="la-51/afortunados-2014"><span>Ver + Afortunados 2014</span></a></p>
+    	  </div><!-- cierra bloque -->
+      <div id="perdidos_home" class="bloque_animales bloq3">
+            <h2> Perdido</h2>
+            
+<div class="fila"><!--abre fila-->
+				<div class="cuadro_animal ">
+    	<div class="pepe">
+          <span class="contendor_thumb_cuadro"><a class="enlace_thumb estilo_enlace_thumb" href="ficha/678/"><img class="thumb_destacado" src="imas/animales/_678/thumbnail_mini.jpg" alt="NICO" /></a></span> <span class="deco"></span>
+		<h3>NICO</h3>
+		<strong>perdido</strong>
+		<p>Esterilizado: Si
+Comportamiento con gatos: Desconocido
+Comportamiento con ni&ntilde;os: bueno, convive con ellos
+Comportamiento con otros perros: Bueno
+C...</p>
+				</div>
+	      <p class="ver_ficha"><a href="ficha/678/" title="Ver a NICO"><span>Ver a NICO</span></a></p>
+<hr class="limpia" />
+		          </div><!--cierra cuadro_animal-->
+		<hr class="limpia" />
+	</div>
+      <!--cierra fila-->
+           
+	    <p class="ver_mas_en_bloque"><a href=""><span>Ver +  Perdido</span></a></p>
+    	  </div><!-- cierra bloque -->
+          </div>
+    <!--cierra auxiliar2-->
+  </div>
+  <!--cierra principal-->
+ <div id="navigation">
+ <div id="lateral_idiomas">
+<span></span>
+     <p id="barrasup">
+        <a href="eng/" class="noestilo"><img src="http://chuchos-gr.org/imas/eng.jpg" alt="English"  class="banderas" title="English" /></a> 
+        <a href="deu/" class="noestilo"><img src="http://chuchos-gr.org/imas/deu.jpg" alt="Deutsch"  class="banderas" title="Deutsch" /></a> 
+      </p> 
+  </div>
+
+    <nav class="nav">
+<ul id="menuPrincipal">
+
+ 	<li class="titulo_separador prime" ><strong>Nuestra Asociación</strong>  
+ 	   <ul>
+ 	
+ 	 	<li class="secindex" ><a href="http://chuchos-gr.org/">Inicio</a></li> 
+
+ 	 	<li class="secquienes-somos" ><a href="http://chuchos-gr.org/s20/quienes-somos">Quiénes Somos</a></li> 
+
+ 	 	<li class="secstaff" ><a href="http://chuchos-gr.org/staff">Nuestros voluntarios</a></li> 
+
+ 	 	<li class="secsec41" ><a href="http://chuchos-gr.org/s41/sec41">Echa una pata</a></li> 
+
+ 	 	<li class="seceventos" ><a href="http://chuchos-gr.org/eventos">Eventos</a></li> 
+    </ul> 
+ 	</li>
+ 	<li class="titulo_separador prime" ><strong> Nuestros animales</strong>  
+ 	   <ul>
+ 	
+ 	 	<li class="seclistado" ><a href="http://chuchos-gr.org/listado">• Nuestros Perros</a></li> 
+
+ 	 	<li class="seccachorros" ><a href="http://chuchos-gr.org/la-21/cachorros">      -  Cachorros</a></li> 
+
+ 	 	<li class="secsec22" ><a href="http://chuchos-gr.org/la-22/sec22">-  Pequeños</a></li> 
+
+ 	 	<li class="secmedianos" ><a href="http://chuchos-gr.org/la-24/medianos">- Medianos</a></li> 
+
+ 	 	<li class="secgrandes" ><a href="http://chuchos-gr.org/la-25/grandes">- Grandes</a></li> 
+
+ 	 	<li class="secgatos" ><a href="http://chuchos-gr.org/la-27/gatos">• Nuestros Gatos</a></li> 
+
+ 	 	<li class="secgatitos-y-jes" ><a href="http://chuchos-gr.org/la-28/gatitos-y-jes">- Gatitos y Jóvenes</a></li> 
+
+ 	 	<li class="secgatos-adultos" ><a href="http://chuchos-gr.org/la-29/gatos-adultos">- Gatos Adultos</a></li> 
+
+ 	 	<li class="secadoptados" ><a href="http://chuchos-gr.org/adoptados">• Afortunados</a></li> 
+
+ 	 	<li class="secavisos" ><a href="http://chuchos-gr.org/avisos">• Perdidos/ Encontrados</a></li> 
+
+ 	 	<li class="secnec" ><a href="http://chuchos-gr.org/nec">• En el Cielo</a></li> 
+    </ul> 
+ 	</li>
+ 	<li class="titulo_separador prime" ><strong>Difusiones externas</strong>  
+ 	   <ul>
+ 	
+ 	 	<li class="secparticulares" ><a href="http://chuchos-gr.org/particulares">Adopciones de particulares</a></li> 
+    </ul> 
+ 	</li>
+ 	<li class="titulo_separador prime" ><strong>Información de Interés</strong>  
+ 	   <ul>
+ 	
+ 	 	<li class="seccolaboradores" ><a href="http://chuchos-gr.org/colaboradores">Colaboradores</a></li> 
+
+ 	 	<li class="secgalerias" ><a href="http://chuchos-gr.org/galerias">Galería de Fotos</a></li> 
+
+ 	 	<li class="secrevista-chuchos-y-michis-" ><a href="http://chuchos-gr.org/lp-50/revista-chuchos-y-michis-">Nuestra Revista </a></li> 
+
+ 	 	<li class="secnuestros-animales-comentan" ><a href="http://chuchos-gr.org/lp-42/nuestros-animales-comentan">Nuestros animales comentan...</a></li> 
+
+ 	 	<li class="seccontacto" ><a href="http://chuchos-gr.org/contacto">Contactar</a></li> 
+    </ul> 
+ 	</li></ul>    </nav>
+  </div>
+ <!-- Include jQuery -->
+    <script src="http://chuchos-gr.org/includes/script/jquery-1.11.2.js"></script>
+    <!-- Include the Sidr JS -->
+    <script src="http://chuchos-gr.org/includes/script/sidr-package/jquery.sidr.min.js"></script>
+    <script>
+    $('#responsive-menu-button').sidr({
+      name: 'sidr-main',
+      source: '#navigation'
+    });
+	
+	$('#responsive-menu-button2').sidr({
+      name: 'sidr-barra',
+      source: '#nav-barra',
+	  side: 'right'
+    });
+</script>  
+    <script>	
+	$('#responsive-menu-button3').sidr({
+      name: 'sidr-form-animales',
+      source: '#form-buscar-animales',
+	  side: 'right'
+    });
+</script>
+  <div id="auxiliar1">
+
+<div id="publi">
+  </div>
+
+		
+	<div class="bloque_perso bloq1">
+    	        <h2>Colaboradores</h2>
+        		<div class="cuadro_perso" id="cuadro_perso14">
+
+			<a href="http://sendacanina.com/" title=""><img  src="imas/cuadros/ima_14.jpg" alt="" /></a>
+			
+			
+			        </div><!--cierra cuadro perso -->
+		<div class="cuadro_perso" id="cuadro_perso11">
+
+			<a href="http://cvdarwin.es" title=""><img  src="imas/cuadros/ima_11.jpg" alt="" /></a>
+			
+			
+			        </div><!--cierra cuadro perso -->
+		<div class="cuadro_perso" id="cuadro_perso1">
+
+			<a href="http://www.cvcampanilla.com/" title=""><img  src="imas/cuadros/ima_1.gif" alt="" /></a>
+			
+			
+			        </div><!--cierra cuadro perso -->
+		<div class="cuadro_perso" id="cuadro_perso19">
+
+			<a href="http://www.viajes4patas.com/" title=""><img  src="imas/cuadros/ima_19.png" alt="" /></a>
+			
+			
+			        </div><!--cierra cuadro perso -->
+		<div class="cuadro_perso" id="cuadro_perso26">
+
+			<a href="http://bambu-difunde.net/" title=""><img  src="imas/cuadros/ima_26.jpg" alt="" /></a>
+			
+			
+			        </div><!--cierra cuadro perso -->
+    
+    </div><!--cierra bloque perso -->
+</div><!--cierra auxiliar1-->
+    </div><!-- cierra cuerpo in -->
+  </div><!-- cierra cuerpo -->
+	<hr class="limpia" />
+  <div id="pie"> <strong>Asociación Ladridos Vagabundos</strong> - Tel. 
+  676 29 78 24  (Horario de atención de 18.30 a 21h)<br /><br />
+Whatsapp: 676 92 13 96         - <a href="http://chuchos-gr.org/contacto.php" id="contacto_pie"> 
+  Contactar  </a> <a href="http://bambu-cms.org/"><img src="http://chuchos-gr.org/imas/logobambu.jpg" alt="Bambú cms" style="border: 0 none" id="logo_bambu" title="Bambú cms" /></a></div>
+<!--cierra pie-->
+</div><!--cierra general-->
+<script id="js_bottom"></script>
+<script>prepararEnlaces()</script>
+
+</body>
+</html>

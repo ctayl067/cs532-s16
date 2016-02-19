@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tragiko.net | Ειδήσεις με άποψη</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://www.tragiko.net/xmlrpc.php">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&subset=latin,greek" rel="stylesheet" type="text/css"/>
+<link rel="alternate" type="application/rss+xml" title="Κανάλι RSS &raquo; tragiko.net" href="http://www.tragiko.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Κανάλι σχολίων &raquo; tragiko.net" href="http://www.tragiko.net/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.tragiko.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='opinionstage-style-css'  href='http://www.tragiko.net/wp-content/plugins/social-polls-by-opinionstage/style.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='category-posts-css'  href='http://www.tragiko.net/wp-content/plugins/category-posts/cat-posts.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='pepmagazine-style-css'  href='http://www.tragiko.net/wp-content/themes/pepmagazine/style.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='popular-widget-css'  href='http://www.tragiko.net/wp-content/plugins/popular-widget/_css/pop-widget.css?ver=1.7.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.tragiko.net/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.tragiko.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.tragiko.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.tragiko.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+
+</head>
+
+<body class="home blog group-blog">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+				<a href="http://www.tragiko.net"><img src="/banners/tragiko-logo-neo.png" alt="tragiko.net"></a>
+					</div>
+		<div class="top-banner">
+					</div>
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h1 class="menu-toggle">Menu</h1>
+			<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+			<div class="menu-mainmenu-container"><ul id="menu-mainmenu" class="menu"><li id="menu-item-27306" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-27306"><a href="http://www.tragiko.net">ΑΡΧΙΚΗ</a></li>
+<li id="menu-item-27295" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27295"><a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/">ΕΛΛΑΔΑ</a></li>
+<li id="menu-item-27296" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27296"><a href="http://www.tragiko.net/search/label/%ce%a0%ce%9f%ce%9b%ce%99%ce%a4%ce%99%ce%9a%ce%97/">ΠΟΛΙΤΙΚΗ</a></li>
+<li id="menu-item-27298" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27298"><a href="http://www.tragiko.net/search/label/%ce%9f%ce%99%ce%9a%ce%9f%ce%9d%ce%9f%ce%9c%ce%99%ce%91/">ΟΙΚΟΝΟΜΙΑ</a></li>
+<li id="menu-item-27428" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27428"><a href="http://www.tragiko.net/search/label/%ce%9a%ce%9f%ce%a3%ce%9c%ce%9f%ce%a3/">ΚΟΣΜΟΣ</a></li>
+<li id="menu-item-27302" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27302"><a href="http://www.tragiko.net/search/label/%ce%9a%ce%9f%ce%a5%ce%a4%ce%a3%ce%9f%ce%9c%ce%a0%ce%9f%ce%9b%ce%99%ce%9f/">ΚΟΥΤΣΟΜΠΟΛΙΟ</a></li>
+<li id="menu-item-27301" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27301"><a href="http://www.tragiko.net/search/label/%ce%a5%ce%93%ce%95%ce%99%ce%91/">ΥΓΕΙΑ</a></li>
+<li id="menu-item-27303" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27303"><a href="http://www.tragiko.net/search/label/%ce%a0%ce%91%ce%a1%ce%91%ce%9e%ce%95%ce%9d%ce%91/">ΠΑΡΑΞΕΝΑ</a></li>
+<li id="menu-item-27429" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27429"><a href="http://www.tragiko.net/search/label/%ce%91%ce%a0%ce%9f%ce%a8%ce%95%ce%99%ce%a3/">ΑΠΟΨΕΙΣ</a></li>
+<li id="menu-item-27430" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27430"><a href="http://www.tragiko.net/search/label/%ce%94%ce%99%ce%91%ce%a6%ce%9f%ce%a1%ce%91/">ΔΙΑΦΟΡΑ</a></li>
+</ul></div>		</nav><!-- #site main navigation -->
+		<div id="under-menu-bar"> 
+			<div id="second-menu">
+				<div class="menu-submenu-container"><ul id="menu-submenu" class="menu"><li id="menu-item-27452" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27452"><a href="http://www.tragiko.net/search/label/%ce%a4%ce%95%ce%a7%ce%9d%ce%9f%ce%9b%ce%9f%ce%93%ce%99%ce%91-%ce%95%ce%a0%ce%99%ce%a3%ce%a4%ce%97%ce%9c%ce%97/">ΤΕΧΝΟΛΟΓΙΑ-ΕΠΙΣΤΗΜΗ</a></li>
+<li id="menu-item-27453" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27453"><a href="http://www.tragiko.net/search/label/%ce%91%ce%98%ce%9b%ce%97%ce%a4%ce%99%ce%9a%ce%91/">ΑΘΛΗΤΙΚΑ</a></li>
+<li id="menu-item-27454" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27454"><a href="http://www.tragiko.net/search/label/%ce%92%ce%99%ce%9d%ce%a4%ce%95%ce%9f/">ΒΙΝΤΕΟ</a></li>
+<li id="menu-item-27455" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27455"><a href="http://www.tragiko.net/search/label/%ce%96%ce%a9%ce%94%ce%99%ce%91/">ΖΩΔΙΑ</a></li>
+<li id="menu-item-27456" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27456"><a href="http://www.tragiko.net/search/label/%ce%95%ce%a6%ce%97%ce%9c%ce%95%ce%a1%ce%99%ce%94%ce%95%ce%a3/">ΕΦΗΜΕΡΙΔΕΣ</a></li>
+<li id="menu-item-27457" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27457"><a href="http://www.tragiko.net/search/label/%ce%9a%ce%a5%ce%a0%ce%a1%ce%9f%ce%a3/">ΚΥΠΡΟΣ</a></li>
+</ul></div>			</div>
+			<div class="social-networks">
+																							</div>
+		</div>
+		<!-- Second Navigation -->
+		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "b7a99725-78ae-41eb-aaf4-19a1a29b58d3", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+	<div style="background-color:#000; color:#FFF; width:640px; margin-bottom:10px; padding:5px; border:1px solid #000; border-bottom:4px solid #FF0000; border-top:4px solid #FF0000; padding-left: 8px; float:left" >
+	<a style="color:#FFF" href="http://www.tragiko.net/2016/02/sok-sto-panellinio-skotothike-o-pantelis-pantelidis/"><img width="628" height="390" src="http://www.tragiko.net/wp-content/uploads/2016/02/Ανώνυμο-1-30-628x390.jpg" class="attachment-slide wp-post-image" alt="sok-sto-panellinio-skotothike-o-pantelis-pantelidis" /></a>
+	<a style="color:#FFF" href="http://www.tragiko.net/2016/02/sok-sto-panellinio-skotothike-o-pantelis-pantelidis/"><h1 style="font-size:27px; wodth:100%; text-align:center">ΣΟΚ ΣΤΟ ΠΑΝΕΛΛΗΝΙΟ: Σκοτώθηκε ο Παντελής Παντελίδης</h1></a>
+	</div>
+		<div style="width:300px; float:right">
+	<script type="text/javascript">
+    google_ad_client = "ca-pub-6773641308420158";
+    google_ad_slot = "1029119340";
+    google_ad_width = 300;
+    google_ad_height = 250;
+</script>
+<!-- tragiko -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<iframe scrolling="no" allowtransparency="true" frameborder="0" style="margin-bottom: 8px; width: 300px; height: 121px;" src="http://www.weather.gr/widgets/weather_w10.aspx?points=3"></iframe><a target="blank" style="color: #999999; width: 300px; display: block; text-align: center; font: 10px/10px Arial,san-serif; text-decoration: none;" href="http://www.weather.gr">πρόγνωση καιρού από το weather.gr</a>
+<a href="http://www.radiosmart.gr" target="blank"><img src="http://www.tsantiri.gr/banners/rdsmartbanners.jpg"/></a>
+</div>
+<div style="clear:both"></div>
+<div style="width:100%; height:170px; font-family:tahoma; display:block; background-color:#F5F5F5; border-bottom:15px solid #e2e2e2">
+<a href="http://www.tragiko.net/2015/10/ellas-gallia-simmaxia-i-likofilia-idou-aporia/">
+ <div style="width:159px; border-right:1px solid #e2e2e2; border-left:1px solid #e2e2e2;float:left; padding-right:9px; padding-left: 9px; height:140px;">
+<img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2015/10/ellas-gallia-simmaxia-i-likofilia-idou-aporia-250x156.jpg" class="attachment-roi wp-post-image" alt="ΕΛΛΑΣ – ΓΑΛΛΙΑ ΣΥΜΜΑΧΙΑ …Η ΛΥΚΟΦΙΛΙΑ ..ΙΔΟΥ Η ΑΠΟΡΙΑ‏" /><h3 style="font-size:12px; line-height:13px;">ΕΛΛΑΣ – ΓΑΛΛΙΑ ΣΥΜΜΑΧΙΑ …Η ΛΥΚΟΦΙΛΙΑ ..ΙΔΟΥ Η ΑΠΟΡΙΑ‏</h3></div>
+</a>
+<a href="http://www.tragiko.net/2015/10/kiniseis-epitrepontai-stin-ellada-2015-laveis-vevaiosi-proodeutikou-fronimatos-katigoritheis-ratsismo-exthropatheia8230/">
+ <div style="width:159px; border-right:1px solid #e2e2e2; border-left:1px solid #e2e2e2;float:left; padding-right:9px; padding-left: 9px; height:140px;">
+<img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2015/10/kiniseis-epitrepontai-stin-ellada-2015-laveis-vevaiosi-proodeutikou-fronimatos-katigoritheis-ratsismo-exthropatheia8230-250x156.jpg" class="attachment-roi wp-post-image" alt="Κινήσεις που επιτρέπονται στην Ελλάδα του 2015 για να λάβεις βεβαίωση «προοδευτικού φρονήματος» και να μην κατηγορηθείς για ρατσισμό και εχθροπάθεια&#8230;" /><h3 style="font-size:12px; line-height:13px;">Κινήσεις που επιτρέπονται στην Ελλάδα του 2015 για να λάβεις βεβαίωση «προοδευτικού φρονήματος» και να μην κατηγορηθείς για ρατσισμό και εχθροπάθεια&#8230;</h3></div>
+</a>
+<a href="http://www.tragiko.net/2015/10/anamenontai-megales-antidraseis-prota-vlepoume-epidomata/">
+ <div style="width:159px; border-right:1px solid #e2e2e2; border-left:1px solid #e2e2e2;float:left; padding-right:9px; padding-left: 9px; height:140px;">
+<img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2015/10/anamenontai-megales-antidraseis-prota-vlepoume-epidomata-250x156.jpg" class="attachment-roi wp-post-image" alt="» ΑΝΑΜΕΝΟΝΤΑΙ ΜΕΓΑΛΕΣ ΑΝΤΙΔΡΑΣΕΙΣ» –  ΠΡΩΤΑ ΤΟ ΔΝΤ ΚΑΙ ΒΛΕΠΟΥΜΕ ΓΙΑ ΤΑ ΕΠΙΔΟΜΑΤΑ" /><h3 style="font-size:12px; line-height:13px;">» ΑΝΑΜΕΝΟΝΤΑΙ ΜΕΓΑΛΕΣ ΑΝΤΙΔΡΑΣΕΙΣ» –  ΠΡΩΤΑ ΤΟ ΔΝΤ ΚΑΙ ΒΛΕΠΟΥΜΕ ΓΙΑ ΤΑ ΕΠΙΔΟΜΑΤΑ</h3></div>
+</a>
+<a href="http://www.tragiko.net/2015/10/apagoreusi-simmetoxis-stis-ekloges-kommaton-piran-eksousia-pseutikes-iposxeseis/">
+ <div style="width:159px; border-right:1px solid #e2e2e2; border-left:1px solid #e2e2e2;float:left; padding-right:9px; padding-left: 9px; height:140px;">
+<img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2015/10/apagoreusi-simmetoxis-stis-ekloges-kommaton-piran-eksousia-pseutikes-iposxeseis-250x156.jpg" class="attachment-roi wp-post-image" alt="ΑΠΑΓΟΡΕΥΣΗ ΣΥΜΜΕΤΟΧΗΣ ΣΤΙΣ ΕΚΛΟΓΕΣ, ΤΩΝ ΚΟΜΜΑΤΩΝ ΠΟΥ ΠΗΡΑΝ ΤΗΝ ΕΞΟΥΣΙΑ ΜΕ ΨΕΥΤΙΚΕΣ ΥΠΟΣΧΕΣΕΙΣ" /><h3 style="font-size:12px; line-height:13px;">ΑΠΑΓΟΡΕΥΣΗ ΣΥΜΜΕΤΟΧΗΣ ΣΤΙΣ ΕΚΛΟΓΕΣ, ΤΩΝ ΚΟΜΜΑΤΩΝ ΠΟΥ ΠΗΡΑΝ ΤΗΝ ΕΞΟΥΣΙΑ ΜΕ ΨΕΥΤΙΚΕΣ ΥΠΟΣΧΕΣΕΙΣ</h3></div>
+</a>
+<a href="http://www.tragiko.net/2015/10/kivernisi-praksikopimation-iouliou-empaizei-tous-politeknous/">
+ <div style="width:159px; border-right:1px solid #e2e2e2; border-left:1px solid #e2e2e2;float:left; padding-right:9px; padding-left: 9px; height:140px;">
+<img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2015/10/kivernisi-praksikopimation-iouliou-empaizei-tous-politeknous-250x156.jpg" class="attachment-roi wp-post-image" alt="Η ΚΥΒΕΡΝΗΣΗ ΤΩΝ ΠΡΑΞΙΚΟΠΗΜΑΤΙΩΝ ΤΗΣ 5ης ΙΟΥΛΙΟΥ , ΕΜΠΑΙΖΕΙ ΤΟΥΣ ΠΟΛΥΤΕΚΝΟΥΣ." /><h3 style="font-size:12px; line-height:13px;">Η ΚΥΒΕΡΝΗΣΗ ΤΩΝ ΠΡΑΞΙΚΟΠΗΜΑΤΙΩΝ ΤΗΣ 5ης ΙΟΥΛΙΟΥ , ΕΜΠΑΙΖΕΙ ΤΟΥΣ ΠΟΛΥΤΕΚΝΟΥΣ.</h3></div>
+</a>
+<a href="http://www.tragiko.net/2015/10/kouradomixanes/">
+ <div style="width:159px; border-right:1px solid #e2e2e2; border-left:1px solid #e2e2e2;float:left; padding-right:9px; padding-left: 9px; height:140px;">
+<img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2015/10/kouradomixanes-250x156.jpg" class="attachment-roi wp-post-image" alt="Κουραδομηχανές.." /><h3 style="font-size:12px; line-height:13px;">Κουραδομηχανές..</h3></div>
+</a>
+</div>
+	<div id="primary" class="content-area alignleft">
+		<main id="main" class="site-main" role="main">
+		
+						
+				
+<article id="post-72441" class="post-72441 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/pliatsiko-simeio-skotothike-pantelidis-250x156.jpg" class="attachment-roi wp-post-image" alt="Πλιάτσικο στο σημείο που σκοτώθηκε ο Παντελίδης;" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/pliatsiko-simeio-skotothike-pantelidis/" rel="bookmark">Πλιάτσικο στο σημείο που σκοτώθηκε ο Παντελίδης;</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Στο σημείο που βρήκε τραγικό θάνατο ο δημοφιλής…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/pliatsiko-simeio-skotothike-pantelidis/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72439" class="post-72439 post type-post status-publish format-standard has-post-thumbnail hentry category-4">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/merck-enisxiei-draseis-pespa-pagkosmia-imera-spanion-pathiseon-250x156.jpg" class="attachment-roi wp-post-image" alt="Η Merck ενισχύει τις δράσεις της Π.Ε.Σ.Π.Α. για την Παγκόσμια Ημέρα Σπανίων Παθήσεων" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%a5%ce%93%ce%95%ce%99%ce%91/" rel="category tag">ΥΓΕΙΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/merck-enisxiei-draseis-pespa-pagkosmia-imera-spanion-pathiseon/" rel="bookmark">Η Merck ενισχύει τις δράσεις της Π.Ε.Σ.Π.Α. για την Παγκόσμια Ημέρα Σπανίων Παθήσεων</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Διαβάστε περισσότερα στο…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/merck-enisxiei-draseis-pespa-pagkosmia-imera-spanion-pathiseon/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72436" class="post-72436 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/katevazoun-rola-nixterina-kentra-pantelidi-250x156.jpg" class="attachment-roi wp-post-image" alt="Κατεβάζουν ρολά τα νυχτερινά κέντρα για τον Παντελίδη" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/katevazoun-rola-nixterina-kentra-pantelidi/" rel="bookmark">Κατεβάζουν ρολά τα νυχτερινά κέντρα για τον Παντελίδη</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Η σοκαριστική είδηση του θανάτου του Παντελή Παντελίδη…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/katevazoun-rola-nixterina-kentra-pantelidi/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72434" class="post-72434 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/varis-foros-aimatos-stin-asfalto-stous-1158-nekroi-250x156.jpg" class="attachment-roi wp-post-image" alt="Βαρύς ο φόρος αίματος στην άσφαλτο. Στους 1.158 οι νεκροί" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/varis-foros-aimatos-stin-asfalto-stous-1158-nekroi/" rel="bookmark">Βαρύς ο φόρος αίματος στην άσφαλτο. Στους 1.158 οι νεκροί</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Βαρύς ο φόρος αίματος στην άσφαλτο, αφού από…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/varis-foros-aimatos-stin-asfalto-stous-1158-nekroi/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72432" class="post-72432 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/anagki-spot-stin-leei-toskas-250x156.jpg" class="attachment-roi wp-post-image" alt="Ανάγκη το hot spot στην Κω λέει ο Τόσκας" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/anagki-spot-stin-leei-toskas/" rel="bookmark">Ανάγκη το hot spot στην Κω λέει ο Τόσκας</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Την ανάγκη δημιουργίας hot spots στη Κω, υπεραμύνθηκε…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/anagki-spot-stin-leei-toskas/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72430" class="post-72430 post type-post status-publish format-standard has-post-thumbnail hentry category-4">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/apli-sinitheia-mporei-sosei-karkino-250x156.jpg" class="attachment-roi wp-post-image" alt="Μία απλή συνήθεια μπορεί να σας σώσει από τον καρκίνο" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%a5%ce%93%ce%95%ce%99%ce%91/" rel="category tag">ΥΓΕΙΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/apli-sinitheia-mporei-sosei-karkino/" rel="bookmark">Μία απλή συνήθεια μπορεί να σας σώσει από τον καρκίνο</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Διαβάστε περισσότερα στο…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/apli-sinitheia-mporei-sosei-karkino/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72428" class="post-72428 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/eidiko-pragmatognomona-orise-oikogeneia-pantelidi-250x156.jpg" class="attachment-roi wp-post-image" alt="Ειδικό πραγματογνώμονα όρισε η οικογένεια του Παντελίδη" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/eidiko-pragmatognomona-orise-oikogeneia-pantelidi/" rel="bookmark">Ειδικό πραγματογνώμονα όρισε η οικογένεια του Παντελίδη</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Στο σημείο του δυστυχήματος στη λεωφόρο Βουλιαγμένης βρέθηκε…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/eidiko-pragmatognomona-orise-oikogeneia-pantelidi/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72426" class="post-72426 post type-post status-publish format-standard has-post-thumbnail hentry category-4">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/thanatoi-gripi-meth-250x156.jpg" class="attachment-roi wp-post-image" alt="110 θάνατοι από την γρίπη και 111 σε ΜΕΘ" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%a5%ce%93%ce%95%ce%99%ce%91/" rel="category tag">ΥΓΕΙΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/thanatoi-gripi-meth/" rel="bookmark">110 θάνατοι από την γρίπη και 111 σε ΜΕΘ</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Διαβάστε περισσότερα στο…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/thanatoi-gripi-meth/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72424" class="post-72424 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/enisxietai-oximata-mploko-agroton-ston-komvo-kalou-nerou-250x156.jpg" class="attachment-roi wp-post-image" alt="Ενισχύεται με 60 οχήματα το μπλόκο των αγροτών στον κόμβο Καλού Νερού" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/enisxietai-oximata-mploko-agroton-ston-komvo-kalou-nerou/" rel="bookmark">Ενισχύεται με 60 οχήματα το μπλόκο των αγροτών στον κόμβο Καλού Νερού</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Σκληραίνουν τη στάση τους έναντι της κυβέρνησης οι…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/enisxietai-oximata-mploko-agroton-ston-komvo-kalou-nerou/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72422" class="post-72422 post type-post status-publish format-standard has-post-thumbnail hentry category-4">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/aplos-tropos-meiosete-xolisteroli-triglikeridia-250x156.jpg" class="attachment-roi wp-post-image" alt="Ο πιο απλός τρόπος για να μειώσετε χοληστερόλη και τριγλυκερίδια" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%a5%ce%93%ce%95%ce%99%ce%91/" rel="category tag">ΥΓΕΙΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/aplos-tropos-meiosete-xolisteroli-triglikeridia/" rel="bookmark">Ο πιο απλός τρόπος για να μειώσετε χοληστερόλη και τριγλυκερίδια</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Διαβάστε περισσότερα στο…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/aplos-tropos-meiosete-xolisteroli-triglikeridia/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72420" class="post-72420 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/fotia-ksespase-mesimeri-stis-gaitses-ditikis-manis-250x156.jpg" class="attachment-roi wp-post-image" alt="Νέα φωτιά ξέσπασε το μεσημέρι στις Γαϊτσές της Δυτικής Μάνης" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/fotia-ksespase-mesimeri-stis-gaitses-ditikis-manis/" rel="bookmark">Νέα φωτιά ξέσπασε το μεσημέρι στις Γαϊτσές της Δυτικής Μάνης</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Πριν καλά – καλά σβήσει η φωτιά που…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/fotia-ksespase-mesimeri-stis-gaitses-ditikis-manis/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72417" class="post-72417 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/sigkinitika-grammata-ekso-spiti-pantelidi-xroniko-250x156.jpg" class="attachment-roi wp-post-image" alt="Τα συγκινητικά γράμματα έξω από το σπίτι του Παντελίδη. Όλο το χρονικό" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/sigkinitika-grammata-ekso-spiti-pantelidi-xroniko/" rel="bookmark">Τα συγκινητικά γράμματα έξω από το σπίτι του Παντελίδη. Όλο το χρονικό</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Συγκίνηση για τον Παντελίδη. Πλήθος κόσμου έξω από…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/sigkinitika-grammata-ekso-spiti-pantelidi-xroniko/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72415" class="post-72415 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/leei-autoptis-martiras-eide-pantelidi-nekro-vinteo-250x156.jpg" class="attachment-roi wp-post-image" alt="Τι λέει αυτόπτης μάρτυρας που είδε τον Παντελίδη νεκρό. Βίντεο" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/leei-autoptis-martiras-eide-pantelidi-nekro-vinteo/" rel="bookmark">Τι λέει αυτόπτης μάρτυρας που είδε τον Παντελίδη νεκρό. Βίντεο</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Τις εφιαλτικές στιγμές δευτερόλεπτα μετά το τροχαίο δυστύχημα…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/leei-autoptis-martiras-eide-pantelidi-nekro-vinteo/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72413" class="post-72413 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/prosfigi-kata-metakinisis-ipevale-manolis-sfakianakis-250x156.jpg" class="attachment-roi wp-post-image" alt="Προσφυγή κατά της μετακίνησής του υπέβαλε ο Μανώλης Σφακιανάκης" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/prosfigi-kata-metakinisis-ipevale-manolis-sfakianakis/" rel="bookmark">Προσφυγή κατά της μετακίνησής του υπέβαλε ο Μανώλης Σφακιανάκης</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Προσφυγή κατά της μετακίνησής του από τη θέση…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/prosfigi-kata-metakinisis-ipevale-manolis-sfakianakis/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72411" class="post-72411 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/ipovastazomeni-efige-nosokomeio-mitera-pantelidi-250x156.jpg" class="attachment-roi wp-post-image" alt="Υποβασταζόμενη έφυγε από το νοσοκομείο η μητέρα του Παντελίδη" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/ipovastazomeni-efige-nosokomeio-mitera-pantelidi/" rel="bookmark">Υποβασταζόμενη έφυγε από το νοσοκομείο η μητέρα του Παντελίδη</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Υποβασταζόμενη από συγγενείς της αποχώρηση από το Ασκληπείο…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/ipovastazomeni-efige-nosokomeio-mitera-pantelidi/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72409" class="post-72409 post type-post status-publish format-standard has-post-thumbnail hentry category-4">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/odigos-frontidas-katharisete-miti-matia-autia-morou-sosta-250x156.jpg" class="attachment-roi wp-post-image" alt="Οδηγός φροντίδας: Πώς θα καθαρίσετε τη μύτη, τα μάτια και τα αυτιά του μωρού σας σωστά!" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%a5%ce%93%ce%95%ce%99%ce%91/" rel="category tag">ΥΓΕΙΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/odigos-frontidas-katharisete-miti-matia-autia-morou-sosta/" rel="bookmark">Οδηγός φροντίδας: Πώς θα καθαρίσετε τη μύτη, τα μάτια και τα αυτιά του μωρού σας σωστά!</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Διαβάστε περισσότερα στο…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/odigos-frontidas-katharisete-miti-matia-autia-morou-sosta/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72407" class="post-72407 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/anakaleitai-metakinisi-manoli-sfakianaki-250x156.jpg" class="attachment-roi wp-post-image" alt="Ανακαλείται η μετακίνηση του Μανώλη Σφακιανάκη" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/anakaleitai-metakinisi-manoli-sfakianaki/" rel="bookmark">Ανακαλείται η μετακίνηση του Μανώλη Σφακιανάκη</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Ανακλήθηκε η μετακίνηση του υποστράτηγου Μανώλη Σφακιανάκη από…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/anakaleitai-metakinisi-manoli-sfakianaki/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72405" class="post-72405 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/episimo-anakoinothen-thanato-panteli-pantelidi-250x156.jpg" class="attachment-roi wp-post-image" alt="Το επίσημο ανακοινωθέν για τον θάνατο του Παντελή Παντελίδη" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/episimo-anakoinothen-thanato-panteli-pantelidi/" rel="bookmark">Το επίσημο ανακοινωθέν για τον θάνατο του Παντελή Παντελίδη</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Σύμφωνα με το επίσημο ανακοινωθέν από το «Ασκληπιείο»…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/episimo-anakoinothen-thanato-panteli-pantelidi/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72403" class="post-72403 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/klirosi-tzoker-pempti-fevrouariou-2016-ekat-euro-nikiti-250x156.jpg" class="attachment-roi wp-post-image" alt="Κλήρωση Τζόκερ, Πέμπτη 18 Φεβρουαρίου 2016: 1 εκατ. ευρώ για τον νικητή!" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/klirosi-tzoker-pempti-fevrouariou-2016-ekat-euro-nikiti/" rel="bookmark">Κλήρωση Τζόκερ, Πέμπτη 18 Φεβρουαρίου 2016: 1 εκατ. ευρώ για τον νικητή!</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Το Τζόκερ σήμερα μοιράζει σήμερα  πάνω από  1.000.000…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/klirosi-tzoker-pempti-fevrouariou-2016-ekat-euro-nikiti/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72401" class="post-72401 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/kalamata-24xroni-exase-troxaio-250x156.jpg" class="attachment-roi wp-post-image" alt="Καλαμάτα:  24χρονη έχασε τη ζωή της σε τροχαίο" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/kalamata-24xroni-exase-troxaio/" rel="bookmark">Καλαμάτα:  24χρονη έχασε τη ζωή της σε τροχαίο</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Τροχαίο δυστύχημα με θύμα μια 24χρονη κοπέλα σημειώθηκε…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/kalamata-24xroni-exase-troxaio/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72399" class="post-72399 post type-post status-publish format-standard has-post-thumbnail hentry category-5">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/atoma-anapiria-dexontai-signomi-lazopoulou-250x156.jpg" class="attachment-roi wp-post-image" alt="Τα άτομα με αναπηρία δεν δέχονται την συγνώμη του Λαζόπουλου" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%95%ce%9b%ce%9b%ce%91%ce%94%ce%91/" rel="category tag">ΕΛΛΑΔΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/atoma-anapiria-dexontai-signomi-lazopoulou/" rel="bookmark">Τα άτομα με αναπηρία δεν δέχονται την συγνώμη του Λαζόπουλου</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Δεν έγινε δεκτή η συγγνώμη του Λάκη Λαζόπουλου,…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/atoma-anapiria-dexontai-signomi-lazopoulou/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-72397" class="post-72397 post type-post status-publish format-standard has-post-thumbnail hentry category-4">
+	<header class="entry-header">
+
+					</header><!-- .entry-header -->
+
+		<div class="entry-content" style="padding-top:10px; padding-bottom:10px; border-bottom:1px dotted #000">
+		<div style="width:250px; max-width:250px; float:left"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/deite-simvainei-soma-trote-kourkouma-fora-imera-mina-250x156.jpg" class="attachment-roi wp-post-image" alt="Δείτε τι συμβαίνει στο σώμα σας αν τρώτε κουρκουμά 1 φορά την ημέρα για ένα μήνα!" /></div>
+		<div style="width:380px; float:right;font-size:10px; margin-top:10px; color:#1E1E1E; margin-bottom:10px; line-height:11px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">18 Φεβρουαρίου, 2016			<span class="cat-links">
+				| <a href="http://www.tragiko.net/search/label/%ce%a5%ce%93%ce%95%ce%99%ce%91/" rel="category tag">ΥΓΕΙΑ</a>			</span>
+			</div>
+		<h1 class="entry-title" style="width:380px; float:right; line-height:18px; font-size:18px;clear:none"><a style="color:#000" href="http://www.tragiko.net/2016/02/deite-simvainei-soma-trote-kourkouma-fora-imera-mina/" rel="bookmark">Δείτε τι συμβαίνει στο σώμα σας αν τρώτε κουρκουμά 1 φορά την ημέρα για ένα μήνα!</a></h1>
+		<div style="width:380px; float:right; font-size:12px; margin-top:10px; color:#1E1E1E; line-height:13px;  font-weight:normal; font-family: Arial,Helvetica,sans-serif;">Διαβάστε περισσότερα στο…<br><br><a style='margin-top:10px;' class='moretag' href=http://www.tragiko.net/2016/02/deite-simvainei-soma-trote-kourkouma-fora-imera-mina/> Περισσότερα</a>	</div>
+	</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+			<div id="archive-pagination pagination" style="background-color:#e2e2e2"><span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://www.tragiko.net/page/2/'>2</a>
+<a class='page-numbers' href='http://www.tragiko.net/page/3/'>3</a>
+<a class='page-numbers' href='http://www.tragiko.net/page/4/'>4</a>
+<a class='page-numbers' href='http://www.tragiko.net/page/5/'>5</a>
+<a class='page-numbers' href='http://www.tragiko.net/page/6/'>6</a>
+<a class='page-numbers' href='http://www.tragiko.net/page/7/'>7</a>
+<a class='page-numbers' href='http://www.tragiko.net/page/8/'>8</a>
+<a class='page-numbers' href='http://www.tragiko.net/page/9/'>9</a>
+<a class='page-numbers' href='http://www.tragiko.net/page/10/'>10</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://www.tragiko.net/page/2066/'>2.066</a>
+<a class="next page-numbers" href="http://www.tragiko.net/page/2/">Παλαιότερα ›</a></div>
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+	<div id="secondary" class="widget-area alignright" role="complementary" style="width:300px; margin-top:10px; float:right">
+		
+				<aside id="text-3" class="widget widget_text">			<div class="textwidget"><script type="text/javascript">
+    google_ad_client = "ca-pub-6773641308420158";
+    google_ad_slot = "1029119340";
+    google_ad_width = 300;
+    google_ad_height = 250;
+</script>
+<!-- tragiko -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<script type="text/javascript">
+    google_ad_client = "ca-pub-6773641308420158";
+    google_ad_slot = "8552386141";
+    google_ad_width = 300;
+    google_ad_height = 600;
+</script>
+<!-- tragiko1 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+		</aside><aside id="popular-widget-2" class="widget popular-widget">
+<div class="pop-layout-v"><ul id="pop-widget-tabs-2" class="pop-widget-tabs pop-widget-tabs-1" ><li><a href="#viewed" rel="nofollow">ΔΗΜΟΦΙΛΗ</a></li></ul><div class="pop-inside-2 pop-inside"><ul id="pop-widget-viewed-2"><li><a href="http://www.tragiko.net/2016/02/apokaliptikos-xartis-gia-ton-g-pagkosmio-polemo-rosia-nato-kai-den-tha-pisteuete-ti-deixnei/" title="Αποκαλυπτικός Χάρτης για τον Γ’ Παγκόσμιο Πόλεμο! Ρωσία, ΝΑΤΟ και… Δεν θα Πιστεύετε τι Δείχνει!" rel="bookmark"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/maxresdefault-250x156.jpg" class="attachment-roi wp-post-image" alt="maxresdefault" /><span class="pop-overlay"><span class="pop-title">Αποκαλυπτικός Χάρτης για τον Γ’ Παγκόσμιο Πόλεμο! Ρωσία, ΝΑΤΟ και… Δεν θα Πιστεύετε τι Δείχνει!</span> </span></a><br class="pop-cl" /></li><li><a href="http://www.tragiko.net/2016/02/katharisete-sikoti-mono-meres/" title="Πως να καθαρίσετε το συκώτι σας σε μόνο δυο μέρες" rel="bookmark"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/katharisete-sikoti-mono-meres-250x156.jpg" class="attachment-roi wp-post-image" alt="Πως να καθαρίσετε το συκώτι σας σε μόνο δυο μέρες" /><span class="pop-overlay"><span class="pop-title">Πως να καθαρίσετε το συκώτι σας σε μόνο δυο μέρες</span> </span></a><br class="pop-cl" /></li><li><a href="http://www.tragiko.net/2016/02/stigmi-apegklovismou-distixima-panteli-pantelidi/" title="Η στιγμή του απεγκλωβισμού στο δυστύχημα του Παντελή Παντελίδη" rel="bookmark"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/stigmi-apegklovismou-distixima-panteli-pantelidi-250x156.jpg" class="attachment-roi wp-post-image" alt="Η στιγμή του απεγκλωβισμού στο δυστύχημα του Παντελή Παντελίδη" /><span class="pop-overlay"><span class="pop-title">Η στιγμή του απεγκλωβισμού στο δυστύχημα του Παντελή Παντελίδη</span> </span></a><br class="pop-cl" /></li><li><a href="http://www.tragiko.net/2016/02/tzoker-klirosi-kiriaki-fevrouariou-2016-autoi-einai-tixeroi-arithmoi/" title="Τζόκερ, κλήρωση Κυριακή 14 Φεβρουαρίου 2016: Αυτοί είναι οι τυχεροί αριθμοί" rel="bookmark"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/tzoker-klirosi-kiriaki-fevrouariou-2016-autoi-einai-tixeroi-arithmoi-250x156.jpg" class="attachment-roi wp-post-image" alt="Τζόκερ, κλήρωση Κυριακή 14 Φεβρουαρίου 2016: Αυτοί είναι οι τυχεροί αριθμοί" /><span class="pop-overlay"><span class="pop-title">Τζόκερ, κλήρωση Κυριακή 14 Φεβρουαρίου 2016: Αυτοί είναι οι τυχεροί αριθμοί</span> </span></a><br class="pop-cl" /></li><li><a href="http://www.tragiko.net/2016/02/tragiki-figoura-mitera-panteli-pantelidi/" title="Τραγική φιγούρα η μητέρα του Παντελή Παντελίδη" rel="bookmark"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/tragiki-figoura-mitera-panteli-pantelidi-250x156.jpg" class="attachment-roi wp-post-image" alt="Τραγική φιγούρα η μητέρα του Παντελή Παντελίδη" /><span class="pop-overlay"><span class="pop-title">Τραγική φιγούρα η μητέρα του Παντελή Παντελίδη</span> </span></a><br class="pop-cl" /></li><li><a href="http://www.tragiko.net/2016/02/stin-pella-tera-kakopoiouse-seksoualika-anilika-paidia/" title="Σοκ στην Πέλλα: Μη - τέρα κακοποιούσε σεξουαλικά τα δυο ανήλικα παιδιά της" rel="bookmark"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/stin-pella-tera-kakopoiouse-seksoualika-anilika-paidia-250x156.jpg" class="attachment-roi wp-post-image" alt="Σοκ στην Πέλλα: Μη - τέρα κακοποιούσε σεξουαλικά τα δυο ανήλικα παιδιά της" /><span class="pop-overlay"><span class="pop-title">Σοκ στην Πέλλα: Μη - τέρα κακοποιούσε σεξουαλικά τα δυο ανήλικα παιδιά της</span> </span></a><br class="pop-cl" /></li><li><a href="http://www.tragiko.net/2016/02/sok-sto-panellinio-skotothike-o-pantelis-pantelidis/" title="ΣΟΚ ΣΤΟ ΠΑΝΕΛΛΗΝΙΟ: Σκοτώθηκε ο Παντελής Παντελίδης" rel="bookmark"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/Ανώνυμο-1-30-250x156.jpg" class="attachment-roi wp-post-image" alt="sok-sto-panellinio-skotothike-o-pantelis-pantelidis" /><span class="pop-overlay"><span class="pop-title">ΣΟΚ ΣΤΟ ΠΑΝΕΛΛΗΝΙΟ: Σκοτώθηκε ο Παντελής Παντελίδης</span> </span></a><br class="pop-cl" /></li><li><a href="http://www.tragiko.net/2016/02/tounel-tropi-thriler-daskalou/" title="Φως στο Τούνελ: Νέα τροπή στο θρίλερ του δασκάλου" rel="bookmark"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/tounel-tropi-thriler-daskalou-250x156.jpg" class="attachment-roi wp-post-image" alt="Φως στο Τούνελ: Νέα τροπή στο θρίλερ του δασκάλου" /><span class="pop-overlay"><span class="pop-title">Φως στο Τούνελ: Νέα τροπή στο θρίλερ του δασκάλου</span> </span></a><br class="pop-cl" /></li><li><a href="http://www.tragiko.net/2016/02/agrinio-xira-daskalou-espase-siopi-perimene-andra-mou/" title="Αγρίνιο: Η χήρα του δασκάλου έσπασε τη σιωπή της - Περίμενε τον άνδρα μου...." rel="bookmark"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/agrinio-xira-daskalou-espase-siopi-perimene-andra-mou-250x156.jpg" class="attachment-roi wp-post-image" alt="Αγρίνιο: Η χήρα του δασκάλου έσπασε τη σιωπή της - Περίμενε τον άνδρα μου...." /><span class="pop-overlay"><span class="pop-title">Αγρίνιο: Η χήρα του δασκάλου έσπασε τη σιωπή της - Περίμενε τον άνδρα μου....</span> </span></a><br class="pop-cl" /></li><li><a href="http://www.tragiko.net/2016/02/autoktonise-keli-35xronos-straggalise-sizigou/" title="Αυτοκτόνησε στο κελί του 35χρονος που στραγγάλισε τη συζύγου του" rel="bookmark"><img width="250" height="156" src="http://www.tragiko.net/wp-content/uploads/2016/02/autoktonise-keli-35xronos-straggalise-sizigou-250x156.jpg" class="attachment-roi wp-post-image" alt="Αυτοκτόνησε στο κελί του 35χρονος που στραγγάλισε τη συζύγου του" /><span class="pop-overlay"><span class="pop-title">Αυτοκτόνησε στο κελί του 35χρονος που στραγγάλισε τη συζύγου του</span> </span></a><br class="pop-cl" /></li></ul></div><!--.pop-inside--></div><!--.pop-layout-v--></aside>
+<aside id="category-posts-2" class="widget cat-post-widget"><h1 class="widget-title">ΚΟΥΤΣΟΜΠΟΛΙΟ</h1><ul>
+				
+				<li class="cat-post-item" >
+					
+										
+					
+					<a class="post-title  cat-post-title" 
+						href="http://www.tragiko.net/2016/01/ores-agonias-gia-tin-pinelopi-anastasopoulou-ekklisi-gia-aima/" rel="bookmark">Ώρες αγωνίας για την Πηνελόπη Αναστασοπούλου: Έκκληση για αίμα&#8230;					</a>
+
+												<a class="cat-post-thumbnail"								href="http://www.tragiko.net/2016/01/ores-agonias-gia-tin-pinelopi-anastasopoulou-ekklisi-gia-aima/" title="Ώρες αγωνίας για την Πηνελόπη Αναστασοπούλου: Έκκληση για αίμα&#8230;">
+								<img width="300" height="200" src="http://www.tragiko.net/wp-content/uploads/2016/01/pinelopi_anastasopoyloy-300x200.jpg" class="attachment-cat_post_thumb_sizecategory-posts-2 wp-post-image" alt="pinelopi_anastasopoyloy" />							</a>
+									</li>
+								
+				<li class="cat-post-item" >
+					
+										
+					
+					<a class="post-title  cat-post-title" 
+						href="http://www.tragiko.net/2015/12/g-vardis-maria-mou-kalo-taksidi-na-exeisna-filiseis-ton-paterouli-mou/" rel="bookmark">Γ. Βαρδής: «Μαρία μου καλό ταξίδι να έχεις…να φιλήσεις τον πατερούλη μου»					</a>
+
+												<a class="cat-post-thumbnail"								href="http://www.tragiko.net/2015/12/g-vardis-maria-mou-kalo-taksidi-na-exeisna-filiseis-ton-paterouli-mou/" title="Γ. Βαρδής: «Μαρία μου καλό ταξίδι να έχεις…να φιλήσεις τον πατερούλη μου»">
+								<img width="300" height="200" src="http://www.tragiko.net/wp-content/uploads/2015/12/Ανώνυμο-1-300x200.jpg" class="attachment-cat_post_thumb_sizecategory-posts-2 wp-post-image" alt="Ανώνυμο-1" />							</a>
+									</li>
+								
+				<li class="cat-post-item" >
+					
+										
+					
+					<a class="post-title  cat-post-title" 
+						href="http://www.tragiko.net/2015/03/giati-re-laki-i-apokalipsi-pou-kaiei-ton-megalo-satiriko-ithopoio/" rel="bookmark">Γιατί ρε Λάκη – Η αποκάλυψη που «καίει» τον μεγάλο σατιρικό ηθοποιό					</a>
+
+												<a class="cat-post-thumbnail"								href="http://www.tragiko.net/2015/03/giati-re-laki-i-apokalipsi-pou-kaiei-ton-megalo-satiriko-ithopoio/" title="Γιατί ρε Λάκη – Η αποκάλυψη που «καίει» τον μεγάλο σατιρικό ηθοποιό">
+								<img width="300" height="200" src="http://www.tragiko.net/wp-content/uploads/2015/03/57-300x200.jpg" class="attachment-cat_post_thumb_sizecategory-posts-2 wp-post-image" alt="57" />							</a>
+									</li>
+				</ul>
+</aside><aside id="category-posts-4" class="widget cat-post-widget"><h1 class="widget-title">ΥΓΕΙΑ</h1><ul>
+				
+				<li class="cat-post-item" >
+					
+										
+					
+					<a class="post-title  cat-post-title" 
+						href="http://www.tragiko.net/2016/02/merck-enisxiei-draseis-pespa-pagkosmia-imera-spanion-pathiseon/" rel="bookmark">Η Merck ενισχύει τις δράσεις της Π.Ε.Σ.Π.Α. για την Παγκόσμια Ημέρα Σπανίων Παθήσεων					</a>
+
+												<a class="cat-post-thumbnail"								href="http://www.tragiko.net/2016/02/merck-enisxiei-draseis-pespa-pagkosmia-imera-spanion-pathiseon/" title="Η Merck ενισχύει τις δράσεις της Π.Ε.Σ.Π.Α. για την Παγκόσμια Ημέρα Σπανίων Παθήσεων">
+								<img width="500" height="280" src="http://www.tragiko.net/wp-content/uploads/2016/02/merck-enisxiei-draseis-pespa-pagkosmia-imera-spanion-pathiseon.jpg" class="attachment-cat_post_thumb_sizecategory-posts-4 wp-post-image" alt="Η Merck ενισχύει τις δράσεις της Π.Ε.Σ.Π.Α. για την Παγκόσμια Ημέρα Σπανίων Παθήσεων" />							</a>
+									</li>
+								
+				<li class="cat-post-item" >
+					
+										
+					
+					<a class="post-title  cat-post-title" 
+						href="http://www.tragiko.net/2016/02/apli-sinitheia-mporei-sosei-karkino/" rel="bookmark">Μία απλή συνήθεια μπορεί να σας σώσει από τον καρκίνο					</a>
+
+												<a class="cat-post-thumbnail"								href="http://www.tragiko.net/2016/02/apli-sinitheia-mporei-sosei-karkino/" title="Μία απλή συνήθεια μπορεί να σας σώσει από τον καρκίνο">
+								<img width="500" height="280" src="http://www.tragiko.net/wp-content/uploads/2016/02/apli-sinitheia-mporei-sosei-karkino.jpg" class="attachment-cat_post_thumb_sizecategory-posts-4 wp-post-image" alt="Μία απλή συνήθεια μπορεί να σας σώσει από τον καρκίνο" />							</a>
+									</li>
+								
+				<li class="cat-post-item" >
+					
+										
+					
+					<a class="post-title  cat-post-title" 
+						href="http://www.tragiko.net/2016/02/thanatoi-gripi-meth/" rel="bookmark">110 θάνατοι από την γρίπη και 111 σε ΜΕΘ					</a>
+
+												<a class="cat-post-thumbnail"								href="http://www.tragiko.net/2016/02/thanatoi-gripi-meth/" title="110 θάνατοι από την γρίπη και 111 σε ΜΕΘ">
+								<img width="500" height="280" src="http://www.tragiko.net/wp-content/uploads/2016/02/thanatoi-gripi-meth.jpg" class="attachment-cat_post_thumb_sizecategory-posts-4 wp-post-image" alt="110 θάνατοι από την γρίπη και 111 σε ΜΕΘ" />							</a>
+									</li>
+				</ul>
+</aside><aside id="category-posts-5" class="widget cat-post-widget"><h1 class="widget-title">ΠΑΡΑΞΕΝΑ</h1><ul>
+				
+				<li class="cat-post-item" >
+					
+										
+					
+					<a class="post-title  cat-post-title" 
+						href="http://www.tragiko.net/2015/12/auto-sigoura-den-einai-fisiologiko/" rel="bookmark">Αυτό σίγουρα ΔΕΝ είναι φυσιολογικό!					</a>
+
+												<a class="cat-post-thumbnail"								href="http://www.tragiko.net/2015/12/auto-sigoura-den-einai-fisiologiko/" title="Αυτό σίγουρα ΔΕΝ είναι φυσιολογικό!">
+								<img width="500" height="280" src="http://www.tragiko.net/wp-content/uploads/2015/12/mpontimpilnter-moiazoun-einai-pseutikoi-alla-einai-apolitos-pragmatikoi-500x280.jpg" class="attachment-cat_post_thumb_sizecategory-posts-5 wp-post-image" alt="mpontimpilnter-moiazoun-einai-pseutikoi-alla-einai-apolitos-pragmatikoi-500x280" />							</a>
+									</li>
+								
+				<li class="cat-post-item" >
+					
+										
+					
+					<a class="post-title  cat-post-title" 
+						href="http://www.tragiko.net/2015/04/to-teras-tou-lox-nes/" rel="bookmark">Το τέρας του Λοχ Νες					</a>
+
+												<a class="cat-post-thumbnail"								href="http://www.tragiko.net/2015/04/to-teras-tou-lox-nes/" title="Το τέρας του Λοχ Νες">
+								<img width="800" height="601" src="http://www.tragiko.net/wp-content/uploads/2015/04/800px-Lochneska_poboba_museumofnessie.jpg" class="attachment-cat_post_thumb_sizecategory-posts-5 wp-post-image" alt="800px-Lochneska_poboba_museumofnessie" />							</a>
+									</li>
+								
+				<li class="cat-post-item" >
+					
+										
+					
+					<a class="post-title  cat-post-title" 
+						href="http://www.tragiko.net/2015/04/agio-fos-to-vinteo-pou-deixnei-kathara-to-thauma-se-argi-kinisi/" rel="bookmark">ΑΓΙΟ ΦΩΣ: ΤΟ ΒΙΝΤΕΟ ΠΟΥ ΔΕΙΧΝΕΙ ΚΑΘΑΡΑ ΤΟ ΘΑΥΜΑ ΣΕ ΑΡΓΗ ΚΙΝΗΣΗ					</a>
+
+												<a class="cat-post-thumbnail"								href="http://www.tragiko.net/2015/04/agio-fos-to-vinteo-pou-deixnei-kathara-to-thauma-se-argi-kinisi/" title="ΑΓΙΟ ΦΩΣ: ΤΟ ΒΙΝΤΕΟ ΠΟΥ ΔΕΙΧΝΕΙ ΚΑΘΑΡΑ ΤΟ ΘΑΥΜΑ ΣΕ ΑΡΓΗ ΚΙΝΗΣΗ">
+								<img width="560" height="373" src="http://www.tragiko.net/wp-content/uploads/2015/04/6789.jpg" class="attachment-cat_post_thumb_sizecategory-posts-5 wp-post-image" alt="6789" />							</a>
+									</li>
+				</ul>
+</aside><aside id="text-7" class="widget widget_text">			<div class="textwidget"><!-- Histats.com  START (hidden counter)-->
+<script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
+<a href="http://www.histats.com" target="_blank" title="web statistics" ><script  type="text/javascript" >
+try {Histats.start(1,2202618,4,0,0,0,"");
+Histats.track_hits();} catch(err){};
+</script></a>
+<noscript><a href="http://www.histats.com" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?2202618&101" alt="web statistics" border="0"></a></noscript>
+<!-- Histats.com  END  --></div>
+		</aside>	</div><!-- #secondary -->
+
+	</div><!-- #content -->
+</div><!-- #page -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+	<hr />
+		<div id="footer-menu">
+		
+		</div>
+		<div class="site-info">
+						<a href="http://www.tcp.gr" title="tcp.gr Project" target="blank" alt="tcp.gr Project">Web Design & Development by tcp.gr Project</a>.
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+
+
+<script type='text/javascript' src='http://www.tragiko.net/wp-content/themes/pepmagazine/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='http://www.tragiko.net/wp-content/themes/pepmagazine/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='http://www.tragiko.net/wp-content/plugins/popular-widget/_js/pop-widget.js?ver=1.7.0'></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60141596-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

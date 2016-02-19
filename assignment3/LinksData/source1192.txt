@@ -1,0 +1,614 @@
+<!DOCTYPE html><!-- Amazing Template Framework 1.2.0 pro -->
+<html lang="es-es" dir="ltr" >
+	<head>
+		<link href="http://fonts.googleapis.com/css?family=" rel="stylesheet" type="text/css">  <base href="http://www.rosmat.net/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Super User" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>INICIO</title>
+  <link href="http://www.rosmat.net/" rel="canonical" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/jui/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="/media/jui/css/bootstrap-responsive.min.css" type="text/css" />
+  <link rel="stylesheet" href="/media/jui/css/bootstrap-extended.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_cookiesaccept/screen.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_avatar_articles_nivo/assets/css/default.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_avatar_articles_nivo/assets/css/nivo-slider.css" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+  <script src="/modules/mod_avatar_articles_nivo/assets/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});jQuery.noConflict();
+  </script>
+<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/system/css/editor.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/at_nine/core/assets/css/layout.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/at_nine/core/assets/css/core_joomla.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/at_nine/core/assets/css/responsive.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/at_nine/css/template.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/at_nine/css/typography.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/at_nine/showcases/orange/css/color.css" type="text/css"/><script src='/templates/at_nine/js/avatar-template.js' type='text/javascript'></script>
+<script src='/templates/at_nine/core/assets/js/jquery.lazy.min.js' type='text/javascript'></script>
+<script src='/templates/at_nine/core/assets/js/modernizr.custom.js' type='text/javascript'></script>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+<script type='text/javascript'>
+			jQuery.noConflict();
+			(function($){
+				$(document).ready(function()
+				{
+					if ($('body').hasClass('avatar-responsive'))
+					{
+						var mainMenu = $('.at-main-menu > ul');
+						var mainMenWrap = $ ('.at-main-menu');
+						
+						mainMenWrap.find('span.menu-pull').click(function(event){
+							$(this.getParent()).find('ul:first').slideToggle();
+						});
+						
+						mainMenu.find('li > span.pull').click(function(event){
+							$(this.getParent()).find('ul:first').slideToggle();
+						});
+						
+						$(window).resize(function(){
+							if($(window).width() > 767) {
+								mainMenu.find('ul').removeAttr('style');
+							}
+						});
+						function at_responsive_transfer(){				
+							var at_default_width = 960;
+							if($(window).width() < at_default_width){
+								$('.block-default-width').addClass('block-max-width-100');
+								$('.block-default-width').addClass('block-default-width-tmp');
+								$('.block-default-width-tmp').removeClass('block-default-width');
+							}
+							else{
+								$('.block-default-width-tmp').removeClass('block-max-width-100');
+								$('.block-default-width-tmp').addClass('block-default-width');
+								$('.block-default-width').removeClass('block-default-width-tmp');
+							}			
+						}		    
+						at_responsive_transfer();			
+						$(window).resize(function(e){		    	
+							at_responsive_transfer();		    
+						});
+					}
+				});
+			})(jQuery)
+		</script>
+			<script type='text/javascript'>
+			jQuery.noConflict();
+			(function($){
+				$(document).ready(function() {
+					var goToTop = $('#avatar-go-to-top');
+					goToTop.hide();
+					
+					// fade in #back-top
+					$(function () {
+						$(window).scroll(function () {
+							if ($(this).scrollTop() > 100) {
+								goToTop.fadeIn();
+							} else {
+								goToTop.fadeOut();
+							}
+						});
+				
+						// scroll body to 0px on click
+						goToTop.click(function () {
+							$('body,html').animate({
+								scrollTop: 0
+							}, 800);
+							return false;
+						});
+					});
+				});
+			})(jQuery)
+			</script>
+		
+	 		<script type='text/javascript'>
+				jQuery.noConflict();
+				(function($){
+					$(document).ready(function()
+					{
+						avatarTemplate.template.name = "at_nine" 
+						avatarTemplate.image.initEffects();
+						avatarTemplate.layout.init();
+						avatarTemplate.settingPanel.init();
+					});
+				})(jQuery)
+			</script>
+	 	<style type="text/css">
+body{ font-family: Helvetica, sans-serif;}
+.at-main-menu *{ font-family: Helvetica, sans-serif;}
+</style>		<style type="text/css">
+			.avatar-wrapper{
+				width: 960px;
+				margin: auto;
+			}
+			
+			#avatar-pos-top-left {
+				width: 20%;
+			}
+			#avatar-pos-top-middle {
+				width: 0%;
+			}
+			#avatar-pos-top-right {
+				width: 80%;
+			}
+			
+			#avatar-pos-footer-left {
+				width: 7%;
+			}
+			#avatar-pos-footer-middle {
+				width: 70%;
+			}
+			#avatar-pos-footer-right {
+				width: 23%;
+			}
+			
+			#avatar-pos-promo-top-left {
+				width: 33.33%;
+			}
+			#avatar-pos-promo-top-middle {
+				width: 100%;
+			}
+			#avatar-pos-promo-top-right {
+				width: 33.33%;
+			}
+			
+			#avatar-pos-promo-bottom-left {
+				width: 33.33%;
+			}
+			#avatar-pos-promo-bottom-middle {
+				width: 100%;
+			}
+			#avatar-pos-promo-bottom-right {
+				width: 60%;
+			}
+			
+			#avatar-left {
+				width: 30%;
+			}
+			#avatar-right {
+				width: 100%;
+			}
+			#avatar-content {
+				width: 100%;
+			}
+			#avatar-pos-inner-left {
+				width: 23%;
+			}
+			#avatar-pos-inner-right {
+				width: 23%;
+			}
+			
+			#avatar-main-content{
+				width: 100%;
+			}
+					</style>
+		
+		<script type="text/javascript">
+				  var _gaq = _gaq || [];
+				  _gaq.push(["_setAccount", "UA-36688017-1"]);
+				  _gaq.push(["_trackPageview"]);
+
+				  (function() {
+					var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true;
+					ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+					var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);
+				  })();
+
+				</script>	</head>
+	<body id="avatar-template" class="avatar-responsive">
+		<div id="top"></div>
+						<div class="clearfix">
+							<a id="avatar-go-to-top" href="#top">
+					<span></span>
+				</a>
+									
+						
+						
+						
+						
+															
+						
+							<div id="avatar-header-inside-block">
+					<div class="avatar-wrapper block-default-width">
+											<div id="avatar-pos-top-left">
+									<div class="avatar-module no-padding-marging avatar-template-logo">
+					<div class="avatar-module-content">
+				
+
+<div class="custom"  >
+	<p><a href="http://www.rosmat.net/"><img src="/images/Logotipo-Rosmat.png" /></a></p></div>
+			</div>
+		</div>
+	
+						</div>
+										
+										
+											<div id="avatar-pos-top-right">
+									<div class="avatar-module _menu no-padding-marging">
+					<div class="avatar-module-content">
+				
+<ul class="menu clearfix avatar-main-menu">
+<li class="item-101 current active"><a href="/" >INICIO</a></li><li class="avatar-menu-before item-122 deeper parent"><span class="separator">Nuestra Alma</span>
+<ul><li class="item-163"><a href="/nuestra-alma/rosmat.html" >Rosmat</a></li><li class="item-172"><a href="/nuestra-alma/rsc.html" >RSC</a></li><li class="item-161"><a href="/nuestra-alma/nuestro-verdadero-motor.html" >Nuestro verdadero motor</a></li><li class="item-124"><a href="/nuestra-alma/somos-calidad.html" >Somos calidad </a></li></ul></li><li class="avatar-menu-before item-102 deeper parent"><span class="separator">¿Que te ofrecemos?</span>
+<ul><li class="item-103"><a href="/que-te-ofrecemos/transporte-escolar.html" >Transporte Escolar</a></li><li class="item-104"><a href="/que-te-ofrecemos/tu-boda.html" >Transportes Boda</a></li><li class="item-105 deeper parent"><a href="/que-te-ofrecemos/viajes-organizados.html" >Viajes organizados</a><ul><li class="item-106"><a href="/que-te-ofrecemos/viajes-organizados/transfers.html" >Transfers</a></li><li class="item-116"><a href="/que-te-ofrecemos/viajes-organizados/tours.html" >Tours</a></li><li class="item-107"><a href="/que-te-ofrecemos/viajes-organizados/visitas-panoramicas.html" >Visitas Panoramicas</a></li></ul></li><li class="item-114 deeper parent"><a href="/que-te-ofrecemos/me-gustan-los-eventos.html" >Transporte eventos</a><ul><li class="item-115"><a href="/que-te-ofrecemos/me-gustan-los-eventos/eventos-deportivos.html" >Eventos Deportivos</a></li><li class="item-117"><a href="/que-te-ofrecemos/me-gustan-los-eventos/eventos-musicales.html" >Eventos Musicales </a></li><li class="item-118"><a href="/que-te-ofrecemos/me-gustan-los-eventos/eventos-taurinos.html" >Eventos Taurinos</a></li><li class="item-119"><a href="/que-te-ofrecemos/me-gustan-los-eventos/asociaciones.html" >Asociaciones, Fundaciones, ONG </a></li></ul></li></ul></li><li class="avatar-menu-before item-120"><a href="/nuestra-flota.html" >Nuestra Flota </a></li><li class="avatar-menu-before item-121"><a href="/presupuesto.html" >¿Un Presupuesto?</a></li><li class="avatar-menu-before item-110"><a href="/contacto.html" >Contacto</a></li></ul><div style="clear:both;"></div>
+			</div>
+		</div>
+	
+						</div>
+										<div class="clearbreak"></div>
+					</div>
+				</div>
+						
+			<div id="avatar-tool-block">
+				<div class="avatar-wrapper block-max-width-100">
+														<div class="avatar-module avatar-caption no-padding-marging avatar-banner-full">
+					<div class="avatar-module-content">
+				<div id="avatar_articles_nivo_free" class="slider-wrapper theme-default" style="width:100%;height:auto;margin:auto;">
+    <div id="slider_free" class="nivoSlider">
+        					<a target="_blank"			href="http://www.rosmat.net/contacto" 
+			title="Slide Publicidad">
+					<img src="/images/slide/slider_publicidad.png" 
+			alt="Slide Publicidad" 
+			title="&lt;div class=&quot;nivo-introtext&quot;&gt;&lt;/div&gt;">
+									<a target="_blank"			href="http://www.rosmat.net/contacto" 
+			title="slide boda">
+					<img src="/images/slide/slider_boda.png" 
+			alt="slide boda" 
+			title="&lt;div class=&quot;nivo-introtext&quot;&gt;&lt;/div&gt;">
+									<a target="_blank"			href="http://www.rosmat.net/contacto" 
+			title="Slide Nieve">
+					<img src="/images/slide/slide_nieve.png" 
+			alt="Slide Nieve" 
+			title="&lt;div class=&quot;nivo-introtext&quot;&gt;&lt;/div&gt;">
+				    </div>
+</div><script type="text/javascript">
+jQuery.noConflict();
+(function($) 
+{ 
+	$(function() 
+	{
+		$(document).ready( function()
+		{					
+			$('#slider_free').nivoSlider({
+				effect			:'fade',
+				slices			:15,
+				boxRows			:8,
+				boxCols			:16,
+				animSpeed		:400,
+				pauseTime		:4000,
+				controlNav		:true,
+				randomStart		:true,
+				manualAdvance	:true			});
+			$('#slider_free .nivo-caption .nivo-title h2').css("color","");
+			$('#slider_free .nivo-caption .nivo-introtext p').css("color","");
+		});
+	})
+})(jQuery);
+</script>
+<div class="avatar-copyright" style="width:100%;margin: 5px;text-align: center;display : none ;">
+	&copy; JoomAvatar.com
+	<a target="_blank" href="http://joomavatar.com" title="Joomla Template & Extension">Joomla Extension</a>-
+	<a target="_blank" href="http://joomavatar.com" title="Joomla Template & Extension">Joomla Template</a>
+</div>			</div>
+		</div>
+	
+									</div>
+			</div>
+			
+										<div id="avatar-body-top-block">
+					<div class="avatar-wrapper block-default-width">
+										
+											<div id="avatar-pos-content-top">
+									<div class="avatar-module avatar-slogan no-padding-marging avatar-shadow-1 avatar-slogan-margin-negative">
+					<div class="avatar-module-content">
+				
+
+<div class="custom"  >
+	<p style="float: right; margin: 20px 20px;"><a class="btn" href="/presupuesto"><strong style="font-size: 13px; line-height: 24px;">Solicítanos un <br />Presupuesto</strong></a></p>
+<p><strong style="line-height: 24px; font-size: 16px; color: black;">Tu satisfacción, Nuestro valor. </strong></p>
+<p><span>Nuestro objetivo, además de que vuelvas, es que recuerdes con cariño en que autocares montaste aquel día especial en el que usaste nuestros servicios. <br /><span>Consulta las ofertas que tenemos o solicítanos un presupuesto: 954 121 101 - 606 379 352</span></span></p></div>
+			</div>
+		</div>
+	
+						</div>
+						<div class="clearbreak"></div>
+										
+										
+										</div>
+				</div>
+					
+									
+			<div id="avatar-body-middle-block" class=" ">
+				<div class="avatar-wrapper block-default-width">
+				<div class="inner">
+								
+				<div id="avatar-content">
+					<div class="inner">
+												
+						<div id="avatar-main-content">
+							<div id="avatar-main-content-inner">
+														
+															<div id="avatar-pos-message">
+									
+<div id="system-message-container">
+<div id="system-message">
+</div>
+</div>
+								</div>	
+														
+														
+														
+														
+														
+															<div id="avatar-pos-main-body">
+																			
+
+
+
+<div class="item-page">
+					
+	
+	
+		
+						<div class="item-content">
+			 	</div>
+	
+						 </div>
+
+																	</div>	
+														
+														
+													
+													
+														</div>
+						</div>
+						
+												<div class="clearbreak"></div>
+					</div>
+				</div>
+								<div class="clearbreak"></div>
+				</div>
+				</div>
+			</div>
+										<div id="avatar-body-bottom-block">
+					<div class="avatar-wrapper block-default-width">
+										
+										
+										
+											<div id="avatar-user-bottom-col-4">
+															<div id="avatar-pos-user-15">
+											<div class="avatar-module fl-css">
+					<div class="avatar-module-content">
+				
+
+<div class="custom"  >
+	<p style="text-align: center;"><span class="feature-icon"><a href="/que-te-ofrecemos/transporte-escolar"><img src="/images/portada/transporte-colegios.png" alt="Transporte Escolar" width="100" height="100" style="display: block; margin-left: auto; margin-right: auto;" /></a></span></p>
+<h3 style="text-align: center;"><strong>TRANSPORTE ESCOLAR</strong></h3>
+<p style="text-align: center;"><em><span style="line-height: 1.3em;">Rutas, excursiones, <br />viajes de fin de curso...</span></em><a href="#" style="line-height: 1.3em;"><br /></a></p>
+<p style="text-align: center;"><em><span style="line-height: 1.3em;"> </span></em></p></div>
+			</div>
+		</div>
+	
+								</div>
+														
+															<div id="avatar-pos-user-16">
+											<div class="avatar-module ">
+					<div class="avatar-module-content">
+				
+
+<div class="custom"  >
+	<p style="text-align: center;"><span class="feature-icon"><a href="/que-te-ofrecemos/tu-boda"><img src="/images/portada/transporte-boda.png" alt="Transporte boda" width="100" height="100" style="display: block; margin-left: auto; margin-right: auto;" /></a></span></p>
+<h3 style="text-align: center;"><strong>TRANSPORTE BODAS</strong></h3>
+<p style="text-align: center;"><em><span style="line-height: 1.3em;">Damos un toque de originalidad a tu día especial. Tus invitados lo recordarán...</span></em><a href="#" style="line-height: 1.3em;"><br /></a></p>
+<p style="text-align: center;"><em><span style="line-height: 1.3em;"> </span></em></p></div>
+			</div>
+		</div>
+	
+								</div>
+														
+															<div id="avatar-pos-user-17">
+											<div class="avatar-module ">
+					<div class="avatar-module-content">
+				
+
+<div class="custom"  >
+	<p style="text-align: center;"><span class="feature-icon"><a href="/que-te-ofrecemos/viajes-organizados"><img style="display: block; margin-left: auto; margin-right: auto;" src="/images/portada/transporte-viajes.png" alt="transporte autobús" width="100" height="NaN" /></a></span></p>
+<h3 style="text-align: center;"><strong>VIAJES ORGANIZADOS</strong></h3>
+<p style="text-align: center;"><em>Los mejores autocares para que conozcas el mundo.</em><a href="#"><br /></a></p>
+<p style="text-align: center;"><em> </em></p></div>
+			</div>
+		</div>
+	
+								</div>
+														
+															<div id="avatar-pos-user-18">
+											<div class="avatar-module ">
+					<div class="avatar-module-content">
+				
+
+<div class="custom"  >
+	<p style="text-align: center;"><span class="feature-icon"><a href="/que-te-ofrecemos/me-gustan-los-eventos"><img src="/images/portada/transporte-eventos.png" alt="eventos" width="100" height="100" style="display: block; margin-left: auto; margin-right: auto;" /></a></span></p>
+<h3 style="text-align: center;"><strong>TRANSPORTE EVENTOS</strong></h3>
+<p style="text-align: center;"><em>Cuenta con nosotros para conseguir la mayor satisfacción de los invitados a tu evento.</em><a href="/que-te-ofrecemos/me-gustan-los-eventos"><br /></a></p>
+<p style="text-align: center;"><em> </em></p></div>
+			</div>
+		</div>
+	
+								</div>
+														<div class="clearbreak"></div>
+						</div>
+										</div>
+				</div>
+																			<div id="avatar-footer-inside-block">
+					<div class="avatar-wrapper block-default-width">
+										
+											<div id="avatar-pos-footer-left">
+									<div class="avatar-module ">
+					<div class="avatar-module-content">
+				
+
+<div class="custom"  >
+	<p style="text-align: right;"><a href="/index.php/nuestra-alma/somos-calidad" title="Somos Calidad"><img src="/images/portada/iso9001.gif" alt="" width="50" /></a></p>
+<p> </p></div>
+			</div>
+		</div>
+	
+						</div>
+										
+											<div id="avatar-pos-footer-middle">
+									<div class="avatar-module  no-padding-margin-side">
+					<div class="avatar-module-content">
+				
+<ul class="menu clearfix  avatar-footer-nav ">
+<li class="item-169"><a href="/aviso-legal.html" >Aviso Legal</a></li><li class="avatar-menu-before item-167"><a href="/proteccion-de-datos.html" >Protección de datos</a></li><li class="avatar-menu-before item-165"><a href="/politica-de-cookies.html" >Política de Cookies</a></li></ul><div style="clear:both;"></div>
+			</div>
+		</div>
+			<div class="avatar-module avatar-module-border-top avatar-footer-address no-padding-marging">
+					<div class="avatar-module-content">
+				
+
+<div class="custom"  >
+	<ul style="display: table;">
+<li class="avatar-address"><span style="line-height: 1.3em;"> Pol. Industrial Fuentequintillo, C/ Via Apia 20 , Ofic 4, 41089 Montequinto (Sevilla) </span></li>
+<li class="avatar-phone"><span style="line-height: 1.3em;"> 954 121 101 - 606 379 352 </span></li>
+<li class="avatar-email"><span style="line-height: 1.3em;"> 
+ <script type='text/javascript'>
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy3838 = '&#105;nf&#111;' + '&#64;';
+ addy3838 = addy3838 + 'r&#111;sm&#97;t' + '&#46;' + 'n&#101;t';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy3838 + '\'>');
+ document.write(addy3838);
+ document.write('<\/a>');
+ //-->\n </script><script type='text/javascript'>
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script>Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+ <script type='text/javascript'>
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script> </span></li>
+</ul></div>
+			</div>
+		</div>
+	
+						</div>
+										
+											<div id="avatar-pos-footer-right">
+									<div class="avatar-module no-padding-margin-side social-heading">
+					<h3 class="avatar-module-heading "><span></spam><span>SIGUENOS EN:</span></span></h3>
+					<div class="avatar-module-content">
+				
+
+<div class="custom"  >
+	<p>     <a href="https://www.facebook.com/rosmatautocares" target="_blank" title="facebook"><img src="/images/facebook2.png" alt="facebook" /></a> <a href="https://www.linkedin.com/company/rosmat-s-l-" target="_blank" title="Linkedin"><img src="/images/linkedin2.png" alt="linkedin" /></a> <a href="https://twitter.com/rosmatautocares" target="_blank" title="twitter"><img src="/images/twitter2.png" alt="twitter" /></a> <a href="https://plus.google.com/+RosmatNetAutocares/posts" target="_blank" title="google plus"><img src="/images/google.png" alt="google" /></a></p></div>
+			</div>
+		</div>
+	
+						</div>
+										<div class="clearbreak"></div>
+					</div>
+				</div>
+						
+						
+							<div id="avatar-footer-block">
+					<div class="avatar-wrapper block-default-width">
+								<div class="avatar-module  avatar-copyright">
+					<div class="avatar-module-content">
+				
+
+<div class="custom"  >
+	<p>Copyright ROSMAT © 2015 Todos los derechos reservados</p></div>
+			</div>
+		</div>
+			<div class="avatar-module ">
+					<div class="avatar-module-content">
+				<!--googleoff: all-->
+<div id="ca_banner" 
+    style=":0px;
+            ">
+    <h2 style="
+		"></h2> 
+    <p style="
+				">                </p>
+    <div class="accept" style="">Acepto</div>
+</div>
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function () { 
+	
+	function setCookie(c_name,value,exdays)
+	{
+		var exdate=new Date();
+		exdate.setDate(exdate.getDate() + exdays);
+		var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString()) + "; path=/";
+		document.cookie=c_name + "=" + c_value;
+	}
+	
+	function readCookie(name) {
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+			}
+		return null;
+	}
+    
+	var $ca_banner = jQuery('#ca_banner');
+    var $ca_infoplus = jQuery('.infoplus.info_modal');
+    var $ca_info = jQuery('#ca_info');
+    var $ca_info_close = jQuery('.ca_info_close');
+    var $ca_infoaccept = jQuery('.accept');
+    
+	var cookieaccept = readCookie('cookieaccept');
+	if(!(cookieaccept == "yes")){
+	
+		$ca_banner.delay(1000).slideDown('fast'); 
+        $ca_infoplus.click(function(){
+            $ca_info.fadeIn("fast");
+        });
+        $ca_info_close.click(function(){
+            $ca_info.fadeOut("slow");
+        });
+        $ca_infoaccept.click(function(){
+			setCookie("cookieaccept","yes",365);
+            jQuery.post('http://www.rosmat.net/', 'set_cookie=1', function(){});
+            $ca_banner.slideUp('slow');
+            $ca_info.fadeOut("slow");
+        });
+       } 
+    });
+</script>
+<!--googleon: all-->
+			</div>
+		</div>
+	
+					</div>
+				</div>
+									
+		</div>
+		<div id="avatar-debug">
+			
+		</div>
+	</body>
+</html>
+ 

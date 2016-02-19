@@ -1,0 +1,2036 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="MobileOptimized" content="176" />
+    <meta name="PalmComputingPlatform" content="true" />
+
+    <meta name="description" content="Павлодар онлайн - сайт города Павлодар. Всё самое интересное о Павлодаре, его жителях и многом другом. Павлодар сегодня. Новости города Павлодар. Афиша Павлодара. Кинотеатры Павлодара. События города Павлодар. Погода в Павлодаре. Эксперты Павлодара. Форум Павлодара. Газеты Павлодара."/>
+    <meta name="keywords" content="Павлодар, Павлодарки, Павлодарцы, г Павлодар, новости Павлодар, афиша Павлодар,
+погода Павлодар, бесплатные объявления Павлодар, Павлодар онлайн, в Павлодаре,
+Павлодар новости, Экибастуз, в Экибастузе, Аксу, в Аксу, Казахстан, в Казахстане,
+новости, Павлодарская афиша, Мероприятия в Павлодаре, фото Павлодара, фотогалерея,
+фирмы, происшествия в Павлодаре, павлодарское сообщество, дислокация,
+online карта, скачать карту, сайты, компания ФИНИСТ, creativegroup,
+Павлодарский портал, Павлодарский сайт, сайт города Павлодара,
+портал города Павлодара, Канат Бозумбаев, Болат Бакауов, аким павлодарской области,
+Pavlodar news, Pavlodarnews, Павлодар ньюс, Павлодарньюс, гу-гу,
+аким Павлодара, аким города Павлодар, акимат Павлодарской области, акимат Павлодара "/>
+
+    <meta property="og:site_name" content="Павлодар-онлайн" />
+    <meta property="og:title" content="Павлодар онлайн" />
+    <meta property="og:description" content="Павлодар онлайн - сайт города Павлодар. Всё самое интересное о Павлодаре, его жителях и многом другом. Павлодар сегодня. Новости города Павлодар. Афиша Павлодара. Кинотеатры Павлодара. События города Павлодар. Погода в Павлодаре. Эксперты Павлодара. Форум Павлодара. Газеты Павлодара." />
+    <meta property="og:image" content="http://pavon.kz/assets/image/logotype.png" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://pavon.kz/" />
+
+    <meta name='loginza-verification' content='cd781430cf52b275980a21ec8c1c1487' />
+    <meta name="google-site-verification" content="AnVmHHdEsu_Wp_ZiNtZsy4veDSOkHclFZ0hiYlDAWL0" />
+
+    <link rel="shortcut icon" href="http://pavon.kz/media/img/ui/favicon.ico">
+    <link rel="search" type="application/opensearchdescription+xml" title="Pavon.kz" href="/search.xml">
+    <link rel="image_src" href="http://pavon.kz/assets/image/logotype.png"/>
+
+    <title>Павлодар онлайн</title>
+    <script type="text/javascript" src="/media/js/jquery/jquery_dev.js"></script>
+
+    <script type="text/javascript">
+        var SCRIPTS_VERSION = "8.18.7";
+        var APP_MOBILE = 0;
+    </script>
+
+</head>
+<!--[if lt IE 7 ]> <body class="ie6"> <![endif]--> 
+<!--[if IE 7 ]>    <body class="ie7"> <![endif]--> 
+<!--[if IE 8 ]>    <body class="ie8"> <![endif]--> 
+<!--[if IE 9 ]>    <body class="ie9"> <![endif]--> 
+<!--[if gt IE 9]>  <body> <![endif]-->
+<!--[if !IE]><!--> <body> <!--<![endif]-->
+
+
+<div class="wrapper app-state-extended" data-entry-point="/">
+
+    <div class="page">
+
+        <div class="header-wrapper">
+            <div class="app-resizable">
+
+                <div class="header">
+                    <a href="/" class="logotype">
+                        <img src="/assets/image/logotype.png" alt="Pavon" title="Pavon">
+                    </a>
+                    <ul>
+                        <li data-menu="post">
+                            <a href="/post/news">Новости</a>
+                        </li>
+                        <li data-menu="afisha">
+                            <a href="/afisha/hot">Афиша</a>
+                        </li>
+                        <li data-menu="ads">
+                            <a href="/shop/list">Объявления</a>
+                        </li>
+                        <li data-menu="forum">
+                            <a href="/post/forum">Форум</a>
+                        </li>
+                        <!--
+                        <li data-menu="firm">
+                            <a href="/firm/list">Фирмы</a>
+                        </li>
+                        -->
+                        <li data-menu="gallery">
+                            <a href="/gallery/view">Фото</a>
+                        </li>
+                        <li>
+                            <a href="/valuta">Валюта</a>
+                        </li>
+                                             
+                    </ul>
+
+                    <span class="language">
+                        <a href="/kz" reload="true">қаз</a>
+                        <a class="active"  href="/ru" reload="true">рус</a>
+                        <a href="/en" reload="true">eng</a>
+                        <a href="/ar" reload="true">arabic</a>
+                    </span>
+
+                    <span class="search-entry">
+                        <a href="/search">
+                            <img src="/media/design/search_icon.png" alt="Поиск"  title="Поиск" />
+                        </a>
+                    </span>
+<script>                    
+function panelView() {
+    if ($('.panel').css('display')=='none'){ 
+        $('.panel').css('display','block');
+        $('.panel-hide-button').css('right','230px');
+        $('.panel-hide-button').css('border-right','1px solid #363636');
+        $('.panel-hide-button').css('background-position','0 0');
+    }
+    else {
+        $('.panel').css('display','none');    
+        $('.panel-hide-button').css('right','0');
+        $('.panel-hide-button').css('border-right','none');
+        $('.panel-hide-button').css('background-position','0 -52px');
+    }
+}      
+</script>              
+                    
+                    <a href="#" onclick="panelView(); return false;" class="panel-hide-button">
+                        <div class="sum-count-all">
+                            <i class="counter" data-ui="counter"></i>
+                        </div>
+                    </a>                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation-wrapper">
+            <div class="app-resizable">
+                <div class="navigation">
+                    <ul>
+                                                                                                </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="app-resizable">
+                <div class="content">
+                    <!-- main page start -->
+<div class="app-main-page">
+
+        
+    <div class="span-row top-promo-view">
+
+                <div class="span-column-5 column">
+           
+        </div>
+        
+
+                <div class="span-column-5 column">
+            
+        </div>
+            </div>
+
+<!-- city status start -->
+<div class="span-row city-status">
+        <div class="span-column-5 column" title="">
+        <h4>Погода в Павлодаре</h4>
+        <div class="weather">
+            <img src="/media/img/ui/weather/sun_cloud_big.png" title="Давление 1015.92 мм рт. ст">
+            <span class="degree">-14,11°С</span>
+            <span class="info">ветер 3.13 м/c, северо-западный</span>
+            <span class="temperature-partner">температура предоставлена метеостанцией <a href="http://ineu.edu.kz/ru/meteostantsiya-ineu">ИнЕУ</a></span>
+        </div>
+    </div>
+        <!--
+    <div class="span-column-5 column">
+        <h4>Самый выгодный курс валют</h4>
+        <div class="currency">
+            <div class="eur item">
+                <img src="/fish/dummy/eur.png">
+                <b>€</b>
+                326.3            </div>
+            <div class="usd item">
+                <img src="/fish/dummy/usd.png">
+                <b>$</b>
+                307.3            </div>
+            <div class="rub item">
+                <img src="/fish/dummy/rub.png">
+                <b>RU</b>
+                4.68            </div>
+            <a class="more" href="/valuta">&gt;&gt;</a>
+        </div>
+    </div>
+    -->
+</div>
+<!-- city status end -->
+
+<!-- block actualno start -->
+<div class="block-title">
+    <a class="name" href="/post/news">Новости</a>
+</div>
+
+<ul class="nav">
+    <li><a href="/post/location/%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B4%D0%B0%D1%80">Павлодар</a></li>
+    <li><a href="/post/news/v-kazahstane">В Казахстане</a></li>
+    <li><a href="/post/news/v-mire">В мире</a></li>
+    <li><a href="/post/news/proisshestviya">Происшествия</a></li>
+    <li><a href="/post/news/ekonomika">Экономика</a></li>
+    <li><a href="/post/news/sport">Спорт</a></li>
+    <li><a href="/post/news/otdyih">Отдых</a></li>
+    <li><a href="/post/news/mir-avto">Авто</a></li>
+</ul>
+
+    <div class="tags themes clearfix">
+        <div class="ui-tag">
+    <div class="ui-label">Темы: </div>
+    <div class="ui-collection">
+            <a itemprop="keywords" href="/post/tags/выборы">выборы</a>
+            <a itemprop="keywords" href="/post/tags/экология">экология</a>
+            <a itemprop="keywords" href="/post/tags/Канат Бозумбаев">Канат Бозумбаев</a>
+            <a itemprop="keywords" href="/post/tags/курс тенге">курс тенге</a>
+            <a itemprop="keywords" href="/post/tags/Инфографика">Инфографика</a>
+            <a itemprop="keywords" href="/post/tags/Булат Бакауов">Булат Бакауов</a>
+            <a itemprop="keywords" href="/post/tags/Бездомные животные">Бездомные животные</a>
+            <a itemprop="keywords" href="/post/tags/дачный кооператив Строитель">дачный кооператив Строитель</a>
+        </div>
+</div>
+    </div>
+
+<div class="block-actualno clearfix">
+    <div class="big-item">
+        <a class="picture" href="/post/view/46980"><img src="http://pavon.kz/cache/top_newpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455763689_novosti.JPEG" alt="Не унывать" title="Не унывать" /></a>
+        <div class="title">
+            <a href="/post/view/46980">Не унывать</a>
+        </div>
+        <div class="author">
+            <a href="/post/author/%D0%98%D1%80%D0%B8%D0%BD%D0%B0%20%D0%A0%D1%8B%D0%B1%D0%B0%D1%87%D0%B8%D0%BA">Ирина Рыбачик</a>
+            <span class="time"> Вчера  8:50</span>
+        </div>
+        <div class="body">
+            
+Таких людей, как павлодарец Олег Перегуда, язык не поворачивается назвать инвалидами, разве что людьми с ограниченными...        </div>
+        <div class="stats">
+            <i class="icon icon-views">390</i>
+            <i class="icon icon-comments">2</i>
+        </div>
+    </div>    
+    
+        <div class="list">
+        <div class="caption">
+            Актуально        </div>
+        <div class="items">
+                                                            
+                                <div class="column">
+                    
+                
+                    <a href="/post/view/46992" class="item">
+                        <span class="time  red"> Вчера</span>
+                        &nbsp;
+                        Молодежный турнир по мини-футболу из Павлодара перенесли в Аксу                    </a>
+                
+                                 
+                                         
+                                                            
+                    
+                
+                    <a href="/post/view/46994" class="item">
+                        <span class="time "> Вчера</span>
+                        &nbsp;
+                        Труп мужчины обнаружен в колодце теплотрассы в Павлодаре                    </a>
+                
+                                 
+                                         
+                                                            
+                    
+                
+                    <a href="/post/view/46993" class="item">
+                        <span class="time  red"> Вчера</span>
+                        &nbsp;
+                        Сборная ПГПИ завоевала второе место на зимней универсиаде                    </a>
+                
+                                 
+                                         
+                                                            
+                    
+                
+                    <a href="/post/view/46986" class="item">
+                        <span class="time  red"> Вчера</span>
+                        &nbsp;
+                        Не первый год заботимся о птицах                    </a>
+                
+                                 
+                                         
+                                                            
+                    
+                
+                    <a href="/post/view/46989" class="item">
+                        <span class="time  red"> Вчера</span>
+                        &nbsp;
+                        2016 год станет годом театральных экспериментов                    </a>
+                
+                                 
+                                         
+                                                            
+                    
+                
+                    <a href="/post/view/46991" class="item">
+                        <span class="time "> Вчера</span>
+                        &nbsp;
+                        Человек чести и слова                    </a>
+                
+                                </div>
+                                 
+                                         
+                                                            
+                                <div class="column">
+                    
+                
+                    <a href="/post/view/46990" class="item">
+                        <span class="time  red"> Вчера</span>
+                        &nbsp;
+                        Судьба разрушающегося учебного центра в Экибастузе пока неизвестна                    </a>
+                
+                                 
+                                         
+                                                            
+                    
+                
+                    <a href="/post/view/46988" class="item">
+                        <span class="time  red"> Вчера</span>
+                        &nbsp;
+                        Памятник Малайсары батыру установят на улице Кутузова                    </a>
+                
+                                 
+                                         
+                                                            
+                    
+                
+                    <a href="/post/view/46987" class="item">
+                        <span class="time  red"> Вчера</span>
+                        &nbsp;
+                        О проблемах водоснабжения рассказали акиму сельчане                    </a>
+                
+                                 
+                                         
+                                                            
+                    
+                
+                    <a href="/post/view/46977" class="item">
+                        <span class="time  red"> Вчера</span>
+                        &nbsp;
+                        Российская компания "Ангара" подтвердила возможность появления рейса Новосибирск-Павлодар                    </a>
+                
+                                 
+                                         
+                                                            
+                    
+                
+                    <a href="/post/view/46976" class="item">
+                        <span class="time "> Вчера</span>
+                        &nbsp;
+                        Павлодарский производитель стекла планирует открыть новый завод                    </a>
+                
+                                 
+                                         
+                                                            
+                    
+                
+                    <a href="/post/view/46975" class="item">
+                        <span class="time "> Вчера</span>
+                        &nbsp;
+                        В Павлодарской области нашлась мать провалившейся под лед девочки                    </a>
+                
+                                </div>
+                                 
+                                         
+                        
+        </div>
+    </div>
+    
+</div>
+<!-- block actualno end -->
+
+<!-- block with citations start -->
+<div class="block-with-citation clearfix">
+                    <a href="/post/view/46954" class="citation first">
+            <div class="text">
+                Объем реализации цветов в Казахстане составляет порядка 120 миллионов штук в год, из них 60% составляют розы. Есть куда расти и есть куда стремиться.            </div>
+            <div class="about-block">
+                <img src="http://pavon.kz/cache/newrpostmain3/media/img/citation/1455774383.jpg"/>
+                <div class="about">
+                    <div class="author">
+                        <b>Канат Бозумбаев,</b>&nbsp;
+                        Аким Павлодарской области                    </div>
+                    <div class="cit-about"> В Экибастузе открылся тепличный комплекс по выращиванию роз</div>
+                </div>
+            </div>
+        </a>
+                            <a href="/post/view/46903" class="citation second">
+            <div class="text">
+                Я считаю, что все эскизы проектов скверов, парков, улиц должны выноситься на обсуждение общественности. Любой горожанин должен иметь возможность высказаться по этому поводу.            </div>
+            <div class="about-block">
+                <img src="http://pavon.kz/cache/newrpostmain3/media/img/citation/1455276547.jpg"/>
+                <div class="about">
+                    <div class="author">
+                        <b>Булат Бакауов,</b>&nbsp;
+                        Аким города Павлодара                    </div>
+                    <div class="cit-about">Аким предложил горожанам участвовать в обсуждении будущего облика города</div>
+                </div>
+            </div>
+        </a>
+                
+    
+    
+
+                
+                      
+                <div class="column">
+            
+    
+                            
+    
+            <a href="/post/view/46968" class="cell1 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455702331_novosti.JPEG" alt="Коттеджи возле Иртыша строить больше не будут?" title="Коттеджи возле Иртыша строить больше не будут?">
+                    <div class="title">Коттеджи возле Иртыша строить больше не будут?</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">17 Февраля 15:51</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                            
+    
+            <a href="/post/view/46967" class="cell2 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455696429_novosti.JPEG" alt="60,5% детей до 14 лет переболели ОРВИ в Павлодарской области" title="60,5% детей до 14 лет переболели ОРВИ в Павлодарской области">
+                    <div class="title">60,5% детей до 14 лет переболели ОРВИ в Павлодарской области</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">17 Февраля 14:12</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                        <div class="empty-cell cell3"></div>
+            
+                                   
+                        
+                        </div>
+            <div class="column">
+                          
+                            
+    
+            <a href="/post/view/46963" class="cell4 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3355/1455682424_IMG_1437.jpg" alt="Экибастузский завод по производству железнодорожных осей получил заказ на 14 тысяч колесных пар" title="Экибастузский завод по производству железнодорожных осей получил заказ на 14 тысяч колесных пар">
+                    <div class="title">Экибастузский завод по производству железнодорожных осей получил заказ на 14 тысяч колесных пар</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">17 Февраля 10:44</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                        <div class="empty-cell cell5"></div>
+            
+                        <div class="empty-cell cell6"></div>
+                                   
+                        
+                        </div>
+            <div class="column">
+                          
+                            
+    
+            <a href="/post/view/46949" class="cell7 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455613333_novosti.JPEG" alt="До десяти миллионов роз в год будет производить экибастузская теплица" title="До десяти миллионов роз в год будет производить экибастузская теплица">
+                    <div class="title">До десяти миллионов роз в год будет производить экибастузская теплица</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">16 Февраля 13:36</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                        <div class="empty-cell cell8"></div>
+            
+                                   
+                        
+                          
+                            
+    
+            <a href="/post/view/46945" class="cell9 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455602834_novosti.JPEG" alt="Нацбанк сообщил о фактах дефицита наличности в некоторых обменниках" title="Нацбанк сообщил о фактах дефицита наличности в некоторых обменниках">
+                    <div class="title">Нацбанк сообщил о фактах дефицита наличности в некоторых обменниках</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">16 Февраля 12:12</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+                </div>
+               
+        
+            
+                      
+                <div class="column">
+            
+    
+                        <div class="empty-cell cell10"></div>
+            
+                                   
+                        
+                          
+                            
+    
+            <a href="/post/view/46924" class="cell11 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3355/1455522324_18.jpg" alt="Павлодарские военно-патриотические организации обрели новый дом" title="Павлодарские военно-патриотические организации обрели новый дом">
+                    <div class="title">Павлодарские военно-патриотические организации обрели новый дом</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">15 Февраля 14:10</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                            
+    
+            <a href="/post/view/46923" class="cell12 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3355/1455517837_IMG_20160215_WA0002.jpg" alt="Женщина с ребёнком провалились под лед в Павлодаре" title="Женщина с ребёнком провалились под лед в Павлодаре">
+                    <div class="title">Женщина с ребёнком провалились под лед в Павлодаре</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">15 Февраля 12:42</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+                </div>
+               
+        
+            
+                      
+                <div class="column">
+            
+    
+                        <div class="empty-cell cell13"></div>
+            
+                                   
+                        
+                          
+                            
+    
+            <a href="/post/view/46922" class="cell14 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455517312_novosti.JPEG" alt="Пожар унес жизни троих человек в Павлодаре" title="Пожар унес жизни троих человек в Павлодаре">
+                    <div class="title">Пожар унес жизни троих человек в Павлодаре</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">15 Февраля 12:25</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                            
+    
+            <a href="/post/view/46920" class="cell15 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455514727_novosti.JPEG" alt="В Павлодарской области уменьшился объем введенного в эксплуатацию жилья" title="В Павлодарской области уменьшился объем введенного в эксплуатацию жилья">
+                    <div class="title">В Павлодарской области уменьшился объем введенного в эксплуатацию жилья</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">15 Февраля 11:41</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+                </div>
+               
+        
+            
+                      
+                <div class="column">
+            
+    
+                            
+    
+            <a href="/post/view/46906" class="cell16 item ">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455457267_novosti.JPEG" alt="Оценка дач устарела" title="Оценка дач устарела">
+                    <div class="title">Оценка дач устарела</div>
+                    <div class="stats">
+                        <div class="creator">
+                                                    </div>                    
+                        <span class="time">15 Февраля 8:30</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                            
+    
+            <a href="/post/view/46902" class="cell17 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3355/1455260471_3472902_9138038.jpg" alt="В Павлодаре два человека прыгнули с девятого этажа" title="В Павлодаре два человека прыгнули с девятого этажа">
+                    <div class="title">В Павлодаре два человека прыгнули с девятого этажа</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">12 Февраля 13:01</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                            
+    
+            <a href="/post/view/46892" class="cell18 item ">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3355/1455237849_IMG_7724.JPG" alt="Ластівка, лети!" title="Ластівка, лети!">
+                    <div class="title">Ластівка, лети!</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Нива                        </div>                    
+                        <span class="time">12 Февраля 8:33</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+                </div>
+               
+        
+            
+                      
+                <div class="column">
+            
+    
+                            
+    
+            <a href="/post/view/46880" class="cell19 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455183841_novosti.JPEG" alt="Завод в Аксу до сих пор судится с поставщиком электроэнергии" title="Завод в Аксу до сих пор судится с поставщиком электроэнергии">
+                    <div class="title">Завод в Аксу до сих пор судится с поставщиком электроэнергии</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">11 Февраля 15:49</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                            
+    
+            <a href="/post/view/46879" class="cell20 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3355/1455179415_066487.jpg" alt="Авиасообщение Павлодар-Новосибирск откроется весной" title="Авиасообщение Павлодар-Новосибирск откроется весной">
+                    <div class="title">Авиасообщение Павлодар-Новосибирск откроется весной</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">11 Февраля 14:40</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                            
+    
+            <a href="/post/view/46878" class="cell21 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455175716_no.jpg" alt="Водителя, сбившего на пешеходном переходе двух девочек, лишили прав" title="Водителя, сбившего на пешеходном переходе двух девочек, лишили прав">
+                    <div class="title">Водителя, сбившего на пешеходном переходе двух девочек, лишили прав</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">11 Февраля 13:30</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+                </div>
+               
+        
+            
+                      
+                <div class="column">
+            
+    
+                            
+    
+            <a href="/post/view/46875" class="cell22 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455170132_novosti.JPEG" alt="Как пенсионер ОВД юному гроссмейстеру угодил" title="Как пенсионер ОВД юному гроссмейстеру угодил">
+                    <div class="title">Как пенсионер ОВД юному гроссмейстеру угодил</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">11 Февраля 11:56</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                            
+    
+            <a href="/post/view/46874" class="cell23 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3355/1455165841_lock.jpg" alt="Реализаторов окорочков наказали за ценовой сговор" title="Реализаторов окорочков наказали за ценовой сговор">
+                    <div class="title">Реализаторов окорочков наказали за ценовой сговор</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">11 Февраля 11:12</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                            
+    
+            <a href="/post/view/46873" class="cell24 item ">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455160428_novosti.JPEG" alt="Павлодарские бренды" title="Павлодарские бренды">
+                    <div class="title">Павлодарские бренды</div>
+                    <div class="stats">
+                        <div class="creator">
+                                                    </div>                    
+                        <span class="time">11 Февраля 8:50</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+                </div>
+               
+        
+            
+                      
+                <div class="column">
+            
+    
+                            
+    
+            <a href="/post/view/46856" class="cell25 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455094865_novosti.JPEG" alt="Ищем свидетелей ДТП на автодороге Павлодар-ВКО" title="Ищем свидетелей ДТП на автодороге Павлодар-ВКО">
+                    <div class="title">Ищем свидетелей ДТП на автодороге Павлодар-ВКО</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">10 Февраля 15:02</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                            
+    
+            <a href="/post/view/46854" class="cell26 item  official">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3355/1455090217_1455089919.jpg" alt="На дорогах Павлодарской области полицией пресечено более 10 тысяч нарушений" title="На дорогах Павлодарской области полицией пресечено более 10 тысяч нарушений">
+                    <div class="title">На дорогах Павлодарской области полицией пресечено более 10 тысяч нарушений</div>
+                    <div class="stats">
+                        <div class="creator">
+                            Павлодар-онлайн                        </div>                    
+                        <span class="time">10 Февраля 14:30</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+               
+        
+            
+                      
+            
+    
+                            
+    
+            <a href="/post/view/46855" class="cell27 item ">
+                    <img src="http://pavon.kz/cache/newrpostmain4/cache/post/cache/normal/media/img/gallery/source/3343/1455089933_novosti.jpg" alt="В Экибастузе новый учебный центр за 4,5 миллиарда тенге разваливается на глазах" title="В Экибастузе новый учебный центр за 4,5 миллиарда тенге разваливается на глазах">
+                    <div class="title">В Экибастузе новый учебный центр за 4,5 миллиарда тенге разваливается на глазах</div>
+                    <div class="stats">
+                        <div class="creator">
+                                                    </div>                    
+                        <span class="time">10 Февраля 13:44</span>
+                    </div>
+            </a>               
+            
+                    
+        
+                
+                </div>
+               
+        
+    
+    
+</div>
+<!-- block with citations end -->
+
+<div class="promotion clearfix">
+            <!-- Яндекс.Директ -->
+        <div id="yandex_ad_468x2_1" class="YaDirect468x2"></div>
+    </div>
+
+
+
+<!-- block photos start -->
+<div class="block-title">
+    <a class="name" href="/post/tags/%D1%84%D0%BE%D1%82%D0%BE%D1%80%D0%B5%D0%BF%D0%BE%D1%80%D1%82%D0%B0%D0%B6">Фоторепортажи</a>
+</div>
+
+<div class="block-photos">
+<div class="list">
+    
+            <div class="column">
+                                
+                <div class="item">
+                    <a href="/post/view/46954"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1455630045_IMG_1314.jpg" alt="Тепличный комплекс по выращиванию роз сорта «Red Naomi» открылся в Экибастузе. Фоторепортаж" title="Тепличный комплекс по выращиванию роз сорта «Red Naomi» открылся в Экибастузе. Фоторепортаж"></a>
+                    <a class="report-title" href="/post/view/46954">Тепличный комплекс по выращиванию роз сорта «Red Naomi» от...</a>
+                </div>
+
+                
+            
+
+                <div class="item">
+                    <a href="/post/view/46924"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1455522324_18.jpg" alt="Павлодарские военно-патриотические организации обрели новый дом" title="Павлодарские военно-патриотические организации обрели новый дом"></a>
+                    <a class="report-title" href="/post/view/46924">Павлодарские военно-патриотические организации обрели новы...</a>
+                </div>
+
+                            </div>
+        
+            
+            <div class="column">
+                                
+                <div class="item">
+                    <a href="/post/view/46794"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1454751733_IMG_0710.jpg" alt="В Павлодаре прошли зимние автогонки «Вьюга 16»" title="В Павлодаре прошли зимние автогонки «Вьюга 16»"></a>
+                    <a class="report-title" href="/post/view/46794">В Павлодаре прошли зимние автогонки «Вьюга 16»</a>
+                </div>
+
+                
+            
+
+                <div class="item">
+                    <a href="/post/view/46795"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/1056/1454753206__DSC0997.jpg" alt="В Павлодаре открыли ‪KFC‬" title="В Павлодаре открыли ‪KFC‬"></a>
+                    <a class="report-title" href="/post/view/46795">В Павлодаре открыли ‪KFC‬</a>
+                </div>
+
+                            </div>
+        
+            
+            <div class="column">
+                                
+                <div class="item">
+                    <a href="/post/view/46480"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1453105270_IMG_9338.jpg" alt="Первые павлодарцы уже окунулись в ледяной купели в этом году" title="Первые павлодарцы уже окунулись в ледяной купели в этом году"></a>
+                    <a class="report-title" href="/post/view/46480">Первые павлодарцы уже окунулись в ледяной купели в этом го...</a>
+                </div>
+
+                
+            
+
+                <div class="item">
+                    <a href="/post/view/46422"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1452687049_IMG_8810.jpg" alt="Наум Шафер отпраздновал 85-летний юбилей" title="Наум Шафер отпраздновал 85-летний юбилей"></a>
+                    <a class="report-title" href="/post/view/46422">Наум Шафер отпраздновал 85-летний юбилей</a>
+                </div>
+
+                            </div>
+        
+            
+            <div class="column">
+                                
+                <div class="item">
+                    <a href="/post/view/46330"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1452183376_IMG_8555.jpg" alt="Заместители акимов Павлодарской области и города Павлодара поздравили православных с Рождеством" title="Заместители акимов Павлодарской области и города Павлодара поздравили православных с Рождеством"></a>
+                    <a class="report-title" href="/post/view/46330">Заместители акимов Павлодарской области и города Павлодара...</a>
+                </div>
+
+                
+            
+
+                <div class="item">
+                    <a href="/post/view/46246"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1451371315_IMG_8367.jpg" alt="Дед Мороз со Снегурочкой поздравил пассажиров трамвая" title="Дед Мороз со Снегурочкой поздравил пассажиров трамвая"></a>
+                    <a class="report-title" href="/post/view/46246">Дед Мороз со Снегурочкой поздравил пассажиров трамвая</a>
+                </div>
+
+                            </div>
+        
+            
+        <div class="column sz-l-visible sz-normal-s-visible">
+                            
+                <div class="item">
+                    <a href="/post/view/46226"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1451286338_IMG_8262.jpg" alt="Пять новых собак пополнили кинологическую службу павлодарской полиции" title="Пять новых собак пополнили кинологическую службу павлодарской полиции"></a>
+                    <a class="report-title" href="/post/view/46226">Пять новых собак пополнили кинологическую службу павлодарс...</a>
+                </div>
+
+                
+            
+
+                <div class="item">
+                    <a href="/post/view/46193"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/1069/1451014019_IMG_9717.jpg" alt="Предновогодняя выставка в художественном музее" title="Предновогодняя выставка в художественном музее"></a>
+                    <a class="report-title" href="/post/view/46193">Предновогодняя выставка в художественном музее</a>
+                </div>
+
+                            </div>
+        
+            
+    <div class="column sz-m-visible sz-normal-m-visible">
+                        
+                <div class="item">
+                    <a href="/post/view/46178"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1450955863_IMG_8201.jpg" alt="В Павлодаре презентовали новые автобусы" title="В Павлодаре презентовали новые автобусы"></a>
+                    <a class="report-title" href="/post/view/46178">В Павлодаре презентовали новые автобусы</a>
+                </div>
+
+                
+            
+
+                <div class="item">
+                    <a href="/post/view/46175"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1450943347_IMG_8017.jpg" alt="В Павлодаре на Президентской елке детям подарили ноутбуки" title="В Павлодаре на Президентской елке детям подарили ноутбуки"></a>
+                    <a class="report-title" href="/post/view/46175">В Павлодаре на Президентской елке детям подарили ноутбуки</a>
+                </div>
+
+                            </div>
+        
+            
+            
+    </div>
+
+    
+</div>
+<!-- block photos end -->
+
+<!-- block promises start -->
+<div class="block-title">
+    <a class="name" href="/post/promises">Обещания</a>
+</div>
+
+<div class="block-photos block-promises">
+<div class="list">
+    
+            <div class="column">
+                                
+                <div class="item">
+                    <a href="/post/view/46374"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/1056/1452506806_12507592_1210985628929540_6206638006219017118_n.jpg" alt="Асфальт на месте прорыва тепломагистрали по Суворова восстановят весной" title="Асфальт на месте прорыва тепломагистрали по Суворова восстановят весной">
+                    <img class="promise-status" src="/media/design/promises/promise_status_1.png"/>
+                    </a>
+                    <a class="report-title" href="/post/view/46374">Асфальт на месте прорыва тепломагистрали по Суворова восст...</a>
+                </div>
+
+                
+            
+
+                <div class="item">
+                    <a href="/post/view/46348"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1452239726_IMG_8701.jpg" alt="За три года трамвайные пути по улице Кутузова избавятся от стыков" title="За три года трамвайные пути по улице Кутузова избавятся от стыков">
+                    <img class="promise-status" src="/media/design/promises/promise_status_1.png"/>
+                    </a>
+                    <a class="report-title" href="/post/view/46348">За три года трамвайные пути по улице Кутузова избавятся от...</a>
+                </div>
+
+                            </div>
+        
+            
+            <div class="column">
+                                
+                <div class="item">
+                    <a href="/post/view/46454"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1452829525__VNB3080_e8e29a005ae6f678cf2324ae5600701d15728.jpg" alt="Образовавшиеся из-за курсовой разницы долги по зарплате футболистов «Иртыша» выплатят в январе 2016 года" title="Образовавшиеся из-за курсовой разницы долги по зарплате футболистов «Иртыша» выплатят в январе 2016 года">
+                    <img class="promise-status" src="/media/design/promises/promise_status_2.png"/>
+                    </a>
+                    <a class="report-title" href="/post/view/46454">Образовавшиеся из-за курсовой разницы долги по зарплате фу...</a>
+                </div>
+
+                
+            
+
+                <div class="item">
+                    <a href="/post/view/46257"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1451458939__VNB3127_e8e29a005ae6f678cf2324ae5600701d15675.jpg" alt="Канат Бозумбаев надеется поработать в Павлодарской области еще как минимум год" title="Канат Бозумбаев надеется поработать в Павлодарской области еще как минимум год">
+                    <img class="promise-status" src="/media/design/promises/promise_status_1.png"/>
+                    </a>
+                    <a class="report-title" href="/post/view/46257">Канат Бозумбаев надеется поработать в Павлодарской области...</a>
+                </div>
+
+                            </div>
+        
+            
+            <div class="column">
+                                
+                <div class="item">
+                    <a href="/post/view/46228"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3343/1451286925_novosti.JPEG" alt="В Аксу построят несколько домов для заводчан" title="В Аксу построят несколько домов для заводчан">
+                    <img class="promise-status" src="/media/design/promises/promise_status_1.png"/>
+                    </a>
+                    <a class="report-title" href="/post/view/46228">В Аксу построят несколько домов для заводчан</a>
+                </div>
+
+                
+            
+
+                <div class="item">
+                    <a href="/post/view/46164"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3343/1450925252_novosti.JPEG" alt="В 2016 году в автобусах и трамваях Павлодара появятся валидаторы" title="В 2016 году в автобусах и трамваях Павлодара появятся валидаторы">
+                    <img class="promise-status" src="/media/design/promises/promise_status_1.png"/>
+                    </a>
+                    <a class="report-title" href="/post/view/46164">В 2016 году в автобусах и трамваях Павлодара появятся вали...</a>
+                </div>
+
+                            </div>
+        
+            
+            <div class="column">
+                                
+                <div class="item">
+                    <a href="/post/view/45960"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3343/1448802561_novosti.jpg" alt="В Павлодаре проверят причастность полицейского к смертельному ДТП" title="В Павлодаре проверят причастность полицейского к смертельному ДТП">
+                    <img class="promise-status" src="/media/design/promises/promise_status_1.png"/>
+                    </a>
+                    <a class="report-title" href="/post/view/45960">В Павлодаре проверят причастность полицейского к смертельн...</a>
+                </div>
+
+                
+            
+
+                <div class="item">
+                    <a href="/post/view/45925"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1449561096_IMG_6811.jpg" alt="Булат Бакауов: Проблем с уборкой снега в городе не будет, я это ответственно заявляю" title="Булат Бакауов: Проблем с уборкой снега в городе не будет, я это ответственно заявляю">
+                    <img class="promise-status" src="/media/design/promises/promise_status_1.png"/>
+                    </a>
+                    <a class="report-title" href="/post/view/45925">Булат Бакауов: Проблем с уборкой снега в городе не будет,...</a>
+                </div>
+
+                            </div>
+        
+            
+        <div class="column sz-l-visible sz-normal-s-visible">
+                            
+                <div class="item">
+                    <a href="/post/view/45558"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3343/1447645908_novosti.jpg" alt="Экибастузские розы появятся в продаже накануне 8 марта" title="Экибастузские розы появятся в продаже накануне 8 марта">
+                    <img class="promise-status" src="/media/design/promises/promise_status_1.png"/>
+                    </a>
+                    <a class="report-title" href="/post/view/45558">Экибастузские розы появятся в продаже накануне 8 марта</a>
+                </div>
+
+                
+            
+
+                <div class="item">
+                    <a href="/post/view/44035"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3355/1440500321_569bf43813a74d428954596b7c7330b1.jpg" alt="До конца года в Павлодаре будет отремонтировано порядка 65 дворов" title="До конца года в Павлодаре будет отремонтировано порядка 65 дворов">
+                    <img class="promise-status" src="/media/design/promises/promise_status_1.png"/>
+                    </a>
+                    <a class="report-title" href="/post/view/44035">До конца года в Павлодаре будет отремонтировано порядка 65...</a>
+                </div>
+
+                            </div>
+        
+            
+    <div class="column sz-m-visible sz-normal-m-visible">
+                        
+                <div class="item">
+                    <a href="/post/view/43985"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3343/1440383601_novosti.jpg" alt="Завода по сжиганию опасных промышленных отходов в Павлодаре не будет" title="Завода по сжиганию опасных промышленных отходов в Павлодаре не будет">
+                    <img class="promise-status" src="/media/design/promises/promise_status_1.png"/>
+                    </a>
+                    <a class="report-title" href="/post/view/43985">Завода по сжиганию опасных промышленных отходов в Павлодар...</a>
+                </div>
+
+                
+            
+
+                <div class="item">
+                    <a href="/post/view/43801"><img src="http://pavon.kz/cache/photoreports/cache/post/cache/normal/media/img/gallery/source/3343/1439441433_novosti.jpg" alt="Парк Гагарина изменится уже в этом году" title="Парк Гагарина изменится уже в этом году">
+                    <img class="promise-status" src="/media/design/promises/promise_status_3.png"/>
+                    </a>
+                    <a class="report-title" href="/post/view/43801">Парк Гагарина изменится уже в этом году</a>
+                </div>
+
+                            </div>
+        
+            
+            
+    </div>
+</div>
+<!-- block promises end -->
+
+<!-- block afisha start -->
+<div class="block-title">
+    <a class="name" href="/afisha/hot">Афиша</a>
+</div>
+
+<ul class="nav">
+        <li><a href="/afisha/list/filmyi">Фильмы</a></li>
+        <li><a href="/afisha/list/spektakli">Спектакли</a></li>
+        <li><a href="/afisha/list/kontsertyi">Концерты</a></li>
+        <li><a href="/afisha/list/sorevnovaniya">Соревнования</a></li>
+        <li><a href="/afisha/list/vyistavki">Выставки</a></li>
+        <li><a href="/afisha/list/drugoe">Другое</a></li>
+    </ul>
+
+
+<div class="block-afisha clearfix">
+    <div class="block-afisha-today">
+        <div class="big-item">
+                        <div class="item">
+                <a class="picture" href="/afisha/view/949"><img src="http://pavon.kz/cache/newrafishamain/media/img/gallery/source/4430/1453890430_MovieBigPoster[7].jpg" alt="Кунг-фу Панда 3"></a>
+                <div class="title">
+                    <a href="/afisha/view/949">Кунг-фу Панда 3</a>
+                </div>
+                <div class="type">
+                    <a href="/afisha/list/filmyi">Фильмы</a>
+                </div>
+            </div>
+            
+            <div class="partner">
+                
+            </div>
+        </div>
+
+                <div class="list">
+            <div class="time-title">Сегодня</div>
+                         <div class="column">
+                <div class="item">
+                    <a class="picture" href="/afisha/view/969">
+                        <img src="http://pavon.kz/cache/newrafishamainList/media/img/gallery/source/4468/1455770732_MovieBigPosterCA9WQ0F3.jpg" alt="Чемпионы: Быстрее. Выше. Сильнее" title="Чемпионы: Быстрее. Выше. Сильнее">
+                    </a>
+                    <div class="title">
+                        <a href="/afisha/view/969">Чемпионы: Быстрее. Выше. Сильнее</a>
+                    </div>
+                    <div class="type">
+                        <a href="/afisha/list/filmyi">Фильмы</a>
+                    </div>
+                </div>
+             </div>
+                         <div class="column">
+                <div class="item">
+                    <a class="picture" href="/afisha/view/967">
+                        <img src="http://pavon.kz/cache/newrafishamainList/media/img/gallery/source/4466/1455770352_MovieBigPosterCAI4940S.jpg" alt="Из тьмы" title="Из тьмы">
+                    </a>
+                    <div class="title">
+                        <a href="/afisha/view/967">Из тьмы</a>
+                    </div>
+                    <div class="type">
+                        <a href="/afisha/list/filmyi">Фильмы</a>
+                    </div>
+                </div>
+             </div>
+                         <div class="column">
+                <div class="item">
+                    <a class="picture" href="/afisha/view/968">
+                        <img src="http://pavon.kz/cache/newrafishamainList/media/img/gallery/source/4467/1455770504_MovieBigPosterCAKZ8A8T.jpg" alt="Образцовый самец 2" title="Образцовый самец 2">
+                    </a>
+                    <div class="title">
+                        <a href="/afisha/view/968">Образцовый самец 2</a>
+                    </div>
+                    <div class="type">
+                        <a href="/afisha/list/filmyi">Фильмы</a>
+                    </div>
+                </div>
+             </div>
+                         <div class="column">
+                <div class="item">
+                    <a class="picture" href="/afisha/view/970">
+                        <img src="http://pavon.kz/cache/newrafishamainList/media/img/gallery/source/4469/1455770952_MovieBigPosterCAZR1S5M.jpg" alt="День выборов 2" title="День выборов 2">
+                    </a>
+                    <div class="title">
+                        <a href="/afisha/view/970">День выборов 2</a>
+                    </div>
+                    <div class="type">
+                        <a href="/afisha/list/filmyi">Фильмы</a>
+                    </div>
+                </div>
+             </div>
+                         <div class="column">
+                <div class="item">
+                    <a class="picture" href="/afisha/view/962">
+                        <img src="http://pavon.kz/cache/newrafishamainList/media/img/gallery/source/4460/1455163198_MovieBigPoster[11].jpg" alt="Дэдпул" title="Дэдпул">
+                    </a>
+                    <div class="title">
+                        <a href="/afisha/view/962">Дэдпул</a>
+                    </div>
+                    <div class="type">
+                        <a href="/afisha/list/filmyi">Фильмы</a>
+                    </div>
+                </div>
+             </div>
+                         <div class="column">
+                <div class="item">
+                    <a class="picture" href="/afisha/view/961">
+                        <img src="http://pavon.kz/cache/newrafishamainList/media/img/gallery/source/4459/1455162595_MovieBigPosterCATO1KUQ.jpg" alt="В активном поиске" title="В активном поиске">
+                    </a>
+                    <div class="title">
+                        <a href="/afisha/view/961">В активном поиске</a>
+                    </div>
+                    <div class="type">
+                        <a href="/afisha/list/filmyi">Фильмы</a>
+                    </div>
+                </div>
+             </div>
+                         <div class="column">
+                <div class="item">
+                    <a class="picture" href="/afisha/view/955">
+                        <img src="http://pavon.kz/cache/newrafishamainList/media/img/gallery/source/4436/1453955885_happy_day.jpg" alt="СЧАСТЛИВЫЙ ДЕНЬ" title="СЧАСТЛИВЫЙ ДЕНЬ">
+                    </a>
+                    <div class="title">
+                        <a href="/afisha/view/955">СЧАСТЛИВЫЙ ДЕНЬ</a>
+                    </div>
+                    <div class="type">
+                        <a href="/afisha/list/spektakli">Спектакли</a>
+                    </div>
+                </div>
+             </div>
+                         <div class="column">
+                <div class="item">
+                    <a class="picture" href="/afisha/view/963">
+                        <img src="http://pavon.kz/cache/newrafishamainList/media/img/gallery/source/4461/1455163689_MovieBigPosterCA6YYH9G.jpg" alt="Жениться за 72 часа" title="Жениться за 72 часа">
+                    </a>
+                    <div class="title">
+                        <a href="/afisha/view/963">Жениться за 72 часа</a>
+                    </div>
+                    <div class="type">
+                        <a href="/afisha/list/filmyi">Фильмы</a>
+                    </div>
+                </div>
+             </div>
+                         <div class="column">
+                <div class="item">
+                    <a class="picture" href="/afisha/view/971">
+                        <img src="http://pavon.kz/cache/newrafishamainList/media/img/gallery/source/4470/1455790648_MovieBigPosterCA5LLV3B.jpg" alt="Разборка в Маниле" title="Разборка в Маниле">
+                    </a>
+                    <div class="title">
+                        <a href="/afisha/view/971">Разборка в Маниле</a>
+                    </div>
+                    <div class="type">
+                        <a href="/afisha/list/filmyi">Фильмы</a>
+                    </div>
+                </div>
+             </div>
+                    </div>
+        
+        
+        <div class="list soon">
+            <div class="time-title">Скоро</div>
+
+            
+                <div class="column">
+                    <div class="item">
+                        <a class="picture" href="/afisha/view/711">
+                            <img src="http://pavon.kz/cache/newrafishamainList/media/img/gallery/source/3853/1427451496_03_predl[1].jpg" alt="Предложение" title="Предложение">
+                        </a>
+                        <div class="title">
+                            <a href="/afisha/view/711">Предложение</a>
+                        </div>
+                        <div class="type">
+                            <a href="/afisha/list/spektakli">Спектакли</a>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="column">
+                    <div class="item">
+                        <a class="picture" href="/afisha/view/706">
+                            <img src="http://pavon.kz/cache/newrafishamainList/media/img/gallery/source/3848/1430299471_36_pygmalion[1].jpg" alt="Пигмалион" title="Пигмалион">
+                        </a>
+                        <div class="title">
+                            <a href="/afisha/view/706">Пигмалион</a>
+                        </div>
+                        <div class="type">
+                            <a href="/afisha/list/spektakli">Спектакли</a>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="column">
+                    <div class="item">
+                        <a class="picture" href="/afisha/view/957">
+                            <img src="http://pavon.kz/cache/newrafishamainList/media/img/gallery/source/4443/1454302511_cgHMhWBxxYc.jpg" alt="Народный Молодёжный театр Павлодара &quot;Промень&quot;" title="Народный Молодёжный театр Павлодара &quot;Промень&quot;">
+                        </a>
+                        <div class="title">
+                            <a href="/afisha/view/957">Народный Молодёжный театр Павлодара &quot;Про...</a>
+                        </div>
+                        <div class="type">
+                            <a href="/afisha/list/spektakli">Спектакли</a>
+                        </div>
+                    </div>
+                </div>
+
+                    </div>
+
+            </div>
+</div>
+<!-- block afisha end -->
+
+
+<!-- block gorilla start -->
+<div class="block-title">
+    <a href="/shop/list" class="name">Объявления</a>
+</div>
+
+<ul class="nav">
+    <li><a href="/shop/list">Объявления</a></li>
+    <li><a href="/shop/hotlist">Горячее</a></li>
+    <li><a href="/shop/archive">Архив объявлений</a></li>
+    <!--
+    <li><a href="#">Куплю</a></li>
+    <li><a href="#">Продам</a></li>
+    <li><a href="#">Обменяю</a></li>
+    <li><a href="#">Сдам</a></li>
+    <li><a href="#">Объявления фирм</a></li>
+    <li><a href="#">Еще</a></li>
+    -->
+</ul>
+
+<div class="block-gorilla">
+    <div class="partner">
+        <a class="button-j" href="/shop/create" reload="true">Разместить объявление</a>
+                                <ins class="adsbygoogle"
+                     style="display:inline-block;width:200px;height:400px"
+                     data-ad-client="ca-pub-5705267570304384"
+                     data-ad-slot="9347333151"></ins>
+                    </div>
+    <div class="list">
+                                                    <div class="column">
+                            
+            <div class="item">
+                <div class="title"><a href="/shop/view/13">Быстрые и надежные г…</a></div>
+                <div class="info">
+                    <span class="type">Услуги</span>
+                    <span class="time">15 Февраля 10:32</span>
+                </div>
+                <div class="body">
+                    <a href="/shop/view/13">
+                        Быстрые и надежные грузоперевозки на а/м Газель. Грузоподъемность до 2…                    </a>
+                </div>
+                <div class="label">
+                                        <div class="contacts">Контакты: 87015277759</div>
+                                        <div class="price">
+                        Цена:
+                                                    договорная                                            </div>
+                </div>
+            </div>
+
+            
+                    
+            <div class="item">
+                <div class="title"><a href="/shop/view/2118"> Заказ тюльпанов на…</a></div>
+                <div class="info">
+                    <span class="type">Продам</span>
+                    <span class="time">14 Февраля 23:42</span>
+                </div>
+                <div class="body">
+                    <a href="/shop/view/2118">
+                        Принимаем заказы на тюльпаны к 8-му Марта. Цвета: красный, розовый, же…                    </a>
+                </div>
+                <div class="label">
+                                        <div class="contacts">Контакты: +7 (705) 910-14-05</div>
+                                        <div class="price">
+                        Цена:
+                                                    350                                            </div>
+                </div>
+            </div>
+
+            
+                    
+            <div class="item">
+                <div class="title"><a href="/shop/view/2117">Сахарная депиляция (…</a></div>
+                <div class="info">
+                    <span class="type">Услуги</span>
+                    <span class="time">9 Февраля 21:46</span>
+                </div>
+                <div class="body">
+                    <a href="/shop/view/2117">
+                        День Влюбленных – это самый романтический день в году, который обязате…                    </a>
+                </div>
+                <div class="label">
+                                        <div class="contacts">Контакты: +77015703544</div>
+                                        <div class="price">
+                        Цена:
+                                                    500                                            </div>
+                </div>
+            </div>
+
+                        </div>
+            
+                                                    <div class="column">
+                            
+            <div class="item">
+                <div class="title"><a href="/shop/view/2116">Адвокат. Юридическая…</a></div>
+                <div class="info">
+                    <span class="type">Услуги</span>
+                    <span class="time">7 Февраля 17:23</span>
+                </div>
+                <div class="body">
+                    <a href="/shop/view/2116">
+                        Адвокат. Юридическая помощь. Иски, заявления, отзывы, жалобы, представ…                    </a>
+                </div>
+                <div class="label">
+                                        <div class="contacts">Контакты: +77075275921</div>
+                                        <div class="price">
+                        Цена:
+                                                    1                                            </div>
+                </div>
+            </div>
+
+            
+                    
+            <div class="item">
+                <div class="title"><a href="/shop/view/2115">Продам фонарик: ya 6…</a></div>
+                <div class="info">
+                    <span class="type">Продам</span>
+                    <span class="time">7 Февраля 15:28</span>
+                </div>
+                <div class="body">
+                    <a href="/shop/view/2115">
+                        Продам фонарик: ya 609 type недорого.                    </a>
+                </div>
+                <div class="label">
+                                        <div class="contacts">Контакты: 87714757585</div>
+                                        <div class="price">
+                        Цена:
+                                                    3 000                                            </div>
+                </div>
+            </div>
+
+            
+                    
+            <div class="item">
+                <div class="title"><a href="/shop/view/2114">Требуется личный асс…</a></div>
+                <div class="info">
+                    <span class="type">Требуется</span>
+                    <span class="time">6 Февраля 16:31</span>
+                </div>
+                <div class="body">
+                    <a href="/shop/view/2114">
+                        В Алматы требуется ассистент для ментора (коуча) по личностному росту.…                    </a>
+                </div>
+                <div class="label">
+                                        <div class="contacts">Контакты: +77075703544</div>
+                                        <div class="price">
+                        Цена:
+                                                    100 000                                            </div>
+                </div>
+            </div>
+
+                        </div>
+            
+                                                    <div class="column sz-m-visible sz-normal-s-visible">
+                            
+            <div class="item">
+                <div class="title"><a href="/shop/view/2113">Требуется рекрутер в…</a></div>
+                <div class="info">
+                    <span class="type">Требуется</span>
+                    <span class="time">6 Февраля 16:29</span>
+                </div>
+                <div class="body">
+                    <a href="/shop/view/2113">
+                        Потенциал заработка от 150000 до 600000 тг и выше. Оклада нет. Оплата…                    </a>
+                </div>
+                <div class="label">
+                                        <div class="contacts">Контакты: +77075703544</div>
+                                        <div class="price">
+                        Цена:
+                                                    150 000                                            </div>
+                </div>
+            </div>
+
+            
+                    
+            <div class="item">
+                <div class="title"><a href="/shop/view/2112">Поменять мышление, ч…</a></div>
+                <div class="info">
+                    <span class="type">Услуги</span>
+                    <span class="time">3 Февраля 20:49</span>
+                </div>
+                <div class="body">
+                    <a href="/shop/view/2112">
+                        В Алматы проходят занятия с Ментором для тех, кто осознал, что для тог…                    </a>
+                </div>
+                <div class="label">
+                                        <div class="contacts">Контакты: +77075703544</div>
+                                        <div class="price">
+                        Цена:
+                                                    договорная                                            </div>
+                </div>
+            </div>
+
+            
+                    
+            <div class="item">
+                <div class="title"><a href="/shop/view/2111">Требуется менеджер п…</a></div>
+                <div class="info">
+                    <span class="type">Требуется</span>
+                    <span class="time">3 Февраля 20:47</span>
+                </div>
+                <div class="body">
+                    <a href="/shop/view/2111">
+                        В ведущую компанию на рынке по установке телекоммуникационных инфрастр…                    </a>
+                </div>
+                <div class="label">
+                                        <div class="contacts">Контакты: +77075703544</div>
+                                        <div class="price">
+                        Цена:
+                                                    договорная                                            </div>
+                </div>
+            </div>
+
+                        </div>
+            
+        
+            </div>
+</div>
+<!-- block gorilla end -->
+
+<!-- block experts start -->
+<!--
+<div class="block-title">
+    <span class="name">Эксперты</span>
+</div>
+
+<div class="block-experts">
+    <div class="list">
+        <a href="#" class="item">
+            <img src="/fish/dummy/expert.jpg" />
+            <span class="name">Александр Тарасов</span>
+            <span class="type">Бухгалтерский учет</span>
+        </a>
+        <a href="#" class="item">
+            <img src="/fish/dummy/expert.jpg" />
+            <span class="name">Александр Тарасов</span>
+            <span class="type">Бухгалтерский учет</span>
+        </a>
+        <a href="#" class="item">
+            <img src="/fish/dummy/expert.jpg" />
+            <span class="name">Александр Тарасов</span>
+            <span class="type">Бухгалтерский учет</span>
+        </a>
+        <a href="#" class="item">
+            <img src="/fish/dummy/expert.jpg" />
+            <span class="name">Александр Тарасов</span>
+            <span class="type">Бухгалтерский учет</span>
+        </a>
+        <a href="#" class="item">
+            <img src="/fish/dummy/expert.jpg" />
+            <span class="name">Александр Тарасов</span>
+            <span class="type">Бухгалтерский учет</span>
+        </a>
+        <a href="#" class="item">
+            <img src="/fish/dummy/expert.jpg" />
+            <span class="name">Александр Тарасов</span>
+            <span class="type">Бухгалтерский учет</span>
+        </a>
+    </div>
+
+    <div class="queries">
+        <div class="title">Вопросы</div>
+        <div class="item">
+            <div class="body">Татьяна, здравствуйте! Помогите мне разобраться с моей проблемой. Я в браке с мужем уже 7 лет, у нас есть ребенок. Он у меня очень ревнивый, вспыльчивый и раздражительный. особенно он не любит когда трогают его вещи... В общем он бьет меня если я убираюсь и перекладываю его вещи на положенное место...</div>
+            <a class="button-j" href="#">смотреть ответ</a>
+        </div>
+        <div class="item">
+            <div class="body">Татьяна, здравствуйте! Помогите мне разобраться с моей проблемой. Я в браке с мужем уже 7 лет, у нас есть ребенок. Он у меня очень ревнивый, вспыльчивый и раздражительный. особенно он не любит когда трогают его вещи... В общем он бьет меня если я убираюсь и перекладываю его вещи на положенное место...</div>
+            <a class="button-j" href="#">смотреть ответ</a>
+        </div>
+    </div>
+</div>
+-->
+<!-- block experts end -->
+
+</div>
+<!-- main page end -->                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-wrapper">
+        <div class="app-resizable">
+            <div class="footer">
+                <div class="contacts">
+                                        <p>Компания "Shu-tech"</p>
+                    <p><a href="/mcontacts" style="color: white; text-decoration: none;">Контакты редакций</a></p>
+                </div>
+
+                <div class="social-subscribe-icon">
+                    <a href="http://m.pavon.kz/?site_version=mobile">
+                        <img height="33" src="/media/design/mobile_icon.png" alt="Мобильная версия" title="Мобильная версия" />
+                    </a>
+                </div>
+                <div class="social-subscribe-icon">
+                    <a href="https://twitter.com/pavlodar_online"><img src="/media/design/tw_subs.jpg" alt="Подписка на twitter Pavon.kz"</a>
+                </div>
+                <div class="social-subscribe-icon">
+                   <a href="https://vk.com/pavonkz"><img src="/media/design/vk_subs.jpg" alt="Подписка на группу ВКонтакте" title="Подписка на группу ВКонтакте" /></a>
+                </div>
+                <div class="social-subscribe">
+                    <!-- VK Widget -->
+                    <!--<div id="vk_subscribe"></div>-->
+                </div>
+
+
+
+                <!--
+                <div class="trade-mark">
+                    <a href="/">Pavon.kz</a>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+
+    <noindex>
+    <div class="panel">
+        <div class="manipulation-utils">
+            <div class="lr-horizontal">&nbsp;</div>
+            <div class="vertical-nav">
+                <div class="tb-vertical up">&nbsp;</div>
+                <div class="tb-vertical down">&nbsp;</div>
+            </div>
+        </div>
+        <div class="userbox">
+                            <div class="login-box">
+                    <a href="/login">Войти</a>
+                </div>
+                        <div class="ajax-loader top"></div>
+        </div>
+        <ul class="menu">
+                        <li data-target="activity" data-ui="panel-button" class="active" title="Активность">
+                <div class="overview"><i class="icon-activity activity a-icon"></i></div>
+                <i class="counter" data-ui="counter"></i>
+            </li>
+            <li data-target="last-news" data-ui="panel-button" title="Опубликовано сегодня">
+                <div class="overview"><i class="icon-activity last-news a-icon"></i></div>
+                <i class="counter" data-ui="counter"></i>
+            </li>
+            <li data-target="notify" data-ui="panel-button"title="Уведомления">
+                <div class="overview"><i class="icon-activity notify a-icon"></i></div>
+                <i class="counter" data-ui="counter"></i>
+            </li>
+            <!--
+            <li data-target="music" data-ui="panel-button" title="Музыка">
+                <div class="overview"><i class="icon-activity music a-icon"></i></div>
+            </li>
+            -->
+            <li data-target="stats" data-ui="panel-button" title="Статистика">
+                <div class="overview"><i class="icon-activity stats a-icon"></i></div>
+            </li>      
+        </ul>
+        <div class="content">
+
+            <div class="panel-tab ui-activity" data-container="activity">
+                <div class="hello-world">
+                     <p>Список активных постов</p>
+                </div>
+            </div>
+
+            <div class="panel-tab ui-notify" data-container="notify">
+                <div class="hello-world">
+                    <p>Список оповещений</p>
+                </div>
+            </div>
+
+            <div class="panel-tab ui-fresh" data-container="last-news">
+                <div class="hello-world">
+                    <p>Список новостей</p>
+                </div>
+            </div>
+
+            <!--
+            <div class="panel-tab ui-music" data-container="music">
+
+                    <div class="ui-audio">
+                        <div class="tab-player">
+                            <div class="track-view">
+                                <div class="track-info">
+                                    <div class="playlist-act" title="Добавить в плейлист"></div>
+                                    <div class="volume-act">
+                                        <div data-volume="5" class="volume-indicator volume-val0"></div>
+                                        <div data-volume="25" class="volume-indicator volume-val25"></div>
+                                        <div data-volume="75" class="volume-indicator volume-val75"></div>
+                                        <div data-volume="100" class="volume-indicator volume-val100"></div>
+                                    </div>
+                                    <img src="/media/img/ui/player/snd.jpg" alt="Название трэка" class="track-photo" />
+                                </div>
+                                <div class="track-control">
+                                    <div class="prev-track"></div>
+                                    <div class="play"></div>
+                                    <div class="next-track"></div>
+                                </div>
+                                <div class="track-labels">
+                                    <div class="track-title">Название трэка</div>
+                                    <div class="time">00:00</div>
+                                </div>
+                            </div>
+                            <a class="audio-page-btn" href="/audio">Список</a>
+                        </div>
+                    </div>
+            </div>
+            -->
+
+            <div class="panel-tab ui-statistics" data-container="stats">
+                <h1>Кто онлайн</h1>
+                <div class="online-who"></div>
+
+                <h1>День рождения</h1>
+                <div class="birth-day"></div>
+            </div>     
+
+        </div>
+    </div>
+    </noindex>
+
+</div>
+
+
+<div class="ajax-loader"></div>
+<link rel="stylesheet" href="/assets/style/reset.css">
+<link rel="stylesheet" href="/media/js/fancybox/jquery.fancybox.css">
+<link rel="stylesheet" href="/media/js/fancybox/helpers/jquery.fancybox-buttons.css">
+<link rel="stylesheet" href="/media/js/jquery/mcustomscrollbar/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" href="/media/js/jquery/css/sneaks/jquery-ui-1.10.0.custom.min.css">
+<link rel="stylesheet" href="/assets/style/promotion.css">
+<link rel="stylesheet" href="/assets/style/style.css">
+<link rel="stylesheet" href="/assets/style/size.css">
+<link rel="stylesheet" href="/assets/style/css3.css">
+<link rel="stylesheet" href="/assets/style/icon.css">
+
+<link rel="stylesheet" href="/media/js/impromptu/jquery-impromptu.css">
+<link rel="stylesheet" href="/media/js/impromptu/themes/base.css">
+
+<script>
+    var gAppCapsule = $(".wrapper");
+    var gStateNormal = "app-state-normal";
+    var gStateExtended = "app-state-extended";
+    var gStateKey = "app-state";
+    var gTabKey = "tab-button";
+
+    function setAutoActivePanelTab() {
+        var activeTabButton = $('[data-ui].active');
+        var target = $(activeTabButton).data('target');
+        $('.panel-tab').hide();
+        $('[data-container='+target+']').show();
+
+        $.cookie(gTabKey, target, {path: "/"});
+    }
+
+    $(function(){
+        var curState =  $.cookie(gStateKey);
+        var curTab = $.cookie(gTabKey);
+
+        if(curState == gStateNormal) gAppCapsule.removeClass(gStateExtended).addClass(curState);
+        else if(curState == gStateExtended) gAppCapsule.removeClass(gStateNormal).addClass(curState);
+
+        $('.panel-tab').hide();
+
+        $('.panel .menu li').removeClass("active");
+
+        // если пользователь уже открывал вкладки
+        if(curTab) {
+            // показать выделенную вкладку
+            $('[data-container='+curTab+']').show();
+            $('.panel .menu li[data-target=' + curTab + ']').addClass('active');
+        } else {
+            // показать первую вкладку
+            var firstTab = $('.panel .menu li').first();
+            firstTab.addClass("active");
+            $('[data-container='+firstTab.data('target')+']').show();
+        }
+
+
+        // wrap & unwrap panel
+       $('.lr-horizontal,.logged-in .avatar,.app-state-normal .panel .menu li[data-target], ' +
+           '.app-state-extended .panel .menu li.active[data-target]').live("click",function(){
+           
+           if ($(window).width()>1280) {
+               
+           gAppCapsule.toggleClass(gStateNormal).toggleClass(gStateExtended);
+
+           if( gAppCapsule.hasClass(gStateNormal) ) $.cookie(gStateKey, gStateNormal, {path: "/"});
+           else $.cookie(gStateKey, gStateExtended, {path: "/"});
+
+           return false;
+           }
+       });
+
+       // toggle active panel tab
+       $('.panel .menu li[data-target]').live("click",function(){
+           $(this).siblings("li").removeClass("active");
+           $(this).addClass("active");
+
+           // show active tab panel
+           setAutoActivePanelTab();
+
+           return false;
+       });
+
+      $('[data-ui=dropdown]').live("click",function(e){
+          e.stopPropagation();
+          var mine = $(this).find('[data-dropdown='+$(this).data('target')+']');
+          var others = $('[data-dropdown]').not(mine).removeClass("dd-opened");
+          mine.toggleClass("dd-opened");
+      });
+
+    $(document).click(function(event) {
+        if ( $(event.target).data('data-ui')!="dropdown") {
+            $('[data-dropdown]').removeClass("dd-opened");
+        }
+    });
+
+    /*
+    $(window).scroll(function() {
+        var currentMeridiane = $(window).scrollTop() + $(window).height() / 2;
+        var totalHeight = $(document).height();
+        var clientHeight = $(window).height();
+
+        if(totalHeight > clientHeight) {
+            $(".up-down-nav").show();
+        } else {
+            $(".up-down-nav").hide();
+        }
+    });
+    */
+    $(".vertical-nav .up").click(function(){ $('html, body').animate({ scrollTop: 0 }, "fast"); });
+    $(".vertical-nav .down").click(function(){ $('html, body').animate({ scrollTop: $(document).height() - $(window).height() }, "fast"); });
+
+});
+</script>
+
+
+<script type="text/javascript" src="/media/js/require.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/underscore.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/backbone.js?version=8.18.7"></script>
+<script type="text/javascript" src="/front/classes.js?version=8.18.7"></script>
+<script type="text/javascript" src="/front/functions.js?version=8.18.7"></script>
+<script type="text/javascript" src="/front/front.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/i18n/jquery.ui.datepicker-ru.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.core.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.widget.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.mouse.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.position.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.accordion.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.autocomplete.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.button.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.datepicker.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.dialog.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.draggable.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.droppable.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect-blind.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect-bounce.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect-clip.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect-drop.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect-explode.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect-fold.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect-highlight.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect-pulsate.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect-scale.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect-shake.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect-slide.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.effect-transfer.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.menu.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.progressbar.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.resizable.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.selectable.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.slider.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.sortable.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.spinner.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.tabs.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/ui/jquery.ui.tooltip.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/library/jquery.ui.potato.menu-min.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/jquery.combobox.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/jquery.timepicker.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/jquery.scrollTo-1.4.3.1.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/jquery.url.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/jquery.cookie.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/jquery.mousewheel.min.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/jquery.selection.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/tiny_mce/jquery.tinymce.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/library/jquery.autosize.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/library/jquery.balloon.min.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/library/jquery.tooltipster.min.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/noty/jquery.noty.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/tag/jquery.tagsinput.min.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/noty/layouts/top.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/noty/layouts/topLeft.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/noty/layouts/topRight.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/noty/themes/default.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/mcustomscrollbar/jquery.mCustomScrollbar.min.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/jquery/jquery.lockfixed.min.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/library/auto.picture.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/library/fly.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/realtime/dklab_realplexor.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/file_uploader/fileuploader.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/fancybox/jquery.fancybox.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/impromptu/jquery-impromptu.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/highstock/js/highstock.js?version=8.18.7"></script>
+<script type="text/javascript" src="/media/js/highstock/js/modules/exporting.js?version=8.18.7"></script>
+<script type="text/javascript">
+var BASE_PATH = "/front";
+window.SITE_OFFICIAL = "Павлодар-онлайн";
+window.GORILLA_TOKEN = "56c62b840fa5c";
+var LANG = "ru-ru";
+var IS_BOT = "";
+var SITE_USER = {"login":false,"debug":false};
+var UNREAD_PM_COUNT = 0;
+var UNREAD_ISSUE_COUNT = 0;
+var UNREAD_MODER_COUNT = 0;
+</script>
+
+    <script type="text/javascript">
+        $(document).one('init_application', function() {
+            $("[data-ui=panel-button]").balloon({position:"left top",css: {minWidth: "20px",padding: "5px",borderRadius: "6px",border: "solid 1px #aaa",boxShadow: "2px 2px 2px #555",color: "#222",backgroundColor: "#f2f2f2",opacity: "0.85",zIndex: "32767",textAlign: "left",fontSize: "11px"}});
+                        window.app.initMenu({"items":[],"name":null});
+            
+            
+                                });
+    </script>
+
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?113"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCslwbIps7vaiUupYlS1-VSYWJoKSVpYXg&sensor=false&language=ru"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-4617247-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    var onErrorOld = window.onerror;
+
+    window.onerror = function(msg, url, line) {
+        try {
+            _gaq.push(['_trackEvent', 'JS ErrorNew', msg + ' "' + navigator.userAgent + '"', url + " : " + line, 0, true]);
+
+            if (typeof onErrorOld == 'function')
+                onErrorOld.apply(this, arguments);
+        }catch(e) {}
+
+        return true;
+    };
+    VK.Widgets.Subscribe("vk_subscribe", {mode: 1, soft: 1}, -6829281);
+</script>
+
+ </body>
+</html>

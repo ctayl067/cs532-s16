@@ -1,0 +1,899 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<title>J-WAVE 81.3 FM RADIO WEBSITE</title>
+<meta name="keywords" lang="ja" content="J-WAVE,JWAVE,FM,ラジオ,ジェイウェイブ,ラジオ局,RADIO,東京,ジェイウェーブ">
+<meta name="description" lang="ja" content="東京のFMラジオ放送局 J-WAVEのサイト。周波数は81.3MHz。オンエアした楽曲の検索や、放送内容、最新イベント情報、BLOG、TOKIO HOT100のチャート、presentなど情報満載！">
+<link href="common/css/style201410.css" rel="stylesheet" type="text/css" charset="utf-8" />
+<link href="/jlc/css/gigya_dialog.css" rel="stylesheet" type="text/css" />
+<link href="/jlc/js/themes/base/jquery.ui.all.css" rel="stylesheet" />
+<link href="/common/js/fancybox2/source/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="home" title="J-WAVE" href="/">
+<link rel="start" href="http://www.j-wave.co.jp/" title="J-WAVEのホーム">
+<link rel="chapter" href="/contents/timetable/contents.htm" title="ラジオ番組表">
+<link rel="chapter" href="/contents/navigator/index.htm" title="Navigator LIST">
+<link rel="chapter" href="/songlist/index.html" title="オンエア曲検索">
+<link rel="chapter" href="/blog/list.htm" title="blog LIST">
+<link rel="chapter" href="/sitemap/" title="サイトマップ">
+<link rel="chapter" href="http://j-pod.jp/" title="ポッドキャスト J-WAVEのポッドキャスト ポータル J-Pod">
+<link rel="SHORTCUT ICON" href="/favicon.ico">
+<meta name="msapplication-TileImage" content="common/img/win8ico.png" />
+<meta name="msapplication-TileColor" content="#0099cc" />
+<meta name="msApplication-ID" content="App" />
+<meta name="msApplication-PackageFamilyName" content="J-WAVE.J-WAVEPODCASTSTATION_k12t7pwq3pf18" />
+</head>
+<body>
+<div id="header">
+  <div id="headerInner"> 
+    <h1 id="sitename"><a href="http://www.j-wave.co.jp/"><img src="common/img/jwave813.gif" alt="J-WAVE 81.3" /></a></h1>
+    <div id="areaNavEx">
+      <form action="http://www.j-wave.co.jp/search.html" method="get" id="srch">
+        <ul>
+          <li id="areaNavSearch">
+          <input type="search" results="5" name="p" id="srchInput" style="font-size:15px;color:#666;width:200px;border:1px solid #fff;">
+          <input type="image" name="Button1" id="srchBtn" src="common/img/icon_search.gif" alt="Search" align="absbottom" style="border-width:0px;" />
+          <input type="hidden" id="fr" name="fr" value="cse">
+          <input type="hidden" id="ei" name="ei" value="UTF-8">
+          <input type="hidden" id="csid" name="csid" value="BLm6Wel3OKlFtXL6xHiWHyRYLO9_MggcOYI0_EllPdD1ick-">
+          <input type="hidden" name="vs" value="j-wave.co.jp" id="yjInsite">
+          <!--a href="" title="J-WAVE SITE SEARCH"><img class="hover" src="common/img/search.gif" alt="J-WAVE SITE SEARCH" /></a-->
+          </li>
+          <li id="areaNavTimeTable"><a href="http://www.j-wave.co.jp/contents/timetable/contents.htm" title="TIME TABLE"><img class="hover" src="common/img/timetable.gif" alt="ラジオ番組表" /></a></li>
+          <li id="areaNavNavigator"><a href="http://www.j-wave.co.jp/contents/navigator/index.htm" title="Navigatorリスト"><img class="hover" src="common/img/navigator_list.gif" alt="Navigatorリスト" /></a></li>
+          <li id="areaNavPastSong"><a href="http://www.j-wave.co.jp/songlist/index.html" title="過去のオンエア曲"><img class="hover" src="common/img/past_list.gif" alt="過去のオンエア曲" /></a></li>
+      </ul>
+      </form>
+
+      <a id="fb_logo" href="https://www.facebook.com/jwave813fm" target="_blank"><img src="common/img/f_logo.gif" alt="facebook" /></a>
+      <a id="tw_logo" href="https://twitter.com/jwave813fm" target="_blank"><img src="common/img/twitter_logo.gif" alt="Twitter" /></a>
+    </div><!--/#areaNavEx-->
+    <div id="areaNavGlobal" class="clrfix">
+      <ul>
+        <li id="areaNavListen"><a href="http://www.j-wave.co.jp/radiobar/index.htm" title="聴く"><img class="hover" src="common/img/nav_listen.gif" alt="ラジオ局J-WAVEの聴き方" /></a></li>
+        <li id="areaNavRequest"><a href="https://www.j-wave.co.jp/contents/message/" title="番組へのメッセージはこちらから"><img class="hover" src="common/img/nav_req_mes.gif" alt="リクエスト＆メッセージ" /></a></li>
+        <li id="areaNavToday"><a href="http://www.j-wave.co.jp/today/" title="今日の番組"><img class="hover" src="common/img/nav_today.gif" alt="今日放送する番組" /></a></li>
+        <li id="areaNavLatest"><a href="http://www.j-wave.co.jp/topics/" title="最新情報"><img class="hover" src="common/img/nav_latest.gif" alt="J-WAVEの最新情報" ></a></li>
+        <li id="areaNavToday"><a href="http://www.j-wave.co.jp/event/contents.htm" title="ライブ・イベント"><img class="hover" src="common/img/nav_live.gif" alt="ライブイベント" /></a></li>
+        <li id="areaNavCinema"><a href="http://www.j-wave.co.jp/cinema/contents.htm" title="映画"><img class="hover" src="common/img/nav_cinema.gif" alt="J-WAVEオススメの映画" /></a></li>
+        <li id="areaNavNet"><a href="http://www.j-wave.co.jp/jlc/" title="J-me"><img class="hover" src="common/img/nav_net.gif" alt="J-me" /></a></li>
+        <li id="areaNavNoa"><a href="javascript:void(0)" onClick="window.open('http://www.j-wave.co.jp/alladdin/','noa_player','width=420,height=240,menubar=no,toolbar=no,scrollbars=no,resizable=no')" title="NOW ON AIR"><img class="hover" src="common/img/nav_noa.gif" alt="今放送している情報" /></a></li>
+      </ul>
+    </div><!--/#areaNavGlobal-->
+  </div><!--/#headerInner-->
+</div><!--/#header-->
+
+
+<div id="container">
+  <div id="containerInner" class="clrfix">
+    <div id="columnA">
+<!--
+      <div id="spPrg" class="boxL-top">
+        <div class="boxL-btm">
+          <div class="boxL-rep">
+            <h3>SPECIAL PROGRAM</h3>
+            <ul>
+              <li><a href="http://www.j-wave.co.jp/holiday/20160211/" target="_top"><img src="/common/img/holiday/hs_160211.jpg" alt="TOKYO UPCOMING" /></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+-->
+      <!--/#spPrg-->
+      <!--a href="http://www.j-wave.co.jp/xmas2010/" target="_top"><img src="/common/img/bnr-wintercamp2010.jpg" alt="" style="margin: 0 0 10px 10px" /></a-->
+      <!-- Grenn Casting Day noscript -->
+      <!--a target="_blank" style="display:block;margin: 0 0 10px 0;text-align:center" href="http://www.j-wave.co.jp/special/greenday/"><img src='/common/img/holiday/greencasting.jpg' /></a-->
+      <!-- //Grenn Casting Day -->
+
+      <div id="programArea" class="box-top">
+        <div class="boxL-btm">
+          <div class="boxL-rep">
+            <p class="today-tomorrow">
+            <a href="today/index.html" title="today"><img src="common/img/btn_today1.gif" alt="today" /></a>
+            <a href="today/tomorrow.htm" title="Tomorrow"><img src="common/img/btn_tomorrow1.gif" alt="Tomorrow" /></a>
+            </p>
+            <div id="NowOnAir" class="boxNOA-top">
+              <div class="boxNOA-btm">
+                <div class="boxNOA-rep">
+                  <!-- listenNowBtn -->
+                  <a id="radiko-playerlink" class="listenNowBtn" href="http://radiko.jp/#FMJ" onclick="clickRadikoButton();" target="_blank"><span>ListenNow！今すぐJ-WAVEを聴く</span></a>
+                  <!--
+                  <a class="listenNowBtn" href="http://www.j-wave.co.jp/topics/1103_radiko.htm"><span>ListenNow！今すぐ聴く</span></a>
+                  -->
+                  <!--/#listenNowBtn-->
+                  <div id="now-playing">
+                    <div><p>loading...</p></div>
+                  </div><!--/#NowPlaying-->
+
+
+                  <div class="spot-prg">
+                    <!--/__ENTRY PICKUP LIST__-->
+                    
+                    <!--dl class="spot-sche">
+                    <dt class="youbi"><img src="common/img/ico-sat.gif" />
+                      <p>
+                      #otoajito
+                      <a href=""><img src="common/img/ico_twitter.gif" /></a>
+                      </p>
+                    </dt>
+                    <dd class="oa-time">18:00-18:54</dd>
+                    </dl>
+                    <dl class="spot-prg-info">
+                    <dt class="prg-title"><img src="common/img/ico-title_now.gif" /></dt>
+                    <dd>SAPPORO BEER OTOAJITO<br /><img src="common/img/p.jpg" alt="" /></dd>
+                    <dt class="prg-nav"><img src="common/img/ico-navigator_now.gif" /></dt>
+                    <dd>クリスペプラー<br /><img src="common/img/q.jpg" alt="" /></dd>
+                    <dt class="prg-info"><img src="common/img/ico-info_now.gif" /></dt>
+                    <dd>今日のテーマは、「山脈」話題のハンディ型のエスプレッソマシーンをプレゼント！</dd>
+                    <dt class="prg-guest"><img src="common/img/ico-guest_now.gif" /></dt>
+                    <dd>RIP SLYMEの爆笑プレゼントバトル、J-WAVELIVE出演のアーティストDeepからのコメントも！</dd>
+                    </dl-->
+                  </div><!--/.spot-prg-->
+                </div><!--/.boxNOA-rep-->
+              </div><!--/.boxNOA-btm-->
+            </div><!--/#NowOnAir-->
+
+            <div id="NextPrg">
+              <!--/__ENTRY PICKUP LIST__-->
+
+              <!--div class="spot-prg">
+                <dl class="spot-sche">
+                <dt class="youbi"><img src="common/img/ico-sat.gif" />
+                  <p>
+                  #otoajito
+                  <a><img src="common/img/ico_twitter.gif" /></a>
+                  </p>
+                </dt>
+                <dd class="oa-time">18:00-18:54</dd>
+                </dl>
+                <dl class="spot-prg-info">  
+                <dt class="prg-title"><img src="common/img/ico-title.gif" /></dt>
+                <dd>SAPPORO BEER OTOAJITO</dd>
+                <dt class="prg-nav"><img src="common/img/ico-navigator.gif" /></dt>
+                <dd>クリスペプラー<br /><img src="common/img/r.jpg" alt="" /></dd>
+                <dt class="prg-info"><img src="common/img/ico-info.gif" /></dt>
+                <dd>今日のテーマは、「山脈」話題のハンディ型のエスプレッソマシーンをプレゼント！</dd>
+                <dt class="prg-guest"><img src="common/img/ico-guest.gif" /></dt>
+                <dd>RIP SLYMEの爆笑プレゼントバトル、J-WAVELIVE出演のアーティストDeepからのコメントも！</dd>
+                </dl>
+              </div--><!--/.spot-prg-->
+            </div><!--/#NextPrg-->
+          </div>
+        </div>
+        <p class="today-tomorrow">
+        <a href="today/index.html" title="today"><img src="common/img/btn_today2.gif" alt="今日の番組情報一覧" /></a>
+        <a href="today/tomorrow.htm" title="Tomorrow"><img src="common/img/btn_tomorrow2.gif" alt="明日の番組情報一覧" /></a>
+        </p>        
+      </div><!--/#programArea-->
+    </div><!--/#columA-->
+
+    <div id="columnB">
+      
+      <div id="pickUp">
+	    <!-- irregular banner -->
+        <!--div class="hot boxHot-top">
+          <div class="boxHot-btm">
+            <div class="boxHot-rep">
+              <h3></h3>
+              <dl>
+                <dt><a href="https://www.youtube.com/user/jwavechannel/" target="_blank"><img src="/top/img/pickup/1403-extrabnr-01.jpg"></a></dt>
+                <dd><a href="https://www.youtube.com/user/jwavechannel/" target="_blank">YouTubeでチャンネル登録しよう！</a></dd>
+              </dl>
+            </div>
+          </div>
+        </div-->
+	    <!-- //irregular banner -->
+
+      
+      
+        <div class="hot boxHot-top">
+          <div class="boxHot-btm">
+            <div class="boxHot-rep">
+              <h3></h3>
+              <dl>
+                <dt><a href="http://www.j-wave.co.jp/special/program/2nd/friday01.html#gold" target="_top"><img src="/top/img/pickup/1371.jpg"></a></dt>
+                <dd><a href="http://www.j-wave.co.jp/special/program/2nd/friday01.html#gold" target="_top">渡部建が五郎丸にインタビュー</a></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      
+        <div class="hot boxHot-top">
+          <div class="boxHot-btm">
+            <div class="boxHot-rep">
+              <h3></h3>
+              <dl>
+                <dt><a href="http://www.j-wave.co.jp/special/program/2nd/friday01.html#paradiso" target="_top"><img src="/top/img/pickup/1369.jpg"></a></dt>
+                <dd><a href="http://www.j-wave.co.jp/special/program/2nd/friday01.html#paradiso" target="_top">スイス往復航空券が当る！</a></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      
+
+<!--
+        <div class="hot boxHot-top">
+          <div class="boxHot-btm">
+            <div class="boxHot-rep">
+              <h3></h3>
+              <dl>
+                <dt><a href="http://www.j-wave.co.jp/rl/?RZAg8fZz" target="_top"><img src="/top/img/pickup/1602_fv.jpg"></a></dt>
+                <dd><a style="color:#fff;" href="http://www.j-wave.co.jp/rl/?RZAg8fZz" target="_top">CDが当たるコラボブーケも販売</a></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+-->
+
+      </div><!--/#pickUp-->
+      
+<!--
+      <div id="pickUp2">
+        <div class="hot boxHot-top_" style="padding-top:4px;background: url('/common/img/bg_ichioshi_top.gif') no-repeat 0 0">
+          <div class="boxHot-btm">
+            <div class="boxHot-rep" style="height:150px;color:#fff;padding-bottom:0;">
+              <h3></h3>
+              <dl>
+                <dt><a href="http://www.j-wave.co.jp/rl/?RZAg8fZz" target="_top"><img src="/top/img/pickup/1602_fv.jpg"></a></dt>
+                <dd><a style="color:#fff;" href="http://www.j-wave.co.jp/rl/?RZAg8fZz" target="_top">CDが当たるコラボブーケも販売</a></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+-->      
+		<!-- Banner -->
+		<!--div style="margin:10px 0;">
+			<a href="http://www.j-wave.co.jp/rl/?86c0E9J7"><img src="/common/img/bnr_xmas2014.jpg" alt="Xmas2014" /></a>
+		</div-->
+
+
+<!--youtube -->
+      <div id="youtube">
+      <!--img class="ytb" src ="http://img.youtube.com/vi/LcNLM9NQIj4/mqdefault.jpg" width="223" height="150"><span class="ytb-play"></span-->
+        <div class="yout boxYoutube-top">
+          <div class="boxYoutube-btm">
+            <div class="boxYoutube-rep">
+              <h3></h3>
+              <dl>
+                <dt><a href="https://www.youtube.com/user/jwavechannel" target="_blank"><img src="/top/img/pickup/jwavechannel.gif" alt="J-WAVE Channel" /></a></dt>
+                <dd><a href="https://www.youtube.com/user/jwavechannel" target="_blank">音声・動画コンテンツ配信中</a></dd>
+              </dl>
+		<img src="/top/img/pickup/youtube_line.gif" alt="" />
+
+<!--
+              <dl>
+                <dt><a href="https://www.youtube.com/user/hw813" target="_blank"><img src="/top/img/pickup/hw813.gif" alt="Hello World Channel" /></a></dt>
+                <dd><a href="https://www.youtube.com/user/hw813" target="_blank">これまでの配信動画はこちら</a></dd>
+              </dl>
+		<img src="/top/img/pickup/youtube_line.gif" alt="" />
+-->
+
+              <dl>
+                <dt><a href="https://www.youtube.com/user/hangout813" target="_blank"><img src="/top/img/pickup/hangout.gif" alt="THE HANGOUT Channel" /></a></dt>
+                <dd><a href="https://www.youtube.com/user/hangout813" target="_blank">毎週月〜木23：30〜ライブ生中継！</a></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--//youtube -->
+
+
+      <!-- ust
+      <div id="ust">
+        
+	<div><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="223" height="223" id="utv546026"><param name="flashvars" value="autoplay=false&amp;brand=embed&amp;cid=2273879&amp;locale=ja_JP"/><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="movie" value="http://www.ustream.tv/flash/live/1/2273879?v3=1"/><embed flashvars="autoplay=false&amp;brand=embed&amp;cid=2273879&amp;locale=ja_JP" width="223" height="223" allowfullscreen="true" allowscriptaccess="always" id="utv546026" name="utv_n_538736" src="http://www.ustream.tv/flash/live/1/2273879?v3=1" type="application/x-shockwave-flash" /></object></div>
+	
+      </div>
+      ust-->
+
+      <div id="jcm">
+	<div id="main-board">
+	</div><!-- #main-board //-->
+
+	<div id="flip-board">
+		<!--div><img src="/jcm/images/bnrs/jcm_s1.jpg"></div-->
+	</div>
+      </div><!--/#jcm-->
+
+
+      <div id="twitterArea" class="boxTwit-btm">
+        <div class="boxTwit-top">
+          <div class="boxTwit-rep">
+            <h3>Twitter</h3>
+
+
+            <a class="twitter-timeline"  href="https://twitter.com/search?q=%23jwave"  data-widget-id="330464925891829760">#jwave に関するツイート</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+          </div>
+        </div>
+      </div><!--/#twitterArea-->
+
+
+
+      <div id="DigitalArea" class="boxS-top">
+        <div class="boxS-btm">
+          <div class="boxS-rep">
+            <h3>DIGITAL CONTENTS</h3>
+            <div class="bnr-groupair" style="text-align: center;">
+              <a href="http://www.j-wave.co.jp/rl/?UMvMwcvT" target="_blank"><img src="common/img/groupair-425.gif" alt="グループエアー" /></a>
+            </div>
+
+
+            <div class="bnr-groupair" style="margin:15px 0 0 0;text-align: center;">
+              <a href="http://www.j-wave.co.jp/rl/?2SOxB6EX" target="_blank"><img src="common/img/j-pod-425.gif" alt="Podcast J-pod" /></a>
+            </div>
+
+            <div class="bnr-groupair" style="margin:15px 0 0 0;text-align: center;">
+              <a href="http://www.j-wave.co.jp/rl/?p4DImozJ" target="_blank"><img src="common/img/bnr_atnet.gif" alt="インターネットプロバイダ J-WAVE＠NET" /></a>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div><!--/#DigitalArea-->
+
+
+
+
+
+      <!-- radiko -->
+        <!--
+      <div style="width: 223px; height: 72px; padding: 10px 0 0;">
+        <a href="http://www.j-wave.co.jp/rl/?hjaDld8n" target="_blank"><img src="common/img/lsn_radiko2.gif" /></a>
+      </div-->
+      <!--/#radiko-->
+
+
+
+      <!--div id="listen-radio">
+        <ul>
+        <li><a href="http://www.j-wave.co.jp/topics/1103_radiko.htm" target="_blank" title="radikoでJ-WAVEを聴く"><img src="common/img/lsn_radiko.gif" alt="radikoでJ-WAVEを聴く" /></a></li>
+        <li><a href="http://radiko.jp/" target="_blank" title="radikoでJ-WAVEを聴く"><img src="common/img/lsn_radiko.gif" alt="radikoでJ-WAVEを聴く" /></a></li>
+        <li><a href="http://j-pod.jp" target="_blank" title="ポッドキャストを聴く"><img src="common/img/lsn_podcast2.gif" alt="ポッドキャストを聴く" /></a></li>
+        </ul>
+      </div--><!--/#listen-radio-->
+
+    </div><!--/#columB-->
+
+    <div id="columnC">
+      <div id="salse-banner" class="boxS-top">
+        <h3>★バナークリックでJ-me +5pt(1日1回)</h3>
+        <!--/__ENTRY SALES_BANNER__-->
+
+<!--
+        <div id="swfBanner">
+        <object style="margin:0 0 8px 0;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="200" height="50" id="bnr1" align="middle">
+        <param name="wmode" value="opaque" />
+        <param name="allowScriptAccess" value="sameDomain" />
+        <param name="movie" value="top/data/common/1009_jr_cdb_1st.swf" />
+        <param name="quality" value="high" />
+        <param name="bgcolor" value="#fff" />
+        <embed style="margin:0 0 8px 0;" src="top/data/common/1009_jr_cdb_1st.swf" quality="high" bgcolor="#fff" width="189" height="52" name="bnr1" align="middle" wmode="opaque" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+        </object>
+        </div>
+-->
+
+      </div><!--/#salse-banner-->
+
+      <div id="topicsArea" class="boxS-top">
+        <div class="boxS-btm">
+          <div class="boxS-rep">
+            <h3>TOPICS</h3>
+            <a class="ichiran" href="http://www.j-wave.co.jp/topics/" title="一覧"><img src="common/img/ico-ichiran.gif" alt="一覧" /></a>
+            <!--a href="http://www.j-wave.co.jp/today/" title=""><p class="tpc-check">今日の番組情報はこちらでチェック！</p></a-->
+            <!--/__ENTRY TOPICS PR__-->
+            <a href="http://www.j-wave.co.jp/blog/news/2016/02/post-1254.html" _target="_top"><p class="tpc-check" style="background-image: url(/top/data/news/news733.jpg);">大久保嘉人 ライバル対決語る</p></a>
+            <ul>
+              <li><a href="http://www.j-wave.co.jp/topics/entry_ua/" target="_top">UAカピバライベント上野で開催</a></li><li><a href="http://www.j-wave.co.jp/special/program/2nd/weekday01.html#acoustic" target="_top">H ZETTRIOが極上ライブを披露</a></li><li><a href="http://www.j-wave.co.jp/special/program/2nd/friday01.html#paradiso" target="_top">あなたの 恋の必殺技 を教えて</a></li><li><a href="http://www.j-wave.co.jp/special/program/2nd/sunday01.html#district" target="_top">秋元梢と渡辺直美　初顔合わせ</a></li><li><a href="http://www.j-wave.co.jp/special/program/2nd/saturday01.html#allarea" target="_top">藤原さくら アルバム制作の裏側へ</a></li><li><a href="http://www.j-wave.co.jp/special/program/2nd/friday01.html#gold" target="_top">食通達にも超人気のお店にご招待</a></li><li><a href="http://www.j-wave.co.jp/iwf2016/ticket/" target="_top">INNOVATION WORLD FES先行販売</a></li><li><a href="http://www.j-wave.co.jp/special/program/2nd/weekday01.html#jam" target="_top">日経平均株価と同額の現金が当る</a></li><li><a href="http://www.j-wave.co.jp/topics/entry_speakout/" target="_top">シシャモの対バンライヴ券売開始</a></li><li><a href="https://www.j-wave.co.jp/topics/1602_lohastalk.htm" target="_top">廣瀬俊朗 出演イベントにご招待</a></li><li><a href="https://www.j-wave.co.jp/jlc/circle/cinema/entry/entry_pc.php?key=carol" target="_top">「キャロル」ムビチケカードプレゼント</a></li><li><a href="https://www.j-wave.co.jp/topics/1602_englishcafe.htm" target="_top">ナビと一緒に英語体験イベント開催</a></li><li><a href="http://www.j-wave.co.jp/topics/1602_audition.htm" target="_top">ナビゲーターオーディション結果発表</a></li><li><a href="http://www.j-wave.co.jp/topics/entry_kings10/" target="_top">土）キンプレライヴ10 チケット発売</a></li><li><a href="http://www.j-wave.co.jp/topics/entry_spark02/" target="_top">livetune+ほか、イベントチケット発売</a></li><li><a href="http://www.j-wave.co.jp/topics/1601_bpomonitor.htm" target="_top">BPO 中高生のモニターを募集中</a></li><li><a href="https://www.j-wave.co.jp/topics/1512_tokio.htm" target="_top">TOKIO HOT 100 FESTIVALご招待</a></li><li><a href="http://www.j-wave.co.jp/lpp/" target="_top">リスナーズ・パワー・サポート開始</a></li>
+            </ul>
+            
+          </div>
+        </div>
+      </div><!--/#topicsArea-->
+
+
+      <div id="tokio100" class="boxTokio-top">
+        <div class="boxTokio-btm">
+          <div class="boxTokio-rep">
+            <h3>LAST WEEK RANKING</h3>
+            <h4><a href="http://www.j-wave.co.jp/original/tokiohot100/"><img src="common/img/tokiohot100_2.gif" alt="TOKIO HOT 100" /><img src="common/img/logo_tokio2.gif" alt="TOKIO HOT 100" /></a></h4>
+            <ul id="rankList">
+            </ul>
+            <p class="more"><a href="http://www.j-wave.co.jp/original/tokiohot100/"><img src="common/img/more.gif" alt="MORE" /></a></p>
+          </div>
+        </div>
+      </div><!--/#tokio100-->
+
+
+      <div id="shoppingArea" class="boxS-top">
+        <div class="boxS-btm">
+          <div class="boxS-rep">
+            <h3>SHOPPING</h3>
+
+<!--
+            <div id="cd-online" class="clrfix">
+              <h4>
+                <a href="http://www.j-wave.co.jp/cd/">
+                  <span style="color:#333333;font-size:10pt">CD ONLINE</span><br />
+                  <span style="color:#333333;font-size:8pt">8％以上ポイント還元</span>
+                </a>
+              </h4>
+              <dl>
+                <dt>
+                <a href="http://www.j-wave.co.jp/cd/">
+                  <img src="http://www.j-wave.co.jp/top/img/cd/cd.gif">
+                </a>
+                </dt>
+                <dd>
+                <a href="http://www.j-wave.co.jp/cd/">LOVE NEVER FELT SO GOOD / マイケル・ジャクソン</a>
+                </dd>
+              </dl>
+            </div>
+-->
+            <div id="book-online" class="clrfix">
+              <h4>
+                <a href="http://www.j-wave.co.jp/book/">
+                  <span style="color:#333333;font-size:10pt">CD＆BOOK ONLINE</span><br />
+                  <span style="color:#333333;font-size:8pt">特典満載のCD＆ブックストア</span>
+                </a>
+              </h4>
+              <dl>
+                <dt>
+                <a href="http://www.j-wave.co.jp/book/">
+                  <img src="http://www.j-wave.co.jp/top/img/book/book.jpg">
+                </a>
+                </dt>
+                <dd>
+                <a href="http://www.j-wave.co.jp/book/">J-WAVEタイムテーブル冊子をプレゼント</a>
+                </dd>
+              </dl>
+            </div>
+
+          </div>
+
+        </div>
+      </div><!--/#shoppingArea-->
+
+
+
+      <div id="SpecialArea" class="boxS-top">
+        <div class="boxS-btm">
+          <div class="boxS-rep">
+            <h3>J-WAVE復興支援プロジェクト</h3>
+            <div id="special-box" class="clrfix">
+              <h4>
+		<span style="color:#333333;font-size:10pt">J-WAVE復興支援プロジェクト</span>
+                <a href="http://www.j-wave.co.jp/special/hearttoheart/">
+		<img src="/img_banner/bnr_heart2.jpg">
+                </a>
+              </h4>
+            </div>
+
+            <div id="special-box" class="clrfix">
+              <h4>
+		<span style="color:#333333;font-size:10pt">地球の未来に向けてのビジョン</span>
+                <a href="http://www.j-wave.co.jp/special/earthtalk/">
+		<img src="/img_banner/bnr_earthtalk.jpg">
+                </a>
+              </h4>
+            </div>
+
+            <div id="special-box" class="clrfix">
+              <h4>
+		<!--span style="color:#333333;font-size:10pt">イノベーター発掘プロジェクト</span-->
+		<span style="display:block;text-align:center;color:#333333;font-size:10pt">テック＆音楽フェス開催！<br />INNOVATION WORLD FESTA</span>
+                <a href="http://www.j-wave.co.jp/iwf2016/">
+		<img src="/img_banner/bnr_iw.jpg">
+                </a>
+              </h4>
+            </div>
+          </div>
+
+        </div>
+      </div><!--/#SpecialArea-->
+
+
+
+
+
+
+
+
+      <!--div id="skytree-mag" style="margin: 10px 0;">
+	    <a href="http://www.j-wave.co.jp/blog/news/" title="J-WAVE NEWS"><img src="common/img/tit_top_newsblog.jpg" alt="WAVE NEWS" /></a>
+        <a href="http://www.j-wave.co.jp/rl/?KOJo4qs3" title="SKY TREE MAGAZINE"><img src="common/img/tit_top_skytree.jpg" alt="SKY TREE MAGAZINE" /></a>
+      </div--><!--/#skytree-mag-->
+
+      <!--div id="show-twit">
+        <a href="http://pod.j-wave.co.jp/twitter/" title="Twitterを見る"><img src="common/img/tit_top_twiter.gif" style="margin-bottom: 5px;" alt="Twitterを見る" /></a>
+        <a href="http://www.facebook.com/jwave813fm" target="_blank" title="Facebookを見る"><img src="common/img/tit_top_facebook.gif" alt="Facebookを見る" /></a>
+      </div--><!--/#show-twit-->
+
+
+      <!--div id="searviceArea" class="boxS-top">
+        <div class="boxS-btm">
+          <div class="boxS-rep">
+            <h3><img src="common/img/tit_service.gif" width="113" height="15" /></h3>
+            <ul>
+            <li><a href="http://www.j-wave.net/index.html" target="_blank" title="@NET(Provider)"><img src="common/img/s-net.gif" alt="@NET(Provider)" /></a></li>
+            <li><a href="http://www.j-wave.co.jp/mobiles/index.htm" title="SOUNDS(MOBILE)" target="_top"><img src="common/img/s-sounds.gif" alt="SOUNDS(MOBILE)" /></a></li>
+            </ul>
+          </div>
+        </div>
+      </div--><!--/#searviceArea-->
+      
+
+
+    </div><!--/#columC-->
+    
+
+
+    <div id="columnD">
+<!--a class="youtube fancybox.iframe"  href="https://www.youtube.com/embed/Mw3Jw8RKU3M?rel=0&autoplay=1"><img src="/common/img/ytb_1510_large.jpg" alt="J-WAVEナビゲーターによるスペシャルムービー公開中！" style="margin:0 0 5px 0;" /></a><br />
+<p style="margin:0 0 15px 0;font-size:12px;font-weight:bold;color:#0099cc;">★ J-WAVEナビゲーターによるスペシャルムービー公開中！</p-->
+
+<!--
+<a href="http://www.j-wave.co.jp/rl/?t67w8Loi"><img src="/common/img/bnr_escrit201510.jpg" alt="ブライダルイベント" style="margin:0 0 10px 0;" /></a><br />
+-->
+
+<!-- Happy Rainy J-WAVE -->
+<!--div id="rainy_bnr"></div-->
+
+<!--div class="bnr_amazon" style="margin:0 0 10px;"><a href="http://www.j-wave.co.jp/special/1507_jshop/"><img src="/common/img/bnr_1507amazon.png" alt="" /></a></div-->
+
+<!--  ad tags Size: 336x280 ZoneId:1018552 2015.05.27 -->
+<script type="text/javascript" src="http://104926.gsspcln.jp/t/018/552/a1018552.js"></script>
+
+
+      <!-- ログイン前 -->
+      <div id="loginArea">
+        <h3>J-WAVE LISTENERS COMMUNITY</h3>
+
+        <p style="margin:10px auto;"><a href="http://www.j-wave.co.jp/jlc/circle/cinema/"><img src="/jlc/images/jme_cinema_circle_entry.jpg" alt="J-me Cinema Circle" /></a></p>
+<!--
+        <a href="http://www.j-wave.co.jp/rl/?lR7fVtQW"><img src="/jlc/images/pc_get_jme.jpg" alt="J-meアプリダウンロード" /></a>
+-->
+        <h2>Member 新規会員・ログイン</h2>
+
+        <p class="welcome">ようこそ「ゲスト」さん</p>
+
+
+				<img src="/jlc/images/tt-5point.gif" alt="2/15〜2/21はリスナー感謝ウィークJ-meポイント5倍" /><br />
+
+
+
+        <p style="width:256px;margin:10px auto;">
+				<a href="/jlc/"><img src="/jlc/images/about_login.gif" alt="J-me 会員登録・詳細" /></a>
+	</p>
+				<p>★J-WAVE TOPアクセスで+5pt(1日1回）</p>
+
+				<p class="challengesStatus"></p>
+
+				<div id="social-login">
+					<p>▼ソーシャルアカウントでログイン</p>
+					<div id="gigyaLoginUI"></div>
+				</div>
+
+				<div class="loginform">
+					<p>▼ID、パスワードでログイン</p>
+
+
+					<form name="frm_login" action="https://member3.j-wave.co.jp/v2/pc.fj/Top/login_check/" method="post">
+						<input type="hidden" name="return" id="login_return" value="http://www.j-wave.co.jp/" />
+						<p>ID（メールアドレス）<input type="text" value="" name="email" /></p>
+						<p>パスワード<input type="password" value="" name="password" /></p>
+						<!--<p><input type="checkbox" id="autologin"><label for="autologin">次回から自動ログイン</label></p>-->
+						<span class="reminder"><a href="https://member3.j-wave.co.jp/v2/pc.fj/Reminder/pass">パスワードを忘れた方</a></span>
+        					<div style="width:256px;margin:10px auto;">
+						<input type="image" src="/jlc/images/btn-login.gif">
+						</div>
+					</form>
+
+				</div>
+			</div>
+			
+			<!-- //ログイン前 -->
+
+
+      <!-- ログイン後 -->
+      <div id="listenersStatus">
+        <h3>J-WAVE LISTENERS COMMUNITY</h3>
+
+        <a href="http://www.j-wave.co.jp/jlc/circle/cinema/"><img src="/jlc/images/jme_cinema_circle_entry.jpg" alt="J-me Cinema Circle" /></a>
+<!--
+        <a href="http://www.j-wave.co.jp/rl/?lR7fVtQW"><img src="/jlc/images/pc_get_jme.jpg" alt="J-meアプリダウンロード" /></a>
+
+        <h2>Listeners Statusユーザー情報</h2>
+				<img src="/jlc/images/tt-5point.gif" alt="12/14〜12/20はリスナー感謝ウィークJ-meポイント5倍" /><br />
+-->
+
+				<img src="/jlc/images/tt-5point.gif" alt="2/15〜2/21はリスナー感謝ウィークJ-meポイント5倍" /><br />
+        <p style="width:256px;margin:10px auto;">
+        <a href="/jlc/"><img src="/jlc/images/mypage.gif" alt="マイページ" /></a>
+	</p>
+        <p style="margin:0 0 10px 0;">★J-WAVE TOPアクセスで+5pt(1日1回）</p>
+
+        <p class="userstatus">UserStatus</p>
+        <div id="gigyaUserStatus"></div>
+
+        <p class="challengesStatus"><img src="/jlc/images/tt-badge.gif" alt="" /></p>
+        <div id="gigyaChallengeStatus"></div>
+
+
+        <div style="width:256px;margin:10px auto;">
+				<form name="frm_logout" action="https://member3.j-wave.co.jp/v2/pc.fj/Top/logout" method="get">
+					<input type="hidden" name="return" id="logout_return" value="http://www.j-wave.co.jp/" />
+					<input type="image" src="/jlc/images/logout.png" value="ログアウト" />
+				</form>
+	</div>
+			</div>
+
+
+			<div id="listenersActivity">
+				<p class="leaderboard"><img src="/jlc/images/tt-point.gif" alt="" ></p>
+				<div id="gigyaLeaderBoard"></div>
+			</div>
+			<!-- //ログイン後 -->
+
+
+
+<!--/#Gigya-->
+
+
+
+
+      <div id="past-list">
+        <a href="http://www.j-wave.co.jp/special/index.htm" title="過去の特別番組一覧"><img src="common/img/tit_top_past_prg2.gif" alt="過去に放送した特別番組一覧" /></a>
+      </div><!--/#past-list-->
+
+      <div id="blog-latest2" class="boxS-top2">
+        <div class="boxS-btm2">
+          <div class="boxS-rep2">
+            <h3>BLOG最新記事</h3>
+            <a class="miru" href="http://www.j-wave.co.jp/blog/list.htm" title="BLOGを見る"><img src="common/img/ico-miru.gif" alt="BLOGを見る" /></a>
+            <!--/__ENTRY LATEST BLOG__-->
+          </div>
+        </div>
+      </div><!--/#blog-latest-->
+
+
+      <div id="other-menu2" class="boxS-top2">
+        <div class="boxS-btm2">
+          <div class="boxS-rep2 clrfix">
+            <h3>OTHER MENU</h3>
+            <ul>
+              <li><a href="http://www.j-wave.co.jp/sitemap/index.htm" title="サイトマップ">サイトマップ</a></li>
+              <li><a href="http://www.j-wave.co.jp/oyakudachi/index.htm" title="お役立ちサイト">お役立ちサイト</a></li>
+              <li><a href="http://www.j-wave.co.jp/toolbar/" title="ツールバー">ツールバー</a></li>
+              <li><a href="http://groupair.jp/" title="音声コミュニケーション Groupair(グループエアー)">グループエアー</a></li>
+              <li><a href="http://www.j-wave.co.jp/mobiles/index.htm" title="携帯サイト">携帯サイト</a></li>
+              <li><a href="http://www.j-wave.co.jp/gadget/" title="ガジェット">ガジェット</a></li>
+              <li><a href="http://www.j-wave.co.jp/faq/" title="FAQ">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div><!--/#other-menu-->
+
+      <div id="jwvLink2" class="boxS-top2">
+        <div class="boxS-btm3">
+          <div class="boxS-rep2 clrfix">
+            <ul>
+              <li><a href="http://www.j-wave.co.jp/oaline.htm" title="番組放送基準">番組放送基準</a></li>
+              <li><a href="http://www.j-wave.co.jp/privacy.htm" title="プライバシーポリシー">プライバシーポリシー</a></li>
+              <li><a href="http://www.j-wave.co.jp/outline/message/index.htm" title="What's J-WAVE">What's J-WAVE</a></li>
+              <li><a href="http://www.j-wave.co.jp/outline/" title="会社情報及び採用情報">会社情報 及び採用情報</a></li>
+              <li><a href="http://www.j-wave.co.jp/jfl/index.htm" title="Japan Fm League">Japan Fm League</a></li>
+              <li><a href="http://www.j-wave.co.jp/banshin/" title="番組審議会">番組審議会</a></li>
+              <li><a href="http://www.j-wave.co.jp/d-jwave/" title="コミュニティFM">コミュニティFM</a></li>
+              <li><a href="http://www.j-wave.co.jp/recommend.htm" title="推奨環境">推奨環境</a></li>
+              <li><a href="http://www.j-wavei.jp/" target="_blank" title="（株）J-WAVE i">（株）J-WAVE i</a></li>
+              <li><a href="http://www.j-wavemusic.co.jp/" target="_blank" title="（株）J-WAVE MUSIC">（株）J-WAVE MUSIC</a></li>
+            </ul>
+          </div>
+        </div>
+      </div><!--/#jwvLink-->
+
+
+      <div id="jwvEx">
+        <ul>
+         <li><a href="http://www.j-wave.co.jp/rl/?ojIwBABL" target="_blank"><img src="/img_banner/bnr_mybestjob.jpg" border="0" alt="マイベストジョブ" /></a></li>
+          <li><a href="http://www.j-wave.co.jp/rl/?CIcdmvIg" target="_blank"><img src="/img_banner/bnr_jcrowd.jpg" width="188" height="56" border="0" alt="J-CROWD" /></a></li>
+          <li><a href="http://www.j-wave.co.jp/rl/?uW2NQzvc" target="_blank"><img src="/img_banner/bnr_radioweb.jpg" width="188" height="56" border="0" alt="radioweb.jp" /></a></li>
+          <li><a href="http://www.j-wave.net/index.html" target="_blank"><img src="/img_banner/bn-atnet-top.jpg" width="188" height="51" border="0" alt="J-WAVE @NET" /></a></li>
+          <li><a href="http://www.dialoginthedark.com/" target="_blank"><img src="/img_banner/bnr_did2012.jpg" width="189" height="51" border="0" alt="ダイアログ・インザダーク" /></a></li>
+          <li><a href="http://www.radiofriends.jp/" target="_blank"><img src="/img_banner/bnr_radiofriends.jpg" width="188" height="56" border="0" alt="RADIO FRIENDS" /></a></li>
+          <li><a href="http://www.j-wave.co.jp/special/eew/" title="緊急地震速報"><img src="/img_banner/b_eew.gif" alt="緊急地震速報" /></a></li>
+          <li><a href="http://www.j-wave.co.jp/radiobar/hyper.htm" title="MHM"><img src="common/img/mhm_bnr.jpg" alt="MHM" /></a></li>
+          <li><a href="http://www.j-ba.or.jp/?RadioData" target="_blank" title="J-RABJラジオデータ"><img src="common/img/bn_rabj.jpg" alt="RABJラジオデータ" /></a></li>
+          <li><a href="http://www.j-wavei.jp/" target="_blank" title="J-WAVE i クロスメディア"><img src="common/img/bn_jwavei.gif" alt="J-WAVE i クロスメディア" /></a></li>
+
+<!--
+         <li><a href="http://www.j-ba.or.jp/fest421/" target="_blank"><img src="/img_banner/bnr_minpo.jpg" border="0" alt="民法の日" /></a></li>
+          <li><a href="http://www.j-wave.co.jp/rl/?Kwxqvc7R" target="_blank"><img src="/img_banner/bnr_mybestjob.jpg" width="188" height="51" border="0" alt="マイ・ベストジョブ" /></a></li>
+          <li><a href="http://www.j-wave.co.jp/rl/?gI4Nsndo" target="_blank"><img src="/img_banner/placenta.jpg" width="189" height="51" border="0" alt="今、注目のプラセンタサプリをプレゼント" /></a></li>
+          <li><a href="http://www.j-wave.co.jp/rl/?GKFmTuE3" target="_top"><img src="/img_banner/bnr_snowfall.gif" width="188" height="51" border="0" alt="積雪情報-SNOWFALL INFORMATION-" /></a></li>	
+          <li><a href="http://www.j-wave.co.jp/rl/?n4NB5sMF" target="_top"><img src="/img_banner/bnr_ecoandart.gif" width="188" height="51" border="0" alt="コニカミノルタ　エコアンド＆アワード作品募集中" /></a></li>
+        <li><a href="http://www.j-wave.co.jp/rl/?vcCTqcNM" target="_blank"><img src="/img_banner/095.jpg" width="189" height="51" border="0" alt="TOKYO TOWER STORY 第4弾" /></a></li>
+        <li><a href="http://keitai.fm/mtm/" target="_blank"><img src="http://keitai.fm/mtm/ad/188_56.gif" width="188" height="56" border="0" /></a></li>
+        <li><a href="http://www.j-wave.co.jp/saigai/" target="_top"><img src="/img_banner/bnr_saigai.jpg" width="188" height="56" border="0" alt="災害情報まとめ" /></a></li>
+        <li><a href="http://minpou60.jp/" target="_blank"><img src="/img_banner/bnr_omoide.jpg" width="188" height="56" border="0" alt="教えてください！思い出の番組" /></a></li>
+        <li><a href="http://radiobyyourside.jp/?radio=j-wave" target="_blank"><img src="/img_banner/bnr_radiobyourside.gif" width="188" height="56" border="0" alt="Radio by your Side" /></a></li>
+-->
+        </ul>
+      </div><!--/#jwvEx-->
+
+
+
+
+
+      
+
+
+<!--
+      <div>
+      <object style="padding: 10px 0 0 15px; display: block;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="189" height="51" align="middle">
+        <param name="wmode" value="opaque" />
+        <param name="allowScriptAccess" value="sameDomain" />
+        <param name="movie" value="top/data/common/1011_yume.swf" />
+        <param name="quality" value="high" />
+        <param name="bgcolor" value="#fff" />
+        <embed style="margin:0 0 8px 0;" src="top/data/common/1011_yume.swf" quality="high" bgcolor="#fff" width="189" height="52" name="bnr1" align="middle" wmode="opaque" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+        </object>
+      </div>
+-->
+
+
+
+    </div><!--/#columD-->
+
+  </div><!--/#containerInnr-->
+</div><!--/#container-->
+
+
+<div id="footer_ga">
+<!--  ad tags Size: 970x90 ZoneId:1018554-->
+<script type="text/javascript" src="http://104926.gsspcln.jp/t/018/554/a1018554.js"></script>
+</div>
+
+
+<div id="footer">
+  <p class="copyright">Copyright J-WAVE.Inc All right reserved.</p>
+</div>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-877813-30']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="jcm/js/slideshow_top.js"></script>
+<script type="text/javascript" src="jlc/js/jquery-ui-1.10.2.custom.min.js"></script>
+<script type="text/javascript" src="js/jkl-parsexml.js"></script>
+<!--script type="text/javascript" src="js/jwvTopl_131030.js"></script-->
+<script type="text/javascript" src="js/jwvTopl_141001.js"></script>
+<script type="text/javascript" src="js/TWStreamFil.js"></script>
+<script type="text/javascript" src="js/rating.js"></script>
+<script src="/common/js/fancybox2/source/jquery.fancybox.pack.js"></script>
+
+<!-- Gigya box -->
+<script type="text/javascript" src="https://cdns.gigya.com/JS/socialize.js?apiKey=3_B_Ok267rujbOj-wYExJ0H6MeBHeX8XpR4errxLnjNRTusRWTNpM-OQJbkP34L9Rl">
+{enabledProviders:"facebook,twitter,mixi,messenger,google,linkedin", connectWithoutLoginBehavior:"alwaysLogin", lang:"ja"}
+</script>
+<script type="text/javascript" src="/jlc/js/md5.js"></script>
+<script type="text/javascript" src="/jlc/js/gigya.130330.js?140625"></script>
+<!--// Gigya box -->
+
+<script type="text/javascript">
+feed_id = "";
+stream_id = "";
+
+$(function() {
+  $("#gigyaLoginDialog").dialog({
+    autoOpen: false,
+    width: 300,
+    title: "J-meにログイン",
+    show: 'explode',
+    hide: 'explode',
+    modal: true,
+    buttons: {
+      close: function() {
+        $(this).dialog("close");
+      }
+    }
+  });
+
+  JWAVE.Gigya.Login({return_url: location.href, width:334, height: 40});
+  JWAVE.Gigya.SwitchOnLoggedin({
+    loggedin_ids:     "listenersStatus",
+    not_loggedin_ids: "loginArea"
+  });
+  JWAVE.Gigya.ChallengeStatus();
+  JWAVE.Gigya.ActivityFeed({
+    on_loginbutton_clicked: on_loginbutton_clicked,
+    on_registerbutton_clicked: on_registerbutton_clicked,
+    sitename: "J-WAVE",
+    feed_id: "",
+    width: 334,
+    height: 300
+  });
+  JWAVE.Gigya.Leaderboard({width:334,total:8,friends: 4});
+  JWAVE.Gigya.UserStatus({width:334});
+
+  // popup login form
+  JWAVE.Gigya.Login({container_id:"gigyaLoginDialogUI", return_url:location.href, width:334, height: 40});
+  function on_registerbutton_clicked() {
+    location.href = "https://member3.j-wave.co.jp/v2/pc.fj/Reg";
+  }
+  function on_loginbutton_clicked() {
+    $("#gigyaLoginDialog").dialog("open");
+  }
+  JWAVE.Gigya.NotifyAction({action_id:"action_access_top"});
+});
+</script>
+
+<script type="text/javascript">startScenes({target:"#flip-board"})</script>
+
+<script type="text/javascript">
+function clickRadikoButton() {
+  JWAVE.Gigya.NotifyAction({action_id:"action_radiko_button"});
+  return true;
+}
+function action_banner_click0() {
+  JWAVE.Gigya.NotifyAction({action_id:"action_banner_click0"});
+  return true;
+}
+function action_banner_click1() {
+  JWAVE.Gigya.NotifyAction({action_id:"action_banner_click1"});
+  return true;
+}
+function action_banner_click2() {
+  JWAVE.Gigya.NotifyAction({action_id:"action_banner_click2"});
+  return true;
+}
+function action_rightbanner_click() {
+  JWAVE.Gigya.NotifyAction({action_id:"action_rightbanner_click"});
+  return true;
+}
+</script>
+
+<script>
+jQuery(function($){
+    $(".youtube").fancybox({
+        maxWidth : 640,
+        maxHeight : 480,
+        fitToView : false,
+        width : '50%',
+        height : '50%',
+        autoSize : false,
+        closeClick : false,
+        openEffect : 'fade',
+        closeEffect : 'fade',
+        nextEffect : 'none', 
+        prevEffect : 'none'
+    });                 
+});
+</script>
+
+<!-- popup login START -->
+<script type="text/javascript" src="/common/js/commonDialog.js"></script>
+<!-- popup login END   -->
+
+</body>
+</html>

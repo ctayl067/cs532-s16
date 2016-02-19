@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html><!-- jbbs -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-jp">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<meta name="description" content="Scena of Windfarm : 『風車群のシェーナ』 自作AAとかいろいろと。">
+<link rel="alternate" media="handheld" type="text/html" href="http://jbbs.m.shitaraba.net/b/i.cgi/internet/1495/" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://jbbs.shitaraba.net/bbs/subject.cgi/internet/1495/rss" />
+<title>Scena of Windfarm</title>
+<script type="text/javascript">
+<!--
+Name = getCookie("NAME");
+Mail = getCookie("MAIL");
+function getCookie(key,  tmp1, tmp2, xx1, xx2, xx3) {
+ tmp1 = " " + document.cookie + ";";
+ xx1 = xx2 = 0;
+ len = tmp1.length;
+ while (xx1 < len) {
+  xx2 = tmp1.indexOf(";", xx1);
+  tmp2 = tmp1.substring(xx1 + 1, xx2);
+  xx3 = tmp2.indexOf("=");
+  if (tmp2.substring(0, xx3) == key) {
+   return(unescape(tmp2.substring(xx3 + 1, xx2 - xx1 - 1)));
+  }
+  xx1 = xx2 + 1;
+ }
+ return("");
+}
+
+window.onload = fillinCookies;
+function fillinCookies() {
+  for(var i = 0; i < document.forms.length; i++) {
+  if(document.forms[i].name != 'fcs') continue;
+  document.forms[i].NAME.value = Name;
+  document.forms[i].MAIL.value = Mail;
+ }
+}
+// -->
+</script>
+<!-- i-mobile for SmartPhone client script -->
+<script type="text/javascript">
+    imobile_tag_ver = "0.2";
+    imobile_pid = "426";
+    imobile_asid = "242390";
+    imobile_type = "overlay";
+</script>
+<script type="text/javascript" src="http://spad.i-mobile.co.jp/script/adssp.js?20110215"></script>
+<!--shinobi1-->
+<script type="text/javascript" src="http://x5.yu-nagi.com/ufo/043153902"></script>
+<noscript><a href="http://x5.yu-nagi.com/bin/gg?043153902" target="_blank">
+<img src="http://x5.yu-nagi.com/bin/ll?043153902" border="0"></a><br>
+<span style="font-size:9px"><img style="margin:0;vertical-align:text-bottom;" src="http://img.shinobi.jp/tadaima/fj.gif" width="19" height="11"> <a href="http://network_camera.rentalurl.net" target="_blank">ネットワークカメラ</a></span></noscript>
+<!--shinobi2-->
+</head>
+<body text="#000000" bgcolor="#A0D8EF" link="#0060A2" alink="#FF0000" vlink="#782069" background=""><script type="text/javascript" src="http://parts.jbbs.shitaraba.net/js/smartphone.js"></script>
+<a name="top"></a>
+<style type="text/css">
+body{margin:50px 0 0 0;}
+table#jbbsheader {
+  border:0;
+  width:100%;
+  height:26px;
+  font-size:12px;
+  margin-bottom:18px;
+  color:#eee;
+  background:#000;
+  border-bottom:1px solid #222;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:100;
+}
+table#jbbsheader tr, table#jbbsheader td, table#jbbsheader th, table#jbbsheader div { border:0; }
+table#jbbsheader a:link, table#jbbsheader a:visited { color:#eee; }
+table#jbbsheader .logo{ width:180px; text-align:center; }
+table#jbbsheader a img{ border:none; }
+table#jbbsheader img{ vertical-align:middle; }
+#jbbsheader, #jbbsheader *{margin:0;padding:0;}
+</style>
+<table cellspacing="0" id="jbbsheader">
+<tr>
+<th class="logo" nowrap><div><a href="http://rentalbbs.shitaraba.com/"><img src="http://parts.jbbs.shitaraba.net/img/cmn/logo_shitaraba_bk.gif" alt="したらば掲示板" width="108" height="26"></a></div></th>
+<td nowrap><div>[&nbsp;<a href="/bbs/board_info.cgi/internet/1495/" title="掲示板詳細情報">板情報</a>&nbsp;|&nbsp;<a href="http://rentalbbs.shitaraba.com/jbbs/search/ranking?category=internet">インターネット</a>&nbsp;]</div></td>
+<td nowrap style="text-align: right; padding-right: 10px;"><!-- announcement link here --></td>
+</tr>
+</table>
+<div align="center"><font color="#E4F163"><h1>Scena of Windfarm</h1></font></div><div class="jbbsCustomHeader"><center><object width="900" height="800"><param name="movie" value="http://www.youtube.com/v/_qFrxnRajMA&hl=ja&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/_qFrxnRajMA&hl=ja&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="900" height="800"></embed></object></div><table align="center"
+       bgcolor="#CCFFCC"
+       border="1"
+       cellspacing="11"
+       cellpadding="2"
+       width="90%">
+  <tr>
+    <td>
+      <b>スレッド作成：</b>
+      <form method="POST" action="/bbs/write.cgi/internet/1495/new/" name="fcs">
+        <table border="0" width="100%">
+          <tr>
+            <td nowrap align="right">タイトル：</td>
+            <td>
+              <input type="text" name="SUBJECT" size="40">
+              <input type="submit" value="新規書き込み">
+            </td>
+          </tr>
+          <tr>
+            <td nowrap align="right">名前：</td>
+            <td>
+              <input type="text" name="NAME" size="23">E-mail<font size="1">(省略可)</font>
+              ：<input type="text" name="MAIL" size="23">
+            </td>
+          </tr>
+          <tr>
+            <td nowrap align="right" valign="top">内容：</td>
+            <td>
+              <textarea rows="5" cols="60" wrap="OFF" name="MESSAGE"></textarea>
+              <input type="hidden" name="DIR" value="internet">
+              <input type="hidden" name="BBS" value="1495">
+              <input type="hidden" name="TIME" value="1455542288">
+            </td>
+          </tr>
+        </table>
+      </form>
+    </td>
+  </tr>
+</table>
+<br>
+<a name="menu"></a>
+<table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#CCFFCC" align="center">
+ <tr>
+  <td>
+<a rel="nofollow" href="/bbs/read.cgi/internet/1495/1325453934/l50">1</a> : <a rel="nofollow" href="#1">AAthread��(323)</a> <font color="#708090">/</font> <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1340322985/l50">2</a> : <a rel="nofollow" href="#2">Book(29)</a> <font color="#708090">/</font> <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1303924801/l50">3</a> : <a rel="nofollow" href="#3">置き荷の営々(167)</a> <font color="#708090">/</font> <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1293293357/l50">4</a> : <a rel="nofollow" href="#4">空き地(329)</a>
+<hr>
+<font size="-1">&nbsp;&nbsp;(全部で4のスレッドがあります)<br><br></font>
+<a href="http://jbbs.seesaa.net/">掲示板の使い方</a> / <a rel="nofollow" href="/bbs/notice_mail.cgi/internet/1495/">新着をメールで受信</a> / <a href="/bbs/storage.cgi/internet/1495/">過去ログ倉庫</a> / <a href="/bbs/subject.cgi/internet/1495/">スレッド一覧</a> / <a rel="nofollow" href="./">リロード</a>
+  </td>
+ </tr>
+</table>
+<br><br>
+<table align="center"
+       bgcolor="#EFEFEF"
+       border="1"
+       cellspacing="11"
+       cellpadding="2"
+       width="90%">
+  <tr><td><div align="center"><!-- pc_index_middle1 -->
+<script type="text/javascript" src="https://sda.seesaa.jp/frame/-FYfh66751" charset="UTF-8"></script><!-- pc_index_middle2 -->
+<script type="text/javascript" src="https://sda.seesaa.jp/frame/OZQbymbzoI" charset="UTF-8"></script></div></td></tr>
+</table>
+<br><br>
+<a name="1"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><table border="0" width="100%"><tr><td><font size="-1"><a rel="nofollow" href="#4">▲</a>1<a rel="nofollow" href="#2">▼</a></font> <b><font size="+1" color="#708090">AAthread��</font></b> <font size="-1">(Res:315)</font></td><td nowrap align="right"><font size="-1"><a rel="nofollow" href="/bbs/read.cgi/internet/1495/1325453934/">All</a> <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1325453934/-100">First100</a> <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1325453934/l50">Last50</a> <a rel="nofollow" href="#menu">SubjectList</a> <a rel="nofollow" href="./">ReLoad</a> <a rel="nofollow" href="#4">▲</a>1<a rel="nofollow" href="#2">▼</a></font></td></tr></table><dl>
+<dt><a href="/bbs/read.cgi/internet/1495/1325453934/1" rel="nofollow">1</a> ：<a href="mailto:sage"><b>煙 </b></a>：2012/01/02(月) 06:38:54 <dd> ┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴<br>┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬<br>┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴<br>┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬<br>┬┴┬┴┬┴┬┴┬┴2‐┴0‐┴1‐┴2‐┴〜┴┬┴┬┴┬┴┬┴┬┴<br>┴┬┴┬┴┬┴┬┴┬┴‐.::::-…-::.┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬<br>┬┴┬┴┬┴┬┴┬ :⌒Y　　　　　　　Ｙ⌒‐┬┴┬┴┬┴┬┴┬┴┬┴<br>┴┬┴┬┴┬┴┬┴┬ ｜┃　 　　┃｜ ┬┴┬┴┬┴┬┴┬┴┬┴┬<br>┬┴┬┴┬┴┬┴┬┬ ｜　　　 　 　 ｜ ┴i/ ┴┬┴┬┴┬┴┬┴┬┴<br>┴┬┴┬┴┬┴┬┴┬ 人　 　--　 　人　 (]:‐┬┴┬┴┬┴┬┴┬┴┬<br>┬┴┬┴┬┴┬┴┬┴┬┴:.----.:┬ ;::;.┴┬┴┬┴┬┴┬┴┬┴┬┴<br>┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬ ' :┬┴┬┴┬┴┬┴┬┴┬┴┬<br>┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬ ;. ┬┴┬┴┬┴┬┴┬┴┬┴<br>┴┬┴┬┴┬┴┬┴┬┴┬┴┬‐_i}:::::;:{!_.ｮ┴┬┴┬┴┬┴┬┴┬┴┬　　　　　　　　　<br>┬┴┬┴┬┴┬┴┬┴┬┴┬┴ &lt; 　　 &gt;ｧ].:‐┴┬┴.∧_∧‐┴┬┴┬┴<br>━━━━━━━━━━━━━━　く　　)━━━━━(*　　 )━━━━━<br>　　　　　　　　　　　　　　　　　　　　　　/　l　 彡　　　ミ　c　　 っ<br>　　　　　　　　　　　　　　　　　　　　　　 ﾆﾆ　　　 ﾆﾆ　　　し　J<br>　　　　　　　　　　　　　　　　　　　　　　ﾆ二　 　 ﾆ二　　　二二ﾆ=-<br>　　　　　　　　　　　　　　　　　　　　　 ﾆ　 ﾆ　　 ﾆ　ﾆ　　　 ﾆ ﾆ ﾆ=<br>　　　　　　　　　　　　　　　　　　　　　ﾆ二二　　ﾆﾆニ　 　　ﾆ ﾆ ﾆ=<br>　　　　　　　　　　　　　　　　　　　　 ﾆ　　 ﾆ　　ﾆ 　 ﾆ　　　ﾆ ﾆ ﾆ-<br>　　　　　　　　　　　　　　　　　　　　　　　　　　 　　　　 　　二二二=-<br><br>2009-2011<br>ttp://jbbs.livedoor.jp/bbs/read.cgi/internet/1495/1230745021/<br>2008<br>ttp://jbbs.livedoor.jp/bbs/read.cgi/internet/1495/1222286156/<br>2007<br>ttp://jbbs.livedoor.jp/bbs/read.cgi/internet/1495/1222286052/ <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1325453934/317" rel="nofollow">317</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2016/01/07(木) 00:57:09 <dd> 　　　　　　　　　　しﾍ≧=-- i/i｛　　｛　　 　 　 　 　 　 　 　 _,,. イ: .　: .｜　　. :　 　 廴_{　_} .ﾞ　　 　 /　　　　 　　　　　 　　 ﾉ<br>　　　　　　　 　 (__).斗しJ⌒Uしﾍ　　＼　　　　　　　　　 . :/. : . : . : . : 八　. : 　 　 　 　 &#8549;{ {　　 　 ′　　　　 }　　 　 　 ,ｘく<br>　　　　　(__)　　　　　 | 田　 田　弋　 ｛　　　　 　 ,　 . : : /: . : . : . : . : . : : .、　　　　　　　て :、　　 {　　　　 ,.ノ　　　　 　 　 }<br>　　　 r　　_,,.斗 「しJ || -　　ﾆ　　 ｀Y　廴　 　 ／ . : . : ,′: . : . : . : . : ＼: .＼　　　　　　　乂_ｋ　　 ー… ´　　　　　(____）　;<br>　　　 |ﾍ !ｌ　 Ｊしγ⌒|ｌ　　　　　　　 乂　 ⌒てﾍ . : . : . : . : . : . : . : . : .｀: .＼. : .、　　 　 　 　 　 ＼　　 　 　 　 　 　 ､___,,..ノ<br>　　　 |　Jし′　. : 　 (____))(___))(___))-廴___,.ノ/{＾　、. : i. : . : . : . : . : . : . ; . :｀ : .ﾞ.　　　 　 　 　 f⌒ヽ、　　　　(___)　´} ___<br>　　　. : :★　. : 　 　 　 　 　 　 　　. . : : : : : . 弋｀ー ＼ ﾄ､ : . : . : . : . : . : i　　 }　 }　　　 　,ノ⌒ 　 ノ＾＼(__ﾉ　 　 　 .ﾉ_____<br>　　☆　,爻,　　　　　　　　　　　　　 . . 　 　 　 ノ ー‐xﾁ⌒ヽ、__＿＿_＿_」─く,.イ⌒Y⌒＾´　 　 r┘| __:/｀ー'^ー…く________<br>　 メメ 爻爻 　 　 　 　 ∩　　　　　　　　　　〃　 　 「: :　　　　　　　: .＼　　　 ﾞ..乂__,.ノて.ノ⌒”　|ｉｉ|三i　　　｜〇 〇 〇<br>　メメ_爻ｘ爻,_ ∩ ｎ　　凵: .　　　　 　 ∩　 {{___＿,ノ. :　　　　　　　　　: .ヽ　　　ｈ　　　　　　　 . : |ｉｉ|三|　_　 ｜Φ Φ Φ<br>　　[iｉて_火_ア 凵 ｌ」: . 　 　 　 　 　 　 ⌒: .　￣￣　　 　 　 . . . : : : : : : : 「{___,.ノ＾:｝　　　　 　 　 　 . : ｜【__】｜　　 　 　 ☆<br>　　　　 [III]　　 : : : . .　　　　　　　　　　　　　　　　　 　 　 　 ∩_∩　　. :弋_＿_,.イ　　　　　　 　 　 . :　: : .　 : :￣￣￣￣爻<br>　　　　　　　　　　　　: .　　　　　　　 　 　 　 　 　 　 　 　 　 (´ー` :）　　. : :｝　　｜　　　　　_____　　　　　　　　　★　　 爻_爻<br>　　　　　　　　　　　　　: . . . . . .　　　　　　　 　 　 ∧_∧ 　と_｡｡｡__ぅ 　 . : .′　 ！: . 　.:/⌒i　　 ｀丶、　☆　　 .爻 　 　 [_]<br>　　　　　　　　　　　　　　: .　　 　 　 　 　 　 　 　 (:・∀・)　　(_.ﾉヽ_） 　 　 {　　　 ； : . 〃　.ノ　 /⌒i　ﾞ;.,爻爻　,爻爻<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1325453934/317" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1325453934/318" rel="nofollow">318</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2016/01/16(土) 22:23:12 <dd> 　 　 　　　　　　　　　＼人_人_人_人_人_人_人_人_人_人_人_人_人_人_人／<br>　　　　　　　　　　　　て　　猿 が 人 間 に 追 い つ け る か ー ッ ！ 乂<br>　　　　　　　　　　　　／Y⌒Y⌒Y⌒Y⌒Y⌒Y⌒Y⌒Y⌒Y⌒Y⌒Y⌒Y⌒Y＼<br><br>　＼人_人_人_人_人_人_人_人_人_人_,／<br>　て おまえはこのディオにとっての 乂<br>　／＾Y⌒Y⌒Y⌒Y⌒Y⌒Y⌒Y⌒Y⌒＾＼<br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1325453934/319" rel="nofollow">319</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2016/01/16(土) 22:23:48 <dd> 　　　　　　　　　　　　　　　　　　 　 　 　 　 　 　 　 　 _,.　 -=ミ__＿__,ノ　　　　　　　＊<br>　　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 〃^⌒ '＾´　 -=彡 ┏━━━┓<br>　　　　　　　　　　　＋ ┏┓　　　　　　　　 　 　 乂i{　 ィ‰　 　 -=≠ ┗━━┓┗━━┓　<br>　　　　　　　　　　　 　 ┃┃　 ┃┃　 　 　 r ┐ ミ込、(_,斗ｧ __,,..ｨ　　　 　 　 ┗━━━┛<br>　　＊　　　　　　　　　 ┃┃　　　　 　 　 　 }　} 　;ｨ´ヾ_/二/i　__彡　　　　_,,.　　 　-‐┐　　　┏┓<br>　　　　　　　　　　　 　 ┃┗━┓　　　{ー{ _}_ {_彡i　く-｝`/いｈ_,　-‐…=ミ_,,.　-‐　⌒´ 　　　┗┛<br>　　　　　　　　　　　 　 ┃┏━┛ 　 　 {6｛斗rf⌒ ｋ__` イ　∨ j:}　. :　　 ノ℃{　　　　　　　　　　　　┏┓<br>　　　　　　　　　　　 　 ┃┃　　 　 　 . ´{8｛.｛　ー┐; 、 r‐ '’ ,ノ　. :　,ノ℃ア＾ヽ、　　 　 　　 　　　 ┃┃<br>　　┏┓　　　　　　　　┗┛　　 　 　 i　 ｛6{　ー‐┘:　　}ー＜　　. :ノ℃ア 　 　 }　　　　 　　　┏━┛┃<br>　　┃┃　 ┃┃ 　 　 　 　 　 　 　 r‐|　　}8} :.、 {⌒. ⌒j　　 } 　 ノ℃ノ 　 　 ／ 　 　　　 ＋　┗━━┛<br>　　┃┃　　　　　　　　　　　　　 　 {:八　　}6}　　 、 :　　;　　ﾉ　ノ℃＾___,,... イ　{　　　　　 　 ＼ ＷＷＷＷＷＷＷＷＷＷＷＷＷＷＷＷＷＷＷＷＷ ／<br>　　┃┗━┓　　　　　　　　　　　　 、^＼: .｛Ъx　＼,._ノ,.イ　ノ℃｝　 ；　　 : .　　､　＊　 　 ＞　　　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 　 ＜<br>　　┃┏━┛　　　　　　　　 　 　 　 ＼___　｛⌒Y^&#13115;⌒Y⌒ア&#13115;Y　　ﾉ＼,.__ . : :　},　　　　　＞ 　 モ ン キ ー な ん だ よ　　　　　 　 　 　 　 　 　 　 ＜<br>　　┃┃　　　　　　　　　　 　 　 　 　 　 {⌒＾丶廴}__(S)x(S)__.廴}_,.ｲ　　〈　 　: .　}ｋ　 　 　 ＞　　　　ジ ョ ジ ョ ォ ォ ォ ォ ────── ッ ！ ！ ＜<br>　　┗┛　　　　　＊　 　 　 　 　 　 　 　 ソ　　:､＼.._(S) (S)_,.ノ}　ノ＾^ヾ、 、___,.ノ__ ヽ、　　＞　　　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 　 ＜<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1325453934/319" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1325453934/320" rel="nofollow">320</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2016/01/16(土) 22:24:06 <dd> <a href="/bbs/read.cgi/internet/1495/1325453934/318-319" rel="nofollow" target="_blank">&gt;&gt;318-319</a><br>ディオ・ブランドー、ジョナサン・ジョースター（ジョジョの奇妙な冒険）<br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1325453934/321" rel="nofollow">321</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2016/01/29(金) 23:54:33 <dd> 　　　　　　　　　　 、　＼｝　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　 /<br>　　　　　　 　 　 　 ＼ 　 `　　　　　　　　　　　　　　　　　　　　　　　　　　　　　厶イ_,,. ィ<br>　　　　　　　　　　＼　＼　 　 　 　 　 ,　　　　　　　 ..,,_　　　　　　　　　　　　　　 　 　 /<br>　 　 　 　 　 　 　 　 ＼‰　　　 　 　 ′　　　　　　　　 ｀`丶、　　　　　、　　　　　　‰ィ´<br>　　　 　 　 　 　 　 　 ノ　　　　 　 　 {　　　　　　　　　｀丶、　＼　　　　 ＼　　　　-=≦　ｧ<br>　　　　　　　　　____彡ぃ　　　　　　 八 　　　　:.、　 　;　　 ＼　 ﾐ　　　 　 .≧=-　　 　_彡<br>　　　　　　　　　　⌒ ｸ　　　　　　i　 　＼　ー=- 　xノ　　　　｀ .　　　　 ｀　＼　 　 _ ィ⌒<br>　　　　　　　　　　__彡く　　　　　&#65508; 　　 i≧=--　‐く　　 、　　､i　　 　 　 } 　 ＼ __,.ノ<br>　　　　　　　　　-=ニ __,.　　　　　|八　　ｋ　　、　＼ ＼　＼_,.斗--　　　 圦　⌒Ｚ≦,ｧ<br>　　　　　　　 　 　 　 　 }:i|　 　　_」≧ミメ、＼ _＿___;.　　-─三:──辷_ ;　 ＼ 　 ／<br>　　　　　　　　　　 　　ノ八|　　 i　　_..二.._｀`丶.二 {　 _,.汽__ツ^｀`　ﾉ斗-┐-=≠´<br>　　　　　　　　　　　　　_,.ノ　　八 　 ヽ弋_ツ　 〉⌒ﾏ　　　　　　　／/刈⌒j&#13115;”<br>　　　　　　　　　　　 　 ⌒Ｚ,,../ﾍ ＼　　　　　 /)　 .　ヾー─‐　 ´ 　/ ノ r,八_<br>　　　　　　　　　　　　　　 　 　 　{ ∧￣￣￣　 　 ;　　　　　　　　　　;'＾ ｲ⌒<br>　　　　　　　　　　　　　　　 　 　弋,rﾍ　　 　 　 　 }　　　　　　　　　 ｧく⌒`<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1325453934/321" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1325453934/322" rel="nofollow">322</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2016/02/15(月) 22:17:52 <dd> 鬮雫雰洲&#13115;九 i. 沁 ,i仏乂元&#13115;´　　　　　　　　　　　　　 　 　 　 　 ｀` 芍幻灰 j儿 l冫-　,泝愚臉欒鑷欝<br>穐蠻嫋黍洲&#8567;i丈沁弘ノi‰'’　 　　　　　　　　　　　 　 　 　 　 　 　 　 　 ｀守茅ｘ公卞 一l怯崙參憂嚢靈<br>暹瓣蠻綴絲&#13261;沁　六 ;衿'° 　　　　　　　　　　　　　 　 　 　 　 　 　 　 　 　 ﾞﾏ不戈ｔ狡交乕遶冓藁薺寳<br>钁撫曩礎弊恣&#13115;　,i l秘′　　　　　　　　　　　　　　　　　 　 　 　 　 　 　 　 　 &#8550;圦永父 j孫獪簇甓鬘鑿<br>顴慶贔薔寒派,;双,ノＷ　 　　　　　　　　　　　　　　　　　　 　 　 　 　 　 　 　 　 ﾞ恣哭:i:i:澁蟲鼈黌鬣黶鸞<br>嫋雹鋩蕊念j从 公仏.′ 　　　　　　　　　　　　　　　　　　　　　　 　 　 　 　 　 　 怎砕x,効蕋篶蕭霤轟黌<br>鑿鸞簽抓弍. 乂九,札　　 　　　　　　　　　　　　　　　　　　　　　　 　 　 　 　 　 　 忍 斗斥奚慫螽羃露黶<br>繼鑾戀季,斥冫尖ｉ,忙 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　 　 辷儿 勺f荒w鼕翻齋鑒<br>鷭撃慾礎必午.ｌ:六北　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 　 　 　 　 兆戊斥辿&#13099;;.讎變蕭霽<br>鬱贄嚢i ,l　引.壬絃状　 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　 灯t焚_蕊蹤:lii欒欝蠻黷<br>羲蘢榮沈 ノ之八,戎沁　　　　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 　 圦 癶.戔莢ｌ愀殘寮毳襄<br>羈纛蘂咒 乃久泌_公心　　　　　　　　　　　　　　　　　　　 　 　 　 　 　 　 　 　 ,ﾍ 九淀辷孩ｘ :簗萋臠鼈<br>廳戀蠻&#13261;冽　介勹六 弍、　　　　　　　　　　　　　　　　　　　　　　　　　　　　 ,:圦乞力.ノ -:i:ｉ气從薪贅鸞<br>鸞廳雹傀 乂癶;綻气癶芍ゝ、　　　　　　　　　　　　　　　　 　 　 　 　 　 　 , 心禾尓.☆.元冴塋鎹變竸黌<br>爨黌繼攣薔泌　忙 ; 勺l爻t へ、　　　　　　　　　　　　　　　　　　　　　 . イ力入乂&#13115;弍愁聚瀲彎欝轣蓋<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1325453934/322" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1325453934/323" rel="nofollow">323</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2016/02/15(月) 22:18:07 <dd> ｛圖圖}　　鬮:&#8560; 弍戔莢汽, 　炙浤渕i:ｉφ .衍祢.i:i臥_ 辷_/ 　 　 . : 　 ﾉ 　; . ー…　´. : } _&#13181;飼;雰環翻鑢<br>　　　　 　 |＝{x}＝jｉ断毬派. 　辷弐j&#8547;φ ,炒剋洲&#13115;´廴.′　 行. : ／ ,ｨ&#13217;⌒　　　. :　ﾉ　,狄捻炙嚼麺礫<br>　　　　　　陜.&#8561;次乖握抗:i:ｉ.　、尓孑　′及班☆丈　辷;ﾞ　 g灸 ／ ,g嵯烈x, 　 __,,..． 　 g却i阪藍箋櫂鏖<br>　　　　　　險i&#8561;在変塋滅;戈: . 　__,,.　 . :;焔按赫包, 廴ﾉ　 唸廴_ .i投. :-弁&#13099;i;_ 　 . . : i研益撰俄藍蒙鵠<br>　　　　 　 |i_ノ　ﾏ求賑燈浪辻 : . 　 . . g莢織希&#13115; 　辷{_　f狂俊牟. : -耕納艇建必殳f明i肋独根迅餅欄<br>　　　　　 　 　 　 ﾏ疔雑胚劫歩辷孑ラ莢塔務刑} そ 　ノ ;騒絶堕王堂禁虞勲嚢ｊ迂外尖粒羚転蓋寵餅<br>　　　　　　 　 　 　 寸杷彁案蒜襲籌断鐚根奘i.{　　Yﾆ｝ ,獣悪愧悲蒙頴娃寛箒矣豢貂蝉詠巻+猊萬躓<br>　　　　　　　　　　 　 寸核跋痣矣巽豢摩暴鹿獎,　　}ﾆj tﾀ戯哮唸咸號裝頷樹駆蛮雉蒟麸遙案鯤鴦雹<br>　　 　 　 , ｯぅ℃ゎ､　　寸栩第捲棘螺欣穀膨弊;i　　}ノ　ﾏi神似虐諸晋舞譱磐童癌戟炸☆ギ此潔櫻齧<br>　　　 　 ′fれ&#8481;. ﾊ　 　 寸枢寧恢遜碌綴跋煢ﾘ __ 「 　,j狐粢梃後渙愀愛婉婆案剋淫兆ﾎ宅庶秘穏覇<br>[][]　 　 {__汽__,.メﾐ.:}　　 　 寸柔蒸薮憖慈薪&#13115;´｛　 |　 f等忝枩荼勞惑飲裟裲跪詳ボ★炒烝牋薔蠻跏<br>[][]　　　弋ｔ_辷;__&#13115;　　 　 　 寸秘悩枕犬,_ ←─┴┼ｘ── ‐　派羨&#33634;跛赫秘扶淡密挽滋紫.+;愾亥&#13115;<br>　　　 　 　 ｀¨¨¨´　　　　 　 　 恢狼茅法元, - : : . . ｜. .) . : : .ｨ&#13133;我蕎麦屋豪駆雄婆泥洲il憐劣亥&#13115;<br>　　　　　　　　　　　　　 　 　 r┘_孔飛芽以辷 : : : . ｜ ( . : : z七梅母絆恢繭嵐隗騨娩邦萄蔦亥&#13115;<br>　　　　　　　　　　　　　 　 　 閏舉覧誌諫驢裟: : 　 ｜　｀. :;斧添モ砲喃侯装等嵯鹿試能禺亥&#13115;<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1325453934/323" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+</dl>
+<form method="POST" action="/bbs/write.cgi/internet/1495/1325453934/" name="fcs">
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr valign="top">
+    <td>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><input type=submit value="書き込む" name="submit"></td>
+          <td>
+            名前： <input type="text" name="NAME" size="19">
+            E-mail<font size="-1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+          </td>
+        </tr>
+      </table>
+      <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+      <input type="hidden" name="DIR" value="internet">
+      <input type="hidden" name="BBS" value="1495">
+      <input type="hidden" name="KEY" value="1325453934">
+      <input type="hidden" name="TIME" value="1455542288">
+    </td>
+  </tr>
+</table>
+</form>
+<b><font size="3">
+  <a href="/bbs/read.cgi/internet/1495/1325453934/">全部読む</a>
+  <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1325453934/l50">最新50</a>
+  <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1325453934/-100">1-100</a>
+  <a rel="nofollow" href="/bbs/notice_mail.cgi/internet/1495/1325453934/">メール受信</a>
+  <a rel="nofollow" href="#top">掲示板トップ</a>
+  <a rel="nofollow" href="./">リロード</a>
+</font></b>
+</tr></table><br><br>
+<a name="2"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><table border="0" width="100%"><tr><td><font size="-1"><a rel="nofollow" href="#1">▲</a>2<a rel="nofollow" href="#3">▼</a></font> <b><font size="+1" color="#708090">Book</font></b> <font size="-1">(Res:21)</font></td><td nowrap align="right"><font size="-1"><a rel="nofollow" href="/bbs/read.cgi/internet/1495/1340322985/">All</a> <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1340322985/-100">First100</a> <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1340322985/l50">Last50</a> <a rel="nofollow" href="#menu">SubjectList</a> <a rel="nofollow" href="./">ReLoad</a> <a rel="nofollow" href="#1">▲</a>2<a rel="nofollow" href="#3">▼</a></font></td></tr></table><dl>
+<dt><a href="/bbs/read.cgi/internet/1495/1340322985/1" rel="nofollow">1</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2012/06/22(金) 08:56:25 <dd> イチゴジャムとトマトと流血と<br><br><br><br>イチゴジャムが兩手を広げても、<br>お空はちつとも飛べないが、<br>飛べるトマトはイチゴジャムのように、<br>地べたを速くは走れない。<br><br>イチゴジャムが体をゆすつても、<br>きれいな音は出ないけど、<br>あの鳴る流血はイチゴジャムのやうに<br>たくさんな唄は知らないお。<br><br>流血と、トマトと、それからイチゴジャム、<br>みんなちがつて、みんないい。<br><br>鉄子みすゞ <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1340322985/23" rel="nofollow">23</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/09/03(木) 14:47:16 <dd> <br>　　　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 __＿___<br>　　　　　　　　　　　　　　　　　　　 　 　 　 　 ,.　-=≦竺⌒` ミぃ、<br>　　　　　　　　　　　　　 　 　 　 　 　 　 　 ／⌒　　　　 　 　 　⌒心、<br>　　　　　　　　　　　 　 　 　 　 　 　 　 . ;&#13115;　、　＼　　 八　　　: .　沁、<br>　　　　　　　　　　　　　　　　　　　 　 /　　　　＼　 ｀ 、 　 ＼　 、　　沁、<br>　　　　　　　　　　　 　 　 　 　 　 　 / 　　 　　　 【‡” 　 　 　 ＼ ＼　尖ﾊ、<br>　　　　　　　　　　　　　　　　　　　 /　 　 i　 　　　 ｀ 、　 ＼ 　: .＼ `　 : . ＼<br>　　　　　　　　　　　 　 　 　 　 　 /イ　　 |:.、　　　　　 ,　　, ≧=-　｀　 　　i｀`<br>。　　　　　　　　　　　　　　　　　 　 ′i 　|　＼　　　　！　 ﾏ⌒Y､　 　 ｀.　ﾄ､<br>　　　　　　　　　　　　　　　 　 　 　 ｉ &#8561;　l, '´　＼ : .　 ；:.　 ﾞ. ｿﾉ ﾊ　 　 　 l }i<br>　　　o　。　　 　 　 　 　 　 　 　 　 | ,沁八 .:ｨｼﾞ　 ､ 　.ｌ:|i 　 &#8547; .:【†　　 :l　 八<br>　　　　　　　　。　　　　　　 　 　 　 |｛{　;＼＼　 　 ｀; :ｉ|八　 {;､八 |　　 ！. : :ハ<br>　　　　　　　　　　　　　　　 　 　 　 l　乂ト.j＼　　　 j州　 } ; i|ﾐ、寸　:　 ；　/　 ｝<br>　　　　　　　　　　　　× 　 　+　 * 　 　 ＼ー ､ ノ　　 | ,泌|八`＼}　 !　 }　　/,′<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1340322985/23" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1340322985/24" rel="nofollow">24</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/09/03(木) 14:47:26 <dd> 　　　　　　　　　　　　　　　　　　　　　　　　　｛{　 　 : .、　　　　 　 　 | ＼　　　　　 　 　 _,...<br>　　　　　　　　　　　　　　　 　 　 　 　 　 　 　 ｀.　　 　 ＼　　　 　 　 |　 个=‐-　　-=≦ 　 .,,_<br>　　　　　　　　　　　　　　　　　　　　　　　 　 　 iﾏ　　 ､　 ＼ 　 、 　 ﾄ､　{_　　: .､　　 _ 　_＿_<br>　　　　　　　　　　　　　　　　　　　　　　　 　 　 | ∨ 　 ＼　 丶、`　　: .ヽ、　　　 ＼<br>　　　　　　　　　　　　　　　　　　　　　　　 　 　 |　∨　 　 ＼　　≧=‐-　　:.,__<br>　　　　　　　　　　　　　　　　　　　　　　　 　 　 | 　 ;　　　　 ｀　　　　　　　 ｀　 ｀`　　、<br>　　　　　　　　　　　　　　　　　　　　　　　 　 　 |　 ´ ､　　　　　　、 　 　 　 　 、　　　 ｀丶、ヽ<br>　　　　　　　　　　　　　　　　　　　　　　　 　 　 ｌ /　　ﾞ　　　　　　丶、　　　 .　ﾞ.　　　 　 　 ＼<br>　　　　　　　　　　　　　　　　　　　　 　 　 　 　 ;/　　　　､ 　 　 　 　 ＼　　　;　:　　　　: .<br>　　　　　　　　　　　　　　　　　　　　　 　 　 　 /　　　　　 ＼ 　 　 　 　 ＼　 }　}　　　　 : .<br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1340322985/25" rel="nofollow">25</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/11/19(木) 22:21:08 <dd> <br><br><br>　　　　　　　　　　　　　　　　　　　　 　 　 　 　 　 「＼人_,ｨ<br>　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 |※ ＼_て __＿___<br>　　　　　　　　　　　　　　　　　　　　　　　r‐‐‐… 宀ｧ　'&quot;~´　　　　　ミメ、<br>　　　　　　　　　　　　 　 　 　 　 　 　 　 _≧=--ミ / , ´　　　　 　 ｀ﾄ､｀ヽﾞ ,<br>　　　　　　　　　　　　　　　　　　　　　　 て乂　　 }} .′　｀　ｋ 　 　 }弌_, j }<br>　　　　　　　　　　　　　　　　　　　 　 　 ,′　｀~Ｔ´_」　　　　l ﾊｘ人ﾉf&#13115;ﾐｼﾞ辷_<br>　　　　　　　　　　　　　 　 　 　 　 　 　 { 　 {　 ;{　 ﾆ　　　 i:|;´ﾆ 　 　 `　'√　ミ 　､<br>　　　　　　　　　　　　　　　　　　　　　　　、　　八　-- ､ 　从,ｨ&#13115;　　 　 ,&#65508;　 　;　 }<br>　　　　　　　　　　　　　　　　　 　 　 　 　 }　 :}i　 ＼二r＼　｀`丶 　 &lt;_ノ （＼　ﾉ ノ<br>　　　　　 　 　 　 　 __　_　　　　　　　　　 , 　 爪　｀:.＼込t≧ﾐ,　 } 　 _,,..ノ ＼＼{「「「う<br>　　　 　 　 　 　 , '´　 　 ｀ヽ、　　 　 　／ 　人　　　}ｉ :}　　_,.ノ　ﾉ-‐┴ｧ-　､(＼　　 ＼, -=ミ、<br>　　　　　　　　　{ 　 ,．´⌒ 　≧＝=-　　 ／1. :　　 八,‰^´　／ . :_,／ 　 　 ＼ ＼　　 }⌒ 　}<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1340322985/25" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1340322985/26" rel="nofollow">26</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/11/19(木) 22:21:18 <dd> 　　　　　　　　　　　　　　　　　　　　　　　　　　　　 ;　 　 　 　 ﾞ　___,厶　　　: .⌒ヽ｜<br>　　　　　　　　　　　　　　　　　　　　　　 　 　 　 　 j　　　　　 ;_r&#13115;ニ ､＼　 　 . : :｝|<br>　　　　　　　　　　　　　　　　　 　 　 　 　 　 　 　 / ..二　 -=ミ弌、二-ヽ　､ 　　ノ┘<br>　　　　　　　　　　　　　　　　　　　　　　　　　 　 ´　　　　 二二ヽ ヽ　ﾆ　}斗　 ´<br>　　　　　　　　　　　　　　　　　　　　　　　　 　 i　　　　 　 ニニﾆﾊ！ 二 ； |<br>　　　　　　　　　　　　　　　　　　　　　　　　 　 |⌒Ｙ⌒　ﾍ ニニﾆ}} :　二.ﾉ.ﾉ<br>　　　　　　　　　　　　　　　　　　　　　　　　 　 |: . 　 　 . : }ニニﾆ}} ト--　´<br>　　　　　　　　　　　　　　　　　　　　　　　　 　 ｌ　 　 　 　 }ニニﾆ}} |<br>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　 ,ニニニ&#8549;<br>　　　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 　 /二二二 ∧<br>　　　　　　　　　　　　　　　 　 　 　 　 　 　 　 　 ﾞ. 　 　 {二二二二 }}<br>　　　　　　　　　　　　　　　　 　 　 　 　 　 　 　 　 、　　 、 二二二./<br>　　　　　　　　　　　　　　　　　　　　　　 　 　 　 　 ﾞ　　　 ＼二二 /<br>　　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 .　 　 　 ;＼__/<br>　　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 ;／｀丶 {<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1340322985/26" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1340322985/27" rel="nofollow">27</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/12/26(土) 01:33:29 <dd> 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 _,.　　　　..,_<br>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 　 　 　 　 ,gS^´　　　　　　｀`*g｡.<br>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　 　 　 　 　 　 　 　 ※　　　　　　　　　　　　　＼<br>　　　　 　 　 　 　 　 　 　 　 　＿＿___　　　　　　　　　　　　　　　　 　 　 　.*´　　　　　　　　　　　　　　　;/⌒ヽ、<br>　　　　　　　 　 　 　 　 ／ 　 　 　---i＼　　　　　　　 　 　 　 　 　 　 　 ,+’　　　　　 　 　 　 　 　 　 　 /___　 　 ,<br>　　　 　 　 　 　 　 〈＼. ／　 　 　 　 ﾉ　 〉_,,.　　-‐…‐-　　 ..,,_　　　　　；　　　　 　 　 　 　 　 　 　 　 /: : : :｀丶.ﾍ<br>　　　　　　　　 　 ／ﾏ ^:.､　　 　__ ／ 　 ;　　 　{: : : : : : {　　　　;　 　 　 ﾉ　　　　　　　　 　 　 　 　 　 /--　 、: ..；∧<br>　　　　　 　 　 ／／＾∨ノ＼≦_／　　／i,． 　　-‐…‐-　　、 .ﾉ}　　　 x’ 　　　　　　 　 　 　 　 　 　 ′　　　＼_!/∧<br>　　 　 　 　 　 ／　 　 ∨ 　 ;／　　／　｜　　,． -‐‐‐-　､ ／　;　　　ﾆ　　　　　　　　　　　 　 　 　 ,　　 　 　 　 |/　　、　　　 　 　 　 　 　 　 ｬ弋辷__<br>　　　　　　/　　　　　〃 〉,Ｚ´　　　　　　 |　　 {. :　 -=&#13129;.／　　ﾉ　　 ､`　　　　　　　　　　　 　 　 　 ′　　　　 　 |　 　 ﾍ _,,...　　　-‐‐　…;‐‐弌__　 て_＿____,..ノｱ⌒7<br>.　　　　　〈＿＿＿__.{{_.／　　　　　　　 从. 　 乂辷__彡く_,．　´　　_ｼ　　　　　　 　 r宀^⌒てー 弌{__　　　　　　 ｌ__.ノ. :∧ : :&#65508; 　 }: : :} 　 }: : },.爻　 メ. : : : :.,}}. : : : /<br>　　　　　　＼　　　　　　　／ 　　 　 Ｘ　　 〉　 ｀` ‐--‐　´　　　,｡* ／〉　　　 　 ノソ⌒て__.斗-‐＜ 　｀ヽ　　　　 |. : : ://∧: .:|　　ﾉ : :ﾉ　 '^⌒て__,乂__;,:ィ&#13115;⌒ー　′<br>.　 　 　 　 　 ＼_＿__,. 　 　 　 　 Ｘ 　 ｘく　f⌒ヽ _____ _　x┐_ｙ'´ /／　　／〉　ﾉ ﾍ; : : : : . : : : : : : :｀ヽノ^ 、　 　 ｋ---　′ﾍ⌒`¨”~´　 　 　 　 　 　 ｀ー┘<br>　 　 　 　 　 　 　 /. ::＼__(＿__) 　 ／ ｡　〉廴_ノ(　}　}_」　}『~::}-//‐- ／／　└{　{ ｡: : : : . : : : : : : : :jrﾍ　L.　 　j'´＼　 ノ. ∧<br>　　　　　　　　　 /. : ;'　「＼__＿.　へ、-:&lt;　 ｀ﾍ三V'VV_.ノﾉ:::/. ；{　 /／〉_＿,..ノ-=＝ミ　、: :。: :0 : :从: :ﾏ⌒Z　′　 ヾ. : : : ∧<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1340322985/27" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1340322985/28" rel="nofollow">28</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/12/26(土) 01:33:42 <dd> 　　　　　　 , : : :/　　　 　 　 　 　 　 　 ＼._／ __　　 r弌_,.ノ-+,.&#65508;-‐……‐- ﾉ .,_ : : : : .′　　　　「|: : : : : :厂 ｝　( （　　　乂爻弌 :}<br>.　　　　　　 ⌒,′　　　　　　　　　　　　　　 ／斗--=ミメ､〉@ﾍ　|　　　___,.. . ´; : :｀メ、/{:{　　　　ﾉ 八: : : : 圦「,． -‐…‐- ^{ : : : : : . 、<br>　　　　　　.　 .’　　　　　　　　　　 　 　 _ -.:,,´　 （ｿ　　＼ ＼ ∧ｈ.:ｨ_´ 　~⌒Y&#13115;´⌒ﾟ*､乂 ※ く /⌒ヾて廴.ﾉﾞ　　_..二」._ : ｀ ､: : : : : .＼<br>　　　　 　 :　&#65508;　　　　　　 　 　 　 . : ;´/／┐' 　 　 　 　 、　》.∧｛_,ﾉ´ 　 / ﾉ′　　　　`+≧-‐ ′　　_ ＼　′ ´ 　　 }: :i＼ : ﾞ.＾廴__: .ﾉヽ、<br>　　　　 　 ｉ　 |　　　　　　 　 　 　 ′// i{_,ヅ　　　　　､､ :iﾊ,ﾍ/o::}:/　 　 〈./　　　　　　　　ゞ。　 。*^”　　 `{ 　 ､　 　 : :ﾉ　 ﾞ. : V⌒Y^＼: .＼<br>　　　　 　 |　 |.　　　　　 　 　 　 ｉ.; // / 77__　　　; r ⌒;｜Ｗio: .；　　 　 ,′　　　　　　　　 6.+^　　　　　 　 :、　 -=彡　 　　}: : }　　&#8549;　＼_,:)┐<br>　　　　 　 ｌ_._」　　　　　　 ⌒ヽ、| ｉ{ {`ト//　/ｧ┐ 乂__ヅﾉ 八ｌ|: :┃　　　 i　　　　　　　　_,Sﾟ§　　　　　　　　i ｀¨”´　　 　 　 }. : ;　　 乂辷__,..ノ<br>　　　　　 &#65508;: {　 　 　 　 ｉ　　　〉i|_个 :|　′,.: ⌒~`//￣/ /　 ﾘ: :｜　　　 |　　　　　　／⌒て.Sトミ;　 　 　 　 |　　 　 　 　 　 ﾉ⌒；<br>.　　　　 　 . :.｛　　 　 　 .|　　ｨ℃{__}.:八:{ :/　 ,．　⌒~` ./　／. : /ｉ　　　　l　　　　　　⌒Y^　（§__ ＼　　　　！　　　　　 　 ,<br>.　　　　　　∨: .、　　 　 乂_ 《　&#65508;＼　　/ ／　／ 　 ／.／. : : /:&#8560; 　 　 ;　　　　　t'° {.._ ,八9　　　)ﾍ、 　 ；　　　　 　 ／　　 ,′<br>　　　　　 　 ∨: .＼ 　 　 、: : ＼.:、: .｀`込__.／__/^ヽ ＜. : : :, . : /；　　 ､{　　　　 *ﾟ　　　い　 +⌒ヽ、　}_,.. ノ　　　 　 イ　　 　/<br>　　　 　 　 　 V⌒`^　　..,_＼____℃k: : : : :｀“¨~´乂ノ、. : :-=ミ ;/　} 　 　 ﾞ　　　 +’　　 　 乂_,√::..__　,ｨ&#13115;” 　 　 . : : : : ､　 _,<br>　　　　　　　　　、　　 　 　 　 . . : :}^＼ : : : : : : : : , ｀` v　-'℃}. ::.′ 　 　 .　　.S　　　　　　 βー━　’　_,,. . : : : : : : : : : :／<br>　　　　　　　　　 ＼ 　 　 　 　 ＼:ﾉ　　　 　...,,_____{　 　　　　 人.:::ｉ　　　　&#65508;　.9ﾟ__＿_＿__ ,φ__,,...　 　 7 : : : : : : : : : : :／<br>　　　　　　　　　 　 ｀　　 __＿_,,.　 　 　 　 　 　 　 ℃´____,,. く_,.　｜　　 　 厂: : : : : : ／　　　　　　　　〈 : : : : : : : : : ／<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1340322985/28" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1340322985/29" rel="nofollow">29</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2016/01/16(土) 21:41:36 <dd> 　　　　　　　　　　　　　　　　　　 　 　 　 　 , ぃ、<br>　　　　　　　　　　　　　　　　　　　　　　　ノ´　　ヽ<br>　　　　　　　　　　　　　　　　　　　　 　 f’　　　　 ﾞ ,　　　　　　　　+<br>　　　　　　　　　　　　　　　　　　　 r…┘__..二.._　 ｛___<br>　　　　　　　　　　 　 　 　 　 　 __,人_,.ノ　＼　　 ⌒ーく廴　　　　　　*<br>　　　　　　＊　　　　 　 　 　 r┘　　　　　__,,.辷__,.ノ⌒　⌒ヽ<br>　　　　　　　　　　　　　　　　 て　　,　　 ´　　　　　｀⌒丶、 {ド‐-　　　...,,、<br>　　　　　　　　　　　　　　　 _,.ノ .／　　 ,″　　 　 　 　 　 ｀.　廴_　 　 　 ′<br>　　　　　　　　　　　__　＋_」__.彡　 ′　!{　　 ′ 　　　　　　ﾞ 、 ｛ 　 　 /<br>　　　　　　　　r…f 〇｀ヽ ＼___;　 i{_____!{　　;　　　　　　　 　 廴,;__ 　 /<br>　　　　　　 　 {　〇　 　、⌒；__{　　{,沂ミ ｀`丶、 　 　 :!　　　 , :i　　 ﾉ<br>　　　　　　　 r Ｏ　{　　 } 　 ｝,圦_,八廴ﾉ　 　 沂ﾐ､　_,.ﾉ　　 ぃﾍ|,.ィ´<br>　　　　　　　 廴　　､_,.ノ　　;-=彳｀、　 __'__　廴.ﾉ ｼ｀　　　　　 ＼ﾉ<br>　　　　　　　 ｛ Ｏ 　 　 __,.ノ__,.ノ　{ ＼ヽ二ﾉ　-=彡　,i　　 i {廴 ≧=-　　 　＋<br>　　　　　　　　 ー… て　,.ノ　　　, &#8549; ⌒ヽﾆi爪,′　八 　 圦_｀`⌒<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1340322985/29" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+</dl>
+<form method="POST" action="/bbs/write.cgi/internet/1495/1340322985/" name="fcs">
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr valign="top">
+    <td>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><input type=submit value="書き込む" name="submit"></td>
+          <td>
+            名前： <input type="text" name="NAME" size="19">
+            E-mail<font size="-1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+          </td>
+        </tr>
+      </table>
+      <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+      <input type="hidden" name="DIR" value="internet">
+      <input type="hidden" name="BBS" value="1495">
+      <input type="hidden" name="KEY" value="1340322985">
+      <input type="hidden" name="TIME" value="1452948096">
+    </td>
+  </tr>
+</table>
+</form>
+<b><font size="3">
+  <a href="/bbs/read.cgi/internet/1495/1340322985/">全部読む</a>
+  <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1340322985/l50">最新50</a>
+  <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1340322985/-100">1-100</a>
+  <a rel="nofollow" href="/bbs/notice_mail.cgi/internet/1495/1340322985/">メール受信</a>
+  <a rel="nofollow" href="#top">掲示板トップ</a>
+  <a rel="nofollow" href="./">リロード</a>
+</font></b>
+</tr></table><br><br>
+<a name="3"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><table border="0" width="100%"><tr><td><font size="-1"><a rel="nofollow" href="#2">▲</a>3<a rel="nofollow" href="#4">▼</a></font> <b><font size="+1" color="#708090">置き荷の営々</font></b> <font size="-1">(Res:159)</font></td><td nowrap align="right"><font size="-1"><a rel="nofollow" href="/bbs/read.cgi/internet/1495/1303924801/">All</a> <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1303924801/-100">First100</a> <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1303924801/l50">Last50</a> <a rel="nofollow" href="#menu">SubjectList</a> <a rel="nofollow" href="./">ReLoad</a> <a rel="nofollow" href="#2">▲</a>3<a rel="nofollow" href="#4">▼</a></font></td></tr></table><dl>
+<dt><a href="/bbs/read.cgi/internet/1495/1303924801/1" rel="nofollow">1</a> ：<a href="mailto:sage"><b>鋼鉄名無神さん </b></a>：2011/04/28(木) 02:20:01 <dd> おきにのえーえー <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1303924801/161" rel="nofollow">161</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/10/14(水) 20:09:38 <dd> <br>　　　　　　　　　　　　　　　　 　 　 　 _　　__<br>　　　　 　 　 　 　 　 　 , ﾍ 　 　 　 ´　　γ⌒　 .<br>.　　　 　 　 ,＾＼　, , ,.ｨi{_,,ﾊ ／　　　　 　 　 　 　 ヽ<br>. 　 　 　 　 {　ｧ'ﾞ´　　　　｀/　　　 　 　 　 　 　 　 　 .<br>　　 　 　 　 V　　　　 fふ7　　 　 /　/　 　 i 　 　 　 ;;<br>.　　 　 　 　 j fふ､_,　 ^＾,　/ ii　/{!:/　 i　　i　ii {い 塋__<br>　　　　　　　ｆ　　　ﾑ　　 {iｨ &#13130;x{ i|i{　j i{”¨&#8560;&#8561;ﾐｧ汽w'ﾟ<br>　　　 　 　 f&#13129;､、_＿_,..　 i} rJ｝｀ 　 　 斧ミト jj ]{: : 从<br>　　　　　　｛辷》ﾌ冖守¨~ 」 ￣ 　 　 　 rJ ｝　　'^Y彡く<br>.　　 　 　 く_// ｔ_　 　 　 人　 ､　 　 　 ￣ 　 ,ｰ ,ﾉ<br>　　　　　　　 {　 ⌒ヽ、_ｙ'⌒ヽ、` ｰ-一　　∠ﾞ¨´|i　　/｝<br>.　　　　　　　 ゝ、　　?｛_Ｌ,(__八`ｔ--　 r≦《 　　 |i　 ' /<br>　　　　　　 　 ハ(__?^⌒ﾌ &#8547;　　　　　 |{_　）｝　　|i ﾚｲ{<br>.　　　　　 　 , 　 j{　 　 （_爻、　　　 　 爻（_,′　&#65508;iノ ;<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1303924801/161" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1303924801/162" rel="nofollow">162</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/10/14(水) 20:09:50 <dd> <br>　　　　　　　　　　 　 　 　 　 　 　 　 __rｆ⌒Y⌒Y⌒ヽ__<br>　　　　　　　　　　　　　　　　　　　 〈y,_＞-宀=宀＜、__)、<br>　　　　　　　 　 __　　　　　　 　 　 〃　 　 　 　 　 　 ヽvへ、<br>.　　　　　　 　 ｛_ ＼　 　 　 　 　 // ﾚ‐ｌ　　|　ｌ⌒ﾄ､ l　） 　 ＼<br>　 　 　 　 　 　 ｝　　＼　　　　　/｛　l__ |,」L.いL[_| 　l<br>.　　 　 　 　 　 {　　 　 　 　 　 //^Vれ　 　 　 れ｀Y |　　　　　　 、<br>　　　　　　　　　　　　　　　　 / 　 ﾉ 凹　 　 　 凹 .」 |/,　 　 l　　 }<br>　　　　　　　　　　＼_　 　L ⊥L._｛ &quot;&quot;　 r‐､　 &quot;&quot;&quot;　j/ 　 　 |　|ノ<br>　　　　　　 　 　 　 　)&gt;　 　Yぅ-く￣] 、　ー'　 　 . イ 　 |__ノレへ、<br>　　　　 -―…―--　　　 ／≫-く￣}　)ﾆT冖l'て _ノ__,ノ⌒`く　 　 ）<br>.　 ／　　 　 　 '⌒7 　占｛＿_人_厂)x'⌒⌒'＜￣￣rﾍ、　　　ヽ　　⌒&gt;<br>　｛　　 　 　 _＿,ノ|　 ／⌒　 `ｰ-イ　　　 　 /⌒ア⌒ヽへ　　　｝-‐　（__<br>　 ｀¨⌒　　　 -ー弋 L／　 　 　 Σ _ _ _ _,ノ&gt;,、ﾚｨ　　 ｝ _）　_ノﾆつ　　 ｝<br>　　　　　 　 　 　 　 ｀　 　 ,＿/⌒ {/)/） 　`く　＾,x ＾し夂__)　 　 ｀　 ＜ノ<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1303924801/162" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1303924801/163" rel="nofollow">163</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/12/04(金) 00:38:51 <dd> 131 名前：はちさん ◆hachiDGxy6 [] 投稿日：2014/09/26(金) 00:05:10.99 ID:TiJHLdR7<br>　　　　　　　　　　　＿＿）:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::＜,,＿__<br>　　　　　　　　　　 ＼::::::::::::::::::::::::::::::ｰ=ﾆ二::.::.::.::.::.::.::.::.::.:: ハ:::::::::::::＜<br>　　　　　　　　　　　　＞::::::::::::::::::::::::::::_＞.::.::.::.::.:__／.::.::.::/.::.::.::::::::⌒フ<br>　　　　　　　　　　　＾⌒ア::::::::::::::::／Ζ.::.::.::.::.::.:え::.::Х::/|.::.::.ハ:::＜<br>　　　　　　　　　　　_,,ヱ:::::::::::::::::〈　/7.::.:/::._;;彡レｧﾁく＼!::.:/::.:|::::::::＼<br>　　　　　　　　　　 ⌒＞:::::::::::::::::::: ｛〈_∨|/ﾚ/　{{　{ｼﾞ　∨::.::.: 八::|⌒＾<br>　　　　　　　　　　　　ア::::::::::::::::::::乂_　　 ;i;i;　　ヾ　　　厶イ.:: .::.:::|<br>.　　　　 　 　 　 　 ／{／ア:::::::::::::::::/| 　､､ i;i;　　　　 　 ／{/:::::::Ν<br>　　　　　　　　　　　　　⌒ｱ::::::::/}::｛　　 　 Xi;i　　　　 　 　 〉::八|<br>　　　　　　　　　 　 　 ____Ζ二三三ゲ^　　　（　 ＼　　　イ∨　　　,　´￣￣￣￣＼<br>　　　 　 　 　 　 　 　{｛三ﾆ=-　 ｰ=ｹ 　&quot;　　　　、_ﾉ&gt;　人|　　　　/　 や　根　足<br>　　　　　　　　　 _＿r辷ァ┬=ｧ─=ｷ　　 ＼ 　 　 　 ／　 　 　 　 |　　る　性.　り<br>.　　　　　 　 __／_=ﾆ7　 _=ﾆｱ⌒＼ｷ　,／⌒&gt;､_.. イ　　　　　 _＿,|　　し.　で 　な<br>　　　　　　　ｽ_=ﾆ／　_=ﾆ／　　 　 ￣^'&#65506;く/＼__　　　　　　　＼,,　　か　カ 　い<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1303924801/163" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1303924801/164" rel="nofollow">164</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/12/12(土) 07:45:48 <dd> 　　　　　　　　　　　　　　　　　￣￣￣｀ヽ._＿<br>　　　　　　　　 　 　 ／ .　-‐=＝＝=‐-ミ　　　 ＼<br>.　　　　　　　　　 ／∠__j＞‐……┴＜」/＼　　　ヽ<br>　　 　 　 　 　 　　/_jア　　　　　　 　 　 ＼/ム　　　,<br>.　　　　　　　 /　 {ア　　　　　　 　 　 　 　 ∨∧　 　′<br>　　　　　　　/　　/ 　 　 　 i　　　 　 　 i　　 V/ﾑ 　 　 、<br>.　　　　　　 ′　,′　L｣ 　 |　　 　/!_」⊥　　 V⌒＼　　＼<br>　　　 　 　厶ｲ　| , |ｉ |八`ト|ｉ　　 /｜八l　ｉ 　 ｝ /丁| ｉ |ｰ一<br>.　　　　 　 　 | 八| |斗云ミ八i　/ 斗ぅ云ﾐ|　ｊﾉ| i__」_| | |<br>.　　　　　　　 |　/j小 {:｛::j:| 　|/　　 ｛::{:::灯 　 | | ７7 j,ﾉ<br>　　　 　 　 　 |/　　}　Ｖ)ソ　　 　 　 ∨)ソl 　i l 乂/ /<br>.　　　 　 　ｒ'⌒とＹ人　　　　　　　　　　　 l　 i |i丁∨<br>.　　　　　　V／￣｀'く ＞　. 　 ヽ＿_　 . イ|　ﾉ八{<br>　　　　　 ｘく⌒ヽ、　 ｀'&lt;⌒^こTTこ^⌒ヽﾉｲ/<br>　　 　 　 Ｖ////ハ__／（＿__ノｰﾍ、 　 _ﾉ7{<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1303924801/164" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1303924801/165" rel="nofollow">165</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/12/12(土) 07:57:12 <dd> 319 名前： ◆cibo/1SH9A [sage] 投稿日：2015/12/10(木) 22:56:30.19 ID:OOfxOQ27<br>. 　 　 /　　　　　　　　 /..:/i　　:/　　 　 　 　 　 ＼<br>　　　,′　　　　　　　:/..:厶|　 /!　　:　..:i　 :,　　 　 ヽ<br>　　 ,′　　　　　..;　:/! /　 !｀/ .! 　.:!　..:!　 :ｉ　　.:i 　 ',　__　__　__ 　＿　 __　__<br>　　,′　　　 　 .:厶ｲ l厶,_ ∨　.! .:.∧ :厶.,_:j　　:ﾘ　　.:｜L」｜|:.| /:r‐､）|:.L」 |<br>　 ,′　　　　.: .:/ ,xf〔ﾟ::心ヾ.　　',..:|　j/ ハ/i　..:/　　..:i |: r┐! |:.| ､弋^ｉ｜r┐|<br>. /　　　..:, -v..:/〃ﾉ:::::::}:::}　　　 ヽ!ｯ＝ミ　 | .:/　　:. .:| ｰ'　ｰ' ｰ'　｀¨ｰ' ｰ'　ｰ'<br>/.:.;　　..:/'&quot;)' :/ 圦:､_::ノ:ｿ 　 　 　 んｲ沁 狄/　 　 ﾊ |　 __　　 __　__　　　　 __<br>: /ｉ　　.:{　(! :,′,,.,, ｀¨¨´　　　　　 {､:::::ﾉﾘﾉ/　　 　:i　ﾘ ( と'　__.|:.L」 | __　__ |:.|<br>/ .{　　.:.＼| :{ 　 　 　 　 　 　 ' 　　ﾟｰ-‐'　′:　　.:.;　 f^､):.)(:C |:.r┐|(O)(O)! L<br>　 j　 .:ﾉ! :∧込、　　/⌒ 　 　 、　 　 &quot;&quot;' ｉ :　:.　 .;′　｀¨´　｀´ ｰ' ｰ' ｀´ ｀´ ｰ‐'<br>　厶イ　',　.:/! : ＞ ,_ヽ　 　 　 ﾉ 　 　 　 ｲ 　 :ﾄ､/　　　 　 ＿ 　 __　＿　　__<br>. 　 　 　 ヽ/ l∧_/＼｀ =-　.,＿,.　　 ＜　j＼ .:|　　　　　 /:r‐‐'　|:.| |:.D:.）｜|<br>　　　　　 ,． '&quot;´∧　 ｀''ｧ=く |｀ー──r-&lt;　 ヽ!　　 　 　 ､弋^i　.|:.| |:.r､ヽ |:.L<br>　　 　 ／　 　 / ∧　 ∧/∧!　 ＼　　|　 ＼　 　 　 　 　 ｀¨ｰ' 　ｰ' ｰ'　ｰ' ｰ‐'<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1303924801/165" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1303924801/166" rel="nofollow">166</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/12/12(土) 07:57:31 <dd> 320 名前： ◆cibo/1SH9A [sage] 投稿日：2015/12/10(木) 22:57:06.57 ID:OOfxOQ27<br>　　　　 　 　 　 　 ､__,.　 '&quot;´／　　 　 　 i　　　　　　 　 　 　 　 　 ヽ　　 ヽ //<br>　　　　　　　　 　 　 ￣｀ア　　　/　　 　 |　　　　:　　　 :!　　　　　　 ',　 ‐-∨/<br>　　　　　　　　　　　　　/ 　 　 /　　ｉ　　 !　　　:∧　　　:!　　 　 　 　 ',　　　∨<br>　　　 　 　 　 　 　 　 / 　 ,ｨ　′　 」,_　∧　　.:′ ､　　 ﾄ､　　 :. 　 　 ',-‐<br>　 _ 　_ __　_ 　_　__　__　／/　i　　.:∧｀ﾒ､ﾊ　　i　　 ヽ ,斗ﾊ‐　.:ｉ:.　　ﾄ､', 　 /<br>　|::|/:/{::::}|::| |::| |::」l Ｄ:） .′ :!　 :/　}/　　 ',　:| 　 '&quot;＾､　!　',　 :k: 　 |　 ' .〃<br>　l::: 〈　|::|.|::|_|::|_| ｺ|:: 〈.　!　　:　&#65506;ｧ=ミ,_　　', :|　　　　∨ 　 ＼jﾊ:.　|　／/:/<br>　Ｌﾄ､:〉{__}L::」_::」_ｺＬﾄ､〉 l　 :∧ﾊ {　{i:::::::jﾞﾄ ヽ!　　ッァ弌ﾗ寸７''∧:.|彡'/:/<br>　　　　　　　　　　　 　 　 |..:/ 　..;} ﾞ　vぅ:::ﾘ　 　 　 　 vi:::::::j::}/ /　ﾊ!｀Y.:/<br>　　　　　　　　　　　 　 ／j/　:／.′,, ,,ｰ‐'　　 　 　 　 ゝぅ:ン /　:厶　 jｲ /<br>　　 　 　 　 　 　 　 ／　 　／　人　　　　　 ′　　 　 　 &quot; &quot; .′:/ノ ／ |.′/<br>.　　　　　　　 　 ,　'ﾞ　 　イ　　〃/^　　　　　　　　　　　　 　 ｉ　厶イ´　 |i　/<br>.　　 　 _,. 　-=彡　'&quot;´　 　 　 ｉ{/　　　 ＞　.,_ ‐ ､　 　　_,.ィ´| / 　ﾉ　　 |ｌ .′<br>,． '&quot;´ ,． '&quot;´　　 　 　 　 　 　 ,．‐- -─ｧ'´/〕ﾆ=‐ ''&quot;´　,ハﾚ′　　　　|　i<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1303924801/166" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1303924801/167" rel="nofollow">167</a> ：<a href="mailto:sage"><b>ななしさんはきぶんがわるいのでほけんしつにいきました。 </b></a>：2015/12/12(土) 07:57:41 <dd> 321 名前： ◆cibo/1SH9A [sage] 投稿日：2015/12/10(木) 22:57:53.28 ID:OOfxOQ27<br>　／　　　　　　　　 　 　 　 i:.. 　 　 ＼<br>/　　　　　 　 　 ..;　　}　　　|:.. 　 　 　 ヽ<br>　　　　/　　　...;ｲ 　 ﾊ　 　 !Wv､　 　 　 ',<br>　　　 :′　　.:/｜　/｜　 .;′　 ヽ　　:.　 ',<br>　 　 .:i　 　 :厶┼ /､ |　 :/　-‐　､∨　.:.　 ',<br>　　　.:|　　,ｲ 　 ! /　｜ :/　　 　 　 }　　k　 ',　 　 __　 ＿ ___ __　＿　＿__ 　 _<br>. 　 　.:!　/.:| 　_j厶.,_ l／　　　___　 ﾊ　..:V＼.', 　 ､:.:ヽ}:.:.}{:.:.}､:.ヽ}:.:.}{:.:.:.:.:.} /:.',<br>:　, - ､∨ f'筏示ﾊ~゛　　　 fﾃ竿!ﾞｱ .: 　 :',　 ヾ:、 .}:.:ﾄ､: | }:.{ .}:.:ﾄ､: | ￣}:「./A:.',<br>:Y ＾ヽ ﾞ:| 圦Vぅ..:リ　　　 　 vぅリﾉ!　.:　　 :　　 　 /:.:{ }:.:{.{:.:.}/:.:{ }:.:{{ﾞｰ':ﾉ/.:「l:.:.',<br>八　 ﾉ　!: ｜｀^~´　　　　　､｀~´　.{ :.　 　 :i　　　 ￣　￣ ￣ ￣ ￣　￣ ￣　￣<br>. ..:＼ゝ｜ :!&quot;&quot;　　　 ＿　　　　&quot;&quot;,ﾊﾊ　　 .:|<br>. . . ...:｀¨| .:ト .,_ 　 (　　　)　 　 イ : | i　　 .:!<br>. . . : ..:...:|..:K＾丶＞ ｀二´ ＜:.. . !:....|｜　　:<br>. ....:_,x＜| :|∧　　冰}＞-　.,_:..: . . . | .! 　 .;<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/internet/1495/1303924801/167" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+</dl>
+<form method="POST" action="/bbs/write.cgi/internet/1495/1303924801/" name="fcs">
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr valign="top">
+    <td>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><input type=submit value="書き込む" name="submit"></td>
+          <td>
+            名前： <input type="text" name="NAME" size="19">
+            E-mail<font size="-1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+          </td>
+        </tr>
+      </table>
+      <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+      <input type="hidden" name="DIR" value="internet">
+      <input type="hidden" name="BBS" value="1495">
+      <input type="hidden" name="KEY" value="1303924801">
+      <input type="hidden" name="TIME" value="1449874661">
+    </td>
+  </tr>
+</table>
+</form>
+<b><font size="3">
+  <a href="/bbs/read.cgi/internet/1495/1303924801/">全部読む</a>
+  <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1303924801/l50">最新50</a>
+  <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1303924801/-100">1-100</a>
+  <a rel="nofollow" href="/bbs/notice_mail.cgi/internet/1495/1303924801/">メール受信</a>
+  <a rel="nofollow" href="#top">掲示板トップ</a>
+  <a rel="nofollow" href="./">リロード</a>
+</font></b>
+</tr></table><br><br>
+<a name="4"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><table border="0" width="100%"><tr><td><font size="-1"><a rel="nofollow" href="#3">▲</a>4<a rel="nofollow" href="#1">▼</a></font> <b><font size="+1" color="#708090">空き地</font></b> <font size="-1">(Res:321)</font></td><td nowrap align="right"><font size="-1"><a rel="nofollow" href="/bbs/read.cgi/internet/1495/1293293357/">All</a> <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1293293357/-100">First100</a> <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1293293357/l50">Last50</a> <a rel="nofollow" href="#menu">SubjectList</a> <a rel="nofollow" href="./">ReLoad</a> <a rel="nofollow" href="#3">▲</a>4<a rel="nofollow" href="#1">▼</a></font></td></tr></table><dl>
+<dt><a href="/bbs/read.cgi/internet/1495/1293293357/1" rel="nofollow">1</a> ：<a href="mailto:sage"><b>鋼鉄名無神さん </b></a>：2010/12/26(日) 01:09:17 <dd> ここは、そう<br>みんななかよしすてきな世界 <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1293293357/323" rel="nofollow">323</a> ：<a href="mailto:sage"><b>煙 </b></a>：2016/01/16(土) 21:43:10 <dd> <a href="/bbs/read.cgi/internet/1495/1293293357/322" rel="nofollow" target="_blank">&gt;&gt;322</a><br>文字レスは断罪します───<br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1293293357/324" rel="nofollow">324</a> ：<a href="mailto:sage"><b>煙 </b></a>：2016/01/16(土) 21:45:17 <dd> ソシャゲを楽しむ皆さまには申し訳ないけども、これだけ消費者と運営のバランスを崩したにも関わらず<br>生活の中心に基軸するほど熱狂する人たちが理解できなくなってしまった。<br><br>だから大量にヘイトも吐いたよ。目が覚めた。拒絶されても仕方ねえなぁ。<br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1293293357/325" rel="nofollow">325</a> ：<a href="mailto:sage"><b>煙 </b></a>：2016/01/16(土) 22:03:50 <dd> 特に某氏については、アンチソシャゲになった瞬間から違える道しか見えてなかった。<br>耳と目を閉じ口を噤んでいれば拒絶されずに済んだけども、黙っちゃいられなかった。<br>わざと同じ記事引用して厳しく解釈してみたりもしたし、わざわざお空のdisを率先して扱った。<br><br>大切な人ほど厳しくしなきゃって思ったから仕方ない。<br>もうあの人には死にかけてたところを三度も救われてるもの、今度は俺が動かないと。例え地雷を踏んででも。<br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1293293357/326" rel="nofollow">326</a> ：<a href="mailto:sage"><b>煙 </b></a>：2016/01/20(水) 23:05:35 <dd> 体が痛い<br>AA作りたいのに睡眠時間が無さすぎて<br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1293293357/327" rel="nofollow">327</a> ：<a href="mailto:sage"><b>煙 </b></a>：2016/02/01(月) 00:54:09 <dd> 散々考えた結果、あの人の周辺のディバゲ界隈仕切っている声の大きい腐女子の方々が苦手だからボンボヤージュさせてもらった<br>そしてあの人については『twitter上では』関わることは無いだろうし、俺の不快な呟きをこれ以上見せたくないから同じくボンボヤージュさせて頂いた<br>ごめんね。<br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1293293357/328" rel="nofollow">328</a> ：<a href="mailto:sage"><b>煙 </b></a>：2016/02/01(月) 01:07:24 <dd> まー既に俺の存在なんて認知さえしてないで楽しく青空を羽ばたいてるだろうし、<br>そうすることぐらいでしかあの人を幸せにできないのなら、今はこれでいいんじゃないかな。<br><br>同じ空を目指していたはずなのに、気付けば一人落ちて海辺に打ち上げられていたようなこの気分。<br><br>…ああ、なるほど。この胸の高鳴りこそが、オケアノスの潮騒だったわけだ。<br> <br><br>
+<dt><a href="/bbs/read.cgi/internet/1495/1293293357/329" rel="nofollow">329</a> ：<a href="mailto:sage"><b>煙 </b></a>：2016/02/01(月) 01:19:30 <dd> さてと、今日から2月だしまたツージョーエーギョーと致しますかな！<br> <br><br>
+</dl>
+<form method="POST" action="/bbs/write.cgi/internet/1495/1293293357/" name="fcs">
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr valign="top">
+    <td>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><input type=submit value="書き込む" name="submit"></td>
+          <td>
+            名前： <input type="text" name="NAME" size="19">
+            E-mail<font size="-1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+          </td>
+        </tr>
+      </table>
+      <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+      <input type="hidden" name="DIR" value="internet">
+      <input type="hidden" name="BBS" value="1495">
+      <input type="hidden" name="KEY" value="1293293357">
+      <input type="hidden" name="TIME" value="1454257171">
+    </td>
+  </tr>
+</table>
+</form>
+<b><font size="3">
+  <a href="/bbs/read.cgi/internet/1495/1293293357/">全部読む</a>
+  <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1293293357/l50">最新50</a>
+  <a rel="nofollow" href="/bbs/read.cgi/internet/1495/1293293357/-100">1-100</a>
+  <a rel="nofollow" href="/bbs/notice_mail.cgi/internet/1495/1293293357/">メール受信</a>
+  <a rel="nofollow" href="#top">掲示板トップ</a>
+  <a rel="nofollow" href="./">リロード</a>
+</font></b>
+</tr></table><br><br>
+<center>
+  <div id="jbbs_footerWrapper">
+    <div id="jbbs_footerOuter">
+      <div id="jbbs_footerInner">
+        <div id="jbbs_footer">
+          <table width="90%">
+            <tr>
+              <td valign="middle" width="130" nowrap>
+                <small>
+                  <a rel="nofollow" target="_blank"
+                     href="http://rentalbbs.shitaraba.com/jbbs/user_inquiry/?dir=internet&amp;bbs=1495">
+                    掲示板管理者へ連絡
+                  </a>
+                </small>
+                <br>
+                [00003638]
+              </td>
+              <td width="118">
+                <a rel="nofollow" href="http://seesaa.jp/">
+                  <img src="http://parts.jbbs.shitaraba.net/img/cmn/icon_ld.gif" border="0" width="117" height="28">
+                </a>
+              </td>
+              <td align="right">
+                <form method="GET" action="http://cms.jbbs.shitaraba.net/internet/1495/config/">
+                  <input type="submit" value="管理者メニュー">
+                </form>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</center>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40782470-2', 'shitaraba.net');
+  ga('send', 'pageview');
+</script>
+<script src='http://a.adimg.net/javascripts/AdLantisLoader.js' type='text/javascript' charset='utf-8'></script></body></html>

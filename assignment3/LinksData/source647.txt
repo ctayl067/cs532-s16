@@ -1,0 +1,1309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="치킨교주" href="http://chickengyoju.tistory.com/rss" />
+<link rel="stylesheet" media="screen" type="text/css" href="http://ts.daumcdn.net/blog/skin/tisPureBlack/style.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>치킨교주 :: 치킨교주</title>
+<style type="text/css">
+#lightbox {
+	background-color: #eee;
+	padding: 10px;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+}
+#overlay {
+	text-align: left;
+	background-image: url(http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/overlay.png);
+}
+#lightboxCaption {
+	color: #333;
+	background-color: #eee;
+	font-size: 90%;
+	text-align: center;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+}
+* html #overlay {
+	background-color: #000;
+	background-image: url(http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/blank.gif);
+	filter: Alpha(opacity=50);
+}
+
+</style>
+<script src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/lightbox_plus_ope.js" type="text/javascript"></script>
+<script type="text/javascript">
+function loadlightbox() {
+	if(document.getElementById("lightbox").outerHTML) {}
+	else {
+	document.getElementById("lightbox").outerHTML = "";
+	document.getElementById("overlay").outerHTML = "";
+	}
+}
+addEvent(window,"load",function() {
+	var lightbox = new LightBox({
+		loadingimg:'http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/loading.gif',
+		expandimg:'http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/expand.gif',
+		shrinkimg:'http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/shrink.gif',
+		effectimg:'http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/zzoop.gif',
+		effectpos:{x:-40,y:-20},
+		effectclass:'effectable',
+		closeimg:'http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/close.gif'
+	});
+});
+</script>
+
+<style type="text/css">
+		#daumSearchBox {
+			height: 21px;
+			background-image : url(http://i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+			margin: 5px auto ;
+			padding: 0;
+		}
+		#daumSearchBox input {
+			background: none;
+			margin : 0;
+			padding : 0;
+			border : 0;
+		}
+		#daumSearchBox #daumLogo {
+			width: 34px;
+			height: 21px;
+			float: left;
+			margin-right: 5px;
+			background-image : url(http://i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+		}
+		#daumSearchBox #show_q {
+			background-color: transparent;
+			border: none;
+			font: 12px Gulim, Sans-serif;
+			color: #555;
+			margin-top: 4px;
+			margin-right: 15px;
+			float: left;
+		}
+
+		#daumSearchBox #show_btn {
+			background-image : url(http://i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+			width: 37px;
+			height: 21px;
+			float: left;
+			margin:0;
+			cursor:pointer;
+			text-indent:-1000em;
+		}
+	</style>
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/TistoryProfileLayer/style.css" />
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/TistoryProfileLayer/profile.js"></script>
+<script type="text/javascript">var asyncProfileItems = [];</script>
+	<style type="text/css">
+		.another_category { border: 1px solid #E5E5E5; padding: 10px 10px 5px; margin:10px 0; clear: both; }
+		.another_category h4 { font-size: 12px !important; margin: 0 !important; border-bottom: 1px solid #E5E5E5 !important; padding: 2px 0 6px !important; }
+		.another_category h4 a { font-weight: bold !important; }
+		.another_category table { table-layout: fixed; border-collapse: collapse; width: 100% !important; margin-top: 10px !important; }
+		* html .another_category table { width: auto !important; }
+		*:first-child+html .another_category table { width: auto !important; }
+		.another_category th, .another_category td { padding: 0 0 4px !important; }
+		.another_category th { text-align: left; font-size: 12px !important; font-weight: normal;  word-break: break-all; overflow: hidden; line-height: 1.5; }
+		.another_category td { text-align: right; width: 80px; font-size: 11px; }
+		.another_category th a { font-weight: normal; text-decoration: none; border: none !important; }
+		.another_category th a.current{ font-weight: bold; text-decoration: none !important; border-bottom: 1px solid !important; }
+		.another_category th span { font-weight: normal; text-decoration: none; font: 10px Tahoma, Sans-serif; border: none !important; }
+
+		.another_category_color_gray, .another_category_color_gray h4 { border-color: #E5E5E5 !important; }
+		.another_category_color_gray * { color: #909090 !important; }
+		.another_category_color_gray th a.current{border-color:#909090 !important;}
+		.another_category_color_gray h4, .another_category_color_gray h4 a { color: #737373 !important; }
+
+
+		.another_category_color_red, .another_category_color_red h4 { border-color: #F6D4D3 !important;  }
+		.another_category_color_red * { color: #E86869 !important; }
+		.another_category_color_red th a.current{border-color:#E86869 !important;}
+		.another_category_color_red h4, .another_category_color_red h4 a { color: #ED0908 !important; }
+
+
+		.another_category_color_green, .another_category_color_green h4 { border-color: #CCE7C8 !important; }
+		.another_category_color_green * { color: #64C05B !important; }
+		.another_category_color_green th a.current{border-color:#64C05B !important;}
+		.another_category_color_green h4, .another_category_color_green h4 a { color: #3EA731 !important; }
+
+
+		.another_category_color_blue, .another_category_color_blue h4 { border-color: #C8DAF2 !important; }
+		.another_category_color_blue * { color: #477FD6 !important; }
+		.another_category_color_blue th a.current{border-color:#477FD6 !important;}
+		.another_category_color_blue h4, .another_category_color_blue h4 a { color: #1960CA !important; }
+
+
+		.another_category_color_violet, .another_category_color_violet h4 { border-color: #E1CEEC !important;  }
+		.another_category_color_violet * { color:#9D64C5 !important; }
+		.another_category_color_violet th a.current{border-color:#9D64C5 !important;}
+		.another_category_color_violet h4, .another_category_color_violet h4 a { color: #7E2CB5 !important; }
+	</style>
+<script type="text/javascript">
+//<![CDATA[
+var servicePath = "";
+var blogURL = "";
+var s_trackbackUrlCopied = "엮인글 주소가 복사되었습니다";
+var s_trackbackUrlCopyFailed = "엮인글 주소를 복사하지 못했습니다";
+var SCRIPT_VERSION = '2021';
+//]]>
+</script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/lib/jigu/jigu-latest.min.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/T.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/EAF2.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/common.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/gallery.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/flash.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/PHON.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/swfobject.js"></script>
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/style/dialog.css" />
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/style/menubar.css"/><style type="text/css">.tt_article_useless_p_margin p {padding-top:0 !important;padding-bottom:0 !important;margin-top:0 !important;margin-bottom:0 !important;}</style></head>
+<body>
+<div id="overlay" style="display:none;position:fixed;top:0px;left:0px;z-index:150;width:100%;height:100%;"></div>
+<div id="lightbox" style="display:none;position:absolute;z-index:160;"></div>
+<div style="margin:0px; padding:0px; border:none; background:none; float:none; clear:none; z-index:0"></div>
+
+<script type="text/javascript">
+//<![CDATA[
+	var TOP_SSL_URL = 'https://www.tistory.com';
+
+	function processShortcut(event) {
+			if (isIE)
+		{
+			event = window.event;
+			event.target = event.srcElement;
+		}
+
+		if (event.altKey || event.ctrlKey || event.metaKey)
+			return;
+		switch (event.target.nodeName) {
+			case "INPUT":
+			case "SELECT":
+			case "TEXTAREA":
+				return;
+		}
+		switch (event.keyCode) {
+			case 81: //Q
+
+				window.location = "/admin";
+				break;
+			case 83: //S
+				window.location = "?page=2";
+				break;
+			case 90: //Z
+				window.location = "#recentEntries";
+				break;
+			case 88: //X
+				window.location = "#recentComments";
+				break;
+			case 67: //C
+				window.location = "#recentTrackback";
+				break;
+		}
+	}
+	document.onkeydown = processShortcut;
+
+	function addComment(caller, entryId) {
+		var oForm = findFormObject(caller);
+		if (!oForm)
+			return false;
+		var request = new HTTPRequest("POST", oForm.action);
+		request.onSuccess = function () {
+			if(entryId == 0)
+				window.location = blogURL + "/guestbook";
+			else {
+				document.getElementById("entry" + entryId + "Comment").innerHTML = this.getText("/response/commentBlock");
+				if(document.getElementById("recentComments"))
+					document.getElementById("recentComments").innerHTML = this.getText("/response/recentCommentBlock");
+				if(document.getElementById("commentCount" + entryId))
+					document.getElementById("commentCount" + entryId).innerHTML = this.getText("/response/commentView");
+				if(document.getElementById("commentCountOnRecentEntries" + entryId))
+					document.getElementById("commentCountOnRecentEntries" + entryId).innerHTML = "(" + this.getText("/response/commentCount") + ")";
+			}
+			if(typeof window.needCommentCaptcha !== "undefined"){
+				captchaPlugin.init('complete');
+			}
+		}
+		request.onError = function() {
+			var description = this.getText("/response/description");
+			if (description) { alert(description); }
+		}
+		var queryString = "key=tistory";
+		var captchaInput = document.getElementById('inputCaptcha');
+		if (oForm["name"])
+			queryString += "&name=" + encodeURIComponent(oForm["name"].value);
+		if (oForm["password"])
+			queryString += "&password=" + encodeURIComponent(oForm["password"].value);
+		if (oForm["homepage"])
+			queryString += "&homepage=" + encodeURIComponent(oForm["homepage"].value);
+		if (oForm["secret"] && oForm["secret"].checked)
+			queryString += "&secret=1";
+		if (oForm["comment"])
+			queryString += "&comment=" + encodeURIComponent(oForm["comment"].value);
+		if (captchaInput) {
+			if (!captchaInput.value) {
+				alert('그림문자가 입력되지 않았습니다.');
+				return false;
+			}
+			queryString += "&captcha=" + encodeURIComponent(captchaInput.value);
+		}
+		request.send(queryString);
+	}
+	var openWindow='';
+	function alignCenter(win,width,height) {
+		if(navigator.userAgent.indexOf("Chrome") == -1)
+			win.moveTo(screen.width/2-width/2,screen.height/2-height/2);
+	}
+
+	function deleteComment(id) {
+		var width = 450;
+		var height = 360;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/comment/delete/" + id, "tatter", "width="+width+",height="+height+",location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function commentComment(parent, guestbookPage) {
+		var width = 450;
+		var height = 360;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/comment/comment/" + parent + (guestbookPage ? "?guestbookPage=" + guestbookPage: ""), "tatter", "width="+width+",height="+height+",location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function editEntry(parent,child) {
+		var width =  1169;
+		var height = 600;
+		if(openWindow != '') openWindow.close();
+		openWindow = window.open("/admin/entry/edit/" + parent + "?popupEditor&returnURL=CLOSEME","tatter", "width="+1169+",height="+600+",location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function guestbookComment(parent) {
+		var width = 450;
+		var height = 360;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/comment/comment/" + parent, "tatter", "width="+width+",height="+height+",location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function sendTrackback(id) {
+		var width = 700;
+		var height = 500;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/trackback/send/" + id, "tatter", "width=580,height=400,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0");
+				openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function deleteTrackback(id,entryId) {
+		if (confirm("트랙백을 삭제하기 위해서는 로그인이 필요합니다.\n로그인 하시겠습니까?\t")) {
+			window.location = "https://www.tistory.com/login/";
+			return false;
+		} else {
+			return false;
+		}
+	}
+
+	function reloadEntry(id) {
+		var password = document.getElementById("entry" + id + "password");
+		if (!password)
+			return;
+		document.cookie = "GUEST_PASSWORD=" + encodeURIComponent(password.value) + ";path=";
+
+		window.location.href = window.location.href;
+	}
+	loadedComments = new Array();
+	loadedTrackbacks = new Array();
+	function viewTrigger(id, category, categoryId) {
+		var request = new HTTPRequest("GET", "/"+category+"/view/" + id);
+		var target = document.getElementById('entry'+id+(category == 'comment' ? 'Comment' : 'Trackback'));
+		if(target == null)
+			return false;
+		request.onSuccess = function() {
+			target.innerHTML = this.getText("/response/result");
+			target.style.display = 'block';
+			highlight();
+			category == 'comment' ? loadedComments[id] = true : loadedTrackbacks[id] = true;
+			if(categoryId > -1)
+				location = location.toString();
+			if(category == 'trackback') {
+				var holder = document.getElementById('TrackbackCopyHolder' + id);
+				if(holder) {
+					holder.innerHTML = AC_FL_RunContentNotWriteGetString(
+						'src','http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/copyTrackback',
+						'Flashvars','url=http://chickengyoju.tistory.com/trackback/' + id + '&mode=whiteButton',
+						'width','29',
+						'height','18',
+						'id', 'TrackbackCopyButton' + id,
+						'wmode','transparent',
+						'allowScriptAccess','always',
+						'type','application/x-shockwave-flash',
+						'pluginspage','http://www.macromedia.com/go/getflashplayer'
+					);
+				}
+			}
+			if(typeof window.needCommentCaptcha !== "undefined"){
+				captchaPlugin.init();
+			}
+		}
+		request.onError = function() {
+			alert('실패 했습니다');
+		}
+		request.send();
+	}
+	function highlight() {
+		var hash = new RegExp("^#(comment\\d+)").exec(window.location.hash);
+		if(hash && (el = document.getElementById(hash[1])))
+			highlightElement(hash[1], 0, el.style.backgroundColor);
+	}
+	function highlightElement(id, amount, origColor) {
+		var el = document.getElementById(id);
+		if (!el) {
+			return;
+		}
+		el.style.backgroundColor = amount % 2 ? "#FFFF44" : origColor;
+		if (++amount < 7) {
+			setTimeout("highlightElement('" + id + "', " + amount + ", '" + origColor + "')", 200);
+		}
+	}
+	function toggleLayerForEntry(id, category, categoryId, mode) {
+		if((category == 'comment' ? loadedComments[id] : loadedTrackbacks[id])) {
+			try {
+				var obj = document.getElementById('entry'+id+(category == 'comment' ? 'Comment' : 'Trackback'));
+				if(mode == undefined)
+					obj.style.display = (obj.style.display == "none") ? "block" : "none";
+				else
+					obj.style.display = (mode == 'show') ? "block" : "none";
+			} catch (e) {
+
+			}
+			return true;
+		} else {
+			if(categoryId) {
+				viewTrigger(id,category, categoryId);
+			} else {
+				viewTrigger(id,category, -1);
+			}
+		}
+	}
+	function ObserverForAnchor(evetObj) {
+		var lo = location.toString();
+		var queryString = lo.substr(lo.lastIndexOf('/')+1);
+		if(queryString.indexOf('#')>-1) {
+			var qsElements = queryString.split('#');
+			if(qsElements[1].indexOf('comment')>-1) {
+				var category = 'comment';
+			} else if(qsElements[1].indexOf('trackback')>-1) {
+				var category = 'trackback';
+			}
+			if(category) {
+				entryid = qsElements[0];
+				categoryId = qsElements[1].substr(category.length);
+				toggleLayerForEntry(entryid,category,categoryId, 'show');
+			}
+		}
+	}
+
+	STD.addEventListener(window);
+	window.addEventListener("load", ObserverForAnchor, false);
+//]]>
+</script>
+<div style="margin:0px; padding:0px; border:none; background:none; float:none; clear:none; z-index:0"></div>
+
+<div id="headerBox">
+<div id="header">
+<h1><a href="/" title="치킨교주">치킨교주</a></h1>
+<div class="blogMenu"><ul>	<li class="t_menu_home first">
+		<a href="/">홈</a>
+	</li>
+	<li class="t_menu_tag">
+		<a href="/tag">태그</a>
+	</li>
+	<li class="t_menu_medialog">
+		<a href="/media">미디어로그</a>
+	</li>
+	<li class="t_menu_location">
+		<a href="/location">위치로그</a>
+	</li>
+	<li class="t_menu_guestbook last">
+		<a href="/guestbook">방명록</a>
+	</li>
+</ul></div>
+</div>
+</div>
+<!-- header close -->
+<hr />
+	<div id="container">
+		<div id="content">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+				<div class="entry">
+					<div class="titleWrap">
+						<h2><a href="/11">[쿠로츠키] 유부남×고등학생</a></h2>
+						<span class="category"><a href="/category/하이큐/썰">하이큐/썰</a> </span>
+						<span class="date">2016.02.18 12:21</span>
+						
+					</div><!-- titleWrap close -->
+
+					<div class="article">
+						<span id="callbacknestchickengyojutistorycom11494" style="width:1px; height:1px; float:right"><embed  allowscriptaccess="always"  id="bootstrapperchickengyojutistorycom11494"  src="http://chickengyoju.tistory.com/plugin/CallBack_bootstrapperSrc?nil_profile=tistory&amp;nil_type=copied_post"  width="1"  height="1"  wmode="transparent"  type="application/x-shockwave-flash"  EnableContextMenu="false"  FlashVars="&amp;callbackId=chickengyojutistorycom11494&amp;host=http://chickengyoju.tistory.com&amp;embedCodeSrc=http%3A%2F%2Fchickengyoju.tistory.com%2Fplugin%2FCallBack_bootstrapper%3F%26src%3Dhttp%3A%2F%2Fs1.daumcdn.net%2Fcfs.tistory%2Fresource%2F2021%2Fblog%2Fplugins%2FCallBack%2Fcallback%26id%3D11%26callbackId%3Dchickengyojutistorycom11494%26destDocId%3Dcallbacknestchickengyojutistorycom11494%26host%3Dhttp%3A%2F%2Fchickengyoju.tistory.com%26float%3Dleft" swLiveConnect="true"/></span><div style="text-align: left;"><p style="text-align: left;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span dir="http://cfile7.uf.tistory.com/original/2766533E56C538C53A06BD" rel="lightbox" target="_blank"><img src="http://cfile7.uf.tistory.com/image/2766533E56C538C53A06BD" style="cursor: pointer;max-width:100%;height:auto" width="500" height="194"  /></span></span></p>첫만남은 소설처럼 풀었고 그 이후 설정은 의식의 흐름에 따라 풀었습니다~.~<br><br><br>@Chigyo_R18 한적한 주말에 소음이란 불청객 때문에 잠이 깼다. 옆집에 누군가 이사왔는지 시끄러웠다. "케이-그건 무거우니까 형이 할게!" "형은 내가 아직도 앤줄알아?" 문을 열어보니 형제로 보이는 두 사람이 투닥거리며 짐을 옮기고있었다. 그<br><br>@Chigyo_R18 모습을 멍하니 지켜보다가 안경을 쓴 놈과 눈이 마주쳤다. 그는 자신을 위아래로 쓱 훑어보더니 고개만 까딱 흔들어 인사한다. 호오? 이것봐라? 맹랑한 녀석이네. 옆에 있던 사람좋아보이는 청년이 놈의 뒤통수를 푹 눌러서 인사하게했다.<br><br>@Chigyo_R18 "아, 주말인데 저희가 아침부터 시끄러워서 이거 죄송합니다." "별로 죄송할건 아닙니다." 형으로 보이는 청년은 저 맹랑한 꼬마보단 나아보이네. 씨익 웃어보이며 괜찮다고 말했다. 청년은 나에게 몇번이나 양해를 구하고 그제서야 짐을<br><br>@Chigyo_R18 옮기기 시작했다. "케이-조심해서 들고와" "...어. 한번만 말해." 저 케이라는 맹랑한 녀석은 청년의 잔소리가 거슬렸는지 입을 삐죽이며 짐을 옮겼다. 괜히 가만히 지켜보기가 뭐해서 짐을 같이 들어줬다. "읏쌰-짐이 많아보이는데<br><br>@Chigyo_R18 이럴 때 써먹으라고 이웃사촌 있는게 아닙니까?"  "...오지랖이 참 넓으시네요." ...뭐? 재수없는 웃음을 날리며 먼저 슥 들어가는 놈을 보며 어이가 없어서 헛웃음이 나왔다. 마음같아선 그냥 집에서 다시 자고 싶었지만 이미 말<br><br>@Chigyo_R18 을 꺼냈으니 하하-내가 생각해도 어색한 웃음소리를 내며 짐을 옮겼다. 안에서 짐을 정리하고 있던 청년이 한사코 말렸지만 저 맹랑한 놈때문에 무슨 오기가 생겼는지 웃으며 짐을 옮겨줬다. 난 역시 누구에게나 친절하다니까. 속으로 스스<br><br>@Chigyo_R18 로를 칭찬하며 끄덕이니 기분이 한결 나아졌다. 그렇게 약 한시간정도 시간이 지나자 대강 정돈이 되었다. "정말 감사합니다. 둘이서 했으면 오래 걸렸을텐데 이웃분께서 도와주신 덕분에 금방 끝냈네요? 뭐라도 대접해드리고 싶은데 마땅한<br><br>@Chigyo_R18 게 없네요." 청년은 진심으로 아쉽다는 표정을 했다. "서로서로 도우며 사는거죠. 아, 그리고 제 이름은 쿠로오 테츠로입니다. 편하게 쿠로오씨라고 부르세요." 손을 맞잡고 흔들며 말했다. "쿠로오씨군요. 저는 츠키시마 아키테루.<br><br>@Chigyo_R18 옆은 동생인 케이입니다. 케이, 쿠로오씨한테 인사해야지." "...감사합니다." 뚱한 표정으로 인사를 하는 놈을 보니 픽 웃음이 나왔다. 저건 뭐 나랑 싸워서 삐진 아키(딸)가 아내에게 떠밀려 사과하는것과 오버랩이 됐다. 내가 웃<br><br>@Chigyo_R18 은게 영 마음에 안들었는지 쳇-하며 고개를 돌렸다. "하하..케이가 좀 피곤해서 오늘따라..." 피곤하기는 개뿔. "그럴수도 있죠. 이사가 쉬운게 아니니까요." "쿠로오씨같은 좋은 분이 이웃이라서 다행이네요." 큰츳키(부르기 편하<br><br>@Chigyo_R18 게 내 임의로 정한 애칭이다)가 기쁘다는듯이 웃으며 말했다. 옆의 작은 츳키는 뭐가 마음에 안드는지 나를 노려본다. ...아, 브라콤...그런건가? 귀엽네. 피식 웃으며 뭐라 한마디 해주려다가 주머니속에서 울리는 전화벨에 말을 삼<br><br>@Chigyo_R18 켰다. "아, 잠시 전화좀." 양해를 구하고 전화를 받았다. 아내였다. [여보, 나 지금 막 아키랑 도쿄역 도착했어.] 옆에서 '나도 아빠! 아빠 바꿔줘!' 라고 말하는 귀여운 딸내미 목소리를 들으니 저도 모르게 소리내며 웃었다.<br><br>@Chigyo_R18 "그래, 부모님들은 잘 만나고왔고?" [아키에게 한시도 눈을 안떼시던데. 앗, 아키! 바꿔줄게!] 히카리(아내)가 웃으며 얘기하가가 결국 옆에서 소리치던 딸에게 전화를 넘겨줬나보다. 두 모녀의 모습이 절로 그려진다. "우리 공주님<br><br>@Chigyo_R18 외할머니랑 외할아버지 봐서 좋았어요?" [응! 할머니, 할아버지 아키 과자 사준다!] "그래서 잔뜩 먹고 왔어?" [응! 아빠보다 클지도 모른다!] 방방 뛰는지 목소리가 흔들렸다. 귀여운 녀석. 계속 통화를 하다가 옆에서 시선이<br><br>@Chigyo_R18 느껴져서 봤더니 두 형제가 자신을 쳐다보고 있었다. 이런. 나도 정신이 없었네. "통화가 길어져서.. 그럼 이만" 멋쩍게 웃다가 인사를 하고 빠져나왔다. 잠깐이지만 작은 츳키의 표정이 좋지않았는데 뭔 실수라도 했나. 머리를 긁적이며 아내와 딸을 데리러갈 준비를 했다.<br><br><br><br>여기부터 이후 설정<br><br><br><br>@Chigyo_R18 음 쿠로오는 아내랑 딸을 사랑하는 전형적인 아빠?였음. 그냥 평범한 가족의 일상을 살고있었고, 츠키시마 형제는 아님. 사고로 부모를 잃어서 둘만 살고있음. 아키테루가 도쿄에 취직을 해 부모님의 남은 재산으로 힘들게 집을 구해서 츳<br><br>@Chigyo_R18 키랑 둘이 산다. 츳키는 간간히 옆집(쿠로오가족)의 모습이 보일때마다 빤히 쳐다보는데 가족에 대한 그리움과 부러움때문에 쳐다보는 것. 몸은 컸지만 속은 아직 어리다. 형이 아닌 부모의 보살핌이 한창 필요할 때. 아키테루에게 미안해<br><br>@Chigyo_R18 서 겉으로 티는 안내지만 속으론 꽤나 섭섭할듯. 그래서 묘하게 쿠로오씨한테 삐딱하게 대한다. 쿠로오 아내랑 딸한테는 웃으며 잘 대한다. 쿠로오는 츳키를 보고 한창 질풍노도의 시기니 내가 봐주자 생각하지만 거슬리고 신경쓰이는건 어쩔<br><br>@Chigyo_R18 수 없는듯. 그러다가 퇴근길에 츠키시마를 발견했음. 우산을 안가져왔는지 가게 밑 처마에서 비를 피하고 있었음. 형은 일하는 중이라 연락하기 힘들고 그렇다고 비맞으며 가기는 싫고. 표정이 영 좋지못했다. 그러다가 츳키가 순간 넋놓고<br><br>@Chigyo_R18 어딘가를 보기시작했는데 엄마랑 같이 우산쓰고가는 아이. 츳키를 처음보는 사람이였으면 무미건조한 눈빛이였는데 츳키를 요즘 자주 봐온 쿠로오씨는 애 눈이 흔들리고있다는걸 봤음. 거기다 약간의 슬픈 기운까지. 쿠로오는 저도모르게 다시<br><br>@Chigyo_R18 길을 돌아가서 츳키앞에 섰음. 작은 츳키 뭐해? 설마 비온다는데 깜빡하고 우산을 놓고온거야? 말을 검. 츳키는 놀란듯한 얼굴이였다가 눈을 느릿하게 깜빡이더니 평소로 돌아왔다. 그래서 왜요? 씌워주기라도 할건가요? 삐딱하게 나간 말<br><br>@Chigyo_R18 들었다나 뭐라나. 쨌든 그렇게 하루가 지나ㅏ고....아졸랴<br><br>@Chigyo_R18 음 이 일 이후로 쿠로오를 대하는 츳키의 태도가 묘하게 살가워졌음. 쿠로오는 그때 일이 고마워서 그런건가 생각했음. 아 츳키 학교에서 은따당할것같음. 부모없이 형이랑 둘이서 자랐으니 뭔가 인간관계 맺을때 힘겨움이 있을것 같다.<br><br>@Chigyo_R18 공부 잘 하고 착실하지만 역시 그 삐딱한 성격(부모님의 사고 이후로 인간관계 맺는걸 두려워한다. 소중한 사람을 잃은 그 기억때문에 두려워한다고 치자)?때문에 반 아이들이 은근 싫어함  자기는 상관 없다고 생각함. 친구같은거 생겨봤자 불필요하다고 생각했겠지. 아 이러니까 리에프 넣어서 쿠로츠키리에로 쓰리피 만들고싶잖아..으으<br><br><br><br>여기부터는 이제 츳키가 쿠로오를 좋아하게 된 이후<br><br><br>@Chigyo_R18 츳키 쿠로오한테 매달리면서 우는거 보고싶다. 아저씨가 뭔데 이래요. 왜 잘해줘요. 내가 친구 없는게 한심해보였어요? 아빠 없는게 불쌍해보였어요? 동정심이 잔뜩 드세요? 그럼 차라리 무시해주지 왜 따뜻하게 대해줘서 아저씨만 떠오르게<br><br>@Chigyo_R18 만드는거에요. 하면서 울었으면 좋겠다. 이런 자신에게 형 말고 관심을 준 사람이 쿠로오라서 쿠로오에 대한 호감이 이웃이 아닌 연인에 대한 호감으로 발전해서 자기 컨트롤 못하는 츳키가 보고싶다. 상대는 남자에다가 결혼까지해서 애까지<br><br>@Chigyo_R18 딸린 유부남인데 그런 유부남을 보면서 주체할 수 없는 두근거림에 자신을 끝까지 몰아붙이는 츳키가 보고싶다. 처음에는 자기 감정을 잘 몰라서 혼란에 빠져있다가 쿠로오 아내가 쿠로오를 바라보는 눈빛이 자신과 똑같다는걸 느끼고. 아 내<br><br>@Chigyo_R18 가 저 사람을 사랑하는건가? 하면서 나중에 더 큰 충격이 올것같다...감정에 대한 인정보다는 대체 내가 왜?라는 의문이 더 가득 찰것같다. 그래서 쿠로오를 계속 피하는데 그게 또 그것대로 괴로워서 속앓이하는 츳키가 보고싶다. 저 사람을 사랑한다 갖고싶다. 하지만 저 사람에게는 내가 그렇게 그리워하던 가정을 갖고있다. 나는 저 가정을 깨트리면서까지 아저씨를 사랑할 수 없다. 근데 너무 외로워. 사랑받고싶어. 이 사이에서 갈팡질팡하는 츳키 보고싶다. 이성이 먼저냐 감정이 먼저냐.<br><br><br>@Chigyo_R18 이제 쿠로오 입장. 쿠로오는 옆집의 까칠한 고등학생이 마음에 그리 들진 않았다. 어린애가 어른인척 바둥거리는 것도 보기 싫었고 무엇보다 자신의 영역에 타인을 들이지 않으려는 태도가 너무 확고해 호기심에 의한 관심이 쏠렸다.<br></div><div class="entry-ccl" style="clear: both; text-align: right; margin-bottom: 10px">
+	<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko" target="_blank" style="text-decoration: none">
+	<img id="ccl-icon-11-0" class="entry-ccl-by" src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/editor/ccl_black01.png" onmouseover="tistoryCcl.show(this, 5)" onmouseout="tistoryCcl.hide()" alt="저작자 표시"/>
+	<img id="ccl-icon-11-1" class="entry-ccl-nc" src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/editor/ccl_black02.png" onmouseover="tistoryCcl.show(this, 5)" onmouseout="tistoryCcl.hide()" alt="비영리"/>
+	<img id="ccl-icon-11-2" class="entry-ccl-sa" src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/editor/ccl_black04.png" onmouseover="tistoryCcl.show(this, 5)" onmouseout="tistoryCcl.hide()" alt="동일 조건 변경 허락"/>
+	<!--
+	<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<Work rdf:about="">
+			<license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/kr/" />
+		</Work>
+		<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/">
+			<permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+			<permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+			<requires rdf:resource="http://web.resource.org/cc/Notice"/>
+			<requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+			<prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/>
+		</License>
+	</rdf:RDF>
+	-->
+	</a>
+</div>
+<script type="text/javascript">
+if(/MSIE [0-6]\./.test(navigator.userAgent)){for(var i=0;i<3;i++){var el=document.getElementById('ccl-icon-11-'+i);el.style.filter='progid:DXImageTransform.Microsoft.AlphaImageLoader(src="'+el.src+'",sizingMethod="image")';el.src='http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/form/s.gif';}}
+</script>
+<div class="another_category another_category_color_gray">
+<h4>'<a href="/category/하이큐">하이큐</a>&nbsp;>&nbsp;<a href="/category/하이큐/썰">썰</a>' 카테고리의 다른 글</h4>
+<table>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/11"  class ="current" >[쿠로츠키] 유부남×고등학생</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.02.18</td>
+</tr>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/9" >[쿠로츠키리에] 사패×검사×소패</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.02.13</td>
+</tr>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/8" >[쿠로츠키리에] 살인마랑 검사 썰</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.02.09</td>
+</tr>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/5" >[쿠로츠키]유부남×고등학생</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.01.27</td>
+</tr>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/4" >[쿠로츠키] 바람이나 좀 쐐(2:29갱신)</a>&nbsp;&nbsp;<span>(2)</span>
+</th>
+<td>
+2016.01.23</td>
+</tr>
+</table></div>
+					</div>
+					<div class="author">
+						<span class="text">Posted by </span>치교
+					</div>
+
+					
+
+					<div class="actionTrail">
+							<a href="#tb" onclick="toggleLayerForEntry(11, 'trackback'); return false"><span id="trackbackCount11">트랙백 <span class="cnt">0</span>개</span></a>,
+							<a href="#rp" onclick="toggleLayerForEntry('11', 'comment'); return false"><span id="commentCount11">댓글 <span class="cnt">0</span>개가 달렸습니다</span></a>
+					</div>
+
+					<div id="entry11Trackback" style="display:none">
+						<div class="trackback">
+							<h3>트랙백 주소 :: 	<span class="trackback-url" style="cursor: text">http://chickengyoju.tistory.com/trackback/11</span>
+	<span id="TrackbackCopyHolder11" style="vertical-align: -4px; margin-left: 1px">
+	<script type="text/javascript">
+	//<![CDATA[
+	AC_FL_RunContent(
+		'src','http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/copyTrackback',
+		'Flashvars','url=http://chickengyoju.tistory.com/trackback/11&mode=whiteButton',
+		'width','29',
+		'height','18',
+		'id', 'TrackbackCopyButton11',
+		'wmode','transparent',
+		'allowScriptAccess','always',
+		'type','application/x-shockwave-flash',
+		'pluginspage','http://www.macromedia.com/go/getflashplayer'
+	);
+	//]]>
+	</script>
+	</span>
+	<span>
+		<a href="http://www.tistory.com/gateway/?trackback=http%3A%2F%2Fchickengyoju.tistory.com%2Ftrackback%2F11&amp;defaultAdmin=%2Fadmin" onclick="window.open(this.href); return false">
+	<img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/btn_track_white.gif" alt="관련글 쓰기" title="" style="_margin-left: 5px; vertical-align: -4px"/>
+	</a></span>
+</h3>
+							
+						</div><!-- trackback close -->
+					</div>
+
+					<div id="entry11Comment" style="display:none"></div>
+				</div><!-- entry close -->
+			
+				<div class="entry">
+					<div class="titleWrap">
+						<h2><a href="/9">[쿠로츠키리에] 사패×검사×소패</a></h2>
+						<span class="category"><a href="/category/하이큐/썰">하이큐/썰</a> </span>
+						<span class="date">2016.02.13 12:00</span>
+						
+					</div><!-- titleWrap close -->
+
+					<div class="article">
+						<span id="callbacknestchickengyojutistorycom95556" style="width:1px; height:1px; float:right"><embed  allowscriptaccess="always"  id="bootstrapperchickengyojutistorycom95556"  src="http://chickengyoju.tistory.com/plugin/CallBack_bootstrapperSrc?nil_profile=tistory&amp;nil_type=copied_post"  width="1"  height="1"  wmode="transparent"  type="application/x-shockwave-flash"  EnableContextMenu="false"  FlashVars="&amp;callbackId=chickengyojutistorycom95556&amp;host=http://chickengyoju.tistory.com&amp;embedCodeSrc=http%3A%2F%2Fchickengyoju.tistory.com%2Fplugin%2FCallBack_bootstrapper%3F%26src%3Dhttp%3A%2F%2Fs1.daumcdn.net%2Fcfs.tistory%2Fresource%2F2021%2Fblog%2Fplugins%2FCallBack%2Fcallback%26id%3D9%26callbackId%3Dchickengyojutistorycom95556%26destDocId%3Dcallbacknestchickengyojutistorycom95556%26host%3Dhttp%3A%2F%2Fchickengyoju.tistory.com%26float%3Dleft" swLiveConnect="true"/></span><div style="text-align: left;"><p style="text-align: left;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span dir="http://cfile25.uf.tistory.com/original/2162244356BE9C6432A617" rel="lightbox" target="_blank"><img src="http://cfile25.uf.tistory.com/image/2162244356BE9C6432A617" style="cursor: pointer;max-width:100%;height:auto" width="500" height="266"  /></span></span></p><br>※같이 풀면서 소재 던져주신 요이카와님께 치얼스!<br><br><br><br>@Chigyo_R18 딱 봐도 빼박이군. 음 사이코패스 리에프랑 소시오패스 쿠로오 둘 다 현역 공인이였음 좋겠다. 배우라던가 아이돌이라던가 배구선수. 아 리에프는 요즘 핫한 신인모델이구 쿠로오는 배구선수. 성격좋고 마스크도 괜찮아서 팬들이 꽤 있고 방<br><br>@Chigyo_R18 송도 좀 탐. 근데 둘 다 정신적으로 문제가 있어서 밤만되면 공인의 가면을 벗어버리고 행동함. 음 약간 쿠로오랑 리에프가 뭔가 서로 경쟁하듯이 범행을 저질렀으면 한다.<br><br>@Chigyo_R18 리에프는 잘나가는 모델.<br><br>@Chigyo_R18 다시 첨부터 정리. 츠키시마는 검사이다. 일은 진짜 딱 적당히. 더도말고 덜도말고 자기 할 만큼 일응 한다. 그래서 어떤 사건이 발생하려든 해결하려 하지않고 적당히 도와주기만 한다. 이게 쿠로오와 리에프의 눈에 들어온것이다.<br><br>@Chigyo_R18 쿠로오는 배구 국가대표이다. 실력도 출중하고 외모도 어느정도 되어서 인기가 많다. 거기다 주변인들과 친분도 잘 쌓아와서 국민들에게도 좋은 이미지로 각인되어있다. 살인을 하는 이유는 이익을 위해서. 사실 쿠로오는 손패티쉬가 있다는<br><br>@Chigyo_R18 설정. 살인할때 손을 절때 안다치게 하기위해서 목표물을 마취시킨다음 손에 면장갑을 씌워 살인한다. 살인 방법은 깔끔하게 약으로 할듯. 상대의 마취가 확인되면 바로 실톱으로 손목을 자를것같다. 아, 쿠로오는 신선한 보관을 위해 포름<br><br>@Chigyo_R18 알데히드(방부제)가 가득찬 병 들고다닐듯. 쨌든  최대한 깔끔하게 자르고있는데 가끔 마취상태에서 깬 사람들이 있음. 손목에 느껴지는 고통에 몸부림치는데 눈만 마주치고 다시 자기 할 일에 몰두한다. 그리고 손목을 다 잘라서 병에 넣은뒤 대상<br><br>@Chigyo_R18 에게 혈액응고 방지하는 약을 투여한 다음에 유유히 떠날듯. 그래서 늘 과다출혈로 대상들이 사망. 리에프는 쿠로오와 반대로 살인방법이 과격하다. 치열한 모델계에서 살아남으려니 스트레스가 이만저만이 아니다. 그래서 스트레스 분출로 좀<br><br>@Chigyo_R18 잔인하게 죽였을듯...아 졸려<br><br>@Chigyo_R18 리에프는 알루미늄 야구방망이로 사람을 엄청 때릴것같다. 사이코패스는 선천적이잖아. 부모님이 리에프가 사패인거 아니까 되게 막대하고 경멸의 시선으로 봤을듯. 그것때문에 쌓인게 많아서 되는대로 패고 또 충동적이니 사건현장도 지저분할듯<br><br>@Chigyo_R18 그나마 다행인건 증거인멸하는 머리정도 있는거. 관계유지가 어렵다는데 리에프는 매니저 켄마가 도와줘서 그나마 겨우겨우 유지한다. 켄마는 나중에서야 눈치채고 리에프를 말리려다가 저도 목숨의 위협을 받고 옆에서 증거인멸 도와줄듯. 자기<br><br>@Chigyo_R18 밥줄이 끊어지면 안되니까. 살인할때 복장. 쿠로오는 역시 편안한 츄리닝에다가 모자에 마스크. 선글라스는 수상해보이니까 도수없는 안경쓰고 사건을 저지른다. 그리고 포름알데히드랑 실톱을 넣고다닐 가방을 항상 매고다닌다. 리에프는 모델<br><br>@Chigyo_R18 이다보니 겉모습에 신경을 은근 쓸것같다. 안에 검정 목폴라를 입고 그 위에 흰색 셔츠 바지는 슬랙스 신발도 로퍼를 신을거다. 흰색 셔츠를 입은 이유는 뻔하지. 자신의 셔츠가 피로 물들어갈때 희열을 느껴서. 또 가죽장갑 끼고다니고<br><br>@Chigyo_R18 모자는 헌팅캡 썼으면 좋겠다. 피해자들을 자기가 모델인것을 이용해서 유인해가지고 잡아팰듯<br><br>@Chigyo_R18 쿠로오와 리에프가 저지른 살인사건은 시간이 지나도 범인이 잡히지 않고 애꿎은 검찰과 경찰은 시민들에게 비난받기 일수였다. 그러던 중 츠키시마는 출근하던 도중 피해자의 부모에게 날달걀을 맞은 사태가 발생하고...이에 츠키시마 검사는<br><br>@Chigyo_R18 화가 나서 사실 사건을 때려치고 싶었지만 자신을 이렇게 만든 두 놈의 면상이 궁금해서 전보다 좀 열심히 사건조사에 착수한다. 하지만 열심히하는 '척'을 해서 시민들의 눈에 보이기형식으로만 할 뿐 실상을 전과 다를게 없었다.<br><br>@Chigyo_R18 그걸 알아챈건 리에프와 쿠로오. 자신들이 그동안 그렇게 살인을 저질러왔는데도 눈하나 깜짝도 안하는 츠키시마를 보고 묘한 경쟁심이 불타오른 것. 쿠로오는 곧바로 츠키시마에 대해 조사했다. 눈에 들어온건 그와 동거하는 형. 아키테루<br><br>@Chigyo_R18 여기서 아키테루는 배구선수. 이제 막 프로팀에 입단해서 빛을 보고있는 차기 에이스. 한창 사람들의 주목을 받고있는중. 쿠로오와 같은 팀. 쿠로오가 아키테루에게 접근해서 친해졌으면 좋겠다. 처음에는 군기를 주고 나중에는 좋은 선배의<br><br>@Chigyo_R18 모습을 보여줘서 아키테루에게 존경을 받았으면 한다. 이렇게 쿠로오는 아키테루를 통해서 츠키시마에게 접근을 하는 것과 동시에 관심을 끌려고 하고 리에프는 누구를 통해서가 아닌 자기가 바로 실천하는거. 검찰청의 츠키시마 검사님 앞으로<br><br>@Chigyo_R18 직접 편지를 보낸다. 내용은 이런거. "나를 찾고싶지않아? 나에 대해 알고싶지않아? 관심을 기울여봐. 주변을 둘러봐. 난 널 항상 지켜보고 있으니까." 이런 뉘앙스. 직접 손으로 썼을듯.<br><br>160212<br></div><div class="entry-ccl" style="clear: both; text-align: right; margin-bottom: 10px">
+	<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko" target="_blank" style="text-decoration: none">
+	<img id="ccl-icon-9-0" class="entry-ccl-by" src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/editor/ccl_black01.png" onmouseover="tistoryCcl.show(this, 5)" onmouseout="tistoryCcl.hide()" alt="저작자 표시"/>
+	<img id="ccl-icon-9-1" class="entry-ccl-nc" src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/editor/ccl_black02.png" onmouseover="tistoryCcl.show(this, 5)" onmouseout="tistoryCcl.hide()" alt="비영리"/>
+	<img id="ccl-icon-9-2" class="entry-ccl-sa" src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/editor/ccl_black04.png" onmouseover="tistoryCcl.show(this, 5)" onmouseout="tistoryCcl.hide()" alt="동일 조건 변경 허락"/>
+	<!--
+	<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<Work rdf:about="">
+			<license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/kr/" />
+		</Work>
+		<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/">
+			<permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+			<permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+			<requires rdf:resource="http://web.resource.org/cc/Notice"/>
+			<requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+			<prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/>
+		</License>
+	</rdf:RDF>
+	-->
+	</a>
+</div>
+<script type="text/javascript">
+if(/MSIE [0-6]\./.test(navigator.userAgent)){for(var i=0;i<3;i++){var el=document.getElementById('ccl-icon-9-'+i);el.style.filter='progid:DXImageTransform.Microsoft.AlphaImageLoader(src="'+el.src+'",sizingMethod="image")';el.src='http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/form/s.gif';}}
+</script>
+<div class="another_category another_category_color_gray">
+<h4>'<a href="/category/하이큐">하이큐</a>&nbsp;>&nbsp;<a href="/category/하이큐/썰">썰</a>' 카테고리의 다른 글</h4>
+<table>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/11" >[쿠로츠키] 유부남×고등학생</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.02.18</td>
+</tr>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/9"  class ="current" >[쿠로츠키리에] 사패×검사×소패</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.02.13</td>
+</tr>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/8" >[쿠로츠키리에] 살인마랑 검사 썰</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.02.09</td>
+</tr>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/5" >[쿠로츠키]유부남×고등학생</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.01.27</td>
+</tr>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/4" >[쿠로츠키] 바람이나 좀 쐐(2:29갱신)</a>&nbsp;&nbsp;<span>(2)</span>
+</th>
+<td>
+2016.01.23</td>
+</tr>
+</table></div>
+					</div>
+					<div class="author">
+						<span class="text">Posted by </span>치교
+					</div>
+
+					
+
+					<div class="actionTrail">
+							<a href="#tb" onclick="toggleLayerForEntry(9, 'trackback'); return false"><span id="trackbackCount9">트랙백 <span class="cnt">0</span>개</span></a>,
+							<a href="#rp" onclick="toggleLayerForEntry('9', 'comment'); return false"><span id="commentCount9">댓글 <span class="cnt">0</span>개가 달렸습니다</span></a>
+					</div>
+
+					<div id="entry9Trackback" style="display:none">
+						<div class="trackback">
+							<h3>트랙백 주소 :: 	<span class="trackback-url" style="cursor: text">http://chickengyoju.tistory.com/trackback/9</span>
+	<span id="TrackbackCopyHolder9" style="vertical-align: -4px; margin-left: 1px">
+	<script type="text/javascript">
+	//<![CDATA[
+	AC_FL_RunContent(
+		'src','http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/copyTrackback',
+		'Flashvars','url=http://chickengyoju.tistory.com/trackback/9&mode=whiteButton',
+		'width','29',
+		'height','18',
+		'id', 'TrackbackCopyButton9',
+		'wmode','transparent',
+		'allowScriptAccess','always',
+		'type','application/x-shockwave-flash',
+		'pluginspage','http://www.macromedia.com/go/getflashplayer'
+	);
+	//]]>
+	</script>
+	</span>
+	<span>
+		<a href="http://www.tistory.com/gateway/?trackback=http%3A%2F%2Fchickengyoju.tistory.com%2Ftrackback%2F9&amp;defaultAdmin=%2Fadmin" onclick="window.open(this.href); return false">
+	<img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/btn_track_white.gif" alt="관련글 쓰기" title="" style="_margin-left: 5px; vertical-align: -4px"/>
+	</a></span>
+</h3>
+							
+						</div><!-- trackback close -->
+					</div>
+
+					<div id="entry9Comment" style="display:none"></div>
+				</div><!-- entry close -->
+			
+				<div class="entry">
+					<div class="titleWrap">
+						<h2><a href="/8">[쿠로츠키리에] 살인마랑 검사 썰</a></h2>
+						<span class="category"><a href="/category/하이큐/썰">하이큐/썰</a> </span>
+						<span class="date">2016.02.09 23:46</span>
+						
+					</div><!-- titleWrap close -->
+
+					<div class="article">
+						<div class="tt_article_useless_p_margin"><p style="text-align: center;"><span style="font-size: 11pt; font-family: Dotum, 돋움;">사이코패스 리에프X검사 츠키시마X소시오패스 쿠로오</span></p><p style="text-align: center;"><span style="line-height: 1.5;"><br /></span></p><p style="text-align: center;"><font face="Dotum, 돋움"><span style="font-size: 11pt; line-height: 22px; font-family: Dotum, 돋움;">리에프 : 유명한 모델. 하지만 사이코패스 연쇄살인범</span></font></p><p style="text-align: center;"><font face="Dotum, 돋움"><span style="font-size: 11pt; line-height: 22px; font-family: Dotum, 돋움;">츠키시마 : 의욕이 없고 뭐든지 적당적당히 하는 검사</span></font></p><p style="text-align: center;"><span style="font-size: 11pt; font-family: Dotum, 돋움;">쿠로오 : 배구 국가대표. 하지만 소시오패스 연쇄살인범</span></p><p style="text-align: center;"><span style="font-size: 11pt; font-family: Dotum, 돋움;"><br /></span></p><p style="text-align: center;"><span style="font-size: 11pt; font-family: Dotum, 돋움;">나중에 보기편하게 수정할게요~</span></p><p style="text-align: center;"><br /></p><p style="text-align: center;"><br /></p><p style="text-align: center;"><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:12] 츳키가</span></p><p style="text-align: center;"><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:12] 검사인데</span></p><p style="text-align: center;"><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:12] 츳키 보면 막 적당적당히 하잖아요</span></p><div style="text-align: center;"><br /></div><div style="text-align: center;"><br /></div><div style="text-align: center;"><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:12] 그래서 사건이 터져도</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:12] 진짜ㅜㅜ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:12] 딱 자기 할 분량만하고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:12] 더 깊게 관여안하고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:12] 그러는데</span></div><div><br /></div><div><br /></div><div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:13] 쿠로오랑 리에프가 사건을 막</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:13] 저질러도</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:13] 츳키가 계속 무관심 태도로 일관성있게 미니까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:13] 이것봐라?하는 심보라</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:13] 심보로</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:13] 점점 더 살인행위를 잔인하게 저지르는거죠. 츳키 관심끌려고</span></div></div><div><br /></div><div><br /></div><div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:13] 근데 또 오리무중이니까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 국민들이 경찰 검찰 등 사건 관련된 그 기관쪽?을 엄청 비난하는거죠.</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 츳키 처음에 그거 무시했다가</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 막 한계에 달하고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 결국에 계란맞는 상황까지</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 발생해서</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 열받은거죠</span></div></div><div><br /></div><div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 그래서</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 열심히 하는 척 하자</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 하면서 좀 열심히 하는 모습 보이는데</span></div></div><div><br /></div><div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 쿠로오랑 리에프 눈에는</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 척이라는게 눈이 보이니까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 이제 아키테루한테</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:14] 손을 대는거죠.</span></div></div><div><br /></div><div><br /></div><div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:15] 처음엔 경고식으로</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:15] 네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:15] 쿠로오가 먼저 리에프가</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:15] 선수치는거죠</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:16] 아키테루가 괴한한테 맞아서</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:16] 큰 상처는 아니고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:16] 일상에 지장가지 않을정도로</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:16] 상처를 입혀요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:16] 아키테루가 츳키한테는</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:16] 오다가 사고나서 넘어졌다고 음 자기탓이라던가 부주의해서</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:16] 생긴거라고 얼버무렸는데</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:16] 딱봐도 타박상인거에요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:16] 그래서 츳키가 의심을 시작하죠</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:17] 움ㅁ...아 이거 풀려먼</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:17] 먼가 쿠로오랑 리에프</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:17] 살인할때 습관..이라던가</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:17] 표식같은거 있어야할것같은ㄴ데....</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:17] 아 맞아요 그런거...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:17] 음</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:17] 저 예전에</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:17] 네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:17] 살인 그런걸로 글 쓸 때</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:17] 범인이</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:17] 자신이 태어난 년ㄴ도의</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:18] 동전을 매번 살인현장에</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:18] 냅두고 가는거 했었는데</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 헐ㄹ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 대박....</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 완전좋아요...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 미쳤ㅆ다</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 아ㅏ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 그그 쿠로오랑</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 리에프가</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:18] 네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 사이코패스랑 소시오패스잖아요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 그래서 사화ㅣ에선</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 되게 지ㅟ있고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 좋은 이미지 갖고있는</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 인물이라는</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:18] ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 설정으로</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:18] 헐ㄹ 좋아요ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 둘 다 배구선수이거나</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 공인 아니면 연예인</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:18] 공인...&nbsp;</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 이였으면 좋겠네요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:18] 맞아요 ㅜㅜ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 음ㅁ...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 뭘로하죠...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:18] 리에프는 연예인이었으며 하는 소박한 바람...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 역시 배구선수가</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 나을라나ㅏ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 헉ㄱ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:18] 리에프는</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] 역시 모델</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:19] 맞아요ㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:19] 그 썰이</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:19] 아직 머릿속에서</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] ㅠㅠㅠㅠ저두요.ㅠ...ㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:19] 안ㄴㅏ갔나봅니다...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] 리에프는 모델로하고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] 쿠로오를 배구선수로</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] 할까ㅏ요...?</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:19] 쿠로오는 배구선수로..! 네네!!</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] 네네네!!\그럼</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] 그렇게하고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] 쿠로오는</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] 아키테루 해칠때마다</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] 자신에 대한 증거를 남겼으면해요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] 막 자신이 속해있는 팀</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] 이니셜이라던가</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:19] 맞아요 그랬으면 좋겠는데..음ㅁ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:19] 그걸 순서대로 남겨서</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:19] 오</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:20] 아ㅏ....이거ㅓㅇ넘ㅁ어렵ㅂ네효..흑ㄱ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:20] 요이카와님ㅁ 헬프미ㅣ..</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:20] ㅠㅠㅠㅠ그쵸ㅠㅠㅠ 이런 범죄관련은 좀 힘든 것 같아요..</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:20] 음...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:20] 쿠로오는 배구선수니까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:20] 네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:20] 쿠로오는 개인적으로 범죄를 저지를 때 흔적을 안남기고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:20] 깔끔하게 할 것 같은데</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:20] 츳키한테 관심이 쏠린 이후로는</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:20] 네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:20] 아키테루 한정해서</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:20] 흔적을 남겼으면 하는데</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:20] 헉ㄱ네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:20] 그 흔적이... 어... (골똘</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 음ㅁ.....</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 이게...걸리네효ㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 막</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 배구선수들</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 굿즈같은거</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 있지않아요...?</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:21] 배구선수들 하면 왜째서. 유니폼밖에</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:21] 생각이 안나는지ㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] ㅠㅠㅠ그쵸</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 아헉</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 그 팀마다</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 마스코트 캐릭터가</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 있잖아요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 그 캐릭터사아품</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 상품</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:21] 아 네네 헐ㄹ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 떨구는거</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:21] 어때ㅐ요?!!</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:21] 미친</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:22] 최고예요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:22] 헐</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:22] ㅠㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:22] (동공지진</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:22] 진짜 좋아요ㅠㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:22] 아키테루 해칠때마다</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:22] 그거 현장에</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:22] 놓고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:22] 츳키는 아키테루 상처가ㅓ&nbsp;</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:22] 늘때마다</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:22] 아키테루가 집으로 오는길</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:22] 역으로 가서</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:22] 네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:22] 증거 찾거나</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:22] ㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:22] 그런거면ㄴ...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:22] 너무 좋슴ㅁ다...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:22] 근데</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:22] 네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:22] 츳키는 왜인지</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:22] 진작에 눈치는 채고 있었을 것 같은</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:22] 그니까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:22] 눈치빠라ㅡㄹ니까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:22] 물증은 없지만 심증만 있는 상태?</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:23] 네네 맞아요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:23] 근데 그 심증이 완벽하다고 믿는 그런 느낌...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:23] 그쵸</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:23] 자기는 언제나</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:23] 확실하니까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:23] 이런게 은연중에</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:23] 있을것같아요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:24] 맞아요 맞아요ㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:24] 모든 일은 적당히,라고 하면서도</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:24] 자신의 일에 대한 프라이드도 있을 것 같고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:24] 맞아요ㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:24] 자기의 실력을 믿는 ㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:24] ㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:25] 아 이 썰 진짜 좋아요ㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:25] 후...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:25] ㅠㅠㅠㅠㅠ이제</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:25] 리에프에대해</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:25] 풀어볼까요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:25] 리에프는</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:25] 네네!</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:25] 아키테루말고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:25] 직접적으로</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:25] 츳키한테</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:25] 뭔가 가할것같은...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:25] 크으</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:25] 맞아요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:25] 그냥 진짜 도발적으로</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:26] 연하의 패기리ㅏㄹ까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:26] 네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] 나갈 것 같은 느낌</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:26] 막 검찰청에</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] 검찰청도</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:26] 츳키앞으로</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:26] 택배보나고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] 맞아요!</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:26] 크으으</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] ㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] 심지어 검찰청도</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] 찾아갈 것 같은</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:26] 네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:26] 맞아요ㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] 그 정도로 당돌할 것 같아요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:26] 자기가 직접</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:26] 서류 건내죽나...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] ㅠㅠㅠㅠ맞아요ㅠㅠㅠ좋다ㅠ슈ㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] 그리고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] 리에프는</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] 쿠로오랑 달리 자신의 흔적을</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] 남기는거 좋아할 것 같아요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:26] ...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:26] 맞아요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 드러내길 좋아하는성격</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 일듯</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:27] 맞아요 맞아요ㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] ㅠㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:27] 자신이 관련된 사건이 나오면</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:27] ㅏㄱ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:27] 막</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:27] 스크랩해놓고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 맞아요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 벽에 다</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 붙여놓고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:27] 정작 자신이 찍은 화보같은건 다 재껴놓고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:27] 벽에는 그 사건들만 쫙 붙여져있고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:27] ㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 그쵸그쵸</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 아니면그</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 범인인걸</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 안들키는 일코도</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 해야하니까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 화보 뒤에</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 그런걸 빽빽히</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:27] 붙여놓는다거나</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:28] ㅠㅠㅠㅠㅠㅠ헐</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:28] 진짜ㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:28] 그런거 있었으면</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:28] 좋겠어요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:28] 그 리에프가</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:28] ㅠㅠㅠㅠㅠ네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:28] 모델인데 인기도 많고 하니까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:28] 예능같은걸 찍게 됐는데</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:28] 집에 찾아오는?</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:28] 헉ㄱ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:28] 리포터가 리에프 집을 보고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:28] 네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:28] 벽에 막 화보들 붙여져있으니까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:29] 이게 뭐냐고 하면서 들춰보려고하면</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:29] 표정 묘하게 틀어지면서 딱 막아내고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:29] 다시 표정관리하면서</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:29] 아ㅏ헐</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:29] 대박</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:29] 요즘 제 인생의 재미예요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:29] 대박대박규..ㅠ..ㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:29] 라고 하는거</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:29] ...ㅠㅠㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:29] 그리고 나중에 범인인게 들키면</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:29] ㅠㅠㅠ네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:29] 다시 한 번</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:29] 말씀드렸잖아요, 제 인생의 재미라고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:29] 하는거..ㅜㅜ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:29] 아진짜..</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:29] 미쳤다...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:29] 그런게 보고싶습니다..ㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:29] 아 살인마복장ㅇ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:29] 살인할때복장</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:29] 그려볼래요...넘</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 뽕찼어요..</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 헐ㄹ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 원고도뭐든ㄴ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 저 그럼</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] ㅈㅂ어치울ㄹ래요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 심장 부여자ㅏㅂ고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 있겠습니다</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 취향이라던가</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 이랬으면좋겠다라는거</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 있어요?</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 전 리에프</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 개인적으로</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 까만목티</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 입어줬으멶 ㅏㅂ니다...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] (동공지진</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 헐</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 저도요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 까만 목티에</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] ㅠㅠㅠㅠㅠㅠㅠㅠ크으으ㅡ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 그냥</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 올블랙으로</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 했으면 하는 바람...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 맞아요.ㅠ..ㅠ.ㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] ㅠㅠㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 쿠로오는</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 츄ㄹ라낭</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] ?</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 쿠로오는 츄리닝? 이나 코트차림...?</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:30] 네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 아 근데</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:30] 그것도 좋을 것 같아요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 츄리닝에 져지ㅣ...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 헉ㄱ네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 흰색 입혀서</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 아</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 리에프</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 하얀색 옷을 입는데</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 그 이유가</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 피 튀는거 ㄹ보면</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 네네ㅔ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 흥분감을 느껴서</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 아ㅏ진짜</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 리에프 검정목폴라</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 안에입ㄱ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 겉에 흰셔츠</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 바지는 슬랙스</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 네네ㅠㅠㅠㅠㅠ허류ㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 모델이니까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 최고ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 갖춰입어서</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 살인저지르고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 가죽장갑끼고</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 하...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 신발은 로퍼로 해서...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 오히려 쿠로오는 그 반대로</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 최고...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 맞아요ㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 쿠로오는 마스크에 모자쓰ㅗ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 츄리닝...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 맞아요 맞아요ㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:31] 진짜 후리하게...</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 쿠로오는</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 정반대로</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:31] 좀 어두운 색을 입었으면</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:32] 좋겠는 바람...?</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:32] ㅠㅠㅠㅠ아ㅏ어른ㄴ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:32] 오히려</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:32] ㅠㅠ네네</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:32] 피를 보기 역겨워 할 것 같은 느낌이예요</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:32] ㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:32] 깔끔하나ㅣ까</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[ㅈㅇ] [오후 11:32] ㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:32] ㅠㅠㅠㅠㅠㅠㅠㅠㅠ</span></div><div><span style="font-size: 11pt; font-family: Dotum, 돋움;">[요이카와님] [오후 11:32] 아 이 설정 넘ㅁ나 좋습니다ㅠㅠㅠㅠ</span></div></div><div><br /><span id="callbacknestchickengyojutistorycom83169" style="width:1px; height:1px; float:right"><embed  allowscriptaccess="always"  id="bootstrapperchickengyojutistorycom83169"  src="http://chickengyoju.tistory.com/plugin/CallBack_bootstrapperSrc?nil_profile=tistory&amp;nil_type=copied_post"  width="1"  height="1"  wmode="transparent"  type="application/x-shockwave-flash"  EnableContextMenu="false"  FlashVars="&amp;callbackId=chickengyojutistorycom83169&amp;host=http://chickengyoju.tistory.com&amp;embedCodeSrc=http%3A%2F%2Fchickengyoju.tistory.com%2Fplugin%2FCallBack_bootstrapper%3F%26src%3Dhttp%3A%2F%2Fs1.daumcdn.net%2Fcfs.tistory%2Fresource%2F2021%2Fblog%2Fplugins%2FCallBack%2Fcallback%26id%3D8%26callbackId%3Dchickengyojutistorycom83169%26destDocId%3Dcallbacknestchickengyojutistorycom83169%26host%3Dhttp%3A%2F%2Fchickengyoju.tistory.com%26float%3Dleft" swLiveConnect="true"/></span></div><div><br /></div><div><br /></div></div><p><br /></p><div class="entry-ccl" style="clear: both; text-align: right; margin-bottom: 10px">
+	<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko" target="_blank" style="text-decoration: none">
+	<img id="ccl-icon-8-0" class="entry-ccl-by" src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/editor/ccl_black01.png" onmouseover="tistoryCcl.show(this, 5)" onmouseout="tistoryCcl.hide()" alt="저작자 표시"/>
+	<img id="ccl-icon-8-1" class="entry-ccl-nc" src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/editor/ccl_black02.png" onmouseover="tistoryCcl.show(this, 5)" onmouseout="tistoryCcl.hide()" alt="비영리"/>
+	<img id="ccl-icon-8-2" class="entry-ccl-sa" src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/editor/ccl_black04.png" onmouseover="tistoryCcl.show(this, 5)" onmouseout="tistoryCcl.hide()" alt="동일 조건 변경 허락"/>
+	<!--
+	<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<Work rdf:about="">
+			<license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/kr/" />
+		</Work>
+		<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/">
+			<permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+			<permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+			<requires rdf:resource="http://web.resource.org/cc/Notice"/>
+			<requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+			<prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/>
+		</License>
+	</rdf:RDF>
+	-->
+	</a>
+</div>
+<script type="text/javascript">
+if(/MSIE [0-6]\./.test(navigator.userAgent)){for(var i=0;i<3;i++){var el=document.getElementById('ccl-icon-8-'+i);el.style.filter='progid:DXImageTransform.Microsoft.AlphaImageLoader(src="'+el.src+'",sizingMethod="image")';el.src='http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/form/s.gif';}}
+</script>
+<div class="another_category another_category_color_gray">
+<h4>'<a href="/category/하이큐">하이큐</a>&nbsp;>&nbsp;<a href="/category/하이큐/썰">썰</a>' 카테고리의 다른 글</h4>
+<table>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/11" >[쿠로츠키] 유부남×고등학생</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.02.18</td>
+</tr>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/9" >[쿠로츠키리에] 사패×검사×소패</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.02.13</td>
+</tr>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/8"  class ="current" >[쿠로츠키리에] 살인마랑 검사 썰</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.02.09</td>
+</tr>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/5" >[쿠로츠키]유부남×고등학생</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.01.27</td>
+</tr>
+<tr>
+<th>
+<a href="http://chickengyoju.tistory.com/4" >[쿠로츠키] 바람이나 좀 쐐(2:29갱신)</a>&nbsp;&nbsp;<span>(2)</span>
+</th>
+<td>
+2016.01.23</td>
+</tr>
+</table></div></div>
+					</div>
+					<div class="author">
+						<span class="text">Posted by </span>치교
+					</div>
+
+					
+
+					<div class="actionTrail">
+							<a href="#tb" onclick="toggleLayerForEntry(8, 'trackback'); return false"><span id="trackbackCount8">트랙백 <span class="cnt">0</span>개</span></a>,
+							<a href="#rp" onclick="toggleLayerForEntry('8', 'comment'); return false"><span id="commentCount8">댓글 <span class="cnt">0</span>개가 달렸습니다</span></a>
+					</div>
+
+					<div id="entry8Trackback" style="display:none">
+						<div class="trackback">
+							<h3>트랙백 주소 :: 	<span class="trackback-url" style="cursor: text">http://chickengyoju.tistory.com/trackback/8</span>
+	<span id="TrackbackCopyHolder8" style="vertical-align: -4px; margin-left: 1px">
+	<script type="text/javascript">
+	//<![CDATA[
+	AC_FL_RunContent(
+		'src','http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/copyTrackback',
+		'Flashvars','url=http://chickengyoju.tistory.com/trackback/8&mode=whiteButton',
+		'width','29',
+		'height','18',
+		'id', 'TrackbackCopyButton8',
+		'wmode','transparent',
+		'allowScriptAccess','always',
+		'type','application/x-shockwave-flash',
+		'pluginspage','http://www.macromedia.com/go/getflashplayer'
+	);
+	//]]>
+	</script>
+	</span>
+	<span>
+		<a href="http://www.tistory.com/gateway/?trackback=http%3A%2F%2Fchickengyoju.tistory.com%2Ftrackback%2F8&amp;defaultAdmin=%2Fadmin" onclick="window.open(this.href); return false">
+	<img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/btn_track_white.gif" alt="관련글 쓰기" title="" style="_margin-left: 5px; vertical-align: -4px"/>
+	</a></span>
+</h3>
+							
+						</div><!-- trackback close -->
+					</div>
+
+					<div id="entry8Comment" style="display:none"></div>
+				</div><!-- entry close -->
+			
+
+			
+				<div id="paging">
+					<a  class="no-more-prev" id="prevPage">이전</a>
+					<span class="numbox">
+						
+						<a  class="num"> <span class="selected" >1</span></a>
+						
+						<a href='?page=2' class="num"> <span>2</span></a>
+						
+						<a href='?page=3' class="num"> <span>3</span></a>
+						
+					</span>
+					<a href='?page=2' class="" id="nextPage">다음</a>
+				</div>
+			
+		</div><!-- content close -->
+		<hr />
+
+		<div id="sidebar">
+			
+					<!-- 블로그 이미지 모듈 -->
+					<div id="blogImage"><img src="http://cfile23.uf.tistory.com/image/2176EF3F552B7DA035EB19" alt="블로그 이미지" /></div>
+				
+					<!-- 블로그 설명 모듈 -->
+					<div id="blogDesc">잡덕 <span class="userID">치교</span></div>
+				
+				<!-- 공지사항 모듈 -->
+					
+						<div id="notice">
+							<ul>
+								
+							</ul>
+						</div>
+					
+				
+				<!-- 검색 모듈 -->
+					<div id="searchBox">
+						
+							<input type="text" name="search" value="" onkeypress="if (event.keyCode == 13) { try{window.location.href='/search/' + looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value = ''; return false;}catch(e){} }"/>
+							<input value="검색" type="button" onclick="try{window.location.href='/search/' + looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value = ''; return false;}catch(e){}" class="submit"/>
+						
+					</div>
+				
+				<!-- 관리자 모듈 -->
+					<div id="adminMenu">
+						<ul>
+							<li class="tab_admin">
+								<a href="/admin"><img src="http://ts.daumcdn.net/blog/skin/tisPureBlack/images/btn_admin.gif" alt="관리자" /></a></li>
+							<li class="tab_write">
+								<a href="/admin/entry/post"><img src="http://ts.daumcdn.net/blog/skin/tisPureBlack/images/btn_write.gif" alt="글쓰기" /></a></li>
+						</ul>
+					</div>
+				
+				<!-- 카테고리 모듈 -->
+					<div id="category">
+						<h3>카테고리</h3>
+						<script type="text/javascript">
+//<![CDATA[
+	var expanded = false;
+	function expandTree() {
+		expandFolder(503331, true);
+		expandFolder(539159, true);
+	}
+
+	function expandFolder(category, expand) {
+		var oLevel1 = document.getElementById("category_" + category);
+		var oImg = oLevel1.getElementsByTagName("img")[0];
+		switch (expand) {
+			case true:
+				oImg.src = "http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/tab_opened.gif";
+				showLayer("category_" + category + "_children");
+				return true;
+			case false:
+				oImg.src = "http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/tab_closed.gif";
+				hideLayer("category_" + category + "_children");
+				return true;
+		}
+		return false;
+	}
+
+	function toggleFolder(category) {
+		var oLevel1 = document.getElementById("category_" + category);
+		var oImg = oLevel1.getElementsByTagName("img")[0];
+		switch (oImg.src.substr(oImg.src.length - 10, 6)) {
+			case "isleaf":
+				return true;
+			case "closed":
+				oImg.src = "http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/tab_opened.gif";
+				tt_showLayer("category_" + category + "_children");
+				expanded = true;
+				return true;
+			case "opened":
+				oImg.src = "http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/tab_closed.gif";
+				tt_hideLayer("category_" + category + "_children");
+				expanded = false;
+				return true;
+		}
+		return false;
+	}
+	var selectedNode = 0;
+	function selectNode(category) {
+
+		try {
+			var root = document.getElementById('treeComponent');
+			var prevSelectedNode= root.getAttribute('currentselectednode');
+			var oLevel = document.getElementById("category_" + selectedNode);
+			var oChild = oLevel.getElementsByTagName("table")[0];
+
+			oChild.style.color = "#333333";
+			oChild.style.backgroundColor = "#transparent"
+			root.setAttribute('currentselectednode',category);
+			document.getElementById('text_'+selectedNode).style.color="#333333";
+
+			var oLevel = document.getElementById("category_" + category);
+			var oChild = oLevel.getElementsByTagName("table")[0];
+			oChild.style.color = "#333333";
+			oChild.style.backgroundColor = "#transparent"
+			document.getElementById('text_'+category).style.color="#333333";
+
+			selectedNode = category;
+		} catch(e) {
+		}
+	}
+
+	function setTreeStyle(skin) {
+		try {
+			treeNodes = document.getElementsByName("treeNode");
+			for(var i=0; i<treeNodes.length; i++) {
+				if( ('category_'+selectedNode) == (treeNodes[i].getAttribute('id').value) ) {
+					var oLevel = document.getElementById('category_'+i);
+					var oChild = oLevel.getElementsByTagName("table")[0];
+					oChild.style.color ='#'+skin['activeItemColor'];
+					if (skin['activeItemBgColor'] != '' && skin['activeItemBgColor'] != undefined) {
+						oChild.style.backgroundColor ='#'+skin['activeItemBgColor'];
+					} else {
+						oChild.style.backgroundColor ="";
+					}
+				} else{
+					var oLevel = document.getElementById("category_" + i);
+					var oChild = oLevel.getElementsByTagName("table")[0];
+					oChild.style.color ='#'+skin['colorOnTree'];
+					oChild.style.backgroundColor ='#'+skin['bgColorOnTree'];
+					var oLevel = document.getElementById('text_'+i).style.color='#'+skin['colorOnTree'];
+				}
+			}
+		} catch(e) {
+		}
+	}
+//]]>
+</script>
+		<table id="treeComponent"  cellpadding="0" cellspacing="0" style="width: 100%;"><tr>
+	<td>
+		<table id="category_0"  cellpadding="0" cellspacing="0"><tr>
+			<td class="ib" style="font-size: 1px"><img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/tab_top.gif" width="16" onclick="expandTree()" alt=""/></td>
+			<td valign="top" style="font-size:9pt; padding-left:3px">
+				<table onclick="" id="imp0" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tr>
+										<td class="branch3" onclick="window.location.href='/category'"><div id="text_0" style=" color: #333333;">분류 전체보기 <span class="c_cnt">(9)</span></div></td>
+				</tr></table>
+			</td>
+		</tr></table>
+
+		<table   id="category_503331" cellpadding="0" cellspacing="0"><tr>
+			<td class="ib" style="width:39px; font-size: 1px; background-image: url('http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder('503331')"><img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/tab_closed.gif" width="39" alt=""/></a></td>
+			<td>
+				<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tr>
+					<td class="branch3" onclick="window.location.href='/category/세븐나이츠'"><div id="text_503331" style="color: #333333;">세븐나이츠 <span class="c_cnt">(1)</span></div></td>
+				</tr></table>
+			</td>
+		</tr></table>
+		<div id="category_503331_children" style="display:none">
+				<table id="category_534105"  cellpadding="0" cellspacing="0"><tr>
+				<td style="width:39px; font-size: 1px"><img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/navi_back_active.gif" width="17" height="18" alt=""/><img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/tab_treed.gif" width="22" alt=""/></td>
+				<td>
+					<table onclick="window.location.href='/category/세븐나이츠/그림'" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tr>
+					<td class="branch3"><div id="text_534105" style="color: #333333;">그림 <span class="c_cnt">(1)</span></div></td>
+					</tr></table>
+				</td>
+				</tr></table>
+				<table id="category_534104"  cellpadding="0" cellspacing="0"><tr>
+				<td style="width:39px; font-size: 1px"><img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/navi_back_active.gif" width="17" height="18" alt=""/><img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/tab_treed_end.gif" width="22" alt=""/></td>
+				<td>
+					<table onclick="window.location.href='/category/세븐나이츠/썰'" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tr>
+					<td class="branch3"><div id="text_534104" style="color: #333333;">썰 <span class="c_cnt">(0)</span></div></td>
+					</tr></table>
+				</td>
+				</tr></table>
+		</div>
+		<table   id="category_539159" cellpadding="0" cellspacing="0"><tr>
+			<td class="ib" style="width:39px; font-size: 1px; background-image: url('http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/navi_back_noactive_end.gif"><a class="click" onclick="toggleFolder('539159')"><img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/tab_closed.gif" width="39" alt=""/></a></td>
+			<td>
+				<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tr>
+					<td class="branch3" onclick="window.location.href='/category/하이큐'"><div id="text_539159" style="color: #333333;">하이큐 <span class="c_cnt">(7)</span></div></td>
+				</tr></table>
+			</td>
+		</tr></table>
+		<div id="category_539159_children" style="display:none">
+				<table id="category_539160"  cellpadding="0" cellspacing="0"><tr>
+				<td style="width:39px; font-size: 1px"><img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/navi_back_active_end.gif" width="17" height="18" alt=""/><img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/tab_treed.gif" width="22" alt=""/></td>
+				<td>
+					<table onclick="window.location.href='/category/하이큐/그림'" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tr>
+					<td class="branch3"><div id="text_539160" style="color: #333333;">그림 <span class="c_cnt">(1)</span></div></td>
+					</tr></table>
+				</td>
+				</tr></table>
+				<table id="category_539161"  cellpadding="0" cellspacing="0"><tr>
+				<td style="width:39px; font-size: 1px"><img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/navi_back_active_end.gif" width="17" height="18" alt=""/><img src="http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/tree/base/tab_treed_end.gif" width="22" alt=""/></td>
+				<td>
+					<table onclick="window.location.href='/category/하이큐/썰'" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tr>
+					<td class="branch3"><div id="text_539161" style="color: #333333;">썰 <span class="c_cnt">(6)</span> <img src=http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/image/category/new_ico_5.gif alt="N" style='vertical-align:middle;padding-left:2px;' /></div></td>
+					</tr></table>
+				</td>
+				</tr></table>
+		</div>
+	</td></tr></table>
+
+					</div>
+				
+				<!-- 태그목록 모듈 -->
+					<div id="tagbox">
+						<h3>태그목록</h3>
+						<ul>
+							
+								<li><a href="/tag/프로필" class="cloud5"> 프로필</a></li>
+							
+								<li><a href="/tag/세븐나이츠" class="cloud5"> 세븐나이츠</a></li>
+							
+								<li><a href="/tag/썰" class="cloud5"> 썰</a></li>
+							
+								<li><a href="/tag/수위" class="cloud5"> 수위</a></li>
+							
+								<li><a href="/tag/하이큐" class="cloud5"> 하이큐</a></li>
+							
+								<li><a href="/tag/제이브" class="cloud5"> 제이브</a></li>
+							
+								<li><a href="/tag/쿠로츠키" class="cloud5"> 쿠로츠키</a></li>
+							
+								<li><a href="/tag/리에츠키" class="cloud5"> 리에츠키</a></li>
+							
+						</ul>
+					</div>
+				
+				<!-- 최근 포스트 모듈 -->
+					<div id="recentPost">
+						<h3>최근에 올라온 글 </h3>
+						<ul>
+							
+								<li>
+									<a href="/11"> [쿠로츠키] 유부남...</a>
+									<span class="cnt"><span id="commentCountOnRecentEntries11"></span></span>
+								</li>
+							
+								<li>
+									<a href="/9"> [쿠로츠키리에] 사...</a>
+									<span class="cnt"><span id="commentCountOnRecentEntries9"></span></span>
+								</li>
+							
+								<li>
+									<a href="/8"> [쿠로츠키리에] 살...</a>
+									<span class="cnt"><span id="commentCountOnRecentEntries8"></span></span>
+								</li>
+							
+								<li>
+									<a href="/7"> 수위글 비밀번호.</a>
+									<span class="cnt"><span id="commentCountOnRecentEntries7"></span></span>
+								</li>
+							
+						</ul>
+					</div>
+				
+				<!-- 최근 댓글 모듈 -->
+					<div id="recentComment">
+						<h3>최근에 달린 댓글</h3>
+						<ul id="recentComments">
+							
+								<li>
+									<a href="/4#comment6963631">헉...좋게 봐주셔서...</a>
+									<span class="info">
+										<span class="name">치교</span>
+										<span class="date">02.15</span>
+									</span>
+								</li>
+							
+						</ul>
+					</div>
+				
+				<!-- 최근 트랙백 모듈 -->
+					<div id="recentTrackback">
+						<h3>최근에 받은 트랙백</h3>
+						<ul>
+							
+						</ul>
+					</div>
+				
+				<!-- 최근 보관함 모듈 -->
+					<div id="archive">
+						<h3>글 보관함</h3>
+						<ul>
+							
+								<li>
+									<a href="/archive/201602">2016/02 </a>
+									<span class="cnt">(5)</span>
+								</li>
+							
+								<li>
+									<a href="/archive/201601">2016/01 </a>
+									<span class="cnt">(3)</span>
+								</li>
+							
+								<li>
+									<a href="/archive/201511">2015/11 </a>
+									<span class="cnt">(1)</span>
+								</li>
+							
+						</ul>
+					</div>
+				
+				<!-- 달력 모듈 -->
+					<div id="calendar">
+						<h3>달력</h3>
+						<table class="tt-calendar" cellpadding="0" cellspacing="1" style="width: 100%; table-layout: fixed">
+<caption class="cal_month">
+		<a href="/archive/201601" title="1개월 앞의 달력을 보여줍니다.">&laquo;</a>
+		&nbsp;
+		<a href="/archive/201602" title="현재 달의 달력을 보여줍니다.">2016/02</a>
+		&nbsp;
+		<a href="/archive/201603" title="1개월 뒤의 달력을 보여줍니다.">&raquo;</a>
+</caption>
+<thead>
+  <tr>
+			<th class="cal_week2">일</th>
+			<th class="cal_week1">월</th>
+			<th class="cal_week1">화</th>
+			<th class="cal_week1">수</th>
+			<th class="cal_week1">목</th>
+			<th class="cal_week1">금</th>
+			<th class="cal_week1">토</th>
+  </tr>
+</thead>
+<tbody>
+		<tr class="cal_week">
+			<td class="cal_day1">&nbsp;</td>
+			<td class=" cal_day cal_day3">1</td>
+			<td class=" cal_day cal_day3">2</td>
+			<td class=" cal_day cal_day3">3</td>
+			<td class=" cal_day cal_day3">4</td>
+			<td class=" cal_day cal_day3">5</td>
+			<td class=" cal_day cal_day3">6</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3"><a class="cal_click" href="/archive/20160207">7</a></td>
+			<td class=" cal_day cal_day3">8</td>
+			<td class=" cal_day cal_day3"><a class="cal_click" href="/archive/20160209">9</a></td>
+			<td class=" cal_day cal_day3">10</td>
+			<td class=" cal_day cal_day3">11</td>
+			<td class=" cal_day cal_day3">12</td>
+			<td class=" cal_day cal_day3"><a class="cal_click" href="/archive/20160213">13</a></td>
+		</tr>
+		<tr class="cal_week cal_current_week">
+			<td class=" cal_day cal_day_sunday cal_day3">14</td>
+			<td class=" cal_day cal_day3">15</td>
+			<td class=" cal_day cal_day3">16</td>
+			<td class=" cal_day cal_day3">17</td>
+			<td class=" cal_day cal_day3"><a class="cal_click" href="/archive/20160218">18</a></td>
+			<td class=" cal_day cal_day4">19</td>
+			<td class=" cal_day cal_day3">20</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">21</td>
+			<td class=" cal_day cal_day3">22</td>
+			<td class=" cal_day cal_day3">23</td>
+			<td class=" cal_day cal_day3">24</td>
+			<td class=" cal_day cal_day3">25</td>
+			<td class=" cal_day cal_day3">26</td>
+			<td class=" cal_day cal_day3">27</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">28</td>
+			<td class=" cal_day cal_day3">29</td>
+			<td class="cal_day2">&nbsp;</td>
+			<td class="cal_day2">&nbsp;</td>
+			<td class="cal_day2">&nbsp;</td>
+			<td class="cal_day2">&nbsp;</td>
+			<td class="cal_day2">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+					</div>
+				
+				<!-- 링크 모듈 -->
+					<div id="link">
+						<h3>링크</h3>
+						<ul>
+							
+						</ul>
+					</div>
+				
+				<!-- 카운터 모듈 -->
+					<div id="counter">
+						<ul>
+							<li class="total">Total : 876 </li>
+							<li class="today">Today : 13</li>
+							<li class="yesterday">Yesterday : 96</li>
+						</ul>
+					</div>
+				
+
+			
+				<!-- 배너 모듈 - 티스토리 -->
+					<div id="adTistory">
+<center>
+						<div class="invite_tistory"><a href="http://www.tistory.com/invitation/" target="_blank">티스토리 초대신청</a></div>
+						<a href="http://www.tistory.com"><img src="http://ts.daumcdn.net/blog/skin/tisPureBlack/images/logo_tistory.gif" width="107" height="27" alt="TISTORY" /></a>						<!-- <div class="tistoryJoin"><a href="http://www.tistory.com/join">티스토리 가입하기!</a></div> -->
+</center>
+					</div>
+				
+				<!-- RSS 링크 -->
+					<div id="btnRSS">
+<center>
+						<a href="http://chickengyoju.tistory.com/rss" onclick="window.open(this.href); return false">
+						<img src="http://ts.daumcdn.net/blog/skin/tisPureBlack/images/rss.gif" alt="rss"/> </a>
+</center>
+				</div>
+				
+		</div><!-- sidebar close -->
+		<hr />
+
+		<div id="footer">
+			<div class="footMenu">
+				<a href="/location">지역로그</a> :
+				<a href="/tag">태그</a> :
+			    <a href="/media">미디어로그</a> :
+				<a href="/guestbook">방명록</a> :
+				<a href="/admin">관리자</a> :
+				<a href="/admin/entry/post">글쓰기</a>
+			</div>
+			<div class="copyright">
+				<a href="/"> 치교</a>'s Blog is powered by <a href="http://daum.net" onclick="window.open(this.href); return false">Daum</a> / Designed by <a href="http://www.tistory.com">Tistory</a>
+			</div>
+		</div>
+	</div><!-- container close -->
+
+<script id="DragSearchJs" type="text/javascript" src="http://s1.daumcdn.net/img.search/front/js/searchDragSelection.js?nil_ch=tistory" charset="euc-kr"></script>
+<script type="text/javascript">if (asyncProfileItems) {tistoryProfile.getSidebarInfo(asyncProfileItems);}</script>
+<script charset="utf-8" type="text/javascript" src="http://m1.daumcdn.net/tiara/js/td.min.js"></script>
+
+        <script type="text/javascript">
+        //<!--<![CDATA
+        	var __pageTracker = {};
+        	if (typeof __Tiara != "undefined" && typeof __Tiara.__getTracker != "undefined") {
+        		__pageTracker = __Tiara.__getTracker();
+        	} else {
+        		__pageTracker.__trackPageview = function() {};
+        		__pageTracker.__addParam = function() {};
+        		__pageTracker.__setTitle = function() {};
+        	}
+
+        	__pageTracker.__setTitle("치킨교주 :: [쿠로츠키] 유부남×고등학생");
+        	__pageTracker.__addParam("svcdomain","user.tistory.com");
+        	__pageTracker.__addParam("category","");
+        	__pageTracker.__addParam("articleno","11");
+        	__pageTracker.__addParam("plink","http://chickengyoju.tistory.com/11");
+        	__pageTracker.__addParam("date","2016-02-18 12:21:34");
+        	__pageTracker.__addParam("author","chickengyoju");
+        	__pageTracker.__addParam("length ","10341");
+        	__pageTracker.__addParam("isauthor","N");
+        	__pageTracker.__addParam("ishidden","1");
+        	__pageTracker.__addParam("comments","0");
+        	__pageTracker.__addParam("param1","0");
+        	__pageTracker.__addParam("param2","e");
+        	__pageTracker.__addParam("param3","");
+        	
+
+        	window.setTimeout("try { __pageTracker.__trackPageview('http://chickengyoju.tistory.com/'); } catch(e) {}", 1);
+        //]]>-->
+        </script>
+
+        <script type="text/javascript">
+        window.roosevelt_params_queue = window.roosevelt_params_queue || [];
+        window.roosevelt_params_queue.push({
+        	channel_id: "dk", channel_label: "tistory"
+        });
+        </script>
+        <script type="text/javascript" src="//adimg.daumcdn.net/rt/dk_bt/roosevelt_dk_bt.js" async></script><div id="tistorytoolbarid" style="position:absolute;height:20px;top:4px;right:0px;background-color:transparent;background-image:none;z-index:11;">
+	<div class="tistorytoolbar tt_menubar_login">
+		<div class="tt_menubar_whiteBar">
+			<div id="ttMenubarInnerWrap" class="tt_menubar_inner">
+				<div class="tt_menubar_bg_toolbar"></div>
+				<h2 style="display:none;">티스토리 툴바</h2>
+				<div class="tt_menubar_mainmenu"><a class="tt_menubar_link_tit tt_menubar_link_tit_daum tt_menubar_link_tit_eng" href="http://www.daum.net/?nil_ref=tistory" target="_blank">Daum</a></div>
+				<div class="tt_menubar_bg_bar"></div>
+				<div class="tt_menubar_mainmenu"><a class="tt_menubar_link_tit tt_menubar_link_tit_eng" href="http://www.tistory.com">Tistory</a></div>
+				<div class="tt_menubar_bg_bar"></div>
+				<div class="tt_menubar_logout"><a class="tt_menubar_link_tit" href="https://www.tistory.com/login">로그인</a></div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

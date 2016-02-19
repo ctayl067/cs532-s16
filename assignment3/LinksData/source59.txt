@@ -1,0 +1,2115 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr'>
+<head>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://sasukokenji.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://sasukokenji.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Truly, Madly, Deeply - Atom" href="http://sasukokenji.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Truly, Madly, Deeply - RSS" href="http://sasukokenji.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Truly, Madly, Deeply - Atom" href="https://www.blogger.com/feeds/3771746791018006787/posts/default" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://sasukokenji.blogspot.com/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3978477444-ieretrofit.js"></script>
+<![endif]-->
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Truly, Madly, Deeply</title>
+<script type="text/javascript">
+WebFontConfig = {
+  google: { families: [ 'Arvo', 'Dancing Script:bold', 'Syncopate', 'Coming Soon', 'Gruppo', 'Neucha' ],
+  api: '//fonts.googleapis.com/css?kit=_rykuUDzweAQDESbHGpkJCcyKuxq0Wzf6Xkvq5CwyOcfUk6cv2W_Nk6oAcFq1IXTdpQqL1t6wQfTyaVZY2Dop8C-DMcjCfRxKGZpz_OxxZU997TacXew6jZd6awxc9ty'
+  },
+  loading: function() {
+    if (window.jstiming) window.jstiming.load.tick('webfontLoading');
+  },
+  active: function() {
+    if (window.jstiming) window.jstiming.load.tick('webfontActive');
+  }
+};
+(function() {
+  var wf = document.createElement('script');
+  wf.src = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();
+</script>
+<style type="text/css">
+.wf-inactive body, .wf-comingsoon-n4-loading body, .wf-comingsoon-n4-inactive body {
+  font-family: cursive;
+}
+.wf-inactive .header h1, .wf-dancingscript-n7-loading .header h1, .wf-dancingscript-n7-inactive .header h1 {
+  font-family: cursive;
+}
+.wf-inactive .tabs-inner .widget li a, .wf-comingsoon-n4-loading .tabs-inner .widget li a, .wf-comingsoon-n4-inactive .tabs-inner .widget li a {
+  font-family: cursive;
+}
+.wf-inactive .main-inner h2.date-header, .wf-arvo-n4-loading .main-inner h2.date-header, .wf-arvo-n4-inactive .main-inner h2.date-header {
+  font-family: serif;
+}
+.wf-inactive h3.post-title a, .wf-gruppo-n4-loading h3.post-title a, .wf-gruppo-n4-inactive h3.post-title a {
+  font-family: cursive;
+}
+.wf-inactive h2, .wf-syncopate-n4-loading h2, .wf-syncopate-n4-inactive h2 {
+  font-family: sans-serif;
+}
+.wf-inactive .footer-inner .widget, .wf-neucha-n4-loading .footer-inner .widget, .wf-neucha-n4-inactive .footer-inner .widget, .wf-inactive .sidebar .widget, .wf-neucha-n4-loading .sidebar .widget, .wf-neucha-n4-inactive .sidebar .widget {
+  font-family: cursive;
+}
+</style>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/2973171168-css_bundle_v2.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=3771746791018006787&zx=d1e7ce2f-d76a-44d3-9237-47e449fd1330' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Travel
+Designer: Sookhee Lee
+URL:      www.plyfly.net
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#539bcd"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 13px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#bbbbbb"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#539bcd"/>
+<Variable name="content.background.color" description="Main Background" type="color" default="transparent"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#ff9900"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#b87209"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#ff9900"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Font" type="font"
+default="normal normal 60px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="header.text.color" description="Text Color" type="color" default="#ffffff" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#bbbbbb" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal bold 16px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#ffffff"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="transparent"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="transparent"/>
+</Group>
+<Group description="Date Header" selector=".main-inner h2.date-header">
+<Variable name="date.font" description="Font" type="font"
+default="normal normal 14px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="date.text.color" description="Text Color" type="color" default="#bbbbbb"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title a">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal bold 20px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="post.title.text.color" description="Text Color" type="color"
+default="#ffffff"/>
+</Group>
+<Group description="Post Background" selector=".column-center-inner">
+<Variable name="post.background.color" description="Background Color" type="color"
+default="transparent"/>
+<Variable name="post.background.url" description="Post Background URL" type="url" default="none"/>
+</Group>
+<Group description="Gadget Title Color" selector="h2">
+<Variable name="widget.title.font" description="Font" type="font"
+default="normal bold 14px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Gadget Text" selector=".footer-inner .widget, .sidebar .widget">
+<Variable name="widget.font" description="Font" type="font"
+default="normal normal 16px Coming Soon"/>
+<Variable name="widget.text.color" description="Text Color" type="color" default="#bbbbbb"/>
+</Group>
+<Group description="Gadget Links" selector=".sidebar .widget">
+<Variable name="widget.link.color" description="Link Color" type="color" default="#bbbbbb"/>
+<Variable name="widget.link.visited.color" description="Visited Color" type="color" default="#a5b809"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Sidebar Background" selector=".column-left-inner .column-right-inner">
+<Variable name="widget.outer.background.color" description="Background Color" type="color" default="transparent" />
+<Variable name="widget.border.bevel.color" description="Bevel Color" type="color" default="transparent" />
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#9fc5e8" default="$(color) none repeat-x scroll top center"/>
+<Variable name="content.background" description="Content Background" type="background"
+color="rgba(0, 0, 0, 0)" default="$(color) none repeat scroll top center"/>
+<Variable name="comments.background" description="Comments Background" type="background"
+default="#cccccc none repeat scroll top center"/>
+<Variable name="content.imageBorder.top.space" description="Content Image Border Top Space" type="length" default="0" min="0" max="100px"/>
+<Variable name="content.imageBorder.top" description="Content Image Border Top" type="url" default="none"/>
+<Variable name="content.margin" description="Content Margin Top" type="length" default="20px" min="0" max="100px"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="20px" min="0" max="100px"/>
+<Variable name="content.posts.padding" description="Posts Content Padding" type="length" default="10px" min="0" max="100px"/>
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/>
+<Variable name="tabs.selected.background.gradient" description="Tabs Selected Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/>
+<Variable name="widget.outer.background.gradient" description="Sidebar Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/>
+<Variable name="footer.background.gradient" description="Footer Background Gradient" type="url" default="none"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 16px Coming Soon;
+color: #bbbbbb;
+background: #9fc5e8 url(http://3.bp.blogspot.com/-RrApOWMHlr8/VqRPpinuVfI/AAAAAAAADSw/EUtMayLf_zM/s0-r/15.jpg) no-repeat fixed top center;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+a:link {
+text-decoration:none;
+color: #e3ff00;
+}
+a:visited {
+text-decoration:none;
+color: #a5b809;
+}
+a:hover {
+text-decoration:underline;
+color: #e3ff00;
+}
+.content-outer .content-cap-top {
+height: 0;
+background: transparent none repeat-x scroll top center;
+}
+.content-outer {
+margin: 0 auto;
+padding-top: 20px;
+}
+.content-inner {
+background: transparent url(//www.blogblog.com/1kt/travel/bg_black_70.png) repeat scroll top left;
+background-position: left -0;
+background-color: rgba(0, 0, 0, 0);
+padding: 20px;
+}
+.main-inner .date-outer {
+margin-bottom: 2em;
+}
+/* Header
+----------------------------------------------- */
+.header-inner .Header .titlewrapper,
+.header-inner .Header .descriptionwrapper {
+padding-left: 10px;
+padding-right: 10px;
+}
+.Header h1 {
+font: normal bold 36px Dancing Script;
+color: #ffffff;
+}
+.Header h1 a {
+color: #ffffff;
+}
+.Header .description {
+font-size: 130%;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner {
+margin: 1em 0 0;
+padding: 0;
+}
+.tabs-inner .section {
+margin: 0;
+}
+.tabs-inner .widget ul {
+padding: 0;
+background: rgba(0, 0, 0, 0) url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+}
+.tabs-inner .widget li {
+border: none;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: 1em 1.5em;
+color: #9fc5e8;
+font: normal bold 14px Coming Soon;
+}
+.tabs-inner .widget li.selected a,
+.tabs-inner .widget li a:hover {
+position: relative;
+z-index: 1;
+background: #9fc5e8 url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+color: #ffffff;
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+font: normal normal 14px Syncopate;
+color: #ffffff;
+}
+.main-inner h2.date-header {
+font: normal normal 14px Arvo;
+color: #bbbbbb;
+}
+.footer-inner .widget h2,
+.sidebar .widget h2 {
+padding-bottom: .5em;
+}
+/* Main
+----------------------------------------------- */
+.main-inner {
+padding: 20px 0;
+}
+.main-inner .column-center-inner {
+padding: 10px 0;
+}
+.main-inner .column-center-inner .section {
+margin: 0 10px;
+}
+.main-inner .column-right-inner {
+margin-left: 20px;
+}
+.main-inner .fauxcolumn-right-outer .fauxcolumn-inner {
+margin-left: 20px;
+background: rgba(0, 0, 0, 0) url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top left;
+}
+.main-inner .column-left-inner {
+margin-right: 20px;
+}
+.main-inner .fauxcolumn-left-outer .fauxcolumn-inner {
+margin-right: 20px;
+background: rgba(0, 0, 0, 0) url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top left;
+}
+.main-inner .column-left-inner,
+.main-inner .column-right-inner {
+padding: 15px 0;
+}
+/* Posts
+----------------------------------------------- */
+h3.post-title {
+margin-top: 20px;
+}
+h3.post-title a {
+font: normal bold 42px Gruppo;
+color: #ffffff;
+}
+h3.post-title a:hover {
+text-decoration: underline;
+}
+.main-inner .column-center-outer {
+background: rgba(0, 0, 0, 0) none repeat scroll top left;
+_background-image: none;
+}
+.post-body {
+line-height: 1.4;
+position: relative;
+}
+.post-header {
+margin: 0 0 1em;
+line-height: 1.6;
+}
+.post-footer {
+margin: .5em 0;
+line-height: 1.6;
+}
+#blog-pager {
+font-size: 140%;
+}
+#comments {
+background: transparent url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+padding: 15px;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+}
+#comments h4,
+#comments .comment-author a,
+#comments .comment-timestamp a {
+color: #ffffff;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+/* Comments
+----------------------------------------------- */
+#comments a {
+color: #ffffff;
+}
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #ffffff;
+border-bottom: 1px solid #ffffff;
+}
+.comments .comment-thread.inline-thread {
+background: rgba(0, 0, 0, 0);
+}
+.comments .continue {
+border-top: 2px solid #ffffff;
+}
+/* Widgets
+----------------------------------------------- */
+.sidebar .widget {
+border-bottom: 2px solid #6fa8dc;
+padding-bottom: 10px;
+margin: 10px 0;
+}
+.sidebar .widget:first-child {
+margin-top: 0;
+}
+.sidebar .widget:last-child {
+border-bottom: none;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+.footer-inner .widget,
+.sidebar .widget {
+font: normal normal 16px Neucha;
+color: #bbbbbb;
+}
+.sidebar .widget a:link {
+color: #bbbbbb;
+text-decoration: none;
+}
+.sidebar .widget a:visited {
+color: #b87209;
+}
+.sidebar .widget a:hover {
+color: #bbbbbb;
+text-decoration: underline;
+}
+.footer-inner .widget a:link {
+color: #e3ff00;
+text-decoration: none;
+}
+.footer-inner .widget a:visited {
+color: #a5b809;
+}
+.footer-inner .widget a:hover {
+color: #e3ff00;
+text-decoration: underline;
+}
+.widget .zippy {
+color: #ffffff;
+}
+.footer-inner {
+background: transparent none repeat scroll top center;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: 100% auto;
+}
+body.mobile .AdSense {
+margin: 0 -10px;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .footer-inner .widget a:link {
+color: #bbbbbb;
+text-decoration: none;
+}
+.mobile .footer-inner .widget a:visited {
+color: #b87209;
+}
+.mobile-post-outer a {
+color: #ffffff;
+}
+.mobile-link-button {
+background-color: #e3ff00;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile-index-contents {
+color: #bbbbbb;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background: #9fc5e8 url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+color: #ffffff;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #ffffff;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 1003px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1003px;
+max-width: 1003px;
+_width: 1003px;
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 300px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 300px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("300px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 300px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 300px;
+margin-right: -300px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<script type="text/javascript">var a="&m=1",d="(^|&)m=",e="?",f="?m=1";function g(){var b=window.location.href,c=b.split(e);switch(c.length){case 1:return b+f;case 2:return 0<=c[1].search(d)?null:b+a;default:return null}}var h=navigator.userAgent;if(-1!=h.indexOf("Mobile")&&-1!=h.indexOf("WebKit")&&-1==h.indexOf("iPad")||-1!=h.indexOf("Opera Mini")||-1!=h.indexOf("IEMobile")){var k=g();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='loading variant-studio'>
+<div class='navbar section' id='navbar' name='Navbar'>
+</div>
+<div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+<meta content='Truly, Madly, Deeply' itemprop='name'/>
+</div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header' name='Header'><div class='widget Header' id='Header1'>
+<div id='header-inner' style='background-image: url("http://2.bp.blogspot.com/-0TQhzyklJd4/VqRSEXJ-ouI/AAAAAAAADS8/ShZJmLEDCh8/s963-r/Header%252C%2BCover%2BBLOGGER%2B4.png"); background-position: left; min-height: 321px; _height: 321px; background-repeat: no-repeat; '>
+<div class='titlewrapper' style='background: transparent'>
+<h1 class='title' style='background: transparent; border-width: 0px'>
+Truly, Madly, Deeply
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>#ARMY #VIP #iKONIC #INCLE</span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol' name='Cross-Column'><div class='widget PageList' id='PageList1'>
+<h2>Halaman</h2>
+<div class='widget-content'>
+<ul>
+<li class='selected'><a href='http://sasukokenji.blogspot.com/'>Laman utama</a></li>
+<li><a href='https://www.youtube.com/channel/UCjQp_dw4c_EbRuK7P_V5jrA'>Youtube Channel</a></li>
+<li><a href='http://sasukokenji.tumblr.com'>tumblr Blog</a></li>
+<li><a href='http://sasukokenjisideblog.blogspot.com'>My sideblog</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=crosscol' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList1"));' target='configPageList1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<div class='tabs section' id='crosscol-overflow' name='Cross-Column 2'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main' name='Main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Khamis, 18 Februari 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://4.bp.blogspot.com/-h6f5T5gfqi8/VsWmTWPdwxI/AAAAAAAADYI/gqCry5RGJno/s1600/tumblr_inline_o1vtihEysM1tnp4r2_540.png' itemprop='image_url'/>
+<meta content='3771746791018006787' itemprop='blogId'/>
+<meta content='107878615957047605' itemprop='postId'/>
+<a name='107878615957047605'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://sasukokenji.blogspot.com/2016/02/20160218-exactly-what-my-instincts-said.html'>[20160218] Exactly what my instincts said to me... ARE TOTALLY TRUE & REAL.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-107878615957047605' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-h6f5T5gfqi8/VsWmTWPdwxI/AAAAAAAADYI/gqCry5RGJno/s1600/tumblr_inline_o1vtihEysM1tnp4r2_540.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-h6f5T5gfqi8/VsWmTWPdwxI/AAAAAAAADYI/gqCry5RGJno/s1600/tumblr_inline_o1vtihEysM1tnp4r2_540.png" /></a></div>
+<br />
+What... what the flower you want?<br />
+<br />
+I've guessed much, and all of them ended to be true. Like... ugh. My life has been always pitiful.<br />
+<br />
+And I hate to go back home. I don't want to stay at home because I could feel stresses and I'm feeling so down when I'm at home. Feels like... I wanna run away? Anywhere but far from home. Anywhere.<br />
+<br />
+Being a very nice and good girl isn't me, to be honest. ahh lantaklah broken English sekalipun.<br />
+<br />
+I don't wanna blame anyone but I'm too upset and frustrated with <i>these </i>matters. I should be rational and think before I act. But, nah, this is unfair. So heart-breaking! Why do I had to live in this mufu'in land called Malaysia?? Ughh... please. History repeats itself (or maybe it doesn't changed at all).<br />
+<br />
+Since January 2016, I've lost most of my hopes, energy, goals... and I couldn't see the road that I'm taking for. I'm afraid. Worried if I chose the wrong path (bcuz you know this Malaysia land have lost its sights and we're upside down).<br />
+<br />
+Maybe I can overcome this soon. Please give me more hopes.<br />
+<br />
+Even though I can score a few subjects for exam (at least 5 subjects), I'm not sure if I can survive with it. Duh...<br />
+<br />
+Only fools fall for our latest ** I really don't like him and I really want to kick him outta this country.<br />
+<br />
+AND SITTING AT HOME JUST MAKING ME STRESSED WITH MY MOM I DUNNO BUT I DON'T LIKE EVERY SINGLE THING THAT MY MOM SAID BECAUSE IT HURTS MY HEART SO THAT'S WHY I TRY THE BEST TO NOT GETTING CLOSE OR TALK OR HAVE A TOPIC TO TALK WITH BECAUSE SHE WILL PROBABLY TEASING ME WHICH IS REALLY ANNOYING AND HURT and it feels like she's insulting me all the time with that 'jokes'. My (personal) life is already pitiful and she make it even worst if I ever talked to her about my problems and she won' give me encouragement but making me even more down. ot to forget that she's the main reason why I became so annoying when I talked with <i>them</i>. <i>They </i>said that my voice are really annoying and I acted like a... <i>gedik </i>but when I kept quiet I just realize that my mom had being that way and me, dunno when, follows her style of talking. LIKE WTF!!!! I'm not like that before!!!!! If you don't believe me ask my friends and my siblings!<br />
+<br />
+I'm so upset with everything and everything seems so wrong with me.<br />
+<br />
+DID MY MOM HATE CATS/KITTENS? THAT'S SO CRUEL!! Stop complaining about <i>us </i>watching a cat documentary or stories or drooled over some cats around us BECAUSE CATS ARE INCREDIBLY CUTER THAN YOU. I had an allergy to feathers and dusts too but I still tend to like them like wtf mom please don't judge the things that I like. Liking cats is not bad, you know? AT LEAST &nbsp;I DIDN'T RUN AWAY FROM HOUSE BECAUSE I HAD ALWAYS WANTED TO DO THAT BUT THANKS GOD I WAS STILL ON MY &nbsp;RIGHT MIND SO I STAY AND LOCKED MYSELF IN MY BEDROOM.<br />
+<br />
+arghh my heart is burning rn.<br />
+<br />
+I'm not hating her but I'm just... unsatisfied. How can they be close to their mom? I can't even. I don't think there's chemistry running between us at all. Both of us have a totally different interests, perangai, etc. If she's not my mom, I will ended up hating her and she'll be my enemy rn.<br />
+<br />
+<br />
+<br />
+SORRY. OKAY, SORRY. I'M NOT HATING, BUT I WAS UPSET.<br />
+<br />
+<br />
+Please slap my face to wake me up from this immature side of myself. Thank you.<br />
+<br />
+<br />
+<br />
+<br />
+P/s: I'm so disappointed. and I've been disappointed for so many times.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/115034216154730448984' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/115034216154730448984' rel='author' title='author profile'>
+<span itemprop='name'>Sasuko Kenji</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://sasukokenji.blogspot.com/2016/02/20160218-exactly-what-my-instincts-said.html' itemprop='url'/>
+<a class='timestamp-link' href='http://sasukokenji.blogspot.com/2016/02/20160218-exactly-what-my-instincts-said.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-18T03:46:00-08:00'>3:46 PG</abbr></a>
+</span>
+<span class='reaction-buttons'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'><tr>
+<td class='reactions-label-cell' nowrap='nowrap' valign='top' width='1%'>
+<span class='reactions-label'>
+Reactions:</span>&#160;</td>
+<td><iframe allowtransparency='true' class='reactions-iframe' frameborder='0' name='reactions' scrolling='no' src='https://www.blogger.com/blog-post-reactions.g?options=%5Bcool,+bad,+good,+awesome,+nice,+you+got+yes+jams,+insfire!!%5D&amp;textColor=%23bbbbbb#http://sasukokenji.blogspot.com/2016/02/20160218-exactly-what-my-instincts-said.html'></iframe></td>
+</tr></table>
+</span>
+<span class='post-comment-link'>
+<span class='cmt_count_iframe_holder' data-count='0' data-onclick='' data-post-url='http://sasukokenji.blogspot.com/2016/02/20160218-exactly-what-my-instincts-said.html' data-url='http://sasukokenji.blogspot.com/2016/02/20160218-exactly-what-my-instincts-said.html'>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1860847983'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3771746791018006787&postID=107878615957047605&from=pencil' title='Edit Catatan'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=107878615957047605&target=email' target='_blank' title='E-melkan Ini'><span class='share-button-link-text'>E-melkan Ini</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=107878615957047605&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=107878615957047605&target=twitter' target='_blank' title='Kongsi ke Twitter'><span class='share-button-link-text'>Kongsi ke Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=107878615957047605&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Kongsi ke Facebook'><span class='share-button-link-text'>Kongsi ke Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=107878615957047605&target=pinterest' target='_blank' title='Kongsi ke Pinterest'><span class='share-button-link-text'>Kongsi ke Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://sasukokenji.blogspot.com/2016/02/20160218-exactly-what-my-instincts-said.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://sasukokenji.blogspot.com/search/label/log' rel='tag'>log</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://4.bp.blogspot.com/-C6_8m90Wc5M/VsWNqZ5WJiI/AAAAAAAADXA/ehyP6TRWHm8/s640/1.jpg' itemprop='image_url'/>
+<meta content='3771746791018006787' itemprop='blogId'/>
+<meta content='5862665558800136677' itemprop='postId'/>
+<a name='5862665558800136677'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://sasukokenji.blogspot.com/2016/02/20160218-23rd-hopeful-hopes-day-2016.html'>[20160218] 23rd Hopeful Hope's day 2016</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5862665558800136677' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: left;">
+23rd Hopeful Hope&#39;s day 2016</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br></div>
+<div class="separator" style="clear: both; text-align: left;">
+Sing to me of the song of the stars</div>
+<div class="separator" style="clear: both; text-align: left;">
+Of your galaxy dancing and laughing</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br></div>
+<div class="separator" style="clear: both; text-align: left;">
+I know now you&#39;re my ONLY J-HOPE</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='jump-link'>
+<a href='http://sasukokenji.blogspot.com/2016/02/20160218-23rd-hopeful-hopes-day-2016.html#more' title='[20160218] 23rd Hopeful Hope&#39;s day 2016'>More stuffs/logs/reviews &gt;&gt;</a>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/115034216154730448984' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/115034216154730448984' rel='author' title='author profile'>
+<span itemprop='name'>Sasuko Kenji</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://sasukokenji.blogspot.com/2016/02/20160218-23rd-hopeful-hopes-day-2016.html' itemprop='url'/>
+<a class='timestamp-link' href='http://sasukokenji.blogspot.com/2016/02/20160218-23rd-hopeful-hopes-day-2016.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-18T03:02:00-08:00'>3:02 PG</abbr></a>
+</span>
+<span class='reaction-buttons'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'><tr>
+<td class='reactions-label-cell' nowrap='nowrap' valign='top' width='1%'>
+<span class='reactions-label'>
+Reactions:</span>&#160;</td>
+<td><iframe allowtransparency='true' class='reactions-iframe' frameborder='0' name='reactions' scrolling='no' src='https://www.blogger.com/blog-post-reactions.g?options=%5Bcool,+bad,+good,+awesome,+nice,+you+got+yes+jams,+insfire!!%5D&amp;textColor=%23bbbbbb#http://sasukokenji.blogspot.com/2016/02/20160218-23rd-hopeful-hopes-day-2016.html'></iframe></td>
+</tr></table>
+</span>
+<span class='post-comment-link'>
+<span class='cmt_count_iframe_holder' data-count='0' data-onclick='' data-post-url='http://sasukokenji.blogspot.com/2016/02/20160218-23rd-hopeful-hopes-day-2016.html' data-url='http://sasukokenji.blogspot.com/2016/02/20160218-23rd-hopeful-hopes-day-2016.html'>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1860847983'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3771746791018006787&postID=5862665558800136677&from=pencil' title='Edit Catatan'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=5862665558800136677&target=email' target='_blank' title='E-melkan Ini'><span class='share-button-link-text'>E-melkan Ini</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=5862665558800136677&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=5862665558800136677&target=twitter' target='_blank' title='Kongsi ke Twitter'><span class='share-button-link-text'>Kongsi ke Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=5862665558800136677&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Kongsi ke Facebook'><span class='share-button-link-text'>Kongsi ke Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=5862665558800136677&target=pinterest' target='_blank' title='Kongsi ke Pinterest'><span class='share-button-link-text'>Kongsi ke Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://sasukokenji.blogspot.com/2016/02/20160218-23rd-hopeful-hopes-day-2016.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://sasukokenji.blogspot.com/search/label/bts' rel='tag'>bts</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/happy%20birthday' rel='tag'>happy birthday</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/happyHOPEday' rel='tag'>happyHOPEday</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/J-Hope' rel='tag'>J-Hope</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Selasa, 2 Februari 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='3771746791018006787' itemprop='blogId'/>
+<meta content='4064927583490485154' itemprop='postId'/>
+<a name='4064927583490485154'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://sasukokenji.blogspot.com/2016/02/20160202-just-some-stupid-confession.html'>[20160202] Just Some Stupid Confession.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4064927583490485154' itemprop='description articleBody'>
+<b>me</b>: *<i>pats jk's shoulder</i>*<br />
+<br />
+I know how you feel, bro. Literally the same. We're same. The only different is, there's still no one who scold me to make me wake from my <strike>dream</strike> sleep, and no one would read my letter/post like tbh AM I A GHOST TO YOU?? I think I'm a wall or a non-existence creature in their life. If I need some advice or suggestions... even my parents... ughh!!<br />
+<br />
+They come to me and saw me doing something, and they said "wow, very good~" "awesome" when you clearly know that it's not that great or perfect (nothing is perfect, tho)... they only says good thing in front of you to please you (maybe because they liked you or maybe you're a son/daughter of a wealthy family or whatever).<br />
+<br />
+I don't know. Maybe I'm a bit emotional today.<br />
+<br />
+But Jk's recent fancafe update just... can I say that it was accurate?? His post just hits me hard and at the same time, I'm agree with him. If you want us to scold you, I bet some won't. Nobody is perfect, but you can improve yourself to be better; not perfect. What have been you thinking in your mind right now recently? If you ask me, I thought about a lot of things, actually (but nobody will ask me, only me want to ask you).<br />
+<br />
+Does all people who born in September feel this? Because I got a feel that 6Jun does too.<br />
+<br />
+If this post made you think that I'm immature, then it's true. I don't think that I'm mature enough. I didn't talk with a lot of people so my understanding, my social skills, knowledge aren't that big/huge/wide.<br />
+<br />
+Still, if you want to scold or advice me, you are always open to do so. As long it wasn't because you hate me or just hate me or scolding me about something that I didn't do at all.<br />
+<br />
+I might legit crying again if jk wrote a little bit longer post<span style="font-size: x-small;"> <strike>fk plss dont im tired of crying i dont like crying</strike></span><br />
+<br />
+These days, I've been wrote some long confessions in my diary and it means that I'm not in a good condition. I know myself better.<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+Ah. creepy. Sorry for writing this. I'm frustrated, but I don't know how to ease it.<br />
+<br />
+<strike>instead of studying history for tomorrow's exam, i'm writing this shit. wow even my discipline are not good for this.</strike><br />
+<strike><br /></strike>
+<strike><br /></strike>
+<i>btw, jk's fancafe update (20160202, 4:48am kst):</i><br />
+<blockquote class="tr_bq">
+<div style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent; background-color: white; border: 0px; box-sizing: border-box; color: #444444; font-stretch: inherit; line-height: 21px; margin-bottom: 15px; margin-top: 15px; outline: none 0px; padding: 0px; vertical-align: baseline;">
+</div>
+<span style="font-family: inherit;">여러&nbsp;</span><br />
+<span style="font-family: inherit;">영상들을 찾아보며 부족함을 느끼고 하고 싶은 것들과 해야하는 것들이 엄청 많다는 것을 느끼지만 어디서부터 어떻게 시작해야 할지..<br />생각을 아무리 정리하고 계획을 세우고 해봐도 실천도 잘 안 되고..<br />물론 내 의지의 부족함인 것을 누구보다 잘 알고 있다<br />나 자신 스스로가 너무 답답해서 그래서 이렇게 글을 써본다..<br />누군가 나에게 혼을 내줬으면 하는 마음으로 글을 쓰는 것일 수도 있겠다<br />나는 내 마음을 쉽게 여는 성격도 아니고 고민 같은 걸 털어놓는 성격도 아니다<br />하지만 아미니까 내 답답함을 받아줄 수 있을 것 같아서 이렇게 털어놓아본다<br />혼내줘요 아미 정신차리게<br />No matter how I try to organise my thoughts and plan, it doesn&#8217;t turn out well.<br />Of course I know more than anyone else that it&#8217;s because of my lack of willingness. I&#8217;m so frustrated with myself that&#8217;s why I wrote this post</span><br />
+<span style="font-family: inherit;">In a way, I&#8217;m also writing this post so that there will be someone who will scold me. I&#8217;m not someone who can express my feelings easily or someone who will talk about my <span style="font-family: inherit;">problems easily&nbsp;</span></span><br />
+<span style="font-family: inherit;">But because you&#8217;re ARMYs, I feel like you guys can accept my frustrations so I&#8217;m telling you guys this<br />Please scold me ARMYs, bring me back to my sense</span><br />
+<br />
+<br />
+</blockquote>
+<blockquote class="tr_bq">
+<div style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent; background-color: white; border: 0px; box-sizing: border-box; color: #444444; font-stretch: inherit; line-height: 21px; margin-bottom: 15px; margin-top: 15px; outline: none 0px; padding: 0px; vertical-align: baseline;">
+</div>
+<br />
+<br />
+<span style="font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit;"><span style="font-family: inherit;">&#169; letmesuga</span></span><br />
+<br />
+<br />
+</blockquote>
+<br />
+------------------------------------------------------------------------------------------------------------------------<br />
+<br />
+What did he do in the early morning?? omg... but I wake up at that time too. hehehe...<br />
+<br />
+<br />
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/115034216154730448984' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/115034216154730448984' rel='author' title='author profile'>
+<span itemprop='name'>Sasuko Kenji</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://sasukokenji.blogspot.com/2016/02/20160202-just-some-stupid-confession.html' itemprop='url'/>
+<a class='timestamp-link' href='http://sasukokenji.blogspot.com/2016/02/20160202-just-some-stupid-confession.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-02T06:14:00-08:00'>6:14 PG</abbr></a>
+</span>
+<span class='reaction-buttons'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'><tr>
+<td class='reactions-label-cell' nowrap='nowrap' valign='top' width='1%'>
+<span class='reactions-label'>
+Reactions:</span>&#160;</td>
+<td><iframe allowtransparency='true' class='reactions-iframe' frameborder='0' name='reactions' scrolling='no' src='https://www.blogger.com/blog-post-reactions.g?options=%5Bcool,+bad,+good,+awesome,+nice,+you+got+yes+jams,+insfire!!%5D&amp;textColor=%23bbbbbb#http://sasukokenji.blogspot.com/2016/02/20160202-just-some-stupid-confession.html'></iframe></td>
+</tr></table>
+</span>
+<span class='post-comment-link'>
+<span class='cmt_count_iframe_holder' data-count='0' data-onclick='' data-post-url='http://sasukokenji.blogspot.com/2016/02/20160202-just-some-stupid-confession.html' data-url='http://sasukokenji.blogspot.com/2016/02/20160202-just-some-stupid-confession.html'>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1860847983'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3771746791018006787&postID=4064927583490485154&from=pencil' title='Edit Catatan'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=4064927583490485154&target=email' target='_blank' title='E-melkan Ini'><span class='share-button-link-text'>E-melkan Ini</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=4064927583490485154&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=4064927583490485154&target=twitter' target='_blank' title='Kongsi ke Twitter'><span class='share-button-link-text'>Kongsi ke Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=4064927583490485154&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Kongsi ke Facebook'><span class='share-button-link-text'>Kongsi ke Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=4064927583490485154&target=pinterest' target='_blank' title='Kongsi ke Pinterest'><span class='share-button-link-text'>Kongsi ke Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://sasukokenji.blogspot.com/2016/02/20160202-just-some-stupid-confession.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Jumaat, 22 Januari 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://4.bp.blogspot.com/-tkHuePoPv4M/VqKcw5YSsBI/AAAAAAAADMk/DzQSb4oY7ig/s640/bts%2Ba%2B2.png' itemprop='image_url'/>
+<meta content='3771746791018006787' itemprop='blogId'/>
+<meta content='5820890116972821196' itemprop='postId'/>
+<a name='5820890116972821196'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://sasukokenji.blogspot.com/2016/01/bts-truly-madly-deeply-edits.html'>BTS [[TRULY, MADLY, DEEPLY]] edits.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5820890116972821196' itemprop='description articleBody'>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-tkHuePoPv4M/VqKcw5YSsBI/AAAAAAAADMk/DzQSb4oY7ig/s1600/bts%2Ba%2B2.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="424" src="http://4.bp.blogspot.com/-tkHuePoPv4M/VqKcw5YSsBI/AAAAAAAADMk/DzQSb4oY7ig/s640/bts%2Ba%2B2.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">BTS</td></tr>
+</tbody></table>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-7dYwK-JCf-0/VqKf8aDuaiI/AAAAAAAADNE/ndQDJY7FzZc/s1600/jm%2Ba%2B5.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="426" src="http://3.bp.blogspot.com/-7dYwK-JCf-0/VqKf8aDuaiI/AAAAAAAADNE/ndQDJY7FzZc/s640/jm%2Ba%2B5.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Jimin</td></tr>
+</tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-MMTTuZ3z-bc/VqKfEs-CfBI/AAAAAAAADMw/o7bKMrMvn20/s1600/j%2Bb%2B3.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="426" src="http://2.bp.blogspot.com/-MMTTuZ3z-bc/VqKfEs-CfBI/AAAAAAAADMw/o7bKMrMvn20/s640/j%2Bb%2B3.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Jin</td></tr>
+</tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-b4DoKTDyMcY/VqKfHNTcW3I/AAAAAAAADM4/ZVSEK1wnyAs/s1600/jh%2Bc%2B2.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="426" src="http://3.bp.blogspot.com/-b4DoKTDyMcY/VqKfHNTcW3I/AAAAAAAADM4/ZVSEK1wnyAs/s640/jh%2Bc%2B2.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">J-Hope</td></tr>
+</tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-v8BmZy7ZKo4/VqKgSo1mUZI/AAAAAAAADNU/63PC6r6C9YU/s1600/jk%2Ba%2B4.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="424" src="http://2.bp.blogspot.com/-v8BmZy7ZKo4/VqKgSo1mUZI/AAAAAAAADNU/63PC6r6C9YU/s640/jk%2Ba%2B4.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Jungkook</td></tr>
+</tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-w2wh7lbRSUw/VqKgKezG5XI/AAAAAAAADNM/_Z4fzAV41VQ/s1600/rm%2Bd%2B3.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="426" src="http://2.bp.blogspot.com/-w2wh7lbRSUw/VqKgKezG5XI/AAAAAAAADNM/_Z4fzAV41VQ/s640/rm%2Bd%2B3.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Rap Monster</td></tr>
+</tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-GtjeX69iHys/VqKgsE3OStI/AAAAAAAADNc/5tBA6L0p0jI/s1600/v%2Bd%2B3.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="426" src="http://3.bp.blogspot.com/-GtjeX69iHys/VqKgsE3OStI/AAAAAAAADNc/5tBA6L0p0jI/s640/v%2Bd%2B3.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">V</td></tr>
+</tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-WmtgujNxRyg/VqKg745uGfI/AAAAAAAADNo/Y8BwdNCXM2U/s1600/sg%2Bb%2B3.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="424" src="http://2.bp.blogspot.com/-WmtgujNxRyg/VqKg745uGfI/AAAAAAAADNo/Y8BwdNCXM2U/s640/sg%2Bb%2B3.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Suga</td></tr>
+</tbody></table>
+<br />
+<b>Download/Original size:</b> <a href="http://i.imgur.com/QFhUxzW.png" target="_blank">Jin</a>&nbsp;// <a href="http://i.imgur.com/giomFeG.jpg" target="_blank">Suga </a>// J-<a href="http://i.imgur.com/kSg1AlS.png" target="_blank">Hope </a>// <a href="http://i.imgur.com/3qvqgyI.png" target="_blank">Rap Monster</a> // <a href="http://i.imgur.com/kCIsmlr.png" target="_blank">Jimin </a>// <a href="http://i.imgur.com/7tDfMor.png" target="_blank">V</a>&nbsp;// <a href="http://i.imgur.com/4gssV0r.png" target="_blank">Jungkook </a>// <a href="http://i.imgur.com/1cFf77c.jpg" target="_blank">BTS&nbsp;</a><br />
+<br />
+<span style="font-family: Times, Times New Roman, serif;"><i>cr to </i><b>ANIAMRAN</b>.</span><br />
+<span style="font-family: Times, Times New Roman, serif;"><br /></span>
+<i><span style="font-family: Times, Times New Roman, serif;">Editing allowed, do not remove credit.</span></i><br />
+<i><span style="font-family: Times, Times New Roman, serif;">Please credit to ANIAMRAN if using or repost to somewhere else.</span></i>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/115034216154730448984' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/115034216154730448984' rel='author' title='author profile'>
+<span itemprop='name'>Sasuko Kenji</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://sasukokenji.blogspot.com/2016/01/bts-truly-madly-deeply-edits.html' itemprop='url'/>
+<a class='timestamp-link' href='http://sasukokenji.blogspot.com/2016/01/bts-truly-madly-deeply-edits.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-01-22T14:07:00-08:00'>2:07 PTG</abbr></a>
+</span>
+<span class='reaction-buttons'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'><tr>
+<td class='reactions-label-cell' nowrap='nowrap' valign='top' width='1%'>
+<span class='reactions-label'>
+Reactions:</span>&#160;</td>
+<td><iframe allowtransparency='true' class='reactions-iframe' frameborder='0' name='reactions' scrolling='no' src='https://www.blogger.com/blog-post-reactions.g?options=%5Bcool,+bad,+good,+awesome,+nice,+you+got+yes+jams,+insfire!!%5D&amp;textColor=%23bbbbbb#http://sasukokenji.blogspot.com/2016/01/bts-truly-madly-deeply-edits.html'></iframe></td>
+</tr></table>
+</span>
+<span class='post-comment-link'>
+<span class='cmt_count_iframe_holder' data-count='0' data-onclick='' data-post-url='http://sasukokenji.blogspot.com/2016/01/bts-truly-madly-deeply-edits.html' data-url='http://sasukokenji.blogspot.com/2016/01/bts-truly-madly-deeply-edits.html'>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1860847983'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3771746791018006787&postID=5820890116972821196&from=pencil' title='Edit Catatan'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=5820890116972821196&target=email' target='_blank' title='E-melkan Ini'><span class='share-button-link-text'>E-melkan Ini</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=5820890116972821196&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=5820890116972821196&target=twitter' target='_blank' title='Kongsi ke Twitter'><span class='share-button-link-text'>Kongsi ke Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=5820890116972821196&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Kongsi ke Facebook'><span class='share-button-link-text'>Kongsi ke Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=5820890116972821196&target=pinterest' target='_blank' title='Kongsi ke Pinterest'><span class='share-button-link-text'>Kongsi ke Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://sasukokenji.blogspot.com/2016/01/bts-truly-madly-deeply-edits.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Isnin, 18 Januari 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://3.bp.blogspot.com/-plTsAdZEoq4/Vprd0z0GVRI/AAAAAAAADJg/SNsnAWQsKlA/s400/Snapshot%2B1%2B%252811-5-2015%2B7-05%2BAM%2529.jpg' itemprop='image_url'/>
+<meta content='3771746791018006787' itemprop='blogId'/>
+<meta content='7304690251622119577' itemprop='postId'/>
+<a name='7304690251622119577'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://sasukokenji.blogspot.com/2016/01/20160117-i-hate-those-who-are-too-lazy.html'>[20160117] I Hate Those Who are Too Lazy to Read Descriptions.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-7304690251622119577' itemprop='description articleBody'>
+<span style="font-size: large;">Haters gon hate...</span><br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-plTsAdZEoq4/Vprd0z0GVRI/AAAAAAAADJg/SNsnAWQsKlA/s1600/Snapshot%2B1%2B%252811-5-2015%2B7-05%2BAM%2529.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://3.bp.blogspot.com/-plTsAdZEoq4/Vprd0z0GVRI/AAAAAAAADJg/SNsnAWQsKlA/s400/Snapshot%2B1%2B%252811-5-2015%2B7-05%2BAM%2529.jpg" width="252" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<span style="font-family: inherit;"><span style="line-height: 107%;">&#8220;Shit
+la org yg buat sub lgu ni.. </span><span style="line-height: 107%;">&#55357;&#56850;</span><span style="line-height: 107%;">&#8221; - <b>N 00</b></span></span><br />
+<span style="line-height: 107%;"><span style="font-family: inherit;">&#8220;fuck
+org yg buat video nie !! pikiaq elok kot !!&#8221; - <b>SS</b></span></span><br />
+<span style="line-height: 107%;"><span style="font-family: inherit;"><br /></span></span>
+<span style="line-height: 107%;"><span style="font-family: inherit;">Sebenarnya takde mood nak marah ngan dua ekor manusia yang TAK PANDAI NAK BACA DESCRIPTION sebelum tengok video Misheard 'Bang Bang Bang' ni. Please get in into one's head about something that misheard lyrics are only for fun purposes, and the lyrics are only for jokes. Another thing, reading the description is a child's play for you, and I know you won't feel&nbsp;</span></span><span style="line-height: 17.12px;">disgusted with my misheard videos if you read the description. LOL. YOU GOT NO JAMS, girls. Calm your s down.</span><br />
+<span style="line-height: 17.12px;"><br /></span><span style="line-height: 17.12px;">May you live a better life, especially for <b>SS</b>.</span>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/115034216154730448984' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/115034216154730448984' rel='author' title='author profile'>
+<span itemprop='name'>Sasuko Kenji</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://sasukokenji.blogspot.com/2016/01/20160117-i-hate-those-who-are-too-lazy.html' itemprop='url'/>
+<a class='timestamp-link' href='http://sasukokenji.blogspot.com/2016/01/20160117-i-hate-those-who-are-too-lazy.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-01-18T05:56:00-08:00'>5:56 PG</abbr></a>
+</span>
+<span class='reaction-buttons'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'><tr>
+<td class='reactions-label-cell' nowrap='nowrap' valign='top' width='1%'>
+<span class='reactions-label'>
+Reactions:</span>&#160;</td>
+<td><iframe allowtransparency='true' class='reactions-iframe' frameborder='0' name='reactions' scrolling='no' src='https://www.blogger.com/blog-post-reactions.g?options=%5Bcool,+bad,+good,+awesome,+nice,+you+got+yes+jams,+insfire!!%5D&amp;textColor=%23bbbbbb#http://sasukokenji.blogspot.com/2016/01/20160117-i-hate-those-who-are-too-lazy.html'></iframe></td>
+</tr></table>
+</span>
+<span class='post-comment-link'>
+<span class='cmt_count_iframe_holder' data-count='0' data-onclick='' data-post-url='http://sasukokenji.blogspot.com/2016/01/20160117-i-hate-those-who-are-too-lazy.html' data-url='http://sasukokenji.blogspot.com/2016/01/20160117-i-hate-those-who-are-too-lazy.html'>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1860847983'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3771746791018006787&postID=7304690251622119577&from=pencil' title='Edit Catatan'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=7304690251622119577&target=email' target='_blank' title='E-melkan Ini'><span class='share-button-link-text'>E-melkan Ini</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=7304690251622119577&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=7304690251622119577&target=twitter' target='_blank' title='Kongsi ke Twitter'><span class='share-button-link-text'>Kongsi ke Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=7304690251622119577&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Kongsi ke Facebook'><span class='share-button-link-text'>Kongsi ke Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=7304690251622119577&target=pinterest' target='_blank' title='Kongsi ke Pinterest'><span class='share-button-link-text'>Kongsi ke Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://sasukokenji.blogspot.com/2016/01/20160117-i-hate-those-who-are-too-lazy.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Rabu, 11 November 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://4.bp.blogspot.com/-vFWO-ZG0THs/VkLsYqX494I/AAAAAAAACzg/6XX0NhRkFMI/s640/exo-statwars-3.gif' itemprop='image_url'/>
+<meta content='3771746791018006787' itemprop='blogId'/>
+<meta content='8065367021056036767' itemprop='postId'/>
+<a name='8065367021056036767'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://sasukokenji.blogspot.com/2015/11/20151111-exo-lightsaber-crying-over.html'>20151111 : EXO - Lightsaber, Crying over an article, etc.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-8065367021056036767' itemprop='description articleBody'>
+Light Light Light Light Light...<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-vFWO-ZG0THs/VkLsYqX494I/AAAAAAAACzg/6XX0NhRkFMI/s1600/exo-statwars-3.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="272" src="http://4.bp.blogspot.com/-vFWO-ZG0THs/VkLsYqX494I/AAAAAAAACzg/6XX0NhRkFMI/s640/exo-statwars-3.gif" width="640" /></a></div>
+<br />
+<div style="text-align: center;">
+<b><u><span style="font-size: x-large;">[REVIEW] EXO - LIGHTSABER</span></u></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-48Dg9DOQN3Y/VkLlUt28XOI/AAAAAAAACzQ/YZKn8RuBxY4/s1600/cover.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://2.bp.blogspot.com/-48Dg9DOQN3Y/VkLlUt28XOI/AAAAAAAACzQ/YZKn8RuBxY4/s640/cover.jpg" width="640" /></a></div>
+<b>[SINGLE] EXO - LIGHTSABER</b><br />
+<b>Release Date:</b> 2015.11.11<br />
+<b>Genre:</b> Dance<br />
+<b>My Ratings:</b>&nbsp;* * * *<br />
+<b>Download Link (MP3):&nbsp;</b><span style="font-family: inherit;"><a href="http://www.mediafire.com/download/dudtb16fbv8tdee/01.+LIGHTSABER.mp3">http://www.mediafire.com/download/dudtb16fbv8tdee/01.+LIGHTSABER.mp3</a></span><br />
+<br />
+OH MY GOD! THIS SONG IS PERFECTION! The beat, I've never heard it from EXO! I would like if they release a song like this next time! I didn't expect anything LIKE THIS for the collaboration (sorry) but look at this! I just watched the teaser an hour before it was released, no knowing when the actual release date. An hour after it released, I look back at their YouTube Channel and found the MV and I calmly click at it and BOOM!!! For my amazement, I'd never expect the song would turn out this good! Oh wait, what did you expect from EXO, anyway? They're always went viral and their songs are always on the top of the charts. I hope they'll keep the success until FOREVER!<br />
+<br />
+Maybe I didn't expect anything because of their JAPANESE single album. Well, everyone have their own opinion. Ok, nvm.<br />
+<br />
+What disappoints me is XIUMIN ONLY GOT ONE LINE. THE FREAKING ONE LINE. That 'Lightsaber!' before the 1st chorus. His voice made me going crazy (in a good way) and I was excited to hear his other part but.... WHY?! His solo song 'You Are The One' really good and his voice is quiet good. He should shine more in other EXO songs in the future. XIUMIN, I really looking forward for you.<br />
+The other thing is, the song is only for 2:27 minutes and it's too short! Even shorter than BIGBANG's BAE BAE! What... what... what's this? And the music video too, only Kai, Sehun and BAekhyun featured in it. BUT DAMN THEY SLAYED IT! Is that Sehun who rode the motorcycle?? Sehun, you've grown (of course, plus that he's 21 now). Somehow, I forgot that they've once a 12-member group. Damn, 9 is enough! Bless the remaining, loyal members! Not that I hate the former member, but... it's all the past so let's MOVE ON.<br />
+<br />
+I'm happy that Sehun got some lines (is that even his voice? OMG so deep, so *kai~~)<br />
+And Chanyeol's fast rap! Their talents are shining! I'm happy for them! Please, please, please continue that~!!<br />
+<br />
+NOTE:<br />
+*kai: perfect. It's my own dictionary. Hahaha~~<br />
+<br />
+<br />
+<div style="text-align: center;">
+<b><u><span style="font-size: x-large;">CRYING OVER AN ARTICLE.</span></u></b></div>
+<br />
+Ok. This might sounds weird, but yeah... I cried. I cried and I couldn't even read the article till the end. Is it an article or interview? Hahaha... but I think it's an interview article.<br />
+<br />
+An interview from E-POP Malay, 68th Issues (May 2015). Page 20-21.<br />
+<br />
+Now I clearly know since why I'm looking forward on RAP MONSTER even though I'm not an ARMY yet that time. Shockingly, I've read that before and I clearly couldn't remember anything (probably because I'm going crazy over EXO as the main focus in that magazine).<br />
+<br />
+I already know about his mixtape album that time but I forgot to download it (or try to listen to it). :(<br />
+Fool me, fool me. I only remember about it on July... downloaded in on 23rd July 2015.<br />
+And his solo Music Videos, I thought it was last year's. But I figured out that it was this year's, in March. I'm too lazy to read the description. I can't believe that I've watched it several times as I watch another BTS' music videos (still not an ARMY yet that time) (uhh... but I didn't watch till the end the 'DO YOU' MV because it was a bit... you know... 'dangerous'). I thought "Cool~" "Wow~ His rap is perfectly awesome!" "This is my type" without even know what did he exactly says.<br />
+<br />
+Yup, that's true. I've known BTS since their debut. The first BTS performance that I've watched is No More Dream/We are Bulletproof Pt.2 (I don't even remember which one but I think it's No More Dream bcuz of the abs). After being an ARMY, watching their BANGTAN BOMBS, then finally found their debut MVs, and I thought "Hey, I think I've seen this dance and song on TV before but... when?". And finally I remembered it was 2 years ago when I saw them on TV. I thought "Not bad. This song is good, but I've never heard this group name at all before" and "Ah! That dance (showing abs) reminds me of BIGBANG's LA LA LA dance!", but anyway... I quickly grabbed a pen and a paper and wrote down their GROUP NAME and the song name; to download the song, of course. But I don't know, I suddenly forgot about them and focusing on BIGBANG.<br />
+<br />
+It's pitiful that I even saw them on KBSWorld, they're having a talk idk but I saw their NO MORE DREAM m/v (cutted ver) and it was when they're promoting their DARK&amp;WILD album, if I'm not mistaken (or SKOOL LUV AFFAIR album). That first impression, that (No More Dream) MV (when Jin get out from the bus), I thought that I've seen that somewhere but I don't remember. I can only recognize Jungkook, Suga, Jimin's face that time (not clearly remember the names but I still remember how they looks like that time, since KBS repeated the same clip from BTS after a few dramas/shows). Without even remembering that IT WAS THEM FROM LAST YEAR, I gave some interest on the group. The concept attracted me, the preview of their new song made me wanna hear more (but I don't remember which song it is). And once again, I forgot about them. Hahaha... It's actually not easy for me to stan a group.<br />
+<br />
+Then, last year, around July or August like that, my friend gave me a compilation videos of funny moments (incl. BTOB, BEAST, EXO, BTS, ect. I don't remember well since the video was ACCIDENTALLY deleted permanently on my pendrive). The video is hilariously funny and entertaining, but that one group, that one video, THAT TWO MEMBERS OF THE MALE GROUP KISSING ON THE LIPS really kills me and it shocks me too much and in my mind I don't think I will ever like THAT group at all (even though I found it funny af). Even though I found it creepy, I kept hitting the play button because I was addicted to the song in that video. It says... "Cuz we got fire, fire, fire! And higher, higher, higher!". The raps and the rhythm, it attracts me so much. I listen to it several times in a day. Really, really addicted to that song. So bad that I don't know that song name that time. Maybe because I was attracted more to D.O. &amp; EXO that time, I don't even realize that it was BTS (plus that they dressed weirdly in that video. Hahaha!!).<br />
+<br />
+I went crazily over EXO and GD X TAEYANG during the school holiday. I downloaded a lot of songs from them including Luhan and Kris' solo songs.<br />
+<br />
+In the early of January, I finally decided to try to listen to other group's songs. I found the download link for the 'DANGER' MV, and I decided to download it. But I clicked the wrong link, and I downloaded the 'DANGER' MV, from TAEMIN!! I'm too lazy to re-download the right MV, and search up for another K-POP songs from the internet instead, but download nothing since the internet connection is lost.<br />
+<br />
+I've heard a lot about BTS, and one day I decided to try to hear one of their song (I don't know what's their song tittle so I just search 'BTS MP3' on the search engine) and finally found their songs on 4shared.com. Well, not a song, but THE WHOLE ALBUM! I downloaded the 'Danger' track, but not really impressed by it. Then, I downloaded the 'War of Hormone' and I got really addicted to it. The third time I revisit that webpage, I downloaded ALL SONGS FROM THAT ALBUM. Really, really addicted. That's the first time I downloaded all songs from an album in a short time.<br />
+<br />
+When the school session starts, I starts getting close to one of my senior (actually, just a year older than me) and talked about K-POP. And unknowingly, I really want to talk about BTS, since she's already an ARMY that time. It's so fun! I wish to meet her again, but it seems impossible...<br />
+<br />
+Until I moved to a new school on 10th February, still not telling my close friend in Salaping about BTS, suddenly I ignored BTS once again. Focused on EXO, but when I heard that BTS released a new album, I quickly downloaded the whole album (I downloaded it but I didn't hear the songs from the album at all bcuz of EXO's comeback). Then I met a new friend, who's also an EXO-L and we became close (just bcuz of E-POP. Thanks, E-POP!). I found out that she's also an ARMY (and that time I also figured what kind of 'ARMY' the netizens talked about on FB). I heard their song, 'I NEED U', but since it's a slow song, I'm not interested at all.<br />
+<br />
+When BTS came to KK, my friend got crazy and I helped her to find any information about them in KK. I searched for some pictures and posted it to FB so that she can saw it too. (J-Hope is disturbingly funny that time, with that snakeu). Even though they came to KK, I don't fall to them easily. Well, at least I knew some of the member's names... Jungkook (I knew him even before the DANGER era, actually, due to his popularity), J-Hope, and when I heard about Rap Monster, I thought "I think I've heard his name before..." but I ignored it. It's actually an honor that they came to Kota Kinabalu, since usually foreigner idols only came to Kuala Lumpur for concerts or fanmeeting. They came to KK for a schedule, and 'rest, enjoying their holiday' at the same time. They even go to LOK KAWI! Somehow, I felt proud for Sabahan. Guys, you are very lucky to be a Sabahan! But what's sad is... the earthquake... It's the most scary moment (and exciting since I never feel it before) in my life!<br />
+<br />
+Just in May/June (I don't remember well), I finally decided to listen to all songs from the album. And damn, 'DOPE' sounds so good and it catches my attention! It's a waste that I didn't hear to it earlier. It's a jam along with 'Hold Me Tight', 'Converse High' and 'Fun Boyz'. Just then, BTS dropped official photo teasers for their upcoming comeback (and we really thought it was for Part 2 of their previous album). Rap Monster is the first one to be revealed, and since that I collected each member's till the end. No, the first one is the hand... but I ignore it till Rap Monster's teaser appeared. And guess what, by following the updates from their official Facebook Page (I don't know when did I liked the page, anyway), I learned about which one is this and that. I hated Rap Monster, because his face reminds me of someone that I don't like the most. And Jimin, because being too hot and popular. LOL. Even though he really looks so handsome and looks like GD in that teaser.<br />
+<br />
+I'm late for the new MV... but when I finally watch it, I thought "OMG! MY FAV SONG FROM THE ALBUM!" and get very hyped!! 'I Need U' is too emotional, but this 'DOPE' MV is energetic! The dance, the rhythm, the melody, the RAPS, Jimin's high note and Jin's voice... I THINK I'VE FINALLY FALL IN LOVE WITH THE GROUP! And shockingly, even though I hate Rap Monster, I suddenly went crazy over his raps (and voice in the beginning) among the other rappers. It's weird that I've fall into Rap Monster's charisma when Jungkook is the most popular member and Jin is the most handsome member, when Jimin is the hottest member, J-Hope is the cutest and hypest member and V is the most unique and have a very soulful voice, and Suga is also a very good and talented rapper and is very swag (which is my style)... but I didn't fall easily, though. I think it's all started after I watched them on Weekly Idol, Bangtan Bomb, and read the translations of their songs ESPECIALLY Rap Monster's rap.<br />
+<br />
+I finally figured out that Rap Monster is good in English, and I found out that he is good for my motivation to not give up. He is my inspiration! Even when I found out that he's a pervert but all that important for me is he makes me positive (except for that curses), he is a very responsible leader, and I could understand his feelings when he said life is getting hard, he felt like gave up, he felt so empty, etc. because I'm facing that too. He is a professional, I got a feeling I should learn something from him. His songs, mixtapes, gives me inspiration. It feels like I've finally found someone that can reflect me almost... perfectly, but not completely. I'll try to take only the good thing about him. He is a genius?? I don't care! Whether a genius or not, his maturity level of his mental (lol my words), his perspectives, the way he was thinking, his weird personality, anything positives from him... I take that as my inspiration.<br />
+<br />
+That's why... when I read the article,, I cried unknowingly, and only realize when my tear drop falls onto my lap. I can't describe it, but it's not sad, it's not amazing, it's not funny, it's not happy... it's an understanding feeling, I think. Whoever can understand what I feel, I hope we can talk to each other, discussing about our curiousness and doubts, finding the answers of all questions that's playing in our mind. I can't even read till the end of the interview, only 1 and a half page (not even a half, actually) and quickly close the magazine and swept my tears by using my blanket (cuz I couldn't find my handkerchief or tissues and blanket is the only thing that's close to my hand to reach). I'm not going to take a risk to cry. I can cry next time, but not now. It'll be obvious. Too obvious when I cry.<br />
+<br />
+That's why... since a long time ago, I dreamed of going to another place to learn. Same dream, but different reasons. Since I live with a perfect family, given all that I need, and mostly faced no problem at all, I wanted to feel how... how the others who lived unfortunately like me be like. I know, I would found an answer for that. Life is... A POOP. (lol. kidding.).Life is complicated, a journey, a learning process, a puzzle, a maze, a challenge, the time that God had given us to change to be better and faithful. And for me, life is a test. You failed, you learn from the past and try to pass in the future. It's complicated. It's subjective. Too much definitions. Too much speculations.<br />
+<br />
+To all this while, I wanted to thank to myself for being tough, for being positive and avoid all the negativity. To not get involved in bad things.<br />
+<br />
+This... is... the... first... time... I... cried... because... of... an... article.<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+I'm being dramatic, right? Hahaha~~ I'm sorry. I didn't mean to be dramatic at all.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/115034216154730448984' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/115034216154730448984' rel='author' title='author profile'>
+<span itemprop='name'>Sasuko Kenji</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://sasukokenji.blogspot.com/2015/11/20151111-exo-lightsaber-crying-over.html' itemprop='url'/>
+<a class='timestamp-link' href='http://sasukokenji.blogspot.com/2015/11/20151111-exo-lightsaber-crying-over.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-11-11T02:39:00-08:00'>2:39 PG</abbr></a>
+</span>
+<span class='reaction-buttons'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'><tr>
+<td class='reactions-label-cell' nowrap='nowrap' valign='top' width='1%'>
+<span class='reactions-label'>
+Reactions:</span>&#160;</td>
+<td><iframe allowtransparency='true' class='reactions-iframe' frameborder='0' name='reactions' scrolling='no' src='https://www.blogger.com/blog-post-reactions.g?options=%5Bcool,+bad,+good,+awesome,+nice,+you+got+yes+jams,+insfire!!%5D&amp;textColor=%23bbbbbb#http://sasukokenji.blogspot.com/2015/11/20151111-exo-lightsaber-crying-over.html'></iframe></td>
+</tr></table>
+</span>
+<span class='post-comment-link'>
+<span class='cmt_count_iframe_holder' data-count='0' data-onclick='' data-post-url='http://sasukokenji.blogspot.com/2015/11/20151111-exo-lightsaber-crying-over.html' data-url='http://sasukokenji.blogspot.com/2015/11/20151111-exo-lightsaber-crying-over.html'>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1860847983'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3771746791018006787&postID=8065367021056036767&from=pencil' title='Edit Catatan'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=8065367021056036767&target=email' target='_blank' title='E-melkan Ini'><span class='share-button-link-text'>E-melkan Ini</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=8065367021056036767&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=8065367021056036767&target=twitter' target='_blank' title='Kongsi ke Twitter'><span class='share-button-link-text'>Kongsi ke Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=8065367021056036767&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Kongsi ke Facebook'><span class='share-button-link-text'>Kongsi ke Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=8065367021056036767&target=pinterest' target='_blank' title='Kongsi ke Pinterest'><span class='share-button-link-text'>Kongsi ke Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://sasukokenji.blogspot.com/2015/11/20151111-exo-lightsaber-crying-over.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://sasukokenji.blogspot.com/search/label/bts' rel='tag'>bts</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/e-pop%20malay' rel='tag'>e-pop malay</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/e-pop%20malay%20isu%2068' rel='tag'>e-pop malay isu 68</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/e-pop%20malay%20may%202015' rel='tag'>e-pop malay may 2015</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/exo' rel='tag'>exo</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/exo%20-%20lightsaber%20mp3' rel='tag'>exo - lightsaber mp3</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/exo%20lightsaber%20download%20free' rel='tag'>exo lightsaber download free</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/log' rel='tag'>log</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/rap%20monster' rel='tag'>rap monster</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/review' rel='tag'>review</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Sabtu, 31 Oktober 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://1.bp.blogspot.com/-skFB-j8flJM/VjTr3TLquMI/AAAAAAAACwI/0CSxuyTrkVc/s1600/tumblr_nwqih6Lhhu1t8bmhqo1_500.png' itemprop='image_url'/>
+<meta content='3771746791018006787' itemprop='blogId'/>
+<meta content='1635098674595840247' itemprop='postId'/>
+<a name='1635098674595840247'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://sasukokenji.blogspot.com/2015/10/20151031-asdfghjkl.html'>20151031 : ASDFGHJKL!!</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-1635098674595840247' itemprop='description articleBody'>
+It's November in a few minutes!! (I'm writing this on 11:43 pm, 31 Oct 2015 just in case if I couldn't finish it before 1st November).<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-skFB-j8flJM/VjTr3TLquMI/AAAAAAAACwI/0CSxuyTrkVc/s1600/tumblr_nwqih6Lhhu1t8bmhqo1_500.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://1.bp.blogspot.com/-skFB-j8flJM/VjTr3TLquMI/AAAAAAAACwI/0CSxuyTrkVc/s1600/tumblr_nwqih6Lhhu1t8bmhqo1_500.png" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Credit to <a href="http://artofennun.tumblr.com/" target="_blank">Ennun</a>. I do not own this beautiful art~</td></tr>
+</tbody></table>
+<br />
+OH MY GOD. THIS IS THE BEST <strike>NIGHT </strike>DAY EVER!! 31 October.. yeah, it's kinda bad day for me cuz it's the day when Juejue and all of KRK 2012-2014 batch students last meet (he moved!). And that's the same day as our 2 KRK 2013 party. He's... kinda secretive, thou. Yeah.. hmm.. I don't wanna think about that day, it was sad &amp; happy mixed up together. And me (and him) who's now not at Salaping anymore, I thought that we're going to be far and more separated away. ANYWAY. Ignore this. Hahaha... I don't really like reminiscing, actually. But yeah, today (specifically TONIGHT) there's a lot of good thangs happened (well, not really a lot but still).<br />
+<br />
+Even though it's kinda weird, happy, excited, sad, etc., I still grateful. If I didn't online today, I won't be able to chat with him/them. OH MY GOD! asdfghjkllkjhgfdftgyuiolkjhgfxcvbhjnc<br />
+<br />
+Serious. Ughh... my head is aching (is that the right word?) rn. And I REALLY REALLY NEED SOME SLEEP. Oh, btw... I just finished KIM SEOKJIN in his Halloween suit (it's a pumpkin!) fan art (but I haven't lining it yet), and those 3 guys (NOEH, JUE &amp; ELD) sketching. It's an improvement that I drew more than one today (even though it's not 100% complete). I'm satisfied, I'm happy, and I wish I could wake up with a good mood in the next morning. Perhaps. Perhaps for that.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-FTKLfdNo1hI/VjTvzvCycDI/AAAAAAAACww/M3Wsne0nEK4/s1600/11988486_1134648299883764_7991346103900442925_n.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://2.bp.blogspot.com/-FTKLfdNo1hI/VjTvzvCycDI/AAAAAAAACww/M3Wsne0nEK4/s400/11988486_1134648299883764_7991346103900442925_n.jpg" width="282" /></a>&nbsp;<a href="http://3.bp.blogspot.com/-YdDv7-X1kbU/VjTybPcdBqI/AAAAAAAACxI/O17EhjREbFY/s1600/12191928_549919788505510_2475114543534678311_n.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://3.bp.blogspot.com/-YdDv7-X1kbU/VjTybPcdBqI/AAAAAAAACxI/O17EhjREbFY/s400/12191928_549919788505510_2475114543534678311_n.jpg" width="225" /></a></div>
+AND it's kinda sad that BTS delayed their comeback from OCTOBER to 30th November 2015 (at least they give us the exact date), iKON on 16 November 2015, and ooh I heard WINNER is delaying as well? WHY?? asdfghjkl but it's okay. I used to this and I know I can overcome these things. I need to study, by the way (next year is SPM). Good that Zico will have a comeback on 3rd Nov! Yeah, I'll wait! I really hope that I can download or hear all of their songs from their comeback albums!<br />
+<br />
+NOW, for fellow K-POP lovers... please kindly vote your fav artist at&nbsp;<span style="background-color: white; color: #3b5998; cursor: pointer; font-family: inherit; line-height: 19.32px; text-decoration: none;"><a href="http://mama.mwave.me/vote?siteCode=S21" rel="nofollow" style="background-color: white; color: #3b5998; cursor: pointer; line-height: 19.32px; text-decoration: none;" target="_blank">http://mama.mwave.me/vote?siteCode=S21</a></span><br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-wq_3c9yri8c/VjTupya85GI/AAAAAAAACwk/LfWYJmb_YIY/s1600/wow%2B1%2B%2528edit%2529.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="404" src="http://3.bp.blogspot.com/-wq_3c9yri8c/VjTupya85GI/AAAAAAAACwk/LfWYJmb_YIY/s640/wow%2B1%2B%2528edit%2529.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-7vX-5JnrTgc/VjTuqwc5dRI/AAAAAAAACwg/ircI7J83858/s1600/wow%2B%2528edit%2529.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="240" src="http://2.bp.blogspot.com/-7vX-5JnrTgc/VjTuqwc5dRI/AAAAAAAACwg/ircI7J83858/s640/wow%2B%2528edit%2529.jpg" width="640" /></a></div>
+<div style="background-color: white; color: #141823; line-height: 19.32px; margin-bottom: 6px;">
+<span style="font-family: inherit;">What the ... HOW CAN I EVER CHOOSE ONE?! THE TOP 3 GROUP, THO.!! WHAT THE WHAT THE WHAT THE...!!! Please let me curse and cuss for a moment. I haven't finished voting yet because of this! ahhhhhh!!!</span></div>
+<div style="background-color: white; color: #141823; line-height: 19.32px; margin-bottom: 6px;">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-_h_yHqxoemE/VjTum1zaOgI/AAAAAAAACwY/gq1iSewHy34/s1600/wow%2B2%2B%2528edit%2529.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="178" src="http://2.bp.blogspot.com/-_h_yHqxoemE/VjTum1zaOgI/AAAAAAAACwY/gq1iSewHy34/s640/wow%2B2%2B%2528edit%2529.jpg" width="640" /></a></div>
+<div style="background-color: white; color: #141823; line-height: 19.32px; margin-bottom: 6px;">
+<span style="font-family: inherit;"><br /></span></div>
+<div style="background-color: white; color: #141823; line-height: 19.32px; margin-bottom: 6px; margin-top: 6px;">
+<span style="font-family: inherit;">The best new male artist also so hard to choose because I honestly had heard and downloaded ALL OF THEIR DEBUT ALBUM/S &amp; SONGS and it's... uhh... why, god, why??? I'm not really a fan of SEVENTEEN &amp; MONSTA X but their songs are all good (iKON's songs are good too!) I like N.Flying's "AWESOME" and UP10TION's "SO, DANGEROUS" is good too but it kinda have SUJU's vibe. Idk. hahaha... This is hard, really. I don't know who should I choose...</span></div>
+<div style="background-color: white; color: #141823; line-height: 19.32px; margin-bottom: 6px; margin-top: 6px;">
+<span style="font-family: inherit;">MNet, y u do this to us???? *crying internally*</span></div>
+<div style="background-color: white; color: #141823; line-height: 19.32px; margin-bottom: 6px; margin-top: 6px;">
+<span style="font-family: inherit;"><span style="line-height: 19.32px;">One vote per day. I'm not going to vote everyday, tho. I can only vote until 23rd Nov cuz I'll fly to peninsular soon...</span><span style="line-height: 19.32px;">&nbsp;</span></span></div>
+<div style="background-color: white; color: #141823; line-height: 19.32px; margin-bottom: 6px; margin-top: 6px;">
+</div>
+<span style="font-family: inherit;"><i class="_4-k1 img sp_fM-mz8spZ1b sx_d55a98" style="background-image: url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yx/r/pimRBh7B6ER.png); background-position: 0px -119px; background-repeat: no-repeat; background-size: auto; display: inline-block; height: 16px; vertical-align: -3px; width: 16px;"><u style="left: -999999px; position: absolute;">Emotikon frown</u></i></span><span style="font-family: inherit;">&nbsp;(that means no internet).</span><br />
+<span style="font-family: inherit;"><br /></span>
+<br />
+Because I can't choose which one to choose, after a deep thoughts, I decided to vote iKON and BTS. It's okay if they not win any awards on MAMA, because there's probably another award ceremony (I hope so) and I know BTS is the best and they will win the award. They worked so hard this year and as an ARMY, I really appreciate that. A LOT! Thanks, BTS! I luv ya!<br />
+<br />
+But ohh yeah... I was kinda shocked because BTS isn't nominated for Best Dance Performance (I think it's the first time they hadn't!) bcuz the I Need U and DOPE danceu are pretty good! How can?? Ahh... I can't believe this! And it's weird that BIGBANG (the pic below speaks everything)...<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-HObVeHTMPlY/VjTxPFJbyCI/AAAAAAAACw8/KwiEvQT2NF8/s1600/12191188_1004153209606589_4996113109294395680_o.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="320" src="http://2.bp.blogspot.com/-HObVeHTMPlY/VjTxPFJbyCI/AAAAAAAACw8/KwiEvQT2NF8/s320/12191188_1004153209606589_4996113109294395680_o.jpg" width="223" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">This is not my pic! Source from <a href="https://www.facebook.com/theoneshots/photos/pcb.1004153412939902/1004153209606589/?type=3&amp;theater" target="_blank">here</a>.</td></tr>
+</tbody></table>
+Not that I hate BIGBANG. I'm a V.I.P!! But the dance are always kinda disappointed?? But still good. Hahaha... turn out that I'm one of them who voted BIGBANG for Best Dance Performance Male Group category. Huhuhu~~<br />
+<br />
+So, I think that's all for now. I'll keep update soon (perhaps) and maybe change the header or bg or even theme (but I love this Blogger theme). If I got some time, I'll update a review.<br />
+<br />
+G'nite!!<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-m0nDJA8GkJs/VjTz02zVocI/AAAAAAAACxU/nSy9W7tKFmE/s1600/NAMJOONIE%2B0.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="360" src="http://1.bp.blogspot.com/-m0nDJA8GkJs/VjTz02zVocI/AAAAAAAACxU/nSy9W7tKFmE/s640/NAMJOONIE%2B0.gif" width="640" /></a></div>
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/115034216154730448984' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/115034216154730448984' rel='author' title='author profile'>
+<span itemprop='name'>Sasuko Kenji</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://sasukokenji.blogspot.com/2015/10/20151031-asdfghjkl.html' itemprop='url'/>
+<a class='timestamp-link' href='http://sasukokenji.blogspot.com/2015/10/20151031-asdfghjkl.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-10-31T10:04:00-07:00'>10:04 PG</abbr></a>
+</span>
+<span class='reaction-buttons'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'><tr>
+<td class='reactions-label-cell' nowrap='nowrap' valign='top' width='1%'>
+<span class='reactions-label'>
+Reactions:</span>&#160;</td>
+<td><iframe allowtransparency='true' class='reactions-iframe' frameborder='0' name='reactions' scrolling='no' src='https://www.blogger.com/blog-post-reactions.g?options=%5Bcool,+bad,+good,+awesome,+nice,+you+got+yes+jams,+insfire!!%5D&amp;textColor=%23bbbbbb#http://sasukokenji.blogspot.com/2015/10/20151031-asdfghjkl.html'></iframe></td>
+</tr></table>
+</span>
+<span class='post-comment-link'>
+<span class='cmt_count_iframe_holder' data-count='0' data-onclick='' data-post-url='http://sasukokenji.blogspot.com/2015/10/20151031-asdfghjkl.html' data-url='http://sasukokenji.blogspot.com/2015/10/20151031-asdfghjkl.html'>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1860847983'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3771746791018006787&postID=1635098674595840247&from=pencil' title='Edit Catatan'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=1635098674595840247&target=email' target='_blank' title='E-melkan Ini'><span class='share-button-link-text'>E-melkan Ini</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=1635098674595840247&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=1635098674595840247&target=twitter' target='_blank' title='Kongsi ke Twitter'><span class='share-button-link-text'>Kongsi ke Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=1635098674595840247&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Kongsi ke Facebook'><span class='share-button-link-text'>Kongsi ke Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=3771746791018006787&postID=1635098674595840247&target=pinterest' target='_blank' title='Kongsi ke Pinterest'><span class='share-button-link-text'>Kongsi ke Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://sasukokenji.blogspot.com/2015/10/20151031-asdfghjkl.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://sasukokenji.blogspot.com/search/label/bigbang' rel='tag'>bigbang</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/bts' rel='tag'>bts</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/exo' rel='tag'>exo</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/exo-k' rel='tag'>exo-k</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/exo-l' rel='tag'>exo-l</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/fangirling' rel='tag'>fangirling</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/ignore%20me' rel='tag'>ignore me</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/ikon' rel='tag'>ikon</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/k-pop' rel='tag'>k-pop</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/kawan' rel='tag'>kawan</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/log' rel='tag'>log</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/mama2015' rel='tag'>mama2015</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/mnet%20asian%20music%20award%202015' rel='tag'>mnet asian music award 2015</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/monsta%20x' rel='tag'>monsta x</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/namjoon' rel='tag'>namjoon</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/personal' rel='tag'>personal</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/sasuko%20kenji' rel='tag'>sasuko kenji</a>,
+<a href='http://sasukokenji.blogspot.com/search/label/seventeen' rel='tag'>seventeen</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://sasukokenji.blogspot.com/search?updated-max=2015-10-31T10:04:00-07:00&amp;max-results=7' id='Blog1_blog-pager-older-link' title='Catatan Lama'>Catatan Lama</a>
+</span>
+<a class='home-link' href='http://sasukokenji.blogspot.com/'>Laman utama</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Langgan:
+<a class='feed-link' href='http://sasukokenji.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Catatan (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'ms'};</script>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget HTML' id='HTML7'>
+<div class='widget-content'>
+<marquee>Hi! I'm Sasuko~ I make edits, reviews, remix/mashups, ff and misheard lyrics. I'll post my weekly/monthly logs in this blog. [I'M A BTS TRASH, btw]</marquee>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=HTML&widgetId=HTML7&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' target='configHTML7' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='sidebar section' id='sidebar-right-2-1'><div class='widget Profile' id='Profile1'>
+<h2>'Bout Me~</h2>
+<div class='widget-content'>
+<a href='https://plus.google.com/115034216154730448984'><img alt='Foto Saya' class='profile-img' height='80' src='//lh3.googleusercontent.com/-bFjuzV3ZeFA/AAAAAAAAAAI/AAAAAAAADY4/ImkbdkDOrlE/s80-c/photo.jpg' width='80'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://plus.google.com/115034216154730448984' rel='author' style='background-image: url(//www.google.com/images/icons/ui/gprofile_button-16.png);'>
+Sasuko Kenji
+</a>
+<br/>
+<div class='g-follow' data-annotation='bubble' data-height='20' data-href='https://plus.google.com/115034216154730448984'></div>
+</dt>
+</dl>
+<a class='profile-link' href='https://plus.google.com/115034216154730448984' rel='author'>Lihat profil lengkap saya</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-right-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' id='HTML6'>
+<div class='widget-content'>
+<iframe src="https://dl.dropboxusercontent.com/u/6611984/kaoani/clock_2.html" width="88" height="31" scrolling="no" frameborder="no" allowtransparency="true" border="0" framespacing="0"></iframe>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=HTML&widgetId=HTML6&action=editWidget&sectionId=sidebar-right-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML6"));' target='configHTML6' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML8'>
+<div class='widget-content'>
+<a title="Back to Top" href="#" style="position: fixed; bottom: 5px; left: 5px;"><img src="http://2.bp.blogspot.com/-kc9duPerqcI/U6vKFhDHa9I/AAAAAAAACIo/6RXED7ZniTg/s1600/backtotop2.png" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=HTML&widgetId=HTML8&action=editWidget&sectionId=sidebar-right-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML8"));' target='configHTML8' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML10'>
+<div class='widget-content'>
+<script language="JavaScript">var fhs = document.createElement('script');var fhs_id = "5204117";
+var ref = (''+document.referrer+'');var pn =  window.location;var w_h = window.screen.width + " x " + window.screen.height;
+fhs.src = "http://freehostedscripts.net/ocounter.php?site="+fhs_id+"&e1=Online Visitor&e2=Online Visitors&r="+ref+"&wh="+w_h+"&a=1&pn="+pn+"";
+document.head.appendChild(fhs);document.write("<span id='o_"+fhs_id+"'></span>");
+</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=HTML&widgetId=HTML10&action=editWidget&sectionId=sidebar-right-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML10"));' target='configHTML10' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</td>
+<td class='columns-cell'>
+<div class='sidebar section' id='sidebar-right-2-2'><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Arkib Blog</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/search?updated-min=2016-01-01T00:00:00-08:00&amp;updated-max=2017-01-01T00:00:00-08:00&amp;max-results=5'>
+2016
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/2016_02_01_archive.html'>
+Februari
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://sasukokenji.blogspot.com/2016/02/20160218-exactly-what-my-instincts-said.html'>[20160218] Exactly what my instincts said to me......</a></li>
+<li><a href='http://sasukokenji.blogspot.com/2016/02/20160218-23rd-hopeful-hopes-day-2016.html'>[20160218] 23rd Hopeful Hope&#39;s day 2016</a></li>
+<li><a href='http://sasukokenji.blogspot.com/2016/02/20160202-just-some-stupid-confession.html'>[20160202] Just Some Stupid Confession.</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/2016_01_01_archive.html'>
+Januari
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/search?updated-min=2015-01-01T00:00:00-08:00&amp;updated-max=2016-01-01T00:00:00-08:00&amp;max-results=20'>
+2015
+</a>
+<span class='post-count' dir='ltr'>(20)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/2015_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/2015_10_01_archive.html'>
+Oktober
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/2015_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/2015_05_01_archive.html'>
+Mei
+</a>
+<span class='post-count' dir='ltr'>(12)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/search?updated-min=2014-01-01T00:00:00-08:00&amp;updated-max=2015-01-01T00:00:00-08:00&amp;max-results=2'>
+2014
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/2014_07_01_archive.html'>
+Julai
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/search?updated-min=2013-01-01T00:00:00-08:00&amp;updated-max=2014-01-01T00:00:00-08:00&amp;max-results=10'>
+2013
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/2013_08_01_archive.html'>
+Ogos
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/2013_07_01_archive.html'>
+Julai
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/2013_06_01_archive.html'>
+Jun
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://sasukokenji.blogspot.com/2013_05_01_archive.html'>
+Mei
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-2-2' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class='sidebar section' id='sidebar-right-3'><div class='widget HTML' id='HTML1'>
+<h2 class='title'>Soundcloud</h2>
+<div class='widget-content'>
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/189054167&amp;color=84c2c8&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=sidebar-right-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML2'>
+<h2 class='title'>Tweets~</h2>
+<div class='widget-content'>
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/SofeaSophillea" data-widget-id="594070985109676032">Tweets by @SofeaSophillea</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar-right-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML4'>
+<div class='widget-content'>
+<!--カーソル&#12539;スイッチコード/-->
+<div style="display:none; width: 160px; text-align: center; margin: 0 auto; font-size: 10px;"><script src="http://www.cursor-switch.com/widgets/12879/5996480816.js" type="text/javascript" charset="UTF-8"></script><a href="http://www.cursor-switch.com/" target="_blank">カーソル&#12539;スイッチ</a></div>
+<!--カーソル&#12539;スイッチコード/-->
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=sidebar-right-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML3'>
+<div class='widget-content'>
+<style type="text/css">body, a:hover {cursor: url(http://1.bp.blogspot.com/-njiSHo2aJfY/ViUMrxroYVI/AAAAAAAACug/q_ggL6KObNg/s1600/OwZx3ME.png), progress;}, progress;}style="position:absolute; top: 0px; right: 0px;</style>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar-right-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML9'>
+<div class='widget-content'>
+<div style="position: fixed; top: 5px; right: 90px;"><a class="linkopacity" href="http://www.blogger.com/follow-blog.g?blogID=ID BLOG ANDA" target="_blank" rel="nofollow" title="Follow !" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img src="http://3.bp.blogspot.com/-feYAFwQF-GM/TtOSBVXcMmI/AAAAAAAAHvk/GH1PZPVvU7c/follow.png" border="0" /></a><div style="display:scroll; position:fixed; top:5px; right:2px;"><a class="linkopacity" href="http://blogger.com/home" target="_blank" rel="nofollow" title="Dashboard !" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-N61PPu_1haE/TtOSBZgZikI/AAAAAAAAHvc/vIEC_dYpIVo/dashboard.png" /></a></div></div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=HTML&widgetId=HTML9&action=editWidget&sectionId=sidebar-right-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML9"));' target='configHTML9' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML5'>
+<div class='widget-content'>
+<script type="text/javascript" language="javascript" charset="euc-jp" src="http://www.hapinemu.net/fobp/bp092/bp092.js"></script><p><a href="http://www.hapinemu.net/blogparts/"></a></p>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=sidebar-right-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML5"));' target='configHTML5' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3' name='Footer'><div class='widget Attribution' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+[[ Sasuko Kenji ]]. Templat Travel. Dikuasakan oleh <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3771746791018006787&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2244687694-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '3771746791018006787';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d3771746791018006787','//sasukokenji.blogspot.com/','3771746791018006787');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '3771746791018006787', 'bloggerUrl': 'https://www.blogger.com', 'title': 'Truly, Madly, Deeply', 'pageType': 'index', 'url': 'http://sasukokenji.blogspot.com/', 'canonicalUrl': 'http://sasukokenji.blogspot.com/', 'homepageUrl': 'http://sasukokenji.blogspot.com/', 'canonicalHomepageUrl': 'http://sasukokenji.blogspot.com/', 'blogspotFaviconUrl': 'http://sasukokenji.blogspot.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'Truly, Madly, Deeply', 'encoding': 'UTF-8', 'locale': 'ms', 'localeUnderscoreDelimited': 'ms', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Truly, Madly, Deeply - Atom\42 href\75\42http://sasukokenji.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Truly, Madly, Deeply - RSS\42 href\75\42http://sasukokenji.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Truly, Madly, Deeply - Atom\42 href\75\42https://www.blogger.com/feeds/3771746791018006787/posts/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://sasukokenji.blogspot.com/\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42https://www.blogger.com/static/v1/jsbin/3978477444-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/581377545bf84644', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'messages', 'data': {'archive': 'Arkib', 'blogArchive': 'Arkib Blog', 'by': 'Oleh', 'byAuthor': 'Oleh %1', 'byAuthorLink': 'Oleh \74a href\75\42%2\42\76%1\74/a\076', 'deleteBacklink': 'Padam Pautan Balik?', 'deleteComment': 'Padam Ulasan', 'edit': 'Edit', 'emailAddress': 'Alamat E-mel', 'getEmailNotifications': 'Dapatkan pemberitahuan e-mel', 'keepReading': 'Teruskan membaca', 'labels': 'Label', 'loadMorePosts': 'Muatkan lagi catatan', 'loading': 'Memuatkan ...', 'myBlogList': 'Senarai Blog Saya', 'myFavoriteSites': 'Tapak kegemaran saya', 'newer': 'Terbaru', 'newerPosts': 'Catatan Terbaru', 'newest': 'Paling Baru', 'noResultsFound': 'Tiada hasil carian ditemui', 'noTitle': 'Tiada tajuk', 'numberOfComments': '{numComments,plural, \0750{Tiada ulasan}\0751{1 ulasan}other{# ulasan}}', 'older': 'Lebih lama', 'olderPosts': 'Catatan Lama', 'oldest': 'Paling lama', 'onlyTeamMembersCanComment': 'Nota: Hanya ahli blog ini sahaja yang boleh mencatat ulasan.', 'popularPosts': 'Catatan Popular', 'popularPostsFromThisBlog': 'Catatan popular daripada blog ini', 'postAComment': 'Catat Ulasan', 'postedBy': 'Dicatat oleh', 'postedByAuthor': 'Dicatatkan oleh %1', 'postedByAuthorLink': 'Dicatatkan oleh \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'Baca lagi', 'reportAbuse': 'Laporkan Salah Guna', 'search': 'Carian', 'searchBlog': 'Cari blog', 'share': 'Kongsi', 'showAll': 'Papar semua', 'someOfMyFavoriteSites': 'Beberapa tapak kegemaran saya', 'subscribe': 'Langgan', 'subscribeToThisBlog': 'Langgan blog ini', 'theresNothingHere': 'Tiada apa-apa di sini!', 'viewAll': 'Lihat semua', 'visitProfile': 'Lawati profil'}}, {'name': 'skin', 'data': {'vars': {'tabs_text_color': '#9fc5e8', 'widget_title_text_color_transparent': 'rgba(255, 255, 255, 0)', 'content_imageBorder_top_space': '0', 'widget_link_visited_color': '#b87209', 'comments_background_color': 'transparent', 'body_background_color_transparent': 'rgba(159, 197, 232, 0)', 'description_text_color_transparent': 'rgba(204, 204, 204, 0)', 'tabs_selected_text_color_transparent': 'rgba(255, 255, 255, 0)', 'tabs_background_color_transparent': 'rgba(0, 0, 0, 0)', 'widget_border_bevel_color_transparent': 'rgba(111, 168, 220, 0)', 'widget_alternate_text_color_transparent': 'rgba(255, 255, 255, 0)', 'keycolor_transparent': 'rgba(83, 93, 205, 0)', 'widget_title_font': 'normal normal 14px Syncopate', 'post_background_url': 'none', 'description_text_color': '#cccccc', 'post_title_font': 'normal bold 42px Gruppo', 'content_margin': '20px', 'body_text_color': '#bbbbbb', 'widget_text_color': '#bbbbbb', 'content_padding': '20px', 'body_text_color_transparent': 'rgba(187, 187, 187, 0)', 'tabs_background_color': 'rgba(0, 0, 0, 0)', 'content_background_color': 'rgba(0, 0, 0, 0)', 'tabs_selected_background_gradient': 'url(//www.blogblog.com/1kt/travel/bg_black_50.png)', 'comments_background': 'transparent url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center', 'widget_alternate_text_color': '#ffffff', 'link_visited_color': '#a5b809', 'header_text_color_transparent': 'rgba(255, 255, 255, 0)', 'content_background_color_transparent': 'rgba(0, 0, 0, 0)', 'date_text_color_transparent': 'rgba(187, 187, 187, 0)', 'widget_border_bevel_color': '#6fa8dc', 'mobile_button_color': '#ffffff', 'tabs_selected_text_color': '#ffffff', 'date_text_color': '#bbbbbb', 'post_background_color': 'rgba(0, 0, 0, 0)', 'post_title_text_color_transparent': 'rgba(255, 255, 255, 0)', 'link_color': '#e3ff00', 'tabs_text_color_transparent': 'rgba(159, 197, 232, 0)', 'content_imageBorder_top': 'none', 'link_hover_color_transparent': 'rgba(227, 255, 0, 0)', 'tabs_background_gradient': 'url(//www.blogblog.com/1kt/travel/bg_black_50.png)', 'header_font': 'normal bold 36px Dancing Script', 'startSide': 'left', 'link_visited_color_transparent': 'rgba(165, 184, 9, 0)', 'tabs_font': 'normal bold 14px Coming Soon', 'widget_title_text_color': '#ffffff', 'tabs_selected_background_color': '#9fc5e8', 'widget_text_color_transparent': 'rgba(187, 187, 187, 0)', 'post_title_text_color': '#ffffff', 'content_posts_padding': '10px', 'mobile_background_overlay': 'transparent none repeat scroll top left', 'endSide': 'right', 'widget_outer_background_color_transparent': 'rgba(0, 0, 0, 0)', 'body_background_color': '#9fc5e8', 'header_text_color': '#ffffff', 'content_background': 'transparent url(//www.blogblog.com/1kt/travel/bg_black_70.png) repeat scroll top left', 'widget_link_visited_color_transparent': 'rgba(184, 114, 9, 0)', 'widget_link_color': '#bbbbbb', 'mobile_button_color_transparent': 'rgba(255, 255, 255, 0)', 'body_font': 'normal normal 16px Coming Soon', 'footer_background_gradient': 'none', 'link_hover_color': '#e3ff00', 'widget_link_color_transparent': 'rgba(187, 187, 187, 0)', 'keycolor': '#535dcd', 'widget_outer_background_gradient': 'url(//www.blogblog.com/1kt/travel/bg_black_50.png)', 'post_background_color_transparent': 'rgba(0, 0, 0, 0)', 'link_color_transparent': 'rgba(227, 255, 0, 0)', 'widget_font': 'normal normal 16px Neucha', 'date_font': 'normal normal 14px Arvo', 'widget_outer_background_color': 'rgba(0, 0, 0, 0)', 'tabs_selected_background_color_transparent': 'rgba(159, 197, 232, 0)'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'crosscol', null, document.getElementById('PageList1'), {'title': 'Halaman', 'links': [{'href': 'http://sasukokenji.blogspot.com/', 'title': 'Laman utama', 'isCurrentPage': true}, {'href': 'https://www.youtube.com/channel/UCjQp_dw4c_EbRuK7P_V5jrA', 'title': 'Youtube Channel', 'isCurrentPage': false}, {'href': 'http://sasukokenji.tumblr.com', 'title': 'tumblr Blog', 'isCurrentPage': false}, {'href': 'http://sasukokenjisideblog.blogspot.com', 'title': 'My sideblog', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'viewType': 'FILTERED_POSTMOD', 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/493358876-lbx__ms.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/306752634-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'sidebar-right-1', null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar-right-2-1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'sidebar-right-2-1', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML8', 'sidebar-right-2-1', null, document.getElementById('HTML8'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML10', 'sidebar-right-2-1', null, document.getElementById('HTML10'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-2-2', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Memuatkan ...'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar-right-3', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar-right-3', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar-right-3', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar-right-3', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML9', 'sidebar-right-3', null, document.getElementById('HTML9'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar-right-3', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {'attribution': '[[ Sasuko Kenji ]]. Templat Travel. Dikuasakan oleh \74a href\75\47https://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+</script>
+</body>
+</html>

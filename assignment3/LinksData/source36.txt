@@ -1,0 +1,562 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"8356699cc5be4aa057b67c868f9d5b24",petok:"ab3f315998fc54bc11c18f3c133c435f21aa5e6d-1455849878-1800",zone:"ficbook.net",rocket:"0",apps:{"abetterbrowser":{"ie":"7"}},sha2test:0}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=fb690a32f5/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="https://teinon.net/ficbook/css/main-min.css?v=3.8.17"/>
+<script>
+        function static_path(path) {
+            return 'https://teinon.net/ficbook' + path;
+        }
+    </script>
+<link rel="shortcut icon" href="https://teinon.net/ficbook/design/favicon.ico">
+<meta name="Description" content="Самый масштабный ресурс в рунете, посвященный фанфикам всех жанров, рейтингов и размеров">
+<meta name="Keywords" content="Fanfiction, Фанфики, Опубликовать, Фэндомы,авторы,фанфикрайтеры">
+<meta name='yandex-verification' content='5825a1240f287b0f'/>
+ 
+<script type="text/javascript" src="https://yandex.st/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+            if (!window.jQuery) {
+                document.write('<script src="https://teinon.net/ficbook/javascript/jquery-1.7.1.min.js"><\/script>');
+            }
+        </script>
+<script type="text/javascript" src="https://yandex.st/jquery-ui/1.8.16/jquery-ui.min.js"></script>
+<script type="text/javascript">
+            if (!window.jQuery.ui) {
+                document.write('<script src="https://teinon.net/ficbook/javascript/jquery-ui.min.js"><\/script>');
+            }
+        </script>
+<script type="text/javascript" src="https://teinon.net/ficbook/javascript/not-logged-in-min.js?v=3.8.17"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=render_captcha&render=explicit" async defer></script>
+<title>Книга фанфиков — профиль автора Пернатая попа-жопа Каса</title>
+</head>
+<body>
+<table class="top_bar">
+<tr>
+<td width="35">&nbsp;</td>
+<td width="350">
+<nobr>
+<a id="logo_feather" class="logo_feather" href="/" title="На главную страницу">
+<img id="logo_feather_img" src="https://teinon.net/ficbook/design/logo1.png" alt="Книга Фанфиков" style="margin-top: 5px;"/>
+</a>
+<a href="/" title="На главную страницу">
+<img src="https://teinon.net/ficbook/design/logo2.png" alt="Книга Фанфиков" style="margin-top: 5px; margin-left: -10px;"/>
+</a>
+</nobr>
+</td>
+<td class="right_top_panel">
+<form action="/authors/641132" method="post">
+<table class="login_table" border="0" align="right">
+<tr>
+<td width="150">
+<input name="login" type="text" value="" style="width: 150px" placeholder="Имя пользователя">
+</td>
+<td width="150">
+<input name="password" type="password" value="" style="width: 150px" placeholder="Пароль">
+</td>
+<td width="80">
+<input type="submit" value="Войти" name="do_login">
+</td>
+</tr>
+<tr>
+<td>
+<input name="remember" type="checkbox" value="on" checked="checked"> запомнить
+</td>
+<td colspan="2">
+<a href="/register" class="white">Регистрация</a>
+</td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<table class="menu" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="35">&nbsp;</td>
+<td style="vertical-align: bottom; width: 700px;">
+<table style="width: auto;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="menu_inner" width="100">
+<table width="157" height="37" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="9">
+<div class="sprites_menu_left"></div>
+</td>
+<td background="https://teinon.net/ficbook/design/menu/menu_02.png" class="menu">
+<a href="/fanfiction">Фанфики</a>
+</td>
+<td width="8">
+<div class="sprites_menu_right"></div>
+</td>
+</tr>
+</table>
+</td>
+<td class="menu_inner" width="100">
+<table width="157" height="37" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="9">
+<div class="sprites_menu_left"></div>
+</td>
+<td background="https://teinon.net/ficbook/design/menu/menu_02.png" class="menu">
+<a href="/authors">Авторы</a>
+</td>
+<td width="8">
+<div class="sprites_menu_right"></div>
+</td>
+</tr>
+</table>
+</td>
+<td class="menu_inner" width="120">
+<table width="157" height="37" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="9">
+<div class="sprites_menu_left"></div>
+</td>
+<td background="https://teinon.net/ficbook/design/menu/menu_02.png" class="menu">
+<a href="/popular">Популярное</a>
+</td>
+<td width="8">
+<div class="sprites_menu_right"></div>
+</td>
+</tr>
+</table>
+</td>
+<td class="menu_inner" width="85">
+<table width="157" height="37" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="9">
+<div class="sprites_menu_left"></div>
+</td>
+<td background="https://teinon.net/ficbook/design/menu/menu_02.png" class="menu">
+<a href="/requests">Заявки</a>
+</td>
+<td width="8">
+<div class="sprites_menu_right"></div>
+</td>
+</tr>
+</table>
+</td>
+<td class="menu_inner" width="75">
+<table width="157" height="37" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="9">
+<div class="sprites_menu_left"></div>
+</td>
+<td background="https://teinon.net/ficbook/design/menu/menu_02.png" class="menu">
+<a href="/betas">Беты</a>
+</td>
+<td width="8">
+<div class="sprites_menu_right"></div>
+</td>
+</tr>
+</table>
+</td>
+<td class="menu_inner" width="100">
+<table width="177" height="37" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="9">
+<div class="sprites_menu_left"></div>
+</td>
+<td background="https://teinon.net/ficbook/design/menu/menu_02.png" class="menu">
+<nobr>
+<a href="http://ficbook.printdirect.ru/">Магазин</a>
+</nobr>
+</td>
+<td width="8">
+<div class="sprites_menu_right"></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td class="dop_nav">
+<a href="/home/addfic" class="white">Добавить свой фанфик</a><br/>
+<a href="/find" class="white">Найти фанфик по вкусу</a><br/>
+</td>
+<td class="admin_new">
+<div class="user_new_info">
+</div>
+</td>
+<td class="zakl"><img src="https://teinon.net/ficbook/design/zakladka.png"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+ 
+<table width="100%" height="1100" border="0" cellpadding="0" cellspacing="0" align="right">
+<tr>
+<td height="35" width="69">
+<div class="sprites_book_left_top"></div>
+</td>
+<td>
+<table width="862" height="37" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td background="https://teinon.net/ficbook/design/book/top/book_01.png" class="second_nav">
+/
+<a href="/">Книга фанфиков</a> /
+<a href="/authors">Авторы</a> /
+&nbsp;
+</td>
+<td width="516">
+<div class="sprites_book_right_top2"></div>
+</td>
+</tr>
+</table>
+</td>
+<td height="35" width="58">
+<div class="sprites_book_right_top"></div>
+</td>
+</tr>
+<tr>
+<td>
+<table width="69" style="height:100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="634">
+<div class="sprites_book_left"></div>
+</td>
+</tr>
+<tr>
+<td background="https://teinon.net/ficbook/design/book/left/book_02.png">
+&nbsp;
+</td>
+</tr>
+<tr>
+<td height="372">
+<div class="sprites_book_left2"></div>
+</td>
+</tr>
+</table>
+</td>
+<td class="main_cell">
+<h1>Пернатая попа-жопа Каса</h1>
+<table border="0">
+<tr>
+<td width="120">
+<img src="https://teinon.net/ficbook/uploads/avatars/avatar_Пернатая попа-жопа Каса_1437170097.jpg" alt="Пернатая попа-жопа Каса">
+</td>
+<td style="padding-left: 40">
+<b>О себе:</b><br/>
+<blockquote class="urlize">
+Меломан, сериальный и книжный задрот. <br/>
+Фэндомы: <br/>
+#Marvel #TheAvengers #Stony #Thorki<br/>
+#OneDirection #Larry #Zouis #Lilo #Ziam <br/>
+#Sherlock #Johnlock<br/>
+#Supernatural #Destiel #Sabriel <br/>
+#TeenWolf #Sterek<br/>
+#TheVampireDiaries #TheOriginals #Klefan<br/>
+#TheHungerGames #TheMazeRunner <br/>
+#HarryPotter #Drarry<br/>
+#Nirvana <br/>
+#MyChemicalRomance #Frerard <br/>
+#LinkinPark <br/>
+#BlackVeilBrides <br/>
+#GreenDay <br/>
+#Placebo <br/>
+#Kiss <br/>
+#Muse <br/>
+#Nikelback <br/>
+#ImagineDragons <br/>
+#FallOutBoy<br/>
+Слэш ван лав &lt;3
+</blockquote>
+<br/>
+<b>Контактная информация:</b><br/>
+<blockquote>
+Сайт или дневник: <span class="urlize">http://vk.com/id296236310</span><br/>
+<a href="/authors/641132/sendpm" style="margin-left: 0" class="message">Послать
+личное сообщение</a>
+</blockquote>
+<br/>
+<a name="presents"></a>
+<b>Подарки и награды:</b><br/>
+<blockquote>
+<div>Вы сможете сделать подарок, зарегистрировавшись и войдя на сайт</div><br/>
+<div class="present_thumb_small">
+<div class="present_thumb_picture_small">
+<img src="https://teinon.net/ficbook/design/presents/reward_comment_150.png" class="present_tooltip" title='
+                                 <div class="present_tooltip_title">
+                                                                            <b> «Отличный отзыв!»</b>
+                                                                        от
+                                                                            <a href="/authors/286246" target="blank">Aluminio</a>
+                                                                                                                                                                                                 за <a href="/readfic/3382002/8871444#com36394507">отзыв к работе «Louis&amp;#039; babysitter»</a>
+                                                                            
+                                                                      </div>
+                                 '/>
+</div>
+<div style="clear:both"></div>
+</div>
+<div style="clear:both"></div>
+<br/>
+</blockquote>
+<br/>
+<b>В избранном:</b><br/>
+<blockquote>
+<b>13</b>
+пользователей добавили
+<b>Пернатая попа-жопа Каса</b> в список избранных:
+<br/>
+<a href="/authors/665986">Fantombi</a>, <a href="/authors/845150">A.T.E.O.T.Y.</a>, <a href="/authors/1312059">cup.of.tea</a>, <a href="/authors/1350024">XENIA_GARN</a>, <a href="/authors/599029">-Slipknot</a>, <a href="/authors/1279146">Yana_12345</a>, <a href="/authors/663262">Panda_97</a>, <a href="/authors/1252572">Пчелка Каса бз-бз-бз</a>, <a href="/authors/400805">LaFee-Tomlinson</a>, <a href="/authors/1072603">Lady Targarien</a>, <a href="/authors/1020390">amyleee</a>, <a href="/authors/908173">LoveCrissColfer</a>, <a href="/authors/485515">Дарья Доктор</a>
+</blockquote>
+<br/>
+<a name="choose"></a>
+<hr/>
+<div class="adblock_warning" style="display: none">
+<p>Пожалуйста, отключите <span style="color: #660000; font-size: 20px">AdBlock</span></p>
+<p>Просматривая рекламу, вы помогаете нам развивать проект, оплачивать сервера и покупать корм для котов,<br/>
+а голодными они отказываются работать</p>
+<img src="/design/cat_laptop.png" alt=""/>
+<p><span style="color: #660000; font-size: 20px">Искренне благодарим за помощь!</span></p>
+</div>
+<div style="text-align: center">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ 
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6477076516270025" data-ad-slot="6252126795" data-ad-format="auto"></ins>
+<script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+</div>
+<hr/>
+<div class="center_switcher">
+Работы</a> (1) | <a href="?show=collections#choose"> Сборники</a>
+(2) | <a href="?show=comments#choose"> Оставленные
+отзывы</a>
+</div>
+<b>Фанфики:</b>
+<blockquote>
+<table class="fanfic_thumb">
+<tr>
+<td colspan="2">
+<a href="/readfic/3272455" class="title">From love to hate and back.</a>
+<sup>
+<span style="font-size: 1.2em; font-weight: bold;" title="Понравилось 54 читателям" class="mark_positive">+54</span>
+</sup>
+</td>
+</tr>
+<tr>
+<td width="40%" style="padding-bottom: 30px;">
+<small>
+<b>Автор:</b> <a href="/authors/641132">Пернатая попа-жопа Каса</a><br/>
+<b>Фэндом:</b>
+<a href="/fanfiction/rpf/ed_sheeran">Ed Sheeran</a>, <a href="/fanfiction/rpf/5_seconds_of_summer">5 seconds of summer (5SOS)</a>, <a href="/fanfiction/rpf/one_direction">One Direction</a> (кроссовер)
+<br/>
+<b>Пэйринг или персонажи:</b> Луи/Гарри, Луи/Найл(ничего серьезного, просто намеки), Лиам/Зейн, Найл/Эд (упоминаются)<br/>
+<b>Рейтинг:</b>
+<a href="/ratings/nc17" class="tip" title="<b>NC-17</b> — фанфики, в которых могут быть детально описаны эротические сцены, насилие либо какие-то другие тяжёлые моменты.">
+NC-17</a>
+<br/>
+<b>Жанры:</b>
+<a href="/genres/slash" class="tip" title="<b>Слэш (яой)</b> — романтические и/или сексуальные взаимоотношения между мужчинами.">
+Слэш (яой)</a>, <a href="/genres/angst" class="tip" title="<b>Ангст</b> — сильные переживания, физические, но чаще духовные страдания персонажа, в фанфике присутствуют депрессивные мотивы и какие-то драматические события.">
+Ангст</a>, <a href="/genres/humour" class="tip" title="<b>Юмор</b> — юмористический фанфик.">
+Юмор</a>, <a href="/genres/drama" class="tip" title="<b>Драма</b> — конфликтные отношения героев с обществом или друг с другом, напряженные и активные переживания различных внутренних или внешних коллизий. Возможно как благополучное, так и печальное разрешение конфликта.">
+Драма</a>, <a href="/genres/rutine" class="tip" title="<b>Повседневность</b> — описание обычных повседневных будней или бытовых ситуаций.">
+Повседневность</a>, <a href="/genres/pwp" class="tip" title="<b>PWP</b> — фанфик, сосредоточенный на сексе и не блещущий сюжетными изысками и развитием характеров персонажей.">
+PWP</a>, <a href="/genres/pov" class="tip" title="<b>POV</b> — повествование ведётся от первого лица.">
+POV</a>, <a href="/genres/au" class="tip" title="<b>AU</b> — рассказ, в котором герои из мира канона попадают в другой мир или другие обстоятельства, никак с каноном не связанные. Также это может быть другая развилка канонных событий.">
+AU</a>, <a href="/genres/songfic" class="tip" title="<b>Songfic</b> — фанфик, написанный под впечатлением какой-то песни, текст фанфика часто содержит её слова.">
+Songfic</a>, <a href="/genres/school" class="tip" title="<b>Учебные заведения</b> — значительная часть действия фанфика происходит в школе или вокруг школьных или студенческих будней.">
+Учебные заведения</a> <br/>
+<b>Предупреждения:</b>
+<a href="/ratings/" class="tip" title="<b>OOC</b> — Out Of Character, «Не в характере» - ситуация, когда персонаж фика ведет себя совсем не так, как можно было бы ожидать, исходя из его описания в каноне.">
+OOC</a>, <a href="/ratings/" class="tip" title="<b>Изнасилование</b> — сексуальное взаимодействие без полного и добровольного согласия одной из сторон.
+">
+Изнасилование</a>, <a href="/ratings/" class="tip" title="<b>Нецензурная лексика</b> — наличие в фанфике нецензурной лексики (мата).">
+Нецензурная лексика</a> <br/>
+<b>Размер:</b>
+<a href="/sizes/midi" class="tip" title="<b>Миди</b> — средний фанфик. Примерный размер: от 20 до 70 машинописных страниц. ">
+Миди</a>,
+37 страниц,
+8 частей
+<br/>
+<b>Статус:
+<span style="color: green">закончен</span>
+</b>
+</small>
+</td>
+<td style="padding-bottom: 30px;">
+<small>
+<b>Описание:</b><br/>
+От любви до ненависти и обратно.
+У Луи была прекрасная жизнь, пока в ней не появился Стайлс.
+Дважды.
+</small>
+</td>
+</tr>
+</table>
+</blockquote>
+</td>
+</tr>
+</table>
+<hr/>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<div style="text-align: center"></div>
+<div style="text-align: center" id="yandex_hor"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Direct.insertInto(136261, "yandex_hor", {
+                ad_format: "direct",
+                type: "posterHorizontal",
+                border_type: "block",
+                limit: 4,
+                title_font_size: 3,
+                border_radius: true,
+                links_underline: true,
+                site_bg_color: "F4E7DE",
+                border_color: "F4E7DE",
+                title_color: "660000",
+                url_color: "006600",
+                text_color: "000000",
+                hover_color: "FF0000",
+                favicon: true,
+                no_sitelinks: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.src = "//an.yandex.ru/system/context.js";
+        s.type = "text/javascript";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(window, document, "yandex_context_callbacks");
+</script>
+</td>
+<td>
+<table id="Table_01" width="58" height="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="533">
+<div class="sprites_book_right_top3"></div>
+</td>
+</tr>
+<tr>
+<td background="https://teinon.net/ficbook/design/book/right/book_02.png">
+&nbsp;
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<div class="sprites_book_left_bottom"></div>
+</td>
+<td>
+<table height="48" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="115">
+<div class="sprites_book_left_bottom2"></div>
+</td>
+<td background="https://teinon.net/ficbook/design/book/bottom/book_02.png">
+&nbsp;
+</td>
+<td width="722">
+<div class="sprites_book_right_bottom2"></div>
+</td>
+</tr>
+</table>
+</td>
+<td>
+<div class="sprites_book_right_bottom"></div>
+</td>
+</tr>
+</table>
+<td>
+</tr>
+<tr>
+<td class="footer">
+<table cellpadding="0" cellspacing="0">
+<tr>
+<td width="190" class="footer">
+<a href="/support" class="white">Служба поддержки</a><br/>
+<a href="/sitenews" class="white">Новости сайта</a><br/>
+<a href="/mission" class="white">Миссия сайта</a><br/>
+<a href="/disclamer" class="white">Дисклеймер</a><br/>
+<a href="/rules" class="white">Правила</a><br/>
+ 
+</td>
+<td width="190" class="footer">
+<a href="//mobile.ficbook.net" class="white">Мобильная версия</a><br/>
+<a href="/android" class="white">Приложение для Android</a><br/>
+<a href="http://vk.com/ficbooknet" class="white">Группа ВКонтакте</a><br/>
+<a href="http://twitter.com/ficbooknet" class="white">Twitter</a><br/>
+<a href="/faq" class="white">Вопросы и ответы (FAQ)</a><br/>
+</td>
+<td align="right" class="footer">
+<div class="ya-site-form ya-site-form_inited_no" onclick="return {'action':'https://yandex.ru/sitesearch','arrow':false,'bg':'transparent','fontsize':12,'fg':'#000000','language':'ru','logo':'rb','publicname':'Поиск по Книга Фанфиков','suggest':true,'target':'_self','tld':'ru','type':3,'usebigdictionary':true,'searchid':2218746,'webopt':false,'websearch':false,'input_fg':'#000000','input_bg':'#ffffff','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск по сайту','input_placeholderColor':'#666666','input_borderColor':'#000000'}">
+<form action="https://yandex.ru/sitesearch" method="get" target="_self"><input type="hidden" name="searchid" value="2218746"/><input type="hidden" name="l10n" value="ru"/><input type="hidden" name="reqenc" value="utf-8"/><input type="search" name="text" value=""/><input type="submit" value="Найти"/></form>
+</div>
+<style type="text/css">.ya-page_js_yes .ya-site-form_inited_no{display:none;}</style>
+<script type="text/javascript">(function (w, d, c) {
+                                    var s = d.createElement('script'), h = d.getElementsByTagName('script')[0], e = d.documentElement;
+                                    if ((' ' + e.className + ' ').indexOf(' ya-page_js_yes ') === -1) {
+                                        e.className += ' ya-page_js_yes';
+                                    }
+                                    s.type = 'text/javascript';
+                                    s.async = true;
+                                    s.charset = 'utf-8';
+                                    s.src = (d.location.protocol === 'https:' ? 'https:' : 'http:') + '//site.yandex.net/v2.0/js/all.js';
+                                    h.parentNode.insertBefore(s, h);
+                                    (w[c] || (w[c] = [])).push(function () {
+                                        Ya.Site.Form.init()
+                                    })
+                                })(window, document, 'yandex_site_callbacks');</script>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href="#" id="toTop"><img src="https://teinon.net/ficbook/design/to_top.png" border="0" align="absmiddle"/></a>
+ 
+<script src="//mc.yandex.ru/resource/watch.js" type="text/javascript"></script>
+<script type="text/javascript">
+        try {
+            var yaParams = {
+                user_is_authorized: false            };
+            var yaCounter199955 = new Ya.Metrika(199955, yaParams);
+        }
+        catch (e) {
+        }
+    </script>
+<noscript>
+<div style="position: absolute;"><img src="//mc.yandex.ru/watch/199955" alt=""/></div>
+</noscript>
+ 
+</body>
+</html>

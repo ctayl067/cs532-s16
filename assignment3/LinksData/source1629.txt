@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+<title>:: GOT7 ::</title>
+<meta name="keywords" content="GOT7,jyp,jypidol,하지하지마" />
+<link href="/css/styles.css" rel="stylesheet" type="text/css">
+<link href="/css/styles-index.css" rel="stylesheet" type="text/css"><!---->
+<link href="/css/sns.css" rel="stylesheet" type="text/css">
+<link href="/css/navigataur.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" charset="utf-8" src="/js/jquery-1.9.1.min.js"></script>
+<!---->
+<script type="text/javascript">
+$(document).ready(function() {
+$('#wrapper').fadeIn(1000);
+});
+</script>
+
+
+
+
+
+<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="/js/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="/js/jquery.fancybox-media.js?v=1.0.6"></script>
+<link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+<script type="text/javascript">
+
+/*
+*  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+*/
+$('.fancybox-media')
+.attr('rel', 'media-gallery')
+.fancybox({
+openEffect : 'none',
+closeEffect : 'none',
+prevEffect : 'none',
+nextEffect : 'none',
+
+arrows : false,
+helpers : {
+media : {},
+buttons : {}
+}
+});
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-46828308-14']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+			ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+</script>
+
+
+</head>
+
+
+
+<body>
+<div id="wrapper">
+<div class="container clearfix"> 
+<div class="main">
+<div id="bg">
+
+<div id="bgptn">
+
+
+<div class="header clearfix">
+<h1><a href="index.html">GOT7</a></h1>
+<div class="nav">
+<input type="checkbox" id="toggle" />
+<label for="toggle" class="toggle" onclick></label>
+<ul class="menu">
+<li><a href="profile.asp">PROFILE</a></li>
+<li><a href="discography.asp">DISCOGRAPHY</a></li>	
+<li><a href="gallery.asp">GALLERY</a></li>
+<li><a href="video.asp">VIDEO</a></li>		
+<li><a href="notice.asp">NOTICE</a></li>	
+<li><a href="schedule.asp">SCHEDULE</a></li>	
+<li><a href="gotoon.asp">GOTOON</a></li>	
+</ul>
+</div><!-- End of Navigation -->
+</div><!-- End of Header -->
+
+
+
+<div id="mainlogo">
+<h1>GOT7</h1>
+
+</div><!---->
+</div><!--bgptn-->
+
+
+
+
+
+
+</div><!--bg-->
+
+
+
+
+<footer>
+<div class="jyplogo">
+<a href="http://www.jype.com/" target="_blank">JYP Entertainment</a>
+</div>
+<div class="snsicon">
+<a href="https://twitter.com/GOT7Official" target="_blank" class="sb no-border twitter">@GOT7Official</a>
+<a href="https://www.facebook.com/GOT7Official" target="_blank" class="sb no-border facebook">GOT7 Official Facebook</a>
+<a href="http://www.youtube.com/jypentertainment" target="_blank" class="sb no-border youtube">JYPnation Youtube</a>
+<a href="http://fans.jype.com/got7" target="_blank" class="sb no-border fans">GOT7 Fan's</a>
+</div>
+<div class="clear"></div>
+</footer> 
+
+
+
+
+</div><!-- main-->
+</div> <!--container-->
+</div><!--wrapper-->
+
+
+
+</body>
+</html>

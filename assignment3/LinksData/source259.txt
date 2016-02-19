@@ -1,0 +1,950 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="ie" lang="en-US"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Aimie | Learning | Informing | Connecting</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="http://aimie.linc-ed.com/wp-content/themes/leef/style.css" />
+<link rel="pingback" href="http://aimie.linc-ed.com/xmlrpc.php" />
+	<link rel="icon" type="image/png" href="http://aimie.linc-ed.com/wp-content/uploads/2014/04/favicon.png">
+
+<link rel="alternate" type="application/rss+xml" title="Aimie &raquo; Feed" href="http://aimie.linc-ed.com/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Aimie &raquo; Comments Feed" href="http://aimie.linc-ed.com/?feed=comments-rss2" />
+<link rel='stylesheet' id='shortcodes-style-css'  href='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/css/shortcodes.css?ver=3.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-style-css'  href='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/css/fancybox.css?ver=3.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='default-fonts-css'  href='http://fonts.googleapis.com/css?family=Ubuntu%3A400%2C500%2C300italic%2C400italic%2C500italic%7CRaleway%3A600&#038;ver=3.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='mpcth-flexslider-css-css'  href='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/plugins/flexslider/flexslider.css?ver=3.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://aimie.linc-ed.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelementjs-styles-css'  href='http://aimie.linc-ed.com/wp-content/plugins/media-element-html5-video-and-audio-player/mediaelement/mediaelementplayer.css?ver=3.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelementjs-skins-css'  href='http://aimie.linc-ed.com/wp-content/plugins/media-element-html5-video-and-audio-player/mediaelement/mejs-skins.css?ver=3.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='mejskin-css'  href='http://aimie.linc-ed.com/wp-content/plugins/mediaelementjs-skin/skin/mediaelementplayer.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/js/html5.js?ver=3.9.11'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/js/spin.min.js?ver=1'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/plugins/media-element-html5-video-and-audio-player/mediaelement/mediaelement-and-player.min.js?ver=2.1.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://aimie.linc-ed.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://aimie.linc-ed.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.9.11" />
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){if(a2a.type=='page'){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();}},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}wpa2a.done=true;}wpa2a.targets=[];}};a2a_config.tracking_callback=['ready',wpa2a.script_onready];
+//--></script>
+
+<!--[if lte IE 10]>
+	<link rel="stylesheet" href="http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/css/ie.css"/>
+<![endif]-->
+
+<!--[if lt IE 9]>
+	<script src="http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/js/html5.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/css/ie8.css"/>
+<![endif]-->
+
+
+
+
+
+<style type="text/css">
+
+/* ---------------------------------------------------------------- */
+/*	FONTS
+/* ---------------------------------------------------------------- */
+
+	/* Menu Font */
+	#mpcth_page_wrap #mpcth_nav #mpcth_menu {
+			}
+
+	/* Heading Font */
+	#mpcth_page_wrap h1, #mpcth_page_wrap h2, #mpcth_page_wrap h3, #mpcth_page_wrap h4, #mpcth_page_wrap h5, #mpcth_page_wrap h6 {
+			}
+
+	/* Content Font */
+	#mpcth_page_wrap {
+			}
+
+	/* Small Font */
+	#mpcth_page_wrap small {
+			}
+
+	/* Content */
+	#mpcth_page_wrap .wpb_accordion_header,
+	#mpcth_page_wrap .wpb_toggle,
+	#mpcth_page_wrap {
+		font-size: 16px;
+	}
+
+	/* Menu */
+	#mpcth_header_middle_wrap #searchform #s,
+	#mpcth_page_wrap #mpcth_nav #mpcth_menu .menu-item a {
+		font-size: 18px;
+	}
+
+	/* Category Filter */
+	#mpcth_page_wrap .mpcth-filterable-categories a {
+		font-size: 16px;
+	}
+
+	/* Read More */
+	#mpcth_page_wrap .mpcth-portfolio-read-more,
+	#mpcth_page_wrap .mpcth-blog-read-more {
+		font-size: 16px;
+	}
+
+	/* Form Text */
+	#mpcth_page_wrap #mpcth_contact_form input,
+	#mpcth_page_wrap #comments #respond #commentform input,
+	#mpcth_page_wrap #mpcth_contact_form textarea,
+	#mpcth_page_wrap #comments #respond #commentform .comment-form-comment textarea {
+		font-size: 16px;
+	}
+
+	/* Form Button */
+	#mpcth_page_wrap #mpcth_contact_form #submit,
+	#mpcth_page_wrap #commentform #submit {
+			}
+
+	/* Footer */
+	#mpcth_page_wrap #mpcth_footer #mpcth_footer_content,
+	#mpcth_page_wrap #mpcth_footer #mpcth_bottom_footer {
+		font-size: 16px;
+	}
+
+	/* Footer Heading */
+	#mpcth_page_wrap #mpcth_footer #mpcth_footer_content ul > li .widget_title {
+		font-size: 24px;
+	}
+
+	/* Sidebar */
+	#mpcth_page_wrap #mpcth_sidebar ul > li {
+		font-size: 16px;
+	}
+
+	/* Sidebar Heading  */
+	#mpcth_page_wrap #mpcth_sidebar li .widget_title {
+		font-size: 24px;
+	}
+
+	/* Small Font Size */
+	#mpcth_page_wrap #mpcth_contact_form .form-allowed-tags,
+	#mpcth_page_wrap #commentform .form-allowed-tags,
+	/*#mpcth_page_wrap #mpcth_contact_form label.error,*/
+	/*#mpcth_page_wrap #commentform label.error,*/
+	#mpcth_page_wrap #comments header.vcard,
+	#mpcth_page_wrap small,
+	#mpcth_page_wrap meta {
+		font-size: 16px;
+	}
+
+	/* Headings */
+	#mpcth_page_wrap h1 {
+		font-size: 48px;
+	}
+
+	#mpcth_page_wrap h2 {
+		font-size: 42px;
+	}
+
+	#mpcth_page_wrap h3 {
+		font-size: 36px;
+	}
+
+	#mpcth_page_wrap h4 {
+		font-size: 30px;
+	}
+
+	#mpcth_page_wrap h5 {
+		font-size: 24px;
+	}
+
+	#mpcth_page_wrap h6 {
+		font-size: 18px;
+	}
+
+/* ---------------------------------------------------------------- */
+/*	COLORS
+/* ---------------------------------------------------------------- */
+
+	/* Global */
+	#mpcth_page_wrap h1, #mpcth_page_wrap h2, #mpcth_page_wrap h3, #mpcth_page_wrap h4, #mpcth_page_wrap h5, #mpcth_page_wrap h6,
+	#mpcth_page_wrap h1 a, #mpcth_page_wrap h2 a, #mpcth_page_wrap h3 a, #mpcth_page_wrap h4 a, #mpcth_page_wrap h5 a, #mpcth_page_wrap h6 a {
+		color: #5A5A5A;
+	}
+	#mpcth_page_wrap {
+		color: #515151;
+	}
+	#mpcth_page_wrap a {
+		color: #45BB77;
+	}
+	#mpcth_page_wrap a:hover {
+		color: #515151;
+	}
+
+	#mpcth_page_wrap a.mpcth-alt-link {
+		color: #515151;
+	}
+	#mpcth_page_wrap a.mpcth-alt-link:hover {
+		color: #45BB77;
+	}
+
+	#mpcth_page_wrap #mpcth_sidebar a,
+	#mpcth_page_wrap #mpcth_footer_content a {
+		color: #DFFFEC;
+	}
+	#mpcth_page_wrap #mpcth_sidebar a:hover,
+	#mpcth_page_wrap #mpcth_footer_content a:hover {
+		color: #45BB77;
+	}
+
+	#mpcth_page_wrap h1 a:hover, #mpcth_page_wrap h2 a:hover, #mpcth_page_wrap h3 a:hover, #mpcth_page_wrap h4 a:hover, #mpcth_page_wrap h5 a:hover, #mpcth_page_wrap h6 a:hover {
+		color: #45BB77;
+	}
+
+	/* Backgrounds */
+	#mpcth_page_header_wrap {
+		background: #fdfdf3;
+	}
+	#mpcth_page_container {
+		background-image: url('http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/images/pattern11');		background-color: #FFFFFF;
+	}
+	body {
+		background: #5e87b0;
+	}
+	#mpcth_footer {
+		background: #222222;
+	}
+	/*#mpcth_page_container,*/
+	#mpcth_sidebar_bottom_fill,
+	#mpcth_sidebar {
+		background: #222222;
+	}
+	#mpcth_page_articles {
+		background: #FFFFFF;
+	}
+	#mpcth_header_float,
+	#mpcth_menu {
+		background: #fdfdf3;
+	}
+	#mpcth_menu > ul {
+		background: #fdfdf3;
+	}
+	#mpcth_page_articles .post {
+		background: #fdfdf3;
+	}
+	#mpcth_top_widget_area {
+			}
+
+	/* Main Menu */
+	#mpcth_header_middle_wrap #searchform #s,
+	#mpcth_nav #mpcth_menu .menu-item a {
+		color: #5e87b0;
+	}
+	#mpcth_nav #mpcth_menu .menu-item .sub-menu {
+		background: #f3f3e9;
+	}
+	#mpcth_nav #mpcth_menu .menu-item .sub-menu .sub-menu {
+		background: #e9e9df;
+	}
+	#mpcth_nav #mpcth_menu .menu-item .sub-menu .sub-menu .sub-menu {
+		background: #dfdfd5;
+	}
+	#mpcth_nav #mpcth_menu .menu-item .sub-menu .sub-menu .sub-menu .sub-menu {
+		background: #d5d5cb;
+	}
+	#mpcth_nav #mpcth_menu .menu-item .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu {
+		background: #cbcbc1;
+	}
+	#mpcth_nav #mpcth_menu .menu-item.current-menu-item > a,
+	#mpcth_nav #mpcth_menu .menu-item.current-menu-ancestor > a {
+		color: #5e87b0;
+	}
+	#mpcth_nav #mpcth_menu .menu-item.current-menu-item > a:before,
+	#mpcth_nav #mpcth_menu .menu-item.current-menu-ancestor > a:before {
+		background: #5e87b0;
+	}
+	#mpcth_nav #mpcth_menu .menu-item .sub-menu .current-menu-item > a {
+		color: #5e87b0;
+	}
+	#mpcth_nav #mpcth_menu .menu-item .sub-menu .current-menu-item > a:before {
+		background: #5e87b0;
+	}
+	#mpcth_nav #mpcth_menu .menu-item a:hover {
+		color: #5e87b0;
+	}
+	#mpcth_nav #mpcth_menu .menu-item a:hover:before {
+		background: #5e87b0;
+	}
+	#mpcth_nav #mpcth_menu .menu-item:hover > a,
+	#mpcth_nav #mpcth_menu .menu-item .sub-menu li:hover > a,
+	#mpcth_nav #mpcth_menu .menu-item .sub-menu a:hover {
+		color: #5e87b0;
+	}
+	#mpcth_nav #mpcth_menu .menu-item:hover > a:before,
+	#mpcth_nav #mpcth_menu .menu-item .sub-menu li:hover > a:before,
+	#mpcth_nav #mpcth_menu .menu-item .sub-menu a:hover:before {
+		background: #5e87b0;
+	}
+
+	/* Header Search */
+	#mpcth_header_middle_wrap #searchform {
+		background: #f3f3e9;
+	}
+
+	/* Comment Form */
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-url input,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-email input,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-author input,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-comment textarea {
+		color: #515151;
+		background: #F5F5F5;
+	}
+
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-url input:hover,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-email input:hover,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-author input:hover,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-comment textarea:hover,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-url input:focus,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-email input:focus,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-author input:focus,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-comment textarea:focus {
+		color: #FFFFFF;
+		background: #5e87b0;
+	}
+
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-url input.error,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-email input.error,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-author input.error,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .comment-form-comment textarea.error {
+		color: #FFFFFF;
+		background: #E25F6B;
+	}
+
+	#mpcth_page_wrap #mpcth_page_articles #comments .commentlist article.comment header.comment-meta .comment-post-author {
+		color: #5e87b0;
+	}
+
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform label.error {
+		color: #E25F6B;
+	}
+
+	#mpcth_page_wrap #mpcth_page_articles #comments #comments_wrap {
+		background: #F5F5F5;
+	}
+
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond {
+		background: #FFFFFF;
+	}
+
+	#mpcth_page_wrap #mpcth_page_articles #mpcth_archive_20_posts,
+	#mpcth_page_wrap #mpcth_page_articles #mpcth_archive_category {
+		background: #F5F5F5;
+	}
+
+	/* Contact Form */
+	#mpcth_contact_form .mpcth-cf-form-author input,
+	#mpcth_contact_form .mpcth-cf-form-email input,
+	#mpcth_contact_form .mpcth-cf-form-message textarea {
+		color: #515151;
+		background: #F5F5F5;
+	}
+
+	#mpcth_contact_form .mpcth-cf-form-author input:hover,
+	#mpcth_contact_form .mpcth-cf-form-email input:hover,
+	#mpcth_contact_form .mpcth-cf-form-message textarea:hover,
+	#mpcth_contact_form .mpcth-cf-form-author input:focus,
+	#mpcth_contact_form .mpcth-cf-form-email input:focus,
+	#mpcth_contact_form .mpcth-cf-form-message textarea:focus {
+		color: #FFFFFF;
+		background: #45BB77;
+	}
+
+	#mpcth_contact_form .mpcth-cf-form-author input.error,
+	#mpcth_contact_form .mpcth-cf-form-email input.error,
+	#mpcth_contact_form .mpcth-cf-form-message textarea.error {
+		color: #FFFFFF;
+		background: #E25F6B;
+	}
+
+	#mpcth_contact_form label.error {
+		color: #E25F6B;
+	}
+
+	#mpcth_contact_form .mpcth-cf-success {
+		color: #45BB77;
+	}
+
+	/* Logo */
+	#mpcth_page_wrap #mpcth_logo {
+		margin-top: 20px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+	#mpcth_page_wrap #mpcth_logo h1 {
+		color: #5e87b0;
+		background: #fdfdf3;
+	}
+	#mpcth_page_wrap #mpcth_logo small {
+		color: #5e87b0;
+		background: #fdfdf3;
+	}
+
+	/* Submit Button */
+	#mpcth_page_wrap #mpcth_contact_form #submit,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .form-submit #submit {
+		color: #515151;
+	}
+	#mpcth_page_wrap #mpcth_contact_form #mpcth_submit_wrap:before,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .form-submit #mpcth_submit_wrap:before {
+		background: #515151;
+	}
+
+	#mpcth_page_wrap #mpcth_contact_form #submit:hover,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .form-submit #submit:hover {
+		color: #45BB77;
+	}
+	#mpcth_page_wrap #mpcth_contact_form #mpcth_submit_wrap:hover:before,
+	#mpcth_page_wrap #mpcth_page_articles #comments #respond #commentform .form-submit #mpcth_submit_wrap:hover:before {
+		background: #45BB77;
+	}
+
+	/* Blog & Portfolio */
+	#mpcth_page_wrap article.post small,
+	#mpcth_page_wrap #comments header.vcard {
+		color: #515151;
+	}
+	#mpcth_page_wrap article.portfolio .mpcth-post-meta-wrap {
+		background: #F5F5F5;
+	}
+
+	#mpcth_page_wrap article.post small a {
+		color: #515151;
+	}
+	#mpcth_page_wrap article.post small a:hover {
+		color: #45BB77;
+	}
+
+	#mpcth_page_wrap #comments header.vcard a {
+		color: #515151;
+	}
+	#mpcth_page_wrap #comments header.vcard a:hover {
+		color: #45BB77;
+	}
+
+	#mpcth_page_wrap article.post .mpcth-portfolio-read-more,
+	#mpcth_page_wrap article.post .mpcth-blog-read-more {
+		color: #515151;
+	}
+	#mpcth_page_wrap article.post .mpcth-portfolio-read-more:before,
+	#mpcth_page_wrap article.post .mpcth-blog-read-more:before {
+		background: #515151;
+	}
+
+	#mpcth_page_wrap article.post .mpcth-portfolio-read-more:hover,
+	#mpcth_page_wrap article.post .mpcth-blog-read-more:hover {
+		color: #45BB77;
+	}
+	#mpcth_page_wrap article.post .mpcth-portfolio-read-more:hover:before,
+	#mpcth_page_wrap article.post .mpcth-blog-read-more:hover:before {
+		background: #45BB77;
+	}
+
+	#mpcth_page_wrap article.post .mpcth-post-content-heading,
+	#mpcth_page_wrap article.page .mpcth-post-thumbnail header,
+	#mpcth_page_wrap article.post .mpcth-post-thumbnail header {
+		border-color: #FFFFFF;
+	}
+	#mpcth_page_wrap article.post .mpcth-post-content-heading,
+	#mpcth_page_wrap article.page .mpcth-post-title,
+	#mpcth_page_wrap article.post .mpcth-post-title {
+		background: #000000;
+		background: rgba(0, 0, 0, 0.35 );
+	}
+	#mpcth_page_wrap article.post .mpcth-post-content-heading a,
+	#mpcth_page_wrap article.post .mpcth-post-content-heading span,
+	#mpcth_page_wrap article.page .mpcth-post-title,
+	#mpcth_page_wrap article.post .mpcth-post-title a {
+		color: #FFFFFF;
+	}
+
+	#mpcth_page_wrap #mpcth_bottom_footer * {
+		color: #FFFFFF;
+	}
+	#mpcth_page_wrap #mpcth_bottom_footer {
+		background: #5e87b0;
+	}
+
+	#mpcth_page_articles #comments .commentlist article.comment section.comment-content {
+		color: #FFFFFF;
+		background: #5e87b0;
+	}
+	#mpcth_page_articles #comments .commentlist article.comment section.comment-content:after {
+		border-top-color: #5e87b0;
+		border-right-color: #5e87b0;
+	}
+	#mpcth_page_articles #comments .commentlist .depth-2 > article.comment section.comment-content:after,
+	#mpcth_page_articles #comments .commentlist .depth-4 > article.comment section.comment-content:after,
+	#mpcth_page_articles #comments .commentlist .depth-6 > article.comment section.comment-content:after,
+	#mpcth_page_articles #comments .commentlist .depth-8 > article.comment section.comment-content:after,
+	#mpcth_page_articles #comments .commentlist .depth-10 > article.comment section.comment-content:after {
+		border-left-color: #5e87b0;
+	}
+
+	#mpcth_page_wrap .mpcth-pagination,
+	#mpcth_page_wrap #mpcth-lm {
+		background: #45BB77;
+	}
+	#mpcth_page_wrap .mpcth-pagination .page-numbers,
+	#mpcth_page_wrap .mpcth-lm-button {
+		color: #FFFFFF;
+	}
+	#mpcth_page_wrap .mpcth-pagination .page-numbers:before,
+	#mpcth_page_wrap .mpcth-lm-button:before {
+		background: #FFFFFF;
+	}
+
+	#mpcth_page_wrap .mpcth-pagination .page-numbers.current,
+	#mpcth_page_wrap .mpcth-pagination .page-numbers:hover,
+	#mpcth_page_wrap .mpcth-lm-button:hover {
+		color: #20844A;
+	}
+	#mpcth_page_wrap .mpcth-pagination .page-numbers.current:before,
+	#mpcth_page_wrap .mpcth-pagination .page-numbers:hover:before,
+	#mpcth_page_wrap .mpcth-lm-button:hover:before {
+		background: #20844A;
+	}
+
+	#mpcth_page_wrap article.post a.mpcth-fancybox {
+		color: #FFFFFF;
+	}
+	#mpcth_page_wrap article.post a.mpcth-fancybox:hover {
+		color: #45BB77;
+	}
+
+	#mpcth_page_content .mpcth-filterable-categories ul,
+	#mpcth_page_content .mpcth-filterable-categories ul li {
+		background-color: #3BB16D;
+	}
+	#mpcth_page_content .mpcth-filterable-categories ul li a {
+		color: #DFFFEC;
+	}
+	#mpcth_page_content .mpcth-filterable-categories ul li.active,
+	#mpcth_page_content .mpcth-filterable-categories ul li:hover {
+		background-color: #3BB16D;
+	}
+	#mpcth_page_content .mpcth-filterable-categories ul li.active a,
+	#mpcth_page_content .mpcth-filterable-categories ul li:hover a {
+		color: #20844A;
+	}
+	#mpcth_page_content .mpcth-filterable-categories ul li.active a:before,
+	#mpcth_page_content .mpcth-filterable-categories ul li:hover a:before {
+		background-color: #20844A;
+	}
+
+	/* Other */
+	#mpcth_page_wrap hr {
+		background-color: #C0C0C0;
+	}
+
+	#mpcth_page_wrap #mpcth_sidebar ul > li .widget_title {
+		color: #FFFFFF;
+	}
+
+	#mpcth_page_wrap #mpcth_sidebar ul > li {
+		color: #FFFFFF;
+	}
+
+	#mpcth_page_wrap #mpcth_footer #mpcth_footer_content .widget_title {
+		color: #FFFFFF;
+	}
+
+	#mpcth_page_wrap #mpcth_footer #mpcth_footer_content {
+		color: #FFFFFF;
+	}
+
+	#mpcth_page_wrap #mpcth_footer #mpcth_footer_content .mpcth-twitter-widget .mpcth-twitter-wrap .tweet .e-entry-content > p a {
+		color: #45BB77;
+	}
+	#mpcth_page_wrap #mpcth_footer #mpcth_footer_content .mpcth-twitter-widget .mpcth-twitter-wrap .tweet .e-entry-content > p a:hover {
+		color: #DFFFEC;
+	}
+
+	#mpcth_page_wrap .mpcth-social-bg {
+			}
+
+	#mpcth_page_wrap #mpcth_archive_header_info,
+	#mpcth_page_wrap #mpcth_search_header_info {
+		background: #f3f3e9;
+	}
+	#mpcth_page_wrap #mpcth_archive_header_info h3,
+	#mpcth_page_wrap #mpcth_archive_header_info h5,
+	#mpcth_page_wrap #mpcth_search_header_info h3,
+	#mpcth_page_wrap #mpcth_search_header_info h5 {
+		color: #5e87b0;
+	}
+
+	#mpcth_page_wrap .page .mpcth-post-thumbnail {
+		background: #fdfdf3;
+	}
+
+	@media (max-width: 767px) {
+		#mpcth_page_wrap h3.mpcth-post-content-heading,
+		#mpcth_page_wrap h3.mpcth-post-title {
+			font-size: 18px;
+		}
+	}
+	@media (max-width: 480px) {
+		#mpcth_page_wrap article.post a.mpcth-fancybox {
+		color: #515151;
+		}
+		#mpcth_page_wrap article.post a.mpcth-fancybox:hover {
+			color: #45BB77;
+		}
+	}
+
+</style>
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+
+</head>
+<body class="home blog wpb-js-composer js-comp-ver-3.7.4 vc_responsive">
+	<div id="mpcth_page_wrap" class="mpcth-sidebar-right mpcth-layout-fluid mpcth-reponsive">
+		<header id="mpcth_page_header_wrap">
+			<div id="mpcth_page_header_content">
+				<div id="mpcth_header_middle_wrap"><div id="mpcth_logo_wrap"><a id="mpcth_logo" href="http://aimie.linc-ed.com"><img src="http://aimie.linc-ed.com/wp-content/uploads/2014/04/linc-ed.png" alt="Logo"><h1>Aimie</h1><small>Learning | Informing | Connecting</small></a><div class="mpcth-clear-fix"></div></div><nav id="mpcth_nav" class="mpcth-visible-desktop"><ul id="mpcth_menu" class="menu"><div class="menu"><ul><li class="page_item page-item-2"><a href="http://aimie.linc-ed.com/?page_id=2">About Me</a></li></ul></div>
+<li class="menu-item mpcth-menu-side-item"><a href="#" class="mpcth-menu-search-toggler mpcth-menu-special-item"><span class="mpcth-sc-icon-search"></span></a></li><li class="menu-item mpcth-menu-side-item"><a href="#" class="mpcth-menu-sidebar-toggler mpcth-menu-special-item"><span class="mpcth-sc-icon-doc-text-inv"></span></a></li></ul></nav><!-- end #mpcth_nav --><div class="mpcth-clear-fix"></div>
+<form method="get" id="searchform" action="http://aimie.linc-ed.com/">
+	<input type="text" class="field mpcth-search" name="s" id="s" value="Search..." onfocus="if(this.value=='Search...')this.value='';" onblur="if(this.value=='')this.value='Search...';"/>
+	<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+</form>
+<div id="mpcth_header_float"><nav id="mpcth_nav" class="mpcth-visible-desktop"><ul id="mpcth_menu" class="menu"><div class="menu"><ul><li class="page_item page-item-2"><a href="http://aimie.linc-ed.com/?page_id=2">About Me</a></li></ul></div>
+<li class="menu-item mpcth-menu-side-item"><a href="#" class="mpcth-menu-search-toggler mpcth-menu-special-item"><span class="mpcth-sc-icon-search"></span></a></li><li class="menu-item mpcth-menu-side-item"><a href="#" class="mpcth-menu-sidebar-toggler mpcth-menu-special-item"><span class="mpcth-sc-icon-doc-text-inv"></span></a></li></ul></nav><!-- end #mpcth_nav --><div class="mpcth-clear-fix"></div>
+<form method="get" id="searchform" action="http://aimie.linc-ed.com/">
+	<input type="text" class="field mpcth-search" name="s" id="s" value="Search..." onfocus="if(this.value=='Search...')this.value='';" onblur="if(this.value=='')this.value='Search...';"/>
+	<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+</form>
+</div></div> <!-- end menu -->
+			</div> <!-- end #mpcth_page_header_content -->
+		</header><!-- end #mpcth_page_header_wrap -->	<div id="mpcth_page_container" class="mpcth-sidebar-right">
+
+		<!-- Display menu on the side and logo (if set in settings ) -->
+		
+<!-- Menu on the side of a page -->
+<!-- End Menu on the side -->
+
+		<div id="mpcth_page_content">
+			
+			<div id="mpcth_page_articles" class="mpcth-standard mpcth-post-columns-1">
+									
+						<article id="post-478" class="post-478 post type-post status-publish format-standard has-post-thumbnail hentry category-mylearning tag-cenz15 tag-christchurch-connected-educators tag-connecting tag-core blog-post" >
+																											<div class="mpcth-post-thumbnail" style="background-color: #5e87b0;">
+											<img width="1096" height="228" src="http://aimie.linc-ed.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-23-at-4.19.06-pm.png" class="attachment-post-thumbnail wp-post-image" alt="Screen Shot 2015-10-23 at 4.19.06 pm" />																																									<header>
+												<h3 class="mpcth-post-title"><a href="http://aimie.linc-ed.com/?p=478" title="Innovation and Entrepreneurship">
+													Innovation and Entrepreneurship												</a></h3>
+											</header>
+																				</div>
+										<div class="mpcth-post-content">
+																				<small>
+		<a class="mpcth-alt-link" href="http://aimie.linc-ed.com/?m=201510">October 23, 2015</a>
+	</small>
+																			<div class="mpcth-post-excerpt">
+											<p>Last night I attended an event organised by Christchurch Connected Educators on &#8216;Innovation and Entrepreneurship&#8217;.  The event was held at Core Education&#8217;s shiny new office space, a showcase of a true Modern Learning Environment. Two inspiring speakers, Derek Wenmoth (Director of e-Learning at Core) and Lauren Merritt (Director at The Ministry of Awesome) talked about education, innovation and entrepreneurship and what skills our learners will need for their future.Derek Wenmoth If you haven&#8217;t had the opportunity to hear Derek Wenmoth speak then you must. Derek is a thought leader in education and we are lucky to have him right here in Christchurch! Derek reminded us that our education system, based on the industrial model, is no longer equipping our young people with the skills they need to enter the workforce. He challenged us to think about what we must do to prepare our learners for a rapidly changing world. What changes as schools and teachers do we need to make? [&hellip;]</p>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list a2a_target" id="wpa2a_1"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D478&amp;linkname=Innovation%20and%20Entrepreneurship" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D478&amp;linkname=Innovation%20and%20Entrepreneurship" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D478&amp;linkname=Innovation%20and%20Entrepreneurship" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D478&amp;linkname=Innovation%20and%20Entrepreneurship" title="LinkedIn" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"></a>
+<script type="text/javascript"><!--
+wpa2a.script_load();
+//--></script>
+</div></div>										</div>
+																			<div class="mpcth-read-more-wrap"><a class="mpcth-blog-read-more" href="http://aimie.linc-ed.com/?p=478">Read More</a></div>
+																</div>
+						</article>
+					
+						<article id="post-468" class="post-468 post type-post status-publish format-standard has-post-thumbnail hentry category-my-pd-workshops tag-cenz15 tag-chched tag-gafe blog-post" >
+																											<div class="mpcth-post-thumbnail" style="background-color: #5e87b0;">
+											<img width="1010" height="369" src="http://aimie.linc-ed.com/wp-content/uploads/2015/10/Screen-Shot-2015-09-30-at-9.58.43-pm.png" class="attachment-post-thumbnail wp-post-image" alt="Screen Shot 2015-09-30 at 9.58.43 pm" />																																									<header>
+												<h3 class="mpcth-post-title"><a href="http://aimie.linc-ed.com/?p=468" title="The Google Challenge">
+													The Google Challenge												</a></h3>
+											</header>
+																				</div>
+										<div class="mpcth-post-content">
+																				<small>
+		<a class="mpcth-alt-link" href="http://aimie.linc-ed.com/?m=201510">October 7, 2015</a>
+	</small>
+																			<div class="mpcth-post-excerpt">
+											<p>Over the couple of months our IT Vision Group at St Margaret&#8217;s College has gathered student voice on learning with digital technologies. As a Digital Learning Facilitator, it was interesting for me to learn that many students would like more hands on support in learning how to use digital tools in their learning.  We often assume that our students are  “digital natives” and pick it all up quickly. Our learners have indicated in their feedback that this isn’t always the case. As we enter Term 4 and think about our planning for 2016 this feedback got me thinking about how we can provide more support for our new girls coming into school, particularly at Year 9. Being both BYOD and a Google Apps for Education school (GAFE) it is important for our learners to be able to utilise these tools effectively, as a result I decided to create the SMC Google Challenge.  Paul Sibson at Fendalton School has implemented a digital badging [&hellip;]</p>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list a2a_target" id="wpa2a_2"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D468&amp;linkname=The%20Google%20Challenge" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D468&amp;linkname=The%20Google%20Challenge" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D468&amp;linkname=The%20Google%20Challenge" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D468&amp;linkname=The%20Google%20Challenge" title="LinkedIn" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"></a></div></div>										</div>
+																			<div class="mpcth-read-more-wrap"><a class="mpcth-blog-read-more" href="http://aimie.linc-ed.com/?p=468">Read More</a></div>
+																</div>
+						</article>
+					
+						<article id="post-453" class="post-453 post type-post status-publish format-standard has-post-thumbnail hentry category-innovators category-inspiration category-mylearning category-mysharing tag-christchurch-connected-educators tag-makered-event blog-post" >
+																											<div class="mpcth-post-thumbnail" style="background-color: #5e87b0;">
+											<img width="839" height="233" src="http://aimie.linc-ed.com/wp-content/uploads/2015/09/Screen-Shot-2015-09-09-at-2.31.58-pm.png" class="attachment-post-thumbnail wp-post-image" alt="Screen Shot 2015-09-09 at 2.31.58 pm" />																																									<header>
+												<h3 class="mpcth-post-title"><a href="http://aimie.linc-ed.com/?p=453" title="MakerEd Event">
+													MakerEd Event												</a></h3>
+											</header>
+																				</div>
+										<div class="mpcth-post-content">
+																				<small>
+		<a class="mpcth-alt-link" href="http://aimie.linc-ed.com/?m=201509">September 9, 2015</a>
+	</small>
+																			<div class="mpcth-post-excerpt">
+											<p>The Maker Movement is a growing trend in education right now and is an area of particular interest to me.  See my blog post &#8211; Teaching Kids To Code &#8211; An Essential Literacy.  The notion of ‘learning by doing’ and ensuring our learners are becoming creators, rather than simply consumers of technology is a key motivator in embracing the Maker Culture in schools. In order to prepare our learners for the changing world that they will enter, as educators, we need to provide them with opportunities to be; creative, collaborative, problem solvers and risk takers.  Our learners need the opportunity to harness new technologies and to take part in real world projects both within and beyond the school environment. To support Christchurch teachers in this field, a community of educators of which I am fortunate to be a member - Christchurch Connected Educators organised a successful MakerEd Event.  The event was held on the 29th July, 2015 at the stunning new [&hellip;]</p>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list a2a_target" id="wpa2a_3"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D453&amp;linkname=MakerEd%20Event" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D453&amp;linkname=MakerEd%20Event" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D453&amp;linkname=MakerEd%20Event" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D453&amp;linkname=MakerEd%20Event" title="LinkedIn" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"></a></div></div>										</div>
+																			<div class="mpcth-read-more-wrap"><a class="mpcth-blog-read-more" href="http://aimie.linc-ed.com/?p=453">Read More</a></div>
+																</div>
+						</article>
+					
+						<article id="post-448" class="post-448 post type-post status-publish format-standard has-post-thumbnail hentry category-mysharing tag-canva tag-design tag-english tag-student-voice tag-wattpad blog-post" >
+																											<div class="mpcth-post-thumbnail" style="background-color: #5e87b0;">
+											<img width="882" height="332" src="http://aimie.linc-ed.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-13-at-2.19.40-pm.png" class="attachment-post-thumbnail wp-post-image" alt="Screen Shot 2015-08-13 at 2.19.40 pm" />																																									<header>
+												<h3 class="mpcth-post-title"><a href="http://aimie.linc-ed.com/?p=448" title="TechStars Recommend&#8230;">
+													TechStars Recommend&#8230;												</a></h3>
+											</header>
+																				</div>
+										<div class="mpcth-post-content">
+																				<small>
+		<a class="mpcth-alt-link" href="http://aimie.linc-ed.com/?m=201508">August 13, 2015</a>
+	</small>
+																			<div class="mpcth-post-excerpt">
+											<p>TechStars This year, at St Margaret&#8217;s, I have established a group of TechStars.  These are Year 9 students that love tech and have really hooked into the idea of making &#8220;IT geek IT chic&#8221;.  They are in the process of creating a blog to share &#8220;cool IT apps/sites and tips&#8221;.  The girls are also supporting me with various projects and have recently been creating IT help videos, which will be released shortly. I am really enjoying working with this fabulous group of girls and it is very much a shared learning experience. Recently the girls shared two digital tools that they love using &#8211; here they are: Wattpad is a massive hit!  A must read for the English teachers&#8230; Wattpad blurb from Crunchbase: Wattpad is the world&#8217;s largest community of readers and writers. It&#8217;s the free and fun way to read on the web and across all mobile devices. Everyday millions of people use Wattpad to read unique new fiction or share [&hellip;]</p>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list a2a_target" id="wpa2a_4"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D448&amp;linkname=TechStars%20Recommend%E2%80%A6" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D448&amp;linkname=TechStars%20Recommend%E2%80%A6" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D448&amp;linkname=TechStars%20Recommend%E2%80%A6" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D448&amp;linkname=TechStars%20Recommend%E2%80%A6" title="LinkedIn" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"></a></div></div>										</div>
+																			<div class="mpcth-read-more-wrap"><a class="mpcth-blog-read-more" href="http://aimie.linc-ed.com/?p=448">Read More</a></div>
+																</div>
+						</article>
+					
+						<article id="post-412" class="post-412 post type-post status-publish format-standard has-post-thumbnail hentry category-mysharing tag-3d-printing tag-innovation tag-product-design tag-technology blog-post" >
+																											<div class="mpcth-post-thumbnail" style="background-color: #5e87b0;">
+											<img width="3246" height="1054" src="http://aimie.linc-ed.com/wp-content/uploads/2015/05/IMG_4355.jpg" class="attachment-post-thumbnail wp-post-image" alt="IMG_4355" />																																									<header>
+												<h3 class="mpcth-post-title"><a href="http://aimie.linc-ed.com/?p=412" title="Year 9 Product Design &#8211; a new course with new technology">
+													Year 9 Product Design &#8211; a new course with new technology												</a></h3>
+											</header>
+																				</div>
+										<div class="mpcth-post-content">
+																				<small>
+		<a class="mpcth-alt-link" href="http://aimie.linc-ed.com/?m=201505">May 13, 2015</a>
+	</small>
+																			<div class="mpcth-post-excerpt">
+											<p>This year I created our first Product Design Course as one of our Year 9 Technology rotations and the first module is just coming to an end so this is a good opportunity to reflect. This is a very exciting course with 3D printers as a new addition to St Margaret&#8217;s College. Whilst I followed the Technology Curriculum I was  incredibly lucky to have been given an open brief, enabling me to taking the learning in the direction that would follow the girls&#8217; passions. I surveyed a group of Year 8 students at the end of last year to help inform my planning and, not surprisingly, discovered that the girls would love to create jewellery. I toyed with the idea of having the girls create their own brief and design any type of jewellery that appealed to them or, with this all being very new, to provide them with a brief and therefore an outcome. I opted to go with [&hellip;]</p>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list a2a_target" id="wpa2a_5"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D412&amp;linkname=Year%209%20Product%20Design%20%E2%80%93%20a%20new%20course%20with%20new%20technology" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D412&amp;linkname=Year%209%20Product%20Design%20%E2%80%93%20a%20new%20course%20with%20new%20technology" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D412&amp;linkname=Year%209%20Product%20Design%20%E2%80%93%20a%20new%20course%20with%20new%20technology" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D412&amp;linkname=Year%209%20Product%20Design%20%E2%80%93%20a%20new%20course%20with%20new%20technology" title="LinkedIn" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"></a></div></div>										</div>
+																			<div class="mpcth-read-more-wrap"><a class="mpcth-blog-read-more" href="http://aimie.linc-ed.com/?p=412">Read More</a></div>
+																</div>
+						</article>
+					
+						<article id="post-397" class="post-397 post type-post status-publish format-standard has-post-thumbnail hentry category-mylearning category-mysharing tag-3d-printing tag-collaboration tag-fablabxchc tag-innovation tag-urban-living-wall blog-post" >
+																											<div class="mpcth-post-thumbnail" style="background-color: #5e87b0;">
+											<img width="3260" height="1297" src="http://aimie.linc-ed.com/wp-content/uploads/2015/05/Urban-Wall-Image.jpg" class="attachment-post-thumbnail wp-post-image" alt="Urban Wall Image" />																																									<header>
+												<h3 class="mpcth-post-title"><a href="http://aimie.linc-ed.com/?p=397" title="Urban Living Wall Launch">
+													Urban Living Wall Launch												</a></h3>
+											</header>
+																				</div>
+										<div class="mpcth-post-content">
+																				<small>
+		<a class="mpcth-alt-link" href="http://aimie.linc-ed.com/?m=201505">May 12, 2015</a>
+	</small>
+																			<div class="mpcth-post-excerpt">
+											<p>New technology brings new opportunities and with the addition of 3D printers to St Margaret&#8217;s College, we were extremely lucky to participate in a collaborative project between the Department of Conservation, the Christchurch City Council, the CHCH FAB LAB, and AUT to create an Urban Living Wall for our city.  It is exciting to see collaborative, innovative projects such as this one bringing not only great environmental benefits to our city as it rebuilds but also peace, beauty and tranquility. &nbsp; It was extra special having one of our old girls, Elizabeth Guthery, co ordinating this project.  Elizabeth visited St Margaret&#8217;s early last term, bringing with her the conceptual design of the wall, a roll of white PLA filament and 3D print details.  We learned that the origins of the designs for the planter panels came from Dr Steve Reay&#8217;s (Senior Lecturer in the Industrial Design and Innovation Department at AUT University, Auckland) inspiration and would resemble a rock wall scape.  Our role, along with [&hellip;]</p>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list a2a_target" id="wpa2a_6"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D397&amp;linkname=Urban%20Living%20Wall%20Launch" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D397&amp;linkname=Urban%20Living%20Wall%20Launch" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D397&amp;linkname=Urban%20Living%20Wall%20Launch" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D397&amp;linkname=Urban%20Living%20Wall%20Launch" title="LinkedIn" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"></a></div></div>										</div>
+																			<div class="mpcth-read-more-wrap"><a class="mpcth-blog-read-more" href="http://aimie.linc-ed.com/?p=397">Read More</a></div>
+																</div>
+						</article>
+					
+						<article id="post-393" class="post-393 post type-post status-publish format-standard has-post-thumbnail hentry category-inspiration tag-code-club-aotearoa tag-fablabxchc tag-mash-up tag-primary blog-post" >
+																											<div class="mpcth-post-thumbnail" style="background-color: #5e87b0;">
+											<img width="3264" height="1354" src="http://aimie.linc-ed.com/wp-content/uploads/2015/05/Mash-Up-Pic.jpg" class="attachment-post-thumbnail wp-post-image" alt="Mash Up Pic" />																																									<header>
+												<h3 class="mpcth-post-title"><a href="http://aimie.linc-ed.com/?p=393" title="An amazing Mash Up">
+													An amazing Mash Up												</a></h3>
+											</header>
+																				</div>
+										<div class="mpcth-post-content">
+																				<small>
+		<a class="mpcth-alt-link" href="http://aimie.linc-ed.com/?m=201505">May 12, 2015</a>
+	</small>
+																			<div class="mpcth-post-excerpt">
+											<p>In my role as a Digital Learning Facilitator at St Margaret&#8217;s College, I had the great pleasure of taking Year 6 to a &#8220;Mash Up&#8221; competition held at Selwyn House at the end of last term.  I am still not entirely sure how to define a &#8220;Mash Up&#8221; yet but in a nutshell it is an opportunity for children to work collaboratively thinking of real world problems and ways in which they could be solved using technology. Code Club Aotearoa organised the event, bringing in a team of IT industry experts for the afternoon to work with 250 students from schools across Christchurch.  It was fast, furious and fantastic! The afternoon started with an intro from organisers Michael and Tim and an outline of what was to come &#8211; &#8220;an action packed event mixing creativity, technology, design, teamwork and quick thinking without a moments rest!&#8221;  The clock started and the groups (with their IT mentor) began the &#8220;ideation&#8221; stage of [&hellip;]</p>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list a2a_target" id="wpa2a_7"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D393&amp;linkname=An%20amazing%20Mash%20Up" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D393&amp;linkname=An%20amazing%20Mash%20Up" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D393&amp;linkname=An%20amazing%20Mash%20Up" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D393&amp;linkname=An%20amazing%20Mash%20Up" title="LinkedIn" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"></a></div></div>										</div>
+																			<div class="mpcth-read-more-wrap"><a class="mpcth-blog-read-more" href="http://aimie.linc-ed.com/?p=393">Read More</a></div>
+																</div>
+						</article>
+					
+						<article id="post-366" class="post-366 post type-post status-publish format-standard has-post-thumbnail hentry category-digitalresources category-innovators category-inspiration category-mylearning tag-coding tag-computational-thinking tag-programming tag-reflection tag-tktc blog-post" >
+																											<div class="mpcth-post-thumbnail" style="background-color: #5e87b0;">
+											<img width="3264" height="1270" src="http://aimie.linc-ed.com/wp-content/uploads/2015/03/Featured-image.jpg" class="attachment-post-thumbnail wp-post-image" alt="Featured image" />																																									<header>
+												<h3 class="mpcth-post-title"><a href="http://aimie.linc-ed.com/?p=366" title="Teaching Kids to Code &#8211; An Essential Literacy">
+													Teaching Kids to Code &#8211; An Essential Literacy												</a></h3>
+											</header>
+																				</div>
+										<div class="mpcth-post-content">
+																				<small>
+		<a class="mpcth-alt-link" href="http://aimie.linc-ed.com/?m=201503">March 24, 2015</a>
+	</small>
+																			<div class="mpcth-post-excerpt">
+											<p>Future Schools &#8211; Teaching Kids to Code Conference Reflection The key messages from the Teaching Kids to Code conference: Get our kids creating technology rather than simply using technology.  Let them get under the bonnet. Get kids coding from a young age. Provide opportunities for our children to learn by doing or making. I was privileged to attend the Future Schools &#8211; Teaching Kids to Code Conference recently in Sydney which was inspiring, challenging and affirming. My first takeaway came from Dr Gary Stager who challenges us to teach kids to be creators of technology not simply consumers or users of it.  This is not a new concept, in fact I was chatting to a colleague who shared her experience of using Logo programming to teach mathematical concepts in the 70s . The work of Logo creators Seymour Papert and Cynthia Solomon had a profound impact on the education landscape well before the turn of the century and even today [&hellip;]</p>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list a2a_target" id="wpa2a_8"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D366&amp;linkname=Teaching%20Kids%20to%20Code%20%E2%80%93%20An%20Essential%20Literacy" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D366&amp;linkname=Teaching%20Kids%20to%20Code%20%E2%80%93%20An%20Essential%20Literacy" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D366&amp;linkname=Teaching%20Kids%20to%20Code%20%E2%80%93%20An%20Essential%20Literacy" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D366&amp;linkname=Teaching%20Kids%20to%20Code%20%E2%80%93%20An%20Essential%20Literacy" title="LinkedIn" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"></a></div></div>										</div>
+																			<div class="mpcth-read-more-wrap"><a class="mpcth-blog-read-more" href="http://aimie.linc-ed.com/?p=366">Read More</a></div>
+																</div>
+						</article>
+					
+						<article id="post-340" class="post-340 post type-post status-publish format-standard has-post-thumbnail hentry category-digitalresources category-lessonsworthsharing category-mysharing category-uncategorized blog-post" >
+																											<div class="mpcth-post-thumbnail" style="background-color: #5e87b0;">
+											<img width="1039" height="324" src="http://aimie.linc-ed.com/wp-content/uploads/2015/02/Screen-Shot-2015-02-28-at-6.36.16-pm.png" class="attachment-post-thumbnail wp-post-image" alt="Screen Shot 2015-02-28 at 6.36.16 pm" />																																									<header>
+												<h3 class="mpcth-post-title"><a href="http://aimie.linc-ed.com/?p=340" title="Getting started with Blogger by flipping the learning">
+													Getting started with Blogger by flipping the learning												</a></h3>
+											</header>
+																				</div>
+										<div class="mpcth-post-content">
+																				<small>
+		<a class="mpcth-alt-link" href="http://aimie.linc-ed.com/?m=201502">February 28, 2015</a>
+	</small>
+																			<div class="mpcth-post-excerpt">
+											<p>More and more teachers are seeing how they can incorporate blogs into their teaching and learning programmes and we have more teachers and students utilising blogger than ever before at school. This year I have set up individual blogs with my Year 9 Product Design class so that the girls can share, celebrate and reflect on their learning. In this course the girls will design and produce (3D print) a unique piece of jewellery that means something, or tells a story about them. The blog will chart their progress following a design process and provide a space the students to evaluate their own progress. A blog is a really great tool for many purposes and some include: Developing writing, providing students with an authentic audience. To share and celebrate learning. For students to reflect on their learning, evaluating progress towards the completion of a task.  I had the pleasure of working with our Year 7 girls last week in setting [&hellip;]</p>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list a2a_target" id="wpa2a_9"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D340&amp;linkname=Getting%20started%20with%20Blogger%20by%20flipping%20the%20learning" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D340&amp;linkname=Getting%20started%20with%20Blogger%20by%20flipping%20the%20learning" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D340&amp;linkname=Getting%20started%20with%20Blogger%20by%20flipping%20the%20learning" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D340&amp;linkname=Getting%20started%20with%20Blogger%20by%20flipping%20the%20learning" title="LinkedIn" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"></a></div></div>										</div>
+																			<div class="mpcth-read-more-wrap"><a class="mpcth-blog-read-more" href="http://aimie.linc-ed.com/?p=340">Read More</a></div>
+																</div>
+						</article>
+					
+						<article id="post-329" class="post-329 post type-post status-publish format-standard has-post-thumbnail hentry category-mylearning tag-3d-printing tag-e-textiles tag-fabriko blog-post" >
+																											<div class="mpcth-post-thumbnail" style="background-color: #5e87b0;">
+											<img width="237" height="61" src="http://aimie.linc-ed.com/wp-content/uploads/2014/12/Screen-Shot-2014-12-17-at-9.32.23-pm.png" class="attachment-post-thumbnail wp-post-image" alt="Screen Shot 2014-12-17 at 9.32.23 pm" />																																									<header>
+												<h3 class="mpcth-post-title"><a href="http://aimie.linc-ed.com/?p=329" title="Fab day at Fabriko!">
+													Fab day at Fabriko!												</a></h3>
+											</header>
+																				</div>
+										<div class="mpcth-post-content">
+																				<small>
+		<a class="mpcth-alt-link" href="http://aimie.linc-ed.com/?m=201412">December 17, 2014</a>
+	</small>
+																			<div class="mpcth-post-excerpt">
+											<p>The highlight of our recent Technology Faculty day was a visit to Fabriko and working with Bridget McKendry (@pixelbrid). Fabriko began as The Makercrate, a small shipping container converted into a Makerspace for the Christchurch community.  People of all ages have the opportunity to get along and get creative with specialist equipment such as 3D printers, laser cutters, Arduino kits etc&#8230;. Fabriko has expanded and now occupies a warehouse on Wilsons Road and the coffee shop located at the front is a nice touch!  Fabriko&#8217;s mission is to &#8220;increase digital literacy through design thinking&#8230;providing community access to new and emerging technology, such as 3D printers and Arduino&#8230;&#8221; Bridget was brilliant, giving us the opportunity to learn about and use the Makerbot 3D Printers.  She talked us through the functionality of the equipment, the different filaments that can be used, trouble shooting and we had a go at printing a product.  I was thrilled with my fox ring, although I can&#8217;t get it off my daughter [&hellip;]</p>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list a2a_target" id="wpa2a_10"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D329&amp;linkname=Fab%20day%20at%20Fabriko%21" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D329&amp;linkname=Fab%20day%20at%20Fabriko%21" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D329&amp;linkname=Fab%20day%20at%20Fabriko%21" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Faimie.linc-ed.com%2F%3Fp%3D329&amp;linkname=Fab%20day%20at%20Fabriko%21" title="LinkedIn" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"></a></div></div>										</div>
+																			<div class="mpcth-read-more-wrap"><a class="mpcth-blog-read-more" href="http://aimie.linc-ed.com/?p=329">Read More</a></div>
+																</div>
+						</article>
+												</div> <!-- end #mpcth_page_articles -->
+
+			<div class="mpcth-pagination"><span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://aimie.linc-ed.com/?paged=2'>2</a>
+<a class='page-numbers' href='http://aimie.linc-ed.com/?paged=3'>3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://aimie.linc-ed.com/?paged=7'>7</a>
+<a class="next page-numbers" href="http://aimie.linc-ed.com/?paged=2">Next</a></div>		</div><!-- end #mpcth_page_content -->
+
+			<aside id="mpcth_sidebar">
+		<ul>
+							<li class="widget"><h2 class="widget_title sidebar_widget_title">Pages</h2>
+					<ul>
+						<li class="page_item page-item-2"><a href="http://aimie.linc-ed.com/?page_id=2">About Me</a></li>
+					</ul>
+				</li>
+				<li class="widget"><h2 class="widget_title sidebar_widget_title">Categories</h2>
+					<ul>
+							<li class="cat-item cat-item-2"><a href="http://aimie.linc-ed.com/?cat=2" title="These are digital tools that I have come across and are worth sharing.  ">Digital Resources</a> (24)
+</li>
+	<li class="cat-item cat-item-7"><a href="http://aimie.linc-ed.com/?cat=7" title="Educators doing great things.">Innovators</a> (7)
+</li>
+	<li class="cat-item cat-item-6"><a href="http://aimie.linc-ed.com/?cat=6" title="Anything that lights my fire!">Inspiration</a> (6)
+</li>
+	<li class="cat-item cat-item-5"><a href="http://aimie.linc-ed.com/?cat=5" title="Lessons that I have delivered, collaborated on or observed that are &#039;worth sharing&#039;.">Lessons Worth Sharing</a> (8)
+</li>
+	<li class="cat-item cat-item-4"><a href="http://aimie.linc-ed.com/?cat=4" title="My professional development ">My Learning</a> (12)
+</li>
+	<li class="cat-item cat-item-43"><a href="http://aimie.linc-ed.com/?cat=43" title="View all posts filed under My PD Workshops">My PD Workshops</a> (5)
+</li>
+	<li class="cat-item cat-item-3"><a href="http://aimie.linc-ed.com/?cat=3" title="Professional development, workshops, sessions that I have delivered.">My Sharing</a> (23)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://aimie.linc-ed.com/?cat=1" title="View all posts filed under Uncategorized">Uncategorized</a> (2)
+</li>
+					</ul>
+				</li>
+				<li class="widget"><h2 class="widget_title sidebar_widget_title">Meta</h2>
+					<ul>
+												<li>
+							<a href="http://aimie.linc-ed.com/wp-login.php">Log in</a>						</li>
+											</ul>
+				</li>
+					</ul>
+	</aside><!-- #mpcth_sidebar -->
+	<div id="mpcth_sidebar_bottom_fill"></div>
+	</div><!-- #mpcth_page_container -->
+
+
+<footer id="mpcth_footer">
+			<div id="mpcth_footer_content">
+			<div id="mpcth_footer_widgets">
+				<ul class="mpcth-widget-column"></ul>			</div>
+			<div class="mpcth-clear-fix"></div>
+		</div>
+				<div id="mpcth_bottom_footer">
+			<div id="mpcth_bottom_footer_wrap">
+				<span class="mpcth-footer-copyright">Copyright Linc technologies - 2014</span>
+				<ul class="mpcth-social-icons">
+																																																														<li>
+								<a href="http://www.linkedin.com/profile/view?id=277046985&amp;trk=nav_responsive_tab_profile" class="mpcth-social-linkedin">
+									<span class="mpcth-social-bg mpcth-social-bg-none">
+																					<span class="mpcth-sc-icon-linkedin"></span>
+																			</span>
+									<span class="mpcth-social-bg-over mpcth-social-bg-none">
+																					<span class="mpcth-sc-icon-linkedin"></span>
+																			</span>
+								</a>
+							</li>
+																																																									<li>
+								<a href="https://twitter.com/Aimiesibson" class="mpcth-social-twitter">
+									<span class="mpcth-social-bg mpcth-social-bg-none">
+																					<span class="mpcth-sc-icon-twitter"></span>
+																			</span>
+									<span class="mpcth-social-bg-over mpcth-social-bg-none">
+																					<span class="mpcth-sc-icon-twitter"></span>
+																			</span>
+								</a>
+							</li>
+																								<li>
+								<a href="https://plus.google.com/u/0/108497956896631348456/about" class="mpcth-social-gplus">
+									<span class="mpcth-social-bg mpcth-social-bg-none">
+																					<span class="mpcth-sc-icon-gplus"></span>
+																			</span>
+									<span class="mpcth-social-bg-over mpcth-social-bg-none">
+																					<span class="mpcth-sc-icon-gplus"></span>
+																			</span>
+								</a>
+							</li>
+																																																																																												</ul>
+			</div><!-- end #mpcth_bottom_footer_wrap -->
+		</div><!-- end #mpcth_bottom_footer -->
+	
+	</footer><!-- end #mpcth_footer -->
+
+</div><!-- end #mpcth_page_wrap -->
+	
+<script type="text/javascript"><!--
+wpa2a.targets=[
+{title:'Innovation and Entrepreneurship',url:'http://aimie.linc-ed.com/?p=478'},
+{title:'The Google Challenge',url:'http://aimie.linc-ed.com/?p=468'},
+{title:'MakerEd Event',url:'http://aimie.linc-ed.com/?p=453'},
+{title:'TechStars Recommend&#8230;',url:'http://aimie.linc-ed.com/?p=448'},
+{title:'Year 9 Product Design &#8211; a new course with new technology',url:'http://aimie.linc-ed.com/?p=412'},
+{title:'Urban Living Wall Launch',url:'http://aimie.linc-ed.com/?p=397'},
+{title:'An amazing Mash Up',url:'http://aimie.linc-ed.com/?p=393'},
+{title:'Teaching Kids to Code &#8211; An Essential Literacy',url:'http://aimie.linc-ed.com/?p=366'},
+{title:'Getting started with Blogger by flipping the learning',url:'http://aimie.linc-ed.com/?p=340'},
+{title:'Fab day at Fabriko!',url:'http://aimie.linc-ed.com/?p=329'}];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajaxurl = "http:\/\/aimie.linc-ed.com\/wp-admin\/admin-ajax.php";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/js/mpcth-functions.js?ver=1.0'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/js/mpcth-theme.js?ver=1.0'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/js/mpcth-shortcodes.js?ver=1.0'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/js/jquery.easing.min.js?ver=1.3'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/js/jquery.waypoints.min.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/js/jquery.fancybox.js?ver=1.3.4'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/js/jquery.validate.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/plugins/flexslider/jquery.flexslider-min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/js/jquery.oembed.js?ver=1.0'></script>
+<script type='text/javascript' src='http://aimie.linc-ed.com/wp-content/themes/leef/mpc-wp-boilerplate/massive-panel/js/cufon.js?ver=1.0'></script>
+</body>
+</html>

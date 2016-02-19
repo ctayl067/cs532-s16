@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='30916603-1',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Lawrence Creative">
+	
+    
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	
+
+<!-- CORE CONCRETE  ================================================== -->
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Cottages in Northumberland &amp; Fort Augustus - Grace Darling Holidays </title>
+<meta name="description" content="Grace Darling Holidays has the best selection of luxury and pet friendly self-catering holiday cottages in Northumberland and Fort Augustus." />
+<meta name="generator" content="concrete5 - 5.6.3.1" />
+<script type="text/javascript">
+var CCM_DISPATCHER_FILENAME = '/index.php';var CCM_CID = 1;var CCM_EDIT_MODE = false;var CCM_ARRANGE_MODE = false;var CCM_IMAGE_PATH = "/concrete/images";
+var CCM_TOOLS_PATH = "/index.php/tools/required";
+var CCM_BASE_URL = "http://www.gracedarlingholidays.com";
+var CCM_REL = "";
+
+</script>
+
+	<link rel="shortcut icon" href="/files/7014/4118/6558/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="/files/7014/4118/6558/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="/files/9514/4118/6614/iphoneicon.ico"  />
+<meta name="msapplication-TileImage" content="/files/8614/4118/6670/win8icon.ico" />
+<link rel="stylesheet" type="text/css" href="/concrete/css/ccm.base.css" />
+<script type="text/javascript" src="/concrete/js/jquery.js"></script>
+<script type="text/javascript" src="/concrete/js/ccm.base.js"></script>
+<style type="text/css"> 
+#blockStyle1199MiddleFooter5 {background-color:#999999; background-repeat:no-repeat; padding:10px 10px 10px 10px; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;} 
+#blockStyle1368LeftArea27 {background-repeat:no-repeat; } 
+#blockStyle1576LeftArea29 {background-repeat:no-repeat; padding:0 0 10px 0; } 
+#blockStyle1663Screensaver30 {background-repeat:no-repeat; } 
+#blockStyle1916RightFooter33 {background-repeat:no-repeat; padding:10px 0 0 0; } 
+#blockStyle2480Screensaver31 {background-repeat:no-repeat; } 
+</style>
+<link rel="stylesheet" type="text/css" href="/packages/social_timeline/blocks/social_timeline/css/dpSocialTimeline.css" />
+<link rel="stylesheet" type="text/css" href="/packages/social_timeline/blocks/social_timeline/css/colorbox.css" />
+<script type="text/javascript" src="/packages/social_timeline/blocks/social_timeline/st-js/jquery.colorbox.min.js"></script>
+<script type="text/javascript" src="/packages/social_timeline/blocks/social_timeline/st-js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="/packages/social_timeline/blocks/social_timeline/st-js/jquery.dpSocialTimeline.js"></script>
+<link rel="stylesheet" type="text/css" href="/packages/chadstrat_live_search/blocks/chadstratlivesearch/templates/popright/view.css" />
+<script type="text/javascript" src="/concrete/js/bootstrap.twipsy.js"></script>
+<script type="text/javascript" src="/concrete/js/bootstrap.popover.js"></script>
+<link rel="stylesheet" type="text/css" href="/concrete/css/ccm.app.css" />
+<link rel="stylesheet" type="text/css" href="/blocks/autonav/templates/responsive_nav/css/bootstrap.css" />
+<script type="text/javascript" src="/blocks/autonav/templates/responsive_nav/js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css" href="/packages/social_icons_reloaded/blocks/social_icons_reloaded/view.css" />
+<link rel="stylesheet" type="text/css" href="/blocks/flexslider/templates/GDH_Home/css/img.css" />
+<link rel="stylesheet" type="text/css" href="/blocks/flexslider/templates/GDH_Home/css/flexicons.css" />
+<script type="text/javascript" src="/blocks/flexslider/templates/GDH_Home/js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="/blocks/flexslider/templates/GDH_Home/js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/blocks/flexslider/templates/GDH_Home/js/retina.js"></script>
+<link rel="stylesheet" type="text/css" href="/blocks/html/templates/feature_key/view.css" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65411378-1', 'auto');
+  ga('send', 'pageview');
+
+</script><meta name="google-site-verification" content="6P6IDyl-kRhTnUYIwoWlKlNBghlNJupZ7lPkTBTaRZQ" /><!-- CSS	================================================== -->
+
+	<!-- Bootstrap core CSS -->
+    <link media="screen" type="text/javascript" href="/themes/gracedarling/js/bootstrap.min.js" />
+	<link rel="stylesheet" media="screen" type="text/css" href="/themes/gracedarling/css/bootstrap.min.css" />
+
+    <!-- Custom styles for this template -->
+	<link rel="stylesheet" media="screen" type="text/css" href="/files/cache/css/gracedarling/main.css" />
+
+
+	
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			  $('#btn-navbar-top').click(function() {
+			$('#btn-toggle-target').toggleClass('in');
+
+			});
+			});
+			
+		</script>
+		
+        
+</head>
+
+<body >
+
+	<section class="topnav">
+	
+	 <div class="container " > <!-- Normal container for menu -->
+            <div class="navbar navbar-default" role="navigation" >
+                <div class="row center" >
+                    <div class="col-xs-12" ><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" ><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="navbar-collapse collapse"  ><ul class="nav navbar-nav"><li class="nav-selected nav-path-selected"><a href="/" target="_self" class="dropdown-togglenav-selected nav-path-selected">Home</a></li><li class=""><a href="/about-us/" target="_self" class="dropdown-toggle">About Us</a></li><li class=""><a href="/cottages/" target="_self" class="dropdown-toggle">All Cottages</a></li><li class=""><a href="/location/" target="_self" class="dropdown-toggle" data-toggle="dropdown" >Location<span class="caret"></span></a><ul class="dropdown-menu" role="menu"><li class=""><a href="/location/bamburgh/" target="_self" class="dropdown-toggle">Bamburgh</a></li><li class=""><a href="/location/seahouses/" target="_self" class="dropdown-toggle">Seahouses</a></li><li class=""><a href="/location/newton-sea/" target="_self" class="dropdown-toggle">Newton by the Sea</a></li><li class=""><a href="/location/beadnell/" target="_self" class="dropdown-toggle">Beadnell</a></li><li class=""><a href="/location/fort-augustus/" target="_self" class="dropdown-toggle">Fort Augustus</a></li></ul></li><li class=""><a href="/late-availability-deals/" target="_self" class="dropdown-toggle">Late Availability</a></li><li class=""><a href="/explore/golfing-holidays/" target="_self" class="dropdown-toggle">Golf Deals</a></li><li class=""><a href="/explore/" target="_self" class="dropdown-toggle">Explore</a></li><li class=""><a href="/cottage-collections/" target="_self" class="dropdown-toggle">Cottage Collections</a></li></ul></div></div></div></div>
+                </div>
+            </div>
+		</div>
+
+	
+	<!-- <div class="container menuBg"> <!-- Normal container -->
+		<!-- <div class="navbar">
+			<div class="row">
+				<div class="col-xs-12 center"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" ><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="navbar-collapse collapse"  ><ul class="nav navbar-nav"><li class="nav-selected nav-path-selected"><a href="/" target="_self" class="dropdown-togglenav-selected nav-path-selected">Home</a></li><li class=""><a href="/about-us/" target="_self" class="dropdown-toggle">About Us</a></li><li class=""><a href="/cottages/" target="_self" class="dropdown-toggle">All Cottages</a></li><li class=""><a href="/location/" target="_self" class="dropdown-toggle" data-toggle="dropdown" >Location<span class="caret"></span></a><ul class="dropdown-menu" role="menu"><li class=""><a href="/location/bamburgh/" target="_self" class="dropdown-toggle">Bamburgh</a></li><li class=""><a href="/location/seahouses/" target="_self" class="dropdown-toggle">Seahouses</a></li><li class=""><a href="/location/newton-sea/" target="_self" class="dropdown-toggle">Newton by the Sea</a></li><li class=""><a href="/location/beadnell/" target="_self" class="dropdown-toggle">Beadnell</a></li><li class=""><a href="/location/fort-augustus/" target="_self" class="dropdown-toggle">Fort Augustus</a></li></ul></li><li class=""><a href="/late-availability-deals/" target="_self" class="dropdown-toggle">Late Availability</a></li><li class=""><a href="/explore/golfing-holidays/" target="_self" class="dropdown-toggle">Golf Deals</a></li><li class=""><a href="/explore/" target="_self" class="dropdown-toggle">Explore</a></li><li class=""><a href="/cottage-collections/" target="_self" class="dropdown-toggle">Cottage Collections</a></li></ul></div></div></div></div>
+			</div>
+		</div>
+	</div> -->
+	
+	</section>
+	
+	<section class="logo"> <!-- Normal container -->
+			<div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-5"><img border="0" class="ccm-image-block" alt="" src="/files/1414/2194/3879/gdh_new_logo2.jpg" width="170" height="140" /></div>
+	</section>
+	
+	<div class="container "> <!-- Normal container -->
+		<div class="row action">
+			<div class="col-xs-12 col-md-6"></div>
+			<div class="col-xs-12 col-md-4"></div>
+			<div class="col-xs-12 col-md-2"></div>
+		</div>
+	</div>
+	
+	<div class="container "> <!-- Normal container -->
+		<div class="row screensaver">
+			<div class="col-xs-12">	<div id="blockStyle2480Screensaver31" class="hidden-xs ccm-block-styles" >
+<style>
+.flexslider_edit_disable{width:100%;min-height:20px;background:#999999;padding:10px;text-align:center;color:#fff}
+.flexslider_edit_disable.error{color:#cf0000}
+a:focus{outline:none!important;}
+</style><style >.external-flexslider-container2480.black-flex .flexslider-container2480 {position:relative;	}.black-flex .flexslider-container2480 img {max-height:580px;}
+		.black-flex .flexslider-container2480 {margin:0 auto}
+		.black-flex .flexslider-container2480 h1 {margin:0;font-size:28px;font-weight:normal;text-align:left;}.slides img.flex-slide-img{width:100%;height:auto}.black-flex .flexslider-container2480{padding:0px;}.slides img.flex-slide-img{width:100%;height:auto}
+				div#main-container #header .flexslider ul{float:none!important}</style>
+		<div class="external-flexslider-container2480 flexslider-img-preloader black-flex  arrows-image"  >
+		<div class="flexslider carousel flexslider-container2480 flexslider-img-content" id="">
+		<ul class="slides2480 slides"><li><a href="http://www.gracedarlingholidays.com/cottages/pippistrelle/" target="_self">	<img src="/files/7114/4551/7959/Pippistrelle.jpg" alt="Pippistrelle, Budle Bay. Sleeps 8" data-at2x="/files/7114/4551/7959/Pippistrelle.jpg" class="img-retina flex-slide-img"/></a><div class="flex-caption">
+							<h1>Pippistrelle, Budle Bay. Sleeps 8</h1>
+							<p></p>
+							</div></li><li><a href="http://www.gracedarlingholidays.com/cottages/no-1-twin-palms" target="_self">	<img src="/files/8314/4551/7960/Twin_Palms.jpg" alt="Twin Palms. Seahouses. Sleeps 8" data-at2x="/files/8314/4551/7960/Twin_Palms.jpg" class="img-retina flex-slide-img"/></a><div class="flex-caption">
+							<h1>Twin Palms. Seahouses. Sleeps 8</h1>
+							<p></p>
+							</div></li><li><a href="http://www.gracedarlingholidays.com/cottages/pegasus-cottage" target="_self">	<img src="/files/3414/4551/7957/Pegasus.jpg" alt="Pegasus, Craster. Sleeps 6" data-at2x="/files/3414/4551/7957/Pegasus.jpg" class="img-retina flex-slide-img"/></a><div class="flex-caption">
+							<h1>Pegasus, Craster. Sleeps 6</h1>
+							<p></p>
+							</div></li><li><a href="http://www.gracedarlingholidays.com/cottages/old-farm" target="_self">	<img src="/files/9014/4551/7956/Old_Farm.jpg" alt="Old Farm, Close to Bamburgh. Sleeps 8" data-at2x="/files/9014/4551/7956/Old_Farm.jpg" class="img-retina flex-slide-img"/></a><div class="flex-caption">
+							<h1>Old Farm, Close to Bamburgh. Sleeps 8</h1>
+							<p></p>
+							</div></li><li><a href="http://www.gracedarlingholidays.com/cottages/lindon-granary" target="_self">	<img src="/files/1714/4551/7955/Lindon_Granary_copy.jpg" alt="Lindon Granary, Seahouses. Sleeps 6" data-at2x="/files/1714/4551/7955/Lindon_Granary_copy.jpg" class="img-retina flex-slide-img"/></a><div class="flex-caption">
+							<h1>Lindon Granary, Seahouses. Sleeps 6</h1>
+							<p></p>
+							</div></li><li><a href="http://www.gracedarlingholidays.com/cottages/eydnwell" target="_self">	<img src="/files/1714/4551/7954/Edynwell.jpg" alt="Edynwell, Bamburgh Village. Sleeps 6" data-at2x="/files/1714/4551/7954/Edynwell.jpg" class="img-retina flex-slide-img"/></a><div class="flex-caption">
+							<h1>Edynwell, Bamburgh Village. Sleeps 6</h1>
+							<p></p>
+							</div></li><li><a href="http://www.gracedarlingholidays.com/cottages/cuthberts-cottage" target="_self">	<img src="/files/7514/4551/7952/Cuthbert.jpg" alt="Cuthbert Cottage, Beadnell. Sleeps 4" data-at2x="/files/7514/4551/7952/Cuthbert.jpg" class="img-retina flex-slide-img"/></a><div class="flex-caption">
+							<h1>Cuthbert Cottage, Beadnell. Sleeps 4</h1>
+							<p></p>
+							</div></li><li><a href="http://www.gracedarlingholidays.com/cottages/beach-cottage" target="_self">	<img src="/files/9614/4551/7950/Beach_Cottage.jpg" alt="Beach Cottage, Newton by the Sea. Sleeps 4" data-at2x="/files/9614/4551/7950/Beach_Cottage.jpg" class="img-retina flex-slide-img"/></a><div class="flex-caption">
+							<h1>Beach Cottage, Newton by the Sea. Sleeps 4</h1>
+							<p></p>
+							</div></li></ul>
+		 </div></div>
+		<div class="clearfix"></div></div>	<div id="blockStyle1663Screensaver30" class="visible-xs ccm-block-styles" >
+<img border="0" class="ccm-image-block" alt="Grace Darling Holidays" src="/files/3214/2314/6605/St-Aidans-exterior-xs.jpg" width="768" height="381" /></div></div>
+		</div>
+	</div>
+    
+	<section class="jumps">
+	<div class="container "> <!-- Normal container -->
+		<div class="row jumpboxes">
+			<div class="col-xs-12 col-sm-6 col-md-3"><a href="/late-availability-deals/"><img border="0" class="ccm-image-block" alt="Late Availability" src="/files/2014/1743/5823/lateJumps.png" width="340" height="180" /></a></div>
+			<div class="col-xs-12 col-sm-6 col-md-3"><a href="/cottage-collections/"><img border="0" class="ccm-image-block" alt="Cottage Collections" src="/files/8614/1743/5584/colletionsJumps.png" width="340" height="180" /></a></div>
+			<div class="col-xs-12 col-sm-6 col-md-3"><a href="/cottage-collections/bamburgh-first/"><img border="0" class="ccm-image-block" alt="Bamburgh First" src="/files/5414/1743/5636/bamburghJumps.png" width="340" height="180" /></a></div>
+			<div class="col-xs-12 col-sm-6 col-md-3"><a href="/cottage-collections/luxury-holiday-cottages/"><img border="0" class="ccm-image-block" alt="Luxury Cottages" src="/files/1014/1743/5654/luxuryJumps.png" width="340" height="180" /></a></div>
+		</div>
+	</div>
+	</section>
+	
+	<section class="tag">
+	<div class="container "> <!-- Normal container -->
+		<div class="row tagline">
+			<div class="col-xs-12"><h1>Superb self-catering holiday cottages in Northumberland and Fort Augustus</h1></div>
+		</div>
+	</div>
+	</section>
+	
+	<section class="main">
+	<div class="container "> <!-- Normal container -->
+		<div class="row mainarea">
+			<div class="col-xs-12 col-sm-12 col-md-3"><h2>Cottage Search</h2>
+<p>Start typing the name of a cottage and it will pop up.</p>	<div id="blockStyle1576LeftArea29" class=" ccm-block-styles" >
+<style>
+.loader {display: block;float: right;margin-right: 32px;height:16px;width:16px;background-image:url('/concrete/images/icons/icon_header_loading.gif');}
+</style>
+<form id="live-search" action="" class="styled" method="post">
+    <input type="text" class="text-input" id="filter" value="" placeholder="Search..." rel="popover"/>
+    <span id="filter-count"></span>
+	<div class="loader" style="display: none;"></div>
+</form>
+<div id="twipsy-holder" class="ccm-ui left_adjust" style="position: absolute!important;">
+	<div class="popover fade below in searchpop" style="display: none; margin-left: 285px;">
+		<div class="arrow"></div>
+		<div class="inner">
+			<h3 class="title">Live Search</h3>
+			<div class="content">
+				<p>test</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+		$(document).ready(function(){
+			$('#filter').attr("autocomplete","off");
+		    $("#filter").keyup(function(){
+		    	if($(this).val().length > 3){
+		 			$('.loader').show();
+		 			var keyword = $(this).val();
+		 			var url = '/index.php/tools/blocks/chadstratlivesearch/get_search_results.php/?bID=1576&query='+keyword;
+		 			$.get(url, function(response) {
+		 				$('.popover .content').empty();
+						$('.loader').hide();
+						$('.popover .content').html(response);
+						$('.popover').fadeIn();
+						$(".popover .content").bind('mouseleave',function(){
+							$('.popover').fadeOut('slow',function(){
+								$('.popover .content').empty();
+							});
+							
+					    });
+		 			});
+		 			
+			     }
+		    });
+		});
+</script></div>	<div id="blockStyle1368LeftArea27" class=" ccm-block-styles" >
+
+<div id="HTMLBlock1368" class="HTMLBlock">
+<iframe align="center" src="http://www.247booking.co.uk/gracedarli/customer/searchbox.php?height=240&width=210" title="Search" style="height: 220px; width: 260px; border: none; margin: 0px;" scrolling="no" frameborder="no"></iframe></div></div></div>
+            <div class="col-xs-12 col-sm-8 col-md-6"><h1 style="text-align: justify;">Holiday Cottages Northumberland</h1>
+<p style="text-align: justify;"> </p>
+<p>Grace Darling Holidays has over 40 years of experience in offering individually styled cottages for your perfect getaway to the North East of England. We are experts in creating that home from home stay and offer beautiful self-catering coastal retreats along the picturesque Northumberland coast.</p>
+<p> </p>
+<p>The area of Northumberland is steeped in natural beauty and ancient history, making it a truly special place to create lasting memories. Our cottages are perfect for everyone. They are ideal for couples looking for a romantic weekend, or a luxury escape, to families and friends searching for a home away from home with all the thoughtful comforts and touches that make your stay with us even more special. Our cottages can be found in quaint villages and prime locations including Beadnell, Seahouses, Bamburgh and Newton-by-the-Sea. Choose from cosy cottages, barn conversions and townhouses, to one very special country manor. What’s more most are pet-friendly so there’s no need to leave a special family member behind.</p>
+<p> </p>
+<p>There are also plenty of attractions to explore that are right on your doorstep. The Grace Darling Museum, the World Heritage Site Hadrian’s Wall, historic castles, acres of golden beaches, miles of rocky cliffs and woodlands that will keep you all entertained for days.</p>
+<p style="text-align: justify;"> </p>
+<h2 style="text-align: justify;">Holiday Cottages Fort Augustus, Scotland</h2>
+<p style="text-align: justify;"> </p>
+<p>This special collection of Scottish apartments and holiday cottages are in an ideal location for a break north of the border. Each property can be found in a converted Benedictine monastery on the banks of Loch Ness, nestled in 20 acres of private gardens. Each property is unique and unforgettable with original historic features that include all the mod cons to make your stay an exceptional one.</p>
+<p>Enjoy the surrounding space and facilities in the Highland Club including a restaurant, bar, sauna, steam room and swimming pool. Outdoors there’s a children’s adventure play area, barbecue spots and croquet lawns for you to join in and have some fun. If you fancy venturing further afield, don’t miss out on visiting Loch Ness and see if you can spot the infamous Loch Ness monster.</p>
+<p> </p>
+<p style="text-align: justify;">There are also plenty of historic castles within easy reach for day trips, and the scenic towns of Fort William and Inverness are nearby too. Enjoy the scenery, exhilarating walks, seafood lunches, tranquil fishing or indulge in a game of golf. Whatever you fancy doing, there’s plenty going on.</p></div>
+            <div class="col-xs-12 col-sm-4 col-md-3"><style >.ccslider_edit_disable{width:100%;min-height:20px;background:#999999;padding:10px;text-align:center;color:#fff}
+.ccslider_edit_disable.error{color:#cf0000}
+a:focus{outline:none!important;}
+</style>	
+<!-- BEGIN SOCIAL TIMELINE -->
+<div class="socialtimeline-wrap">
+	<!-- Activate the Social Timeline. -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#socialTimeline-2263').dpSocialTimeline({
+			feeds: 
+			{
+				'facebook_page': {data: '151953328154260'}, 				'twitter': {data: 'http://www.gracedarlingholidays.com/packages/social_timeline/libraries/user_timeline.php?screen_name=GDHolidays' },								'youtube': {data: 'Bamburgh1st'},																																															},
+						layoutMode: 'one_column', addColorbox: true, share: true, showSocialIcons: true,
+			showFilter: true, rtl: false, showLayout: true, showLayoutTimeline: true,
+			showLayoutColumns: true, showLayoutOneColumn: true,
+			itemWidth: 260, timelineItemWidth: '42%',
+			columnsItemWidth: '260px', oneColumnItemWidth: '98%',
+			skin: 'light', total: 3		});
+	});
+</script>
+	<div id="socialTimeline-2263"></div>
+</div>
+<!-- END SOCIAL TIMELINE -->
+</div>
+		</div>
+		<div class="row sub">
+			<div class="col-xs-12 center"></div>
+		</div>
+	</div>
+	</section>
+	
+<section class="footer">
+	<div class="container "> <!-- Normal container -->
+		<div class="row ">
+            <div class="col-xs-12 col-sm-3"><ul class="nav"><li class=""><a href="/services/let-your-property/" target="_self" class="">Let Your Property</a></li><li class=""><a href="/services/faq/" target="_self" class="">FAQs</a></li><li class=""><a href="/services/gathering-place/" target="_self" class="">The Gathering Place</a></li><li class=""><a href="/services/terms-and-conditions/" target="_self" class="">Grace darling Holidays - Terms and Conditions</a></li><li class=""><a href="/services/contact-us/" target="_self" class="">Contact Grace Darling Holidays Today</a></li><li class=""><a href="/blog" target="_self" class="">Blog</a></li></ul></div>
+            <div class="col-xs-12 col-sm-6">	<div id="blockStyle1199MiddleFooter5" class=" ccm-block-styles" >
+<h1 style="text-align: center;">Make a Booking</h1>
+<h2 style="text-align: center;">CALL 01665 721 332</h2></div>
+<div id="HTMLBlock1304" class="HTMLBlock">
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//gracedarlingholidays.us3.list-manage.com/subscribe/post?u=052e084ee94418d90942efee0&amp;id=29ca1b0669" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Subscribe to our mailing list</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_052e084ee94418d90942efee0_29ca1b0669" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup--></div></div>
+            <div class="col-xs-12 col-sm-3">
+<!-- SOCIAL PROFILES -->
+<ul class="block-sociallinks large icons">
+
+<li><a rel='external, nofollow, noindex' href=mailto:info@gracedarlingholidays.com title='Send me an email.'><img src='/packages/social_icons_reloaded/blocks/social_icons_reloaded/images/email_32.png' alt='Email'  /></a></li><li><a rel='external, nofollow, noindex' href='https://www.facebook.com/pages/Grace-Darling-Holidays/151953328154260?fref=ts' target=_BLANK title='Find me on Facebook.'><img src='/packages/social_icons_reloaded/blocks/social_icons_reloaded/images/facebook_32.png' alt='Facebook'  /></a></li><li><a rel='external, nofollow, noindex' href='https://www.youtube.com/user/Bamburgh1st' target=_BLANK title='Find me on Google plus.'><img src='/packages/social_icons_reloaded/blocks/social_icons_reloaded/images/google_plus_32.png' alt='Google plus'  /></a></li><li><a rel='external, nofollow, noindex' href='https://twitter.com/GDHolidays' target=_BLANK title='Find me on Twitter.'><img src='/packages/social_icons_reloaded/blocks/social_icons_reloaded/images/twitter_32.png' alt='Twitter'  /></a></li><li><a rel='external, nofollow, noindex' href='https://www.youtube.com/user/Bamburgh1st' target=_BLANK title='Find me on Youtube.'><img src='/packages/social_icons_reloaded/blocks/social_icons_reloaded/images/youtube_32.png' alt='Youtube'  /></a></li>
+</ul>
+<!-- / SOCIAL PROFILES -->
+<p>Grace Darling Holidays</p>
+<p>25A Main Street</p>
+<p>Seahouses</p>
+<p>Northumberland NE68 7RE</p>
+<p> </p>
+<p>Telephone: 01665 721 332</p>
+<p><a class="white" href="mailto:info@gracedarlingholidays.com">info@gracedarlingholidays.com</a></p>
+<p> </p><a href="https://itunes.apple.com/sz/app/grace-darling-holidays/id979696668?mt=8"><img border="0" class="ccm-image-block" alt="Download app on iTunes app store" src="/files/4714/3203/4121/appstore.png" width="200" height="59" /></a>	<div id="blockStyle1916RightFooter33" class=" ccm-block-styles" >
+<a href="https://play.google.com/store/apps/details?id=bluesword.gracedarlingholidays&hl=en_GB"><img border="0" class="ccm-image-block" alt="Download from Google Play" src="/files/8714/3203/4127/Google_Play_Logo.png" width="200" height="54" /></a></div></div>
+		</div>
+	</div>
+	</section>
+
+<!-- End of Bootstrap Effect -->
+
+
+
+<script type="text/javascript"> $(window).load(function() {$(".flexslider-container2480").flexslider({animation:"slide",direction:"horizontal",reverse:false,animationLoop:true,startAt:0,slideshow :true,slideshowSpeed :7000,animationSpeed :600,initDelay :0,randomize :false,pauseOnAction :false,pauseOnHover :false,smoothHeight :false,useCSS :true,touch :true,video :true,controlNav :false,directionNav :true,prevText :"",nextText :"",keyboard :true,multipleKeyboard :true,mousewheel :true,pausePlay :false,pauseText :"",playText :"",minItems:1,maxItems :1,
+		 namespace: "flex-",
+		  start: function(){
+		 $(".external-flexslider-container2480.flexslider-img-preloader").css("background-image","none");
+		 $(".external-flexslider-container2480 .flexslider-img-content").css("opacity","1");
+		  $(".external-flexslider-container2480 .flexslider-img-content").css("visibility","visible");
+		$(".flex-control-nav a").empty();  
+		  
+		  }
+			});
+			$( window ).resize(function() {
+		$(".external-flexslider-container2480 .flex-control-nav a").empty(); 
+		});	
+		});
+			</script>
+<!--STATS Google START--><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15494632-1");
+pageTracker._trackPageview();
+} catch(err) {}</script><!--STATS Google END-->
+
+	</body>
+</html>	

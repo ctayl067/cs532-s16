@@ -1,0 +1,1669 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:og="http://ogp.me/ns#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>蛇蠍遊戯</title>
+<link rel="start" href="./" title="蛇蠍遊戯">
+<link rel="help" href="/help" title="ヘルプ">
+<link rel="prev" href="/Dakatsu/?of=7" title="前の7日分">
+
+<link rel="stylesheet" href="http://d.st-hatena.com/statics/css/base.css?0bbd03d5acc8e46d9dbb741f71c120e3544cd0d0" type="text/css" media="all">
+<link rel="stylesheet" href="http://d.st-hatena.com/statics/css/headerstyle_bl.css?d72d086afcc2827a79cb3f8fdb51d59c6f6bb6da" type="text/css" media="all">
+<link rel="stylesheet" href="http://d.st-hatena.com/statics/theme/hatena2-black/hatena2-black.css?a5c9f448060e7d962ba8cab1c0b08be09c506194" type="text/css" media="all">
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://d.hatena.ne.jp/Dakatsu/rss">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://d.hatena.ne.jp/Dakatsu/rss2">
+
+<link rel="meta" type="application/rdf+xml" title="FOAF" href="http://d.hatena.ne.jp/Dakatsu/foaf" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://d.hatena.ne.jp/Dakatsu/opensearch/diary.xml" title="蛇蠍遊戯内日記検索" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://d.hatena.ne.jp/Dakatsu/opensearch/archive.xml" title="蛇蠍遊戯内一覧検索" />
+
+
+
+<link rel="shortcut icon" href="http://d.hatena.ne.jp/images/bl_favicon.ico">
+
+
+
+
+
+
+<style type="text/css">
+<!-- 
+
+-->
+</style>
+
+
+<script type="text/javascript">if(/[\x3c\x3e\x22]/.test(location.hash))location.hash=location.hash.replace(/[\x3c\x3e\x22]/g,'');if(/[\x3c\x3e]/.test(document.referrer))location.href=location.href;</script>
+
+
+<meta property="og:type" content="blog">
+<meta property="og:title" content="蛇蠍遊戯">
+<meta property="og:image" content="http://www.st-hatena.com/users/Da/Dakatsu/user_p.gif?1236179618">
+<meta property="og:url" content="http://d.hatena.ne.jp/Dakatsu/">
+<meta property="og:description" content="Dakatsuの蛇蠍な遊戯室">
+<meta property="og:site_name" content="はてなダイアリー">
+
+
+<!--
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<rdf:Description rdf:about="http://d.hatena.ne.jp/Dakatsu/">
+   <foaf:maker rdf:parseType="Resource">
+     <foaf:holdsAccount>
+       <foaf:OnlineAccount foaf:accountName="Dakatsu">
+         <foaf:accountServiceHomepage rdf:resource="http://www.hatena.ne.jp/" />
+       </foaf:OnlineAccount>
+     </foaf:holdsAccount>
+   </foaf:maker>
+</rdf:Description>
+</rdf:RDF>
+-->
+
+<link rel="alternate" media="handheld" type="text/html" href="http://d.hatena.ne.jp/Dakatsu/mobile" />
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+  rdf:about="http://d.hatena.ne.jp/Dakatsu/20141112/p1"
+  trackback:ping="http://d.hatena.ne.jp/Dakatsu/20141112/p1"
+  dc:title="[イベント・撮影会]"
+  dc:identifier="http://d.hatena.ne.jp/Dakatsu/20141112/p1" />
+</rdf:RDF>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+  rdf:about="http://d.hatena.ne.jp/Dakatsu/20141109/p1"
+  trackback:ping="http://d.hatena.ne.jp/Dakatsu/20141109/p1"
+  dc:title="[徒然制作記]"
+  dc:identifier="http://d.hatena.ne.jp/Dakatsu/20141109/p1" />
+</rdf:RDF>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+  rdf:about="http://d.hatena.ne.jp/Dakatsu/20130602/p1"
+  trackback:ping="http://d.hatena.ne.jp/Dakatsu/20130602/p1"
+  dc:title="[徒然]"
+  dc:identifier="http://d.hatena.ne.jp/Dakatsu/20130602/p1" />
+</rdf:RDF>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+  rdf:about="http://d.hatena.ne.jp/Dakatsu/20130401/p1"
+  trackback:ping="http://d.hatena.ne.jp/Dakatsu/20130401/p1"
+  dc:title="[徒然]"
+  dc:identifier="http://d.hatena.ne.jp/Dakatsu/20130401/p1" />
+</rdf:RDF>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+  rdf:about="http://d.hatena.ne.jp/Dakatsu/20121005/p1"
+  trackback:ping="http://d.hatena.ne.jp/Dakatsu/20121005/p1"
+  dc:title="[徒然]"
+  dc:identifier="http://d.hatena.ne.jp/Dakatsu/20121005/p1" />
+</rdf:RDF>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+  rdf:about="http://d.hatena.ne.jp/Dakatsu/20121004/p1"
+  trackback:ping="http://d.hatena.ne.jp/Dakatsu/20121004/p1"
+  dc:title="[徒然制作記]"
+  dc:identifier="http://d.hatena.ne.jp/Dakatsu/20121004/p1" />
+</rdf:RDF>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+  rdf:about="http://d.hatena.ne.jp/Dakatsu/20121003/p1"
+  trackback:ping="http://d.hatena.ne.jp/Dakatsu/20121003/p1"
+  dc:title="[徒然制作記]"
+  dc:identifier="http://d.hatena.ne.jp/Dakatsu/20121003/p1" />
+</rdf:RDF>
+-->
+
+
+<link rel="microsummary" href="/microsummary/entry_title.xml">
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@hatenablog">
+
+
+
+<script type="text/javascript" src="http://www.hatena.ne.jp/js/Ten/Ten.js"></script>
+
+
+
+
+<script type="text/javascript" src="http://d.st-hatena.com/statics/js/adcolor.js?d72d086afcc2827a79cb3f8fdb51d59c6f6bb6da"></script>
+
+
+<script type="text/javascript" src="http://d.st-hatena.com/statics/js/quick_pager.js?73e8efd3adc8709460b4c8ff9af5a3d4c97eba4e"></script>
+<script type="text/javascript" src="http://d.st-hatena.com/statics/js/diary_utils.js?d72d086afcc2827a79cb3f8fdb51d59c6f6bb6da"></script>
+<script type="text/javascript" src="http://d.st-hatena.com/statics/js/max_width_fotolife.js?2d5c0a4915fdb8930122a506dbf154b9db674a3b"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://d.st-hatena.com/statics/js/jquery-1.4.2.min.js?1c983e39f64600478e5a829cf7a7a61f68527715"></script>
+<script type="text/javascript">
+  jQuery.noConflict()(function($){
+    var j$ = jQuery;
+  });
+</script>
+
+
+
+
+</head>
+<body>
+
+  <script>Hatena.Diary.UaTrakingID = 'UA-46127385-3';</script>
+ 
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-58NPH6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-58NPH6');</script>
+<!-- End Google Tag Manager -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3&appId=189164841141201";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<div class="adminmenu">
+<span class="adminmenu"><a href="/Dakatsu/">ブログトップ</a></span>
+<span class="adminmenu"><a href="/Dakatsu/archive">記事一覧</a></span>
+<span class="adminmenu"><a href="/login">ログイン</a></span>
+<span class="adminmenu"><a href="https://www.hatena.ne.jp/register">無料ブログ開設</a></span>
+</div>
+
+<h1><a href="http://d.hatena.ne.jp/Dakatsu/"><img src="http://d.hatena.ne.jp/images/diary/D/Dakatsu/titleimg.gif" alt="蛇蠍遊戯"></a></h1>
+<div class="hatena-body">
+<div class="main">
+
+
+
+
+
+
+
+
+<div class="calendar" id="pager-top">
+  <a rel="prev" href="/Dakatsu/?of=7" class="prev">&lt;前の7日分</a>&nbsp;<span id="edit-in-place-add"></span>
+</div>
+<div id="days">
+
+<div class="day">
+<h2><a href="http://d.hatena.ne.jp/Dakatsu/20141112" rel="nofollow"><span class="date">14年11月12日</span></a> <span class="title">熊本。</span></h2>
+
+<div class="body">
+
+<!-- rakuten_ad_target_begin -->
+<!-- google_ad_section_start -->
+
+		<div class="section">
+			<h3><a href="/Dakatsu/20141112/p1" name="p1"><span class="sanchor">■</span></a>[<a href="/Dakatsu/searchdiary?word=%2A%5B%A5%A4%A5%D9%A5%F3%A5%C8%A1%A6%BB%A3%B1%C6%B2%F1%5D" class="sectioncategory">イベント・撮影会</a>]</h3>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+			<p>先月の話に為るが、１０月１２日に熊本現代<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C8%FE%BD%D1%B4%DB">美術館</a>で行われた、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C5%B7%CC%EE%B4%EE%B9%A7">天野喜孝</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%AD%A5%E3%A5%E9%A5%AF%A5%BF%A1%BC">キャラクター</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B3%A5%B9%A5%D7%A5%EC">コスプレ</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B3%A5%F3%A5%C6%A5%B9%A5%C8">コンテスト</a>に参加してきた。</p>
+			<br>
+
+			<br>
+
+			<br>
+
+			<p>事の発端は<a class="keyword" href="http://d.hatena.ne.jp/keyword/Twitter">Twitter</a>にて、天野喜孝キャラクターコスプレコンテストの<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B3%B5%CD%D7">概要</a>が流れてきて。</p>
+			<br>
+
+			<p>・・・何だと・・・<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A1%AA%A1%A9">！？</a></p>
+			<p>天野喜孝本人が<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BF%B3%BA%BA">審査</a>だと・・・！？</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%C5%B7%CC%EE">天野</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%AD%A5%E3%A5%E9">キャラ</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B3%A5%B9">コス</a>始めて２０年の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CC%D1%BC%B9">妄執</a>を遂に本人に投げつける機会が！！と、息巻く俺。</p>
+			<p>出るならやっぱ“D”だよな〜って改修途中で<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CA%FC%C3%D6">放置</a>状態だった<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B0%E1%C1%F5">衣装</a>を着れる状態にする為に連日連夜の作業（出発前日迄続く）</p>
+			<br>
+
+			<p>それと並行し、先ずは一次審査が有るって事で<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B2%E8%C1%FC">画像</a>をA4<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D7%A5%EA%A5%F3%A5%C8">プリント</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%B0%F5%BA%FE">印刷</a>を<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%CD%A5%C3%A5%C8">ネット</a>注文したり<a class="keyword" href="http://d.hatena.ne.jp/keyword/PR">PR</a>文考えたりと<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B7%EB%B9%BD">結構</a>めんd・・・もとい大変だったが、それ以上に移動<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BC%EA%C3%CA">手段</a>と<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BD%C9%C7%F1">宿泊</a>先の予約がかなり<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%EA%A5%B9%A5%AD%A1%BC">リスキー</a>（一次通過確定する前に予約しないと埋まる）</p>
+			<p>当初<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C8%F4%B9%D4%B5%A1">飛行機</a>の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D1%A5%C3%A5%AF%A5%C4%A5%A2%A1%BC">パックツアー</a>で行こうかと思ったけど荷物（主に剣）が<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B5%A5%A4%A5%BA">サイズ</a>オーバーだった為、剣だけ<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%E4%A5%DE%A5%C8">ヤマト</a>便で送るかどうかと悩んだが、色々調べた結果、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BF%B7%B4%B4%C0%FE">新幹線</a>のパックツアーでも<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C8%A5%F3%A5%C8%A5%F3">トントン</a>と分かり申し込む。</p>
+			<p>（後にこの<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C8%BD%C3%C7">判断</a>が正しいかったと痛感する事に）</p>
+			<br>
+
+			<p>んで、何故か<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A8%A5%F3%A5%C8%A5%EA%A1%BC">エントリー</a>〆切前に<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B9%E7%B3%CA">合格</a>通知が届き。</p>
+			<p>無事一次通過。</p>
+			<p>見切りでの予約が<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CC%B5%C2%CC">無駄</a>にならずに済みホッとした。</p>
+			<br>
+
+			<br>
+
+			<p>だが、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C2%E6%C9%F7">台風</a>接近の１０日の夜に告知が美術館<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B5%A5%A4%A5%C8">サイト</a>にこんな告知が</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141111233906" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141111/20141111233906.jpg" alt="f:id:Dakatsu:20141111233906j:image:w360" title="f:id:Dakatsu:20141111233906j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>オ<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A4%A5%AA">イオ</a>イオイ・・・<a class="keyword" href="http://d.hatena.ne.jp/keyword/%DE%AF%CD%EE">洒落</a>にならんぞ・・・</p>
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%C9%D4%B0%C2">不安</a>を抱えつつも、いざ熊本へ。</p>
+			<br>
+
+			<p>荷物が大きく（<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BA%AD%CA%F1">梱包</a>含めて総重量４０?）<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B0%A5%EA%A1%BC%A5%F3%BC%D6">グリーン車</a>でも狭い狭い。</p>
+			<p>足も満足に伸ばせない状態で８<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BB%FE%B4%D6">時間</a>かけて熊本に到着。</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%CF%A9%CC%CC%C5%C5%BC%D6">路面電車</a>の状態を見て<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%BF%A5%AF%A5%B7%A1%BC">タクシー</a>で<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%DB%A5%C6%A5%EB">ホテル</a>迄移動（大荷物なのに嫌な顔一つしないタクシーの運転手の優しさに<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B4%B6%BC%D5">感謝</a>）</p>
+			<br>
+
+			<p>ホテルに荷物を置いて<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BB%B6%BA%F6">散策</a>を兼ねて現代美術館迄歩く。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112060610" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112060610.jpg" alt="f:id:Dakatsu:20141112060610j:image:w360" title="f:id:Dakatsu:20141112060610j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>美術館着いて天野<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BA%EE%C9%CA">作品</a>を堪能してたら。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141111234041" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141111/20141111234041.jpg" alt="f:id:Dakatsu:20141111234041j:image:w360" title="f:id:Dakatsu:20141111234041j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>見た事ある某<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B9%C4%C4%EB">皇帝</a>様の中身ことK氏が居て驚いた。</p>
+			<p>話を聞くと誰にも言わず準備して一次通過してコスコン参加すると言う。</p>
+			<br>
+
+			<p>ヤダコノヒトコワイ。</p>
+			<br>
+
+			<p>エントリー時に<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CB%DC%CC%BE">本名</a>書いたけどアレって本名で呼ばれたりするのかな？って疑問をK氏に投げかけてみたら氏も同様の事を思っていたらしく。</p>
+			<p>ならばと二人で美術館コスコン<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C3%B4%C5%F6%BC%D4">担当者</a>に<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B3%CE%C7%A7">確認</a>。</p>
+			<p>・・・ヤバかった。確認して良かった。</p>
+			<p>折角なのでK氏を<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B7%A7%CB%DC%A5%E9%A1%BC%A5%E1%A5%F3">熊本ラーメン</a>に誘い</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141111234118" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141111/20141111234118.jpg" alt="f:id:Dakatsu:20141111234118j:image:w360" title="f:id:Dakatsu:20141111234118j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>解散。</p>
+			<br>
+
+			<br>
+
+			<p>翌日のコンテスト本番。</p>
+			<p>台風接近で風が強く雨もパラついていたし荷物多いからタクシー使用。</p>
+			<p>またしても運転手優しい。<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B7%A7%CB%DC%A5%BF%A5%AF%A5%B7%A1%BC">熊本タクシー</a>愛してる！！</p>
+			<br>
+
+			<p>美術館に着いたら案内板</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141111234200" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141111/20141111234200.jpg" alt="f:id:Dakatsu:20141111234200j:image:w360" title="f:id:Dakatsu:20141111234200j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141111234158" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141111/20141111234158.jpg" alt="f:id:Dakatsu:20141111234158j:image:w360" title="f:id:Dakatsu:20141111234158j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>出てて美術館の本気を知る。</p>
+			<br>
+
+			<br>
+
+			<p>熊本怖ぇ。</p>
+			<br>
+
+			<br>
+
+			<p>更衣室に入ったら<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%DB%A5%EF%A5%A4%A5%C8%A5%DC%A1%BC%A5%C9">ホワイトボード</a>にこんな<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C4%A5%A4%EA%BB%E6">張り紙</a>が。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141111234252" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141111/20141111234252.jpg" alt="f:id:Dakatsu:20141111234252j:image:w360" title="f:id:Dakatsu:20141111234252j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<br>
+
+			<p>熊本怖ぇ。</p>
+			<br>
+
+			<br>
+
+			<p>よくよく考えたら今回が２０１４年の初コスだわって気が付いたら<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A4%C1%A4%E7%A4%C3%A4%C8">ちょっと</a>動揺し化粧を失敗、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C1%B4%CD%EE">全落</a>としてでやり直し。</p>
+			<br>
+
+			<p>そんなこんなで１時間半かかって<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%E1%A5%A4%A5%AF">メイク</a>完成。</p>
+			<br>
+
+			<p>着替えは着替えで一人では着替えられず、コンテスト出場の地元熊本の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C3%CB%C0%AD">男性</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%EC%A5%A4%A5%E4%A1%BC">レイヤー</a>二人に手伝って頂き。</p>
+			<p>初対面の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C7%F2%C5%C9%A4%EA">白塗り</a>に優しく接してしてくれる熊本人の懐の深さよ・・・</p>
+			<p>無駄に血の気の多い悪鬼羅刹ばかりな我が地元とは違うな！！！</p>
+			<br>
+
+			<br>
+
+			<p>何とか着替えが間に合い、いざコスコンへ。</p>
+			<br>
+
+			<br>
+
+			<p>エントリーナンバー順（美術館<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C3%B4%C5%F6">担当</a>曰く申込み順）で檀上へ。</p>
+			<p>１番は俺。</p>
+			<p>色々察せ。</p>
+			<p>この後の事は画像を見ると良いよ。</p>
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000013" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000013.jpg" alt="f:id:Dakatsu:20141112000013j:image:w360" title="f:id:Dakatsu:20141112000013j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000014" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000014.jpg" alt="f:id:Dakatsu:20141112000014j:image:w360" title="f:id:Dakatsu:20141112000014j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141111234623" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141111/20141111234623.jpg" alt="f:id:Dakatsu:20141111234623j:image:w360" title="f:id:Dakatsu:20141111234623j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000011" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000011.jpg" alt="f:id:Dakatsu:20141112000011j:image:w360" title="f:id:Dakatsu:20141112000011j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000025" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000025.jpg" alt="f:id:Dakatsu:20141112000025j:image:w360" title="f:id:Dakatsu:20141112000025j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000024" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000024.jpg" alt="f:id:Dakatsu:20141112000024j:image:w360" title="f:id:Dakatsu:20141112000024j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<br>
+
+			<br>
+
+			<p>天野<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%E8%C0%B8">先生</a>に「<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B4%B0%E0%FA">完璧</a>です！！」と評してもらい感無量。</p>
+			<p>何か報われた。</p>
+			<br>
+
+			<p>天野先生以外の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BF%B3%BA%BA%B0%F7">審査員</a>の一人に</p>
+			<p>「その衣装作るのに幾ら掛かかった？」</p>
+			<p>と聞かれたので、</p>
+			<p>「ちょっとした車が買えるぐらい（今までの１８年間のトータル<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BA%E0%CE%C1%C8%F1">材料費</a>込みで）」</p>
+			<p>と答えたら、観客席からおお〜ってどよめきが。</p>
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%B2%BE%C1%F5">仮装</a>以外の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BC%F1%CC%A3">趣味</a>でも１８年間続けたら総額で車ぐらい買えるだろ〜って思った俺は<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B0%DB%C3%BC">異端</a>か？</p>
+			<br>
+
+			<br>
+
+			<p>そんなこんなで、</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000021" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000021.jpg" alt="f:id:Dakatsu:20141112000021j:image:w360" title="f:id:Dakatsu:20141112000021j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000022" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000022.jpg" alt="f:id:Dakatsu:20141112000022j:image:w360" title="f:id:Dakatsu:20141112000022j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>天野喜孝賞を頂き。</p>
+			<br>
+
+			<br>
+
+			<p>頂いた後で、</p>
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000019" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000019.jpg" alt="f:id:Dakatsu:20141112000019j:image:w360" title="f:id:Dakatsu:20141112000019j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000016" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000016.jpg" alt="f:id:Dakatsu:20141112000016j:image:w360" title="f:id:Dakatsu:20141112000016j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000017" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000017.jpg" alt="f:id:Dakatsu:20141112000017j:image:w360" title="f:id:Dakatsu:20141112000017j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>熊本の霊獣と戦ったり、</p>
+			<br>
+
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000018" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000018.jpg" alt="f:id:Dakatsu:20141112000018j:image:w360" title="f:id:Dakatsu:20141112000018j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000020" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000020.jpg" alt="f:id:Dakatsu:20141112000020j:image:w360" title="f:id:Dakatsu:20141112000020j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>天野先生と話したり。</p>
+			<br>
+
+			<br>
+
+			<p>「Dはね、髪が長いのが良い。うん、良い」</p>
+			<p>「僕の描くDって全部違うでしょ。だから好きに作っちゃって良いよ」</p>
+			<p>「その剣重いの？ん？そんなでもな<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A4%A4%A4%CD">いね</a>」</p>
+			<p>「その装飾は・・・あ、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%CA%A5%A4%A5%D5">ナイフ</a>か。うん、そんなの描いた。」</p>
+			<br>
+
+			<br>
+
+			<p>その他に以前素の状態で何度かお会いしてる件について伝えたら</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112003700" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112003700.jpg" alt="f:id:Dakatsu:20141112003700j:image:w360" title="f:id:Dakatsu:20141112003700j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>「おー、でもその顔じゃ分らないよね」</p>
+			<p>「ソーデスヨネー」</p>
+			<br>
+
+			<br>
+
+			<p>んで、天野先生の話で印象に残ったのは、</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/FF6">FF6</a>の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%ED%A5%C3%A5%AF">ロック</a>のデザイン元は<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B0%A5%A4%A5%F3%A5%B5%A1%BC%A5%AC">グインサーガ</a>のイシュト<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D0%A1%BC%A5%F3">バーン</a>って話と、ギルバートは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CC%B1%C2%B2%B0%E1%C1%F5">民族衣装</a>を<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B0%D5%BC%B1">意識</a>したって<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A4%AA%CF%C3">お話</a>。</p>
+			<br>
+
+			<p>コンテスト終了後、熊本のレイヤーさんにお誘い頂き<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C7%CF%BB%C9%A4%B7">馬刺し</a>を食し、解散。</p>
+			<br>
+
+			<p>翌日は台風１９号が<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BE%E5%CE%A6">上陸</a>寸前と迫る中、地元<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BF%B7%CA%B9">新聞</a>を買い</p>
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000012" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000012.jpg" alt="f:id:Dakatsu:20141112000012j:image:w360" title="f:id:Dakatsu:20141112000012j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000023" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000023.jpg" alt="f:id:Dakatsu:20141112000023j:image:w360" title="f:id:Dakatsu:20141112000023j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>新幹線で<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C5%EC%B5%FE">東京</a>へ。</p>
+			<p>台風から逃げ切った。</p>
+			<br>
+
+			<p>飛行機が飛んでなかったので、予約時点での判断は正しかったなあ、と。</p>
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<p>コンテストの当日の夜には<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C6%B0%B2%E8">動画</a>が上がっていたり</p>
+			<p><object width="425" height="336"><param name="movie" value="http://www.youtube.com/v/zq-ixMdm3mI"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/zq-ixMdm3mI" type="application/x-shockwave-flash" wmode="transparent" width="425" height="336" FlashVars="movie_url=http://d.hatena.ne.jp/video/youtube/zq-ixMdm3mI"></embed></object>
+<a href="http://d.hatena.ne.jp/video/youtube/zq-ixMdm3mI" alt="この動画を含む日記"><img src="http://d.hatena.ne.jp/images/d_entry.gif" alt="D" border="0" style="vertical-align: bottom;" title="この動画を含む日記"></a></p>
+			<p>（俺は<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BA%C7%B8%E5">最後</a>の方に写ってる）</p>
+			<br>
+
+			<p>一週間後には再度<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B7%A7%CB%DC%C6%FC%C6%FC%BF%B7%CA%B9">熊本日日新聞</a>に載っていたり。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000009" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000009.jpg" alt="f:id:Dakatsu:20141112000009j:image:w360" title="f:id:Dakatsu:20141112000009j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000008" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000008.jpg" alt="f:id:Dakatsu:20141112000008j:image:w360" title="f:id:Dakatsu:20141112000008j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141112000010" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141112/20141112000010.jpg" alt="f:id:Dakatsu:20141112000010j:image:w360" title="f:id:Dakatsu:20141112000010j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>まとめが出来ていたり。</p>
+			<p><a href="http://togetter.com/li/731354" target="_blank">http://togetter.com/li/731354</a></p>
+			<br>
+
+			<br>
+
+			<br>
+
+			<p>熊本怖ぇ！！！</p>
+			<p class="sectionfooter"><a href="/Dakatsu/20141112/p1">Permalink</a></p>
+
+		</div>
+
+<!-- google_ad_section_end -->
+<!-- rakuten_ad_target_end -->
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+<div class="day">
+<h2><a href="http://d.hatena.ne.jp/Dakatsu/20141109" rel="nofollow"><span class="date">14年11月09日</span></a> <span class="title">鋳造。</span></h2>
+
+<div class="body">
+
+<!-- rakuten_ad_target_begin -->
+<!-- google_ad_section_start -->
+
+		<div class="section">
+			<h3><a href="/Dakatsu/20141109/p1" name="p1"><span class="sanchor">■</span></a>[<a href="/Dakatsu/searchdiary?word=%2A%5B%C5%CC%C1%B3%C0%A9%BA%EE%B5%AD%5D" class="sectioncategory">徒然制作記</a>]</h3>
+
+			<br>
+			<p>超・久々。</p>
+			<p>俺的記録がてらに。</p>
+			<br>
+
+			<br>
+
+			<p>事の発端は昨年の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C5%DF%A5%B3%A5%DF">冬コミ</a>で“D”の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%CA%A5%A4%A5%D5">ナイフ</a>を紛失してしまい（<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C7%CF%BC%AF">馬鹿</a>）ナイフ刀身を新たに作らざる負えなくなった為。</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%B9%E2%B9%BB">高校</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%BB%FE%C2%E5">時代</a>に石粉<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C7%B4%C5%DA">粘土</a>を型に鉛・<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B0%A1%B1%F4">亜鉛</a>・錫を混ぜ溶かして<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C3%F2%C2%A4">鋳造</a>した事があるので、よっしゃ久々にやってみるか！！</p>
+			<p>と、やってみたら昔の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B5%AD%B2%B1">記憶</a>よりも簡単で・・・</p>
+			<p>それなら・・・と、以前から改良したいと思いつつも後回しにしてきたパーツの置換・改良の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B2%E1%C4%F8">過程</a>で得た<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B7%D0%B8%B3">経験</a>を此処に残そうと。</p>
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<p>●使用素材</p>
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%AF%A5%E9%A5%D5%A5%C8">クラフト</a>ア<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%ED%A5%A4">ロイ</a></p>
+			<div class="hatena-asin-detail">
+  <a href="http://www.amazon.co.jp/dp/B00A6UHE4E/?tag=hatena_st1-22&ascsubtag=d-2auz"><img src="http://ecx.images-amazon.com/images/I/41kq%2BRpQFML._SL160_.jpg" class="hatena-asin-detail-image" alt="低融点合金 クラフトアロイ 150℃型" title="低融点合金 クラフトアロイ 150℃型"></a>
+  <div class="hatena-asin-detail-info">
+    <p class="hatena-asin-detail-title"><a href="http://www.amazon.co.jp/dp/B00A6UHE4E/?tag=hatena_st1-22&ascsubtag=d-2auz">低融点合金 クラフトアロイ 150℃型</a></p>
+    <ul>
+      
+      <li><span class="hatena-asin-detail-label">出版社/メーカー:</span> <a href="http://d.hatena.ne.jp/keyword/%C6%FC%BF%B7%A5%EC%A5%B8%A5%F3" class="keyword">日新レジン</a></li>
+                                                      <li><span class="hatena-asin-detail-label">メディア:</span> </li>
+      
+      <li><a href="http://d.hatena.ne.jp/asin/B00A6UHE4E" target="_blank">この商品を含むブログ (1件) を見る</a></li>
+    </ul>
+  </div>
+  <div class="hatena-asin-detail-foot"></div>
+</div>
+
+			<p>“D”のナイフ刀身・ベルトバックルの追加パーツ・剣帯の飾りで使用。</p>
+			<p>・主に<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CC%CF%B7%BF">模型</a>用として使われる素材なので、俺の様な原寸大<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B5%A5%A4%A5%BA">サイズ</a>を鋳造しようとすると<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B7%EB%B9%BD">結構</a>な量が<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C9%AC%CD%D7">必要</a>になる</p>
+			<p>（<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C8%F1%CD%D1">費用</a>が・・・）</p>
+			<p>・鉛を含まない。</p>
+			<p>・<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CD%BB%C5%C0">融点</a>１５０度。</p>
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D4%A5%E5%A1%BC%A5%BF%A1%BC">ピューター</a></p>
+			<div class="hatena-asin-detail">
+  <a href="http://www.amazon.co.jp/dp/B00D11NM8C/?tag=hatena_st1-22&ascsubtag=d-2auz"><img src="http://ecx.images-amazon.com/images/I/51SL0oERWXL._SL160_.jpg" class="hatena-asin-detail-image" alt="鋳金材料　ピューター　インゴット　３００ｇ" title="鋳金材料　ピューター　インゴット　３００ｇ"></a>
+  <div class="hatena-asin-detail-info">
+    <p class="hatena-asin-detail-title"><a href="http://www.amazon.co.jp/dp/B00D11NM8C/?tag=hatena_st1-22&ascsubtag=d-2auz">鋳金材料　ピューター　インゴット　３００ｇ</a></p>
+    <ul>
+      
+      <li><span class="hatena-asin-detail-label">出版社/メーカー:</span> <a href="http://d.hatena.ne.jp/keyword/%A5%B9%A5%BF%A5%F3%A5%C0%A1%BC%A5%C9%A5%E1%A5%BF%A5%EB%BE%A6%B2%F1" class="keyword">スタンダードメタル商会</a></li>
+                                                      <li><span class="hatena-asin-detail-label">メディア:</span> </li>
+      
+      <li><a href="http://d.hatena.ne.jp/asin/B00D11NM8C" target="_blank">この商品を含むブログを見る</a></li>
+    </ul>
+  </div>
+  <div class="hatena-asin-detail-foot"></div>
+</div>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%ED%A5%C3%A5%AF">ロック</a>のナイフ刀身に使用。</p>
+			<p>・上記のクラフトアロイと比べると<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B0%C2%B2%C1">安価</a>で<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B0%A5%E9%A5%E0">グラム</a>数も多い。</p>
+			<p>・鉛を含まない。</p>
+			<p>・融点２６０度。</p>
+			<br>
+
+			<br>
+
+			<p>道具</p>
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109152026" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109152026.jpg" alt="f:id:Dakatsu:20141109152026j:image:w360" title="f:id:Dakatsu:20141109152026j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>ガ<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B9%A5%EC">スレ</a>ンジ。</p>
+			<p>は？<a class="keyword" href="http://d.hatena.ne.jp/keyword/IH">IH</a>？</p>
+			<p>帰ってくれ！！</p>
+			<br>
+
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109152105" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109152105.jpg" alt="f:id:Dakatsu:20141109152105j:image:w360" title="f:id:Dakatsu:20141109152105j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>皮<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BC%EA%C2%DE">手袋</a>。</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%DB%A1%BC%A5%E0%A5%BB%A5%F3%A5%BF%A1%BC">ホームセンター</a>で買える作業用の。</p>
+			<br>
+
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109152118" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109152118.jpg" alt="f:id:Dakatsu:20141109152118j:image:w360" title="f:id:Dakatsu:20141109152118j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>鍋。</p>
+			<p>注ぎ口が有るタイプ。</p>
+			<p>素材は<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%DF">アルミ</a>で７００円ぐらいの安いモノ。</p>
+			<p>この他に<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A8%A5%D7%A5%ED%A5%F3">エプロン</a>や<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%DE%A5%B9%A5%AF">マスク</a>、ゴー<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B0%A5%EB">グル</a>を装備するとかなり<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B0%C2%C1%B4">安全</a>。</p>
+			<br>
+
+			<br>
+
+			<p>鋳造作業に入る前に鋳造したいモノの原型を用意し、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C2%D1%C7%AE">耐熱</a>性の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B7%A5%EA%A5%B3%A1%BC%A5%F3">シリコーン</a></p>
+			<p></p>
+			<div class="hatena-asin-detail hatena-rakuten-detail">
+<a href="http://d.hatena.ne.jp/rakuten/d-satomi/10000006"><img src="http://thumbnail.image.rakuten.co.jp/@0_mall/d-satomi/cabinet/tool/rtv2.jpg?_ex=128x128" class="hatena-asin-detail-image" alt="旭化成 耐熱ワッカーシリコン　M4470　1kg（硬化剤T40付）【HLS_DU】" title="旭化成 耐熱ワッカーシリコン　M4470　1kg（硬化剤T40付）【HLS_DU】"></a>
+<div class="hatena-asin-detail-info">
+<p class="hatena-asin-detail-title"><a href="http://d.hatena.ne.jp/rakuten/d-satomi/10000006">旭化成 耐熱ワッカーシリコン　M4470　1kg（硬化剤T40付）【HLS_DU】</a></p>
+<ul>
+<li><span class="hatena-asin-detail-label">ジャンル:</span> <a href="http://hb.afl.rakuten.co.jp/hgc/03dc3250.fca9e043.03dc3251.3135e3f9/?pc=http%3A%2F%2Fbeta.directory.rakuten.co.jp%2Frms%2Fsd%2Fdirectory%2Fvc%2Fs1tz100005%2F" target="_blank">花・ガーデン・DIY</a> &gt; <a href="http://hb.afl.rakuten.co.jp/hgc/03dc3250.fca9e043.03dc3251.3135e3f9/?pc=http%3A%2F%2Fbeta.directory.rakuten.co.jp%2Frms%2Fsd%2Fdirectory%2Fvc%2Fs1tz100890%2F" target="_blank">日曜大工・作業用品</a> &gt; <a href="http://hb.afl.rakuten.co.jp/hgc/03dc3250.fca9e043.03dc3251.3135e3f9/?pc=http%3A%2F%2Fbeta.directory.rakuten.co.jp%2Frms%2Fsd%2Fdirectory%2Fvc%2Fs1tz210437%2F" target="_blank">塗料・補修材・各種素材</a> &gt; <a href="http://hb.afl.rakuten.co.jp/hgc/03dc3250.fca9e043.03dc3251.3135e3f9/?pc=http%3A%2F%2Fbeta.directory.rakuten.co.jp%2Frms%2Fsd%2Fdirectory%2Fvc%2Fs1tz210440%2F" target="_blank">各種素材</a></li>
+<li><span class="hatena-asin-detail-label">ショップ:</span> <a href="http://hb.afl.rakuten.co.jp/hgc/03dc3250.fca9e043.03dc3251.3135e3f9/?pc=http%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rs4z1.2k30w6d1.g00rs4z1.2k30x406%2F%3Fpc%3Dhttp%253A%252F%252Fwww.rakuten.co.jp%252Fd-satomi%252F%26amp%3Bm%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fd-satomi%252F" target="_blank">里見デザイン　楽天市場店</a></li>
+<li><span class="hatena-asin-detail-label">価格:</span> 3,900円</li>
+<li><a href="http://hb.afl.rakuten.co.jp/hgc/03dc3250.fca9e043.03dc3251.3135e3f9/?pc=http%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rs4z1.2k30w6d1.g00rs4z1.2k30x406%2F%3Fpc%3Dhttp%253A%252F%252Fitem.rakuten.co.jp%252Fd-satomi%252F10000006%252F%26amp%3Bm%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fd-satomi%252Fi%252F10000006%252F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fd-satomi%2Fi%2F10000006%2F" target="_blank">楽天で詳細を見る</a></li>
+</ul>
+</div>
+<div class="hatena-asin-detail-foot"></div>
+</div>
+			<p></p>
+			<p>で型を作る。</p>
+			<p>（クラフトアロイなら融点が低いので<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C9%E1%C4%CC">普通</a>のシリコーンでも<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C2%E7%BE%E6%C9%D7">大丈夫</a>だろうが、一応・・・）</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109153759" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109153759.jpg" alt="f:id:Dakatsu:20141109153759j:image:w360" title="f:id:Dakatsu:20141109153759j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109154026" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109154026.jpg" alt="f:id:Dakatsu:20141109154026j:image:w360" title="f:id:Dakatsu:20141109154026j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>型が出来たら<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C9%A5%E9%A5%A4%A5%E4%A1%BC">ドライヤー</a>とかで温めて（<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CE%AE%C6%B0%C0%AD">流動性</a>を高める為。型が冷えてると上手く流れない<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BE%EC%B9%E7">場合</a>も）</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109154459" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109154459.jpg" alt="f:id:Dakatsu:20141109154459j:image:w360" title="f:id:Dakatsu:20141109154459j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D1%A5%A6%A5%C0%A1%BC">パウダー</a>（クラウトアロイには<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C9%D5%C2%B0">付属</a>。無い場合は<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B6%E2%C2%B0">金属</a>粉で<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C2%E5%CD%D1">代用</a>可）を</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109154457" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109154457.jpg" alt="f:id:Dakatsu:20141109154457j:image:w360" title="f:id:Dakatsu:20141109154457j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>薄く塗る（型細部に流れ込み易くする為）</p>
+			<p>付き過ぎた場合は軽く払い落とす。</p>
+			<br>
+
+			<p>型を合わせ、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BA%AD%CA%F1">梱包</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C6%A1%BC%A5%D7">テープ</a>で固定</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109162544" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109162544.jpg" alt="f:id:Dakatsu:20141109162544j:image:w360" title="f:id:Dakatsu:20141109162544j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>（布製<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%AC%A5%E0%A5%C6%A1%BC%A5%D7">ガムテープ</a>等。輪ゴムだと熱で爆ぜる場合有）</p>
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109155358" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109155358.jpg" alt="f:id:Dakatsu:20141109155358j:image:w360" title="f:id:Dakatsu:20141109155358j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>クラフトアロイ又はピューターをガスレ<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B8%A5%F3">ジン</a>で溶かし、</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109155356" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109155356.jpg" alt="f:id:Dakatsu:20141109155356j:image:w360" title="f:id:Dakatsu:20141109155356j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>型に一気に流し込む。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109155431" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109155431.jpg" alt="f:id:Dakatsu:20141109155431j:image:w360" title="f:id:Dakatsu:20141109155431j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>この時、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BB%C0%B2%BD">酸化</a>膜（溶けた金属の上に浮いてる膜状のモノ）が入らない様にと<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BC%E8%C0%E2">取説</a>には記載されているが、無理。</p>
+			<p>どーやっても入る。</p>
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109155649" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109155649.jpg" alt="f:id:Dakatsu:20141109155649j:image:w360" title="f:id:Dakatsu:20141109155649j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>表面が濁り冷めたら型から外す。</p>
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109155650" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109155650.jpg" alt="f:id:Dakatsu:20141109155650j:image:w360" title="f:id:Dakatsu:20141109155650j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109155652" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109155652.jpg" alt="f:id:Dakatsu:20141109155652j:image:w360" title="f:id:Dakatsu:20141109155652j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>この後、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D0%A5%EA">バリ</a>取ったり酸化膜をワイヤーブラシ等で落としたり鑢作業に移行する訳だが、此処でクラフトアロイとピューターの違いを俺<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CC%DC%C0%FE">目線</a>で。</p>
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109155654" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109155654.jpg" alt="f:id:Dakatsu:20141109155654j:image:w360" title="f:id:Dakatsu:20141109155654j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>上：クラフトアロイ</p>
+			<p>下：ピューター</p>
+			<br>
+
+			<br>
+
+			<p>●クラフトアロイ</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%E1%A5%EA%A5%C3%A5%C8">メリット</a>：</p>
+			<p>・融点が低く扱い易い。</p>
+			<p>・型の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%E2%A1%BC%A5%EB">モール</a>ドをピューターより拾う気がする。</p>
+			<p>・ピューターより柔らかいので研磨が楽。</p>
+			<p>・リューター等での加工も楽。</p>
+			<p>・酸化膜の影響が余り無い。</p>
+			<p>・スが入り難い。</p>
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%E1%A5%EA%A5%C3%A5%C8">デメリット</a>：</p>
+			<p>・グラム単価が高価</p>
+			<p>・柔かいのでぶつけたりすると細く薄い部分が曲がる場合が。</p>
+			<p>作例</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109165323" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109165323.jpg" alt="f:id:Dakatsu:20141109165323j:image:w360" title="f:id:Dakatsu:20141109165323j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109165322" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109165322.jpg" alt="f:id:Dakatsu:20141109165322j:image:w360" title="f:id:Dakatsu:20141109165322j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109165320" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109165320.jpg" alt="f:id:Dakatsu:20141109165320j:image:w360" title="f:id:Dakatsu:20141109165320j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>燻し<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C9%BD%B8%BD">表現</a>はラッカー<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C5%C9%CE%C1">塗料</a>の艶消しを<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B7%A5%F3%A5%CA%A1%BC">シンナー</a>で薄めて、塗っては拭き落としを数回繰り返すと良い感じに。</p>
+			<br>
+
+			<br>
+
+			<p>●ピューター</p>
+			<p>メリット：</p>
+			<p>・グラム単価が安い。</p>
+			<p>・硬く丈夫</p>
+			<br>
+
+			<p>デメリット：</p>
+			<p>・硬いが故に加工が大変</p>
+			<p>・スが入りやすく研磨が大変</p>
+			<p>・酸化膜の混入が目立つ</p>
+			<p>・融点が高い。</p>
+			<br>
+
+			<br>
+
+			<br>
+
+			<p>ピューターは磨くの大変だけど、きっちり磨けば</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109160058" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109160058.jpg" alt="f:id:Dakatsu:20141109160058j:image:w360" title="f:id:Dakatsu:20141109160058j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109160057" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109160057.jpg" alt="f:id:Dakatsu:20141109160057j:image:w360" title="f:id:Dakatsu:20141109160057j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109160103" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109160103.jpg" alt="f:id:Dakatsu:20141109160103j:image:w360" title="f:id:Dakatsu:20141109160103j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109160104" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109160104.jpg" alt="f:id:Dakatsu:20141109160104j:image:w360" title="f:id:Dakatsu:20141109160104j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109160102" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109160102.jpg" alt="f:id:Dakatsu:20141109160102j:image:w360" title="f:id:Dakatsu:20141109160102j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>此処まで光る。</p>
+			<br>
+
+			<br>
+
+			<p>余談だが俺の金属磨きは</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109155655" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109155655.jpg" alt="f:id:Dakatsu:20141109155655j:image:w360" title="f:id:Dakatsu:20141109155655j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>棒鑢・耐水ペーパー・アルミ角材と</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109155656" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109155656.jpg" alt="f:id:Dakatsu:20141109155656j:image:w360" title="f:id:Dakatsu:20141109155656j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109155657" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109155657.jpg" alt="f:id:Dakatsu:20141109155657j:image:w360" title="f:id:Dakatsu:20141109155657j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>研磨剤</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20141109155658" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20141109/20141109155658.jpg" alt="f:id:Dakatsu:20141109155658j:image:w360" title="f:id:Dakatsu:20141109155658j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>でやってるよ。</p>
+			<br>
+
+			<br>
+
+			<p>鋳造で使用する素材は、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CD%BD%BB%BB">予算</a>と<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CD%D1%C5%D3">用途</a>で選べば良いと思う。</p>
+			<p>ただ、鋳造素材「<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%DB%A5%EF%A5%A4%A5%C8">ホワイト</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%E1%A5%BF%A5%EB">メタル</a>」と銘打って販売されている<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BE%A6%C9%CA">商品</a>には鉛が混ざっているものが多い。</p>
+			<p>鉛は溶かす過程で<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BE%F8%C8%AF">蒸発</a>ガスが発生するので、何らかしらの<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C2%D0%BA%F6">対策</a>を講じないと後々大変な事になるので注意が必要かと・・・</p>
+			<br>
+
+			<p>追記</p>
+			<p>鋳造したモノのバリ・湯口を取る場合は<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%CB%A5%C3%A5%D1%A1%BC">ニッパー</a>等は駄目。</p>
+			<p>一緒に細い部分も折れるので。</p>
+			<p>金ノコとかで切り落としが<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CC%B5%C6%F1">無難</a>。</p>
+			<p>ピューターは平坦面の鋳造跡が出易い。</p>
+			<p class="sectionfooter"><a href="/Dakatsu/20141109/p1">Permalink</a></p>
+
+		</div>
+
+<!-- google_ad_section_end -->
+<!-- rakuten_ad_target_end -->
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+<div class="day">
+<h2><a href="http://d.hatena.ne.jp/Dakatsu/20130602" rel="nofollow"><span class="date">13年06月02日</span></a></h2>
+
+<div class="body">
+
+<!-- rakuten_ad_target_begin -->
+<!-- google_ad_section_start -->
+
+		<div class="section">
+			<h3><a href="/Dakatsu/20130602/p1" name="p1"><span class="sanchor">■</span></a>[<a href="/Dakatsu/searchdiary?word=%2A%5B%C5%CC%C1%B3%5D" class="sectioncategory">徒然</a>]</h3>
+
+			<br>
+
+			<br>
+
+			<br>
+			<p>久々の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C6%FC%B5%AD">日記</a>。</p>
+			<br>
+
+			<p>先月の３１〜１日と都内を<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D5%A5%E9%A5%D5%A5%E9">フラフラ</a>していた。</p>
+			<br>
+
+			<p>それというのも、竹谷隆之<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BB%C5%BB%F6">仕事</a>展と<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B5%C6%C3%CF%BD%A8%B9%D4">菊地秀行</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C8%A1%BC%A5%AF%A5%E9%A5%A4%A5%D6">トークライブ</a>の二本立てだったから。</p>
+			<br>
+
+			<p>仕事展の方は事前に特典付き前売り券を購入。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20130605212716" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20130605/20130605212716.jpg" alt="f:id:Dakatsu:20130605212716j:image:w360" title="f:id:Dakatsu:20130605212716j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>会場は元<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B3%D8%B9%BB">学校</a>？</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20130602225803" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20130602/20130602225803.jpg" alt="f:id:Dakatsu:20130602225803j:image:w360" title="f:id:Dakatsu:20130602225803j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20130602225805" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20130602/20130602225805.jpg" alt="f:id:Dakatsu:20130602225805j:image:w360" title="f:id:Dakatsu:20130602225805j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<br>
+
+			<br>
+
+			<p>入場したら<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A4%DE%A4%B5%A4%AB">まさか</a>の「<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BC%CC%BF%BF">写真</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%BB%A3%B1%C6">撮影</a>可」に色めき立ち。彼方此方で<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B7%A5%E3%A5%C3%A5%BF%A1%BC">シャッター</a>音が響く響く。</p>
+			<p>まあ、俺も例に<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CF%B3%A4%EC">漏れ</a>ずその中の一人だったが。</p>
+			<br>
+
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%BC%AB%CA%AC">自分</a>の造形に大きな影響を与えた方の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BA%EE%C9%CA%C5%B8">作品展</a>で、生で原型だったり<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B9%A5%B1%A5%C3%A5%C1">スケッチ</a>だったりを見、撮影をし、凄く刺激とやる気を頂いた。</p>
+			<p>そんな興奮状態のまま竹谷隆之<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%E8%C0%B8">先生</a>から直筆<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B5%A5%A4%A5%F3">サイン</a>を頂き。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20130602225808" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20130602/20130602225808.jpg" alt="f:id:Dakatsu:20130602225808j:image:w360" title="f:id:Dakatsu:20130602225808j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>凄く気さくなお方だった。</p>
+			<p>そんなこんなで会場を後にする。</p>
+			<br>
+
+			<p>次は深夜開催のトークライブ。</p>
+			<p>事前に<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%DB%A5%C6%A5%EB">ホテル</a>の手配はしていたが、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BB%FE%B4%D6">時間</a>が有ったので、日暮里<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D6%A5%E9%A5%D6%A5%E9">ブラブラ</a>。</p>
+			<br>
+
+			<p>良い感じに時間が潰れたので新宿三丁目のホテルへ。</p>
+			<p>シャワーを浴び、２３時まで寝ようかと<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D9%A5%C3%A5%C8">ベット</a>に潜り込んだら。</p>
+			<p>外が五月蠅ぇ。</p>
+			<p>窓から外を見ると直ぐ隣が<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B0%FB%BF%A9%C5%B9">飲食店</a>。</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%B3%B0%BF%CD">外人</a>様が<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CF%A9%BE%E5">路上</a>で大騒ぎ。</p>
+			<p>飲食店から響く重低音。</p>
+			<p>眠れやしねぇ。</p>
+			<p>仕方がないから<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B9%A5%DE%A5%DB">スマホ</a>弄ったり耳を塞いで眠ろうと<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C5%D8%CE%CF">努力</a>したり。</p>
+			<p>・・・結局２３時になっても寝れなかった、と。</p>
+			<br>
+
+			<p>で、身支度を整えホテルから出たら、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B5%DF%B5%DE%BC%D6">救急車</a>・<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D1%A5%C8%A5%AB%A1%BC">パトカー</a>・<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BE%C3%CB%C9%BC%D6">消防車</a>とそれらの職員が路上に溢れ。</p>
+			<p>どうやら<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B7%F6%B2%DE">喧嘩</a>？</p>
+			<p>これが俺の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BF%E7%CC%B2">睡眠</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%CB%B8%B3%B2">妨害</a>の原因かよ。</p>
+			<p>と怒り冷めやらぬ状態で歩いていたら、外人（♂）に肩を掴まれ<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BE%D0%B4%E9">笑顔</a>で</p>
+			<p>「ヘイ！！」</p>
+			<p>と、親指をクイっと別ホテルの<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C6%FE%A4%EA%B8%FD">入り口</a>を指され。</p>
+			<p>「うわわわあああああ！！！」</p>
+			<br>
+
+			<p>と、焦った俺は「NO！！！！」</p>
+			<p>と、手を払いのけ速足で逃げる。</p>
+			<p>ポン引きより怖ぇ。</p>
+			<br>
+
+			<p>そんなこんなで無事（？）<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%ED%A5%D5%A5%C8%A5%D7%A5%E9%A5%B9%A5%EF%A5%F3">ロフトプラスワン</a>へ。</p>
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20130602225806" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20130602/20130602225806.jpg" alt="f:id:Dakatsu:20130602225806j:image:w360" title="f:id:Dakatsu:20130602225806j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>今回は内容が「<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B2%F8%C3%CC">怪談</a>」でしたが、そんなに怖くない。</p>
+			<p>つか、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B7%A5%CA%A5%EA%A5%AA">シナリオ</a>投げっぱなしな話が多い印象。</p>
+			<p>次回の７月の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C9%A5%E9%A5%AD%A5%E5%A5%E9">ドラキュラ</a>関連の話に凄く興味をそそられ。</p>
+			<br>
+
+			<p>そんな今回の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%EF%CD%F8%C9%CA">戦利品</a>。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20130602225810" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20130602/20130602225810.jpg" alt="f:id:Dakatsu:20130602225810j:image:w360" title="f:id:Dakatsu:20130602225810j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C8%A5%EA%A5%D6%A5%E9">トリブラ</a>好きには堪らない筈の「最果ての東」</p>
+			<br>
+
+			<p>そして。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20130602225812" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20130602/20130602225812.jpg" alt="f:id:Dakatsu:20130602225812j:image:w360" title="f:id:Dakatsu:20130602225812j:image:w360" class="hatena-fotolife" width="360"></a>念願叶い、THORES柴本先生にサインを頂き。</p>
+			<p>ありがたや・・・・</p>
+			<p class="sectionfooter"><a href="/Dakatsu/20130602/p1">Permalink</a></p>
+
+		</div>
+
+<!-- google_ad_section_end -->
+<!-- rakuten_ad_target_end -->
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+<div class="day">
+<h2><a href="http://d.hatena.ne.jp/Dakatsu/20130401" rel="nofollow"><span class="date">13年04月01日</span></a> <span class="title">２０周年。</span></h2>
+
+<div class="body">
+
+<!-- rakuten_ad_target_begin -->
+<!-- google_ad_section_start -->
+
+		<div class="section">
+			<h3><a href="/Dakatsu/20130401/p1" name="p1"><span class="sanchor">■</span></a>[<a href="/Dakatsu/searchdiary?word=%2A%5B%C5%CC%C1%B3%5D" class="sectioncategory">徒然</a>]</h3>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%CB%DC%C6%FC">本日</a>で<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B2%BE%C1%F5">仮装</a>歴２０年目<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C6%CD%C6%FE">突入</a>・・・</p>
+			<p class="sectionfooter"><a href="/Dakatsu/20130401/p1">Permalink</a></p>
+
+		</div>
+
+<!-- google_ad_section_end -->
+<!-- rakuten_ad_target_end -->
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+<div class="day">
+<h2><a href="http://d.hatena.ne.jp/Dakatsu/20121005" rel="nofollow"><span class="date">12年10月05日</span></a> <span class="title">菊地秀行先生作家生活３０周年記念企画。</span></h2>
+
+<div class="body">
+
+<!-- rakuten_ad_target_begin -->
+<!-- google_ad_section_start -->
+
+		<div class="section">
+			<h3><a href="/Dakatsu/20121005/p1" name="p1"><span class="sanchor">■</span></a>[<a href="/Dakatsu/searchdiary?word=%2A%5B%C5%CC%C1%B3%5D" class="sectioncategory">徒然</a>]</h3>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+			<p>先週の話になるが、やってきた。</p>
+			<br>
+
+			<p>何故か企画総括？的な感じで動いてきた。</p>
+			<br>
+
+			<br>
+
+			<p>今回の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B2%BE%C1%F5">仮装</a>は「D-<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CB%E2%C0%AD">魔性</a>馬車」の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C9%A5%EB">ドル</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%EC%A5%A2">レア</a>ック。</p>
+			<p>色々忙しすぎて何も出来ないので、全部購入で揃う<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B0%E1%C1%F5">衣装</a>の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%AD%A5%E3%A5%E9">キャラ</a>はこの人しか居なかった・・・</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175307" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175307.jpg" alt="f:id:Dakatsu:20121005175307j:image:w360" title="f:id:Dakatsu:20121005175307j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%BC%AB%B8%CA">自己</a>申告が<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C9%AC%CD%D7">必要</a>なキャラチョイスだったと<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C8%BF%BE%CA">反省</a>はしている・・・</p>
+			<br>
+
+			<br>
+
+			<p>７月の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C8%A1%BC%A5%AF%A5%E9%A5%A4%A5%D6">トークライブ</a>の時に流れがほぼ決まっていない<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B0%A5%C0%A5%B0%A5%C0">グダグダ</a>になりそうな企画を纏めてくれた紅蓮氏、</p>
+			<p>同じく７月に<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3">アニメーション</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%A9%BA%EE">制作</a>を快諾して当日迄カツカツ状態で制作し見事仕上げた<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D8%A5%F3%A5%EA%A1%BC">ヘンリー</a>氏、</p>
+			<p>対人交渉<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B9%A5%AD%A5%EB">スキル</a>皆無な俺に代わって連絡係をやってくれた<a class="keyword" href="http://d.hatena.ne.jp/keyword/yui">yui</a>氏に心より<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B4%B6%BC%D5">感謝</a>を・・・</p>
+			<br>
+
+			<p>何故か読者代表で菊地<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%E8%C0%B8">先生</a>に一言とか振られた時はファビョったが、何とか終わった。</p>
+			<p>先の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C6%FC%B5%AD">日記</a>で触れたコレ</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175328" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175328.jpg" alt="f:id:Dakatsu:20121005175328j:image:w360" title="f:id:Dakatsu:20121005175328j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>も、予想外にウケが良くて制作者として報われた。</p>
+			<br>
+
+			<p>全部終わって気が抜け過ぎて、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C7%DF%BC%F2">梅酒</a>５杯<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%ED%A5%C3%A5%AF">ロック</a>で空けたら<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B5%DE%C0%AD%A5%A2%A5%EB%A5%B3%A1%BC%A5%EB%C3%E6%C6%C7">急性アルコール中毒</a>気味に体温下がるわ冷や汗止<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A4%DE%A4%E9">まら</a>ないわで、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B5%DF%B5%DE%BC%D6">救急車</a>呼ぶ騒ぎに為りかけたのは、</p>
+			<p>俺の周りで飲んでた数名だけの<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C8%EB%CC%A9">秘密</a>・・・（汗）</p>
+			<p>疲れてる時の酒はもう辞めるよ・・・</p>
+			<br>
+
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%B2%E8%C1%FC">画像</a>レポでは、</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175330" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175330.jpg" alt="f:id:Dakatsu:20121005175330j:image:w360" title="f:id:Dakatsu:20121005175330j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p>神祖な<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B1%A5%D3%A5%F3">ケビン</a>氏と</p>
+			<br>
+
+			<p>人面装備の菊地先生</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175308" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175308.jpg" alt="f:id:Dakatsu:20121005175308j:image:w360" title="f:id:Dakatsu:20121005175308j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<br>
+
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A4%A5%D9%A5%F3%A5%C8">イベント</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%EC%A5%DD%A1%BC%A5%C8">レポート</a>はこちらの方々がとても分り易く、且つ克明に記されているので。</p>
+			<p>鷹木骰子　様</p>
+			<p><a href="http://happy.ap.teacup.com/applet/gogofalmin/20120928/archive" target="_blank">http://happy.ap.teacup.com/applet/gogofalmin/20120928/archive</a></p>
+			<p>DUNE　様</p>
+			<p><a href="http://duneday.exblog.jp/16910357/" target="_blank">http://duneday.exblog.jp/16910357/</a></p>
+			<br>
+
+			<br>
+
+			<p>参加された方々お疲れ様。</p>
+			<p>次は忘年怪でお会いしませう。</p>
+			<p class="sectionfooter"><a href="/Dakatsu/20121005/p1">Permalink</a></p>
+
+		</div>
+
+<!-- google_ad_section_end -->
+<!-- rakuten_ad_target_end -->
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+<div class="day">
+<h2><a href="http://d.hatena.ne.jp/Dakatsu/20121004" rel="nofollow"><span class="date">12年10月04日</span></a> <span class="title">人面瘡ver“K”制作・後編</span></h2>
+
+<div class="body">
+
+<!-- rakuten_ad_target_begin -->
+<!-- google_ad_section_start -->
+
+		<div class="section">
+			<h3><a href="/Dakatsu/20121004/p1" name="p1"><span class="sanchor">■</span></a>[<a href="/Dakatsu/searchdiary?word=%2A%5B%C5%CC%C1%B3%C0%A9%BA%EE%B5%AD%5D" class="sectioncategory">徒然制作記</a>]</h3>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+			<p>続き。</p>
+			<br>
+
+			<p>２次原型を<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B7%A5%EA%A5%B3%A1%BC%A5%F3">シリコーン</a>で型取り。</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A4%BD%A4%EC%A4%AB%A4%E9">それから</a>更に型を取る。</p>
+			<p>計２個のシリコーン型が出来た。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005205614" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005205614.jpg" alt="f:id:Dakatsu:20121005205614j:image:w360" title="f:id:Dakatsu:20121005205614j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>会場配布の量的には５０個有れば足りるとの事なので、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B5%A5%AF%A5%B5%A5%AF">サクサク</a>量産する。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175315" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175315.jpg" alt="f:id:Dakatsu:20121005175315j:image:w360" title="f:id:Dakatsu:20121005175315j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175316" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175316.jpg" alt="f:id:Dakatsu:20121005175316j:image:w360" title="f:id:Dakatsu:20121005175316j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%EC%A5%B8%A5%F3">レジン</a>の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B1%A5%DF%A5%AB%A5%EB">ケミカル</a>臭で換気しても<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C6%AC%C4%CB">頭痛</a>くなる。</p>
+			<p>因みに<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B2%E8%C1%FC">画像</a>下の方に見える青いのは、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D6%A5%EB%A1%BC">ブルー</a>ミックスで取った<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B4%E3%B6%C0">眼鏡</a>の型。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175314" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175314.jpg" alt="f:id:Dakatsu:20121005175314j:image:w360" title="f:id:Dakatsu:20121005175314j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>画像は無いが眼鏡の形で悩んだ。</p>
+			<p>当初は<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D7%A5%E9%C8%C4">プラ板</a>切り抜いたまんまのモノで行こうと画策し<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%A9%BA%EE">制作</a>してみたが、味気無さ過ぎて<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B4%E1%B6%F1">玩具</a>みたいに見えた。</p>
+			<p>プラ版を細切りにして<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%CF%A5%AC%A5%EC%A5%F3">ハガレン</a>の錬成跡みたいにもしてみたが何か違う。</p>
+			<p>最終的には、プラ版で<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D9%A1%BC%A5%B9">ベース</a>を作り、糸ハンダ（３mm）を<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%B9%A5%D5%A5%A1%A5%EB%A5%C8">アスファルト</a>の上に置き、木槌で叩いて<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C6%A5%AF%A5%B9%A5%C1%A5%E3">テクスチャ</a>を写し、ソレをベースに貼り付ける<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CA%FD%CB%A1">方法</a>にした。</p>
+			<p>コレは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B2%E1%B5%EE">過去</a>に“D”の肩当ての原型制作時にも使用した方法で、有機的な<a class="keyword" href="http://d.hatena.ne.jp/keyword/%CC%CC%C7%F2%A4%A4">面白い</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%C9%BD%B8%BD">表現</a>が出来る。</p>
+			<p>そんなこんなでレジンに置換した後、リューターで調整</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175319" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175319.jpg" alt="f:id:Dakatsu:20121005175319j:image:w360" title="f:id:Dakatsu:20121005175319j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>型を取り、量産。</p>
+			<p>それ等をプラ版に均等間隔で接着</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005205610" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005205610.jpg" alt="f:id:Dakatsu:20121005205610j:image:w360" title="f:id:Dakatsu:20121005205610j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>量産用の型完成。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005205611" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005205611.jpg" alt="f:id:Dakatsu:20121005205611j:image:w360" title="f:id:Dakatsu:20121005205611j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>人面も量産</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175317" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175317.jpg" alt="f:id:Dakatsu:20121005175317j:image:w360" title="f:id:Dakatsu:20121005175317j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>量産・・・</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005203547" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005203547.jpg" alt="f:id:Dakatsu:20121005203547j:image:w360" title="f:id:Dakatsu:20121005203547j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>４８個複製した時点でレジンが尽きた。</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%BB%FE%B4%D6">時間</a>が余り無かったし、何より<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B6%E2%A4%E2">金も</a>無い。</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/Amazon">Amazon</a>で注文。</p>
+			<p>翌日に届く。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175318" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175318.jpg" alt="f:id:Dakatsu:20121005175318j:image:w360" title="f:id:Dakatsu:20121005175318j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>で、複製。</p>
+			<p>だが。</p>
+			<p>色が違う・・・</p>
+			<p>左：<a class="keyword" href="http://d.hatena.ne.jp/keyword/Be%2DJ">Be-J</a></p>
+			<p>右：<a class="keyword" href="http://d.hatena.ne.jp/keyword/wave">wave</a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175321" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175321.jpg" alt="f:id:Dakatsu:20121005175321j:image:w360" title="f:id:Dakatsu:20121005175321j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>「色が違くても文句言う奴は居ないだろ〜」</p>
+			<p>と、思いつつ１２個複製した時点で、</p>
+			<p>「記念企画だったら皆同じ方が良いよな…」</p>
+			<p>と、思い。</p>
+			<br>
+
+			<p>Be-Jレジン注文。</p>
+			<br>
+
+			<p>届くまでの間に眼鏡の複製を進める。</p>
+			<p>今回制作した型は複製の楽さから平面。</p>
+			<p>そのままでは人面の顔には着けられない。</p>
+			<p>なので、複製後の硬化熱発生中の気持ち柔かい状態の時に先に複製しておいた人面に合わせて曲げ、</p>
+			<p>硬化終了迄<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%DE%A5%B9%A5%AD%A5%F3%A5%B0%A5%C6%A1%BC%A5%D7">マスキングテープ</a>で固定。</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%BF%A5%E2%A4%B5%A4%F3">タモさん</a>ではない。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175324" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175324.jpg" alt="f:id:Dakatsu:20121005175324j:image:w360" title="f:id:Dakatsu:20121005175324j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>硬化後の眼鏡から<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D0%A5%EA">バリ</a>を一つ一つ<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A2%A1%BC%A5%C8">アート</a><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%CA%A5%A4%A5%D5">ナイフ</a>、リューター、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B5%A5%F3%A5%C9">サンド</a>ペーパーで取る。</p>
+			<p>今回の作業で１番面倒だった・・・</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175325" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175325.jpg" alt="f:id:Dakatsu:20121005175325j:image:w360" title="f:id:Dakatsu:20121005175325j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175312" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175312.jpg" alt="f:id:Dakatsu:20121005175312j:image:w360" title="f:id:Dakatsu:20121005175312j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>人面を複製した際に出る鋭いバリ。</p>
+			<p>このまま掌に着けたら怪我の恐れが・・・</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005205612" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005205612.jpg" alt="f:id:Dakatsu:20121005205612j:image:w360" title="f:id:Dakatsu:20121005205612j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>なので、アートナイフとサンドペーパーで削る。</p>
+			<p>凄く地味で疲れる。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005205613" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005205613.jpg" alt="f:id:Dakatsu:20121005205613j:image:w360" title="f:id:Dakatsu:20121005205613j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>掌に取り付ける為の穴（<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B4%A5%E0">ゴム</a>糸を通す為）をリューターで空ける。</p>
+			<p>人面１個につき４穴。</p>
+			<p>４個の人面に穴を空けるとリューターのモーターが熱でやばそう・・・</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%B5%D9%A4%DF">休み</a>休み穴開け。</p>
+			<p>削り粉も凄いので、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C1%DD%BD%FC%B5%A1">掃除機</a>を弱にかけてその前で穴明け。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175313" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175313.jpg" alt="f:id:Dakatsu:20121005175313j:image:w360" title="f:id:Dakatsu:20121005175313j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>試しに１つ組んで装着。</p>
+			<p>良い感じ。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005203549" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005203549.jpg" alt="f:id:Dakatsu:20121005203549j:image:w360" title="f:id:Dakatsu:20121005203549j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005203550" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005203550.jpg" alt="f:id:Dakatsu:20121005203550j:image:w360" title="f:id:Dakatsu:20121005203550j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>眼鏡の接着はコレ</p>
+			<div class="hatena-asin-detail">
+  <a href="http://www.amazon.co.jp/dp/B000TGNRYQ/?tag=hatena_st1-22&ascsubtag=d-2auz"><img src="http://ecx.images-amazon.com/images/I/51vyFyVk5fL._SL160_.jpg" class="hatena-asin-detail-image" alt="ボンド アロンアルフア プロ用耐衝撃 20g #31701" title="ボンド アロンアルフア プロ用耐衝撃 20g #31701"></a>
+  <div class="hatena-asin-detail-info">
+    <p class="hatena-asin-detail-title"><a href="http://www.amazon.co.jp/dp/B000TGNRYQ/?tag=hatena_st1-22&ascsubtag=d-2auz">ボンド アロンアルフア プロ用耐衝撃 20g #31701</a></p>
+    <ul>
+      
+      <li><span class="hatena-asin-detail-label">出版社/メーカー:</span> <a href="http://d.hatena.ne.jp/keyword/%A5%B3%A5%CB%A5%B7" class="keyword">コニシ</a></li>
+                                                      <li><span class="hatena-asin-detail-label">メディア:</span> Tools & Hardware</li>
+      <li><span class="hatena-asin-detail-label">購入</span>: 9人 <span class="hatena-asin-detail-label">クリック</span>: 13回</li>
+      <li><a href="http://d.hatena.ne.jp/asin/B000TGNRYQ" target="_blank">この商品を含むブログ (7件) を見る</a></li>
+    </ul>
+  </div>
+  <div class="hatena-asin-detail-foot"></div>
+</div>
+
+			<p>コレを硬化促進剤を使いつつ接着。</p>
+			<p>白く曇った箇所は<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%DA%A5%F3">ペン</a>で修正。</p>
+			<p>その後ゴム糸を通し、コレで解れ止め</p>
+			<a href="http://d.hatena.ne.jp/asin/B002KL0OOE">[asin:B002KL0OOE:detail]</a>
+			<p>そんなこんなで９月２８日（当日の）１４時に完成。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175328" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175328.jpg" alt="f:id:Dakatsu:20121005175328j:image:w360" title="f:id:Dakatsu:20121005175328j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175329" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175329.jpg" alt="f:id:Dakatsu:20121005175329j:image:w360" title="f:id:Dakatsu:20121005175329j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>数が５０個無い様に見えるだろうが、</p>
+			<p>１部は既に包装作業に入っていた。</p>
+			<p>前日の夜に<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B7%A5%E2%A5%B8%A5%DE">シモジマ</a>ヤで物色しておいた。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175327" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175327.jpg" alt="f:id:Dakatsu:20121005175327j:image:w360" title="f:id:Dakatsu:20121005175327j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>そんなこんなで、企画無事終了。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175308" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175308.jpg" alt="f:id:Dakatsu:20121005175308j:image:w360" title="f:id:Dakatsu:20121005175308j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%BC%AB%CA%AC">自分</a>の制作物に<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B5%A5%A4%A5%F3">サイン</a>貰うのは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B2%BF%A4%C0%A4%AB">何だか</a>な〜とか思っていたが、皆貰っていたので便乗。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005205600" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005205600.jpg" alt="f:id:Dakatsu:20121005205600j:image:w360" title="f:id:Dakatsu:20121005205600j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%BA%C7%BD%E9">最初</a>から<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BA%C7%B8%E5">最後</a>まで俺独りで頑張った！！！</p>
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<p>オマケ。</p>
+			<br>
+
+			<p>遊んでみた。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005205604" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005205604.jpg" alt="f:id:Dakatsu:20121005205604j:image:w360" title="f:id:Dakatsu:20121005205604j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005205603" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005205603.jpg" alt="f:id:Dakatsu:20121005205603j:image:w360" title="f:id:Dakatsu:20121005205603j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005205605" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005205605.jpg" alt="f:id:Dakatsu:20121005205605j:image:w360" title="f:id:Dakatsu:20121005205605j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<br>
+
+			<p>更に塗装に拘ってみた。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005205608" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005205608.jpg" alt="f:id:Dakatsu:20121005205608j:image:w360" title="f:id:Dakatsu:20121005205608j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005205606" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005205606.jpg" alt="f:id:Dakatsu:20121005205606j:image:w360" title="f:id:Dakatsu:20121005205606j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p class="sectionfooter"><a href="/Dakatsu/20121004/p1">Permalink</a></p>
+
+		</div>
+
+<!-- google_ad_section_end -->
+<!-- rakuten_ad_target_end -->
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+<div class="day">
+<h2><a href="http://d.hatena.ne.jp/Dakatsu/20121003" rel="nofollow"><span class="date">12年10月03日</span></a> <span class="title">人面瘡ver“K”制作・中編</span></h2>
+
+<div class="body">
+
+<!-- rakuten_ad_target_begin -->
+<!-- google_ad_section_start -->
+
+		<div class="section">
+			<h3><a href="/Dakatsu/20121003/p1" name="p1"><span class="sanchor">■</span></a>[<a href="/Dakatsu/searchdiary?word=%2A%5B%C5%CC%C1%B3%C0%A9%BA%EE%B5%AD%5D" class="sectioncategory">徒然制作記</a>]</h3>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%A9%BA%EE">制作</a>編。</p>
+			<br>
+
+			<p>制作するに辺り、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B2%E8%C1%FC">画像</a>資料を探す。</p>
+			<br>
+
+			<p>丁度手元にコレがあり。</p>
+			<div class="hatena-asin-detail">
+  <a href="http://www.amazon.co.jp/dp/479620377X/?tag=hatena_st1-22&ascsubtag=d-2auz"><img src="http://ecx.images-amazon.com/images/I/5138P5TY9GL._SL160_.jpg" class="hatena-asin-detail-image" alt="菊地秀行解体新書" title="菊地秀行解体新書"></a>
+  <div class="hatena-asin-detail-info">
+    <p class="hatena-asin-detail-title"><a href="http://www.amazon.co.jp/dp/479620377X/?tag=hatena_st1-22&ascsubtag=d-2auz">菊地秀行解体新書</a></p>
+    <ul>
+      
+      <li><span class="hatena-asin-detail-label">作者:</span> <a href="http://d.hatena.ne.jp/keyword/%B5%C6%C3%CF%BD%A8%B9%D4%B3%D8%B2%F1" class="keyword">菊地秀行学会</a>,<a href="http://d.hatena.ne.jp/keyword/%C1%B4%C6%FC%CB%DC%B5%C6%C3%CF%BD%A8%B9%D4%A5%D5%A5%A1%A5%F3%A5%AF%A5%E9%A5%D6" class="keyword">全日本菊地秀行ファンクラブ</a></li>
+      
+      <li><span class="hatena-asin-detail-label">出版社/メーカー:</span> <a href="http://d.hatena.ne.jp/keyword/%A5%B9%A5%B3%A5%E9" class="keyword">スコラ</a></li>
+      
+      <li><span class="hatena-asin-detail-label">発売日:</span> 1996/04</li>
+                                                      <li><span class="hatena-asin-detail-label">メディア:</span> 単行本</li>
+      
+      <li><a href="http://d.hatena.ne.jp/asin/479620377X" target="_blank">この商品を含むブログを見る</a></li>
+    </ul>
+  </div>
+  <div class="hatena-asin-detail-foot"></div>
+</div>
+
+			<p>菊地<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%E8%C0%B8">先生</a>の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BC%CC%BF%BF">写真</a>が掲載されていて、資料として良い。</p>
+			<p>横顔とか無いけどな。</p>
+			<br>
+
+			<p>コレの画像を参考に、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B7%A5%EA%A5%B3%A1%BC%A5%F3">シリコーン</a>離れが良く何時でも型抜き作業が出来る様に常に</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%BA%DF%B8%CB">在庫</a>があるコレで作る。</p>
+			<div class="hatena-asin-detail">
+  <a href="http://www.amazon.co.jp/dp/B0019R539Q/?tag=hatena_st1-22&ascsubtag=d-2auz"><img src="http://ecx.images-amazon.com/images/I/41HXDt5psyL._SL160_.jpg" class="hatena-asin-detail-image" alt="保育ねんど　500g" title="保育ねんど　500g"></a>
+  <div class="hatena-asin-detail-info">
+    <p class="hatena-asin-detail-title"><a href="http://www.amazon.co.jp/dp/B0019R539Q/?tag=hatena_st1-22&ascsubtag=d-2auz">保育ねんど　500g</a></p>
+    <ul>
+      
+      <li><span class="hatena-asin-detail-label">出版社/メーカー:</span> <a href="http://d.hatena.ne.jp/keyword/%C3%E6%C9%F4%C5%C5%BC%A7%B4%EF%B9%A9%B6%C8%A1%CA%B3%F4%A1%CB" class="keyword">中部電磁器工業（株）</a></li>
+                                                      <li><span class="hatena-asin-detail-label">メディア:</span> おもちゃ＆ホビー</li>
+      <li> <span class="hatena-asin-detail-label">クリック</span>: 1回</li>
+      <li><a href="http://d.hatena.ne.jp/asin/B0019R539Q" target="_blank">この商品を含むブログを見る</a></li>
+    </ul>
+  </div>
+  <div class="hatena-asin-detail-foot"></div>
+</div>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A4%E2%A4%C3%A4%C8">もっと</a>造形使い易い油<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C7%B4%C5%DA">粘土</a>は他にも有るが、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%EC%A5%B8%A5%F3">レジン</a>に置換するし何より特性を理解しているコレで行く事に。</p>
+			<br>
+
+			<p>己の掌で大きさ調整。</p>
+			<p>目玉に<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B6%E2%C2%B0">金属</a>球を入れ、爪楊枝で形を調整</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175342" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175342.jpg" alt="f:id:Dakatsu:20121005175342j:image:w360" title="f:id:Dakatsu:20121005175342j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<br>
+
+			<p>爪楊枝で形を探る。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175343" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175343.jpg" alt="f:id:Dakatsu:20121005175343j:image:w360" title="f:id:Dakatsu:20121005175343j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175344" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175344.jpg" alt="f:id:Dakatsu:20121005175344j:image:w360" title="f:id:Dakatsu:20121005175344j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%C8%FD%CC%D3">眉毛</a>入れたが、何か違う。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175346" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175346.jpg" alt="f:id:Dakatsu:20121005175346j:image:w360" title="f:id:Dakatsu:20121005175346j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B3%A1%BC%A5%EB">アルコール</a>で表面溶かす。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175347" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175347.jpg" alt="f:id:Dakatsu:20121005175347j:image:w360" title="f:id:Dakatsu:20121005175347j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<br>
+
+			<p>顎と唇を調整。眉毛迷走中。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175349" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175349.jpg" alt="f:id:Dakatsu:20121005175349j:image:w360" title="f:id:Dakatsu:20121005175349j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<br>
+
+			<p>目玉を埋めたら何か見えてきた。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175353" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175353.jpg" alt="f:id:Dakatsu:20121005175353j:image:w360" title="f:id:Dakatsu:20121005175353j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<br>
+
+			<p>人の顔になってきたが、菊地先生ではない</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175354" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175354.jpg" alt="f:id:Dakatsu:20121005175354j:image:w360" title="f:id:Dakatsu:20121005175354j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175355" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175355.jpg" alt="f:id:Dakatsu:20121005175355j:image:w360" title="f:id:Dakatsu:20121005175355j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<br>
+
+			<p>取りあえず、掌から浮き出てきた<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C9%BD%B8%BD">表現</a>を加える。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175356" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175356.jpg" alt="f:id:Dakatsu:20121005175356j:image:w360" title="f:id:Dakatsu:20121005175356j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175358" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175358.jpg" alt="f:id:Dakatsu:20121005175358j:image:w360" title="f:id:Dakatsu:20121005175358j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>分厚くなり過ぎた気がしてきたので、縫糸で切断。</p>
+			<p>近くにあった<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C0%A5%F3%A5%DC%A1%BC%A5%EB">ダンボール</a>に移し、目を入れてみた。</p>
+			<p>不気味。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175401" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175401.jpg" alt="f:id:Dakatsu:20121005175401j:image:w360" title="f:id:Dakatsu:20121005175401j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>横顔の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B9%BD%C2%A4">構造</a>が分らなかったので、５月の<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C8%A1%BC%A5%AF%A5%E9%A5%A4%A5%D6">トークライブ</a>時に<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B9%A5%B1%A5%C3%A5%C1">スケッチ</a>したものを参考に調整。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175334" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175334.jpg" alt="f:id:Dakatsu:20121005175334j:image:w360" title="f:id:Dakatsu:20121005175334j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>この油粘土では細かい所の作り込みがし辛くなってきたので、レジンに置換。</p>
+			<p>コレから２次原型<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%BD%BA%EE">製作</a>に入る。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175407" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175407.jpg" alt="f:id:Dakatsu:20121005175407j:image:w360" title="f:id:Dakatsu:20121005175407j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>厚みがガタガタだったので、エポキシパテで調整。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175338" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175338.jpg" alt="f:id:Dakatsu:20121005175338j:image:w360" title="f:id:Dakatsu:20121005175338j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>この辺りでトークライブ<a class="keyword" href="http://d.hatena.ne.jp/keyword/%BE%EF%CF%A2">常連</a>陣に監修がてら画像送信。</p>
+			<p>「<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B4%E3%B6%C0">眼鏡</a>どうするの？」と言われ、取敢えず紙で作ってみる。</p>
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%C9%AC%CD%D7">必要</a>・・・なのか・・・</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175336" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175336.jpg" alt="f:id:Dakatsu:20121005175336j:image:w360" title="f:id:Dakatsu:20121005175336j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>７月のトークライブに持って行き、生の声を聞く。</p>
+			<p>この辺りから溶きパテを厚く塗ってリューター・<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C4%A6%B9%EF">彫刻</a>刀で造形し、溶きパテを筆で<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%B9%A4%EA%C9%D5%A4%B1">盛り付け</a>更に造形。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175322" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175322.jpg" alt="f:id:Dakatsu:20121005175322j:image:w360" title="f:id:Dakatsu:20121005175322j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175320" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175320.jpg" alt="f:id:Dakatsu:20121005175320j:image:w360" title="f:id:Dakatsu:20121005175320j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B5%A1%BC%A5%D5%A5%A7%A5%A4%A5%B5%A1%BC">サーフェイサー</a>を噴いて確認＆下地処理。</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005175323" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005175323.jpg" alt="f:id:Dakatsu:20121005175323j:image:w360" title="f:id:Dakatsu:20121005175323j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<p>２次原型完成。</p>
+			<p>（これは型取り後、眼鏡制作時の台にしていたので<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%DC%C3%E5%BA%DE">接着剤</a>等で表面荒れている）</p>
+			<p><a href="http://f.hatena.ne.jp/Dakatsu/20121005210301" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/D/Dakatsu/20121005/20121005210301.jpg" alt="f:id:Dakatsu:20121005210301j:image:w360" title="f:id:Dakatsu:20121005210301j:image:w360" class="hatena-fotolife" width="360"></a></p>
+			<br>
+
+			<br>
+
+			<br>
+
+			<p>後編・複製編に続く。</p>
+			<p class="sectionfooter"><a href="/Dakatsu/20121003/p1">Permalink</a></p>
+
+		</div>
+
+<!-- google_ad_section_end -->
+<!-- rakuten_ad_target_end -->
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+<div class="calendar" id="pager-bottom">
+  <a rel="prev" href="/Dakatsu/?of=7" class="prev">&lt;前の7日分</a>&nbsp;
+</div>
+</div>
+<div class="sidebar">
+	<div class="hatena-module hatena-module-calendar2">
+<div class="hatena-moduletitle">カレンダー</div>
+<div class="hatena-modulebody">
+<table class="calendar" summary="calendar">
+<tr>
+<td class="calendar-prev-month" colspan="2"><a href="/Dakatsu/201601" title="201601" rel="nofollow">&lt;&lt;</a></td>
+<td class="calendar-current-month" colspan="3"><a href="/Dakatsu/archive/201602" rel="nofollow">2016/02</a></td>
+<td class="calendar-next-month" colspan="2"><a href="/Dakatsu/201603" title="201603" rel="nofollow">&gt;&gt;</a></td>
+</tr>
+<tr>
+<td class="calendar-sunday">日</td>
+<td class="calendar-weekday">月</td>
+<td class="calendar-weekday">火</td>
+<td class="calendar-weekday">水</td>
+<td class="calendar-weekday">木</td>
+<td class="calendar-weekday">金</td>
+<td class="calendar-saturday">土</td>
+</tr>
+	<tr>
+		<td class="calendar-day"></td>
+		<td class="calendar-day">1</td>
+		<td class="calendar-day">2</td>
+		<td class="calendar-day">3</td>
+		<td class="calendar-day">4</td>
+		<td class="calendar-day">5</td>
+		<td class="calendar-day">6</td>
+	</tr>
+	<tr>
+		<td class="calendar-day">7</td>
+		<td class="calendar-day">8</td>
+		<td class="calendar-day">9</td>
+		<td class="calendar-day">10</td>
+		<td class="calendar-day">11</td>
+		<td class="calendar-day">12</td>
+		<td class="calendar-day">13</td>
+	</tr>
+	<tr>
+		<td class="calendar-day">14</td>
+		<td class="calendar-day">15</td>
+		<td class="calendar-day">16</td>
+		<td class="calendar-day">17</td>
+		<td class="calendar-day">18</td>
+		<td class="calendar-day day-today">19</td>
+		<td class="calendar-day">20</td>
+	</tr>
+	<tr>
+		<td class="calendar-day">21</td>
+		<td class="calendar-day">22</td>
+		<td class="calendar-day">23</td>
+		<td class="calendar-day">24</td>
+		<td class="calendar-day">25</td>
+		<td class="calendar-day">26</td>
+		<td class="calendar-day">27</td>
+	</tr>
+	<tr>
+		<td class="calendar-day">28</td>
+		<td class="calendar-day">29</td>
+		<td class="calendar-day"></td>
+		<td class="calendar-day"></td>
+		<td class="calendar-day"></td>
+		<td class="calendar-day"></td>
+		<td class="calendar-day"></td>
+	</tr>
+</table>
+	</div>
+</div>
+
+	<div class="hatena-module hatena-module-sectioncategory">
+<div class="hatena-moduletitle">カテゴリー</div>
+<div class="hatena-modulebody">
+<ul class="hatena-sectioncategory">
+<li><a href="/Dakatsu/searchdiary?word=%2A%5B%C5%CC%C1%B3%5D">徒然</a></li>
+<li><a href="/Dakatsu/searchdiary?word=%2A%5B%C5%CC%C1%B3%C0%A9%BA%EE%B5%AD%5D">徒然制作記</a></li>
+<li><a href="/Dakatsu/searchdiary?word=%2A%5B%A5%A4%A5%D9%A5%F3%A5%C8%A1%A6%BB%A3%B1%C6%B2%F1%5D">イベント・撮影会</a></li>
+<li><a href="/Dakatsu/searchdiary?word=%2A%5B%B3%D7%A1%A6%B9%A9%BA%EE%5D">革・工作</a></li>
+<li><a href="/Dakatsu/searchdiary?word=%2A%5B%A1%C8%A3%C4%A1%C9%20%C0%A9%BA%EE%B5%AD%A1%A6%C9%FE%BE%FE%CA%D4%5D">“Ｄ” 制作記・服飾編</a></li>
+<li><a href="/Dakatsu/searchdiary?word=%2A%5B%A1%C8%A3%C4%A1%C9%20%C0%A9%BA%EE%B5%AD%A1%A6%C2%A4%B7%C1%CA%D4%5D">“Ｄ” 制作記・造形編</a></li>
+<li><a href="/Dakatsu/searchdiary?word=%2A%5B%A5%ED%A5%C3%A5%AF%A1%A6%A5%B3%A1%BC%A5%EB%C0%A9%BA%EE%B5%AD%A1%A6%C9%FE%BE%FE%CA%D4%20%5D">ロック・コール制作記・服飾編 </a></li>
+<li><a href="/Dakatsu/searchdiary?word=%2A%5B%A5%D0%A5%A4%A5%ED%A5%F3%A1%A6%A5%D0%A5%E9%A1%BC%A5%B8%A5%E5%C0%A9%BA%EE%B5%AD%5D">バイロン・バラージュ制作記</a></li>
+<li><a href="/Dakatsu/searchdiary?word=%2A%5B%A5%DF%A5%B9%A5%AB%C0%A9%BA%EE%B5%AD%5D">ミスカ制作記</a></li>
+<li><a href="/Dakatsu/searchdiary?word=%2A%5B%A1%A9%A1%A9%A1%A9%C0%A9%BA%EE%B5%AD%5D">？？？制作記</a></li>
+</ul>
+</div>
+</div>
+
+	<div class="hatena-module hatena-module-profile">
+  <div class="hatena-moduletitle">プロフィール</div>
+  <div class="hatena-modulebody">
+    <div class="hatena-profile">
+      <p class="hatena-profile-image"><a href="/Dakatsu/about"><img src="http://www.st-hatena.com/users/Da/Dakatsu/user_p.gif" alt="Dakatsu" /></a></p>
+      <p class="hatena-profile-id"><a href="/Dakatsu/about">Dakatsu</a> <a href="/Dakatsu/about"><img src="/images/icon-plus.gif" alt="はてなダイアリープラス利用中" class="icon-plus" /></a></p>
+      <p class="hatena-profile-body">Dakatsuの蛇蠍な遊戯室</p>
+    </div>
+  </div>
+</div>
+
+	<div class="hatena-clock">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="125" height="25" id="clock" align="center">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="http://d.hatena.ne.jp/tools/clock-lcd-black.swf" />
+<param name="quality" value="high" />
+<param name="bgcolor" value="#ffffff" />
+<param name="wmode" value="transparent">
+<param name="FlashVars" value="color=0x000000">
+<embed src="http://d.hatena.ne.jp/tools/clock-lcd-black.swf" FlashVars="color=0x000000" wmode="transparent" quality="high" bgcolor="#ffffff" width="125" height="25" name="clock" align="center" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+</div>
+
+	<div class="hatena-module hatena-module-counter">
+<div class="hatena-moduletitle">カウンター</div>
+<div class="hatena-modulebody">
+<span class="hatena-counter"><script type="text/javascript"><!--
+    hatena_counter_name = "Dakatsu";
+    hatena_counter_id = "1";
+    hatena_counter_ref = document.referrer+"";
+    hatena_counter_screen = screen.width + "x" + screen.height+","+screen.colorDepth;
+//--></script>
+<script type="text/javascript" src="http://counter.hatena.ne.jp//js/counter.js"></script>
+<noscript><img src="http://counter.hatena.ne.jp/Dakatsu/1" border="0" alt="counter"></noscript>
+</span>
+</div>
+</div>
+
+	<div class="hatena-module">
+	<div class="hatena-moduletitle">リンク集</div>
+	<div class="hatena-modulebody">
+	<ul class="hatena-urllist">
+	<li><a href="http://www1.kamakuranet.ne.jp/sankaido//">山海堂</a></li>
+	<li><a href="http://fete.cside.com/ferio/">日々是造形</a></li>
+	<li><a href="http://d.hatena.ne.jp/Dakatsu-Dou/">蛇蠍堂</a></li>
+	</ul>
+	</div>
+	</div>
+</div>
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  var days = document.getElementById('days');
+  if (days && days.innerHTML.indexOf("今週のお題") != -1) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'odai', 3]);
+  }
+
+  if (days && /\u4eca\u9031\u306e\u304a\u984c/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'odai', 3]);
+  }
+
+  if (days && /ScanSnap\u7279\u5225\u30e2\u30c7\u30eb\u30fb\u30d6\u30ed\u30b0\u3067\u5ba3\u4f1d\u30b3\u30f3\u30c6\u30b9\u30c8/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'scansnap1401bcn4ssacro', 3]);
+  }
+
+  if (days && /Presso\u4f7f\u3063\u3066\u307f\u305f/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'presso1404', 3]);
+  }
+
+  if (days && /CodeIQ\u306e\u554f\u984c\u30fb\u30d1\u30ba\u30eb\u3092\u8003\u3048\u3088\u3046\uff01/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'codeiq_matsuri2013_2_2', 3]);
+  }
+
+  if (days && /2013\u5e74\u306b\u3084\u308a\u305f\u3044\u3053\u3068/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'newyear2013', 3]);
+  }
+
+  if (days && /2012\u5e74\u30dc\u30c4\u738b\u6c7a\u5b9a\u6226\uff01\u30d5\u30eb\u30bf\u88fd\u83d3\ud7\u306f\u3066\u306a\u30d6\u30ed\u30b0\u304a\u984c\u30ad\u30e3\u30f3\u30da\u30fc\u30f3/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'furuta', 3]);
+  }
+
+  if (days && /\u300c\u884c\u3063\u3066\u307f\u305f\u3044\u304a\u5e97\u30fb\u30ec\u30b9\u30c8\u30e9\u30f3\u300d/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'gnavi201512', 3]);
+  }
+
+  if (days && /\u6d77\u5916\u30c9\u30e9\u30de\u300e\u30e9\u30a4\u30fb\u30c8\u30a5\u30fb\u30df\u30fc \u5618\u306e\u77ac\u9593\u300f\u89b3\u305f\u3044\uff01|\u300e\u30e9\u30a4\u30fb\u30c8\u30a5\u30fb\u30df\u30fc \u5618\u306e\u77ac\u9593\u300f\u7b2c1\u8a71\u306e\u611f\u60f3\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044|\u4eca\u3060\u304b\u3089\u8a00\u3048\u308b\u300c\u5618\u3092\u3064\u3044\u3066\u3057\u307e\u3063\u305f\u30a8\u30d4\u30bd\u30fc\u30c9\u300d\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044|\u3060\u307e\u3055\u308c\u305f\u3051\u3069\u3001\u8a31\u305b\u3066\u3057\u307e\u3063\u305f\u5618\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'lietome', 3]);
+  }
+
+  if (days && /\u30de\u30a4\u30d9\u30b9\u30c8\u30bd\u30f3\u30b02013/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'mybestsong2013', 3]);
+  }
+
+  if (days && /\u7d0d\u6dbc\uff01\u307b\u3093\u3068\u306b\u3042\u3063\u305f\u6016\u3044\u30b3\u30fc\u30c9/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'codeiq_matsuri2013_2_1', 3]);
+  }
+
+  if (days && /\u590f\u306e\u5199\u771f2013/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'photocon2013summer', 3]);
+  }
+
+  if (days && /Windows\/Office\u6b66\u52c7\u4f1d/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'WindowsDevOpen', 3]);
+  }
+
+  if (days && /Visa\u30d7\u30ea\u30da\u30a4\u30c9\u300cV\u30d7\u30ea\u30ab\u300d\u8a66\u3057\u305f\u3044\uff01|Visa\u30d7\u30ea\u30da\u30a4\u30c9\u300cV\u30d7\u30ea\u30ab\u300d\u3001\u81ea\u5206\u306a\u3089\u3053\u3046\u4f7f\u3046\uff01|V\u30d7\u30ea\u30ab\u304c1\u4e07\u5186\u5206\u3042\u3063\u305f\u3089\u3001\u30cd\u30c3\u30c8\u3067\u4f55\u3092\u8cb7\u3044\u307e\u3059\u304b\uff1f/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'vpreca', 3]);
+  }
+
+  if (days && /\u300c\u79c1\u306f\u3007\u3007\u738b\uff01\u300d\u30d0\u30a4\u30af\u738b\ud7\u306f\u3066\u306a\u30d6\u30ed\u30b0\u304a\u984c\u30ad\u30e3\u30f3\u30da\u30fc\u30f3/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'bike-o', 3]);
+  }
+
+  if (days && /\u30a2\u30a4\u30c7\u30e0 \u30a8\u30f3\u30b8\u30cb\u30a2\u30ad\u30e3\u30ea\u30a2Hacks\u5171\u6709\u30d7\u30ed\u30b8\u30a7\u30af\u30c8|\u30a8\u30f3\u30b8\u30cb\u30a2\u3068\u3057\u3066\u306e\u3001\u3068\u3063\u3066\u304a\u304d\u306e\u30ad\u30e3\u30ea\u30a2Hacks\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044|\u3042\u306a\u305f\u304c\u30a8\u30f3\u30b8\u30cb\u30a2\u8ee2\u8077\u30b5\u30a4\u30c8\u3092\u4f5c\u308b\u306a\u3089\u3001\u3069\u3093\u306a\u30b5\u30a4\u30c8\u306b\u3057\u307e\u3059\u304b\uff1f|5\u5e74\u5f8c\u306e\u300c\u30a8\u30f3\u30b8\u30cb\u30a2\u306e\u50cd\u304d\u65b9\u300d\u306f\u3001\u3069\u3046\u5909\u308f\u3063\u3066\u3044\u3066\u307b\u3057\u3044\u3067\u3059\u304b\uff1f/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'aidemcareer', 3]);
+  }
+
+  if (days && /\u306f\u3066\u306a\u30c0\u30a4\u30a2\u30ea\u30fc10\u5468\u5e74\u304a\u3081\u3067\u3068\u3046\uff01/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'hatenadiary10th', 3]);
+  }
+
+  if (days && /\u3086\u304f\u5e74\u304f\u308b\u5e742015/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', '2014-2015campaign', 3]);
+  }
+
+  if (days && /\u8aad\u307f\u653e\u984c\u3067\u30b3\u30b9\u30d1\u3088\u3057\uff01\u96fb\u5b50\u66f8\u7c4d\u30a2\u30d7\u30eayomel.jp\u30ad\u30e3\u30f3\u30da\u30fc\u30f3/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'yomel', 3]);
+  }
+
+  if (days && /\u30bb\u30c4\u30e4\u30af\u30a8\u30b9\u30c8/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'setsuyaquest', 3]);
+  }
+
+  if (days && /\u79cb\u306e\u591c\u9577\u306f\u8aad\u66f8\u3068\u30d6\u30ed\u30b0/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'bookreview2013fall', 3]);
+  }
+
+  if (days && /\u7279\u5225\u304a\u984c\u300c\u82b8\u8853\u306e\u79cb\u300d/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'caillebotte', 3]);
+  }
+
+  if (days && /\u30a8\u30a4\u30d7\u30ea\u30eb\u30d5\u30fc\u30eb2014/.test(days.innerHTML)) {
+    _gaq.push(['_setCustomVar', 2, 'campaign', 'aprilfool2014', 3]);
+  }
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- CG:7,CH:1,ICG:13,ICH:2,T: -->
+</body>
+</html>

@@ -1,0 +1,1723 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/HTML; charset=utf-8" />
+<title>
+Konya Haber | Son Dakika Konya Haber | Konya Haber Sitesi</title>
+<meta name="description" content="Konya Haber | Konya Haber Sitesi ® | Haber Konya | Son dakika Konya haberleri | Copyright © 2012">
+<meta name="keywords" content="Konya Haber, Haber Konya, Konya Basını, Son dakika Konya haberleri, Konya Medyası, Konya basını bugün, dün, En çok okunan haberler, Konhaber , Konyahaber, News, Internet Haber, Konya, Konya Haberleri, Konyaspor Haberleri, konyahaber, Mevlana Haberleri, Güncel Haberler,  Google Yandex News, Manşet haber, Konhaber 42 & Konyahaber.">
+	
+
+<script type="text/javascript" src="http://konyahabersitesi.com/script/jquery-1.10.1.min.js"></script>
+
+<link rel="stylesheet" href="http://konyahabersitesi.com/script/tinyscrollbar.css" type="text/css" media="screen">
+<script type="text/javascript" src="http://konyahabersitesi.com/script/swfobject_modified.js"></script>
+<script type="text/javascript" src="http://konyahabersitesi.com/script/tinymanset.js"></script>
+<script type="text/javascript" src="http://konyahabersitesi.com/script/jquery.ui.core.js"></script>
+<script type="text/javascript" src="http://konyahabersitesi.com/script/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="http://konyahabersitesi.com/script/jquery.ui.rcarousel.js"></script>
+<script type="text/javascript" src="http://konyahabersitesi.com/script/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="http://konyahabersitesi.com/script/jquery.marquee.js"></script>
+<script type="text/javascript" src="http://konyahabersitesi.com/script/icerik.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+
+<!--Anket başlangıç -->
+$(function(){
+	var loader=$('#loader');
+	var pollcontainer=$('#pollcontainer');
+	loader.fadeIn();
+	//Load the poll form
+	$.get('http://konyahabersitesi.com/script/tb.anket.php', '', function(data, status){
+		pollcontainer.html(data);
+		animateResults(pollcontainer);
+		pollcontainer.find('#viewresult').click(function(){
+			//if user wants to see result
+			loader.fadeIn();
+			$.get('http://konyahabersitesi.com/script/tb.anket.php', 'result=1', function(data,status){
+				pollcontainer.fadeOut(1000, function(){
+					$(this).html(data);
+					animateResults(this);
+				});
+				loader.fadeOut();
+			});
+			//prevent default behavior
+			return false;
+		}).end()
+		.find('#pollform').submit(function(){
+			var selected_val=$(this).find('input[name=poll]:checked').val();
+			if(selected_val!=''){
+				//post data only if a value is selected
+				loader.fadeIn();
+				$.post('http://konyahabersitesi.com/script/tb.anket.php', $(this).serialize(), function(data, status){
+					$('#formcontainer').fadeOut(100, function(){
+						$(this).html(data);
+						animateResults(this);
+						loader.fadeOut();
+					});
+				});
+			}
+			//prevent form default behavior
+			return false;
+		});
+		loader.fadeOut();
+	});
+	
+	function animateResults(data){
+		$(data).find('.bar').hide().end().fadeIn('slow', function(){
+							$(this).find('.bar').each(function(){
+								var bar_width=$(this).css('width');
+								$(this).css('width', '0').animate({ width: bar_width }, 1000);
+							});
+						});
+	}
+	
+});
+
+	<!--//
+	var use_debug = false;
+
+	function debug(){
+		if( use_debug && window.console && window.console.log ) console.log(arguments);
+	}
+
+	// on DOM ready
+	$(document).ready(function (){
+		$(".marquee").marquee({
+			loop: -1
+			// this callback runs when the marquee is initialized
+			, init: function ($marquee, options){
+				debug("init", arguments);
+
+				// shows how we can change the options at runtime
+				if( $marquee.is("#marquee2") ) options.yScroll = "bottom";
+			}
+			// this callback runs before a marquee is shown
+			, beforeshow: function ($marquee, $li){
+				debug("beforeshow", arguments);
+
+				// check to see if we have an author in the message (used in #marquee6)
+				var $author = $li.find(".author");
+				// move author from the item marquee-author layer and then fade it in
+				if( $author.length ){
+					$("#marquee-author").html("<span style='display:none;'>" + $author.html() + "</span>").find("> span").fadeIn(50);
+				}
+			}
+			// this callback runs when a has fully scrolled into view (from either top or bottom)
+			, show: function (){
+				debug("show", arguments);
+			}
+			// this callback runs when a after message has being shown
+			, aftershow: function ($marquee, $li){
+				debug("aftershow", arguments);
+
+				// find the author
+				var $author = $li.find(".author");
+				// hide the author
+				if( $author.length ) $("#marquee-author").find("> span").fadeOut(250);
+			}
+		});
+	});
+	
+	var iNewMessageCount = 0;
+	
+	function addMessage(selector){
+		// increase counter
+		iNewMessageCount++;
+
+		// append a new message to the marquee scrolling list
+		var $ul = $(selector).append("<li>New message #" + iNewMessageCount + "</li>");
+		// update the marquee
+		$ul.marquee("update");
+	}
+	
+	function pause(selector){
+		$(selector).marquee('pause');
+	}
+	
+	function resume(selector){
+		$(selector).marquee('resume');
+	}
+	//-->
+	<!-- flash haber -->
+	$(function(){setInterval(function(){$(".yanan").fadeOut(300).fadeIn(400);}, 250);});
+
+	$("img.lazy").lazyload({effect : "fadeIn"});
+
+			</script><link href="http://konyahabersitesi.com/css/stil.css" rel="stylesheet" type="text/css" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59866504-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter32008301 = new Ya.Metrika({
+                    id:32008301,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+                    trackHash:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/32008301" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script id="_waucyl">var _wau = _wau || []; _wau.push(["classic", "w7hxzu253w0p", "cyl"]);
+(function() {var s=document.createElement("script"); s.async=true;
+s.src="http://widgets.amung.us/classic.js";
+document.getElementsByTagName("head")[0].appendChild(s);
+})();</script>
+</head>
+<body>
+<div class="body" id="iskelet">
+<div id="acilisreklam" style="overflow: hidden; position: absolute; background:url(http://konyahabersitesi.com/images/acilisreklambg.png) repeat; width: 100%; height: 5000px; left: 0px; top: 0px; z-index: 100000; ">
+  <div id="ustbar" style="height:30px;background-color:#efefef;">
+    <div id="saniyekontur" style="float:left;width:300px;padding-left:7px;padding-top:7px;font-family:Arial; color:#900;font-size:12px;"> Sayfa yükleniyor... <b> 00 </b>saniye kaldı. </div>
+    <div id="rekkapat" style="float:right;width:100px;text-align:right;cursor:pointer;padding-right:5px;" title="Kapat"> <a class="reklamkapaa" onclick="kapatrek()" style="float:right; cursor:pointer; position:absolute; top:2px; right:2px; ">X Reklamı Kapat</a> </div>
+  </div>
+  <div style="clear:both;width:0px;height:0px;"></div>
+  <div id="reklamalani" style="margin:0 auto;  width:600px; min-height: 500px; height:auto; padding:10px; margin-top:50px; background-color:#fff;">
+    <a rel="reklam" href=""   target="_blank"><img src="http://konyahabersitesi.com//depo/reklam1/353.jpg" width="600" height="480" alt="" border="0" /></a>  </div>
+</div>
+<!-- Üst menüler-->
+<div class="ustmenu">
+  <div class="iskelet_ic980">
+    <div class="ustmenu_sol">
+      <nav class="ustmenu_buton"> 
+                 <div class='ustmenu_bugun'>18 Şubat 2016</div>
+				 <a href="http://m.konyahabersitesi.com/" title="Mobil Site" class='ustmenu_bugun' id="ustmenu">Mobil Site</a>
+				 </nav>
+    </div>
+    <div class="ustmenu_sag">
+      <nav class="ustmenu_buton">
+     <a href="http://konyahabersitesi.com/index.html" title="Anasayfa" id="ustmenu"> Anasayfa</a> &nbsp;<img src="http://konyahabersitesi.com/images/ustmenukesme.png" width="2" height="35" />&nbsp;
+        <a href="http://konyahabersitesi.com/sayfalar/kunye.html" title="Künyemiz" id="ustmenu">Künyemiz</a>&nbsp;<img src="http://konyahabersitesi.com/images/ustmenukesme.png" width="2" height="35" />&nbsp;
+		<a href="http://konyahabersitesi.com/sayfalar/hakkimizda.html" title="Hakkımızda" id="ustmenu">Hakkımızda</a>&nbsp;<img src="http://konyahabersitesi.com/images/ustmenukesme.png" width="2" height="35" />&nbsp;
+		<a href="http://konyahabersitesi.com/iletisim.html" title="Bize Ulaşın" id="ustmenu">Bize Ulaşın</a>        &nbsp; </nav>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<!-- Üst bitir-->
+<div class="header"> 
+  
+  <!--Logo ve Reklam -->
+  <div class="iskelet_ic980">
+    <div class="logo">
+      <div class="logo_box"> <a href="http://konyahabersitesi.com/index.html"><img src="http://konyahabersitesi.com/images/logo.png" width="300" style="height: 90px;"  /></a> </div>
+    </div>
+    <div class='reklam_logoyani'>
+	<a rel="reklam" href="http://www.hotelney.com/"   target="_blank"><img src="http://konyahabersitesi.com//depo/reklam1/348.jpg" width="640" height="90" alt="" border="0" /></a>	</div>  
+	</div>
+  <!--Logo ve Reklam Bitir --> 
+  
+  <!--Menüler -->
+  <div class="clear"></div>
+  <div class="menuler_bos"></div>
+  <div class="menuler">
+    <div class="kategoriler">
+      <div class="iskelet_ic980">
+        <ul>
+		          <li><a href="http://konyahabersitesi.com/kategoriler/konya-haber.html" title="KONYA HABER">KONYA HABER</a><i><img src="http://konyahabersitesi.com/images/menuler_ustkesme.png" width="2" height="33" /></i></li>
+		            <li><a href="http://konyahabersitesi.com/kategoriler/gundem.html" title="GÜNDEM">GÜNDEM</a><i><img src="http://konyahabersitesi.com/images/menuler_ustkesme.png" width="2" height="33" /></i></li>
+		            <li><a href="http://konyahabersitesi.com/kategoriler/dunya.html" title="DÜNYA">DÜNYA</a><i><img src="http://konyahabersitesi.com/images/menuler_ustkesme.png" width="2" height="33" /></i></li>
+		            <li><a href="http://konyahabersitesi.com/kategoriler/politika.html" title="POLİTİKA">POLİTİKA</a><i><img src="http://konyahabersitesi.com/images/menuler_ustkesme.png" width="2" height="33" /></i></li>
+		            <li><a href="http://konyahabersitesi.com/kategoriler/ekonomi.html" title="EKONOMİ">EKONOMİ</a><i><img src="http://konyahabersitesi.com/images/menuler_ustkesme.png" width="2" height="33" /></i></li>
+		            <li><a href="http://konyahabersitesi.com/kategoriler/saglik.html" title="SAĞLIK">SAĞLIK</a><i><img src="http://konyahabersitesi.com/images/menuler_ustkesme.png" width="2" height="33" /></i></li>
+		            <li><a href="http://konyahabersitesi.com/kategoriler/etkinlikler.html" title="ETKİNLİKLER">ETKİNLİKLER</a><i><img src="http://konyahabersitesi.com/images/menuler_ustkesme.png" width="2" height="33" /></i></li>
+		            <li><a href="http://konyahabersitesi.com/kategoriler/world-news.html" title="WORLD NEWS">WORLD NEWS</a><i><img src="http://konyahabersitesi.com/images/menuler_ustkesme.png" width="2" height="33" /></i></li>
+		            <li><a href="http://konyahabersitesi.com/kategoriler/egitim.html" title="EĞİTİM">EĞİTİM</a><i><img src="http://konyahabersitesi.com/images/menuler_ustkesme.png" width="2" height="33" /></i></li>
+		            <li><a href="http://konyahabersitesi.com/kategoriler/spor.html" title="SPOR">SPOR</a><i><img src="http://konyahabersitesi.com/images/menuler_ustkesme.png" width="2" height="33" /></i></li>
+		            <li><a href="http://konyahabersitesi.com/kategoriler/teknoloji.html" title="TEKNOLOJİ">TEKNOLOJİ</a><i><img src="http://konyahabersitesi.com/images/menuler_ustkesme.png" width="2" height="33" /></i></li>
+		  		  <li class="sag"><a href="http://konyahabersitesi.com/tummansetler.html">TÜMÜ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="sondakikamenu">
+      <div class="iskelet_ic980">
+      
+
+    <div>
+      
+      <ul class="marquee" id="marquee4" name="marquee4">
+	<li>
+		<span class='kirmizi'>19:44</span><a href="http://konyahabersitesi.com/haber/gundem/istanbul-u-kana-bulayacaklardi-yakalandilar-11091.html" title="İstanbul'u kana bulayacaklardı! Yakalandılar ">&nbsp;-&nbsp;İstanbul'u kana bulayacaklardı! Yakalandılar &nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class='kirmizi'>19:44</span><a href="http://konyahabersitesi.com/haber/gundem/yarin-tum-seferleri-iptal-edildi-11090.html" title="Yarın tüm seferleri iptal edildi ">&nbsp;-&nbsp;Yarın tüm seferleri iptal edildi &nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class='kirmizi'>18:32</span><a href="http://konyahabersitesi.com/haber/gundem/araplardan-rusya-ya-rest-11089.html" title="Araplardan Rusya'ya rest! ">&nbsp;-&nbsp;Araplardan Rusya'ya rest! &nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class='kirmizi'>18:32</span><a href="http://konyahabersitesi.com/haber/gundem/sur-da-pkk-li-keskin-nisanci-olduruldu-11088.html" title="Sur'da PKK'lı keskin nişancı öldürüldü ">&nbsp;-&nbsp;Sur'da PKK'lı keskin nişancı öldürüldü &nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class='kirmizi'>18:32</span><a href="http://konyahabersitesi.com/haber/gundem/basbakan-ahiska-turkleri-ne-misafir-olacak-11087.html" title="Başbakan Ahıska Türkleri'ne misafir olacak ">&nbsp;-&nbsp;Başbakan Ahıska Türkleri'ne misafir olacak &nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class='kirmizi'>18:32</span><a href="http://konyahabersitesi.com/haber/gundem/yenisafak-ve-akit-e-saldiriyi-mlkp-ustlendi-11086.html" title="Yenişafak ve Akit'e saldırıyı MLKP üstlendi ">&nbsp;-&nbsp;Yenişafak ve Akit'e saldırıyı MLKP üstlendi &nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class='kirmizi'>18:32</span><a href="http://konyahabersitesi.com/haber/gundem/hayrunnisa-gul-babasini-gozyaslariyla-ugurladi-11085.html" title="Hayrünnisa Gül babasını gözyaşlarıyla uğurladı ">&nbsp;-&nbsp;Hayrünnisa Gül babasını gözyaşlarıyla uğurladı &nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class='kirmizi'>18:32</span><a href="http://konyahabersitesi.com/haber/gundem/emniyet-mudurunden-guvenlik-guclerine-anons-11084.html" title="Emniyet müdüründen güvenlik güçlerine anons ">&nbsp;-&nbsp;Emniyet müdüründen güvenlik güçlerine anons &nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class='kirmizi'>18:24</span><a href="http://konyahabersitesi.com/haber/gundem/sogan-tarlasindan-tarih-fiskirdi-11083.html" title="Soğan tarlasından tarih fışkırdı! ">&nbsp;-&nbsp;Soğan tarlasından tarih fışkırdı! &nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class='kirmizi'>18:24</span><a href="http://konyahabersitesi.com/haber/gundem/cemaatin-basina-avize-dustu-3-kisi-yaralandi-11082.html" title="Cemaatin başına avize düştü, 3 kişi yaralandı ">&nbsp;-&nbsp;Cemaatin başına avize düştü, 3 kişi yaralandı &nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	</li>
+	
+</ul></div></div>
+    </div>
+    <div class="sondakika">
+      <div class="iskelet_ic980"> 
+      <div class="altmenu_buton">
+	  <a href="http://konyahabersitesi.com/videogaleri.html" title="Videolar" id="menuler"><img src="http://konyahabersitesi.com/images/4.png" width="19" height="19" />&nbsp;Web TV</a>&nbsp;<img src="http://konyahabersitesi.com/images/alt_bg_kesme.png" width="2" height="35" />
+      <a href="http://konyahabersitesi.com/fotogaleri.html" title="Fotoğraflar" id="menuler"><img src="http://konyahabersitesi.com/images/6.png" width="17" height="19" />&nbsp;Foto Galeri</a> &nbsp; <img src="http://konyahabersitesi.com/images/alt_bg_kesme.png" width="2" height="35" />
+      <a href="http://konyahabersitesi.com/yazarlar.html" title="Yazarlar" id="menuler"><img src="http://konyahabersitesi.com/images/9.png" width="17" height="17" />&nbsp;Yazarlar</a>&nbsp;<img src="http://konyahabersitesi.com/images/alt_bg_kesme.png" width="2" height="35" />
+   </div>
+
+ <div class="arama">
+        <form action="http://konyahabersitesi.com/haberarama.html" method="post">
+          <input name="kelime" type="text" value="Haber Arayın..." onFocus="javascript:if(this.value == 'Haber Arayın...') this.value = '';" onBlur="javascript:if(this.value == '') this.value = 'Haber Arayın...';" id="kelime" />
+        
+          <input type="image" name="imageField" id="imageField" src="http://konyahabersitesi.com/images/1420425589_search-32.png" />
+        </form>
+      </div></div>
+      </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="iskelet">
+<div class='reklam_sitesolu'>
+ </div>
+<div class='reklam_sitesagi'>
+ </div>
+<div class="clear"></div>
+<div class="clear"></div>
+	<div class="clear"></div>
+<div class="ortablok">
+    <!--sağ bloklar --> 
+	 <div class="ustmanset">
+
+			      				<a title="Cizre ve Sur'dan acı haber: 2 şehit " href="http://konyahabersitesi.com/haber/gundem/-11072.html" id="siyah" > 
+                <div class='ustmanset_kutu'>				
+				<div class='ustmanset_border'></div>
+                <div class='ustmanset_resim'>
+								<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Cizre ve Sur'dan acı haber: 2 şehit " src="http://konyahabersitesi.com/depo/ustmanset/09df2.jpg"  width='234'  border='0'>
+							</div>
+                <div class='ustmanset_baslik'>Cizre ve Sur'dan acı haber: 2 şehit </div>
+              
+              </div>
+			  </a>
+						<a title="Türkiye bir günde 6 şehit verdi " href="http://konyahabersitesi.com/haber/gundem/-11069.html" id="siyah" > 
+                <div class='ustmanset_kutu'>				
+				<div class='ustmanset_border'></div>
+                <div class='ustmanset_resim'>
+								<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Türkiye bir günde 6 şehit verdi " src="http://konyahabersitesi.com/depo/ustmanset/6cb81.jpg"  width='234'  border='0'>
+							</div>
+                <div class='ustmanset_baslik'>Türkiye bir günde 6 şehit verdi </div>
+              
+              </div>
+			  </a>
+						<a title="Sınırda şiddetli çatışma: 1 şehit, 3 yaralı " href="http://konyahabersitesi.com/haber/gundem/-11067.html" id="siyah" > 
+                <div class='ustmanset_kutu'>				
+				<div class='ustmanset_border'></div>
+                <div class='ustmanset_resim'>
+								<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Sınırda şiddetli çatışma: 1 şehit, 3 yaralı " src="http://konyahabersitesi.com/depo/ustmanset/08eee.jpg"  width='234'  border='0'>
+							</div>
+                <div class='ustmanset_baslik'>Sınırda şiddetli çatışma: 1 şehit, 3 yaralı </div>
+              
+              </div>
+			  </a>
+						<a title="Polis aracına roketatarlı saldırı: 1 şehit " href="http://konyahabersitesi.com/haber/gundem/-11065.html" id="siyah" > 
+                <div class='ustmanset_kutu'>				
+				<div class='ustmanset_border'></div>
+                <div class='ustmanset_resim'>
+								<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Polis aracına roketatarlı saldırı: 1 şehit " src="http://konyahabersitesi.com/depo/ustmanset/612e0.jpg"  width='234'  border='0'>
+							</div>
+                <div class='ustmanset_baslik'>Polis aracına roketatarlı saldırı: 1 şehit </div>
+              
+              </div>
+			  </a>
+		</div>
+<div class="clear"></div>
+
+  <div class="ortablok_sol">
+            <!--manşet -->
+    <div id="manset_box">
+      <div id="manset">
+        <div class="viewport">
+          <ul class="overview">
+		              <li><a href='http://konyahabersitesi.com/haber/gundem/istanbul-u-kana-bulayacaklardi-yakalandilar-11091.html' title="İstanbul'u kana bulayacaklardı! Yakalandılar ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>İstanbul'u kana bulayacaklardı! Yakalandılar </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/istanbul-u-kana-bulayacaklardi-yakalandilar-11091.html" title="İstanbul'u kana bulayacaklardı! Yakalandılar ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="İstanbul'u kana bulayacaklardı! Yakalandılar " src="http://konyahabersitesi.com/depo/manset/7af00.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/yarin-tum-seferleri-iptal-edildi-11090.html' title="Yarın tüm seferleri iptal edildi ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>Yarın tüm seferleri iptal edildi </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/yarin-tum-seferleri-iptal-edildi-11090.html" title="Yarın tüm seferleri iptal edildi ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Yarın tüm seferleri iptal edildi " src="http://konyahabersitesi.com/depo/manset/d12a1.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/araplardan-rusya-ya-rest-11089.html' title="Araplardan Rusya'ya rest! ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>Araplardan Rusya'ya rest! </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/araplardan-rusya-ya-rest-11089.html" title="Araplardan Rusya'ya rest! ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Araplardan Rusya'ya rest! " src="http://konyahabersitesi.com/depo/manset/8fc91.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/sur-da-pkk-li-keskin-nisanci-olduruldu-11088.html' title="Sur'da PKK'lı keskin nişancı öldürüldü ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>Sur'da PKK'lı keskin nişancı öldürüldü </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/sur-da-pkk-li-keskin-nisanci-olduruldu-11088.html" title="Sur'da PKK'lı keskin nişancı öldürüldü ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Sur'da PKK'lı keskin nişancı öldürüldü " src="http://konyahabersitesi.com/depo/manset/04545.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/basbakan-ahiska-turkleri-ne-misafir-olacak-11087.html' title="Başbakan Ahıska Türkleri'ne misafir olacak ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>Başbakan Ahıska Türkleri'ne misafir olacak </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/basbakan-ahiska-turkleri-ne-misafir-olacak-11087.html" title="Başbakan Ahıska Türkleri'ne misafir olacak ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Başbakan Ahıska Türkleri'ne misafir olacak " src="http://konyahabersitesi.com/depo/manset/010c4.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/yenisafak-ve-akit-e-saldiriyi-mlkp-ustlendi-11086.html' title="Yenişafak ve Akit'e saldırıyı MLKP üstlendi ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>Yenişafak ve Akit'e saldırıyı MLKP üstlendi </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/yenisafak-ve-akit-e-saldiriyi-mlkp-ustlendi-11086.html" title="Yenişafak ve Akit'e saldırıyı MLKP üstlendi ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Yenişafak ve Akit'e saldırıyı MLKP üstlendi " src="http://konyahabersitesi.com/depo/manset/1a5a4.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/hayrunnisa-gul-babasini-gozyaslariyla-ugurladi-11085.html' title="Hayrünnisa Gül babasını gözyaşlarıyla uğurladı ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>Hayrünnisa Gül babasını gözyaşlarıyla uğurladı </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/hayrunnisa-gul-babasini-gozyaslariyla-ugurladi-11085.html" title="Hayrünnisa Gül babasını gözyaşlarıyla uğurladı ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Hayrünnisa Gül babasını gözyaşlarıyla uğurladı " src="http://konyahabersitesi.com/depo/manset/e312a.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/sogan-tarlasindan-tarih-fiskirdi-11083.html' title="Soğan tarlasından tarih fışkırdı! ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>Soğan tarlasından tarih fışkırdı! </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/sogan-tarlasindan-tarih-fiskirdi-11083.html" title="Soğan tarlasından tarih fışkırdı! ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Soğan tarlasından tarih fışkırdı! " src="http://konyahabersitesi.com/depo/manset/87fa2.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/cemaatin-basina-avize-dustu-3-kisi-yaralandi-11082.html' title="Cemaatin başına avize düştü, 3 kişi yaralandı ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>Cemaatin başına avize düştü, 3 kişi yaralandı </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/cemaatin-basina-avize-dustu-3-kisi-yaralandi-11082.html" title="Cemaatin başına avize düştü, 3 kişi yaralandı ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Cemaatin başına avize düştü, 3 kişi yaralandı " src="http://konyahabersitesi.com/depo/manset/716fd.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/idil-de-pkk-lilar-ambulansa-ates-acti-11081.html' title="İdil'de PKK'lılar ambulansa ateş açtı ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>İdil'de PKK'lılar ambulansa ateş açtı </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/idil-de-pkk-lilar-ambulansa-ates-acti-11081.html" title="İdil'de PKK'lılar ambulansa ateş açtı ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="İdil'de PKK'lılar ambulansa ateş açtı " src="http://konyahabersitesi.com/depo/manset/c4cae.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/yillar-sonra-bir-ilk-11080.html' title="Yıllar sonra bir ilk! ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>Yıllar sonra bir ilk! </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/yillar-sonra-bir-ilk-11080.html" title="Yıllar sonra bir ilk! ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Yıllar sonra bir ilk! " src="http://konyahabersitesi.com/depo/manset/c3b4b.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/beyoglu-nda-facia-1-bebek-oldu-11079.html' title="Beyoğlu’nda facia: 1 bebek öldü! ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>Beyoğlu’nda facia: 1 bebek öldü! </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/beyoglu-nda-facia-1-bebek-oldu-11079.html" title="Beyoğlu’nda facia: 1 bebek öldü! ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Beyoğlu’nda facia: 1 bebek öldü! " src="http://konyahabersitesi.com/depo/manset/c3c55.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/sariyer-deki-otobus-kazasina-7-5-yil-hapis-11078.html' title="Sarıyer'deki otobüs kazasına 7,5 yıl hapis ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>Sarıyer'deki otobüs kazasına 7,5 yıl hapis </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/sariyer-deki-otobus-kazasina-7-5-yil-hapis-11078.html" title="Sarıyer'deki otobüs kazasına 7,5 yıl hapis ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Sarıyer'deki otobüs kazasına 7,5 yıl hapis " src="http://konyahabersitesi.com/depo/manset/9852a.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/belgrad-ormani-nda-kan-donduran-olay-11077.html' title="Belgrad Ormanı'nda kan donduran olay! ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>Belgrad Ormanı'nda kan donduran olay! </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/belgrad-ormani-nda-kan-donduran-olay-11077.html" title="Belgrad Ormanı'nda kan donduran olay! ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Belgrad Ormanı'nda kan donduran olay! " src="http://konyahabersitesi.com/depo/manset/121d2.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+			            <li><a href='http://konyahabersitesi.com/haber/gundem/pkk-da-deas-gibi-kafa-kesmeye-basladi-11076.html' title="PKK da DEAŞ gibi kafa kesmeye başladı! ">
+			<div class='kategoriadi'>GÜNDEM</div>
+			<div class='baslik'>PKK da DEAŞ gibi kafa kesmeye başladı! </div></a>
+			<a href="http://konyahabersitesi.com/haber/gundem/pkk-da-deas-gibi-kafa-kesmeye-basladi-11076.html" title="PKK da DEAŞ gibi kafa kesmeye başladı! ">
+							<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="PKK da DEAŞ gibi kafa kesmeye başladı! " src="http://konyahabersitesi.com/depo/manset/4114c.jpg"  width='670'  border='0'>
+							</a>
+			</li>
+						</ul>
+		 </div>
+        <ul class="pager">
+		          <li><a rel='0' href="http://konyahabersitesi.com/haber/gundem/istanbul-u-kana-bulayacaklardi-yakalandilar-11091.html" title="İstanbul'u kana bulayacaklardı! Yakalandılar " class='pagenum'>1</a></li>
+		            <li><a rel='1' href="http://konyahabersitesi.com/haber/gundem/yarin-tum-seferleri-iptal-edildi-11090.html" title="Yarın tüm seferleri iptal edildi " class='pagenum'>2</a></li>
+		            <li><a rel='2' href="http://konyahabersitesi.com/haber/gundem/araplardan-rusya-ya-rest-11089.html" title="Araplardan Rusya'ya rest! " class='pagenum'>3</a></li>
+		            <li><a rel='3' href="http://konyahabersitesi.com/haber/gundem/sur-da-pkk-li-keskin-nisanci-olduruldu-11088.html" title="Sur'da PKK'lı keskin nişancı öldürüldü " class='pagenum'>4</a></li>
+		            <li><a rel='4' href="http://konyahabersitesi.com/haber/gundem/basbakan-ahiska-turkleri-ne-misafir-olacak-11087.html" title="Başbakan Ahıska Türkleri'ne misafir olacak " class='pagenum'>5</a></li>
+		            <li><a rel='5' href="http://konyahabersitesi.com/haber/gundem/yenisafak-ve-akit-e-saldiriyi-mlkp-ustlendi-11086.html" title="Yenişafak ve Akit'e saldırıyı MLKP üstlendi " class='pagenum'>6</a></li>
+		            <li><a rel='6' href="http://konyahabersitesi.com/haber/gundem/hayrunnisa-gul-babasini-gozyaslariyla-ugurladi-11085.html" title="Hayrünnisa Gül babasını gözyaşlarıyla uğurladı " class='pagenum'>7</a></li>
+		            <li><a rel='7' href="http://konyahabersitesi.com/haber/gundem/sogan-tarlasindan-tarih-fiskirdi-11083.html" title="Soğan tarlasından tarih fışkırdı! " class='pagenum'>8</a></li>
+		            <li><a rel='8' href="http://konyahabersitesi.com/haber/gundem/cemaatin-basina-avize-dustu-3-kisi-yaralandi-11082.html" title="Cemaatin başına avize düştü, 3 kişi yaralandı " class='pagenum'>9</a></li>
+		            <li><a rel='9' href="http://konyahabersitesi.com/haber/gundem/idil-de-pkk-lilar-ambulansa-ates-acti-11081.html" title="İdil'de PKK'lılar ambulansa ateş açtı " class='pagenum'>10</a></li>
+		            <li><a rel='10' href="http://konyahabersitesi.com/haber/gundem/yillar-sonra-bir-ilk-11080.html" title="Yıllar sonra bir ilk! " class='pagenum'>11</a></li>
+		            <li><a rel='11' href="http://konyahabersitesi.com/haber/gundem/beyoglu-nda-facia-1-bebek-oldu-11079.html" title="Beyoğlu’nda facia: 1 bebek öldü! " class='pagenum'>12</a></li>
+		            <li><a rel='12' href="http://konyahabersitesi.com/haber/gundem/sariyer-deki-otobus-kazasina-7-5-yil-hapis-11078.html" title="Sarıyer'deki otobüs kazasına 7,5 yıl hapis " class='pagenum'>13</a></li>
+		            <li><a rel='13' href="http://konyahabersitesi.com/haber/gundem/belgrad-ormani-nda-kan-donduran-olay-11077.html" title="Belgrad Ormanı'nda kan donduran olay! " class='pagenum'>14</a></li>
+		            <li><a rel='14' href="http://konyahabersitesi.com/haber/gundem/pkk-da-deas-gibi-kafa-kesmeye-basladi-11076.html" title="PKK da DEAŞ gibi kafa kesmeye başladı! " class='pagenum'>15</a></li>
+		  		  <li style="width:143px"><a href="http://konyahabersitesi.com/tummansetler.html">Tümü</a></li>
+</ul>
+      </div>
+    </div>
+    <script>var omanset = $('#manset');if(omanset.length > -1){omanset.tinycarousel({ pager: true, interval: true, intervaltime:2500,duration:300});}</script><!--manşet bitiş -->
+        
+    
+                                                                              
+    
+      
+                
+                                                                          
+
+
+  <div class="clear"></div>        
+
+<div class="basliklar">
+       
+        <div class="gbasliklar_alt">
+          <div class="basliklar_icerik">
+                          <a href="http://konyahabersitesi.com/haber/gundem/istanbul-u-kana-bulayacaklardi-yakalandilar-11091.html" title="İstanbul'u kana bulayacaklardı! Yakalandılar " >
+			  <div class="gununmansetleri">
+                  <div class="gununmansetleri_resim"><img class="lazy" onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="İstanbul'u kana bulayacaklardı! Yakalandılar " src="http://konyahabersitesi.com/depo/haber/7af00.jpg" width="199"  style="display: inline;"></div>
+                  <div class="gununmansetleri_baslik">İstanbul'u kana bulayacaklardı! Yakalandılar </div>
+				</div>
+			</a>        
+			                  <a href="http://konyahabersitesi.com/haber/gundem/yarin-tum-seferleri-iptal-edildi-11090.html" title="Yarın tüm seferleri iptal edildi " >
+			  <div class="gununmansetleri">
+                  <div class="gununmansetleri_resim"><img class="lazy" onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Yarın tüm seferleri iptal edildi " src="http://konyahabersitesi.com/depo/haber/d12a1.jpg" width="199"  style="display: inline;"></div>
+                  <div class="gununmansetleri_baslik">Yarın tüm seferleri iptal edildi </div>
+				</div>
+			</a>        
+			                  <a href="http://konyahabersitesi.com/haber/gundem/araplardan-rusya-ya-rest-11089.html" title="Araplardan Rusya'ya rest! " >
+			  <div class="gununmansetleri">
+                  <div class="gununmansetleri_resim"><img class="lazy" onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Araplardan Rusya'ya rest! " src="http://konyahabersitesi.com/depo/haber/8fc91.jpg" width="199"  style="display: inline;"></div>
+                  <div class="gununmansetleri_baslik">Araplardan Rusya'ya rest! </div>
+				</div>
+			</a>        
+			                  <a href="http://konyahabersitesi.com/haber/gundem/sur-da-pkk-li-keskin-nisanci-olduruldu-11088.html" title="Sur'da PKK'lı keskin nişancı öldürüldü " >
+			  <div class="gununmansetleri">
+                  <div class="gununmansetleri_resim"><img class="lazy" onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Sur'da PKK'lı keskin nişancı öldürüldü " src="http://konyahabersitesi.com/depo/haber/04545.jpg" width="199"  style="display: inline;"></div>
+                  <div class="gununmansetleri_baslik">Sur'da PKK'lı keskin nişancı öldürüldü </div>
+				</div>
+			</a>        
+			                  <a href="http://konyahabersitesi.com/haber/gundem/basbakan-ahiska-turkleri-ne-misafir-olacak-11087.html" title="Başbakan Ahıska Türkleri'ne misafir olacak " >
+			  <div class="gununmansetleri">
+                  <div class="gununmansetleri_resim"><img class="lazy" onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Başbakan Ahıska Türkleri'ne misafir olacak " src="http://konyahabersitesi.com/depo/haber/010c4.jpg" width="199"  style="display: inline;"></div>
+                  <div class="gununmansetleri_baslik">Başbakan Ahıska Türkleri'ne misafir olacak </div>
+				</div>
+			</a>        
+			                  <a href="http://konyahabersitesi.com/haber/gundem/yenisafak-ve-akit-e-saldiriyi-mlkp-ustlendi-11086.html" title="Yenişafak ve Akit'e saldırıyı MLKP üstlendi " >
+			  <div class="gununmansetleri">
+                  <div class="gununmansetleri_resim"><img class="lazy" onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Yenişafak ve Akit'e saldırıyı MLKP üstlendi " src="http://konyahabersitesi.com/depo/haber/1a5a4.jpg" width="199"  style="display: inline;"></div>
+                  <div class="gununmansetleri_baslik">Yenişafak ve Akit'e saldırıyı MLKP üstlendi </div>
+				</div>
+			</a>        
+			    			<div class="clear"></div>
+          </div>
+        </div>
+      </div><div class="reklam_osolblok"><a href="http://konya-tr.rixos.com/genel-bakis/detay/GENEL-BAKIS/2/2/0"    target="_blank"><img src="http://konyahabersitesi.com//depo/reklam/82.jpg" width="650" height="110" alt="" border="0"  style="margin-bottom:5px"/></a></div><div class="basliklar"><div class="basliklar_alttam">	<div class="basliklar_icerik"></div></div></div>                                    	                                    	                                    	<iframe src="http://www.canlitvone.com/embed/tum/haberturk.html" frameborder="0" width="670" height="300"></iframe>                                    	                                                                                                                                                <div class="reklam_osolblok"><a href="http://www.hotelney.com/"    target="_blank"><img src="http://konyahabersitesi.com//depo/reklam/57.jpg" width="650" height="110" alt="" border="0"  style="margin-bottom:5px"/></a></div>      <div class="basliklar">
+        <div class="tbasliklar_alt">
+          <div class="basliklar_icerik">
+            <div class="kategoribasliklari">
+              <div class="enust">Kategori Başlıkları</div>
+              
+              <div class="ust">
+			  			<div class="tab" id="tab_1" onclick="tab(1);">KONYA HABER</div>
+					<div class="tab" id="tab_2" onclick="tab(2);">GÜNDEM</div>
+					<div class="tab" id="tab_3" onclick="tab(3);">DÜNYA</div>
+					<div class="tab" id="tab_4" onclick="tab(4);">POLİTİKA</div>
+					<div class="tab" id="tab_5" onclick="tab(5);">EKONOMİ</div>
+					<div class="tab" id="tab_6" onclick="tab(6);">SAĞLIK</div>
+					<div class="tab" id="tab_7" onclick="tab(7);">ETKİNLİKLER</div>
+					<div class="tab" id="tab_8" onclick="tab(8);">WORLD NEWS</div>
+					  <div class="clear"></div>
+			  </div>
+
+  
+  
+
+              <div class="clear"></div>
+              <div class="alt">
+			                                  <div id="tabbox_1" class="tabbox" style="display:none">
+						<div class="sol">
+                                        
+					
+										<a href="http://konyahabersitesi.com/haber/konya-haber/torku-konyaspor-umuz-1-antalyaspor-0-10961.html" title="Torku Konyaspor'umuz 1 - Antalyaspor 0 ">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Torku Konyaspor'umuz 1 - Antalyaspor 0 " src="http://konyahabersitesi.com/depo/haber/haberRDNpm6.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Torku Konyaspor'umuz 1 - Antalyaspor 0 </div>
+                      <div class="detay">Torku Konyaspor'umuz 1 - Antalyaspor 0
+#maçsonucu #tebrikler TORKU KONYASPOR</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/konya-haber/turkiye-ve-rusya-suriye-de-catisabilir-10917.html" title="''Türkiye ve Rusya, Suriye'de çatışabilir''">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="''Türkiye ve Rusya, Suriye'de çatışabilir''" src="http://konyahabersitesi.com/depo/haber/b9b46.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">''Türkiye ve Rusya, Suriye'de çatışabilir''</div>
+                      <div class="detay">				Times gazetesi, Türkiye ve Rusya'nın Suriye topraklarında çatışmaya girebileceğini yazdı. </div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/konya-haber/konya-da-deprem-18-01-2016-merkez-03-34-de-2-8-mg-siddetinde-10843.html" title="Konya'da DEPREM 18.01.2016 Merkez 03:34 de 2.8 Mg Şiddetinde">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Konya'da DEPREM 18.01.2016 Merkez 03:34 de 2.8 Mg Şiddetinde" src="http://konyahabersitesi.com/depo/haber/haberxyUHCY.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Konya'da DEPREM 18.01.2016 Merkez 03:34 de 2.8 Mg Şiddetinde</div>
+                      <div class="detay">DEPREM Konya Merkez 18.01.2016 03:34 de 2.8 Mg Şiddetinde Deprem Oldu</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/konya-haber/bu-sefer-konya-da-oz-anne-vahseti-10746.html" title="Bu Sefer Konya'da Öz Anne Vahşeti">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Bu Sefer Konya'da Öz Anne Vahşeti" src="http://konyahabersitesi.com/depo/haber/haber7WwB9z.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Bu Sefer Konya'da Öz Anne Vahşeti</div>
+                      <div class="detay">Konya’da, 2 önce ayrıldığı sevgilisinden dünyaya gelen çocuklarına şiddet uygulayan kadının dehşet verici görüntüleri ortaya çıktı.
+</div>
+                    </div>
+                    </a>
+					                     </div>
+                     					<a href="http://konyahabersitesi.com/haber/konya-haber/torku-konyaspor-umuz-1-antalyaspor-0-10961.html" title="Torku Konyaspor'umuz 1 - Antalyaspor 0 ">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="Torku Konyaspor'umuz 1 - Antalyaspor 0 " src="http://konyahabersitesi.com/depo/haber/haberRDNpm6.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">Torku Konyaspor'umuz 1 - Antalyaspor 0  </div>
+                  </div>
+                  </a>
+										<a href="http://konyahabersitesi.com/haber/konya-haber/turkiye-ve-rusya-suriye-de-catisabilir-10917.html" title="''Türkiye ve Rusya, Suriye'de çatışabilir''">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="''Türkiye ve Rusya, Suriye'de çatışabilir''" src="http://konyahabersitesi.com/depo/haber/b9b46.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">''Türkiye ve Rusya, Suriye'de çatışabilir'' </div>
+                  </div>
+                  </a>
+					
+                  				  
+                </div>
+				                                <div id="tabbox_2" class="tabbox" style="display:none">
+						<div class="sol">
+                                        
+					
+										<a href="http://konyahabersitesi.com/haber/gundem/istanbul-u-kana-bulayacaklardi-yakalandilar-11091.html" title="İstanbul'u kana bulayacaklardı! Yakalandılar ">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="İstanbul'u kana bulayacaklardı! Yakalandılar " src="http://konyahabersitesi.com/depo/haber/7af00.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">İstanbul'u kana bulayacaklardı! Yakalandılar </div>
+                      <div class="detay">				İstanbul’da sansasyonel eylem hazırlığında olduğu iddia edilen terör örgütü DHKP-C üyesi 3 kişi gözaltına alındı  </div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/gundem/yarin-tum-seferleri-iptal-edildi-11090.html" title="Yarın tüm seferleri iptal edildi ">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Yarın tüm seferleri iptal edildi " src="http://konyahabersitesi.com/depo/haber/d12a1.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Yarın tüm seferleri iptal edildi </div>
+                      <div class="detay">				Etkili olan lodos yüzünden Çanakkale'de, Gökçeada- Kabatepe arasında, yarın yapılması planlanan tüm seferlerin iptal edildiği duyuruldu.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/gundem/araplardan-rusya-ya-rest-11089.html" title="Araplardan Rusya'ya rest! ">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Araplardan Rusya'ya rest! " src="http://konyahabersitesi.com/depo/haber/8fc91.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Araplardan Rusya'ya rest! </div>
+                      <div class="detay">				Rusya'nın Türkiye'ye almış olduğu kararlara seyirci kalacak değiliz" diyen Araplar, Rusya'ya tepki olarak Türkiye'ye tatile gelecekler.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/gundem/sur-da-pkk-li-keskin-nisanci-olduruldu-11088.html" title="Sur'da PKK'lı keskin nişancı öldürüldü ">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Sur'da PKK'lı keskin nişancı öldürüldü " src="http://konyahabersitesi.com/depo/haber/04545.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Sur'da PKK'lı keskin nişancı öldürüldü </div>
+                      <div class="detay">				Sur'da PKK'lı keskin nişancı etkisiz hale getirildi. Kod adının "Şilan" olduğu belirlenen teröristin M16 kullandığı ortaya çıktı.</div>
+                    </div>
+                    </a>
+					                     </div>
+                     					<a href="http://konyahabersitesi.com/haber/gundem/istanbul-u-kana-bulayacaklardi-yakalandilar-11091.html" title="İstanbul'u kana bulayacaklardı! Yakalandılar ">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="İstanbul'u kana bulayacaklardı! Yakalandılar " src="http://konyahabersitesi.com/depo/haber/7af00.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">İstanbul'u kana bulayacaklardı! Yakalandılar  </div>
+                  </div>
+                  </a>
+										<a href="http://konyahabersitesi.com/haber/gundem/yarin-tum-seferleri-iptal-edildi-11090.html" title="Yarın tüm seferleri iptal edildi ">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="Yarın tüm seferleri iptal edildi " src="http://konyahabersitesi.com/depo/haber/d12a1.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">Yarın tüm seferleri iptal edildi  </div>
+                  </div>
+                  </a>
+					
+                  				  
+                </div>
+				                                <div id="tabbox_3" class="tabbox" style="display:none">
+						<div class="sol">
+                                        
+					
+										<a href="http://konyahabersitesi.com/haber/dunya/mustafa-barzani-nin-mektubu-yeniden-gundem-oldu-11057.html" title="Mustafa Barzani'nin mektubu yeniden gündem oldu">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Mustafa Barzani'nin mektubu yeniden gündem oldu" src="http://konyahabersitesi.com/depo/haber/8ee8e.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Mustafa Barzani'nin mektubu yeniden gündem oldu</div>
+                      <div class="detay">				Kürdistan Demokrat Partisi Genel Başkanı Mesut Barzani'nin babası Molla Mustafa Barzani'nin mektubu yeniden gündemde.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/dunya/rusya-acikladi-putin-erdogan-gorusmesi-olacak-mi-11056.html" title="Rusya açıkladı; Putin-Erdoğan görüşmesi olacak mı?">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Rusya açıkladı; Putin-Erdoğan görüşmesi olacak mı?" src="http://konyahabersitesi.com/depo/haber/b16e4.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Rusya açıkladı; Putin-Erdoğan görüşmesi olacak mı?</div>
+                      <div class="detay">				Kremlin Sözcüsü Dmitriy Peskov, Putin ile Erdoğan'ın görüşeceği iddiası için açıklama yaptı.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/dunya/senegal-de-erdogan-icin-ozel-karsilama-toreni-11048.html" title="Senegal'de Erdoğan için özel karşılama töreni">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Senegal'de Erdoğan için özel karşılama töreni" src="http://konyahabersitesi.com/depo/haber/52409.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Senegal'de Erdoğan için özel karşılama töreni</div>
+                      <div class="detay">				Cumhurbaşkanı Erdoğan, Güney Amerika’ya giderken yakıt ikmali için uğradığı Batı Afrika ülkesi Senegal'e Türkiye'ye dönerken de uğradı. </div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/dunya/erdogan-i-protesto-edenler-hdp-nin-misafiri-cikti-11047.html" title="Erdoğan'ı protesto edenler, HDP'nin misafiri çıktı">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Erdoğan'ı protesto edenler, HDP'nin misafiri çıktı" src="http://konyahabersitesi.com/depo/haber/2e330.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Erdoğan'ı protesto edenler, HDP'nin misafiri çıktı</div>
+                      <div class="detay">				Cumhurbaşkanı Erdoğan'ın Ekvator ziyaretinde protesto gösterisi düzenleyenlerin 2013'te BDP'nin misafiri olduğu ortaya çıktı.</div>
+                    </div>
+                    </a>
+					                     </div>
+                     					<a href="http://konyahabersitesi.com/haber/dunya/mustafa-barzani-nin-mektubu-yeniden-gundem-oldu-11057.html" title="Mustafa Barzani'nin mektubu yeniden gündem oldu">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="Mustafa Barzani'nin mektubu yeniden gündem oldu" src="http://konyahabersitesi.com/depo/haber/8ee8e.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">Mustafa Barzani'nin mektubu yeniden gündem oldu </div>
+                  </div>
+                  </a>
+										<a href="http://konyahabersitesi.com/haber/dunya/rusya-acikladi-putin-erdogan-gorusmesi-olacak-mi-11056.html" title="Rusya açıkladı; Putin-Erdoğan görüşmesi olacak mı?">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="Rusya açıkladı; Putin-Erdoğan görüşmesi olacak mı?" src="http://konyahabersitesi.com/depo/haber/b16e4.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">Rusya açıkladı; Putin-Erdoğan görüşmesi olacak mı? </div>
+                  </div>
+                  </a>
+					
+                  				  
+                </div>
+				                                <div id="tabbox_4" class="tabbox" style="display:none">
+						<div class="sol">
+                                        
+					
+										<a href="http://konyahabersitesi.com/haber/politika/bu-pazar-secim-olsa-kim-ne-kadar-oy-aliyor-11060.html" title="Bu pazar seçim olsa kim ne kadar oy alıyor?">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Bu pazar seçim olsa kim ne kadar oy alıyor?" src="http://konyahabersitesi.com/depo/haber/9d507.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Bu pazar seçim olsa kim ne kadar oy alıyor?</div>
+                      <div class="detay">				ORC Araştırma Şirketi, 30 büyükşehirde "Halkın Başkanlık Sistemi'ne Bakışı"nı yayınladı.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/politika/davutoglu-ndan-bulent-arinc-a-uyari-11059.html" title="Davutoğlu'ndan Bülent Arınç'a uyarı">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Davutoğlu'ndan Bülent Arınç'a uyarı" src="http://konyahabersitesi.com/depo/haber/52b64.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Davutoğlu'ndan Bülent Arınç'a uyarı</div>
+                      <div class="detay">				Başbakan Ahmet Davutoğlu, Londra'da beraberindeki gazetecilerin Bülent Arınç ile ilgili sorularına cevap verdi.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/politika/basbakan-davutoglu-master-planini-acikladi-11058.html" title="Başbakan Davutoğlu master planını açıkladı">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Başbakan Davutoğlu master planını açıkladı" src="http://konyahabersitesi.com/depo/haber/1b96f.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Başbakan Davutoğlu master planını açıkladı</div>
+                      <div class="detay">				Başbakan Ahmet Davutoğlu Mardin'de Artuklu Üniversitesi'nde 10 maddelik terörle mücadele planını açıkladı.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/politika/merkel-yine-turkiye-ye-geliyor-11055.html" title="Merkel yine Türkiye'ye geliyor">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Merkel yine Türkiye'ye geliyor" src="http://konyahabersitesi.com/depo/haber/28bed.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Merkel yine Türkiye'ye geliyor</div>
+                      <div class="detay">				Almanya Başbakanı Angela Merkel, mülteci krizini görüşmek üzere Pazartesi günü Ankara'ya gelecek.</div>
+                    </div>
+                    </a>
+					                     </div>
+                     					<a href="http://konyahabersitesi.com/haber/politika/bu-pazar-secim-olsa-kim-ne-kadar-oy-aliyor-11060.html" title="Bu pazar seçim olsa kim ne kadar oy alıyor?">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="Bu pazar seçim olsa kim ne kadar oy alıyor?" src="http://konyahabersitesi.com/depo/haber/9d507.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">Bu pazar seçim olsa kim ne kadar oy alıyor? </div>
+                  </div>
+                  </a>
+										<a href="http://konyahabersitesi.com/haber/politika/davutoglu-ndan-bulent-arinc-a-uyari-11059.html" title="Davutoğlu'ndan Bülent Arınç'a uyarı">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="Davutoğlu'ndan Bülent Arınç'a uyarı" src="http://konyahabersitesi.com/depo/haber/52b64.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">Davutoğlu'ndan Bülent Arınç'a uyarı </div>
+                  </div>
+                  </a>
+					
+                  				  
+                </div>
+				                                <div id="tabbox_5" class="tabbox" style="display:none">
+						<div class="sol">
+                                        
+					
+										<a href="http://konyahabersitesi.com/haber/ekonomi/sgk-li-300-bin-kisiye-erken-emeklilik-mujdesi-10813.html" title="SGK'lı 300 Bin Kişiye Erken Emeklilik Müjdesi!">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="SGK'lı 300 Bin Kişiye Erken Emeklilik Müjdesi!" src="http://konyahabersitesi.com/depo/haber/haberc84HCY.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">SGK'lı 300 Bin Kişiye Erken Emeklilik Müjdesi!</div>
+                      <div class="detay">Emekli olabilmek için yaşı bekleyenlere müjdeli haber. Yılda % 5 düşük maaşla erken emeklilik fırsatı geliyor.
+</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/ekonomi/iste-istanbul-un-2016-butcesi-10385.html" title="İşte İstanbul'un 2016 bütçesi">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="İşte İstanbul'un 2016 bütçesi" src="http://konyahabersitesi.com/depo/haber/694c0.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">İşte İstanbul'un 2016 bütçesi</div>
+                      <div class="detay">				İBB'nin hazırladığı 2016 Yılı Yatırım ve Hizmet Programı'nda 2016 yılı bütçesi 16 milyar 100 milyon lira olarak belirlendi.  </div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/ekonomi/altinin-gram-fiyati-2-5-ayin-en-dusugunde-10347.html" title="Altının gram fiyatı 2,5 ayın en düşüğünde ">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Altının gram fiyatı 2,5 ayın en düşüğünde " src="http://konyahabersitesi.com/depo/haber/haberibVVTZ.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Altının gram fiyatı 2,5 ayın en düşüğünde </div>
+                      <div class="detay">Kapalıçarşı'da altının gram fiyatı 101,34 lira ile son 2,5 en düşük seviyesine geriledi.
+</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/ekonomi/serbest-piyasada-doviz-fiyatlari-10344.html" title="Serbest Piyasada Döviz Fiyatları ">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Serbest Piyasada Döviz Fiyatları " src="http://konyahabersitesi.com/depo/haber/haberiKgKf4.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Serbest Piyasada Döviz Fiyatları </div>
+                      <div class="detay">Dolar/TL, Seçimlerden önceki gün 2.91 iken, AK Parti'nin tek başına iktidar olmasının ardından uluslararası piyasalardaki ilk işlemlerde 2.84'e kadar geriledi.
+</div>
+                    </div>
+                    </a>
+					                     </div>
+                     					<a href="http://konyahabersitesi.com/haber/ekonomi/sgk-li-300-bin-kisiye-erken-emeklilik-mujdesi-10813.html" title="SGK'lı 300 Bin Kişiye Erken Emeklilik Müjdesi!">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="SGK'lı 300 Bin Kişiye Erken Emeklilik Müjdesi!" src="http://konyahabersitesi.com/depo/haber/haberc84HCY.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">SGK'lı 300 Bin Kişiye Erken Emeklilik Müjdesi! </div>
+                  </div>
+                  </a>
+										<a href="http://konyahabersitesi.com/haber/ekonomi/iste-istanbul-un-2016-butcesi-10385.html" title="İşte İstanbul'un 2016 bütçesi">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="İşte İstanbul'un 2016 bütçesi" src="http://konyahabersitesi.com/depo/haber/694c0.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">İşte İstanbul'un 2016 bütçesi </div>
+                  </div>
+                  </a>
+					
+                  				  
+                </div>
+				                                <div id="tabbox_6" class="tabbox" style="display:none">
+						<div class="sol">
+                                        
+					
+										<a href="http://konyahabersitesi.com/haber/saglik/nevsehir-de-domuz-gribi-vakasi-10782.html" title="Nevşehir'de domuz gribi vakası ">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Nevşehir'de domuz gribi vakası " src="http://konyahabersitesi.com/depo/haber/0ca89.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Nevşehir'de domuz gribi vakası </div>
+                      <div class="detay">				Nevşehir Devlet Hastanesinde domuz gribi şüphesiyle tedavi altına alınan 4 hastadan birinde H1N1 virüsü tespit edildiği bildirildi.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/saglik/bakan-acikladi-30-bin-acik-kisi-var-10542.html" title="Bakan açıkladı: 30 bin açık kişi var!">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Bakan açıkladı: 30 bin açık kişi var!" src="http://konyahabersitesi.com/depo/haber/ca731.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Bakan açıkladı: 30 bin açık kişi var!</div>
+                      <div class="detay">				Müezzinoğlu, "Yurtdışından doktor gelmesinin yolunu açıyoruz. Şu anda 20 bin uzman, 10 bin pratisyen hekim açığımız var" dedi.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/saglik/milyonlarca-kisiyi-ilgilendiriyor-gss-son-11-gun-kaldi-10254.html" title="Milyonlarca Kişiyi İlgilendiriyor! GSS Son 11 Gün Kaldı">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Milyonlarca Kişiyi İlgilendiriyor! GSS Son 11 Gün Kaldı" src="http://konyahabersitesi.com/depo/haber/haberbmg1pO.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Milyonlarca Kişiyi İlgilendiriyor! GSS Son 11 Gün Kaldı</div>
+                      <div class="detay">Sosyal Güvenlik Kurumu(SGK) Samsun İl Müdürü Ünal Kaya, Genel Sağlık Sigortası(GSS) kapsamında gelir tespiti yaptıran vatandaşların borçlarını taksitlendirmeleri için en geç 2 Kasım 2015 tarihine kadar SGK merkezlerine başvurmaları gerektiğini söyledi.
+</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/saglik/konyada-moda-buz-lazer-epilasyon-9563.html" title="Konyada Moda Buz Lazer Epilasyon">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Konyada Moda Buz Lazer Epilasyon" src="http://konyahabersitesi.com/depo/haber/haberQQa7eW.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Konyada Moda Buz Lazer Epilasyon</div>
+                      <div class="detay">Hayatımızda neredeyse 10 yıldır yer alan ve gittikçe de yepyeni teknolojiler karşımıza çıkan epilasyon bu kez daha farklı bir teknoloji ile yani herkesin korktuğu acı yok eden Buz Lazer uygulaması ile çıktı.</div>
+                    </div>
+                    </a>
+					                     </div>
+                     					<a href="http://konyahabersitesi.com/haber/saglik/nevsehir-de-domuz-gribi-vakasi-10782.html" title="Nevşehir'de domuz gribi vakası ">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="Nevşehir'de domuz gribi vakası " src="http://konyahabersitesi.com/depo/haber/0ca89.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">Nevşehir'de domuz gribi vakası  </div>
+                  </div>
+                  </a>
+										<a href="http://konyahabersitesi.com/haber/saglik/bakan-acikladi-30-bin-acik-kisi-var-10542.html" title="Bakan açıkladı: 30 bin açık kişi var!">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="Bakan açıkladı: 30 bin açık kişi var!" src="http://konyahabersitesi.com/depo/haber/ca731.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">Bakan açıkladı: 30 bin açık kişi var! </div>
+                  </div>
+                  </a>
+					
+                  				  
+                </div>
+				                                <div id="tabbox_7" class="tabbox" style="display:none">
+						<div class="sol">
+                                        
+					
+										<a href="http://konyahabersitesi.com/haber/etkinlikler/konya-brulor-servisi-10545.html" title="Konya Brülör Servisi">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Konya Brülör Servisi" src="http://konyahabersitesi.com/depo/haber/habertLaxOg.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Konya Brülör Servisi</div>
+                      <div class="detay">Firmamız İşlek Teknik ısıtma  ve soğutma olarak  Konya özel  brülör servis hizmeti vermektedir. Yedek Parçalarımız 1 (bir) yıl Servis garantisi kapsamındadır. Brülör servisi konusunda uzman firmamız yetki belgeleri ile hizmetlerine devam etmektedir. Her marka ve model brülör bakımı, onarım gibi servislik hizmetleri vermekteyiz.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/etkinlikler/gezilecekyerler-biz-cok-okuyan-degil-cok-gezen-bilir-10311.html" title="Gezilecekyerler.biz - ÇOK OKUYAN DEĞİL ÇOK GEZEN BİLİR">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Gezilecekyerler.biz - ÇOK OKUYAN DEĞİL ÇOK GEZEN BİLİR" src="http://konyahabersitesi.com/depo/haber/haberm3vNES.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Gezilecekyerler.biz - ÇOK OKUYAN DEĞİL ÇOK GEZEN BİLİR</div>
+                      <div class="detay"> Atasözlerimizden yola çıkacak olursak " Çok okuyan değil, çok gezen bilir" sözünün doğruluğunu size aktarabilen bir site sunmak istiyoruz.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/etkinlikler/ilanset-ile-guven-dolu-al-sveris-10288.html" title="İLANSET İLE GÜVEN DOLU ALIŞVERİŞ">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="İLANSET İLE GÜVEN DOLU ALIŞVERİŞ" src="http://konyahabersitesi.com/depo/haber/haberAxW3hT.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">İLANSET İLE GÜVEN DOLU ALIŞVERİŞ</div>
+                      <div class="detay">İnsan ilişkilerinde bile yaşadığımız güven sorunu internet üzerinde bin kat daha fazla artmış durumdadır.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/etkinlikler/evden-kacis-oyunu-istanbul-oyunlari-10281.html" title="Evden kaçış oyunu İstanbul oyunları">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Evden kaçış oyunu İstanbul oyunları" src="http://konyahabersitesi.com/depo/haber/haberTjVNW4.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Evden kaçış oyunu İstanbul oyunları</div>
+                      <div class="detay">Evden kaçış oyunu İstanbul oyunları</div>
+                    </div>
+                    </a>
+					                     </div>
+                     					<a href="http://konyahabersitesi.com/haber/etkinlikler/konya-brulor-servisi-10545.html" title="Konya Brülör Servisi">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="Konya Brülör Servisi" src="http://konyahabersitesi.com/depo/haber/habertLaxOg.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">Konya Brülör Servisi </div>
+                  </div>
+                  </a>
+										<a href="http://konyahabersitesi.com/haber/etkinlikler/gezilecekyerler-biz-cok-okuyan-degil-cok-gezen-bilir-10311.html" title="Gezilecekyerler.biz - ÇOK OKUYAN DEĞİL ÇOK GEZEN BİLİR">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="Gezilecekyerler.biz - ÇOK OKUYAN DEĞİL ÇOK GEZEN BİLİR" src="http://konyahabersitesi.com/depo/haber/haberm3vNES.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">Gezilecekyerler.biz - ÇOK OKUYAN DEĞİL ÇOK GEZEN BİLİR </div>
+                  </div>
+                  </a>
+					
+                  				  
+                </div>
+				                                <div id="tabbox_8" class="tabbox" style="display:none">
+						<div class="sol">
+                                        
+					
+										<a href="http://konyahabersitesi.com/haber/world-news/muslim-televangelist-defends-oral-sex-slams-colleague-for-declaring-it-haram-9228.html" title="Muslim televangelist defends oral sex, slams colleague for declaring it haram">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Muslim televangelist defends oral sex, slams colleague for declaring it haram" src="http://konyahabersitesi.com/depo/haber/haberkWTkon.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Muslim televangelist defends oral sex, slams colleague for declaring it haram</div>
+                      <div class="detay">A popular Muslim televangelist in Turkey has opposed a recent statement by a colleague, who had declared “advanced oral sex” to be forbidden by Islam.</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/world-news/signs-of-world-s-first-pictograph-found-in-gobeklitepe-9227.html" title="Signs of world’s first pictograph found in Göbeklitepe">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Signs of world’s first pictograph found in Göbeklitepe" src="http://konyahabersitesi.com/depo/haber/haberqu2ZuJ.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Signs of world’s first pictograph found in Göbeklitepe</div>
+                      <div class="detay">Turkey's Göbeklitepe, the site of the world’s oldest temple, may be the home of the first pictograph, according to a scene etched into an obelisk.
+</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/world-news/mhp-head-says-his-party-won-t-support-akp-led-minority-gov-t-9226.html" title="MHP head says his party won’t support AKP-led minority gov’t">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="MHP head says his party won’t support AKP-led minority gov’t" src="http://konyahabersitesi.com/depo/haber/haberJGHD8U.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">MHP head says his party won’t support AKP-led minority gov’t</div>
+                      <div class="detay">Nationalist Movement Party (MHP) leader Devlet Bahçeli has said his party won’t lend support to a minority government formed by the Justice and Development Party (AKP), adding it won’t support a coalition government either. 
+</div>
+                    </div>
+                    </a>
+										<a href="http://konyahabersitesi.com/haber/world-news/oil-refinery-catches-fire-in-western-turkey-9225.html" title="Oil refinery catches fire in western Turkey">
+                    <div class="basliklar">
+                      <div class="resim"><img alt="Oil refinery catches fire in western Turkey" src="http://konyahabersitesi.com/depo/haber/haberMMBxBS.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="100" /></div>
+                      <div class="baslik">Oil refinery catches fire in western Turkey</div>
+                      <div class="detay">A Turkish Petroleum Refineries Company (TÜPRAŞ) refinery in the Aegean province of İzmir caught on fire, with a 160-liter oil tank lying along its production stream, Doğan News Agency reported on July 17.
+</div>
+                    </div>
+                    </a>
+					                     </div>
+                     					<a href="http://konyahabersitesi.com/haber/world-news/muslim-televangelist-defends-oral-sex-slams-colleague-for-declaring-it-haram-9228.html" title="Muslim televangelist defends oral sex, slams colleague for declaring it haram">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="Muslim televangelist defends oral sex, slams colleague for declaring it haram" src="http://konyahabersitesi.com/depo/haber/haberkWTkon.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">Muslim televangelist defends oral sex, slams colleague for declaring it haram </div>
+                  </div>
+                  </a>
+										<a href="http://konyahabersitesi.com/haber/world-news/signs-of-world-s-first-pictograph-found-in-gobeklitepe-9227.html" title="Signs of world’s first pictograph found in Göbeklitepe">
+									
+                  <div class="sag">
+                    <div class="resim"><img alt="Signs of world’s first pictograph found in Göbeklitepe" src="http://konyahabersitesi.com/depo/haber/haberqu2ZuJ.jpg"  onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" width="215" /></div>
+                    <div class="baslik">Signs of world’s first pictograph found in Göbeklitepe </div>
+                  </div>
+                  </a>
+					
+                  				  
+                </div>
+				                  
+                              </div>
+              <div class="clear"></div>
+              <script> 
+			  $("#tabbox_1").show();
+			  $("#tab_1").attr("class", "tab x");
+			  function tab(id){
+				  var degisken = "tab_"+id;
+				  $(".tab").attr("class", "tab");
+				  $("#"+degisken).attr("class", "tab x");
+				  $(".tabbox").hide();
+				  $("#tabbox_"+id).show();}
+		 </script> </div>
+          </div>
+        </div>
+      </div>      <div class="basliklar">
+        <div class="basliklar_alttam">
+          <div class="basliklar_icerik">
+			              <a href="http://konyahabersitesi.com/haber/gundem/hayrunnisa-gul-babasini-gozyaslariyla-ugurladi-11085.html" title="Hayrünnisa Gül babasını gözyaşlarıyla uğurladı " >
+			 <div class='haberorta'>
+			 <div class='haberorta_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Hayrünnisa Gül babasını gözyaşlarıyla uğurladı " src="http://konyahabersitesi.com/depo/haber/e312a.jpg"  width='193' />
+			 </div>
+			 <div class='haberorta_icerik'>
+			 <div class='haberorta_baslik'>Hayrünnisa Gül babasını gözyaşlarıyla uğurladı </div>
+			 <div class='haberorta_tarih'><div class='haberorta_tarih_yan'>
+			 <img src='http://konyahabersitesi.com/images/folder.png' width='16' height='13' />GÜNDEM</div>&nbsp;&nbsp;
+			 <div class='haberorta_tarih_yan'><img src='http://konyahabersitesi.com/images/saat.png' width='14' height='14' />
+			 13/02/2016			 </div>
+			 </div>
+			 <div class='clear'></div>
+			 <div class='haberorta_detay'>				Hayrünnisa Gül vefat eden babası Ahmet Özyurt'un cenaze töreninde gözyaşlarına hakim olamadı.  </div>
+			 </div>
+			 <div class='clear'></div>
+			 </div>
+			 </a> 
+			               <a href="http://konyahabersitesi.com/haber/gundem/emniyet-mudurunden-guvenlik-guclerine-anons-11084.html" title="Emniyet müdüründen güvenlik güçlerine anons " >
+			 <div class='haberorta'>
+			 <div class='haberorta_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Emniyet müdüründen güvenlik güçlerine anons " src="http://konyahabersitesi.com/depo/haber/25f27.jpg"  width='193' />
+			 </div>
+			 <div class='haberorta_icerik'>
+			 <div class='haberorta_baslik'>Emniyet müdüründen güvenlik güçlerine anons </div>
+			 <div class='haberorta_tarih'><div class='haberorta_tarih_yan'>
+			 <img src='http://konyahabersitesi.com/images/folder.png' width='16' height='13' />GÜNDEM</div>&nbsp;&nbsp;
+			 <div class='haberorta_tarih_yan'><img src='http://konyahabersitesi.com/images/saat.png' width='14' height='14' />
+			 13/02/2016			 </div>
+			 </div>
+			 <div class='clear'></div>
+			 <div class='haberorta_detay'>				Cizre'de operasyonun ardından emniyet müdürlüğünden güvenlik güçlerine anons yapıldı. Emniyet müdürü Mehmet Akif Ersoy'un şiirini okudu.</div>
+			 </div>
+			 <div class='clear'></div>
+			 </div>
+			 </a> 
+			               <a href="http://konyahabersitesi.com/haber/gundem/sogan-tarlasindan-tarih-fiskirdi-11083.html" title="Soğan tarlasından tarih fışkırdı! " >
+			 <div class='haberorta'>
+			 <div class='haberorta_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Soğan tarlasından tarih fışkırdı! " src="http://konyahabersitesi.com/depo/haber/87fa2.jpg"  width='193' />
+			 </div>
+			 <div class='haberorta_icerik'>
+			 <div class='haberorta_baslik'>Soğan tarlasından tarih fışkırdı! </div>
+			 <div class='haberorta_tarih'><div class='haberorta_tarih_yan'>
+			 <img src='http://konyahabersitesi.com/images/folder.png' width='16' height='13' />GÜNDEM</div>&nbsp;&nbsp;
+			 <div class='haberorta_tarih_yan'><img src='http://konyahabersitesi.com/images/saat.png' width='14' height='14' />
+			 13/02/2016			 </div>
+			 </div>
+			 <div class='clear'></div>
+			 <div class='haberorta_detay'>				Denizli’nin Çardak İlçesi’nde bir çiftçi, soğan dikmek için bahçesinde belleme yaparken tarihi mezar buldu.</div>
+			 </div>
+			 <div class='clear'></div>
+			 </div>
+			 </a> 
+			               <a href="http://konyahabersitesi.com/haber/gundem/cemaatin-basina-avize-dustu-3-kisi-yaralandi-11082.html" title="Cemaatin başına avize düştü, 3 kişi yaralandı " >
+			 <div class='haberorta'>
+			 <div class='haberorta_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Cemaatin başına avize düştü, 3 kişi yaralandı " src="http://konyahabersitesi.com/depo/haber/716fd.jpg"  width='193' />
+			 </div>
+			 <div class='haberorta_icerik'>
+			 <div class='haberorta_baslik'>Cemaatin başına avize düştü, 3 kişi yaralandı </div>
+			 <div class='haberorta_tarih'><div class='haberorta_tarih_yan'>
+			 <img src='http://konyahabersitesi.com/images/folder.png' width='16' height='13' />GÜNDEM</div>&nbsp;&nbsp;
+			 <div class='haberorta_tarih_yan'><img src='http://konyahabersitesi.com/images/saat.png' width='14' height='14' />
+			 13/02/2016			 </div>
+			 </div>
+			 <div class='clear'></div>
+			 <div class='haberorta_detay'>				Sivas’ta kısa süre önce restorasyonu yapılan tarihi camide cuma namazı kılındığı sırada avize düştü, cemaatten 3 kişi yaralandı.</div>
+			 </div>
+			 <div class='clear'></div>
+			 </div>
+			 </a> 
+			               <a href="http://konyahabersitesi.com/haber/gundem/idil-de-pkk-lilar-ambulansa-ates-acti-11081.html" title="İdil'de PKK'lılar ambulansa ateş açtı " >
+			 <div class='haberorta'>
+			 <div class='haberorta_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="İdil'de PKK'lılar ambulansa ateş açtı " src="http://konyahabersitesi.com/depo/haber/c4cae.jpg"  width='193' />
+			 </div>
+			 <div class='haberorta_icerik'>
+			 <div class='haberorta_baslik'>İdil'de PKK'lılar ambulansa ateş açtı </div>
+			 <div class='haberorta_tarih'><div class='haberorta_tarih_yan'>
+			 <img src='http://konyahabersitesi.com/images/folder.png' width='16' height='13' />GÜNDEM</div>&nbsp;&nbsp;
+			 <div class='haberorta_tarih_yan'><img src='http://konyahabersitesi.com/images/saat.png' width='14' height='14' />
+			 13/02/2016			 </div>
+			 </div>
+			 <div class='clear'></div>
+			 <div class='haberorta_detay'>				Şırnak'ın İdil İlçesi'nde bugün akaryakıt alan ambulansa PKK'lı teröristler tarafından otomatik silahlarla ateş açıldı.</div>
+			 </div>
+			 <div class='clear'></div>
+			 </div>
+			 </a> 
+			               <a href="http://konyahabersitesi.com/haber/gundem/yillar-sonra-bir-ilk-11080.html" title="Yıllar sonra bir ilk! " >
+			 <div class='haberorta'>
+			 <div class='haberorta_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Yıllar sonra bir ilk! " src="http://konyahabersitesi.com/depo/haber/c3b4b.jpg"  width='193' />
+			 </div>
+			 <div class='haberorta_icerik'>
+			 <div class='haberorta_baslik'>Yıllar sonra bir ilk! </div>
+			 <div class='haberorta_tarih'><div class='haberorta_tarih_yan'>
+			 <img src='http://konyahabersitesi.com/images/folder.png' width='16' height='13' />GÜNDEM</div>&nbsp;&nbsp;
+			 <div class='haberorta_tarih_yan'><img src='http://konyahabersitesi.com/images/saat.png' width='14' height='14' />
+			 10/02/2016			 </div>
+			 </div>
+			 <div class='clear'></div>
+			 <div class='haberorta_detay'>				Hamsinin kilogram fiyatı fındığın kilogram fiyatının üzerine çıktı. Böyle olunca Karadenizli balıkçı 'hamsi fındık kampanyası'na başladı</div>
+			 </div>
+			 <div class='clear'></div>
+			 </div>
+			 </a> 
+			               <a href="http://konyahabersitesi.com/haber/gundem/beyoglu-nda-facia-1-bebek-oldu-11079.html" title="Beyoğlu’nda facia: 1 bebek öldü! " >
+			 <div class='haberorta'>
+			 <div class='haberorta_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Beyoğlu’nda facia: 1 bebek öldü! " src="http://konyahabersitesi.com/depo/haber/c3c55.jpg"  width='193' />
+			 </div>
+			 <div class='haberorta_icerik'>
+			 <div class='haberorta_baslik'>Beyoğlu’nda facia: 1 bebek öldü! </div>
+			 <div class='haberorta_tarih'><div class='haberorta_tarih_yan'>
+			 <img src='http://konyahabersitesi.com/images/folder.png' width='16' height='13' />GÜNDEM</div>&nbsp;&nbsp;
+			 <div class='haberorta_tarih_yan'><img src='http://konyahabersitesi.com/images/saat.png' width='14' height='14' />
+			 10/02/2016			 </div>
+			 </div>
+			 <div class='clear'></div>
+			 <div class='haberorta_detay'>İstanbul Beyoğlu'nda hurda kağıt toplayan ailenin yaşadığı evde, sabah saatlerinde çıkan yangında 15 aylık bir bebek hayatını kaybetti. </div>
+			 </div>
+			 <div class='clear'></div>
+			 </div>
+			 </a> 
+			               <a href="http://konyahabersitesi.com/haber/gundem/sariyer-deki-otobus-kazasina-7-5-yil-hapis-11078.html" title="Sarıyer'deki otobüs kazasına 7,5 yıl hapis " >
+			 <div class='haberorta'>
+			 <div class='haberorta_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Sarıyer'deki otobüs kazasına 7,5 yıl hapis " src="http://konyahabersitesi.com/depo/haber/9852a.jpg"  width='193' />
+			 </div>
+			 <div class='haberorta_icerik'>
+			 <div class='haberorta_baslik'>Sarıyer'deki otobüs kazasına 7,5 yıl hapis </div>
+			 <div class='haberorta_tarih'><div class='haberorta_tarih_yan'>
+			 <img src='http://konyahabersitesi.com/images/folder.png' width='16' height='13' />GÜNDEM</div>&nbsp;&nbsp;
+			 <div class='haberorta_tarih_yan'><img src='http://konyahabersitesi.com/images/saat.png' width='14' height='14' />
+			 10/02/2016			 </div>
+			 </div>
+			 <div class='clear'></div>
+			 <div class='haberorta_detay'>				Sarıyer'de yolcu otobüsüyle 2 kişinin öldüğü, 8 kişinin yaralandığı kazada otobüs şoförü Fikret Gülbahar'a 7,5 yıl hapis cezası verildi.</div>
+			 </div>
+			 <div class='clear'></div>
+			 </div>
+			 </a> 
+			               <a href="http://konyahabersitesi.com/haber/gundem/belgrad-ormani-nda-kan-donduran-olay-11077.html" title="Belgrad Ormanı'nda kan donduran olay! " >
+			 <div class='haberorta'>
+			 <div class='haberorta_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Belgrad Ormanı'nda kan donduran olay! " src="http://konyahabersitesi.com/depo/haber/121d2.jpg"  width='193' />
+			 </div>
+			 <div class='haberorta_icerik'>
+			 <div class='haberorta_baslik'>Belgrad Ormanı'nda kan donduran olay! </div>
+			 <div class='haberorta_tarih'><div class='haberorta_tarih_yan'>
+			 <img src='http://konyahabersitesi.com/images/folder.png' width='16' height='13' />GÜNDEM</div>&nbsp;&nbsp;
+			 <div class='haberorta_tarih_yan'><img src='http://konyahabersitesi.com/images/saat.png' width='14' height='14' />
+			 10/02/2016			 </div>
+			 </div>
+			 <div class='clear'></div>
+			 <div class='haberorta_detay'>				İstanbul Belgrad Ormanı'nda dün sabah saatlerinde bir erkek cesedi ağaca asılı halde bulundu.</div>
+			 </div>
+			 <div class='clear'></div>
+			 </div>
+			 </a> 
+			               <a href="http://konyahabersitesi.com/haber/gundem/pkk-da-deas-gibi-kafa-kesmeye-basladi-11076.html" title="PKK da DEAŞ gibi kafa kesmeye başladı! " >
+			 <div class='haberorta'>
+			 <div class='haberorta_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="PKK da DEAŞ gibi kafa kesmeye başladı! " src="http://konyahabersitesi.com/depo/haber/4114c.jpg"  width='193' />
+			 </div>
+			 <div class='haberorta_icerik'>
+			 <div class='haberorta_baslik'>PKK da DEAŞ gibi kafa kesmeye başladı! </div>
+			 <div class='haberorta_tarih'><div class='haberorta_tarih_yan'>
+			 <img src='http://konyahabersitesi.com/images/folder.png' width='16' height='13' />GÜNDEM</div>&nbsp;&nbsp;
+			 <div class='haberorta_tarih_yan'><img src='http://konyahabersitesi.com/images/saat.png' width='14' height='14' />
+			 10/02/2016			 </div>
+			 </div>
+			 <div class='clear'></div>
+			 <div class='haberorta_detay'>				Peş peşe düzenlenen operasyonlarla kurtulamayacağını anlayan PKK'lıların kendi 'arkadaşlarını' infaz ettiği ortaya çıktı. </div>
+			 </div>
+			 <div class='clear'></div>
+			 </div>
+			 </a> 
+			 			</div>
+        </div>
+      </div>
+      <div class="clear"></div>﻿<div class="sporbasliklar">
+       <div class="sportitle"> Spor <a href="http://konyahabersitesi.com/kategoriler/spor.html"  title="Spor">Tümü</a> </div>
+        <div class="gbasliklar_alt">
+          <div class="basliklar_icerik">
+                          <a href="http://konyahabersitesi.com/haber/spor/abd-den-olimpiyatlara-ilk-tesetturlu-sporcu-11007.html" title="ABD'den olimpiyatlara ilk tesettürlü sporcu " >
+			  <div class="spormansetleri">
+                  <div class="gununmansetleri_resim"><img class="lazy" onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="ABD'den olimpiyatlara ilk tesettürlü sporcu " src="http://konyahabersitesi.com/depo/haber/0c019.jpg" width="199"  style="display: inline;"></div>
+                  <div class="gununmansetleri_baslik">ABD'den olimpiyatlara ilk tesettürlü sporcu </div>
+				</div>
+			</a>        
+			                  <a href="http://konyahabersitesi.com/haber/spor/galatasaray-a-surpriz-nihat-dogan-mahkeme-karari-10732.html" title="Galatasaray'a Sürpriz Nihat Doğan Mahkeme Kararı" >
+			  <div class="spormansetleri">
+                  <div class="gununmansetleri_resim"><img class="lazy" onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Galatasaray'a Sürpriz Nihat Doğan Mahkeme Kararı" src="http://konyahabersitesi.com/depo/haber/haber8awRDB.jpg" width="199"  style="display: inline;"></div>
+                  <div class="gununmansetleri_baslik">Galatasaray'a Sürpriz Nihat Doğan Mahkeme Kararı</div>
+				</div>
+			</a>        
+			                  <a href="http://konyahabersitesi.com/haber/spor/arena-da-gulen-cikmadi-10428.html" title="Arena'da gülen çıkmadı " >
+			  <div class="spormansetleri">
+                  <div class="gununmansetleri_resim"><img class="lazy" onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Arena'da gülen çıkmadı " src="http://konyahabersitesi.com/depo/haber/haberkgC5FM.jpg" width="199"  style="display: inline;"></div>
+                  <div class="gununmansetleri_baslik">Arena'da gülen çıkmadı </div>
+				</div>
+			</a>        
+			                  <a href="http://konyahabersitesi.com/haber/spor/caykur-rizespor-galatasaray-macinda-7-gol-var-10379.html" title="Çaykur Rizespor - Galatasaray maçında 7 gol var! " >
+			  <div class="spormansetleri">
+                  <div class="gununmansetleri_resim"><img class="lazy" onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Çaykur Rizespor - Galatasaray maçında 7 gol var! " src="http://konyahabersitesi.com/depo/haber/haberXRZcss.jpg" width="199"  style="display: inline;"></div>
+                  <div class="gununmansetleri_baslik">Çaykur Rizespor - Galatasaray maçında 7 gol var! </div>
+				</div>
+			</a>        
+			                  <a href="http://konyahabersitesi.com/haber/spor/milli-takim-a-cilgin-prim-10205.html" title="Milli Takım'a çılgın prim!" >
+			  <div class="spormansetleri">
+                  <div class="gununmansetleri_resim"><img class="lazy" onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Milli Takım'a çılgın prim!" src="http://konyahabersitesi.com/depo/haber/habergOFAoy.jpg" width="199"  style="display: inline;"></div>
+                  <div class="gununmansetleri_baslik">Milli Takım'a çılgın prim!</div>
+				</div>
+			</a>        
+			                  <a href="http://konyahabersitesi.com/haber/spor/inan-dik-basardik-bekle-bizi-fransa-geliyoruz-10200.html" title="'İnan'dık başardık... Bekle bizi Fransa geliyoruz " >
+			  <div class="spormansetleri">
+                  <div class="gununmansetleri_resim"><img class="lazy" onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="'İnan'dık başardık... Bekle bizi Fransa geliyoruz " src="http://konyahabersitesi.com/depo/haber/haberuNN8Fe.jpg" width="199"  style="display: inline;"></div>
+                  <div class="gununmansetleri_baslik">'İnan'dık başardık... Bekle bizi Fransa geliyoruz </div>
+				</div>
+			</a>        
+			    			<div class="clear"></div>
+          </div>
+        </div>
+      </div>      <div class="sbasliklar">
+        <div class="sbasliklar_ust">
+          <div class="sbasliklar_baslik">
+            <div class="foto_anabaslik">
+              Foto Galeri</div>
+        
+            <div class="foto_tumu">
+			<a href="http://konyahabersitesi.com/fotogaleri.html" id="menuler_beyaz">Tümü</a>
+			</div>
+          </div>
+        </div>
+        <div class="basliklar_alt">
+          <div class="basliklar_icerik">
+          <div class="fotoalbum">
+                    
+          
+            <div class="ikili_sol">
+			             <div class="tekli">
+              <a href="http://konyahabersitesi.com/fotogaleridetay/ates-serbest-2015-tatbikati.html" title="Ateş Serbest 2015 Tatbikatı" >
+				<div class="baslik">Ateş Serbest 2015 Tatbikatı</div>
+                 <img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Ateş Serbest 2015 Tatbikatı" src="http://konyahabersitesi.com/depo/galeri/54gk.jpg"  width="345" />
+				 </a>
+				 </div>
+                 				                 <div class="ciftli" id="sol">
+				<a href="http://konyahabersitesi.com/fotogaleridetay/ulkelerin-insansiz-hava-araclari-sayisi.html" title="Ülkelerin insansız hava araçları sayısı" >
+				<div class="baslik"></div>
+				<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Ülkelerin insansız hava araçları sayısı" src="http://konyahabersitesi.com/depo/galeri/53gk.jpg" width="171" />
+				</a>
+				</div>
+								                <div class="ciftli" id="sag">
+				<a href="http://konyahabersitesi.com/fotogaleridetay/cin-market-satilan-urunler.html" title="çin market satılan ürünler" >
+				<div class="baslik"></div>
+				<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="çin market satılan ürünler" src="http://konyahabersitesi.com/depo/galeri/52gk.jpg" width="171" />
+				</a>
+				</div>
+				                 <div class="clear"></div>
+                 				<div class="tekli">
+				<a href="http://konyahabersitesi.com/fotogaleridetay/forex.html" title="Forex" >
+				<div class="baslik">Forex</div>
+                 <img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Forex" src="http://konyahabersitesi.com/depo/galeri/51gk.jpg"  width="345" />
+				 </a>
+				 </div>
+                                                                   
+            </div>
+           
+            <div class="ikili_sag">
+			  				<div class="ust">
+			  	<a href="http://konyahabersitesi.com/fotogaleridetay/ulkelerin-insansiz-hava-araclari-sayisi.html" title="Ülkelerin insansız hava araçları sayısı" >
+				<div class="baslik">Ülkelerin insansız hava araçları sayısı</div>
+                 <img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Ülkelerin insansız hava araçları sayısı" src="http://konyahabersitesi.com/depo/galeri/53gk.jpg"  width="312" />
+				 </a>
+				 </div>
+                 				<div class="orta">
+			  	<a href="http://konyahabersitesi.com/fotogaleridetay/cin-market-satilan-urunler.html" title="çin market satılan ürünler" >
+				<div class="baslik">çin market satılan ürünler</div>
+                 <img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="çin market satılan ürünler" src="http://konyahabersitesi.com/depo/galeri/52gk.jpg"  width="312" />
+				 </a>
+				 </div>
+                 				<div class="alt">
+			  	<a href="http://konyahabersitesi.com/fotogaleridetay/forex.html" title="Forex" >
+				<div class="baslik">Forex</div>
+                 <img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Forex" src="http://konyahabersitesi.com/depo/galeri/51gk.jpg"  width="312" />
+				 </a>
+				 </div>
+                             </div>
+         
+         
+            <div class="clear"></div>
+          </div>
+ </div>
+        </div>
+      </div>      <div class="sbasliklar">
+        <div class="sbasliklar_ust">
+          <div class="sbasliklar_baslik">
+            <div class="basliklar_ikon"><img src="images/2.png" width="20" height="20" /></div>
+            <div class="video_anabaslik">Web TV</div>
+            <div class="video_tumu">
+			<a href="http://konyahabersitesi.com/videogaleri.html" id="menuler_beyaz">Tümü</a>
+			</div>
+          </div>
+        </div>
+        <div class="bbasliklar_alt">
+          <div class="bbasliklar_icerik">
+            <div class="video">
+              <div class="video_sag">
+			  				<div class='video_sag_resim' id='0' style='display:none'>
+				<a href="http://konyahabersitesi.com/videogaleridetay/sahaya-giren-geyik-gol-atti.html" title="Sahaya giren geyik gol attı">
+				<div class='video_sag_play'></div>
+				<div class='video_sag_baslik'>Sahaya giren geyik gol attı</div>
+				<img style='margin-top:-60px' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Sahaya giren geyik gol attı" src="http://konyahabersitesi.com/depo/videogaleri/46gk.jpg" width='670' /></a>
+				</div>
+								<div class='video_sag_resim' id='1' style='display:none'>
+				<a href="http://konyahabersitesi.com/videogaleridetay/suriyedeki-kurt-gucler-tel-abyadi-kontrol-altina-aldi.html" title="Suriyedeki Kürt güçler Tel Abyadı kontrol altına aldı">
+				<div class='video_sag_play'></div>
+				<div class='video_sag_baslik'>Suriyedeki Kürt güçler Tel Abyadı kontrol altına aldı</div>
+				<img style='margin-top:-60px' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Suriyedeki Kürt güçler Tel Abyadı kontrol altına aldı" src="http://konyahabersitesi.com/depo/videogaleri/45gk.jpg" width='670' /></a>
+				</div>
+								<div class='video_sag_resim' id='2' style='display:none'>
+				<a href="http://konyahabersitesi.com/videogaleridetay/macaristanli-cocuklarin-yarisi-yoksullukla-mucadele-ediyor.html" title="Macaristanlı çocukların yarısı yoksullukla mücadele ediyor">
+				<div class='video_sag_play'></div>
+				<div class='video_sag_baslik'>Macaristanlı çocukların yarısı yoksullukla mücadele ediyor</div>
+				<img style='margin-top:-60px' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Macaristanlı çocukların yarısı yoksullukla mücadele ediyor" src="http://konyahabersitesi.com/depo/videogaleri/43gk.jpg" width='670' /></a>
+				</div>
+								<div class='video_sag_resim' id='3' style='display:none'>
+				<a href="http://konyahabersitesi.com/videogaleridetay/sira-disi-videolar-people-are-awesome-konya-haber-sitesi.html" title="Sıra Dısı Videolar PEOPLE ARE AWESOME - KONYA HABER SİTESİ">
+				<div class='video_sag_play'></div>
+				<div class='video_sag_baslik'>Sıra Dısı Videolar PEOPLE ARE AWESOME - KONYA HABER SİTESİ</div>
+				<img style='margin-top:-60px' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Sıra Dısı Videolar PEOPLE ARE AWESOME - KONYA HABER SİTESİ" src="http://konyahabersitesi.com/depo/videogaleri/42gk.jpg" width='670' /></a>
+				</div>
+								<div class='video_sag_resim' id='4' style='display:none'>
+				<a href="http://konyahabersitesi.com/videogaleridetay/uzun-atlama-dunya-rekoru-konya-haber-sitesi.html" title="Uzun atlama dünya rekoru - KONYA HABER SİTESİ">
+				<div class='video_sag_play'></div>
+				<div class='video_sag_baslik'>Uzun atlama dünya rekoru - KONYA HABER SİTESİ</div>
+				<img style='margin-top:-60px' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Uzun atlama dünya rekoru - KONYA HABER SİTESİ" src="http://konyahabersitesi.com/depo/videogaleri/41gk.jpg" width='670' /></a>
+				</div>
+							  </div>
+              <div class="video_sol">
+			  				<a href='javascript:;' id='0' class='video_galeri'>
+				<div class='video_sol_resim'>
+				<div class='video_play'></div><img style='margin-top:-20px' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Sahaya giren geyik gol attı" src="http://konyahabersitesi.com/depo/videogaleri/46gk.jpg" width='200' />
+				</div>
+				</a>
+								<a href='javascript:;' id='1' class='video_galeri'>
+				<div class='video_sol_resim'>
+				<div class='video_play'></div><img style='margin-top:-20px' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Suriyedeki Kürt güçler Tel Abyadı kontrol altına aldı" src="http://konyahabersitesi.com/depo/videogaleri/45gk.jpg" width='200' />
+				</div>
+				</a>
+								<a href='javascript:;' id='2' class='video_galeri'>
+				<div class='video_sol_resim'>
+				<div class='video_play'></div><img style='margin-top:-20px' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Macaristanlı çocukların yarısı yoksullukla mücadele ediyor" src="http://konyahabersitesi.com/depo/videogaleri/43gk.jpg" width='200' />
+				</div>
+				</a>
+								<a href='javascript:;' id='3' class='video_galeri'>
+				<div class='video_sol_resim'>
+				<div class='video_play'></div><img style='margin-top:-20px' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Sıra Dısı Videolar PEOPLE ARE AWESOME - KONYA HABER SİTESİ" src="http://konyahabersitesi.com/depo/videogaleri/42gk.jpg" width='200' />
+				</div>
+				</a>
+								<a href='javascript:;' id='4' class='video_galeri'>
+				<div class='video_sol_resim'>
+				<div class='video_play'></div><img style='margin-top:-20px' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'"  alt="Uzun atlama dünya rekoru - KONYA HABER SİTESİ" src="http://konyahabersitesi.com/depo/videogaleri/41gk.jpg" width='200' />
+				</div>
+				</a>
+								</div>
+              <script>$(".video_sag_resim:eq(0)").show();$(".video_galeri").mouseover(function(){var a=$(this).attr("id");$(".video_sag_resim").hide();$(".video_sag_resim:eq("+a+")").show();});</script>
+			  </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>      <div class="basliklar">
+        <div class="basliklar_ust">
+          <div class="basliklar_baslik">Diğer Başlıklar</div>
+        </div>
+        <div class="basliklar_alt">
+          <div class="basliklar_icerik">
+		              <a href="http://konyahabersitesi.com/haber/gundem/-11081.html" title="İdil'de PKK'lılar ambulansa ateş açtı " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="İdil'de PKK'lılar ambulansa ateş açtı " src="http://konyahabersitesi.com/depo/haber/c4cae.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>İdil'de PKK'lılar ambulansa ateş açtı </div>
+			<div class='digerbasliklar_detay'>				Şırnak'ın İdil İlçesi'nde bugün akaryakıt alan ambulansa PKK'lı teröristler tarafından otomatik silahlarla ateş açıldı.</div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11080.html" title="Yıllar sonra bir ilk! " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Yıllar sonra bir ilk! " src="http://konyahabersitesi.com/depo/haber/c3b4b.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Yıllar sonra bir ilk! </div>
+			<div class='digerbasliklar_detay'>				Hamsinin kilogram fiyatı fındığın kilogram fiyatının üzerine çıktı. Böyle olunca Karadenizli balıkçı 'hamsi fındık kampanyası'na başladı</div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11079.html" title="Beyoğlu’nda facia: 1 bebek öldü! " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Beyoğlu’nda facia: 1 bebek öldü! " src="http://konyahabersitesi.com/depo/haber/c3c55.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Beyoğlu’nda facia: 1 bebek öldü! </div>
+			<div class='digerbasliklar_detay'>İstanbul Beyoğlu'nda hurda kağıt toplayan ailenin yaşadığı evde, sabah saatlerinde çıkan yangında 15 aylık bir bebek hayatını kaybetti. </div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11078.html" title="Sarıyer'deki otobüs kazasına 7,5 yıl hapis " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Sarıyer'deki otobüs kazasına 7,5 yıl hapis " src="http://konyahabersitesi.com/depo/haber/9852a.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Sarıyer'deki otobüs kazasına 7,5 yıl hapis </div>
+			<div class='digerbasliklar_detay'>				Sarıyer'de yolcu otobüsüyle 2 kişinin öldüğü, 8 kişinin yaralandığı kazada otobüs şoförü Fikret Gülbahar'a 7,5 yıl hapis cezası verildi.</div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11077.html" title="Belgrad Ormanı'nda kan donduran olay! " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Belgrad Ormanı'nda kan donduran olay! " src="http://konyahabersitesi.com/depo/haber/121d2.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Belgrad Ormanı'nda kan donduran olay! </div>
+			<div class='digerbasliklar_detay'>				İstanbul Belgrad Ormanı'nda dün sabah saatlerinde bir erkek cesedi ağaca asılı halde bulundu.</div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11076.html" title="PKK da DEAŞ gibi kafa kesmeye başladı! " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="PKK da DEAŞ gibi kafa kesmeye başladı! " src="http://konyahabersitesi.com/depo/haber/4114c.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>PKK da DEAŞ gibi kafa kesmeye başladı! </div>
+			<div class='digerbasliklar_detay'>				Peş peşe düzenlenen operasyonlarla kurtulamayacağını anlayan PKK'lıların kendi 'arkadaşlarını' infaz ettiği ortaya çıktı. </div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11075.html" title="Şehit Er Dolançay'ın yürek sızlatan son mesajı " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Şehit Er Dolançay'ın yürek sızlatan son mesajı " src="http://konyahabersitesi.com/depo/haber/8a3df.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Şehit Er Dolançay'ın yürek sızlatan son mesajı </div>
+			<div class='digerbasliklar_detay'>				Şırnak'ta güvenlik güçleriyle PKK'lılar arasında çıkan çatışmada şehit olan asker Vedat Dolançay'ın son mesajı yürekleri sızlattı.</div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11074.html" title="Karatay o fotoğrafına cevap verdi! " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Karatay o fotoğrafına cevap verdi! " src="http://konyahabersitesi.com/depo/haber/59712.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Karatay o fotoğrafına cevap verdi! </div>
+			<div class='digerbasliklar_detay'>				Geçtiğimiz günlerde lahmacun yerken fotoğrafı çekilen Canan Karatay, kendisine yapılan eleştirilere cevap verdi.</div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11073.html" title="Bagajdan 46 milyon TL'lik nükleer külçe çıktı! " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Bagajdan 46 milyon TL'lik nükleer külçe çıktı! " src="http://konyahabersitesi.com/depo/haber/4b315.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Bagajdan 46 milyon TL'lik nükleer külçe çıktı! </div>
+			<div class='digerbasliklar_detay'>				İstanbul'da, durdurulan bir otomobilin bagajında 13 külçe yüzde 97 oranında saf alüminyum ele geçirildi. </div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11072.html" title="Cizre ve Sur'dan acı haber: 2 şehit " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Cizre ve Sur'dan acı haber: 2 şehit " src="http://konyahabersitesi.com/depo/haber/09df2.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Cizre ve Sur'dan acı haber: 2 şehit </div>
+			<div class='digerbasliklar_detay'>				Terörle mücadelenin sürdüğü Diyarbakır Sur ve Şırnak'ın Cizre ilçesinde çıkan çatışmada iki asker daha şehit oldu..</div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11071.html" title="Sınırda 4 adet canlı bomba yeleği ele geçirildi  " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Sınırda 4 adet canlı bomba yeleği ele geçirildi  " src="http://konyahabersitesi.com/depo/haber/cc087.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Sınırda 4 adet canlı bomba yeleği ele geçirildi  </div>
+			<div class='digerbasliklar_detay'>				TSK, Suriye sınırından Türkiye geçiş yapmak isteyen 34 kişinin yakalandığını açıkladı. Şahıslarda canlı bomba yelekleri ele geçirildi.</div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11070.html" title="Kayseri'den acı haber: 2 ölü! " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Kayseri'den acı haber: 2 ölü! " src="http://konyahabersitesi.com/depo/haber/80342.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Kayseri'den acı haber: 2 ölü! </div>
+			<div class='digerbasliklar_detay'>				 Kayseri'de dün gece sobadan sızan karbonmonoksit gazından zehirlenen Şerife ve Mehmet Bedir çifti yaşamını yetirdi.</div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11069.html" title="Türkiye bir günde 6 şehit verdi " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Türkiye bir günde 6 şehit verdi " src="http://konyahabersitesi.com/depo/haber/6cb81.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Türkiye bir günde 6 şehit verdi </div>
+			<div class='digerbasliklar_detay'>				Dün art arda gelen 5 şehit haberinden sonra bir acı haber de Suriye sınırındaki Şırnak'ın İdil ilçesinden geldi.</div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11068.html" title="Kandil'den kaçan PKK'lılara kucak açtılar " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Kandil'den kaçan PKK'lılara kucak açtılar " src="http://konyahabersitesi.com/depo/haber/ff60c.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Kandil'den kaçan PKK'lılara kucak açtılar </div>
+			<div class='digerbasliklar_detay'>				Ermenistan işgal ettiği Azerbaycan toprağı olan Dağlık Karabağ bölgesinde PKK ve diğer örgütleri yerleştirdiği belirtildi.</div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11067.html" title="Sınırda şiddetli çatışma: 1 şehit, 3 yaralı " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Sınırda şiddetli çatışma: 1 şehit, 3 yaralı " src="http://konyahabersitesi.com/depo/haber/08eee.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Sınırda şiddetli çatışma: 1 şehit, 3 yaralı </div>
+			<div class='digerbasliklar_detay'>				Şırnak'ta Suriye sınırından Türkiye'ye sızmaya çalışan yaklaşık 10 kişilik PKK'lı grup ile karakolda görevli askerler arasında çatışma çıktı</div>
+			</div></a>
+			            <a href="http://konyahabersitesi.com/haber/gundem/-11066.html" title="Pendik'te molotoflu saldırı " >
+			<div class='digerbasliklar'>
+			<div class='digerbasliklar_resim'>
+			<img class='lazy' onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Pendik'te molotoflu saldırı " src="http://konyahabersitesi.com/depo/haber/941ec.jpg"  width='208' />
+			</div>
+			<div class='digerbasliklar_baslik'>Pendik'te molotoflu saldırı </div>
+			<div class='digerbasliklar_detay'>				Pendik'te, maskeli 4 kişi, Abdi İpekçi Caddesi üzerinde bulunan PTT şubesi ile ATM'lere ve bir markete molotof kokteylleri ile saldırdı.</div>
+			</div></a>
+						<div class="clear"></div>
+          </div>
+        </div>
+      </div></div>
+  <!--Orta sağ blok -->
+
+         <div class="ortablok_sag">
+     <div class="basliklar">
+    
+    <div class="onecikanlar">
+              <a href="http://konyahabersitesi.com/haber/teknoloji/pacman-duvar-oyununu-oynadiniz-mi-10982.html" title="Pacman Duvar Oyununu Oynadınız mı?">
+		   <div class="resim">
+		   				<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="Pacman Duvar Oyununu Oynadınız mı?" src="http://konyahabersitesi.com/depo/yan/habereaZgP8.jpg"  width='300'  border='0'>
+						   </div>
+			<div class="baslik">Pacman Duvar Oyununu Oynadınız mı?</div>
+		  
+		  </a>
+		             <a href="http://konyahabersitesi.com/haber/gundem/kendiniz-icin-trafik-sigortan-z-yapt-r-n-10981.html" title="KENDİNİZ İÇİN TRAFİK SİGORTANIZI YAPTIRIN">
+		   <div class="resim">
+		   				<img onerror="this.src='http://konyahabersitesi.com/images/fotoyok.png'" alt="KENDİNİZ İÇİN TRAFİK SİGORTANIZI YAPTIRIN" src="http://konyahabersitesi.com/depo/yan/haberVgxful.jpg"  width='300'  border='0'>
+						   </div>
+			<div class="baslik">KENDİNİZ İÇİN TRAFİK SİGORTANIZI YAPTIRIN</div>
+		  
+		  </a>
+		       </div>
+      <div class="bbasliklar_alt">
+     
+      </div>
+    </div><div class="basliklar">                                    	                                    	<script type="text/javascript">
+var system="siteneekle";
+var para_birimleri="USD-EUR";
+var arkaplan="FFFFFF";
+var baslik="000000";
+var cerceve="F0F0F0";
+var turbaslik="424242";
+var kutucuk="FFFFFF";
+var fiyat="CC3300";
+var genislik="300";
+var konum="center";
+var yatay="2";
+var slide="slides";
+var dikey="1";
+var paylasim="kapali";
+</script>
+<a id="altin_doviz_kuru_ekle" href="http://www.altin.net.tr/gram-altin-fiyati.html">gram altın</a><script type="text/javascript" charset="UTF-8" src="http://www.altin.net.tr/js/doviz2.js"></script>
+                                                                        </div><div class="reklam_osagblok" style="background:#fff"><a href="http://konhaber42.com"    target="_blank"><img src="http://konyahabersitesi.com//depo/reklam/69.png" width="300" height="157" alt="" border="0"  style="margin-bottom:5px"/></a></div><div class="basliklar"><div class="basliklar_ust"  >	<div class="basliklar_baslik">Hava Durumu</div></div>                                    	<img src="http://www.mgm.gov.tr/sunum/tahmin-show-2.aspx?m=KONYA&basla=1&bitir=5&rC=111&rZ=fff" style="width:100%;" alt="KONYA" />                             	                                                                        </div><div class="basliklar"><div class="basliklar_ust"  >	<div class="basliklar_baslik">Namaz Vakti</div></div>                                    	                                    	                                    	                    <iframe name="vakit" src="http://www.vakitci.com/vakit2.php?id=3834&tema=bk" height="236" width="100%" scrolling="no" border="0" frameborder="0"></iframe>                	                                                                                                                                                </div><div class="reklam_osagblok" style="background:#fff"><a href="http://www.fazilettakvimi.com/"    target="_blank"><img src="http://konyahabersitesi.com//depo/reklam/70.jpg" width="300" height="235" alt="" border="0"  style="margin-bottom:5px"/></a></div><div class="reklam_osagblok" style="background:#fff"><a href=""    target="_blank"><img src="http://konyahabersitesi.com//depo/reklam/75.jpg" width="300" height="300" alt="" border="0"  style="margin-bottom:5px"/></a></div><div class="basliklar"><div class="basliklar_ust"  >	<div class="basliklar_baslik">Burçlar</div></div><div id="astrofoni_widget_58">
+    <script type="text/javascript">
+        //<![CDATA[
+        var widget_conf_78 = {"language":"tr","theme":"2","box_width":"300px","box_height":"600px","access_code":"UKBz4eIp","box_id":"astrofoni_widget_58"};
+        (function (w, d, widget_conf) {
+            var wa = d.createElement("script"); wa.type = "text/javascript"; wa.async = true; var wa_path = "widget.astrofoni.com/add?v=1";
+            wa.src = ("https:" == d.location.protocol ? "https://" : "http://") + wa_path + "&conf=" + encodeURIComponent(JSON.stringify(widget_conf));
+            var s = d.getElementsByTagName("head")[0]; s.parentNode.appendChild(wa);
+        })(window, document, widget_conf_78);
+        //]]>
+    </script>
+</div>                              	                                                                        </div><div class="basliklar">
+      <div class="basliklar_ust">
+        <div class="basliklar_baslik">En Çok Okunanlar</div>
+      </div>
+      <div class="basliklar_alt">
+        <div class="basliklar_icerik">
+			          <a href="http://konyahabersitesi.com/haber/world-news/signs-of-world-s-first-pictograph-found-in-gobeklitepe-9227.html" title="Signs of world’s first pictograph found in Göbeklitepe"  id="siyahince">
+		  <div class='encok'><img src='http://konyahabersitesi.com/images/oksag.png' height='16' />Signs of world’s first pictograph found in Göbeklitepe</div>
+		  </a>
+		             <a href="http://konyahabersitesi.com/haber/konya-haber/konya-haber-rekabeti-1620.html" title="Konya Haber Rekabeti"  id="siyahince">
+		  <div class='encok'><img src='http://konyahabersitesi.com/images/oksag.png' height='16' />Konya Haber Rekabeti</div>
+		  </a>
+		             <a href="http://konyahabersitesi.com/haber/konya-haber/hakan-albayrak-musiad-da-17-aral-k-ve-sonras-n-degerlendirdi-1168.html" title="HAKAN ALBAYRAK MÜSİAD’da  17 ARALIK ve SONRASINI DEĞERLENDİRDİ"  id="siyahince">
+		  <div class='encok'><img src='http://konyahabersitesi.com/images/oksag.png' height='16' />HAKAN ALBAYRAK MÜSİAD’da  17 ARALIK ve SONRASINI DEĞERLENDİRDİ</div>
+		  </a>
+		             <a href="http://konyahabersitesi.com/haber/politika/mgk-karari-ile-paralel-yapi-bitecek-1172.html" title="MGK kararı ile Paralel Yapı bitecek"  id="siyahince">
+		  <div class='encok'><img src='http://konyahabersitesi.com/images/oksag.png' height='16' />MGK kararı ile Paralel Yapı bitecek</div>
+		  </a>
+		             <a href="http://konyahabersitesi.com/haber/dunya/oleksandr-turcinov-rusya-kirim-i-ilhak-etmek-istiyor-1167.html" title="Oleksandr Turçinov Rusya Kırım'ı ilhak etmek istiyor"  id="siyahince">
+		  <div class='encok'><img src='http://konyahabersitesi.com/images/oksag.png' height='16' />Oleksandr Turçinov Rusya Kırım'ı ilhak etmek istiyor</div>
+		  </a>
+		             <a href="http://konyahabersitesi.com/haber/politika/3-arastirma-sirketinin-son-anket-sonuclari-1169.html" title="3 araştırma şirketinin son anket sonuçları"  id="siyahince">
+		  <div class='encok'><img src='http://konyahabersitesi.com/images/oksag.png' height='16' />3 araştırma şirketinin son anket sonuçları</div>
+		  </a>
+		             <a href="http://konyahabersitesi.com/haber/ekonomi/cumhuriyet-tarihinin-rekoru-kirildi-1852.html" title="Cumhuriyet tarihinin rekoru kırıldı"  id="siyahince">
+		  <div class='encok'><img src='http://konyahabersitesi.com/images/oksag.png' height='16' />Cumhuriyet tarihinin rekoru kırıldı</div>
+		  </a>
+		             <a href="http://konyahabersitesi.com/haber/dunya/barack-obama-dan-rusya-ya-tehdit-1163.html" title="Barack Obama'dan Rusya'ya tehdit"  id="siyahince">
+		  <div class='encok'><img src='http://konyahabersitesi.com/images/oksag.png' height='16' />Barack Obama'dan Rusya'ya tehdit</div>
+		  </a>
+		             <a href="http://konyahabersitesi.com/haber/politika/700-bin-kisi-sandiga-gitmeyecek-1170.html" title="700 bin kişi sandığa gitmeyecek"  id="siyahince">
+		  <div class='encok'><img src='http://konyahabersitesi.com/images/oksag.png' height='16' />700 bin kişi sandığa gitmeyecek</div>
+		  </a>
+		             <a href="http://konyahabersitesi.com/haber/saglik/buyuk-bel-olcusu-seker-hastaligi-isareti-olabilir-2278.html" title="Büyük bel ölçüsü şeker hastalığı işareti olabilir "  id="siyahince">
+		  <div class='encok'><img src='http://konyahabersitesi.com/images/oksag.png' height='16' />Büyük bel ölçüsü şeker hastalığı işareti olabilir </div>
+		  </a>
+		   		  </div>
+    </div><div class="basliklar">                                    	<script type="text/javascript" src="http://i.sabah.com.tr/sbh/v5/siteneekle/j/sitene-ekle.js"></script> <script type="text/javascript">SabahShowWidget({"type":"CanliSkor","Width":314,"Height":380},{})</script>                                    	                                                                                                            	                                    </div><div class="basliklar"><script>var MacsoArkaplan="#ffffff";var MacsoLinkrenk="#000000";var MacsoTarihrenk="#ffffff";var MacsoTarihtext="#000000";var MacsoCanlirenk="#f70a1d";var MacsoYazirenk="#cd12e6";var MacsoLigbg="#f8f8f8";var MacsoLigtext="#999999";var MacsoOver="#E1FED8";var MacsoGolrenk="#daf50e";var MacsoSatir1="#f1f1f1";var MacsoSatir2="#f8f8f8";var MacsoKod="#0e3bed";var MacsoYukseklik="500";var MacsoGenislik="300"; </script><script src="http://stnkl.macsonuclari.net/ekle.asp"></script> <br>powered by <a href="http://www.macsonuclari.net" style="color:#000000" title="maç skorları">macsonuclari.net</a>
+                                    	                                    </div><div class="basliklar"><!-- Wmaraclari.com sans oyunlari Servisi : Basla -->
+<script language="javascript" src="http://www.wmaraclari.com/js_kur/sans.js"></script>
+<noscript><a href="http://www.wmaraclari.com">ziyaretci defteri</a><a href="http://www.ahmbay.com">ahmbay</a></noscript>
+<!-- Wmaraclari.com sans oyunlari Servisi : Bitir -->            	                                                                        </div><div class="basliklar">                     
+<iframe width="300px" scrolling="AUTO" height="520px" frameborder="0" 
+
+src="http://haberciniz.biz/service/sport/league_standing_table.php?color=1">#document<!DOCTYPE 
+
+html><html lang="tr"><head></head><body><div class="CM_lig_gosterim color_1"><ul class="puan_fiks 
+
+clearfix"></ul><ul class="lig clearfix"></ul><div class="tab_0 lig_table_0" style="display: 
+
+block;"><div class="standings" style="display: block;"><table><tbody><tr 
+
+class="header"></tr><tr></tr><tr class="row row_1 row_color_1"><td class="pos"></td><td 
+
+class="team"></td><td></td><td></td><td></td><td></td><td></td></tr><tr></tr><tr class="row row_2 
+
+row_color_0"></tr><tr></tr><tr class="row row_3 row_color_1"></tr><tr></tr><tr class="row row_4 
+
+row_color_0"></tr><tr></tr><tr class="row row_5 row_color_1"></tr><tr></tr><tr class="row row_6 
+
+row_color_0"></tr><tr></tr><tr class="row row_7 row_color_1"></tr><tr></tr><tr class="row row_8 
+
+row_color_0"></tr><tr></tr><tr class="row row_9 row_color_1"></tr><tr></tr><tr class="row row_10 
+
+row_color_0"></tr><tr></tr><tr class="row row_11 row_color_1"></tr><tr></tr><tr class="row row_12 
+
+row_color_0"></tr><tr></tr><tr class="row row_13 row_color_1"></tr><tr></tr><tr class="row row_14 
+
+row_color_0"></tr><tr></tr><tr class="row row_15 row_color_1"></tr><tr></tr><tr class="row row_16 
+
+row_color_0"></tr><tr></tr><tr class="row row_17 row_color_1"></tr><tr></tr><tr class="row row_18 
+
+row_color_0"></tr><tr></tr></tbody></table></div><div class="fixture" style="display: 
+
+none;"></div></div><div class="tab_1 lig_table_1" style="display: none;"></div><div class="tab_2 
+
+lig_table_2" style="display: none;"></div><div class="tab_3 lig_table_3" style="display: 
+
+none;"></div><div class="tab_4 lig_table_4" style="display: 
+
+none;"></div></div></body></html></iframe>
+               	                                    </div><div class="basliklar"><div class="basliklar_ust"  >	<div class="basliklar_baslik">Gazete Manşetleri</div></div>                                    	<div style="width: 300; height: 654; overflow: hidden;"><iframe src="http://www.gazeteoku.com/siteneekle/gmansetleri.html?t=9" width="300" height="654" frameborder="0" scrolling="no"></iframe></div>     	                                                                                                                                                </div><div class="basliklar">                                    	<div style="display:block; background-color:#14233a; width:300px; margin:7px 7px 10px; box-shadow:0px 0px 7px 0px rgba(0, 0, 0, 0.4);"><a href="http://www.sabah.com.tr/zaman-tuneli" target="_blank"><h2 style="text-decoration:none; display:block; position:relative; color:#fff; font:bold 18px/26px arial; height:26px; padding:0 10px; background:#d11919; border-bottom:2px solid #d0d3d8;">TARİHTE BUGÜN</h2></a><script type="text/javascript" src="http://i.sabah.com.tr/sbh/v5/siteneekle/j/sitene-ekle.js"></script> <script type="text/javascript">SabahShowWidget({"type":"TarihteBugun","Width":314,"Height":454},{"r":"kirmizi"})</script><div style="background-color:#293d5b; box-shadow:inset 0px 7px 7px -7px rgba(0, 0, 0, 0.4); height:26px; line-height:18px; color:#14223c; text-align:center; font-family:arial; font-size:11px;"><a href="http://www.sabah.com.tr/sitene-ekle?utm_source=siteneekle&utm_medium=widget&utm_campaign=siteneeklesabah" target="_blank" style="color:#d0d4db; font-weight:bold; display:inline-block; margin-top:5px; border-right:1px solid #d0d4db; padding-right:12px; margin-right:12px;">Sitene Ekle</a><a href="http://www.sabah.com.tr/?utm_source=siteneekle&utm_medium=widget&utm_campaign=siteneeklesabah" target="_blank" style="color:#d0d4db; font-weight:bold; display:inline-block; margin-top:5px;">Haberler</a></div></div>                                 	                                                                                                            	                                    </div></div>
+ 
+	   </div>
+  <div class="clear"></div>  
+  <!--orta bloklar sağ bitiş --> 
+  
+  <!--Footer -->
+  <div class="footer">
+    <div class="footer_menuler">
+      <div class="footer_url"><a href="http://konyahabersitesi.com/sitemap.xml" id="beyaz"><img src="http://konyahabersitesi.com/images/linecat.gif" width="16" height="13" /> Site Haritası</a></div>
+      <div class="footer_url"><a href="http://konyahabersitesi.com/rss.xml" id="beyaz"><img src="http://konyahabersitesi.com/images/linecat.gif" width="16" height="13" /> RSS Feed</a></div>
+      <div class="footer_url"><a href="http://www.google.com/webmasters/tools/ping?sitemap=http://konyahabersitesi.com/sitemap.xml" target="_blank" id="beyaz"><img src="http://konyahabersitesi.com/images/linecat.gif" width="16" height="13" /> Google Ping</a></div>
+      <div class="clear"></div>
+    </div>
+    <div class="footer_linkler">
+      <div class="footer_logo">
+        <div class="footer_logo_ici"> <img src="http://konyahabersitesi.com/images/logo.png" width="250" /> </div>
+      </div>
+      
+			
+      <div class="clear"></div>
+    </div>
+        <div class="footer_copy">
+      <div class="footer_copy_yil">Copyright ©2015. </div>
+      <span class="footer_copy_yil">&nbsp; Sitenin tüm hakları saklıdır. </span>
+      <div class="footer_copy_telif">Haber Yazılımı: <a href="http://www.temelbilisim.com.tr/" id="gri" target="_blank"> Temel Bilişim</a></div>
+    </div>    <div class="clear"></div>
+  </div>
+
+  <!--footer bitiş -->
+  
+<script type="text/javascript">
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v2.4&appId=1380035702255610";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="yukaricik"><img src="http://konyahabersitesi.com/images/yukari.png" width="14" height="15" /></div>
+<script type="text/javascript">
+		<!-- Yukarı Çık -->
+	$(window).scroll(function(){if($(this).scrollTop()>450){
+	$(".haberspotla").fadeIn("fast")}else{$(".haberspotla").fadeOut("fast")}});$(window).scroll(function(){if($(this).scrollTop()>600){$(".yukaricik").fadeIn("fast")}else{$(".yukaricik").fadeOut("fast")}});
+	$(window).scroll(function(){if($(this).scrollTop()>165){
+		$('.menuler').addClass("menuler_sabit");
+		$('.menuler_bos').show();
+	
+		$('.menuler_renk').hide();
+		
+		}else{
+			$('.menuler').removeClass("menuler_sabit");
+			
+			$('.menuler_bos').hide();
+			
+			$('.menuler_renk').show();
+		
+			}});
+			$(".yukaricik").click(function(){$("html, body").animate({scrollTop:0},500)});$(".tumkatsec").click(function(){$(".menuler_tumkategori").show();$(".menuler_tumkategori").mouseleave(function(){$(".menuler_tumkategori").hide()})});var surmansetCurrentItem;var surmansetCount=0;var surmansetInterval;var surmansetAnimationDelay=4000;$(function(){if($("*").hasClass("surmansetContiner")){surmansetCurrentItem=0;surmansetCount=$(".surmansetb_foto a").length;surmansetAmination();surmansetInterval=setInterval(surmansetIntervalTik,surmansetAnimationDelay);$(".surmansetk_foto div").hover(surmansetHover,surmansetOut)}});function surmansetHover(a){clearInterval(surmansetInterval);surmansetCurrentItem=$(this).index();surmansetAmination()}function surmansetOut(a){surmansetInterval=setInterval(surmansetIntervalTik,surmansetAnimationDelay)}function surmansetCleerClass(){$(".surmansetk_foto div").removeClass("surmansetk_foto-div-hover");$(".surmansetk_foto div img").removeClass("surmansetk_border-hover")}function surmansetIntervalTik(){surmansetCurrentItem++;if(surmansetCurrentItem>=surmansetCount){surmansetCurrentItem=0}surmansetAmination()}function surmansetAmination(){surmansetCleerClass();$(".surmansetk_foto div:eq("+surmansetCurrentItem+")").addClass("surmansetk_foto-div-hover");$(".surmansetk_foto div:eq("+surmansetCurrentItem+") img").addClass("surmansetk_border-hover");$(".surmansetb_foto a").hide();$(".surmansetb_foto a:eq("+surmansetCurrentItem+")").show(); var c=$(".surmansetb_foto a:eq("+surmansetCurrentItem+") img").attr("title"); var a=$(".surmansetb_foto a:eq("+surmansetCurrentItem+") ").attr("href"); var b='<div class="surmansetetiket"><h1><a href='+a+">"+c+"</a></h1></div>"; $(".surmansetb_foto div").remove(".surmansetetiket"); if($(".surmansetb_foto a:eq("+surmansetCurrentItem+")").attr("on")=="1"){	 $(".surmansetb_foto").append(b)}	};	 	 jQuery(function(b){b("#foto_carousel").rcarousel({orientation:"horizontal",width:215,height:170,speed:800,startAtPage:0,navigation:{next:"#foto_ileri",prev:"#foto_geri"},auto:{enabled:true,interval:2000,direction:"next"}});b("#foto_ileri").add("#foto_geri").hover(function(){b(this).css("opacity",0.7)},function(){b(this).css("opacity",1)})});jQuery(function(b){b("#sondakika_carousel").rcarousel({orientation:"vertical",width:560,height:25,step:1,speed:1000,startAtPage:0,navigation:{next:"#sondakikaileri",prev:"#sondakikageri"},auto:{enabled:true,interval:2000,direction:"next"}});b("#sondakikaileri").add("#sondakikageri")});
+</script>
+</div>
+
+<a href="http://www.alexa.com/siteinfo/konyahabersitesi.com"><script type="text/javascript" src=”http://xslt.alexa.com/site_stats/js/t/a?url=konyahabersitesi.com"></script></a>
+
+<a href="http://www.onlinewebstats.com/websites/Basin-ve-yayin-haber-siteleri.phtml">haberler</a>
+<span id="wobsbn"><a href="http://www.onlinewebstats.com/websites/Basin-ve-yayin-haber-siteleri.phtml">
+<img src=http://sayac.onlinewebstat.com/logo/c4.gif alt="haberler" width=90 height=30 style="border: 0" /></a></span>
+<script type="text/javascript" src="http://sayac.onlinewebstat.com/c5.js"></script>
+<script type="text/javascript">ows_track("konyahabersitesi")</script>
+<noscript><img src="http://sayac1.onlinewebstat.com/analiz.php3?user=konyahabersitesi" alt="" /></noscript>
+<div style="display:none"><a href="http://www.izle6.com/" title="porno izle">porno izle</a>
+<div style="display:none"><a href="http://www.vaybe.tv/" title="porno">porno</a>
+<div style="display:none"><a href="http://www.sexizleturk.com/" title="Türk Porno">Türk Porno</a>
+<div style="display:none"><a href="http://www.pornoturksikis.net/" title="Sex izle">Sex izle</a>
+<div style="display:none"><a href="http://www.06x.tv/" title="ankara escort">ankara escort</a>
+<div style="display:none"><a href="http://www.turkpornocu.net/" title="sikiş">sikiş</a>
+<link href="https://plus.google.com/117187335772820815987" rel="publisher" />
+
+</body>
+</html>

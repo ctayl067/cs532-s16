@@ -1,0 +1,801 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-es" lang="es-es" >
+<head>
+  <base href="http://www.radiogandia.net/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Noticias Gandia Radio Gandia TeleSafor.com Dial Cuarenta Periodico Micro Cadena SER Noticias, Actualidad, Informativos, Deportes, News Gandia" />
+  <meta name="description" content="Noticias de Gandia y la Safor, Radio y television de Gandia, Informacion de deportes sucesos y musica. Grupo Radio Gandia. Emisoras de radio, Cadena SER, Maximafm, Cuarenta Principales, Cadena Dial, Diario Micro, TeleSafor.com" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Grupo Radio Gandia</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/inicio/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/plugins/content/phocadownload/css/phocadownload.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/content/fboxbot/frontbox/fbox.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.radiogandia.net/modules/mod_gk_news_highlighter/style/style.php?suffix=news-highlight-1&amp;moduleHeight=23&amp;moduleWidth=735&amp;interfaceWidth=120&amp;extra_divs=1&amp;bgcolor=FFFBFF&amp;bordercolor=DEDBDE&amp;set=1&amp;linkcolor=&amp;hlinkcolor=&amp;textleft_color=&amp;textleft_style=normal" type="text/css" />
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/plugins/content/fboxbot/frontbox/fbox_conf.js"></script>
+  <script type="text/javascript" src="/plugins/content/fboxbot/frontbox/fbox_engine-min.js"></script>
+  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript" src="/plugins/content/avreloaded/silverlight.js"></script>
+  <script type="text/javascript" src="/plugins/content/avreloaded/wmvplayer.js"></script>
+  <script type="text/javascript" src="/plugins/content/avreloaded/swfobject.js"></script>
+  <script type="text/javascript" src="/plugins/content/avreloaded/avreloaded.js"></script>
+  <script type="text/javascript" src="http://www.radiogandia.net/modules/mod_gk_news_highlighter/scripts/engine_compress.js"></script>
+  <script type="text/javascript" src="http://www.radiogandia.net/modules/mod_gk_news_highlighter/scripts/importer.php?module_id=news-highlight-1&amp;animation_type=2&amp;animation_speed=250&amp;animation_interval=5000&amp;animation_fun=Fx.Transitions.linear&amp;mouseover=1"></script>
+  <script src="http://www.radiogandia.net/plugins/content/1pixelout/audio-player.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://www.radiogandia.net/modules/mod_swmenufree/DropDownMenuX_Packed.js"></script>
+  <style type='text/css'>
+<!--
+.ddmx{
+border:0px none #FFFFFF !important ; 
+}
+.ddmx a.item1,
+.ddmx a.item1:hover,
+.ddmx a.item1-active,
+.ddmx a.item1-active:hover {
+ padding: 5px 10px 5px 10px  !important ; 
+ top: 0px !important ; 
+ left: 0px; 
+ font-size: 13px !important ; 
+ font-family: Arial, Helvetica, sans-serif !important ; 
+ text-align: left !important ; 
+ font-weight: normal !important ; 
+ color: #333366 !important ; 
+ text-decoration: none !important ; 
+ display: block; 
+ white-space: nowrap; 
+ position: relative; 
+background-image:none;}
+.ddmx td.item11 {
+ background-color: #DDDDDD !important ; 
+ padding:0 !important ; 
+ border-top: 1px solid #CCCCCC !important ; 
+ border-left: 1px solid #CCCCCC !important ; 
+ border-bottom: 1px solid #CCCCCC;
+ border-right: 0 !important ; 
+ white-space: nowrap !important ; 
+}
+.ddmx td.item11-last {
+ background-color: #DDDDDD !important ; 
+ padding:0 !important ; 
+ border: 1px solid #CCCCCC !important ; 
+ white-space: nowrap; 
+}
+.ddmx td.item11-acton {
+ padding:0 !important ; 
+ border-top: 1px solid #CCCCCC !important ; 
+ border-left: 1px solid #CCCCCC !important ; 
+ white-space: nowrap; 
+ border-bottom: 1px solid #CCCCCC;
+}
+.ddmx td.item11-acton-last {
+ border: 1px solid #CCCCCC !important ; 
+}
+.ddmx .item11-acton-last a.item1,
+.ddmx .item11-acton a.item1,
+.ddmx .item11-acton-last a:hover,
+.ddmx .item11-acton a:hover,
+.ddmx .item11 a:hover,
+.ddmx .item11-last a:hover,
+.ddmx a.item1-active,
+.ddmx a.item1-active:hover {
+background-image:none; color: #FFFFFF !important ; 
+ background-color: #333366 !important ; 
+}
+.ddmx a.item2,
+.ddmx a.item2:hover,
+.ddmx a.item2-active,
+.ddmx a.item2-active:hover {
+ padding: 5px 10px 5px 10px  !important ; 
+ font-size: 13px !important ; 
+ font-family: Arial, Helvetica, sans-serif !important ; 
+ text-align: left !important ; 
+ font-weight: normal !important ; 
+ text-decoration: none !important ; 
+ display: block; 
+ white-space: nowrap; 
+ position: relative; 
+ z-index:500; 
+ opacity:0.95; 
+}
+.ddmx a.item2 {
+background-image:none; background-color: #DDDDDD !important ; 
+ color: #333366 !important ; 
+ border-top: 1px solid #CCCCCC !important ; 
+ border-left: 1px solid #CCCCCC !important ; 
+ border-right: 1px solid #CCCCCC !important ; 
+}
+.ddmx a.item2-last {
+background-image:none; background-color: #DDDDDD !important ; 
+ color: #333366 !important ; 
+ border-bottom: 1px solid #CCCCCC !important ; 
+ z-index:500; 
+}
+.ddmx a.item2:hover,
+.ddmx a.item2-active,
+.ddmx a.item2-active:hover {
+background-image:none; background-color: #333366 !important ; 
+ color: #FFFFFF !important ; 
+ border-top: 1px solid #CCCCCC !important ; 
+ border-left: 1px solid #CCCCCC !important ; 
+ border-right: 1px solid #CCCCCC !important ; 
+}
+.ddmx .section {
+ border: 0px none #FFFFFF !important ; 
+ position: absolute; 
+ visibility: hidden; 
+ display: block; 
+ z-index: -1; 
+}
+.ddmxframe {
+ border: 0px none #FFFFFF !important ; 
+}
+* html .ddmx td { position: relative; } /* ie 5.0 fix */
+
+-->
+</style>
+
+<link rel="stylesheet" href="/templates/inicio/css/template.css" type="text/css" />
+<!--[if IE]>
+<link href="/templates/inicio/css/macrosoft.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<style type="text/css">
+body { background-color:#ccc; }
+</style>
+</head>
+<body>
+<div class="banniere">
+	<div class="bannergroup">
+
+
+</div>
+</div>
+<div class="transition">
+	<div class="menu_haut">
+				<div class="moduletable">
+					
+<div class="gk_news_highlighter" id="news-highlight-1">
+                <div class="gk_news_highlighter_interface">
+                <span class="text">NOTICIAS</span>
+                				<div><a href="#" class="prev"></a>
+				<a href="#" class="next"></a></div>
+				        </div>
+                <div class="gk_news_highlighter_wrapper">
+                                                                                    	<div class="gk_news_highlighter_item"><a href="/picatapa/17795-curry-rojo-de-perdiz-.html"><span class="gk_news_highlighter_title">Curry rojo de perdiz </span> &raquo; <span class="gk_news_highlighter_desc">
+
+&nbsp;
+
+    
+        
+            
+            
+            ...</span></a></div>
+                                                                                            	<div class="gk_news_highlighter_item"><a href="/noticias-cadena-ser/17793-la-guardia-civil-se-incauta-de-casi-400-plantas-de-marihuana-en-una-vivienda-de-oliva-los-agentes-han-detenido-a-tres-personas-implicadas-en-delitos-de-cultivo-y-trafico-de-drogas-asi-como-de-defraudacion-de-fluido-electrico-.html"><span class="gk_news_highlighter_title">La Guardia Civil se incauta de casi 400 plantas de...</span> &raquo; <span class="gk_news_highlighter_desc">
+
+&nbsp;
+
+    
+        
+            
+            
+            ...</span></a></div>
+                                                                                            	<div class="gk_news_highlighter_item"><a href="/noticias-cadena-ser/17792-el-gobierno-de-gandia-asegura-que-proporciona-la-informacion-que-requiere-la-oposicion-prieto-muestra-la-ultima-sentencia-en-la-que-un-juez-desestima-una-demanda-del-pp-por-vulnerar-su-derecho-a-la-informacion-.html"><span class="gk_news_highlighter_title">El gobierno de Gandia asegura que proporciona la i...</span> &raquo; <span class="gk_news_highlighter_desc">
+
+&nbsp;
+
+    
+        
+            
+            
+            ...</span></a></div>
+                                                                                            	<div class="gk_news_highlighter_item"><a href="/noticias-cadena-ser/17791-el-pp-de-gandia-propone-un-qpacto-de-ciudadq-para-aprobar-los-presupuestos-de-2016-el-gobierno-considera-que-los-populares-lanzan-esta-popuesta-qpor-las-posibles-repercusiones-que-puedan-tener-en-los-tribunalesq-.html"><span class="gk_news_highlighter_title">El PP de Gandia propone un "pacto de ciudad" para ...</span> &raquo; <span class="gk_news_highlighter_desc">
+
+&nbsp;
+
+    
+        
+            
+            
+            ...</span></a></div>
+                                                                                            	<div class="gk_news_highlighter_item"><a href="/noticias-cadena-ser/17790-el-consorcio-de-les-comarques-centrals-valencianes-se-reunira-el-7-de-abril-tras-mas-de-una-decada-sin-actividad-el-organismo-pretende-eliminar-el-sistema-de-cuotas-y-buscar-financiacion-concreta-para-cada-proyecto-.html"><span class="gk_news_highlighter_title">El Consorcio de les Comarques Centrals Valencianes...</span> &raquo; <span class="gk_news_highlighter_desc">
+
+&nbsp;
+
+    
+        
+            
+            
+            ...</span></a></div>
+                                                                                            	<div class="gk_news_highlighter_item"><a href="/deportes-cadena-ser/17789-neus-mas-del-ca-safor-delikia-se-proclama-subcamepeona-autonomica-de-cross-facv-carla-de-tena-tercera-en-la-prueba-de-castellon-.html"><span class="gk_news_highlighter_title">Neus Mas, del CA Safor Delikia, se proclama subcam...</span> &raquo; <span class="gk_news_highlighter_desc">
+
+&nbsp;
+
+    
+        
+            
+            
+            ...</span></a></div>
+                                                                                            	<div class="gk_news_highlighter_item"><a href="/deportes-cadena-ser/17788-la-gandiense-paola-martinez-del-caep-soria-se-convierte-en-la-mvp-de-la-jornada-en-la-superliga-femenina-2-martinez-acudira-al-preeuropeo-de-coracia-en-abril-.html"><span class="gk_news_highlighter_title">La gandiense Paola Martínez, del CAEP Soria, se co...</span> &raquo; <span class="gk_news_highlighter_desc">
+
+&nbsp;
+
+    
+        
+            
+            
+            ...</span></a></div>
+                                                                                            	<div class="gk_news_highlighter_item"><a href="/deportes-cadena-ser/17787-en-marcha-los-abonos-especiales-para-la-segunda-fase-regular-del-hispagan-upb-gandia-el-abono-incluye-el-partido-de-este-sabado-contra-benidorm-.html"><span class="gk_news_highlighter_title">En marcha los abonos especiales para la Segunda Fa...</span> &raquo; <span class="gk_news_highlighter_desc">
+
+&nbsp;
+
+    
+        
+            
+            
+            ...</span></a></div>
+                                                                                            	<div class="gk_news_highlighter_item"><a href="/noticias-cadena-ser/17786-la-raiz-graba-su-videoclip-qrueda-la-coronaq-en-el-palau-ducal-de-gandia-el-grupo-gandiense-publicara-el-mes-que-viene-su-sexto-cd-y-esta-previsto-que-actuen-este-ano-en-gandia-.html"><span class="gk_news_highlighter_title">La Raíz graba su videoclip "Rueda la corona" en el...</span> &raquo; <span class="gk_news_highlighter_desc">
+
+&nbsp;
+
+    
+        
+            
+            
+            ...</span></a></div>
+                                                                                            	<div class="gk_news_highlighter_item"><a href="/noticias-cadena-ser/17785-tres-policias-locales-de-gandia-salvan-la-vida-de-un-bebe-de-5-meses-el-pequeno-tenia-dificultades-para-respirar-y-la-patrulla-reanimo-al-bebe-y-lo-traslado-a-urgencias-del-hospital-.html"><span class="gk_news_highlighter_title">Tres policías locales de Gandia salvan la vida de ...</span> &raquo; <span class="gk_news_highlighter_desc">
+
+&nbsp;
+
+    
+        
+            
+            
+            ...</span></a></div>
+                                                                    </div>
+</div>
+		</div>
+	
+	</div>
+	<div class="recherche">
+		<form action="index.php" method="post">
+			<input name="searchword" id="mod_search_searchword" maxlength="20" alt="OK" class="inputbox" type="text" size="20" value="Buscar el sitio ..." 
+			onblur="if(this.value=='') this.value='Buscar el sitio ...';" onfocus="if(this.value=='Buscar el sitio ...') this.value='';" />
+			<input type="submit" value="OK" class="button" onclick="this.form.searchword.focus();"/>
+			<input type="hidden" name="task" value="search" />
+			<input type="hidden" name="option" value="com_search" />
+		</form>
+	</div>
+	<div class="rss">
+		<a href="/index.php?format=feed&amp;type=rss"></a>
+	</div>
+</div>
+<div class="principal">
+	<div class="logo">
+		<a id="logo" href="/"></a>
+	</div>
+	<div class="clr"></div>
+	<div class="menu_principal">
+		
+<!--swMenuFree5.0J_1.5 mygosumenu by http://www.swmenupro.com-->
+<div align="left">
+<table cellspacing="0" cellpadding="0" id="menu" class="ddmx"  > 
+<tr> 
+<td class='item11-acton'> 
+<a href="/inicio.html" class="item1">Inicio</a><div class="section" style="border:0 !important;" ></div> 
+</td> 
+<td class='item11'> 
+<a href="/noticias-cadena-ser.html" class="item1">SER</a><div class="section" style="border:0 !important;" ></div> 
+</td> 
+<td class='item11'> 
+<a href="/deportes-cadena-ser.html" class="item1">Deportes</a><div class="section" style="border:0 !important;" ></div> 
+</td> 
+<td class='item11'> 
+<a href="/diario-micro.html" class="item1">Micro</a><div class="section" style="border:0 !important;" ></div> 
+</td> 
+<td class='item11'> 
+<a href="javascript:void(0);" class="item1">+ El Tiempo</a><div class="section"  ><a href="/el-tiempo/estacion-meteorologica.html" class="item2" >Estación Meteorológica</a>
+<a href="/el-tiempo/prediccion-aemet.html" class="item2"  style="border-bottom:1px solid #CCCCCC">Predicción AEMet</a>
+</div></td> 
+<td class='item11'> 
+<a href="javascript:void(0);" class="item1">+ PodCast</a><div class="section"  ><a href="/audio/podcast.html" class="item2"  style="border-bottom:1px solid #CCCCCC">Radio a la Carta > Programación SER local de los últimos 6 días</a>
+</div></td> 
+<td class='item11'> 
+<a href="/historia-radio-gandia.html" class="item1">Historia</a><div class="section" style="border:0 !important;" ></div> 
+</td> 
+<td class='item11'> 
+<a href="/contacto.html" class="item1">Contacto</a><div class="section" style="border:0 !important;" ></div> 
+</td> 
+<td class='item11'> 
+<a href="/agenda.html" class="item1">Agenda</a><div class="section" style="border:0 !important;" ></div> 
+</td> 
+<td class='item11'> 
+<a href="javascript:void(0);" class="item1">+ Falles 2016</a><div class="section"  ><a href="/falles-2016/emissions-falleres.html" class="item2"  style="border-bottom:1px solid #CCCCCC">Emissions Falleres</a>
+</div></td> 
+<td class='item11'> 
+<a href="http://www.tele7safor.com" target="_blank" class="item1" >Tele7Safor</a><div class="section" style="border:0 !important;" ></div> 
+</td> 
+<td class='item11-last'> 
+<a href="/notas-necrologicas.html" class="item1">Necrológicas</a><div class="section" style="border:0 !important;" ></div> 
+</td> 
+</tr> 
+</table></div> 
+<script type="text/javascript">
+<!--
+function makemenu(){
+var ddmx = new DropDownMenuX('menu');
+ddmx.delay.show = 0;
+ddmx.iframename = 'ddmx';
+ddmx.delay.hide = 0;
+ddmx.position.levelX.left = 0;
+ddmx.position.levelX.top = 0;
+ddmx.position.level1.left = 0;
+ddmx.position.level1.top = 0; 
+ddmx.fixIeSelectBoxBug = false;
+ddmx.init(); 
+}
+if ( typeof window.addEventListener != "undefined" )
+window.addEventListener( "load", makemenu, false );
+else if ( typeof window.attachEvent != "undefined" ) { 
+window.attachEvent( "onload", makemenu );
+}
+else {
+if ( window.onload != null ) {
+var oldOnload = window.onload;
+window.onload = function ( e ) { 
+oldOnload( e ); 
+makemenu() 
+} 
+}  
+else  { 
+window.onload = makemenu();
+} }
+--> 
+</script>  
+
+<!--End swMenuFree menu module-->
+
+	</div>
+	<div class="clr"></div>
+	<div class="chemin">
+		
+	</div>
+		<div class="gauche">
+				<div class="moduletable">
+					
+<!-- Simple Image Holder 1.5.13 starts here -->
+<div style='text-align:center;'><a target='_blank' href='http://www.radiogandia.net/radios-on-line.html'><img class='sih6399' src='http://www.radiogandia.net//images/banners/onLine.gif' border='0' alt='Escucha nuestras emisoras on line' title='Escucha nuestras emisoras on line' width='160' height='190' /></a></div>
+<!-- Simple Image Holder 1.5.13 ends here -->
+		</div>
+			<div class="moduletable">
+					<p><span style="color: #333333;"><span style="font-size: 14px;"><span style="font-family: Verdana;"><strong>El tiempo en Gandia</strong></span></span></span></p>
+<table cellspacing="0" cellpadding="0" border="0" style="text-align: left; width: 163px; height: 152px;">
+    <tbody>
+        <tr>
+            <td style="width: 161px; background-color: black;">
+            <div style="text-align: center;">&nbsp;</div>
+            <table cellspacing="1" cellpadding="1" border="0" style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td style="text-align: center;"><img width="42" vspace="5" hspace="5" height="54" align="middle" src="/TIEMPO/vws889.jpg" alt="" /></td>
+                        <td>
+                        <div style="text-align: center;"><img width="64" vspace="5" hspace="5" height="54" align="middle" src="/TIEMPO/vws887.jpg" alt="" /></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="text-align: center;">&nbsp;</div>
+            <div style="text-align: center;"><small><small><a href="http://www.radiogandia.net/el-tiempo/estacion-meteorologica.html"><span style="font-size: 14px;"><small><span style="color: #cccccc; font-family: Verdana;">Estación Meteorológica<br />
+            </span></small></span></a></small></small><small><a href="http://www.radiogandia.net/el-tiempo/prediccion-aemet.html"><span style="font-size: 16px;"><small style="color: #999999;"><span style="font-family: Arial;">Previsión próximos días</span></small></span></a></small></div>
+            </td>
+        </tr>
+    </tbody>
+</table>		</div>
+			<div class="moduletable">
+					
+<!-- Simple Image Holder 1.5.13 starts here -->
+<div style='text-align:center;'><a target='_blank' href='http://www.borjaopticos.com/'><img class='sih6413' src='http://www.radiogandia.net//images/banners/bnr_borja.gif' border='0' alt='Borja ópticos' title='Borja ópticos' width='160' height='201' /></a></div>
+<!-- Simple Image Holder 1.5.13 ends here -->
+		</div>
+			<div class="moduletable">
+					<p><a href="http://www.radiogandia.net/musicales.html"><img width="160" height="50" src="http://www.radiogandia.net/images/stories/Button/btn_Cuarenta.jpg" alt="" /></a></p>		</div>
+			<div class="moduletable">
+					<h3>Esta semana en Micro ...</h3>
+					<div class="bannergroup">
+
+<div class="banneritem"><a href="/component/banners/click/50.html"><img src="http://www.radiogandia.net/images/banners/bnr_micro.jpg" alt="Banner" /></a><div class="clr"></div>
+	</div>
+
+</div>		</div>
+			<div class="moduletable">
+					<div class="bannergroup">
+
+<div class="banneritem"><a href="/component/banners/click/34.html" target="_blank"><img src="http://www.radiogandia.net/images/banners/bnr_faceBook.png" alt="Banner" /></a><div class="clr"></div>
+	</div>
+
+</div>		</div>
+	
+	</div>
+					<div class="centre3">
+					<div class="contenu">
+			
+			<table class="blog" cellpadding="0" cellspacing="0">
+
+<tr>
+	<td valign="top">
+		<table width="100%"  cellpadding="0" cellspacing="0">
+		<tr>
+										<td valign="top" width="100%" class="article_column">
+				
+<div id="fb-root"></div><table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<!--========================inicio plantilla INFORMATIVOS====================================-->
+<p><span style="color: #000000;"><img width="523" height="12" alt="" src="/images/stories/separador_INICIO.png" /></span><br />
+&nbsp;</p>
+<table cellspacing="0" cellpadding="0" border="0" align="left" style="width:
+    523px; height: 154px;">
+    <tbody>
+        <tr>
+            <td width="255" height="150"><img width="255" height="150" src="http://www.radiogandia.net/images/stories/imagenes_1607/joanxxiii.jpg" alt="" /></td>
+            <td width="255" valign="top" align="left" height="150">
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17801-.html"><span style="font-size: 18px;"><span style="color: rgb(102, 102, 102);">Las obras realizadas por CIEGSA en los colegios de Gandia de 2001 a 2011 tuvieron un sobrecoste de 5'4 millones de euros</span></span></a><span style="color:
+            #333399;"><span style="font-size: 18px;"><br />
+            </span></span></p>
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17801-.html"><span style="font-size: 14px;"><span style="color: rgb(128, 128, 128);">El gobierno lamenta que el PP de Gandia silenciara este hecho</span></span></a><span style="font-size: 14px;"><span style="color: #666699;"><br />
+            </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<div id="fb-root"></div><table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<!--========================inicio plantilla INFORMATIVOS====================================-->
+<p><span style="color: #000000;"><img width="523" height="12" alt="" src="/images/stories/separador_INICIO.png" /></span><br />
+&nbsp;</p>
+<table cellspacing="0" cellpadding="0" border="0" align="left" style="width:
+    523px; height: 154px;">
+    <tbody>
+        <tr>
+            <td width="255" height="150"><img width="255" height="150" alt="" src="http://www.radiogandia.net/images/stories/imagenes_1607/orengoweb.jpg" /></td>
+            <td width="255" valign="top" align="left" height="150">
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17794-.html"><span style="font-size: 18px;"><span style="color: rgb(102, 102, 102);">La UCO cita a Orengo a declarar como investigado por la &quot;Operación Taula&quot;</span></span></a><span style="color:
+            #333399;"><span style="font-size: 18px;"><br />
+            </span></span></p>
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17794-.html"><span style="font-size: 14px;"><span style="color: rgb(128, 128, 128);">También han sido citados otros dirigentes políticos del PSOE, EU y Compromís</span></span></a><span style="font-size: 14px;"><span style="color: #666699;"><br />
+            </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<div id="fb-root"></div><table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<!--========================inicio plantilla INFORMATIVOS====================================-->
+<p><span style="color: #000000;"><img width="523" height="12" src="/images/stories/separador_INICIO.png" alt="" /></span><br />
+&nbsp;</p>
+<table cellspacing="0" cellpadding="0" border="0" align="left" style="width:
+    523px; height: 154px;">
+    <tbody>
+        <tr>
+            <td width="255" height="150"><img width="255" height="150" src="http://www.radiogandia.net/images/stories/imagenes_1607/prieto(2).jpg" alt="" /></td>
+            <td width="255" valign="top" align="left" height="150">
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17803-.html"><span style="font-size: 18px;"><span style="color: rgb(102, 102, 102);">El PSOE de Gandia pide &quot;respeto y cautela&quot; tras la citación de Orengo en la Operación Taula</span></span></a><span style="color:
+            #333399;"><span style="font-size: 18px;"><br />
+            </span></span></p>
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17803-.html"><span style="font-size: 14px;"><span style="color: rgb(128, 128, 128);">El PP&nbsp;exige explicaciones &quot;con la misma contundencia con que nos las pedía el PSOE por los investigados del PP&quot;</span></span></a><span style="font-size: 14px;"><span style="color: #666699;"><br />
+            </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<div id="fb-root"></div><table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<!--========================inicio plantilla INFORMATIVOS====================================-->
+<p><span style="color: #000000;"><img width="523" height="12" alt="" src="/images/stories/separador_INICIO.png" /></span><br />
+&nbsp;</p>
+<table cellspacing="0" cellpadding="0" border="0" align="left" style="width:
+    523px; height: 154px;">
+    <tbody>
+        <tr>
+            <td width="255" height="150"><img width="255" height="143" alt="" src="http://www.radiogandia.net/images/stories/imagenes_1607/tvmovie.jpg" /></td>
+            <td width="255" valign="top" align="left" height="150">
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17799-.html"><span style="font-size: 18px;"><span style="color: rgb(102, 102, 102);">El Palau Ducal de Gandia acoge parte del rodaje de la tvmovie &quot;22 ángeles&quot;</span></span></a><span style="color:
+            #333399;"><span style="font-size: 18px;"><br />
+            </span></span></p>
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17799-.html"><span style="font-size: 14px;"><span style="color: rgb(128, 128, 128);">La historia, basada en hechos reales, está dirigida por Miguel Bardem, que se trasladará a Gandia con todo el equipo la próxima semana </span></span></a><span style="font-size: 14px;"><span style="color: #666699;"><br />
+            </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<div id="fb-root"></div><table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<!--========================inicio plantilla INFORMATIVOS====================================-->
+<p><span style="color: #000000;"><img width="523" height="12" src="/images/stories/separador_INICIO.png" alt="" /></span><br />
+&nbsp;</p>
+<table cellspacing="0" cellpadding="0" border="0" align="left" style="width:
+    523px; height: 154px;">
+    <tbody>
+        <tr>
+            <td width="255" height="150"><img width="255" height="150" alt="" src="http://www.radiogandia.net/images/stories/imagenes_1607/emi.jpg" /></td>
+            <td width="255" valign="top" align="left" height="150">
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17804-.html"><span style="font-size: 18px;"><span style="color: rgb(102, 102, 102);">El PP&nbsp;de Gandia critica que el gobierno cerrara el Centro Joan Climent y ahora quiera abrir allí el Urbalab</span></span></a><span style="color:
+            #333399;"><span style="font-size: 18px;"><br />
+            </span></span></p>
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17804-.html"><span style="font-size: 14px;"><span style="color: rgb(128, 128, 128);">El gobierno recuerda que el PP dejó 40.000 euros de deuda en este centro</span></span></a><span style="font-size: 14px;"><span style="color: #666699;"><br />
+            </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<div id="fb-root"></div><table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<!--========================inicio plantilla INFORMATIVOS====================================-->
+<p><span style="color: #000000;"><img width="523" height="12" src="/images/stories/separador_INICIO.png" alt="" /></span><br />
+&nbsp;</p>
+<table cellspacing="0" cellpadding="0" border="0" align="left" style="width:
+    523px; height: 154px;">
+    <tbody>
+        <tr>
+            <td width="255" height="150"><img width="255" height="150" src="http://www.radiogandia.net/images/stories/imagenes_1607/cruzroja.jpg" alt="" /></td>
+            <td width="255" valign="top" align="left" height="150">
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17802-.html"><span style="font-size: 18px;"><span style="color: rgb(102, 102, 102);">Cruz Roja Gandia adquiere una nueva ambulancia</span></span></a><span style="color:
+            #333399;"><span style="font-size: 18px;"><br />
+            </span></span></p>
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17802-.html"><span style="font-size: 14px;"><span style="color: rgb(128, 128, 128);">Se trata del tercer vehículo sanitario adquirido por la ONG dedicado a la atención en acontecimientos especiales así como para tareas de socorrismo</span></span></a><span style="font-size: 14px;"><span style="color: #666699;"><br />
+            </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<div id="fb-root"></div><table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<!--========================inicio plantilla INFORMATIVOS====================================-->
+<p><span style="color: #000000;"><img width="523" height="12" alt="" src="/images/stories/separador_INICIO.png" /></span><br />
+&nbsp;</p>
+<table cellspacing="0" cellpadding="0" border="0" align="left" style="width:
+    523px; height: 154px;">
+    <tbody>
+        <tr>
+            <td width="255" height="150"><img width="255" height="150" alt="" src="http://www.radiogandia.net/images/stories/imagenes_1607/xeracoagua.jpg" /></td>
+            <td width="255" valign="top" align="left" height="150">
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17800-.html"><span style="font-size: 18px;"><span style="color: rgb(102, 102, 102);">El agua del pozo de Xeraco no es apta para el consumo humano por su alta salinidad</span></span></a><span style="color:
+            #333399;"><span style="font-size: 18px;"><br />
+            </span></span></p>
+            <p style="margin-left: 5px;"><a href="/noticias-cadena-ser/17800-.html"><span style="font-size: 14px;"><span style="color: rgb(128, 128, 128);">Pese a que el nivel de nitratos es muy bajo, el agua sólo serviría para riego</span></span></a><span style="font-size: 14px;"><span style="color: #666699;"><br />
+            </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<div id="fb-root"></div><table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<!--========================inicio plantilla DEPORTES====================================-->
+<p><span style="color: #000000;"><img width="523" height="12" alt="" src="/images/stories/separador_INICIO.png" /></span><br />
+&nbsp;</p>
+<table cellspacing="0" cellpadding="0" border="0" align="left" style="width:
+    523px; height: 154px;">
+    <tbody>
+        <tr>
+            <td width="255" height="150"><img width="255" height="150" alt="" src="http://www.radiogandia.net/images/stories/imagenes_1607/webbeisbol.jpg" /></td>
+            <td width="255" valign="top" height="150" align="left">
+            <p style="margin-left: 5px;"><a href="/deportes-cadena-ser/17797-.html"><span style="font-size: 18px;"><span style="color: rgb(102, 102, 102);">Quinta victoria para el alevín del Spiaggia Gandia Béisbol Club ante Criollos</span></span></a><span style="color:
+            #333399;"><span style="font-size: 18px;"><br />
+            </span></span></p>
+            <p style="margin-left: 5px;"><a href="/deportes-cadena-ser/17797-.html"><span style="font-size: 14px;"><span style="color: rgb(128, 128, 128);">Los gandienses se imponen por 11 carreras de las 10 logradas por Criollos</span></span></a><span style="font-size: 14px;"><span style="color: #666699;"><br />
+            </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<div id="fb-root"></div><table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<!--========================inicio plantilla DEPORTES====================================-->
+<p><span style="color: #000000;"><img width="523" height="12" alt="" src="/images/stories/separador_INICIO.png" /></span><br />
+&nbsp;</p>
+<table cellspacing="0" cellpadding="0" border="0" align="left" style="width:
+    523px; height: 154px;">
+    <tbody>
+        <tr>
+            <td width="255" height="150"><img width="255" height="150" alt="" src="http://www.radiogandia.net/images/stories/imagenes_1607/webgarbijueves.jpg" /></td>
+            <td width="255" valign="top" height="150" align="left">
+            <p style="margin-left: 5px;"><a href="/deportes-cadena-ser/17796-.html"><span style="font-size: 18px;"><span style="color: rgb(102, 102, 102);">Destacados resultados de los atletas del CC&nbsp;Garbí en el control federativo de Castellón y León</span></span></a><span style="color:
+            #333399;"><span style="font-size: 18px;"><br />
+            </span></span></p>
+            <p style="margin-left: 5px;"><a href="/deportes-cadena-ser/17796-.html"><span style="font-size: 14px;"><span style="color: rgb(128, 128, 128);">Dani Martí, mejor marca en lanzamiento de martillo</span></span></a><span style="font-size: 14px;"><span style="color: #666699;"><br />
+            </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+</td>
+								
+		</tr>
+		</table>
+	</td>
+</tr>
+
+</table>
+
+		</div>
+			</div>
+		<div class="droite">
+				<div class="moduletable">
+					
+<!-- Simple Image Holder 1.5.13 starts here -->
+<div style='text-align:center;'><a  href='http://www.servihabitat.com/venta/oficina/valencia/'><img class='sih6336' src='http://www.radiogandia.net//images/banners/bnr_servihabitat.gif' border='0' alt='servihabitat' title='servihabitat' width='160' height='170' /></a></div>
+<!-- Simple Image Holder 1.5.13 ends here -->
+		</div>
+			<div class="moduletable">
+					
+<!-- Simple Image Holder 1.5.13 starts here -->
+<div style='text-align:center;'><a  href='http://www.icsam.net/'><img class='sih6346' src='http://www.radiogandia.net//images/banners/bnr_icsam.gif' border='0' alt='ICSAM' title='ICSAM' width='160' height='340' /></a></div>
+<!-- Simple Image Holder 1.5.13 ends here -->
+		</div>
+			<div class="moduletable">
+					
+<!-- Simple Image Holder 1.5.13 starts here -->
+<div style='text-align:center;'><a  href='http://www.onventanas.afa-pvc.com/'><img class='sih6356' src='http://www.radiogandia.net//images/banners/bnr_on.gif' border='0' alt='On ventanas' title='On ventanas' width='160' height='340' /></a></div>
+<!-- Simple Image Holder 1.5.13 ends here -->
+		</div>
+			<div class="moduletable">
+					
+<!-- Simple Image Holder 1.5.13 starts here -->
+<div style='text-align:center;'><a  href='http://www.borjafitness.com/'><img class='sih6367' src='http://www.radiogandia.net//images/banners/bnr_fitness.gif' border='0' alt='Borja Fitness' title='Borja Fitness' width='160' height='340' /></a></div>
+<!-- Simple Image Holder 1.5.13 ends here -->
+		</div>
+			<div class="moduletable">
+					
+<!-- Simple Image Holder 1.5.13 starts here -->
+<div style='text-align:center;'><img class='sih6377' src='http://www.radiogandia.net//images/banners/bnr_app.gif' border='0' alt='APP GRG' title='APP GRG' width='160' height='340' /></div>
+<!-- Simple Image Holder 1.5.13 ends here -->
+		</div>
+	
+	</div>
+		<div class="clr"></div>
+		<div class="module5">
+				<div class="moduletable">
+					<p style="text-align: center;"><a href="/historia-radio-gandia/7242.html"><span style="background-color: rgb(255, 255, 255);"><span style="color: rgb(128, 128, 128);">Aviso Legal</span></span></a></p>		</div>
+	
+	</div>
+		<div class="clr"></div>
+</div>
+<div class="pied">
+	<div class="copy">
+		Copyright Radio Gandia S.A.: 2011
+	</div>
+	<div class="mentions">
+		
+	</div>
+</div>
+
+
+			<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			try {
+			var pageTracker = _gat._getTracker("UA-1281296-3");
+			pageTracker._trackPageview();
+			} catch(err) {}</script>
+			</body>
+</html>

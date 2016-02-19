@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>InterFM897 : インターFM897 [ 89.7MHz TOKYO / 76.5MHz YOKOHAMA ]</title>
+<meta charset="utf-8">
+<meta name="keywords" content="ラジオ,RADIO,InterFM,インターエフエム,TOKYO,東京,NAGOYA,名古屋,Green Jacket," />
+<meta name="description" content="「The Real Music Station」(本物の、音楽専門局)のキャッチフレーズのもと、洋楽を中心に、さまざまなジャンルからバラエティーにとんだ音楽を選曲。その選曲は、DJ本人、もしくは番組のチームが一丸となって担当し　それぞれ特徴のある音楽番組を早朝から深夜まで放送しています。" />
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+
+<link rel="shortcut icon" href="/image/common/favicon.ico" />
+
+
+<style type="text/css">
+.news .image_box { margin:0 25px; width:600px; height:400px; background:url(./upimg/) no-repeat center; }
+</style>
+<script src="../js/jquery-1.6.min.js"></script>
+<script src="../js/jquery.page-scroller.js"></script>
+<script src="../js/jqueryAutoHeight.js"></script>
+
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script>
+$(function(){
+    $('ul.image_nav li a').click(function(){
+        var bglink = $(this).attr("href"), layer = $("div.image_box:not(:animated)");
+        layer.fadeOut(400, function(){
+        layer.css("background","url("+bglink+") no-repeat center").fadeIn(400);
+        });
+        return false;
+    });
+});
+$(function(){
+$("ul.sub_list").hide();
+	$("ul.menu>li").hover(function(){
+		$("ul:not(:animated)",this).slideDown()
+	},
+	function(){
+		$("ul",this).slideUp();
+	})
+})
+</script>
+<script>
+
+jQuery(function($){
+
+    $('.guestn > article').autoHeight({height:'height'});
+
+});
+
+</script>
+
+
+</head>
+<body>
+<hr class="green">
+<div class="main">
+    <!--header -->
+	    <header id="pagetop">
+    <h1 class="top-txt">The Real Music Station</h1>
+    <nav>
+    <ul class="menu">
+    <li><a href="/">Home</a></li>
+    <li><a href="/news/">News</a></li>    
+    <li><a href="/timetable/">Timetable</a>
+    	<!--<ul class="sub_list">
+          <li><a href="/timetable/?region=tokyo">TOKYO</a></li>
+          <li><a href="/timetable/?region=nagoya">NAGOYA</a></li>
+        </ul>-->
+    </li>
+    <li><a href="/" class="logo"><img src="/image/common/logo.jpg" alt="InterFM"></a></li>
+    <li><a href="/guest/">Guests</a></li>
+    <li><a href="/news/index.php?ct_id=1">Events</a></li>
+    <li><a href="/dj/">DJs</a></li>
+    </ul>
+    </nav>
+    </header>	<!--//header -->  
+    
+    <div class="titleWrap wrp">
+    <div class="snsBtnWrap right">
+
+        <div class="twitterBtn left">
+            <a href="https://twitter.com/InterFM897" title="InterFM 89.7(@InterFM897)さん | Twitter" target="_blank"><img src="../image/top/icon-twitter.png" width="20" height="16"></a>
+        </div>
+
+        <div class="facebookBtn left">
+            <a href="https://www.facebook.com/InterFM897" title="89.7 InterFM - 東京都 品川区 - 放送・コンテンツ製作 | Facebook" target="_blank"><img src="../image/top/icon-facebook.png" width="20" height="20"></a>
+        </div>
+
+    </div>
+    </div>
+
+    <h1 class="title lg"><img src="../program/upimg/201303270229176.jpg" width="940"></h1>
+    <div id="content" class="program">
+    <div class="coltl left">
+    <!-- start post -->
+    <article>
+    	<div class="wrp">
+        <div class="title">
+        <h2 class="lg">Green Jacket</h2>
+        <span class="lo">Sat.&nbsp;</span>05:00 - 08:00<br>
+        <span class="lo">DJ:&nbsp;</span>タケ小山</div>
+        <div class="icrd"><a href="http://radiko.jp/#INT" onClick="javascript:_gaq.push(['_trackPageview', '/clickcount/radiko']);" target="_blank"><img src="../image/program/icon_radiko.gif" width="65" height="20" alt=""></a></div>
+        </div>
+        <div class="clearfix"></div>
+        
+	<div><a href="mailto:green@interfm.jp"><img src="../image/program/icon_mail.gif" width="61" height="24" alt="Mail"></a></div>
+	<div>あなたの街のプロゴルファー・タケ小山がお送りする「GREEN JACKET」。
+日本のゴルフ情報はもちろんのこと、土曜の朝に動いているアメリカのゴルフツアー情報など
+世界のゴルフ情報が手に取るように分かります。
+さらに「藤田寛之プロ」や「谷口徹プロ」が登場する「ヤマハプレゼンツ・フェアウェイトーク」、
+これからのゴルフ界を担う若手女子プロゴルファーに迫る「ホットショット・ウィズ・GDO」などなど
+聞き逃せないコーナーが盛り沢山！週末に行われるスポーツ情報の見どころを紹介する
+「ウィークエンンド・ピックアップ」など、スポーツ情報も満載です。</div>
+        
+    	        <div><ul>
+<li>05:50 <a href="/green/blog/category/hot-shot-with-gdo/">Hot Shot with GDO</a></li>
+<li>06:20 <a href="/green/blog/category/the-choice-to-win/">The Choice to Win.</a></li>
+<li>07:06 The Road to ネスレ日本マッチプレー選手権 レクサス杯</li>
+<li>07:34 <a href="/green/blog/category/yamaha-fairway-talk/">Yamaha presents Fairway Talk</a></li>
+</ul></div>
+    	    </article>
+    <!-- end post -->     
+        <article class="wrp twitter">    
+    <a class="twitter-timeline" href="https://twitter.com/search?q=%23golf897" data-widget-id="316449674913521664" data-chrome="nofooter">golf897 に関するツイート</a>
+	
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </article>
+	
+	    <!-- end post -->
+        <article class="wrp plist">
+<h2 class="lg">Playlist</h2>
+<div class="wrp">
+<h3 class="left lo">Feb 13 2016</h3>
+<div class="txt"><a href="/search/"><img src="../image/program/icon_musics.gif" width="108" height="24" alt="Musiacsearch"></a><a href="javascript:window.location.reload(true)"><img src="../image/program/icon_reload.gif" width="70" height="24" alt="Reload"></a></div>
+</div>
+<ul>
+<li><span class="lg">05:08&nbsp;"WHEN TOMORROW COMES"</span>&nbsp;EURYTHMICS</li>
+<li class="bgg"><span class="lg">05:18&nbsp;"HALL OF FAME"</span>&nbsp;THE SCRIPT F/ WILL.I.AM</li>
+<li><span class="lg">05:29&nbsp;"UGH!"</span>&nbsp;THE 1975</li>
+<li class="bgg"><span class="lg">05:44&nbsp;"WILD,WILD WEST"</span>&nbsp;THE ESCAPE CLUB</li>
+<li><span class="lg">05:54&nbsp;"SHAKE YOUR LOVE"</span>&nbsp;DEBBIE GIBSON</li>
+<li class="bgg"><span class="lg">06:05&nbsp;"EYE IN THE SKY"</span>&nbsp;ALAN PARSONS PROJECT</li>
+<li><span class="lg">06:14&nbsp;"SHAPE OF MY HEART"</span>&nbsp;STING</li>
+<li class="bgg"><span class="lg">06:18&nbsp;"SLEDGEHAMMER"</span>&nbsp;PETER GABRIEL</li>
+<li><span class="lg">06:30&nbsp;"LOOKING UP"</span>&nbsp;ELTON JOHN</li>
+<li class="bgg"><span class="lg">06:34&nbsp;"PIANO MAN"</span>&nbsp;BILLY JOEL</li>
+<li><span class="lg">06:50&nbsp;"GODSPEED"</span>&nbsp;ANBERLIN</li>
+<li class="bgg"><span class="lg">07:03&nbsp;"HOLD ME NOW"</span>&nbsp;THOMPSON TWINS</li>
+<li><span class="lg">07:11&nbsp;"I FEEL THE EARTH MOVE"</span>&nbsp;CAROLE KING</li>
+<li class="bgg"><span class="lg">07:14&nbsp;"HEARTS"</span>&nbsp;MARTY BALIN</li>
+<li><span class="lg">07:30&nbsp;"ANYHOW"</span>&nbsp;TEDESCHI TRUCKS BAND</li>
+<li class="bgg"><span class="lg">07:43&nbsp;"UPTOWN FUNK"</span>&nbsp;MARK RONSON FEAT. BRUNO MARZ</li>
+<li><span class="lg">07:50&nbsp;"VOGUE"</span>&nbsp;MADONNA</li>
+<li class="bgg"><span class="lg">07:54&nbsp;"STRAIGHT UP"</span>&nbsp;PAULA ABDUL</li>
+</ul>
+</article>
+
+        <!-- end post -->      
+    </div><!-- end main -->
+    
+    
+    <div class="coltr right">
+        <article class="wrp bnr">    
+	<a href="http://yamaha.interfm.jp/podcast.xml" onclick="javascript:_gaq.push(['_trackPageview','/clickcount/greenJacketpodcast']);" target="_blank" class="mgr10"><img src="/green/banner/podcast.jpg" width="215" height="50" alt=""></a><a href="http://www.yamaha.co.jp/product/golf/" onclick="javascript:_gaq.push(['_trackPageview','/clickcount/greenJacketyamaha']);" target="_blank"><img src="/green/banner/bnr_yamaha.jpg" width="215" height="50" alt=""></a>
+<a href="http://news.golfdigest.co.jp/tournament/hotshot/" onclick="javascript:_gaq.push(['_trackPageview','/clickcount/greenJackethotshot']);" target="_blank" class="mgr10"><img src="/green/banner/gdo215x50.jpg" width="215" height="50" alt=""></a><a href="http://www.mitsubishirayongolf.com/?globe=1&lang=jp" target="_blank"><img src="/green/banner/banner_win.jpg" width="215" height="50" alt=""></a><a href="http://www.zero-hole.com/" target="_blank"><img src="/green/banner/banner_zerohall.jpg" width="215" height="50" alt=""></a>
+    </article>
+    <!-- end post -->
+        
+    <article class="wrp pblog">
+<h2 class="lg">Program Blog</h2>
+<div class="wrp">
+<div class="wrp">
+<h3 class="left lo">2月13日&nbsp;(土)</h3>
+<div class="txt"><a href="http://www.interfm.co.jp/green/blog"><img src="../image/program/icon_readmore.gif" width="91" height="24" border="0"></a></div>
+</div>
+<div id="leftinner" class="mtext">
+<span class="name_green ltext">「タケ小山ヤマハ天竜工場潜入リポート第5弾！ヤマハゴルフスクールの今後は・・・編！！」</span>
+<p><strong>今週もinterFM897「Green Jacket」をお聞き頂きありがとうございました！</strong></p>
+<p>&nbsp;</p>
+<p><strong>そして、今週のヤマハプレゼンツ「フェアウェイトーク」は、</strong></p>
+<p><strong>「タケ小山ヤマハ天竜工場潜入リポート」</strong><strong>の第5弾！！</strong></p>
+<p><strong>題して、</strong></p>
+<p><strong>「タケ小山ヤマハ天竜工場潜入リポート第5弾！ヤマハゴルフスクールの今後は・・・編！！」</strong></p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5392 size-large" title="ヤマハゴルフHS事業部ジュニアスクール担当主管藤村昌樹さん＆タケ小山！" src="http://www.interfm.co.jp/green/blog/wp-content/uploads/2016/02/unnamed2-360x269.jpg" alt="OLYMPUS DIGITAL CAMERA" width="360" height="269" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>今回お話を伺ったのは、</strong></p>
+<p><strong>「ヤマハゴルフHS事業部ジュニアスクール担当主管藤村昌樹さん」</strong></p>
+<p><strong>ヤマハゴルフジュニアスクールの成り立ちと</strong></p>
+<p><strong>校長でもある「藤田寛之プロ」のゴルフメソッドと</strong></p>
+<p><strong>スクールの授業との関連性までたっぷりと伺いました！</strong></p>
+<p><strong>さらには、今後のヤマハゴルフジュニアスクールについてもお話し頂きました！</strong></p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5393 size-large" title="藤田寛之校長とヤマハゴルフジュニアスクールの生徒たち！" src="http://www.interfm.co.jp/green/blog/wp-content/uploads/2016/02/unnamed-360x270.jpg" alt="unnamed" width="360" height="270" /></p>
+<p><strong> </strong></p>
+<p><strong> さあ、今年で５年目をむかえる夏のヤマハゴルフジュニアスクール！</strong></p>
+<p><strong>興味のある　お父さん、お母さん</strong></p>
+<p><strong>今年の夏も、全国のジュニア達を対象に</strong></p>
+<p><strong>小学生から高校生まで　</strong></p>
+<p><strong>藤田校長のゴルフメソッドと</strong></p>
+<p><strong>心の授業が、待っています。</strong></p>
+<p><strong>興味にある方は、「ヤマハゴルフ」で是非検索してみてください。</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>そして、放送を聞き逃した方、そして、もう一度</strong><strong>お聴きなりたい方は、</strong></p>
+<p><strong>下のバナーをクリック！</strong></p>
+<p>&nbsp;</p>
+<p><a href="http://yamaha.interfm.jp/podcast.xml" target="_blank"><img class="alignnone" title="第202回「タケ小山ヤマハ天竜工場潜入リポート第5弾！ヤマハゴルフスクールの今後は・・・編！！」はこちら！" src="http://www.interfm.co.jp/green/blog/wp-content/uploads/2012/04/YamahaNewbanner_0412-160x37.jpg" alt="http://yamaha.interfm.jp/podcast.xml" width="160" height="37" /></a>     <strong> </strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>ヤマハプレゼンツ「フェアウェイトーク」来週も</strong><strong>どうぞお楽しみに！！</strong></p>
+<br>
+</div>
+</article>
+
+    <!-- end post -->    
+
+    <article class="wrp dj">
+	
+    <h2 class="lg">DJ Biography</h2>    	<div><strong>タケ小山</strong></div>
+	<div>89年フロリダ州・オーランドにゴルフプロとして渡米。米国を中心に数々の試合に参戦し成績を収める。帰国後はゴルフ解説者となるも、07年日本でツアープロへ復帰を果たす。その後、08年より早稲田大学院でスポーツビジネス論を学ぶ。現在はTV・ラジオ・コラムなど多数メディアで絶賛活躍中！！ </div>
+                </article>
+    <!-- end post -->
+
+    </div>
+    <!-- end sidebar -->
+    <div class="clearfix"></div>
+    <div class="lright pagetop"><a href="#"><img src="../image/common/pagetop.gif" width="77" height="24" alt="pagetop"></a></div>
+    </div><!-- end contents -->
+    
+    <!--footer -->
+	    <footer>
+    <p class="menu1">
+    <a href="/">Home</a>
+    <a href="/news/">News</a>
+    <a href="/timetable/">Timetable</a>
+    <a href="/guest/">Guests</a>
+    <a href="/news/index.php?ct_id=1">Events</a>
+    <a href="/dj/">DJs</a>
+    </p>
+    <p class="menu2">
+    <a href="/about/">About InterFM</a>
+    <!-- <a href="">Press Release</a> -->
+    <a href="/recruit/">採用情報</a>
+    <a href="/privacy/">Privacy Policy</a>
+    <a href="/about/hoso.pdf" target="_blank">放送基準</a>
+    <a href="/about/antisocial.pdf" target="_blank">反社会的勢力排除に向けた指針</a>
+    <a href="/about/cpplan.pdf" target="_blank">国民保護業務計画</a>
+    </p>
+    <p class="logo"><img src="/image/common/logo_f.jpg" width="201" height="38" alt=""></p>
+    <p class="sns"><a href="https://twitter.com/InterFM897" onclick="javascript:_gaq.push(['_trackPageview', '/clickcount/twitter']);" target="_blank"><img src="/image/common/icon_tw.gif" width="23" height="23" alt=""></a>&nbsp;<a href="https://www.facebook.com/InterFM897" onclick="javascript:_gaq.push(['_trackPageview', '/clickcount/facebook']);" target="_blank"><img src="/image/common/icon_fb.gif" width="23" height="23" alt=""></a>&nbsp;<a href="http://radiko.jp/#INT" onclick="javascript:_gaq.push(['_trackPageview', '/clickcount/radiko']);" target="_blank"><img src="/image/common/icon_rd.gif" width="23" height="23" alt=""></a></p>
+    
+    <!-- <p class="footbanner">
+    <a href="http://atn2013.jp/" target="_blank"><img src="/image/topbanner/200x40.gif" alt=""></a>
+    </p> -->
+    
+    <p class="copy">COPYRIGHT &copy; 2015 InterFM CO., LTD. All Rights Reserved</p>
+    
+    </footer>
+<!---->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39026689-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type =
+'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!---->    <!--//footer -->
+    
+</div>
+<hr class="green2">
+</body>
+
+</html>

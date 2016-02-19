@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" xmlns="http://www.w3.org/1999/xhtml>
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" xmlns="http://www.w3.org/1999/xhtml>
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="V9DSK0XKhr0LmPa7Upw7hKt_Hc4CEuqu0l6MrOB0DJI" />
+	<title>The Football Lab</title>
+    <link rel="icon" href="http://www.thefootballab.co.uk/wp-content/themes/footballab2015/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="http://www.thefootballab.co.uk/wp-content/themes/footballab2015/images/favicon.ico" type="image/x-icon">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.thefootballab.co.uk/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://www.thefootballab.co.uk/wp-content/themes/footballab2015/js/html5.js"></script>
+	<![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="The Football Lab &raquo; Feed" href="http://www.thefootballab.co.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Football Lab &raquo; Comments Feed" href="http://www.thefootballab.co.uk/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.thefootballab.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='genericons-css'  href='http://www.thefootballab.co.uk/wp-content/themes/footballab2015/genericons/genericons.css?ver=3.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='slingshot2014TFL-style-css'  href='http://www.thefootballab.co.uk/wp-content/themes/footballab2015/style.css?ver=4.3.3' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='slingshot2014TFL-ie-css'  href='http://www.thefootballab.co.uk/wp-content/themes/footballab2015/css/ie.css?ver=16072014' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://www.thefootballab.co.uk/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.thefootballab.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.thefootballab.co.uk/wp-content/themes/footballab2015/js/css3-mediaqueries.js?ver=16072014'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.thefootballab.co.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.thefootballab.co.uk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #39a935; }
+</style>
+
+<!-- BEGIN GADWP v4.8.3 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-53816958-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- END GADWP Universal Tracking -->
+
+    <!-- typekit -->
+    <script type="text/javascript" src="//use.typekit.net/zzc6nxl.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+
+<body class="home blog custom-background">
+<div id="page" class="hfeed site">
+
+	<header id="masthead" class="site-header" role="banner">
+        	<div class="site-branding">
+        	<a href="http://www.thefootballab.co.uk"><img alt="The Football Lab" title="The Football Lab" class="header-image" src="http://www.thefootballab.co.uk/wp-content/themes/footballab2015/images/logo.png" /></a>			
+			
+			        	</div>
+            
+            			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<h1 class="menu-toggle">&nbsp;&nbsp;MENU</h1>
+				<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+				<div class="menu-main-menu-container"><ul id="menu-main-menu" class="nav-menu"><li id="menu-item-518" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-518"><a href="http://www.thefootballab.co.uk">Home</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://www.thefootballab.co.uk/about/">About</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37"><a href="http://www.thefootballab.co.uk/category/premier-league/">Premier League</a></li>
+<li id="menu-item-574" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-574"><a href="http://www.thefootballab.co.uk/category/championship/">Championship</a></li>
+<li id="menu-item-576" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-576"><a href="http://www.thefootballab.co.uk/category/league-one/">League One</a></li>
+<li id="menu-item-577" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-577"><a href="http://www.thefootballab.co.uk/category/league-two/">League Two</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://www.thefootballab.co.uk/contact/">Contact</a></li>
+</ul></div>			</nav>
+            
+	</header><!-- #masthead -->
+    
+    <div class="home-boxes-wrapper"><div class="home-boxes"><div class="home-box gap-right"style="background-image: url(http://www.thefootballab.co.uk/wp-content/themes/footballab2015/images/home-box.jpg);"><a href="http://www.thefootballab.co.uk/category/previews/"><h2 class="box-title"><span>Previews</span></h2></a></div>
+<div class="home-box gap-right"style="background-image: url(http://www.thefootballab.co.uk/wp-content/themes/footballab2015/images/home-box.jpg);"><a href="http://www.thefootballab.co.uk/category/tactics/"><h2 class="box-title"><span>Tactics</span></h2></a></div>
+<div class="home-box gap-right"style="background-image: url(http://www.thefootballab.co.uk/wp-content/themes/footballab2015/images/home-box.jpg);"><a href="http://www.thefootballab.co.uk/category/features/"><h2 class="box-title"><span>Features</span></h2></a></div>
+<div class="home-box"style="background-image: url(http://www.thefootballab.co.uk/wp-content/themes/footballab2015/images/home-box.jpg);"><a href="http://www.thefootballab.co.uk/92-survey/"><h2 class="box-title"><span>The 92</span></h2></a></div>
+</div></div>
+	<div id="main" class="site-main">
+
+<div id="main-content" class="main-content has-sidebar">
+
+		<div id="content" class="site-content" role="main">
+        
+        
+
+		
+<article id="post-733" class="post-733 post type-post status-publish format-standard sticky hentry category-92-survey category-premier-league post-list-item">
+
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="http://www.thefootballab.co.uk/2014/92-survey/" rel="bookmark">92 Survey</a></h1>
+		<div class="entry-meta">
+			<span class="featured-post">Sticky</span><span class="entry-date"><a href="http://www.thefootballab.co.uk/2014/92-survey/" rel="bookmark"><time class="entry-date" datetime="2014-08-15T11:35:16+00:00">Friday, 15 August 2014</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.thefootballab.co.uk/author/gabriel/" rel="author">Gabriel</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+    
+    
+
+	            
+    <div class="entry-summary">
+		<p>Go to any club badge on this page for interviews, in-depth analysis, predictions, previews and more. Premier League The Championship League One League Two</p>
+	</div><!-- .entry-summary -->
+	
+    
+	   
+</article><!-- #post-## -->
+
+<article id="post-3542" class="post-3542 post type-post status-publish format-standard hentry category-championship category-tactics tag-albert-adomah tag-alex-mowatt tag-alistair-brownlee tag-ben-gibson tag-charlie-taylor tag-cristhian-stuani tag-david-nugent tag-dimitros-konstantopoulos tag-emiliano-nsue tag-gaston-ramirez tag-giuseppe-belluschi tag-jordan-rhodes tag-lee-erwin tag-leeds-united tag-lufc tag-marco-silvestri tag-mirco-antenucci tag-ritchie-de-laet tag-souleymane-doukara tag-steve-evans tag-stewart-downing tag-stuart-dallas tag-the-boro tag-the-whites tag-toumani-diagouraga post-list-item">
+
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="http://www.thefootballab.co.uk/2016/goalscoring-touch-eludes-boro-and-leeds/" rel="bookmark">Goalscoring touch eludes Boro and Leeds</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.thefootballab.co.uk/2016/goalscoring-touch-eludes-boro-and-leeds/" rel="bookmark"><time class="entry-date" datetime="2016-02-15T22:31:18+00:00">Monday, 15 February 2016</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.thefootballab.co.uk/author/gabriel/" rel="author">Gabriel</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+    
+    
+
+	            
+    <div class="entry-summary">
+		<p>Middlesbrough went a fifth game without a win after a 0-0 draw at Leeds on Monday night. Their West Yorkshire opponents put in an aggressive, intensive display and for long periods, stopped the promotion challenges from finding their passing rythym. Positive substitutions gave way to an open second half in which both teams had their&hellip; <a href="http://www.thefootballab.co.uk/2016/goalscoring-touch-eludes-boro-and-leeds/">Read more&nbsp;&rarr;</a></p>
+	</div><!-- .entry-summary -->
+	
+    
+	   
+</article><!-- #post-## -->
+
+<article id="post-3533" class="post-3533 post type-post status-publish format-standard hentry category-premier-league category-tactics tag-afc tag-alex-oxlade-chamberlain tag-arsenal tag-arsene-wenger tag-bill-nicholson tag-christian-fuchs tag-claudio-ranieri tag-danny-drinkwater tag-danny-simpson tag-danny-welbeck tag-hector-bellarin tag-jamie-vardy tag-kasper-schmeichel tag-leicester-city tag-marc-albrighton tag-mesut-ozil tag-ngolo-kante tag-nacho-monreal tag-olivier-giroud tag-petr-cech tag-riyad-mahrez tag-the-gunners tag-theo-walcott post-list-item">
+
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="http://www.thefootballab.co.uk/2016/welbeck-winner-highlights-arsenals-adaptability/" rel="bookmark">Welbeck winner highlights Arsenal&#8217;s adaptability</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.thefootballab.co.uk/2016/welbeck-winner-highlights-arsenals-adaptability/" rel="bookmark"><time class="entry-date" datetime="2016-02-15T17:52:11+00:00">Monday, 15 February 2016</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.thefootballab.co.uk/author/gabriel/" rel="author">Gabriel</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+    
+    
+
+	            
+    <div class="entry-summary">
+		<p>A long held criticism of Arsenal manager Arsene Wenger has been his stubbornness, his refusal to acknowledge the strengths of the opposition and change his tactics accordingly. And yet, after a 2-1 victory over Leicester on Sunday, the Frenchman deserves at least an ounce of credit for the way he set his side up. Any plans&hellip; <a href="http://www.thefootballab.co.uk/2016/welbeck-winner-highlights-arsenals-adaptability/">Read more&nbsp;&rarr;</a></p>
+	</div><!-- .entry-summary -->
+	
+    
+	   
+</article><!-- #post-## -->
+
+<article id="post-3526" class="post-3526 post type-post status-publish format-standard hentry category-league-one category-tactics tag-bafc tag-burton-albion tag-calum-butcher tag-chesterfield-fc tag-dan-gardner tag-danny-wilson tag-drew-talbot tag-emmanuel-dierseruvwe tag-gary-liddle tag-gboly-ariyibi tag-jay-oshea tag-john-mousinho tag-lee-novak tag-liam-oneil tag-lucas-akins tag-mark-duffy tag-mason-bennett tag-nigel-clough tag-phil-edwards tag-rai-simons tag-sam-hird tag-shane-cansdell-sherriff tag-sylvain-ebanks-blake tag-the-brewers tag-the-spireites tag-tom-anderson post-list-item">
+
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="http://www.thefootballab.co.uk/2016/butcher-bags-winner-as-burton-beat-stale-spireites/" rel="bookmark">Butcher bags winner as Burton beat stale Spireites</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.thefootballab.co.uk/2016/butcher-bags-winner-as-burton-beat-stale-spireites/" rel="bookmark"><time class="entry-date" datetime="2016-02-13T03:11:51+00:00">Saturday, 13 February 2016</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.thefootballab.co.uk/author/gabriel/" rel="author">Gabriel</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+    
+    
+
+	            
+    <div class="entry-summary">
+		<p>Burton Albion went eight points clear in the League One promotion race on Friday night, as Calum Butcher’s first half strike saw them to a 1-0 win over Chesterfield. The grand scale of their achievement was perhaps not matched with the most memorable performance, yet there were also signs of why the Brewers are top of&hellip; <a href="http://www.thefootballab.co.uk/2016/butcher-bags-winner-as-burton-beat-stale-spireites/">Read more&nbsp;&rarr;</a></p>
+	</div><!-- .entry-summary -->
+	
+    
+	   
+</article><!-- #post-## -->
+
+<article id="post-3518" class="post-3518 post type-post status-publish format-standard hentry category-championship category-previews tag-abel-hernandez tag-blackburn-rovers tag-brfc tag-danny-graham tag-darragh-lenihan tag-grant-hanley tag-hcfc tag-hull-city tag-jordi-gomez tag-mohamed-diame tag-nick-powell tag-paul-lambert tag-shaun-maloney tag-sone-aluko tag-steve-bruce tag-the-rovers tag-the-tigers tag-tony-watt post-list-item">
+
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="http://www.thefootballab.co.uk/2016/blackburn-v-hull-why-gomez-can-lift-rovers/" rel="bookmark">Blackburn v Hull: why Gomez can lift Rovers</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.thefootballab.co.uk/2016/blackburn-v-hull-why-gomez-can-lift-rovers/" rel="bookmark"><time class="entry-date" datetime="2016-02-12T15:45:14+00:00">Friday, 12 February 2016</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.thefootballab.co.uk/author/gabriel/" rel="author">Gabriel</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+    
+    
+
+	            
+    <div class="entry-summary">
+		<p>There has always been one &#8216;Geordie&#8217; in the hearts of Blackburn Rovers fans, and manager Paul Lambert will hope he has signed another. Jordi Gomez joins on loan from Sunderland and he is a player who could inject some much-needed creativity into this Rovers midfield. At Middlesbrough, Lambert changed his system to accommodate Gomez. He switched from&hellip; <a href="http://www.thefootballab.co.uk/2016/blackburn-v-hull-why-gomez-can-lift-rovers/">Read more&nbsp;&rarr;</a></p>
+	</div><!-- .entry-summary -->
+	
+    
+	   
+</article><!-- #post-## -->
+
+<article id="post-3512" class="post-3512 post type-post status-publish format-standard hentry category-league-one category-previews tag-andy-butler tag-billy-sharp tag-darren-ferguson tag-doncaster-rovers tag-donny tag-drfc tag-martyn-woolford tag-nathan-tyson tag-nigel-adkins tag-rob-jones tag-sheffield-united tag-the-blades post-list-item">
+
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="http://www.thefootballab.co.uk/2016/doncaster-v-sheff-utd-blades-underachieving/" rel="bookmark">Doncaster v Sheff Utd: Blades underachieving</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.thefootballab.co.uk/2016/doncaster-v-sheff-utd-blades-underachieving/" rel="bookmark"><time class="entry-date" datetime="2016-02-12T13:27:59+00:00">Friday, 12 February 2016</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.thefootballab.co.uk/author/gabriel/" rel="author">Gabriel</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+    
+    
+
+	            
+    <div class="entry-summary">
+		<p>This blog was sceptical of Sheffield United&#8217;s promotion credentials in pre-season but not for a moment did anybody think they would be 11th at this stage. The main problem appears to be the lack of pace in their team. With the large budget Nigel Adkins was afforded in the summer, he went for what you might think would be&hellip; <a href="http://www.thefootballab.co.uk/2016/doncaster-v-sheff-utd-blades-underachieving/">Read more&nbsp;&rarr;</a></p>
+	</div><!-- .entry-summary -->
+	
+    
+	   
+</article><!-- #post-## -->
+
+<article id="post-3508" class="post-3508 post type-post status-publish format-standard hentry category-league-two category-previews tag-accrington-stanley tag-crawley-town tag-john-coleman tag-mark-yates tag-matt-harrold tag-roarie-deacon tag-stanley tag-the-red-devils post-list-item">
+
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="http://www.thefootballab.co.uk/2016/stanley-v-crawley-the-importance-of-bouncebackability/" rel="bookmark">Stanley v Crawley: the importance of bouncebackability</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.thefootballab.co.uk/2016/stanley-v-crawley-the-importance-of-bouncebackability/" rel="bookmark"><time class="entry-date" datetime="2016-02-11T20:24:34+00:00">Thursday, 11 February 2016</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.thefootballab.co.uk/author/gabriel/" rel="author">Gabriel</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+    
+    
+
+	            
+    <div class="entry-summary">
+		<p>More often than not this season, Crawley Town&#8217;s matches are decided by the first goal. According to Soccerstats, The Red Devils have won nine of the 12 games in which they score the game&#8217;s opener, but lost 13 of the 16 games in which they concede it. They have kept more clean sheets than half the teams&hellip; <a href="http://www.thefootballab.co.uk/2016/stanley-v-crawley-the-importance-of-bouncebackability/">Read more&nbsp;&rarr;</a></p>
+	</div><!-- .entry-summary -->
+	
+    
+	   
+</article><!-- #post-## -->
+
+<article id="post-3501" class="post-3501 post type-post status-publish format-standard hentry category-championship category-tactics tag-andrew-fox tag-ben-alnwick tag-ben-foster tag-chris-forrester tag-craig-gardner tag-cristian-gamboa tag-gabriel-zakuani tag-graham-westley tag-james-chester tag-james-mcclean tag-jeff-astle tag-jon-taylor tag-lee-angol tag-marcus-maddison tag-martin-samuelson tag-michael-bostwick tag-peterborough-united tag-pufc tag-saido-berahino tag-salomon-rondon tag-shaquile-coulthirst tag-the-baggies tag-the-posh tag-tony-pulis tag-wba tag-west-bromwich-albion post-list-item">
+
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="http://www.thefootballab.co.uk/2016/posh-pride-despite-defeat-on-pens/" rel="bookmark">Posh pride despite defeat on pens</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.thefootballab.co.uk/2016/posh-pride-despite-defeat-on-pens/" rel="bookmark"><time class="entry-date" datetime="2016-02-10T23:38:08+00:00">Wednesday, 10 February 2016</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.thefootballab.co.uk/author/gabriel/" rel="author">Gabriel</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+    
+    
+
+	            
+    <div class="entry-summary">
+		<p>It was heartbreak for Peterborough and Lee Angol, who missed the penalty that meant his side crashed out of the FA Cup at the hands of Premier League West Brom. Jon Taylor gave the League One hosts a deserved opener early in the second half, but Darren Fletcher&#8217;s thunderous strike made way for an enthralling&hellip; <a href="http://www.thefootballab.co.uk/2016/posh-pride-despite-defeat-on-pens/">Read more&nbsp;&rarr;</a></p>
+	</div><!-- .entry-summary -->
+	
+    
+	   
+</article><!-- #post-## -->
+
+<article id="post-3499" class="post-3499 post type-post status-publish format-standard hentry category-features category-league-two tag-adam-smith tag-chris-wilder tag-david-buchanan tag-david-cardoza tag-james-collins tag-joel-byrom tag-luke-prosser tag-nicky-adams tag-northampton-town tag-ntfc tag-ricky-holmes tag-rod-mcdonald tag-ryan-clarke tag-ryan-cresswell tag-the-cobblers tag-zander-diamond post-list-item">
+
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="http://www.thefootballab.co.uk/2016/the-cobblers-view-promotion-in-sight/" rel="bookmark">The Cobblers View: promotion in sight</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.thefootballab.co.uk/2016/the-cobblers-view-promotion-in-sight/" rel="bookmark"><time class="entry-date" datetime="2016-02-08T22:55:32+00:00">Monday, 8 February 2016</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.thefootballab.co.uk/author/gabriel/" rel="author">Gabriel</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+    
+    
+
+	            
+    <div class="entry-summary">
+		<p>Over the previous five seasons, the average League Two team has needed 81 points to secure automatic promotion. Some clubs at this stage might start to over-analyse the mathematics, but Northampton need not worry. They already have 61 points in early February, and could conceivably win promotion if they drew their final 18 games. Manager Chris Wilder might not want people&hellip; <a href="http://www.thefootballab.co.uk/2016/the-cobblers-view-promotion-in-sight/">Read more&nbsp;&rarr;</a></p>
+	</div><!-- .entry-summary -->
+	
+    
+	   
+</article><!-- #post-## -->
+
+<article id="post-3493" class="post-3493 post type-post status-publish format-standard hentry category-league-one category-tactics tag-adam-chambers tag-andy-taylor tag-anthony-forde tag-ben-purkiss tag-byron-webster tag-craig-mcgillivray tag-james-baxendale tag-james-oconnor tag-jason-demetriou tag-jordan-archer tag-jordan-cook tag-lee-gregory tag-liam-roberts tag-mahlon-romeo tag-mark-beevers tag-milan-lalkovic tag-millwall-fc tag-rico-henry tag-sean-odriscoll tag-shane-ferguson tag-shaun-williams tag-the-lions tag-the-saddlers tag-walsall-fc post-list-item">
+
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="http://www.thefootballab.co.uk/2016/clinical-lions-expose-walsalls-defensive-deficiencies/" rel="bookmark">Clinical Lions expose Walsall&#8217;s defensive deficiencies</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.thefootballab.co.uk/2016/clinical-lions-expose-walsalls-defensive-deficiencies/" rel="bookmark"><time class="entry-date" datetime="2016-02-06T18:25:15+00:00">Saturday, 6 February 2016</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.thefootballab.co.uk/author/gabriel/" rel="author">Gabriel</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+    
+    
+
+	            
+    <div class="entry-summary">
+		<p>Millwall stayed in the League One top six with a 3-0 win at Walsall on Saturday afternoon. Without discrediting the Lions after such an encouraging result, their victory was down to superior defending and clinical finishing, rather than classic attacking play. They adapted to the rainy conditions better and exposed Walsall’s lack of defensive protection&hellip; <a href="http://www.thefootballab.co.uk/2016/clinical-lions-expose-walsalls-defensive-deficiencies/">Read more&nbsp;&rarr;</a></p>
+	</div><!-- .entry-summary -->
+	
+    
+	   
+</article><!-- #post-## -->
+
+<article id="post-3487" class="post-3487 post type-post status-publish format-standard hentry category-championship category-tactics tag-andre-gray tag-anthony-knockaert tag-beram-kayal tag-bhafc tag-bobby-zamora tag-brentford-fc tag-bruno tag-chris-hughton tag-dean-smith tag-harlee-dean tag-jake-bidwell tag-james-wilson tag-jamie-murphy tag-john-swift tag-josh-mceachran tag-lewis-dunk tag-maxime-colin tag-moses-odubajo tag-richard-okelly tag-ryan-woods tag-steve-sidwell tag-the-bees tag-the-seagulls post-list-item">
+
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="http://www.thefootballab.co.uk/2016/why-brentford-must-balance-style-with-substance/" rel="bookmark">Why Brentford must balance style with substance</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.thefootballab.co.uk/2016/why-brentford-must-balance-style-with-substance/" rel="bookmark"><time class="entry-date" datetime="2016-02-06T01:47:11+00:00">Saturday, 6 February 2016</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.thefootballab.co.uk/author/gabriel/" rel="author">Gabriel</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+    
+    
+
+	            
+    <div class="entry-summary">
+		<p>The Football Lab has often spoken highly of Dean Smith and has praised the talent he and Richard O&#8217;Kelly have inherited at Brentford. However, there have been certain signs in the last month or so that something is not quite right at Griffin Park. That is, not because of the four straight defeats in early January &#8211; every&hellip; <a href="http://www.thefootballab.co.uk/2016/why-brentford-must-balance-style-with-substance/">Read more&nbsp;&rarr;</a></p>
+	</div><!-- .entry-summary -->
+	
+    
+	   
+</article><!-- #post-## -->
+	<nav class="navigation paging-navigation" role="navigation">
+		<h1 class="screen-reader-text">Posts navigation</h1>
+		<div class="pagination loop-pagination">
+			<span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://www.thefootballab.co.uk/page/2/'>2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://www.thefootballab.co.uk/page/60/'>60</a>
+<a class="next page-numbers" href="http://www.thefootballab.co.uk/page/2/">Next &rarr;</a>		</div><!-- .pagination -->
+	</nav><!-- .navigation -->
+	
+		</div><!-- #content -->
+</div><!-- #main-content -->
+
+<div class="sidebar-column">
+
+	
+	<div id="sidebar-1" class="primary-sidebar widget-area" role="complementary">
+		<aside id="text-3" class="widget widget_text">			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/_FootbalLab" data-widget-id="625952741748273152">Tweets by @_FootbalLab</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		</aside><aside id="text-4" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Ad 1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4314176289929459"
+     data-ad-slot="4123974329"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</aside>	</div><!-- #primary-sidebar -->
+	
+    
+</div><!-- #left-column -->
+		</div><!-- #main -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+        
+        
+<div id="supplementary">
+	<div id="footer-sidebar" class="footer-sidebar widget-area" role="complementary">
+		<aside id="slingshot2014tfl_tag_widget-2" class="widget widget_slingshot2014tfl_tag_widget"><h1 class="widget-title">Tags</h1><ul><li class="tag-item"><a href="http://www.thefootballab.co.uk/tag/northampton-town/" title="Northampton Town Tag" class="northampton-town">Northampton Town</a></li><li class="tag-item"><a href="http://www.thefootballab.co.uk/tag/sheffield-united/" title="Sheffield United Tag" class="sheffield-united">Sheffield United</a></li><li class="tag-item"><a href="http://www.thefootballab.co.uk/tag/leeds-united/" title="Leeds United Tag" class="leeds-united">Leeds United</a></li><li class="tag-item"><a href="http://www.thefootballab.co.uk/tag/shrewsbury-town/" title="Shrewsbury Town Tag" class="shrewsbury-town">Shrewsbury Town</a></li><li class="tag-item"><a href="http://www.thefootballab.co.uk/tag/colchester-united/" title="Colchester United Tag" class="colchester-united">Colchester United</a></li><li class="tag-item"><a href="http://www.thefootballab.co.uk/tag/walsall-fc/" title="Walsall FC Tag" class="walsall-fc">Walsall FC</a></li><li class="tag-item"><a href="http://www.thefootballab.co.uk/tag/brentford-fc/" title="Brentford FC Tag" class="brentford-fc">Brentford FC</a></li><li class="tag-item"><a href="http://www.thefootballab.co.uk/tag/accrington-stanley/" title="Accrington Stanley Tag" class="accrington-stanley">Accrington Stanley</a></li><li class="tag-item"><a href="http://www.thefootballab.co.uk/tag/dagenham-redbridge/" title="Dagenham &amp; Redbridge Tag" class="dagenham-redbridge">Dagenham &amp; Redbridge</a></li><li class="tag-item"><a href="http://www.thefootballab.co.uk/tag/portsmouth-fc/" title="Portsmouth FC Tag" class="portsmouth-fc">Portsmouth FC</a></li></ul></aside><aside id="categories-3" class="widget widget_categories"><h1 class="widget-title">Categories</h1>		<ul>
+	<li class="cat-item cat-item-7"><a href="http://www.thefootballab.co.uk/category/92-survey/" >92 Survey</a>
+</li>
+	<li class="cat-item cat-item-1011"><a href="http://www.thefootballab.co.uk/category/championship/" >Championship</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.thefootballab.co.uk/category/features/" >Features</a>
+</li>
+	<li class="cat-item cat-item-1012"><a href="http://www.thefootballab.co.uk/category/league-one/" >League One</a>
+</li>
+	<li class="cat-item cat-item-1013"><a href="http://www.thefootballab.co.uk/category/league-two/" >League Two</a>
+</li>
+	<li class="cat-item cat-item-2"><a href="http://www.thefootballab.co.uk/category/premier-league/" >Premier League</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.thefootballab.co.uk/category/previews/" >Previews</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.thefootballab.co.uk/category/tactics/" >Tactics</a>
+</li>
+		</ul>
+</aside><aside id="archives-3" class="widget widget_archive"><h1 class="widget-title">Archives</h1>		<ul>
+	<li><a href='http://www.thefootballab.co.uk/2016/02/'>February 2016</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2016/01/'>January 2016</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2015/12/'>December 2015</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2015/11/'>November 2015</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2015/10/'>October 2015</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2015/09/'>September 2015</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2015/08/'>August 2015</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2015/05/'>May 2015</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2015/04/'>April 2015</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2015/03/'>March 2015</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2015/02/'>February 2015</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2015/01/'>January 2015</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2014/12/'>December 2014</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2014/11/'>November 2014</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2014/10/'>October 2014</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2014/09/'>September 2014</a></li>
+	<li><a href='http://www.thefootballab.co.uk/2014/08/'>August 2014</a></li>
+		</ul>
+</aside><aside id="text-2" class="widget widget_text"><h1 class="widget-title">News Now</h1>			<div class="textwidget"><div style="width:119px;font-size:11px;line-height:11px;font-family:Verdana,Arial,Helvetica,sans-serif;color:#444;text-align:center"
+><a rel="nofollow" href="http://www.newsnow.co.uk/h/Sport/Football" target="newsnow"
+title="Click here for more Football news from NewsNow" style="text-decoration:none;border:0;" rel="nofollow"
+><img src="http://www.thefootballab.co.uk/wp-content/uploads/2015/11/newsnow_ab-3.gif"style="width:119px;height:47px;border:0;display:block;padding-bottom:2px" alt="As featured on NewsNow: Football news"/></a
+><a rel="nofollow" href="http://www.newsnow.co.uk/h/Sport/Football" target="newsnow"
+title="Click here for more Football news from NewsNow" style="color:#444;text-decoration:none;border:0;" rel="nofollow"></a
+><a href="http://www.newsnow.co.uk/h/Sport/Football" target="newsnow"
+title="Click here for more Football news from NewsNow" style="color:#444;text-decoration:none;border:0;" rel="nofollow">Football News</a
+><a rel="nofollow" href="http://www.newsnow.co.uk/h/Sport/Football" target="newsnow"
+title="Click here for more Football news from NewsNow" style="color:#444;text-decoration:none;border:0;" rel="nofollow"> 24/7</a></div>
+<p>&nbsp;</p>
+<hr></div>
+		</aside>	</div><!-- #footer-sidebar -->
+</div><!-- #supplementary -->
+        
+			<div class="footer-credit"><p><a href="http://www.slingshot.uk/">Web design <img src="http://www.thefootballab.co.uk/wp-content/themes/footballab2015/images/Slingshot-Design-Icon-16px.png" width="16" height="12" border="0" /> Slingshot</a></p>
+        </div>
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	<script type='text/javascript' src='http://www.thefootballab.co.uk/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://www.thefootballab.co.uk/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://www.thefootballab.co.uk/wp-content/themes/footballab2015/js/functions.js?ver=20131209'></script>
+<script type='text/javascript' src='http://www.thefootballab.co.uk/wp-content/plugins/wp-gallery-custom-links/wp-gallery-custom-links.js?ver=1.1'></script>
+</body>
+</html>

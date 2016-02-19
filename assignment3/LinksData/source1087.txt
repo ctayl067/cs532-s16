@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://www.openscienceeu.com/sites/all/themes/custom/openscience/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="In today’s society the word science means life, it means progression and is no longer seen as a debatable investment but a necessity." />
+<link rel="canonical" href="http://www.openscienceeu.com/" />
+  <title>To help create a better understanding of the community of science and its possibilities - Open Science EU</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <link type="text/css" rel="stylesheet" href="http://www.openscienceeu.com/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.openscienceeu.com/sites/default/files/css/css_hYCLW089C9S9sP3ZYkuG6R-Q5ZHbEhblZBFjwZ_bE_I.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.openscienceeu.com/sites/default/files/css/css_KJ2d28VQ3woW7TLFGSTU8kX9yH-x_yP78KMjnaNAh3c.css" media="all" />
+<style>.tb-megamenu.animate .mega > .mega-dropdown-menu,.tb-megamenu.animate.slide .mega > .mega-dropdown-menu > div{transition-delay:200ms;-webkit-transition-delay:200ms;-ms-transition-delay:200ms;-o-transition-delay:200ms;transition-duration:400ms;-webkit-transition-duration:400ms;-ms-transition-duration:400ms;-o-transition-duration:400ms;}
+</style>
+<link type="text/css" rel="stylesheet" href="http://www.openscienceeu.com/sites/default/files/css/css_PCTg-qA7xAe-rdGjQhNeTTp6dP3Mr8pTifLlzLNYcpQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.openscienceeu.com/sites/default/files/css/css_mI2_596I59LbhX7zpawMawK_YSASh0piOB2AyqTXntM.css" media="all" />
+  <script src="http://www.openscienceeu.com/sites/default/files/js/js_OKeCwkv74_Arj-XTFvk5raD5ho-wMA6Yziy9sT28j2U.js"></script>
+<script src="http://www.openscienceeu.com/sites/default/files/js/js_BNiRnytJHmBpzXXas2WUhU1xnq2axFFNlEHSnVuZeJg.js"></script>
+<script src="http://www.openscienceeu.com/sites/default/files/js/js_lxtKvoo6xeGyuSr7yPwStAyaUFwWDYg2YQN_ScZAyWA.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-32468751-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="http://www.openscienceeu.com/sites/default/files/js/js_AJeOk7XNmqaDXSQtyI6FyX1YyO3z7i21q0iZ1vr0K3A.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"openscience","theme_token":"ILMXfKHiE7iEbGABrlhw5Yk2PaOwLwHyqKttV0Ysn8E","js":{"0":1,"1":1,"2":1,"3":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/js\/flexslider.load.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/cookiecontrol\/js\/cookieControl-5.1.min.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/custom_search\/js\/custom_search.js":1,"sites\/all\/modules\/contrib\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/contrib\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"4":1,"sites\/all\/modules\/contrib\/quicktabs\/js\/quicktabs.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/modules\/contrib\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/contrib\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/contrib\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/contrib\/tb_megamenu\/css\/compatibility.css":1,"0":1,"sites\/all\/modules\/contrib\/custom_search\/custom_search.css":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/modules\/contrib\/quicktabs\/css\/quicktabs.css":1,"sites\/all\/modules\/contrib\/quicktabs\/quicktabs_tabstyles\/tabstyles\/basic\/basic.css":1,"\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.2.0\/css\/font-awesome.min.css":1,"sites\/all\/themes\/custom\/openscience\/system.menus.css":1,"sites\/all\/themes\/custom\/openscience\/system.messages.css":1,"sites\/all\/themes\/custom\/openscience\/system.theme.css":1,"sites\/all\/themes\/custom\/openscience\/css\/default.css":1,"sites\/all\/themes\/custom\/openscience\/css\/basic.css":1,"sites\/all\/themes\/custom\/openscience\/css\/styles.css":1}},"custom_search":{"form_target":"_self","solr":0},"flexslider":{"optionsets":{"default":{"namespace":"flex-","selector":".slides \u003E li","easing":"swing","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":0,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"fade","slideshow":true,"slideshowSpeed":"5000","directionNav":true,"controlNav":true,"prevText":"Previous","nextText":"Next","pausePlay":false,"pauseText":"Pause","playText":"Play","randomize":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""}},"instances":{"flexslider-1":"default"}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/":true},"quicktabs":{"qt_qtabs_comments_listing":{"name":"qtabs_comments_listing","tabs":[{"bid":"views_delta_landing_page_article_tab-block","hide_title":1}],"flexslider":{"instances":{"flexslider-1":"default"}}}}});</script>
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/contrib/zen/js/html5-respond.js"></script>
+    <![endif]-->
+  
+  <!-- // Google Sitelinks Search Box -->
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "http://www.openscienceeu.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "http://www.openscienceeu.com/search/node/{search_term_string}",
+    "target": "android-app://com.openscienceeu/http://www.openscienceeu.com/search/node/{search_term}"
+    "query-input": "required name=search_term_string"
+  }
+}
+  </script>
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-second page-node" >
+      <p id="skip-link">
+      <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+    </p>
+      
+<div id="page">
+
+  <header class="header" id="header" role="banner">
+	<div class="header-inner">
+          <a href="/" title="Home" rel="home" class="header__logo" id="logo"><img src="http://www.openscienceeu.com/sites/all/themes/custom/openscience/logo.png" alt="Home" class="header__logo-image" /></a>
+    
+          <div class="header__name-and-slogan" id="name-and-slogan">
+                  <h1 class="header__site-name" id="site-name">
+            <a href="/" title="Home" class="header__site-link" rel="home"><span>Open Science EU</span></a>
+          </h1>
+        
+                  <div class="header__site-slogan" id="site-slogan">To help create a better understanding of the community of science and its possibilities</div>
+              </div>
+    	
+	        <div class="region region-premium-sponsor">
+    <div id="block-custom-search-blocks-1" class="block block-custom-search-blocks first last odd">
+
+      
+  <form class="search-form" role="search" action="/" method="post" id="custom-search-blocks-form-1" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-custom-search-blocks-form-1">
+  <label class="element-invisible" for="edit-custom-search-blocks-form-1--2">Search this site </label>
+ <input title="Enter the terms you wish to search for." class="custom-search-box form-text" placeholder="Search this site" type="text" id="edit-custom-search-blocks-form-1--2" name="custom_search_blocks_form_1" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="delta" value="1" />
+<input type="hidden" name="form_build_id" value="form-ZZe0MfK9ztl1rolB8GQKzJYSURgr9VUU0zomh2Rvp4o" />
+<input type="hidden" name="form_id" value="custom_search_blocks_form_1" />
+</div></form>
+</div>
+  </div>
+    
+    	</div> <!-- //end header-inner -->
+  </header>
+	
+	<div id="navigation">
+
+      
+        <div class="region region-navigation">
+    <div id="block-tb-megamenu-main-menu" class="block block-tb-megamenu first last odd">
+
+      
+  <div  data-duration="400" data-delay="200" id="tb-megamenu-main-menu" class="tb-megamenu tb-megamenu-main-menu animate fading">
+      <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button" type="button">
+      <i class="fa fa-reorder"></i>
+    </button>
+    <div class="nav-collapse  always-show">
+    <ul  class="tb-megamenu-nav nav level-0 items-8">
+  <li  data-id="218" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega active active-trail">
+  <a href="/" >
+        
+    Home          </a>
+  </li>
+
+<li  data-id="509" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega dropdown">
+  <a href="#"  class="dropdown-toggle" title="Research Areas">
+        
+    Research Areas          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="500" style="width: 500px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="6" data-hidewcol="0" id="tb-megamenu-column-1" class="tb-megamenu-column span6  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-6">
+  <li  data-id="512" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/research-areas/agriculture" >
+        
+    Agriculture          </a>
+  </li>
+
+<li  data-id="513" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/research-areas/education-culture" >
+        
+    Education & Culture          </a>
+  </li>
+
+<li  data-id="514" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/research-areas/energy" >
+        
+    Energy          </a>
+  </li>
+
+<li  data-id="515" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/research-areas/environment" >
+        
+    Environment          </a>
+  </li>
+
+<li  data-id="516" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/research-areas/health" >
+        
+    Health          </a>
+  </li>
+
+<li  data-id="517" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/research-areas/ict" >
+        
+    ICT          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="6" data-hidewcol="" id="tb-megamenu-column-2" class="tb-megamenu-column span6  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-6">
+  <li  data-id="518" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/research-areas/innovation" >
+        
+    Innovation          </a>
+  </li>
+
+<li  data-id="519" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/research-areas/maritime-fisheries" >
+        
+    Maritime & Fisheries          </a>
+  </li>
+
+<li  data-id="520" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/research-areas/nano-materials-technology" >
+        
+    Nano & Materials Technology          </a>
+  </li>
+
+<li  data-id="521" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/research-areas/space" >
+        
+    Space          </a>
+  </li>
+
+<li  data-id="522" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/research-areas/technology"  title=" Science &amp; Technology">
+        
+     Science & Technology          </a>
+  </li>
+
+<li  data-id="523" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/research-areas/transport" >
+        
+    Transport          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="510" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega dropdown">
+  <a href="#"  class="dropdown-toggle" title="Countries">
+        
+    Countries          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="640" style="width: 640px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="8" data-hidewcol="0" id="tb-megamenu-column-6" class="tb-megamenu-column span8  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="530" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="left" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-align-left mega-group">
+  <a href="#"  class="mega-group-title" title="Europe">
+        
+    Europe          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="4" data-hidewcol="0" id="tb-megamenu-column-3" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-10">
+  <li  data-id="524" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/austria" >
+        
+    Austria          </a>
+  </li>
+
+<li  data-id="525" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/belgium" >
+        
+    Belgium          </a>
+  </li>
+
+<li  data-id="526" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/bulgaria" >
+        
+    Bulgaria          </a>
+  </li>
+
+<li  data-id="527" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/cyprus" >
+        
+    Cyprus          </a>
+  </li>
+
+<li  data-id="528" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/czech-republic" >
+        
+    Czech Republic          </a>
+  </li>
+
+<li  data-id="575" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/denmark" >
+        
+    Denmark          </a>
+  </li>
+
+<li  data-id="576" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/estonia" >
+        
+    Estonia          </a>
+  </li>
+
+<li  data-id="577" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/finland" >
+        
+    Finland          </a>
+  </li>
+
+<li  data-id="578" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/france" >
+        
+    France          </a>
+  </li>
+
+<li  data-id="579" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/germany" >
+        
+    Germany          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-4" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-10">
+  <li  data-id="580" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/greece" >
+        
+    Greece          </a>
+  </li>
+
+<li  data-id="582" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/hungary" >
+        
+    Hungary          </a>
+  </li>
+
+<li  data-id="583" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/italy" >
+        
+    Italy          </a>
+  </li>
+
+<li  data-id="584" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/ireland" >
+        
+    Ireland          </a>
+  </li>
+
+<li  data-id="585" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/latvia" >
+        
+    Latvia          </a>
+  </li>
+
+<li  data-id="586" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/lithuania" >
+        
+    Lithuania          </a>
+  </li>
+
+<li  data-id="587" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/luxembourg" >
+        
+    Luxembourg          </a>
+  </li>
+
+<li  data-id="590" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/malta" >
+        
+    Malta          </a>
+  </li>
+
+<li  data-id="591" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/netherlands" >
+        
+    Netherlands          </a>
+  </li>
+
+<li  data-id="592" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/norway" >
+        
+    Norway          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-5" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-9">
+  <li  data-id="593" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/poland" >
+        
+    Poland          </a>
+  </li>
+
+<li  data-id="594" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/portugal" >
+        
+    Portugal          </a>
+  </li>
+
+<li  data-id="595" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/romania" >
+        
+    Romania          </a>
+  </li>
+
+<li  data-id="596" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/slovakia" >
+        
+    Slovakia          </a>
+  </li>
+
+<li  data-id="597" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/slovenia" >
+        
+    Slovenia          </a>
+  </li>
+
+<li  data-id="598" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/spain" >
+        
+    Spain          </a>
+  </li>
+
+<li  data-id="588" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/sweden" >
+        
+    Sweden          </a>
+  </li>
+
+<li  data-id="589" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/switzerland" >
+        
+    Switzerland          </a>
+  </li>
+
+<li  data-id="599" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/united-kingdom" >
+        
+    United Kingdom          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-8" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="606" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="left" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-align-left mega-group">
+  <a href="#"  class="mega-group-title" title="Continents">
+        
+    Continents          <span class="caret"></span>
+          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="10" data-hidewcol="0" id="tb-megamenu-column-7" class="tb-megamenu-column span10  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-6">
+  <li  data-id="600" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/africa" >
+        
+    Africa          </a>
+  </li>
+
+<li  data-id="601" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/asia-middle-east" >
+        
+    Asia-Middle East          </a>
+  </li>
+
+<li  data-id="602" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/australia" >
+        
+    Australia          </a>
+  </li>
+
+<li  data-id="603" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/russia" >
+        
+    Russia          </a>
+  </li>
+
+<li  data-id="604" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/usacanada" >
+        
+    USA/Canada          </a>
+  </li>
+
+<li  data-id="1774" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/countries/europe" >
+        
+    Europe          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="1432" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega">
+  <a href="/publications" >
+        
+    Publications          </a>
+  </li>
+
+<li  data-id="1425" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega">
+  <a href="/videos" >
+        
+    Videos          </a>
+  </li>
+
+<li  data-id="1299" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega">
+  <a href="/useful-links" >
+        
+    Useful Links          </a>
+  </li>
+
+<li  data-id="1426" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega">
+  <a href="/job-search" >
+        
+    Job Search          </a>
+  </li>
+
+<li  data-id="1301" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega">
+  <a href="/contact-us"  title="Contact Us">
+        
+    Contact Us          </a>
+  </li>
+</ul>
+      </div>
+  </div>
+
+</div>
+  </div>
+
+    </div>
+
+  <div id="main">
+
+    <div id="content" class="column" role="main">
+                  <a id="main-content"></a>
+	  
+	                    
+                  	                <div class="region region-landing-slideshow">
+    <div id="block-views-landing-slideshows-block" class="block block-views first last odd">
+
+      
+  <div class="view view-landing-slideshows view-id-landing_slideshows view-display-id-block view-dom-id-f725f88e5809c98d2e73056ce74451a0">
+        
+  
+  
+      <div class="view-content">
+      <div  id="flexslider-1" class="flexslider">
+  <ul class="slides"><li>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/flexslider_full/public/field/image/2016_007_mit_biologischen_abfaellen_zu_nachhaltigen_batterien_1.jpg?itok=IWhZFTF9" width="800" height="500" alt="" /></div>  </div><div class="flex-caption"><a href="/article/germany/energy/organic-waste-sustainable-batteries">Organic Waste for Sustainable Batteries</a></div></li>
+<li>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/flexslider_full/public/field/image/seddon.jpg?itok=2rINDbRA" width="800" height="500" alt="" /></div>  </div><div class="flex-caption"><a href="/article/norway/environment/mapping-world-climate-sensitivity">Mapping the world for climate sensitivity</a></div></li>
+<li>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/flexslider_full/public/field/image/digitalwhirlpooloriginal.jpg?itok=SHr5hzmL" width="800" height="500" alt="" /></div>  </div><div class="flex-caption"><a href="/article/united-kingdom/nano-materials-technology/new-insight-graphene">New insight into graphene</a></div></li>
+<li>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/flexslider_full/public/field/image/glacier.jpg?itok=T7UUpsm9" width="800" height="500" alt="" /></div>  </div><div class="flex-caption"><a href="/article/united-kingdom/environment/northumbria-glaciologist-secures-funding-european-alps-research">Northumbria glaciologist secures funding for European Alps research</a></div></li>
+</ul></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+  </div>
+      
+                <div class="region region-landing-articles">
+    <div id="block-views-52cc83d6212865b77b679c46c7f18c4d" class="block block-views first last odd">
+
+      
+  <div class="view view-landing-countries-leading-articles view-id-landing_countries_leading_articles view-display-id-block_35 view-dom-id-ede1bbe9d24b7db88712f187f0a13d45">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/article/europe/energy/speech-commissioner-miguel-arias-canete-security-supply-package-press"><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/article_thumb/public/field/image/abc.jpg?itok=yJpLAnG2" width="180" height="90" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-article-short-summary">        <div class="field-content"><h3><a href="/article/europe/energy/speech-commissioner-miguel-arias-canete-security-supply-package-press">Speech by Commissioner Miguel Arias Cañete at the Security of Supply Package Press Conference</a></h3>
+<p>European Commission -
+Speech by Commissioner Miguel Arias Cañete at the Security of Supply Package...</p>
+<p class="landing-terms">News in: <a href="/category/research-areas/energy">Energy</a>, <a href="/category/countries/europe">Europe</a></p></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/article/asia-middle-east/transport/speech-transport-commissioner-violeta-bulc-aviation-leadership"><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/article_thumb/public/field/image/violetta.jpg?itok=7ipqBof5" width="180" height="90" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-article-short-summary">        <div class="field-content"><h3><a href="/article/asia-middle-east/transport/speech-transport-commissioner-violeta-bulc-aviation-leadership">Speech by Transport Commissioner Violeta Bulc at the Aviation Leadership Summit (Singapore)</a></h3>
+<p>European Commission - Speech 
+Speech by Transport Commissioner Violeta Bulc at the Aviation...</p>
+<p class="landing-terms">News in: <a href="/category/research-areas/transport">Transport</a>, <a href="/category/countries/asia-middle-east">Asia-Middle East</a>, <a href="/category/countries/europe">Europe</a></p></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+  </div>
+      
+                <div class="region region-text-listing">
+    <div id="block-quicktabs-qtabs-comments-listing" class="block block-quicktabs first odd">
+
+      
+  <div  id="quicktabs-qtabs_comments_listing" class="quicktabs-wrapper quicktabs-style-basic"><div class="item-list"><ul class="quicktabs-tabs quicktabs-style-basic"><li class="active first last"><a href="/node?qt-qtabs_comments_listing=0#qt-qtabs_comments_listing" id="quicktabs-tab-qtabs_comments_listing-0" class="active">Recent contents</a></li>
+</ul></div><div id="quicktabs-container-qtabs_comments_listing" class="quicktabs_main quicktabs-style-basic"><div  id="quicktabs-tabpage-qtabs_comments_listing-0" class="quicktabs-tabpage "><div id="block-views-landing-page-article-tab-block" class="block block-views first odd">
+
+      
+  <div class="view view-landing-page-article-tab view-id-landing_page_article_tab view-display-id-block view-dom-id-38bd2b941cd9a17f41831a30be27516e">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/article/germany/energy/organic-waste-sustainable-batteries">Organic Waste for Sustainable Batteries</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/article/norway/environment/mapping-world-climate-sensitivity">Mapping the world for climate sensitivity</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/article/united-kingdom/nano-materials-technology/new-insight-graphene">New insight into graphene</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/article/united-kingdom/environment/northumbria-glaciologist-secures-funding-european-alps-research">Northumbria glaciologist secures funding for European Alps research</a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/article/europe/energy/speech-commissioner-miguel-arias-canete-security-supply-package-press">Speech by Commissioner Miguel Arias Cañete at the Security of Supply Package Press Conference</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+       <p class="article-more"><a href="/category/all">more</a></p>
+     </div>
+  
+  
+</div>
+</div>
+</div></div></div>
+</div>
+<div id="block-views-b56273d11aa7262188de4160916991e9" class="block block-views even">
+
+      
+  <div class="view view-landing-countries-text-listing view-id-landing_countries_text_listing view-display-id-block_35 view-dom-id-76d161a6869c099c9b0ad3d95733b3e1">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <h3><a href="/article/italy/environment/eu-funds-should-be-allocated-considering-environmental-and-social">EU funds should be allocated considering environmental and social indicators alongside GDP, local leaders say</a></h3>    
+  <div>        <div>EU funds should be allocated considering environmental and social indicators alongside GDP, local leaders say
+11/02/2016</div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <h3><a href="/article/europe/energy/vice-president-katainens-opening-remarks-high-level-conference-energy">Vice-President Katainen&#039;s opening remarks at High-level Conference on Energy-Intensive Industries</a></h3>    
+  <div>        <div>European Commission - Speech 
+Vice-President Katainen&#039;s opening remarks at High-level Conference on Energy-Intensive...</div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <h3><a href="/article/europe/energy/renewable-energy-eu-share-renewables-energy-consumption-eu-rose-further-16">Renewable energy in the EU - Share of renewables in energy consumption in the EU rose further to 16% in 2014 - Nine Member States already achieved their 2020 targets</a></h3>    
+  <div>        <div>European Commission - EUROSTAT
+Renewable energy in the EU - Share of renewables in energy consumption in the EU rose further to...</div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+      
+          <h3><a href="/article/europe/transport/commission-welcomes-landmark-deal-co2-standard-aircraft-emissions">Commission welcomes landmark deal on CO2 standard for aircraft emissions</a></h3>    
+  <div>        <div>European Commission - Statement
+Commission welcomes landmark deal on CO2 standard for aircraft emissions
+
+Brussels, 9 February...</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+       <p class="article-more"><a href="/category/all">more</a></p>
+     </div>
+  
+  
+</div>
+</div>
+<div id="block-block-12" class="block block-block last odd">
+
+      
+  <!-- start twitter update -->
+              <div class="twitter-update">
+                 <a class="twitter-timeline" href="https://twitter.com/openscienceeu" data-widget-id="598109509559681024">Tweets by @openscienceeu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+              </div>
+              <!-- end twitter update -->	
+
+
+</div>
+  </div>
+      
+      
+          </div>
+
+
+    
+          <aside class="sidebars">
+                  <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-edition-block" class="block block-views first odd">
+
+      
+  <div class="view view-edition view-id-edition view-display-id-block view-dom-id-665fa142bb7e9a93376590ffc9e1e1dc">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div>        <div><a href="http://edition.pagesuite-professional.co.uk//launch.aspx?pbid=7bcf408a-7eef-44e7-97f7-78025d4e004a" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/edition-170px/public/edition/os-1.jpg?itok=4RGDtrhl" width="170" height="240" alt="" /></a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+       <p>Free open access<br />
+ISSN 2397-7582</p>
+     </div>
+  
+  
+</div>
+</div>
+<div id="block-block-4" class="block block-block even">
+
+      
+  <p><a href="/rss.xml"><img src="/sites/all/themes/custom/openscience/images/icons/rss.png" alt="RSS"> RSS feeds</a></p>
+<p><a href="https://twitter.com/openscienceeu"><img src="/sites/all/themes/custom/openscience/images/icons/twitter.png" alt="Twitter"> Twitter</a></p> 
+</div>
+<div id="block-views-sponsors-images-block" class="block block-views odd">
+
+        <h2 class="block__title block-title">Innovation supported by:</h2>
+    
+  <div class="view view-sponsors-images view-id-sponsors_images view-display-id-block view-dom-id-8741fa7a2d4e4c3b4b59680ba17b1e4a">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <div class="item-list"><ul><li class="first"><a href="http://www.nsf.gov/" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/sponsor/public/sponsor-images/nsf_1.png?itok=39i-IfuZ" width="298" height="85" alt="National Science Foundation" /></a></li>
+<li><a href="http://ec.europa.eu/research/horizon2020/index_en.cfm" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/sponsor/public/sponsor-images/horizon_2020_10.jpg?itok=LTQr-uXm" width="298" height="85" alt="Horizon2020" /></a></li>
+<li><a href="http://www.who.int/en/" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/sponsor/public/sponsor-images/who_new.png?itok=w9J_YHwM" width="298" height="85" alt="WHO" /></a></li>
+<li><a href="http://royalsociety.org/" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/sponsor/public/sponsor-images/rs_0.png?itok=DzY9Jg7L" width="298" height="85" alt="Royal society" /></a></li>
+<li><a href="http://www.esf.org/" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/sponsor/public/sponsor-images/esf.png?itok=8sGod58A" width="298" height="85" alt="European Science Foundation" /></a></li>
+<li><a href="http://www.co2geonet.com/" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/sponsor/public/sponsor-images/bannerco2geonet_298x75pix_1_0.jpg?itok=Fvz-tRNo" width="298" height="85" alt="co2geonet" /></a></li>
+<li><a href="http://www.cgseurope.net/" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/sponsor/public/sponsor-images/banner_cgs_europe1.jpg?itok=eLhsS6J2" width="298" height="85" alt="CGS EUROPE" /></a></li>
+<li><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/sponsor/public/sponsor-images/gencat.jpg?itok=GLINF1N8" width="298" height="85" alt="Generalitat de Catalunya" /></li>
+<li><a href="https://www.psi.ch/" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/sponsor/public/sponsor-images/psi_openscienceeu.png?itok=pcwrkfVB" width="298" height="85" alt="PSI" /></a></li>
+<li class="last"><a href="http://www.fhnw.ch/homepage" title="" target="_blank" rel="" class=""><img typeof="foaf:Image" src="http://www.openscienceeu.com/sites/default/files/styles/sponsor/public/sponsor-images/fhnw_openscienceeu.png?itok=ybSW5NyF" width="298" height="85" alt="FHNW" /></a></li>
+</ul></div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+<div id="block-block-14" class="block block-block last even">
+
+      
+  <a href="http://digitalconstruct.co.uk/" title="Turning your ideas into digital success"><img alt="DigitalConstruct" src="/sites/default/files/assets/dc.png" style="width: 298px; height: 85px;"></a>
+</div>
+  </section>
+      </aside>
+    
+  </div>
+
+  
+</div>
+
+  <div class="region region-bottom">
+    <div id="block-menu-menu-footer-menu" class="block block-menu first odd" role="navigation">
+
+      
+  <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/" title="" class="menu__link active">Home</a></li>
+<li class="menu__item is-leaf leaf"><a href="/about-us" class="menu__link">About us</a></li>
+<li class="menu__item is-leaf leaf"><a href="/accessibility" class="menu__link">Accessibility</a></li>
+<li class="menu__item is-leaf leaf"><a href="/terms-conditions-privacy-policy" class="menu__link">Terms &amp; Conditions / Privacy Policy</a></li>
+<li class="menu__item is-leaf leaf"><a href="/contact-us" title="" class="menu__link">Contact Us</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/sitemap" title="" class="menu__link">Site Map</a></li>
+</ul>
+</div>
+<div id="block-block-5" class="block block-block last even">
+
+      
+   <p>© Copyright 2015 <span class="field-prefix">Open Science EU</span> (part of Global Knowledge Transfer Ltd). All rights reserved. Company No: SC405977, VAT : 121 1845 52</p>
+ 
+</div>
+  </div>
+  <script>
+    jQuery(document).ready(function($) {
+    cookieControl({
+        introText: '<p>This site uses cookies to store information on your computer. Some of these cookies are essential to make our site work and others help us to improve by giving us some insight into how the site is being used.</p>',
+        fullText: '<p>Some cookies on this site are essential, and the site won\'t work as expected without them. These cookies are set when you submit a form, login or interact with the site by doing something that goes beyond clicking on simple links.</p><p>We also use some non-essential cookies to anonymously track visitors or enhance your experience of the site. If you\'re not happy with this, we won\'t set these cookies but some nice features of the site may be unavailable.</p><p>By using our site you accept the terms of our <a href="/terms-conditions-privacy-policy">Privacy Policy</a>.',
+        theme: 'dark',
+        html: '<div id="cccwr"><div id="ccc-state" class="ccc-pause"><div id="ccc-icon"><button><span>Cookie Control</span></button></div><div class="ccc-widget"><div class="ccc-outer"><div class="ccc-inner"><h2>Cookie Control</h2><div class="ccc-content"><p class="ccc-intro"></p><div class="ccc-expanded"></div><div id="ccc-cookies-switch" style="background-position-x: 0;"><a id="cctoggle" href="#" style="background-position-x: 0;" name="cctoggle"><span id="cctoggle-text">Cookies test</span></a></div><div id="ccc-implicit-warning">(One cookie will be set to store your preference)</div><div id="ccc-explicit-checkbox"><label><input id="cchide-popup" type="checkbox" name="ccc-hide-popup" value="Y" /> Do not ask me again<br /></label> (Ticking this sets a cookie to hide this popup if you then hit close. This will not store any personal information)</div><p class="ccc-about"><small><a href="http://www.civicuk.com/cookie-law" target="_blank">About this tool</a></small></p><a class="ccc-icon" href="http://www.civicuk.com/cookie-law" target="_blank"title="About Cookie Control">About Cookie Control</a><button class="ccc-close">Close</button></div></div></div><button class="ccc-expand">read more</button></div></div></div>',
+        position: 'right',
+        shape: 'triangle',
+        startOpen: false,
+        autoHide: 60000,
+        onAccept: function(cc){cookiecontrol_accepted(cc)},
+        onReady: function(){},
+        onCookiesAllowed: function(cc){cookiecontrol_cookiesallowed(cc)},
+        onCookiesNotAllowed: function(cc){cookiecontrol_cookiesnotallowed(cc)},
+        countries: '',
+        subdomains: true,
+        cookieName: 'open-science-eu_cookiecontrol',
+        iconStatusCookieName: 'ccShowCookieIcon',
+        consentModel: 'information_only'
+        });
+      });
+    </script>
+<script>function cookiecontrol_accepted(cc) {
+ccAddAnalytics();
+}</script>
+<script>function cookiecontrol_cookiesallowed(cc) {
+ccAddAnalytics();
+}</script>
+<script>function cookiecontrol_cookiesnotallowed(cc) {
+
+}</script>
+<script src="http://www.openscienceeu.com/sites/default/files/js/js_5idECjjAo-X5YdkT65CaIiodkWmZlZv-WjSkHlWhoYk.js"></script>
+</body>
+</html>

@@ -1,0 +1,2701 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr'>
+<head>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://joshuaneeraj.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://joshuaneeraj.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="EggHalfFry - Atom" href="http://joshuaneeraj.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="EggHalfFry - RSS" href="http://joshuaneeraj.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="EggHalfFry - Atom" href="https://www.blogger.com/feeds/132239596804030491/posts/default" />
+<link rel="me" href="https://www.blogger.com/profile/15015224100510349071" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://joshuaneeraj.blogspot.com/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3978477444-ieretrofit.js"></script>
+<![endif]-->
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>EggHalfFry</title>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/2973171168-css_bundle_v2.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=132239596804030491&zx=b1028e74-a93d-4e43-af05-78205f03921d' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Awesome Inc.
+Designer: Tina Chen
+URL:      tinachen.org
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#ffffff"/>
+<Group description="Page" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.background.color" description="Background Color" type="color" default="#000000"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Links" selector=".main-inner">
+<Variable name="link.color" description="Link Color" type="color" default="#888888"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#444444"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#cccccc"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Title Font" type="font"
+default="normal bold 40px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Title Color" type="color" default="#222222" />
+<Variable name="header.background.color" description="Header Background" type="color" default="transparent" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.font" description="Font" type="font"
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="description.text.color" description="Text Color" type="color"
+default="#222222" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#222222"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#222222"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="#141414"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#444444"/>
+<Variable name="tabs.border.color" description="Border Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Date Header" selector=".main-inner .widget h2.date-header, .main-inner .widget h2.date-header span">
+<Variable name="date.font" description="Font" type="font"
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="date.text.color" description="Text Color" type="color" default="#666666"/>
+<Variable name="date.border.color" description="Border Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title, h4, h3.post-title a">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal bold 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="post.title.text.color" description="Text Color" type="color" default="#222222"/>
+</Group>
+<Group description="Post Background" selector=".post">
+<Variable name="post.background.color" description="Background Color" type="color" default="#ffffff" />
+<Variable name="post.border.color" description="Border Color" type="color" default="#eeeeee" />
+<Variable name="post.border.bevel.color" description="Bevel Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Gadget Title" selector="h2">
+<Variable name="widget.title.font" description="Font" type="font"
+default="normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Text Color" type="color" default="#222222"/>
+</Group>
+<Group description="Gadget Text" selector=".sidebar .widget">
+<Variable name="widget.font" description="Font" type="font"
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.text.color" description="Text Color" type="color" default="#222222"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#666666"/>
+</Group>
+<Group description="Gadget Links" selector=".sidebar .widget">
+<Variable name="widget.link.color" description="Link Color" type="color" default="#0000cc"/>
+<Variable name="widget.link.visited.color" description="Visited Color" type="color" default="#cc0000"/>
+<Variable name="widget.link.hover.color" description="Hover Color" type="color" default="#0000cc"/>
+</Group>
+<Group description="Gadget Background" selector=".sidebar .widget">
+<Variable name="widget.background.color" description="Background Color" type="color" default="#141414"/>
+<Variable name="widget.border.color" description="Border Color" type="color" default="#222222"/>
+<Variable name="widget.border.bevel.color" description="Bevel Color" type="color" default="#000000"/>
+</Group>
+<Group description="Sidebar Background" selector=".column-left-inner .column-right-inner">
+<Variable name="widget.outer.background.color" description="Background Color" type="color" default="transparent" />
+</Group>
+<Group description="Images" selector=".main-inner">
+<Variable name="image.background.color" description="Background Color" type="color" default="transparent"/>
+<Variable name="image.border.color" description="Border Color" type="color" default="transparent"/>
+</Group>
+<Group description="Feed" selector=".blog-feeds">
+<Variable name="feed.text.color" description="Text Color" type="color" default="#222222"/>
+</Group>
+<Group description="Feed Links" selector=".blog-feeds">
+<Variable name="feed.link.color" description="Link Color" type="color" default="#0000cc"/>
+<Variable name="feed.link.visited.color" description="Visited Color" type="color" default="#cc0000"/>
+<Variable name="feed.link.hover.color" description="Hover Color" type="color" default="#0000cc"/>
+</Group>
+<Group description="Pager" selector=".blog-pager">
+<Variable name="pager.background.color" description="Background Color" type="color" default="#ffffff" />
+</Group>
+<Group description="Footer" selector=".footer-outer">
+<Variable name="footer.background.color" description="Background Color" type="color" default="#ffffff" />
+<Variable name="footer.text.color" description="Text Color" type="color" default="#222222" />
+</Group>
+<Variable name="title.shadow.spread" description="Title Shadow" type="length" default="-1px" min="-1px" max="100px"/>
+<Variable name="body.background" description="Body Background" type="background"
+color="#eeeeee"
+default="$(color) none repeat scroll top left"/>
+<Variable name="body.background.gradient.cap" description="Body Gradient Cap" type="url"
+default="none"/>
+<Variable name="body.background.size" description="Body Background Size" type="string" default="auto"/>
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="none"/>
+<Variable name="header.background.gradient" description="Header Background Gradient" type="url" default="none" />
+<Variable name="header.padding.top" description="Header Top Padding" type="length" default="22px" min="0" max="100px"/>
+<Variable name="header.margin.top" description="Header Top Margin" type="length" default="0" min="0" max="100px"/>
+<Variable name="header.margin.bottom" description="Header Bottom Margin" type="length" default="0" min="0" max="100px"/>
+<Variable name="widget.padding.top" description="Widget Padding Top" type="length" default="8px" min="0" max="20px"/>
+<Variable name="widget.padding.side" description="Widget Padding Side" type="length" default="15px" min="0" max="100px"/>
+<Variable name="widget.outer.margin.top" description="Widget Top Margin" type="length" default="0" min="0" max="100px"/>
+<Variable name="widget.outer.background.gradient" description="Gradient" type="url" default="none" />
+<Variable name="widget.border.radius" description="Gadget Border Radius" type="length" default="0" min="0" max="100px"/>
+<Variable name="outer.shadow.spread" description="Outer Shadow Size" type="length" default="0" min="0" max="100px"/>
+<Variable name="date.header.border.radius.top" description="Date Header Border Radius Top" type="length" default="0" min="0" max="100px"/>
+<Variable name="date.header.position" description="Date Header Position" type="length" default="15px" min="0" max="100px"/>
+<Variable name="date.space" description="Date Space" type="length" default="30px" min="0" max="100px"/>
+<Variable name="date.position" description="Date Float" type="string" default="static" />
+<Variable name="date.padding.bottom" description="Date Padding Bottom" type="length" default="0" min="0" max="100px"/>
+<Variable name="date.border.size" description="Date Border Size" type="length" default="0" min="0" max="10px"/>
+<Variable name="date.background" description="Date Background" type="background" color="transparent"
+default="$(color) none no-repeat scroll top left" />
+<Variable name="date.first.border.radius.top" description="Date First top radius" type="length" default="0" min="0" max="100px"/>
+<Variable name="date.last.space.bottom" description="Date Last Space Bottom" type="length"
+default="20px" min="0" max="100px"/>
+<Variable name="date.last.border.radius.bottom" description="Date Last bottom radius" type="length" default="0" min="0" max="100px"/>
+<Variable name="post.first.padding.top" description="First Post Padding Top" type="length" default="0" min="0" max="100px"/>
+<Variable name="image.shadow.spread" description="Image Shadow Size" type="length" default="0" min="0" max="100px"/>
+<Variable name="image.border.radius" description="Image Border Radius" type="length" default="0" min="0" max="100px"/>
+<Variable name="separator.outdent" description="Separator Outdent" type="length" default="15px" min="0" max="100px"/>
+<Variable name="title.separator.border.size" description="Widget Title Border Size" type="length" default="1px" min="0" max="10px"/>
+<Variable name="list.separator.border.size" description="List Separator Border Size" type="length" default="1px" min="0" max="10px"/>
+<Variable name="shadow.spread" description="Shadow Size" type="length" default="0" min="0" max="100px"/>
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+<Variable name="date.side" description="Side where date header is placed" type="string" default="right"/>
+<Variable name="pager.border.radius.top" description="Pager Border Top Radius" type="length" default="0" min="0" max="100px"/>
+<Variable name="pager.space.top" description="Pager Top Space" type="length" default="1em" min="0" max="20em"/>
+<Variable name="footer.background.gradient" description="Background Gradient" type="url" default="none" />
+<Variable name="mobile.background.size" description="Mobile Background Size" type="string"
+default="auto"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
+*/
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #222222;
+background: #eeeeee none repeat scroll top left;
+}
+html body .content-outer {
+min-width: 0;
+max-width: 100%;
+width: 100%;
+}
+a:link {
+text-decoration: none;
+color: #0000cc;
+}
+a:visited {
+text-decoration: none;
+color: #cc0000;
+}
+a:hover {
+text-decoration: underline;
+color: #0000cc;
+}
+.body-fauxcolumn-outer .cap-top {
+position: absolute;
+z-index: 1;
+height: 276px;
+width: 100%;
+background: transparent none repeat-x scroll top left;
+_background-image: none;
+}
+/* Columns
+----------------------------------------------- */
+.content-inner {
+padding: 0;
+}
+.header-inner .section {
+margin: 0 16px;
+}
+.tabs-inner .section {
+margin: 0 16px;
+}
+.main-inner {
+padding-top: 30px;
+}
+.main-inner .column-center-inner,
+.main-inner .column-left-inner,
+.main-inner .column-right-inner {
+padding: 0 5px;
+}
+*+html body .main-inner .column-center-inner {
+margin-top: -30px;
+}
+#layout .main-inner .column-center-inner {
+margin-top: 0;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+margin: 0 0 0 0;
+background: transparent none repeat scroll 0 0;
+}
+.Header h1 {
+font: normal bold 40px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #222222;
+text-shadow: 0 0 -1px #000000;
+}
+.Header h1 a {
+color: #222222;
+}
+.Header .description {
+font: normal bold 16px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #222222;
+}
+.header-inner .Header .titlewrapper,
+.header-inner .Header .descriptionwrapper {
+padding-left: 0;
+padding-right: 0;
+margin-bottom: 0;
+}
+.header-inner .Header .titlewrapper {
+padding-top: 22px;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-outer {
+overflow: hidden;
+position: relative;
+background: #eeeeee url(http://www.blogblog.com/1kt/awesomeinc/tabs_gradient_light.png) repeat scroll 0 0;
+}
+#layout .tabs-outer {
+overflow: visible;
+}
+.tabs-cap-top, .tabs-cap-bottom {
+position: absolute;
+width: 100%;
+border-top: 1px solid #999999;
+}
+.tabs-cap-bottom {
+bottom: 0;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+margin: 0;
+padding: .6em 1.5em;
+font: normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #222222;
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+border-left: 1px solid #999999;
+height: 16px;
+line-height: 16px;
+}
+.tabs-inner .widget li:last-child a {
+border-right: 1px solid #999999;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+background: #666666 url(http://www.blogblog.com/1kt/awesomeinc/tabs_gradient_light.png) repeat-x scroll 0 -100px;
+color: #ffffff;
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+font: normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #222222;
+}
+/* Widgets
+----------------------------------------------- */
+.main-inner .section {
+margin: 0 27px;
+padding: 0;
+}
+.main-inner .column-left-outer,
+.main-inner .column-right-outer {
+margin-top: 0;
+}
+#layout .main-inner .column-left-outer,
+#layout .main-inner .column-right-outer {
+margin-top: 0;
+}
+.main-inner .column-left-inner,
+.main-inner .column-right-inner {
+background: transparent none repeat 0 0;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+#layout .main-inner .column-left-inner,
+#layout .main-inner .column-right-inner {
+margin-top: 0;
+}
+.sidebar .widget {
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #222222;
+}
+.sidebar .widget a:link {
+color: #0000cc;
+}
+.sidebar .widget a:visited {
+color: #cc0000;
+}
+.sidebar .widget a:hover {
+color: #0000cc;
+}
+.sidebar .widget h2 {
+text-shadow: 0 0 -1px #000000;
+}
+.main-inner .widget {
+background-color: #ffffff;
+border: 1px solid #eeeeee;
+padding: 0 15px 15px;
+margin: 20px -16px;
+-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+.main-inner .widget h2 {
+margin: 0 -15px;
+padding: .6em 15px .5em;
+border-bottom: 1px solid transparent;
+}
+.footer-inner .widget h2 {
+padding: 0 0 .4em;
+border-bottom: 1px solid transparent;
+}
+.main-inner .widget h2 + div, .footer-inner .widget h2 + div {
+border-top: 1px solid #eeeeee;
+padding-top: 8px;
+}
+.main-inner .widget .widget-content {
+margin: 0 -15px;
+padding: 7px 15px 0;
+}
+.main-inner .widget ul, .main-inner .widget #ArchiveList ul.flat {
+margin: -8px -15px 0;
+padding: 0;
+list-style: none;
+}
+.main-inner .widget #ArchiveList {
+margin: -8px 0 0;
+}
+.main-inner .widget ul li, .main-inner .widget #ArchiveList ul.flat li {
+padding: .5em 15px;
+text-indent: 0;
+color: #666666;
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid transparent;
+}
+.main-inner .widget #ArchiveList ul li {
+padding-top: .25em;
+padding-bottom: .25em;
+}
+.main-inner .widget ul li:first-child, .main-inner .widget #ArchiveList ul.flat li:first-child {
+border-top: none;
+}
+.main-inner .widget ul li:last-child, .main-inner .widget #ArchiveList ul.flat li:last-child {
+border-bottom: none;
+}
+.post-body {
+position: relative;
+}
+.main-inner .widget .post-body ul {
+padding: 0 2.5em;
+margin: .5em 0;
+list-style: disc;
+}
+.main-inner .widget .post-body ul li {
+padding: 0.25em 0;
+margin-bottom: .25em;
+color: #222222;
+border: none;
+}
+.footer-inner .widget ul {
+padding: 0;
+list-style: none;
+}
+.widget .zippy {
+color: #666666;
+}
+/* Posts
+----------------------------------------------- */
+body .main-inner .Blog {
+padding: 0;
+margin-bottom: 1em;
+background-color: transparent;
+border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+.main-inner .section:last-child .Blog:last-child {
+padding: 0;
+margin-bottom: 1em;
+}
+.main-inner .widget h2.date-header {
+margin: 0 -15px 1px;
+padding: 0 0 0 0;
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #444444;
+background: transparent none no-repeat scroll top left;
+border-top: 0 solid #eeeeee;
+border-bottom: 1px solid transparent;
+-moz-border-radius-topleft: 0;
+-moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+position: static;
+bottom: 100%;
+right: 15px;
+text-shadow: 0 0 -1px #000000;
+}
+.main-inner .widget h2.date-header span {
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+display: block;
+padding: .5em 15px;
+border-left: 0 solid #eeeeee;
+border-right: 0 solid #eeeeee;
+}
+.date-outer {
+position: relative;
+margin: 30px 0 20px;
+padding: 0 15px;
+background-color: #ffffff;
+border: 1px solid #eeeeee;
+-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+.date-outer:first-child {
+margin-top: 0;
+}
+.date-outer:last-child {
+margin-bottom: 20px;
+-moz-border-radius-bottomleft: 0;
+-moz-border-radius-bottomright: 0;
+-webkit-border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0;
+-goog-ms-border-bottom-left-radius: 0;
+-goog-ms-border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
+.date-posts {
+margin: 0 -15px;
+padding: 0 15px;
+clear: both;
+}
+.post-outer, .inline-ad {
+border-top: 1px solid #eeeeee;
+margin: 0 -15px;
+padding: 15px 15px;
+}
+.post-outer {
+padding-bottom: 10px;
+}
+.post-outer:first-child {
+padding-top: 0;
+border-top: none;
+}
+.post-outer:last-child, .inline-ad:last-child {
+border-bottom: none;
+}
+.post-body {
+position: relative;
+}
+.post-body img {
+padding: 8px;
+background: transparent;
+border: 1px solid transparent;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+border-radius: 0;
+}
+h3.post-title, h4 {
+font: normal bold 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #222222;
+}
+h3.post-title a {
+font: normal bold 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #222222;
+}
+h3.post-title a:hover {
+color: #0000cc;
+text-decoration: underline;
+}
+.post-header {
+margin: 0 0 1em;
+}
+.post-body {
+line-height: 1.4;
+}
+.post-outer h2 {
+color: #222222;
+}
+.post-footer {
+margin: 1.5em 0 0;
+}
+#blog-pager {
+padding: 15px;
+font-size: 120%;
+background-color: #ffffff;
+border: 1px solid #eeeeee;
+-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+-moz-border-radius-topleft: 0;
+-moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+-goog-ms-border-top-left-radius: 0;
+-goog-ms-border-top-right-radius: 0;
+border-top-left-radius: 0;
+border-top-right-radius-topright: 0;
+margin-top: 1em;
+}
+.blog-feeds, .post-feeds {
+margin: 1em 0;
+text-align: center;
+color: #222222;
+}
+.blog-feeds a, .post-feeds a {
+color: #0000cc;
+}
+.blog-feeds a:visited, .post-feeds a:visited {
+color: #cc0000;
+}
+.blog-feeds a:hover, .post-feeds a:hover {
+color: #0000cc;
+}
+.post-outer .comments {
+margin-top: 2em;
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+}
+.comments .continue {
+border-top: 2px solid #999999;
+}
+/* Footer
+----------------------------------------------- */
+.footer-outer {
+margin: -20px 0 -1px;
+padding: 20px 0 0;
+color: #222222;
+overflow: hidden;
+}
+.footer-fauxborder-left {
+border-top: 1px solid #eeeeee;
+background: #ffffff none repeat scroll 0 0;
+-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+margin: 0 -20px;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile {
+background-size: auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+*+html body.mobile .main-inner .column-center-inner {
+margin-top: 0;
+}
+.mobile .main-inner .widget {
+padding: 0 0 15px;
+}
+.mobile .main-inner .widget h2 + div,
+.mobile .footer-inner .widget h2 + div {
+border-top: none;
+padding-top: 0;
+}
+.mobile .footer-inner .widget h2 {
+padding: 0.5em 0;
+border-bottom: none;
+}
+.mobile .main-inner .widget .widget-content {
+margin: 0;
+padding: 7px 0 0;
+}
+.mobile .main-inner .widget ul,
+.mobile .main-inner .widget #ArchiveList ul.flat {
+margin: 0 -15px 0;
+}
+.mobile .main-inner .widget h2.date-header {
+right: 0;
+}
+.mobile .date-header span {
+padding: 0.4em 0;
+}
+.mobile .date-outer:first-child {
+margin-bottom: 0;
+border: 1px solid #eeeeee;
+-moz-border-radius-topleft: 0;
+-moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+-goog-ms-border-top-left-radius: 0;
+-goog-ms-border-top-right-radius: 0;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+.mobile .date-outer {
+border-color: #eeeeee;
+border-width: 0 1px 1px;
+}
+.mobile .date-outer:last-child {
+margin-bottom: 0;
+}
+.mobile .main-inner {
+padding: 0;
+}
+.mobile .header-inner .section {
+margin: 0;
+}
+.mobile .post-outer, .mobile .inline-ad {
+padding: 5px 0;
+}
+.mobile .tabs-inner .section {
+margin: 0 10px;
+}
+.mobile .main-inner .widget h2 {
+margin: 0;
+padding: 0;
+}
+.mobile .main-inner .widget h2.date-header span {
+padding: 0;
+}
+.mobile .main-inner .widget .widget-content {
+margin: 0;
+padding: 7px 0 0;
+}
+.mobile #blog-pager {
+border: 1px solid transparent;
+background: #ffffff none repeat scroll 0 0;
+}
+.mobile .main-inner .column-left-inner,
+.mobile .main-inner .column-right-inner {
+background: transparent none repeat 0 0;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+-goog-ms-box-shadow: none;
+box-shadow: none;
+}
+.mobile .date-posts {
+margin: 0;
+padding: 0;
+}
+.mobile .footer-fauxborder-left {
+margin: 0;
+border-top: inherit;
+}
+.mobile .main-inner .section:last-child .Blog:last-child {
+margin-bottom: 0;
+}
+.mobile-index-contents {
+color: #222222;
+}
+.mobile .mobile-link-button {
+background: #0000cc url(http://www.blogblog.com/1kt/awesomeinc/tabs_gradient_light.png) repeat scroll 0 0;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background: transparent;
+border-top: 1px solid;
+border-color: #999999;
+color: #222222;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #999999;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 1270px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1270px;
+max-width: 1270px;
+_width: 1270px;
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 310px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 310px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("310px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 310px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 310px;
+margin-right: -310px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<script type="text/javascript">var a="&m=1",d="(^|&)m=",e="?",f="?m=1";function g(){var b=window.location.href,c=b.split(e);switch(c.length){case 1:return b+f;case 2:return 0<=c[1].search(d)?null:b+a;default:return null}}var h=navigator.userAgent;if(-1!=h.indexOf("Mobile")&&-1!=h.indexOf("WebKit")&&-1==h.indexOf("iPad")||-1!=h.indexOf("Opera Mini")||-1!=h.indexOf("IEMobile")){var k=g();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='loading variant-light'>
+<div class='navbar section' id='navbar' name='Navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: 'https://www.blogger.com/navbar.g?targetBlogID\075132239596804030491\46blogName\75EggHalfFry\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://joshuaneeraj.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://joshuaneeraj.blogspot.com/\46vt\75-485037819145926601',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+<meta content='EggHalfFry' itemprop='name'/>
+</div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header' name='Header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+EggHalfFry
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>The random ramblings of a lazy yet ambitious optimist... </span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol' name='Cross-Column'></div>
+<div class='tabs section' id='crosscol-overflow' name='Cross-Column 2'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main' name='Main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Sunday, December 8, 2013</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='132239596804030491' itemprop='blogId'/>
+<meta content='2154682324435544000' itemprop='postId'/>
+<a name='2154682324435544000'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://joshuaneeraj.blogspot.com/2013/12/guest-post-friend-who-wishes-to-be.html'>Guest post</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-2154682324435544000' itemprop='description articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div style="background-color: white; background-position: initial initial; background-repeat: initial initial; text-align: left;">
+<span style="font-family: inherit;"><span style="color: #222222;">Okay so here is an insightful post by a friend which I thought I'd share with you people. Please post your comments, if any, here. I'll make sure the original author, who wishes to be anonymous, sees it!<br /><br />When we were in college we all must
+have dreamed of what we would do with our first salary. Back then we thought
+that our first salary would be the source of eternal joy. Although we might
+have said otherwise, our first criterion for choosing companies during
+placement was invariably the &#8220;package&#8221; offered. Work began, we eagerly waited
+for the 25th of that month. We tweeted and posted on Facebook about the salary getting
+credited and felt really proud. But by the 28th of that month, we were done
+treating friends, buying stuff that we planned for, spent it all and within no
+time lost all the excitement. Unlike what we had assumed, the happiness gained
+from it didn't seem like a long term thing. </span><o:p></o:p></span></div>
+<div style="background-color: white; background-position: initial initial; background-repeat: initial initial; text-align: left;">
+<br /></div>
+<div style="background-color: white; background-position: initial initial; background-repeat: initial initial; text-align: left;">
+<span style="font-family: inherit;"><span style="color: #222222;">This little incident kept
+nudging me to find out why that so-called &#8220;eternal joy&#8221; faded away so soon.
+What does it take to stay happy?&nbsp;</span><o:p></o:p></span></div>
+<div style="background-color: white; background-position: initial initial; background-repeat: initial initial; text-align: left;">
+<br /></div>
+<div style="background-color: white; background-position: initial initial; background-repeat: initial initial; text-align: left;">
+<span style="font-family: inherit;"><span style="color: #222222;">It is believed that those who have
+satisfaction in life are&nbsp;</span><span style="color: #222222;">comparatively</span><span style="color: #222222;">&nbsp;more peaceful and successful. But
+satisfaction here&nbsp;doesn't&nbsp;mean being complacent with where you are. It is human&nbsp;nature to always crave for something better. It could be higher studies, a
+promotion or doing really good work and being appreciated for the same.
+Ambition is what drives us forward. If we weren't longing for more, wanting to
+change, we would have stayed where we were. Sometimes even laziness can be a
+boon when it comes to changing for the better. Some of the most useful
+inventions probably happened because some lazy guy came up with an idea to make
+his life easier. I kid you not!</span><br />
+</span></div>
+<span style="font-family: inherit;"><br /></span>
+<span style="font-family: inherit;"><span style="color: #222222;">
+Coming back to ambition, I believe that ambition should be absolute and not
+relative. Comparisons with others can spoil the benefits of ambition. Some
+people might be good at singing or sports or public speaking. That is because
+they were dedicated, systematic, organised and enjoyed it. Accept that fact,
+try to find out how they got better at it, get inspired and try hard to improve
+rather than just being envious and sad that we can't be like those talented
+people. Set your own targets, appraise yourself regularly and ask yourself if&nbsp;you've&nbsp;done justice to yourself and not whether you have done better than
+others.&nbsp;Trying to be better than someone can be a motivation, but once you do
+beat that certain someone, what do you do next?&nbsp;Isn't&nbsp;it better to set your own
+targets than rely on&nbsp;others?</span></span><br />
+<span style="font-family: inherit;"><span style="color: #222222;"><br /></span></span>
+<span style="font-family: inherit;"><span style="color: #222222;">Appreciate yourself and the gifts you have been blessed with, challenge
+yourself to make the most of those gifts and most importantly, take pleasure
+out of the little things in life that happen more frequently and you'll find
+that you&#8217;re considerably ahead of your peers in that most difficult of
+pursuits, the pursuit of happiness.</span><span style="color: #222222;">
+Appreciate yourself and the gifts you have been blessed with, challenge
+yourself to make the most of those gifts and most importantly, take pleasure
+out of the little things in life that happen more frequently and you'll find
+that you&#8217;re considerably ahead of your peers in that most difficult of
+pursuits, the pursuit of happiness.</span></span><br />
+<span style="color: #222222; font-family: inherit;"><br /></span>
+<span style="color: #222222; font-family: inherit;">Just as we&nbsp;</span><span style="color: #222222; font-family: inherit;">shouldn't</span><span style="color: #222222; font-family: inherit;">&nbsp;compare
+ourselves with others, it&#8217;s important not to worry about what&nbsp;others think
+about us. Happy people are spontaneous, natural and real, they say what they
+think and feel, and&nbsp;aren't&nbsp;concerned what others think of them. But at times
+when we feel&nbsp;really demotivated, we should try to find our own individual
+strength. No matter how weak we believe we are, we have an inner strength that
+has brought us through several hard times in life. We must reflect on those
+times and see how far we have come by the power of our own will and
+determination. Appreciate what you've been able to do, whether it was managing
+to get a good job, or fixing a bug or even writing a blog post.</span><br />
+<span style="color: #222222; font-family: inherit;"><br /></span>
+<span style="color: #222222; font-family: inherit;">Happy people do what they enjoy and
+enjoy what they do. To be happy, you need to be comfortable with what you do.
+There&#8217;s no point being stuck in a job you hate, surrounded by unfriendly
+colleagues just because the money is good. Many spend the best years of their
+lives trying to make money, sacrificing their health and family in the process.
+Later, they spend the same money they made working trying to recover their lost
+health and alienated family. Very few of us really stop to enjoy the small
+things in life. We're so focused on attending meetings, answering our calls,
+and checking our email that many of us forget that there really is a beautiful
+world beyond our&nbsp;</span><span style="color: #222222; font-family: inherit;">work space</span><span style="color: #222222; font-family: inherit;">. Every day&nbsp;at work, take some time out, make
+friends, hang out, sit together and work as a team and celebrate even for small
+accomplishments.</span><br />
+<span style="color: #222222; font-family: inherit;"><br /></span>
+<span style="color: #222222; font-family: inherit;">Something great and wonderful
+happening&nbsp;</span><span style="color: #222222; font-family: inherit;">shouldn't</span><span style="color: #222222; font-family: inherit;">&nbsp;be the only cause for happiness. If you&nbsp;believe that
+winning a prize or buying yourself that cell phone or car that you've been
+wanting so long is going to make you happy, you're absolutely right. It will
+make you happy for about two hours. Then you'll be looking for something else
+to bring on that shot of joy.</span><br />
+<span style="background-color: transparent; color: #222222; font-family: inherit; line-height: 106%;"><br /></span>
+<span style="background-color: transparent; color: #222222; font-family: inherit; line-height: 106%;">Appreciate yourself and the gifts you have been
+blessed with, challenge yourself to make the most of those gifts and most
+importantly, take pleasure out of the little things in life that happen more
+frequently and you'll find that you&#8217;re considerably ahead of your peers in that
+most difficult of pursuits, the pursuit of happiness.</span><br />
+<br /></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://joshuaneeraj.blogspot.com/2013/12/guest-post-friend-who-wishes-to-be.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-631578162'>
+<a href='https://www.blogger.com/post-edit.g?blogID=132239596804030491&postID=2154682324435544000&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=2154682324435544000&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=2154682324435544000&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=2154682324435544000&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=2154682324435544000&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=2154682324435544000&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://joshuaneeraj.blogspot.com/2013/12/guest-post-friend-who-wishes-to-be.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Saturday, December 8, 2012</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='132239596804030491' itemprop='blogId'/>
+<meta content='2670305206389918130' itemprop='postId'/>
+<a name='2670305206389918130'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://joshuaneeraj.blogspot.com/2012/12/season-7-i-haventblogged-for-while.html'>Season 7</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-2670305206389918130' itemprop='description articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<span style="font-family: inherit;"><span style="line-height: 115%;"><br /></span>
+<span style="line-height: 115%;">I haven&#8217;t
+blogged for a while after my... er, passionate Independence Day post. Now that
+the semester is over, I think it&#8217;s time that I tell you people a bit about it.
+And anyone with an idea of how things work at most engineering colleges will
+know that the last two semesters are mostly, if not all about placements and
+admits. In my case, it was sadly all about placements. The &#8216;sadly&#8217; has been
+introduced as a result of my summer internship making me realize what work
+after BTech means for a mechanical engineer.</span></span><br />
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;">
+<br />
+Anyway, <b>this post is mostly about my placement experience. You&#8217;ve been warned
+in advance, so don&#8217;t read this if you&#8217;re not interested in such boring stuff</b>. My
+preparations for placement season were quite thorough, as thorough as most
+preparations for any exam from third year and ahead. I guess I need not say
+more. The first company to visit for mechanical was Bajaj. Actually it was
+among the first companies to visit campuses altogether. Having worked at a
+motorcycle company over the summer, my dislike for automobile companies had only increased. Yet, being the focused and determined person I am, I sat
+for <b>Bajaj</b>. <o:p></o:p></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;">Bajaj is sort
+of like the Microsoft for mechies I guess. It pays well (best in the market,
+significantly more than certain companies which think of themselves as Bajaj&#8217;s competitors),
+location is good (Pune), profiles are challenging and the company as a whole is
+virtually the best indigenous manufacturer of bikes here. So, we all sat for it
+out of respect actually (the ones who weren&#8217;t that keen on it even). I was so
+confident and keen on the company that I hadn&#8217;t even bothered to bring my
+formal clothes or shoes. I just sat for the test because it would be a good
+experience. As it turned out, the paper had both general aptitude and technical
+questions with, wait for it, equal weightage. I focused on the general aptitude
+questions and attempted a few technical ones. I got lucky and qualified for the
+interview. Yes, Bajaj were all about quick and efficient recruitment methods.
+There was just one interview and they said they didn&#8217;t bother about what we
+wore. All the same, I didn&#8217;t want to be the only one in casual clothes and ran
+back to the hostel to borrow pants from one guy, shirt and tie from another
+and... Well it was chaotic, to say the least. I took my documents and ran to
+the Training &amp; Placement department. I don&#8217;t remember having to wait that
+long. My interview was quick and enlightening. It was clear that not only was I
+disinterested in automobiles but I was also quite incompetent at them. Or
+that&#8217;s what the interviewers made me feel like. I was asked a few questions on
+my project on lighting systems in automobiles (which was pretty useless, I must
+admit) and then later I was asked a question on how I&#8217;d make vehicles more
+efficient without touching the engine (yes, that was it, it was that general) I
+told them about making the vehicle more streamlined with the aid of some very
+clumsy figures, talked about how a vehicle that hugs the road with down force
+ultimately gets more traction (is that right?) and about how CVT can give more
+appropriate gear ratios for every speed and thus increase efficiency. I guess
+that wasn&#8217;t enough.<o:p></o:p></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;">Having not
+had much hope anyway, I returned to my room to later find out that 5 people had
+been recruited. Company 1 down.<o:p></o:p></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;">The next one
+was <b>Caterpillar</b>. Now for those who don&#8217;t know about this company, it is the
+world&#8217;s biggest manufacturer of construction and mining equipment and
+machinery. They&#8217;re a Fortune 50 company if I&#8217;m not wrong and are very proud of
+what they do, rightly so. They are by no means a &#8216;low profile&#8217; company and
+don&#8217;t want people who see them a stepping stone to higher studies or some 2
+year stint. At NITK they are up there with Bajaj in terms of pay and frankly
+even work I guess. Okay, so the test. This time I had brought my formals,
+thankfully. I wrote the test, which had aptitude, technical and verbal
+components. Technical was the most important part this time. The topics which I
+remember were thermodynamics, hydraulics and pneumatics (major portion, this),
+fluid mechanics and manufacturing. The test was pretty tough and far more of a
+challenge than the Bajaj test. I say this because I qualified in this as well.
+I know, how modest right? I somehow made it through. There was a group
+discussion which went quite smoothly. I think the topic was about how education
+is/isn&#8217;t necessary for success. I thought it was and spoke a bit. The interview
+was easy. They asked me about my CGPA trend and why it had a negative slope. To
+be honest, they didn&#8217;t seem very bothered by it. They asked me about my project.
+Asked me about the effect an open fridge had on itself and its surroundings.
+They also asked me to define a tool and a machine, which was slightly weird and
+also fun. Bottles, pens and the AC were used as examples. And then they asked
+me my interests to which I said strength of materials/structural. They asked me
+to design a diving board from scratch and it was pretty easy given that to me
+it was basically about designing a very flexible cantilever. The problem was, I
+was having second thoughts about the work and the location. They had no
+guarantee as to whether they would assign me an R&amp;D job or a manufacturing
+one. I know this was a bit arrogant on my part, but I voiced these concerns and
+also asked them about the possibility of relocation. They weren&#8217;t pleased by
+this I guess or maybe didn&#8217;t find me good enough. All the same, Company No. 2
+was down. Truth be told, I wasn&#8217;t that sad about this either.<br />
+<br />
+In the following days quite a few companies came and went. I would go to their
+presentations and get disappointed with some aspect of the job. These were the
+initial days and some of the companies I skipped were actually gems which I
+stupidly did not try for out of greed. There, I said it. Others, the work was
+simply not what I expected and I&#8217;m happy to have not tried for. Oh, and I tried
+for <b>Pepsico</b> but was deemed unfit in the preliminary online psychometric test.
+That was interesting. Psychometric tests are awesome, you should try one.<br />
+<br />
+Next came the one company I really wanted. <b>Tata Motors</b>, a Tata company, market
+leader in many segments, a job profile that gave an insane amount of exposure
+to the industry, good locations and a good compensation package. The test was
+conducted a few days before they came to the campus and it was online. Most of
+the questions were general aptitude and verbal. The technical part was varied
+in terms of topics. I remember questions on gears and other drives, production
+and operations management etc. The on campus process involved a group
+discussion followed by two interviews. The GD was on whether Indian television
+was exploiting the youth. The next technical interview was the longest I have
+faced. It went on for more than 50 minutes. I was asked questions on my project,
+manufacturing processes (I was asked what a pattern was, specifically), &nbsp;Iron-Carbon diagrams and was grilled for
+around half an hour on why Finite Element Methods are required. Also a question
+on how section modulus impacts the member&#8217;s load carrying capacity where I was
+asked to quantitatively prove this for an &#8216;I&#8217; section. That was it. The next
+interview was an HR interview. The HR guy seemed to be making an overt attempt
+at an accent and to be honest, trying to emphasize his &#8216;HR&#8217;ness. I guess it is
+pretty clear that I did not like him in the least, with his. His language was difficult
+to comprehend and at one point he said &#8216;crub&#8217; instead of &#8216;curb&#8217;, which I
+unconsciously corrected. He seemed to have a severe disagreement with some
+points I had expressed during my GD and he brought them up. When I defended
+them, I was labelled as arrogant. Well, if that was the case I have no regrets
+in not making it there. If I was expected to not defend what i thought was
+right just to get the job, I&#8217;d rather be unemployed. Either he used that point
+to test me (in which case I took the bait most gloriously) or he did something very wrong
+by trying to impose his personal opinion on me and disregarding me because I
+did not yield. That or I was simply not good enough for the tech guy, which I
+have no problem with. Anyway, Company 3 down. I was pretty disappointed this
+time.<o:p></o:p></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;">The next few
+days involved more disappointing presentations and returning to the room. <br />
+<br /><b>
+Irunway</b>. This company was one which I&#8217;d never heard of before. They were basically
+a firm which helped companies sue others by ascertaining if and how patent
+infringements were made. Good pay, interesting job and a great location made me
+register for it. The test was interesting. There were some reasoning &amp;
+comprehension questions with the subject matter being mainly consumer
+electronics and associated technologies, some mathematical questions (Olympiad
+type and basic calculus), a few programming questions (C++, mainly logic based)
+and some mechanical ones. It also has a small essay type question where you
+were supposed to write about your aims and interests. Anyway, that evening we
+had the Tata Steel test which I was more interested in. Tata Steel pays very
+well and although the location is not that great at first sight, it is supposed
+to be a very fulfilling and secure job. The test that evening was another case.
+Insanely difficult, it was made for a metallurgy student rather than a mechie.
+Questions were asked on steel, how it is made, its properties, basic
+manufacturing processes, fluid mechanics and thermo. Towards the end I was just
+ticking answers randomly in spite of the negative marking system. I was more
+hurriedly doing this because at the beginning of the test I was informed that I
+had qualified for the Irunway interviews happening RIGHT THEN. It had started
+raining, so I wrote what I could and ran to my room, dressed and went to TnP.
+The interview was bizarre. Like a sort of HR round, the guy asked me about my
+interest, football, regarding interesting incidents that happened on campus (I
+told him about the rickshaw accident I had two days ago) and other such stuff.
+We had discussions on relativity and how Newton was different in terms of
+expressing the law of gravity. Yup, it was a very strange interview. I
+qualified for the next round where I was asked questions on IC engines, Wankel
+engines and questions on guesstimation (estimating the number of Joshuas in the
+world, the number of webpages created everyday). I was asked to explain some of
+my answers in the written test too, and failed miserably at solving the C++
+questions. I won&#8217;t elaborate, they were really laughable. The impression I got
+from this interview and the subsequent lone recruitment was that they wanted
+someone who knew his stuff well (whether that was Rock Blasting or Artificial
+Intelligence was immaterial to them) and also someone with a fairly high IQ.
+Expected, given the nature of their work. They wanted a smart person who was
+thorough. Okay, Company 4 down (or if you include Pepsi, Company 5).<o:p></o:p></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;">By now I was
+panicking. There wasn&#8217;t any news about any good companies coming in the
+foreseeable future (read Placement Site schedule). By good, I mean the
+companies whose profiles seemed appealing to me. There was Reliance, and that
+was it. My hopes about Atkins or L&amp;T (Bombay) coming were dashed. Reliance
+had a good reputation. Okay, that goes without saying. The location was not
+bad, I absolutely adored the CM of Gujarat and some really good seniors were
+there. The presentation reinforced that. The profile they offered was not
+exactly in line with my interest but it was good, with great potential for
+professional growth. <o:p></o:p></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;">Okay, I&#8217;ll
+cut the crap. I wanted to get placed and get it over with, and<b> Reliance</b> was
+more than enough. The presentation was embarrassing because of the power cut
+and the projector flopping as usual. The test involved aptitude and verbal
+questions which were very easy but required effective time management.
+Technical was okay, focusing on manufacturing processes, fluid machinery
+(pumps, pumps and more pumps) and some other subjects which I totally forgot. I
+qualified for the interviews. Me and the department&#8217;s erstwhile topper were
+sitting together and revising (now that I think of it, this was the first
+interview before which I actually did some focused study. Thank you Tintin for
+that little bit of motivation) We were lucky, both of us were asked questions
+on topics which we had seen moments ago on Wikipedia. That reminds me, thank
+you Jimmy Wales and team. I shall definitely donate soon. In the interview I
+was asked about the subjects I had taken that semester, a question on casting
+defects, some welding question I don&#8217;t even remember, a question on pressure
+vessels and the pressure components associated with them (Hoop stress etc.) and
+a general question on the role of a mechanical engineer in an industry like
+Reliance. It was over in less than ten minutes. I assumed that I had been
+disappointing and was hence dismissed early. Went back to my room in a very bad
+mood and if not for the salt, I might have really lost it. I slept off only to
+be woken up much later to Tintin calling me to TnP. The results were about to
+be announced and I didn&#8217;t want to go there to be rejected for a fifth time. But
+then I got a call telling me that I&#8217;d got it. The feeling is hard to describe.
+You only get it once in your life. I went there to TnP in my shabby jeans and
+FSUK shirt, got the offer letter, was asked about my attire and berated by the
+Reliance guys for not having enough confidence in myself. I told my loved ones
+about it, went back to my room and wore three layers of underwear and also my
+then redundant ankle crepe bandage in a vain effort to protect myself against
+the barbarism that was to follow. My butt was blue and pink for a week after
+that. <o:p></o:p></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 115%;">Well that was
+it, the day I got my first job. I honestly don&#8217;t know why I wrote this long
+post, but maybe it has something to do with the absolute lack of work I&#8217;m
+facing now. Hardly any classes anyway in college and now I&#8217;m on holiday.
+Getting placed has been a relief and the whole process leading up to it, a
+memorable experience. Thought I&#8217;d share it with you. Hopefully the next post
+shall be a little less boring and narcissistic. <br /><br />And oh, for those of you who are looking for something better than placements, here is a pretty informative blog by a friend of mine :-&nbsp;<a href="http://opulentverses.blogspot.in/2012/10/a-tryst-with-internships-part-2.html" target="_blank">http://opulentverses.blogspot.in/2012/10/a-tryst-with-internships-part-2.html</a></span></div>
+<div class="MsoNormal">
+<span style="line-height: 115%;">
+<!--[endif]--><span style="font-size: 9pt;"><o:p></o:p></span></span></div>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://joshuaneeraj.blogspot.com/2012/12/season-7-i-haventblogged-for-while.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-631578162'>
+<a href='https://www.blogger.com/post-edit.g?blogID=132239596804030491&postID=2670305206389918130&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=2670305206389918130&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=2670305206389918130&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=2670305206389918130&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=2670305206389918130&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=2670305206389918130&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://joshuaneeraj.blogspot.com/2012/12/season-7-i-haventblogged-for-while.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://joshuaneeraj.blogspot.com/search/label/Bajaj' rel='tag'>Bajaj</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Caterpillar' rel='tag'>Caterpillar</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/IRunWay' rel='tag'>IRunWay</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/NITK' rel='tag'>NITK</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Pepsico' rel='tag'>Pepsico</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Placement' rel='tag'>Placement</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Reliance' rel='tag'>Reliance</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Tata%20Motors' rel='tag'>Tata Motors</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Wednesday, August 15, 2012</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='132239596804030491' itemprop='blogId'/>
+<meta content='5722953517483078945' itemprop='postId'/>
+<a name='5722953517483078945'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://joshuaneeraj.blogspot.com/2012/08/expected.html'>Expected.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5722953517483078945' itemprop='description articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<span style="font-family: inherit;"><br /></span>
+<div class="MsoNormal">
+<span style="font-family: inherit;">This blog post, that&#8217;s what was expected. I usually get all
+passionate and emotional at these moments. Days of national importance,
+significant political developments and even sporting events (ICC World Cup
+final 2011 takes the cake of course) seem to have a special significance in my
+admittedly insignificant life. What difference does it make if this one wannabe
+engineer talks and types about events which have absolutely no dependence on
+him? Well, I honestly can&#8217;t answer that. But I shall blog anyway.</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">So, 65 years of Independence. Cool eh? 65 years of
+absolutely no interference from outside, total peace and calm for us as a
+country to progress. That is time more than enough for a country with abundant
+energy resources, safe and secure boundaries, absolutely no problems of
+cultural differences and languages to kick ass as a country. We should have
+become a superpower by now. Damn those &#8216;politicians&#8217;, if not for them we&#8217;d have
+been living the life, I&#8217;d have been posting this from my 4G LTE handset, Kasab
+would be selling meat in his village, India would have got 40 golds at the
+Olympics, we&#8217;d be enjoying 20% growth when Greece and Iceland were going kaput
+and Rajni&#8217;s films would be winning Oscars, right? </span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">Well, if you&#8217;re one of those who subscribe to the views
+mentioned towards the end of the previous paragraph, the beginning of the same paragraph
+should set you right. Study history, do some useful googling about our
+demographics, reflect on what you are thinking of as a career right now (and
+why) and you will think twice before complaining. This post was triggered by
+two things. One was a very whiny tweet by someone complaining about how
+backward we are and the other, an article I came across on Wikipedia. (<a href="http://en.wikipedia.org/wiki/Tryst_with_destiny">http://en.wikipedia.org/wiki/Tryst_with_destiny</a>)<br />
+<br />
+That speech was made by a true statesman. It summarised a dream seen by our
+founding fathers (and mothers?). Poor and rich alike, those people fought like
+tigers in their unique ways to win independence for a collection of states and
+provinces that had no previous wish to be together. Yes, if you have illusions
+regarding some ancient united India, please go study history. If you want, I&#8217;ll
+write another post some other time. We had a soul as a country, just as Nehru
+said. But the body took an oppressor&#8217;s whip to take form. &nbsp;India as we know it is all about the last one,
+or maybe two centuries. We came together to throw the English out, make no
+mistakes about that. And even if that is the case, why should we not feel proud
+about that? We, my fellow Indian, are privileged participants in the greatest
+geopolitical experiment in history. Note the word participants. We don&#8217;t need a
+history of zillions of years as a &#8216;country&#8217; to be proud. The past century by
+itself is enough to put every other country to shame. Pay attention to what
+happens every 5 years here (next one in 2014), and you will understand why we
+are special.</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">Anyway, the dream... Those gutsy people fought and won. And
+what did they do after that? They went home, &#8216;scammed&#8217; and lived out their
+lives in gluttony and hedonism right? Nope. They sat together for years more
+and wrote a huge book. A gargantuan book with ideas from all around the globe,
+literally. They dreamt big, but they also worked hard to realise it, or at
+least tried to enable their kids in realising it. They gave us something called
+the Constitution. I&#8217;m sure it must have been their pride and joy, something
+that made their eyes moist every time they thought about it. Think of the
+examination you just wrote after weeks of hard study or the racing car you made
+last year (if you get this part, mail me them Hungarian chocolates). Feeling
+coming-aa? Yes, that&#8217;s what they felt about their gift to us. <br />
+<br />
+</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">Why am I trying to get you all sentimental? Because of what
+is transpiring around us. Members of &#8216;civil society&#8217; propping up freedom
+fighters and self-styled &#8216;holy&#8217; men playing with religious sentiments to
+further their vested interests, the assassin of the Mahatma is touted as a hero
+of some sorts on social media, political parties look to do nothing more than
+gain power in the next election (or even cause premature elections at huge
+monetary loss to the nation), vigilante groups giving excuses of &#8216;culture&#8217; to
+satisfy their own disgusting desires, media houses looking to do nothing but
+increase their TRPs (which by themselves seem to be flawed, going by recent
+<a href="http://businesstoday.intoday.in/story/ndtv-sues-nielsen-for-viewership-data-manipulation/1/186880.html" target="_blank">reports</a>)... The list goes on. And the worst part is, we educated youth are getting
+disillusioned everyday by this mockery of the Constitution. We fail to see how
+this most cherished gift of our founders is being tarnished every day. Some ask
+for direct presidential elections, others ask for some whimsical
+&#8216;right-to-recall&#8217;... Are these the words of people who are genuinely aware of
+what our country, our Republic is all about? In his speech Nehru said the
+following words,<br />
+<br />
+<i>"To the people of India, whose
+representatives we are, we make an appeal to join us with faith and confidence
+in this great adventure. This is no time for petty and destructive criticism,
+no time for ill-will or blaming others. We have to build the noble mansion of
+free India where all her children may dwell."<br />
+<br />
+<o:p></o:p></i></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">So much faith and enthusiasm in pursuing this adventure
+right? Well, this post wasn&#8217;t meant to be some lecture on what we should do.
+But I&#8217;ll tell you what we shouldn&#8217;t do, we shouldn&#8217;t complain without knowing
+the facts. We shouldn&#8217;t make a mockery of those who gave our country to us or
+of their plan for us. Our crowning glory, our pride and our country&#8217;s foundation,
+the Constitution is being attacked every day. Don&#8217;t be a part of it, at least
+not without getting your facts right.</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">The time for India to redeem that pledge fully is very far
+(not 2020, much further). But she is doing it bit by bit, be sure of that. I
+shall end with just one, simple suggestion based on Chacha Nehru&#8217;s speech.<br />
+<br />
+<i>&#8220;The responsibility rests upon this
+Assembly, a sovereign body representing the sovereign people of India.&#8221;<br />
+<br />
+</i>Help her in redeeming that pledge. Don&#8217;t ask for a cool President to appear
+out of thin air. Go vote!<br />
+<br />
+Jai Hind, seriously.</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">P.S. By the way, I am a fortunate student of an NIT, part of
+a system of institutions of higher learning where merit ALONE (definition
+recently messed with, but merit all the same) can get you a seat and that too
+at dirt cheap rates. There are many such institutes in India. I&#8217;m not telling
+this to boast about myself, believe me I&#8217;m not. But just research admission
+procedures at all those awesome Western universities we all want to go to, and
+you will feel somewhat, if not very proud of the &#8216;system&#8217; we all hate.</span></div>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://joshuaneeraj.blogspot.com/2012/08/expected.html#comment-form' onclick=''>
+4 comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-631578162'>
+<a href='https://www.blogger.com/post-edit.g?blogID=132239596804030491&postID=5722953517483078945&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=5722953517483078945&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=5722953517483078945&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=5722953517483078945&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=5722953517483078945&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=5722953517483078945&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://joshuaneeraj.blogspot.com/2012/08/expected.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://joshuaneeraj.blogspot.com/search/label/15th%20August' rel='tag'>15th August</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Constitution' rel='tag'>Constitution</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Independence%20Day' rel='tag'>Independence Day</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/India' rel='tag'>India</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Nehru' rel='tag'>Nehru</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Friday, May 18, 2012</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://4.bp.blogspot.com/-7ZUdwI3RUJg/T7YB2ihp8LI/AAAAAAAAARc/G1p3BkWFx_A/s320/Man-Utd-07-08-Wallpapers-manchester-united-2428115-1280-960.jpg' itemprop='image_url'/>
+<meta content='132239596804030491' itemprop='blogId'/>
+<meta content='8195406426654731181' itemprop='postId'/>
+<a name='8195406426654731181'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://joshuaneeraj.blogspot.com/2012/05/man-united-not-manu.html'>Man United, not ManU!</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-8195406426654731181' itemprop='description articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<span style="font-family: inherit;"><br /></span>
+<span style="font-family: inherit;"><br /></span>
+<div class="MsoNormal">
+<span style="font-family: inherit;">Manchester United. Looong post, be warned.</span><br />
+<span style="font-family: inherit;"><br /></span>
+<span style="font-family: inherit;">Inevitable I guess, me writing about this. Those who follow football will
+wonder about the timing however. Why am I writing about United when they have lost their title to the worst possible opposition, in the most painful
+manner? Well, those who TRULY follow football will know why. United is one of
+the most successful clubs in world football. Yet that isn&#8217;t what&#8217;s special
+about this club. United inspire awe, wonder and even hate for one trait, to
+which I shall come back later. Or maybe not.</span><br />
+<span style="font-family: inherit;"><br /></span>
+<span style="font-family: inherit;">I started following football during the 2006 WC. I randomly started supporting England,
+having heard of Rooney and Beckham before. Yes, as much as we would like to
+pretend, for most of us over here in India, that is how the football mania
+begins. In essence, we are all cricketiyas J
+For me, football seemed all the more attractive as a sport. I was tired of
+always being the one who dropped catches while fielding, who bowled more wides
+than proper ones and who almost always went last to bat. Football wasn&#8217;t about &#8216;one
+mistake and you&#8217;re out&#8217;. In football, you could suck all through the game and
+no one would notice. I know, good reason right? Anyway, I liked football. And
+the firangis played it better. So, I started watching.</span><br />
+<span style="font-family: inherit;"><br /></span>
+<span style="font-family: inherit;">I saw the Ronaldo-Rooney bust up and got curious about the team for which these
+two played normally. So, I started watching the EPL that season. I have an
+uncle who supports Arsenal, and I&#8217;d watched the Arsenal vs Barcelona Champions
+League final with him once (or was it after 2006?). That was all the background
+I had till then. But I immediately fell in love with the team. United had this
+sense of speed and forcefulness I didn&#8217;t see in any other EPL team at that
+time. Arsenal were in a kind of recession, and were playing their own version
+of tiki-taka without any results (and they continue to do so, which is a shame
+really). Liverpool were under Rafael Benitez. Enough said. Chelsea were the
+kings at that time. Tyrants, led by the special one. &nbsp;Jose Mourinho was indeed a brilliant manager,
+and had established what one of the most effective teams as far as winning a league
+goes. And it was left to United to do something about it. </span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">It was during that season that I saw the greatest midfielder
+of his generation, Paul Scholes. I mean, this guy&#8217;s passes were brilliant.
+Quick and incisive short passes, and lobs from another world. And he had the
+perfect target to aim for. Wayne Rooney. Temperamental, passionate,
+foul-mouthed and now United&#8217;s heartbeat, this guy could pluck those long passes
+out of the air as though the ball was a magnet and his boots were iron. Or vice
+versa. Ryan Giggs, the EPL version of Tendulkar. This guy had been playing for
+what 15 or more years by then, and he was still ripping teams apart from the
+wing. Give Ryan Giggs an inclined board in front of goal and 1 second on the
+wing, and you have a goal. Cristiano Ronaldo with his stepovers, speed, killer
+free kicks and unsurpassed cockiness chipped in with almost as many goals as
+the strikers. I remember Saha used to play for us back then. &nbsp;The other two players I really admired were
+Nemanja Vidic, our brilliant CB whose absence cost us the league this time and
+Edwin van der Sar. VDS was a brilliant keeper, perhaps United&#8217;s second greatest
+after Schmeichel. But more than that, it was like having an extra outfield
+player. VDS&#8217;s ball distribution was simply superb, comparable to Pepe Reina&#8217;s. Anyway,
+that first season I saw United destroy Roma in the CL semi-final 7-1. That game
+defined United for me. Counter attacking at its best. United didn&#8217;t pass the
+ball all the time or have insane dribblers. Or not that many atleast. But just
+the sight of those red shirts running at full pelt, scaring the shit out of the
+opposition, it was amazing.</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">We bowed out of the CL to AC Milan, who at the time were
+still giants. They still are actually. With the departure of great but highly
+paid stars, they&#8217;re sure gonna be able attract some real good talent next
+season. AC Milan, the team I like most in the Serie A. Ok, so we were out of
+the CL. Anyway, that was ok. That first season, I saw United lift the Premier
+League title again. I didn&#8217;t know much about them yet, but I saw what it meant
+to United. The Premier League was everything to United. United had ended
+Chelsea&#8217;s reign. And thats when it started.</span><br />
+<span style="font-family: inherit;"><br /></span>
+<span style="font-family: inherit;">The next few years were glorious. Ronaldo was the main driving force. He scored
+goals like crazy despite being a winger, and Rooney played the perfect partner.
+We had Nani coming in, Carrick was there. Anderson, the da Silva twins and many
+more. The 2007-08 season we wrapped up the League title with ease. But there
+was more. I watched my second CL final, this time with a team to support.
+Cristiano had scored a brilliant opener with a header. But United didn&#8217;t finish
+things off early and Chelsea got back into it with a typical helter skelter
+goal from the overhyped Lampard, who celebrates his fluke goals as though he
+meant every little deflection. I seriously don&#8217;t like him Gerrard is better.
+Anyway, the game went to penalties after a very heated last few minutes. And who
+better to miss the penalty than our man, Cristiano. Of all the people, he
+missed as he had done in the SF against Barcelona (oh yes, people can defeat
+Barcelona by playing football). John Terry stepped up to take the winner. And he
+slipped. I hate being negative, but that moment is one which I shall savor for
+ever. And then, VDS saved Anelka&#8217;s penalty. Manchester United were kings of
+Europe again J</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-7ZUdwI3RUJg/T7YB2ihp8LI/AAAAAAAAARc/G1p3BkWFx_A/s1600/Man-Utd-07-08-Wallpapers-manchester-united-2428115-1280-960.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><span style="color: black; font-family: inherit;"><img border="0" height="240" src="http://4.bp.blogspot.com/-7ZUdwI3RUJg/T7YB2ihp8LI/AAAAAAAAARc/G1p3BkWFx_A/s320/Man-Utd-07-08-Wallpapers-manchester-united-2428115-1280-960.jpg" width="320" /></span></a></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">I grew even more crazy about United. Ronaldo was at the height
+of his powers and was scoring goals for fun. Berbatov was there, scoring insane
+goals at leisure. And we had the engine of Rooney, Scholes, Carrick, Fletcher,
+Giggs, Vidic, Rio and the others. We won the title again. And a few teacups
+along the way. Chelsea regained the title once, but we had won it thrice by
+then. United were back, and I was hooked on to United for life. </span><br />
+<span style="font-family: inherit;"><br /></span>
+<span style="font-family: inherit;">I didn&#8217;t realise how crazy I was about United till the end of the 20080-09
+season. One of the greatest comebacks at the Old Trafford happened that night
+(night in India). We defeated Spurs in a season defining game. But what was
+more special, even ominous for me, was what loomed the next day. Not something
+I write about where my mum can see it anyway :P</span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-TUTOW_Q3peQ/T7YBybZKGoI/AAAAAAAAARU/JaFxSnPAE5Q/s1600/240191468.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><span style="color: black; font-family: inherit;"><img border="0" height="204" src="http://2.bp.blogspot.com/-TUTOW_Q3peQ/T7YBybZKGoI/AAAAAAAAARU/JaFxSnPAE5Q/s320/240191468.jpg" width="320" /></span></a></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">Why are United so&nbsp;successful? Do United have no problems at all? Well, read about the&nbsp;<a href="http://en.wikipedia.org/wiki/Glazer_ownership_of_Manchester_United" target="_blank">Glazers</a>. I'd rather not get angry and start using the beautiful words. United have a history, a proud history. we have overcome adversity time and time again. Not just on the pitch, but elsewhere too. If you've time, read&nbsp;<a href="http://en.wikipedia.org/wiki/Munich_air_disaster" target="_blank">this</a>.</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span>
+<span style="font-family: inherit;">But if you want to read something really awesome, read&nbsp;<a href="http://en.wikipedia.org/wiki/Alex_Ferguson#Managerial" target="_blank">this</a>. This man is Manchester United, as far as our generation goes. I know, how lazy can I be right, with all the links? Well, if you want, you can stop reading now. Its ok. Just check out the previous link before leaving though.</span><br />
+<span style="font-family: inherit;"><br /></span>
+<span style="font-family: inherit;">Some other moments I cherish are the title wins, the Macheda goal against Aston Villa, the Scholes screamer against Barca with Messi looking on, the CL knockout win against Arsenal, seeing the 1999 CL final for the first time, the 8-2 over Arsenal this season, the Rooney bicycle kick against City last season and the way we lost to Bayern in the CL QFs.&nbsp;
+</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">I&#8217;ll tell you why all these matter, even the loss. It&#8217;s because they are
+example of the thing I love most about United. United thrive on adversity. We
+just never give up. Love them or hate them, a United team in full flow is one
+of the most electrifying sights in football. </span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">United set the standard in England. Atleast as far as the PL
+era goes, United have been the one constant in England. Even now, when our
+noisy neighbours splashed their money around and other teams whimpered, we
+stepped up to the plate and gave City hell. We are still at the pinnacle of English
+football. United can only improve. I&#8217;d have said we&#8217;ll be back. But seriously,
+have we gone anywhere? </span><br />
+<span style="font-family: inherit;"><br /></span>
+<span style="font-family: inherit;">United, for life J</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">P.S. You shall not refer to United as ManU and call yourself a fan. It is a derogatory term used by our rivals in connection with a tragic incident. Thank you :)</span></div>
+<div class="MsoNormal">
+<span style="color: #0b5394;">
+</span>
+</div>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://joshuaneeraj.blogspot.com/2012/05/man-united-not-manu.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-631578162'>
+<a href='https://www.blogger.com/post-edit.g?blogID=132239596804030491&postID=8195406426654731181&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=8195406426654731181&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=8195406426654731181&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=8195406426654731181&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=8195406426654731181&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=8195406426654731181&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://joshuaneeraj.blogspot.com/2012/05/man-united-not-manu.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://joshuaneeraj.blogspot.com/search/label/Man%20United' rel='tag'>Man United</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Manchester%20United' rel='tag'>Manchester United</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Sir%20Alex%20Ferguson' rel='tag'>Sir Alex Ferguson</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Thursday, March 8, 2012</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='132239596804030491' itemprop='blogId'/>
+<meta content='594120067880294858' itemprop='postId'/>
+<a name='594120067880294858'></a>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-594120067880294858' itemprop='description articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<span style="font-family: inherit;"><br />
+</span><br />
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">The past few weeks...</span></b></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">A blog entry after quite some time. I&#8217;ve been quite busy over the
+past few weeks. Exams kept me occupied from the day before the first to three
+days before the last (refer to our crazy time tables for further details). I&#8217;ll
+go on typing whatever comes to my mind. The stuff I say might not even be in
+chronological order.</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">Incident and midsems...</span></b></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">The highlight of my month so far (and this holds good for
+most of my college mates at NITK) was our college cult fest Incident. The Fest
+To Die For, The End Of The World Party and other titles abound, the fest really
+was a masterclass in planning and finances, from what little I saw of the
+workings behind it. With a dedicated bunch of students working on everything
+from how to get the money for the fest to how to spend it, Incident &#8217;12 was
+perhaps the most meticulously and creatively conceived fest to date. Few people
+from outside NITK (or even inside for that matter) realise why Incident is
+different. Let me put it simply. EVERYTHING that happens is handled by
+students. Whatever can go right is done by students. Whatever can go wrong...
+well let&#8217;s just say that is taken care of by enemies both foreign and domestic
+(I&#8217;m sorely tempted to use emoticons right now, but I won&#8217;t. Instead, I shall
+continue to misuse parentheses). Anyway, there you go. Incident &#8217;12 happened,
+but not quite as we planned it. </span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">The Empire struck. Well actually it did not strike, it just
+lay back in its cool cloistered abode and watched the dream of its &#8216;subjects&#8217;
+come crashing down. Incident &#8217;12 was an example of how the actions of many can
+be negated by the inaction of a few. &nbsp;The
+midsems came and went in the week before Incident
+and now we await the results of the same. I&#8217;m not even bothering to cross my
+fingers. </span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">Notice the amount of space Incident took up in comparison with
+the part about tests? That should tell you the story. </span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">Our consolation was a performance by a GNR tribute band,
+Jailbreak. I heard that this was pretty good, and so was the opening act by a
+local band which actually performed Tulu rock songs! I missed it all as I had
+to leave for Bangalore that night. </span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">Tiruchi Venganur Sundaram...</span></b></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">Yup, that&#8217;s the full form of TVS which I finally checked after a very namkeen reminder. Why TVS? Well, a week
+before our midsems, we had a test conducted in college. It was on a Saturday,
+and for once I actually took the effort to go back to college on a Saturday.
+The test was by TVS Motocorp, who by the way make 3 wheelers as well, to hire
+(on what seems like a subsistence wage basis) a few young engineers to work for
+them over the summer. To be honest, before I wrote the test I wasn&#8217;t even sure
+the Apache was a TVSM product. Yes, I still aim to be a mechanical engineer.</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">Anyway, I wrote the test. After some really shady
+elimination process (inverted pyramid stuff, I tell you!) 14 of us Mechies were
+invited to their plant in Hosur for a day. So, back to the last day of
+Incident. While the rest of the college swayed to the tunes, or whatever it was
+they did, of Jailbreak, we set off for Bangalore. I won&#8217;t tell you stories of
+my trip to Blore. But I shall give a few points. &nbsp;I like saying things in points.</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">1. Never switch off your Nokia 7210 thinking you&#8217;ll conserve
+battery life. You&#8217;ll end up without a mobile for days. Unfortunately for me,
+this happened on this trip. Allow me to say &#8220;Saavu marre!&#8221;.</span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;"><br /></span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">2. Bangalore, despite the myths, doesn&#8217;t always have great
+weather.</span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;"><br /></span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">3. If any place needs a change of name, it is the supposedly
+Majestic bus stand of Bangalore.</span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;"><br /></span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">4. Cousins are indeed your first and best friends for life,
+no matter how infrequently you meet.</span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;"><br /></span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">5. Infosys, Biocon and all those fancy companies you hear
+about are NOT in Bangalore. They&#8217;re a torturous bus ride away. And Hosur is in
+Tamil Nadu.</span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;"><br /></span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">6. TVS Motors has one of the finest manufacturing/assembling
+facilities for bikes in India.</span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;"><br /></span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">7. Songwriters beware. The Tamil film industry is always on
+the lookout to &#8216;improve&#8217; your songs.</span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;"><br /></span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">8. We seriously need a national language. I vote for Tulu.</span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;"><br /></span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">9. But seriously, I vote for English.</span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;"><br /></span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">10. No one knows Bangalore, which in my opinion is a case
+study on how NOT to connect a city. If you have so many awesome places (which
+you do, no doubt), please set up an efficient transport system.</span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;"><br /></span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">11. I saw the Manchester United bar. I just saw it.</span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;"><br /></span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">12. Mangalore Special Bhel Puri exists. Supposedly we make
+it sweet.</span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;"><br /></span></b></div>
+<div class="MsoNormal">
+<b><span style="font-family: inherit;">13. If you want a cool new phone, please don&#8217;t take your
+recently deceased phone to the service centre.</span></b></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">Well, that should be enough for now. &nbsp;I&#8217;m trying my best to keep this blog from
+turning into a diary and yes, I&#8217;m failing miserably. Time for an abrupt ending.</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">No seriously, that&#8217;s it.</span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;">&nbsp;&nbsp;</span></div>
+<div class="MsoNormal">
+<br /></div>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://joshuaneeraj.blogspot.com/2012/03/past-few-weeks.html#comment-form' onclick=''>
+5 comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-631578162'>
+<a href='https://www.blogger.com/post-edit.g?blogID=132239596804030491&postID=594120067880294858&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=594120067880294858&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=594120067880294858&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=594120067880294858&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=594120067880294858&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=594120067880294858&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://joshuaneeraj.blogspot.com/2012/03/past-few-weeks.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://joshuaneeraj.blogspot.com/search/label/End%20Of%20The%20World%20Party' rel='tag'>End Of The World Party</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Incident' rel='tag'>Incident</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/NITK' rel='tag'>NITK</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Surathkal' rel='tag'>Surathkal</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/TVS' rel='tag'>TVS</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Saturday, September 10, 2011</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://brokensymmetry.typepad.com/photos/uncategorized/2008/06/19/transform_pairs_3.gif' itemprop='image_url'/>
+<meta content='132239596804030491' itemprop='blogId'/>
+<meta content='5321988285830674899' itemprop='postId'/>
+<a name='5321988285830674899'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://joshuaneeraj.blogspot.com/2011/09/infinity-pack-abs.html'>Infinity Pack Abs</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5321988285830674899' itemprop='description articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<span style="font-family: inherit;">I guess you might be wondering what Infinity Pack abs are. Well, you need a basic understanding of calculus for that. This picture (is it there? I used the URL) might help.</span><br />
+<div>
+<span style="font-family: inherit;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://brokensymmetry.typepad.com/photos/uncategorized/2008/06/19/transform_pairs_3.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="296" src="http://brokensymmetry.typepad.com/photos/uncategorized/2008/06/19/transform_pairs_3.gif" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div>
+<span style="font-family: inherit;"><br /></span></div>
+<div>
+<span style="font-family: inherit;">Six packs, Eight packs and other such physical attributes seem to be all the rage these days. However, what perplexes me is that even those with a background in mathematics (read ALL ENGINEERS) seem to drool over this phenomenon. Why? Because Infinity Packs are even cooler! Let me explain...</span></div>
+<div>
+<span style="font-family: inherit;"><br /></span></div>
+<div>
+<span style="font-family: inherit;">Fourier Transformations are basically used to convert continuous curves to discreet ones right? Like, sinusoidal inputs to ones which computers and their minions can make sense of. Basically chopping off the major part and keeping the high and low states.&nbsp;</span></div>
+<div>
+<span style="font-family: inherit;"><br /></span></div>
+<div>
+<span style="font-family: inherit;">The guys (or girls) with a discreet amount of abs are on the right side of the graphic, while we infinity packs are on the left. We just have so many abs that they form a continuous curve which average eyes cannot see! We are the ones with more abs, infinitely more abs than SRK, Aamir or Esha Deol.&nbsp;</span></div>
+<div>
+<span style="font-family: inherit;"><br /></span></div>
+<div>
+<span style="font-family: inherit;">I hope this makes many people feel better about themselves (or makes them wish that I stop blogging, anything will do). Thank you.&nbsp;</span></div>
+<div>
+<span style="font-family: inherit;"><br /></span></div>
+<div>
+<span style="font-family: inherit;">PS: If you notice, the transformation is reversible. The catalysts (or more specifically, the functions) are gluttony and exercise.</span></div>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://joshuaneeraj.blogspot.com/2011/09/infinity-pack-abs.html#comment-form' onclick=''>
+4 comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-631578162'>
+<a href='https://www.blogger.com/post-edit.g?blogID=132239596804030491&postID=5321988285830674899&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=5321988285830674899&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=5321988285830674899&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=5321988285830674899&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=5321988285830674899&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=5321988285830674899&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://joshuaneeraj.blogspot.com/2011/09/infinity-pack-abs.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://joshuaneeraj.blogspot.com/search/label/Abs' rel='tag'>Abs</a>,
+<a href='http://joshuaneeraj.blogspot.com/search/label/Humor' rel='tag'>Humor</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://2.bp.blogspot.com/-1SLyscszPAI/TVppedgnWmI/AAAAAAAAA_k/zyFUehEWAR8/s320/fried_eggs.jpg' itemprop='image_url'/>
+<meta content='132239596804030491' itemprop='blogId'/>
+<meta content='580613992753183833' itemprop='postId'/>
+<a name='580613992753183833'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://joshuaneeraj.blogspot.com/2011/09/brainwave.html'>The Brainwave</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-580613992753183833' itemprop='description articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<span style="font-family: inherit;">I recently had a brainwave. That I should blog. Turns out I had such a brainwave over a year ago as well. I had actually opened a Blogger account and posted something, something cheesy. Well that was&nbsp;Swiss. Time to add some cheddar.&nbsp;</span><br />
+<span style="font-family: inherit;"><br />
+Why am I blogging? Because I want to share my thoughts with the world, pour out my feelings into cyberspace for the world to see, to improve my writing (typing?) skills. Because in half the interviews I faced so far, I've been asked if I blog. Because I want to say yes the next time I am asked that. Good reasons eh?</span><br />
+<span style="font-family: inherit;"><br />
+YEAH RIGHT! I'm blogging because I'm jobless, and am too lazy to drag my laptop over to my ex-roomie's room to.... ahem, work. Last year we used to 'work' through LAN. I'll cover the lack of LAN in another post. Or maybe even this one.</span><br />
+<span style="font-family: inherit;"><br />
+What should my first (technically second) post be about? Well, I thought I'd write about myself, but then again, I thought better of it. Its better to let you decide if you want to know about me, so I'll be filling up the About Me thingy after I post this. I guess the title of my blog should be a much more interesting topic. EGG HALF FRY!&nbsp;</span><br />
+<span style="font-family: inherit;"><br />
+<br />
+</span><br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-1SLyscszPAI/TVppedgnWmI/AAAAAAAAA_k/zyFUehEWAR8/s1600/fried_eggs.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><span class="Apple-style-span" style="color: black; font-family: inherit;"><img border="0" height="240" src="http://2.bp.blogspot.com/-1SLyscszPAI/TVppedgnWmI/AAAAAAAAA_k/zyFUehEWAR8/s320/fried_eggs.jpg" width="320" /></span></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: inherit;">Again, I can give you many awesome and deep stuff about the symbolism of such a title. An egg half fried, a half baked cookie, a jack of all trades but a master of none, crisp on the outside but soft in the middle (wait for it, don't gag yet!) or a boy who is turning into a man (there you go, now you can gag).... All that. But there's a simple and logical explanation. Yesterday I found out that I had the whole morning free, so I stayed up till after 1 in the morning. That's when I decided to act on my brainwave (that of "I shall blog" fame). But then I got hungry, so I visited the NC (<a href="http://www.coolage.in/2011/05/08/hungry-at-midnight-nc-to-the-rescue/">must click!</a>) and had the usual- &nbsp;"Onji half fry bread, radd vada pav bokka lassi."&nbsp;</span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: inherit;">Yes, that is what I eat at midnight. I do this more often these days because the toilets in my new wing are usually not in a state where you first need to empty two bucketfuls of water mixed with shampoo before you can use them. Usually. Okay, lets not digress (awesome dialog, fetches you ten points in every group discussion!). I came back to my room... no, I CLIMBED back to my 4th floor room (the <a href="http://joshuaneeraj.blogspot.com/2011/09/infinity-pack-abs.html">infinity pack abs</a> stand testament to this routine) and set about 'designing' my blog. And naturally, the first thing that came to my mind was THE dish.&nbsp;Well&nbsp;that's&nbsp;the story of the title. I guess the description doesn't need any... description.&nbsp;</span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: inherit;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: inherit;">I guess that's pretty much what I want to say for now. No, I want to say a lot more. But I am at home for the weekend and I really need to sleep. If you found this post bearable, please do come again. Hum blog kartein rahenge, aap aao ya na aao. No seriously, do come again! :) (I just HAD to put in a smiley!)</span></div>
+<br /></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://joshuaneeraj.blogspot.com/2011/09/brainwave.html#comment-form' onclick=''>
+3 comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-631578162'>
+<a href='https://www.blogger.com/post-edit.g?blogID=132239596804030491&postID=580613992753183833&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=580613992753183833&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=580613992753183833&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=580613992753183833&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=580613992753183833&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=132239596804030491&postID=580613992753183833&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://joshuaneeraj.blogspot.com/2011/09/brainwave.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://joshuaneeraj.blogspot.com/search/label/The%20Brainwave' rel='tag'>The Brainwave</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://joshuaneeraj.blogspot.com/search?updated-max=2011-09-10T00:39:00%2B05:30&amp;max-results=7' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+<a class='home-link' href='http://joshuaneeraj.blogspot.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://joshuaneeraj.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget Profile' id='Profile1'>
+<h2>About Me</h2>
+<div class='widget-content'>
+<a href='https://www.blogger.com/profile/15015224100510349071'><img alt='My Photo' class='profile-img' height='79' src='//4.bp.blogspot.com/-Rd636PKxxfE/UMI_aONTTcI/AAAAAAAAATs/xscG8uiRpbY/s80/199535_4328560168919_360515652_n.jpg' width='80'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://www.blogger.com/profile/15015224100510349071' rel='author' style='background-image: url(//www.blogger.com/img/logo-16.png);'>
+Joshua Neeraj
+</a>
+</dt>
+</dl>
+<a class='profile-link' href='https://www.blogger.com/profile/15015224100510349071' rel='author'>View my complete profile</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=132239596804030491&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://joshuaneeraj.blogspot.com/search?updated-min=2013-01-01T00:00:00%2B05:30&amp;updated-max=2014-01-01T00:00:00%2B05:30&amp;max-results=1'>
+2013
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://joshuaneeraj.blogspot.com/2013_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://joshuaneeraj.blogspot.com/2013/12/guest-post-friend-who-wishes-to-be.html'>Guest post</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://joshuaneeraj.blogspot.com/search?updated-min=2012-01-01T00:00:00%2B05:30&amp;updated-max=2013-01-01T00:00:00%2B05:30&amp;max-results=4'>
+2012
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://joshuaneeraj.blogspot.com/2012_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://joshuaneeraj.blogspot.com/2012_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://joshuaneeraj.blogspot.com/2012_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://joshuaneeraj.blogspot.com/2012_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://joshuaneeraj.blogspot.com/search?updated-min=2011-01-01T00:00:00%2B05:30&amp;updated-max=2012-01-01T00:00:00%2B05:30&amp;max-results=2'>
+2011
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://joshuaneeraj.blogspot.com/2011_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://joshuaneeraj.blogspot.com/search?updated-min=2009-01-01T00:00:00%2B05:30&amp;updated-max=2010-01-01T00:00:00%2B05:30&amp;max-results=1'>
+2009
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://joshuaneeraj.blogspot.com/2009_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=132239596804030491&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget PageList' id='PageList1'>
+<h2>Pages</h2>
+<div class='widget-content'>
+<ul>
+<li class='selected'><a href='http://joshuaneeraj.blogspot.com/'>Home</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=132239596804030491&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList1"));' target='configPageList1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Followers' id='Followers1'>
+<h2 class='title'>Followers</h2>
+<div class='widget-content'>
+<div id='Followers1-wrapper'>
+<div style='margin-right:2px;'>
+<script type="text/javascript">
+        if (!window.google || !google.friendconnect) {
+          document.write('<script type="text/javascript"' +
+              'src="//www.google.com/friendconnect/script/friendconnect.js">' +
+              '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+      if (!window.registeredBloggerCallbacks) {
+        window.registeredBloggerCallbacks = true;
+
+        
+
+        
+        gadgets.rpc.register('requestReload', function() {
+          document.location.reload();
+        });
+
+        
+        gadgets.rpc.register('requestSignOut', function(siteId) {
+          
+          google.friendconnect.container.openSocialSiteId = siteId;
+          google.friendconnect.requestSignOut();
+        });
+      }
+    </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+          
+          
+            holder.postFeed = "https://www.blogger.com/feeds/132239596804030491/posts/default";
+          
+          
+          
+            holder.commentFeed = "https://www.blogger.com/feeds/132239596804030491/comments/default";
+          
+          holder.currentBlogUrl = "http://joshuaneeraj.blogspot.com/";
+          holder.currentBlogId = "132239596804030491";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<div id="div-1pjl1fzyfr4wv" style="width: 100%; "></div>
+<script type="text/javascript">
+    var skin = {};
+    skin['FACE_SIZE'] = '32';
+    skin['HEIGHT'] = "260";
+    skin['BORDER_COLOR'] = "transparent";
+    skin['ENDCAP_BG_COLOR'] = "transparent";
+    skin['ENDCAP_TEXT_COLOR'] = "#222222";
+    skin['ENDCAP_LINK_COLOR'] = "#0000cc";
+    
+    skin['CONTENT_BG_COLOR'] = "transparent";
+    skin['CONTENT_LINK_COLOR'] = "#0000cc";
+    skin['CONTENT_TEXT_COLOR'] = "#222222";
+    skin['CONTENT_SECONDARY_LINK_COLOR'] = "#0000cc";
+    skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#666666";
+    skin['CONTENT_HEADLINE_COLOR'] = "#222222";
+    google.friendconnect.container.setParentUrl("/");
+    google.friendconnect.container["renderMembersGadget"](
+    {id: "div-1pjl1fzyfr4wv",
+     height: 260,
+     
+     
+     
+     site: "09997914495463210469",
+     locale: 'en' },
+     skin);
+  </script>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=132239596804030491&widgetType=Followers&widgetId=Followers1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Followers1"));' target='configFollowers1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Stats' id='Stats1'>
+<h2>Total Pageviews</h2>
+<div class='widget-content'>
+<div id='Stats1_content' style='display: none;'>
+<span class='counter-wrapper text-counter-wrapper' id='Stats1_totalCount'>
+</span>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=132239596804030491&widgetType=Stats&widgetId=Stats1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Stats1"));' target='configStats1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div>
+</div></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3' name='Footer'><div class='widget Attribution' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+Awesome Inc. template. Powered by <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=132239596804030491&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2244687694-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '132239596804030491';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d132239596804030491','//joshuaneeraj.blogspot.com/','132239596804030491');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '132239596804030491', 'bloggerUrl': 'https://www.blogger.com', 'title': 'EggHalfFry', 'pageType': 'index', 'url': 'http://joshuaneeraj.blogspot.com/', 'canonicalUrl': 'http://joshuaneeraj.blogspot.com/', 'homepageUrl': 'http://joshuaneeraj.blogspot.com/', 'canonicalHomepageUrl': 'http://joshuaneeraj.blogspot.com/', 'blogspotFaviconUrl': 'http://joshuaneeraj.blogspot.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'EggHalfFry', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42EggHalfFry - Atom\42 href\75\42http://joshuaneeraj.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42EggHalfFry - RSS\42 href\75\42http://joshuaneeraj.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42EggHalfFry - Atom\42 href\75\42https://www.blogger.com/feeds/132239596804030491/posts/default\42 /\76\n', 'meTag': '\74link rel\75\42me\42 href\75\42https://www.blogger.com/profile/15015224100510349071\42 /\76\n', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://joshuaneeraj.blogspot.com/\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42https://www.blogger.com/static/v1/jsbin/3978477444-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/581377545bf84644', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'messages', 'data': {'archive': 'Archive', 'blogArchive': 'Blog Archive', 'by': 'By', 'byAuthor': 'By %1', 'byAuthorLink': 'By \74a href\75\42%2\42\76%1\74/a\076', 'deleteBacklink': 'Delete Backlink', 'deleteComment': 'Delete Comment', 'edit': 'Edit', 'emailAddress': 'Email Address', 'getEmailNotifications': 'Get email notifications', 'keepReading': 'Keep reading', 'labels': 'Labels', 'loadMorePosts': 'Load more posts', 'loading': 'Loading...', 'myBlogList': 'My Blog List', 'myFavoriteSites': 'My favorite sites', 'newer': 'Newer', 'newerPosts': 'Newer Posts', 'newest': 'Newest', 'noResultsFound': 'No results found', 'noTitle': 'No title', 'numberOfComments': '{numComments, plural, \0750 {No comments} \0751 {1 comment} other {# comments}}', 'older': 'Older', 'olderPosts': 'Older Posts', 'oldest': 'Oldest', 'onlyTeamMembersCanComment': 'Note: Only a member of this blog may post a comment.', 'popularPosts': 'Popular Posts', 'popularPostsFromThisBlog': 'Popular posts from this blog', 'postAComment': 'Post a Comment', 'postedBy': 'Posted by', 'postedByAuthor': 'Posted by %1', 'postedByAuthorLink': 'Posted by \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'Read more', 'reportAbuse': 'Report Abuse', 'search': 'Search', 'searchBlog': 'Search blog', 'share': 'Share', 'showAll': 'Show all', 'someOfMyFavoriteSites': 'Some of my favorite sites', 'subscribe': 'Subscribe', 'subscribeToThisBlog': 'Subscribe to this blog', 'theresNothingHere': 'There\47s nothing here!', 'viewAll': 'View all', 'visitProfile': 'Visit profile'}}, {'name': 'skin', 'data': {'vars': {'image_background_color_transparent': 'rgba(0, 0, 0, 0)', 'tabs_text_color': '#222222', 'mobile_background_size': 'auto', 'body_background_color_transparent': 'rgba(238, 238, 238, 0)', 'tabs_selected_text_color_transparent': 'rgba(255, 255, 255, 0)', 'tabs_background_color_transparent': 'rgba(238, 238, 238, 0)', 'image_border_color': 'transparent', 'widget_alternate_text_color_transparent': 'rgba(102, 102, 102, 0)', 'keycolor_transparent': 'rgba(238, 238, 238, 0)', 'tabs_border_color': '#999999', 'description_text_color': '#222222', 'post_title_font': 'normal bold 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'widget_text_color': '#222222', 'header_background_gradient': 'none', 'widget_background_color_transparent': 'rgba(255, 255, 255, 0)', 'widget_outer_margin_top': '0', 'link_visited_color': '#cc0000', 'date_text_color': '#444444', 'post_background_color': '#ffffff', 'header_margin_bottom': '0', 'widget_padding_side': '15px', 'link_color': '#0000cc', 'title_shadow_spread': '-1px', 'date_last_space_bottom': '20px', 'date_space': '30px', 'widget_border_color': '#eeeeee', 'widget_padding_top': '8px', 'separator_outdent': '15px', 'post_border_bevel_color': '#eeeeee', 'image_border_color_transparent': 'rgba(0, 0, 0, 0)', 'tabs_border_color_transparent': 'rgba(153, 153, 153, 0)', 'date_border_color': '#eeeeee', 'feed_link_hover_color': '#0000cc', 'widget_link_hover_color': '#0000cc', 'footer_text_color': '#222222', 'date_last_border_radius_bottom': '0', 'date_first_border_radius_top': '0', 'mobile_background_overlay': 'transparent none repeat scroll top left', 'image_background_color': 'transparent', 'post_first_padding_top': '0', 'list_separator_border_size': '1px', 'widget_outer_background_color_transparent': 'rgba(0, 0, 0, 0)', 'widget_link_color': '#0000cc', 'widget_background_color': '#ffffff', 'date_border_size': '0', 'footer_background_gradient': 'none', 'link_hover_color': '#0000cc', 'header_background_color': 'transparent', 'keycolor': '#eeeeee', 'widget_outer_background_gradient': 'none', 'footer_background_color': '#ffffff', 'link_color_transparent': 'rgba(0, 0, 204, 0)', 'header_background_color_transparent': 'rgba(0, 0, 0, 0)', 'pager_background_color': '#ffffff', 'description_font': 'normal bold 16px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'widget_link_visited_color': '#cc0000', 'image_shadow_spread': '0', 'date_background': 'transparent none no-repeat scroll top left', 'widget_border_bevel_color_transparent': 'rgba(0, 0, 0, 0)', 'widget_title_font': 'normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'body_background_size': 'auto', 'header_padding_top': '22px', 'outer_shadow_spread': '0', 'body_text_color': '#222222', 'body_text_color_transparent': 'rgba(34, 34, 34, 0)', 'date_position': 'static', 'image_border_radius': '0', 'tabs_background_color': '#eeeeee', 'date_header_border_radius_top': '0', 'body_background_gradient_cap': 'none', 'widget_alternate_text_color': '#666666', 'header_margin_top': '0', 'widget_border_color_transparent': 'rgba(238, 238, 238, 0)', 'shadow_spread': '20px', 'date_text_color_transparent': 'rgba(68, 68, 68, 0)', 'widget_border_bevel_color': 'transparent', 'mobile_button_color': '#ffffff', 'tabs_selected_text_color': '#ffffff', 'date_header_position': '15px', 'date_background_color': 'transparent', 'widget_border_radius': '0', 'tabs_background_gradient': 'url(http://www.blogblog.com/1kt/awesomeinc/tabs_gradient_light.png)', 'header_font': 'normal bold 40px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'startSide': 'left', 'feed_link_visited_color': '#cc0000', 'link_visited_color_transparent': 'rgba(204, 0, 0, 0)', 'tabs_font': 'normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'date_padding_bottom': '0', 'widget_title_text_color': '#222222', 'tabs_selected_background_color': '#666666', 'feed_text_color': '#222222', 'post_title_text_color': '#222222', 'endSide': 'right', 'date_side': 'right', 'body_background_color': '#eeeeee', 'header_text_color': '#222222', 'pager_border_radius_top': '0', 'post_border_color': '#eeeeee', 'mobile_button_color_transparent': 'rgba(255, 255, 255, 0)', 'body_font': 'normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'pager_space_top': '1em', 'feed_link_color': '#0000cc', 'widget_font': 'normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'title_separator_border_size': '1px', 'date_font': 'normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'widget_outer_background_color': 'transparent', 'tabs_selected_background_color_transparent': 'rgba(102, 102, 102, 0)'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/3060979228-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/306752634-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar-right-1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading...'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'sidebar-right-1', null, document.getElementById('PageList1'), {'title': 'Pages', 'links': [{'href': 'http://joshuaneeraj.blogspot.com/', 'title': 'Home', 'isCurrentPage': true}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1', 'sidebar-right-1', null, document.getElementById('Followers1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_StatsView', new _WidgetInfo('Stats1', 'sidebar-right-1', null, document.getElementById('Stats1'), {'title': 'Total Pageviews', 'showGraphicalCounter': false, 'showAnimatedCounter': false, 'showSparkline': false, 'statsUrl': '//joshuaneeraj.blogspot.com/b/stats?style\75BLACK_TRANSPARENT\46timeRange\75ALL_TIME\46token\75HgnO91IBAAA.vNM_waI_NGn7Wx5_ttl-sWc09FXq7g7_R6DDo_nRO0c.6c0Y1ihgEegq4_Ea1tvxzw'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {'attribution': 'Awesome Inc. template. Powered by \74a href\75\47https://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+</script>
+</body>
+</html>

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="apple-itunes-app" content="app-id=896437506">
+<meta name="description" content="Live Football Scores, League Tables, Form Guides, Attendances, Latest News and other stats from the Premier League, Football League and Non-League football">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Football Web Pages.co.uk | Hampton &amp; Richmond Borough</title>
+
+<meta property="og:description" content="Live Football Scores, League Tables, Form Guides, Attendances, Latest News and other stats from the Premier League, Football League and Non-League football">
+<meta property="og:site_name" content="Football Web Pages.co.uk">
+<meta property="og:title" content="Hampton &amp; Richmond Borough">
+
+<meta name="twitter:description" content="Live Football Scores, League Tables, Form Guides, Attendances, Latest News and other stats from the Premier League, Football League and Non-League football">
+<meta name="twitter:title" content="Hampton &amp; Richmond Borough">
+
+<base href="http://www.footballwebpages.co.uk/" />
+
+<link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+<link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css" />
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="stylesheets/glyphicons.css" rel="stylesheet" type="text/css" />
+<link href="stylesheets/styles.min.css" rel="stylesheet" type="text/css" />
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({
+google_ad_client: "ca-pub-8644467920895275",
+enable_page_level_ads: true
+});
+</script>
+<script src="scripts/ads.min.js"></script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-2344468-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script>
+window.cookieconsent_options = {"domain":"footballwebpages.co.uk","link":"cookies","theme":"dark-bottom"};
+</script>
+
+<script src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+
+<style>
+a.cc_btn {
+	background-color:#418a41 !important;
+	color:#ffffff !important;
+}
+
+a.cc_btn:hover {
+	background-color:#ffffff !important;
+	color:#418a41 !important;
+}
+</style>
+<!-- End Cookie Consent plugin -->
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+
+<div class="container">
+
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+<a class="navbar-brand" href="/">Football Web Pages.co.uk</a>
+
+</div>
+
+<div class="collapse navbar-collapse" id="navbar">
+
+<ul class="nav navbar-nav">
+
+<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">League <span class="caret"></span></a>
+
+<ul class="dropdown-menu" role="menu">
+<li><a href="premierleague">Barclays Premier League</a></li>
+<li><a href="championship">Sky Bet Championship</a></li>
+<li><a href="leagueone">Sky Bet League One</a></li>
+<li><a href="leaguetwo">Sky Bet League Two</a></li>
+<li class="divider" role="presentation"></li>
+<li><a href="champs">Champions League</a></li>
+<li><a href="europa">Europa League</a></li>
+</ul>
+
+</li>
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">National <span class="caret"></span></a>
+
+<ul class="dropdown-menu" role="menu">
+<li><a href="national">Vanarama National</a></li>
+<li><a href="natnorth">Vanarama National North</a></li>
+<li><a href="natsouth">Vanarama National South</a></li>
+</ul>
+
+</li>
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Non-League <span class="caret"></span></a>
+
+<ul class="dropdown-menu" role="menu">
+<li><a href="northprem">Evo-Stik Premier Division</a></li>
+<li><a href="isthprem">Ryman Premier Division</a></li>
+<li><a href="southprem">Evo-Stik South Premier Division</a></li>
+<li class="divider" role="presentation"></li>
+<li><a href="northonenorth">Evo-Stik First Division North</a></li>
+<li><a href="northonesouth">Evo-Stik First Division South</a></li>
+<li class="divider" role="presentation"></li>
+<li><a href="isthonenorth">Ryman Division One North</a></li>
+<li><a href="isthonesouth">Ryman Division One South</a></li>
+<li class="divider" role="presentation"></li>
+<li><a href="southonecentral">Evo-Stik South One Central</a></li>
+<li><a href="southonesouthwest">Evo-Stik South One South-West</a></li>
+</ul>
+
+</li>
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Scottish <span class="caret"></span></a>
+
+<ul class="dropdown-menu" role="menu">
+<li><a href="scotprem">Premiership</a></li>
+<li><a href="scotone">Championship</a></li>
+<li><a href="scottwo">League One</a></li>
+<li><a href="scotthree">League Two</a></li>
+<li class="divider" role="presentation"></li>
+<li><a href="scotcup">Scottish Cup</a></li>
+<li><a href="scotleaguecup">Communities Cup</a></li>
+<li><a href="scotchallcup">Petrofac Training Cup</a></li>
+</ul>
+
+</li>
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Cups <span class="caret"></span></a>
+
+<ul class="dropdown-menu" role="menu">
+<li><a href="facup">FA Cup</a></li>
+<li><a href="leaguecup">Capital One Cup</a></li>
+<li><a href="fltrophy">Johnstone's Paint Trophy</a></li>
+<li class="divider" role="presentation"></li>
+<li><a href="fatrophy">FA Trophy</a></li>
+<li><a href="northcup">Evo-Stik League Cup</a></li>
+<li><a href="isthcup">Ryman League Cup</a></li>
+<li><a href="southcup">Evo-Stik South League Cup</a></li>
+</ul>
+
+</li>
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Other <span class="caret"></span></a>
+
+<ul class="dropdown-menu" role="menu">
+<li><a href="videos">Videos</a></li>
+<li><a href="vidiprinter">Vidiprinter</a></li>
+<li><a href="internationals">Internationals</a></li>
+</ul>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<div class="container" id="container">
+
+<h1><a href="http://twitter.com/FWPHamptonRmond"><img class="twitter" src="graphics/twitter/teams/index/hampton.png" alt="" /></a>Hampton &amp; Richmond Borough<img class="logo" src="graphics/teams/index/hampton.png" alt="" /></h1>
+
+<div id="topAd">
+<script>showHorizontalTopAdvert("topAd");</script>
+</div>
+
+<ul id="submenu">
+<li class="active"><a href="hampton" title="Hampton &amp; Richmond Borough"><span class="glyphicons glyphicons-home"></span></a></li><li><a href="hampton/appearances" title="Appearances">Appearances</a></li><li><a href="hampton/attendances" title="Attendances">Attendances</a></li><li><a href="hampton/club" title="Club Info">Club Info</a></li><li><a href="hampton/form" title="Form Guide">Form Guide</a></li><li><a href="hampton/goalscorers" title="Goalscorers">Goalscorers</a></li><li><a href="hampton/league" title="League Table">League Table</a></li><li class="grid"><a href="hampton/grid" title="Match Grid">Match Grid</a></li><li><a href="hampton/matches" title="Matches">Matches</a></li><li><a href="hampton/news" title="News">News</a></li><li><a href="hampton/progress" title="Progress">Progress</a></li><li><a href="hampton/records" title="Records">Records</a></li><li><a href="hampton/sequences" title="Sequences">Sequences</a></li><li><a href="hampton/twitter" title="Twitter">Twitter</a></li><li><a href="hampton/videos" title="Videos">Videos</a></li><li><a href="hampton/vidiprinter" title="Vidiprinter">Vidiprinter</a></li>
+</ul>
+
+<div class="dropdown" id="msubmenu">
+
+<button class="btn btn-default dropdown-toggle" type="button" id="dropDownSubmenu" data-toggle="dropdown">
+Please select a page <span class="caret"></span>
+</button>
+
+<ul class="dropdown-menu" role="menu">
+<li role="presentation"><a href="hampton/appearances" role="menuitem" tabindex="-1">Appearances</a></li><li role="presentation"><a href="hampton/attendances" role="menuitem" tabindex="-1">Attendances</a></li><li role="presentation"><a href="hampton/club" role="menuitem" tabindex="-1">Club Info</a></li><li role="presentation"><a href="hampton/form" role="menuitem" tabindex="-1">Form Guide</a></li><li role="presentation"><a href="hampton/goalscorers" role="menuitem" tabindex="-1">Goalscorers</a></li><li role="presentation"><a href="hampton/league" role="menuitem" tabindex="-1">League Table</a></li><li role="presentation"><a href="hampton/matches" role="menuitem" tabindex="-1">Matches</a></li><li role="presentation"><a href="hampton/news" role="menuitem" tabindex="-1">News</a></li><li role="presentation"><a href="hampton/progress" role="menuitem" tabindex="-1">Progress</a></li><li role="presentation"><a href="hampton/records" role="menuitem" tabindex="-1">Records</a></li><li role="presentation"><a href="hampton/sequences" role="menuitem" tabindex="-1">Sequences</a></li><li role="presentation"><a href="hampton/twitter" role="menuitem" tabindex="-1">Twitter</a></li><li role="presentation"><a href="hampton/videos" role="menuitem" tabindex="-1">Videos</a></li><li role="presentation"><a href="hampton/vidiprinter" role="menuitem" tabindex="-1">Vidiprinter</a></li></ul>
+
+</div>
+
+<div class="clear"></div>
+
+<div class="panel panelLeft panelFirst">
+
+<h2 id="matchHeading">Saturday 13th February 2016<a class="toggle" href="hampton?toggle=match" id="matchToggleLink" title="Close match" onclick="return togglePanel(0,232,'match')"><span class="glyphicons glyphicons-minus-sign" id="matchToggleSpan"></span></a></h2>
+
+<div id="matchContent">
+
+<ul class="match">
+<li class="team home crest" style="background-image:url('graphics/teams/frontPageMatch/hendon.png')"><b>Hendon<span>1</span></b>
+<br /><p>Dave Diedhiou &#040;27&#039;&#041;</p></li>
+<li class="clear"></li>
+<li class="team away crest" style="background-image:url('graphics/teams/frontPageMatch/hampton.png')"><b>Hampton &amp; Richmond Borough<span>1</span></b>
+<br /><p>Jamal Lowe &#040;48&#039;&#041;</p></li>
+<li class="clear"></li>
+<li class="info">Ryman League Premier Division<br />
+Attendance: 218<br />
+Venue: Earlsmead &#040;Harrow Borough&#041;
+</li>
+</ul>
+
+<p class="all"><a href="hampton/match/17883">View full details of this match</a></p>
+
+</div>
+
+</div>
+
+<div class="panel panelRight">
+
+<h2 id="leagueTableHeading">League Table<a class="toggle" href="hampton?toggle=leagueTable" id="leagueTableToggleLink" title="Close league table" onclick="return togglePanel(11,232,'leagueTable')"><span class="glyphicons glyphicons-minus-sign" id="leagueTableToggleSpan"></span></a></h2>
+
+<div id="leagueTableContent">
+
+<table class="table hover leagueTable">
+
+<thead>
+<tr><th colspan="2">&nbsp;</th><th>P</th><th class="min481">W</th><th class="min481">D</th><th class="min481">L</th><th class="min481">F</th><th class="min481">A</th><th>+/-</th><th>Pts</th></tr>
+</thead>
+
+<tbody>
+<tr title="East Thurrock United" onclick="location.href='eastthurrock'"><td>1</td><td><a href="eastthurrock">East Thurrock United</a></td><td>34</td><td class="min481">19</td><td class="min481">9</td><td class="min481">6</td><td class="min481">82</td><td class="min481">46</td><td>+36</td><td>66</td></tr>
+<tr class="highlight firstNotPromoted" title="Hampton &amp; Richmond Borough" onclick="location.href='hampton'"><td>2</td><td><a href="hampton">Hampton &amp; Richmond Borough</a></td><td>33</td><td class="min481">18</td><td class="min481">10</td><td class="min481">5</td><td class="min481">70</td><td class="min481">44</td><td>+26</td><td>64</td></tr>
+<tr title="Dulwich Hamlet" onclick="location.href='dulwich'"><td>3</td><td><a href="dulwich">Dulwich Hamlet</a></td><td>34</td><td class="min481">18</td><td class="min481">7</td><td class="min481">9</td><td class="min481">74</td><td class="min481">41</td><td>+33</td><td>61</td></tr>
+<tr title="Tonbridge Angels" onclick="location.href='tonbridge'"><td>4</td><td><a href="tonbridge">Tonbridge Angels</a></td><td>32</td><td class="min481">16</td><td class="min481">11</td><td class="min481">5</td><td class="min481">65</td><td class="min481">30</td><td>+35</td><td>59</td></tr>
+<tr title="Billericay Town" onclick="location.href='billericay'"><td>5</td><td><a href="billericay">Billericay Town</a></td><td>35</td><td class="min481">16</td><td class="min481">11</td><td class="min481">8</td><td class="min481">58</td><td class="min481">37</td><td>+21</td><td>59</td></tr>
+<tr class="firstNotPlayOffsUp" title="Bognor Regis Town" onclick="location.href='bognorregis'"><td>6</td><td><a href="bognorregis">Bognor Regis Town</a></td><td>29</td><td class="min481">17</td><td class="min481">5</td><td class="min481">7</td><td class="min481">54</td><td class="min481">31</td><td>+23</td><td>56</td></tr>
+<tr title="Kingstonian" onclick="location.href='kingstonian'"><td>7</td><td><a href="kingstonian">Kingstonian</a></td><td>31</td><td class="min481">16</td><td class="min481">7</td><td class="min481">8</td><td class="min481">54</td><td class="min481">40</td><td>+14</td><td>55</td></tr>
+<tr title="Leiston" onclick="location.href='leiston'"><td>8</td><td><a href="leiston">Leiston</a></td><td>34</td><td class="min481">16</td><td class="min481">7</td><td class="min481">11</td><td class="min481">56</td><td class="min481">44</td><td>+12</td><td>55</td></tr>
+<tr title="Grays Athletic" onclick="location.href='grays'"><td>9</td><td><a href="grays">Grays Athletic</a></td><td>33</td><td class="min481">14</td><td class="min481">10</td><td class="min481">9</td><td class="min481">54</td><td class="min481">39</td><td>+15</td><td>52</td></tr>
+<tr title="Enfield Town" onclick="location.href='enfield'"><td>10</td><td><a href="enfield">Enfield Town</a></td><td>33</td><td class="min481">16</td><td class="min481">4</td><td class="min481">13</td><td class="min481">48</td><td class="min481">38</td><td>+10</td><td>52</td></tr>
+<tr title="Wingate &amp; Finchley" onclick="location.href='wingatefinchley'"><td>11</td><td><a href="wingatefinchley">Wingate &amp; Finchley</a></td><td>33</td><td class="min481">15</td><td class="min481">5</td><td class="min481">13</td><td class="min481">54</td><td class="min481">44</td><td>+10</td><td>50</td></tr>
+<tr title="Metropolitan Police" onclick="location.href='metpolice'"><td>12</td><td><a href="metpolice">Metropolitan Police</a></td><td>32</td><td class="min481">14</td><td class="min481">5</td><td class="min481">13</td><td class="min481">40</td><td class="min481">54</td><td>-14</td><td>47</td></tr>
+<tr title="Merstham" onclick="location.href='merstham'"><td>13</td><td><a href="merstham">Merstham</a></td><td>35</td><td class="min481">13</td><td class="min481">6</td><td class="min481">16</td><td class="min481">57</td><td class="min481">64</td><td>-7</td><td>45</td></tr>
+<tr title="Canvey Island" onclick="location.href='canvey'"><td>14</td><td><a href="canvey">Canvey Island</a></td><td>35</td><td class="min481">13</td><td class="min481">6</td><td class="min481">16</td><td class="min481">51</td><td class="min481">67</td><td>-16</td><td>45</td></tr>
+<tr title="Leatherhead" onclick="location.href='leatherhead'"><td>15</td><td><a href="leatherhead">Leatherhead</a></td><td>32</td><td class="min481">13</td><td class="min481">5</td><td class="min481">14</td><td class="min481">47</td><td class="min481">54</td><td>-7</td><td>44</td></tr>
+<tr title="Burgess Hill Town" onclick="location.href='burgesshill'"><td>16</td><td><a href="burgesshill">Burgess Hill Town</a></td><td>33</td><td class="min481">12</td><td class="min481">7</td><td class="min481">14</td><td class="min481">47</td><td class="min481">54</td><td>-7</td><td>43</td></tr>
+<tr title="Harrow Borough" onclick="location.href='harrow'"><td>17</td><td><a href="harrow">Harrow Borough</a></td><td>31</td><td class="min481">11</td><td class="min481">6</td><td class="min481">14</td><td class="min481">50</td><td class="min481">55</td><td>-5</td><td>39</td></tr>
+<tr title="Hendon" onclick="location.href='hendon'"><td>18</td><td><a href="hendon">Hendon</a></td><td>33</td><td class="min481">9</td><td class="min481">8</td><td class="min481">16</td><td class="min481">50</td><td class="min481">62</td><td>-12</td><td>35</td></tr>
+<tr title="Staines Town" onclick="location.href='staines'"><td>19</td><td><a href="staines">Staines Town</a></td><td>32</td><td class="min481">10</td><td class="min481">5</td><td class="min481">17</td><td class="min481">36</td><td class="min481">61</td><td>-25</td><td>35</td></tr>
+<tr title="Needham Market" onclick="location.href='needham'"><td>20</td><td><a href="needham">Needham Market</a></td><td>34</td><td class="min481">8</td><td class="min481">10</td><td class="min481">16</td><td class="min481">40</td><td class="min481">60</td><td>-20</td><td>34</td></tr>
+<tr class="firstRelegated" title="VCD Athletic" onclick="location.href='vcdath'"><td>21</td><td><a href="vcdath">VCD Athletic</a></td><td>34</td><td class="min481">7</td><td class="min481">7</td><td class="min481">20</td><td class="min481">31</td><td class="min481">71</td><td>-40</td><td>28</td></tr>
+<tr title="Brentwood Town" onclick="location.href='brentwood'"><td>22</td><td><a href="brentwood">Brentwood Town</a></td><td>28</td><td class="min481">7</td><td class="min481">5</td><td class="min481">16</td><td class="min481">34</td><td class="min481">47</td><td>-13</td><td>26</td></tr>
+<tr title="Farnborough" onclick="location.href='farnborough'"><td>23</td><td><a href="farnborough">Farnborough</a></td><td>33</td><td class="min481">7</td><td class="min481">3</td><td class="min481">23</td><td class="min481">40</td><td class="min481">75</td><td>-35</td><td>24</td></tr>
+<tr title="Lewes" onclick="location.href='lewes'"><td>24</td><td><a href="lewes">Lewes</a></td><td>33</td><td class="min481">5</td><td class="min481">7</td><td class="min481">21</td><td class="min481">31</td><td class="min481">65</td><td>-34</td><td>22</td></tr>
+</tbody>
+
+</table>
+
+<p class="all"><a href="hampton/league">See the full Ryman League Premier Division table</a></p>
+
+</div>
+
+</div>
+
+<div class="panel panelLeft panelSecond">
+
+<div id="rectAd">
+<script>showRectangleAdvert("rectAd");</script>
+</div>
+
+</div>
+
+<div class="panel panelLeft panelSecond">
+
+<h2 id="newsHeading">Latest News<a class="toggle" href="hampton?toggle=news" id="newsToggleLink" title="Close latest news" onclick="return togglePanel(0,232,'news')"><span class="glyphicons glyphicons-minus-sign" id="newsToggleSpan"></span></a></h2>
+
+<div id="newsContent">
+
+<ul class="news">
+
+<li>
+<img class="image min481" src="http://d2dzjyo4yc2sta.cloudfront.net/?url=images.pitchero.com&#037;2Fnl&#037;2F1455398181_original.jpg&amp;w=200&amp;t=fit&amp;q=85" alt="" />
+<h3><a href="http://nonleague.pitchero.com/news/title-race-tightens-up-45261/">Title Race Tightens Up</a></h3>
+Dropped points by Hampton &amp; Richmond Borough and Dulwich Hamlet have opened the Ryman League Premier Division title race wide open.<br />
+<small>Published by <a href="http://nonleague.pitchero.com"><img src="graphics/news/pitchero.png" alt="Pitchero Non League" title="Pitchero Non League" /></a> 4 days ago</small>
+</li>
+
+<li>
+<img class="image min481" src="http://d2dzjyo4yc2sta.cloudfront.net/?url=images.pitchero.com&#037;2Fnl&#037;2F1455184488_original.jpg&amp;w=200&amp;t=fit&amp;q=85" alt="" />
+<h3><a href="http://nonleague.pitchero.com/news/beavers-borrow-dons-keeper-45197/">Beavers Borrow Dons&#039; Keeper</a></h3>
+Goalkeeper Joe McDonnell has joined Ryman League Premier Division leaders Hampton &amp; Richmond Borough on a month&#039;s loan from Sky Bet League Two side AFC...<br />
+<small>Published by <a href="http://nonleague.pitchero.com"><img src="graphics/news/pitchero.png" alt="Pitchero Non League" title="Pitchero Non League" /></a> on 11th February 2016</small>
+</li>
+
+<li>
+<img class="image min481" src="http://d2dzjyo4yc2sta.cloudfront.net/?url=images.pitchero.com&#037;2Fnl&#037;2F1455181858_original.jpg&amp;w=200&amp;t=fit&amp;q=85" alt="" />
+<h3><a href="http://nonleague.pitchero.com/news/mixed-fortunes-for-top-two-45192/">Mixed Fortunes for Top Two</a></h3>
+The top two in the Ryman League Premier Division were in action on Wednesday night, and although leaders Hampton &amp; Richmond Borough were....<br />
+<small>Published by <a href="http://nonleague.pitchero.com"><img src="graphics/news/pitchero.png" alt="Pitchero Non League" title="Pitchero Non League" /></a> on 11th February 2016</small>
+</li>
+
+</ul>
+
+<p class="all"><a href="hampton/news">Read all of our Hampton &amp; Richmond Borough news items</a></p>
+
+</div>
+
+</div>
+
+<div class="panel panelRight panelSecond">
+
+<h2 id="fixturesResultsHeading">Fixtures and Results<a class="toggle" href="hampton?toggle=fixturesResults" id="fixturesResultsToggleLink" title="Close fixtures / results" onclick="return togglePanel(0,232,'fixturesResults')"><span class="glyphicons glyphicons-minus-sign" id="fixturesResultsToggleSpan"></span></a></h2>
+
+<div id="fixturesResultsContent">
+
+<table class="table hover fixturesResults">
+
+<thead>
+<tr><th>Date</th><th class="min481">H/A</th><th>Opponent</th><th class="min481">Competition</th><th colspan="3">KO/Score</th></thead>
+
+<tbody>
+<tr class="home" title="Hampton &amp; Richmond Borough 4-3 Leiston" onclick="location.href='hampton/match/17859'"><td class="left"><span class="max768">6/2</span><span class="min769">Sat 6th Feb</span></td><td class="min481">H</td><td class="left"><a href="hampton/match/17859">Leiston</a><span class="glyphicons glyphicons-film"></span></td><td class="left min481">Ryman Premier</td><td class="homeScore">4</td><td class="scoreSplit">-</td><td class="awayScore">3</td></tr>
+<tr title="Leatherhead 2-2 Hampton &amp; Richmond Borough" onclick="location.href='hampton/match/17875'"><td class="left"><span class="max768">10/2</span><span class="min769">Wed 10th Feb</span></td><td class="min481">A</td><td class="left"><a href="hampton/match/17875">Leatherhead</a></td><td class="left min481">Ryman Premier</td><td class="homeScore">2</td><td class="scoreSplit">-</td><td class="awayScore">2</td></tr>
+<tr title="Hendon 1-1 Hampton &amp; Richmond Borough" onclick="location.href='hampton/match/17883'"><td class="left"><span class="max768">13/2</span><span class="min769">Sat 13th Feb</span></td><td class="min481">A</td><td class="left"><a href="hampton/match/17883">Hendon</a><span class="glyphicons glyphicons-film"></span></td><td class="left min481">Ryman Premier</td><td class="homeScore">1</td><td class="scoreSplit">-</td><td class="awayScore">1</td></tr>
+<tr class="home" title="Hampton &amp; Richmond Borough v Needham Market" onclick="location.href='hampton/match/17898'"><td class="left"><span class="max768">20/2</span><span class="min769">Sat 20th Feb</span></td><td class="min481">H</td><td class="left"><a href="hampton/match/17898">Needham Market</a></td><td class="left min481">Ryman Premier</td><td colspan="3">3pm</td></tr>
+<tr class="home" title="Hampton &amp; Richmond Borough v VCD Athletic" onclick="location.href='hampton/match/18685'"><td class="left"><span class="max768">23/2</span><span class="min769">Tue 23rd Feb</span></td><td class="min481">H</td><td class="left"><a href="hampton/match/18685">VCD Athletic</a></td><td class="left min481">Ryman Premier</td><td colspan="3">7.45pm</td></tr>
+<tr title="Tonbridge Angels v Hampton &amp; Richmond Borough" onclick="location.href='hampton/match/17920'"><td class="left"><span class="max768">27/2</span><span class="min769">Sat 27th Feb</span></td><td class="min481">A</td><td class="left"><a href="hampton/match/17920">Tonbridge Angels</a></td><td class="left min481">Ryman Premier</td><td colspan="3">3pm</td></tr>
+</tbody>
+</table>
+
+<p class="all"><a href="hampton/matches">View all of Hampton &amp; Richmond Borough's Fixtures and Results</a></p>
+
+</div>
+
+</div>
+
+<div class="panel panelLeft panelSecond">
+
+<h2 id="twitterHeading">Latest From @FWPHamptonRmond<a class="toggle" href="hampton?toggle=twitter" id="twitterToggleLink" title="Close latest Tweet" onclick="return togglePanel(0,232,'twitter')"><span class="glyphicons glyphicons-minus-sign" id="twitterToggleSpan"></span></a></h2>
+
+<div class="tweets" id="twitterContent">
+
+<blockquote class="twitter-tweet tw-align-center" data-cards="hidden" lang="en"><p>NEWS: Title Race Tightens Up (via Pitchero Non League) https://t.co/12xUCYR7cX https://t.co/kDeNws5b6t</p>&mdash; FWPHamptonRmond (@FWPHamptonRmond) <a href="https://twitter.com/FWPHamptonRmond/status/698620483663749121">February 13, 2016</a></blockquote>
+
+<p class="all"><a href="hampton/twitter">See all of our Hampton &amp; Richmond Borough Tweets</a></p>
+
+</div>
+
+</div>
+
+<div class="panel panelRight panelSecond">
+
+<h2 id="videoHeading">Latest Video<a class="toggle" href="hampton?toggle=video" id="videoToggleLink" title="Close videos" onclick="return togglePanel(0,232,'video')"><span class="glyphicons glyphicons-minus-sign" id="videoToggleSpan"></span></a></h2>
+
+<div id="videoContent">
+
+<div class="video">
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eVBDN-9UJYY" allowfullscreen></iframe>
+</div>
+
+<p><b>Saturday 13th February 2016</b><br /><a href="hampton/match/17883">Hendon 1-1 Hampton &amp; Richmond Borough</a><br />
+Published by <a href="http://www.youtube.com/channel/UCHaHKb8Ao2tNydkD7thhYMw">Football Exclusives</a></p>
+
+</div>
+
+<p class="all"><a href="hampton/videos">Watch all of our Hampton &amp; Richmond Borough videos</a></p>
+
+</div>
+
+</div>
+
+
+<div class="clear"></div>
+
+<noscript>
+<p class="refresh"><a href="hampton">Javascript appears to be disabled, so you will need to refresh this page manually</a></p>
+</noscript>
+
+<div class="clear"></div>
+
+<div id="bottomAd">
+<script>showHorizontalBottomAdvert("bottomAd");</script>
+</div>
+
+<div class="row" id="footer">
+
+<div class="col-xs-6 col-sm-2"><a href="about">About us</a></div>
+<div class="col-xs-6 col-sm-2"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#102;&#111;&#111;&#116;&#98;&#97;&#108;&#108;&#119;&#101;&#98;&#112;&#97;&#103;&#101;&#115;&#46;&#99;&#111;&#46;&#117;&#107;">Contact us</a></div>
+<div class="col-xs-6 col-sm-2"><a href="cookies">Cookies</a></div>
+<div class="col-xs-6 col-sm-2"><a href="corrections">Corrections</a></div>
+<div class="col-xs-6 col-sm-2"><a href="feeds">Feeds</a></div>
+<div class="col-xs-6 col-sm-2"><a href="app">iOS app</a></div>
+<div class="col-xs-6 col-sm-2"><a href="live">Live updates system</a></div>
+<div class="col-xs-6 col-sm-2"><a href="privacy">Privacy policy</a></div>
+<div class="col-xs-6 col-sm-2"><a href="results">Results by email</a></div>
+<div class="col-xs-6 col-sm-2"><a href="status">Status</a></div>
+<div class="col-xs-6 col-sm-2"><a href="terms">Terms &amp; conditions</a></div>
+<div class="col-xs-6 col-sm-2"><a href="twitter">Twitter accounts</a></div>
+
+</div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="scripts/utils.min.js"></script>
+<script src="scripts/refresh.min.js"></script>
+<script>
+teamNo=232;
+lastLoaded=1455827892250;
+</script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</body>
+</html>

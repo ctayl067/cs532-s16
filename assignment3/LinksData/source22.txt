@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>たカイまもるくん(@muromav) - Twilog</title>
+<meta name="description" content="たカイまもるくん(@muromav)のTwilog">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="icon" type="image/png" sizes="32x32" href="http://twilog.org/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="http://pbs.twimg.com/profile_images/2800061494/875ca86939d2a731fa482878d1b37cbc_bigger.jpeg">
+<link rel="alternate" type="application/rss+xml" title="たカイまもるくん(@muromav) - Twilog" href="http://twilog.org/rss-feed/muromav">
+
+<link rel="stylesheet" href="http://twilog.org/css-dir/user.css?i=1">
+
+<style type="text/css">
+body {background:#ACDED6 url(http://pbs.twimg.com/profile_background_images/83314082/39443305_3243180298.jpg) repeat fixed 0 0; color:#333;}
+a,a:hover {color:#038543;}
+.side-list-icon,.nav-link a,.cal-nav a {background-color:#038543 !important;}
+.tl-del a,.tl-del a:hover,.tl-name a:hover strong {color:#038543 !important;}
+
+</style>
+
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+<script>
+
+$(function(){
+
+	$('a[href=#pagetop]').click(function(){
+		$('html, body').animate({scrollTop:0}, 'fast');
+		return false;
+	});
+	$("#user-search-form").submit(function(){
+		user_search();
+		return false;
+	});
+	$("#uf").submit(function(){ $("#ub").attr("disabled","disabled"); });
+
+	add_twbutton();
+	$("#ub").removeAttr("disabled");
+
+	c_id = "";
+	c_str = document.cookie+";";
+	start = c_str.indexOf("update_id=");
+	if (start != -1){
+		end = c_str.indexOf(";", start);
+		c_id = c_str.substring(start+10, end);
+		if(c_id=="muromav") return;
+	}
+
+	exp=new Date(); exp.setTime(exp.getTime()+1000*60*5);
+	document.cookie = "update_id=muromav; expires=" + exp.toGMTString();
+
+	url = "http://twilog.org/check-update.rb?c=99084123&l=700131585153052673&s=599763";
+	$.ajax({
+		dataType : "jsonp",
+		url: url,
+		success: function(data) {
+			if(data.tw<0) return;
+
+			if(data.tw==0) {
+				$("#ub").attr("disabled","disabled").css("cursor","default").val("情報は最新です");
+				return;
+			}
+			$("#info").slideDown();
+		}
+	});
+	
+
+
+});
+
+function user_search(){
+	var user_id = $("#user-search-form input[type=text]").val();
+
+	user_id = user_id.replace(/^[ ]+|[ ]+$/g, "");
+	if(user_id=="") {
+		alert("Twitter IDを入力してください");
+		return;
+	}else if(!user_id.match(/^@?[a-zA-Z0-9_]+$/)) {
+		alert("不正なTwitter IDです");
+		return;
+	}
+
+	user_id = user_id.replace("@","");
+	location.href = "http://twilog.org/"+user_id;
+}
+
+
+function word_search(){
+	var param = {}
+	param["word"] = encodeURIComponent($("#wsearch input[name='word']").val());
+	param["ao"] = ($("#ao-a").is(":checked")) ? "a" : "o";
+
+	var ar = [];
+	for(k in param){
+		if(param[k]=="") continue;
+		ar.push(k + "=" + param[k]);
+	}
+	location.href = "http://twilog.org/muromav/search?" + ar.join("&");
+}
+
+
+var srcbtn_date = false;
+
+function show_srcbtn(date){
+
+	if(!srcbtn_date){
+		var str = "<p class=\"mb5\">ソースを取得</p>";
+		str += "<p class=\"bt-src bt-common\"><a href=\"javascript:show_srcbox('')\">div・p</a></p>";
+		str += "<p class=\"bt-src bt-common\"><a href=\"javascript:show_srcbox('ul')\">ul・li</a></p>";
+		str += "<p class=\"bt-src bt-common\"><a href=\"javascript:show_srcbox('p')\">p</a></p>";
+		$("#s"+date).html(str).fadeIn("fast"); srcbtn_date = date;;
+	} else {
+		if(srcbtn_date==date){
+			$("#s"+date).fadeOut("fast"); srcbtn_date = false;
+		} else {
+			$("#s"+srcbtn_date).fadeOut("fast"); $("#s"+date).fadeIn("fast"); srcbtn_date = date;
+		}
+	}
+
+}
+
+function show_srcbox(type){
+
+	var date = srcbtn_date;
+	$("#s"+date).fadeOut("fast"); srcbtn_date = false;
+
+	$("#source-box").fadeOut("fast",function(){
+		$("#source-box").html("<img src='http://twilog.org/img-dir/r/ajax-loader.gif' class='mt50'>")
+	    wx = $(window).scrollLeft() + Math.floor(($(window).width() - $('#source-box').outerWidth()) / 2);
+	    wy = $(window).scrollTop() + Math.floor(($(window).height() - $('#source-box').outerHeight()) / 2);
+	    $("#source-box").css({ "top": wy, "left": wx }).fadeIn("fast");
+
+		$.ajax({
+			url : "http://twilog.org/source.rb?word=" ,
+			data : { "id":"muromav", "date":date, "cate":"", "param":"desc-", "type":type },
+			success : get_source_success,
+			error : function(){
+				alert("Error!!"); close_srcbox();
+			}
+
+		});
+	});
+}
+
+function get_source_success(src){ $("#source-box").html(src); }
+function close_srcbox(){ $("#source-box").fadeOut("fast"); }
+
+function add_twbutton(){
+	$("article.tl-tweet").each(function(){
+		var id = $(this).attr("id").substr(2);
+
+		var p_elem = $("<p/>").attr("class","tw-buttons");
+		var a_elem = $("<a/>").html("&nbsp;").attr({"href":"javascript:void(0);","class":"tb-rep","title":"返信"}).click({url:"https://twitter.com/intent/tweet?in_reply_to="+id},open_window);
+		$(p_elem).append(a_elem);
+		a_elem = $("<a/>").html("&nbsp;").attr({"href":"javascript:void(0);","class":"tb-rt","title":"リツイート"}).click({url:"https://twitter.com/intent/retweet?tweet_id="+id},open_window);
+		$(p_elem).append(a_elem);
+		a_elem = $("<a/>").html("&nbsp;").attr({"href":"javascript:void(0);","class":"tb-fav","title":"いいね"}).click({url:"https://twitter.com/intent/favorite?tweet_id="+id},open_window);
+		$(p_elem).append(a_elem);
+		$(this).append(p_elem);
+	});
+}
+
+
+function open_window(e){
+	var ww=550; var hh=520;
+    var x = (screen.width - ww) / 2; var y = (screen.height - hh) / 2;
+    open(e.data.url, "childWindow", "width="+ww+",height="+hh+",left="+x+",top="+y);
+}
+
+
+
+</script>
+</head>
+
+<body>
+
+<header>
+<section>
+<p id="ti-twilog"><a href="http://twilog.org/">Twilog</a></p>
+<ul>
+	<li><a href="http://twilog.org/page-about">このサイトについて</a></li>
+	<li><a href="http://twilog.org/page-help">ヘルプ</a></li>
+	<li><a href="http://twilog.org/page-register">新規登録</a></li>
+	<li><a href="http://twilog.org/settings.rb">ログイン</a></li>
+
+</ul>
+
+<form action="http://twilog.org/tl-tweets.rb" method="get" id="user-search-form">
+<input type="text" name="id" value="" placeholder="Twitter ID">
+<input type="submit" value="検索">
+</form>
+</section>
+</header>
+
+
+<div id="container">
+<div id="content">
+
+<ul class="breadcrumb">
+	<li class="home"><a href="http://twilog.org/">Twilog ホーム</a></li>
+	<li>@muromav</li>
+</ul>
+
+
+<section id="user-info">
+<p id="user-info-bg"><img src="https://pbs.twimg.com/profile_banners/99084123/1388360656/ipad" width="610" height="305"></p>
+<p id="user-info-shadow">&nbsp;</p>
+<div id="user-info-content">
+<p id="user-info-icon"><a href="http://twilog.org/muromav" title="@muromavのTwilogへ"><img src="http://pbs.twimg.com/profile_images/2800061494/875ca86939d2a731fa482878d1b37cbc_bigger.jpeg" alt="@muromav" width="73" height="73"></a></p>
+<h1><a href="https://twitter.com/muromav" target="_blank"><strong>たカイまもるくん</strong><span>@muromav</span></a></h1>
+<ul class="user-follow">
+	<li><a href="https://twitter.com/muromav/following" target="_blank">890</a>フォロー</li>
+	<li><a href="https://twitter.com/muromav/followers" target="_blank">938</a>フォロワー</li>
+	<li><a href="https://twitter.com/muromav/memberships" target="_blank">82</a>リスト</li>
+</ul>
+<ul class="user-info-col">
+<li class="user-info-place">片州越後國南蒲今町</li>
+<li class="user-info-web"><a href="http://twilog.org/muromav" target="_blank">http://twilog.org/muromav</a></li>
+<li class="user-info-comment">谷山浩子さんの電波な曲と無線が大好きな根っからの電波者です。ITで糊口を凌いでいます。自分の思想は真ん中だという恥知らずなことを言いたくないので左翼で近代合理主義者で啓蒙主義者です。特にこの国を愛していませんが頭も要領も悪くて貧乏なので生まれたこの国に死ぬまでいるつもりです、無線関係は<a href="https://twitter.com/JH0MAU" target="_blank">@JH0MAU</a>へどうぞ。</li>
+</ul>
+</div>
+</section><!-- /user-info -->
+
+<section class="box-stats">
+<table>
+	<tr>
+		<td class="title"><a href="http://twilog.org/muromav/stats">Stats</a></td>
+		<td class="stats"><strong>Twitter歴</strong><br>2,249日<span>（2009/12/24より）</span></td>
+		<td class="stats"><strong>ツイート数</strong><br>62,549<span>（27.8件/日）</span></td>
+	</tr>
+</table>
+</section><!-- /box-stats -->
+
+
+<section class="box-sort mb10 mt15">
+<div>
+<p>ツイートの並び順 :</p>
+<ul>
+	<li class="w4em"><span>通常</span></li>
+	<li class="w4em"><a href="http://twilog.org/muromav/asc">朝→夜</a></li>
+	<li class="w4em"><a href="http://twilog.org/muromav/allasc">古→新</a></li>
+</ul>
+</div>
+
+<div>
+<p>表示するツイート :</p>
+<ul>
+	<li class="w4em"><span>全て</span></li>
+	<li><a href="http://twilog.org/muromav/norep" title="先頭に@のあるツイートを除く">Replyを除く</a></li>
+	<li><a href="http://twilog.org/muromav/nomen" title="文中に@のあるツイートを除く">Mentionを除く</a></li>
+	<li><a href="http://twilog.org/muromav/rt">公式RTのみ</a></li>
+	<li><a href="http://twilog.org/muromav/nort">公式RTを除く</a></li>
+</ul>
+</div>
+
+
+</section><!-- /box-sort -->
+
+
+<div style="text-align:center; margin-bottom:15px;">
+<script type='text/javascript'>
+<!--//<![CDATA[
+   document.MAX_ct0 ='';
+   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("zoneid=189715");document.write("&amp;nodis=1");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&amp;ct0=" + escape(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'></scr"+"ipt>");
+//]]>--></script>
+
+</div>
+
+
+
+
+<ul class="nav-link mb10 mt0">
+	<li class="nav-prev"><span>前のページ</span></li>
+	<li class="nav-user"><a href="http://twilog.org/muromav">@muromav</a></li>
+	<li class="nav-next"><a href="http://twilog.org/muromav/2">次のページ</a></li>
+</ul>
+
+
+<div id="info" class="mb10" style="display:none;"><p class="box-balloon"><a href="http://twilog.org/update.rb?id=muromav&order=&filter=&kind=reg"><span>新しいツイートが投稿されています</span></a></p></div>
+<h3 class="title01" id="d160218">
+<a href="http://twilog.org/muromav/date-160218">2016年02月18日(木)</a><span>27 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160218');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160218" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw700131585153052673">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700131585153052673" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuraku" target="_blank"><img src="http://pbs.twimg.com/profile_images/2000959875/images_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuraku" target="_blank"><strong>dada</strong><span>@yuuraku</span></a></p>
+<p class="tl-text"> ツイッターの原形を見る思いである。 <a href="https://t.co/oee2jwRLsx" target="_blank" title="https://twitter.com/mamesoma/status/699555953155280896"><span class="invisible">https://</span>twitter.com/mamesoma/statu<span class="invisible">/699555953155280896</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700131585153052673" target="_blank">10:35:52</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700131519348670465">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700131519348670465" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/mamesoma" target="_blank"><img src="http://pbs.twimg.com/profile_images/3755131750/34ad0a9d69616cea339091bdffaa6a09_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/mamesoma" target="_blank"><strong>まめそま</strong><span>@mamesoma</span></a></p>
+<p class="tl-text"> 長い長い独居の間、テレビを見ててもラジオを聞いてても常に手元にチラシと鉛筆を置いて初めて知ったことや言葉を書き留めている祖母でした。たまに会うと書き留めた紙から面白そうなのを選んで「こんなおかしな漢字があるんだって」とか「こういう風習の国があるんだって」と聞かせてくれました。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700131519348670465" target="_blank">10:35:36</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700131330378436608">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700131330378436608" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/WakagiTakahashi" target="_blank"><img src="http://pbs.twimg.com/profile_images/639076763599966208/soNcaKUA_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/WakagiTakahashi" target="_blank"><strong>高橋若木</strong><span>@WakagiTakahashi</span></a></p>
+<p class="tl-text"> Reading:自民 朝鮮学校への補助金廃止の検討を　NHKニュース  <a href="https://t.co/WmOPLXqk6I" target="_blank" title="http://nhk.jp/N4Nk4MtC"><span class="invisible">http://</span>nhk.jp/N4Nk4MtC</a><br><br>朝鮮学校に通う子供たちに嫌がらせをしてみせることが、まずやることですか。溜飲を下げて何の対応にもなっていない。ただ陰惨なだけ。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700131330378436608" target="_blank">10:34:51</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700130828345409536">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700130828345409536" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/muromav" target="_blank"><img src="http://pbs.twimg.com/profile_images/2800061494/875ca86939d2a731fa482878d1b37cbc_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/muromav" target="_blank"><strong>たカイまもるくん</strong><span>@muromav</span></a></p>
+<p class="tl-text"><a href="https://twitter.com/levinassien" target="_blank">@levinassien</a> 日本のプエルトリコ化</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/muromav/status/700130828345409536" target="_blank">10:32:51</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700130586082447360">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700130586082447360" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/Real__Slice" target="_blank"><img src="http://pbs.twimg.com/profile_images/573022031844782080/eKWUUNP2_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/Real__Slice" target="_blank"><strong>slice</strong><span>@Real__Slice</span></a></p>
+<p class="tl-text"> しかし今を思えば、天皇原理主義（天皇制）を残されるくらいなら、米国の一州を経て独立した方がこの国の民主主義と国民にとっては良かったかも知れないな。天皇原理主義の呪縛から覚醒するよりもアメリカナイズから自立する方が容易かったかも知れない。マジで。。w<br><br><a href="https://twitter.com/levinassien" target="_blank">@levinassien</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700130586082447360" target="_blank">10:31:54</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700130527420874753">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700130527420874753" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/JapanUrushi" target="_blank"><img src="http://pbs.twimg.com/profile_images/430557447594332160/yBvqDbKF_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/JapanUrushi" target="_blank"><strong>漆谷晶子</strong><span>@JapanUrushi</span></a></p>
+<p class="tl-text"> <a href="https://twitter.com/levinassien" target="_blank">@levinassien</a> 丸山議員の発言は日本が主権国家ではないことを自ら明かしたようなものです。か<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700130527420874753" target="_blank">10:31:40</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700130464099532802">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700130464099532802" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/levinassien" target="_blank"><img src="http://pbs.twimg.com/profile_images/702279544/profile_normal.JPG" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/levinassien" target="_blank"><strong>内田樹</strong><span>@levinassien</span></a></p>
+<p class="tl-text"> 何が悲しくて属国民を主権国家の国民に格上げしてあげなくちゃいけないのですか。そんなことしたら「日本州」はアメリカ総人口の３０％を占めるアメリカ最大の州になって、上院議員は２名、人口比率で定数を決める下院議員は４３５議席のうち１２５が日本州選出議員になっちゃうんですよ。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700130464099532802" target="_blank">10:31:25</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700130375415177217">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700130375415177217" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/levinassien" target="_blank"><img src="http://pbs.twimg.com/profile_images/702279544/profile_normal.JPG" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/levinassien" target="_blank"><strong>内田樹</strong><span>@levinassien</span></a></p>
+<p class="tl-text"> 丸山議員の「アメリカの５１番目の州に」という発言が問題を呼んでおりますが、僕かこのSF的想定は日本の属国性をあらわにするという点ではよい思考訓練だと思います。だってアメリカはどれほどお願いしても絶対日本を５１番目の州にしてくれないからです。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700130375415177217" target="_blank">10:31:03</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700090740391579648">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700090740391579648" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/FYvet5869" target="_blank"><img src="http://pbs.twimg.com/profile_images/689056351377477632/DhoznsKH_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/FYvet5869" target="_blank"><strong>ミッフィー ! N0 PASARAN !</strong><span>@FYvet5869</span></a></p>
+<p class="tl-text"> 現行の憲法を知らない者は改憲を唱えることはできない。<br> <a href="https://t.co/GIQcpbYxlY" target="_blank" title="http://blog.goo.ne.jp/raymiyatake/e/31cb15b2832d2d649d0547d5b1eef6cb"><span class="invisible">http://</span>blog.goo.ne.jp/raymiyatake/e/<span class="invisible">1cb15b2832d2d649d0547d5b1eef6cb</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700090740391579648" target="_blank">07:53:34</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700087901745389568">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700087901745389568" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/finalvent" target="_blank"><img src="http://pbs.twimg.com/profile_images/1198768591/twitter_photo_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/finalvent" target="_blank"><strong>finalvent</strong><span>@finalvent</span></a></p>
+<p class="tl-text"> “「日本が米５１番目の州になれば」自民・丸山氏が発言し謝罪　NHKニュース” <a href="https://t.co/im7IxzvSZ2" target="_blank" title="http://htn.to/JuBNKS"><span class="invisible">http://</span>htn.to/JuBNKS</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700087901745389568" target="_blank">07:42:17</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700079213873754112">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700079213873754112" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/Mainichi_tobira" target="_blank"><img src="http://pbs.twimg.com/profile_images/443230087756791809/vCAhy8CP_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/Mainichi_tobira" target="_blank"><strong>毎日新聞ニュースのとびら</strong><span>@Mainichi_tobira</span></a></p>
+<p class="tl-text"> １８日朝刊（東京本社）の読みどころ　子どもは減っているのに、生活保護費以下の収入で暮らす子育て世帯が過去２０年で倍増したことが、山形大准教授の研究で分かりました。東京を含む３９都道府県で子育て世帯の１０％以上が貧困状態で、子どもの貧困が深刻化していることが浮き彫りとなりました。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700079213873754112" target="_blank">07:07:46</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700079118985990144">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700079118985990144" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/kanadorama" target="_blank"><img src="http://pbs.twimg.com/profile_images/430681816895213568/fegi40nG_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/kanadorama" target="_blank"><strong>かな ドラマ鑑賞アカ</strong><span>@kanadorama</span></a></p>
+<p class="tl-text"> <a href="https://twitter.com/hashtag/%E3%81%82%E3%81%95%E3%81%8C%E6%9D%A5%E3%81%9F?src=hash" target="_blank">#あさが来た</a> （承前）なんで成功した経営者が教育かスピリチュアリズムにいくのか、今日何となく分かったと思う。彼らはみな自分は巡り合わせが良く、運が良かったと思っていて、その巡り合わせをあささんみたいに下の世代に返そうとするか、神の配剤、運の良さについて深く考えようとするんだ。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700079118985990144" target="_blank">07:07:23</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700079045833154560">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700079045833154560" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/kanadorama" target="_blank"><img src="http://pbs.twimg.com/profile_images/430681816895213568/fegi40nG_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/kanadorama" target="_blank"><strong>かな ドラマ鑑賞アカ</strong><span>@kanadorama</span></a></p>
+<p class="tl-text"> <a href="https://twitter.com/hashtag/%E3%81%82%E3%81%95%E3%81%8C%E6%9D%A5%E3%81%9F?src=hash" target="_blank">#あさが来た</a> 以前に大手社会科学系出版社の営業さんがしみじみと「成功した経営者って、教育かスピリチュアリズムかどっちかにいきますよねぇ…なんでだろう」と言ってて、妙に納得したことがあって。で、あささんは教育の方にいった。（続）<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700079045833154560" target="_blank">07:07:06</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700062607516913664">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/700062607516913664" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/ILLMATIC_UCD" target="_blank"><img src="http://pbs.twimg.com/profile_images/664705569412874240/tDVrWpws_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/ILLMATIC_UCD" target="_blank"><strong>UCD（牛田悦正）</strong><span>@ILLMATIC_UCD</span></a></p>
+<p class="tl-text"> 本当に国を愛しているのなら、もっと日本語をうまく使え。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/700062607516913664" target="_blank">06:01:46</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699990141805289472">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699990141805289472" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/JAPAN_manga_bot" target="_blank"><img src="http://pbs.twimg.com/profile_images/691282542696083456/ybQNXllN_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/JAPAN_manga_bot" target="_blank"><strong>そんな漫画bot</strong><span>@JAPAN_manga_bot</span></a></p>
+<p class="tl-text"> 進研ゼミ漫画　小4向け　35D003-MG　幸田テツ『2つの選べる「チャレンジ」で一歩リード！高学年いきなりスタートダッシュできるマンガ』 <span class="invisible">https://</span><a href="https://t.co/w7N6UkqVfS" target="_blank">pic.twitter.com/w7N6UkqVfS</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699990141805289472" target="_blank">01:13:49</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699989644973223936">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699989644973223936" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/orionaveugle" target="_blank"><img src="http://pbs.twimg.com/profile_images/486383008513925120/nRE_biy1_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/orionaveugle" target="_blank"><strong>岡和田晃 Akira OKAWADA</strong><span>@orionaveugle</span></a></p>
+<p class="tl-text"> 西村幸祐さん、遺伝子と民族はまったく関係がありません。デマを流布するのはおやめなさい。<br><a href="https://t.co/yjU8ZiXZKG" target="_blank" title="https://twitter.com/kohyu1952/status/699619786272038912?s=04%EF%BC%89%E3%82%92%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF"><span class="invisible">https://</span>twitter.com/kohyu1952/stat<span class="invisible">s/699619786272038912?s=04%EF%BC%89%E3%82%92%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699989644973223936" target="_blank">01:11:51</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699989353498476544">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699989353498476544" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/katchusi" target="_blank"><img src="http://pbs.twimg.com/profile_images/669532033157218304/7fgmK20H_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/katchusi" target="_blank"><strong>佐藤誠孝 鎧甲冑製作所</strong><span>@katchusi</span></a></p>
+<p class="tl-text"> クリエイターは部屋が汚い人が多い。何故なら片付ける気持ちより作りたい気持ちの方が先行するからだ。よって片付けるのはお客さんが来るときだけ。<br>明日は能面や舞楽面などを手掛ける面打師の友達が来ます。<a href="https://t.co/e6N4UM4YJN" target="_blank" title="http://s.ameblo.jp/tapazya-1982/"><span class="invisible">http://</span>s.ameblo.jp/tapazya-1982/</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699989353498476544" target="_blank">01:10:41</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699987239711830016">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699987239711830016" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/chum_ship" target="_blank"><img src="http://pbs.twimg.com/profile_images/698989814876483585/l3FIdSFZ_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/chum_ship" target="_blank"><strong>茶豆</strong><span>@chum_ship</span></a></p>
+<p class="tl-text"> 山瀬まみ、世間が思ってるほど鼻詰まりではないとのことw<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699987239711830016" target="_blank">01:02:17</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699986809493725187">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699986809493725187" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/Teslamk2t" target="_blank"><img src="http://pbs.twimg.com/profile_images/696331624045105152/2AKPw-v0_normal.png" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/Teslamk2t" target="_blank"><strong>てすら</strong><span>@Teslamk2t</span></a></p>
+<p class="tl-text"> クルド人勢力の「マッドマックス車両」の中で一番役に立っているのは農機具改造のものらしいです。元々頑丈なので重武装にも耐えるらしい。最近の車両は更に改造されて避弾経始まで考慮されて更に機関砲で武装して進化してます。 <span class="invisible">https://</span><a href="https://t.co/zsKpLqG2NI" target="_blank">pic.twitter.com/zsKpLqG2NI</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699986809493725187" target="_blank">01:00:35</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699986094348079104">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699986094348079104" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/iwakamiyasumi" target="_blank"><img src="http://pbs.twimg.com/profile_images/2319000659/5sj6czy7ifq3a6hijkxn_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/iwakamiyasumi" target="_blank"><strong>岩上安身</strong><span>@iwakamiyasumi</span></a></p>
+<p class="tl-text"> 清原、SMAP、ベッキーが政治から目をそらすスピンでは、と言われたが、日替わりであらゆる種類のハレンチが飛び出す自民党議員は、その存在自体改憲問題の議論をそらすスピンなのではないか？→「黒人奴隷が米大統領に」＝自民・丸山氏が発言 <a href="https://t.co/YSw8TnSYmT" target="_blank" title="http://www.jiji.com/jc/zc?k=201602/2016021700799&g=pol"><span class="invisible">http://</span>www.jiji.com/jc/zc?k=201602<span class="invisible">2016021700799&g=pol</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699986094348079104" target="_blank">00:57:44</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699984489414459392">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699984489414459392" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/jzk_layer" target="_blank"><img src="http://pbs.twimg.com/profile_images/629724914266718208/lTehoYjM_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/jzk_layer" target="_blank"><strong>J'zK-layer</strong><span>@jzk_layer</span></a></p>
+<p class="tl-text"> 【これは発明だ！】ムスリムロリータというジャンル。<br>肌を見せてはならないという戒律の元、ロリータファッションを最大限に楽しむという素敵なアイデア。<br>西洋産日本発の文化がアラブで楽しまれる世界を繋いだファッションだと思います。 <span class="invisible">https://</span><a href="https://t.co/BDshuRUHN3" target="_blank">pic.twitter.com/BDshuRUHN3</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699984489414459392" target="_blank">00:51:22</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699982455760035840">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699982455760035840" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/hosakanobuto" target="_blank"><img src="http://pbs.twimg.com/profile_images/468292674093457408/8XftRPDL_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/hosakanobuto" target="_blank"><strong>保坂展人</strong><span>@hosakanobuto</span></a></p>
+<p class="tl-text"> 「失言」「妄言」「虚言」の類いを聞くたびに、魯迅の言葉を思い出す。<br>「 急場の失言の根拠とは、考える時間がなかったことにあるのではなく、考える時間がある時に考えなかったことにあるのである」<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699982455760035840" target="_blank">00:43:17</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699981864690266112">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699981864690266112" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/muromav" target="_blank"><img src="http://pbs.twimg.com/profile_images/2800061494/875ca86939d2a731fa482878d1b37cbc_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/muromav" target="_blank"><strong>たカイまもるくん</strong><span>@muromav</span></a></p>
+<p class="tl-text">ソースなしに情報が生み出される情報の永久機関というか自家発電 RT <a href="https://twitter.com/hayakawa2600" target="_blank">@hayakawa2600</a> 嫌中・嫌韓本の記述のエビデンスとして挙げられるのが同じく嫌中・嫌韓ネタで売っているブロガーやジャーナリストの発言」</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/muromav/status/699981864690266112" target="_blank">00:40:56</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699981526130249728">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699981526130249728" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/hayakawa2600" target="_blank"><img src="http://pbs.twimg.com/profile_images/637214954148368386/yjWykmFy_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/hayakawa2600" target="_blank"><strong>早川タダノリ</strong><span>@hayakawa2600</span></a></p>
+<p class="tl-text"> 激しく笑った：「ケント・ギルバートにゴーストライターがいるのはまあいいとして、そのライターや編集者にも中国や韓国の問題に関する知識が明らかに不足していること、嫌中・嫌韓本の記述のエビデンスとして挙げられるのが同じく嫌中・嫌韓ネタで売っているブロガーやジャーナリストの発言」<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699981526130249728" target="_blank">00:39:35</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699980882602364928">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699980882602364928" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/muromav" target="_blank"><img src="http://pbs.twimg.com/profile_images/2800061494/875ca86939d2a731fa482878d1b37cbc_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/muromav" target="_blank"><strong>たカイまもるくん</strong><span>@muromav</span></a></p>
+<p class="tl-text">「美しい日本」だったら、誰もいなくなった日本こそもぎたてトマトみたいに一番美しいと思うよ。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/muromav/status/699980882602364928" target="_blank">00:37:02</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699980185320357888">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699980185320357888" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/jungo321" target="_blank"><img src="http://pbs.twimg.com/profile_images/1682363043/1_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/jungo321" target="_blank"><strong>二宮淳悟</strong><span>@jungo321</span></a></p>
+<p class="tl-text"> 「だから」以下に論理の欠片もないですね。 <a href="https://t.co/RGYoch5qMa" target="_blank" title="https://twitter.com/kenpou1000/status/699897682953764864"><span class="invisible">https://</span>twitter.com/kenpou1000/sta<span class="invisible">us/699897682953764864</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699980185320357888" target="_blank">00:34:15</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699979868235108352">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699979868235108352" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/muromav" target="_blank"><img src="http://pbs.twimg.com/profile_images/2800061494/875ca86939d2a731fa482878d1b37cbc_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/muromav" target="_blank"><strong>たカイまもるくん</strong><span>@muromav</span></a></p>
+<p class="tl-text"><a href="https://twitter.com/katsuya_ea21r" target="_blank">@katsuya_ea21r</a> <a href="https://twitter.com/Doremino_machi" target="_blank">@Doremino_machi</a> 高校時代はみゆき派で浩子派のクラスの子をめっちゃバカにした記憶が・・・。本人のANNが始まる前はみゆきのANNのニューミュージック楽屋裏話のお笑いキャラのイメージだったもんな。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/muromav/status/699979868235108352" target="_blank">00:33:00</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160217">
+<a href="http://twilog.org/muromav/date-160217">2016年02月17日(水)</a><span>31 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160217');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160217" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw699960073120931840">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699960073120931840" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/katsuya_ea21r" target="_blank"><img src="http://pbs.twimg.com/profile_images/676303928124772353/6Rx5sN9d_normal.png" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/katsuya_ea21r" target="_blank"><strong>関根勝也</strong><span>@katsuya_ea21r</span></a></p>
+<p class="tl-text"> <a href="https://twitter.com/Doremino_machi" target="_blank">@Doremino_machi</a> 自分の世代てはオールナイトニッポンでの谷山浩子派と中島みゆき派との派閥がありました(^_^;)<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699960073120931840" target="_blank">23:14:20</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699959295958519808">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699959295958519808" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/signbonbon" target="_blank"><img src="http://pbs.twimg.com/profile_images/686377780959789056/warj0N9H_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/signbonbon" target="_blank"><strong>初版道</strong><span>@signbonbon</span></a></p>
+<p class="tl-text"> 昔、友人が卒論を「織田信長」で書き、主要参考文献に司馬遼太郎『国盗り物語』を。卒業認定会議で留年させろという他の教授連に指導教官が一言。「彼を大学に残して何の意味があるんですか。」無事卒業に。旧帝国大学の権威が地に堕ちた瞬間でした。 <a href="https://t.co/9Fnwy6rTxY" target="_blank" title="https://twitter.com/shinzaki/status/699433886854418432"><span class="invisible">https://</span>twitter.com/shinzaki/statu<span class="invisible">/699433886854418432</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699959295958519808" target="_blank">23:11:15</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699958927027343361">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699958927027343361" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/mikumo_hk" target="_blank"><img src="http://pbs.twimg.com/profile_images/563484777697640448/eE7MNPuT_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/mikumo_hk" target="_blank"><strong>どエンド君</strong><span>@mikumo_hk</span></a></p>
+<p class="tl-text"> オレオレ詐欺の実行犯を洗脳するテキスト「お腹が空いて飢えている人からパンを奪うのはものすごく悪いことだ。最悪だ。けれど、すぐにその場で何百万円というお金を振り込める人からお金を奪うことが、この国では犯罪とされているが、ほんとにそこまで悪いことだろうか。」を思い出しました。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699958927027343361" target="_blank">23:09:47</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699958705945579520">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699958705945579520" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/jiro6663" target="_blank"><img src="http://pbs.twimg.com/profile_images/694881823738847233/XBTj22H5_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/jiro6663" target="_blank"><strong>ジロウ</strong><span>@jiro6663</span></a></p>
+<p class="tl-text"> 保育士の待遇改善に必要なお金は3400億。「高齢者1000万人に3万円配ること（つまりは3600億円）をポンと決めちゃえるわけなので、出そうと思えば出せるのです。投票率が低いから、我々子育て世代の優先順位が、低いだけです」<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699958705945579520" target="_blank">23:08:54</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699932117526949888">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699932117526949888" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/YasudaHid" target="_blank"><img src="http://pbs.twimg.com/profile_images/699278936975364097/8ukgJ4vv_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/YasudaHid" target="_blank"><strong>Yasuda P@3-15</strong><span>@YasudaHid</span></a></p>
+<p class="tl-text"> 偶像崇拝のタブーなどニ次元には関係なかった！【イスラム法学者・中田考】が語るアニメとイスラム <a href="https://t.co/lGPFu3ITD9" target="_blank" title="http://www.premiumcyzo.com/modules/member/2016/02/post_6505/"><span class="invisible">http://</span>www.premiumcyzo.com/modules/member<span class="invisible">2016/02/post_6505/</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699932117526949888" target="_blank">21:23:15</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699932042285350913">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699932042285350913" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/lautrea" target="_blank"><img src="http://pbs.twimg.com/profile_images/623345232952713221/sT9878pF_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/lautrea" target="_blank"><strong>mold</strong><span>@lautrea</span></a></p>
+<p class="tl-text"> これもすげえ発言だな。これでよく弁護士やれてたわ。<br>丸山和也「民主主義は第一次世界大戦の戦勝国を正当化するために作り出された用語であることを学問的にしった」<br><a href="https://t.co/n86PzybgIp" target="_blank" title="https://twitter.com/maruyamakun/status/334784409012154369"><span class="invisible">https://</span>twitter.com/maruyamakun/st<span class="invisible">tus/334784409012154369</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699932042285350913" target="_blank">21:22:57</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699874330935631872">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699874330935631872" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/kyslog" target="_blank"><img src="http://pbs.twimg.com/profile_images/1314574743/path8242_normal.png" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/kyslog" target="_blank"><strong>KYの雑記</strong><span>@kyslog</span></a></p>
+<p class="tl-text"> <a href="https://t.co/4wihKahzlc" target="_blank" title="http://projects.fivethirtyeight.com/facebook-primary/"><span class="invisible">http://</span>projects.fivethirtyeight.com/facebook-prima<span class="invisible">y/</span>…</a><br>アウトサイダーほどネットで支持される傾向として<br>南部や中西部の田舎→カーソン（経済右派＆社会右派、20世紀的共和党）<br>西海岸ベイエリア→サンダース（経済左派メイン）<br>はわかりやすいが、トランプはボストンあたりでも支持が根強い<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699874330935631872" target="_blank">17:33:38</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699873915670147072">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699873915670147072" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/KazukoIto_Law" target="_blank"><img src="http://pbs.twimg.com/profile_images/510617789074120704/uSsSzm5t_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/KazukoIto_Law" target="_blank"><strong>伊藤和子　Kazuko Ito</strong><span>@KazukoIto_Law</span></a></p>
+<p class="tl-text"> 中国の人権派弁護士の大量失踪・拘束の件、国連人権高等弁務官も強い懸念を示し、全員の無条件即時釈放を求める声明を出してくれました。勇気ある踏み込んだ発言で、歓迎します。こうした声が出るほど事態は本当に深刻です。<a href="https://t.co/aC7kQqberD" target="_blank" title="http://www.ohchr.org/EN/NewsEvents/Pages/Media.aspx"><span class="invisible">http://</span>www.ohchr.org/EN/NewsEvents/<span class="invisible">ages/Media.aspx</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699873915670147072" target="_blank">17:31:59</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699844923080617984">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699844923080617984" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/genkuroki" target="_blank"><img src="http://pbs.twimg.com/profile_images/1921507455/kuma3_normal.png" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/genkuroki" target="_blank"><strong>黒木玄 Gen Kuroki</strong><span>@genkuroki</span></a></p>
+<p class="tl-text"> <a href="https://twitter.com/genkuroki" target="_blank">@genkuroki</a> <a href="https://twitter.com/hashtag/%E6%8E%9B%E7%AE%97?src=hash" target="_blank">#掛算</a> 割合や分数を多くの子供が理解できない問題と、考え方や直観的イメージよりも掛算順序のようなつまらない形式にこだわる日本の算数教育の傾向は深く関係していると思う。若い世代がその問題を解決すれば歴史に残るだろう。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699844923080617984" target="_blank">15:36:46</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699844731065356288">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699844731065356288" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/buu34" target="_blank"><img src="http://pbs.twimg.com/profile_images/1563885487/________normal.JPG" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/buu34" target="_blank"><strong>buu</strong><span>@buu34</span></a></p>
+<p class="tl-text"> 枝野「どこをどう変えるのか言わないで、国民に白紙委任しろと、そんなもの呑めない」「提起自体がおかしい。白紙委任はおかしい。憲法改正そのものではなく、提起の仕方そのものが争点になる」<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699844731065356288" target="_blank">15:36:01</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699844718209867776">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699844718209867776" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/buu34" target="_blank"><img src="http://pbs.twimg.com/profile_images/1563885487/________normal.JPG" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/buu34" target="_blank"><strong>buu</strong><span>@buu34</span></a></p>
+<p class="tl-text"> 枝野「憲法を読んでない人が憲法を変える、ちゃんちゃらおかしい。<br>変えるって言うならどこを変えるのか言わないと争点になりようがない」<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699844718209867776" target="_blank">15:35:57</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699844440219787264">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699844440219787264" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/T_akagi" target="_blank"><img src="http://pbs.twimg.com/profile_images/737309771/akagi02_1_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/T_akagi" target="_blank"><strong>赤木智弘@カタストロフで( ﾟдﾟ)ﾊｯ</strong><span>@T_akagi</span></a></p>
+<p class="tl-text"> 「社会的公平性を達成」というのは、本来は資本の偏りをなくし、みんなが公平に富を得ることを前提としながら細かい部分での差異を認めていく。ということであり、決して「在日特権を無くすのが公平性だ！！」などという妄想の話ではない。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699844440219787264" target="_blank">15:34:51</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699844408074588160">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699844408074588160" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/buu34" target="_blank"><img src="http://pbs.twimg.com/profile_images/1563885487/________normal.JPG" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/buu34" target="_blank"><strong>buu</strong><span>@buu34</span></a></p>
+<p class="tl-text"> 税収増！って自慢げに言われたって、消費税上げたんだから当たり前じゃんねぇ<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699844408074588160" target="_blank">15:34:44</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699843560493838339">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699843560493838339" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/T_akagi" target="_blank"><img src="http://pbs.twimg.com/profile_images/737309771/akagi02_1_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/T_akagi" target="_blank"><strong>赤木智弘@カタストロフで( ﾟдﾟ)ﾊｯ</strong><span>@T_akagi</span></a></p>
+<p class="tl-text"> アメリカでのトランプ人気は、結局はヘイトスピーチがアングラ化した結果、それが「裏でみんなが思っていること」として肯定化され、そこに資本という誰にも文句のつけられない価値が乗ることで「本音を主張してくれる偉い人」として持ち上げられる結果となっている。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699843560493838339" target="_blank">15:31:21</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699725943531671553">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699725943531671553" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/noiehoie" target="_blank"><img src="http://pbs.twimg.com/profile_images/691483387333206016/Am5VOMsO_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/noiehoie" target="_blank"><strong>菅野完</strong><span>@noiehoie</span></a></p>
+<p class="tl-text"> サヨクが嫌いなんですよ。サヨクを否定したいわけです。昔の右翼用語でいうと、「YP体制打破」つーやつです。戦後体制への反体制運動ですよ。　彼らは何も肯定なんざしません。 <a href="https://t.co/tCIACES9MN" target="_blank" title="https://twitter.com/hopetrue/status/699724942460321792"><span class="invisible">https://</span>twitter.com/hopetrue/statu<span class="invisible">/699724942460321792</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699725943531671553" target="_blank">07:43:59</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699725885822218240">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699725885822218240" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/55kurosuke" target="_blank"><img src="http://pbs.twimg.com/profile_images/431929134667681792/NLlYv4oh_normal.png" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/55kurosuke" target="_blank"><strong>くろすけ</strong><span>@55kurosuke</span></a></p>
+<p class="tl-text"> 「安倍さんは拉致問題を政治利用して総理大臣にまでなった」――拉致被害者家族・蓮池透氏が会見で「真相」を暴露！　〜安倍総理は国会で「誹謗中傷」「北朝鮮の思うつぼ」と“逆ギレ”！ <a href="https://t.co/srFvjdw1hT" target="_blank" title="http://iwj.co.jp/wj/open/archives/279851"><span class="invisible">http://</span>iwj.co.jp/wj/open/archiv<span class="invisible">s/279851</span>…</a> <a href="https://twitter.com/iwakamiyasumi" target="_blank">@iwakamiyasumi</a> 一事が万事この調子。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699725885822218240" target="_blank">07:43:46</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699723666871812097">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699723666871812097" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/noiehoie" target="_blank"><img src="http://pbs.twimg.com/profile_images/691483387333206016/Am5VOMsO_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/noiehoie" target="_blank"><strong>菅野完</strong><span>@noiehoie</span></a></p>
+<p class="tl-text"> 日本会議は、69年ごろから、ずーっと、デモ・座り込み・署名集めという「左翼のような市民運動」を徹底してやってきました。それから50年。日本会議は見事に、左翼の怠慢と「デモなんかやっても世の中変わらん」というバカを粉砕しました。 <a href="https://t.co/1xi7eUGnbW" target="_blank" title="https://twitter.com/Meisou_AK/status/699718265023561728"><span class="invisible">https://</span>twitter.com/Meisou_AK/stat<span class="invisible">s/699718265023561728</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699723666871812097" target="_blank">07:34:57</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699723581295452161">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699723581295452161" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/tora_saka" target="_blank"><img src="http://pbs.twimg.com/profile_images/2352148417/icon8869878589506254206DSCN7975__5__normal.JPG" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/tora_saka" target="_blank"><strong>tere</strong><span>@tora_saka</span></a></p>
+<p class="tl-text"> あのさ、精神に障害を持つ人達が日々利用している施設の職員の私が言うけどさ、うちの施設にも睡眠が上手く取れない利用者は何人もいる。その利用者達は本当に辛そうなんだよ。それを人を貶めるために軽々しく「睡眠障害を勝ち取れ」なんて口する民主党って本当にクズだよ。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699723581295452161" target="_blank">07:34:36</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699721549998231552">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699721549998231552" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/muromav" target="_blank"><img src="http://pbs.twimg.com/profile_images/2800061494/875ca86939d2a731fa482878d1b37cbc_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/muromav" target="_blank"><strong>たカイまもるくん</strong><span>@muromav</span></a></p>
+<p class="tl-text">経済封鎖なんか一般国民にしわ寄せが行くだけなので、逆に一般国民に生活物資をばらまく方法を考えたらいいと思う RT <a href="https://twitter.com/jo_kitachosen" target="_blank">@jo_kitachosen</a> 北の暴挙には“体罰”を　井上和彦氏「人的往来禁止、送金禁止など本気見せる」 <a href="https://t.co/6EBwuR7T1s" target="_blank" title="http://headlines.yahoo.co.jp/hl?a=20160216-00000008-ykf-int"><span class="invisible">http://</span>headlines.yahoo.co.jp/hl?a=20160216-<span class="invisible">0000008-ykf-int</span>…</a> …</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/muromav/status/699721549998231552" target="_blank">07:26:32</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699719120296620032">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699719120296620032" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/ash0966" target="_blank"><img src="http://pbs.twimg.com/profile_images/689013383677349888/N0T___AU_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/ash0966" target="_blank"><strong>深町秋生・1/20バッドカンパニー</strong><span>@ash0966</span></a></p>
+<p class="tl-text"> 道警の稲葉事件が映画化されるというが、９９年の神奈川県警が起こしたシャブ警官隠ぺい事件も映画化されてほしい。組織ぐるみで警官のシャブ抜きに加担し、隠ぺいしようとあがいた挙句、トップの本部長から監察室室長まで、幹部たちが犯人隠避で有罪になった警察史最悪の事件のひとつ。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699719120296620032" target="_blank">07:16:53</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699718940621037572">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699718940621037572" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/kyodo_official" target="_blank"><img src="http://pbs.twimg.com/profile_images/699418929957974016/9x_3wor3_normal.png" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/kyodo_official" target="_blank"><strong>共同通信公式</strong><span>@kyodo_official</span></a></p>
+<p class="tl-text"> 自衛隊の住民監視の違法性確定 － 国が上告断念、賠償へ<br><a href="https://t.co/aSh6YCOXdL" target="_blank" title="http://this.kiji.is/72309471065669640?c=39550187727945729"><span class="invisible">http://</span>this.kiji.is/72309471065669<span class="invisible">40?c=39550187727945729</span>…</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699718940621037572" target="_blank">07:16:10</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699701719677022208">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699701719677022208" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/muromav" target="_blank"><img src="http://pbs.twimg.com/profile_images/2800061494/875ca86939d2a731fa482878d1b37cbc_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/muromav" target="_blank"><strong>たカイまもるくん</strong><span>@muromav</span></a></p>
+<p class="tl-text">QT 本当の原因は、そこに築かれてきた「小さな社会」の負の部分にあります。この問題を直視し、閉鎖性や固定的な階層を改め、よそ者や若者を大切にする環境を整備できている地域は、少しずつではあっても、盛り返してきています。 <a href="https://t.co/AEiGaigzjP" target="_blank" title="http://kaigolab.com/column/8397"><span class="invisible">http://</span>kaigolab.com/column/8397</a></p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/muromav/status/699701719677022208" target="_blank">06:07:44</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699699321621483520">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699699321621483520" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/asa10megumi" target="_blank"><img src="http://pbs.twimg.com/profile_images/2667167870/4efe3b63e30159e32683c9e1b4bdfedf_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/asa10megumi" target="_blank"><strong>麻十恵</strong><span>@asa10megumi</span></a></p>
+<p class="tl-text"> 子供達が寝てからの夜の音楽は谷山浩子さんにかぎるなぁ<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699699321621483520" target="_blank">05:58:12</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699699141346091008">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699699141346091008" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/328lynnki" target="_blank"><img src="http://pbs.twimg.com/profile_images/674156185633734658/Hvs29-Gf_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/328lynnki" target="_blank"><strong>凛輝@審神者</strong><span>@328lynnki</span></a></p>
+<p class="tl-text"> 似合う曲とかイメージソングとか訊かれると、谷山浩子さんでしか考えれない…<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699699141346091008" target="_blank">05:57:29</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699699059716542464">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699699059716542464" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/Oni_rkrn" target="_blank"><img src="http://pbs.twimg.com/profile_images/697012948204519426/Ih4xaGwB_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/Oni_rkrn" target="_blank"><strong>百鬼</strong><span>@Oni_rkrn</span></a></p>
+<p class="tl-text"> 夜道で谷山浩子を聴く楽しみ&#128139;イヤホンで聴くと聞き取れなかった人の声とか音が聞こえる♡♡♡<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699699059716542464" target="_blank">05:57:10</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699698986098098177">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699698986098098177" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/earlgrey9148" target="_blank"><img src="http://pbs.twimg.com/profile_images/698522004710797313/JwP5-X70_normal.png" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/earlgrey9148" target="_blank"><strong>上海紅茶缶</strong><span>@earlgrey9148</span></a></p>
+<p class="tl-text"> 今井絵理子の交際相手が初恋の相手だってことが美談として報道されるなら、谷山浩子の旦那であるお抱えエンジニアN氏が中学時代に文化祭で出会った初恋の相手「人間コンピュータNくん」であることはもっと注目されてもいいはずだ。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699698986098098177" target="_blank">05:56:52</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699698088986816512">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699698088986816512" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/prof_k_hori" target="_blank"><img src="http://pbs.twimg.com/profile_images/1147650884/PB020012_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/prof_k_hori" target="_blank"><strong>堀　潔</strong><span>@prof_k_hori</span></a></p>
+<p class="tl-text"> 【J-POP_70s】谷山浩子／お早うございますの帽子屋さん（1975年2月発売）。ラジオの深夜放送で流れる彼女の歌声は多くのファンを魅了しました。彼女の作品には幻想的作風のものが多く、それがまた彼女の魅力でもありました。<a href="https://t.co/0scqnhFpPw" target="_blank" title="https://youtu.be/pOBSOUxV8vw"><span class="invisible">https://</span>youtu.be/pOBSOUxV8vw</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699698088986816512" target="_blank">05:53:18</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699697998079483905">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699697998079483905" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/muromav" target="_blank"><img src="http://pbs.twimg.com/profile_images/2800061494/875ca86939d2a731fa482878d1b37cbc_normal.jpeg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/muromav" target="_blank"><strong>たカイまもるくん</strong><span>@muromav</span></a></p>
+<p class="tl-text">この曲とグループ「アリス」は住んでいる時空が違うのです RT <a href="https://twitter.com/AtomEN" target="_blank">@AtomEN</a> 谷山浩子「意味なしアリス」って曲名を聞いて、谷村新司とか堀内孝雄とか元アリスのメンバーが「な、なんだとーっ！？ヽ(`Д´)ﾉﾌﾟﾝﾌﾟﾝ」とならなかっただろうか、とか。</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/muromav/status/699697998079483905" target="_blank">05:52:57</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699697054306533376">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699697054306533376" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/sugimarco" target="_blank"><img src="http://pbs.twimg.com/profile_images/1184922524/P1010310_2_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/sugimarco" target="_blank"><strong>すぎまる子ちゃん</strong><span>@sugimarco</span></a></p>
+<p class="tl-text"> <a href="https://twitter.com/nekomorichana" target="_blank">@nekomorichana</a> 「お風呂入ろ」って言いながら、なかなか入らない、谷山浩子さんという方を知っています。。。(+_+)<p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699697054306533376" target="_blank">05:49:12</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699696770234724352">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699696770234724352" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/JQ1XLC" target="_blank"><img src="http://pbs.twimg.com/profile_images/464743985894805506/zHWhX1XI_normal.png" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/JQ1XLC" target="_blank"><strong>JQ1XLC</strong><span>@JQ1XLC</span></a></p>
+<p class="tl-text"> 電柱番号が「アマチュア」 <span class="invisible">https://</span><a href="https://t.co/XFxK05QF7O" target="_blank">pic.twitter.com/XFxK05QF7O</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699696770234724352" target="_blank">05:48:04</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699696725926109185">
+<p class="tl-time"><a href="https://twitter.com/muromav/status/699696725926109185" target="_blank">2月17日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/BMTproject" target="_blank"><img src="http://pbs.twimg.com/profile_images/675697725661319168/rK81FNAK_normal.jpg" alt="@muromav" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/BMTproject" target="_blank"><strong>部活問題対策プロジェクト</strong><span>@BMTproject</span></a></p>
+<p class="tl-text"> 朝日新聞の社会面にて部活問題の署名活動が大きく報道されました。（東京本社版）<br>皆様のご協力のおかげでここまで来ました。より多くの人たちに関心を持っていただけるよう、拡散をお願いします。<br><a href="https://t.co/5NqggVznK6" target="_blank" title="http://www.asahi.com/sp/articles/DA3S12207296.html"><span class="invisible">http://</span>www.asahi.com/sp/articles/DA<span class="invisible">S12207296.html</span>…</a> <span class="invisible">https://</span><a href="https://t.co/kTF2G5DN2z" target="_blank">pic.twitter.com/kTF2G5DN2z</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/muromav" target="_blank">たカイまもるくん</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/muromav/status/699696725926109185" target="_blank">05:47:53</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+
+<ul class="nav-link mb10 mt0">
+	<li class="nav-prev"><span>前のページ</span></li>
+	<li class="nav-user"><a href="http://twilog.org/muromav">@muromav</a></li>
+	<li class="nav-next"><a href="http://twilog.org/muromav/2">次のページ</a></li>
+</ul>
+
+
+
+<div class="ta-c" style="margin:25px auto">
+<script type='text/javascript'>
+<!--//<![CDATA[
+   document.MAX_ct0 ='';
+   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("zoneid=133078");document.write("&amp;nodis=1");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&amp;ct0=" + escape(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'></scr"+"ipt>");
+//]]>--></script>
+
+</div>
+
+
+
+
+<img src="http://ad.twi-log.com/img-dir/kk10-2t45.gif" style="width:1px;height:1px;">
+
+</div><!-- /content -->
+
+<aside id="sidebar">
+
+<section class="sidebox sidebox-update">
+<form id="uf" action="http://twilog.org/update.rb" method="get">
+<input type="submit" id="ub" value="最新の情報に更新する">
+<input type="hidden" name="id" value="muromav">
+<input type="hidden" name="order" value="">
+<input type="hidden" name="filter" value="">
+<input type="hidden" name="kind" value="reg">
+</form>
+<p><span>last update 02/18 21:58</span></p>
+</section>
+
+<!--/* VASCO Javascript Tag v */-->
+
+<script type='text/javascript'><!--//<![CDATA[
+   document.MAX_ct0 ='INSERT_CLICKURL_HERE';
+
+if (location.protocol=='https:') {
+} else {
+   var m3_u = 'http://vsc.send.microad.jp/delivery/ajs.php';
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=5925&amp;charset=UTF-8");
+   document.write ('&amp;snr=2&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write ('&amp;charset=UTF-8');
+   document.write ("&amp;loc=" + encodeURIComponent(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + encodeURIComponent(document.referrer));
+   if (document.context) document.write ("&context=" + encodeURIComponent(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&amp;ct0=" + encodeURIComponent(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'></scr"+"ipt>");
+}
+//]]>--></script><noscript><a href='http://vsc.send.microad.jp/delivery/ck.php?n=a427cd5e&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://vsc.send.microad.jp/delivery/avw.php?zoneid=5925&amp;charset=UTF-8&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a427cd5e&amp;ct0=INSERT_CLICKURL_HERE&amp;snr=2' border='0' alt='' /></a></noscript>
+
+
+<section class="sidebox sidebox-search">
+<h2 class="side-title">Search</h2>
+<div class="side-pd">
+<!-- -->
+<form id="wsearch" action="http://twilog.org/tl-tweets.rb" method="get" onsubmit="word_search();return false;">
+<input type="hidden" name="id" value="muromav">
+<input type="hidden" name="param" value="desc">
+<input type="text" id="sch-word" name="word" value="" placeholder="ツイート検索" class="input01">
+<input type="submit" value="検索" class="submit01">
+<div id="search-opt">
+<p class="ta-c mb0">
+<input type="radio" id="ao-a" name="ao" value="a" checked> <label for="ao-a">AND検索</label>　
+<input type="radio" id="ao-o" name="ao" value="o"> <label for="ao-o">OR検索</label>
+</p>
+<!-- -->
+</div>
+</form>
+</div><!-- /side-pd -->
+</section>
+
+<section class="sidebox sidebox-cal">
+<p class="cal-title">2016年2月</p>
+<ul class="cal-nav">
+	<li class="ic-arrow-l"><a href="http://twilog.org/muromav/month-1601">前の月へ</a></li>
+	<li class="ic-arrow-r"><span>次の月へ</span></li>
+</ul>
+<table id="cal">
+<tr><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th><th>日</th></tr>
+<tr><td><a href="http://twilog.org/muromav/date-160201">1</a></td><td>2</td><td><a href="http://twilog.org/muromav/date-160203">3</a></td><td><a href="http://twilog.org/muromav/date-160204">4</a></td><td><a href="http://twilog.org/muromav/date-160205">5</a></td><td><a href="http://twilog.org/muromav/date-160206">6</a></td><td><a href="http://twilog.org/muromav/date-160207">7</a></td></tr>
+<tr><td><a href="http://twilog.org/muromav/date-160208">8</a></td><td>9</td><td><a href="http://twilog.org/muromav/date-160210">10</a></td><td><a href="http://twilog.org/muromav/date-160211">11</a></td><td><a href="http://twilog.org/muromav/date-160212">12</a></td><td><a href="http://twilog.org/muromav/date-160213">13</a></td><td><a href="http://twilog.org/muromav/date-160214">14</a></td></tr>
+<tr><td><a href="http://twilog.org/muromav/date-160215">15</a></td><td><a href="http://twilog.org/muromav/date-160216">16</a></td><td><a href="http://twilog.org/muromav/date-160217">17</a></td><td><a href="http://twilog.org/muromav/date-160218">18</a></td><td>19</td><td>20</td><td>21</td></tr>
+<tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
+<tr><td>29</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+<p class="cal-link"><a href="http://twilog.org/muromav/date-150219">1年前の今日のツイートを見る</a></p>
+
+</section>
+
+<section class="sidebox">
+<h2 class="side-title">Recent</h2>
+<ul class="side-list wide">
+<li><a href="http://twilog.org/muromav/date-160218">02月18日(木) <span>27</span></a></li>
+<li><a href="http://twilog.org/muromav/date-160217">02月17日(水) <span>31</span></a></li>
+<li><a href="http://twilog.org/muromav/date-160216">02月16日(火) <span>19</span></a></li>
+<li><a href="http://twilog.org/muromav/date-160215">02月15日(月) <span>21</span></a></li>
+<li><a href="http://twilog.org/muromav/date-160214">02月14日(日) <span>85</span></a></li>
+<li><a href="http://twilog.org/muromav/date-160213">02月13日(土) <span>20</span></a></li>
+<li><a href="http://twilog.org/muromav/date-160212">02月12日(金) <span>13</span></a></li>
+<li><a href="http://twilog.org/muromav/date-160211">02月11日(木) <span>66</span></a></li>
+<li><a href="http://twilog.org/muromav/date-160210">02月10日(水) <span>6</span></a></li>
+<li><a href="http://twilog.org/muromav/date-160208">02月08日(月) <span>7</span></a></li>
+
+</ul>
+<p class="side-more">&nbsp;</p>
+</section>
+
+
+<section class="sidebox">
+<h2 class="side-title">Archives</h2>
+<ul class="side-list">
+<li><a href="http://twilog.org/muromav/monthlist-1602" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1602">2016年02月<span>428</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1601" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1601">2016年01月<span>830</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1512" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1512">2015年12月<span>900</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1511" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1511">2015年11月<span>488</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1510" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1510">2015年10月<span>239</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1509" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1509">2015年09月<span>877</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1508" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1508">2015年08月<span>986</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1507" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1507">2015年07月<span>1050</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1506" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1506">2015年06月<span>596</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1505" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1505">2015年05月<span>951</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1504" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1504">2015年04月<span>822</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1503" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1503">2015年03月<span>991</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1502" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1502">2015年02月<span>1299</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1501" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1501">2015年01月<span>1220</span></a></li><li><a href="http://twilog.org/muromav/monthlist-1412" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/month-1412">2014年12月<span>1139</span></a></li>
+</ul>
+<p class="side-more"><a href="http://twilog.org/muromav/archives">すべて表示 &raquo;</a></p>
+</section>
+
+
+<section class="sidebox">
+<h2 class="side-title">Friends</h2>
+<ul class="side-list">
+<li><a href="http://twilog.org/kingbiscuitSIU" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/friends-kingbiscuitSIU">@kingbiscuitSIU<span>807</span></a></li>
+<li><a href="http://twilog.org/ynabe39" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/friends-ynabe39">@ynabe39<span>728</span></a></li>
+<li><a href="http://twilog.org/7L2CNC" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/friends-7L2CNC">@7L2CNC<span>592</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/muromav/friends-JQ1ARQ">@JQ1ARQ<span>592</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/muromav/friends-JJ1FZW">@JJ1FZW<span>581</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/muromav/friends-JH3FTV">@JH3FTV<span>563</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/muromav/friends-JL1VNQ">@JL1VNQ<span>562</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/muromav/friends-JN1ILK">@JN1ILK<span>561</span></a></li>
+<li><a href="http://twilog.org/JF1VBB" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/friends-JF1VBB">@JF1VBB<span>530</span></a></li>
+<li><a href="http://twilog.org/ja8mrx" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/friends-ja8mrx">@ja8mrx<span>528</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/muromav/friends-9V1NC">@9V1NC<span>520</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/muromav/friends-JF9BLA">@JF9BLA<span>520</span></a></li>
+<li><a href="http://twilog.org/JG1ITS" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/friends-JG1ITS">@JG1ITS<span>520</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/muromav/friends-JS1VTZ">@JS1VTZ<span>519</span></a></li>
+<li><a href="http://twilog.org/JF3CEC" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/muromav/friends-JF3CEC">@JF3CEC<span>514</span></a></li>
+
+</ul>
+<p class="side-more"><a href="http://twilog.org/muromav/friends">すべて表示 &raquo;</a></p>
+
+</section>
+
+<section class="sidebox">
+<h2 class="side-title">Hashtags</h2>
+<ul class="side-list wide">
+<li><a href="http://twilog.org/muromav/hashtags-tanishin">#tanishin<span>733</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-taniyama">#taniyama<span>199</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-taniyama_">#taniyama_<span>84</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-genpatsu">#genpatsu<span>59</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-NHK">#NHK<span>59</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-kyudansiteyaru">#kyudansiteyaru<span>47</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-kitachousen">#kitachousen<span>44</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-%E3%81%82%E3%81%BE%E3%81%A1%E3%82%83%E3%82%93">#あまちゃん<span>38</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-gorevo">#gorevo<span>37</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-libjp">#libjp<span>37</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-BLOGOS">#BLOGOS<span>36</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-gakkyuunko">#gakkyuunko<span>34</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-ldnews">#ldnews<span>33</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-ss954">#ss954<span>29</span></a></li>
+<li><a href="http://twilog.org/muromav/hashtags-jishin">#jishin<span>27</span></a></li>
+
+</ul>
+<p class="side-more"><a href="http://twilog.org/muromav/hashtags">すべて表示 &raquo;</a></p>
+
+</section>
+
+
+<section class="sidebox sidebox-stats">
+<h2 class="side-title">Stats</h2>
+<p><a href="http://twilog.org/muromav/stats">Twilog Stats</a></p>
+</section>
+
+
+<section class="sidebox sidebox-feed">
+<h2 class="side-title">Feed</h2>
+<p><a href="http://twilog.org/rss-feed/muromav" target="_blank">RSS feed</a></p>
+</section>
+
+
+
+<div id="ad-side-bottom" style="height:250px">
+<!--/* VASCO Javascript Tag v */-->
+
+<script type='text/javascript'><!--//<![CDATA[
+   document.MAX_ct0 ='INSERT_CLICKURL_HERE';
+
+if (location.protocol=='https:') {
+} else {
+   var m3_u = 'http://vsc.send.microad.jp/delivery/ajs.php';
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=5908&amp;charset=UTF-8");
+   document.write ('&amp;snr=2&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write ('&amp;charset=UTF-8');
+   document.write ("&amp;loc=" + encodeURIComponent(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + encodeURIComponent(document.referrer));
+   if (document.context) document.write ("&context=" + encodeURIComponent(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&amp;ct0=" + encodeURIComponent(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'></scr"+"ipt>");
+}
+//]]>--></script><noscript><a href='http://vsc.send.microad.jp/delivery/ck.php?n=a993662a&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://vsc.send.microad.jp/delivery/avw.php?zoneid=5908&amp;charset=UTF-8&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a993662a&amp;ct0=INSERT_CLICKURL_HERE&amp;snr=2' border='0' alt='' /></a></noscript>
+
+</div>
+
+
+
+
+
+</aside><!-- /sidebar -->
+</div><!-- /container -->
+
+<div class="f-pagetop">
+<p><a href="#pagetop">このページの先頭へ</a></p>
+</div>
+
+<div id="source-box"></div>
+
+<footer>
+<section>
+<p id="ti-f-twilog"><a href="http://twilog.org/">Twilog</a></p>
+<ul>
+	<li><a href="http://twilog.org/page-about">このサイトについて</a></li>
+	<li><a href="http://twilog.org/page-help">ヘルプ</a></li>
+	<li><a href="http://twilog.org/page-rule">利用規約</a></li>
+	<li><a href="http://twilog.org/page-about#author">運営者・お問い合わせ</a></li>
+</ul>
+<p><small>&copy; 2009-2016 <a href="http://www.ropross.net/" target="_blank">ropross.net</a>.
+Created by <a href="http://twitter.com/ropross" target="_blank">@ropross</a></small></p>
+</section>
+</footer>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-16209355-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

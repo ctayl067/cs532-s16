@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--[if lte IE 7]>      <html class="no-js pages show home lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js pages show home lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>          <html class="no-js pages show home lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->  <html class="pages show home no-js"> <!--<![endif]-->
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="bHihs+TI6JBXnqrhVARCtXXOBmFvAsVLyKLutFD4ZkY=" name="csrf-token" />
+      <title>Banana Split London – best event production London, large events London, event agency London, special unique event planners</title>
+<meta content="Banana Split, Event Organisation, Event Management, Perfect Parties, Unforgettable Experience, Julian D Posner, Personal Touch, Creative and Techincal  Experts, Unrivalled Creativity, party organising, party lighting, party catering,  best event organiser" name="keywords" />
+<meta content="Banana Split - Turning your imagination into reality. We are an internationally renowned Event organising company working on events worldwide and the UK." name="description" />
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="googlebot" content="NOODP">
+
+    <!-- Stylesheets -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,100,300,600" rel="stylesheet" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
+    <link href="http://banana-split-production.cf.rawcdn.com/assets/application-426546a629ed734ba8f044169160ebfb.css" media="screen" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="http://banana-split-production.cf.rawcdn.com/assets/application-1d10977c2c94793ea24fb3806da81338.js"></script>
+    <link href="http://banana-split-production.cf.rawcdn.com/assets/favicon-3fe87d58190f087b2d56c9d987dfd396.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-59711588-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+
+
+      <body class="home init">
+<header role="banner">
+  <a href="/" id="brand"><img alt="Banana split" src="http://banana-split-production.cf.rawcdn.com/assets/interface/logo-f7e689468e2d5f58115fc755a26a9e5b.png" /></a>
+  <button data-behaviour="toggle-nav">
+    <span></span>
+  </button>
+  <nav role="navigation">
+    <ul>
+      <li><a href="/who-we-are">Who we are</a></li>
+      <li><a href="/what-we-do">What we do</a></li>
+      <li><a href="/how-we-do-it">How we do it</a></li>
+      <li><a class="button" href="/contact"><span>Talk to us</span></a></li>
+      <li><a href="/login">Login</a></li>
+    </ul>
+  </nav>
+</header>
+  
+
+
+<section role="main" style="background-image: url('http://banana-split-production.cf.rawcdn.com/assets/content/home/2-0294972da8bcc6a1a91cde4f435aac66.jpg');">
+
+  <div class="content">
+    <div class="mobile-banner" style="background-image: url('http://banana-split-production.cf.rawcdn.com/assets/content/home/2-0294972da8bcc6a1a91cde4f435aac66.jpg');">
+      <div class="container">
+        <h1>
+          <span>Our events will stay with you</span>
+          forever
+        </h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="cf">
+        <div class="col third">
+          <a href="/team">
+            <h2>Meet our team</h2>
+            <p>Our event creatives tell your story</p>
+            <span>Find out more</span>
+</a>        </div>
+        <div class="col third">
+          <a href="/what-we-do">
+            <h2>What we do</h2>
+            <p>Planning for distinguished occasions</p>
+            <span>Find out more</span>
+</a>        </div>
+        <div class="col third">
+          <a href="/how-we-do-it">
+            <h2>How we do it</h2>
+            <p>We'll plan every detail of your unique event</p>
+            <span>Find out more</span>
+</a>        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="video-container" class="init">
+    <video loop="true" autoplay="true" id="video-bg"></video>
+  </div>
+  <div id="audio-container" class="init">
+    <audio loop="true" id="audio-bg"></audio>
+    <button data-behaviour="play-pause" class="pause">Pause</button>
+  </div>
+</section>
+
+<script>
+  if (Modernizr.video.webm) {
+    var videoUrl = 'http://banana-split-production.cf.rawcdn.com/assets/videos/home-0ed5a6ee81d24bae358d5ebb0e65d4b1.webm';
+  } else {
+    var videoUrl = 'http://banana-split-production.cf.rawcdn.com/assets/videos/home-a6bb6a45324ab4fe53113ee8e6b54c37.mp4';
+  }
+  var musicUrl = 'http://banana-split-production.cf.rawcdn.com/assets/music/home-8bc46cb4d61887b9976df194b0a78ea7.mp3';
+</script>
+  <footer role="contentinfo">
+  <p class="copy">&copy; <img alt="Banana Split PLC" src="http://banana-split-production.cf.rawcdn.com/assets/interface/logo-f7e689468e2d5f58115fc755a26a9e5b.png" /> <a href="/terms">Terms of use</a></p>
+  <span class="call">Call us: +44 (0)20 8200 1234</span>
+  <p class="login">Got an event code? <a href="/login" class="button"><span>Login</span></a></p>
+</footer>
+
+  </body>
+</html>

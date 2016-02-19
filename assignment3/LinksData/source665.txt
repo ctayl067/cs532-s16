@@ -1,0 +1,444 @@
+<!DOCTYPE html><html xmlns:og="http://ogp.me/ns#"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta content="Not main／所在地:beatence/パステル／フォロワー数:627人／ツイート数:92118回／リフレクビーツしてます(・_・)／ポプ寺ボルテ指も少しやってたけど最近はほとんどやってません／リフレクやってる人は普通にフォロー返します(^_^;)／音ゲー以外にはFEとかイナズマイレブンのライトユーザー／淫夢要素はあります／／国立大学生「学費をあげるな！無能議員くたばれ！頑張って勉強して入ったんだぞ！日本の教育にかける費用は先進国の中でも云々」／〜講義中〜／国立大学生「😪」／国立大学生「📱」／国立大学生「自主休講しましたw」" name="description"><meta content="summary" name="twitter:card"><meta content="twpro.jp" name="twitter:domain"><meta content="@twprofile" name="twitter:site"><meta content="@teran01d" name="twitter:creator"><meta content="sub dog" name="og:title"><meta content="Not main／所在地:beatence/パステル／フォロワー数:627人／ツイート数:92118回／リフレクビーツしてます(・_・)／ポプ寺ボルテ指も少しやってたけど最近はほとんどやってません／リフレクやってる人は普通にフォロー返します(^_^;)／音ゲー以外にはFEとかイナズマイレブンのライトユーザー／淫夢要素はあります／／国立大学生「学費をあげるな！無能議員くたばれ！頑張って勉強して入ったんだぞ！日本の教育にかける費用は先進国の中でも云々」／〜講義中〜／国立大学生「😪」／国立大学生「📱」／国立大学生「自主休講しましたw」" name="og:description"><meta content="ツイプロ" property="og:site_name"><meta content="http://twpro.jp/teran01d/image" property="og:image"><title>sub dog @teran01d のツイプロ</title><link href="http://twpro.jp/teran01d" rel="canonical"><link href="/favicon.ico" rel="shortcut icon" sizes="16x16 32x32 48x48" type="image/vnd.microsoft.icon"><link href="/favicon.png" rel="shortcut icon" type="image/png"><meta content="ja-JP" http-equiv="Content-Language"><meta content="701866760" property="fb:admins"><meta content="width=device-width,initial-scale=1.0" name="viewport"><script>window.twpro = {};
+(function(){
+  /* init twpro */
+  var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+  twpro.trim = function(t){return t == null ? "":(t+"").replace(rtrim, "")};
+  twpro.loaded = false;
+  twpro.onload = [];
+  twpro.lastVW = 0;
+  /* onerror for imgs */
+  var faces = [], faceTimer = null;
+  twpro.errorFace = function(img){
+    faces.push(img);
+    if(twpro.loaded){
+      if(faceTimer) clearTimeout(faceTimer);
+      faceTimer = setTimeout(function(){
+        twpro.checkFaces(faces);
+        faces = [];
+        faceTimer = null; 
+      }, 100);
+    }
+  };
+  twpro.onload.push(function(){
+    twpro.checkFaces(faces);
+    faces = [];
+  });
+  /* fix base font size */
+  var lastLayout = 0;
+  var doc = document.documentElement;
+  if(doc){
+    var win = window;
+    var applyVW = function(e){
+      var vw = 0, vh = 0;
+      if(e){var w = $(win); vw = w.width(); vh = w.height()}
+      else if(win.innerWidth){vw = win.innerWidth; vh = win.innerHeight}
+      else if(doc.clientWidth){vw = doc.clientWidth; vh = doc.clientHeight}
+      var sw = screen.width, sh = screen.height;
+      if((vw > vh) == (sw > sh)){vw = Math.min(sw, vw); vh = Math.min(sh, vh)}
+      else{vw = Math.min(sh, vw); vh = Math.min(sw, vh)}
+      var style = doc.style;
+      if(vw >= 980){ /* large size */
+        twpro.lastVW = 0;
+        if(style) style.fontSize = '16px';
+      }else{
+        if(vw >= 640 && vh >= 480) vw *= 0.65; /* medium */
+        if(vw != twpro.lastVW){
+          twpro.lastVW = vw;
+          if(style) style.fontSize = vw/20 + 'px';
+          if(e) lastLayout = 0;
+        }
+      }
+      var run = function(fn){e ? fn() : twpro.onload.push(fn)};
+      var checkRelayout = function(){
+        var layout = parseInt($('html').css('min-width'));
+        if(layout != lastLayout){
+          lastLayout = layout;
+          var cn = doc.className.replace(/\blayout-\d+\b/, '');
+          doc.className = (cn == '' ? '' : ' ') + 'layout-' + layout;
+          $(function(){$(window).trigger('layout')});
+        }
+      };
+      run(checkRelayout);
+    };
+    if(win.addEventListener) win.addEventListener('resize', applyVW);
+    applyVW(null);
+  }
+})();</script><link charset="UTF-8" href="/css/user_s.css?1455807388" media="screen and (max-width:61.249em)" rel="stylesheet" type="text/css"><link charset="UTF-8" href="/css/medium.css?1455807380" media="screen and (max-width:61.249em) and (min-width:40em) and (min-height:30em)" rel="stylesheet" type="text/css"><link charset="UTF-8" href="/css/user.css?1455807391" media="not screen and (max-width:61.249em)" rel="stylesheet" type="text/css"><!--[if lte IE 8]><link charset="UTF-8" href="/css/user.css?1455807391" rel="stylesheet" type="text/css"><![endif]--></head><body><div class="min" id="base" itemscope itemtype="http://data-vocabulary.org/Person"><div id="main"><div class="min" id="header"><div id="logo"><a class="logo-image" href="/"><img alt="ツイプロ" src="/images/logo/twpro2_min.png?1"></a><h2 class="screen-name"><a class="title" href="/teran01d"><span class="at">@</span><span class="sn" itemprop="nickname">teran01d</span></a></h2></div><div class="header-end"><!----></div></div><div id="body"><div class="content"><div class="user-profile"><div class="face"><img alt="sub dog @teran01d" data-sn="teran01d" itemprop="photo" onerror="twpro.errorFace(this)" src="http://pbs.twimg.com/profile_images/675614923708207104/CWyVEhgn_400x400.jpg"></div><!--google_ad_section_start--><h1><a class="name" href="https://twitter.com/teran01d" rel="nofollow" target="_blank" title="Twitterに移動"><span itemprop="name">sub dog</span></a><span class="no-resp"><img alt="ツイプロユーザー" height="22" src="/images/twpro-user.png" title="ツイプロユーザー" width="22"></span></h1><div class="user-desc"><div class="user-desc-head"><!----></div><div class="description">Not main</div><span class="badge on-resp"><img alt="ツイプロユーザー" height="22" src="/images/twpro-user.png" title="ツイプロユーザー" width="22"></span></div><!--google_ad_section_end--><script>twpro.onload.push(function(){
+try{
+var name = $('.user-profile h1 .name');
+var fontSize0 = null;
+$(window).on('layout', function(){
+  var offset0 = name.offset();
+  var width = name.parent().width();
+  var fontSize = null;
+  var last = name.parent().find('*:visible').last();
+  var adjust = function(count){
+    if(count == 30) return;
+    var offset = last.offset();
+    if(!offset) return;
+    var w = offset.left + last.width() - offset0.left;
+    if(w > width){
+      fontSize = parseInt(name.css('font-size'));
+      if(fontSize > 1){
+        if(!fontSize0) fontSize0 = fontSize;
+        name.css('font-size', (fontSize0 - count - 1) + 'px');
+        return adjust(count + 1);
+      }
+    }
+    if(fontSize0){
+      name.css('font-size', (fontSize - 1) + 'px');
+      name.transform(1, fontSize0/(fontSize - 1), 'left', 'center');
+    }
+  };
+  if(offset0){
+    if(fontSize0){
+      name.css('font-size', 'inherit');
+      name.cssPolyglot('transform', 'none');
+      fontSize0 = null;
+    }
+    adjust(0);
+  }
+});
+}catch(e){twpro.report(e)}
+})</script><div class="user-attr"><div class="row"><div class="item ia"><div class="h c1">活動<span class="no-resp">日数</span>:</div><div class="v c1">1626日<span class="on-resp">≒4年</span></div></div><div class="item ib"><div class="h c2">所在<span class="no-resp">地</span>:</div><div class="v c2"><div class="location">beatence/パステル</div></div></div><div class="row-end"><!----></div></div><div class="row"><div class="item ic"><div class="h c1">頻度:</div><div class="v c1">56.7回/日</div></div><div class="item id"><div class="h c2">URL:</div><div class="v c2"><div class="url"><a class="twpro" href="http://twpro.jp/teran01d"><span>twpro.jp/</span>teran01d</a></div></div></div><div class="row-end"><!----></div></div></div><div class="user-navi"><div class="user-values r1"><div class="value-item i1"><span class="button"><a class="off" href="/teran01d/followings"><span>フォロー</span></a></span><span class="v">624人</span></div><div class="value-item x2 i2"><span class="button"><a class="off" href="/teran01d/followers">フォロワー</a></span><span class="v">627人</span></div><div class="value-end"><!----></div></div><div class="user-values r2"><div class="value-item i3"><span class="button"><a class="off" href="/teran01d/tweets">ツイート</a></span><span class="v">92,118回</span></div><div class="value-item x11 i4"><span class="button"><a class="off" href="/teran01d/faved_tweets"><span>お気に入り</span></a></span><span class="v">32,046個</span></div><div class="value-item x09 i5"><span class="button"><a class="off" href="/teran01d/listed">リスト</a></span><span class="v">45個</span></div><div class="value-end"><!----></div></div><div class="tab-list button"><a class="profile on" href="/teran01d">紹介</a><a class="map off" href="/teran01d/follow_map" rel="nofollow"><img height="30" src="/images/map.png"><span class="label">マップ</span></a><a class="hot off" href="/teran01d/hot"><img height="30" src="/images/hotring.png"><span class="label">人気ツイート</span></a><a class="eye off" href="/teran01d/eye" rel="nofollow"><img height="30" src="/images/talk.png"><span class="label">会話</span></a><a class="similar off" href="/teran01d/similar">似た人</a><a class="media off" href="/teran01d/media" rel="nofollow"><img height="30" src="/images/media.png"><span class="label">画像</span></a><a class="retweets off" href="/teran01d/retweets" rel="nofollow">関心事</a><a class="question off" href="/teran01d/question" rel="nofollow">疑問</a><a class="happy off" href="/teran01d/happy" rel="nofollow">嬉しい</a><a class="sad off" href="/teran01d/sad" rel="nofollow">悲しい</a><a class="message off" href="/teran01d/message">伝言板</a> <div class="tab-list-end"><!----></div> </div></div><div class="right"><div class="ads-banner-box resp box"><style type="text/css"> #ad_ins_1{width:336px;height:280px;margin:auto;}
+@media screen and (max-width:61.249em){ #ad_ins_1{width:100%;height:100px;}}
+@media screen and (max-width:61.249em) and (min-width:320px) and (max-width:480px){
+   #ad_ins_1{width:320px;height:100px;margin:auto;}}
+@media screen and (max-width:61.249em) and (min-width:40em) and (min-height:30em) and (max-width:768px){ #ad_ins_1{
+  width:320px;height:100px;margin:auto;}}</style><div class="ads-by l">スポンサーリンク</div><div class="ads-banner"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" data-ad-client="ca-pub-0111127737795787" data-ad-region="User" data-ad-slot="8806484815" id="ad_ins_1" style="display:block"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></div></div><script>twpro.onload.push(function(){
+try{
+var prof = $('.user-profile');
+var face = prof.find('.face');
+if(twpro.hasTab){
+  var attr = prof.find('.user-attr');
+  var H = face.height(), h = attr.height() - H;
+  if(h >= H/8){
+    var desc = prof.find('.user-desc');
+    var head = desc.find('.user-desc-head');
+    if(h >= head.height()) head.remove();
+    var paddingTop = parseFloat(desc.css('padding-top')) + h;
+    var minHeight = parseFloat(desc.css('min-height'));
+    if(desc.find('*').height() == 0){
+      if(minHeight -= h < 0){paddingTop += minHeight - h; minHeight = 0}
+      desc.css('min-height', twpro.px(minHeight));
+    }
+    desc.css('padding-top', twpro.px(paddingTop));
+  }
+}
+var enlarged = false;
+face.on('click', 'img:not(.vanished)', function(){
+  if(enlarged) $(this).removeClass('enlarged');
+  else $(this).addClass('enlarged');
+  enlarged = !enlarged;
+  twpro.gaEvent('face', 'enlarge', enlarged);
+  return false;
+});
+twpro.data["notice_counters:369453906"] = function(json){
+  $.each(json, function(name, count){
+    if(!count) return;
+    var tab = $('.tab-list .' + name);
+    tab.append(twpro.aryToHTML([
+      ['div', {'class':'baloon'}, [
+        ['span', {}, count + '+']
+      ]]
+    ]));
+  });
+};
+}catch(e){twpro.report(e)}
+})</script><div class="tab"><div id="detail"><!--google_ad_section_start--><div class="detail-tail"><div class="columns">
+<div class="section avoid-break">
+<p>リフレクビーツしてます(・_・)</p>
+</div>
+<div class="section avoid-break">
+<p class="empty">&nbsp;</p>
+<p></p>
+<p>ポプ寺ボルテ指も少しやってたけど最近はほとんどやってません</p>
+</div>
+<div class="section avoid-break">
+<p class="empty">&nbsp;</p>
+<p></p>
+<p>リフレクやってる人は普通にフォロー返します(^_^;)</p>
+<p>音ゲー以外にはFEとかイナズマイレブンのライトユーザー</p>
+<p>淫夢要素はあります</p>
+</div>
+</div></div><!--google_ad_section_end--><div class="detail-end"><!----></div></div><div id="tweet"><div id="users"><div class="users" id="users-0"><!--google_ad_section_start--><div class="user off" id="tweet-610654486835544064"><div class="face"><img data-sn="teran01d" onerror="twpro.errorFace(this)" src="http://pbs.twimg.com/profile_images/675614923708207104/CWyVEhgn_bigger.jpg"></div><div class="main"><div class="head"><div class="menu"><span class="badge"></span><span class="actions empty" id="369453906"><a class="follow" href="/home/follow/teran01d" rel="nofollow" target="_blank">フォローする</a></span></div><div class="meta"><a class="name" href="/teran01d" name="sub dog" target="_self"><span>sub dog</span> <span>@teran01d</span></a><span class="paren">[<a href="https://twitter.com/teran01d/status/610654486835544064" rel="nofollow" target="_blank">8ヶ月前</a>]</span><span>627</span><span class="no-resp">人がフォロー</span><span class="on-resp">人</span></div></div><div class="body">国立大学生「学費をあげるな！無能議員くたばれ！頑張って勉強して入ったんだぞ！日本の教育にかける費用は先進国の中でも云々」
+
+〜講義中〜
+
+国立大学生「😪」
+国立大学生「📱」
+国立大学生「自主休講しましたw」</div><div class="foot"><a class="rc" href="https://twitter.com/teran01d/status/610654486835544064" rel="nofollow" target="_blank">503人</a><span class="rc">がリツイート</span><a class="rc" href="https://twitter.com/teran01d/status/610654486835544064" rel="nofollow" target="_blank">467人</a><span class="rc">がお気に入り</span><a class="mark" href="https://twitter.com" rel="nofollow" target="_blank"><img class="twitter" src="/images/twitter_s.png?1"></a><a class="hot" href="/teran01d/hot">人気のツイート...</a></div></div> <div class="clear"><!----></div> </div><!--google_ad_section_end--></div></div></div><script>twpro.onload.push(function(){
+try{
+var tweets_flag = true;
+var setupActions = function(){
+  switch(tweets_flag){
+  case 'home': /* tweets without follow button */
+    $('.user .menu .actions.empty').each(function(i, e){
+      var self = $(e);
+      var user = self.parents('.user');
+      if(!user.hasClass('rt')){
+        var tid = user.attr('id').split('-')[1];
+        self.html(twpro.buildActions(user, tid));
+        twpro.expandTweet(self, user, tid);
+        self.removeClass('empty');
+      }
+    });
+    break;
+  case true: /* normal tweets */
+    twpro.updateActions(function(e){
+      var self = $(e);
+      var user = self.parents('.user');
+      var tid = user.attr('id').split('-')[1];
+      var replyTarget = "_blank";
+      self.append(twpro.buildActions(user, tid, {replyTarget:replyTarget}));
+      twpro.expandTweet(self, user, tid);
+    });
+    break;
+  default: /* users */
+    twpro.updateActions();
+  }
+};
+twpro.handleActions();
+twpro.fetchFollowings(function(user_ids){setupActions()});
+twpro.viewer('#users', '.body-media .media a', 'twitter.comに移動');
+$('#users').on('setup', setupActions);
+}catch(e){twpro.report(e)}
+})</script><div id="mainbox"><div id="sidebox"><div class="ads-banner-box resp side"><style type="text/css">.no-resp #ad_ins_2 {width:336px;height:280px;}}
+@media screen and (max-width:61.249em){.no-resp #ad_ins_2 {display:none;}}</style><style type="text/css"> #ad_ins_2{width:160px;height:600px;margin:auto;}
+@media screen and (max-width:61.249em){ #ad_ins_2{width:100%;height:100px;}}
+@media screen and (max-width:61.249em) and (min-width:320px) and (max-width:480px){
+   #ad_ins_2{width:320px;height:100px;margin:auto;}}
+@media screen and (max-width:61.249em) and (min-width:40em) and (min-height:30em) and (max-width:768px){ #ad_ins_2{
+  width:320px;height:100px;margin:auto;}}</style><div class="ads-by l">スポンサーリンク</div><div class="ads-banner"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" data-ad-client="ca-pub-0111127737795787" data-ad-region="User" data-ad-slot="8806484815" id="ad_ins_2" style="display:block"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></div><div id="graph"><div id="mychart"></div><script>twpro.onload.push(function(){
+try{
+var fontSize = '13px';
+var capSize = '16px';
+var paddingTop = '3px';
+twpro.require('/js/highcharts.js', function(){
+  var round10k = function(v){
+    if(v >= 50000) return Math.round(v/1000)/10 + '万';
+    return v;
+  };
+  var chart = {};
+  chart.options = {
+    credits: {enabled:false}, chart: {renderTo:'mychart'},
+    title: {text:'フォロワーの推移（人数/順位）', style:{fontSize: capSize}},
+    xAxis: [{
+      labels: {
+        useHTML:true, style:{fontSize: fontSize, paddingTop: paddingTop}
+      },
+      categories: ['3週前', '2週前', '先週', '今週']
+    }],
+    yAxis: [{ // 順位軸
+      reversed: true,
+      labels: {
+        formatter: function() {
+          if (!this.value || this.value <= 0) return '';
+          if ((''+this.value).indexOf('.') > 0) return '';
+          return round10k(this.value) + '位';
+        },
+        style: {fontSize:fontSize, color:'#AA4643'}
+      },
+      title: {text:null, style:{fontSize:fontSize, color:'#AA4643'}},
+      opposite: true
+    }, { // followers軸
+      title: {text:null, style:{fontSize:fontSize, color:'#4572A7'}},
+      labels: {
+        formatter: function(){
+          if (!this.value || this.value < 0) return '';
+          if ((''+this.value).indexOf('.') > 0) return '';
+          return round10k(this.value) + '人';
+        },
+        style: {fontSize:fontSize, color:'#4572A7'}
+      }
+    }],
+    tooltip: {
+      formatter: function(){
+        var unit = {'順位':'位', 'フォロワー数':'人'}[this.series.name];
+        return '' + this.x + ': ' + this.y + ' ' + unit;
+      },
+      style: {fontSize:fontSize}
+    },
+    legend: {itemStyle:{fontSize:fontSize}},
+    plotOptions: {
+      column:{
+        enableMouseTracking:false,
+        dataLabels:{
+          enabled:true, backgroundColor:'rgba(255, 255, 255, 0.7)',
+          style: {fontSize:fontSize}
+        }
+      },
+      line:{stickyTracking:false},
+      series:{events:{legendItemClick:function(){return false}}}
+    },
+    series:[]
+  };
+  $.ajax({
+    dataType:'json', cache:true,
+    url:'/teran01d/data.json?_=20160215',
+    success:function(json){
+      chart.options.series = json;
+      chart.graph = new Highcharts.Chart(chart.options);
+    }
+  });
+})
+}catch(e){twpro.report(e)}
+})</script></div><div id="hoods"><h4>おとなりさん</h4><div class="hood"><a href="/tf_sprinter" title="竹内大地"><span class="face"><img data-sn="tf_sprinter" height="48" onerror="twpro.errorFace(this)" src="http://pbs.twimg.com/profile_images/690111906435194880/fpT-9cn3_reasonably_small.jpg" width="48"></span><span class="name">竹内大地</span><span class="sn">@tf_sprinter</span></a></div><div class="hood"><a href="/qjin056" title="カムカムジュース アルパカ リマ"><span class="face"><img data-sn="qjin056" height="48" onerror="twpro.errorFace(this)" src="http://pbs.twimg.com/profile_images/683536795548581888/8OCDvSPZ_reasonably_small.jpg" width="48"></span><span class="name">カムカムジュース アルパカ リマ</span><span class="sn">@qjin056</span></a></div><div class="hood"><a href="/shiny5313" title="小林 ひかり"><span class="face"><img data-sn="shiny5313" height="48" onerror="twpro.errorFace(this)" src="http://pbs.twimg.com/profile_images/499912697744334848/GOZRid3C_reasonably_small.jpeg" width="48"></span><span class="name">小林 ひかり</span><span class="sn">@shiny5313</span></a></div><div class="hood"><a href="/721yuurin" title="あきほ ゆり"><span class="face"><img data-sn="721yuurin" height="48" onerror="twpro.errorFace(this)" src="http://pbs.twimg.com/profile_images/697254008939872256/Waeiu8LQ_reasonably_small.jpg" width="48"></span><span class="name">あきほ ゆり</span><span class="sn">@721yuurin</span></a></div><div class="hood"><a href="/_eSaori" title="フォロー外して。"><span class="face"><img data-sn="_eSaori" height="48" onerror="twpro.errorFace(this)" src="http://pbs.twimg.com/profile_images/485640207840976896/N8L7ohsI_reasonably_small.jpeg" width="48"></span><span class="name">フォロー外して。</span><span class="sn">@_eSaori</span></a></div><div class="hood"><a href="/omotetububb" title="イワモト＠卓球垢"><span class="face"><img data-sn="omotetububb" height="48" onerror="twpro.errorFace(this)" src="/images/adult.png?1" width="48"></span><span class="name">イワモト＠卓球垢</span><span class="sn">@omotetububb</span></a></div><div class="hood"><a href="/danaxshare" title="Dana @Share"><span class="face"><img data-sn="danaxshare" height="48" onerror="twpro.errorFace(this)" src="http://pbs.twimg.com/profile_images/378800000844312141/4f9f92386f504313eb58f8c5a6067683_reasonably_small.jpeg" width="48"></span><span class="name">Dana @Share</span><span class="sn">@danaxshare</span></a></div><div class="hood"><a href="/kameizum" title="TUI"><span class="face"><img data-sn="kameizum" height="48" onerror="twpro.errorFace(this)" src="http://pbs.twimg.com/profile_images/378800000149652212/c9e152c31ee6596135b29749d654a52c_reasonably_small.jpeg" width="48"></span><span class="name">TUI</span><span class="sn">@kameizum</span></a></div><div class="hood"><a href="/PoNZu_1021" title="ぽん津"><span class="face"><img data-sn="PoNZu_1021" height="48" onerror="twpro.errorFace(this)" src="http://pbs.twimg.com/profile_images/627029833868967936/O18MrIrB_reasonably_small.jpg" width="48"></span><span class="name">ぽん津</span><span class="sn">@PoNZu_1021</span></a></div><div id="hoods-end"><!----></div></div></div><div class="ads-banner-box resp bottom boxes"><div class="ads-by l">スポンサーリンク</div><div class="ads-banner"><div class="ad first"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" data-ad-client="ca-pub-0111127737795787" data-ad-format="auto" data-ad-region="User" data-ad-slot="8806484815" id="ad_ins_3" style="display:block"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div class="ad no-resp"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" data-ad-client="ca-pub-0111127737795787" data-ad-format="rectangle" data-ad-region="User" data-ad-slot="8069357215" id="ad_ins_3" style="display:block"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div class="ads-banner-end"><!----></div></div></div><div class="tab-foot"><div class="profile-banner no-resp"><img height="300" src="https://pbs.twimg.com/profile_banners/369453906/1449389662/1500x500" width="900"></div><div id="share"><div class="button" id="hatebu"><a class="hatena-bookmark-button" data-hatena-bookmark-lang="ja" data-hatena-bookmark-layout="vertical-balloon" href="http://b.hatena.ne.jp/entry/" rel="nofollow" title="このエントリーをはてなブックマークに追加"><img alt="このエントリーをはてなブックマークに追加" height="20" src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" style="border: none;" width="20"></a></div><div class="button" id="plusone"><div class="g-plusone" data-callback="share_gplusone" data-href="http://twpro.jp/teran01d" data-lang="ja" data-size="tall"></div></div><div class="button" id="tweet-button"><a class="twitter-share-button" data-count="vertical" data-lang="ja" data-url="http://twpro.jp/teran01d" href="https://twitter.com/share" rel="nofollow">ツイート</a></div><script>twpro.onload.push(function(){
+try{
+$(window).load(function(){
+  var url = "http://twpro.jp/teran01d";
+  window.share_gplusone = function(data){
+    var type = (data.state == 'on' ? 'share' : 'unshare');
+    twpro.gaEvent(type, 'gplus', url);
+  }
+  twpro.require('http://b.st-hatena.com/js/bookmark_button.js');
+  if($.support.hrefNormalized){
+    twpro.require('http://apis.google.com/js/plusone.js');
+  }else{
+    $('#plusone').hide();
+  }
+  if($.support.htmlSerialize){
+    twpro.require('https://platform.twitter.com/widgets.js', function(){
+      twttr.events.bind('tweet', function(ev){
+        twpro.gaEvent('share', 'twitter', url);
+      });
+    });
+  }else{
+    $('#tweet-button').hide();
+  }
+});
+}catch(e){twpro.report(e)}
+})</script><div class="button" id="facebook-like"><script>twpro.onload.push(function(){
+try{
+$(window).load(function(){
+  $('#facebook-like.button').html(twpro.aryToHTML([
+    ['iframe', {"src":"http://www.facebook.com/plugins/like.php?href=http://twpro.jp/teran01d&layout=box_count&show_faces=false&action=like&share=false&colorscheme=light&height=62&width=69","scrolling":"no","frameborder":0,"style":"border:none;overflow:hidden;height:62px;width:69px;","allowTransparency":"true"}]
+  ]))
+})
+}catch(e){twpro.report(e)}
+})</script></div></div><div class="user-data-info on-banner"><div class="parson-attrs"><span class="person-affiliation" itemprop="affiliation">Twitter</span><span class="person-title" itemprop="title">一般ユーザー（詳細プロフィールあり）</span></div><div class="timestamp"><span class="time">取得時刻: 2016年02月18日 13:13:59</span></div></div><div class="on-resp"><div class="user-navi"><div class="user-values r1"><div class="value-item i1"><span class="button"><a class="off" href="/teran01d/followings"><span>フォロー</span></a></span><span class="v">624人</span></div><div class="value-item x2 i2"><span class="button"><a class="off" href="/teran01d/followers">フォロワー</a></span><span class="v">627人</span></div><div class="value-end"><!----></div></div><div class="user-values r2"><div class="value-item i3"><span class="button"><a class="off" href="/teran01d/tweets">ツイート</a></span><span class="v">92,118回</span></div><div class="value-item x11 i4"><span class="button"><a class="off" href="/teran01d/faved_tweets"><span>お気に入り</span></a></span><span class="v">32,046個</span></div><div class="value-item x09 i5"><span class="button"><a class="off" href="/teran01d/listed">リスト</a></span><span class="v">45個</span></div><div class="value-end"><!----></div></div><div class="tab-list button"><a class="profile on" href="/teran01d">紹介</a><a class="map off" href="/teran01d/follow_map" rel="nofollow"><img height="30" src="/images/map.png"><span class="label">マップ</span></a><a class="hot off" href="/teran01d/hot"><img height="30" src="/images/hotring.png"><span class="label">人気ツイート</span></a><a class="eye off" href="/teran01d/eye" rel="nofollow"><img height="30" src="/images/talk.png"><span class="label">会話</span></a><a class="similar off" href="/teran01d/similar">似た人</a><a class="media off" href="/teran01d/media" rel="nofollow"><img height="30" src="/images/media.png"><span class="label">画像</span></a><a class="retweets off" href="/teran01d/retweets" rel="nofollow">関心事</a><a class="question off" href="/teran01d/question" rel="nofollow">疑問</a><a class="happy off" href="/teran01d/happy" rel="nofollow">嬉しい</a><a class="sad off" href="/teran01d/sad" rel="nofollow">悲しい</a><a class="message off" href="/teran01d/message">伝言板</a> <div class="tab-list-end"><!----></div> </div></div><div class="profile-banner"><!----></div><style type="text/css">.tab-foot .on-resp .profile-banner{
+  background-image: url("https://pbs.twimg.com/profile_banners/369453906/1449389662/600x200");
+}</style></div></div></div></div></div></div><div id="sub"><div class="frame"><div id="menu"><div class="buttons notice"><a href="#" id="notice-button"><img alt="お知らせ" src="/images/notice.png?1"></a></div><div class="buttons"><a class="button" href="/home/sync/teran01d" id="sync" rel="nofollow" title="最新情報を取得"><img src="/images/sync2.png"><span class="on-resp">データ更新</span></a><a class="button" href="/home/random" id="random" rel="nofollow" title="ランダムにユーザを見る"><img src="/images/random2.png"><span class="on-resp">ランダム</span></a><a class="button" href="/" id="search" rel="nofollow" target="_blank" title="キーワードで検索"><img src="/images/search2.png?1"></a><a class="button" href="/home/follow/teran01d" id="follow-user" rel="nofollow"><span>フォローする</span></a><div class="popup" id="search-form" style="display:none"><form action="/search"><label for="word">検索:&nbsp;</label><input id="word" name="word"></form></div><script>twpro.onload.push(function(){
+try{
+twpro.fetchFollowings(function(user_ids){
+  var user_id = 369453906;
+  var button = $('#follow-user');
+  if(user_id == $.cookie('user_id')){
+    button.html('<span>あなたです</span>');
+    button.attr({'href':'/teran01d'});
+  }else if($.inArray(user_id, user_ids) >= 0){
+    button.html('<span>フォロー解除</span>');
+    button.attr({href:"/home/unfollow/teran01d"});
+  }
+});
+var form = $('.buttons #search-form');
+var hide = function(e){
+  var parents = $(e.target).parents('.buttons #search-form');
+  if(parents.length > 0) return true;
+  twpro.hidePopups();
+  $(document).unbind('click', hide);
+  $(document).unbind('touchstart', hide);
+  return false;
+};
+$('#search.button').click(function(){
+  if(form.is(':visible')){
+    hide(form);
+  }else{
+    twpro.hidePopups();
+    form.show();
+    $(document).bind('click', hide);
+    $(document).bind('touchstart', hide);
+    twpro.focus(form.find('#word'));
+    twpro.gaEvent('menu', 'search', 'show');
+  }
+  return false;
+});
+$('#random.button').click(function(){
+  twpro.gaEvent('menu', 'random', 'user');
+});
+}catch(e){twpro.report(e)}
+})</script><span id="connect"><a href="/home" rel="nofollow"><span>マイページ</span></a></span><script>twpro.onload.push(function(){
+try{
+if(twpro.isConnected()){
+  if(location.pathname.match(/^\/home\b/)){
+    $('#connect').html(twpro.aryToHTML([
+      ['a', {href:'/home/logout', rel:'nofollow'}, [
+        ['span', {}, 'ログアウト']
+      ]]
+    ]));
+  }else{
+    $('#connect').html(twpro.aryToHTML([
+      ['a', {href:'/home', rel:'nofollow'}, [
+        ['img', {'src':'/home/profile_image', 'height': '20'}],
+        ['span', {}, 'マイページ']
+      ]]
+    ]));
+  }
+}else{
+  $('#connect').html(twpro.aryToHTML([
+    ['a', {href:'/home', rel:'nofollow'}, [
+      ['span', {}, 'ログイン']
+    ]]
+  ]));
+}
+}catch(e){twpro.report(e)}
+})</script></div></div><div id="footer"><div id="navi"><a href="#" id="go_to_top"><img height="12" src="/images/gotop.png"><span>先頭へ</span></a><a href="/ranking"><span>ランキング</span></a><a href="/hash"><span>#ハッシュタグ</span></a><a href="javascript:window.open(&#39;http://twpro.jp/s?url=&#39;+escape(location.href),&quot;_blank&quot;)" id="bookmarklet" rel="nofollow"><span>+ツイプロ</span></a><script>twpro.onload.push(function(){
+try{
+$('#bookmarklet').click(function(){
+  alert("このリンクをブックマークに追加してご利用ください。");
+  return false;
+});
+}catch(e){twpro.report(e)}
+})</script><a href="/doc"><span>ツイプロについて</span></a><a class="search" href="/"><img height="12" src="/images/search2.png"><span>検索する</span></a></div><div id="copyright"><span class="c1">Copyright &copy; 2010-2016</span> <a class="c2" href="http://www.s21g.com/"><span>s21g Inc.</span></a> <span class="c3">All Rights Reserved.</span></div><script>twpro.onload.push(function(){
+try{
+$('#go_to_top').click(function(){
+  $('html,body').animate({scrollTop: 0}, 300);
+  return false;
+});
+twpro.connect("\u0004\b[\u0007:\bextI\"\fu/stats\u0006:\u0006EF--5104566b711a8026c567c859bebc83252b9fe8ff");
+}catch(e){twpro.report(e)}
+})</script></div></div></div></div><div id="tab"><svg viewbox="0 0 100 100"><rect height="90" rx="10" ry="10" width="120" x="5" y="5"></rect><g><line x1="30" x2="80" y1="30" y2="30"></line><line x1="30" x2="80" y1="50" y2="50"></line><line x1="30" x2="80" y1="70" y2="70"></line></g></svg></div><div id="shadow"></div><script>twpro.onload.push(function(){
+try{
+var win = $(window), body = document.body, lastTop = null;
+var tab = twpro.tab, menu = $('#menu'), lastHeight = null;
+tab.find('svg').fastClick(function(){
+  $('html,body').animate({scrollTop: menu.offset().top}, 300);
+  twpro.gaEvent('tab', 'tap', 'GET /:sn');
+}, twpro.tab);
+var timer = null, tabShown = true;
+var tabChecker = function(){
+  if(timer){clearInterval(timer); timer = null}
+  if(twpro.hasTab = twpro.tab.is(':visible')){
+    timer = setInterval(function(){
+      var newTop = win.scrollTop();
+      if(newTop != lastTop){
+        var bottom = win.height() + newTop;
+        var menuTop = menu.offset().top;
+        if(bottom > menuTop){
+          if(tabShown){
+            tab.animate({right: -tab.width()*1.5}, 200);
+            tabShown = false;
+          }
+        }else if(!tabShown){
+          tab.show().animate({right: '-1rem'}, 200);
+          tabShown = true;
+        }
+        lastTop = newTop;
+      }else if(lastHeight != body.clientHeight){
+        lastTop = null;
+        lastHeight = body.clientHeight;
+      }
+    }, 100);
+  }
+};
+win.resize(tabChecker);
+win.load(tabChecker);
+}catch(e){twpro.report(e)}
+})</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-2733799-16', 'twpro.jp');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');</script><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script><script charset="UTF-8" src="/js/twpro.js?1455807394" type="text/javascript"></script><script>(function(){$.each(twpro.onload, function(i, fn){fn()})})();
+$(function(){twpro.loaded = true});</script></body></html>

@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"2276eed9fe","applicationID":"2026801","transactionName":"IQ0PRBdZCQhUFkwCUw8SAFkCWBZLQgwMFg==","queueTime":0,"applicationTime":180,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgcHVUVRCAEGXFFT"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function s(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);return i}function c(t,e){d[t]=f(t).concat(e)}function f(t){return d[t]||[]}function u(){return r(s)}var d={};return{on:c,emit:s,create:u,listeners:f,context:e,_events:d}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:21,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(3),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(4),t(5),"addEventListener"in window&&t(1),a.xhrWrappable&&t(2),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:8,3:3,4:7,5:6,6:22,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").create(),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:23,ee:"QJf3ax",gos:"7eSDFh"}],6:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:23,ee:"QJf3ax"}],7:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:23,ee:"QJf3ax"}],8:[function(t,e){function n(){f.inPlace(this,l,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-",o)}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:5,2:23,ee:"QJf3ax"}],9:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=this.lastSize||n(t);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t){var e=t.responseType,n="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return r(n)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),l=t(3),p=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=0,l&&(l>34||10>l)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof p&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:10,3:12,4:8,5:5,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],10:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],11:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:21,2:22,handle:"D5DuLP"}],12:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),p=e.exports={offset:i(),origin:u,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var h=0},{1:21,2:11,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],21:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],22:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],23:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(l){throw f(e+"err",[n,i,l],s),l}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:22,ee:"QJf3ax"}]},{},["G9z0Bl",4,9]);</script>
+    <title>CHILDHOOD REVIVED Booster Fundraiser</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.booster.com/merchandising/assets/favicon-68bfa8db94af56ad63446fa18c5ead44.ico" />
+    <meta name="referrer" content="always">
+    <meta property="fb:app_id" content="363025400454662" />
+    
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <script>
+    (function () {
+      var minWidth = 600;
+      var maxWidth = 980;
+      var maxScale = 1;
+
+      function isLandscape() {
+        var orientation = window.orientation;
+        return orientation == 90 || orientation == -90;
+      }
+
+      function getScreenWidth() {
+        var width = screen.width;
+
+        // In iphone width and height in landscape still the same as in portrait mode,
+        // but android has the opposite. So, normalize the screen width here.
+        if (isLandscape() && screen.height > screen.width) {
+          width = screen.height;
+        }
+
+        return width;
+      }
+
+      function triggerResize() {
+        window.dispatchEvent(new Event('resize'));
+      }
+
+      function setViewportContent(content, delay) {
+        var setContent = function () {
+          var vp = document.querySelector("meta[name=viewport]");
+          if (vp.content == content) {
+            return;
+          }
+
+          vp.setAttribute("content", content);
+          triggerResize();
+        };
+
+        if (delay) {
+          setTimeout(setContent, delay);
+        } else {
+          setContent();
+        }
+      }
+
+      function exceedMaxWidth() {
+        return getScreenWidth() >= minWidth;
+      }
+
+      function isDesignLab() {
+        return isLandscape() && window.Booster.isOnPage("funnel-designs");
+      }
+
+      function fixViewportWidth(e) {
+        if (exceedMaxWidth() || isDesignLab()) {
+          var content = "width=" + maxWidth;
+          var maxViewport = content + ", maximum-scale=" + maxScale;
+
+          if (e) {
+            // a quick hack to fix for auto zoom issue when rotated to landscape mode
+            setViewportContent(content + ", maximum-scale=0.55");
+            setViewportContent(maxViewport + ", user-scalable=no", 1);
+          } else {
+            setViewportContent(maxViewport);
+          }
+        } else {
+          setViewportContent("width=device-width, maximum-scale=1, user-scalable=no");
+        }
+      }
+
+      if (isLandscape() || exceedMaxWidth()) {
+        fixViewportWidth();
+      }
+
+      window.addEventListener("orientationchange", fixViewportWidth);
+    }());
+  </script>
+
+    <script src="https://cdn.booster.com/merchandising/assets/typekit-685a6e3bc8401c077d741a156068db52.js"></script>
+    <link rel="stylesheet" media="all" href="https://cdn.booster.com/merchandising/assets/application_v2-1828bede8d40372c89362f695317a0c0.css" />
+    
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="fJy2Kb91WVES7Kgf+d01+eo3jQDgqVSIoprCIj5H6mlZsl82+Qzce1+0uSo2OhdpDrHoSq8+/dxxP0lMyaJqjw==" />
+        <meta name="description" content="CHILDHOOD REVIVED. Campaign ends Friday, November 06. Help us meet our fundraising goal of 50 shirts!
+">
+      <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@Booster_Advisor">
+  <meta name="twitter:url" content="http://www.booster.com/childhood-revived">
+  <meta name="twitter:title" content="Support CHILDHOOD REVIVED!">
+  <meta name="twitter:description" content="Buy this great shirt to support CHILDHOOD REVIVED. Hurry, sale ends Friday, November 06.">
+  <meta name="twitter:image:src" content="http://www.customink.com/designs/big_proof/404567357/front">
+
+    <meta content="Click here to support CHILDHOOD REVIVED organized by 90S at Full Effect" property="og:title" />
+<meta content="https://www.booster.com/childhood-revived" property="og:url" />
+
+<meta content="BUY A SHIRT IF YOU LOVED THE 90S" property="og:description" />
+
+  <meta content="https://www.customink.com/designs/wide_proof/404567357/front" property="og:image" />
+  <meta content="https://www.customink.com/designs/wide_proof/404567357/front" property="og:image:secure_url" />
+
+<meta content="website" property="og:type" />
+
+    
+
+    <script src="https://www.google.com/jsapi?key=AIzaSyA5m1Nc8ws2BbmPRwKu5gFradvD_hgq6G0" type="text/javascript"></script>
+    
+  </head>
+  <body class="campaigns campaigns-show">
+      <header id="main-header" class="implementation-v1">
+  <div class="primary">
+    <div class="b-section">
+      <div class="contain">
+        <span class="primary-text">Raise Money. Awareness. Spirits.</span>
+
+
+        <ul class="pull-right list-inline">
+          <li><a href="/contact-us">Contact Us</a></li>
+          <li><a href="/frequently-asked-questions">FAQs</a></li>
+          <li><a href="http://blog.booster.com">Blog</a></li>
+          <li><a href="/dashboard">Your Boosters</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="secondary">
+    <div class="b-section">
+      <div class="contain">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="contain">
+            <div class="navbar-header">
+
+              <button type="button" id="b-nav-toggle" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#main-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <div class="pull-right navbar-tool">
+                    <div class="search-trigger">
+                      <span class="fa fa-search"></span>
+                    </div>
+                </div>
+                <div class="navbar-title">
+                  <a class="navbar-brand" data-track="Homepage" data-track-origin="Campaigns Show Header Logo" data-track-exclude-km="" href="https://www.booster.com/"><img src="https://cdn.booster.com/merchandising/assets/logo-32a1fea35950e15610f4b70268695c4f.png" alt="Logo" /></a>
+                </div>
+            </div>
+
+            
+<div class="collapse navbar-collapse" id="main-navbar-collapse">
+  <ul class="nav navbar-nav navbar-right list-inline">
+
+        <li class="show-for-mobile no-arrow">
+          <a class="start-campaign-mobile text-center" data-track="Hamburger Start Your Own Campaign" data-track-origin="Campaigns Show " data-track-exclude-km="" href="/merchandising/catalog?ref=start-from-campaigns-show-childhood-revived-mobile-menu">Start Your Own Campaign</a>
+        </li>
+
+
+      <li><a href="/merchandising/discover">Browse Campaigns</a></li>
+      <li>
+        <a data-track="How It Works" data-track-origin="Campaigns Show Top Header" data-track-exclude-km="" href="/how-it-works">How It Works</a>
+      </li>
+      <li class="hide-for-mobile">
+        <a class="start-link button primary" href="/merchandising/catalog?ref=start-from-campaigns-show-childhood-revived">Start a Booster</a>
+      </li>
+      <li class="hide-for-mobile no-pad-left">
+      <div class="search-text-box">
+        <form role="search" id="search-holder" action="/merchandising/discover/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+          <div>
+            <input type="text" name="keyword" id="keyword" class="form-control" placeholder="Find A Campaign..." />
+          </div>
+</form>      </div>
+      </li>
+
+    <li class="show-for-mobile">
+      <a data-track="About Us" data-track-origin="Campaigns Show Mobile Hamburger" data-track-exclude-km="" onClick="dataLayer.push({&#39;push_version&#39;: &#39;v2&#39;, &#39;event&#39;: &#39;mobile-header-about-us&#39;});" href="/about-us">About Booster</a>
+    </li>
+    <li class="show-for-mobile"><a onClick="dataLayer.push({&#39;push_version&#39;: &#39;v2&#39;, &#39;event&#39;: &#39;mobile-header-contact-us&#39;});" href="/contact-us">Contact Us</a></li>
+    <li class="show-for-mobile"><a onClick="dataLayer.push({&#39;push_version&#39;: &#39;v2&#39;, &#39;event&#39;: &#39;mobile-header-faq&#39;});" href="/frequently-asked-questions">FAQs</a></li>
+    <li class="show-for-mobile"><a href="http://blog.booster.com">Blog</a></li>
+    <li class="show-for-mobile"><a onClick="dataLayer.push({&#39;push_version&#39;: &#39;v2&#39;, &#39;event&#39;: &#39;mobile-header-terms-of-service&#39;});" href="/user-agreement-policies">Terms Of Service</a></li>
+    <li class="show-for-mobile"><a class="privacy-link" onClick="dataLayer.push({&#39;push_version&#39;: &#39;v2&#39;, &#39;event&#39;: &#39;mobile-header-privacy-policy&#39;});" href="/policies">Privacy Policy</a></li>
+  </ul>
+</div>
+
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="search-dropdown">
+    <div class="search-text-box">
+      <form id="search-holder" onSubmit="dataLayer.push({&#39;push_version&#39;: &#39;v2&#39;, &#39;event&#39;: &#39;mobile-header-search&#39;});" action="/merchandising/discover/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <input type="text" name="keyword" id="keyword" class="search_filter" placeholder="Find A Campaign..." autofocus="autofocus" />
+</form>    </div>
+    <span class="btn btn-default cancel">Cancel</span>
+  </div>
+  
+</header>
+
+
+    <div class="b-offset-header">
+      
+
+
+<div id="campaign-state-flash" class="new-homepage-flag flash-state b-section" style="display:block;">
+  <div class="contain">
+      <h2>Our Booster Campaign Has Closed</h2>
+      <p>
+        Interested In Fundraising With Custom T-Shirts? <a href="/?ref=childhood-revived-closed">Start Your Own Campaign</a>
+      </p>
+  </div>
+</div>
+
+
+<div class="b-section campaign implementation-v1"><div class="contain">
+
+
+  
+  <div class="header">
+    <h1 id="campaign-title">CHILDHOOD REVIVED</h1>
+    <div class="people middle">
+        <div class="organizer">
+          Organized by: <strong>90S at Full Effect</strong>
+        </div>
+
+      <div class="supporter"><span class="top">
+  <div class="fb-share-container">
+    <div class="submit-btn-container"><a href="https://www.facebook.com/sharer/sharer.php?app_id=363025400454662&amp;display=popup&amp;u=https%3A%2F%2Fwww.booster.com%2Fchildhood-revived%3Futm_source%3Dfb_share_desktop%26utm_campaign%3Dchildhood-revived%26utm_medium%3Dfb_share_on_campaign_page_v2%26ref%3Dfb_share_on_campaign_page_v2" class="btn fb-share-btn" target="_blank" id="fb_share" onClick="window.Booster.trackEvents({
+          eventName: &#39;clicked-campaign-merchandising-share-this-on-facebook-top-v2&#39;,
+          extendPageProperties: { &#39;Social Network&#39;: &#39;fb&#39; }
+        });" data-share-source="top-blue-button" data-width="540" data-height="320" data-track="fb-share" data-track-origin="Campaigns Show Top" data-track-exclude-km="true">
+      
+  <div data-picture="true" class="fb-icon">
+      <div data-src="https://cdn.booster.com/merchandising/assets/icons/facebook_square-50f7084e485fd190b7041f758fdd5e33.gif"></div>
+      <div data-src="https://cdn.booster.com/merchandising/assets/icons/facebook_square@2x-f48739c84921488550beac8ec9fa1e00.gif" data-media="(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)"></div>
+    <noscript><img src="https://cdn.booster.com/merchandising/assets/icons/facebook_square-50f7084e485fd190b7041f758fdd5e33.gif" alt="Facebook square" /></noscript>
+</div>
+
+      <span class='fb-share-text'>
+        Share
+      </span>
+      <div class="notice ">
+        The image currently selected will be shared
+      </div>
+</a></div>    <div class="fb-count pull-right"><strong>0</strong> Facebook Supporters</div>
+  </div>
+</span>
+</div>
+    </div>
+  </div>
+
+  <div class="row spacious">
+    <div class="design col-desktop-6">
+      <div class="flip-container big-proof">
+
+  <div class="flipper">
+  <div class="visible-hidden">
+    <img src="https://www.customink.com/designs/big_proof/404567357/front" alt="Front" />
+  </div>
+
+    <div class="front active"
+      data-color="Red"
+      data-flip-group="0">
+      <img class="" alt="CHILDHOOD REVIVED Fundraiser - unisex shirt design - front" data-src="https://www.customink.com/designs/big_proof/404567357/front" src="//www.customink.com/designs/big_proof/404567357/front" />
+    </div>
+    <div class="back active"
+      data-color="Red"
+      data-flip-group="0">
+      <img class="" alt="CHILDHOOD REVIVED Fundraiser - unisex shirt design - back" data-src="https://www.customink.com/designs/big_proof/404567357/back" src="//www.customink.com/designs/big_proof/404567357/back" />
+    </div>
+    <div class="zoom front"
+      data-color="Red"
+      data-flip-group="zoom">
+      <img class="" alt="CHILDHOOD REVIVED shirt design - zoomed" data-src="https://www.customink.com/designs/big_proof_zoomed/404567357/front" src="//www.customink.com/designs/big_proof_zoomed/404567357/front" />
+    </div>
+    <div class="zoom back"
+      data-color="Red"
+      data-flip-group="zoom">
+       
+    </div>
+</div>
+
+
+  <div class="big-proof-buttons show-on-dom-ready">
+    <button class="button light icon rotate
+      ">
+      <i class="fa fa-rotate"></i>
+    </button>
+    <button class="button light icon zoom
+      ">
+      <i class="fa fa-magnify magnify"></i>
+      <i class="fa fa-minimize hidden minimize"></i>
+    </button>
+  </div>
+</div>
+
+<div class="proof-controls">
+  <ul class="little-proof list-inline desktop-spacious">
+      <li class="design_little_proof selected front"><a data-src="https://www.customink.com/designs/big_proof/404567357/front" data-campaign-product-id="713466" data-zoom="https://www.customink.com/designs/big_proof_zoomed/404567357/front" data-color="Red" data-type="1" data-side="front" href="javascript:void(0)"><img alt="CHILDHOOD REVIVED Fundraiser - unisex shirt design - small - front" class="design_little_proof selected front" src="//www.customink.com/designs/big_proof/404567357/front" /></a></li>
+
+      <li class="design_little_proof back"><a data-src="https://www.customink.com/designs/big_proof/404567357/back" data-campaign-product-id="713466" data-zoom="null" data-color="Red" data-type="1" data-side="back" href="javascript:void(0)"><img alt="CHILDHOOD REVIVED Fundraiser - unisex shirt design - small - back" class="design_little_proof back" src="//www.customink.com/designs/big_proof/404567357/back" /></a></li>
+
+    <li class="design_little_proof zoom front"><a data-src="https://www.customink.com/designs/big_proof_zoomed/404567357/front" data-campaign-product-id="713466" data-color="Red" data-type="zoom" data-side="front" href="javascript:void(0)"><img alt="CHILDHOOD REVIVED shirt design - zoomed - front" class="design_little_proof zoom front" src="//www.customink.com/designs/big_proof_zoomed/404567357/front" /></a></li>
+
+    
+  </ul>
+
+    <div class="sizing-chart hidden" data-campaign-product-id="713466">
+      <h6>Gildan Lightweight Hooded Sweatshirt</h6>
+      <ul class="list-inline spacious">
+        <li class="sizes">
+          <strong>Sizes</strong>
+          YXS - XXXXXL
+        </li>
+        <li class="sizing">
+          <a rel="popup" data-popup-options="scrollbars=yes,
+               toolbar=yes,
+               menubar=no,
+               resizable=yes,
+               width=700,
+               height=800,
+               location=yes" onClick="dataLayer.push({
+              &#39;event&#39;: &#39;clicked-campaign-merchandising-view-sizing-line-up-v2&#39;,
+              &#39;push_version&#39;: &#39;v2&#39;
+              });" href="http://www.customink.com/items/sizing/108200_lineup/standard.htm">View Sizing Line-Up</a>
+        </li>
+      </ul>
+    </div>
+</div>
+
+    </div>
+
+    <div class="show-for-mobile">
+      
+    </div>
+
+    <div class="introduction col-desktop-6">
+      <h2>BUY A SHIRT IF YOU LOVED THE 90S</h2>
+
+        <div class="intro-content">
+          <p>IF YOU LOVED THE 90S AND ALL THE TV SHOWS THAT WERE IN THAT TIME PERIOD, THIS BOOSTER IS A PLACE FOR YOU</p>
+
+        </div>
+
+        <div class="beneficiary">
+  <div class="middle group-icon-content">
+    <div class="icon">
+        <img alt="Booster" src="https://cdn.booster.com/merchandising/assets/ico-booster-medium-2f95fcebca10da671eddeaa5ed40d4a9.png" />
+    </div>
+    <div class="content">
+        All funds raised will go to <em>90S at Full Effect</em>, the organizer
+         for <em>Reliving the greatest time period</em>.
+    </div>
+  </div>
+</div>
+
+
+          <div class="goal">
+
+  <div class="meter">
+    <div class="fill" style="width:4%">&nbsp;</div>
+  </div>
+
+    <div class="sold_out">
+  Thanks to our supporters!
+</div>
+
+
+  <div class="shirts-sold">
+    <em>50</em> Shirt Goal
+  </div>
+</div>
+
+        <div class="show-for-desktop">
+          
+        </div>
+        
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="row spacious">
+    <div class="col-desktop-6">
+      <div class="show-for-mobile">
+        <div class="group-icon-content spacious">
+
+  <div class="organizer-info content">
+      Organized by
+      <strong>90S at Full Effect</strong>
+
+    <p class="b-tiny mute">
+      Contact the organizer with any questions.
+    </p>
+
+    <ul class="list-inline spacious">
+      <li>
+        <button name="button" type="button" class="button unfilled contact-organizer-link" onClick="dataLayer.push({&#39;event&#39;: &#39;clicked-campaign-merchandising-contact-bottom-v2&#39;, &#39;push_version&#39;: &#39;v2&#39;});">Contact</button>
+      </li>
+      <li>
+        <div class="show-for-desktop b-tiny">
+          <span class="bottom">
+  <div class="fb-share-container">
+    <div class="submit-btn-container"><a href="https://www.facebook.com/sharer/sharer.php?app_id=363025400454662&amp;display=popup&amp;u=https%3A%2F%2Fwww.booster.com%2Fchildhood-revived%3Futm_source%3Dfb_share_desktop%26utm_campaign%3Dchildhood-revived%26utm_medium%3Dfb_share_on_campaign_page_v2%26ref%3Dfb_share_on_campaign_page_v2" class="btn fb-share-btn" target="_blank" id="fb_share" onClick="window.Booster.trackEvents({
+          eventName: &#39;clicked-campaign-merchandising-share-this-on-facebook-bottom-v2&#39;,
+          extendPageProperties: { &#39;Social Network&#39;: &#39;fb&#39; }
+        });" data-share-source="bottom-blue-button" data-width="540" data-height="320" data-track="fb-share" data-track-origin="Campaigns Show Bottom" data-track-exclude-km="true">
+      
+  <div data-picture="true" class="fb-icon">
+      <div data-src="https://cdn.booster.com/merchandising/assets/icons/facebook_square-50f7084e485fd190b7041f758fdd5e33.gif"></div>
+      <div data-src="https://cdn.booster.com/merchandising/assets/icons/facebook_square@2x-f48739c84921488550beac8ec9fa1e00.gif" data-media="(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)"></div>
+    <noscript><img src="https://cdn.booster.com/merchandising/assets/icons/facebook_square-50f7084e485fd190b7041f758fdd5e33.gif" alt="Facebook square" /></noscript>
+</div>
+
+      <span class='fb-share-text'>
+        Share
+      </span>
+      <div class="notice ">
+        The image currently selected will be shared
+      </div>
+</a></div>    <div class="fb-count pull-right"><strong>0</strong> Facebook Supporters</div>
+  </div>
+</span>
+
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+        <hr />
+      </div>
+      
+          
+<div class="fb-comment-container">
+  <h3>Share Why You Support &quot;CHILDHOOD REVIVED&quot;</h3>
+  
+  <div class="fb-comment-loading">
+    <img class="loading-animation" src="https://cdn.booster.com/merchandising/assets/shared/loading-dff60c196687c7657ef7170ea33a41ab.gif" alt="Loading" />
+    <div class="text">Loading Facebook comments&hellip;</div>
+  </div>
+  <div class="fb-comments" data-width="100%" data-href="https://www.booster.com/childhood-revived" data-num-posts="10"></div>
+</div>
+
+    </div>
+
+    <div class="col-desktop-6">
+      <div class="show-for-desktop">
+        <div class="group-icon-content spacious">
+
+  <div class="organizer-info content">
+      Organized by
+      <strong>90S at Full Effect</strong>
+
+    <p class="b-tiny mute">
+      Contact the organizer with any questions.
+    </p>
+
+    <ul class="list-inline spacious">
+      <li>
+        <button name="button" type="button" class="button unfilled contact-organizer-link" onClick="dataLayer.push({&#39;event&#39;: &#39;clicked-campaign-merchandising-contact-bottom-v2&#39;, &#39;push_version&#39;: &#39;v2&#39;});">Contact</button>
+      </li>
+      <li>
+        <div class="show-for-desktop b-tiny">
+          <span class="bottom">
+  <div class="fb-share-container">
+    <div class="submit-btn-container"><a href="https://www.facebook.com/sharer/sharer.php?app_id=363025400454662&amp;display=popup&amp;u=https%3A%2F%2Fwww.booster.com%2Fchildhood-revived%3Futm_source%3Dfb_share_desktop%26utm_campaign%3Dchildhood-revived%26utm_medium%3Dfb_share_on_campaign_page_v2%26ref%3Dfb_share_on_campaign_page_v2" class="btn fb-share-btn" target="_blank" id="fb_share" onClick="window.Booster.trackEvents({
+          eventName: &#39;clicked-campaign-merchandising-share-this-on-facebook-bottom-v2&#39;,
+          extendPageProperties: { &#39;Social Network&#39;: &#39;fb&#39; }
+        });" data-share-source="bottom-blue-button" data-width="540" data-height="320" data-track="fb-share" data-track-origin="Campaigns Show Bottom" data-track-exclude-km="true">
+      
+  <div data-picture="true" class="fb-icon">
+      <div data-src="https://cdn.booster.com/merchandising/assets/icons/facebook_square-50f7084e485fd190b7041f758fdd5e33.gif"></div>
+      <div data-src="https://cdn.booster.com/merchandising/assets/icons/facebook_square@2x-f48739c84921488550beac8ec9fa1e00.gif" data-media="(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)"></div>
+    <noscript><img src="https://cdn.booster.com/merchandising/assets/icons/facebook_square-50f7084e485fd190b7041f758fdd5e33.gif" alt="Facebook square" /></noscript>
+</div>
+
+      <span class='fb-share-text'>
+        Share
+      </span>
+      <div class="notice ">
+        The image currently selected will be shared
+      </div>
+</a></div>    <div class="fb-count pull-right"><strong>0</strong> Facebook Supporters</div>
+  </div>
+</span>
+
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+        <hr />
+      </div>
+
+      <div class="comments">
+        
+      </div>
+
+    </div>
+  </div>
+
+  <div class="contact-organizer-modal implementation-v1">
+  <div class="overlay">
+    <div class="contact-modal">
+      <div class= "contact-modal-head">
+        <button class="close close-btn">
+          <span>&times;</span>
+        </button>
+        <div class="contact-form">
+          <h2>Contact Organizer</h2>
+          <p>Send a message to the campaign organizer</p>
+        </div>
+      </div>
+      <section class="form-fields">
+        <div class="success-message">
+          Your message was sent successfully!
+        </div>
+        <div class="error-message">
+          We&#39;re sorry. Your message was unable to be sent. Please try again in a few minutes.
+        </div>
+        <div class="clearfix"></div>
+        <div class="form-container">
+          <form class="contact-organizer-form" action="/merchandising/campaigns/childhood-revived/contact_organizer" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+            <div class="modal-body">
+              <input value="childhood-revived" type="hidden" name="contact_organizer_form[url_key]" id="contact_organizer_form_url_key" />
+              <div class="form-group">
+                <label>Your Email Address:</label>
+                <input required="required" class="textbox form-control" type="email" name="contact_organizer_form[supporter_email]" id="contact_organizer_form_supporter_email" />
+              </div>
+              <div class="clearfix"></div>
+              <div class="form-group">
+                <label>Message:</label>
+                <textarea required="required" class="textarea form-control" name="contact_organizer_form[message]" id="contact_organizer_form_message">
+</textarea>
+              </div>
+              <div class="recaptcha">
+  <script src="//www.google.com/recaptcha/api.js" async defer></script>
+<div class="g-recaptcha" data-sitekey="6LfJJwMTAAAAADo8v6gx7mQSeHutsKfM0tQWYhUW" data-stoken="ATlittidFFdsYxiLKHSJFixgfQugJqBiAnPfgalhq8sIRSyUbfazbMDIAJo8Zz4aqVFVFHGk5rYA3m-jfqwB1WloGQA2R72NIvwFk8xbsy8"></div>
+          <noscript>
+            <div style="width: 302px; height: 352px;">
+              <div style="width: 302px; height: 352px; position: relative;">
+                <div style="width: 302px; height: 352px; position: absolute;">
+                  <iframe
+                    src="//www.google.com/recaptcha/api/fallback?k=6LfJJwMTAAAAADo8v6gx7mQSeHutsKfM0tQWYhUW"
+                    frameborder="0" scrolling="no"
+                    style="width: 302px; height:352px; border-style: none;">
+                  </iframe>
+                </div>
+                <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                  bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
+                  <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                    class="g-recaptcha-response"
+                    style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                    margin: 0px; padding: 0px; resize: none;" value="">
+                  </textarea>
+                </div>
+              </div>
+            </div>
+          </noscript>
+
+  <input type="text" name="captcha" id="captcha" required="required" class="captcha-area" />
+</div>
+
+            </div>
+
+            <div class="modal-footer">
+              <div class="clearfix"></div>
+              <div class="submit-btn-container custom-btn">
+                <input type="submit" name="commit" value="Submit" class="button primary" />
+              </div>
+              <a class="btn btn-default close-btn-footer" href="#">Close</a>
+            </div>
+</form>        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  <div class="modal fade information-theme implementation-v1"
+     id="verified-charity-modal"
+     role="dialog"
+     aria-hidden="true"
+     aria-labeledby="verified-charity-label">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+        </button>
+        <div class="modal-title"><strong>What is a Verified Charity?</strong></div>
+      </div>
+      <div class="modal-body">
+        <p>Booster has verified this organization as a legally registered charity. A verified charity, also known as a &quot;501c3&quot;, is a charity that has received non-profit designation by the IRS. This &quot;tax-exempt&quot; status means that an organization is exempt from federal income tax if it supports charitable, religious, educational, scientific, literary and a number of other causes. Booster uses a database of registered 501c3 non-profits to verify status.
+</p>
+      </div>
+      <div class="modal-footer modal-lighter-footer">
+        <button type="button" class="button" data-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+</div></div>
+
+
+    </div>
+
+      <footer class="b-section">
+  <div class="contain">
+      <div class="row">
+        <div class="col-desktop-3 col-mobile-6">
+          <ul class="list-unstyled">
+            <li>About Booster</li>
+            <li>
+              <a data-track="About Us" data-track-origin="Campaigns Show Bottom Footer" data-track-exclude-km="" href="/about-us">About Us</a>
+            </li>
+            <li>
+              <a href="/contact-us">Contact Us</a>
+            </li>
+            <li>
+              <a href="/careers">Careers</a>
+            </li>
+            <li>
+              <a target="_blank" href="http://www.customink.com/">CustomInk</a>
+            </li>
+            <li>
+              <a href="/charity-fundraising">Non-Profit Fundraising</a>
+            </li>
+            <li>
+              <a href="http://fundraising.booster.com/bizdev-ideas">Nonprofit Organizations</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-desktop-3 col-mobile-6">
+          <ul class="list-unstyled">
+            <li>Elsewhere</li>
+            <li>
+              <a href="https://www.facebook.com/BoosterAdvisors">
+                <i class="fa fa-facebook"></i>
+                Facebook
+</a>            </li>
+            <li>
+              <a href="https://twitter.com/BoosterLLC">
+                <i class="fa fa-twitter"></i>@BoosterLLC
+</a>            </li>
+            <li>
+              <a href="https://www.pinterest.com/BoosterLLC/">
+                <i class="fa fa-pinterest"></i>
+                Pinterest
+</a>            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/booster-llc">
+                <i class="fa fa-linkedin"></i>
+                Linkedin
+</a>            </li>
+          </ul>
+        </div>
+        <div class="col-desktop-3 col-mobile-6">
+          <ul class="list-unstyled">
+            <li>
+              Learn More
+            </li>
+            <li>
+              <a class="organizer" data-track="How It Works" data-track-origin="Campaigns Show Bottom Footer" data-track-exclude-km="" href="/how-it-works">How It Works</a>
+            </li>
+            <li>
+              <a href="/frequently-asked-questions">FAQs</a>
+            </li>
+            <li>
+              <a href="/user-agreement-policies">Terms Of Service</a>
+            </li>
+            <li>
+              <a class="privacy-link" href="/policies">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="http://blog.booster.com">Blog</a>
+            </li>
+            <li>
+              <a href="http://fundraising.booster.com/fundraising-ideas">Fundraising Ideas</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-desktop-3 col-mobile-6">
+          <ul class="list-unstyled">
+            <li>We&#39;ve got your back</li>
+            <li>
+              <label>Call Us</label>
+              <p>855-631-6850</p>
+            </li>
+            <li>
+              <label>Visit Us</label>
+              <p>
+                Riverside Center,<br>
+                275 Grove St. Suite 1-305<br>
+                Newton, MA 02466
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+
+  <div class="b-section" id="bottom-bar">
+    <div class="contain">
+      <span class="inky-logo pull-right show-for-desktop">
+        <a href='http://www.customink.com' target="_blank">
+          Created by CustomInk
+          <img src="https://cdn.booster.com/merchandising/assets/footer-inky-121c47daa9aa27341a463d0f71bcb878.png" alt="Footer inky" />
+        </a>
+      </span>
+      <span class="copyright">
+        &copy; 2016 Booster, LLC. All rights reserved. CustomInk and the &quot;Inky&quot; octopus are trademarks of CustomInk, LLC.
+      </span>
+      <span class="inky-logo show-for-mobile">
+        <a href='http://www.customink.com' target="_blank">
+          Created by<img src="https://cdn.booster.com/merchandising/assets/footer-inky-121c47daa9aa27341a463d0f71bcb878.png" alt="Footer inky" />CustomInk
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+
+      <div class='hidden-mobile-nav'></div>
+
+
+    <script src="https://cdn.booster.com/merchandising/assets/application_v2-8d3d3400596616bcf9d89c38c1c996c6.js"></script>
+    <script src="https://cdn.booster.com/merchandising/assets/controllers/campaigns-b8b74809e0c1fd16274042f222e89df9.js"></script>
+
+      <script>
+  (function () {
+    var features = {"mobile_lead_form":"excluded","mobile_campaign_preloader_v3":"yes","braintree":"excluded","order_tracking":"excluded","size_selection_on_campaign_page":"excluded"};
+
+    window.Booster.Signalman = {
+      getAnalyticProps: function() {
+        var props = {};
+
+        for (var key in features) {
+          if (!features.hasOwnProperty(key)) continue;
+
+          var humanizedKey = key.toLowerCase().replace(/\_/g, ' ');
+          var value = features[key];
+          props['Signalman ' + humanizedKey] = value;
+        }
+
+        return props;
+      }
+    };
+  }());
+</script>
+
+<script>
+  (function () {
+    window.Booster.analyticsCookies = new Booster.AnalyticsCookies;
+  }());
+</script>
+
+<script>
+  window.dataLayer = [];
+  var deviceType = "desktop";
+  window.gtmDeviceType = "desktop"; // Device Category for GTM
+</script>
+
+<script>
+
+    var _kmk = _kmk || '81b63a1906cd4936763e012da1ffc12b65392406';
+    window.dataLayer.push({'gaAccount' : 'UA-47842012-1'});
+    window.dataLayer.push({'gaAccountUniversal' : 'UA-47842012-2'});
+
+  if (!Booster.analyticsCookies) {
+    window.Booster.analyticsCookies = new window.Booster.AnalyticsCookies();
+  }
+
+  var mergedProps = $.extend(window.Booster.Signalman.getAnalyticProps(),
+                             window.Booster.analyticsCookies.getProps());
+
+  window.dataLayer.push({
+    pageProperties: mergedProps
+  });
+
+  var _kmq = _kmq || [];
+  function _kms(u) {
+    setTimeout(function(){
+      var d = document, f = d.getElementsByTagName('script')[0],
+      s = d.createElement('script');
+      s.type = 'text/javascript'; s.async = true; s.src = u;
+      f.parentNode.insertBefore(s, f);
+    }, 1);
+  }
+  var initKms = function() {
+    _kms('//i.kissmetrics.com/i.js');
+    _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+
+    var refs = { ref : "", defaultRef : "campaignpage-nonopen-childhood-revived"}
+    new FirstReferralAnalytics(refs, 1455828140, '128.82.4.182').set_ref();
+
+    var interval = setInterval(function(){
+      $.event.trigger({
+        type: 'googletagmanager_load_ok',
+        w: window,
+        d: document,
+        s: 'script',
+        l: 'dataLayer',
+        i: 'GTM-K9TC8D',
+        interval: interval
+      });
+    }, 200);
+  }
+
+  $(document).on('googletagmanager_load_ok', function(e){
+    var w=e.w, d=e.d, s=e.s, l=e.l, i=e.i;
+    var f = d.getElementsByTagName('body')[0];
+
+    if (typeof f !== "undefined") {
+      clearInterval(e.interval);
+    } else {
+      return;
+    }
+
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start': new Date().getTime(),
+      event: 'gtm.js'
+    });
+
+    var j = document.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true
+    j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+
+    f.appendChild(j);
+  });
+
+  initKms();
+</script>
+
+<!-- Fire the starting campaign event -->
+  <script>
+//<![CDATA[
+Analytics.Campaigns.start({"url_key":"childhood-revived","state":"failed","shipping_type":"drop_ship","funnel_version":"v2"}, false);
+//]]>
+</script>
+
+      <div id="fb-root"></div>
+<script>
+  $(document).ready(function(){
+    window.fbAsyncInit = function() {
+      // init the FB JS SDK
+      FB.init({
+        appId      : '363025400454662', // App ID from the App Dashboard
+        channelUrl : '//www.booster.com/channel.html', // Channel File for x-domain communication
+        status     : true, // check the login status upon init?
+        cookie     : true, // set sessions cookies to allow your server to access the session?
+        xfbml      : true,  // parse XFBML tags on this page?
+        version    : 'v2.3'
+      });
+
+      // Additional initialization code such as adding Event Listeners goes here
+      var fb_context = 'main';
+      // Override fb_context here
+      
+    $(document).ready(function(){
+      FB.Event.subscribe('comment.create',
+       function () {
+         dataLayer.push({
+           'event': 'clicked-campaign-merchandising-facebook-comment-v2',
+           'push_version' : 'v2'
+         });
+       }
+      );
+      var analytics_tags = {
+          utm_source   : 'fb_share_desktop',
+          utm_campaign : 'childhood-revived',
+          utm_medium   : 'fb_share_on_campaign_page_v2',
+          ref          : 'fb_share_on_campaign_page_v2',
+      };
+      var campaign = {
+        id:  2800352,
+        name: "CHILDHOOD REVIVED",
+        intro_header: "BUY A SHIRT IF YOU LOVED THE 90S",
+        url: 'https://www.booster.com/childhood-revived',
+        image: 'https://www.customink.com/designs/wide_proof/404567357/front',
+        percent_sold: 0,
+        fb_share_count: 0,
+        message: "Click here to support CHILDHOOD REVIVED organized by 90S at Full Effect"
+      };
+      var btn_config = {
+        campaign : campaign,
+        postshare_template : 'campaign/share_thanks',
+        analytics : new FacebookShare.ButtonAnalytics(),
+        selectors : {
+          click_target       : '.fb-share-btn',
+          post_click_target  : '.fb-share-thanks',
+          count              : '.fb-count',
+          container          : '.fb-share-container',
+          preshare_container : '.can-share'
+        }
+      };
+      var link_config = {
+        campaign : campaign,
+        postshare_template : 'campaign/share_thanks',
+        analytics : new FacebookShare.LinkAnalytics(),
+        selectors : {
+          click_target      : '.fb-share-link',
+          post_click_target : '.fb-share-thanks',
+          count             : '.fb-count',
+          container         : '.fb-share-container',
+          list_item         : '.fb-list-item'
+        }
+      };
+
+      new FacebookShare(link_config, analytics_tags).initialize();
+      new FacebookThumbnailSelector(new FacebookShare(btn_config, analytics_tags), ".little-proof a");
+    });
+
+      $(document).trigger('facebook:init');
+      var analytics = new SocialAnalytics(fb_context);
+      analytics.subscribe_to_facebook();
+    };
+
+    // Load the SDK's source Asynchronously
+    // Note that the debug version is being actively developed and might
+    // contain some type checks that are overly strict.
+    // Please report such bugs using the bugs tool.
+    (function(d, debug){
+       var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement('script'); js.id = id; js.async = true;
+       js.src = "https://connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
+       ref.parentNode.insertBefore(js, ref);
+     }(document, /*debug*/ false));
+   });
+</script>
+
+
+      <script>
+    Booster.LoadingIcon.bindLoadingToObject($(".contributors .container"), $(".pagination-container").find("a"));
+  </script>
+    <script>
+      $(document).ready(function() {
+        window.contactOrganizer = window.contactOrganizer || new ContactOrganizer().initialize(Booster.Recaptcha);
+      });
+    </script>
+
+    <script>
+//<![CDATA[
+
+  var $campaign = {
+      id: '2800352',
+      url_key: 'childhood-revived',
+      state: 'failed',
+      shipping_fee: 5.0,
+      product_price: 30.0,
+      percent_sold: 0,
+      name: 'CHILDHOOD REVIVED',
+      url: 'https://www.booster.com/childhood-revived',
+      intro_header: 'BUY A SHIRT IF YOU LOVED THE 90S',
+      image: 'https://www.customink.com/designs/wide_proof/404567357/front',
+      storefront: false,
+      fb_share_count: 0
+    }
+
+//]]>
+</script>
+      <script src="https://cdn.booster.com/merchandising/assets/view_actions/show-3fd9e0483d7a11315fdef1003f09cc20.js"></script>
+      <script src="https://cdn.booster.com/merchandising/assets/view_actions/url_image_selector-8483e8465b357284dedaa9129a2da13e.js"></script>
+      <script src="https://cdn.booster.com/merchandising/assets/view_actions/style_selection-7d138d595e99de1d3c2d750bc6282783.js"></script>
+      <script>
+//<![CDATA[
+
+  $(function(){
+    var params = {
+      urlKey: 'childhood-revived',
+      campaignState: 'failed',
+      donationsEnabled: true,
+      campaignPageVersion: 'false'
+    };
+
+    Analytics.Campaigns.viewedCampaignPage(params);
+    Analytics.Campaigns.draftShareCampaignPageViewed({
+      context:window.location.hash,
+      utm_source:null
+    });
+  });
+
+//]]>
+</script>
+      <script>
+      $(document).ready(function(){
+        var multiProduct = false;
+        var selectors = {
+              proofSelector: $('.design_little_proof'),
+              styleTarget: $('.style-options .option'),
+              thumbnailTarget: $('.options-overlay'),
+              optionTarget: $('.selected-style')
+            };
+
+        var currentParams = Booster.QueryString.parse(window.location.search);
+
+        var urlImageSelector = new Booster.UrlImageSelector(currentParams);
+        var styleSelection = new StyleSelection(selectors, multiProduct);
+        styleSelection.registerObserver(urlImageSelector);
+        styleSelection.initialize();
+      });
+      </script>
+
+    
+    
+  </body>
+</html>

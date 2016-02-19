@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta name="robots" content="nofollow" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, post-check=0, pre-check=0" />
+	<meta http-equiv="Expires" content="Thu, 01 Dec 1994 16:00:00 GMT" />
+	<title>まぁう(@sz_magic)のプロフィール - ツイフィール</title>
+	<meta property="og:locale" content="ja_JP" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://twpf.jp/sz_magic" />
+	<meta property="og:image" content="http://pbs.twimg.com/profile_images/692283230737797122/N_IHVmX4_normal.jpg" />
+	<meta property="og:title" content="まぁう(@sz_magic)のプロフィール - ツイフィール" />
+	<meta property="og:site_name" content="ツイフィール" />
+	<meta property="og:description" content="@まぁう(@sz_magic)さんのプロフィールです。" />
+	<meta name="description" content="@まぁう(@sz_magic)さんのプロフィールです。" />
+	<link rel="alternate" media="handheld" href="http://twpf.jp/sz_magic" />
+	<link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" type="text/css" href="/css/common.css?1407302277" />
+	<link rel="stylesheet" type="text/css" href="/css/style_default.css?1407302277" />
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.laquu.custom.js?1407302279"></script>
+	<script type="text/javascript" src="/js/style_default.js?1407302280"></script>
+	<script type="text/javascript" src="/js/showFeed.js?1407302280"></script>
+	<style type="text/css">
+		body {
+							background-image: url("http://abs.twimg.com/images/themes/theme1/bg.png");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+						background-color: #C0DEED !important;
+		}
+		#container a { color: #0084B4 !important; }
+	</style>
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push( [ '_setAccount', 'UA-11147513-7' ]);
+	_gaq.push( [ '_trackPageview' ]);
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+<div id="topbar">
+	<div class="wrapper cf">
+		<div id="topbar-logo"><a href="/"><img src="/img/twpf-logo-mini.png?1407302278" alt="" /></a></div>
+		<ul id="topbar-navi">
+			<li><a href="/about">サイトについて</a></li>
+			<li><a href="/search/profile">プロフィール検索</a></li>
+			<li><a href="#">遊ぶ▼</a>
+				<ul>
+					<li><a href="http://tonchi.jp/" target="_blank">大喜利する</a></li>
+					<li><a href="http://qa-note.com/" target="_blank">質問する</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul id="topbar-login-navi">
+							<li><a href="/signup">プロフィール作成</a></li>
+				<li><a href="/login">ログイン</a></li>
+					</ul>
+	</div>
+</div>
+<div id="container">
+	<div id="header">
+	<h1 id="h-profile">sz_magic's Profile</h1>
+	<div id="twitter-user" class="box">
+		<div class="pad">
+			<table id="user">
+				<tr>
+					<td id="user-icon">
+						<a href="https://twitter.com/sz_magic" title="sz_magic" target="_blank" rel="nofollow"><img src="http://pbs.twimg.com/profile_images/692283230737797122/N_IHVmX4_reasonably_small.jpg" alt="sz_magic" /></a>					</td>
+					<td id="user-info">
+						<div class="uib-top uib-bottom clearfix">
+							<h2 id="h-screen-name" class="ui-top">ユーザー名</h2>
+							<p class="ui-top"><a href="https://twitter.com/sz_magic" target="_blank" rel="nofollow">@sz_magic</a></p>
+						</div>
+						<div class="uib-bottom clearfix">
+							<h2 id="h-name">名前</h2>
+							<p>まぁう</p>
+						</div>
+												<div class="uib-bottom clearfix">
+							<h2 id="h-location">場所</h2>
+							<p>広島(97)  next→ファンミ広島</p>
+						</div>
+																		<div class="uib-bottom clearfix">
+							<h2 id="h-web">Web</h2>
+							<p><a href="http://twpf.jp/sz_magic" title="http://twpf.jp/sz_magic" target="_blank" rel="nofollow">http://twpf.jp/sz_magic</a></p>
+						</div>
+											</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<div id="contents" class="clearfix">
+	<div class="tabs">
+		<ul class="tab">
+			<li><a href="#profile">プロフィール</a></li>
+			<li><a href="#data">データ</a></li>
+								</ul>
+
+		<div id="profile" class="tab-panel">
+			<div class="box">
+				<h2 id="h-description">自己紹介</h2>
+				<div class="pad">。゜⋆。゜⋆//佐藤勝利//岩橋玄樹//。゜⋆。゜⋆ Sexy Zone￤じぐいわ￤MAGIC￤Jr.全般￤セクゾ&amp;MAGICについて語れる人募集中￤高橋優斗をゆるーく応援中￤</div>
+			</div>
+
+			<div class="box">
+				<h2 id="h-motto">もっと自己紹介</h2>
+				<div class="pad">佐藤勝利と岩橋玄樹の掛け持ち、神宮寺&amp;聡くん世代のまぁうです！！<br />
+広島住み🔅広島住みさん、仲良くしましょう！同担拒否しません！セクゾ、じぐいわ、セクボ（magic）、Jr.担の方、待ってまーす！！<br />
+濃くなれる人、安定さん募集中！！人見知りなので、たくさん絡んでください🙏<br />
+気軽にふぉろーみー！！<br />
+<br />
+参戦歴*\(^o^)/*<br />
+<br />
+☆Sexy Zone Spring Tour Second  5.5<br />
+☆Sexy Zone Sexy Power Tour  5.4<br />
+<br />
+☆JOHNNYS&#039; 2020 WORLO  1.2<br />
+☆2015新春JOHNNYS&#039; World  1.3<br />
+☆JOHNNYS &#039;World. 1.2</div>
+			</div>
+
+			
+							<!-- google_ad_section_start -->
+				<div class="box">
+					<h2 id="h-like">好きなものタグ</h2>
+					<div class="pad">
+						<ul class="tagCloud clearfix">
+															<li><a href="/search/profile?target=like_tag&amp;keyword=Sexy+Zone">Sexy Zone</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E4%BD%90%E8%97%A4%E5%8B%9D%E5%88%A9">佐藤勝利</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E4%B8%AD%E5%B3%B6%E5%81%A5%E4%BA%BA">中島健人</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E8%8F%8A%E6%B1%A0%E9%A2%A8%E7%A3%A8">菊池風磨</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E3%83%9E%E3%83%AA%E3%82%A6%E3%82%B9%E8%91%89">マリウス葉</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E6%9D%BE%E5%B3%B6%E8%81%A1">松島聡</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E3%81%98%E3%81%90%E3%81%84%E3%82%8F">じぐいわ</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E3%82%BB%E3%82%AF%E3%83%9C">セクボ</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E5%B2%A9%E6%A9%8B%E7%8E%84%E6%A8%B9">岩橋玄樹</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E7%A5%9E%E5%AE%AE%E5%AF%BA%E5%8B%87%E5%A4%AA">神宮寺勇太</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E5%B2%B8%E5%84%AA%E5%A4%AA">岸優太</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E5%AE%AE%E8%BF%91%E6%B5%B7%E6%96%97">宮近海斗</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E9%98%BF%E9%83%A8%E9%A1%95%E5%B5%90">阿部顕嵐</a></li>
+													</ul>
+					</div>
+				</div>
+				<!-- google_ad_section_end -->
+			
+			
+					</div>
+
+		<div id="data" class="tab-panel">
+			<div class="box">
+				<h2 id="h-count">カウントデータ</h2>
+				<div class="pad">
+					<table id="tbl-count">
+						<tbody>
+							<tr>
+								<th>フォロー</th><td>127</td>
+								<th>お気に入り</th><td>110</td>
+							</tr>
+							<tr>
+								<th>フォロワー</th><td>86</td>
+								<th>リスト</th><td>2</td>
+							</tr>
+							<tr>
+								<th>ツイート</th><td>537</td>
+								<th>平均ツイート</th><td>5.9 / 日</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="box">
+				<h2 id="h-date">日付データ</h2>
+				<div class="pad">
+					<table id="tbl-date">
+						<tbody>
+							<tr>
+								<th>Twitter歴</th><td>91日</td>
+								<th>プロフ作成日</th><td>2015/11/23 18:10</td>
+							</tr>
+							<tr>
+								<th>Twitter登録日</th><td>2015/11/21 00:30</td>
+								<th>プロフ更新日</th><td>2016/01/09 20:33</td>
+							</tr>
+							<tr>
+								<th>API取得完了</th><td>2016/02/11 16:13</td>
+								<th>API取得予定</th><td>2016/02/12 16:13</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+			</div>
+
+</div>
+<div class="pr">	
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8179295293876270";
+/* twpf.jp big */
+google_ad_slot = "5297021042";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<div id="footer">
+	<p>&copy; 2010-2016 <a href="/">ツイフィール</a></p>
+</div></div>
+</body>
+</html>

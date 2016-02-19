@@ -1,0 +1,1319 @@
+<!doctype html >
+<!--[if IE 8]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="fr-FR" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<head>
+    <title>Journal Le Républicain - Hebdomadaire de l&#039;Essonne</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="pingback" href="//www.le-republicain.fr/xmlrpc.php" />
+    <link rel="icon" type="image/png" href="//www.le-republicain.fr/wp-content/uploads/2015/10/icon-152.png"><link rel="apple-touch-icon-precomposed" sizes="76x76" href="//www.le-republicain.fr/wp-content/uploads/2015/10/icon-152.png"/><link rel="apple-touch-icon-precomposed" sizes="120x120" href="//www.le-republicain.fr/wp-content/uploads/2015/10/icon-152.png"/><link rel="apple-touch-icon-precomposed" sizes="152x152" href="//www.le-republicain.fr/wp-content/uploads/2015/10/icon-152.png"/><link rel="apple-touch-icon-precomposed" sizes="114x114" href="//www.le-republicain.fr/wp-content/uploads/2015/10/icon-152.png"/><link rel="apple-touch-icon-precomposed" sizes="144x144" href="//www.le-republicain.fr/wp-content/uploads/2015/10/icon-152.png"/>
+<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Le Républicain de l’Essonne est depuis plus de 70 ans le premier hebdomadaire du département. Il couvre toute l’actualité locale et départementale, ainsi que l’intégralité des événements sportifs et les loisirs."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="//www.le-republicain.fr/" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Journal Le Républicain - Hebdomadaire de l&#039;Essonne" />
+<meta property="og:description" content="Le Républicain de l’Essonne est depuis plus de 70 ans le premier hebdomadaire du département. Il couvre toute l’actualité locale et départementale, ainsi que l’intégralité des événements sportifs et les loisirs." />
+<meta property="og:url" content="http://www.le-republicain.fr/" />
+<meta property="og:site_name" content="Le Républicain" />
+<meta property="og:image" content="http://www.le-republicain.fr/wp-content/uploads/2015/10/logo.png" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="Le Républicain de l’Essonne est depuis plus de 70 ans le premier hebdomadaire du département. Il couvre toute l’actualité locale et départementale, ainsi que l’intégralité des événements sportifs et les loisirs."/>
+<meta name="twitter:title" content="Journal Le Républicain - Hebdomadaire de l&#039;Essonne"/>
+<meta name="twitter:site" content="@LeRep91"/>
+<meta name="twitter:image" content="http://www.le-republicain.fr/wp-content/uploads/2015/10/logo.png"/>
+<meta name="twitter:creator" content="@LeRep91"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.le-republicain.fr\/","name":"Le R\u00e9publicain","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.le-republicain.fr\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/www.le-republicain.fr\/","sameAs":["https:\/\/www.facebook.com\/Le-R\u00e9publicain-de-LEssonne-101724246602200","https:\/\/twitter.com\/LeRep91"],"name":"Le R\u00e9publicain","logo":"http:\/\/www.le-republicain.fr\/wp-content\/uploads\/2015\/10\/logo-mobile.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Le Républicain &raquo; Flux" href="//www.le-republicain.fr/feed" />
+<link rel="alternate" type="application/rss+xml" title="Le Républicain &raquo; Flux des commentaires" href="//www.le-republicain.fr/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="Le Républicain &raquo; Accueil Flux des commentaires" href="//www.le-republicain.fr/news/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.le-republicain.fr\/wp-includes\/js\/wp-emoji-release.min.js?ver=c7fe0ae695dc0ef624e83efaf71fea0c"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='//www.le-republicain.fr/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=c7fe0ae695dc0ef624e83efaf71fea0c' type='text/css' media='all' />
+<link rel='stylesheet' id='mian-css-front_ads-css'  href='//www.le-republicain.fr/wp-content/plugins/easy-ads-manager/css/easy-ads-manager-front.css?ver=c7fe0ae695dc0ef624e83efaf71fea0c' type='text/css' media='all' />
+<link rel='stylesheet' id='google_font_open_sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700&#038;ver=c7fe0ae695dc0ef624e83efaf71fea0c' type='text/css' media='all' />
+<link rel='stylesheet' id='google_font_roboto_cond-css'  href='//fonts.googleapis.com/css?family=Roboto+Condensed%3A300italic%2C400italic%2C700italic%2C400%2C300%2C700&#038;ver=c7fe0ae695dc0ef624e83efaf71fea0c' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='//www.le-republicain.fr/wp-content/plugins/js_composer/assets/css/js_composer.css?ver=c7fe0ae695dc0ef624e83efaf71fea0c' type='text/css' media='all' />
+<link rel='stylesheet' id='td-theme-css'  href='//www.le-republicain.fr/wp-content/themes/Newsmag/style.css?ver=c7fe0ae695dc0ef624e83efaf71fea0c' type='text/css' media='all' />
+<script type='text/javascript' src='//www.le-republicain.fr/wp-includes/js/jquery/jquery.js?ver=c7fe0ae695dc0ef624e83efaf71fea0c'></script>
+<script type='text/javascript' src='//www.le-republicain.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=c7fe0ae695dc0ef624e83efaf71fea0c'></script>
+<script type='text/javascript' src='//www.le-republicain.fr/wp-content/plugins/easy-ads-manager/js/owl.carousel.min.js?ver=c7fe0ae695dc0ef624e83efaf71fea0c'></script>
+<script type='text/javascript' src='//www.le-republicain.fr/wp-content/plugins/easy-ads-manager/js/easy-ads-manager-front.js?ver=c7fe0ae695dc0ef624e83efaf71fea0c'></script>
+<link rel='https://api.w.org/' href='//www.le-republicain.fr/wp-json/' />
+
+<link rel='shortlink' href='//www.le-republicain.fr/' />
+<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="//www.le-republicain.fr/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="//www.le-republicain.fr/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]-->
+<!-- JS generated by theme -->
+
+<script>
+    
+
+var tdBlocksArray = []; //here we store all the items for the current page
+
+//td_block class - each ajax block uses a object of this class for requests
+function tdBlock() {
+    this.id = '';
+    this.block_type = 1; //block type id (1-234 etc)
+    this.atts = '';
+    this.td_column_number = '';
+    this.td_current_page = 1; //
+    this.post_count = 0; //from wp
+    this.found_posts = 0; //from wp
+    this.max_num_pages = 0; //from wp
+    this.td_filter_value = ''; //current live filter value
+    this.is_ajax_running = false;
+    this.td_user_action = ''; // load more or infinite loader (used by the animation)
+    this.header_color = '';
+    this.ajax_pagination_infinite_stop = ''; //show load more at page x
+}
+
+    
+    
+        // td_js_generator - mini detector
+        (function(){
+            var htmlTag = document.getElementsByTagName("html")[0];
+
+            if ( navigator.userAgent.indexOf("MSIE 10.0") > -1 ) {
+                htmlTag.className += ' ie10';
+            }
+
+            if ( !!navigator.userAgent.match(/Trident.*rv\:11\./) ) {
+                htmlTag.className += ' ie11';
+            }
+
+            if ( /(iPad|iPhone|iPod)/g.test(navigator.userAgent) ) {
+                htmlTag.className += ' td-md-is-ios';
+            }
+
+            var user_agent = navigator.userAgent.toLowerCase();
+            if ( user_agent.indexOf("android") > -1 ) {
+                htmlTag.className += ' td-md-is-android';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Mac OS X')  ) {
+                htmlTag.className += ' td-md-is-os-x';
+            }
+
+            if ( /chrom(e|ium)/.test(navigator.userAgent.toLowerCase()) ) {
+               htmlTag.className += ' td-md-is-chrome';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Firefox') ) {
+                htmlTag.className += ' td-md-is-firefox';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Safari') && -1 === navigator.userAgent.indexOf('Chrome') ) {
+                htmlTag.className += ' td-md-is-safari';
+            }
+
+        })();
+
+
+
+
+        var tdLocalCache = {};
+
+        ( function () {
+            "use strict";
+
+            tdLocalCache = {
+                data: {},
+                remove: function (resource_id) {
+                    delete tdLocalCache.data[resource_id];
+                },
+                exist: function (resource_id) {
+                    return tdLocalCache.data.hasOwnProperty(resource_id) && tdLocalCache.data[resource_id] !== null;
+                },
+                get: function (resource_id) {
+                    return tdLocalCache.data[resource_id];
+                },
+                set: function (resource_id, cachedData) {
+                    tdLocalCache.remove(resource_id);
+                    tdLocalCache.data[resource_id] = cachedData;
+                }
+            };
+        })();
+
+    
+    
+var td_viewport_interval_list=[{"limitBottom":767,"sidebarWidth":251},{"limitBottom":1023,"sidebarWidth":339}];
+var td_animation_stack_effect="type0";
+var tds_animation_stack=true;
+var td_animation_stack_specific_selectors=".entry-thumb, img";
+var td_animation_stack_general_selectors=".td-animation-stack img, .post img";
+var td_ajax_url="http:\/\/www.le-republicain.fr\/wp-admin\/admin-ajax.php?td_theme_name=Newsmag&v=2.3.1";
+var td_get_template_directory_uri="http:\/\/www.le-republicain.fr\/wp-content\/themes\/Newsmag";
+var tds_snap_menu="";
+var tds_logo_on_sticky="";
+var tds_header_style="";
+var td_please_wait="Merci de patienter ...";
+var td_email_user_pass_incorrect="Utilisateur ou mot de passe incorrect !";
+var td_email_user_incorrect="E-mail ou nom d'utilisateur incorrect !";
+var td_email_incorrect="Email incorrect !";
+var tds_more_articles_on_post_enable="";
+var tds_more_articles_on_post_time_to_wait="";
+var tds_more_articles_on_post_pages_distance_from_top=0;
+var tds_theme_color_site_wide="#4db2ec";
+var tds_smart_sidebar="enabled";
+var tdThemeName="Newsmag";
+var td_magnific_popup_translation_tPrev="Pr\u00e9c\u00e9dent (fl\u00e8che gauche)";
+var td_magnific_popup_translation_tNext="Suivant (fl\u00e8che droite)";
+var td_magnific_popup_translation_tCounter="%curr% de %total%";
+var td_magnific_popup_translation_ajax_tError="Le contenu de %url% pas pu \u00eatre charg\u00e9.";
+var td_magnific_popup_translation_image_tError="L'image #%curr% pas pu \u00eatre charg\u00e9.";
+var td_ad_background_click_link="";
+var td_ad_background_click_target="_blank";
+</script>
+
+
+<!-- Header style compiled by theme -->
+
+<style>
+    
+.td-pb-row [class*="td-pb-span"],
+    .td-pb-border-top,
+    .page-template-page-title-sidebar-php .td-page-content > .wpb_row:first-child,
+    .td-post-sharing,
+    .td-post-content,
+    .td-post-next-prev,
+    .author-box-wrap,
+    .td-comments-title-wrap,
+    .comment-list,
+    .comment-respond,
+    .td-post-template-5 header,
+    .td-container,
+    .wpb_content_element,
+    .wpb_column,
+    .wpb_row,
+    .white-menu .td-header-style-1 .td-header-main-menu,
+    .white-menu .td-header-style-2 .td-header-main-menu,
+    .white-menu .td-header-style-3 .td-header-main-menu,
+    .white-menu .td-header-style-4 .td-header-main-menu,
+    .white-menu .td-header-style-5 .td-header-main-menu,
+    .white-menu .td-header-style-6 .td-header-main-menu,
+    .white-menu .td-header-style-7 .td-header-main-menu,
+    .white-menu .td-header-style-8 .td-header-main-menu,
+    .white-menu .td-header-style-9 .td-header-main-menu,
+    .td-header-style-6 .td-header-container,
+    .td-post-template-1 .td-post-content,
+    .td-post-template-4 .td-post-sharing-top,
+    .td-header-style-6 .td-header-header .td-make-full,
+    #disqus_thread {
+        border-color: #e6e6e6;
+    }
+    .td-top-border {
+        border-color: #e6e6e6 !important;
+    }
+    .td-container-border:after,
+    .td-next-prev-separator {
+    	background-color: #e6e6e6;
+    }
+    @media (max-width: 767px) {
+    	.white-menu .td-header-main-menu {
+      		border-color: #e6e6e6;
+      	}
+    }
+
+
+
+    
+    .td-header-sp-top-menu .top-header-menu > li > a:hover {
+        color: #4188d0;
+    }
+
+    
+    .top-header-menu .menu-item-has-children li a {
+        color: #4188d0;
+    }
+
+    
+    .td-header-main-menu {
+        background-color: #4188d0;
+    }
+
+    
+    .td-footer-container a:hover,
+    .td-footer-container .td-post-author-name a:hover,
+    .td-footer-container .td_module_wrap:hover .entry-title a {
+    	color: #4188d0;
+    }
+    .td-footer-container .widget_tag_cloud a:hover {
+    	border-color: #4188d0;
+    }
+    .td-footer-container .td_module_mx1 .td-post-author-name a:hover,
+    .td-footer-container .td-theme-slider .slide-meta a {
+    	color: #fff
+    }
+
+    
+	.td-footer-container .block-title > span,
+    .td-footer-container .block-title > a,
+    .td-footer-container .widgettitle {
+    	color: #4188d0;
+    }
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-130154-52', 'auto');
+  ga('send', 'pageview');
+
+</script><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+
+<body class="home page page-id-60 page-template-default ms-guest ms-0 news wpb-js-composer js-comp-ver-4.7.4 vc_responsive td-animation-stack-type0 td-full-layout" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+
+<div id="td-outer-wrap">
+
+        <div class="td-scroll-up"><i class="td-icon-menu-up"></i></div>
+
+    <div class="td-transition-content-and-menu td-mobile-nav-wrap">
+        <div id="td-mobile-nav">
+    <!-- mobile menu close -->
+    <div class="td-mobile-close">
+        <a href="#">FERMER</a>
+        <div class="td-nav-triangle"></div>
+    </div>
+
+    <div class="td-mobile-content">
+        <div class="menu-td-demo-header-menu-container"><ul id="menu-td-demo-header-menu" class=""><li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-60 current_page_item menu-item-first menu-item-72"><a href="http://www.le-republicain.fr/">Accueil</a></li>
+<li id="menu-item-170" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-170"><a href="http://www.le-republicain.fr/faits-divers">Faits-divers</a></li>
+<li id="menu-item-171" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-171"><a href="http://www.le-republicain.fr/sports">Sports</a>
+<ul class="sub-menu">
+	<li id="menu-item-208" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-208"><a href="http://www.le-republicain.fr/sports/football">Football</a></li>
+	<li id="menu-item-211" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-211"><a href="http://www.le-republicain.fr/sports/rugby">Rugby</a></li>
+	<li id="menu-item-209" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-209"><a href="http://www.le-republicain.fr/sports/handball">Handball</a></li>
+	<li id="menu-item-206" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-206"><a href="http://www.le-republicain.fr/sports/basket-ball">Basket-Ball</a></li>
+	<li id="menu-item-204" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-204"><a href="http://www.le-republicain.fr/sports/athletisme">Athlétisme</a></li>
+	<li id="menu-item-207" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-207"><a href="http://www.le-republicain.fr/sports/cyclisme">Cyclisme</a></li>
+	<li id="menu-item-210" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-210"><a href="http://www.le-republicain.fr/sports/judo">Judo</a></li>
+	<li id="menu-item-205" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-205"><a href="http://www.le-republicain.fr/sports/autres">Autres</a></li>
+</ul>
+</li>
+<li id="menu-item-173" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-173"><a href="http://www.le-republicain.fr/actualites-locales">Actus locales</a>
+<ul class="sub-menu">
+	<li id="menu-item-615" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-615"><a href="http://www.le-republicain.fr/actualites-locales/arpajon">Arpajon</a></li>
+	<li id="menu-item-653" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-653"><a href="http://www.le-republicain.fr/actualites-locales/corbeil-essonnes-seine-essonne">Corbeil-Essonnes / Seine-Essonne</a></li>
+	<li id="menu-item-654" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-654"><a href="http://www.le-republicain.fr/actualites-locales/dourdan">Dourdan</a></li>
+	<li id="menu-item-616" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-616"><a href="http://www.le-republicain.fr/actualites-locales/etampes">Etampes</a></li>
+	<li id="menu-item-619" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-619"><a href="http://www.le-republicain.fr/actualites-locales/etrechy">Etréchy</a></li>
+	<li id="menu-item-655" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-655"><a href="http://www.le-republicain.fr/actualites-locales/evry-centre-essonne">Evry Centre-Essonne</a></li>
+	<li id="menu-item-621" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-621"><a href="http://www.le-republicain.fr/actualites-locales/la-ferte-alais">La Ferté-Alais</a></li>
+	<li id="menu-item-614" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-614"><a href="http://www.le-republicain.fr/actualites-locales/limours">Limours</a></li>
+	<li id="menu-item-656" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-656"><a href="http://www.le-republicain.fr/actualites-locales/longjumeau-massy-palaiseau">Longjumeau / Massy / Palaiseau</a></li>
+	<li id="menu-item-620" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-620"><a href="http://www.le-republicain.fr/actualites-locales/mennecy">Mennecy</a></li>
+	<li id="menu-item-622" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-622"><a href="http://www.le-republicain.fr/actualites-locales/milly-la-foret">Milly-la-Forêt</a></li>
+	<li id="menu-item-613" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-613"><a href="http://www.le-republicain.fr/actualites-locales/montlhery">Montlhéry</a></li>
+	<li id="menu-item-617" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-617"><a href="http://www.le-republicain.fr/actualites-locales/mereville">Méréville</a></li>
+	<li id="menu-item-623" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-623"><a href="http://www.le-republicain.fr/actualites-locales/saint-cheron">Saint-Chéron</a></li>
+	<li id="menu-item-657" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-657"><a href="http://www.le-republicain.fr/actualites-locales/val-dorge-vallee-de-lorge">Val d&rsquo;Orge / Vallée de l&rsquo;Orge</a></li>
+	<li id="menu-item-658" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-658"><a href="http://www.le-republicain.fr/actualites-locales/val-de-seine-val-d-yerres">Val de Seine / Val d&rsquo;Yerres</a></li>
+</ul>
+</li>
+<li id="menu-item-172" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-172"><a href="http://www.le-republicain.fr/actualites-departementales">Actus départementales</a></li>
+<li id="menu-item-174" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-174"><a href="http://www.le-republicain.fr/culture-loisirs">Culture &#038; Loisirs</a></li>
+</ul></div>    </div>
+</div>    </div>
+
+        <div class="td-transition-content-and-menu td-content-wrap">
+
+
+
+<!--
+Header style 1
+-->
+
+<div class="td-header-container td-header-wrap td-header-style-1">
+    <div class="td-header-row td-header-top-menu">
+        
+<div class="td-header-sp-top-menu">
+
+    <div class="menu-top-container"><ul id="menu-td-demo-top-menu" class="top-header-menu"><li id="menu-item-677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-first td-menu-item td-normal-menu menu-item-677"><a href="http://www.le-republicain.fr/annonces">Annonces</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-185"><a href="http://www.le-republicain.fr/annonces-legales">Annonces Légales</a></li>
+<li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-190"><a href="http://www.le-republicain.fr/le-journal">Le journal</a></li>
+<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-191"><a href="http://www.le-republicain.fr/la-redaction">La rédaction</a></li>
+<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-54"><a href="http://www.le-republicain.fr/contact">Contacts</a></li>
+<li id="menu-item-374" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-374"><a href="http://www.le-republicain.fr/abonnements">Abonnements</a></li>
+<li id="menu-item-375" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-375"><a href="http://www.le-republicain.fr/abonnements/mon-compte">Mon compte</a></li>
+</ul></div></div>
+                <div class="td-header-sp-top-widget">
+            <span class="td-social-icon-wrap"><a target="_blank" href="https://www.facebook.com/Le-R%C3%A9publicain-de-LEssonne-101724246602200" title="Facebook"><i class="td-icon-font td-icon-facebook"></i></a></span><span class="td-social-icon-wrap"><a target="_blank" href="https://twitter.com/LeRep91" title="Twitter"><i class="td-icon-font td-icon-twitter"></i></a></span>        </div>
+        </div>
+
+
+    <div class="td-header-row td-header-header">
+        <div class="td-header-sp-logo">
+                    <a itemprop="url" href="http://www.le-republicain.fr/"><img src="//www.le-republicain.fr/wp-content/uploads/2015/10/logo.png" alt="Le Républicain" title="Le Républicain - Hebdomadaire de l\'Essonne"/></a>
+        <meta itemprop="name" content="Le Républicain">
+            </div>
+        <div class="td-header-sp-ads">
+            
+<div class="td-header-ad-wrap  td-ad-m td-ad-tp td-ad-p">
+    			<div class="easy-adverts-out-ads-holder   owl-carousel easy-ads-rotating ">
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id5367"  >
+								<div class="easy-adds-image">
+					<a href="http://www.garagestpierre.fr"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2016/02/gge_st_pierre_swift1.png" alt="gge st pierre swift 1" />
+					</a>
+				</div>
+							</div>	
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id5366"  >
+								<div class="easy-adds-image">
+					<a href="http://www.garagestpierre.fr"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2016/02/gge_st_pierre_swift2.png" alt="gge st pierre swift 2" />
+					</a>
+				</div>
+							</div>	
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id5361"  >
+								<div class="easy-adds-image">
+					<a href="http://www.garagestpierre.fr"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2016/02/gge_st_pierre_swift3.png" alt="gge st pierre swift" />
+					</a>
+				</div>
+							</div>	
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id4911"  >
+								<div class="easy-adds-image">
+					<a href="http://www.greta-essonne.fr/"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2016/01/GRETA-1.png" alt="greta 1" />
+					</a>
+				</div>
+							</div>	
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id4910"  >
+								<div class="easy-adds-image">
+					<a href="http://www.greta-essonne.fr/"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2016/01/GRETA-2.png" alt="greta 2" />
+					</a>
+				</div>
+							</div>	
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id4909"  >
+								<div class="easy-adds-image">
+					<a href="http://www.greta-essonne.fr/"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2016/01/GRETA-3.png" alt="greta 3" />
+					</a>
+				</div>
+							</div>	
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id4633"  >
+								<div class="easy-adds-image">
+					<a href="http://www.lesboucheriesduboeuftricolore.com"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2016/01/Boucherie_Pineau_1-1.png" alt="boucherie pineau" />
+					</a>
+				</div>
+							</div>	
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id4600"  >
+								<div class="easy-adds-image">
+					<a href="http://www.immodea.fr/"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2016/01/demeures_etiolles_2-2.png" alt="demeures d&rsquo;Etiolles 2" />
+					</a>
+				</div>
+							</div>	
+					</div>
+		<div class="td-a-rec td-a-rec-id-header "><div class="td-all-devices"></div></div>
+
+</div>        </div>
+    </div>
+    <div class="td-header-menu-wrap">
+        <div class="td-header-row td-header-border td-header-main-menu">
+            <div id="td-header-menu" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+    <div id="td-top-mobile-toggle"><a href="#"><i class="td-icon-font td-icon-mobile"></i></a></div>
+    <div class="td-main-menu-logo">
+        			<a itemprop="url" href="http://www.le-republicain.fr/"><img src="//www.le-republicain.fr/wp-content/uploads/2015/10/logo-mobile.png" alt="Le Républicain" title="Le Républicain - Hebdomadaire de l\'Essonne"/></a>
+			<meta itemprop="name" content="Le Républicain">
+		    </div>
+    <div class="menu-td-demo-header-menu-container"><ul id="menu-td-demo-header-menu-1" class="sf-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-60 current_page_item menu-item-first td-menu-item td-normal-menu menu-item-72"><a href="http://www.le-republicain.fr/">Accueil</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-170"><a href="http://www.le-republicain.fr/faits-divers">Faits-divers</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children td-menu-item td-normal-menu menu-item-171"><a href="http://www.le-republicain.fr/sports">Sports</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-208"><a href="http://www.le-republicain.fr/sports/football">Football</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-211"><a href="http://www.le-republicain.fr/sports/rugby">Rugby</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-209"><a href="http://www.le-republicain.fr/sports/handball">Handball</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-206"><a href="http://www.le-republicain.fr/sports/basket-ball">Basket-Ball</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-204"><a href="http://www.le-republicain.fr/sports/athletisme">Athlétisme</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-207"><a href="http://www.le-republicain.fr/sports/cyclisme">Cyclisme</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-210"><a href="http://www.le-republicain.fr/sports/judo">Judo</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-205"><a href="http://www.le-republicain.fr/sports/autres">Autres</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children td-menu-item td-normal-menu menu-item-173"><a href="http://www.le-republicain.fr/actualites-locales">Actus locales</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-615"><a href="http://www.le-republicain.fr/actualites-locales/arpajon">Arpajon</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-653"><a href="http://www.le-republicain.fr/actualites-locales/corbeil-essonnes-seine-essonne">Corbeil-Essonnes / Seine-Essonne</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-654"><a href="http://www.le-republicain.fr/actualites-locales/dourdan">Dourdan</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-616"><a href="http://www.le-republicain.fr/actualites-locales/etampes">Etampes</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-619"><a href="http://www.le-republicain.fr/actualites-locales/etrechy">Etréchy</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-655"><a href="http://www.le-republicain.fr/actualites-locales/evry-centre-essonne">Evry Centre-Essonne</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-621"><a href="http://www.le-republicain.fr/actualites-locales/la-ferte-alais">La Ferté-Alais</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-614"><a href="http://www.le-republicain.fr/actualites-locales/limours">Limours</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-656"><a href="http://www.le-republicain.fr/actualites-locales/longjumeau-massy-palaiseau">Longjumeau / Massy / Palaiseau</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-620"><a href="http://www.le-republicain.fr/actualites-locales/mennecy">Mennecy</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-622"><a href="http://www.le-republicain.fr/actualites-locales/milly-la-foret">Milly-la-Forêt</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-613"><a href="http://www.le-republicain.fr/actualites-locales/montlhery">Montlhéry</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-617"><a href="http://www.le-republicain.fr/actualites-locales/mereville">Méréville</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-623"><a href="http://www.le-republicain.fr/actualites-locales/saint-cheron">Saint-Chéron</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-657"><a href="http://www.le-republicain.fr/actualites-locales/val-dorge-vallee-de-lorge">Val d&rsquo;Orge / Vallée de l&rsquo;Orge</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-658"><a href="http://www.le-republicain.fr/actualites-locales/val-de-seine-val-d-yerres">Val de Seine / Val d&rsquo;Yerres</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-172"><a href="http://www.le-republicain.fr/actualites-departementales">Actus départementales</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-174"><a href="http://www.le-republicain.fr/culture-loisirs">Culture &#038; Loisirs</a></li>
+</ul></div></div>
+
+<div class="td-search-wrapper">
+    <div id="td-top-search">
+        <!-- Search -->
+        <div class="header-search-wrap">
+            <div class="dropdown header-search">
+                <a id="td-header-search-button" href="#" role="button" class="dropdown-toggle " data-toggle="dropdown"><i class="td-icon-search"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="header-search-wrap">
+	<div class="dropdown header-search">
+		<div class="td-drop-down-search" aria-labelledby="td-header-search-button">
+			<form role="search" method="get" class="td-search-form" action="//www.le-republicain.fr/">
+				<div class="td-head-form-search-wrap">
+					<input class="needsclick" id="td-header-search" type="text" value="" name="s" autocomplete="off" /><input class="wpb_button wpb_btn-inverse btn" type="submit" id="td-header-search-top" value="Recherche" />
+				</div>
+			</form>
+			<div id="td-aj-search"></div>
+		</div>
+	</div>
+</div>        </div>
+    </div>
+</div>        
+            <div class="td-container">
+                <div class="td-container-border">
+                    <div class="vc_row wpb_row td-pb-row"><div class="wpb_column vc_column_container td-pb-span12"><div class="wpb_wrapper"><script>var block_td_uid_1_56c62778bfe2c = new tdBlock();
+block_td_uid_1_56c62778bfe2c.id = "td_uid_1_56c62778bfe2c";
+block_td_uid_1_56c62778bfe2c.atts = '{"category_id":"2","limit":5,"class":"td_block_id_829470036 td_uid_1_56c62778bfe2c_rand"}';
+block_td_uid_1_56c62778bfe2c.td_column_number = "3";
+block_td_uid_1_56c62778bfe2c.block_type = "td_block_trending_now";
+block_td_uid_1_56c62778bfe2c.post_count = "5";
+block_td_uid_1_56c62778bfe2c.found_posts = "294";
+block_td_uid_1_56c62778bfe2c.header_color = "";
+block_td_uid_1_56c62778bfe2c.ajax_pagination_infinite_stop = "";
+block_td_uid_1_56c62778bfe2c.max_num_pages = "59";
+tdBlocksArray.push(block_td_uid_1_56c62778bfe2c);
+</script><div class="td_block_wrap td_block_trending_now td_block_id_829470036 td_uid_1_56c62778bfe2c_rand td-pb-border-top"><div id=td_uid_1_56c62778bfe2c class="td_block_inner">
+
+	<div class="td-block-row"><div class="td-trending-now-wrapper" id="td_uid_2_56c62778c5137" data-start=""><div class="td-trending-now-title block-title">A la Une</div><div class="td-trending-now-display-area">
+        <div class="td_module_trending_now td_module_wrap td-trending-now-post-0 td-trending-now-post" itemscope itemtype="http://schema.org/Article">
+
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/mereville-le-credit-agricole-va-fermer" rel="bookmark" title="Méréville : le Crédit agricole va fermer">Méréville : le Crédit agricole va fermer</a></h3>
+            <meta itemprop="author" content = "Teddy Vaury"><meta itemprop="datePublished" content="2016-02-18T20:00:28+00:00"><meta itemprop="headline " content="Méréville : le Crédit agricole va fermer"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/MEREVILLEpetition.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+        <div class="td_module_trending_now td_module_wrap td-trending-now-post-1 td-trending-now-post" itemscope itemtype="http://schema.org/Article">
+
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/programme-sport-essonnien-week-end-cfa-d1-feminine-de-retour" rel="bookmark" title="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour">Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour</a></h3>
+            <meta itemprop="author" content = "Joseph Ruiz"><meta itemprop="datePublished" content="2016-02-18T19:08:46+00:00"><meta itemprop="headline " content="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/Foot-Viry-Marcilla-2col.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+        <div class="td_module_trending_now td_module_wrap td-trending-now-post-2 td-trending-now-post" itemscope itemtype="http://schema.org/Article">
+
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/etampois-sud-essonne-une-reponse-de-proximite-a-la-delinquance" rel="bookmark" title="Etampois Sud-Essonne : une réponse de proximité à la délinquance">Etampois Sud-Essonne : une réponse de proximité à la délinquance</a></h3>
+            <meta itemprop="author" content = "Teddy Vaury"><meta itemprop="datePublished" content="2016-02-18T19:00:08+00:00"><meta itemprop="headline " content="Etampois Sud-Essonne : une réponse de proximité à la délinquance"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/ETAcispd.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+        <div class="td_module_trending_now td_module_wrap td-trending-now-post-3 td-trending-now-post" itemscope itemtype="http://schema.org/Article">
+
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/etrechy-un-ouvrage-sur-leau-a-decouvrir" rel="bookmark" title="Etréchy : un ouvrage sur l&rsquo;eau à découvrir">Etréchy : un ouvrage sur l&rsquo;eau à découvrir</a></h3>
+            <meta itemprop="author" content = "Teddy Vaury"><meta itemprop="datePublished" content="2016-02-18T18:00:37+00:00"><meta itemprop="headline " content="Etréchy : un ouvrage sur l&#039;eau à découvrir"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/ETRECHYlivre.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+        <div class="td_module_trending_now td_module_wrap td-trending-now-post-4 td-trending-now-post" itemscope itemtype="http://schema.org/Article">
+
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/brunoy-une-radio-au-lycee-talma" rel="bookmark" title="Brunoy : une radio au lycée Talma">Brunoy : une radio au lycée Talma</a></h3>
+            <meta itemprop="author" content = "Maryne Vialette"><meta itemprop="datePublished" content="2016-02-18T17:36:25+00:00"><meta itemprop="headline " content="Brunoy : une radio au lycée Talma"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/DSC06282.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        </div><div class="td-next-prev-wrap"><a href="#"
+                                  class="td_ajax-prev-pagex td-trending-now-nav-left"
+                                  data-wrapper-id="td_uid_2_56c62778c5137"
+                                  data-moving="left"
+                                  data-control-start=""><i class="td-icon-menu-left"></i></a><a href="#"
+                                  class="td_ajax-next-pagex td-trending-now-nav-right"
+                                  data-wrapper-id="td_uid_2_56c62778c5137"
+                                  data-moving="right"
+                                  data-control-start=""><i class="td-icon-menu-right"></i></a></div></div></div><!--./row-fluid--></div></div> <!-- ./block --><div class="td_block_wrap td_block_big_grid td_block_id_302633203 td_uid_3_56c62778ccdbd_rand td-grid-style-1 td-hover-1 td-pb-border-top"><div id=td_uid_3_56c62778ccdbd class="td_block_inner"><div class="td-big-grid-wrapper">
+        <div class="td_module_mx5 td-animation-stack td-big-grid-post-0 td-big-grid-post td-big-thumb" itemscope itemtype="http://schema.org/Article">
+            <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/mereville-le-credit-agricole-va-fermer" rel="bookmark" title="Méréville : le Crédit agricole va fermer"><img width="537" height="360" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/MEREVILLEpetition-537x360.jpg" alt="" title="Méréville : le Crédit agricole va fermer"/></a></div>            <div class="td-meta-info-container">
+                <div class="td-meta-align">
+                    <div class="td-big-grid-meta">
+                                                <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/mereville-le-credit-agricole-va-fermer" rel="bookmark" title="Méréville : le Crédit agricole va fermer">Méréville : le Crédit agricole va fermer</a></h3>
+                        <div class="td-module-meta-info">
+                            <div class="td-post-author-name"><a itemprop="author" href="http://www.le-republicain.fr/author/tvaury">Teddy Vaury</a> <span>-</span> </div>                            <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T20:00:28+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="td-module-comments"><a href="http://www.le-republicain.fr/a-la-une/mereville-le-credit-agricole-va-fermer#respond">0</a></div>            <meta itemprop="author" content = "Teddy Vaury"><meta itemprop="datePublished" content="2016-02-18T20:00:28+00:00"><meta itemprop="headline " content="Méréville : le Crédit agricole va fermer"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/MEREVILLEpetition.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+        <div class="td_module_mx6 td-animation-stack td-big-grid-post-1 td-big-grid-post td-tiny-thumb" itemscope itemtype="http://schema.org/Article">
+            <div class="td-module-thumb"><a href="http://www.le-republicain.fr/actualites-locales/morigny-champigny-apprendre-en-samusant" rel="bookmark" title="Morigny-Champigny : apprendre en s&rsquo;amusant"><img width="238" height="178" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/MORIGNYateliers2-238x178.jpg" alt="" title="Morigny-Champigny : apprendre en s&rsquo;amusant"/></a></div>            <div class="td-meta-info-container">
+                <div class="td-meta-align">
+                    <div class="td-big-grid-meta">
+                                                <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/actualites-locales/morigny-champigny-apprendre-en-samusant" rel="bookmark" title="Morigny-Champigny : apprendre en s&rsquo;amusant">Morigny-Champigny : apprendre en s&rsquo;amusant</a></h3>
+                        <div class="td-module-meta-info">
+                            <div class="td-post-author-name"><a itemprop="author" href="http://www.le-republicain.fr/author/tvaury">Teddy Vaury</a> <span>-</span> </div>                            <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T19:30:16+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="td-module-comments"><a href="http://www.le-republicain.fr/actualites-locales/morigny-champigny-apprendre-en-samusant#respond">0</a></div>            <meta itemprop="author" content = "Teddy Vaury"><meta itemprop="datePublished" content="2016-02-18T19:30:16+00:00"><meta itemprop="headline " content="Morigny-Champigny : apprendre en s&#039;amusant"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/MORIGNYateliers2.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+        <div class="td_module_mx6 td-animation-stack td-big-grid-post-2 td-big-grid-post td-tiny-thumb" itemscope itemtype="http://schema.org/Article">
+            <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/programme-sport-essonnien-week-end-cfa-d1-feminine-de-retour" rel="bookmark" title="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour"><img width="238" height="178" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/Foot-Viry-Marcilla-2col-238x178.jpg" alt="" title="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour"/></a></div>            <div class="td-meta-info-container">
+                <div class="td-meta-align">
+                    <div class="td-big-grid-meta">
+                                                <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/programme-sport-essonnien-week-end-cfa-d1-feminine-de-retour" rel="bookmark" title="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour">Le programme du sport essonnien ce week-end : la CFA et la D1...</a></h3>
+                        <div class="td-module-meta-info">
+                            <div class="td-post-author-name"><a itemprop="author" href="http://www.le-republicain.fr/author/jruiz">Joseph Ruiz</a> <span>-</span> </div>                            <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T19:08:46+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="td-module-comments"><a href="http://www.le-republicain.fr/a-la-une/programme-sport-essonnien-week-end-cfa-d1-feminine-de-retour#respond">0</a></div>            <meta itemprop="author" content = "Joseph Ruiz"><meta itemprop="datePublished" content="2016-02-18T19:08:46+00:00"><meta itemprop="headline " content="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/Foot-Viry-Marcilla-2col.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+        <div class="td_module_mx6 td-animation-stack td-big-grid-post-3 td-big-grid-post td-tiny-thumb" itemscope itemtype="http://schema.org/Article">
+            <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/etampois-sud-essonne-une-reponse-de-proximite-a-la-delinquance" rel="bookmark" title="Etampois Sud-Essonne : une réponse de proximité à la délinquance"><img width="238" height="178" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/ETAcispd-238x178.jpg" alt="" title="Etampois Sud-Essonne : une réponse de proximité à la délinquance"/></a></div>            <div class="td-meta-info-container">
+                <div class="td-meta-align">
+                    <div class="td-big-grid-meta">
+                                                <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/etampois-sud-essonne-une-reponse-de-proximite-a-la-delinquance" rel="bookmark" title="Etampois Sud-Essonne : une réponse de proximité à la délinquance">Etampois Sud-Essonne : une réponse de proximité à la délinquance</a></h3>
+                        <div class="td-module-meta-info">
+                            <div class="td-post-author-name"><a itemprop="author" href="http://www.le-republicain.fr/author/tvaury">Teddy Vaury</a> <span>-</span> </div>                            <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T19:00:08+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="td-module-comments"><a href="http://www.le-republicain.fr/a-la-une/etampois-sud-essonne-une-reponse-de-proximite-a-la-delinquance#respond">0</a></div>            <meta itemprop="author" content = "Teddy Vaury"><meta itemprop="datePublished" content="2016-02-18T19:00:08+00:00"><meta itemprop="headline " content="Etampois Sud-Essonne : une réponse de proximité à la délinquance"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/ETAcispd.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+        <div class="td_module_mx6 td-animation-stack td-big-grid-post-4 td-big-grid-post td-tiny-thumb" itemscope itemtype="http://schema.org/Article">
+            <div class="td-module-thumb"><a href="http://www.le-republicain.fr/actualites-locales/souzy-la-briche-le-loto-met-de-la-vie-dans-le-village" rel="bookmark" title="Souzy-la-Briche : le loto met de la vie dans le village"><img width="238" height="178" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/SOUZYLABRICHEloto1-238x178.jpg" alt="" title="Souzy-la-Briche : le loto met de la vie dans le village"/></a></div>            <div class="td-meta-info-container">
+                <div class="td-meta-align">
+                    <div class="td-big-grid-meta">
+                                                <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/actualites-locales/souzy-la-briche-le-loto-met-de-la-vie-dans-le-village" rel="bookmark" title="Souzy-la-Briche : le loto met de la vie dans le village">Souzy-la-Briche : le loto met de la vie dans le village</a></h3>
+                        <div class="td-module-meta-info">
+                            <div class="td-post-author-name"><a itemprop="author" href="http://www.le-republicain.fr/author/tvaury">Teddy Vaury</a> <span>-</span> </div>                            <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T18:30:03+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="td-module-comments"><a href="http://www.le-republicain.fr/actualites-locales/souzy-la-briche-le-loto-met-de-la-vie-dans-le-village#respond">0</a></div>            <meta itemprop="author" content = "Teddy Vaury"><meta itemprop="datePublished" content="2016-02-18T18:30:03+00:00"><meta itemprop="headline " content="Souzy-la-Briche : le loto met de la vie dans le village"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/SOUZYLABRICHEloto1.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        </div><div class="clearfix"></div></div></div> <!-- ./block --></div></div></div><div class="vc_row wpb_row td-pb-row td-ss-row"><div class="wpb_column vc_column_container td-pb-span8"><div class="wpb_wrapper"><script>var block_td_uid_4_56c62778db313 = new tdBlock();
+block_td_uid_4_56c62778db313.id = "td_uid_4_56c62778db313";
+block_td_uid_4_56c62778db313.atts = '{"custom_title":"Faits-divers","border_top":"no_border_top","category_id":"23","ajax_pagination":"next_prev","limit":5,"class":"td_block_id_2459827286 td_uid_4_56c62778db313_rand"}';
+block_td_uid_4_56c62778db313.td_column_number = "2";
+block_td_uid_4_56c62778db313.block_type = "td_block_1";
+block_td_uid_4_56c62778db313.post_count = "5";
+block_td_uid_4_56c62778db313.found_posts = "108";
+block_td_uid_4_56c62778db313.header_color = "";
+block_td_uid_4_56c62778db313.ajax_pagination_infinite_stop = "";
+block_td_uid_4_56c62778db313.max_num_pages = "22";
+tdBlocksArray.push(block_td_uid_4_56c62778db313);
+</script><div class="td_block_wrap td_block_1 td_block_id_2459827286 td_uid_4_56c62778db313_rand td_with_ajax_pagination"><h4 class="block-title"><span>Faits-divers</span></h4><div id=td_uid_4_56c62778db313 class="td_block_inner">
+
+	<div class="td-block-row">
+
+	<div class="td-block-span6">
+
+        <div class="td_module_4 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="http://www.le-republicain.fr/faits-divers/essonne-emprisonne-comme-voleur-a-main-arme-il-est-identifie-sur-6-cambriolages" rel="bookmark" title="Essonne : emprisonné comme voleur à main armé, il est identifié sur 6 cambriolages"><img width="300" height="194" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/actu_faits-divers_generique7_police-1-300x194.jpg" alt="" title="Essonne : emprisonné comme voleur à main armé, il est identifié sur 6 cambriolages"/></a></div>                <a href="http://www.le-republicain.fr/faits-divers" class="td-post-category">Faits-divers</a>            </div>
+
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/faits-divers/essonne-emprisonne-comme-voleur-a-main-arme-il-est-identifie-sur-6-cambriolages" rel="bookmark" title="Essonne : emprisonné comme voleur à main armé, il est identifié sur 6 cambriolages">Essonne : emprisonné comme voleur à main armé, il est identifié...</a></h3>
+            <div class="meta-info">
+                <div class="td-post-author-name"><a itemprop="author" href="http://www.le-republicain.fr/author/snoachovitch">Sophie Noachovitch</a> <span>-</span> </div>                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T18:22:58+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                <div class="td-module-comments"><a href="http://www.le-republicain.fr/faits-divers/essonne-emprisonne-comme-voleur-a-main-arme-il-est-identifie-sur-6-cambriolages#respond">0</a></div>            </div>
+
+            <div class="td-excerpt">
+                Jeudi 18 février, les analyses de la police scientifique a permis d&#039;imputer six cambriolages à un homme déjà emprisonné
+
+Il purge une peine pour un...            </div>
+
+            
+            <meta itemprop="author" content = "Sophie Noachovitch"><meta itemprop="datePublished" content="2016-02-18T18:22:58+00:00"><meta itemprop="headline " content="Essonne : emprisonné comme voleur à main armé, il est identifié sur 6 cambriolages"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/actu_faits-divers_generique7_police-1.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>
+        </div>
+
+        
+	</div> <!-- ./td-block-span6 -->
+
+	<div class="td-block-span6">
+
+        <div class="td_module_6 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/faits-divers/marcoussis-les-incendiaires-faisaient-un-periple-de-vol-a-la-roulotte" rel="bookmark" title="Marcoussis : les incendiaires effectuaient un périple de vols à la roulotte"><img width="100" height="75" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2015/11/GendarmerieILLUSTRATION-100x75.jpg" alt="" title="Marcoussis : les incendiaires effectuaient un périple de vols à la roulotte"/></a></div>
+        <div class="item-details">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/faits-divers/marcoussis-les-incendiaires-faisaient-un-periple-de-vol-a-la-roulotte" rel="bookmark" title="Marcoussis : les incendiaires effectuaient un périple de vols à la roulotte">Marcoussis : les incendiaires effectuaient un périple de vols à la...</a></h3>            <div class="meta-info">
+                                                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T18:05:19+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                            </div>
+        </div>
+        <meta itemprop="author" content = "Sophie Noachovitch"><meta itemprop="datePublished" content="2016-02-18T18:05:19+00:00"><meta itemprop="headline " content="Marcoussis : les incendiaires effectuaient un périple de vols à la roulotte"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2015/11/GendarmerieILLUSTRATION.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+        <div class="td_module_6 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/faits-divers/evry-le-rabbin-michel-serfaty-recoit-le-prix-ilan-halimi" rel="bookmark" title="Evry : le rabbin Michel Serfaty reçoit le prix Ilan Halimi"><img width="100" height="75" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/ilan-9-100x75.jpeg" alt="" title="Evry : le rabbin Michel Serfaty reçoit le prix Ilan Halimi"/></a></div>
+        <div class="item-details">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/faits-divers/evry-le-rabbin-michel-serfaty-recoit-le-prix-ilan-halimi" rel="bookmark" title="Evry : le rabbin Michel Serfaty reçoit le prix Ilan Halimi">Evry : le rabbin Michel Serfaty reçoit le prix Ilan Halimi</a></h3>            <div class="meta-info">
+                                                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T11:22:08+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                            </div>
+        </div>
+        <meta itemprop="author" content = "Sophie Noachovitch"><meta itemprop="datePublished" content="2016-02-18T11:22:08+00:00"><meta itemprop="headline " content="Evry : le rabbin Michel Serfaty reçoit le prix Ilan Halimi"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/ilan-9.jpeg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+        <div class="td_module_6 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/faits-divers/corbeil-essonnes-les-jeunes-voulaient-punir-un-professeur-suspecte-de-pedophilie" rel="bookmark" title="Corbeil-Essonnes : les jeunes voulaient punir un professeur suspecté de pédophilie"><img width="100" height="75" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/Capture-d’écran-2016-02-18-à-10.23.28-100x75.png" alt="" title="Corbeil-Essonnes : les jeunes voulaient punir un professeur suspecté de pédophilie"/></a></div>
+        <div class="item-details">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/faits-divers/corbeil-essonnes-les-jeunes-voulaient-punir-un-professeur-suspecte-de-pedophilie" rel="bookmark" title="Corbeil-Essonnes : les jeunes voulaient punir un professeur suspecté de pédophilie">Corbeil-Essonnes : les jeunes voulaient punir un professeur suspecté de pédophilie</a></h3>            <div class="meta-info">
+                                                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T10:27:19+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                            </div>
+        </div>
+        <meta itemprop="author" content = "Sophie Noachovitch"><meta itemprop="datePublished" content="2016-02-18T10:27:19+00:00"><meta itemprop="headline " content="Corbeil-Essonnes : les jeunes voulaient punir un professeur suspecté de pédophilie"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/Capture-d’écran-2016-02-18-à-10.23.28.png"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+        <div class="td_module_6 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/faits-divers/corbeil-essonnes" rel="bookmark" title="Corbeil-Essonnes : la course poursuite interrompue par un sapin"><img width="100" height="75" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/S3-2-cols-police-1-100x75.jpg" alt="" title="Corbeil-Essonnes : la course poursuite interrompue par un sapin"/></a></div>
+        <div class="item-details">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/faits-divers/corbeil-essonnes" rel="bookmark" title="Corbeil-Essonnes : la course poursuite interrompue par un sapin">Corbeil-Essonnes : la course poursuite interrompue par un sapin</a></h3>            <div class="meta-info">
+                                                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T10:15:50+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                            </div>
+        </div>
+        <meta itemprop="author" content = "Sophie Noachovitch"><meta itemprop="datePublished" content="2016-02-18T10:15:50+00:00"><meta itemprop="headline " content="Corbeil-Essonnes : la course poursuite interrompue par un sapin"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/S3-2-cols-police-1.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span6 --></div><!--./row-fluid--></div><div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_4_56c62778db313" data-td_block_id="td_uid_4_56c62778db313"><i class="td-icon-font td-icon-menu-left"></i></a><a href="#"  class="td-ajax-next-page" id="next-page-td_uid_4_56c62778db313" data-td_block_id="td_uid_4_56c62778db313"><i class="td-icon-font td-icon-menu-right"></i></a></div></div> <!-- ./block --><script>var block_td_uid_5_56c62778ebcfd = new tdBlock();
+block_td_uid_5_56c62778ebcfd.id = "td_uid_5_56c62778ebcfd";
+block_td_uid_5_56c62778ebcfd.atts = '{"custom_title":"Sports","category_id":"6","limit":"8","ajax_pagination":"next_prev","class":"td_block_id_1163445854 td_uid_5_56c62778ebcfd_rand"}';
+block_td_uid_5_56c62778ebcfd.td_column_number = "2";
+block_td_uid_5_56c62778ebcfd.block_type = "td_block_15";
+block_td_uid_5_56c62778ebcfd.post_count = "8";
+block_td_uid_5_56c62778ebcfd.found_posts = "78";
+block_td_uid_5_56c62778ebcfd.header_color = "";
+block_td_uid_5_56c62778ebcfd.ajax_pagination_infinite_stop = "";
+block_td_uid_5_56c62778ebcfd.max_num_pages = "10";
+tdBlocksArray.push(block_td_uid_5_56c62778ebcfd);
+</script><div class="td_block_wrap td_block_15 td_block_id_1163445854 td_uid_5_56c62778ebcfd_rand td-pb-full-cell td_with_ajax_pagination td-pb-border-top"><h4 class="block-title"><span>Sports</span></h4><div id=td_uid_5_56c62778ebcfd class="td_block_inner">
+
+	<div class="td-block-row">
+
+	<div class="td-block-span6">
+
+    <div class="td_module_mx1 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+        <div class="td-block14-border"></div>
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/programme-sport-essonnien-week-end-cfa-d1-feminine-de-retour" rel="bookmark" title="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour"><img width="341" height="220" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/Foot-Viry-Marcilla-2col-341x220.jpg" alt="" title="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour"/></a></div>
+        <div class="meta-info">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/programme-sport-essonnien-week-end-cfa-d1-feminine-de-retour" rel="bookmark" title="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour">Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour</a></h3>            <div class="td-editor-date">
+                                <div class="td-post-author-name"><a itemprop="author" href="http://www.le-republicain.fr/author/jruiz">Joseph Ruiz</a> <span>-</span> </div>                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T19:08:46+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>            </div>
+        </div>
+
+        <meta itemprop="author" content = "Joseph Ruiz"><meta itemprop="datePublished" content="2016-02-18T19:08:46+00:00"><meta itemprop="headline " content="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/Foot-Viry-Marcilla-2col.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>    </div>
+
+    
+	</div> <!-- ./td-block-span6 -->
+
+	<div class="td-block-span6">
+
+    <div class="td_module_mx1 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+        <div class="td-block14-border"></div>
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/sports/foot-deux-juvisiennes-equipe-de-france" rel="bookmark" title="Foot : Deux Juvisiennes en Equipe de France"><img width="341" height="220" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/Foot-Juvisy-2-col-largeur-341x220.jpg" alt="" title="Foot : Deux Juvisiennes en Equipe de France"/></a></div>
+        <div class="meta-info">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/sports/foot-deux-juvisiennes-equipe-de-france" rel="bookmark" title="Foot : Deux Juvisiennes en Equipe de France">Foot : Deux Juvisiennes en Equipe de France</a></h3>            <div class="td-editor-date">
+                                <div class="td-post-author-name"><a itemprop="author" href="http://www.le-republicain.fr/author/gpouiol">Guilhem Pouiol</a> <span>-</span> </div>                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T16:53:05+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>            </div>
+        </div>
+
+        <meta itemprop="author" content = "Guilhem Pouiol"><meta itemprop="datePublished" content="2016-02-18T16:53:05+00:00"><meta itemprop="headline " content="Foot : Deux Juvisiennes en Equipe de France"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/Foot-Juvisy-2-col-largeur.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>    </div>
+
+    
+	</div> <!-- ./td-block-span6 --></div><!--./row-fluid-->
+
+	<div class="td-block-row">
+
+	<div class="td-block-span6">
+
+
+        <div class="td_module_mx2 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+            <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/cfa2-15e-journee-sainte-genevieve-a-mate-paris-fc" rel="bookmark" title="CFA2 (15e journée) : Sainte-Geneviève a maté le Paris FC"><img width="80" height="60" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/1807-10-80x60.jpg" alt="" title="CFA2 (15e journée) : Sainte-Geneviève a maté le Paris FC"/></a></div>
+            <div class="item-details">
+                <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/cfa2-15e-journee-sainte-genevieve-a-mate-paris-fc" rel="bookmark" title="CFA2 (15e journée) : Sainte-Geneviève a maté le Paris FC">CFA2 (15e journée) : Sainte-Geneviève a maté le Paris FC</a></h3>                <div class="meta-info">
+                                                            <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-15T18:37:56+00:00" >15 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                                    </div>
+            </div>
+            <meta itemprop="author" content = "Joseph Ruiz"><meta itemprop="datePublished" content="2016-02-15T18:37:56+00:00"><meta itemprop="headline " content="CFA2 (15e journée) : Sainte-Geneviève a maté le Paris FC"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/1807-10.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span6 -->
+
+	<div class="td-block-span6">
+
+
+        <div class="td_module_mx2 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+            <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/pro-d2-14e-journee-massy-a-sombre-contre-selestat" rel="bookmark" title="Pro D2 (14e journée) : Massy a sombré contre Sélestat"><img width="80" height="60" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2015/12/logotitre-80x60.png" alt="" title="Pro D2 (14e journée) : Massy a sombré contre Sélestat"/></a></div>
+            <div class="item-details">
+                <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/pro-d2-14e-journee-massy-a-sombre-contre-selestat" rel="bookmark" title="Pro D2 (14e journée) : Massy a sombré contre Sélestat">Pro D2 (14e journée) : Massy a sombré contre Sélestat</a></h3>                <div class="meta-info">
+                                                            <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-15T18:09:39+00:00" >15 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                                    </div>
+            </div>
+            <meta itemprop="author" content = "Joseph Ruiz"><meta itemprop="datePublished" content="2016-02-15T18:09:39+00:00"><meta itemprop="headline " content="Pro D2 (14e journée) : Massy a sombré contre Sélestat"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2015/12/logotitre.png"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span6 --></div><!--./row-fluid-->
+
+	<div class="td-block-row">
+
+	<div class="td-block-span6">
+
+
+        <div class="td_module_mx2 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+            <div class="td-module-thumb"><a href="http://www.le-republicain.fr/sports/athletisme-raffai-championne-de-france-junior-du-200-m" rel="bookmark" title="Athlétisme : Estelle Raffai championne de France junior du 200 m"><img width="80" height="60" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/Athlé-Raffai-2-col-MK-80x60.jpg" alt="" title="Athlétisme : Estelle Raffai championne de France junior du 200 m"/></a></div>
+            <div class="item-details">
+                <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/sports/athletisme-raffai-championne-de-france-junior-du-200-m" rel="bookmark" title="Athlétisme : Estelle Raffai championne de France junior du 200 m">Athlétisme : Estelle Raffai championne de France junior du 200 m</a></h3>                <div class="meta-info">
+                                                            <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-15T12:27:14+00:00" >15 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                                    </div>
+            </div>
+            <meta itemprop="author" content = "Aymeric Fourel"><meta itemprop="datePublished" content="2016-02-15T12:27:14+00:00"><meta itemprop="headline " content="Athlétisme : Estelle Raffai championne de France junior du 200 m"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/Athlé-Raffai-2-col-MK.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span6 -->
+
+	<div class="td-block-span6">
+
+
+        <div class="td_module_mx2 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+            <div class="td-module-thumb"><a href="http://www.le-republicain.fr/sports/foot-coupe-de-france-f-juvisy-veut-revanche" rel="bookmark" title="Foot, Coupe de France (F) : Juvisy veut sa revanche"><img width="80" height="60" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/Juvisy-PSG-foot-2-col-BG-80x60.jpg" alt="" title="Foot, Coupe de France (F) : Juvisy veut sa revanche"/></a></div>
+            <div class="item-details">
+                <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/sports/foot-coupe-de-france-f-juvisy-veut-revanche" rel="bookmark" title="Foot, Coupe de France (F) : Juvisy veut sa revanche">Foot, Coupe de France (F) : Juvisy veut sa revanche</a></h3>                <div class="meta-info">
+                                                            <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-13T11:00:09+00:00" >13 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                                    </div>
+            </div>
+            <meta itemprop="author" content = "Guilhem Pouiol"><meta itemprop="datePublished" content="2016-02-13T11:00:09+00:00"><meta itemprop="headline " content="Foot, Coupe de France (F) : Juvisy veut sa revanche"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/Juvisy-PSG-foot-2-col-BG.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span6 --></div><!--./row-fluid-->
+
+	<div class="td-block-row">
+
+	<div class="td-block-span6">
+
+
+        <div class="td_module_mx2 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+            <div class="td-module-thumb"><a href="http://www.le-republicain.fr/sports/boxe-mancini-defend-titre-de-championne-de-france-samedi-a-aubervilliers" rel="bookmark" title="Boxe : Mancini défend son titre de championne de France samedi à Aubervilliers"><img width="80" height="60" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/Boxe-Mancini-1-col-80x60.jpg" alt="" title="Boxe : Mancini défend son titre de championne de France samedi à Aubervilliers"/></a></div>
+            <div class="item-details">
+                <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/sports/boxe-mancini-defend-titre-de-championne-de-france-samedi-a-aubervilliers" rel="bookmark" title="Boxe : Mancini défend son titre de championne de France samedi à Aubervilliers">Boxe : Mancini défend son titre de championne de France samedi à Aubervilliers</a></h3>                <div class="meta-info">
+                                                            <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-13T10:00:09+00:00" >13 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                                    </div>
+            </div>
+            <meta itemprop="author" content = "Aymeric Fourel"><meta itemprop="datePublished" content="2016-02-13T10:00:09+00:00"><meta itemprop="headline " content="Boxe : Mancini défend son titre de championne de France samedi à Aubervilliers"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/Boxe-Mancini-1-col.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span6 -->
+
+	<div class="td-block-span6">
+
+
+        <div class="td_module_mx2 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+            <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/pro-d2-14e-journee-massy-face-mur-alsacien" rel="bookmark" title="Pro D2 (14e journée) : Massy face au mur alsacien"><img width="80" height="60" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/Handball-Massy-Réault-2col-80x60.jpg" alt="" title="Pro D2 (14e journée) : Massy face au mur alsacien"/></a></div>
+            <div class="item-details">
+                <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/pro-d2-14e-journee-massy-face-mur-alsacien" rel="bookmark" title="Pro D2 (14e journée) : Massy face au mur alsacien">Pro D2 (14e journée) : Massy face au mur alsacien</a></h3>                <div class="meta-info">
+                                                            <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-13T07:00:45+00:00" >13 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                                    </div>
+            </div>
+            <meta itemprop="author" content = "Joseph Ruiz"><meta itemprop="datePublished" content="2016-02-13T07:00:45+00:00"><meta itemprop="headline " content="Pro D2 (14e journée) : Massy face au mur alsacien"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/Handball-Massy-Réault-2col.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span6 --></div><!--./row-fluid--></div><div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_5_56c62778ebcfd" data-td_block_id="td_uid_5_56c62778ebcfd"><i class="td-icon-font td-icon-menu-left"></i></a><a href="#"  class="td-ajax-next-page" id="next-page-td_uid_5_56c62778ebcfd" data-td_block_id="td_uid_5_56c62778ebcfd"><i class="td-icon-font td-icon-menu-right"></i></a></div></div> <!-- ./block --><div class="vc_row wpb_row vc_inner td-pb-row"><div class="wpb_column vc_column_container td-pb-span6"><div class="wpb_wrapper"><script>var block_td_uid_6_56c6277910b97 = new tdBlock();
+block_td_uid_6_56c6277910b97.id = "td_uid_6_56c6277910b97";
+block_td_uid_6_56c6277910b97.atts = '{"custom_title":"Actualit\u00e9s locales","category_id":"12","limit":"3","ajax_pagination":"next_prev","class":"td_block_id_2070893477 td_uid_6_56c6277910b97_rand"}';
+block_td_uid_6_56c6277910b97.td_column_number = "1";
+block_td_uid_6_56c6277910b97.block_type = "td_block_2";
+block_td_uid_6_56c6277910b97.post_count = "3";
+block_td_uid_6_56c6277910b97.found_posts = "509";
+block_td_uid_6_56c6277910b97.header_color = "";
+block_td_uid_6_56c6277910b97.ajax_pagination_infinite_stop = "";
+block_td_uid_6_56c6277910b97.max_num_pages = "170";
+tdBlocksArray.push(block_td_uid_6_56c6277910b97);
+</script><div class="td_block_wrap td_block_2 td_block_id_2070893477 td_uid_6_56c6277910b97_rand td_with_ajax_pagination td-pb-border-top"><h4 class="block-title"><span>Actualités locales</span></h4><div id=td_uid_6_56c6277910b97 class="td_block_inner">
+
+	<div class="td-block-span12">
+
+        <div class="td_module_4 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/mereville-le-credit-agricole-va-fermer" rel="bookmark" title="Méréville : le Crédit agricole va fermer"><img width="300" height="194" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/MEREVILLEpetition-300x194.jpg" alt="" title="Méréville : le Crédit agricole va fermer"/></a></div>                <a href="http://www.le-republicain.fr/a-la-une" class="td-post-category">A la Une</a>            </div>
+
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/mereville-le-credit-agricole-va-fermer" rel="bookmark" title="Méréville : le Crédit agricole va fermer">Méréville : le Crédit agricole va fermer</a></h3>
+            <div class="meta-info">
+                <div class="td-post-author-name"><a itemprop="author" href="http://www.le-republicain.fr/author/tvaury">Teddy Vaury</a> <span>-</span> </div>                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T20:00:28+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                <div class="td-module-comments"><a href="http://www.le-republicain.fr/a-la-une/mereville-le-credit-agricole-va-fermer#respond">0</a></div>            </div>
+
+            <div class="td-excerpt">
+                Un départ dur à encaisser
+
+Méréville monte au créneau. D’ici quelques semaines, l’agence du Crédit agricole devrait en effet fermer ses portes, une situation insupportable...            </div>
+
+            
+            <meta itemprop="author" content = "Teddy Vaury"><meta itemprop="datePublished" content="2016-02-18T20:00:28+00:00"><meta itemprop="headline " content="Méréville : le Crédit agricole va fermer"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/MEREVILLEpetition.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>
+        </div>
+
+        
+	</div> <!-- ./td-block-span12 -->
+
+	<div class="td-block-span12">
+
+        <div class="td_module_6 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/actualites-locales/morigny-champigny-apprendre-en-samusant" rel="bookmark" title="Morigny-Champigny : apprendre en s&rsquo;amusant"><img width="100" height="75" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/MORIGNYateliers2-100x75.jpg" alt="" title="Morigny-Champigny : apprendre en s&rsquo;amusant"/></a></div>
+        <div class="item-details">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/actualites-locales/morigny-champigny-apprendre-en-samusant" rel="bookmark" title="Morigny-Champigny : apprendre en s&rsquo;amusant">Morigny-Champigny : apprendre en s&rsquo;amusant</a></h3>            <div class="meta-info">
+                                                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T19:30:16+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                            </div>
+        </div>
+        <meta itemprop="author" content = "Teddy Vaury"><meta itemprop="datePublished" content="2016-02-18T19:30:16+00:00"><meta itemprop="headline " content="Morigny-Champigny : apprendre en s&#039;amusant"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/MORIGNYateliers2.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span12 -->
+
+	<div class="td-block-span12">
+
+        <div class="td_module_6 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/etampois-sud-essonne-une-reponse-de-proximite-a-la-delinquance" rel="bookmark" title="Etampois Sud-Essonne : une réponse de proximité à la délinquance"><img width="100" height="75" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/ETAcispd-100x75.jpg" alt="" title="Etampois Sud-Essonne : une réponse de proximité à la délinquance"/></a></div>
+        <div class="item-details">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/etampois-sud-essonne-une-reponse-de-proximite-a-la-delinquance" rel="bookmark" title="Etampois Sud-Essonne : une réponse de proximité à la délinquance">Etampois Sud-Essonne : une réponse de proximité à la délinquance</a></h3>            <div class="meta-info">
+                                                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T19:00:08+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                            </div>
+        </div>
+        <meta itemprop="author" content = "Teddy Vaury"><meta itemprop="datePublished" content="2016-02-18T19:00:08+00:00"><meta itemprop="headline " content="Etampois Sud-Essonne : une réponse de proximité à la délinquance"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/ETAcispd.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span12 --></div><div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_6_56c6277910b97" data-td_block_id="td_uid_6_56c6277910b97"><i class="td-icon-font td-icon-menu-left"></i></a><a href="#"  class="td-ajax-next-page" id="next-page-td_uid_6_56c6277910b97" data-td_block_id="td_uid_6_56c6277910b97"><i class="td-icon-font td-icon-menu-right"></i></a></div></div> <!-- ./block --></div></div><div class="wpb_column vc_column_container td-pb-span6"><div class="wpb_wrapper"><script>var block_td_uid_7_56c6277919a02 = new tdBlock();
+block_td_uid_7_56c6277919a02.id = "td_uid_7_56c6277919a02";
+block_td_uid_7_56c6277919a02.atts = '{"custom_title":"Actualit\u00e9s d\u00e9partementales","category_id":"17","limit":"3","ajax_pagination":"next_prev","class":"td_block_id_137932882 td_uid_7_56c6277919a02_rand"}';
+block_td_uid_7_56c6277919a02.td_column_number = "1";
+block_td_uid_7_56c6277919a02.block_type = "td_block_2";
+block_td_uid_7_56c6277919a02.post_count = "3";
+block_td_uid_7_56c6277919a02.found_posts = "52";
+block_td_uid_7_56c6277919a02.header_color = "";
+block_td_uid_7_56c6277919a02.ajax_pagination_infinite_stop = "";
+block_td_uid_7_56c6277919a02.max_num_pages = "18";
+tdBlocksArray.push(block_td_uid_7_56c6277919a02);
+</script><div class="td_block_wrap td_block_2 td_block_id_137932882 td_uid_7_56c6277919a02_rand td_with_ajax_pagination td-pb-border-top"><h4 class="block-title"><span>Actualités départementales</span></h4><div id=td_uid_7_56c6277919a02 class="td_block_inner">
+
+	<div class="td-block-span12">
+
+        <div class="td_module_4 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/jean-vincent-place-laisse-place-de-senateur-a-bernard-vera" rel="bookmark" title="Jean-Vincent Placé laisse sa place de sénateur à Bernard Vera"><img width="300" height="194" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/C2-2col-Jean-Vincent_Place_570-300x194.jpg" alt="" title="Jean-Vincent Placé laisse sa place de sénateur à Bernard Vera"/></a></div>                <a href="http://www.le-republicain.fr/a-la-une" class="td-post-category">A la Une</a>            </div>
+
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/jean-vincent-place-laisse-place-de-senateur-a-bernard-vera" rel="bookmark" title="Jean-Vincent Placé laisse sa place de sénateur à Bernard Vera">Jean-Vincent Placé laisse sa place de sénateur à Bernard Vera</a></h3>
+            <div class="meta-info">
+                <div class="td-post-author-name"><a itemprop="author" href="http://www.le-republicain.fr/author/cmispoulet">Charlotte Mispoulet</a> <span>-</span> </div>                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T11:14:35+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                <div class="td-module-comments"><a href="http://www.le-republicain.fr/a-la-une/jean-vincent-place-laisse-place-de-senateur-a-bernard-vera#respond">0</a></div>            </div>
+
+            <div class="td-excerpt">
+                Jean-Vincent Placé a été nommé secrétaire d&#039;Etat lors de l&#039;annonce du nouveau gouvernement jeudi 11 février. Il laisse donc sa place de sénateur de...            </div>
+
+            
+            <meta itemprop="author" content = "Charlotte Mispoulet"><meta itemprop="datePublished" content="2016-02-18T11:14:35+00:00"><meta itemprop="headline " content="Jean-Vincent Placé laisse sa place de sénateur à Bernard Vera"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/C2-2col-Jean-Vincent_Place_570.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>
+        </div>
+
+        
+	</div> <!-- ./td-block-span12 -->
+
+	<div class="td-block-span12">
+
+        <div class="td_module_6 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/remaniement-jean-vincent-place-entre-gouvernement" rel="bookmark" title="Remaniement : Jean-Vincent Placé entre dans le gouvernement"><img width="100" height="75" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/Jean-Vincent_Placé_-_Avril_2012-100x75.jpg" alt="" title="Remaniement : Jean-Vincent Placé entre dans le gouvernement"/></a></div>
+        <div class="item-details">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/remaniement-jean-vincent-place-entre-gouvernement" rel="bookmark" title="Remaniement : Jean-Vincent Placé entre dans le gouvernement">Remaniement : Jean-Vincent Placé entre dans le gouvernement</a></h3>            <div class="meta-info">
+                                                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-11T17:45:34+00:00" >11 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                            </div>
+        </div>
+        <meta itemprop="author" content = "Charlotte Mispoulet"><meta itemprop="datePublished" content="2016-02-11T17:45:34+00:00"><meta itemprop="headline " content="Remaniement : Jean-Vincent Placé entre dans le gouvernement"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/Jean-Vincent_Placé_-_Avril_2012.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span12 -->
+
+	<div class="td-block-span12">
+
+        <div class="td_module_6 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/dourdan-lutter-contre-harcelements-sexistes-transports" rel="bookmark" title="Dourdan : lutter contre les harcèlements sexistes dans les transports"><img width="100" height="75" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/depDOURDANboistardse-100x75.jpg" alt="" title="Dourdan : lutter contre les harcèlements sexistes dans les transports"/></a></div>
+        <div class="item-details">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/dourdan-lutter-contre-harcelements-sexistes-transports" rel="bookmark" title="Dourdan : lutter contre les harcèlements sexistes dans les transports">Dourdan : lutter contre les harcèlements sexistes dans les transports</a></h3>            <div class="meta-info">
+                                                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-10T16:00:54+00:00" >10 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                            </div>
+        </div>
+        <meta itemprop="author" content = "Maxime Chataigner"><meta itemprop="datePublished" content="2016-02-10T16:00:54+00:00"><meta itemprop="headline " content="Dourdan : lutter contre les harcèlements sexistes dans les transports"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/depDOURDANboistardse.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span12 --></div><div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_7_56c6277919a02" data-td_block_id="td_uid_7_56c6277919a02"><i class="td-icon-font td-icon-menu-left"></i></a><a href="#"  class="td-ajax-next-page" id="next-page-td_uid_7_56c6277919a02" data-td_block_id="td_uid_7_56c6277919a02"><i class="td-icon-font td-icon-menu-right"></i></a></div></div> <!-- ./block --></div></div></div><script>var block_td_uid_8_56c6277925c54 = new tdBlock();
+block_td_uid_8_56c6277925c54.id = "td_uid_8_56c6277925c54";
+block_td_uid_8_56c6277925c54.atts = '{"custom_title":"Culture &amp;amp; Loisirs","category_id":"11","limit":"3","ajax_pagination":"next_prev","class":"td_block_id_2956111145 td_uid_8_56c6277925c54_rand"}';
+block_td_uid_8_56c6277925c54.td_column_number = "2";
+block_td_uid_8_56c6277925c54.block_type = "td_block_16";
+block_td_uid_8_56c6277925c54.post_count = "3";
+block_td_uid_8_56c6277925c54.found_posts = "63";
+block_td_uid_8_56c6277925c54.header_color = "";
+block_td_uid_8_56c6277925c54.ajax_pagination_infinite_stop = "";
+block_td_uid_8_56c6277925c54.max_num_pages = "21";
+tdBlocksArray.push(block_td_uid_8_56c6277925c54);
+</script><div class="td_block_wrap td_block_16 td_block_id_2956111145 td_uid_8_56c6277925c54_rand td_with_ajax_pagination td-pb-border-top"><h4 class="block-title"><span>Culture &amp; Loisirs</span></h4><div id=td_uid_8_56c6277925c54 class="td_block_inner td-column-2">
+
+	<div class="td-block-row">
+
+	<div class="td-block-span4">
+
+        <div class="td_module_mx4 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="http://www.le-republicain.fr/culture-loisirs/tous-vos-loisirs-toute-la-semaine-6" rel="bookmark" title="Tous vos loisirs, toute la semaine"><img width="300" height="194" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/01/AppelSite2-300x194.jpg" alt="" title="Tous vos loisirs, toute la semaine"/></a></div>                            </div>
+
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/culture-loisirs/tous-vos-loisirs-toute-la-semaine-6" rel="bookmark" title="Tous vos loisirs, toute la semaine">Tous vos loisirs, toute la semaine</a></h3>
+            <div class="meta-info">
+                                                            </div>
+
+            
+            <meta itemprop="author" content = "François Dop"><meta itemprop="datePublished" content="2016-02-17T14:28:35+00:00"><meta itemprop="headline " content="Tous vos loisirs, toute la semaine"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/01/AppelSite2.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>
+        </div>
+
+        
+	</div> <!-- ./td-block-span4 -->
+
+	<div class="td-block-span4">
+
+        <div class="td_module_mx4 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="http://www.le-republicain.fr/culture-loisirs/operation-sos-crapauds-2016-a-ormoy-la-riviere-2" rel="bookmark" title="Opération SOS Crapauds 2016 à Ormoy-la-Rivière reportée"><img width="300" height="194" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/01/OrmoyCrapoduc-B-300x194.jpg" alt="" title="Opération SOS Crapauds 2016 à Ormoy-la-Rivière reportée"/></a></div>                            </div>
+
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/culture-loisirs/operation-sos-crapauds-2016-a-ormoy-la-riviere-2" rel="bookmark" title="Opération SOS Crapauds 2016 à Ormoy-la-Rivière reportée">Opération SOS Crapauds 2016 à Ormoy-la-Rivière reportée</a></h3>
+            <div class="meta-info">
+                                                            </div>
+
+            
+            <meta itemprop="author" content = "François Dop"><meta itemprop="datePublished" content="2016-02-12T14:18:33+00:00"><meta itemprop="headline " content="Opération SOS Crapauds 2016 à Ormoy-la-Rivière reportée"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/01/OrmoyCrapoduc-B.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>
+        </div>
+
+        
+	</div> <!-- ./td-block-span4 -->
+
+	<div class="td-block-span4">
+
+        <div class="td_module_mx4 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="http://www.le-republicain.fr/culture-loisirs/cuisiner-ses-dechets-alimentaires-a-etampes" rel="bookmark" title="Cuisiner ses déchets alimentaires à Etampes"><img width="300" height="194" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/EtampesCuisne-Dechets-300x194.jpg" alt="" title="Cuisiner ses déchets alimentaires à Etampes"/></a></div>                            </div>
+
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/culture-loisirs/cuisiner-ses-dechets-alimentaires-a-etampes" rel="bookmark" title="Cuisiner ses déchets alimentaires à Etampes">Cuisiner ses déchets alimentaires à Etampes</a></h3>
+            <div class="meta-info">
+                                                            </div>
+
+            
+            <meta itemprop="author" content = "François Dop"><meta itemprop="datePublished" content="2016-02-10T16:41:18+00:00"><meta itemprop="headline " content="Cuisiner ses déchets alimentaires à Etampes"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/EtampesCuisne-Dechets.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>
+        </div>
+
+        
+	</div> <!-- ./td-block-span4 --></div><!--./row-fluid--></div><div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_8_56c6277925c54" data-td_block_id="td_uid_8_56c6277925c54"><i class="td-icon-font td-icon-menu-left"></i></a><a href="#"  class="td-ajax-next-page" id="next-page-td_uid_8_56c6277925c54" data-td_block_id="td_uid_8_56c6277925c54"><i class="td-icon-font td-icon-menu-right"></i></a></div></div> <!-- ./block --></div></div><div class="wpb_column vc_column_container td-pb-span4"><div class="wpb_wrapper">
+	<div class="wpb_widgetised_column wpb_content_element">
+		<div class="wpb_wrapper">
+			
+			<aside class="widget widget_text">			<div class="textwidget"><div style="height:10px;"></div></div>
+		</aside><aside class="widget widget_text">			<div class="textwidget"><div style="padding:20px;background-color:#3297cb;text-align:center;">
+<a href="http://www.le-republicain.fr/abonnements" style="text-align:center;"><img src="//www.le-republicain.fr/wp-content/uploads/2015/10/Abonnement-numerique-republicain.gif" alt="Abonnement" style="width:100%;margin:auto;" /></a>
+<br />
+<a href="http://www.le-republicain.fr/abonnements"><h4 style="font-size:1.5em;text-transform:uppercase;color:white;margin:0 0 20px 0;">Abonnez-vous à l'édition numérique</h4></a>
+</div>
+
+<div style="padding-top:10px;text-align:center;">
+<a href="http://www.le-republicain.fr/data/Panorama/LePanorama.pdf" target="_blank"><img src="//www.le-republicain.fr/wp-content/uploads/2016/01/lepanorama.png" alt="Le Panorama" style="width:100%;margin:auto;" /></a>
+</div></div>
+		</aside>			<div class="easy-adverts-out-ads-holder   owl-carousel easy-ads-rotating ">
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id4596"  >
+								<div class="easy-adds-image">
+					<a href="http://www.subwayfrance.fr/franchises/pourquoi-subway"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2016/01/subway_1-1.png" alt="subway 1" />
+					</a>
+				</div>
+							</div>	
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id4594"  >
+								<div class="easy-adds-image">
+					<a href="http://www.subwayfrance.fr/franchises/pourquoi-subway"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2016/01/subway_2.png" alt="subway 2" />
+					</a>
+				</div>
+							</div>	
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id4592"  >
+								<div class="easy-adds-image">
+					<a href="http://www.subwayfrance.fr/franchises/pourquoi-subway"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2016/01/subway_3.png" alt="subway 3" />
+					</a>
+				</div>
+							</div>	
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id710"  >
+								<div class="easy-adds-image">
+					<a href="#http://www.cabinet-voyance-cisse.com/"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2015/11/cisse_3.png" alt="Cissé 3" />
+					</a>
+				</div>
+							</div>	
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id708"  >
+								<div class="easy-adds-image">
+					<a href="http://www.cabinet-voyance-cisse.com/"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2015/11/cisse_2.png" alt="Cissé 2" />
+					</a>
+				</div>
+							</div>	
+					<div class="easy-adverts-out-item  m0auto" id="e-a-id706"  >
+								<div class="easy-adds-image">
+					<a href="http://www.cabinet-voyance-cisse.com/"  target="_blank" >
+						<img  src="//www.le-republicain.fr/wp-content/uploads/2015/11/cisse_1.png" alt="Cissé 1" />
+					</a>
+				</div>
+							</div>	
+					</div>
+		<div class="td-a-rec td-a-rec-id-sidebar "><span class="td-adspot-title">- Publicités -</span><div class="td-all-devices"></div></div><aside class="widget widget_text">			<div class="textwidget"><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5&appId=219117981476013";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-page" data-href="https://www.facebook.com/Le-R&#xe9;publicain-de-LEssonne-101724246602200/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div></div>
+		</aside><aside class="widget widget_text">			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/LeRep91" data-widget-id="652045433510998017">Tweets de @LeRep91</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		</aside>
+		</div>
+	</div>
+</div></div></div>
+                </div>
+            </div>
+                        <!-- Footer -->
+<div class="td-footer-container td-container">
+    <div class="td-pb-row">
+        <div class="td-pb-span4">
+            <div class="td-footer-info td-pb-padding-side"><div class="footer-logo-wrap"><a href="http://www.le-republicain.fr/"><img src="//www.le-republicain.fr/wp-content/uploads/2015/10/logo-footer.png" alt=""/></a></div><div class="footer-text-wrap">Le Républicain de l'Essonne est depuis plus de 70 ans le premier hebdomadaire du département. Il couvre toute l'actualité locale et départementale, ainsi que l'intégralité des événements sportifs et les loisirs.
+<div class="footer-email-wrap"><a href="http://www.le-republicain.fr/contact">Contactez-nous !</a></div></div><div class="footer-social-wrap td-social-style2"><span class="td-social-icon-wrap"><a target="_blank" href="https://www.facebook.com/Le-R%C3%A9publicain-de-LEssonne-101724246602200" title="Facebook"><i class="td-icon-font td-icon-facebook"></i></a></span><span class="td-social-icon-wrap"><a target="_blank" href="https://twitter.com/LeRep91" title="Twitter"><i class="td-icon-font td-icon-twitter"></i></a></span></div></div>        </div>
+
+        <div class="td-pb-span4">
+            <script>var block_td_uid_9_56c6277937003 = new tdBlock();
+block_td_uid_9_56c6277937003.id = "td_uid_9_56c6277937003";
+block_td_uid_9_56c6277937003.atts = '{"custom_title":"PLUS D&#039;ACTUALITES","border_top":"no_border_top","limit":3,"class":"td_block_id_2632296678 td_uid_9_56c6277937003_rand"}';
+block_td_uid_9_56c6277937003.td_column_number = "1";
+block_td_uid_9_56c6277937003.block_type = "td_block_7";
+block_td_uid_9_56c6277937003.post_count = "3";
+block_td_uid_9_56c6277937003.found_posts = "730";
+block_td_uid_9_56c6277937003.header_color = "";
+block_td_uid_9_56c6277937003.ajax_pagination_infinite_stop = "";
+block_td_uid_9_56c6277937003.max_num_pages = "244";
+tdBlocksArray.push(block_td_uid_9_56c6277937003);
+</script><div class="td_block_wrap td_block_7 td_block_id_2632296678 td_uid_9_56c6277937003_rand"><h4 class="block-title"><span>PLUS D&#039;ACTUALITES</span></h4><div id=td_uid_9_56c6277937003 class="td_block_inner">
+
+	<div class="td-block-span12">
+
+        <div class="td_module_6 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/mereville-le-credit-agricole-va-fermer" rel="bookmark" title="Méréville : le Crédit agricole va fermer"><img width="100" height="75" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/MEREVILLEpetition-100x75.jpg" alt="" title="Méréville : le Crédit agricole va fermer"/></a></div>
+        <div class="item-details">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/mereville-le-credit-agricole-va-fermer" rel="bookmark" title="Méréville : le Crédit agricole va fermer">Méréville : le Crédit agricole va fermer</a></h3>            <div class="meta-info">
+                                                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T20:00:28+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                            </div>
+        </div>
+        <meta itemprop="author" content = "Teddy Vaury"><meta itemprop="datePublished" content="2016-02-18T20:00:28+00:00"><meta itemprop="headline " content="Méréville : le Crédit agricole va fermer"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/MEREVILLEpetition.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span12 -->
+
+	<div class="td-block-span12">
+
+        <div class="td_module_6 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/actualites-locales/morigny-champigny-apprendre-en-samusant" rel="bookmark" title="Morigny-Champigny : apprendre en s&rsquo;amusant"><img width="100" height="75" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/MORIGNYateliers2-100x75.jpg" alt="" title="Morigny-Champigny : apprendre en s&rsquo;amusant"/></a></div>
+        <div class="item-details">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/actualites-locales/morigny-champigny-apprendre-en-samusant" rel="bookmark" title="Morigny-Champigny : apprendre en s&rsquo;amusant">Morigny-Champigny : apprendre en s&rsquo;amusant</a></h3>            <div class="meta-info">
+                                                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T19:30:16+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                            </div>
+        </div>
+        <meta itemprop="author" content = "Teddy Vaury"><meta itemprop="datePublished" content="2016-02-18T19:30:16+00:00"><meta itemprop="headline " content="Morigny-Champigny : apprendre en s&#039;amusant"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/MORIGNYateliers2.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span12 -->
+
+	<div class="td-block-span12">
+
+        <div class="td_module_6 td_module_wrap td-animation-stack" itemscope itemtype="http://schema.org/Article">
+
+        <div class="td-module-thumb"><a href="http://www.le-republicain.fr/a-la-une/programme-sport-essonnien-week-end-cfa-d1-feminine-de-retour" rel="bookmark" title="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour"><img width="100" height="75" itemprop="image" class="entry-thumb" src="//www.le-republicain.fr/wp-content/uploads/2016/02/Foot-Viry-Marcilla-2col-100x75.jpg" alt="" title="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour"/></a></div>
+        <div class="item-details">
+            <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="http://www.le-republicain.fr/a-la-une/programme-sport-essonnien-week-end-cfa-d1-feminine-de-retour" rel="bookmark" title="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour">Le programme du sport essonnien ce week-end : la CFA et...</a></h3>            <div class="meta-info">
+                                                <div class="td-post-date"><time  itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2016-02-18T19:08:46+00:00" >18 février 2016</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                            </div>
+        </div>
+        <meta itemprop="author" content = "Joseph Ruiz"><meta itemprop="datePublished" content="2016-02-18T19:08:46+00:00"><meta itemprop="headline " content="Le programme du sport essonnien ce week-end : la CFA et la D1 féminine de retour"><meta itemprop="image" content="http://www.le-republicain.fr/wp-content/uploads/2016/02/Foot-Viry-Marcilla-2col.jpg"><meta itemprop="interactionCount" content="UserComments:0"/>        </div>
+
+        
+	</div> <!-- ./td-block-span12 --></div></div> <!-- ./block -->        </div>
+
+        <div class="td-pb-span4">
+            <div class="td_block_wrap td_block_popular_categories widget widget_categories"><h4 class="block-title"><span>CATEGORIES POPULAIRES</span></h4><ul class="td-pb-padding-side"><li><a href="http://www.le-republicain.fr/actualites-locales">Actualités locales<span class="td-cat-no">453</span></a></li><li><a href="http://www.le-republicain.fr/a-la-une">A la Une<span class="td-cat-no">294</span></a></li><li><a href="http://www.le-republicain.fr/faits-divers">Faits-divers<span class="td-cat-no">108</span></a></li><li><a href="http://www.le-republicain.fr/sports">Sports<span class="td-cat-no">77</span></a></li><li><a href="http://www.le-republicain.fr/actualites-locales/mennecy">Mennecy<span class="td-cat-no">66</span></a></li><li><a href="http://www.le-republicain.fr/culture-loisirs">Culture &amp; Loisirs<span class="td-cat-no">63</span></a></li><li><a href="http://www.le-republicain.fr/actualites-locales/milly-la-foret">Milly-la-Forêt<span class="td-cat-no">61</span></a></li></ul></div> <!-- ./block -->        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Sub Footer -->
+    <div class="td-sub-footer-container td-container td-container-border ">
+        <div class="td-pb-row">
+            <div class="td-pb-span4 td-sub-footer-copy">
+                <div class="td-pb-padding-side">
+                    &copy; Tous droits réservés - Le Républicain.fr                </div>
+            </div>
+
+            <div class="td-pb-span8 td-sub-footer-menu">
+                <div class="td-pb-padding-side">
+                    <div class="menu-td-demo-footer-menu-container"><ul id="menu-td-demo-footer-menu" class=""><li id="menu-item-1050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-first td-menu-item td-normal-menu menu-item-1050"><a href="http://www.le-republicain.fr/credits">Crédits</a></li>
+<li id="menu-item-248" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-248"><a href="http://www.le-republicain.fr/mentions-legales">Mentions légales</a></li>
+<li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-257"><a href="http://www.le-republicain.fr/vie-privee">Vie privée</a></li>
+<li id="menu-item-249" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-249"><a href="http://www.le-republicain.fr/contact">Contactez-nous</a></li>
+</ul></div>                </div>
+            </div>
+        </div>
+    </div>
+    </div><!--close content div-->
+</div><!--close td-outer-wrap-->
+
+
+
+
+
+    <!--
+
+        Theme: Newsmag by tagDiv 2015
+        Version: 2.3.1 (rara)
+        Deploy mode: deploy
+        
+        uid: 56c6277942f2b
+    -->
+
+    
+<!-- Custom css form theme panel -->
+<style type="text/css" media="screen">
+/* custom css theme panel */
+input[type=password] {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 21px;
+    color: #444444;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    max-width: 100%;
+    height: 34px;
+    padding: 3px 9px 3px 9px;
+}
+/* MEMBERSHIP */
+.ms-cancel-button {
+    color: #fff;
+    padding: 5px 10px;
+    background: silver;    
+}
+.ms-membership-form-wrapper {margin:30px;}
+#ms-view-frontend-profile-form {margin:30px;}
+.gateway_stripe {background: #DADADA;}
+.stripe-button-el {margin:20px;}
+#ms-membership-wrapper-659 {margin-left:0;}
+#account-invoices, #account-activity {display:none;}
+#account-profile {margin-top:30px;margin-bottom:30px;}
+#account-membership {margin-top:-30px;}
+.page-id-304 .td-container-border {margin:30px;}
+.ms-move-from{margin-top:30px;}
+.ms-membership-form-wrapper .ms-price {display:none;}
+.ms-bottom-msg{border: 1px solid red;color: red;margin-top: 10px;padding: 10px;}
+
+</style>
+
+<script type='text/javascript' src='//www.le-republicain.fr/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=c7fe0ae695dc0ef624e83efaf71fea0c-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.le-republicain.fr\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Envoi en cours ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.le-republicain.fr/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=c7fe0ae695dc0ef624e83efaf71fea0c'></script>
+<script type='text/javascript' src='//www.le-republicain.fr/wp-content/themes/Newsmag/js/tagdiv_theme.js?ver=c7fe0ae695dc0ef624e83efaf71fea0c'></script>
+<script type='text/javascript' src='//www.le-republicain.fr/wp-includes/js/comment-reply.min.js?ver=c7fe0ae695dc0ef624e83efaf71fea0c'></script>
+<script type='text/javascript' src='//www.le-republicain.fr/wp-includes/js/wp-embed.min.js?ver=c7fe0ae695dc0ef624e83efaf71fea0c'></script>
+<script type='text/javascript' src='//www.le-republicain.fr/wp-content/plugins/js_composer/assets/js/js_composer_front.js?ver=c7fe0ae695dc0ef624e83efaf71fea0c'></script>
+
+<!-- JS generated by theme -->
+
+<script>
+    
+
+	
+
+		(function(){
+			var html_jquery_obj = jQuery('html');
+
+			if (html_jquery_obj.length && (html_jquery_obj.is('.ie8') || html_jquery_obj.is('.ie9'))) {
+
+				var path = 'http://www.le-republicain.fr/wp-content/themes/Newsmag/style.css';
+
+				jQuery.get(path, function(data) {
+
+					var str_split_separator = '#td_css_split_separator';
+					var arr_splits = data.split(str_split_separator);
+					var arr_length = arr_splits.length;
+
+					if (arr_length > 1) {
+
+						var dir_path = 'http://www.le-republicain.fr/wp-content/themes/Newsmag';
+						var splited_css = '';
+
+						for (var i = 0; i < arr_length; i++) {
+							if (i > 0) {
+								arr_splits[i] = str_split_separator + ' ' + arr_splits[i];
+							}
+							//jQuery('head').append('<style>' + arr_splits[i] + '</style>');
+
+							var formated_str = arr_splits[i].replace(/\surl\(\'(?!data\:)/gi, function regex_function(str) {
+								return ' url(\'' + dir_path + '/' + str.replace(/url\(\'/gi, '').replace(/^\s+|\s+$/gm,'');
+							});
+
+							splited_css += "<style>" + formated_str + "</style>";
+						}
+
+						var td_theme_css = jQuery('link#td-theme-css');
+
+						if (td_theme_css.length) {
+							td_theme_css.after(splited_css);
+						}
+					}
+				});
+			}
+		})();
+
+	
+	
+</script>
+
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Mise en cache utilisant disk: enhanced 
+
+ Served from: www.le-republicain.fr @ 2016-02-18 21:20:09 by W3 Total Cache -->

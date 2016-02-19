@@ -1,0 +1,4332 @@
+
+
+
+	
+	<!-- DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" -->
+	<html xmlns="http://www.w3.org/1999/xhtml">
+		
+		
+
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=8" lang="it"/>
+		<title>La Nuova Provincia / Giornale online di Asti | Ultime notizie Asti, news, cronaca, lavoro, eventi, sport, foto, meteo, rubriche e blog, social media, informazioni.</title>
+
+			<!-- Commenti Facebook -->
+		
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/it_IT/all.js#xfbml=1&appId=363116687090489";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+		
+		
+
+		
+	
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="http://94.32.72.148/media/CSS/lanuovaprovincia/base.css" media="screen, projection" />
+		<link rel="stylesheet" type="text/css" href="http://94.32.72.148/media/CSS/lanuovaprovincia/blueprint/screen.css" media="screen, projection" />
+		<!--[if lt IE 8]>
+			<link rel="stylesheet" type="text/css" href="http://94.32.72.148/media/CSS/lanuovaprovincia/blueprint/ie.css" media="screen, projection" />
+		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="http://94.32.72.148/media/CSS/lanuovaprovincia/validationEngine.jquery.css" media="screen, projection" />
+		
+		
+
+			<link rel="stylesheet" type="text/css" href="http://94.32.72.148/media/CSS/lanuovaprovincia/skins/lnp/skin.css" />
+		
+
+		<link rel="stylesheet" type="text/css" href="http://94.32.72.148/media/CSS/lanuovaprovincia/jquery.lightbox-0.5.css" />
+		<link rel="stylesheet" type="text/css" href="http://94.32.72.148/media/CSS/lanuovaprovincia/lionbars.css" />
+
+		
+
+		
+
+		
+		
+
+		
+
+		<!-- JQUERY -->
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			//google.load("jquery", "1.4.4");
+			google.load("jquery", "1.7.1");
+			google.load("jqueryui", "1.8.10");
+		</script>
+
+		<!-- JS -->
+		<script type="text/javascript" src="http://94.32.72.148/media/JS/lanuovaprovincia/jquery.cookiesdirective.js"></script>
+		<script type="text/javascript" src="http://94.32.72.148/media/JS/lanuovaprovincia/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript" src="http://94.32.72.148/media/JS/lanuovaprovincia/AC_RunActiveContent.js"></script>
+		
+		<!-- jQuery zoom immagine -->
+		<script type="text/javascript" src="http://94.32.72.148/media/JS/lanuovaprovincia/jquery.lightbox-0.5.js"></script>
+
+		<!-- jQuery Lionbar -->
+		<script type="text/javascript" src="http://94.32.72.148/media/JS/lanuovaprovincia/jquery.lionbars.0.3.js"></script>
+
+		<!-- gestione login -->
+		<script type="text/javascript" src="http://94.32.72.148/media/JS/lanuovaprovincia/jquery.validationEngine.js"></script>
+		<script type="text/javascript" src="http://94.32.72.148/media/JS/lanuovaprovincia/jquery.validationEngine-it.js"></script>
+		<script type="text/javascript" src="http://94.32.72.148/media/JS/lanuovaprovincia/mngLogin.js"></script>
+
+
+		
+
+		
+
+		
+
+		<script type="text/javascript" src="http://94.32.72.148/media/JS/lanuovaprovincia/functions.js"></script>
+
+
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+				
+				// ZOOM FOTO ARTICOLO
+				$('.lightbox').lightBox({
+					imageLoading: 'http://94.32.72.148/media/images/lanuovaprovincia/lightbox/lightbox-ico-loading.gif',
+					imageBtnClose: 'http://94.32.72.148/media/images/lanuovaprovincia/lightbox/lightbox-btn-close.gif',
+					imageBtnPrev: 'http://94.32.72.148/media/images/lanuovaprovincia/lightbox/lightbox-btn-prev.gif',
+					imageBtnNext: 'http://94.32.72.148/media/images/lanuovaprovincia/lightbox/lightbox-btn-next.gif',
+					txtImage: 'immagine',
+					txtOf: 'di'
+				});
+
+				// FOTOGALLERY
+
+				/*if ($('.ad-gallery').length > 0) {
+					var galleries = $('.ad-gallery').adGallery();
+					//galleries[0].settings.description_wrapper = $('#descriptions');
+				}*/
+				
+				if ($( "#datepicker1" ).length > 0) {
+
+				// Datepicker: aggiunto il dateFormat per far funzionare la ricerca - A. Ragusa 13/07/2012
+
+				$.datepicker.setDefaults($.datepicker.regional['it']);
+
+				$( "#datepicker1" ).datepicker({
+					dateFormat: 'dd-mm-yy',
+					showOn: "button",
+					buttonImage: "http://94.32.72.148/media/images/lanuovaprovincia/calendario.gif",
+					buttonImageOnly: true});
+				$( "#datepicker2" ).datepicker({
+					dateFormat: 'dd-mm-yy',
+					showOn: "button",
+					buttonImage: "http://94.32.72.148/media/images/lanuovaprovincia/calendario.gif",
+					buttonImageOnly: true});
+
+				}
+
+			});
+
+
+		</script>
+
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-19776330-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
+		
+
+		<script type='text/javascript'>
+		  var googletag = googletag || {};
+		  googletag.cmd = googletag.cmd || [];
+		  (function() {
+			var gads = document.createElement('script');
+			gads.async = true;
+			gads.type = 'text/javascript';
+			var useSSL = 'https:' == document.location.protocol;
+			gads.src = (useSSL ? 'https:' : 'http:') +
+			  '//www.googletagservices.com/tag/js/gpt.js';
+			var node = document.getElementsByTagName('script')[0];
+			node.parentNode.insertBefore(gads, node);
+		  })();
+		</script>
+
+		<script type='text/javascript'>
+		  googletag.cmd.push(function() {
+			googletag.defineSlot('/37911482/A3', [468, 60], 'div-gpt-ad-1450348508401-0').addService(googletag.pubads());
+			googletag.defineSlot('/37911482/B2', [300, 250], 'div-gpt-ad-1432735430120-0').addService(googletag.pubads());
+			googletag.defineSlot('/37911482/B4', [300, 250], 'div-gpt-ad-1432632584873-0').addService(googletag.pubads());
+			googletag.defineSlot('/37911482/C1', [160, 140], 'div-gpt-ad-1433929266058-0').addService(googletag.pubads());
+			googletag.defineSlot('/37911482/C2', [160, 140], 'div-gpt-ad-1436948568228-0').addService(googletag.pubads());
+			googletag.defineSlot('/37911482/D2', [234, 60], 'div-gpt-ad-1436351828393-0').addService(googletag.pubads());
+			googletag.defineSlot('/37911482/H1', [728, 90], 'div-gpt-ad-1435068546143-0').addService(googletag.pubads());
+			googletag.defineSlot('/37911482/H2', [990, 45], 'div-gpt-ad-1434529880734-0').addService(googletag.pubads());
+			googletag.defineSlot('/37911482/K1', [170, 85], 'div-gpt-ad-1433942174735-0').addService(googletag.pubads());
+			googletag.pubads().enableSingleRequest();
+			googletag.enableServices();
+		  });
+		</script>
+
+	</head>
+
+
+		<body >
+		<a name="top"></a>
+
+			
+
+	
+	<center>
+		
+	
+	
+		
+			<div class="testa_banner">
+				<!-- /37911482/H1 
+<div id='div-gpt-ad-1435068546143-0' style='height:90px; width:728px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1435068546143-0'); });
+</script>
+</div>
+-->
+
+<a 
+href="http://www.errebiauto.it/" target="_blank">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/H1_Errebi-renault.gif">
+</a>
+			</div>
+		
+	
+
+
+
+
+
+
+	</center>
+
+	<center>
+		
+		<div class="pagina_sfondo">
+
+			<div class="pagina_interna">
+
+				<!-- INIZIO TESTATA -->
+				<div class="testata">
+					<div class="logo_link">
+						
+						<div class="logo">
+							<a href="http://www.lanuovaprovincia.it">
+								<img border="0" src="http://94.32.72.148/media/images/lanuovaprovincia/omino.png" />
+							</a>
+						</div>
+						
+						<div class="link">
+							<div class="root_link floatleft">
+								<ul>
+									
+										<li><a href="/accounts/main_login/">LOGIN</a></li>
+										<li><a href="/accounts/register/">REGISTRATI</a></li>
+									
+									<li id="noslash"><a href="/publisher/abbonamenti/section/">ABBONAMENTI</a></li>
+								</ul>
+						   </div>
+
+							<div class="cerca_sito">					
+								<form method="GET" action="/publisher/cerca/search/1/" name="search_form">
+									<input type="search_text" name="search_text" id="cerca_sito" value="cerca nel sito">
+									<input type="submit" id="cerca" value="" name="cerca">
+								</form>
+							</div>
+							<div class="root_link floatright">
+								<ul>
+									<li id="noslash_last"><a href="/publisher/facebook/section/" target="_blank"><img border="0" src="http://94.32.72.148/media/images/lanuovaprovincia/logo_fb.gif"></a></li>
+									<li id="noslash_last"><a href="/publisher/twitter/section/" target="_blank"><img border="0" src="http://94.32.72.148/media/images/lanuovaprovincia/logo_twitter.gif"></a></li>
+									<li id="noslash_last"><a href="/feeds/home/rss/" target="_blank"><img border="0" src="http://94.32.72.148/media/images/lanuovaprovincia/logo_rss.gif"></a></li>
+								</ul>
+						   </div>
+							<div style="clear:both"></div>
+						</div>
+						<div class="floatleft">
+							<div class="data floatleft">
+								<span class="giorno">giovedì,&nbsp;</span>18 febbraio 2016
+							</div>
+							<div class="clear logo_scritta">
+								<a href="http://www.lanuovaprovincia.it">
+									<img border="0" src="http://94.32.72.148/media/images/lanuovaprovincia/logo_scritta_testata.gif" />
+								</a>
+							</div>
+						</div>
+						<div class="floatright">
+							
+							
+	
+		<div style="margin-right: 10px; float: left;">
+			<!-- /37911482/K1 -->
+<div id='div-gpt-ad-1433942174735-0' style='height:85px; width:170px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1433942174735-0'); });
+</script>
+</div>
+
+
+<!--  
+<a href="http://www.famila.it/" target="_blank">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/Famila_K1.gif">
+</a>
+-->
+		</div>
+	
+	<div class="clear"></div>
+
+						</div>
+					</div>
+
+
+					
+
+
+
+		<!-- INIZIO MENU -->
+		<div class="menu">
+			
+				<div class="bianco">
+					<ul>
+						
+							<li >
+								<a href="/publisher/asti/section/">Asti</a>
+							</li>
+						
+							<li >
+								<a href="/publisher/canelli_e_sud/section/">Canelli e sud</a>
+							</li>
+						
+							<li >
+								<a href="/publisher/nizza_monferrato/section/">Nizza Monferrato</a>
+							</li>
+						
+							<li >
+								<a href="/publisher/costigliole_e_valtiglione/section/">Costigliole e Valtiglione</a>
+							</li>
+						
+							<li >
+								<a href="/publisher/moncalvo_e_nord/section/">Moncalvo e nord</a>
+							</li>
+						
+							<li >
+								<a href="/publisher/villanova_e_san_damiano/section/">Villanova e San Damiano</a>
+							</li>
+						
+							<li >
+								<a href="/publisher/tutti_i_comuni/section/">Tutti i Comuni</a>
+							</li>
+						
+					</ul>
+				</div>
+			
+			
+			
+				<ul id="navigation">
+					
+						
+							<li class="sub current">
+						
+							
+								<a href="/publisher/home/section/">News</a>
+							
+
+							
+									<ul>
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/cronaca/section/" >Cronaca</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/attualita/section/" >Attualità</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/economia_e_lavoro/section/" >Economia e lavoro</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/cultura/section/" >Cultura</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/tempo_libero/section/" >Tempo libero</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/sport/section/" >Sport</a>
+														</li>
+												
+											
+										
+									</ul>
+							
+						</li>
+					
+						
+							<li class="sub ">
+						
+							
+								<a href="/publisher/lettori/section/" onclick="javascript: return false;">Lettori</a>
+							
+
+							
+									<ul>
+										
+											
+												
+													<li>
+														<a href="/publisher/sondaggi/section/" >Sondaggi</a>
+													</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/lettere/section/" >Lettere</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/facebook/section/" target="_blank">Facebook</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/twitter/section/" target="_blank">Twitter</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/rss/section/" target="_blank">RSS</a>
+														</li>
+												
+											
+										
+									</ul>
+							
+						</li>
+					
+						
+							<li class=" ">
+						
+							
+								
+								
+									
+										<a href="/galleries/fotogallery/1278/1/">Foto</a>
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+							
+
+							
+						</li>
+					
+						
+							<li class=" ">
+						
+							
+								<a href="/publisher/videogallery/section/">Video</a>
+							
+
+							
+						</li>
+					
+						
+							<li class="sub ">
+						
+							
+								<a href="/publisher/blogrubriche/section/" onclick="javascript: return false;">Blog/rubriche</a>
+							
+
+							
+									<ul>
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/blog/section/" >Blog</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/rubriche/section/" >Rubriche</a>
+														</li>
+												
+											
+										
+									</ul>
+							
+						</li>
+					
+						
+							<li class=" ">
+						
+							
+								<a href="/publisher/palio/section/">Palio</a>
+							
+
+							
+						</li>
+					
+						
+							<li class=" ">
+						
+							
+								<a href="/publisher/la_lente/section/">La Lente</a>
+							
+
+							
+						</li>
+					
+						
+							
+								<li class="sub c">
+							
+						
+							
+								<a href="/publisher/dossier/section/">Dossier</a>
+							
+
+							
+						</li>
+					
+						
+							<li class="sub ">
+						
+							
+								<a href="/publisher/servizi/section/" onclick="javascript: return false;">Servizi</a>
+							
+
+							
+									<ul>
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/farmacie/section/" >Farmacie</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/edicole/section/" >Edicole</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/numeri_utili/section/" >Numeri Utili</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/autobus/section/" >Autobus</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/treni/section/" >Treni</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/messe/section/" >Messe</a>
+														</li>
+												
+											
+										
+									</ul>
+							
+						</li>
+					
+						
+							<li class="sub ">
+						
+							
+								<a href="/publisher/chi_siamo/section/" onclick="javascript: return false;">Chi siamo</a>
+							
+
+							
+									<ul>
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/la_nuova_provincia/section/" >La Nuova Provincia</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/redazione/section/" >In redazione</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/abbonati/section/" >Abbonati</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/pubblicita/section/" >Pubblicità</a>
+														</li>
+												
+											
+										
+									</ul>
+							
+						</li>
+					
+						
+							
+								<li class="sub c">
+							
+						
+							
+								<a href="/publisher/scuolaat/section/">#scuola.at</a>
+							
+
+							
+						</li>
+					
+				</ul>
+				
+		</div>
+		<!-- FINE MENU -->
+
+
+					
+					<!-- banner H2 -->
+					
+	
+		
+			<div class="slim_banner">
+		
+			<!-- /37911482/H2 
+<div id='div-gpt-ad-1434529880734-0' style='height:45px; width:990px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1434529880734-0'); });
+</script>
+</div>
+-->
+
+<!--     -->
+<a 
+href="https://www.bancacrasti.it/privati-e-famiglie/previdenza-e-polizze-assicurative/" target="_blank">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/H2_Cra_990x45.gif">
+</a>
+
+
+		</div>
+	
+
+				
+				
+				</div>
+			</div>
+		</div>
+
+
+			<div class="pagina_sfondo">
+				<div class="pagina_interna">
+					
+					
+
+
+
+
+					<div class="contenitore_990">
+						<div id="contenitore_articoli">
+
+						
+							
+
+								
+
+
+<div class="articolo sfondogrigio">
+	<div class="data_categorie box_home">
+		<ul>
+			
+				<li >
+					<a href="/publisher/cronaca/section/">Cronaca</a>
+				</li>
+			
+			<li  id="noslash_story">
+				
+					
+						<a href="/stories/local/Asti/Asti/1/">Asti</a>
+					
+				
+			</li>
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_big1 box_home">
+		<a href="/stories/cronaca/34718_anziana_rapinata_in_viale_partigiani/">Anziana rapinata in viale Partigiani</a>
+	</div>
+	<div style="clear:both"></div>
+	<div class="floatleft">
+		
+			<div class="foto_container_big">
+				
+					<a href="/stories/cronaca/34718_anziana_rapinata_in_viale_partigiani/"><img border="0" class="img_big1" src="http://94.32.72.148/media/2016/02/46111_17_medium.jpg">	</a>
+				
+				
+					<div class="strillo_big" ><a href="/stories/cronaca/34718_anziana_rapinata_in_viale_partigiani/">Un uomo l’ha sorpresa alle spalle, mentre camminava in strada, e le ha strappato la borsa che portava al braccio. Vittima una signora di 83 anni, residente ad Asti. È accaduto alle 19,30 di ieri sera, mercoledì, in viale Partigiani, nei pressi di piazza Lugano. ...</a></div>
+								
+			</div>
+
+		
+
+
+	</div>
+
+
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/cronaca/section/">Cronaca</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/cronaca/34709_sparatoria_di_san_valentino_gli_arrestati_non_aprono_bocca/">Sparatoria di San Valentino:<br/>gli arrestati non aprono bocca</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/cronaca/34709_sparatoria_di_san_valentino_gli_arrestati_non_aprono_bocca/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46103_17_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/cronaca/34709_sparatoria_di_san_valentino_gli_arrestati_non_aprono_bocca/">Bocche cucite agli interrogatori di convalida per il fermo con l&#39;accusa di tentato omicidio: si sono avvalsi della facoltà di non rispondere i due fratelli albanesi, Valentin e Paulin Simoni di 30 e 29 anni in carcere dalla notte di domenica per la sparatoria avvenuta ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/scuola/section/">Scuola</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/scuola/34695_vivere_la_scuola_anche_al_pomeriggio_e_leducazione_alla_pari/">Vivere la scuola, anche al pomeriggio<br/>E&#39; l&#39;educazione &quot;alla pari&quot;</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/scuola/34695_vivere_la_scuola_anche_al_pomeriggio_e_leducazione_alla_pari/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46096_17_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/scuola/34695_vivere_la_scuola_anche_al_pomeriggio_e_leducazione_alla_pari/">Nasce la rete di scuole astigiane legate al progetto regionale &quot;Noi&quot;, nato per contrastare le varie forme di disagio che affliggono gli studenti, da chi è vittima di bullismo a chi fatica nello studio. Lunedì, nell&#39;aula magna dell&#39;istituto superiore &quot;Castigliano&quot;, si è infatti tenuto l&#39;incontro ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+								
+	<div class="pubbl_468x60">
+		<a 
+href="http://www.lanuovaprovincia.it/publisher/scuolaat/section//" target="_blank">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/A1_scuolaat.jpg">
+</a>
+
+
+<BR><BR>
+
+<a href="http://www.avisasti.it/" target="_blank">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/A1-Avis.gif">
+</a>
+
+
+	</div>
+
+							
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/salute/section/">Salute</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/salute/34696_alimentazione_e_stili_di_vita_a_tavola_aprono_il_ciclo_dei_gioved_della_salute/">Alimentazione e stili di vita a tavola<br/>aprono il ciclo dei giovedì della salute</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/salute/34696_alimentazione_e_stili_di_vita_a_tavola_aprono_il_ciclo_dei_gioved_della_salute/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46097_17_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/salute/34696_alimentazione_e_stili_di_vita_a_tavola_aprono_il_ciclo_dei_gioved_della_salute/">E&#39; in programma oggi il primo dei &quot;Giovedì della Salute&quot;, il ciclo di incontri che l&#39;associazione InCreaSe organizza in collaborazione con l&#39;Università di Asti, l&#39;Asl e il Centro Servizi Volontariato di Asti e Alessandria. Come ha spiegato il direttore del Polo universitario, Francesco Scalfari, anche ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/scuola/section/">Scuola</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/scuola/34697_lavoro_o_universit_una_giornata_informativa/">Lavoro o università? Una giornata informativa</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/scuola/34697_lavoro_o_universit_una_giornata_informativa/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46098_17_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/scuola/34697_lavoro_o_universit_una_giornata_informativa/">Una giornata dedicata all&#39;orientamento degli studenti di quinta superiore, intercettando gli &quot;opposti&quot;. Ovvero, dando risposte sia ai ragazzi che sono intenzionati ad entrare nel mondo del lavoro sia a coloro che, invece, pensano di proseguire gli studi iscrivendosi all&#39;università. Queste le caratteristiche della Giornata informativa ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+								
+
+
+	
+		<div class="fotogallery_home">
+			<div class="titolo_fotogallery_home">
+				Foto
+				<span>
+					
+						
+							<a href="/galleries/fotogallery/1278/1/">Tutte le fotogallery</a>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				</span>
+			</div>
+			<ul id="first-carousel" class="first-and-second-carousel jcarousel-skin-lnp">
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1278/1/">
+									<img src="http://94.32.72.148/media/2016/02/46024_35_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1278/1/">FOTO: La festa di Carnevale dei bambini al Teatro Alfieri</a>
+								</h1>
+								<h2>11 feb | 09:51</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1277/1/">
+									<img src="http://94.32.72.148/media/2016/02/File_000_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1277/1/">FOTO: I vostri selfie di San Valentino, votate il migliore su facebook</a>
+								</h1>
+								<h2>9 feb | 11:36</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1276/1/">
+									<img src="http://94.32.72.148/media/2016/01/image-23-01-16-12-51_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1276/1/">FOTO: La cena polacca organizzata dalla Pastorale Giovanile</a>
+								</h1>
+								<h2>28 gen | 10:03</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1275/1/">
+									<img src="http://94.32.72.148/media/2016/01/CS1_3517_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1275/1/">FOTO: La mostra "Ricordi futuri" a Palazzo Mazzetti</a>
+								</h1>
+								<h2>27 gen | 15:38</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1274/1/">
+									<img src="http://94.32.72.148/media/2016/01/IMG_0487_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1274/1/">FOTO: Incidente in tangenziale, camionista travolto e ucciso</a>
+								</h1>
+								<h2>18 gen | 10:26</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1273/1/">
+									<img src="http://94.32.72.148/media/2016/01/DSC_0016_battuti_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1273/1/">FOTO: Ferrere, il tour dei presepi sui sette colli</a>
+								</h1>
+								<h2>11 gen | 10:52</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1272/1/">
+									<img src="http://94.32.72.148/media/2016/01/IMG_9001_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1272/1/">FOTO: Schiuma nel Borbore, arrivano le telecamere di Rai3</a>
+								</h1>
+								<h2>11 gen | 10:35</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1271/1/">
+									<img src="http://94.32.72.148/media/2015/12/CS1_0237_Small_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1271/1/">FOTO: Palazzo Ottolenghi riportato al suo antico splendore</a>
+								</h1>
+								<h2>28 dic | 16:14</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1270/1/">
+									<img src="http://94.32.72.148/media/2015/12/1463225_263001817180166_1633104833_n_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1270/1/">FOTO: Le minuscole botteghe nel presepe di Annarosa Nicola</a>
+								</h1>
+								<h2>12 dic | 17:22</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1269/1/">
+									<img src="http://94.32.72.148/media/2015/12/13_frasi_celebri_di_autori_famosi_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1269/1/">FOTO: I ragazzi della media Jona per il progetto "Libriamoci"</a>
+								</h1>
+								<h2>11 dic | 12:23</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1268/1/">
+									<img src="http://94.32.72.148/media/2015/11/IMG_9771_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1268/1/">FOTO: Gli acchiappafantasmi indagano sullo spettro in Municipio</a>
+								</h1>
+								<h2>26 nov | 11:21</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1267/1/">
+									<img src="http://94.32.72.148/media/2015/11/CS1_3812_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1267/1/">FOTO: I volti e i baci del Bagna Cauda Day</a>
+								</h1>
+								<h2>24 nov | 11:09</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1266/1/">
+									<img src="http://94.32.72.148/media/2015/11/45148_17_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1266/1/">FOTO: Bene gli astigiani ai Regionali di Kick Boxing</a>
+								</h1>
+								<h2>24 nov | 09:41</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1265/1/">
+									<img src="http://94.32.72.148/media/2015/11/45116_17_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1265/1/">FOTO: Sgomberato campo nomadi abusivo della Boana</a>
+								</h1>
+								<h2>20 nov | 11:07</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1264/1/">
+									<img src="http://94.32.72.148/media/2015/11/CS1_3324_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1264/1/">FOTO: Una folla in coda per il "sottocosto" Euronics</a>
+								</h1>
+								<h2>19 nov | 12:02</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1263/1/">
+									<img src="http://94.32.72.148/media/2015/11/CS1_3254_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1263/1/">FOTO: Tra la refurtiva ci sono anche i vostri gioielli?</a>
+								</h1>
+								<h2>18 nov | 15:24</h2>
+							</div>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1261/1/">
+									<img src="http://94.32.72.148/media/2015/11/45064_17_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1261/1/">FOTO: Sequestro preventivo di vetture e sigilli a locali</a>
+								</h1>
+								<h2>17 nov | 15:07</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1260/1/">
+									<img src="http://94.32.72.148/media/2015/11/45025_18_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1260/1/">FOTO: Giornata di orientamento per gli studenti di 3^ media</a>
+								</h1>
+								<h2>16 nov | 12:11</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1259/1/">
+									<img src="http://94.32.72.148/media/2015/11/44999_18_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1259/1/">FOTO: I tre giorni astigiani del tartufo</a>
+								</h1>
+								<h2>16 nov | 10:24</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1258/1/">
+									<img src="http://94.32.72.148/media/2015/11/34_fiera_tartufo_montechiaro_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1258/1/">FOTO: Laura Torrisi madrina della Fiera del Tartufo di Montechiaro</a>
+								</h1>
+								<h2>10 nov | 10:56</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1257/1/">
+									<img src="http://94.32.72.148/media/2015/11/IMG_4966_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1257/1/">FOTO: Zucche e streghe nella notte di Halloween</a>
+								</h1>
+								<h2>2 nov | 17:01</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1256/1/">
+									<img src="http://94.32.72.148/media/2015/10/44754_17_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1256/1/">FOTO: La Fiera del tartufo di Moncalvo incorona un biellese</a>
+								</h1>
+								<h2>26 ott | 11:40</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1255/1/">
+									<img src="http://94.32.72.148/media/2015/10/CS1_4346_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1255/1/">FOTO: L'allestimento della mostra "Asti contemporanea" a Palazzo Mazzetti</a>
+								</h1>
+								<h2>16 ott | 10:41</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1254/1/">
+									<img src="http://94.32.72.148/media/2015/10/SAM_0411_93069_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1254/1/">FOTO: Crociera La Nuova Provincia, da La Spezia a Barcellona</a>
+								</h1>
+								<h2>13 ott | 11:03</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1253/1/">
+									<img src="http://94.32.72.148/media/2015/09/IMG_8097_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1253/1/">FOTO: Arti e Mercanti, un tuffo nel Medioevo all'ombra della Torre Rossa</a>
+								</h1>
+								<h2>28 set | 09:38</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1252/1/">
+									<img src="http://94.32.72.148/media/2015/09/Carroccio_6962_Medium_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1252/1/">FOTO: Il Carroccio - Simbolo delle libertà comunali</a>
+								</h1>
+								<h2>25 set | 11:11</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1251/1/">
+									<img src="http://94.32.72.148/media/2015/09/Torretta_6900_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1251/1/">FOTO: Torretta - Il giuramento dei mestieri</a>
+								</h1>
+								<h2>25 set | 11:09</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1250/1/">
+									<img src="http://94.32.72.148/media/2015/09/San_Silvestro_6821_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1250/1/">FOTO: San Silvestro - Il cibo e la tavola ai tempi di Valentina Visconti</a>
+								</h1>
+								<h2>25 set | 11:02</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1249/1/">
+									<img src="http://94.32.72.148/media/2015/09/San_Rocco_6759_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1249/1/">FOTO: San Martino San Rocco - Cibo e gusto: il banchetto dei nobili nel Medioevo</a>
+								</h1>
+								<h2>25 set | 10:43</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1248/1/">
+									<img src="http://94.32.72.148/media/2015/09/SastellAlfero_6710_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1248/1/">FOTO: Castell'Alfero - Quadri di vita femminile in epoca medievale</a>
+								</h1>
+								<h2>24 set | 15:19</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1247/1/">
+									<img src="http://94.32.72.148/media/2015/09/San_Marzanotto_6643_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1247/1/">FOTO: San Marzanotto - I mille volti della donna nel Medioevo: tra purezza e superstizione</a>
+								</h1>
+								<h2>24 set | 15:06</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1246/1/">
+									<img src="http://94.32.72.148/media/2015/09/San_Damiano_6579_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1246/1/">FOTO: San Damiano - Il culto dei santi protettori nella devozione medievale</a>
+								</h1>
+								<h2>24 set | 14:57</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1245/1/">
+									<img src="http://94.32.72.148/media/2015/09/44365_18_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1245/1/">FOTO: Tanaro Trincere Torrazzo - Il valore delle donne nel medioevo dalla Corte di Francia alla Città delle Dame</a>
+								</h1>
+								<h2>24 set | 11:18</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1244/1/">
+									<img src="http://94.32.72.148/media/2015/09/44353_18_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1244/1/">FOTO: Don Bosco - Jacopo da Varagine, Sant’Orsola e le undicimila vergini</a>
+								</h1>
+								<h2>24 set | 10:58</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1243/1/">
+									<img src="http://94.32.72.148/media/2015/09/Canelli_6377_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1243/1/">FOTO: Canelli - Asti, contea di santi e di beati: Enrico Scarampi</a>
+								</h1>
+								<h2>23 set | 12:08</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1242/1/">
+									<img src="http://94.32.72.148/media/2015/09/Cattedrale_6289_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1242/1/">FOTO: Cattedrale - La Fortuna e le sue rappresentazioni allegoriche</a>
+								</h1>
+								<h2>23 set | 11:04</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1241/1/">
+									<img src="http://94.32.72.148/media/2015/09/San_Lazzaro_6216_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1241/1/">FOTO: San Lazzaro - Rex enim est iustum: il De Ludo Scachorum di Fra Jacopo da Cessole</a>
+								</h1>
+								<h2>23 set | 10:48</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1240/1/">
+									<img src="http://94.32.72.148/media/2015/09/Moncalvo_6146_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1240/1/">FOTO: Moncalvo - Il putridarium e le suore non sepolte</a>
+								</h1>
+								<h2>23 set | 10:32</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1239/1/">
+									<img src="http://94.32.72.148/media/2015/09/44281_17_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1239/1/">FOTO: Baldichieri - Curarsi nel medioevo tra antiche sapienze e concezioni filosofiche</a>
+								</h1>
+								<h2>23 set | 10:21</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1238/1/">
+									<img src="http://94.32.72.148/media/2015/09/44262_17_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1238/1/">FOTO: San Secondo - L'osservazione del cielo fra paure e curiosità</a>
+								</h1>
+								<h2>22 set | 12:00</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1237/1/">
+									<img src="http://94.32.72.148/media/2015/09/44249_17_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1237/1/">FOTO: Montechiaro - La nascita del Monte di Pietà</a>
+								</h1>
+								<h2>22 set | 11:40</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1236/1/">
+									<img src="http://94.32.72.148/media/2015/09/44233_17_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1236/1/">FOTO: Viatosto - E fu così che la Natura incoronò il suo Re</a>
+								</h1>
+								<h2>22 set | 11:18</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1235/1/">
+									<img src="http://94.32.72.148/media/2015/09/44221_17_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1235/1/">FOTO: San Pietro - Asti, tra curtes e città: in compagnia di contadini,mercanti, dame e cavalieri</a>
+								</h1>
+								<h2>22 set | 10:49</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1234/1/">
+									<img src="http://94.32.72.148/media/2015/09/44205_17_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1234/1/">FOTO: Santa Maria Nuova - Carlo d’Orléans poeta dell'amor cortese</a>
+								</h1>
+								<h2>22 set | 10:24</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1233/1/">
+									<img src="http://94.32.72.148/media/2015/09/44188_18_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1233/1/">FOTO: Nizza - Il Re di Francia Carlo VIII soggiorna al Convento francescano della Madonna delle Grazie in Nizza della paglia</a>
+								</h1>
+								<h2>21 set | 17:21</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1232/1/">
+									<img src="http://94.32.72.148/media/2015/09/44176_18_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1232/1/">FOTO: San Paolo - Gli stemmi e i simboli del Rione</a>
+								</h1>
+								<h2>21 set | 16:45</h2>
+							</div>
+						</li>
+					
+				
+					
+						<li>
+							<div class="testo_carousel">
+								<a href="/galleries/fotogallery/1231/1/">
+									<img src="http://94.32.72.148/media/2015/09/44163_18_low.jpg" alt="" />
+								</a>
+								<h1>
+									<a href="/galleries/fotogallery/1231/1/">FOTO: Santa Caterina - La vittoria sul peccato: conquista dei virtuosi</a>
+								</h1>
+								<h2>21 set | 16:34</h2>
+							</div>
+						</li>
+					
+				
+			</ul>
+		</div>
+	
+
+								
+	<div class="pubbl_468x60">
+		<img border="0" src="/media/statiche/lanuovaprovincia/ADV/A3-Reverchon-bianco.gif">
+
+
+<!--     
+<a 
+href="http://www.reverchon.it/" target="_blank">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/A3_Reverchon-febbraio.jpg">
+</a>
+
+-->
+
+
+<!--/37911482/A3 -->
+<div id='div-gpt-ad-1450348508401-0' style='height:60px; width:468px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1450348508401-0'); });
+</script>
+</div>
+
+
+
+
+
+
+<!-- 
+<iframe id="mirago" src='http://feed.4wnet.com/feed.html.ashx?a=165542&n=3&u=http://www.lanuovaprovincia.net&i=1&iw=60&ih=60&hd=4&f=0&c=http://213.215.254.202/media/CSS/lanuovaprovincia/4wnetcustom634x118.css&s=Lanuovaprovincia_spc_sez_bot3_60x60' framespacing='0' frameborder='no' scrolling='no' width='634' height='118'></iframe>
+
+-->
+	</div>
+
+							
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/cronaca/section/">Cronaca</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/cronaca/34698_per_ricordare_borrino_il_m5s_regala_il_fatto_quotidiano_alla_biblioteca/">Per ricordare Borrino il M5S regala<br/>&quot;Il Fatto Quotidiano&quot; alla Biblioteca</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/cronaca/34698_per_ricordare_borrino_il_m5s_regala_il_fatto_quotidiano_alla_biblioteca/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/01/45856_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/cronaca/34698_per_ricordare_borrino_il_m5s_regala_il_fatto_quotidiano_alla_biblioteca/">«Un piccolo gesto doveroso e sincero per tenere vivo il ricordo di un amico che è stato con noi sin dalla fondazione del Movimento 5 Stelle di Asti»: così gli attivisti astigiani del Movimento di Grillo motivano l&#39;omaggio alla Biblioteca Astense di un abbonamento a ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/sociale/section/">Sociale</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/sociale/34699_la_richiesta_dei_non_vedenti_in_braille_anche_le_etichette_per_gli_alimenti/">La richiesta dei non vedenti: in braille<br/>anche le etichette per gli alimenti</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/sociale/34699_la_richiesta_dei_non_vedenti_in_braille_anche_le_etichette_per_gli_alimenti/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46099_17_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/sociale/34699_la_richiesta_dei_non_vedenti_in_braille_anche_le_etichette_per_gli_alimenti/">Negli anni sempre maggiore attenzione è stata data alle informazioni ai consumatori contenute nelle etichette sui prodotti alimentari, ma mai si è pensato a renderle fruibili ad un maggiore numero di persone possibili. Così l&#39;ultima sollecitazione arriva dall&#39;Unione Italiana Ciechi e Ipovedenti del Piemonte che ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+								
+	<div class="pubbl_468x60">
+		<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1732159076790513";
+/* Home 468x60 Banner A2 */
+google_ad_slot = "2163460510";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+	</div>
+
+							
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/cronaca/section/">Cronaca</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/cronaca/34708_bottino_di_150mila_euro_nella_rapina_alla_san_paolo_di_corso_savona/">Bottino di 150mila euro nella rapina<br/>alla San Paolo di corso Savona</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/cronaca/34708_bottino_di_150mila_euro_nella_rapina_alla_san_paolo_di_corso_savona/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46102_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/cronaca/34708_bottino_di_150mila_euro_nella_rapina_alla_san_paolo_di_corso_savona/">Ha fruttato un bottino di 150 mila euro la rapina di questa mattina, mercoledì, alla banca Intesa San Paolo di corso Savona. Due banditi hanno fatto irruzione nel caveau del bancomat intorno a mezzogiorno. Sono riusciti a farsi consegnare il denaro e sono poi fuggiti, ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/mostre_e_patrimonio/section/">Mostre e Patrimonio</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/mostre_e_patrimonio/34683_comunit_europea_sport_il_monferrato_si_candida/">Comunità Europea Sport,<br/>il Monferrato si candida</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/mostre_e_patrimonio/34683_comunit_europea_sport_il_monferrato_si_candida/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46086_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/mostre_e_patrimonio/34683_comunit_europea_sport_il_monferrato_si_candida/">E&#39; stata ufficializzata lunedì mattina in municipio la candidatura del Monferrato a &quot;European Community of Sport 2017&quot;. L&#39;obiettivo, che sarà perseguito dal Monferrato inteso come sodalizio strategico tra l&#39;Astigiano e l&#39;Alessandrino, prevede la creazione di un dossier che convinca Bruxelles a concedere l&#39;ambito riconoscimento. Solo ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/salute/section/">Salute</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/salute/34693_maxillo_altro_che_chiusura_met_dei_pazienti__da_fuori_provincia/">Maxillo, altro che chiusura:<br/>metà dei pazienti è da fuori provincia</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/salute/34693_maxillo_altro_che_chiusura_met_dei_pazienti__da_fuori_provincia/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46094_17_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/salute/34693_maxillo_altro_che_chiusura_met_dei_pazienti__da_fuori_provincia/">«Altro che Chirurgia Maxillo facciale in chiusura come molti avevano sbandierato. Con i suoi 600 interventi l&#39;anno, e una mobilità attiva del 56%, di cui il 10-12% proveniente da altre regioni italiane tra cui molte del Centro sud ma anche dalla Lombardia e dalla Liguria ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/sociale/section/">Sociale</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/sociale/34694_lunione_pro_ciechi_si_presenta_a_domicilio/">L’Unione pro ciechi si presenta a domicilio</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/sociale/34694_lunione_pro_ciechi_si_presenta_a_domicilio/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46095_17_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/sociale/34694_lunione_pro_ciechi_si_presenta_a_domicilio/">&quot;Conoscerci per vivere meglio&quot;. E&#39; il titolo del progetto che sarà attuato dall&#39;Unione Nazionale Italiana Volontari pro Ciechi (U.N.I.Vo.C.) che svolge attività a favore dei ciechi, e più in generale dei minorati della vista, per il superamento dei fattori che ne ostacolano la piena integrazione ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/scuola/section/">Scuola</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/scuola/34692_al_penna_nascer_laula_di_scienze_30/">Al &quot;Penna&quot; nascerà l&#39;aula di Scienze 3.0</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/scuola/34692_al_penna_nascer_laula_di_scienze_30/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2015/11/45197_17_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/scuola/34692_al_penna_nascer_laula_di_scienze_30/">L&#39;istituto agrario &quot;Penna&quot; aprirà, tra le prime scuole d&#39;Italia e unica in Piemonte, l&#39;aula di scienze 3.0 per le classi prime e seconde a partire dal prossimo anno scolastico. Grazie ai previsti contributi del PON FESR 2014/2020, la novità riguarda tre interi corsi (Scienze della ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/economia_e_lavoro/section/">Economia e lavoro</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/economia_e_lavoro/34684_la_crasti_chiude_un_anno_positivo/">La CrAsti chiude un anno positivo</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/economia_e_lavoro/34684_la_crasti_chiude_un_anno_positivo/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46087_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/economia_e_lavoro/34684_la_crasti_chiude_un_anno_positivo/">La Cassa di Risparmio di Asti si conferma sempre più la banca del territorio. A dirlo sono i numeri dell&#39;esercizio 2015, varato nei giorni scorsi dal Consiglio di Amministrazione della Banca. A livello di Gruppo i crediti ammontano ad un miliardo e 250 milioni circa, ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/scuola/section/">Scuola</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/scuola/34691_violenze_estorsioni_e_minacce_sui_social_lezione_dei_carabinieri_contro_il_bullismo/">Violenze, estorsioni e minacce sui social<br/>Lezione dei carabinieri contro il bullismo</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/scuola/34691_violenze_estorsioni_e_minacce_sui_social_lezione_dei_carabinieri_contro_il_bullismo/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46093_17_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/scuola/34691_violenze_estorsioni_e_minacce_sui_social_lezione_dei_carabinieri_contro_il_bullismo/">Continue prese in giro, episodi ripetuti di sopraffazione, fino agli atti di violenza veri e propri, con pestaggi, anche pesanti, che avvengono in genere di fronte ad un pubblico divertito e compiaciuto. Situazioni difficili da affrontare e a cui sfuggire: spesso ci si lascia prendere ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/ambiente/section/">Ambiente</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/ambiente/34685_dove_buttare_pile_e_cellulari_usati_ecco_i_minipunti_ecologici/">Dove buttare pile e cellulari usati?<br/>Ecco i minipunti ecologici</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/ambiente/34685_dove_buttare_pile_e_cellulari_usati_ecco_i_minipunti_ecologici/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46088_17_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/ambiente/34685_dove_buttare_pile_e_cellulari_usati_ecco_i_minipunti_ecologici/">Per ora sono solo due, in piazza Roma e piazza Marconi, ma l&#39;iniziativa voluta dal Comune per sensibilizzare gli astigiani sulla raccolta differenziata potrebbe estendersi in altre zone della città. L&#39;amministrazione ha infatti deciso di installare due &quot;minipunti ecologici urbani&quot; in posizioni centrali e di ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/sociale/section/">Sociale</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Nizza Monferrato/Nizza Monferrato/1/">Nizza Monferrato</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/sociale/34687_a_nizza_18_nuovi_alloggi_popolari_entro_il_2018/">A Nizza 18 nuovi alloggi<br/>popolari entro il 2018</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/sociale/34687_a_nizza_18_nuovi_alloggi_popolari_entro_il_2018/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46090_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/sociale/34687_a_nizza_18_nuovi_alloggi_popolari_entro_il_2018/">Saranno 18 i nuovi alloggi di edilizia convenzionata, comunemente noti come &quot;case popolari&quot; che sorgeranno a Nizza Monferrato, nella palazzina in costruzione in via Piemonte, entro la fine del 2018. La notizia per la città è significativa perché il cantiere aveva subito un brusco stop, ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/libri/section/">Libri</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/libri/34690_asti_ha_una_nuova_guida_e_gli_autori_sono_due_ventenni/">Asti ha una nuova guida<br/>e gli autori sono due ventenni</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/libri/34690_asti_ha_una_nuova_guida_e_gli_autori_sono_due_ventenni/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46092_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/libri/34690_asti_ha_una_nuova_guida_e_gli_autori_sono_due_ventenni/">Il turismo come chiave per il rilancio della città è un tema sul tavolo di istituzioni ed enti locali. Che sia tra gli interessi dei cittadini più giovani, questo è meno scontato; d&#39;altra parte, è forse normale che il futuro preoccupi chi oggi ha vent&#39;anni. ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/musica/section/">Musica</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/musica/34677_un_sanremo_da_ventenne_spensierata_ora_instore_tour_per_chiara_dello_iacovo/">«Un Sanremo da ventenne spensierata»<br/>Ora instore tour per Chiara Dello Iacovo</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/musica/34677_un_sanremo_da_ventenne_spensierata_ora_instore_tour_per_chiara_dello_iacovo/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46081_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/musica/34677_un_sanremo_da_ventenne_spensierata_ora_instore_tour_per_chiara_dello_iacovo/">Sanremo, disco, tour. O disco, Sanremo, tour. Che si invertano o meno i primi due elementi della triade il risultato resta invariato. Ogni artista che transita sul palco del Teatro Ariston come concorrente al Festival della canzone italiana segue questa trafila. Ora tocca alla &quot;nostra&quot; ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/cronaca/section/">Cronaca</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/cronaca/34672_sparatoria_di_san_valentino_tra_auto_e_locali_aperti_due_trentenni_fermati/">Sparatoria di San Valentino tra auto<br/>e locali aperti, due trentenni fermati</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/cronaca/34672_sparatoria_di_san_valentino_tra_auto_e_locali_aperti_due_trentenni_fermati/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46077_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/cronaca/34672_sparatoria_di_san_valentino_tra_auto_e_locali_aperti_due_trentenni_fermati/">Oltre una decina di proiettili di una pistola calibro 9x21 esplosi, una sparatoria in strada, in pieno centro, in un orario in cui in giro può esserci gente. È accaduto nella serata di sabato, poco dopo le 23,30, in corso Alfieri, nel tratto di fronte ...</a></div>
+			
+		</div>
+		
+		
+			<div class="didascalia correlate">
+				
+
+
+	
+		<!-- ARTICOLO -->
+		<h1><a href="/stories/cronaca/34666_colpi_di_pistola_in_corso_alfieri_ferito_gravemente_giovane_albanese/"><img src="http://94.32.72.148/media/images/lanuovaprovincia/logo_articolo_correlata.gif">
+		Colpi di pistola in corso Alfieri Ferito gravemente giovane albanese</a></h1>
+	
+		<!-- ARTICOLO -->
+		<h1><a href="/stories/cronaca/34673_ho_sentito_i_colpi_di_pistola_mi_sono_affacciata_e_ho_visto_un_uomo_a_terra/"><img src="http://94.32.72.148/media/images/lanuovaprovincia/logo_articolo_correlata.gif">
+		«Ho sentito i colpi di pistola, mi sono affacciata e ho visto un uomo a terra»</a></h1>
+	
+		<!-- ARTICOLO -->
+		<h1><a href="/stories/politica/34674_brignolo_non_andate_a_prostitute_perch_alimentate_racket_e_violenza/"><img src="http://94.32.72.148/media/images/lanuovaprovincia/logo_articolo_correlata.gif">
+		Brignolo: «Non andate a prostitute perchè alimentate racket e violenza»</a></h1>
+	
+
+	
+	
+	
+	
+	
+	
+   
+	
+			
+
+
+			</div>
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/salute/section/">Salute</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/salute/34681_incontri_gratuiti_su_come_cucinare_sicuro_per_celiaci_e_intolleranti/">Incontri gratuiti su come cucinare<br/>&quot;sicuro&quot; per celiaci e intolleranti</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/salute/34681_incontri_gratuiti_su_come_cucinare_sicuro_per_celiaci_e_intolleranti/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46084_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/salute/34681_incontri_gratuiti_su_come_cucinare_sicuro_per_celiaci_e_intolleranti/">Ultimi giorni per iscriversi agli incontri informativi gratuiti sulla preparazione di pasti senza glutine riservati a ristoratori e titolari di bar, agriturismi, hotel, bed &amp; breakfast e di lavoratori artigianali come gastronomie, panetterie, pasticcerie, gelaterie, macellerie, pastifici, pizzerie d&#39;asporto e trasformatori di cibi in conserve. ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/palio/section/">Palio</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/palio/34679_san_pietro_grande_fiducia_in_cara_ad_asti_per_essere_protagonista/">San Pietro, grande fiducia in Carìa:<br/>«Ad Asti per essere protagonista»</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/palio/34679_san_pietro_grande_fiducia_in_cara_ad_asti_per_essere_protagonista/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2015/04/42186_17_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/palio/34679_san_pietro_grande_fiducia_in_cara_ad_asti_per_essere_protagonista/">Francesco Carìa dopo un anno di assenza dal nostro Palio si ritufferà nella competizione il prossimo settembre più determinato e voglioso che mai. Lo farà indossando i colori del Borgo San Pietro, che lo ha ingaggiato per sostituire Andrea Farris. Tutta la voglia di rilanciarsi ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/diocesi/section/">Diocesi</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local//Alba/1/">Alba</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/diocesi/34682_cattedrale_gremita_mons_ravinale_celebra_messa_in_ricordo_di_michele_ferrero/">Cattedrale gremita, Mons. Ravinale celebra messa in ricordo di Michele Ferrero</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/diocesi/34682_cattedrale_gremita_mons_ravinale_celebra_messa_in_ricordo_di_michele_ferrero/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46085_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/diocesi/34682_cattedrale_gremita_mons_ravinale_celebra_messa_in_ricordo_di_michele_ferrero/">Il vescovo di Asti Francesco Ravinale, in qualità di amministratore apostolico della diocesi di Alba, ha condotto, insieme al vescovo emerito Giacomo Lanzetti, la messa in ricordo di Michele Ferrero, l’imprenditore dell’industria dolciaria scomparso a Montecarlo il 14 febbraio 2015. La funzione si è svolta ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/diocesi/section/">Diocesi</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/diocesi/34678_padre_raniero_cantalamessa_mercoled_in_cattedrale/">Padre Raniero Cantalamessa<br/>mercoledì in Cattedrale</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/diocesi/34678_padre_raniero_cantalamessa_mercoled_in_cattedrale/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46082_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/diocesi/34678_padre_raniero_cantalamessa_mercoled_in_cattedrale/">Sarà padre Raniero Cantalamessa a dare inizio, questa settimana, ai Quaresimali dell&#39;Anno della Misericordia, incontri promossi dalla Diocesi in preparazione alla Pasqua, inerenti i temi della Quaresima e della Misericordia, argomento al centro del Giubileo in corso. L&#39;appuntamento è per mercoledì, alle 21 in Cattedrale, ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/politica/section/">Politica</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/politica/34671_labirinti_in_citt_dopo_tre_anni_gli_stessi_problemi/">Labirinti in città: dopo tre<br/>anni gli stessi problemi</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/politica/34671_labirinti_in_citt_dopo_tre_anni_gli_stessi_problemi/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46074_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/politica/34671_labirinti_in_citt_dopo_tre_anni_gli_stessi_problemi/">Sono passati quindici mesi da quando, nel novembre del 2014, l’assessore Mario Sorba era stato interpellato dal nostro giornale su alcuni problemi della viabilità cittadina, a loro volta già segnalati in un’articolata inchiesta pubblicata a gennaio 2013. Tre anni sono passati, ma la maggior parte ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+							
+
+								
+
+
+<div class="articolo senzasfondo">
+	<div class="data_categorie no_margin_right">
+		<ul>
+			
+				<li >
+					<a href="/publisher/scuola/section/">Scuola</a>
+				</li>
+			
+			
+				<li  id="noslash_story">
+					
+						
+							<a href="/stories/local/Asti/Asti/1/">Asti</a>
+						
+					
+				</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="titolo_norm">
+		<a href="/stories/scuola/34680_torna_il_premio_renato_bordone_per_le_tesi_di_laurea_sullastigiano/">Torna il premio &quot;Renato Bordone&quot;<br/>per le tesi di laurea sull’Astigiano</a>
+	</div>
+	<div class="floatleft">
+		
+		<div class="foto_container">
+			
+				<a href="/stories/scuola/34680_torna_il_premio_renato_bordone_per_le_tesi_di_laurea_sullastigiano/"><img border="0" class="img_norm" src="http://94.32.72.148/media/2016/02/46083_18_low.jpg">	</a>
+			
+			
+				<div class="strillo"><a href="/stories/scuola/34680_torna_il_premio_renato_bordone_per_le_tesi_di_laurea_sullastigiano/">La Società di Studi Astesi istituisce anche quest&#39;anno un premio per le migliori tesi di laurea sulla storia di Asti e dell&#39;Astigiano. Il premio, nato lo scorso anno, è stato istituito in memoria di Renato Bordone, già ordinario di Storia Medievale dell&#39;Università di Torino. E&#39; ...</a></div>
+			
+		</div>
+		
+		
+
+	</div>
+</div>
+
+							
+
+							
+
+							
+
+							
+
+						
+
+
+						</div>
+
+						
+
+
+<div class="contenitore_spalladx">
+
+	
+
+
+<!--div class="contenitore_servizio" style="margin: 8px 15px 0 0"-->
+	<!--div class="meteo"-->
+		<!--h1>METEO</h1-->
+		<!--h2>ASTI e provincia</h2-->
+	<!--/div-->
+	<div class="swf_meteo" style="margin-bottom: 20px;">
+		<script language="javascript">
+			if (AC_FL_RunContent == 0) {
+				alert("Questa pagina richiede AC_RunActiveContent.js.");
+			} else {
+				AC_FL_RunContent(
+					'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+					'width', '300',
+					'height', '85',
+					'src', 'http://94.32.72.148/media/SWF/lanuovaprovincia/modulino_lanuovaprovincia.swf',
+					'quality', 'high',
+					'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+					'align', 'middle',
+					'play', 'true',
+					'loop', 'true',
+					'scale', 'showall',
+					'wmode', 'transparent',
+					'devicefont', 'false',
+					'id', 'modulino_lanuovaprovincia',
+					'bgcolor', '',
+					'name', 'modulino_lanuovaprovincia',
+					'menu', 'true',
+					'allowFullScreen', 'false',
+					'allowScriptAccess','always',
+					'movie', 'http://94.32.72.148/media/SWF/lanuovaprovincia/modulino_lanuovaprovincia',
+					'flashVars', 'xml_url=/ws/most_viewed_videos',
+					'salign', ''
+					); //end AC code
+			}
+		</script>
+		<noscript>				
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="300" height="85" style="z-index: 10">
+			<param name="movie" value="http://94.32.72.148/media/SWF/lanuovaprovincia/modulino_lanuovaprovincia.swf" />
+			<param name="wmode" value="transparent" />
+			<param name="quality" value="high" />
+			<embed wmode="transparent" src="http://94.32.72.148/media/SWF/lanuovaprovincia/modulino_lanuovaprovincia.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="250" height="85"></embed>
+		</object>
+		</noscript>
+	</div>
+<!--/div-->
+<div class="clear"></div>
+
+	
+
+		
+
+					
+			
+			
+	
+		<div class="contenitore_servizio" id="noborder_nopadding">
+			<a 
+href="http://www.audizentrum-at.it/" target="_blank">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/B1_Audi-A1-admiral.gif">
+</a>
+
+<br><br>
+
+PATRIZIO E ROBERTO, LA PRIMA COPPIA<BR>
+DEL REGISTRO UNIONI CIVILI
+<BR>
+<iframe width="300" height="169" src="https://www.youtube.com/embed/nqCxjaZFwLE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+	
+	<div class="clear"></div>
+
+
+			
+			
+			
+
+				<div class="contenitore_servizio" id="bg_dp">
+				<!--div class="contenitore_servizio" style="border: none"-->
+					<!--img border="0" src="http://94.32.72.148/media/images/lanuovaprovincia/alert.jpg"-->
+					<div class="titolo">
+						<a href="/digitalpaper" target="_blank">Leggi il giornale online &raquo;</a>
+					</div>
+
+					<div class="interno">
+						<a href="/digitalpaper" target="_blank"><img border="0" src="http://94.32.72.148/media/DigitalPaper/asti/PRIMA.jpg"></a>
+						<div class="clear"></div>
+					</div>
+
+					<div class="titolo_demo">
+						<a href="/digitalpaperdemo" target="_blank">prova la versione demo</a>
+					</div>
+
+				</div>
+				<div class="clear"></div>
+			
+			
+
+			
+			
+			
+	
+		<div class="contenitore_servizio" id="noborder_nopadding">
+			<a 
+href="http://www.lanuovaprovincia.it/publisher/videogallery/section">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/B2_tutti-i-nostri-video.gif">
+</a>
+
+
+<a 
+href="http://www.lanuovaprovincia.it/stories/cinema/11249_cinema_titoli_dei_film_sale_e_orari_ad_asti_e_nellastigiano">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/B2_Oggi-al-cinema.gif">
+</a>
+
+<a 
+href="http://www.lanuovaprovincia.it/publisher/farmacie/section">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/B2_Farmacie-di-turno.gif">
+</a>
+
+<a 
+href="http://www.lanuovaprovincia.it/publisher/autobus/section">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/B2_Orari-bus.gif">
+</a>
+
+<br><br>
+
+
+<!-- /37911482/B2 
+<div id='div-gpt-ad-1432735430120-0' style='height:250px; width:300px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1432735430120-0'); });
+</script>
+</div>
+
+ -->
+
+		</div>
+	
+	<div class="clear"></div>
+
+
+			
+
+	
+	
+		
+			<!-- INIZIO DOSSIER -->
+			<div class="contenitore_servizio" id="bg_pp">
+				<div class="titolo"><a href="/publisher/dossier/section/">Dossier</a></div>
+				<div class="interno">
+					<div class="floatleft">
+						<div class="strillo">
+							
+								
+									
+										<!--a href="/stories/dossier/34119_lidentikit_del_futuro_sindaco_di_asti/"-->
+										<!--<a href="/dossiers/la_caduta_delle_ideologie/4_il_palio_di_asti/34119_lidentikit_del_futuro_sindaco_di_asti/">-->
+										<a href="/dossiers/la_caduta_delle_ideologie">
+									
+								
+								
+								
+									
+										<a href="/dossiers/la_caduta_delle_ideologie/77_i_principi_non_valgono_pi/34106_addio_ai_principi_la_politica_si_muove_in_base_alla_realt_contingente/">
+											<img border="0" class="img_dossier_hp" src="http://94.32.72.148/media/2015/12/45544_17_medium.jpg" />
+										</a>
+									
+								
+									
+								
+									
+								
+								
+								
+							
+							
+							La caduta delle ideologie
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FINE DOSSIER -->
+			<div class="clear"></div>
+		
+	
+
+
+			
+
+
+	<div class="contenitore_servizio" id="bg_spot">
+	
+		
+			<div class="titolo"><a href="/galleries/fotogallery/1139/1/">C'era una volta</a></div>
+			<div class="interno">
+				<div class="floatleft">
+					<div class="strillo">
+						<a title="L'inaugurazione della ferrovia Asti-Castagnole 1988" href="/galleries/fotogallery/1139/1/">
+							<img border="0" class="img_fc" src="http://94.32.72.148/media/2016/02/45913_35_medium.jpg" style="width: 255px; height: auto" />
+						</a>
+						<span class="caption" style="font-size: 14px; float: left; margin: 10px 0px 0px; line-height: 18px;">L'inaugurazione della ferrovia Asti-Castagnole 1988</span>
+					</div>
+				</div>
+			</div>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	</div>
+	<div class="clear"></div>
+
+
+
+
+			
+			
+
+			<!--div class="contenitore_servizio" id="noborder_nopadding">
+				<a href="/publisher/tuttoonline/section/">TUTTO OnLINE</a>
+			</div>
+			<div class="clear"></div-->
+			
+			
+
+
+
+
+	<div class="contenitore_servizio" id="bg_pp">
+		<div class="titolo">Primo piano</div>
+
+		
+
+			<div class="interno">
+				<div class="data_categorie">
+					<ul>
+						<li>
+							<a href="/publisher/politica/section/">Politica</a>
+						</li>
+						<li>17 feb</li>
+						<li  id="noslash">10:32</li>
+						
+					</ul>
+				</div>
+				<div class="floatleft">
+					<div class="strillo">
+						<a href="/stories/politica/34686_patrizio_e_roberto_la_prima_coppia_iscritta_nel_registro_delle_unioni_civili/"><img border="0" class="img_fc" src="http://94.32.72.148/media/2016/02/46089_17_low.jpg">Patrizio e Roberto, la prima coppia<br/>iscritta nel Registro delle unioni civili</a>
+					</div>
+				</div>
+			</div>
+
+		
+
+		</div>
+	<div class="clear"></div>
+
+
+
+			
+
+			
+
+
+
+	
+		
+	
+
+
+
+			
+	<div class="contenitore_servizio" id="noborder_nopadding" style="margin-top: 10px;">
+		
+
+
+<!-- /37911482/D2 
+<div id='div-gpt-ad-1436351828393-0' style='height:60px; width:234px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1436351828393-0'); });
+</script>
+</div>
+-->
+
+
+
+	</div>
+	<div class="clear"></div>
+
+
+			
+			
+			
+			
+			
+			
+			
+
+			<div class="clear"></div>
+
+			
+				
+
+
+
+			
+
+
+			
+				
+
+
+
+
+	<div class="contenitore_servizio" id="noborder_nopadding">
+		<div class="titolo_left">
+			<a href="/publisher/rubriche/section/">Rubriche</a>
+		</div>
+
+		
+
+			
+			
+			<div class="interno" id="padding_bottom">
+				<div class="titolo_blog">
+					<a href="/feeds/occhio_magico/rss/" target="_blank">
+						<img src="http://94.32.72.148/media/images/lanuovaprovincia/logo_rss.gif" />
+					</a>
+					<a href="/publisher/occhio_magico/section/">Occhio Magico</a>
+				</div>
+				<div class="floatleft" style="width: 300px;">
+					
+						<div class="foto_blog">
+							<a href="/publisher/occhio_magico/section/">
+								<img border="0" class="img_blog" src="http://94.32.72.148/media/2014/10/40398_17_low.jpg">
+							</a>
+						</div>
+					
+					<div style="overflow:hidden" class="rubriche_hp" code_sez="occhio_magico">
+						<div class="autore">a cura di <a href="/publisher/occhio_magico/section/">Paolo Monticone</a></div>
+						<div class="data_blog">
+							<ul class="data_rubriche_hp"></ul>
+						</div>
+						<div class="strillo_blog titolo_post_rub_hp"></div>
+						<div class="clear"></div>
+						<div class="testo_post_rub_hp""></div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+		
+
+			
+			
+			<div class="interno" id="padding_bottom">
+				<div class="titolo_blog">
+					<a href="/feeds/giallografia/rss/" target="_blank">
+						<img src="http://94.32.72.148/media/images/lanuovaprovincia/logo_rss.gif" />
+					</a>
+					<a href="/publisher/giallografia/section/">GialloGrafia</a>
+				</div>
+				<div class="floatleft" style="width: 300px;">
+					
+						<div class="foto_blog">
+							<a href="/publisher/giallografia/section/">
+								<img border="0" class="img_blog" src="http://94.32.72.148/media/2015/11/45195_35_low.jpg">
+							</a>
+						</div>
+					
+					<div style="overflow:hidden" class="rubriche_hp" code_sez="giallografia">
+						<div class="autore">a cura di <a href="/publisher/giallografia/section/">Marta Martiner Testa</a></div>
+						<div class="data_blog">
+							<ul class="data_rubriche_hp"></ul>
+						</div>
+						<div class="strillo_blog titolo_post_rub_hp"></div>
+						<div class="clear"></div>
+						<div class="testo_post_rub_hp""></div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+		
+
+			
+				
+			
+			
+			<div class="interno" id="padding_bottom">
+				<div class="titolo_blog">
+					<a href="/feeds/passi_in_flora/rss/" target="_blank">
+						<img src="http://94.32.72.148/media/images/lanuovaprovincia/logo_rss.gif" />
+					</a>
+					<a href="/publisher/passi_in_flora/section/">PASSI in FLORA</a>
+				</div>
+				<div class="floatleft" style="width: 300px;">
+					
+						<div class="foto_blog">
+							<a href="/publisher/passi_in_flora/section/">
+								<img border="0" class="img_blog" src="http://94.32.72.148/media/2014/11/40475_17_low.jpg">
+							</a>
+						</div>
+					
+					<div style="overflow:hidden" class="rubriche_hp" code_sez="passi_in_flora">
+						<div class="autore">a cura di <a href="/publisher/passi_in_flora/section/">Marzia Barosso</a></div>
+						<div class="data_blog">
+							<ul class="data_rubriche_hp"></ul>
+						</div>
+						<div class="strillo_blog titolo_post_rub_hp"></div>
+						<div class="clear"></div>
+						<div class="testo_post_rub_hp""></div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+		
+
+			
+			
+			<div class="interno" id="padding_bottom">
+				<div class="titolo_blog">
+					<a href="/feeds/social_paper/rss/" target="_blank">
+						<img src="http://94.32.72.148/media/images/lanuovaprovincia/logo_rss.gif" />
+					</a>
+					<a href="/publisher/social_paper/section/">Social Paper</a>
+				</div>
+				<div class="floatleft" style="width: 300px;">
+					
+						<div class="foto_blog">
+							<a href="/publisher/social_paper/section/">
+								<img border="0" class="img_blog" src="http://94.32.72.148/media/2013/01/18287_10_low.jpg">
+							</a>
+						</div>
+					
+					<div style="overflow:hidden" class="rubriche_hp" code_sez="social_paper">
+						<div class="autore">a cura di <a href="/publisher/social_paper/section/">Redazione Ragazzi del Social Paper</a></div>
+						<div class="data_blog">
+							<ul class="data_rubriche_hp"></ul>
+						</div>
+						<div class="strillo_blog titolo_post_rub_hp"></div>
+						<div class="clear"></div>
+						<div class="testo_post_rub_hp""></div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+		
+
+	</div>
+	<div class="clear"></div>
+
+
+			
+
+			
+
+
+	<div class="contenitore_servizio" id="noborder_nopadding">
+		
+			<div class="titolo_left">Pi&ugrave; letti </div>
+			<div id="most-read">
+				
+				<div id="most-read-content" style="display: block; ">
+					<ul class="list" style="margin-top: 0px">
+						
+							<li>
+								<span class="number">1</span>
+								<span class="headline">
+									<a href="/stories/cronaca/34708_bottino_di_150mila_euro_nella_rapina_alla_san_paolo_di_corso_savona/">Bottino di 150mila euro nella rapina<br/>alla San Paolo di corso Savona</a>
+								</span>
+							</li>
+						
+							<li>
+								<span class="number">2</span>
+								<span class="headline">
+									<a href="/stories/cronaca/34707_rapina_allintesa_san_paolo_di_corso_savona_ad_asti/">Rapina all&#39;Intesa San Paolo<br/>di corso Savona ad Asti</a>
+								</span>
+							</li>
+						
+							<li>
+								<span class="number">3</span>
+								<span class="headline">
+									<a href="/stories/cronaca/34672_sparatoria_di_san_valentino_tra_auto_e_locali_aperti_due_trentenni_fermati/">Sparatoria di San Valentino tra auto<br/>e locali aperti, due trentenni fermati</a>
+								</span>
+							</li>
+						
+							<li>
+								<span class="number">4</span>
+								<span class="headline">
+									<a href="/stories/economia_e_lavoro/34670_il_colosso_amazon_compra_lazienda_astigiana_nice/">Il colosso Amazon compra<br/>l’azienda astigiana Nice</a>
+								</span>
+							</li>
+						
+							<li>
+								<span class="number">5</span>
+								<span class="headline">
+									<a href="/stories/cronaca/34666_colpi_di_pistola_in_corso_alfieri_ferito_gravemente_giovane_albanese/">Colpi di pistola in corso Alfieri<br/>Ferito gravemente giovane albanese</a>
+								</span>
+							</li>
+						
+					</ul>
+				</div>
+				<div id="most-commented-content" style="display: none; ">
+					<ul class="list">
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		
+	<div class="banner160x140">
+		<a 
+href="http://www.carnevaledisanthia.it/" target="_blank">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/C1_Carnevale-d-Santhia.jpg">
+</a>
+
+
+<!--
+<a 
+href="/media/statiche/lanuovaprovincia/ADV/PDF/C_Abbonamenti 2016.pdf"target="_blank">
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/C_abbonamenti.gif">
+</a>
+-->
+
+<!--      
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/Publiarco/C1_160x450.gif">
+-->
+
+
+<!--      
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/Publiarco/C_Publiarco_doppio_160x290.gif">
+-->
+
+<!--      
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/Publiarco/C1_Publiarco_160x140.gif">
+
+-->
+
+
+
+
+<!-- /37911482/C1 
+<div id='div-gpt-ad-1433929266058-0' style='height:140px; width:160px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1433929266058-0'); });
+</script>
+</div>
+
+-->
+
+	</div>
+
+		
+		
+	<div class="banner160x140">
+		<!--      
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/Publiarco/C1_160x450.gif">
+-->
+
+<!--      -->
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/Publiarco/C_Publiarco_doppio_160x290.gif">
+
+
+
+
+<!--      
+<img border="0" src="/media/statiche/lanuovaprovincia/ADV/Publiarco/C1_Publiarco_160x140.gif">
+-->
+
+<!-- /37911482/C2 
+<div id='div-gpt-ad-1436948568228-0' style='height:140px; width:160px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1436948568228-0'); });
+</script>
+</div>
+-->
+	</div>
+
+	
+		
+	
+	</div>
+
+					
+			
+
+
+
+
+				<!-- INIZIO BOX FACEBOOK -->
+	<!--div class="contenitore_servizio" id="noborder_nopadding">
+		<a href="/"><img border="0" src="http://94.32.72.148/media/images/lanuovaprovincia/logo_lnp_spalladx.gif"></a>
+	</div-->
+	<div class="clear"></div>
+	<div class="contenitore_servizio" id="noborder_nopadding">
+		<!--iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FLaNuovaProvincia&amp;width=300&amp;height=320&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true&amp;appId=363116687090489" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:320px;" allowTransparency="true"></iframe-->
+		<div class="fb-page" data-href="https://www.facebook.com/LaNuovaProvincia" data-width="300" data-height="1000" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/LaNuovaProvincia"><a href="https://www.facebook.com/LaNuovaProvincia">La Nuova Provincia - Asti e il suo giornale</a></blockquote></div></div>
+	</div>
+	<div class="clear"></div>
+	<!-- FINE BOX FACEBOOK -->
+
+
+			
+
+		
+
+	
+
+</div>
+						
+					</div>
+				</div>
+
+			</div>
+		
+			
+
+
+	<div class="pagina_sfondo">
+		<div class="pagina_interna">
+			<div class="testata">
+
+				
+
+	
+	
+		
+			<div class="servizi">
+				<div class="titolo_servizi">SERVIZI</div>
+				<ul class="lista_servizi">
+					
+						<li class=" ">
+							<div class="img_servizi">
+								<a href="/publisher/farmacie/section/">
+									<img src="http://94.32.72.148/media/images/lanuovaprovincia/servizi_farmacie.gif" />
+								</a>
+							</div>
+							Farmacie
+						</li>
+					
+						<li class=" ">
+							<div class="img_servizi">
+								<a href="/publisher/edicole/section/">
+									<img src="http://94.32.72.148/media/images/lanuovaprovincia/servizi_edicole.gif" />
+								</a>
+							</div>
+							Edicole
+						</li>
+					
+						<li class=" ">
+							<div class="img_servizi">
+								<a href="/publisher/numeri_utili/section/">
+									<img src="http://94.32.72.148/media/images/lanuovaprovincia/servizi_numeri_utili.gif" />
+								</a>
+							</div>
+							Numeri Utili
+						</li>
+					
+						<li class=" ">
+							<div class="img_servizi">
+								<a href="/publisher/autobus/section/">
+									<img src="http://94.32.72.148/media/images/lanuovaprovincia/servizi_autobus.gif" />
+								</a>
+							</div>
+							Autobus
+						</li>
+					
+						<li class=" ">
+							<div class="img_servizi">
+								<a href="/publisher/treni/section/">
+									<img src="http://94.32.72.148/media/images/lanuovaprovincia/servizi_treni.gif" />
+								</a>
+							</div>
+							Treni
+						</li>
+					
+						<li class="ultimo ">
+							<div class="img_servizi">
+								<a href="/publisher/messe/section/">
+									<img src="http://94.32.72.148/media/images/lanuovaprovincia/servizi_messe.gif" />
+								</a>
+							</div>
+							Messe
+						</li>
+					
+				</ul>
+			</div>
+		
+	
+
+				
+				
+
+
+
+		<!-- INIZIO MENU -->
+		<div class="menu">
+			
+				<div class="bianco">
+					<ul>
+						
+							<li >
+								<a href="/publisher/asti/section/">Asti</a>
+							</li>
+						
+							<li >
+								<a href="/publisher/canelli_e_sud/section/">Canelli e sud</a>
+							</li>
+						
+							<li >
+								<a href="/publisher/nizza_monferrato/section/">Nizza Monferrato</a>
+							</li>
+						
+							<li >
+								<a href="/publisher/costigliole_e_valtiglione/section/">Costigliole e Valtiglione</a>
+							</li>
+						
+							<li >
+								<a href="/publisher/moncalvo_e_nord/section/">Moncalvo e nord</a>
+							</li>
+						
+							<li >
+								<a href="/publisher/villanova_e_san_damiano/section/">Villanova e San Damiano</a>
+							</li>
+						
+							<li >
+								<a href="/publisher/tutti_i_comuni/section/">Tutti i Comuni</a>
+							</li>
+						
+					</ul>
+				</div>
+			
+			
+			
+				<ul id="navigation">
+					
+						
+							<li class="sub current">
+						
+							
+								<a href="/publisher/home/section/">News</a>
+							
+
+							
+									<ul>
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/cronaca/section/" >Cronaca</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/attualita/section/" >Attualità</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/economia_e_lavoro/section/" >Economia e lavoro</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/cultura/section/" >Cultura</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/tempo_libero/section/" >Tempo libero</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/sport/section/" >Sport</a>
+														</li>
+												
+											
+										
+									</ul>
+							
+						</li>
+					
+						
+							<li class="sub ">
+						
+							
+								<a href="/publisher/lettori/section/" onclick="javascript: return false;">Lettori</a>
+							
+
+							
+									<ul>
+										
+											
+												
+													<li>
+														<a href="/publisher/sondaggi/section/" >Sondaggi</a>
+													</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/lettere/section/" >Lettere</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/facebook/section/" target="_blank">Facebook</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/twitter/section/" target="_blank">Twitter</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/rss/section/" target="_blank">RSS</a>
+														</li>
+												
+											
+										
+									</ul>
+							
+						</li>
+					
+						
+							<li class=" ">
+						
+							
+								
+								
+									
+										<a href="/galleries/fotogallery/1278/1/">Foto</a>
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+							
+
+							
+						</li>
+					
+						
+							<li class=" ">
+						
+							
+								<a href="/publisher/videogallery/section/">Video</a>
+							
+
+							
+						</li>
+					
+						
+							<li class="sub ">
+						
+							
+								<a href="/publisher/blogrubriche/section/" onclick="javascript: return false;">Blog/rubriche</a>
+							
+
+							
+									<ul>
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/blog/section/" >Blog</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/rubriche/section/" >Rubriche</a>
+														</li>
+												
+											
+										
+									</ul>
+							
+						</li>
+					
+						
+							<li class=" ">
+						
+							
+								<a href="/publisher/palio/section/">Palio</a>
+							
+
+							
+						</li>
+					
+						
+							<li class=" ">
+						
+							
+								<a href="/publisher/la_lente/section/">La Lente</a>
+							
+
+							
+						</li>
+					
+						
+							
+								<li class="sub c">
+							
+						
+							
+								<a href="/publisher/dossier/section/">Dossier</a>
+							
+
+							
+						</li>
+					
+						
+							<li class="sub ">
+						
+							
+								<a href="/publisher/servizi/section/" onclick="javascript: return false;">Servizi</a>
+							
+
+							
+									<ul>
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/farmacie/section/" >Farmacie</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/edicole/section/" >Edicole</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/numeri_utili/section/" >Numeri Utili</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/autobus/section/" >Autobus</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/treni/section/" >Treni</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/messe/section/" >Messe</a>
+														</li>
+												
+											
+										
+									</ul>
+							
+						</li>
+					
+						
+							<li class="sub ">
+						
+							
+								<a href="/publisher/chi_siamo/section/" onclick="javascript: return false;">Chi siamo</a>
+							
+
+							
+									<ul>
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/la_nuova_provincia/section/" >La Nuova Provincia</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/redazione/section/" >In redazione</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/abbonati/section/" >Abbonati</a>
+														</li>
+												
+											
+										
+											
+												
+													
+														<li >
+															<a href="/publisher/pubblicita/section/" >Pubblicità</a>
+														</li>
+												
+											
+										
+									</ul>
+							
+						</li>
+					
+						
+							
+								<li class="sub c">
+							
+						
+							
+								<a href="/publisher/scuolaat/section/">#scuola.at</a>
+							
+
+							
+						</li>
+					
+				</ul>
+				
+		</div>
+		<!-- FINE MENU -->
+
+
+			</div>
+		</div>
+	</div>
+
+	<div class="pagina_sfondo_sotto">
+		<a href="#top" class="torna_su">^ TOP</a>
+	</div>
+
+</center>
+<center>
+	<div class="pagina_sfondo">
+		<div class="copyright">
+			<div class="testo">
+				<div class="acca1">
+				&copy; 2016 - Tutti i diritti sono riservati<br>
+				EDITRICE OMNIA S.r.l.<br>
+				Via Monsignor Rossi 3<br>
+				14100 Asti<br>
+				tel. 0141 532186<br>
+				fax 0141 322797<br>
+				<br>
+				<br>
+				R.E.A. 1348<br>
+				Reg. imprese Asti - P.IVA 00080200058<br>
+				C.S. euro 50.000 interamente versato<br>
+				<a href="/publisher/privacy/section/">privacy policy</a><br><br>
+				</div>
+			</div>
+		</div>
+	</div>
+</center>
+		
+		</body>
+
+	</html>

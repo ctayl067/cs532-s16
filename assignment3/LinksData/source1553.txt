@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Premier Senegal</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KFSCR7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KFSCR7');</script>
+<!-- End Google Tag Manager -->
+
+<div class="header text-center">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="Premier">
+        </a>
+        <div class="social-header">
+            <a target="_blank" href="https://www.facebook.com/PremierSenegal/timeline/" title="Suivez-nous sur Facebook">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+            <a target="_blank" href="https://twitter.com/Premier_Senegal" title="Suivez-nous sur Twitter">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">    
+    <h2 class="text-center">Bienvenue sur Premier Senegal</h2>
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h5>Télécharger les Matches (PDF)</h5>
+                <ul>
+                    <li>
+                        <a target="_blank" href="pdf/long-list.pdf" title="Télécharger les Matches de List Longue +"><img src="images/download.png"> Liste Longue +</a>
+
+                    </li>
+                     <li>
+                        <a target="_blank" href="pdf/long-list-saturday.pdf" title="Télécharger les Matches de List Longue Samedi"><img src="images/download.png"> Liste Longue Samedi</a>
+
+                    </li>
+                     <li>
+                        <a target="_blank" href="pdf/long-list-sunday.pdf" title="Télécharger les Matches de List Longue Dimanche"><img src="images/download.png"> Liste Longue Dimanche</a>
+
+                    </li>
+                    <li>
+                        <a target="_blank" href="pdf/goals.pdf" title="Télécharger les Matches de Goals+ (Samedi)"><img src="images/download.png"> Goals+ (Samedi)</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 pl-90">
+                <h5>Télécharger les Résultats (PDF)</h5>
+                <ul>
+                    <li>
+                        <a target="_blank" href="pdf/long-list-results.pdf" title="Télécharger les Résultats de List Longue +"><img src="images/download.png"> Liste Longue +</a>
+                    </li>
+                     <li>
+                        <a target="_blank" href="pdf/long-list-saturday-results.pdf" title="Télécharger les Matches de List Longue Samedi"><img src="images/download.png"> Liste Longue Samedi</a>
+
+                    </li>
+                     <li>
+                        <a target="_blank" href="pdf/long-list-sunday-results.pdf" title="Télécharger les Matches de List Longue Dimanche"><img src="images/download.png"> Liste Longue Dimanche</a>
+
+                    </li>
+                    <li>
+                        <a target="_blank" href="pdf/goals-results.pdf" title="Télécharger les Résultats de Goals+ (Samedi)"><img src="images/download.png"> Goals+ (Samedi)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row social-container">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+					<a target="_blank" href="https://www.facebook.com/PremierSenegal/timeline/" title="Suivez-nous sur Facebook">
+						<i class="fa fa-facebook-official"></i> J'aime
+					</a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 pl-90">
+                    <script src="https://platform.twitter.com/widgets.js"></script>
+					<a title="Suivez-nous sur Twitter" href="https://twitter.com/intent/follow?screen_name=@Premier_Senegal"><i class="fa fa-twitter twitter-c"></i> Suivre @Premier_Senegal</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="newsletter text-center">
+            <h5>Inscrivez-vous pour recevoir des offres exclusives et des nouvelles de paris</h5>
+            <form action="save_email.php" method="post" id="form">
+                <input type="text" placeholder="Adresse email" name="email">
+                <button type="button" class="submit">SOUMETTRE</button>
+            </form>
+        </div>
+        <img id="footer" src="images/footer.png" alt="Un site de paris en ligne bientot disponible!">
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,4945 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" xml:lang="it-it" lang="it-it" >
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="http://www.radiogold.it/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="radiogold, radio gold, alessandria, casale monferrato, monferrato, valenza, novi ligure, tortona, acqui terme, ovada, webradio, notizie, sport, cronaca, politica, cultura, musica, podcast, audio, video" />
+  <meta name="rights" content="Tutti i diritti riservati Radio Gold 2010" />
+  <meta name="title" content="Vuoto" />
+  <meta property="og:url" content="http://www.radiogold.it/" />
+  <meta property="og:title" content="RADIO GOLD - Cosa succede ad Alessandria e provincia - Notizie - Cronaca - Appuntamenti - Politica - Sport - Musica" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Radio Gold è la radio di informazione della provincia di Alessandria. News, musica, appuntamenti eventi in tutto il territorio. Da Alessandria a Casale, da Valenza a Novi Ligure, da Ovada ad Acqui Terme fino a Tortona. Ogni giorno notizie aggiornate per essere sempre aggiornati su tutto quello che accade sul territorio. Il tutto arricchito da audio, interviste, foto, video e molto altro." />
+  <meta name="description" content="Radio Gold è la radio di informazione della provincia di Alessandria. News, musica, appuntamenti eventi in tutto il territorio. Da Alessandria a Casale, da Valenza a Novi Ligure, da Ovada ad Acqui Terme fino a Tortona. Ogni giorno notizie aggiornate per essere sempre aggiornati su tutto quello che accade sul territorio. Il tutto arricchito da audio, interviste, foto, video e molto altro." />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>RADIO GOLD - Cosa succede ad Alessandria e provincia - Notizie - Cronaca - Appuntamenti - Politica - Sport - Musica</title>
+  <link href="http://www.radiogold.it/" rel="canonical" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="http://www.radiogold.it/component/search/?format=opensearch" rel="search" title="Vai RadioGold News" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_k2/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/rokbox/assets/styles/rokbox.css" type="text/css" />
+  <link rel="stylesheet" href="/libraries/gantry/css/grid-responsive.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_epsilon/css-compiled/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_epsilon/css-compiled/master-2f4085b6430c048e2aa8a30de78a16ab.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_epsilon/css/master-webkit.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_epsilon/css-compiled/demo-2f4085b6430c048e2aa8a30de78a16ab.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_epsilon/css-compiled/mediaqueries.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_epsilon/css-compiled/thirdparty-k2-2f4085b6430c048e2aa8a30de78a16ab.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_epsilon/css-compiled/menu.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_epsilon/css/rt_epsilon-custom.css" type="text/css" />
+  <link rel="stylesheet" href="/media/com_acymailing/css/module_default.css?v=1411029499" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_cookiesaccept/screen.css" type="text/css" />
+  <link rel="stylesheet" href="/media/com_ohanah/css/screen.css" type="text/css" />
+  <link rel="stylesheet" href="/media/com_ohanah/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_carousel_banner/assets/css/flexisel.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_epsilon/roksprocket/layouts/mosaic/themes/default/mosaic.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_epsilon/roksprocket/layouts/strips/themes/default/strips.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_epsilon/roksprocket/layouts/features/themes/slideshow/slideshow.css" type="text/css" />
+  <style type="text/css">
+#rt-logo {background: url(/images/radiogold-cosa-succede-ad-alessandria-e-provincia.png) 50% 0 no-repeat !important;}
+#rt-logo {width: 390px;height: 97px;}
+
+        #mycarousel-332 {display:none;}
+        .nbs-flexisel-item img { max-width:390; max-height:140;}
+    
+        #mycarousel-339 {display:none;}
+        .nbs-flexisel-item img { max-width:468; max-height:60;}
+    
+        #mycarousel-334 {display:none;}
+        .nbs-flexisel-item img { max-width:372; max-height:91;}
+    
+        #mycarousel-331 {display:none;}
+        .nbs-flexisel-item img { max-width:468; max-height:60;}
+    
+        #mycarousel-185 {display:none;}
+        .nbs-flexisel-item img { max-width:468; max-height:60;}
+    
+        #mycarousel-333 {display:none;}
+        .nbs-flexisel-item img { max-width:390; max-height:140;}
+    
+        #mycarousel-382 {display:none;}
+        .nbs-flexisel-item img { max-width:390; max-height:140;}
+    
+        #mycarousel-383 {display:none;}
+        .nbs-flexisel-item img { max-width:390; max-height:140;}
+    
+        #mycarousel-381 {display:none;}
+        .nbs-flexisel-item img { max-width:930; max-height:110;}
+    
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script src="/components/com_k2/js/k2.js?v2.6.8&amp;sitepath=/" type="text/javascript"></script>
+  <script src="/plugins/system/rokbox/assets/js/rokbox.js" type="text/javascript"></script>
+  <script src="/libraries/gantry/js/gantry-totop.js" type="text/javascript"></script>
+  <script src="/libraries/gantry/js/browser-engines.js" type="text/javascript"></script>
+  <script src="/templates/rt_epsilon/js/rokmediaqueries.js" type="text/javascript"></script>
+  <script src="/templates/rt_epsilon/js/scrolling-header.js" type="text/javascript"></script>
+  <script src="/modules/mod_roknavmenu/themes/default/js/rokmediaqueries.js" type="text/javascript"></script>
+  <script src="/modules/mod_roknavmenu/themes/default/js/sidemenu.js" type="text/javascript"></script>
+  <script src="/media/com_acymailing/js/acymailing_module.js?v=472" type="text/javascript"></script>
+  <script src="/media/com_ohanah/jquery-lightbox-0.5/js/jquery.lightbox-0.5.min.js" type="text/javascript"></script>
+  <script src="/modules/mod_carousel_banner/assets/js/jquery.noconflict.js" type="text/javascript"></script>
+  <script src="/modules/mod_carousel_banner/assets/js/jquery.flexisel.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/mootools-mobile.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/rokmediaqueries.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/roksprocket.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/moofx.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/roksprocket.request.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/layouts/mosaic/themes/default/mosaic.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/layouts/strips/themes/default/strips.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/layouts/strips/themes/default/strips-speeds.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/layouts/features/assets/js/features.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/layouts/features/themes/slideshow/slideshow.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});if (typeof RokBoxSettings == 'undefined') RokBoxSettings = {pc: '100'};		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+		__gaTracker('create', 'UA-12485010-1', 'auto');
+		__gaTracker('send', 'pageview');
+		var acymailing = Array();
+				acymailing['NAMECAPTION'] = 'Nome';
+				acymailing['NAME_MISSING'] = 'Inserisci il tuo nome.';
+				acymailing['EMAILCAPTION'] = 'Email';
+				acymailing['VALID_EMAIL'] = 'Inserisci un indirizzo email valido.';
+				acymailing['ACCEPT_TERMS'] = 'Leggi le note sulla Privacy e sui Termini di Utilizzo';
+				acymailing['CAPTCHA_MISSING'] = 'Inserisci il codice di sicurezza visualizzato nell\'immagine';
+				acymailing['NO_LIST_SELECTED'] = 'Si prega di selezionare le liste a cui si desidera iscriversi';
+		
+    jQuery(window).load(function() {
+        jQuery("#mycarousel-332").flexisel({
+
+                visibleItems: 3, // $visible_items
+                animationSpeed: 1000, // 1000
+                autoPlay: 1, // false
+                autoPlaySpeed:  9000, // 3000
+                pauseOnHover: 1, // true
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint:480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint:640,
+                        visibleItems: 1
+                    },
+                    tablet: {
+                        changePoint:768,
+                        visibleItems: 1
+                    }
+                }
+            });
+        });
+    
+    jQuery(window).load(function() {
+        jQuery("#mycarousel-339").flexisel({
+
+                visibleItems: 3, // $visible_items
+                animationSpeed: 1000, // 1000
+                autoPlay: 1, // false
+                autoPlaySpeed:  9000, // 3000
+                pauseOnHover: 1, // true
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint:480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint:640,
+                        visibleItems: 1
+                    },
+                    tablet: {
+                        changePoint:768,
+                        visibleItems: 1
+                    }
+                }
+            });
+        });
+    
+    jQuery(window).load(function() {
+        jQuery("#mycarousel-334").flexisel({
+
+                visibleItems: 3, // $visible_items
+                animationSpeed: 1000, // 1000
+                autoPlay: 1, // false
+                autoPlaySpeed:  9000, // 3000
+                pauseOnHover: 1, // true
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint:480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint:640,
+                        visibleItems: 1
+                    },
+                    tablet: {
+                        changePoint:768,
+                        visibleItems: 1
+                    }
+                }
+            });
+        });
+    
+    jQuery(window).load(function() {
+        jQuery("#mycarousel-331").flexisel({
+
+                visibleItems: 3, // $visible_items
+                animationSpeed: 1000, // 1000
+                autoPlay: 1, // false
+                autoPlaySpeed:  9000, // 3000
+                pauseOnHover: 1, // true
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint:480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint:640,
+                        visibleItems: 1
+                    },
+                    tablet: {
+                        changePoint:768,
+                        visibleItems: 1
+                    }
+                }
+            });
+        });
+    if (typeof RokSprocket == 'undefined') RokSprocket = {};
+Object.merge(RokSprocket, {
+	SiteURL: 'http://www.radiogold.it/',
+	CurrentURL: 'http://www.radiogold.it/',
+	AjaxURL: 'http://www.radiogold.it/index.php?option=com_roksprocket&amp;task=ajax&amp;format=raw&amp;ItemId=101'
+});
+window.addEvent('domready', function(){
+		RokSprocket.instances.mosaic = new RokSprocket.Mosaic();
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.mosaic.attach(486, '{"pages":1,"animations":["fade","scale","rotate"],"displayed":[78601,78598,78600,78597,78604,78603,78590,78577]}');
+});
+
+    jQuery(window).load(function() {
+        jQuery("#mycarousel-185").flexisel({
+
+                visibleItems: 3, // $visible_items
+                animationSpeed: 1000, // 1000
+                autoPlay: 1, // false
+                autoPlaySpeed:  9000, // 3000
+                pauseOnHover: 1, // true
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint:480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint:640,
+                        visibleItems: 1
+                    },
+                    tablet: {
+                        changePoint:768,
+                        visibleItems: 1
+                    }
+                }
+            });
+        });
+    window.addEvent('domready', function(){
+	RokSprocket.instances.mosaic.attach(487, '{"pages":1,"animations":["fade","scale","rotate"],"displayed":[78556,78605,78557,78553]}');
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.mosaic.attach(667, '{"pages":1,"animations":["fade","scale","rotate"],"displayed":[78596,78580,78578,78559]}');
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.mosaic.attach(658, '{"pages":1,"animations":["fade","scale","rotate"],"displayed":[78587,78583,78468,78304]}');
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.mosaic.attach(104, '{"pages":1,"animations":["fade","scale","rotate"],"displayed":[78626,78610,78579,78582,78585,78591,78592,78593]}');
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.mosaic.attach(764, '{"pages":1,"animations":["fade","scale","rotate"],"displayed":[78602,78594,78588]}');
+});
+
+    jQuery(window).load(function() {
+        jQuery("#mycarousel-333").flexisel({
+
+                visibleItems: 3, // $visible_items
+                animationSpeed: 1000, // 1000
+                autoPlay: 1, // false
+                autoPlaySpeed:  9000, // 3000
+                pauseOnHover: 1, // true
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint:480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint:640,
+                        visibleItems: 1
+                    },
+                    tablet: {
+                        changePoint:768,
+                        visibleItems: 1
+                    }
+                }
+            });
+        });
+    window.addEvent('domready', function(){
+		RokSprocket.instances.strips = new RokSprocket.Strips();
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.strips.attach(554, '{"animation":"fadeDelay","autoplay":"0","delay":"5"}');
+});
+
+    jQuery(window).load(function() {
+        jQuery("#mycarousel-382").flexisel({
+
+                visibleItems: 1, // $visible_items
+                animationSpeed: 1000, // 1000
+                autoPlay: 1, // false
+                autoPlaySpeed:  9000, // 3000
+                pauseOnHover: 1, // true
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint:480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint:640,
+                        visibleItems: 1
+                    },
+                    tablet: {
+                        changePoint:768,
+                        visibleItems: 1
+                    }
+                }
+            });
+        });
+    
+    jQuery(window).load(function() {
+        jQuery("#mycarousel-383").flexisel({
+
+                visibleItems: 1, // $visible_items
+                animationSpeed: 1000, // 1000
+                autoPlay: 1, // false
+                autoPlaySpeed:  9000, // 3000
+                pauseOnHover: 1, // true
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint:480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint:640,
+                        visibleItems: 1
+                    },
+                    tablet: {
+                        changePoint:768,
+                        visibleItems: 1
+                    }
+                }
+            });
+        });
+    window.addEvent('domready', function(){
+		RokSprocket.instances.slideshow = new RokSprocket.Slideshow();
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.slideshow.attach(765, '{"animation":"crossfade","autoplay":"1","delay":"5"}');
+});
+
+    jQuery(window).load(function() {
+        jQuery("#mycarousel-381").flexisel({
+
+                visibleItems: 1, // $visible_items
+                animationSpeed: 3000, // 1000
+                autoPlay: 1, // false
+                autoPlaySpeed:  9000, // 3000
+                pauseOnHover: 1, // true
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint:480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint:640,
+                        visibleItems: 1
+                    },
+                    tablet: {
+                        changePoint:768,
+                        visibleItems: 1
+                    }
+                }
+            });
+        });
+    
+  </script>
+
+  
+  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "cef91f92-2c3e-46b2-8da0-ad94d180876e", doNotHash: false, doNotCopy: false, hashAddressBar: false, shorten:false});</script>
+  
+</head>
+<body  class="logo-type-custom header-type-fixed demoroksprocket-type-preset1 top-type-none maintop-type-none mainbody-overlay-light footer-type-none font-family-epsilon font-size-is-default menu-type-dropdownmenu layout-mode-responsive col12 option-com-k2 menu-home ">
+	<div id="rt-page-surround">
+				<header id="rt-header-surround">
+									<div id="rt-drawer">
+				<div class="rt-container">
+					<div class="rt-grid-12 rt-alpha rt-omega">
+     			            <div class="rt-block skin-banner-module nomarginall nopaddingall">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<div class="bannergroupskin-banner-module nomarginall nopaddingall">
+
+
+</div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+												<div id="rt-showcase">
+				<div class="rt-container">
+					<div class="rt-grid-10 rt-alpha">
+    	<div class="menu-block">
+		<div class="gf-menu-device-container responsive-type-panel"></div>
+<ul class="gf-menu l1 " >
+                    <li class="item101 active last" >
+
+            <a class="item" href="/"  >
+
+                                Home              
+            </a>
+
+
+                    </li>
+                            <li class="item146" >
+
+            <a class="item" href="/cronaca"  >
+
+                                Cronaca              
+            </a>
+
+
+                    </li>
+                            <li class="item132" >
+
+            <a class="item" href="/politica"  >
+
+                                Politica              
+            </a>
+
+
+                    </li>
+                            <li class="item133" >
+
+            <a class="item" href="/economia"  >
+
+                                Economia              
+            </a>
+
+
+                    </li>
+                            <li class="item134" >
+
+            <a class="item" href="/cultura"  >
+
+                                Cultura              
+            </a>
+
+
+                    </li>
+                            <li class="item135 parent" >
+
+            <a class="item" href="/sport"  >
+
+                                Sport              
+            </a>
+
+
+                            <span class="dropdown-spacer"></span>
+                                    <div class="dropdown columns-1 " style="width:120px;">
+                                                <div class="column col1"  style="width:120px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item136 parent" >
+
+            <a class="item" href="/sport/calcio"  >
+
+                                Calcio              
+            </a>
+
+
+                            <span class="dropdown-spacer"></span>
+                                    <div class="dropdown flyout columns-2 " style="width:252px;">
+                                                <div class="column col1"  style="width:117px;">
+                            <ul class="l3">
+                                                                                                                    <li class="item169" >
+
+            <a class="item" href="/sport/calcio/lega-pro-girone-a"  >
+
+                                Lega Pro              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item174" >
+
+            <a class="item" href="/sport/calcio/serie-d-piemonte"  >
+
+                                Serie D              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item175" >
+
+            <a class="item" href="/sport/calcio/eccellenza-piemonte-girone-b"  >
+
+                                Eccellenza B Piemonte              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item176" >
+
+            <a class="item" href="/sport/calcio/promozione-piemonte-girone-d"  >
+
+                                Promozione D Piemonte              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item178" >
+
+            <a class="item" href="/sport/calcio/1-categoria-h"  >
+
+                                1ª Categoria H              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item368" >
+
+            <a class="item" href="/sport/calcio/2-categoria-m"  >
+
+                                2ª Categoria M              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item369" >
+
+            <a class="item" href="/sport/calcio/2-categoria-n"  >
+
+                                2ª Categoria N              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item179" >
+
+            <a class="item" href="/sport/calcio/terza-categoria-a-al"  >
+
+                                3ª Cat. A - AL              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item449" >
+
+            <a class="item" href="/sport/calcio/terza-categoria-b-al"  >
+
+                                3ª Cat. B - AL              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item450" >
+
+            <a class="item" href="/sport/calcio/terza-categoria-a-at"  >
+
+                                3ª Cat. A - AT              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item291" >
+
+            <a class="item" href="/sport/calcio/aics"  >
+
+                                AICS              
+            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                                <div class="column col2"  style="width:135px;">
+                            <ul class="l3">
+                                                                                                                    <li class="item168 menulogo" >
+
+            <a class="item image" href="/alessandria-calcio"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/alessandria30.png" alt="alessandria30.png" />
+                                Alessandria              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item181" >
+
+            <a class="item image" href="/acqui-calcio"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/acqui30.png" alt="acqui30.png" />
+                                Acqui              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item182" >
+
+            <a class="item image" href="/novese-calcio"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/us_novese30.png" alt="us_novese30.png" />
+                                Novese              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item183" >
+
+            <a class="item image" href="/derthona-calcio"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/derthona30.png" alt="derthona30.png" />
+                                Derthona              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item184" >
+
+            <a class="item image" href="/casale-calcio"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/casale30.png" alt="casale30.png" />
+                                Casale              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item185" >
+
+            <a class="item image" href="/calcio-tortona"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/calcio-tortona30.png" alt="calcio-tortona30.png" />
+                                Tortona              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item186" >
+
+            <a class="item image" href="/valenzana-calcio"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/valenzana30.png" alt="valenzana30.png" />
+                                Valenzana Mado              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item187" >
+
+            <a class="item image" href="/castellazzo-calcio"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/castellazzo30.png" alt="castellazzo30.png" />
+                                Castellazzo              
+            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                                                                                                                                                                <li class="item170 parent" >
+
+            <a class="item" href="/sport/basket"  >
+
+                                Basket              
+            </a>
+
+
+                            <span class="dropdown-spacer"></span>
+                                    <div class="dropdown flyout columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l3">
+                                                                                                                    <li class="item190" >
+
+            <a class="item" href="/novipiu-junior-casale"  >
+
+                                Junior Casale              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item191" >
+
+            <a class="item" href="/orsi-derthona-basket"  >
+
+                                Derthona Basket              
+            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                                                                                                                                                                <li class="item173" >
+
+            <a class="item" href="/sport/altri-sport"  >
+
+                                Altri Sport              
+            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                            <li class="item396 parent" >
+
+            <a class="item" href="/eventi"  >
+
+                                Eventi              
+            </a>
+
+
+                            <span class="dropdown-spacer"></span>
+                                    <div class="dropdown columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item397" >
+
+            <a class="item" href="/eventi/spettacoli"  >
+
+                                Spettacoli              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item398" >
+
+            <a class="item" href="/eventi/feste-e-sagre"  >
+
+                                Feste e Sagre              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item399" >
+
+            <a class="item" href="/eventi/concerti"  >
+
+                                Concerti              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item400" >
+
+            <a class="item" href="/eventi/incontri"  >
+
+                                Incontri              
+            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                            <li class="item422 parent" >
+
+            <a class="item" href="javascript:void(0);"  >
+
+                                Città              
+            </a>
+
+
+                            <span class="dropdown-spacer"></span>
+                                    <div class="dropdown columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item423" >
+
+            <a class="item image" href="/alessandria"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/square-1.png" alt="square-1.png" />
+                                Alessandria              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item424" >
+
+            <a class="item image" href="/acqui-terme"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/square-2.png" alt="square-2.png" />
+                                Acqui Terme              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item425" >
+
+            <a class="item image" href="/tortona"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/square-3.png" alt="square-3.png" />
+                                Tortona              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item427" >
+
+            <a class="item image" href="/valenza"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/square-4.png" alt="square-4.png" />
+                                Valenza              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item429" >
+
+            <a class="item image" href="/casale-monferrato"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/square-5.png" alt="square-5.png" />
+                                Casale Monferrato              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item426" >
+
+            <a class="item image" href="/novi-ligure"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/square-6.png" alt="square-6.png" />
+                                Novi Ligure              
+            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item428" >
+
+            <a class="item image" href="/ovada"  >
+
+                                    <img class="menu-image" src="/templates/rt_epsilon/images/icons/square-7.png" alt="square-7.png" />
+                                Ovada              
+            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+            </ul>		<div class="clear"></div>
+	</div>
+	
+ 			            <div class="rt-block citta nomargintop nopaddingtop nomarginbottom nopaddingbottom hidden-phone">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customcitta nomargintop nopaddingtop nomarginbottom nopaddingbottom hidden-phone"  >
+	<div style="font-size: 13px; position: absolute; top: 50px;"><a href="/alessandria">Alessandria</a>   <a href="/acqui-terme">Acqui Terme</a>   <a href="/tortona">Tortona</a>   <a href="/valenza">Valenza</a>   <a href="/casale-monferrato">Casale Monferrato</a>   <a href="/novi-ligure">Novi Ligure</a>     <a href="/ovada">Ovada</a></div></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+<div class="rt-grid-2 rt-omega">
+     			            <div class="rt-block cerca">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<div class="searchcerca">
+	<form action="/" method="post" class="form-inline">
+		<label for="mod-search-searchword" class="element-invisible">Cerca...</label> <input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox search-query" type="text" size="20" value="Cerca..."  onblur="if (this.value=='') this.value='Cerca...';" onfocus="if (this.value=='Cerca...') this.value='';" />		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="366" />
+	</form>
+</div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block flush">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customflush"  >
+	<div class="contenitoresocial">
+          <div class="singolobottone" style="background-image: url('/images/Whatsapp-icon.png') ">
+                <a class="internobottone" target="_blank" href="/whatsapp">                    
+                </a>
+          </div>
+          <div class="singolobottone" style="background-image: url('/images/Facebook-icon.png') ">
+                <a class="internobottone" target="_blank" href="https://www.facebook.com/radiogold">                    
+                </a>
+          </div>
+          <div class="singolobottone" style="background-image: url('/images/Twitter-icon.png') ">
+                <a class="internobottone" target="_blank" href="https://twitter.com/RadioGoldAl">                    
+                </a>
+          </div>
+          <div class="singolobottone" style="background-image: url('/images/Youtube-icon.png') ">
+                <a class="internobottone" target="_blank" href="https://plus.google.com/u/0/110072244929098971863/videos">                    
+                </a>
+          </div> 
+          <div class="clear"></div>
+</div>
+<div class="clear"></div>
+
+<style>
+.contenitoresocial {float:right;margin: 0px 10px 5px 0px;width: 140px;}
+.singolobottone {float:left;width:35px;height:35px;background-size:100%;}
+a.internobottone {display:block;width:35px;height:35px;border-radius:4px;}
+a.internobottone:hover {box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.3) inset;}
+
+@media (max-width: 480px) { 
+.contenitoresocial {
+    float: right;
+    position: absolute;
+    right: -7px;
+    top: -41px;
+    width: 40px;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 140px;
+    margin: 0px 0px 0px 0px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+.contenitoresocial {
+    float: right;
+    position: absolute;
+    right: 4px;
+    top: -41px;
+    width: 40px;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 140px;
+    margin: 0px 0px 0px 0px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+.contenitoresocial {
+   margin: 0px 2px 5px 0px;
+}
+
+
+}
+</style></div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block flush hidden-phone hidden-tablet">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customflush hidden-phone hidden-tablet"  >
+	<div class="pubblicont">
+    <div class="pubblicont2">
+        <a href="/pubblicita">
+            <div style="height:80px; width:100%;"></div>
+       </a>
+    </div>  
+</div>
+
+<style>
+.pubblicont {position:absolute; top: -80px; left:-350px;}
+.pubblicont2 {
+    height:80px;
+    width:315px;
+    overflow:hidden;
+    background-color: transparent;
+    background-image: url("/images/banner-pubbli.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 100% auto !important;
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+   .pubblicont {left:-212px;}
+   .pubblicont2 {width:215px;}
+}
+</style></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+								</header>
+		
+				<section id="rt-main-surround">
+			<div id="rt-transition">
+				<div id="rt-mainbody-surround">
+															<div id="rt-top">
+						<div class="rt-container">
+							<div class="rt-grid-12 rt-alpha rt-omega">
+     			            <div class="rt-block flush">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customflush"  >
+	<div class="contenitorelogo">
+<div class="gantry-width-block gantry-width-25 visible-phone" style="background-color: #555555;">
+<div style="padding: 0px;">
+<div style="width: 42%; float: left; text-align: center;">
+<div style="height: 48px; line-height: 48px;"><span style="color: #fff; font-size: 12px; position: relative; top: -6px;"> Ascolta la diretta</span></div>
+</div>
+<div style="width: 33%; float: left; text-align: center;">
+<div style="height: 48px; line-height: 48px;"><span style="color: #fff; font-size: 12px; position: relative; top: -6px;">Gli ultimi GR</span></div>
+</div>
+</div>
+<div style="width: 25%; float: left; text-align: center;">
+<div style="height: 48px; line-height: 48px;"><span style="color: #fff; font-size: 12px; position: relative; top: -6px;">La Radi<a href="/diretta" target="_blank"><span class="title-icon  icon-play-circle" style="font-size: 40px; line-height: 40px; margin-right: 8px; color: #f58426;"><br /></span><span style="color: #333; position: relative; bottom: 5px;">ASCOLTA LA DIRETTA</span></a>o</span></div>
+</div>
+</div>
+<div class="clear"> </div>
+</div>
+<div class="gantry-width-block gantry-width-25" style="text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75); min-height: 10px;"></div>
+<div class="gantry-width-block gantry-width-50">
+<div class="rt-image logogold">                   <a href="http://www.radiogold.it/" rel="alternate"><img src="/images/radiogold-news-2.png" alt="" /></a></div>
+</div>
+<div class="gantry-width-block gantry-width-25 hidden-phone" style="text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75); text-align: center;">
+<div style="padding: 0px 3px; font-size: 15px; display: inline-block; line-height: 28px; text-transform: uppercase;">
+<div style="text-align: left;"><span style="color: #333; position: relative; bottom: 5px;">     <a href="/diretta" target="_blank">ASCOLTA LA DIRETTA</a></span></div>
+<div style="text-align: left;"><span style="color: #333; position: relative; bottom: 5px;">     <a href="/podcast/giornale-radio">GLI ULTIMI GR</a></span></div>
+<div style="text-align: left;"><span style="color: #333; position: relative; bottom: 5px;">     <a href="/la-radio">LA RADIO</a></span></div>
+</div>
+</div>
+<div class="clear"> </div></div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block box1 nomarginbottom nomargintop nopaddingbottom nopaddingtop">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="custombox1 nomarginbottom nomargintop nopaddingbottom nopaddingtop"  >
+	<h3 style="text-align: left;"><span style="color: #ffffff;"><strong>  ASCOLTA RADIO GOLD: CLICCA </strong><span style="color: #ff0000;"><a href="/diretta" target="_blank" rel="alternate"><span style="color: #ff0000;">QUI</span></a></span></span></h3></div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block flush carouselshadow senzamargine">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+	<ul id="mycarousel-381">
+		
+		
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/27" target="_blank" title="Acos Energia">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Acos_937x110_dicembre_2015.jpg"
+							alt="Acos Energia" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/14" target="_blank" title="Megaplex Top">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/Megaplex_top_desktop_2016_02_11_14.gif"
+							alt="Megaplex Top" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/540" target="_blank" title="Casa di riposo Don Orione">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Don_orione_937x110_2015.jpg"
+							alt="Casa di riposo Don Orione" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/350" target="_blank" title="Istituto Saluzzo Plana">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Saluzzo_plana_iscriz_2016.jpg"
+							alt="Istituto Saluzzo Plana" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/53" target="_blank" title="Amag">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Amag_top_937x110.jpg"
+							alt="Amag" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/534" target="_blank" title="Camparo Auto - Kia">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Camparo_kia_2016.gif"
+							alt="Camparo Auto - Kia" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+						
+	</ul><!-- end wrapper -->	                	</div>
+                	</div>
+           </div>
+	
+</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+															<div id="rt-utility">
+						<div class="rt-container">
+							<div class="rt-grid-6 rt-alpha">
+     			            <div class="rt-block nomargintop nopaddingbottom">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<div class="sprocket-features layout-slideshow" data-slideshow="765">
+	<ul class="sprocket-features-img-list">
+		
+<li class="sprocket-features-index-1">
+		<div class="sprocket-features-img-container" data-slideshow-image>
+					<a href="/notizie/5-cronaca/78618-a-radio-gold-le-notediprotesta-del-vivaldi-e-intanto-il-sindaco-rossa-scrive-a-renzi-per-sostenere-i-conservatori-video"><img src="/media/k2/items/cache/1743c8d43d5f1f3efa9d5d8ed7ce78c4_L.jpg" alt="" style="max-width: 100%; height: auto;" /></a>
+		
+		
+
+	</div>
+		<div class="sprocket-features-content" data-slideshow-content>
+		<div class="categoria-luogo-principale">
+		
+		<span class="categoria-principale">Cronaca</span> &#8226; <span class="luogo-principale">Alessandria</span>
+		
+		</div>
+
+					<h2 class="sprocket-features-title">
+				<a href="/notizie/5-cronaca/78618-a-radio-gold-le-notediprotesta-del-vivaldi-e-intanto-il-sindaco-rossa-scrive-a-renzi-per-sostenere-i-conservatori-video">
+					A Radio Gold le #notediprotesta del Vivaldi e intanto il sindaco Rossa scrive a Renzi per sostenere i Conservatori[VIDEO]				</a>
+			</h2>
+							<div class="sprocket-features-desc">
+				<span>
+									</span>
+								<a href="/notizie/5-cronaca/78618-a-radio-gold-le-notediprotesta-del-vivaldi-e-intanto-il-sindaco-rossa-scrive-a-renzi-per-sostenere-i-conservatori-video" class="readon"><span>Leggi tutto</span></a>
+							</div>
+		
+		<div class="share-principale">
+				<div style="float:left;min-width:30px">
+					<span class='st_sharethis_custom' st_url='/notizie/5-cronaca/78618-a-radio-gold-le-notediprotesta-del-vivaldi-e-intanto-il-sindaco-rossa-scrive-a-renzi-per-sostenere-i-conservatori-video' ></span>
+					<span class='st_twitter' st_url='/notizie/5-cronaca/78618-a-radio-gold-le-notediprotesta-del-vivaldi-e-intanto-il-sindaco-rossa-scrive-a-renzi-per-sostenere-i-conservatori-video' ></span>
+					<span class='st_googleplus' st_url='/notizie/5-cronaca/78618-a-radio-gold-le-notediprotesta-del-vivaldi-e-intanto-il-sindaco-rossa-scrive-a-renzi-per-sostenere-i-conservatori-video' ></span>
+					<span class='st_facebook' st_url='/notizie/5-cronaca/78618-a-radio-gold-le-notediprotesta-del-vivaldi-e-intanto-il-sindaco-rossa-scrive-a-renzi-per-sostenere-i-conservatori-video' ></span>
+				</div>
+					
+		
+										
+		</div>
+
+			
+
+	</div>
+</li>
+	</ul>
+		<div class="sprocket-features-pagination-hidden">
+		<ul>
+						    	<li class="active" data-slideshow-pagination="1"><span>1</span></li>
+				</ul>
+	</div>
+</div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+<div class="rt-grid-6 rt-omega">
+     			            <div class="rt-block nomargintop nopaddingtop nomarginbottom nopaddingbottom">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customnomargintop nopaddingtop nomarginbottom nopaddingbottom"  >
+	<div class="titolomultimedia">
+<h2 style="margin: 0px 0px 0px 0px" class="title">Multimedia   <span style="font-size:80%" class="icon-chevron-sign-right"></span><a href="/multimedia" class="btn" style="margin-left:25px;" >Vedi tutte le gallerie</a></h2>
+</div>
+</div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block titolodentro nomargintop nopaddingtop nomarginbottom nopaddingbottom multimedia">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<div class="sprocket-strips" data-strips="554">
+	<div class="sprocket-strips-overlay"><div class="css-loader-wrapper"><div class="css-loader"></div></div></div>
+	<ul class="sprocket-strips-container cols-2" data-strips-items>
+		<li data-strips-item>
+	<div class="sprocket-strips-item" data-strips-content>
+				<div class="sprocket-strips-image-container">
+						<a href="/notizie/5-cronaca/78618-a-radio-gold-le-notediprotesta-del-vivaldi-e-intanto-il-sindaco-rossa-scrive-a-renzi-per-sostenere-i-conservatori-video">
+				<span class="sprocket-strips-image-overlay">
+						
+			<img src="/media/k2/items/cache/1743c8d43d5f1f3efa9d5d8ed7ce78c4_L.jpg" alt="" />
+							</span>
+			</a>	
+					
+		</div>
+				<div class="sprocket-strips-content">
+						<h4 class="sprocket-strips-title" data-strips-toggler>
+				<a href="/notizie/5-cronaca/78618-a-radio-gold-le-notediprotesta-del-vivaldi-e-intanto-il-sindaco-rossa-scrive-a-renzi-per-sostenere-i-conservatori-video">					A Radio Gold le #notediprotesta del Vivaldi e intanto il sindaco Rossa scrive a Renzi per sostenere i Conservatori				</a>			</h4>
+												<a href="/notizie/5-cronaca/78618-a-radio-gold-le-notediprotesta-del-vivaldi-e-intanto-il-sindaco-rossa-scrive-a-renzi-per-sostenere-i-conservatori-video" class="readon"><span>Leggi tutto</span></a>
+			
+			
+
+		</div>
+
+		<div style="position:absolute;bottom:5px;width:100%;text-align:center">
+		<span style="font-size:1.7em;color: rgba(255,255,255,0.85)" class="icon-youtube-play">&nbsp; video</span>		</div>
+	</div>
+</li>
+<li data-strips-item>
+	<div class="sprocket-strips-item" data-strips-content>
+				<div class="sprocket-strips-image-container">
+						<a href="/notizie/5-cronaca/78594-nei-ritiri-estivi-dei-campioni-di-calcio-per-vendere-gioielli-ma-in-nero-orafo-valenzano-nei-guai">
+				<span class="sprocket-strips-image-overlay">
+						
+			<img src="/media/k2/items/cache/f07aee9112dbd2170eda3eef45e95d7a_L.jpg" alt="" />
+							</span>
+			</a>	
+					
+		</div>
+				<div class="sprocket-strips-content">
+						<h4 class="sprocket-strips-title" data-strips-toggler>
+				<a href="/notizie/5-cronaca/78594-nei-ritiri-estivi-dei-campioni-di-calcio-per-vendere-gioielli-ma-in-nero-orafo-valenzano-nei-guai">					Nei ritiri estivi dei campioni di calcio per vendere gioielli, ma in nero. Orafo valenzano nei guai 				</a>			</h4>
+												<a href="/notizie/5-cronaca/78594-nei-ritiri-estivi-dei-campioni-di-calcio-per-vendere-gioielli-ma-in-nero-orafo-valenzano-nei-guai" class="readon"><span>Leggi tutto</span></a>
+			
+			
+
+		</div>
+
+		<div style="position:absolute;bottom:5px;width:100%;text-align:center">
+		<span style="font-size:1.7em;color: rgba(255,255,255,0.85)" class="icon-youtube-play">&nbsp; video</span>		</div>
+	</div>
+</li>
+	</ul>
+	<div class="sprocket-strips-nav">
+		<div class="sprocket-strips-pagination-hidden">
+			<ul>
+									    	<li class="active" data-strips-page="1"><span>1</span></li>
+									    	<li data-strips-page="2"><span>2</span></li>
+									    	<li data-strips-page="3"><span>3</span></li>
+									    	<li data-strips-page="4"><span>4</span></li>
+						</ul>
+		</div>
+				<div class="sprocket-strips-arrows">
+			<span class="arrow2 next" data-strips-next><span>&rsaquo;</span></span>
+			<span class="arrow2 prev" data-strips-previous><span>&lsaquo;</span></span>
+		</div>
+			</div>
+</div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block nomargintop nopaddingtop nomarginbottom nopaddingbottom">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customnomargintop nopaddingtop nomarginbottom nopaddingbottom"  >
+	<div class="gantry-width-block gantry-width-50"><div style="padding:0px 5px;min-height:10px;">		<div class="moduletablenopaddingall nomargintop nomarginbottom">
+					
+	<ul id="mycarousel-382">
+		
+		
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/596" target="_blank" title="Piccolo Sportivo da Oscar">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Piccolo_sportivo_265x131_2015.gif"
+							alt="Piccolo Sportivo da Oscar" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/688" target="_blank" title="Università Corsi Austriaca">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/Banner_corsi_tedesco_2016.jpg"
+							alt="Università Corsi Austriaca" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+						
+	</ul><!-- end wrapper -->		</div>
+	</div></div>
+<div class="gantry-width-block gantry-width-50"><div style="padding:0px 5px;">		<div class="moduletablenopaddingall nomargintop nomarginbottom">
+					
+	<ul id="mycarousel-383">
+		
+		
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/639" target="_blank" title="AB di Bellini Alessandro square">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Bellini_280x138_2015.jpg"
+							alt="AB di Bellini Alessandro square" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/597" target="_blank" title="Informatica Service Valenza 4g">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Informatica_lte_02_265x131_2015.gif"
+							alt="Informatica Service Valenza 4g" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/327" target="_blank" title="Conservatorio Vivaldi">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Conservatorio_Vivaldi_280x138_2015.gif"
+							alt="Conservatorio Vivaldi" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+						
+	</ul><!-- end wrapper -->		</div>
+	</div></div>
+<div class="clear"></div></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+															<div id="rt-feature">
+						<div class="rt-container">
+							<div class="rt-grid-12 rt-alpha rt-omega">
+     			            <div class="rt-block nomarginall nopaddingbottom">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customnomarginall nopaddingbottom"  >
+	<div class="visible-phone" style="text-align: center;"><a href="/capodanno-alessandrino"> <img src="/images/00Allegati/Standard_480x120.gif" alt="capodanno alessandrino 2015" width="480" height="120" /> </a></div>
+<div class="hidden-phone" style="text-align: center;"><a href="/capodanno-alessandrino"> <img src="/images/00Allegati/Standard.gif" alt="capodanno alessandrino 2015" width="937" height="81" /> </a></div></div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block titolodentro nomargintop nomarginbottom ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<div class="sprocket-mosaic" data-mosaic="764">
+	<div class="sprocket-mosaic-overlay"><div class="css-loader-wrapper"><div class="css-loader"></div></div></div>
+	
+	<ul class="sprocket-mosaic-container sprocket-mosaic-columns-3" data-mosaic-items>
+		<li class="mcol-0" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-0" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Furto in via don Giovine sventato dai Carabinieri: in fuga i quattro ladri" data-mosaic-order-date="2016-02-18 09:39:54"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/5-cronaca/78602-furto-in-via-don-giovine-sventato-dai-carabinieri-in-fuga-i-quattro-ladri">				<img src="/media/k2/items/cache/40ec4005e54185d8ee32938a2fcd81b4_L.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/5-cronaca/78602-furto-in-via-don-giovine-sventato-dai-carabinieri-in-fuga-i-quattro-ladri' ></span>
+						<span class='st_facebook' st_url='/notizie/5-cronaca/78602-furto-in-via-don-giovine-sventato-dai-carabinieri-in-fuga-i-quattro-ladri' ></span>
+					</div>
+					
+			<a rel="nofollow" href="/notizie/5-cronaca/78602-furto-in-via-don-giovine-sventato-dai-carabinieri-in-fuga-i-quattro-ladri#comments"><div class="comments-mosaic">1</div></a>										
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cronaca</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/5-cronaca/78602-furto-in-via-don-giovine-sventato-dai-carabinieri-in-fuga-i-quattro-ladri">						Furto in via don Giovine sventato dai Carabinieri: in fuga i quattro ladri					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-1" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-1" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Nei ritiri estivi dei campioni di calcio per vendere gioielli, ma in nero. Orafo valenzano nei guai [VIDEO]" data-mosaic-order-date="2016-02-18 07:06:41"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/5-cronaca/78594-nei-ritiri-estivi-dei-campioni-di-calcio-per-vendere-gioielli-ma-in-nero-orafo-valenzano-nei-guai">				<img src="/media/k2/items/cache/f07aee9112dbd2170eda3eef45e95d7a_L.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/5-cronaca/78594-nei-ritiri-estivi-dei-campioni-di-calcio-per-vendere-gioielli-ma-in-nero-orafo-valenzano-nei-guai' ></span>
+						<span class='st_facebook' st_url='/notizie/5-cronaca/78594-nei-ritiri-estivi-dei-campioni-di-calcio-per-vendere-gioielli-ma-in-nero-orafo-valenzano-nei-guai' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cronaca</span> &#8226; <span class="luogo-mosaic">Valenza</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+			<span class="icon-youtube-play">&nbsp; video</span>		</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/5-cronaca/78594-nei-ritiri-estivi-dei-campioni-di-calcio-per-vendere-gioielli-ma-in-nero-orafo-valenzano-nei-guai">						Nei ritiri estivi dei campioni di calcio per vendere gioielli, ma in nero. Orafo valenzano nei guai [VIDEO]					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-2" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-2" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Da fine mese riapre la Piscina Vochieri di Alessandria" data-mosaic-order-date="2016-02-18 06:30:29"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/5-cronaca/78588-da-fine-mese-riapre-la-piscina-vochieri-di-alessandria">				<img src="/media/k2/items/cache/6799481bcd75547fa1290c8be06cdbd0_L.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/5-cronaca/78588-da-fine-mese-riapre-la-piscina-vochieri-di-alessandria' ></span>
+						<span class='st_facebook' st_url='/notizie/5-cronaca/78588-da-fine-mese-riapre-la-piscina-vochieri-di-alessandria' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cronaca</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/5-cronaca/78588-da-fine-mese-riapre-la-piscina-vochieri-di-alessandria">						Da fine mese riapre la Piscina Vochieri di Alessandria					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+	</ul>
+	</div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block nomarginall nopaddingtop">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customnomarginall nopaddingtop"  >
+	<div style="text-align: center;">
+<div class="gantry-width-block gantry-width-40">
+<div class="gantry-width-spacer"><a class="btn btn-large btn-block btn-info" href="/cosa-fare-weekend-alessandria" rel="alternate">Consigli per il tempo libero</a></div>
+</div>
+<div class="gantry-width-block gantry-width-20">
+<div class="gantry-width-spacer"><a class="btn btn-large btn-block btn-info" href="/eventi/feste-e-sagre" rel="alternate">Feste e Sagre</a></div>
+</div>
+<div class="gantry-width-block gantry-width-20">
+<div class="gantry-width-spacer"><a class="btn btn-large btn-block btn-info" href="/eventi/spettacoli"> Spettacoli</a></div>
+</div>
+<div class="gantry-width-block gantry-width-20">
+<div class="gantry-width-spacer"><a class="btn btn-large btn-block btn-info" href="/eventi/concerti"> Concerti</a></div>
+</div>
+<div class="clear"> </div>
+</div></div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block nopaddingtop nopaddingbottom nomargintop nomarginbottom">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+	<ul id="mycarousel-333">
+		
+		
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/24" target="_blank" title="Caf Cisl">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Banner_cisl_caf_2014.jpg"
+							alt="Caf Cisl" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/695" target="_blank" title="Punto Mobili febbraio">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Punto_mobili_febbraio_372x134_2016.jpg"
+							alt="Punto Mobili febbraio" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/701" target="_blank" title="Gioielleria Coppo">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/Gioielleria_coppo_2016.jpg"
+							alt="Gioielleria Coppo" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+						
+	</ul><!-- end wrapper -->	                	</div>
+                	</div>
+           </div>
+	
+</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+															<div id="rt-maintop">
+						<div class="rt-container">
+							<div class="rt-grid-12 rt-alpha rt-omega">
+     			            <div class="rt-block nopaddingall nomargintop piccolosportivo">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customnopaddingall nomargintop piccolosportivo"  >
+	<div class="gantry-width-50 gantry-width-block"><img src="/images/piccolo-sportivo.jpg" alt="" /></div>
+<div class="gantry-width-50 gantry-width-block" style="text-align: center;"><a href="/articoli-sondaggi/30-piccolo-sportivo-da-oscar/78526-piccolo-sportivo-da-oscar-diciannovesima-settimana" target="_blank" rel="alternate">VOTA ORA: Vai al sondaggio!</a></div>
+<div class="clear"> </div></div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block nomarginbottom nopaddingtop title2">
+           	<div class="module-surround">
+	           				<div class="module-title">
+					<h2 class="title"><span>Sport</span></h2>			</div>
+	                		                	<div class="module-content">
+	                		<div class="sprocket-mosaic" data-mosaic="104">
+	<div class="sprocket-mosaic-overlay"><div class="css-loader-wrapper"><div class="css-loader"></div></div></div>
+	
+	<ul class="sprocket-mosaic-container sprocket-mosaic-columns-4" data-mosaic-items>
+		<li class="mcol-0" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-0" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Alessandria-Cittadella in posticipo alle 20 di lunedì 14 marzo e in diretta tv" data-mosaic-order-date="2016-02-18 18:20:41"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/4-calcio/78626-alessandria-cittadella-in-posticipo-alle-20-di-lunedi-14-marzo-e-in-diretta-tv">				<img src="/cache/mod_roksprocket/90f5b3ea06f9ad65c341dd3674cd1799_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/4-calcio/78626-alessandria-cittadella-in-posticipo-alle-20-di-lunedi-14-marzo-e-in-diretta-tv' ></span>
+						<span class='st_facebook' st_url='/notizie/4-calcio/78626-alessandria-cittadella-in-posticipo-alle-20-di-lunedi-14-marzo-e-in-diretta-tv' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Calcio</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/4-calcio/78626-alessandria-cittadella-in-posticipo-alle-20-di-lunedi-14-marzo-e-in-diretta-tv">						Alessandria-Cittadella in posticipo alle 20 di lunedì 14 marzo e in diretta tv					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-1" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-1" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Si è spento Giorgio Tinazzi: portò l'Alessandria in serie A" data-mosaic-order-date="2016-02-18 12:12:05"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/4-calcio/78610-si-e-spento-giorgio-tinazzi-porto-l-alessandria-in-serie-a">				<img src="/cache/mod_roksprocket/56729e47badea95229c6f75533aa6297_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/4-calcio/78610-si-e-spento-giorgio-tinazzi-porto-l-alessandria-in-serie-a' ></span>
+						<span class='st_facebook' st_url='/notizie/4-calcio/78610-si-e-spento-giorgio-tinazzi-porto-l-alessandria-in-serie-a' ></span>
+					</div>
+					
+			<a rel="nofollow" href="/notizie/4-calcio/78610-si-e-spento-giorgio-tinazzi-porto-l-alessandria-in-serie-a#comments"><div class="comments-mosaic">2</div></a>										
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Calcio</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/4-calcio/78610-si-e-spento-giorgio-tinazzi-porto-l-alessandria-in-serie-a">						Si è spento Giorgio Tinazzi: portò l'Alessandria in serie A					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-2" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-2" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Milan-Alessandria: ecco come e dove si acquistano i biglietti" data-mosaic-order-date="2016-02-17 16:08:45"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/4-calcio/78579-milan-alessandria-ecco-come-e-dove-si-acquistano-i-biglietti">				<img src="/cache/mod_roksprocket/d49878298e571f04f52d97147263e938_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/4-calcio/78579-milan-alessandria-ecco-come-e-dove-si-acquistano-i-biglietti' ></span>
+						<span class='st_facebook' st_url='/notizie/4-calcio/78579-milan-alessandria-ecco-come-e-dove-si-acquistano-i-biglietti' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Calcio</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/4-calcio/78579-milan-alessandria-ecco-come-e-dove-si-acquistano-i-biglietti">						Milan-Alessandria: ecco come e dove si acquistano i biglietti					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-3" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-3" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Alessandria: contro gli Allievi si rivede in campo Sabato" data-mosaic-order-date="2016-02-17 16:44:26"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/4-calcio/78582-alessandria-contro-gli-allievi-si-rivede-in-campo-sabato">				<img src="/cache/mod_roksprocket/5653e6e2923a2fc5ea0fcb352a49e491_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/4-calcio/78582-alessandria-contro-gli-allievi-si-rivede-in-campo-sabato' ></span>
+						<span class='st_facebook' st_url='/notizie/4-calcio/78582-alessandria-contro-gli-allievi-si-rivede-in-campo-sabato' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Calcio</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/4-calcio/78582-alessandria-contro-gli-allievi-si-rivede-in-campo-sabato">						Alessandria: contro gli Allievi si rivede in campo Sabato					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-0" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-0" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Novese battuta 1-0 a Sestri: i biancocelesti sbagliano anche un rigore" data-mosaic-order-date="2016-02-17 17:33:34"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/4-calcio/78585-novese-battuta-1-0-a-sestri-i-biancocelesti-sbagliano-anche-un-rigore">				<img src="/cache/mod_roksprocket/6fcc383469228dfadd9076bc8b32498e_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/4-calcio/78585-novese-battuta-1-0-a-sestri-i-biancocelesti-sbagliano-anche-un-rigore' ></span>
+						<span class='st_facebook' st_url='/notizie/4-calcio/78585-novese-battuta-1-0-a-sestri-i-biancocelesti-sbagliano-anche-un-rigore' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Calcio</span> &#8226; <span class="luogo-mosaic">Novi</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/4-calcio/78585-novese-battuta-1-0-a-sestri-i-biancocelesti-sbagliano-anche-un-rigore">						Novese battuta 1-0 a Sestri: i biancocelesti sbagliano anche un rigore					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-1" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-1" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Calcio Tortona: Bagnasco fa secco il Trino, un gol che vale il quarto posto" data-mosaic-order-date="2016-02-17 23:24:29"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/4-calcio/78591-calcio-tortona-bagnasco-fa-secco-il-trino-un-gol-che-vale-il-quarto-posto">				<img src="/cache/mod_roksprocket/c4bc610b3e056cb60a83b0b5a4464e31_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/4-calcio/78591-calcio-tortona-bagnasco-fa-secco-il-trino-un-gol-che-vale-il-quarto-posto' ></span>
+						<span class='st_facebook' st_url='/notizie/4-calcio/78591-calcio-tortona-bagnasco-fa-secco-il-trino-un-gol-che-vale-il-quarto-posto' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Calcio</span> &#8226; <span class="luogo-mosaic">Tortona</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/4-calcio/78591-calcio-tortona-bagnasco-fa-secco-il-trino-un-gol-che-vale-il-quarto-posto">						Calcio Tortona: Bagnasco fa secco il Trino, un gol che vale il quarto posto					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-2" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-2" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Junior beffata in volata da Rieti ma Johnson subito in doppia cifra" data-mosaic-order-date="2016-02-17 23:27:06"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/11-basket/78592-junior-beffata-in-volata-da-rieti-ma-johnson-subito-in-doppia-cifra">				<img src="/cache/mod_roksprocket/320d278287569f13b874496f6056ea4d_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/11-basket/78592-junior-beffata-in-volata-da-rieti-ma-johnson-subito-in-doppia-cifra' ></span>
+						<span class='st_facebook' st_url='/notizie/11-basket/78592-junior-beffata-in-volata-da-rieti-ma-johnson-subito-in-doppia-cifra' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Basket</span> &#8226; <span class="luogo-mosaic">Casale</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/11-basket/78592-junior-beffata-in-volata-da-rieti-ma-johnson-subito-in-doppia-cifra">						Junior beffata in volata da Rieti ma Johnson subito in doppia cifra					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-3" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-3" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Orsi Derthona vince in affanno contro l'ultima in classifica" data-mosaic-order-date="2016-02-17 23:41:07"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/11-basket/78593-orsi-derthona-vince-in-affanno-contro-l-ultima-in-classifica">				<img src="/cache/mod_roksprocket/653b922e4c43f5457b3e997db219bb57_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/11-basket/78593-orsi-derthona-vince-in-affanno-contro-l-ultima-in-classifica' ></span>
+						<span class='st_facebook' st_url='/notizie/11-basket/78593-orsi-derthona-vince-in-affanno-contro-l-ultima-in-classifica' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Basket</span> &#8226; <span class="luogo-mosaic">Tortona</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/11-basket/78593-orsi-derthona-vince-in-affanno-contro-l-ultima-in-classifica">						Orsi Derthona vince in affanno contro l'ultima in classifica					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+	</ul>
+	</div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block nomargintop nomarginbottom nopaddingtop nopaddingbottom">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customnomargintop nomarginbottom nopaddingtop nopaddingbottom"  >
+	<div style="background-color:#eee;background-image: linear-gradient(to bottom, #e5e5e5, #f3f3f3);  ;margin-bottom:0px;margin-top:-10px; padding-top: 5px;border-top: 1px solid #CCC;border-bottom: 1px solid #CCC;">
+<ul class="menusquadre">
+<li class="item168"><a class="item image" href="/alessandria-calcio"><img src="/templates/rt_epsilon/images/icons/alessandria30.png"  /></br>Alessandria</a></li>
+<li class="item181"><a class="item image" href="/acqui-calcio"> <img src="/templates/rt_epsilon/images/icons/acqui30.png"  /></br>Acqui</a></li>
+<li class="item182"><a class="item image" href="/novese-calcio"> <img src="/templates/rt_epsilon/images/icons/us_novese30.png"  /></br>Novese</a></li>
+<li class="item183"><a class="item image" href="/derthona-calcio"> <img src="/templates/rt_epsilon/images/icons/derthona30.png"  /></br>Derthona</a></li>
+<li class="item184"><a class="item image" href="/casale-calcio"> <img src="/templates/rt_epsilon/images/icons/casale30.png"  /></br>Casale</a></li>
+<li class="item185"><a class="item image" href="/villalvernia-calcio"> <img src="/templates/rt_epsilon/images/icons/villalvernia30.png"  /></br>Villalvernia</a></li>
+<li class="item186"><a class="item image" href="/valenzana-calcio"> <img src="/templates/rt_epsilon/images/icons/valenzana30.png"  /></br>Vale Mado</a></li>
+<li class="item187"><a class="item image" href="/castellazzo-calcio"> <img src="/templates/rt_epsilon/images/icons/castellazzo30.png"  /></br>Castellazzo</a></li>
+<li class="item186"><a class="item image" href="/novipiu-junior-casale"> <img src="/templates/rt_epsilon/images/icons/junior30.png"  /></br>Junior Casale</a></li>
+<li class="item187"><a class="item image" href="/orsi-derthona-basket"> <img src="/templates/rt_epsilon/images/icons/derthonabasket30.png"  /></br>Derthona Basket</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+
+<style>
+.menusquadre {list-style:none;}
+.menusquadre li {float:left;padding: 4px 0px;text-align:center;font-size: 15px;width:10%;}
+.menusquadre li a {color:#333!important}
+.menusquadre li a:hover {color:#F58426!important;}
+.menusquadre img {position: relative;bottom: 2px;}
+
+@media (max-width: 767px) {
+.menusquadre li {font-size: 15px;width:20%;}
+}
+</style></div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block nopaddingtop nomarginbottom nopaddingbottom">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customnopaddingtop nomarginbottom nopaddingbottom"  >
+	<div style="height: 40px;text-align:center;"> <a href="/sport" class="btn icon-angle-right">Tutte le notizie di Sport</a> <div></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+															<div id="rt-expandedtop">
+						<div class="rt-container">
+							<div class="rt-grid-12 rt-alpha rt-omega">
+     			            <div class="rt-block nopaddingall nomargintop nomarginbottom">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+	<ul id="mycarousel-331">
+		
+		
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/320" target="_blank" title="La Dolce Vito Pasticceria">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Dolcevito_374x132_2015.jpg"
+							alt="La Dolce Vito Pasticceria" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/623" target="_blank" title="Farmacia Matilde Zacchia Valenza">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Salute_valenza.gif"
+							alt="Farmacia Matilde Zacchia Valenza" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/297" target="_blank" title="Cantina Sociale di Vinchio e Vaglio">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Vinchio_vaglio_banner_390X140.jpg"
+							alt="Cantina Sociale di Vinchio e Vaglio" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/687" target="_blank" title="Abitare mobilificio">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Abitare_banner_radiogold_372x134.jpg"
+							alt="Abitare mobilificio" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+						
+	</ul><!-- end wrapper -->	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block ultime title2">
+           	<div class="module-surround">
+	           				<div class="module-title">
+					<h2 class="title"><span>Cronaca</span></h2>			</div>
+	                		                	<div class="module-content">
+	                		<div class="sprocket-mosaic" data-mosaic="486">
+	<div class="sprocket-mosaic-overlay"><div class="css-loader-wrapper"><div class="css-loader"></div></div></div>
+	
+	<ul class="sprocket-mosaic-container sprocket-mosaic-columns-4" data-mosaic-items>
+		<li class="mcol-0" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-0" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Sorpresi a rubare in una cascina: denunciati" data-mosaic-order-date="2016-02-18 09:35:53"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/5-cronaca/78601-sorpresi-a-rubare-in-una-cascina-denunciati">				<img src="/cache/mod_roksprocket/28e1dc36b2ed628ad8dac687f64b9b1c_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/5-cronaca/78601-sorpresi-a-rubare-in-una-cascina-denunciati' ></span>
+						<span class='st_facebook' st_url='/notizie/5-cronaca/78601-sorpresi-a-rubare-in-una-cascina-denunciati' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cronaca</span> &#8226; <span class="luogo-mosaic">San</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/5-cronaca/78601-sorpresi-a-rubare-in-una-cascina-denunciati">						Sorpresi a rubare in una cascina: denunciati					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-1" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-1" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Agli arresti domiciliari il sabato e la domenica per una rissa di alcuni anni fa" data-mosaic-order-date="2016-02-18 08:47:04"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/5-cronaca/78598-agli-arresti-domiciliari-il-sabato-e-la-domenica-per-una-rissa-di-alcuni-anni-fa">				<img src="/cache/mod_roksprocket/05767248b1ba7009f83aee8bb6a656e5_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/5-cronaca/78598-agli-arresti-domiciliari-il-sabato-e-la-domenica-per-una-rissa-di-alcuni-anni-fa' ></span>
+						<span class='st_facebook' st_url='/notizie/5-cronaca/78598-agli-arresti-domiciliari-il-sabato-e-la-domenica-per-una-rissa-di-alcuni-anni-fa' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cronaca</span> &#8226; <span class="luogo-mosaic">Ovada</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/5-cronaca/78598-agli-arresti-domiciliari-il-sabato-e-la-domenica-per-una-rissa-di-alcuni-anni-fa">						Agli arresti domiciliari il sabato e la domenica per una rissa di alcuni anni fa					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-2" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-2" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Controlli antidroga dei Carabinieri: un denunciato" data-mosaic-order-date="2016-02-18 09:35:13"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/5-cronaca/78600-controlli-antidroga-dei-carabinieri-un-denunciato">				<img src="/cache/mod_roksprocket/7e3f4fdb014e6da06e47bb79b09f7d4d_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/5-cronaca/78600-controlli-antidroga-dei-carabinieri-un-denunciato' ></span>
+						<span class='st_facebook' st_url='/notizie/5-cronaca/78600-controlli-antidroga-dei-carabinieri-un-denunciato' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cronaca</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/5-cronaca/78600-controlli-antidroga-dei-carabinieri-un-denunciato">						Controlli antidroga dei Carabinieri: un denunciato					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-3" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-3" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Compra un cellulare su internet ma era una truffa   " data-mosaic-order-date="2016-02-18 08:32:12"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/5-cronaca/78597-compra-un-cellulare-su-internet-ma-era-una-truffa">				<img src="/cache/mod_roksprocket/3b0ce162f9b1a38c8974236b214c3a52_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/5-cronaca/78597-compra-un-cellulare-su-internet-ma-era-una-truffa' ></span>
+						<span class='st_facebook' st_url='/notizie/5-cronaca/78597-compra-un-cellulare-su-internet-ma-era-una-truffa' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cronaca</span> &#8226; <span class="luogo-mosaic">Ovada</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/5-cronaca/78597-compra-un-cellulare-su-internet-ma-era-una-truffa">						Compra un cellulare su internet ma era una truffa   					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-0" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-0" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Manomette il contatore Enel: denunciato dai Carabinieri" data-mosaic-order-date="2016-02-18 10:00:42"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/5-cronaca/78604-manomette-il-contatore-enel-denunciato-dai-carabinieri">				<img src="/cache/mod_roksprocket/d818e17367b43e5a6c8e3ed1b02e6df5_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/5-cronaca/78604-manomette-il-contatore-enel-denunciato-dai-carabinieri' ></span>
+						<span class='st_facebook' st_url='/notizie/5-cronaca/78604-manomette-il-contatore-enel-denunciato-dai-carabinieri' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cronaca</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/5-cronaca/78604-manomette-il-contatore-enel-denunciato-dai-carabinieri">						Manomette il contatore Enel: denunciato dai Carabinieri					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-1" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-1" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Arrestato dopo aver rubato un videogioco da 50 euro" data-mosaic-order-date="2016-02-18 09:46:56"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/5-cronaca/78603-arrestato-dopo-aver-rubato-un-videogioco-da-50-euro">				<img src="/cache/mod_roksprocket/dacd622cd341aff5944fa0b4acd66254_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/5-cronaca/78603-arrestato-dopo-aver-rubato-un-videogioco-da-50-euro' ></span>
+						<span class='st_facebook' st_url='/notizie/5-cronaca/78603-arrestato-dopo-aver-rubato-un-videogioco-da-50-euro' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cronaca</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/5-cronaca/78603-arrestato-dopo-aver-rubato-un-videogioco-da-50-euro">						Arrestato dopo aver rubato un videogioco da 50 euro					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-2" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-2" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Ai bimbi di San Salvatore l'educazione stradale si insegna con una figurina dopo l'altra" data-mosaic-order-date="2016-02-18 04:30:24"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/5-cronaca/78590-ai-bimbi-di-san-salvatore-l-educazione-stradale-si-insegna-con-una-figurina-dopo-l-altra">				<img src="/cache/mod_roksprocket/9a948dccb7e4d70024342d9257146022_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/5-cronaca/78590-ai-bimbi-di-san-salvatore-l-educazione-stradale-si-insegna-con-una-figurina-dopo-l-altra' ></span>
+						<span class='st_facebook' st_url='/notizie/5-cronaca/78590-ai-bimbi-di-san-salvatore-l-educazione-stradale-si-insegna-con-una-figurina-dopo-l-altra' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cronaca</span> &#8226; <span class="luogo-mosaic">San</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/5-cronaca/78590-ai-bimbi-di-san-salvatore-l-educazione-stradale-si-insegna-con-una-figurina-dopo-l-altra">						Ai bimbi di San Salvatore l'educazione stradale si insegna con una figurina dopo l'altra					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-3" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-3" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title=""Troppi incidenti in via Vecchia Bagliani”. I cittadini di Casalbagliano chiedono un intervento" data-mosaic-order-date="2016-02-17 23:00:00"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/5-cronaca/78577-troppi-incidenti-in-via-vecchia-bagliani-i-cittadini-di-casalbagliano-chiedono-un-intervento">				<img src="/cache/mod_roksprocket/bbc3e53291009ca854da83aafe33a3af_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/5-cronaca/78577-troppi-incidenti-in-via-vecchia-bagliani-i-cittadini-di-casalbagliano-chiedono-un-intervento' ></span>
+						<span class='st_facebook' st_url='/notizie/5-cronaca/78577-troppi-incidenti-in-via-vecchia-bagliani-i-cittadini-di-casalbagliano-chiedono-un-intervento' ></span>
+					</div>
+					
+			<a rel="nofollow" href="/notizie/5-cronaca/78577-troppi-incidenti-in-via-vecchia-bagliani-i-cittadini-di-casalbagliano-chiedono-un-intervento#comments"><div class="comments-mosaic">2</div></a>										
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cronaca</span> &#8226; <span class="luogo-mosaic">Casalbagliano</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/5-cronaca/78577-troppi-incidenti-in-via-vecchia-bagliani-i-cittadini-di-casalbagliano-chiedono-un-intervento">						"Troppi incidenti in via Vecchia Bagliani”. I cittadini di Casalbagliano chiedono un intervento					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+	</ul>
+	</div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block flush">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customflush"  >
+	<div style="height: 40px;text-align:center;"> <a href="/cronaca" class="btn icon-angle-right" >Tutte le notizie di Cronaca</a> </div></div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block nopaddingall nomargintop nomarginbottom">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+	<ul id="mycarousel-185">
+		
+		
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/29" target="_blank" title="Osservatorio Ca&#039; del Monte">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Planetario_large_2015.gif"
+							alt="Osservatorio Ca' del Monte" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/246" target="_blank" title="Green Office">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Green_office_372x134_2015.gif"
+							alt="Green Office" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/683" target="_blank" title="Marik Ricami e Stampe">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Marik_ricami_stampe_372x134_2016.jpg"
+							alt="Marik Ricami e Stampe" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/684" target="_blank" title="Avis Provinciale">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Avis_provinciale_372x134_2016.jpg"
+							alt="Avis Provinciale" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/685" target="_blank" title="Creative Accademy">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Creative_accademy_372x134_2016.jpg"
+							alt="Creative Accademy" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/702" target="_blank" title="SPI large">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/Il_corpo_cambia_spi_372x134_2016.gif"
+							alt="SPI large" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+						
+	</ul><!-- end wrapper -->	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block ultime nomarginbottom title2">
+           	<div class="module-surround">
+	           				<div class="module-title">
+					<h2 class="title"><span>Politica</span></h2>			</div>
+	                		                	<div class="module-content">
+	                		<div class="sprocket-mosaic" data-mosaic="487">
+	<div class="sprocket-mosaic-overlay"><div class="css-loader-wrapper"><div class="css-loader"></div></div></div>
+	
+	<ul class="sprocket-mosaic-container sprocket-mosaic-columns-4" data-mosaic-items>
+		<li class="mcol-0" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-0" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="A Casale pronto a insediarsi il “Consiglio dei bambini e delle bambine"" data-mosaic-order-date="2016-02-17 23:00:00"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/7-politica/78556-a-casale-pronto-a-insediarsi-il-consiglio-dei-bambini-e-delle-bambine">				<img src="/cache/mod_roksprocket/bd2bce681e96573314020c138c12f597_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/7-politica/78556-a-casale-pronto-a-insediarsi-il-consiglio-dei-bambini-e-delle-bambine' ></span>
+						<span class='st_facebook' st_url='/notizie/7-politica/78556-a-casale-pronto-a-insediarsi-il-consiglio-dei-bambini-e-delle-bambine' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Politica</span> &#8226; <span class="luogo-mosaic">Casale</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/7-politica/78556-a-casale-pronto-a-insediarsi-il-consiglio-dei-bambini-e-delle-bambine">						A Casale pronto a insediarsi il “Consiglio dei bambini e delle bambine"					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-1" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-1" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Presidio degli ex braccianti della Lazzaro davanti al Tribunale di Alessandria" data-mosaic-order-date="2016-02-18 10:52:52"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/7-politica/78605-presidio-degli-ex-braccianti-della-lazzaro-davanti-al-tribunale-di-alessandria">				<img src="/cache/mod_roksprocket/91238ebf0b11690a48784d0d9f6e5468_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/7-politica/78605-presidio-degli-ex-braccianti-della-lazzaro-davanti-al-tribunale-di-alessandria' ></span>
+						<span class='st_facebook' st_url='/notizie/7-politica/78605-presidio-degli-ex-braccianti-della-lazzaro-davanti-al-tribunale-di-alessandria' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Politica</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/7-politica/78605-presidio-degli-ex-braccianti-della-lazzaro-davanti-al-tribunale-di-alessandria">						Presidio degli ex braccianti della Lazzaro davanti al Tribunale di Alessandria					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-2" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-2" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Lumina sul caos insegne: "il commercio ancora una volta costretto a chinare la testa"" data-mosaic-order-date="2016-02-16 23:00:42"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/7-politica/78557-lumina-sul-caos-insegne-il-commercio-ancora-una-volta-costretto-a-chinare-la-testa">				<img src="/cache/mod_roksprocket/8bbd80f461a150489355819c505f94ed_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/7-politica/78557-lumina-sul-caos-insegne-il-commercio-ancora-una-volta-costretto-a-chinare-la-testa' ></span>
+						<span class='st_facebook' st_url='/notizie/7-politica/78557-lumina-sul-caos-insegne-il-commercio-ancora-una-volta-costretto-a-chinare-la-testa' ></span>
+					</div>
+					
+			<a rel="nofollow" href="/notizie/7-politica/78557-lumina-sul-caos-insegne-il-commercio-ancora-una-volta-costretto-a-chinare-la-testa#comments"><div class="comments-mosaic">1</div></a>										
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Politica</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/7-politica/78557-lumina-sul-caos-insegne-il-commercio-ancora-una-volta-costretto-a-chinare-la-testa">						Lumina sul caos insegne: "il commercio ancora una volta costretto a chinare la testa"					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-3" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-3" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Unioni Civili: l'onorevole alessandrino Viotti si scaglia contro i colleghi senatori "cattodem"" data-mosaic-order-date="2016-02-16 12:44:49"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/7-politica/78553-unioni-civili-l-onorevole-alessandrino-viotti-si-scaglia-contro-i-colleghi-senatori-cattodem">				<img src="/cache/mod_roksprocket/4ace9cb72e8948432612c7260b8159bf_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/7-politica/78553-unioni-civili-l-onorevole-alessandrino-viotti-si-scaglia-contro-i-colleghi-senatori-cattodem' ></span>
+						<span class='st_facebook' st_url='/notizie/7-politica/78553-unioni-civili-l-onorevole-alessandrino-viotti-si-scaglia-contro-i-colleghi-senatori-cattodem' ></span>
+					</div>
+					
+			<a rel="nofollow" href="/notizie/7-politica/78553-unioni-civili-l-onorevole-alessandrino-viotti-si-scaglia-contro-i-colleghi-senatori-cattodem#comments"><div class="comments-mosaic">1</div></a>										
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Politica</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/7-politica/78553-unioni-civili-l-onorevole-alessandrino-viotti-si-scaglia-contro-i-colleghi-senatori-cattodem">						Unioni Civili: l'onorevole alessandrino Viotti si scaglia contro i colleghi senatori "cattodem"					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+	</ul>
+	</div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block flush">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customflush"  >
+	<div style="height: 40px;text-align:center;"> <a href="/politica" class="btn icon-angle-right" >Tutte le notizie di Politica</a> </div></div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block ultime nomarginbottom title2">
+           	<div class="module-surround">
+	           				<div class="module-title">
+					<h2 class="title"><span>Cultura</span></h2>			</div>
+	                		                	<div class="module-content">
+	                		<div class="sprocket-mosaic" data-mosaic="667">
+	<div class="sprocket-mosaic-overlay"><div class="css-loader-wrapper"><div class="css-loader"></div></div></div>
+	
+	<ul class="sprocket-mosaic-container sprocket-mosaic-columns-4" data-mosaic-items>
+		<li class="mcol-0" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-0" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="“Reflexions”: la mostra fotografica che offre una panoramica su Langhe, Roero e Monferrato" data-mosaic-order-date="2016-02-18 08:10:43"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/8-cultura/78596-reflexions-la-mostra-fotografica-che-offre-una-panoramica-su-langhe-roero-e-monferrato">				<img src="/cache/mod_roksprocket/c6894976c9039de9034cb6d173f6b26b_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/8-cultura/78596-reflexions-la-mostra-fotografica-che-offre-una-panoramica-su-langhe-roero-e-monferrato' ></span>
+						<span class='st_facebook' st_url='/notizie/8-cultura/78596-reflexions-la-mostra-fotografica-che-offre-una-panoramica-su-langhe-roero-e-monferrato' ></span>
+					</div>
+					
+			<a rel="nofollow" href="/notizie/8-cultura/78596-reflexions-la-mostra-fotografica-che-offre-una-panoramica-su-langhe-roero-e-monferrato#comments"><div class="comments-mosaic">1</div></a>										
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cultura</span> &#8226; <span class="luogo-mosaic">Torino</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/8-cultura/78596-reflexions-la-mostra-fotografica-che-offre-una-panoramica-su-langhe-roero-e-monferrato">						“Reflexions”: la mostra fotografica che offre una panoramica su Langhe, Roero e Monferrato					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-1" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-1" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Binasco porta al Giacometti "Il bugiardo" di Goldoni" data-mosaic-order-date="2016-02-17 16:38:13"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/8-cultura/78580-binasco-porta-al-giacometti-il-bugiardo-di-goldoni">				<img src="/cache/mod_roksprocket/639213ad4f4a16dbf55f97c18cdc606e_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/8-cultura/78580-binasco-porta-al-giacometti-il-bugiardo-di-goldoni' ></span>
+						<span class='st_facebook' st_url='/notizie/8-cultura/78580-binasco-porta-al-giacometti-il-bugiardo-di-goldoni' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cultura</span> &#8226; <span class="luogo-mosaic">Novi</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/8-cultura/78580-binasco-porta-al-giacometti-il-bugiardo-di-goldoni">						Binasco porta al Giacometti "Il bugiardo" di Goldoni					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-2" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-2" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Scongelare l'idea di un festival del gelato e un libro: Soban esalta la gelateria alessandrina" data-mosaic-order-date="2016-02-17 23:00:56"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/8-cultura/78578-scongelare-l-idea-di-un-festival-del-gelato-e-un-libro-soban-esalta-la-gelateria-alessandrina">				<img src="/cache/mod_roksprocket/fa4dd8735febf696c7f1e9aab6aac9a3_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/8-cultura/78578-scongelare-l-idea-di-un-festival-del-gelato-e-un-libro-soban-esalta-la-gelateria-alessandrina' ></span>
+						<span class='st_facebook' st_url='/notizie/8-cultura/78578-scongelare-l-idea-di-un-festival-del-gelato-e-un-libro-soban-esalta-la-gelateria-alessandrina' ></span>
+					</div>
+					
+			<a rel="nofollow" href="/notizie/8-cultura/78578-scongelare-l-idea-di-un-festival-del-gelato-e-un-libro-soban-esalta-la-gelateria-alessandrina#comments"><div class="comments-mosaic">1</div></a>										
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cultura</span> &#8226; <span class="luogo-mosaic">Alessandria</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/8-cultura/78578-scongelare-l-idea-di-un-festival-del-gelato-e-un-libro-soban-esalta-la-gelateria-alessandrina">						Scongelare l'idea di un festival del gelato e un libro: Soban esalta la gelateria alessandrina					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-3" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-3" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title=""Chi è di scena?" il thriller comico di Alessandro Benvenuti è a Casale" data-mosaic-order-date="2016-02-16 15:55:22"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/notizie/8-cultura/78559-chi-e-di-scena-il-thriller-comico-di-alessandro-benvenuti-e-a-casale">				<img src="/cache/mod_roksprocket/56796b16a774acd64d84b8599b13078f_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/notizie/8-cultura/78559-chi-e-di-scena-il-thriller-comico-di-alessandro-benvenuti-e-a-casale' ></span>
+						<span class='st_facebook' st_url='/notizie/8-cultura/78559-chi-e-di-scena-il-thriller-comico-di-alessandro-benvenuti-e-a-casale' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Cultura</span> &#8226; <span class="luogo-mosaic">Casale</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/notizie/8-cultura/78559-chi-e-di-scena-il-thriller-comico-di-alessandro-benvenuti-e-a-casale">						"Chi è di scena?" il thriller comico di Alessandro Benvenuti è a Casale					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+	</ul>
+	</div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block flush">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customflush"  >
+	<div style="height: 40px;text-align:center;"> <a href="/cultura" class="btn icon-angle-right" >Tutte le notizie di Cultura</a> </div></div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block ultime nomarginbottom title2">
+           	<div class="module-surround">
+	           				<div class="module-title">
+					<h2 class="title"><span>Rubriche</span></h2>			</div>
+	                		                	<div class="module-content">
+	                		<div class="sprocket-mosaic" data-mosaic="658">
+	<div class="sprocket-mosaic-overlay"><div class="css-loader-wrapper"><div class="css-loader"></div></div></div>
+	
+	<ul class="sprocket-mosaic-container sprocket-mosaic-columns-4" data-mosaic-items>
+		<li class="mcol-0 sprocket-tags-ENAIP_INFORMA" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-0" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Corso gratuito triennale per parrucchiere/a" data-mosaic-order-date="2016-02-17 18:22:33"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/rubriche/21-rubriche/78587-corso-gratuito-triennale-per-parrucchiere-a">				<img src="/cache/mod_roksprocket/0ea737e1a718543adeb18a19d1933fd3_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/rubriche/21-rubriche/78587-corso-gratuito-triennale-per-parrucchiere-a' ></span>
+						<span class='st_facebook' st_url='/rubriche/21-rubriche/78587-corso-gratuito-triennale-per-parrucchiere-a' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Rubriche</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/rubriche/21-rubriche/78587-corso-gratuito-triennale-per-parrucchiere-a">						Corso gratuito triennale per parrucchiere/a					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+							<ul class="sprocket-mosaic-tags">
+				 <li class="sprocket-tags-ENAIP_INFORMA">ENAIP INFORMA</li>				</ul>
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-1 sprocket-tags-megaplex_stardust" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-1" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Queste le novità della settimana al cinema" data-mosaic-order-date="2016-02-17 16:55:12"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/rubriche/21-rubriche/78583-queste-le-novita-della-settimana-al-cinema">				<img src="/cache/mod_roksprocket/55bacafbdd5fa84114a0ba8070a54cf8_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/rubriche/21-rubriche/78583-queste-le-novita-della-settimana-al-cinema' ></span>
+						<span class='st_facebook' st_url='/rubriche/21-rubriche/78583-queste-le-novita-della-settimana-al-cinema' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Rubriche</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/rubriche/21-rubriche/78583-queste-le-novita-della-settimana-al-cinema">						Queste le novità della settimana al cinema					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+							<ul class="sprocket-mosaic-tags">
+				 <li class="sprocket-tags-megaplex_stardust">Megaplex Stardust</li>				</ul>
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-2 sprocket-tags-ALEGAS_INFORMA" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-2" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Mercoledì 17 febbraio Alegas festeggia il primo compleanno dell’ufficio Clienti di Tortona" data-mosaic-order-date="2016-02-12 15:50:04"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/rubriche/21-rubriche/78468-mercoledi-17-febbraio-alegas-festeggia-il-primo-compleanno-dell-ufficio-clienti-di-tortona">				<img src="/cache/mod_roksprocket/c522a63aee43fedafb9b624e3d340700_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/rubriche/21-rubriche/78468-mercoledi-17-febbraio-alegas-festeggia-il-primo-compleanno-dell-ufficio-clienti-di-tortona' ></span>
+						<span class='st_facebook' st_url='/rubriche/21-rubriche/78468-mercoledi-17-febbraio-alegas-festeggia-il-primo-compleanno-dell-ufficio-clienti-di-tortona' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Rubriche</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/rubriche/21-rubriche/78468-mercoledi-17-febbraio-alegas-festeggia-il-primo-compleanno-dell-ufficio-clienti-di-tortona">						Mercoledì 17 febbraio Alegas festeggia il primo compleanno dell’ufficio Clienti di Tortona					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+							<ul class="sprocket-mosaic-tags">
+				 <li class="sprocket-tags-ALEGAS_INFORMA">ALEGAS INFORMA</li>				</ul>
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+<li class="mcol-3 sprocket-tags-radio_gold" data-mosaic-item>
+	<div class="sprocket-mosaic-item rcol-3" data-mosaic-content>
+		<div style="display: none;" data-mosaic-order-title="Su Radio Gold arriva Playlist, passione per la musica, passione per la vita" data-mosaic-order-date="2016-02-05 17:16:22"></div>		<div class="sprocket-padding">
+						<div class="sprocket-mosaic-image-container">
+				<a href="/rubriche/21-rubriche/78304-la-passione-per-la-musica-e-su-radio-gold">				<img src="/cache/mod_roksprocket/ff210efbfd3d58fa4a1478c199109c69_0_300.jpg" alt="" class="sprocket-mosaic-image" />
+									<span class="sprocket-mosaic-hover"></span>
+					<span class="sprocket-mosaic-hovercontent"><span>+</span>Leggi tutto</span>
+				</a>
+
+				<div class="share-home">
+					<div style="float:left;min-width:30px">
+						<span class='st_sharethis_custom' st_url='/rubriche/21-rubriche/78304-la-passione-per-la-musica-e-su-radio-gold' ></span>
+						<span class='st_facebook' st_url='/rubriche/21-rubriche/78304-la-passione-per-la-musica-e-su-radio-gold' ></span>
+					</div>
+					
+													
+				</div>
+
+							</div>
+			
+			<div class="sprocket-mosaic-head">
+
+
+	 	<div class="categoria-luogo-mosaic">
+		
+		<span class="categoria-mosaic">Rubriche</span>
+
+		<div style="position:absolute;top:5px;left:5px;width:100%;text-align:left;text-shadow:0px 0px 7px #828282;font-size:1.1em;color: rgb(255,255,255)">
+					</div>
+
+
+
+
+		</div>
+
+								<h2 class="sprocket-mosaic-title">
+					<a href="/rubriche/21-rubriche/78304-la-passione-per-la-musica-e-su-radio-gold">						Su Radio Gold arriva Playlist, passione per la musica, passione per la vita					</a>				</h2>
+				
+							</div>
+
+			<div class="sprocket-mosaic-text">
+							</div>
+			
+							<ul class="sprocket-mosaic-tags">
+				 <li class="sprocket-tags-radio_gold">Radio Gold</li>				</ul>
+						
+			
+			
+		</div>
+	</div>
+</li>
+
+	</ul>
+	</div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block flush">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customflush"  >
+	<div style="height: 40px;text-align:center;"> <a href="/tutte-le-rubriche" class="btn icon-angle-right" >Tutte le Rubriche</a> </div></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+															<div class="rt-container">
+						          
+<div id="rt-main" class="mb12">
+                <div class="rt-container">
+                    <div class="rt-grid-12 ">
+                                                						<div class="rt-block">
+	                        <div id="rt-mainbody">
+								<div class="component-content">
+	                            	﻿
+
+<!-- Start K2 Item Layout -->
+<span id="startOfPageId71429"></span>
+
+<div id="k2Container" class="itemView">
+
+	<!-- Plugins: BeforeDisplay -->
+	
+	<!-- K2 Plugins: K2BeforeDisplay -->
+	
+	<div class="itemHeader">
+
+		
+
+	  
+
+
+  </div>
+
+  <!-- Plugins: AfterDisplayTitle -->
+  
+  <!-- K2 Plugins: K2AfterDisplayTitle -->
+  
+	
+	
+  <div class="itemBody">
+
+	  <!-- Plugins: BeforeDisplayContent -->
+	  
+	  <!-- K2 Plugins: K2BeforeDisplayContent -->
+	  
+	  	
+
+	  
+	  	  <!-- Item text -->
+	  <div class="itemFullText">
+	  		  </div>
+	  
+		<div class="clr"></div>
+
+
+
+	  
+		
+	  <!-- Plugins: AfterDisplayContent -->
+	  
+	  <!-- K2 Plugins: K2AfterDisplayContent -->
+	  
+	  <div class="clr"></div>
+  </div>
+
+	
+  
+  
+  
+	
+  
+	<div class="clr"></div>
+
+  
+  
+
+  
+  <!-- Plugins: AfterDisplay -->
+  
+  <!-- K2 Plugins: K2AfterDisplay -->
+  
+  
+ 
+	
+
+	<div class="clr"></div>
+</div>
+<!-- End K2 Item Layout -->
+
+<!-- JoomlaWorks "K2" (v2.6.8) | Learn more about K2 at http://getk2.org -->
+
+
+								</div>
+	                        </div>
+						</div>
+                                                                    </div>
+                                        <div class="clear"></div>
+                </div>
+            </div>
+					</div>
+															<div id="rt-expandedbottom">
+						<div class="rt-container">
+							<div class="rt-grid-12 rt-alpha rt-omega">
+     			            <div class="rt-block nopaddingall nomargintop nomarginbottom">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+	<ul id="mycarousel-334">
+		
+					
+	</ul><!-- end wrapper -->	                	</div>
+                	</div>
+           </div>
+	
+</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+																			</div>
+			</div>
+		</section>
+		
+				<footer id="rt-footer-surround">
+			<div class="rt-footer-surround-pattern">
+								<div id="rt-bottom">
+					<div class="rt-container">
+						<div class="rt-grid-12 rt-alpha rt-omega">
+     			            <div class="rt-block flush">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customflush"  >
+	<div style="width:100%">
+<div class="gantry-width-block gantry-width-50">
+  <div style="padding:15px;">
+    <div class="title2 box3 modulo-ohanah" style="padding:15px;">
+        <div class="module-title">
+	    <h2 class="title"><span>Spettacoli</span></h2>
+        </div>
+        		<div class="moduletabletitle2 box3 modulo-ohanah">
+					<div class="ohanah moduletitle2 box3 modulo-ohanah">
+	
+														
+
+
+<div class="event_detail_container   cat-2 venue-26" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										18				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Il Bugiardo</span>
+							<h2><a href="/eventi/il-bugiardo-2" itemprop="url">Il Bugiardo</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Teatro Giacometti - Novi Ligure		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-2 venue-71" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										19				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Piccoli crimini coniugali</span>
+							<h2><a href="/eventi/piccoli-crimini-coniugali-di-erich-emmanuel-schmitt" itemprop="url">Piccoli crimini coniugali</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Auditorium Santa Chiara - Casale Monferrato		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-2 venue-2153" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										19				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Allegro cantabile</span>
+							<h2><a href="/eventi/allegro-cantabile" itemprop="url">Allegro cantabile</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Teatrino Civico - Chivasso		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-2 venue-165" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										19				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Vigone, Vigna, Pilone - Greatest hits</span>
+							<h2><a href="/eventi/vigone-vigna-pilone-greatest-hits" itemprop="url">Vigone, Vigna, Pilone - Greatest hits</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Circolo Pantagruel -  Casale Monferrato		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-2 venue-22" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										20				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Il sogno di tartaruga</span>
+							<h2><a href="/eventi/il-sogno-di-tartaruga" itemprop="url">Il sogno di tartaruga</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Teatro Sociale - Valenza		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+						
+</div>
+		</div>
+	
+        <p style="text-align:center; margin-top:13px;"><a href="/eventi/spettacoli" class="btn btn-large btn-inverse icon-angle-right" > Vedi tutti gli Spettacoli</a></p>
+  </div>
+</div>
+
+<div class="clear"></div>
+</div>
+
+<div class="gantry-width-block gantry-width-50">
+  <div style="padding:15px;">
+     <div class="title2 box3 modulo-ohanah" style="padding:15px;">
+        <div class="module-title">
+	  <h2 class="title"><span>Feste e Sagre</span></h2>
+        </div>
+        		<div class="moduletabletitle2 box3 modulo-ohanah">
+					<div class="ohanah moduletitle2 box3 modulo-ohanah">
+	
+														
+
+
+<div class="event_detail_container   cat-4 venue-2111" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										19				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">A cena con Blu(e)</span>
+							<h2><a href="/eventi/a-cena-con-blu-e" itemprop="url">A cena con Blu(e)</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Centro d'incontro Galimberti - Alessandria		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-4 venue-983" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										20				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Carnevale a Sezzadio</span>
+							<h2><a href="/eventi/carnevale-a-sezzadio" itemprop="url">Carnevale a Sezzadio</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Sezzadio		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-4 venue-1596" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										20				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Giocagin</span>
+							<h2><a href="/eventi/giocagin" itemprop="url">Giocagin</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Palacima  - Alessandria		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-4 venue-2158" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										20				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">4° cena vegetariana benefit</span>
+							<h2><a href="/eventi/4-cena-vegetariana-benefit" itemprop="url">4° cena vegetariana benefit</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Pro Loco - Valenza		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-4 venue-2115" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										21				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Carnevale di Acqui</span>
+							<h2><a href="/eventi/carnevale-di-acqui" itemprop="url">Carnevale di Acqui</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Piazza Don Dolermo - Acqui Terme		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+						
+</div>
+		</div>
+	
+        <p style="text-align:center; margin-top:13px;"><a href="/eventi/feste-e-sagre" class="btn btn-large btn-inverse icon-angle-right" > Vedi tutte le Feste e Sagre</a></p>
+   </div>
+</div>
+
+<div class="clear"></div>
+</div>
+
+<div class="clear"></div>
+</div>
+<style>
+.ohanah .event_detail_title h2 {
+    font-size: 130%;
+    line-height: 130%;
+}
+.ohanah .event_detail_title h2 a {
+ color:#333!important;
+}
+.ohanah .event_detail_title h2 a:hover {
+ color:#F58426!important;
+}
+</style></div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block nopaddingall nomargintop nomarginbottom">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+	<ul id="mycarousel-332">
+		
+		
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/40" target="_blank" title="Uil">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Uil_medium_372x91.jpg"
+							alt="Uil" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+			
+			<li>
+
+									
+						
+							<!-- open in a new window -->
+							<a href="/component/banners/click/634" target="_blank" title="Nuovo Arredamenti">
+								
+						
+						
+
+						<img
+							src="http://www.radiogold.it/images/banners/Nuovoarredamenti_372x91_2015.gif"
+							alt="Nuovo Arredamenti" title="" 
+						/>	
+
+					</a>						
+			</li>
+										
+						
+	</ul><!-- end wrapper -->	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block flush">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customflush"  >
+	<div style="width:100%">
+<div class="gantry-width-block gantry-width-50">
+  <div style="padding:15px;">
+    <div class="title2 box3 modulo-ohanah" style="padding:15px;">
+        <div class="module-title">
+	    <h2 class="title"><span>Concerti</span></h2>
+        </div>
+        		<div class="moduletabletitle2 box3 modulo-ohanah">
+					<div class="ohanah moduletitle2 box3 modulo-ohanah">
+	
+														
+
+
+<div class="event_detail_container   cat-5 venue-2160" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										19				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Musicanovi 2016 - Omaggio a Beethoven</span>
+							<h2><a href="/eventi/musicanovi-2016-omaggio-a-beethoven" itemprop="url">Musicanovi 2016 - Omaggio a Beethoven</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Auditorium Alfredo Casella - Novi Ligure		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-5 venue-2000" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										19				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Let's Rock!</span>
+							<h2><a href="/eventi/let-s-rock" itemprop="url">Let's Rock!</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Salone Tartara - Casale Monferrato		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-5 venue-40" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										19				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Pierre Bensusan </span>
+							<h2><a href="/eventi/pierre-bensusan" itemprop="url">Pierre Bensusan </a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			FolkClub - Torino		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-5 venue-72" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										19				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Marracash</span>
+							<h2><a href="/eventi/marracash-1" itemprop="url">Marracash</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Hiroshima Mon Amour - Torino		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-5 venue-81" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										20				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Phermine</span>
+							<h2><a href="/eventi/phermine" itemprop="url">Phermine</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Teatro Ambra - Alessandria		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+						
+</div>
+		</div>
+	
+        <p style="text-align:center; margin-top:13px;"><a href="/eventi/concerti" class="btn btn-large btn-inverse icon-angle-right" > Vedi tutti i Concerti</a></p>
+  </div>
+</div>
+
+<div class="clear"></div>
+</div>
+
+<div class="gantry-width-block gantry-width-50">
+  <div style="padding:15px;">
+     <div class="title2 box3 modulo-ohanah" style="padding:15px;">
+        <div class="module-title">
+	  <h2 class="title"><span>Incontri</span></h2>
+        </div>
+        		<div class="moduletabletitle2 box3 modulo-ohanah">
+					<div class="ohanah moduletitle2 box3 modulo-ohanah">
+	
+														
+
+
+<div class="event_detail_container   cat-6 venue-2163" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										18				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">All'origine della libertà</span>
+							<h2><a href="/eventi/all-origine-della-liberta" itemprop="url">All'origine della libertà</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Bassignana		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-6 venue-401" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										19				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Altro che buona scuola!</span>
+							<h2><a href="/eventi/altro-che-buona-scuola" itemprop="url">Altro che buona scuola!</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Camera del Lavoro - Alessandria		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-6 venue-275" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										19				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">M'illumino di meno al Museo Civico di Casale Monferrato</span>
+							<h2><a href="/eventi/m-illumino-di-meno-al-museo-civico-di-casale-monferrato" itemprop="url">M'illumino di meno al Museo Civico di Casale Monferrato</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Museo Civico - Casale Monferrato		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-6 venue-883" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										19				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Sfuggire ai limiti</span>
+							<h2><a href="/eventi/sfuggire-ai-limiti" itemprop="url">Sfuggire ai limiti</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Biblioteca - Tortona		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+							
+
+
+<div class="event_detail_container   cat-6 venue-104" itemscope itemtype="http://schema.org/Event">
+
+	
+			<div class="event_date_flyer_container">
+			<div class="event_date"  id="event_date_day">
+				<div class="event_date_day">
+										19				</div>
+				<div class="event_date_month">
+					Feb				</div>
+				<div class="event_date_year">
+					2016				</div>
+			</div>
+		</div>
+	
+	<div class="event_detail_title">
+		<span  itemprop="name" style="display:none;">Open day al teatro della Juta</span>
+							<h2><a href="/eventi/open-day-al-teatro-della-juta-1" itemprop="url">Open day al teatro della Juta</a></h2>
+			</div>
+
+	
+	
+		<div class="event_detail_location">
+		<div class="location_icon"></div>
+
+		<h3 itemprop="location">
+			Teatro della Juta - Arquata Scrivia		</h3>
+	</div>
+	
+
+	
+			
+	
+	<div class="event-spacer"><br /><br /></div>
+	<div id="event-container-info">
+							<span style="float: right; padding-left:12px" class="ohanah-registration-link">
+																</span>
+		
+					
+					
+		
+		
+			</div>
+	<div class="event-spacer"><br /><br /></div>
+	</div>
+
+						
+</div>
+		</div>
+	
+        <p style="text-align:center; margin-top:13px;"><a href="/eventi/incontri" class="btn btn-large btn-inverse icon-angle-right" > Vedi tutti gli Incontri</a></p>
+   </div>
+</div>
+
+<div class="clear"></div>
+</div>
+
+<div class="clear"></div>
+</div>
+<style>
+.ohanah .event_detail_title h2 {
+    font-size: 130%;
+    line-height: 130%;
+}
+.ohanah .event_detail_title h2 a {
+ color:#333!important;
+}
+.ohanah .event_detail_title h2 a:hover {
+ color:#F58426!important;
+}
+</style></div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block nopaddingall nomargintop nomarginbottom">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+	<ul id="mycarousel-339">
+		
+					
+	</ul><!-- end wrapper -->	                	</div>
+                	</div>
+           </div>
+	
+</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+												<div id="rt-footer">
+					<div class="rt-container">
+						<div class="rt-grid-12 rt-alpha rt-omega">
+     			            <div class="rt-block flush">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customflush"  >
+	<script>
+
+function skinResize()  {
+var y = document.getElementsByClassName('banneritem');
+//var skinImage = y[0].childNodes[0].childNodes[0];
+
+var w=document.documentElement.clientWidth;
+//var w=window.innerWidth;
+var leftPos=-(y[0].offsetWidth - w)/2;
+y[0].style.left=""+leftPos+"px";
+}
+
+skinResize();
+
+window.onresize=skinResize;
+</script>
+</div>
+	                	</div>
+                	</div>
+           </div>
+	 			            <div class="rt-block nomarginall">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customnomarginall"  >
+	<p>Radio Gold News è un marchio S.E.R. srl - P.IVA 02096050063 - Spalto Marengo 44, Palazzo Pacto, 15121 Alessandria<br />Email: <span style="color: #ffff99;"><a href="mailto:redazione@radiogold.it"><span style="color: #ffff99;">redazione@radiogold.it</span></a></span> - Tel +39 0131 221887 - Mobile +39 331 1271227 - Fax +39 0131 221809</p></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+												<div id="rt-copyright">
+					<div class="rt-container">
+						<div class="rt-grid-6 rt-alpha">
+    	<div class="rt-copyright-content rt-block">
+		Designed by AWM	</div>
+	
+</div>
+<div class="rt-grid-6 rt-omega">
+    	<div class="clear"></div>
+	<div class="rt-block">
+		<a href="#" id="gantry-totop" rel="nofollow">Torna Su</a>
+	</div>
+	
+</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+							</div>
+		</footer>
+		
+		
+						
+						
+<div id="rt-popupmodule">
+  	<div class="rt-block basic">
+		<div class="module-content">
+						<h2 class="title">Newsletter</h2>
+						<div class="module-inner">
+               	<div class="acymailing_module" id="acymailing_module_formAcymailing73821">
+	<div class="acymailing_fulldiv" id="acymailing_fulldiv_formAcymailing73821"  >
+		<form id="formAcymailing73821" action="/" onsubmit="return submitacymailingform('optin','formAcymailing73821')" method="post" name="formAcymailing73821"  >
+		<div class="acymailing_module_form" >
+									<table class="acymailing_form">
+				<tr>
+												<td class="acyfield_name acy_requiredField">
+								<input id="user_name_formAcymailing73821"  onfocus="if(this.value == 'Nome') this.value = '';" onblur="if(this.value=='') this.value='Nome';" class="inputbox" type="text" name="user[name]" style="width:80%" value="Nome" title="Nome"/>
+							</td> </tr><tr>							<td class="acyfield_email acy_requiredField">
+								<input id="user_email_formAcymailing73821"  onfocus="if(this.value == 'Email') this.value = '';" onblur="if(this.value=='') this.value='Email';" class="inputbox" type="text" name="user[email]" style="width:80%" value="Email" title="Email"/>
+							</td> </tr><tr>
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+					<td  class="acysubbuttons">
+												<input class="button subbutton btn btn-primary" type="submit" value="Iscriviti alla Newsletter!" name="Submit" onclick="try{ return submitacymailingform('optin','formAcymailing73821'); }catch(err){alert('The form could not be submitted '+err);return false;}"/>
+											</td>
+				</tr>
+			</table>
+						<input type="hidden" name="ajax" value="0"/>
+			<input type="hidden" name="ctrl" value="sub"/>
+			<input type="hidden" name="task" value="notask"/>
+			<input type="hidden" name="redirect" value="http%3A%2F%2Fwww.radiogold.it%2F"/>
+			<input type="hidden" name="redirectunsub" value="http%3A%2F%2Fwww.radiogold.it%2F"/>
+			<input type="hidden" name="option" value="com_acymailing"/>
+						<input type="hidden" name="hiddenlists" value="42"/>
+			<input type="hidden" name="acyformname" value="formAcymailing73821" />
+									</div>
+		</form>
+	</div>
+	</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+			</div>
+</body>
+</html>

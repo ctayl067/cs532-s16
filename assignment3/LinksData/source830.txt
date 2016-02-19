@@ -1,0 +1,377 @@
+
+
+<html>
+
+<head>
+	<title>RTA VIDEOTARO Teleappennino Parma</title>
+	<META content="RTA VIDEOTARO L'informazionde della Valtaro - Teleappennino Parma" name="keywords">
+	<META content="Tutta l'informazione dalla Valtaro e Valceno : RTA VIDEOTARO Teleappennino Parma - L'informazionde della Valtaro" name="description">
+	<META content=it name=language>
+	<META content=ALL name=robots>
+	<META content=GENERAL name=rating>
+	<META content=GLOBAL name=distribution>
+	<META name="User-agent: *   # directed to all robots">
+	<META content="10 days" name=revisit-after>
+	<META content="WebProgetto" name=Copyright>
+	<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+	<link type ="text/css" rel="stylesheet" href ="css/style.css">	
+	<link rel="icon" type="image/ico" href="favicon.ico">
+
+   	<style type="text/css">
+		@import url(admin/jscripts/milkbox232/css/milkbox/milkbox.css);/* Milkbox css */
+	</style>
+	
+ 	<script type="text/javascript" src="admin/jscripts/milkbox232/js/mootools-1.2.3-core-yc.js"></script>
+ 	<script type="text/javascript" src="admin/jscripts/milkbox232/js/mootools-1.2.3.1-assets.js"></script> 
+	<script type="text/javascript" src="admin/jscripts/milkbox232/js/milkbox.js"></script>
+	
+		
+	<link rel="stylesheet" href="admin/jscripts/noobSlide/style.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="admin/jscripts/noobSlide/_class.noobSlide.packed.js"></script>
+
+		<script type="text/javascript">
+	window.addEvent('domready',function(){
+		//SAMPLE 1 (auto, every 5 sec)
+		var nS1 = new noobSlide({
+			box: $('box1'),
+			items: [0,1,2,3,4,5,6],
+			size: 272,
+			autoPlay: true
+		});
+		
+		//more "previous" and "next" buttons
+		nS8.addActionButtons('previous',$$('#box8 .prev'));
+		nS8.addActionButtons('next',$$('#box8 .next'));
+		//more handle buttons
+		nS8.addHandleButtons(handles8_more);
+		//walk to item 3 witouth fx
+		nS8.walk(3,false,true);
+
+	});
+	</script>	
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/it_IT/all.js#xfbml=1&appId=202948476557935";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div align="center">
+<div id="header">
+<div id="menu">
+	<a href="index.php" title="RTA VIDEOTARO Teleappennino Parma"><div id="logo"></div></a>
+	<div class="ts"><div class="ts2"><a href="contatti.php">CONTATTI<br><span>parliamone</span></a></div></div>
+	<div class="ts"><div class="ts2"><a href="proponi.php">SEGNALA<br><span>la tua notizia</span></a></div></div>
+	<div class="ts"><div class="ts2"><a href="pubblicita.php">PUBBLICITA'<br><span>fatti conoscere</span></a></div></div>
+	<div class="ts"><div class="ts2"><a href="palinsesto.php">PALINSESTO<br><span>i programmi</span></a></div></div>
+	<div class="ts"><div class="ts2"><a href="tg.php">ARCHIVIO-TG<br><span>per rivedere</span></a></div></div>
+	<div class="ts"><div class="ts2"><a href="index.php?typetg=sport">SPORT<br><span>notizie sportive</span></a></div></div>
+	<div class="ts"><div class="ts2"><a href="editoriali.php">NOTIZIE<br><span>Valtaro-Valceno</span></a></div></div>
+</div>
+
+
+
+<div id="sx">
+	<a href="index.php" title="RTA VIDEOTARO Teleappennino Parma"><img src="images/logo_bottom.jpg" alt="RTA VIDEOTARO Teleappennino Parma"></a><br>
+	<div id="sx_int">
+		<div class="data">
+		<script language="javascript" src="liveclock.js"></script>
+		<script type="text/javascript">
+			show_clock();
+		</script>
+		</div>
+		<h3>IN PRIMO PIANO</h3>
+		<ol>
+				<li><a href="news_dettagli.php?idnews=10413" title="Borgotaro. muore in un incidente stradale la professoressa Gabriella Perucchini "><u>Borgotaro. muore in un incidente stradale la professoressa Gabriella Perucchini </u></a></li>
+				<li><a href="news_dettagli.php?idnews=10412" title="Falsi dipendenti Ausl si aggirano tra i negozianti "><u>Falsi dipendenti Ausl si aggirano tra i negozianti </u></a></li>
+				<li><a href="news_dettagli.php?idnews=10411" title="Sugremaro di Compiano: un cane allarma gli automobilisti "><u>Sugremaro di Compiano: un cane allarma gli automobilisti </u></a></li>
+				<li><a href="news_dettagli.php?idnews=10410" title="Le Iene: WWF e Legambiente pronti alle vie legali "><u>Le Iene: WWF e Legambiente pronti alle vie legali </u></a></li>
+				<li><a href="news_dettagli.php?idnews=10409" title="Borgotaro: domani convegno sul tema "I nostri fiumi: una risorsa""><u>Borgotaro: domani convegno sul tema "I nostri fiumi: una risorsa"</u></a></li>
+				<li><a href="news_dettagli.php?idnews=10408" title="Parma: domani incontro sul progetto di legge "Dopo di noi""><u>Parma: domani incontro sul progetto di legge "Dopo di noi"</u></a></li>
+				</ol>
+		<div class="continua" style="font-size: 10px; text-align: left;"><a href="editoriali.php">archivio completo<img src="images/arrow.png" alt="" align="absmiddle" hspace="6"></a></div>
+		
+	</div>
+</div>
+<div id="dx">
+
+
+<script type="text/javascript" src="http://swfobject.googlecode.com/svn/trunk/swfobject/swfobject.js"></script>
+<script type="text/javascript">
+function loadVideo(playerUrl, autoplay) {
+  swfobject.embedSWF(
+      playerUrl + '&rel=1&border=0&fs=1&autoplay=0' + 
+      (autoplay?1:0), 'player', '500', '299', '9.0.0', false, 
+      false, {allowfullscreen: 'true'});
+}
+
+function showMyVideos1(data) {
+  var feed = data.feed;
+  var entries = feed.entry || [];
+  var html = [''];
+  html.push('');
+  document.getElementById('videos1').innerHTML = html.join('');
+  if (entries.length > 0) {
+    loadVideo(entries[0].media$group.media$content[0].url, false);
+  }
+}
+
+
+function showMyVideos2(data) {
+  var feed = data.feed;
+  var entries = feed.entry || [];
+  var html = [''];
+  for (var i = 0; i < entries.length; i++) {
+    var entry = entries[i];
+    var title = entry.title.$t;
+    var thumbnailUrl = entries[i].media$group.media$thumbnail[3].url;
+    var playerUrl = entries[i].media$group.media$content[0].url;
+    html.push('<div onclick="loadVideo(\'', playerUrl, '\', true); jumpScroll()" class="videos_view">',
+              '<img src="', thumbnailUrl, '"/ width="240">', '<div class="videos_title">', title, '</div></div>');
+  }
+  html.push('');
+  document.getElementById('videos2').innerHTML = html.join('');
+  if (entries.length > 0) {
+    loadVideo(entries[0].media$group.media$content[0].url, false);
+  }
+}
+
+function jumpScroll() {
+   	window.scroll(0,0); // horizontal and vertical scroll targets
+}
+
+</script>
+<div id="tg">
+<div id="tg_ts"><a href="index.php"><img src="images/ts_tg_1_on.jpg" alt=""></a><a href="index.php?typetg=sport"><img src="images/ts_tg_3_off.jpg" alt="TG: Sport, Valtaro e Valceno" hspace="6"></a><a href="index.php?typetg=streaming"><img src="images/ts_tg_2_off.jpg" alt=""></a></div>
+<div id="tg2">
+
+						<iframe width="500" height="281" src="http://www.youtube.com/embed/videoseries?list=PL74D682735A2F442A" frameborder="0" allowfullscreen></iframe>
+						</div>
+</div>
+
+<div id="videos1"></div>
+<script 
+    type="text/javascript" 
+    src="http://gdata.youtube.com/feeds/users/videotarotv/uploads?alt=json-in-script&callback=showMyVideos1&max-results=1">
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="content">
+
+<div align="center">
+<table cellpadding="0" cellspacing="0" id="table_tasti">
+<tr>
+	<td style="text-align: left;">
+		<a href="commenti.php?mode=scrivi"><img src="images/ts_comm_scrivi.jpg" alt="" hspace="8"></a><a href="commenti.php?mode=leggi"><img src="images/ts_comm_leggi.jpg" alt=""></a>
+	</td>
+	<td style="text-align: right;">
+		<a href="rss/"><img src="images/icon_rss.png" alt=""></a><a href="https://www.facebook.com/rtavideotaro" target="_blank"><img src="images/icon_facebook.png" alt="" hspace="8"></a><a href="http://www.youtube.com/user/videotarotv" target="_blank"><img src="images/icon_youtube.png" alt=""></a>
+	</td>
+</tr>
+</table>
+</div>
+
+
+
+
+<table cellpadding="0" cellspacing="0" id="table_content" align="center">
+<tr>
+	<td class="tdsx">
+	
+
+
+
+
+
+
+	<div class="box_sx1"><div class="box_sx5">
+	<h1 style="text-align: center;">CONSIGLI PER GLI ACQUISTI</h1>
+
+
+
+
+<div class="mask1">
+<div id="box1">
+<span>
+<a href="http://cortitermoidraulica.it/" target="_blank"><img src="dati/banner/banner_201412023036_banner-rta1.jpg" width="272"></a></span>
+<span>
+<a href="http://cortitermoidraulica.it/" target="_blank"><img src="dati/banner/banner_201507270900_bannerrtapellet1.jpg" width="272"></a></span>
+<span>
+<a href="http://cortitermoidraulica.it/" target="_blank"><img src="dati/banner/banner_201412122915_banner-rta2.jpg" width="272"></a></span>
+<span>
+<a href="http://www.residencecampoplano.it" target="_blank"><img src="dati/banner/banner_201008110950_bannerrta.jpg" width="272"></a></span>
+<span>
+<a href="http://www.webprogetto.it" target="_blank"><img src="dati/banner/banner_201002042030_bannerwebprogetto.png" width="272"></a></span>
+<span>
+<a href="http://www.claudiobertanimobili.com" target="_blank"><img src="dati/banner/banner_201002042223_bannerbertani.png" width="272"></a></span>
+<span>
+<img src="dati/banner/banner_201002115659_bannerpubblicita.png" width="272"></span>
+</div>
+</div>
+
+
+	</div></div>
+	
+		<div class="box_sx1"><div class="box_sx4">
+	
+		
+	
+	<form action="sondaggi_vota.php?idsondaggio=20&page=index" method="post">
+	<h1>VOX POPULI 11 (SONDAGGIO SOSPESO)</h1>
+	
+	
+	<br><input type="submit" value="vota" name="vota">
+
+	</form>
+	<div class="continua"><a href="sondaggi.php">archivio sondaggi<img src="images/arrow.png" alt="" align="absmiddle" hspace="4"></a></div>
+	</div></div>
+	
+        <a href="http://cortitermoidraulica.it/" target="_blank"><img src="images/cortitermoidraulica.jpg" alt="" align="middle" vspace="5"></a><br>
+	<a href="http://www.ilparmense.net" target="_blank"><img src="images/ilparmense.jpg" alt="" align="middle" vspace="5"  ></a><br>
+	<a href="http://www.valtaro.it" rel="nofollow" target="_blank"><img src="images/bn_valtaroit.gif" alt="" align="middle" vspace="5"></a><br>
+	<a href="commenti.php?mode=scrivi"><img src="images/bn_commenti.jpg" alt="" align="middle" vspace="5"></a><br>
+		<a href="http://www.forumvaltaro.it" target="_blank"><img src="images/bn_forum.jpg" alt="" align="middle" vspace="5"></a>
+
+
+	</td>
+	<td class="tddx">
+	
+	<div class="box_content1"><img src="images/box_content_top.jpg" alt=""><div class="box_content2">
+<h1>NOTIZIE VALTARO-VALCENO</h1>
+
+ 
+<table cellpadding="0" cellspacing="0" class="table_contenuto">
+
+<tr>
+<td style="width: 50%;">
+<a href="editoriali_dettagli.php?ideditoriale=5003"><img src="dati/editoriali/small_news_20160218095319.jpg" alt="" style="padding-bottom: 6px;"></a><br><b>Iene: I promotori della raccolta firme "Il lupo di Ronco" si dissociano dal programma</b><br>"E' mancato il confronto da noi richiesto"<div class="continua"><a href="editoriali_dettagli.php?ideditoriale=5003">continua<img src="images/arrow.png" alt="" align="absmiddle" hspace="4"></a></div>
+</td>
+<td style="width: 50%; padding-left: 10px;">
+<a href="editoriali_dettagli.php?ideditoriale=5002"><img src="dati/editoriali/small_news_20160218095123.jpg" alt="" style="padding-bottom: 6px;"></a><br><b>Il WWF Italia contro il servizio delle Iene sui lupi</b><br>"Pi&ugrave; bufale che iene"<div class="continua"><a href="editoriali_dettagli.php?ideditoriale=5002">continua<img src="images/arrow.png" alt="" align="absmiddle" hspace="4"></a></div>
+</td>
+</tr>
+
+
+<tr>
+<td style="width: 50%;">
+<a href="editoriali_dettagli.php?ideditoriale=5001"><img src="dati/editoriali/small_news_20160218094956.jpg" alt="" style="padding-bottom: 6px;"></a><br><b>Quaresima: incontro 'in diretta' nella chiesa di S.Antonino a Borgotaro</b><br>Questa sera, ore 20.45<div class="continua"><a href="editoriali_dettagli.php?ideditoriale=5001">continua<img src="images/arrow.png" alt="" align="absmiddle" hspace="4"></a></div>
+</td>
+<td style="width: 50%; padding-left: 10px;">
+
+<a href="editoriali_dettagli.php?ideditoriale=5000"><img src="dati/editoriali/small_news_20160217093443.jpg" alt="" style="padding-bottom: 6px;"></a><br><b>Autoarticolato perde il carico di casse di bibite</b><br>Sulla SP 523 traffico rallentato per due ore<div class="continua"><a href="editoriali_dettagli.php?ideditoriale=5000">continua<img src="images/arrow.png" alt="" align="absmiddle" hspace="4"></a></div>
+
+</td>
+</tr>
+</table>
+
+
+</div><img src="images/box_content_bottom.jpg" alt=""></div>
+	
+<div align="center">
+<table cellpadding="0" cellspacing="8" id="table_home">
+<tr>
+
+<td>
+
+<a class="twitter-timeline"  href="https://twitter.com/rtavideotaro"  data-widget-id="440171529632894976">Tweets di @rtavideotaro</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+    
+</td>
+
+<td>
+
+<div class="fb-like-box" data-href="https://www.facebook.com/rtavideotaro" data-width="292" data-height="247" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+
+</td>
+</tr>
+</table>
+</div>
+
+	
+	</td>
+</tr>
+</table>
+
+
+
+</div>
+
+<div id="bottom">
+<div align="center">
+<div id="bottom2">
+
+	<div class="box_bottom1">
+	<div class="box_bottom2">
+		<h2>RADIO TELE APPENNINO PARMA S.R.L.</h2>
+	<p>P.Iva 01546800341 <br />N REA: 161859<br />CAPITALE SOCIALE : &euro; 10.000,00<br />Posta elettronica: info@videotaro.it<a href="mailto:info@videotaro.tv"></a></p>
+<p>Direttore responsabile: Claudio Bertani</p>
+<p>Redattore capo: Roberta Maggioni</p>
+<p>Collaboratori: Pier Luigi Previ, Stefano Berni, Stefano Becchetti, Raffaello Fava, Salvatore Pizzo, Alessio Della Bartolomea</p>	
+	<p class="big">Tel. +39 0525 990356<br>
+	Fax +39 0525 990800<br>	
+	E-mail: <a href="mailto:info@videotaro.it">info@videotaro.it</a>
+	</p>
+
+	</div>
+	</div>
+	
+	<div class="box_commenti1"><div class="box_commenti2"><div class="box_commenti3">
+	<h2>ULTIMI COMMENTI FATTI</h2>
+	<br>
+		
+	<img src="images/arrow.png" alt="" align="absmiddle" style="margin-right: 5px;"><b>John Sabini - Parma (16.01.16)</b><br>
+	BERNI: Vattene tu e le tue chiacchiere. Ci ricordiamo del SIC<br><br>
+	
+		
+	<img src="images/arrow.png" alt="" align="absmiddle" style="margin-right: 5px;"><b>lorenzo delnevo - borgotaro (23.02.15)</b><br>
+	Gentili collaboratori di videotaro<br />
+Nel novembre scorso vi avevo segnalato il mancato rispetto del divieto di attraversare i binari che in più occasioni ho avuto modo di constatare alla stazione del nostro capoluogo.vedo che nessuno ha raccolto la segnalazione.chi deve far rispettare le regole è assente é sordo o cos altro?<br />
+<br><br>
+	
+		
+	<img src="images/arrow.png" alt="" align="absmiddle" style="margin-right: 5px;"><b>john Sabini - Parma (18.12.14)</b><br>
+	CARO SINDACO  LUIGI LUCCHI: NOI TI AMIAMO E TI SOPORTIAMO CON TUTTE LE NOSTRE FORZE . Dispiace che viviamo in un paese dove la maggioranza e' rasegnata e senza spina d'orsale. Dispiace  vederti a portare Avanti una battalia per migliorare L'Italia quasi tutto da solo. Dove sono gli altri sindaci???, tremano dalla paura??? L'ITALIA potra'  migliorare solo con l'onesta'. Ci sono 4 criminalita' organizate in Italia, CAMORA, NDRANGETA, MAFIA E IL PD (PD), e noi continuamente li votiamo... Per 3 anni, ormai sto' seguendo sull'internet il M5S in PARLAMENTO E IN SENATO, e non ce'  dubbio. RIMANE SOLO IL M5S SE VOGLIAMO UN PAESE MIGLIORE E ONESTO.  Caro Sindaco LUCCHI: Grazie del tuo coraggio... A VOI ITALIANI: LI AVETE PRESI I 80 EURO??? ADESSO PAGATELI DA UNALTRA PARTE fools... <br><br>
+	
+		
+	<img src="images/arrow.png" alt="" align="absmiddle" style="margin-right: 5px;"><b>Mara - Parma (10.11.14)</b><br>
+	Cioè, il Diego Rossi non vede la discarica o non sa come giustificare che non ha dato ordine di pulirla? Eppoi la Provincia dice cose inesatte stando al filmato si vede bene che l'acqua passava sotto il primo ponte e trovava intoppo nel secondo! Poi sempre il Sperpagli dice che il livello era di 3 mt! Considerato 2 metri fino al livello della strada vuole dire che un metro d'acqua è entrata in galleria e senza lasciare traccia sulle pareti? Ma che buffone che è.... Nella foto della galleria si vedono quei 15-20 centimetri di fango.... <br />
+<br><br>
+	
+		
+	<img src="images/arrow.png" alt="" align="absmiddle" style="margin-right: 5px;"><b>lorenzo delnevo - Borgotaro (03.11.14)</b><br>
+	Gentile emittente vorrei attirare la vs.attenzione su quanto segue:<br />
+Mi è capitato recentemente di trovarmi  in stazione all'arrivo del treno .Ebbene nonostante l'altoparlante invitasse i passeggeri a servirsi del sottopassaggio ,la quasi totalità dei viaggiatori attraversava i binari . Ancor più grave poi aver notato che un genitore accompagnava un figlio poco più che minore. Si parla tanto di rispetto delle regole, di legalità ecc.ecc. ma è mai possibile che non ci sia mai nessun controllo per farle rispettare . Se  l'incolumità delle persone è messa così a rischio da una maleducazione diffusa ce la caviamo con un alzata di spalle. Cordialità Loris Delnevo <br><br>
+	
+		</div></div><a href="commenti.php"><img src="images/box_commenti_bottom.jpg" alt=""></a></div>
+	
+	<div class="credits">&copy; 2010 RTA Tutti i diritti riservati | <a href="link.php">link utili</a> | <a href="notelegali.php">Note legali e condizioni di utilizzo</a> | Tag : <a href="direttatv/" title="Diretta TV">Diretta TV</a> | <a href="http://www.webprogetto.it" target="_blank" title="Web Agency Parma : Progetto Web">By Web Progetto</a></div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8692554-44");
+pageTracker._trackPageview();
+} catch(err) {}</script></body>
+</html>

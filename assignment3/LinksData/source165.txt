@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+	<html lang="ca">
+	<head>
+		<title>Institut del Teatre</title>
+		
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" />
+		
+		<meta name="apple-mobile-web-app-title" content="ITeatre"> 
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		
+	 
+		<meta name="robots" content="noodp" />
+	 
+		<meta name="keywords" content="institut, teatre, barcelona, arts escèniques, arts efímeres, direcció, dramatúrgia, dansa clàssica, dansa contemporànea, mae, esad, eesa, cpd, estae" />
+			<meta name="author" content="iDisc Information Technologies, mail: info@idisc.es, web: http://www.idisc.es" />
+		<link rel="author" href="http://www.idisc.es" title="iDisc Information Technologies" />
+		
+		<link rel="icon" type="image/png" href="/plantilles/iteatre/favicon.png" />
+		<!--[if IE]><link rel="shortcut icon" href="/plantilles/iteatre/favicon.ico" /><![endif]-->
+	
+		<script src="/comu/js/jquery.js" type="text/javascript"></script>
+		
+			<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	
+		<link href="/plantilles/iteatre/css/estils-base.css" rel="stylesheet" type="text/css" />
+		<link href="/plantilles/iteatre/css/estils-print.css" rel="stylesheet" type="text/css" media="print" />
+		<link href="/plantilles/iteatre/css/estils-screen.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="/plantilles/iteatre/css/estils-mw1200.css" rel="stylesheet" media="screen and (max-width: 1229px) and (min-width: 889px)" />
+		<link href="/plantilles/iteatre/css/estils-mw950.css" rel="stylesheet" media="screen and (max-width: 988px) and (min-width: 745px)" />
+		<link href="/plantilles/iteatre/css/estils-mw600.css" rel="stylesheet" media="screen and (max-width: 744px) and (min-width: 502px)" />
+		<link href="/plantilles/iteatre/css/estils-mw480.css" rel="stylesheet" media="screen and (max-width: 501px)" />
+		
+		<!--[if IE 8]>
+		<link href="/plantilles/iteatre/css/estils-ie8.css" rel="stylesheet" type="text/css" />
+		<![endif]--> 
+		
+		<!-- menús -->
+		<link href="/plantilles/iteatre/css/menu-screen.css" rel="stylesheet">
+		<link href="/plantilles/iteatre/css/menu-mw600.css" rel="stylesheet" media="screen and (max-width: 744px)" />
+		<script src="/comu/js/jquery.hoverIntent.minified.js" type="text/javascript"></script>
+		<script src="/plantilles/iteatre/js/responsivemenu.js" type="text/javascript"></script>
+		
+		<!-- <link rel="stylesheet" href="/plantilles/iteatre/css/font-awesome/css/font-awesome.min.css">  -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		
+		
+	 
+		
+		<script type="text/javascript"> document.write('<'+'!--'); </script>
+	       <link rel="stylesheet" type="text/css" href="/plantilles/iteatre/css/estils-no-js.css">
+	    <!-- -->
+	    
+	    <script src="/comu/js/jquery.swfobject.js" type="text/javascript"></script>
+	    
+	    	    <script src="/comu/js/jquery.clearinginput.js" type="text/javascript"></script>
+		<script src="/comu/js/calendari.js" type="text/javascript"></script>	
+		
+	    <!-- owl carousel -->
+		<link rel="stylesheet" href="/plantilles/iteatre/js/owl-carousel2/owl.carousel.css">
+		<link rel="stylesheet" href="/plantilles/iteatre/js/owl-carousel2/owl.theme.default.min.css">
+		<!-- <link rel="stylesheet" href="/plantilles/iteatre/js/owl-carousel2/docs.theme.min.css">  -->
+		<link rel="stylesheet" href="/plantilles/iteatre/js/owl-carousel2/animate.css">
+		<script src="/plantilles/iteatre/js/owl-carousel2/owl.carousel.min.js" type="text/javascript"></script>
+		
+		<script src="/comu/flowplayer/flowplayer.min.js" type="text/javascript"></script>
+	 	<link href="/comu/flowplayer/skin/minimalist.css" rel="stylesheet">
+		
+		<!--[if gt IE 8]>
+		<script src="/comu/js/jquery.masonry.min.js" type="text/javascript"></script>
+		<script src="/comu/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+		<![endif]-->
+		<!--[if !IE]><!-->
+		<script src="/comu/js/jquery.masonry.min.js" type="text/javascript"></script>
+		<script src="/comu/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+		<!--<![endif]-->
+
+				
+		<script src="/comu/js/jquery.form.js" type="text/javascript"></script>
+		<script src="/comu/js/lib.js" type="text/javascript"></script>
+		
+		<script src="/comu/js/certificats.js" type="text/javascript"></script>
+		<script src="/comu/js/ostynscormtime.js" type="text/javascript"></script>
+		
+	 
+		<script src="/comu/js/jquery.maskedinput.js" type="text/javascript"></script>	
+		<script src="/comu/js/FormChek.js" type="text/javascript"></script>	
+		<script src="/comu/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+		<link href="/plantilles/iteatre/css/jquery-ui-1.10.4.custom.min.css" rel="stylesheet"  />	
+		
+		<script type="text/javascript">
+			var tipus_css = "si";
+	    	var url_actual = "http://www.institutdelteatre.cat/";
+	    	var txt_amb_estils = "Amb Estils";
+	    	var txt_sense_estils = "Sense Estils";
+	    </script>
+	    
+			<script src="https://www.google.com/jsapi?key=AIzaSyCMvr7Vzt8cn2-cuCYoxJG8W2vkctEGRwY" type="text/javascript"></script> 
+		<script src="/comu/js/lib.maps.js" type="text/javascript"></script>
+		<script src="/comu/js/lib.rutes.js" type="text/javascript"></script>
+			
+		<script src="/plantilles/iteatre/js/accions.js" type="text/javascript"></script>
+		
+		
+		<!-- Google+1 -->
+		<script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
+		<script type="text/javascript">
+	  		{lang: 'ca'};
+		</script>
+			<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			_uacct = "UA-57799425-2";
+		</script>
+			<script src="/comu/js/cookiemanager.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		    $(document).ready(function() { 
+		    	loadCookieManager(1, "ca", "S");
+		    });
+		</script>
+	</head>
+	<body>
+		
+				<h1 class="nodisplay">Institut del Teatre</h1>
+				
+		<!-- capçalera -->
+				<div id="capcalera-print"><img src="/plantilles/iteatre/img/logoit.png" alt="Logo Institut del Teatre" /></div>
+				<div id="capcalera">
+			<div id="capcalera-cont" class="amplada-pagina">
+				<div id="capcalera-cont-cont">
+					<div id="topbar"></div>
+					<div id="capcalera-superior">
+						<div class="capcalera-requadre mv-w950-e">
+						<ul id="idiomes"><li class="sel"><span>Ca</span></li>
+<li><a href="http://translate.google.es/translate?u=http%3A%2F%2Fwww.institutdelteatre.cat%2F&amp;sl=ca&amp;tl=es&amp;hl=ca&amp;ie=UTF-8&amp;oe=UTF-8" title="Castellano"><span class="notranslate">Es</span></a></li>
+<li><a href="http://translate.google.es/translate?u=http%3A%2F%2Fwww.institutdelteatre.cat%2F&amp;sl=ca&amp;tl=en&amp;hl=ca&amp;ie=UTF-8&amp;oe=UTF-8" title="English"><span class="notranslate">En</span></a></li>
+<li class="ultim"><a href="http://translate.google.es/translate?u=http%3A%2F%2Fwww.institutdelteatre.cat%2F&amp;sl=ca&amp;tl=fr&amp;hl=ca&amp;ie=UTF-8&amp;oe=UTF-8" title="Français"><span class="notranslate">Fr</span></a></li>
+</ul>						</div>
+						
+						<div class="capcalera-requadre mv-w950-d">
+							<span id="ControlsCSS"></span>
+						</div>
+					
+						<div class="capcalera-requadre no-w1200">
+							
+						</div>
+						
+						<div class="capcalera-requadre">
+							<ul id="links-cap">
+							<li class="ultim"><a href="/ca/lnk18/lnk18.htm" title="Intranets">Intranets</a></li>
+							</ul>
+						</div>
+						
+						<div id="capcalera-cerca" class="capcalera-requadre">
+				            <form action="/cerca" method="post" id="cerca" name="cerca">
+								<input name="cer_mode" type="hidden" value="basica" />
+								<label for="cer_cerca" class="nodisplay">Cerca</label>
+								
+								<i class="fa fa-chevron-right"></i>
+								<input id="cer_cerca" name="cer_cerca" type="text" maxlength="150" size="15" class="input-cerca clear-input" data-placeholdertext="Cerca" value="" /><input id="img-cerca" type="image" src="/plantilles/iteatre/img/buit.gif" alt="Resultats de la cerca" />
+			                 </form>
+						</div>
+					</div>
+					
+					<div id="capcalera-mitg">
+						<div id="capcalera-logo">
+							<a href="/" title="Institut del Teatre"><img src="/plantilles/iteatre/img/logoit.png" alt="Logo Institut del Teatre" /></a>
+						</div>
+						
+						<div id="capcalera-menu-contenidor">
+							<div id="menu-superior-mob">
+								Menú								<i class="fa fa-chevron-down"></i>
+							</div>
+							 
+							<div id="menu" class="menu">
+
+					<ul>
+						<li><a title="L'Institut del Teatre" href="/ca/institut-del-teatre.htm"><span>L'Institut del Teatre</span></a>
+							<ul>
+								<li><a title="L'Institut del Teatre - La institució" href="/ca/institut-del-teatre/l-institucio.htm">La institució</a>
+									<ul>
+										<li><a title="L'Institut del Teatre - La institució - Història" href="/ca/institut-del-teatre/l-institucio/historia.htm">Història</a></li>
+										<li><a title="L'Institut del Teatre - La institució - Organs de govern" href="/ca/institut-del-teatre/l-institucio/organs-de-govern.htm">Organs de govern</a></li>
+										<li><a title="L'Institut del Teatre - La institució - Responsabilitat Social Corporativa" href="/ca/institut-del-teatre/l-institucio/responsabilitat-social-corporativa.htm">Responsabilitat Social Corporativa</a></li>
+										<li><a title="L'Institut del Teatre - La institució - Plans d'actuació" href="/ca/institut-del-teatre/l-institucio/institut-pla-estrategic.htm">Plans d'actuació</a></li>
+									</ul>
+								</li>
+								<li><a title="L'Institut del Teatre - Centres de treball" href="/ca/institut-del-teatre/centres-de-treball.htm">Centres de treball</a>
+									<ul>
+										<li><a title="L'Institut del Teatre - Centres de treball - Seu central" href="/ca/pl16/institut-del-teatre/centres-de-treball/seu-central/id1/seu-central.htm">Seu central</a></li>
+										<li><a title="L'Institut del Teatre - Centres de treball - Centres territorials" href="/ca/institut-del-teatre/centres-de-treball/centres-territorials.htm">Centres territorials</a></li>
+										<li><a title="L'Institut del Teatre - Centres de treball - Teatres" href="/ca/institut-del-teatre/centres-de-treball/teatres.htm">Teatres</a></li>
+										<li><a title="L'Institut del Teatre - Centres de treball - Biblioteques" href="/ca/institut-del-teatre/centres-de-treball/biblioteques.htm">Biblioteques</a></li>
+									</ul>
+								</li>
+								<li><a title="L'Institut del Teatre - Tauler d’anuncis" href="/ca/institut-del-teatre/tauler-d-anuncis.htm">Tauler d’anuncis</a>
+									<ul>
+										<li><a title="L'Institut del Teatre - Tauler d’anuncis - Convocatòries de selecció" href="/ca/institut-del-teatre/tauler-d-anuncis/convocatoria-de-places.htm">Convocatòries de selecció</a></li>
+										<li><a title="L'Institut del Teatre - Tauler d’anuncis - Matriculacions" href="/ca/institut-del-teatre/tauler-d-anuncis/matriculacions.htm">Matriculacions</a></li>
+										<li><a title="L'Institut del Teatre - Tauler d’anuncis - Proves d'accés" href="/ca/institut-del-teatre/tauler-d-anuncis/proves-d-acces.htm">Proves d'accés</a></li>
+										<li><a title="L'Institut del Teatre - Tauler d’anuncis - Normativa general" href="/ca/institut-del-teatre/tauler-d-anuncis/normativa-general.htm">Normativa general</a></li>
+										<li><a title="L'Institut del Teatre - Tauler d’anuncis - Normativa acadèmica" href="/ca/institut-del-teatre/tauler-d-anuncis/normativa-academica.htm">Normativa acadèmica</a></li>
+										<li><a title="L'Institut del Teatre - Tauler d’anuncis - Perfil de contractant" href="https://seuelectronica.diba.cat/perfilcontractant/default.asp">Perfil de contractant</a></li>
+									</ul>
+								</li>
+								<li><a title="L'Institut del Teatre - Serveis" href="/ca/institut-del-teatre/serveis.htm">Serveis</a>
+									<ul>
+										<li><a title="L'Institut del Teatre - Serveis - Serveis per alumnes" href="/ca/institut-del-teatre/serveis/serveis-per-alumnes.htm">Serveis per alumnes</a></li>
+										<li><a title="L'Institut del Teatre - Serveis - Serveis al professorat" href="/ca/institut-del-teatre/serveis/serveis-al-professorat.htm">Serveis al professorat</a></li>
+										<li><a title="L'Institut del Teatre - Serveis - Serveis al personal d'administració" href="/ca/institut-del-teatre/serveis/serveis-al-personal-d-administracio.htm">Serveis al personal d'administració</a></li>
+										<li><a title="L'Institut del Teatre - Serveis - Serveis per a graduats" href="/ca/institut-del-teatre/serveis/serveis-per-a-graduats.htm">Serveis per a graduats</a></li>
+										<li><a title="L'Institut del Teatre - Serveis - Serveis per a externs" href="/ca/institut-del-teatre/serveis/serveis-per-a-externs.htm">Serveis per a externs</a></li>
+									</ul>
+								</li>
+								<li><a title="L'Institut del Teatre - Tràmits" href="/ca/institut-del-teatre/tramits.htm">Tràmits</a>
+									<ul>
+										<li><a title="L'Institut del Teatre - Tràmits - Tràmits generals" href="/ca/institut-del-teatre/tramits.htm?fcat_268=30">Tràmits generals</a></li>
+										<li><a title="L'Institut del Teatre - Tràmits - Tràmits per a alumnes" href="/ca/institut-del-teatre/tramits.htm?fcat_268=31">Tràmits per a alumnes</a></li>
+										<li><a title="L'Institut del Teatre - Tràmits - Tràmits per a graduats" href="/ca/institut-del-teatre/tramits.htm?fcat_268=32">Tràmits per a graduats</a></li>
+										<li><a title="L'Institut del Teatre - Tràmits - Tràmits per a externs" href="/ca/institut-del-teatre/tramits.htm?fcat_268=33">Tràmits per a externs</a></li>
+										<li><a title="L'Institut del Teatre - Tràmits - Tràmits Secretaria Acadèmica" href="/ca/institut-del-teatre/tramits.htm?fcat_268=77">Tràmits Secretaria Acadèmica</a></li>
+									</ul>
+								</li>
+								<li><a title="L'Institut del Teatre - Publicacions" href="/ca/institut-del-teatre/publicacions-i-informes.htm">Publicacions</a></li>
+								<li><a title="L'Institut del Teatre - Recerca" href="/ca/institut-del-teatre/recerca.htm">Recerca</a>
+									<ul>
+										<li><a title="L'Institut del Teatre - Recerca - Jornades Scanner" href="/ca/institut-del-teatre/recerca/jornades-scanner.htm">Jornades Scanner</a></li>
+										<li><a title="L'Institut del Teatre - Recerca - Teatre Independent" href="/ca/institut-del-teatre/recerca/teatre-independet.htm">Teatre Independent</a></li>
+									</ul>
+								</li>
+								<li><a title="L'Institut del Teatre - Projectes internacionals" href="/ca/institut-del-teatre/projectes-internacionals.htm">Projectes internacionals</a>
+									<ul>
+										<li><a title="L'Institut del Teatre - Projectes internacionals - EscenaIbam" href="/ca/institut-del-teatre/projectes-internacionals/escenaibam.htm">EscenaIbam</a></li>
+										<li><a title="L'Institut del Teatre - Projectes internacionals - ITI Unesco" href="/ca/institut-del-teatre/projectes-internacionals/iti-unesco.htm">ITI Unesco</a></li>
+										<li><a title="L'Institut del Teatre - Projectes internacionals - SIBMAS" href="/ca/institut-del-teatre/projectes-internacionals/sibmas.htm">SIBMAS</a></li>
+										<li><a title="L'Institut del Teatre - Projectes internacionals - IFTR" href="/ca/institut-del-teatre/projectes-internacionals/iftr.htm">IFTR</a></li>
+										<li><a title="L'Institut del Teatre - Projectes internacionals - Quadriennal de Praga" href="/ca/institut-del-teatre/projectes-internacionals/quadriennal-de-praga.htm">Quadriennal de Praga</a></li>
+										<li><a title="L'Institut del Teatre - Projectes internacionals - Projectes amb finançament de la UE" href="/ca/institut-del-teatre/projectes-internacionals/amb-financament-ue.htm">Projectes amb finançament de la UE</a></li>
+									</ul>
+								</li>
+								<li><a title="L'Institut del Teatre - Observatori de les Arts Escèniques Aplicades" href="/ca/institut-del-teatre/observatori-de-les-arts-esceniques-aplicades.htm">Observatori de les Arts Escèniques Aplicades</a></li>
+								<li><a title="L'Institut del Teatre - IF Barcelona" href="/ca/institut-del-teatre/if-barcelona.htm">IF Barcelona</a>
+									<ul>
+										<li><a title="L'Institut del Teatre - IF Barcelona - Simposi Teatre de titelles" href="/ca/institut-del-teatre/if-barcelona/simposi-titelles.htm">Simposi Teatre de titelles</a></li>
+										<li><a title="L'Institut del Teatre - IF Barcelona - Jornada Educació i titelles" href="/ca/institut-del-teatre/if-barcelona/jornada-educacio-i-titelles.htm">Jornada Educació i titelles</a></li>
+										<li><a title="L'Institut del Teatre - IF Barcelona - Exposició fotogràfica de titelles" href="/ca/institut-del-teatre/if-barcelona/exposicio-fotografica-a-l-it.htm">Exposició fotogràfica de titelles</a></li>
+									</ul>
+								</li>
+								<li><a title="L'Institut del Teatre - Dansa Solidària" href="/ca/institut-del-teatre/dansa-solidaria.htm">Dansa Solidària</a></li>
+								<li><a title="L'Institut del Teatre - Xarxes socials" href="/ca/institut-del-teatre/xarxes-socials.htm">Xarxes socials</a></li>
+								<li><a title="L'Institut del Teatre - Imatge corporativa" href="/ca/institut-del-teatre/imatge-corporativa.htm">Imatge corporativa</a></li>
+							</ul>
+						</li>
+						<li><a title="Estudiants" href="/ca/estudiants.htm"><span>Estudiants</span></a>
+							<ul>
+								<li><a title="Estudiants - Secretaria acadèmica general" href="/ca/estudiants/secretaria-academica-general.htm">Secretaria acadèmica general</a>
+									<ul>
+										<li><a title="Estudiants - Secretaria acadèmica general - Matriculació" href="/ca/estudiants/secretaria-academica-general/matriculacio.htm">Matriculació</a></li>
+										<li><a title="Estudiants - Secretaria acadèmica general - Finançament de la matricula" href="/ca/pl362/estudiants/secretaria-academica-general/financament-de-la-matricula/id71/financament-de-matricula.htm">Finançament de la matricula</a></li>
+										<li><a title="Estudiants - Secretaria acadèmica general - Ajuts" href="/ca/estudiants/secretaria-academica-general/ajuts.htm">Ajuts</a></li>
+										<li><a title="Estudiants - Secretaria acadèmica general - Accés als estudis" href="/ca/estudiants/secretaria-academica-general/acces-als-estudis.htm">Accés als estudis</a></li>
+										<li><a title="Estudiants - Secretaria acadèmica general - Tràmits" href="/ca/estudiants/secretaria-academica-general/tramits.htm">Tràmits</a></li>
+										<li><a title="Estudiants - Secretaria acadèmica general - Reconeixement de crèdits" href="/ca/estudiants/secretaria-academica-general/reconeixement-de-credits.htm">Reconeixement de crèdits</a></li>
+									</ul>
+								</li>
+								<li><a title="Estudiants - Guies de l'estudiant" href="/ca/estudiants/guies-de-l-estudiant.htm">Guies de l'estudiant</a>
+									<ul>
+										<li><a title="Estudiants - Guies de l'estudiant - Guia de l'ESAD" href="/ca/estudiants/guies-de-l-estudiant/guia-de-l-esad.htm">Guia de l'ESAD</a></li>
+										<li><a title="Estudiants - Guies de l'estudiant - Guia del CSD" href="/ca/estudiants/guies-de-l-estudiant/guia-del-csd.htm">Guia del CSD</a></li>
+										<li><a title="Estudiants - Guies de l'estudiant - Guia de l'ESTAE" href="http://www.institutdelteatre.cat/site1/files/doc1430/estae-guia-de-l-estudiant-2015-2016.pdf" target="_blank">Guia de l'ESTAE</a></li>
+										<li><a title="Estudiants - Guies de l'estudiant - Guia de l'EESA/CPD" href="http://institutdelteatre.cat/site1/files/doc1431/guia-de-l-estudiant-eesacpd-2015-2016.pdf" target="_blank">Guia de l'EESA/CPD</a></li>
+									</ul>
+								</li>
+								<li><a title="Estudiants - Matriculacions" href="/ca/estudiants/matriculacions-i-convocatories.htm">Matriculacions</a></li>
+								<li><a title="Estudiants - Normativa acadèmica" href="/ca/estudiants/normativa-academica.htm">Normativa acadèmica</a>
+									<ul>
+										<li><a title="Estudiants - Normativa acadèmica - ESAD" href="/ca/estudiants/normativa-academica.htm?fcat_298=65">ESAD</a></li>
+										<li><a title="Estudiants - Normativa acadèmica - CSD" href="/ca/estudiants/normativa-academica.htm?fcat_298=66">CSD</a></li>
+										<li><a title="Estudiants - Normativa acadèmica - Reconeixement de crèdits" href="/ca/estudiants/normativa-academica.htm?fcat_298=79">Reconeixement de crèdits</a></li>
+										<li><a title="Estudiants - Normativa acadèmica - IT Grec" href="/ca/estudiants/normativa-academica.htm?fcat_298=80">IT Grec</a></li>
+										<li><a title="Estudiants - Normativa acadèmica - EESA/CPD" href="/ca/estudiants/normativa-academica.htm?fcat_298=84">EESA/CPD</a></li>
+										<li><a title="Estudiants - Normativa acadèmica - Màsters i postgraus" href="/ca/estudiants/normativa-academica.htm?fcat_298=90">Màsters i postgraus</a></li>
+									</ul>
+								</li>
+								<li><a title="Estudiants - Calendaris acadèmics" href="/ca/estudiants/calendaris-academics.htm">Calendaris acadèmics</a></li>
+								<li><a title="Estudiants - Mobilitat internacional" href="/ca/estudiants/mobilitat-internacional.htm">Mobilitat internacional</a></li>
+								<li><a title="Estudiants - Tràmits" href="/ca/estudiants/tramits.htm">Tràmits</a></li>
+								<li><a title="Estudiants - Ajuts" href="/ca/estudiants/ajuts-i-beques.htm">Ajuts</a></li>
+								<li><a title="Estudiants - Serveis" href="/ca/estudiants/serveis.htm">Serveis</a></li>
+								<li><a title="Estudiants - Participació de l'alumnat" href="/ca/estudiants/participacio-de-l-alumnat.htm">Participació de l'alumnat</a></li>
+							</ul>
+						</li>
+						<li><a title="Estudis" href="/ca/estudis.htm"><span>Estudis</span></a>
+							<ul>
+								<li><a title="Estudis - Teatre" href="/ca/estudis/teatre.htm">Teatre</a>
+									<ul>
+										<li><a title="Estudis - Teatre - Títol superior en art dramàtic" href="/ca/estudis/teatre/grau-en-art-dramatic.htm">Títol superior en art dramàtic</a></li>
+									</ul>
+								</li>
+								<li><a title="Estudis - Dansa" href="/ca/estudis/dansa.htm">Dansa</a>
+									<ul>
+										<li><a title="Estudis - Dansa - Títol superior en dansa" href="/ca/estudis/dansa/grau-en-dansa.htm">Títol superior en dansa</a></li>
+										<li><a title="Estudis - Dansa - Grau professional de dansa" href="/ca/estudis/dansa/grau-professional-de-dansa.htm">Grau professional de dansa</a></li>
+									</ul>
+								</li>
+								<li><a title="Estudis - Tècniques de l'espectacle" href="/ca/estudis/tecniques-de-l-espectacle.htm">Tècniques de l'espectacle</a></li>
+								<li><a title="Estudis - Màsters i postgraus" href="/ca/estudis/masters-i-postgraus.htm">Màsters i postgraus</a></li>
+								<li><a title="Estudis - Formació contínua" href="/ca/estudis/formacio-continuada.htm">Formació contínua</a></li>
+								<li><a title="Estudis - Formació contínua en col·laboració" href="/ca/estudis/formacio-continuda-en-collaboracio.htm">Formació contínua en col·laboració</a></li>
+								<li><a title="Estudis - Secretaria acadèmica general" href="/ca/pl78/estudis/secretaria-academica-general/id240/secretaria-academica-general.htm">Secretaria acadèmica general</a></li>
+								<li><a title="Estudis - Proves d'accés" href="/ca/estudis/proves-d-acces.htm">Proves d'accés</a></li>
+							</ul>
+						</li>
+						<li><a title="Graduats" href="/ca/graduats.htm"><span>Graduats</span></a>
+							<ul>
+								<li><a title="Graduats - ITNC" href="/ca/thm27/graduats.htm">ITNC</a>
+									<ul>
+										<li><a title="Graduats - ITNC - Proves d'accés ITNC" href="/ca/graduats/thm27/pag1013/itnc.htm">Proves d'accés ITNC</a></li>
+										<li><a title="Graduats - ITNC - Calendari ITNC" href="/ca/graduats/thm27/pag1117/calendari-itnc.htm">Calendari ITNC</a></li>
+									</ul>
+								</li>
+								<li><a title="Graduats - IT DANSA" href="/ca/thm28/graduats.htm">IT DANSA</a>
+									<ul>
+										<li><a title="Graduats - IT DANSA - Requisits d'accés a IT Dansa" href="/ca/graduats/thm28/pag1004/graduats-itdansa-requisits-d-acces.htm">Requisits d'accés a IT Dansa</a></li>
+										<li><a title="Graduats - IT DANSA - Companyia" href="/ca/graduats/thm28/pag1000/companyia.htm">Companyia</a></li>
+										<li><a title="Graduats - IT DANSA - Repertori" href="/ca/graduats/thm28/pag1005/graduats-itdansa-repertori.htm">Repertori</a></li>
+										<li><a title="Graduats - IT DANSA - Calendari" href="/ca/graduats/thm28/pag1006/calendari.htm">Calendari</a></li>
+										<li><a title="Graduats - IT DANSA - Audició" href="/ca/graduats/thm28/pag1176/audicio.htm">Audició</a></li>
+										<li><a title="Graduats - IT DANSA - Contractació" href="/ca/graduats/thm28/pag1007/contractacio.htm">Contractació</a></li>
+									</ul>
+								</li>
+								<li><a title="Graduats - IT TÈCNICA" href="/ca/thm29/graduats.htm">IT TÈCNICA</a></li>
+								<li><a title="Graduats - IT EMERGENTS" href="/ca/thm30/graduats.htm">IT EMERGENTS</a></li>
+								<li><a title="Graduats - Projecte VIC" href="/ca/pl398/graduats/projecte-vic/id23/projecte-vic.htm">Projecte VIC</a></li>
+								<li><a title="Graduats - Inscripció al servei de graduats" href="/ca/pl385/graduats/inscripcio-al-servei-de-graduats/id9/nscripcio-al-servei-de-graduats.htm">Inscripció al servei de graduats</a></li>
+								<li><a title="Graduats - Serveis per a graduats" href="/ca/graduats/serveis-per-a-graduats.htm">Serveis per a graduats</a></li>
+							</ul>
+						</li>
+						<li><a title="Escoles i Centres Territorials" href="/ca/escoles-i-centres-territorials.htm"><span>Escoles i Centres Territorials</span></a>
+							<ul>
+								<li><a title="Escoles i Centres Territorials - ESAD" href="/ca/thm21/escoles-i-centres-territorials.htm">ESAD</a>
+									<ul>
+										<li><a title="Escoles i Centres Territorials - ESAD - Qui som | Equip Directiu" href="/ca/escoles-i-centres-territorials/thm21/pag1024/qui-som-equip-directiu.htm">Qui som | Equip Directiu</a></li>
+										<li><a title="Escoles i Centres Territorials - ESAD - Professorat" href="/ca/escoles-i-centres-territorials/thm21/pag914/contactes-docents.htm">Professorat</a></li>
+										<li><a title="Escoles i Centres Territorials - ESAD - Departaments" href="/ca/escoles-i-centres-territorials/thm21/pag965/departaments.htm">Departaments</a></li>
+										<li><a title="Escoles i Centres Territorials - ESAD - Proves d'accés" href="/ca/escoles-i-centres-territorials/thm21/pag1077/proves-d-acces-esad.htm">Proves d'accés</a></li>
+										<li><a title="Escoles i Centres Territorials - ESAD - Matriculacions" href="/ca/escoles-i-centres-territorials/thm21/pag1032/preus-i-matriculacions.htm">Matriculacions</a></li>
+										<li><a title="Escoles i Centres Territorials - ESAD - Tallers i activitats" href="/ca/escoles-i-centres-territorials/thm21/pag868/calendari-tallers.htm">Tallers i activitats</a></li>
+										<li><a title="Escoles i Centres Territorials - ESAD - Calendari i Horaris" href="/ca/escoles-i-centres-territorials/thm21/pag1028/calendari-i-horaris.htm">Calendari i Horaris</a></li>
+										<li><a title="Escoles i Centres Territorials - ESAD - Qualitat" href="/ca/escoles-i-centres-territorials/thm21/pag866/qualitat.htm">Qualitat</a></li>
+										<li><a title="Escoles i Centres Territorials - ESAD - Notícies" href="/ca/escoles-i-centres-territorials/thm21/pag1033/masters-i-postrgraus.htm">Notícies</a></li>
+										<li><a title="Escoles i Centres Territorials - ESAD - Preguntes freqüents" href="/ca/escoles-i-centres-territorials/thm21/pag870/preguntes-frequents.htm">Preguntes freqüents</a></li>
+										<li><a title="Escoles i Centres Territorials - ESAD - Reglament" href="/ca/escoles-i-centres-territorials/thm21/pag1164/reglament.htm">Reglament</a></li>
+										<li><a title="Escoles i Centres Territorials - ESAD - Contacte" href="/ca/escoles-i-centres-territorials/thm21/pag867/contacte-esad.htm">Contacte</a></li>
+									</ul>
+								</li>
+								<li><a title="Escoles i Centres Territorials - CSD" href="/ca/thm22/escoles-i-centres-territorials.htm">CSD</a>
+									<ul>
+										<li><a title="Escoles i Centres Territorials - CSD - Qui som | Equip directiu" href="/ca/escoles-i-centres-territorials/thm22/pag1093/qui-som-equip-directiu.htm">Qui som | Equip directiu</a></li>
+										<li><a title="Escoles i Centres Territorials - CSD - Professorat" href="/ca/escoles-i-centres-territorials/thm22/pag916/contactes-docents.htm">Professorat</a></li>
+										<li><a title="Escoles i Centres Territorials - CSD - Departaments" href="/ca/escoles-i-centres-territorials/thm22/pag1094/departaments.htm">Departaments</a></li>
+										<li><a title="Escoles i Centres Territorials - CSD - Proves d'accés" href="/ca/escoles-i-centres-territorials/thm22/pag1095/proves-d-acces-csd.htm">Proves d'accés</a></li>
+										<li><a title="Escoles i Centres Territorials - CSD - Matriculacions" href="/ca/escoles-i-centres-territorials/thm22/pag1096/matriculacions-csd.htm">Matriculacions</a></li>
+										<li><a title="Escoles i Centres Territorials - CSD - Tallers i activitats" href="/ca/escoles-i-centres-territorials/thm22/pag895/calendari-tallers.htm">Tallers i activitats</a></li>
+										<li><a title="Escoles i Centres Territorials - CSD - Calendari i horaris" href="/ca/escoles-i-centres-territorials/thm22/pag1097/calendari-i-horaris.htm">Calendari i horaris</a></li>
+										<li><a title="Escoles i Centres Territorials - CSD - Qualitat" href="/ca/escoles-i-centres-territorials/thm22/pag894/qualitat.htm">Qualitat</a></li>
+										<li><a title="Escoles i Centres Territorials - CSD - Notícies" href="/ca/escoles-i-centres-territorials/thm22/pag1098/noticies-del-csd.htm">Notícies</a></li>
+										<li><a title="Escoles i Centres Territorials - CSD - Preguntes freqüents" href="/ca/escoles-i-centres-territorials/thm22/pag921/preguntes-frequents.htm">Preguntes freqüents</a></li>
+										<li><a title="Escoles i Centres Territorials - CSD - Contacte" href="/ca/escoles-i-centres-territorials/thm22/pag920/contacte-esad.htm">Contacte</a></li>
+									</ul>
+								</li>
+								<li><a title="Escoles i Centres Territorials - EESA/CPD" href="/ca/thm23/escoles-i-centres-territorials.htm">EESA/CPD</a>
+									<ul>
+										<li><a title="Escoles i Centres Territorials - EESA/CPD - Qui som | Equip directiu" href="/ca/escoles-i-centres-territorials/thm23/pag929/equip-directiu.htm">Qui som | Equip directiu</a></li>
+										<li><a title="Escoles i Centres Territorials - EESA/CPD - Objectius generals" href="/ca/escoles-i-centres-territorials/thm23/pag922/objectius-generals.htm">Objectius generals</a></li>
+										<li><a title="Escoles i Centres Territorials - EESA/CPD - Reglament intern" href="/ca/escoles-i-centres-territorials/thm23/pag923/reglament-intern.htm">Reglament intern</a></li>
+										<li><a title="Escoles i Centres Territorials - EESA/CPD - Proves d'accés" href="/ca/escoles-i-centres-territorials/thm23/pag1115/proves-d-acces-eesacpd.htm">Proves d'accés</a></li>
+										<li><a title="Escoles i Centres Territorials - EESA/CPD - Matrícula" href="/ca/escoles-i-centres-territorials/thm23/pag924/matricula-i-financament.htm">Matrícula</a></li>
+										<li><a title="Escoles i Centres Territorials - EESA/CPD - Calendari tallers" href="/ca/escoles-i-centres-territorials/thm23/pag927/calendari-tallers.htm">Calendari tallers</a></li>
+										<li><a title="Escoles i Centres Territorials - EESA/CPD - Notícies" href="/ca/escoles-i-centres-territorials/thm23/pag1129/noticies.htm">Notícies</a></li>
+										<li><a title="Escoles i Centres Territorials - EESA/CPD - Serveis" href="/ca/escoles-i-centres-territorials/thm23/pag1168/serveis.htm">Serveis</a></li>
+										<li><a title="Escoles i Centres Territorials - EESA/CPD - Projectes" href="/ca/escoles-i-centres-territorials/thm23/pag1154/projectes.htm">Projectes</a></li>
+										<li><a title="Escoles i Centres Territorials - EESA/CPD - AMPA" href="/ca/escoles-i-centres-territorials/thm23/pag925/ampa.htm">AMPA</a></li>
+										<li><a title="Escoles i Centres Territorials - EESA/CPD - Preguntes freqüents" href="/ca/escoles-i-centres-territorials/thm23/pag926/preguntes-frequents.htm">Preguntes freqüents</a></li>
+										<li><a title="Escoles i Centres Territorials - EESA/CPD - Contacte" href="/ca/escoles-i-centres-territorials/thm23/pag931/contacte-esad.htm">Contacte</a></li>
+									</ul>
+								</li>
+								<li><a title="Escoles i Centres Territorials - ESTAE" href="/ca/thm24/escoles-i-centres-territorials.htm">ESTAE</a>
+									<ul>
+										<li><a title="Escoles i Centres Territorials - ESTAE - Qui som | Equip directiu" href="/ca/escoles-i-centres-territorials/thm24/pag935/equip-directiu.htm">Qui som | Equip directiu</a></li>
+										<li><a title="Escoles i Centres Territorials - ESTAE - Inscripció i admissió" href="/ca/escoles-i-centres-territorials/thm24/pag1110/inscripcio-i-admissio.htm">Inscripció i admissió</a></li>
+										<li><a title="Escoles i Centres Territorials - ESTAE - Matriculacions" href="/ca/escoles-i-centres-territorials/thm24/pag932/matricula-i-financament.htm">Matriculacions</a></li>
+										<li><a title="Escoles i Centres Territorials - ESTAE - Calendari acadèmic" href="/ca/escoles-i-centres-territorials/thm24/pag1119/calendari-academic.htm">Calendari acadèmic</a></li>
+										<li><a title="Escoles i Centres Territorials - ESTAE - Tallers i activitats" href="/ca/escoles-i-centres-territorials/thm24/pag933/calendari-tallers.htm">Tallers i activitats</a></li>
+										<li><a title="Escoles i Centres Territorials - ESTAE - Notícies" href="/ca/escoles-i-centres-territorials/thm24/pag1135/noticies.htm">Notícies</a></li>
+										<li><a title="Escoles i Centres Territorials - ESTAE - Professorat" href="/ca/escoles-i-centres-territorials/thm24/pag937/contactes-docents.htm">Professorat</a></li>
+										<li><a title="Escoles i Centres Territorials - ESTAE - Preguntes freqüents" href="/ca/escoles-i-centres-territorials/thm24/pag940/preguntes-frequents.htm">Preguntes freqüents</a></li>
+										<li><a title="Escoles i Centres Territorials - ESTAE - Secretaria acadèmica" href="/ca/escoles-i-centres-territorials/thm24/pag1120/secretaria-academica-estae.htm">Secretaria acadèmica</a></li>
+										<li><a title="Escoles i Centres Territorials - ESTAE - Contacte" href="/ca/escoles-i-centres-territorials/thm24/pag939/contacte-esate.htm">Contacte</a></li>
+									</ul>
+								</li>
+								<li><a title="Escoles i Centres Territorials - Centre del Vallès" href="/ca/thm25/escoles-i-centres-territorials.htm">Centre del Vallès</a></li>
+								<li><a title="Escoles i Centres Territorials - Centre d'Osona" href="/ca/thm26/escoles-i-centres-territorials.htm">Centre d'Osona</a></li>
+							</ul>
+						</li>
+						<li><a title="MAE Centre de Documentació" href="/ca/centre-documentacio-mae.htm"><span>MAE Centre de Documentació</span></a></li>
+						<li><a title="Notícies i Agenda" href="/ca/actualitat.htm"><span>Notícies i Agenda</span></a>
+							<ul>
+								<li><a title="Notícies i Agenda - Notícies" href="/ca/actualitat/noticies.htm">Notícies</a>
+									<ul>
+										<li><a title="Notícies i Agenda - Notícies - General" href="/ca/actualitat/noticies/general.htm">General</a></li>
+										<li><a title="Notícies i Agenda - Notícies - MAE" href="/ca/actualitat/noticies/mae.htm">MAE</a></li>
+										<li><a title="Notícies i Agenda - Notícies - ESAD" href="/ca/actualitat/noticies/esad.htm">ESAD</a></li>
+										<li><a title="Notícies i Agenda - Notícies - CSD" href="/ca/actualitat/noticies/csd.htm">CSD</a></li>
+										<li><a title="Notícies i Agenda - Notícies - EESA/CPD" href="/ca/actualitat/noticies/eesacpd.htm">EESA/CPD</a></li>
+										<li><a title="Notícies i Agenda - Notícies - ESTAE" href="/ca/actualitat/noticies/estae.htm">ESTAE</a></li>
+										<li><a title="Notícies i Agenda - Notícies - ITDansa" href="/ca/actualitat/noticies/itdansa.htm">ITDansa</a></li>
+									</ul>
+								</li>
+								<li><a title="Notícies i Agenda - Agenda" href="/ca/actualitat/agenda.htm">Agenda</a>
+									<ul>
+										<li><a title="Notícies i Agenda - Agenda - General" href="/ca/actualitat/agenda/general.htm">General</a></li>
+										<li><a title="Notícies i Agenda - Agenda - Tallers" href="/ca/actualitat/agenda/tallers.htm">Tallers</a></li>
+										<li><a title="Notícies i Agenda - Agenda - Exposicions" href="/ca/actualitat/agenda/exposicions.htm">Exposicions</a></li>
+										<li><a title="Notícies i Agenda - Agenda - ITDansa" href="/ca/actualitat/agenda/itdansa.htm">ITDansa</a></li>
+										<li><a title="Notícies i Agenda - Agenda - ITNC" href="/ca/actualitat/agenda/itnc.htm">ITNC</a></li>
+										<li><a title="Notícies i Agenda - Agenda - Centre d'Osona" href="/ca/actualitat/agenda/centre-d-osona.htm">Centre d'Osona</a></li>
+										<li><a title="Notícies i Agenda - Agenda - Centre del Vallès" href="/ca/actualitat/agenda/centre-del-valles.htm">Centre del Vallès</a></li>
+									</ul>
+								</li>
+								<li><a title="Notícies i Agenda - Cartellera IT" href="/ca/actualitat/cartellera-it.htm">Cartellera IT</a></li>
+								<li><a title="Notícies i Agenda - Butlletí digital" href="/ca/newsletter.php?id_menu=115">Butlletí digital</a></li>
+								<li><a title="Notícies i Agenda - Hemeroteca digital" href="/ca/actualitat/hemeroteca-digital.htm">Hemeroteca digital</a></li>
+							</ul>
+						</li>
+						<li><a title="Directori de Contactes i Espais" href="/ca/directori-espais.htm"><span>Directori de Contactes i Espais</span></a>
+							<ul>
+								<li><a title="Directori de Contactes i Espais - Professorat" href="/ca/directori-espais/professorat.htm">Professorat</a>
+									<ul>
+										<li><a title="Directori de Contactes i Espais - Professorat - ESAD" href="/ca/directori-espais/professorat.htm?fcat_56=26">ESAD</a></li>
+										<li><a title="Directori de Contactes i Espais - Professorat - CSD" href="/ca/directori-espais/professorat.htm?fcat_56=27">CSD</a></li>
+										<li><a title="Directori de Contactes i Espais - Professorat - ESTAE" href="/ca/directori-espais/professorat.htm?fcat_56=28">ESTAE</a></li>
+										<li><a title="Directori de Contactes i Espais - Professorat - EESA/CPD" href="/ca/directori-espais/professorat.htm?fcat_56=29">EESA/CPD</a></li>
+										<li><a title="Directori de Contactes i Espais - Professorat - IT Dansa" href="/ca/directori-espais/professorat.htm?fcat_56=30">IT Dansa</a></li>
+									</ul>
+								</li>
+								<li><a title="Directori de Contactes i Espais - Col·lectiu d'instrumentistes" href="/ca/directori-espais/collectiu-d-instrumentistes.htm">Col·lectiu d'instrumentistes</a></li>
+								<li><a title="Directori de Contactes i Espais - Departaments" href="/ca/directori-espais/departaments.htm">Departaments</a></li>
+								<li><a title="Directori de Contactes i Espais - Centres de treball" href="/ca/directori-espais/centres-de-treball.htm">Centres de treball</a>
+									<ul>
+										<li><a title="Directori de Contactes i Espais - Centres de treball - Seu central Barcelona" href="/ca/pl16/institut-del-teatre/centres-de-treball/seu-central/id1/seu-central.htm">Seu central Barcelona</a></li>
+										<li><a title="Directori de Contactes i Espais - Centres de treball - Centres territorials" href="/ca/directori-espais/centres-de-treball/centres-territorials.htm">Centres territorials</a></li>
+										<li><a title="Directori de Contactes i Espais - Centres de treball - Teatres" href="/ca/directori-espais/centres-de-treball/teatres.htm">Teatres</a></li>
+										<li><a title="Directori de Contactes i Espais - Centres de treball - Biblioteques" href="/ca/directori-espais/centres-de-treball/biblioteques.htm">Biblioteques</a></li>
+									</ul>
+								</li>
+								<li><a title="Directori de Contactes i Espais - Escoles" href="/ca/directori-espais/escoles-i-centres-territorials.htm">Escoles</a></li>
+								<li><a title="Directori de Contactes i Espais - Espais de lloguer" href="/ca/directori-espais/espais-de-lloguer.htm">Espais de lloguer</a></li>
+								<li><a title="Directori de Contactes i Espais - Teatres" href="/ca/directori-espais/teatres.htm">Teatres</a></li>
+								<li><a title="Directori de Contactes i Espais - Biblioteques" href="/ca/directori-espais/biblioteques.htm">Biblioteques</a></li>
+								<li><a title="Directori de Contactes i Espais - Òrgans de govern" href="/ca/directori-espais/organs-de-govern.htm">Òrgans de govern</a></li>
+								<li><a title="Directori de Contactes i Espais - Espais d'exposició" href="/ca/pl66/directori-espais/espais-d-exposicio/id242/sala-d-exposicions-de-l-institut-del-teatre.htm" target="_blank">Espais d'exposició</a></li>
+								<li><a title="Directori de Contactes i Espais - Museu de les Arts Escèniques" href="/ca/directori-espais/museu-de-les-arts-esceniques.htm">Museu de les Arts Escèniques</a></li>
+								<li><a title="Directori de Contactes i Espais - Secretaria acadèmica general" href="/ca/pl70/directori-espais/secretaria-academica-general/id240/secretaria-academica-general.htm">Secretaria acadèmica general</a></li>
+								<li><a title="Directori de Contactes i Espais - Restauració" href="/ca/directori-espais/restauracio.htm">Restauració</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="neteja"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Fi capçalera -->
+		
+		
+		<div id="pagina" class="amplada-pagina">
+		
+		<!-- contingut -->
+		<div id="contingut">
+			<div id="contingut-interior">
+			
+			
+			
+			
+					<div id="columna-contingut" class="columna-contingut-portada">	
+					<div class="columna-contingut-int">
+		<div class="neteja">	<div id="destacat-1" class=" element-portada element-destacat amplada1 alcada2 element-destacat-text-blanc-on element-destacat-text-blanc-off" data-image='/media/site1/cache/images/institutdelteatre.jpg' data-image-on='true' data-image-off='true' data-text-visible-off='true' data-text-visible-on='false' data-color='#' data-color-off='#ffffff'>
+<a href="/ca/institut-del-teatre/l-institucio.htm" class="nodisplay">Veure L'Institut del Teatre</a>		<div class="element-destacat-titol">
+<p class="text-portada-gran"><strong><span>L'Institut del Teatre</span></strong></p>
+		</div>
+	</div>
+	<div id="destacat-2" class=" element-portada element-destacat amplada1 alcada2 element-destacat-text-negre-on element-destacat-text-blanc-off" data-image-on='false' data-image-off='false' data-text-visible-off='true' data-text-visible-on='true' data-color='#c732c7' data-color-off='#ffffff'>
+<a href="/thm21/escoles-i-centres-territorials.htm" class="nodisplay">Veure ESADEscola Superior d’Art Dramàtic</a>		<div class="element-destacat-titol">
+<p><strong><span class="text-portada-mitja">ESAD</span></strong><br /><span class="text-portada-mitja">Escola Superior d’Art Dramàtic</span></p>
+		</div>
+	</div>
+	<div id="destacat-3" class=" element-portada element-destacat amplada1 alcada2 element-destacat-text-negre-on element-destacat-text-blanc-off" data-image-on='false' data-image-off='false' data-text-visible-off='true' data-text-visible-on='true' data-color='#FF4338' data-color-off='#ffffff'>
+<a href="/thm22/escoles-i-centres-territorials.htm" class="nodisplay">Veure CSDConservatori Superior de Dansa</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja"><strong><span>CSD</span></strong><br /><span class="regular">Conservatori Superior de Dansa</span></p>
+		</div>
+	</div>
+	<div id="destacat-5" class=" element-portada element-destacat amplada1 alcada2 element-destacat-text-negre-on element-destacat-text-negre-off" data-image-on='false' data-image-off='false' data-text-visible-off='true' data-text-visible-on='true' data-color='#3FFFAD' data-color-off='#ffffff'>
+<a href="/thm23/escoles-i-centres-territorials.htm" class="nodisplay">Veure EESA/CPDEscola d’Ensenyament Secundari ArtísticConservatori Professional de Dansa</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja"><strong><span>EESA/CPD</span></strong><br /><span class="regular">Escola d’Ensenyament Secundari Artístic<br />Conservatori Professional de Dansa</span></p>
+		</div>
+	</div>
+	<div id="destacat-4" class=" element-portada element-destacat amplada1 alcada2 element-destacat-text-negre-on element-destacat-text-blanc-off" data-image-on='false' data-image-off='false' data-text-visible-off='true' data-text-visible-on='true' data-color='#00B3E3' data-color-off='#ffffff'>
+<a href="/thm24/escoles-i-centres-territorials.htm" class="nodisplay">Veure ESTAEEscola Superior de Tècniques de les Arts de l’Espectacle</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja"><strong><span>ESTAE</span></strong><br /><span class="regular">Escola Superior de Tècniques de les Arts de l’Espectacle</span></p>
+		</div>
+	</div>
+		<div class="element-portada element-rotador-portada amplada3 requadre-llista-gris-fort">
+			<ul id="rotador-portada-237" class="rotador owl-caroussel">
+					<li>
+				<div class="owl-lazy llista-img img-esquerra " data-src="/media/site1/cache/images/le-guarattelle-di-gaspare-nasuto.jpg?w=500&amp;h=500"></div>
+<div class="llista-cont-img-no-absolut">
+<p class="subtitol">18.02.2016</p>
+<p class="no-marge-superior subtitol"><a href="/ca/actualitat/noticies/general.htm">Notícies</a></p>
+<br /><p><a href="/ca/pl422/actualitat/noticies/general/id164/en-solidaritat-amb-la-companyia-titeres-desde-abajo.htm" title="En solidaritat amb la companyia Títeres desde Abajo" class="titol-llista-2">En solidaritat amb la companyia Títeres desde Abajo</a></p>
+<br /></div>
+</li>
+					<li>
+				<div class="owl-lazy llista-img img-esquerra " data-src="/media/site1/cache/images/it-dansa-foto-stemutz-photo-audicio-2016.jpg?w=500&amp;h=500"></div>
+<div class="llista-cont-img-no-absolut">
+<p class="subtitol">16.02.2016</p>
+<p class="no-marge-superior subtitol"><a href="/ca/actualitat/noticies/general.htm">Notícies</a></p>
+<br /><p><a href="/ca/pl422/actualitat/noticies/general/id21/it-dansa-convoca-audicio-per-a-ballarins-i-ballarines.htm" title="IT Dansa convoca audició per a ballarins i ballarines" class="titol-llista-2">IT Dansa convoca audició per a ballarins i ballarines</a></p>
+<br /></div>
+</li>
+					<li>
+				<div class="owl-lazy llista-img img-esquerra " data-src="/media/site1/cache/images/dansa-solidaria-refugiats-enric-morist-coordinador-de-creu-roja-catalunya-i-jordi-fabrega-coordinador-dansa-solidaria-noti.jpg?w=500&amp;h=500"></div>
+<div class="llista-cont-img-no-absolut">
+<p class="subtitol">11.02.2016</p>
+<p class="no-marge-superior subtitol"><a href="/ca/actualitat/noticies/general.htm">Notícies</a></p>
+<br /><p><a href="/ca/pl422/actualitat/noticies/general/id162/institut-del-teatre-i-creu-roja-recapten-per-als-refugiats.htm" title="L’Institut del Teatre i la Creu Roja recapten més de 4.000 € per als refugiats" class="titol-llista-2">L’Institut del Teatre i la Creu Roja recapten més de 4.000 € per als refugiats</a></p>
+<br /></div>
+</li>
+					<li>
+				<div class="owl-lazy llista-img img-esquerra " data-src="/media/site1/cache/images/tu-no-surts-a-la-foto-noti-3.jpg?w=500&amp;h=500"></div>
+<div class="llista-cont-img-no-absolut">
+<p class="subtitol">10.02.2016</p>
+<p class="no-marge-superior subtitol"><a href="/ca/actualitat/noticies/general.htm">Notícies</a></p>
+<br /><p><a href="/ca/pl422/actualitat/noticies/general/id163/espectacle-de-teatre-i-terapia-al-tnc.htm" title="Teatre i teràpia en un espectacle al TNC amb dramatúrgia i direcció de professors de l'ESAD" class="titol-llista-2">Teatre i teràpia en un espectacle al TNC amb dramatúrgia i direcció de professors de l'ESAD</a></p>
+<br /></div>
+</li>
+					<li>
+				<div class="owl-lazy llista-img img-esquerra " data-src="/media/site1/cache/images/portes-obertes-eesacpd-2016-2.jpg?w=500&amp;h=500"></div>
+<div class="llista-cont-img-no-absolut">
+<p class="subtitol">09.02.2016</p>
+<p class="no-marge-superior subtitol"><a href="/ca/actualitat/noticies/general.htm">Notícies</a></p>
+<br /><p><a href="/ca/pl422/actualitat/noticies/general/id159/jornada-de-portes-obertes-del-conservatori-professional-de-dansa.htm" title="Portes obertes del Conservatori Professional de Dansa" class="titol-llista-2">Portes obertes del Conservatori Professional de Dansa</a></p>
+<br /></div>
+</li>
+					<li>
+				<div class="owl-lazy llista-img img-esquerra " data-src="/media/site1/cache/images/margarida-xirgu-foto-fons-del-mae-it-2.jpg?w=500&amp;h=500"></div>
+<div class="llista-cont-img-no-absolut">
+<p class="subtitol">08.02.2016</p>
+<p class="no-marge-superior subtitol"><a href="/ca/actualitat/noticies/general.htm">Notícies</a></p>
+<br /><p><a href="/ca/pl422/actualitat/noticies/general/id161/activitats-del-mes-de-febrer-a-l-exposicio-actrius-catalanes-del-segle-xx.htm" title="Activitats del mes de febrer a l'exposició &quot;Actrius catalanes del segle xx&quot;" class="titol-llista-2">Activitats del mes de febrer a l'exposició &quot;Actrius catalanes del segle xx&quot;</a></p>
+<br /></div>
+</li>
+					<li>
+				<div class="owl-lazy llista-img img-esquerra " data-src="/media/site1/cache/images/llum-bcn-2016.jpg?w=500&amp;h=500"></div>
+<div class="llista-cont-img-no-absolut">
+<p class="subtitol">05.02.2016</p>
+<p class="no-marge-superior subtitol"><a href="/ca/actualitat/noticies/general.htm">Notícies</a></p>
+<br /><p><a href="/ca/pl422/actualitat/noticies/general/id160/alumnes-d-escenografia-de-l-esad-participen-al-festival-llum-bcn.htm" title="Alumnes d'Escenografia de l'ESAD participen al festival LLUM BCN" class="titol-llista-2">Alumnes d'Escenografia de l'ESAD participen al festival LLUM BCN</a></p>
+<br /></div>
+</li>
+					<li>
+				<div class="owl-lazy llista-img img-esquerra " data-src="/media/site1/cache/images/dansa-solidaria-4.jpg?w=500&amp;h=500"></div>
+<div class="llista-cont-img-no-absolut">
+<p class="subtitol">29.01.2016</p>
+<p class="no-marge-superior subtitol"><a href="/ca/actualitat/noticies/general.htm">Notícies</a></p>
+<br /><p><a href="/ca/pl422/actualitat/noticies/general/id155/l-institut-del-teatre-balla-pels-refugiats.htm" title="L'Institut del Teatre balla pels refugiats amb  dues funcions de Dansa Solidària" class="titol-llista-2">L'Institut del Teatre balla pels refugiats amb  dues funcions de Dansa Solidària</a></p>
+<br /></div>
+</li>
+				</ul>
+		</div>
+		<script type="text/javascript">
+	//<![CDATA[
+		$(document).ready(function() {
+			var stoped_rotador_237 = false;
+			var owl_portada_237 = $('#rotador-portada-237');
+			owl_portada_237.owlCarousel({
+				lazyLoad: true,
+				loop: true,
+				animateOut: 'fadeOut',
+				animateIn: 'fadeIn',
+				items: 1,
+				dots: true,
+				video: true,
+				videoHeight: 330,
+				autoplay: true,
+				autoplayTimeout: 5000,
+				autoplaySpeed: 5000
+			});
+			$('#rotador-portada-237 .owl-controls').prepend("<div class='boto-pausa'><i class='fa fa-pause'></i></div>");
+			$('#rotador-portada-237 .boto-pausa').on('click', function(event){
+				if (stoped_rotador_237) {
+					owl_portada_237.trigger('play.owl.autoplay',[5000]);
+					$('i', this).removeClass('fa-pause fa-play').addClass('fa-pause');
+					stoped_rotador_237 = false;
+				} else {
+					owl_portada_237.trigger('stop.owl.autoplay');
+					$('i', this).removeClass('fa-pause fa-play').addClass('fa-play');
+					stoped_rotador_237 = true;
+				}
+			});
+			owl_portada_237.on('translated.owl.carousel', function(event) {
+				if (stoped_rotador_237) {
+					owl_portada_237.trigger('stop.owl.autoplay');
+					$('i', this).removeClass('fa-pause fa-play').addClass('fa-play');
+				}
+			});
+			owl_portada_237.on('play.owl.video', function(event) {
+				owl_portada_237.trigger('stop.owl.autoplay');
+				$('i', this).removeClass('fa-pause fa-play').addClass('fa-play');
+				stoped_rotador_237 = true;
+			});
+		});
+	//]]>
+	</script>
+	<div id="destacat-248" class=" element-portada element-destacat amplada1 alcada1 element-destacat-text-negre-on element-destacat-text-blanc-off" data-image-on='false' data-image-off='false' data-text-visible-off='true' data-text-visible-on='true' data-color='#429e26' data-color-off='#ffffff'>
+<a href="http://www.institutdelteatre.cat/ca/estudis/formacio-continuada.htm" class="nodisplay">Veure Cursos Formació contínua</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja">Cursos <strong>Formació contínua</strong></p>
+		</div>
+	</div>
+	<div id="destacat-12" class=" element-portada element-destacat amplada1 alcada2 element-destacat-text-blanc-on element-destacat-text-blanc-off" data-image='/media/site1/cache/images/proves-acces-v-foto-david-ruano-redim-h330.jpg' data-image-on='true' data-image-off='true' data-text-visible-off='true' data-text-visible-on='false' data-color='#' data-color-off='#ffffff'>
+<a href="http://www.institutdelteatre.cat/ca/estudiants/secretaria-academica-general/acces-als-estudis.htm" class="nodisplay">Veure Informació Proves d'accés</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja">Informació<strong> <br />Proves </strong><br /><strong>d'accés</strong><br /><br /></p>
+		</div>
+	</div>
+	<div id="destacat-176" class=" element-portada element-destacat amplada1 alcada1 element-destacat-text-negre-on element-destacat-text-negre-off" data-image='/media/site1/cache/images/masters-i-postgraus-portada-redim-h160.jpg' data-image-on='true' data-image-off='false' data-text-visible-off='true' data-text-visible-on='false' data-color='#f7f5f7' data-color-off='#ffffff'>
+<a href="http://institutdelteatre.cat/ca/estudis/masters-i-postgraus.htm" class="nodisplay">Veure Màsters i Postgraus</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja">Màsters i Postgraus</p>
+		</div>
+	</div>
+	<div id="destacat-249" class=" element-portada element-destacat amplada2 alcada2 element-destacat-text-blanc-on element-destacat-text-blanc-off" data-image='/media/site1/cache/images/portes-obertes-eesacpd-2016-2-redim-h330.jpg' data-image-on='true' data-image-off='false' data-text-visible-off='true' data-text-visible-on='false' data-color='#c73232' data-color-off='#ffffff'>
+<a href="http://institutdelteatre.cat/ca/pl422/actualitat/noticies/general/id159/jornada-de-portes-obertes-del-conservatori-professional-de-dansa.htm" class="nodisplay">Veure Portes ObertesConservatori Professionalde Dansa</a>		<div class="element-destacat-titol">
+<p class="text-portada-gran text-portada-mitja">Portes Obertes<strong><br />Conservatori Professional<br />de Dansa</strong></p>
+		</div>
+	</div>
+	<div id="destacat-28" class=" element-portada element-destacat amplada2 alcada2 element-destacat-text-negre-on element-destacat-text-negre-off" data-image-on='false' data-image-off='false' data-text-visible-off='true' data-text-visible-on='true' data-color='#000203' data-color-off='#ffffff'>
+		<div class="element-destacat-titol no-padding">
+<div style="position: relative; padding-bottom: 70.2%; height: 0; overflow: hidden;  max-width: 540px; border: 0;"><iframe  style=" position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"    title="Clip Institut del Teatre" src="https://www.youtube.com/embed/heexcC4LFtY" allowfullscreen=""></iframe></div>
+		</div>
+	</div>
+	<div id="destacat-11" class=" element-portada element-destacat amplada1 alcada1 element-destacat-text-negre-on element-destacat-text-negre-off" data-image='/media/site1/cache/images/secretaria-academica-portada-redim-h160.jpg' data-image-on='true' data-image-off='false' data-text-visible-off='true' data-text-visible-on='false' data-color='#' data-color-off='#ffffff'>
+<a href="/estudiants/secretaria-academica-general.htm" class="nodisplay">Veure Secretaria Acadèmica General</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja">Secretaria Acadèmica General<strong><br /></strong></p>
+		</div>
+	</div>
+	<div id="destacat-245" class=" element-portada element-destacat amplada1 alcada1 element-destacat-text-blanc-on element-destacat-text-blanc-off" data-image='/media/site1/cache/images/guia-estudiant-portada-redim-w230.jpg' data-image-on='true' data-image-off='false' data-text-visible-off='true' data-text-visible-on='false' data-color='#0015AE' data-color-off='#ffffff'>
+<a href="http://institutdelteatre.cat/ca/estudiants/guies-de-l-estudiant.htm" class="nodisplay">Veure Guies de l'Estudiant</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja">Guies de l'<strong>Estudiant</strong></p>
+		</div>
+	</div>
+	<div id="destacat-214" class=" element-portada element-destacat amplada2 alcada2 element-destacat-text-negre-on element-destacat-text-negre-off" data-image-on='false' data-image-off='false' data-text-visible-off='true' data-text-visible-on='true' data-color='#000000' data-color-off='#ffffff'>
+		<div class="element-destacat-titol no-padding">
+<div style="position: relative; padding-bottom: 70.2%; height: 0; overflow: hidden;  max-width: 540px; border: 0;"><iframe  style=" position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"    title="Clip Escenografia" src="https://www.youtube.com/embed/TDxYzRCLyZ4" allowfullscreen=""></iframe></div>
+		</div>
+	</div>
+	<div id="destacat-31" class=" element-portada element-destacat amplada2 alcada2 element-destacat-text-negre-on element-destacat-text-negre-off" data-image='/media/site1/cache/images/aules-obertes-disseny-escenic-1-redim-h330.jpg' data-image-on='true' data-image-off='false' data-text-visible-off='true' data-text-visible-on='false' data-color='#f5f6f7' data-color-off='#ffffff'>
+<a href="http://www.institutdelteatre.cat/ca/pl328/estudis/formacio-continuada/id32/aules-obertes-de-disseny-escenic.htm" class="nodisplay">Veure Nous cursosAules Obertes de Disseny Escènic</a>		<div class="element-destacat-titol">
+<p class="text-portada-gran text-portada-mitja">Nous cursos<br /><strong>Aules Obertes de Disseny Escènic</strong></p>
+		</div>
+	</div>
+	<div id="destacat-16" class=" element-portada element-destacat amplada1 alcada2 element-destacat-text-blanc-on element-destacat-text-blanc-off" data-image='/media/site1/cache/images/it-dansa-portada-audicio-2016-redim-w230.jpg' data-image-on='true' data-image-off='true' data-text-visible-off='true' data-text-visible-on='false' data-color='#FF4338' data-color-off='#ffffff'>
+<a href="http://www.institutdelteatre.cat/ca/pl422/actualitat/id21/it-dansa-convoca-audicio-per-a-ballarins-i-ballarines.htm" class="nodisplay">Veure IT DansaAudició2016</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja right"><strong>IT Dansa</strong><br />Audició<br />2016<br /><br /></p>
+		</div>
+	</div>
+	<div id="destacat-243" class=" element-portada element-destacat amplada2 alcada2 element-destacat-text-negre-on element-destacat-text-negre-off" data-image='/media/site1/cache/images/imatge-actrius-redim-h330.jpg' data-image-on='true' data-image-off='false' data-text-visible-off='true' data-text-visible-on='false' data-color='#fcfcfc' data-color-off='#ffffff'>
+<a href="http://www.institutdelteatre.cat/ca/pl247/actualitat/agenda/id213/activitats-de-l-exposicio-actrius-catalanes-del-segle-xx.htm" class="nodisplay">Veure Activitats de l'exposició'Actrius catalanes del segle XX'</a>		<div class="element-destacat-titol">
+<p class="text-portada-gran text-portada-mitja">Activitats de l'exposició<strong><br />'Actrius catalanes <br />del segle XX'</strong></p>
+		</div>
+	</div>
+	<div id="destacat-211" class=" element-portada element-destacat amplada2 alcada2 element-destacat-text-negre-on element-destacat-text-negre-off" data-image-on='false' data-image-off='false' data-text-visible-off='true' data-text-visible-on='true' data-color='#000000' data-color-off='#ffffff'>
+<a href="http://www.institutdelteatre.cat/ca/pl247/actualitat/agenda/id196/exposicio-actrius-catalanes-del-segle-xx-al-palau-robert.htm" class="nodisplay">Veure </a>		<div class="element-destacat-titol no-padding">
+<div style="position: relative; padding-bottom: 70.2%; height: 0; overflow: hidden;  max-width: 540px; border: 0;"><iframe  style=" position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"    title="Clip expo 'Actrius catalanes del segle xx'" src="https://www.youtube.com/embed/5xSvgSB5cLY" allowfullscreen=""></iframe></div>
+		</div>
+	</div>
+	<div id="destacat-15" class=" element-portada element-destacat amplada1 alcada1 element-destacat-text-negre-on element-destacat-text-negre-off" data-image='/media/site1/cache/images/mae-redim-w230.jpg' data-image-on='true' data-image-off='false' data-text-visible-off='true' data-text-visible-on='false' data-color='#f7f9fa' data-color-off='#ffffff'>
+<a href="/ca/centre-documentacio-mae.htm" class="nodisplay">Veure MAE Museu de les Arts Escèniques</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja"><strong>MAE</strong> Museu de les Arts Escèniques<strong><br /></strong></p>
+		</div>
+	</div>
+	<div id="destacat-20" class=" element-portada element-destacat amplada1 alcada1 element-destacat-text-blanc-on element-destacat-text-blanc-off" data-image='/media/site1/cache/images/observatori-portada-foto-david-ruano-redim-w230.jpg' data-image-on='true' data-image-off='false' data-text-visible-off='true' data-text-visible-on='false' data-color='#FF9E13' data-color-off='#ffffff'>
+<a href="/institut-del-teatre/observatori-de-les-arts-esceniques-aplicades.htm" class="nodisplay">Veure Observatori de les Arts Escèniques Aplicades</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja">Observatori de les Arts Escèniques Aplicades</p>
+		</div>
+	</div>
+	<div id="destacat-25" class=" element-portada element-destacat amplada2 alcada2 element-destacat-text-blanc-on element-destacat-text-blanc-off" data-image='/media/site1/cache/images/tallers-portada-redim-h330.jpg' data-image-on='false' data-image-off='true' data-text-visible-off='true' data-text-visible-on='true' data-color='#FF9E13' data-color-off='#ffffff'>
+<a href="/ca/actualitat/agenda.htm" class="nodisplay">Veure Agenda</a>		<div class="element-destacat-titol">
+<p class="text-portada-gran">Agenda</p>
+		</div>
+	</div>
+			<div id="destacat-21" class=" element-portada element-destacat amplada1 alcada1 element-destacat-text-negre-on element-destacat-text-negre-off" data-image='/media/site1/cache/images/publicacions-portada-2-2-redim-w230.jpg' data-image-on='true' data-image-off='true' data-text-visible-off='true' data-text-visible-on='false' data-color='#fafafa' data-color-off='#ffffff'>
+<a href="http://institutdelteatre.cat/ca/institut-del-teatre/publicacions-i-informes.htm" class="nodisplay">Veure Publicacions</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja"><strong>Publicacions</strong></p>
+		</div>
+	</div>
+	<div class="element-html element-portada amplada1 alcada3">
+<p><a class="twitter-timeline" href="https://twitter.com/institutteatre" data-widget-id="570525203290423296">Tuits de @institutteatre</a></p>
+<script type="text/javascript">// <![CDATA[
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+// ]]></script>
+	</div>
+	<div class="element-html element-portada amplada1 alcada3">
+<div class="fb-like-box" data-href="https://www.facebook.com/institutdelteatre" data-height="500" data-width="230" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"> </div>
+<div id="fb-root"> </div>
+<script type="text/javascript">// <![CDATA[
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=709814735723264&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+// ]]></script>
+	</div>
+	<div id="destacat-88" class=" element-portada element-destacat amplada1 alcada1 element-destacat-text-blanc-on element-destacat-text-blanc-off" data-image='/media/site1/cache/images/espais-2-redim-w230.jpg' data-image-on='true' data-image-off='false' data-text-visible-off='true' data-text-visible-on='false' data-color='#666666' data-color-off='#ffffff'>
+<a href="http://www.institutdelteatre.cat/ca/pl266/institut-del-teatre/serveis/serveis-per-a-externs/id22/lloguer-d-espais.htm" class="nodisplay">Veure Lloguer d'espais</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja"><strong>Lloguer d'espais</strong></p>
+		</div>
+	</div>
+	<div id="destacat-29" class=" element-portada element-destacat amplada2 alcada2 element-destacat-text-negre-on element-destacat-text-negre-off" data-image='/media/site1/cache/images/mapa-institut-del-teatre-bcn-3-redim-h330.jpg' data-image-on='true' data-image-off='true' data-text-visible-off='true' data-text-visible-on='false' data-color='#d7d8d9' data-color-off='#ffffff'>
+<a href="https://www.google.com/maps/place/Institut+del+Teatre/@41.36972,2.164296,13z/data=!4m2!3m1!1s0x0:0xaa10efaab04af69f?hl=ca" class="nodisplay">Veure On som</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja"><strong>On som</strong></p>
+		</div>
+	</div>
+	<div id="destacat-26" class=" element-portada element-destacat amplada1 alcada1 element-destacat-text-blanc-on element-destacat-text-blanc-off" data-image='/media/site1/cache/images/ramon-vila-el-cant-de-fedra-foto-anna-mila-iefc-redim-h160.jpg' data-image-on='true' data-image-off='false' data-text-visible-off='true' data-text-visible-on='false' data-color='#c73232' data-color-off='#ffffff'>
+<a href="/directori-espais/professorat.htm" class="nodisplay">Veure Professorat</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja"><strong>Professorat</strong></p>
+		</div>
+	</div>
+	<div id="destacat-35" class=" element-portada element-destacat amplada1 alcada1 element-destacat-text-negre-on element-destacat-text-negre-off" data-image-on='false' data-image-off='false' data-text-visible-off='true' data-text-visible-on='true' data-color='#3EFFAC' data-color-off='#ffffff'>
+<a href="http://institutdelteatre.cat/ca/institut-del-teatre/tauler-d-anuncis/convocatoria-de-places.htm" class="nodisplay">Veure Convocatòries de selecció</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja"><strong>Convocatòries de selecció</strong></p>
+		</div>
+	</div>
+			<div id="destacat-27" class=" element-portada element-destacat amplada1 alcada1 element-destacat-text-negre-on element-destacat-text-negre-off" data-image='/media/site1/cache/images/cartellera-it-portada-redim-h160.jpg' data-image-on='false' data-image-off='true' data-text-visible-off='false' data-text-visible-on='true' data-color='#' data-color-off='#ffffff'>
+<a href="/ca/actualitat/cartellera-it.htm" class="nodisplay">Veure Cartellera IT</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja">Cartellera IT</p>
+		</div>
+	</div>
+	<div id="destacat-30" class=" element-portada element-destacat amplada1 alcada1 element-destacat-text-negre-on element-destacat-text-blanc-off" data-image-on='false' data-image-off='false' data-text-visible-off='true' data-text-visible-on='true' data-color='#00B3E3' data-color-off='#ffffff'>
+<a href="/institut-del-teatre/xarxes-socials.htm" class="nodisplay">Veure Xarxes socials</a>		<div class="element-destacat-titol">
+<p class="text-portada-mitja"><strong>Xarxes socials</strong></p>
+		</div>
+	</div>
+</div>					</div>
+					<!-- /columna-contingut-int -->
+				</div>
+				<!-- /columna-contingut -->
+						</div>
+			<!-- /contingut-interior -->
+		</div>
+		<!-- /contingut -->
+	
+		<script type="text/javascript">
+//<![CDATA[
+	$(document).ready(function() {
+		if (hasCSS() && tipus_css!='no' && !ie8) {
+			var container = $('.columna-contingut-int').masonry({
+				itemSelector: '.element-portada'
+    		});
+    		container.imagesLoaded( function() {
+    			container.masonry();
+    		});
+		}
+	});
+//]]>
+</script>
+		<!-- peu -->
+		<div id="peu" class="amplada-pagina">
+			<div id="peu-barra"></div>
+			
+			<div id="peu-superior">
+				<div id="peu-segueixnos">
+				<a href="https://www.facebook.com/institutdelteatre" class="facebook" title="Facebook" target="_blank"><i class="fa fa-facebook"></i><span class="nodisplay">Facebook</span></a><a href="https://twitter.com/institutteatre" class="twitter" title="Twitter" target="_blank"><i class="fa fa-twitter"></i><span class="nodisplay">Twitter</span></a><a href="https://instagram.com/institutdelteatre" class="instagram" title="Instagram"><i class="fa fa-instagram"></i><span class="nodisplay">Instagram</span></a><a href="https://www.youtube.com/user/ITcanaloficial" class="youtube" title="Youtube"><i class="fa fa-youtube"></i><span class="nodisplay">Youtube</span></a><a href="https://www.flickr.com/photos/iefc/albums/72157661414517081" class="flickr" title="Flickr" target="_blank"><i class="fa fa-flickr"></i><span class="nodisplay">Flickr</span></a><a href="/ca/lnk14/rsspeu.htm" class="rss" title="RSS"><i class="fa fa-rss"></i><span class="nodisplay">RSS</span></a>				</div>
+				
+				<div id="peu-text">
+				<div>
+<p><strong><a href="http://www.institutdelteatre.cat/ca/pl16/institut-del-teatre/centres-de-treball/seu-central/id1/seu-central.htm" target="_self">SEU CENTRAL</a><br /></strong>Plaça Margarida Xirgu, s/n<br />08004 Barcelona<br />T. 932 273 900<br /><a href="mailto:i.teatre@institutdelteatre.cat" target="_blank">i.teatre@institutdelteatre.cat</a></p>
+<p> </p>
+<p> </p>
+</div>
+<div>
+<p><strong><a href="http://www.institutdelteatre.cat/ca/pl8/institut-del-teatre/centres-de-treball/centres-territorials/id10/centre-del-valles.htm" target="_self">CENTRE DE TERRASSA</a><br /></strong>Plaça Didó, 1<br />08221 Terrassa<br />T. 937 887 440<br /><a href="mailto:it.terrassa@institutdelteatre.cat" target="_blank">it.terrassa@institutdelteatre.cat</a></p>
+<p> </p>
+<p> </p>
+</div>
+<div>
+<p><strong><a href="http://www.institutdelteatre.cat/ca/pl8/institut-del-teatre/centres-de-treball/centres-territorials/id11/centre-d-osona.htm" target="_self">CENTRE DE VIC</a><br /></strong>c/ Sant Miquel dels Sants, 20<br />08500 Vic<br />T. 938 854 467<br /><a href="mailto:it.vic@institutdelteatre.cat" target="_blank">it.vic@institutdelteatre.cat</a></p>
+</div>
+				</div>
+			</div>
+				
+	
+			<div id="peu-contingut">
+		       	<div id="peu-menu">
+						<ul id="peu-menus">
+		<li  class="menu-nivell1">
+<span><a title="L'Institut del Teatre" href="/ca/institut-del-teatre.htm">L'Institut del Teatre</a></span>	<ul>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - La institució" href="/ca/institut-del-teatre/l-institucio.htm">La institució</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - Centres de treball" href="/ca/institut-del-teatre/centres-de-treball.htm">Centres de treball</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - Tauler d’anuncis" href="/ca/institut-del-teatre/tauler-d-anuncis.htm">Tauler d’anuncis</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - Serveis" href="/ca/institut-del-teatre/serveis.htm">Serveis</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - Tràmits" href="/ca/institut-del-teatre/tramits.htm">Tràmits</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - Publicacions" href="/ca/institut-del-teatre/publicacions-i-informes.htm">Publicacions</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - Recerca" href="/ca/institut-del-teatre/recerca.htm">Recerca</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - Projectes internacionals" href="/ca/institut-del-teatre/projectes-internacionals.htm">Projectes internacionals</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - Observatori de les Arts Escèniques Aplicades" href="/ca/institut-del-teatre/observatori-de-les-arts-esceniques-aplicades.htm">Observatori de les Arts Escèniques Aplicades</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - IF Barcelona" href="/ca/institut-del-teatre/if-barcelona.htm">IF Barcelona</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - Dansa Solidària" href="/ca/institut-del-teatre/dansa-solidaria.htm">Dansa Solidària</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - Xarxes socials" href="/ca/institut-del-teatre/xarxes-socials.htm">Xarxes socials</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="L'Institut del Teatre - Imatge corporativa" href="/ca/institut-del-teatre/imatge-corporativa.htm">Imatge corporativa</a></span>		</li>
+	</ul>
+		</li>
+		<li  class="menu-nivell1">
+<span><a title="Estudiants" href="/ca/estudiants.htm">Estudiants</a></span>	<ul>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudiants - Secretaria acadèmica general" href="/ca/estudiants/secretaria-academica-general.htm">Secretaria acadèmica general</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudiants - Guies de l'estudiant" href="/ca/estudiants/guies-de-l-estudiant.htm">Guies de l'estudiant</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudiants - Matriculacions" href="/ca/estudiants/matriculacions-i-convocatories.htm">Matriculacions</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudiants - Normativa acadèmica" href="/ca/estudiants/normativa-academica.htm">Normativa acadèmica</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudiants - Calendaris acadèmics" href="/ca/estudiants/calendaris-academics.htm">Calendaris acadèmics</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudiants - Mobilitat internacional" href="/ca/estudiants/mobilitat-internacional.htm">Mobilitat internacional</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudiants - Tràmits" href="/ca/estudiants/tramits.htm">Tràmits</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudiants - Ajuts" href="/ca/estudiants/ajuts-i-beques.htm">Ajuts</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudiants - Serveis" href="/ca/estudiants/serveis.htm">Serveis</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudiants - Participació de l'alumnat" href="/ca/estudiants/participacio-de-l-alumnat.htm">Participació de l'alumnat</a></span>		</li>
+	</ul>
+		</li>
+		<li  class="menu-nivell1">
+<span><a title="Estudis" href="/ca/estudis.htm">Estudis</a></span>	<ul>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudis - Teatre" href="/ca/estudis/teatre.htm">Teatre</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudis - Dansa" href="/ca/estudis/dansa.htm">Dansa</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudis - Tècniques de l'espectacle" href="/ca/estudis/tecniques-de-l-espectacle.htm">Tècniques de l'espectacle</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudis - Màsters i postgraus" href="/ca/estudis/masters-i-postgraus.htm">Màsters i postgraus</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudis - Formació contínua" href="/ca/estudis/formacio-continuada.htm">Formació contínua</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudis - Formació contínua en col·laboració" href="/ca/estudis/formacio-continuda-en-collaboracio.htm">Formació contínua en col·laboració</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudis - Secretaria acadèmica general" href="/ca/pl78/estudis/secretaria-academica-general/id240/secretaria-academica-general.htm">Secretaria acadèmica general</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Estudis - Proves d'accés" href="/ca/estudis/proves-d-acces.htm">Proves d'accés</a></span>		</li>
+	</ul>
+		</li>
+		<li  class="menu-nivell1">
+<span><a title="Graduats" href="/ca/graduats.htm">Graduats</a></span>	<ul>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Graduats - ITNC" href="/ca/thm27/graduats.htm">ITNC</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Graduats - IT DANSA" href="/ca/thm28/graduats.htm">IT DANSA</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Graduats - IT TÈCNICA" href="/ca/thm29/graduats.htm">IT TÈCNICA</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Graduats - IT EMERGENTS" href="/ca/thm30/graduats.htm">IT EMERGENTS</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Graduats - Projecte VIC" href="/ca/pl398/graduats/projecte-vic/id23/projecte-vic.htm">Projecte VIC</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Graduats - Inscripció al servei de graduats" href="/ca/pl385/graduats/inscripcio-al-servei-de-graduats/id9/nscripcio-al-servei-de-graduats.htm">Inscripció al servei de graduats</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Graduats - Serveis per a graduats" href="/ca/graduats/serveis-per-a-graduats.htm">Serveis per a graduats</a></span>		</li>
+	</ul>
+		</li>
+		<li  class="menu-nivell1">
+<span><a title="Escoles i Centres Territorials" href="/ca/escoles-i-centres-territorials.htm">Escoles i Centres Territorials</a></span>	<ul>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Escoles i Centres Territorials - ESAD" href="/ca/thm21/escoles-i-centres-territorials.htm">ESAD</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Escoles i Centres Territorials - CSD" href="/ca/thm22/escoles-i-centres-territorials.htm">CSD</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Escoles i Centres Territorials - EESA/CPD" href="/ca/thm23/escoles-i-centres-territorials.htm">EESA/CPD</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Escoles i Centres Territorials - ESTAE" href="/ca/thm24/escoles-i-centres-territorials.htm">ESTAE</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Escoles i Centres Territorials - Centre del Vallès" href="/ca/thm25/escoles-i-centres-territorials.htm">Centre del Vallès</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Escoles i Centres Territorials - Centre d'Osona" href="/ca/thm26/escoles-i-centres-territorials.htm">Centre d'Osona</a></span>		</li>
+	</ul>
+		</li>
+		<li  class="menu-nivell1">
+<span><a title="MAE Centre de Documentació" href="/ca/centre-documentacio-mae.htm">MAE Centre de Documentació</a></span>		</li>
+		<li  class="menu-nivell1">
+<span><a title="Notícies i Agenda" href="/ca/actualitat.htm">Notícies i Agenda</a></span>	<ul>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Notícies i Agenda - Notícies" href="/ca/actualitat/noticies.htm">Notícies</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Notícies i Agenda - Agenda" href="/ca/actualitat/agenda.htm">Agenda</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Notícies i Agenda - Cartellera IT" href="/ca/actualitat/cartellera-it.htm">Cartellera IT</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Notícies i Agenda - Butlletí digital" href="/ca/newsletter.php?id_menu=115">Butlletí digital</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Notícies i Agenda - Hemeroteca digital" href="/ca/actualitat/hemeroteca-digital.htm">Hemeroteca digital</a></span>		</li>
+	</ul>
+		</li>
+		<li  class="menu-nivell1">
+<span><a title="Directori de Contactes i Espais" href="/ca/directori-espais.htm">Directori de Contactes i Espais</a></span>	<ul>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Professorat" href="/ca/directori-espais/professorat.htm">Professorat</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Col·lectiu d'instrumentistes" href="/ca/directori-espais/collectiu-d-instrumentistes.htm">Col·lectiu d'instrumentistes</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Departaments" href="/ca/directori-espais/departaments.htm">Departaments</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Centres de treball" href="/ca/directori-espais/centres-de-treball.htm">Centres de treball</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Escoles" href="/ca/directori-espais/escoles-i-centres-territorials.htm">Escoles</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Espais de lloguer" href="/ca/directori-espais/espais-de-lloguer.htm">Espais de lloguer</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Teatres" href="/ca/directori-espais/teatres.htm">Teatres</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Biblioteques" href="/ca/directori-espais/biblioteques.htm">Biblioteques</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Òrgans de govern" href="/ca/directori-espais/organs-de-govern.htm">Òrgans de govern</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Espais d'exposició" href="/ca/pl66/directori-espais/espais-d-exposicio/id242/sala-d-exposicions-de-l-institut-del-teatre.htm" target="_blank">Espais d'exposició</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Museu de les Arts Escèniques" href="/ca/directori-espais/museu-de-les-arts-esceniques.htm">Museu de les Arts Escèniques</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Secretaria acadèmica general" href="/ca/pl70/directori-espais/secretaria-academica-general/id240/secretaria-academica-general.htm">Secretaria acadèmica general</a></span>		</li>
+		<li >
+<span><i class=" fa fa-caret-right"> </i><a title="Directori de Contactes i Espais - Restauració" href="/ca/directori-espais/restauracio.htm">Restauració</a></span>		</li>
+	</ul>
+		</li>
+	</ul>
+				</div>
+				<script type="text/javascript">
+//<![CDATA[
+	$(document).ready(function() {
+		if (hasCSS() && tipus_css!='no') {
+			var peus = $('#peu-menus').masonry({
+				itemSelector: 'li.menu-nivell1'
+    		});
+		}
+	});
+//]]>
+</script>
+				<div id="peu-inferior">
+					<div id="peu-info">
+										</div>
+					
+					<ul id="peu-links">
+					<li><a href="/ca/lnk11/contactar2.htm" title="Contactar" accesskey="S">Contactar</a></li>
+<li><a href="/ca/lnk4/mapaweb.php" title="Mapa Web">Mapa Web</a></li>
+<li><a href="/ca/lnk8/accessibilitat.htm" title="Accessibilitat">Accessibilitat</a></li>
+<li><a href="/ca/lnk19/avis-legal.htm" title="Avis Legal">Avis Legal</a></li>
+<li><a href="/ca/lnk20/proteccio-de-dades.htm" title="Protecció de dades">Protecció de dades</a></li>
+<li><a href="/ca/lnk21/credits.htm" title="Crèdits">Crèdits</a></li>
+<li class="ultim"><a href="http://www.institutdelteatre.cat/ca/institut-del-teatre/centres-de-treball.htm" title="On som">On som</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Fi peu -->
+		
+	</div>
+	<!-- /pagina -->
+</body>
+</html>

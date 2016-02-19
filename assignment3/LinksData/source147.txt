@@ -1,0 +1,454 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" itemscope itemtype='http://schema.org/Thing'>
+<head id="ctl00_Head1"><title>
+KABAR_KAPUAS Twitter & Photos on Twiends
+</title><meta http-equiv="X-UA-Compatible" content="IE=10" />
+<script src="//d2wy8f7a9ursnm.cloudfront.net/bugsnag-2.min.js" data-apikey="0936be5ef900c8dc85a86aa3020f8c69"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+ga('create','UA-11158380-3','twiends.com');ga('set','dimension1','guest');ga('send','event','Page','started',{nonInteraction:true});
+
+Date.now=Date.now||function(){return +new Date;};
+if (top != self) top.location = location;$$up=false;$$lup=false;$$st=Date.now();$$loggedin=false,$$cleanurl="/kabar_kapuas";    
+function $$log(d){if (window.console){if(console.log){var t=Date.now()-$$st;console.log(t,d);}}};    
+function $$async(u){$$log('fetch:'+u);var d=document,t='script';var s=d.getElementsByTagName(t)[0],a=d.createElement(t);a.src=u;a.async=true;a.type='text/java'+t;s.parentNode.insertBefore(a,s);};
+function $$crash(){var g=document.getElementById('AppLoading');if(g){g.style.display='block';g.innerHTML="Well this is emabarrasing, this page failed to load correctly. Please reload it...";}ga('send','exception',{'exDescription':'$$ Missing'});};
+function $$epic(c){c.onerror='';c.src='/images/defaultpicture.png';};
+$$log('parsing start');
+$dn='//d1vnwl7vxekawd.cloudfront.net/ver/';$$async($dn+'8/final.light.js');$$async($dn+'3/final.fastclick.min.js');
+
+function $$loadPlugin(f){};
+$$={ready: function(f){$$crash();}};
+//OPST //OPSI  
+</script>
+<style>
+@font-face {font-family:'MuseoFast';
+src:url('/fonts/m9-fast.eot');
+src:url('/fonts/m9-fast.eot?#iefix') format('embedded-opentype'),url('/fonts/m9-fast.woff') format('woff'),url('/fonts/m9-fast.ttf') format('truetype');
+font-weight:900;font-style:normal;}
+@font-face {font-family:'MuseoRest';
+src:url('/fonts/m9-rest.eot');
+src:url('/fonts/m9-rest.eot?#iefix') format('embedded-opentype'),url('/fonts/m9-rest.woff') format('woff'),url('/fonts/m9-rest.ttf') format('truetype');
+font-weight: 900;font-style: normal;}
+</style>
+
+<link href='//d1vnwl7vxekawd.cloudfront.net/ver/272/final.min.css' rel='stylesheet' type='text/css' /><script src='//d1vnwl7vxekawd.cloudfront.net/ver/220/final.jquery.min.js' type='text/javascript'></script><script src='//d1vnwl7vxekawd.cloudfront.net/ver/265/final.app.min.js' type='text/javascript'></script><script>
+$t={"ContentItem__content_v1":"<div id='${cross_network_id}' class='contentUpdate tile' style='width:260px;'> {{if actions}} {{if actions.ribbon_style}} <div class='ribbon ${actions.ribbon_style}'> ${actions.ribbon_text} </div> {{/if}} {{/if}} <div class='topNames'> <a class='thumb' href='${author_url}' class='name' target='_blank' rel='nofollow'> <img ${src}='${author_picture}' onerror='$$epic(this)'/> </a> <a href='${author_url}' class='name' target='_blank' rel='nofollow'>${author_name}</a> <a href='${author_url}' class='username' target='_blank' rel='nofollow'>@${author_username}</a> </div> {{if actions}} <div class='topActions' {{if actions.ribbon_style}}style='top:7px; right:6px;'{{/if}}> {{if actions.can_approve}} <i onclick='if($$up) return $$.wall.approve(this, \"${content_id}\")' class='icon approve {{if can_share}}dim{{/if}}' title='Add this to your wall'></i> {{/if}} {{if actions.can_remove}} <i onclick='if($$up) return $$.wall.remove(this, \"${content_id}\")' class='icon remove {{if can_share}}dim{{/if}}' title='Remove this'></i> {{/if}} {{if actions.can_add}} <i onclick='if($$up) return $$.wall.add(this, \"${cross_network_id}\", \"${parent_id}\")' class='icon addmanual' title='Add this to your wall'></i> {{/if}} </div> {{/if}} {{if picture}} {{if picture_height}} {{if embed_url}} <a id='${cross_network_id}-pic' href='${embed_url}' class='picture' target='_blank' rel='nofollow' style='height:${picture_height}px;' onclick='if($$up)return $$.content.embed(\"${embed_url}\",${embed_width},${embed_height})'> <img ${src}='${picture}'/> <div class='playable_icon'></div> </a> {{else}} <a id='${cross_network_id}-pic' href='${url}' class='picture' target='_blank' rel='nofollow' style='height:${picture_height}px;'> <img ${src}='${picture}'/> <span class='pinit SVG hid' data-svg='pint' data-svg-fallback='/images/fallback/pint_white.png' onclick='if($$up)$$.social.pin(this, event)'></span> </a> {{/if}} {{else}} {{if embed_url}} <a id='${cross_network_id}-pic' href='${embed_url}' class='picture loading' target='_blank' rel='nofollow' onclick='if($$up)return $$.content.embed(\"${embed_url}\",${embed_width},${embed_height})'> <img ${src}='${picture}' onload='if(window.$ceup) $ce.imageLoaded(\"${cross_network_id}-pic\",\"${content_id}\", this);' onError='if(window.$ceup) $ce.imageLoaded(\"${cross_network_id}-pic\",\"\", this);'/> <div class='playable_icon'></div> </a> {{else}} <a id='${cross_network_id}-pic' href='${url}' class='picture loading' target='_blank' rel='nofollow'> <img ${src}='${picture}' onload='if(window.$ceup) $ce.imageLoaded(\"${cross_network_id}-pic\",\"${content_id}\", this);' onError='if(window.$ceup) $ce.imageLoaded(\"${cross_network_id}-pic\",\"\", this);'/> <span class='pinit SVG hid' data-svg='pint' data-svg-fallback='/images/fallback/pint_white.png' onclick='if($$up)$$.social.pin(this, event)'></span> </a> {{/if}} {{/if}} {{/if}} <div class='text'>{{html text}}</div> {{if more_text}} <a href='${more_url}' class='${more_type}' target='_blank' rel='nofollow'> ${more_text}</a> {{/if}} <div class='foot'> <a href='${network_site}' class='icon ${network}' target='_blank' rel='nofollow'>&nbsp;</a> <a href='${url}' class='time' target='_blank' rel='nofollow'>${date_minimal}</a> <span class='actions'> {{if can_share}} <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=${network_id}' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=${network_id}' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=${network_id}' title='Favorite this tweet'></a> {{/if}} </span> </div> </div>",
+"WallTitle__wall_v1":"<h1 class='XXL dark FullFont'>${name}</h1>"};
+</script>
+
+
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','//connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1561444980841302');fbq('track', "PageView");</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1561444980841302&ev=PageView&noscript=1"/></noscript> 
+
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimum-scale=1,maximum-scale=1" /><meta http-equiv="Cache-Control" content="no-cache" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="expires" content="FRI, 13 APR 1999 01:00:00 GMT" /><meta property="fb:admins" content="632586362" /><meta property="fb:app_id" content="115417498477853" /><link href="https://plus.google.com/114962659483174166684" rel="publisher" /><link rel='shortcut icon' href='//d1vnwl7vxekawd.cloudfront.net/favicon.ico' /><meta name='description' content="See the latest updates from KABAR_KAPUAS in one place." /> <meta property='og:title' content="Just stumbled across this cool page for KABAR_KAPUAS" /> <meta property='og:type' content='article' /> <meta property='og:url' content="http://twiends.com/kabar_kapuas" /> <meta property='og:image' content="http://twiends.com/images/t_square.png" /> <meta property='og:site_name' content='Twiends' /> <meta property='og:description' content="See their social updates on twiends" /> <meta itemprop='name' content="Just stumbled across this cool page for KABAR_KAPUAS" /> <meta itemprop='description' content="See their social updates on twiends" /> <meta itemprop='image' content="http://twiends.com/images/t_square.png" /><meta itemprop='url' content="http://twiends.com/kabar_kapuas" /> <meta name='twitter:card' content='summary' /> <meta name='twitter:site' content='@twiends' /> <meta  name='twitter:title' content="Just stumbled across this cool page for KABAR_KAPUAS" /> <meta name='twitter:image' content="http://twiends.com/images/t_square.png" /> <meta name='twitter:description' content="See their social updates on twiends" /> <meta name='twitter:creator' content='@davesumter' /> <style type="text/css"> body, .cv-main { background: #f7f7f7 url(//d1vnwl7vxekawd.cloudfront.net/images/noise.png) repeat;; }</style>
+
+ <meta name="robots" content="noindex, follow" />  <link href="http://twiends.com/kabar_kapuas" rel="canonical" /> 
+
+  
+
+<script>
+// stub
+    $ce = { div: 'masonary', tile: '.tile', blanker: function (c) { document.getElementById($ce.div).className = c; } }
+$ceup = false;
+</script>
+<script src="/ver/17/final.masonry.min.js"></script>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+
+    
+        (function () {       
+
+            $$.ready(function () {
+
+                $$.wall.init('KABAR_KAPUAS',
+                    '2545245', '0', 'all', '1/6/2016 6:11:25 PM', '1/6/2016 1:20:42 PM');
+
+                $(".picture.loading img").each(function () {
+                    if (this.complete && this.src!="") $(this).load();
+                });
+
+                
+                        $$.wall.refresh(500);                          
+                    
+            });
+                        
+
+        })();
+
+   
+      
+</script>
+
+</head>
+<body id="body">
+
+
+
+<div class="cv-header"><div class="cv-inner padLR">
+<div class="expander rim2010" onclick="return $$light.open('left')"><div></div><div></div><div></div></div>
+
+<div class="items">
+<a href="/" class="homeicon SVG break750 rim2010 " data-svg="home" data-svg-fallback="/images/fallback/home_grey.png"></a>
+<a href="/" class="break750 rim2010 ">Free</a>
+<a href="/feature" class="break750 rim2010 ">Paid</a>
+<a href="/learn" class="break850 rim2010 ">Learn</a>
+<a href="/all" class="break750 rim2010 ">Browse</a>
+
+</div>
+<i class="advert rim2010" onclick="return $$light.open('right', 0)"><span class="tinylogo"></span>Grow <span class="break450">Your</span> <span class="break360">Twitter</span><span class="break550"> Free</span><span class="right SVG" data-svg="right"></span></i>
+
+
+</div></div>
+
+
+<div class="cv-sidepanel cv-left"><div id="cv-inner-left" class="cv-inner">
+<div class="nav-top"></div>
+<div class="nav-style">
+
+<a class="break750" href="/home">Home</a>
+<a class="break750" href="/all">Browse</a>
+
+<a class="break850" href="/learn">Learn</a>
+
+<a class="break750" href="/feature">Feature Yourself</a>
+<a href="/help">Help</a>
+<a href="/more">More</a>
+<a href="http://twiends.com/oauth/twitter">Twitter Sign in</a>
+<a href="/login">Login</a>
+ 
+
+<div class="cv-toc nav-style-small">
+
+</div>
+
+</div> 
+<div class="nav-bottom"></div>
+</div></div>
+
+   
+<div class="cv-sidepanel cv-right"><div id="cv-inner-right" class="cv-inner">
+<a href="/" class="logo"></a>
+            
+<div class="promo">
+<div class="title">Want To Grow Your Twitter?</div><div class="desc">We help other people find and follow you on Twitter.</div>
+<a class="login" href="http://twiends.com/oauth/twitter">
+<span class="icn SVG" data-svg="twit"></span>Sign in free</a>
+<div class="benefits"><div class="key">Key Info:</div>
+<div>Started in 2009</div><div>Over 4 million signups</div><div>Country targeting provided</div><div>We never auto tweet to your timeline</div><div>We never auto follow others</div><div>We actively moderate our community</div>
+</div></div>
+
+<div class="cv-socpanel">
+
+<div class="spacer"></div><div class="title">Please Share</div>
+
+<i class="socbox twit SVG" data-svg="twit" data-svg-fallback="/images/fallback/twit_white.png" onclick="return $$light.share('550','260','twitter');"></i>
+<i class="socbox fb SVG" data-svg="fb" data-svg-fallback="/images/fallback/fb_white.png" onclick="return $$light.share('580','580','facebook')"></i>
+<i class="socbox goog SVG" data-svg="goog" data-svg-fallback="/images/fallback/goog_white.png" onclick="return $$light.share('520','500','google')"></i>
+<i class="socbox linkd SVG" data-svg="link" data-svg-fallback="/images/fallback/link_white.png" onclick="return $$light.share('550','550','linkedin')"></i>
+<i class="socbox pint SVG" data-svg="pint" data-svg-fallback="/images/fallback/pint_white.png" onclick="return $$light.share('750','570','pinterest')"></i>
+<i class="socbox buff SVG" data-svg="buff" data-svg-fallback="/images/fallback/buff_white.png" onclick="return $$light.share('775','550','buffer')"></i>
+</div>
+<div class="empty-bottom"></div>
+</div></div>
+
+
+<noscript><div class="showstopper">In order to use twiends you'll need to enable JavaScript - <a href="http://www.enable-javascript.com/" target="_blank">more info</a>.</div></noscript>
+<div id="NoMediaQueries" class="showstopper">Please upgrade your browser to make full use of twiends. &nbsp;<a href="//google.com/chrome" target="_blank">chrome</a></div>
+<div id="AppLoading"></div>
+<div class="cv-xwrapper"><div class="cv-main"><div class="cv-inner">
+<div id="SiteMessage" class="wallRibbon fixed txtGrey" style="display:none;z-index:20;">
+<span class="text"></span>
+<a id="SiteMessageMore" class='link' href=''></a>
+<i class='link' onclick="if($$up)$$.msg.hide()">close</i>
+</div>
+
+
+
+       
+            <div id="wall" class=""   onclick="if($$up) $$.wall.ga_click();">    
+               
+
+                              
+                <div>
+                                                          
+                    
+
+                    
+                    
+
+                    <div class="wall_title padUpBig padDownSmall textCenter copy">                                                                            
+                        <h1 class='XXL dark FullFont'>KABAR_KAPUAS</h1>
+                    </div>
+
+                    <div class="padDownMedium">               
+
+
+                       
+                                  
+                        <div class="page_menu">
+                            <div class="page_options higher">                              
+                                   
+                                                                
+                                        
+                                            <div id="Filters" class="page_options_group">
+                                                    <a id="Filter_all" href="#" onclick="if($$up) return $$.wall.changeOptions('All',this)" class='page_option selected' style="margin-left:0;">All</a>                        
+                                                    <a id="Filter_photos" href="#" onclick="if($$up) return $$.wall.changeOptions('Photos',this)" class='page_option '>Photos</a>
+                                                 
+                                                            <a href="https:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS" target="_blank" class='page_option' rel="nofollow" onclick="if($$up)$$.wall.ga_redirect();">
+                                                                Twitter.com
+                                                                <img src="//d1vnwl7vxekawd.cloudfront.net/images/icons/enter.png" style="opacity: 0.4;vertical-align: bottom;height: 20px;margin-bottom: 2px;" />
+                                                            </a>
+                                                        
+                                            </div>  
+                                            
+
+                             </div> 
+                        </div> 
+
+              
+                    </div>                                     
+                </div> 
+
+
+                <div id="EmptyMessage" class="padDownMedium broad_message" style='display:none;'>
+
+
+                    
+                        This page has no updates.
+                    
+                </div>
+      
+                
+
+                
+                <div id="preload" class="loading" style="">
+                    <div id="masonary"> 
+
+                        <div class="tile" style="width:285px;">       
+                            
+                            <div class="otherUpdate">
+                                                                                                     
+                                 
+                          
+
+                                 <a class='profile_wall' href='https:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS' target='_blank' rel='nofollow'> <img class='pic' src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> <img class='icon' src='/images/icons/twitter_overlay16.png' /> </a>
+                                            <span style="font-size:13px;display:inline-block;vertical-align:middle;color:#777;padding: 5px;">
+                                            
+                                                    <img src="//d1vnwl7vxekawd.cloudfront.net/images/flags/100.gif" style="" />
+                                                    1,017 followers
+                                            </span>
+                                                
+
+                                        <div class="" style="margin:5px 0 2px;">
+                                            
+                                        </div> 
+                        
+                                    
+
+                            </div>
+
+
+                            
+
+
+
+    <div id="BannerLanding" class="creditDisplay hidemobile" style="margin-bottom: 20px;">
+		
+
+
+        <div class="LL copy creditsRemaining promo" onclick="window.location = '/';">
+            Want to Grow Your <br />Social Media, Free? 
+     
+            <div style="padding-top:10px;">
+                <a href="/">Find out how!</a>
+            </div> 
+
+        </div>
+        
+	</div>
+
+
+
+
+
+                            
+                           
+                        
+                        </div>  
+
+                        <div id='s1-684799447486705666' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>TPS Sudah Tak Ada: Kepada Yth Bapak bupati Tala. Dulu di sekitar Permata Jingga ada TPS, tapi sekarang sudah d... <a href='https://t.co/PXsNT1HZnT' target='_blank' rel='nofollow'>bit.ly/1mCrfRb</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684799447486705666' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684799447486705666' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684799447486705666' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684799447486705666' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684789997531078656' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Tolong Disidak: Kepada Yth Dinas Kesehatan Kabupaten Banjar. Tolong disidak Puskesmas Sungai Tabuk, karena peg... <a href='https://t.co/6UWKnVUwVB' target='_blank' rel='nofollow'>bit.ly/1OOnSg3</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684789997531078656' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684789997531078656' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684789997531078656' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684789997531078656' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684789996381839360' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Pasutri Jual Pil: Kepada pihak yang berwajib. Mohon ditindak Pasutri penjual pil Zenith yang bernama S dan R d... <a href='https://t.co/AFyXbgdUxQ' target='_blank' rel='nofollow'>bit.ly/1OOnQVi</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684789996381839360' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684789996381839360' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684789996381839360' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684789996381839360' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684789995098386432' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Ketegangan Baru Arab Saudi-Iran: Putus sambung, putus lagi sambung lagi. Begitulah gambaran hubungan bilateral... <a href='https://t.co/J2tnA8NnRw' target='_blank' rel='nofollow'>bit.ly/1mClsuR</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684789995098386432' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684789995098386432' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684789995098386432' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684789995098386432' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684789993680732160' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Bersaing atau Tersingkir: MULAI awal tahun ini, Indonesia resmi menerapkan Masyarakat Ekonomi ASEAN (MEA). Seb... <a href='https://t.co/EcyzYZlRAh' target='_blank' rel='nofollow'>bit.ly/1mClsLo</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684789993680732160' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684789993680732160' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684789993680732160' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684789993680732160' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684789992850243584' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Fitnah: Bini Garbus rupanya sudah hamil tuha dan ujar bidan tinggal mahadang harinya haja lagi. Rupanya Garbus... <a href='https://t.co/7RGQbEuLIj' target='_blank' rel='nofollow'>bit.ly/1mClqmM</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684789992850243584' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684789992850243584' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684789992850243584' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684789992850243584' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684773896998895616' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Mau Beli Mobil? Lihat Dulu Daftar Terbaru Harga SUV Januari Ini: Pada awal 2016 ini, dua pabrikan Ford dan Mit... <a href='https://t.co/aFdHfj5DYd' target='_blank' rel='nofollow'>bit.ly/1mCcvlb</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684773896998895616' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684773896998895616' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684773896998895616' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684773896998895616' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684773896193589249' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Mantap! Bank Mandiri Salurkan KUR Rp 3,5 Triliun: Jumlah penyaluran tersebut melampaui target yang diberikan k... <a href='https://t.co/Rbfmk7eVlH' target='_blank' rel='nofollow'>bit.ly/1mCcvll</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684773896193589249' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684773896193589249' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684773896193589249' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684773896193589249' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684765917713072128' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Ternyata, Keseringan Lihat Film Porno Picu Perilaku Kasar Saat Bercinta: Namun, Anda harus hati-hati. Pasalnya... <a href='https://t.co/GZssCfv0D3' target='_blank' rel='nofollow'>bit.ly/1Ri0FcU</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684765917713072128' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684765917713072128' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684765917713072128' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684765917713072128' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684765916983242752' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Ahok Ganti Dirut PT Transjakarta: Tugasnya Monopoli Rute, Enggak Usah Nyari Penumpang: Sebagai penggantinya, B... <a href='https://t.co/uTD7Uquryb' target='_blank' rel='nofollow'>bit.ly/1kM0o37</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684765916983242752' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684765916983242752' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684765916983242752' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684765916983242752' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684765916161126401' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Mungkinkan Messi dan Ronaldo Layak Berbagi Gelar Ballon d'Or?: Selama empat tahun terakhir, tiga besar calon p... <a href='https://t.co/oclaYZKr9y' target='_blank' rel='nofollow'>bit.ly/1Ri0HkY</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684765916161126401' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684765916161126401' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684765916161126401' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684765916161126401' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684758522840547328' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Barcelona Gagal dan Real Madrid Imbang: Susunan Pemain Terbaik Pekan Ke-18 La Liga: Keberhasilan Atletico tida... <a href='https://t.co/GC9SAxvyoB' target='_blank' rel='nofollow'>bit.ly/1VIGPX5</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684758522840547328' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684758522840547328' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684758522840547328' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684758522840547328' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684758522031034368' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Orang Marabahan yang Inginkan Goyangan Cita Citata: Menurut Wawah, panggilan Wahyuni, masyarakat Batola, mulai... <a href='https://t.co/QicGeJOPvr' target='_blank' rel='nofollow'>bit.ly/1Z8EV7t</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684758522031034368' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684758522031034368' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684758522031034368' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684758522031034368' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684758521057939457' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Pengendara Misterius Sayat Paha dan Lengan Mahasiswi PGSD Unlam dengan Pisau: Menurut Siti, luka itu akibat ul... <a href='https://t.co/yJlI9tQQP3' target='_blank' rel='nofollow'>bit.ly/1Z8EUk5</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684758521057939457' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684758521057939457' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684758521057939457' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684758521057939457' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684750348175544320' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Dua Pekan Buron, Polisi Gadungan 'Mesum' Ini Dibekuk di Jalan Soetoyo: Dedy diamankan oleh jajaran gabungan Sa... <a href='https://t.co/R0SwFLppi3' target='_blank' rel='nofollow'>bit.ly/1ONWLSc</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684750348175544320' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684750348175544320' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684750348175544320' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684750348175544320' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684750347361886208' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Ini Ancaman Kapolda: Ganggu Pilgub Kalteng Berhadapan dengan Polisi : "Kami tidak main-main, akan bertindak t... <a href='https://t.co/A9rVET59il' target='_blank' rel='nofollow'>bit.ly/1mBZ6K8</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684750347361886208' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684750347361886208' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684750347361886208' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684750347361886208' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684742222894399489' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Dilaksanakan 27 Januari, Dana Pilgub Kalteng Ditambah Rp 32,3 Miliar  : Hal ini sudah secara resmi disampaika... <a href='https://t.co/8rNsegl62A' target='_blank' rel='nofollow'>bit.ly/1VIs1I6</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684742222894399489' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684742222894399489' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684742222894399489' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684742222894399489' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684734176361230336' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Geger Mayat di Guest House Lapan Lapan, Rajuddin Ngamar Bersama Perempuan Gemuk: Sementara pegawai Guest House... <a href='https://t.co/q8qbN9LmgQ' target='_blank' rel='nofollow'>bit.ly/1VIkUzl</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684734176361230336' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684734176361230336' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684734176361230336' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684734176361230336' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684727020513697792' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Kalau Ada Tanda Ini, Berarti Sudah Waktunya Ibu Hamil Tua Pergi ke RS: Ketika kehamilan memasuki masa-masa akh... <a href='https://t.co/GI805qzCpA' target='_blank' rel='nofollow'>bit.ly/1ONHoZW</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684727020513697792' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684727020513697792' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684727020513697792' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684727020513697792' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684726702354763776' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Kebiasaan Seks Lewat 'Jalan Belakang', Benarkah Merusak Otot Dubur?: Untuk sekadar variasi, sebagian pasangan ... <a href='https://t.co/MgvzKicPgD' target='_blank' rel='nofollow'>bit.ly/1VI9OKy</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684726702354763776' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684726702354763776' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684726702354763776' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684726702354763776' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684726701297811456' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Banyak Jalan Kaki dan Jongkok Bisa Percepat Bayi 'Turun'?: Beredar kepercayaan di masyarakat yang mengatakan j... <a href='https://t.co/jO8C7POUrx' target='_blank' rel='nofollow'>bit.ly/1VI9NpX</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684726701297811456' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684726701297811456' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684726701297811456' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684726701297811456' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684726286242086912' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Hebat Kiai Ini! Cukup Disamburnya Bocah Nangis Cari Orangtuanya Pun Jinak: Seperti yang terlihat di SD Tahfizu... <a href='https://t.co/2WIRyeUaa2' target='_blank' rel='nofollow'>bit.ly/1kLA8pC</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684726286242086912' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684726286242086912' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684726286242086912' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684726286242086912' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684726285168320512' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Peraturan Bersama Empat Menteri Mandek, Konflik Agraria Tak Kunjung Selesai: Di bawah pemerintahan Joko Widodo... <a href='https://t.co/CtlUC7neK3' target='_blank' rel='nofollow'>bit.ly/1kLAahj</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684726285168320512' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684726285168320512' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684726285168320512' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684726285168320512' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684726284165853184' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Tujuh Hari Kritis, TKI di Taiwan Itu Akhirnya Meninggal Dunia: Emi dirawat sejak 29 Desember 2015 lalu dengan ... <a href='https://t.co/YNr6nBriCa' target='_blank' rel='nofollow'>bit.ly/1RhDY8P</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684726284165853184' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684726284165853184' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684726284165853184' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684726284165853184' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-684726283436036097' class='contentUpdate tile' style='width:260px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'> <img waiting-src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='name' target='_blank' rel='nofollow'>KABAR_KAPUAS</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=1373527944' class='username' target='_blank' rel='nofollow'>@KABAR_KAPUAS</a> </div>   <div class='text'>Istri Rajuddin Bingung, Katanya: "Kenapa Suamiku Kok Ada di Hotel": Dia adalah Fitriani yang tak lain adalah i... <a href='https://t.co/8f2NwA26cU' target='_blank' rel='nofollow'>bit.ly/1RhDYpj</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;KABAR_KAPUAS&#x2F;status&#x2F;684726283436036097' class='time' target='_blank' rel='nofollow'>6 Jan</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=684726283436036097' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=684726283436036097' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=684726283436036097' title='Favorite this tweet'></a>  </span> </div> </div>
+                                    <div id="BSA_Extra_Tile" class="tile" style="height:270px;">
+                                        
+
+    <div id="BSA">
+        <div id="bsap_1288312" style="margin: 0 0 0 1px;overflow: hidden;" 
+            class="bsarocks bsap_c6314b2d84fc35f906c3ed96071d5035"></div>
+
+        
+    </div>
+
+    <script>
+        (function () {
+            $$async('//s3.buysellads.com/ac/bsa.js');
+        })();
+    </script>
+
+
+                                    </div>
+                                
+                    </div>
+                </div>
+                 <div style="clear:both;">&nbsp;</div>   
+
+                <script>
+                    (function () {                      
+                        if (window.$ce) $ce.blanker("blanked");                                                
+                    })();             
+                </script>
+            </div>   
+
+        
+        
+<div class="cv-footer"><div class="padLR">
+<div class="links">
+<a href="/ethics">Ethics</a><a href="/rules">Rules</a><a href="/privacy">Privacy</a><a href="/cookies">Cookies</a><a href="/terms">Terms</a><a href="/help">Help</a>
+
+<a href="/contact">Contact Us</a>
+
+</div>
+<div class="disclaimers">Twiends uses the Instagram&trade; & Twitter&trade; API's, displays their logo's & trademarks, and is not endorsed or certified by them. These items remain their property.</div> 
+
+</div></div>
+</div></div></div>
+
+<div id="cv-mask" class="cv-mask" onclick="return $$light.close();"></div>
+<div class="cv-socside hidden rigid"> 
+<span class="socbox total "><span class="num">Share</span><span class="label"></span></span>
+<i class="socbox twit SVG" data-svg="twit" data-svg-fallback="/images/fallback/twit_white.png" onclick="return $$light.share('550','260','twitter');"></i>
+<i class="socbox fb SVG" data-svg="fb" data-svg-fallback="/images/fallback/fb_white.png" onclick="return $$light.share('580','580','facebook')"></i>
+<i class="socbox goog SVG" data-svg="goog" data-svg-fallback="/images/fallback/goog_white.png" onclick="return $$light.share('520','500','google')"></i>
+<i class="socbox linkd SVG" data-svg="link" data-svg-fallback="/images/fallback/link_white.png" onclick="return $$light.share('550','550','linkedin')"></i>
+<i class="socbox pint SVG" data-svg="pint" data-svg-fallback="/images/fallback/pint_white.png" onclick="return $$light.share('750','570','pinterest')"></i>
+<i class="socbox buff SVG" data-svg="buff" data-svg-fallback="/images/fallback/buff_white.png" onclick="return $$light.share('775','550','buffer')"></i>
+</div>
+<div class="cv-socbottom hidden rigid" onclick="return $$light.open('right',1)"><div class="cv-inner">
+<span class="box goog SVG" data-svg="goog" data-svg-fallback="/images/fallback/goog_white.png"></span>
+<span class="box twit SVG" data-svg="twit" data-svg-fallback="/images/fallback/twit_white.png"></span>
+<span class="box fb SVG" data-svg="fb" data-svg-fallback="/images/fallback/fb_white.png"></span>
+<span class="total ">Share<span class="right SVG" data-svg="right"></span></span>
+</div></div>
+<script>(function(){var u="http%3A%2F%2Ftwiends.com%2Fkabar_kapuas",t="Just%20stumbled%20across%20this%20cool%20page%20for%20KABAR_KAPUAS";
+$$shares = {twitter:u+"&text="+t+"&via=twiends&related=davesumter",facebook:u,google:u,linkedin:u+">&url=mini=true&title="+t+"&source=twiends",
+pinterest:u+"&title="+t+"&media=http%3A%2F%2Ftwiends.com%2Fimages%2Ft_square.png&is_video=false&description=See%20their%20social%20updates%20on%20twiends",buffer:u + "&text="+t+"&picture=http%3A%2F%2Ftwiends.com%2Fimages%2Ft_square.png&via=twiends"};
+})();</script>
+
+ 
+
+
+   
+                <style>
+                    .right_arrow_pop1, .right_arrow_pop2 {
+                        height: 12px;
+                        display: inline-block;
+                    }
+                    .right_arrow_pop1 svg path {
+                        fill: #fff;
+                    } 
+                   
+                    .right_arrow_pop2 svg path {
+                        fill: #3b2316;
+                    } 
+                    .space123{
+                        max-width: 240px;
+                        width: 100%;
+                        margin:5px 0 5px;
+                        font-size:20px;
+		                padding: 12px 11px 10px 15px;
+		                -webkit-border-radius: 30px;
+                        -moz-border-radius: 30px;
+                        -ms-border-radius: 30px;
+                        -o-border-radius: 30px;
+                        border-radius: 30px;
+		                vertical-align: middle;
+                    }           
+                </style>
+                <div id="PopupPromo" class="masked_popup copy" style="display: block;">
+                    <div class="mask" onclick='$("#PopupPromo").hide();return false;'></div>
+                    <div class="popout">
+
+                        <div class="pop" style="padding-bottom: 20px;">                                            
+                            <div class="line1" style="">
+                                
+                                            <img class='thumb' src='&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;3721871289&#x2F;883467654ca29b2fd5acc1335da9f205_normal.jpeg' onerror='$$epic(this)'/>
+                                        
+                                 Hi, this page is for KABAR_KAPUAS
+                            </div>
+
+                            <div class="line2">
+
+                                Are you looking for their Twitter page?      
+                                Or would you like to view all their updates here?                        
+
+                            </div>
+                            <div class="line2">
+                             
+                                        <a class='txtButton txtBlueBird space123' href="https://twitter.com/KABAR_KAPUAS" onclick="if($$up){$$.popup.hide();$$.wall.ga_redirect();}" target="_blank" rel="nofollow">                            
+                                            Go to their twitter
+                                            <span class="SVG right_arrow_pop1" data-svg="right"></span> 
+                                        </a>
+                                                     
+                            
+                                <a class='txtButton txtGreen space123' onclick="if($$up)$$.popup.hide();return false;" href="#">                                                
+                                    View this page
+                                </a>
+                            </div>    
+                        </div>
+                       
+                    </div>
+                </div>
+
+                
+
+
+   
+<div id="ContentPopup" class="masked_popup copy">
+    <div class="mask" onclick='$(this).parent().hide();$("#ContentPopupEmbed").html("");return false;'></div>
+    <div class="popout">
+        <div id="ContentPopupEmbed" class="content_embed">
+        </div>
+    </div>
+</div>
+
+
+
+ 
+
+
+
+    <script>   
+    (function () {
+     if (window.$ce) { if($ce.startEngine) $ce.startEngine(); }
+     if(!window.$ceup){
+      if (window.$ce) $ce.blanker("");
+      $$crash();
+     }
+    })(); 
+    </script>
+
+
+
+<script>
+(function(){var l='320',w=Math.max(document.documentElement.clientWidth,window.innerWidth||0);if(w>=655)l='655';if(w>=965)l='965';if(w>=1280)l='1280';ga('set','dimension4',l);ga('set', 'dimension2', 'FloatingOnly'); ga('set', 'dimension3', 'None_Quick');ga('send', 'pageview');})();
+</script>
+
+
+<div class="conv">   
+<a href="/crawling_control"></a>
+
+</div>
+
+
+</body></html>

@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<title>朝日放送｜ハピネスチャージプリキュア！｜にがおえ</title>
+<meta name="description" content="ABC朝日放送「ハピネスチャージプリキュア！」番組公式サイトでは、皆さんが描いた「ハピネスチャージプリキュア！」の似顔絵を募集しています♪官製はがきに描いたら、どんどん応募してね！！"> 
+<meta name="keywords" content="ハピネスチャージ,プリキュア,番組公式,似顔絵,イラスト,投稿,ABC,朝日放送"> 
+<meta property="og:image" content="http://asahi.co.jp/precure/happiness/img/og_img.jpg">
+
+<link rel="alternate" media="handheld" href="http://m.asahi.jp/red/seourl_charge.cgi">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="http://sp.asahi.jp/program/precurecharge/index.php">
+<link rel="stylesheet" type="text/css" media="all" href="../css/set.css" title="style importer">
+
+<!-- [[[ smartcheck ]]] -->
+<script type="text/javascript" src="/smp/common/js/util.js"></script>
+<script type="text/javascript" src="/smp/common/js/checker_light.js?cookie=gTopCheck&url=http://sp.asahi.jp/program/precurecharge/index.php"></script>
+
+<script type="text/javascript" src="../common/js/jquery.min.js"></script>
+<script type="text/Javascript" src="../common/js/common.js"></script>
+<script type="text/Javascript" src="../common/js/jquery.popupwindow.js"></script>
+
+<!-- [[[ GA ]]] -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11133067-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+
+<body id="enjoyment" class="pages nigaoe">
+
+<!--▼ABC COMMON HEADER ============================================ -->
+
+
+<!-- ↓共通ヘッダー↓ -->
+
+<noscript><div style="background-color: #9e6f4f;"><p style="padding: 5px 0px 4px 0px; color: #ff9; font-size: 12px;">お使いのブラウザのJavaScriptの設定が無効になっています。当ウェブサイトのコンテンツが正常に表示・動作しない場合がございます。有効にしてご覧ください。</p></div></noscript>
+
+<div id="headerBlock" style="display: none;">
+
+
+<script language="javascript" type="text/javascript" src="/header/js/header2015.js?update=20151216" charset="UTF-8"></script>
+
+	<div id="headerBlockInner">
+
+		<div id="headerLine2" class="header2015clearFix">
+			<div id="headerLine2menu" class="header2015clearFix">
+				<a href="http://webnews.asahi.co.jp/" id="headerLine2menuNews" target="_top" title="「ニュース・天気予報」が別ウインドウで開きます">ニュース・天気予報</a>
+				<a href="/event/" id="headerLine2menuEvent" target="_top" title="「イベント」へ移動します">イベント</a>
+				<a href="/cinema/" id="headerLine2menuCinema" target="_top" title="「映画・試写会」へ移動します">映画・試写会</a>
+				<a href="/genre/present.html" id="headerLine2menuPresent" target="_top" title="「プレゼント・募集」へ移動します">プレゼント・募集</a>
+				<a href="http://www.abc1008.com" id="headerLine2menuRadio" target="_blank" title="「ABCラジオ：1008.com」が別ウインドウで開きます">ラジオ</a>
+				<a href="http://corp.asahi.co.jp/ja/index.html" id="headerLine2menuInfo" target="_blank" title="「会社情報」へ移動します">会社情報</a>
+				<a href="/sitemap/index_sitemap.html" target="_top" id="headerLine2menuSitemap" title="「サイトマップ」へ移動します">サイトマップ</a>
+				<a href="http://corp.asahi.co.jp/en/index.html" id="headerLine2menuEnglish" target="_blank" title="go to [ Asahi Broadcasting Corporation ENGLISH site ]">ENGLISH</a>
+			</div>
+		</div>
+
+		<div id="headerLine3" class="header2015clearFix">
+			<div id="headerLine3search" class="header2015clearFix">
+				<img src="/img/gtop/header_line3_search_title.png" id="headerLine3searchTitle" alt="番組を探す" title="">
+
+				<form name="search_form" action="http://search.asahi.dga.jp/" method="GET" onsubmit="return mysearch(this);" target="_top">
+					<input type="text" name="kw" value="" class="searchBox" id="headerLine3searchInput">
+					<input type="text" name="avoidEnter" style="display:none;">
+					<input type="hidden" name="ie" value="s">
+					<a href="javascript:void(0);" onclick="search_form.submit();" id="headerLine3searchLens"><img src="/img/gtop/header_line3_search_lens.png" alt="検索" title="左の枠に調べたいワードを入れてクリックしてください"></a>
+				</form>
+			</div>
+
+			<div id="headerLine3program" class="header2015clearFix">
+				<a href="/programlist/#Special" id="headerLine3programSpecial" target="_top"><img src="/img/gtop/header_line3_program_special.gif" alt="スペシャル" title="「番組紹介：スペシャル」へ移動します"></a>
+				<a href="/programlist/#Midnight" id="headerLine3programMidnight" target="_top"><img src="/img/gtop/header_line3_program_midnight.gif" alt="しんや" title="「番組紹介：しんや」へ移動します"></a>
+				<a href="/programlist/#Night" id="headerLine3programNight" target="_top"><img src="/img/gtop/header_line3_program_night.gif" alt="よる" title="「番組紹介：よる」へ移動します"></a>
+				<a href="/programlist/#Day" id="headerLine3programDay" target="_top"><img src="/img/gtop/header_line3_program_day.gif" alt="ひる" title="「番組紹介：ひる」へ移動します"></a>
+				<a href="/programlist/#Morning" id="headerLine3programMorning" target="_top"><img src="/img/gtop/header_line3_program_morning.gif" alt="あさ" title="「番組紹介：あさ」へ移動します"></a>
+			</div>
+
+			<a href="/tvprogram/" id="headerLine3programWeek" target="_top"><img src="/img/gtop/header_line3_program_week.png" alt="今週の番組表" title="「週間番組表」へ移動します"></a>
+			<a href="/ann/" id="headerLine3ann" target="_top"><img src="/img/gtop/header_line3_ann.png" alt="アナウンサー" title="「アナウンサー紹介ページ」へ移動します"></a>
+		</div>
+
+
+		<div id="headerLogo">
+			<a href="/" target="_top"><img src="/img/gtop/lower_header_abc_logo.png" alt="ロゴ：ABC朝日放送" title="「朝日放送 WEBサイト ホーム」に移動します"></a>
+		</div>
+
+		<div id="headerSNS" class="header2015clearFix">
+			<div id="headerTwitter" class="clearFix"></div>
+			<div id="headerFacebook" class="clearFix"></div>
+		</div>
+
+	</div>
+
+</div>
+
+<!-- ↑共通ヘッダー↑ -->
+
+
+
+<!-- ▼banner▼ -->
+
+<!-- ▲banner▲ -->
+
+<!--▲ABC COMMON HEADER ============================================ -->
+
+
+<div id="wrap">
+
+<div id="header">
+<!--▼GLOBAL HEADER ============================================ -->
+<script src="../common/inc/header.js" type="text/javascript" ></script>
+<!--▲GLOBAL HEADER ============================================ -->
+<!--▼SNS BUTTON ============================================ -->
+<script src="../common/inc/sblink.js" type="text/javascript" charset="UTF-8"></script>
+<!--▲SNS BUTTON ============================================ -->
+</div><!-- /#header -->
+
+
+<div id="main">
+
+<h1><img src="../img/enjoyment/tit_h1.png" alt="おたのしみ" width="344" height="120"></h1>
+<p class="ribbon"><img src="../img/common/img_ribbon.png" alt="" width="168" height="523"></p>
+<ul id="enjoymentNav">
+  <li><a rel="coordinate" class="popup" target="_blank" href="/php/precure_happiness/sp/client.php" title="「コーディネート・コレクション」で あそんでみよう！"><img src="../img/enjoyment/btn_subnav_coord_off.png" alt="コーディネート・コレクション" width="117" height="86"></a></li>
+  <li><a href="./" title="まいつき こうしん！「かべがみカレンダー」のページへ！"><img src="../img/enjoyment/btn_subnav_wallpaper_off.png" alt="かべがみカレンダー" width="117" height="86"></a></li>
+  <li><img src="../img/enjoyment/btn_subnav_nigaoe.png" alt="プリキュアにがおえ" width="117" height="86"></li>
+  <li><a href="data.html" title="テレビでたのしもう♪「データほうそうであそぼう」のページへ！"><img src="../img/enjoyment/btn_subnav_data_off.png" alt="データほうそうであそぼう" width="117" height="86"></a></li>
+</ul>
+<div id="mainBody">
+<div class="inner">
+
+  <h2><img src="../img/enjoyment/nigaoe/tit_h2_nigaoe.jpg" alt="プリキュア　にがおえ" width="780" height="101"></h2>
+
+<!--  <p style="display:block; overflow:hidden; width:651px; height:51px; margin:30px auto 20px auto;"><img src="../img/enjoyment/nigaoe/txt_nigaoe_lead.gif" alt="似顔絵発表" width="651" height="51">みんなもプリキュアの「似顔絵」を送ってね！イラストは番組の最後やデータ放送、ホームページで発表するよ。</p>-->
+  <p class="ma20t align-c" style="padding-bottom: 40px;"><a href="/precure/princess/enjoyment/nigaoe.html" title="新シリーズ「Ｇｏ！プリンセスプリキュア」のページへ！"><img src="../img/enjoyment/nigaoe/bnr_nigaoe2015_off.png" width="608" height="134" alt="新シリーズ「Ｇｏ！プリンセスプリキュア」のにがおえも募集中♪"></a></p>
+<p class="cover" style=" background-image: url(../img/enjoyment/nigaoe/img_invite3.jpg); margin-left: 40px; width: 694px; height: 531px;">ハピネスチャージプリキュア！のにがおえ募集は終了しました。みんな！ にがおえ送ってくれてどうもありがとう！！！たくさんおうえんしてくれて、幸せハピネスだよ！</p>
+<!-- /.content -->
+  
+  
+</div><!-- /.inner -->
+</div><!-- /#mainBody -->
+</div><!-- /#main -->
+
+<!--▼GLOBAL FOOTER ============================================ -->
+<script src="../common/inc/footer.js" type="text/javascript" ></script>
+<!--▲GLOBAL FOOTER ============================================ -->
+
+</div><!-- /#wrap -->
+</body>
+</html>

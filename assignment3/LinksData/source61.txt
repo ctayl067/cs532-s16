@@ -1,0 +1,558 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 9]>    <html class="no-js lt-ie9 "> <![endif]-->
+<!--[if IE 9]>       <html class="no-js ie9 "> <![endif]-->
+<!--[if gte IE 9]><!-->
+<html class="no-js ">
+<!--<![endif]-->
+<head data-request-id="11b57740">
+    <meta charset="utf-8">
+
+
+
+    <!-- Chartbeat analytics disabled. -->
+
+    <!-- Performance monitoring -->
+    <script type="text/javascript">window.__hudlPerformanceConfig = {"scriptIsAsync":false};</script>
+<script type="text/javascript">(function(n,t){function d(n,t){o[n]=t}function f(n){var t=+new Date;d(n,t-ft)}function g(n){v.push(n)}function s(){if(p&&e&&r&&u){clearTimeout(nt);w=!0;for(var n;typeof(n=v.shift())=="function";)try{n(o)}catch(t){console.error("Error executing callback:",t)}}}function tt(){e&&console.warn("Script ready already invoked.");f(ot);e=!0;s()}function it(n){return n&&n.clientHeight&&n.clientWidth}function rt(){r||it(t.body)&&(r=!0,f(st));r&&!u&&(l?it(y||(y=t.querySelector(l)))&&(u=!0,f(k)):(u=!0,f(k)));r&&u||setTimeout(rt,et);s()}function ut(){p=!0;f(ct);d(ht,i.domInteractive-i.domLoading);a||tt();s()}var nt,h;if(t.querySelector&&n.performance&&performance.timing){if(!n.__hudlPerformanceConfig){console.error("Missing performance timing config.");return}var i=performance.timing,ft=i.fetchStart-(i.redirectEnd-i.redirectStart),c=n.__hudlPerformanceConfig,l=c.contentSelector,a=c.scriptIsAsync,v=[],y=null,e=!1,p=!1,r=!1,u=!1,w=!1,b=15e3,et=1e3/60,o={},ot="Time to JavaScript Ready",st="Time to First Render",
+k="Time to Main Content Rendered",ht="DOM Parsing Time",ct="Page Load Time";nt=setTimeout(function(){w||(console.warn("Performance metrics have not been collected after "+b/1e3+" seconds. http://bit.ly/hudl-performance-monitoring-console-warning"),g(function(){console.log("Performance metrics have been successfully collected.")}))},b);h=n.onload;n.onload=typeof h=="function"?function(){h();ut()}:ut;rt();n._hudlPerformanceTiming={onMetricsCollected:g,asyncScriptReady:function(){a||console.warn("asyncScriptReady called but page is not configured for async JavaScript loading.");tt()},_metrics:o}}})(window,document)</script>    <!-- /Performance monitoring -->
+
+    <!-- Google Analytics -->
+    <script type="text/javascript"> window.__hudlGaConfig = {"accountId":"UA-3368838-2","trackPageview":true,"userRole":"Not logged in","isDebug":false,"customVar2Name":"HighlightState_(Page)","customVar2Value":"GA","customVar5Name":"HighlightSportId_(Page)","customVar5Value":"1"};</script>
+<script type="text/javascript">(function(n){var t=n._gaq||(n._gaq=[]),i=n.__hudlGaConfig,h,r;if(!i)throw new Error("Missing analytics config.");var c=i.accountId,l=i.trackPageview,u=i.customVar2Name,f=i.customVar2Value,e=i.customVar5Name,o=i.customVar5Value,a=i.userRole,v=i.isDebug,s=i.sampleRate,y=function(){var i,t;try{return n.ActiveXObject?(i=new ActiveXObject("AgControl.AgControl"),i.isVersionSupported("4.0")?"4":"lt 4"):(t=navigator.plugins["Silverlight Plug-In"],t?t.description:"unknown")}catch(r){return"error"}};if(t.push(["_setAccount",c]),t.push(["_setCustomVar",1,"Silverlight Version",y(),1]),t.push(["_setCustomVar",4,"Login Status (Session)",a,2]),u&&f&&t.push(["_setCustomVar",2,u,f,3]),e&&o&&t.push(["_setCustomVar",5,e,o,3]),typeof s=="number"&&t.push(["_setSiteSpeedSampleRate",s]),l&&t.push(["_trackPageview"]),h=v?"u/ga_debug.js":"ga.js",function(){var n=document.createElement("script"),t;n.type="text/javascript";n.async=!0;n.src=("https:"===document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/"+
+h;t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(n,t)}(),r=n._hudlPerformanceTiming,r&&typeof r.onMetricsCollected=="function")r.onMetricsCollected(function(i){var u=3e5,r;t=n._gaq;t&&Object.keys&&Array.prototype.map&&(r=Object.keys(i).map(function(n){var t=i[n];return t>=0&&t<u?["_trackTiming","Performance",n,t]:null}).filter(function(n){return n}),r.length&&t.push.apply(t,r))})})(window)</script>    <!-- /Google Analytics -->
+
+    <title>Michael House&#39;s Junior Highlights - Michael House highlights - Hudl</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    
+    <link rel="canonical" href="http://www.hudl.com/athlete/407696/highlights/33811376" />
+    <meta name="description" content="Watch Michael House&#39;s highlights on Hudl." />
+    <meta name="Author" content="Michael House" />
+    <meta name="medium" content="mult" />
+    <meta property="fb:app_id" content="137562929649180" />
+    <meta property="og:description" content="Watch Michael House&#39;s highlights on Hudl." />
+    <meta property="og:image" content="http://ve.hudl.com/4374/11663/15374/289249/LX/012/sUAo_XL.jpg?v=2CB832C65237D008" />
+    <meta property="og:site_name" content="Hudl" />
+    <meta property="og:title" content="Michael House&#39;s Junior Highlights" />
+    <meta property="og:type" content="movie" />
+    <meta property="og:url" content="http://www.hudl.com/athlete/407696/highlights/33811376" />
+
+        <meta property="og:video" content="https://draz3d52bgt7l.cloudfront.net/player.swf?file=https%3A%2F%2Fd1w20mguph8gml.cloudfront.net%2Fp-uh%2F407696%2F33811376.mp4%3Fv%3D2CB832C65237D008&amp;autoplay=true" />
+        <meta property="og:video:type" content="application/x-shockwave-flash" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Hudl" />
+    <meta name="twitter:url" content="http://www.hudl.com/athlete/407696/highlights/33811376" />
+    <meta name="twitter:title" content="Michael House&#39;s Junior Highlights" />
+    <meta name="twitter:description" content="Watch Michael House&#39;s highlights on Hudl." />
+    <meta name="twitter:image" content="http://ve.hudl.com/4374/11663/15374/289249/LX/012/sUAo_XL.jpg?v=2CB832C65237D008" />
+
+
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+
+    
+    <link rel="apple-touch-icon-precomposed" href="/images/public/touch-icon-iphone.png" />
+    
+
+    
+    <!-- Are you an amazing app developer? Join us! http://www.hudl.com/jobs -->
+    <meta name="msApplication-ID" content="Hudl.Hudl" />
+    <meta name="msApplication-PackageFamilyName" content="Hudl.Hudl_a78m69n1qrgkm" />
+
+
+    
+<script type="text/javascript">window.__hudlEmbed={"hudl":{},"data":{"hasMessageTeam":false,"messaging":null,"pageData":{"owner":{"name":"Michael House","namePosessive":"Michael House's","firstName":"Michael","lastName":"House","fullName":"Michael House","id":"407696","pictureUrl":"http://static.hudl.com/users/prod/407696_e43a65b9bf054476acbbe93ba434290e.jpg","pageUrl":"http://www.hudl.com/athlete/407696","isAthlete":true,"backText":"Go To Profile","backLink":"http://www.hudl.com/athlete/407696/michael-house","jersey":"#8","positions":"WR","classLevel":"Class of 2014","primaryTeamId":"11663","primaryColor":"f30000","secondaryColor":"e9e9e9","primaryColorDescription":"white","schoolName":"McNair High School","schoolLocation":"Atlanta, GA"},"video":{"id":"33811376","title":"Michael House's Junior Highlights","shortTitle":"Michael House's Junior Highlights","views":913,"formattedViews":"913","duration":0.0,"formattedDuration":"0:00","date":"Updated 11/26/2012","description":"Watch Michael House's highlights on Hudl.","seasonName":"","sportId":1,"sportName":"Football","sportEnumName":"Football","state":"GA","stateName":"Georgia","isTopPlay":false,"isPremium":true,"hasAtLeastSomePublic":true,"isAthleteHighlight":true,"type":1,"athleteId":"407696","athleteName":"Michael House","teamId":"11663","teamName":"Boys Varsity Football","schoolName":"McNair High School","render":{"renderStatus":3,"sources":{"sd":"http://vg.hudl.com/p-uh/407696/33811376.mp4?v=2CB832C65237D008"},"renderedUri":"http://vg.hudl.com/p-uh/407696/33811376.mp4?v=2CB832C65237D008","thumbnailUri":"http://ve.hudl.com/4374/11663/15374/289249/LX/012/sUAo_XL.jpg?v=2CB832C65237D008","secureRenderedUri":"https://d1w20mguph8gml.cloudfront.net/p-uh/407696/33811376.mp4?v=2CB832C65237D008","isFallbackRenderedFile":false,"isMobileRenderAvailable":false,"mp4VideoUri":"https://d1w20mguph8gml.cloudfront.net/p-uh/407696/33811376.mp4?v=2CB832C65237D008","facebookVideoUri":"https://draz3d52bgt7l.cloudfront.net/player.swf?file=https%3A%2F%2Fd1w20mguph8gml.cloudfront.net%2Fp-uh%2F407696%2F33811376.mp4%3Fv%3D2CB832C65237D008&autoplay=true","renderStatusMessage":0}},"videoSharingInfo":{"tweetText":"Check out Michael House's Michael House's Junior Highlights on @Hudl","tweetHashTags":"hudl","emailSubject":"Check out Michael House's Michael House's Junior Highlights on Hudl","emailBody":"","pageUrl":"http://www.hudl.com/athlete/407696/highlights/33811376","shortenedPageUrl":"http://www.hudl.com/v/1tPVG","embeddablePlayerUrl":"//www.hudl.com/embed/athlete/407696/highlights/33811376","sharingData":{"link":"http://www.hudl.com/athlete/407696/highlights/33811376","embedCode":"<iframe src='//www.hudl.com/embed/athlete/407696/highlights/33811376' width='640' height='360' frameborder='0' allowfullscreen></iframe>","heading":"Share Video"}},"playerConfiguration":{"licenseKey":"sMFt1kifA1xoOGsVweEqRYjW41Vw4OmCX0eDGQ==","enableAds":true,"enableSharing":false,"enableEmbedLinks":true,"jwPlayerScript":"http://sc.hudl.com/js/profiles/lib/jwplayer/jwplayer-amd.js","html5Player":"http://sc.hudl.com/js/profiles/lib/jwplayer/jwplayer.html5.js?v=6e217731","flashPlayer":"http://sc.hudl.com/js/profiles/lib/jwplayer/jwplayer.flash.swf?v=3bfe50d0","useFlashPlayer":false,"skins":{"glow":"glow","glow-no-play":"http://sc.hudl.com/js/profiles/lib/jwplayer/skins/glow-no-play.xml"},"vastTags":{"video_AthleteFeaturePlayer":"http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/29795821/Video_AthleteFeaturePlayer&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]","video_EmbeddablePlayer":"http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/29795821/Video_EmbeddablePlayer&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]","video_EmbeddablePlayer_Mobile":"http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/29795821/Video_EmbeddablePlayer_Mobile&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]","video_VideoPage":"http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/29795821/Video_VideoPage&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]","video_VideoPage_Mobile":"https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/29795821/Video_VideoPage_Mobile&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]","video_HAN_247Sports":"https://pubads.g.doubleclick.net/gampad/ads?sz=400x300|640x480&iu=/29795821/Video_HAN_247Sports&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]","video_HAN_247Sports_Player":"https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/29795821/VIdeo_HAN_247Sports_Player&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"},"autoPlay":false},"displayAdData":{"gradYear":2014,"isLogIn":false,"isRecruit":false,"isCoachAd":false,"isAthlete":false},"preRollAdData":{"gradYear":0,"hasLogIn":false,"reelLength":2014,"isLogIn":false,"isRecruit":false,"isCoachAd":false,"isAthlete":false},"isVisible":true,"teamId":"11663","orderUrl":"https://www.hudl.com/order/dvd?ru=http://www.hudl.com/athlete/407696/highlights/33811376&i=u407696-r33811376","description":"Watch Michael House's highlights on Hudl.","sportClassName":"football","isCurrentUser":false,"requesterHasCoachAccess":false,"canRunGoogleExperiment":false,"showFollowButton":false,"isFollowing":false,"canonicalUri":"http://www.hudl.com/athlete/407696/highlights/33811376","facebookAppId":"137562929649180","isTeamContent":false,"showReactions":false,"houseAdsEnabled":true,"showHighlightsBreadcrumb":true},"requestStartInMilliseconds":1455849756173,"isMobile":false,"jwPlayer":{"licenseKey":"sMFt1kifA1xoOGsVweEqRYjW41Vw4OmCX0eDGQ==","enableAds":true,"enableSharing":false,"enableEmbedLinks":true,"jwPlayerScript":"http://sc.hudl.com/js/profiles/lib/jwplayer/jwplayer-amd.js","html5Player":"http://sc.hudl.com/js/profiles/lib/jwplayer/jwplayer.html5.js?v=6e217731","flashPlayer":"http://sc.hudl.com/js/profiles/lib/jwplayer/jwplayer.flash.swf?v=3bfe50d0","useFlashPlayer":false,"skins":{"glow":"glow","glow-no-play":"http://sc.hudl.com/js/profiles/lib/jwplayer/skins/glow-no-play.xml"},"vastTags":{"video_AthleteFeaturePlayer":"http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/29795821/Video_AthleteFeaturePlayer&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]","video_EmbeddablePlayer":"http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/29795821/Video_EmbeddablePlayer&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]","video_EmbeddablePlayer_Mobile":"http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/29795821/Video_EmbeddablePlayer_Mobile&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]","video_VideoPage":"http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/29795821/Video_VideoPage&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]","video_VideoPage_Mobile":"https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/29795821/Video_VideoPage_Mobile&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]","video_HAN_247Sports":"https://pubads.g.doubleclick.net/gampad/ads?sz=400x300|640x480&iu=/29795821/Video_HAN_247Sports&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]","video_HAN_247Sports_Player":"https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/29795821/VIdeo_HAN_247Sports_Player&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"},"autoPlay":false},"analytics":{"mixpanelToken":"e114f3b99b54397ee10dd1506911d73f","userId":null}},"config":{"baseImageUri":"http://sc.hudl.com/images/","staticContentBaseUrl":"http://sc.hudl.com/","staticContentSecureBaseUrl":"https://www.hudl.com/"},"services":{"logPageLoad":"/athlete/407696/highlights/33811376/LogPageLoad","logPlayerReady":"/athlete/407696/highlights/33811376/LogPlayerReady","logInitialPlay":"/athlete/407696/highlights/33811376/LogInitialPlay","relatedAthletes":"/athlete/407696/highlights/33811376/RelatedAthletes","relatedHighlights":"/athlete/407696/highlights/33811376/RelatedHighlights?highlightId=33811376","follow":"/api/v2/feedproducer/friendship/follow-user","unfollow":"/api/v2/feedproducer/friendship/unfollow-user","logSuggestionClicked":"/athlete/407696/highlights/33811376/LogSuggestionClicked","toggleReaction":"/api/v2/feedproducer/reactions/UserHighlight-33811376/{reaction}"},"resources":{},"requireConfig":{"mainModules":[],"rawConfig":{"urlArgs":"b54b81bd","baseUrl":"http://sc.hudl.com/js/profiles/"}}};</script>
+
+<script src="/bundles/profiles/hudlBaseModern?v="></script>
+
+    
+
+
+
+    <link href="/bundles/profiles/video-page/css?v=qyMNaWDy5hnltyhN_cn7f6xm5P7LwRJk5StoApAdCag1" rel="stylesheet"/>
+
+    <script>
+        document.write('<div id="tester">.</div>');
+    </script>
+
+
+    <!-- Google Analytics Content Experiment code -->
+    <script>
+        function utmx_section(){}function utmx(){}(function(){var
+                k='74649800-50',d=document,l=d.location,c=d.cookie;
+            if(l.search.indexOf('utm_expid='+k)>0)return;
+            function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+                indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+                length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+                '<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+                    '://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+                '&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+                valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+                '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+    </script>
+    <script>utmx('url','A/B');</script>
+    <!-- End of Google Analytics Content Experiment code -->
+
+
+
+    <script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function () {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+</script>
+<script type='text/javascript'>
+    googletag.cmd.push(function () {
+        var mapping = googletag.sizeMapping().addSize([0,0],[88,31]).addSize([985,250],[300,250]).addSize([744,200],[728,90]).addSize([335,200],[320,50]).build();googletag.defineSlot('/29795821/Display_VideoPageTest', [[300,250],[728,90],[320,50]], 'div-gpt-ad-video-page-desktop-ad-id').setCollapseEmptyDiv(true, false).defineSizeMapping(mapping).addService(googletag.pubads().setTargeting("gradYear","2014").setTargeting("isLogIn","False").setTargeting("isRecruit","False").setTargeting("isCoachAd","False").setTargeting("isAthlete","False"));
+googletag.enableServices();
+
+    });
+</script>
+
+
+    <script type="text/javascript" src="/Js/profiles/video-page/advertisement.js"></script>
+
+
+</head>
+<body class="mobile-first">
+
+
+
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-57574Z"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-57574Z');</script>
+    <!-- End Google Tag Manager -->
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="ko-nav">
+    <ul class="ko-nav-left">
+        <li>
+            <a class="ko-nav-team" href="http://www.hudl.com">
+                <span class="ko-nav-team-dudes">
+                    
+
+
+<svg version="1.1" 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64"
+	 xml:space="preserve">
+<path d="M50.3,10.2c-1.1-0.1-2.1,0-3,0.3c-1.9-1.2-3.8-2.2-5.6-2.8c-3.9-1.6-7.7-2-12.2-1.3c-0.9,0.1-1.9,0.3-2.9,0.6
+	c0.9,0.1,1.9,0.3,2.8,0.5c5.5,1.6,9.5,5.4,11.5,9c-0.2,0.7-0.4,1.4-0.4,2.2c-0.3,3.9,2,7.5,5.5,9l-0.8,10c3.8-1.5,7.6-3.4,9.6-7
+	l0.3-4.1c2.1-1.5,3.5-3.9,3.7-6.6C59.2,15,55.4,10.6,50.3,10.2z M39.1,44.5c-1.5-1.7-3.7-2.8-6.1-3c-2.4-0.2-4.6,0.6-6.4,1.9
+	L23.4,41l-5.8-4.2c-0.7,4-0.5,8.1,1.3,11.8l3.7,2.5l0.5,0.3c0.5,4.3,4,7.8,8.5,8.2c4.5,0.3,8.5-2.6,9.6-6.8c7.4-4,12-9,13.6-17.3
+	C51.7,41,45.6,43.8,39.1,44.5z M15.5,28.7c3.7-0.9,6.6-4.2,6.9-8.1c0.1-0.7,0-1.4-0.1-2.1l2.9-1.3l3.6-1.6l2.8-1.3
+	c-0.8-0.8-1.6-1.6-2.6-2.2c-1.1-0.8-2.1-1.4-3.4-1.9c-1.2-0.5-2.5-0.9-3.9-1.1l-5.1,2.4c-0.9-0.4-1.9-0.6-2.9-0.7
+	c-5-0.4-9.5,3.4-9.9,8.5c-0.2,2.8,0.9,5.4,2.7,7.2C6.6,34.7,8.3,40,14.1,45.5C12.2,40.1,12.6,33.8,15.5,28.7z"/>
+</svg>
+
+                </span>
+               
+                    <span class="ko-nav-team-name">Home</span>
+            </a>
+        </li>
+    </ul>
+
+    <ul class="ko-nav-right">
+
+
+
+
+            <li class="ko-nav-main-item">
+                <a href="/login" class="ko-nav-account">Log In</a>
+            </li>
+
+                    <li class="ko-nav-main-item">
+                <a href="#" class="ko-nav-help">
+
+                    <span class="ko-nav-icon">
+
+
+<svg version="1.1" 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 792"
+	 xml:space="preserve">
+<g>
+	<path d="M486,54.3C435.8,18.1,372.8,0,297,0c-57.7,0-106.4,12.7-146,38.2C88.2,78.1,54.9,145.8,50.8,241.2h145.5
+		c0-27.8,8.1-54.6,24.3-80.4c16.2-25.8,43.8-38.7,82.6-38.7c39.5,0,66.7,10.5,81.6,31.4c14.9,21,22.3,44.1,22.3,69.6
+		c0,22.1-11.1,42.4-24.5,60.8c-7.3,10.8-17.1,20.6-29.1,29.7c0,0-78.9,50.6-113.6,91.3c-20.1,23.6-21.9,58.9-23.6,109.5
+		c-0.1,3.6,1.2,11,13.9,11c12.6,0,101.9,0,113.1,0c11.2,0,13.6-8.4,13.7-12c0.8-18.5,2.9-27.9,6.2-38.5
+		c6.3-20.1,23.6-37.7,43.1-52.8l40-27.7c36.1-28.2,65-51.3,77.7-69.3c21.8-29.8,37.1-66.5,37.1-110.1
+		C561.2,144.1,536.1,90.4,486,54.3z M294.6,612.6c-50.2-1.5-91.5,33.2-93.1,87.6c-1.6,54.4,37.7,90.3,87.9,91.7
+		c52.4,1.6,92.6-32,94.2-86.4C385.2,651.2,347,614.2,294.6,612.6z"/>
+</g>
+</svg>
+</span>
+                    <span class="ko-nav-mobile-label ko-nav-label">Get Help</span>
+                </a>
+                <ul class="ko-nav-sub-double ko-nav-anchor-right ko-nav-sub-profile">
+
+                    
+                        <li >
+                            <a href="mailto:support@hudl.com">
+
+                                <span class="ko-nav-icon"><svg version="1.1" 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 792"
+	 xml:space="preserve">
+<path d="M399.7,386.4l193.2-162.6v344.2L399.7,386.4z M306,415.1l248.6-210.4H57.4L306,415.1z M554.6,587.2L382.5,415.1L306,472.5
+	l-76.5-57.4L57.4,587.2H554.6z M19.1,223.9v344.2l187.4-181.7L19.1,223.9z"/>
+</svg>
+</span>
+                                <span class="ko-nav-label">support@hudl.com</span>
+                            </a>
+                        </li>
+                        <li >
+                            <a href="/contact">
+
+                                <span class="ko-nav-icon">
+
+
+<svg version="1.1" 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 792"
+	 xml:space="preserve">
+<path d="M353.1,654.9V702H0V217.5L127.4,90.4V90h319.8v211.8l-23.5-23.5l-23.5-23.5V137.1H188.3v141.2H47.1v376.6H353.1z
+	 M400.2,325.4v117.7H164.8v117.7h235.4v117.7L612,504.9L400.2,325.4z"/>
+</svg>
+</span>
+                                <span class="ko-nav-label">Submit a Ticket</span>
+                            </a>
+                        </li>
+                        <li >
+                            <a href="/support">
+
+                                <span class="ko-nav-icon">
+
+
+<svg version="1.1" 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 792"
+	 xml:space="preserve">
+<path  d="M0,569.4c0,37.2,24,61.2,61.2,61.2h489.6c37.2,0,61.2-24,61.2-61.2V222.6c0-37.2-24-61.2-61.2-61.2H61.2
+	C24,161.4,0,185.4,0,222.6V569.4z M40.8,243c0-40.8,0-40.8,40.8-40.8h448.8c40.8,0,40.8,0,40.8,40.8v306c0,40.8,0,40.8-40.8,40.8
+	H81.6c-40.8,0-40.8,0-40.8-40.8V243z M226.7,499.2l0.1-249.1l184.3,167.6l-74.9,18.3l39.5,89.5l-45.5,20.1l-39.5-89.5L226.7,499.2z"
+	/>
+</svg>
+</span>
+                                <span class="ko-nav-label">Watch Tutorials</span>
+                            </a>
+                        </li>
+                        <li >
+                            <a href="http://help.hudl.com/">
+
+                                <span class="ko-nav-icon">
+
+
+<svg version="1.1" 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 792"
+	 xml:space="preserve">
+<path  d="M0,569.4c0,37.2,24,61.2,61.2,61.2h489.6c37.2,0,61.2-24,61.2-61.2V222.6c0-37.2-24-61.2-61.2-61.2H61.2
+	C24,161.4,0,185.4,0,222.6V569.4z M40.8,243c0-40.8,0-40.8,40.8-40.8h448.8c40.8,0,40.8,0,40.8,40.8v306c0,40.8,0,40.8-40.8,40.8
+	H81.6c-40.8,0-40.8,0-40.8-40.8V243z M226.7,499.2l0.1-249.1l184.3,167.6l-74.9,18.3l39.5,89.5l-45.5,20.1l-39.5-89.5L226.7,499.2z"
+	/>
+</svg>
+</span>
+                                <span class="ko-nav-label">Remote Session</span>
+                            </a>
+                        </li>
+                </ul>
+            </li>
+    </ul>
+</nav>
+<div class="ko-wrap">
+<nav class="ko-nav-mobile-header">
+    <a class="ko-nav-mobile-menu-button">
+
+
+<svg version="1.1" 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64"
+	 xml:space="preserve">
+<path d="M50.3,10.2c-1.1-0.1-2.1,0-3,0.3c-1.9-1.2-3.8-2.2-5.6-2.8c-3.9-1.6-7.7-2-12.2-1.3c-0.9,0.1-1.9,0.3-2.9,0.6
+	c0.9,0.1,1.9,0.3,2.8,0.5c5.5,1.6,9.5,5.4,11.5,9c-0.2,0.7-0.4,1.4-0.4,2.2c-0.3,3.9,2,7.5,5.5,9l-0.8,10c3.8-1.5,7.6-3.4,9.6-7
+	l0.3-4.1c2.1-1.5,3.5-3.9,3.7-6.6C59.2,15,55.4,10.6,50.3,10.2z M39.1,44.5c-1.5-1.7-3.7-2.8-6.1-3c-2.4-0.2-4.6,0.6-6.4,1.9
+	L23.4,41l-5.8-4.2c-0.7,4-0.5,8.1,1.3,11.8l3.7,2.5l0.5,0.3c0.5,4.3,4,7.8,8.5,8.2c4.5,0.3,8.5-2.6,9.6-6.8c7.4-4,12-9,13.6-17.3
+	C51.7,41,45.6,43.8,39.1,44.5z M15.5,28.7c3.7-0.9,6.6-4.2,6.9-8.1c0.1-0.7,0-1.4-0.1-2.1l2.9-1.3l3.6-1.6l2.8-1.3
+	c-0.8-0.8-1.6-1.6-2.6-2.2c-1.1-0.8-2.1-1.4-3.4-1.9c-1.2-0.5-2.5-0.9-3.9-1.1l-5.1,2.4c-0.9-0.4-1.9-0.6-2.9-0.7
+	c-5-0.4-9.5,3.4-9.9,8.5c-0.2,2.8,0.9,5.4,2.7,7.2C6.6,34.7,8.3,40,14.1,45.5C12.2,40.1,12.6,33.8,15.5,28.7z"/>
+</svg>
+</a>
+    <h1 class="ko-mobile-title">
+        <a href="#">Home</a>
+    </h1>
+        <a href="/login" class="ko-nav-account ko-nav-mobile-menu-right-button">Log In</a>
+</nav>
+
+    
+
+
+
+    <div class="ko-subheader">
+        <div class="hudl-subnav">
+            <div class="hudl-subnav-inner">
+                <a href="http://www.hudl.com/highlights" class="hudl-subnav-team">All Highlights</a>
+                    <span class="desktop-only">&nbsp;>&nbsp;</span>
+                    <a href="http://www.hudl.com/highlights/Football" class="hudl-subnav-team desktop-only">Football</a>
+                        <span class="desktop-only">&nbsp;>&nbsp;</span>
+                        <a href="http://www.hudl.com/highlights/Football/GA" class="hudl-subnav-team desktop-only">Georgia</a>
+                                    <span class="desktop-only">&nbsp;>&nbsp;</span>
+                    <a href="http://www.hudl.com/team/11663" class="hudl-subnav-team desktop-only">McNair High School</a>
+                                    <span class="desktop-only">&nbsp;>&nbsp;</span>
+                    <a href="http://www.hudl.com/athlete/407696" class="hudl-subnav-team desktop-only">Michael House</a>
+            </div>
+        </div>
+    </div>
+
+<div class="container-wrap">
+    <div class="panel-left">
+        <script type="text/javascript">
+            if (document.getElementById("tester") === undefined) {
+                document.write('<p class="ad-block-alert">Oops! It looks like AdBlock or a similar tool has prevented this page from loading. Please disable the plugin for all Hudl.com pages and refresh your browser.</p>');
+            }
+        </script>
+
+
+        
+
+
+<div class="render-status">
+
+<div class="html-player-container">
+    <div class="html-player" id="player">
+    </div>
+    
+</div>
+ </div>
+
+        <div class="video-information-container">
+            <!-- related-athletes -->
+
+
+
+<div class="owner-container">
+    <div class="owner-info">
+        <a href="http://www.hudl.com/athlete/407696/michael-house">
+            <div class="owner-photo-holder">
+                <div class="player-photo">
+                        <img src="http://static.hudl.com/users/prod/407696_e43a65b9bf054476acbbe93ba434290e.jpg" alt="Michael House" class="player-photo" />
+                </div>
+            </div>
+        </a>
+        <div class="athlete-header-detail template-stripes-white"></div>
+    </div>
+    <div class="owner-specifics">
+            <a href="http://www.hudl.com/athlete/407696/michael-house" class="player-name">Michael House</a>
+                <h3 class="player-info part-inline">#8 Class of 2014 WR</h3>
+                <h3 class="player-info marginfix">
+                    <a class="team-color bio-link" href="http://www.hudl.com/team/11663/roster">
+                        McNair High School
+                    </a>
+                </h3>
+        <h3 class="player-info">Atlanta, GA</h3>
+        <span class="player-info"><a href="http://www.hudl.com/athlete/407696/michael-house" class="team-color bio-link">View Profile</a> | <a class="team-color bio-link" href="http://www.hudl.com/athlete/407696/highlights">All Highlights</a></span>
+    </div>
+</div>
+
+
+            <div class="highlight-info-reactions-container">
+                <!-- related-videos -->
+
+<div class="highlight-info">
+    <h1>Michael House&#39;s Junior Highlights</h1>
+    <div class="cta-container">
+    	<div class="metadata">
+	        <div class="metadata-views team-bgcolor">913 <span class="metadata-label">Views</span></div>
+	        <div class="metadata-duration team-bgcolor">0:00</div>
+                <div class="metadata-updated team-bgcolor">Updated 11/26/2012</div>
+	    </div>
+        <div class="ctas athlete-info-cta">
+                <a href="https://www.hudl.com/order/dvd?ru=http://www.hudl.com/athlete/407696/highlights/33811376&amp;i=u407696-r33811376" class="button-standard order-button athlete-info-cta-order">Order Highlight</a>
+                            <a href="#" class="button-social athlete-info-cta-twitter">
+                    
+
+
+<svg version="1.1" 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 792"
+	 xml:space="preserve">
+<path d="M550.3,273.2c0.2,5.3,0.3,10.7,0.3,16c0,163.4-119.2,351.6-346.7,351.6c-69.8,0-149.3-26.1-204-61.2
+	c9.7,1.2,28.8,7.6,38.8,7.6c57.9,0,102.5-15.2,144.8-48.4c-54.1-1-91-41.3-106.7-90.4c7.6,1.5,15.3,2.2,23.3,2.2
+	c11.3,0,22.3,6.6,42.7-13.8C86.2,425.4,33.5,384.9,33.5,325c0-0.5,0-1,0-1.5c16.7,9.3,48.2,10.7,68.5,11.3
+	c-33.2-22.2-67.5-55.9-67.5-98.8c0-22.7-4.4-46.1,6.3-64.4c61,74.8,162.4,137.6,265.2,142.8c-2.1-9.1-3.1-29.9-3.1-39.6
+	c0-68.3,55.4-123.6,123.7-123.6c35.6,0,60.9,16.8,83.4,40.8c28.2-5.5,57.7-26.6,81.6-40.8c-9.2,28.9-25.1,62.1-50.6,77.4
+	c25-3,48.8-6.4,71-16.2C595.4,237.2,574.5,255.8,550.3,273.2z"/>
+</svg>
+
+                </a>
+                <a href="#" class="button-social athlete-info-cta-facebook">
+                    
+
+
+<svg version="1.1" 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 792"
+	 xml:space="preserve">
+<path d="M530.4,132h-132c-15.2,0-28.3,28.4-28.3,55l1.9,103.4h158.4v132H372V792H213.6V422.4h-132v-132h132v-79.2
+	C213.6,99.8,296.1,0,402.2,0h128.2V132z"/>
+</svg>
+
+                </a>
+                <a href="#" class="button-social athlete-info-cta-email">
+                    <svg version="1.1" 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 792"
+	 xml:space="preserve">
+<path d="M399.7,386.4l193.2-162.6v344.2L399.7,386.4z M306,415.1l248.6-210.4H57.4L306,415.1z M554.6,587.2L382.5,415.1L306,472.5
+	l-76.5-57.4L57.4,587.2H554.6z M19.1,223.9v344.2l187.4-181.7L19.1,223.9z"/>
+</svg>
+
+                </a>
+        </div>
+	</div>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="panel-right">
+        <div class="suggestions">
+    <div class="suggested-video module">
+    </div>
+    <div class="suggested-athlete module">
+    </div>
+    <div class="video-ad">
+            <div id="div-gpt-ad-video-page-desktop-ad-id" class="anotherclass">
+                <script type='text/javascript'>
+                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-video-page-desktop-ad-id'); });
+                </script>
+            </div>
+    </div>
+</div>
+    </div>
+
+    <style>
+
+
+                
+                .team-color {
+                    color: #f30000;
+                }
+
+                .team-bgcolor {
+                    background-color: #f30000;
+                }
+                .team-bgcolor-lighter {
+                    background: #4141ff;
+                }
+                .team-color-border { border: 2px solid #f30000; }
+                .team-color-hover:hover { border-color: #f30000 !important; }
+                
+    </style>
+</div>
+
+<footer class="footer-page">
+
+    <section class="band chunky">
+        <nav class="nav-footer row">
+            <ul class="top-level-nav">
+                <li><a href="http://www.hudl.com/">Home</a></li>
+                <li><a href="http://www.hudl.com/about/">About</a></li>
+                <li><a href="http://public.hudl.com/blog/">Blog</a></li>
+                <li><a href="http://www.hudl.com/support/">Support</a></li>
+                <li><a href="http://www.hudl.com/signup/">Pricing &amp; Sign-up</a></li>
+                <li><a href="http://www.hudl.com/login/">Login</a></li>
+            </ul>
+            <ul class="top-level-nav">
+                <li><a href="http://www.hudl.com/coaches/">Coaches</a></li>
+                <li><a href="http://www.hudl.com/athletes/">Athletes</a></li>
+                <li><a href="http://recruit.co">Recruiters</a></li>
+                <li><a href="http://www.hudl.com/youth/">Club &amp; Youth</a></li>
+                <li><a href="http://public.hudl.com/jobs">Jobs</a></li>
+                <li><a href="http://public.hudl.com/bits/">Product Team Blog</a></li>
+            </ul>
+            <ul class="social-links">
+                <li><a href="http://twitter.com/Hudl">Follow us on Twitter</a></li>
+                <li><a href="https://www.facebook.com/gethudl/">Like us on Facebook</a></li>
+                <li><a href="http://www.youtube.com/hudlsupport">Watch our YouTube Channel</a></li>
+                <li><a href="http://www.hudl.com/remote/order">Order a Hudl Remote</a></li>
+                <li><a href="http://public.hudl.com/privacy/">Privacy Policy</a></li>
+                <li><a href="http://public.hudl.com/terms/">Terms &amp; Conditions</a></li>
+            </ul>
+            <a href="https://twitter.com/hudl" class="twitter-follow-button" data-show-count="false">Follow hudl</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <!-- MailChimp Signup Form -->
+            <form style="margin-top: 10px" onsubmit="_gaq.push(['_trackPageview', '/out/subscribe_newsletter']);" target="_blank" class="validate" name="mc-embedded-subscribe-form" id="mc-embedded-subscribe-form" method="post" action="http://hudl.list-manage.com/subscribe/post?u=ede0e578e4e69ca463770569b&amp;id=31d31f1ee1">
+                <fieldset>
+                    <div class="mc-field-group">
+                        <input type="email" id="mce-EMAIL" class="required email text" name="EMAIL" value="" placeholder="Your Email">
+                        <input class="btn-default" type="submit" id="mc-embedded-subscribe" name="subscribe" value="Subscribe for Updates" class="button">
+                    </div>
+                </fieldset>
+            </form>
+        </nav>
+    </section>
+    <section class="band slim copyright">
+        <div class="row">
+            <p>Hudl is a product and service of Agile Sports Technologies, Inc. All text and design &copy; 2007-2016. All rights reserved.</p>
+        </div>
+    </section>
+</footer>
+
+<script src="/bundles/profiles/video-page/js?v=kxTIGTAba84XwEw4hc7LxPVXomoSdjzjziGwPFc3mHQ1"></script>
+
+
+
+
+</div>
+
+
+
+
+
+    
+
+
+
+    <!-- Chartbeat analytics disabled. -->
+
+    <!-- Cedexis -->
+    <script type="text/javascript">
+        (function (w, d) {
+            var a = function () {
+                var a = d.createElement('script'); a.type = 'text/javascript';
+                a.async = 'async'; a.src = '//' + ((w.location.protocol === 'https:') ? 's3.amazonaws.com/cdx-radar/' :
+                    'radar.cedexis.com/') + '04-00114-radar10.min.js'; d.body.appendChild(a);
+            };
+            if (w.addEventListener) { w.addEventListener('load', a, false); }
+            else if (w.attachEvent) { w.attachEvent('onload', a); }
+        } (window, document));
+    </script>
+    <!-- /Cedexis -->
+
+    
+</body>
+</html>

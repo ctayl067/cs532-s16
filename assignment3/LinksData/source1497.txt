@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Hillside Veterinary Centre</title>
+	<meta name="keywords" content="Vets, Poole, Corfe Mullen, Small animal vets">
+	<meta name="description" content="We strive to create a professional yet friendly service and pride ourselves on our reliable, friendly approach – we treat your pet as we would our own.">
+	<base href="http://www.hillsidevets.co.uk/">
+	<meta name="robots" content="index,follow">
+	<meta name="distribution" content="global">
+	<meta name="content-language" content="en">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="templates/css/style.css" type="text/css">
+	<link rel="stylesheet" href="templates/css/stylecms.css.php" type="text/css">
+	
+	<link  media="screen and (min-width:765px) and (max-width:1100px)" type="text/css" href="templates/css/style-tab.css?3" rel="stylesheet">
+	<link  media="screen  and (max-width:764px)" type="text/css" href="templates/css/style-smart.css?3" rel="stylesheet">
+    
+	<script type="text/javascript" src="templates/lib/jquery-1.8.3.min.js"></script>
+    
+	<link rel="stylesheet" href="templates/lib/slimbox2.css" type="text/css" media="screen">
+	<script type="text/javascript" src="templates/lib/slimbox2.js"></script>
+	<script type="text/javascript" src="templates/lib/jquery.easytabs.js"></script>
+	<script type="text/javascript" src="templates/lib/jquery.magnific-popup.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="templates/lib/nivo-slider.css">
+	<script type="text/javascript" src="templates/lib/jquery.nivo.slider.pack.js"></script>
+
+	<script type="text/javascript" src="templates/lib/dist/js/hoverIntent.js"></script>
+	<script type="text/javascript" src="templates/lib/jquery.tools.min.js"></script>
+	<script>
+	$( document ).ready(function() {
+		$('.magnific').magnificPopup({ 
+			type: 'image'
+
+		});
+	});
+	</script>
+	<script>
+	
+	$(document).ready(function(){
+	
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		$("#mainmenu .ul").hide();
+		$("#mainmenu li").click(function(){
+			var myitem = $(this).find(".ul");
+			var hassub = myitem.size();
+			
+			if ( hassub > 0 ){
+				console.log('home');
+				if ( myitem.is(":hidden") ){
+					myitem.slideDown("fast");
+					return false;
+				} else {
+					myitem.slideDown("fast");
+					//return false;
+				}
+			}
+		});
+		
+		}
+	});
+	
+	</script>
+	
+	<script src="templates/lib/menu/responsive-nav.min.js"></script>
+	<link   media="screen and (max-width:767px)" type="text/css" rel="stylesheet" href="templates/lib/menu/responsive-nav.css">
+
+    
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="templates/lib/gmap3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$("#map").gmap3({
+		
+		infowindow:{
+			address: "Hillside Veterinary Centre  116 Wareham Road Corfe Mullen Wimborne, Dorset, BH21 3LH",
+			options:{
+				content: "<strong>Hillside</strong></br>"
+			}
+		},
+		marker:{
+			address: "Hillside Veterinary Centre  116 Wareham Road Corfe Mullen Wimborne, Dorset, BH21 3LH",
+		},
+		map:{
+			options:{
+				zoom: 12
+			}
+		}
+	});
+
+});
+</script>
+     <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55818629-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div id="social">
+        	<a target="_blank" href="https://www.facebook.com/pages/Hillside-Veterinary-Centre/124657147585232"><img src="templates/img/social_fb.png" alt="facebook"></a>
+            <a target="_blank" href="https://twitter.com/HillsideVets1"><img src="templates/img/social_tw.png" alt="twitter"></a>
+            <a target="_blank" href="http://in.pinterest.com/hillsidevets/"><img src="templates/img/social_pin.png" alt="pinterest"></a>
+            <a target="_blank" href="http://www.youtube.com/channel/UCHnJAyEecTbf03m96a9ADuw"><img src="templates/img/social_yt.png" alt="youtube"></a>
+            <a target="_blank" href="https://plus.google.com/107857557347970854296/about"><img src="templates/img/social_g.png" alt="google"></a>
+        </div>
+        <a href="http://www.hillsidevets.co.uk/" id="logo"><img src="templates/img/logo.png" alt="Hillside Vets" title="Hillside Vets" /></a>
+        <div id="call_us">
+        	<span class="call_tel">01202 698899</span><br>
+			<a href="contact-us.html" class="call_mail">mail@hillsidevets.co.uk</a><br><br><br>
+            Hillside Veterinary Centre <br>
+            116 Wareham Road<br>
+            Corfe Mullen<br>
+            Wimborne, Dorset, BH21 3LH<br>
+        </div>
+    </div>
+    <div class="clear"></div>
+</header>
+
+<section id="menu_bg">
+    <div class="container">
+		<nav id="menu" class="main-navigation" role="navigation">
+			<ul id ="mainmenu"><li class="liindex active"><a href="index.html">Home</a></li><li class="liabout-us"><a href="about-us.html">About us</a><div class="ul" >
+			<style>
+			.about-us {			
+			min-height: 216px;
+			width: 437px;
+			
+			background: rgba(255,255,255,1) url(http://www.hillsidevets.co.uk/files/About_Hillside.png) no-repeat bottom right;
+			background: url(http://www.hillsidevets.co.uk/files/About_Hillside.png) no-repeat bottom right, -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/About_Hillside.png) no-repeat bottom right, -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(243,249,237,1)));
+			background: url(http://www.hillsidevets.co.uk/files/About_Hillside.png) no-repeat bottom right, -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/About_Hillside.png) no-repeat bottom right, -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/About_Hillside.png) no-repeat bottom right, -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background:  url(http://www.hillsidevets.co.uk/files/About_Hillside.png) no-repeat bottom right, linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f9ed', GradientType=0 );
+			
+			}
+			.about-us2 {
+			width: 250px;
+			}
+			</style>
+			<div class="menux about-us">
+			<div class="about-us2">
+			<ul>
+			<li><a href="about-us/blog.html">Latest news</a></li><li><a href="about-us/special-offers.html">Special offers</a></li><hr><p class="fleft">"Every one at Hillside is kind and caring and always has the time and a smile no matter how much pressure they are under"</p>
+<p style="text-align: right;"><strong>Tilleys</strong></p>
+			</ul>
+			</div>
+			</div>
+			
+			</div></li><li class="liour-team"><a href="our-team.html">Our team</a></li><li class="lifacilities"><a href="facilities.html">Our facilities</a></li><li class="liour-services"><a href="our-services.html">Our services</a><div class="ul" >
+			<style>
+			.our-services {			
+			min-height: 216px;
+			width: 437px;
+			
+			background: rgba(255,255,255,1) url(http://www.hillsidevets.co.uk/files/Eric_3.png) no-repeat bottom right;
+			background: url(http://www.hillsidevets.co.uk/files/Eric_3.png) no-repeat bottom right, -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/Eric_3.png) no-repeat bottom right, -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(243,249,237,1)));
+			background: url(http://www.hillsidevets.co.uk/files/Eric_3.png) no-repeat bottom right, -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/Eric_3.png) no-repeat bottom right, -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/Eric_3.png) no-repeat bottom right, -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background:  url(http://www.hillsidevets.co.uk/files/Eric_3.png) no-repeat bottom right, linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f9ed', GradientType=0 );
+			
+			}
+			.our-services2 {
+			width: 250px;
+			}
+			</style>
+			<div class="menux our-services">
+			<div class="our-services2">
+			<ul>
+			<li><a href="our-services/clinics.html">Clinics</a><ul class="subsubmenu"><li><a href="our-services/clinics/healthy-hopper.html">Healthy hopper clinics</a><li><a href="our-services/clinics/old-friends.html">Old friends</a><li><a href="our-services/clinics/puppy-parties.html">Puppy parties</a><li><a href="our-services/clinics/weight-watchers.html">Weight watchers</a></ul></li><li><a href="our-services/home-visits.html">Home visits</a></li><li><a href="our-services/the-last-service.html">Loss of a pet</a></li><li><a href="our-services/operations.html">Operations and anaesthetics</a></li><li><a href="our-services/out-of-hours.html">Out of hours</a></li><li><a href="our-services/veterinary-acupuncture.html">Veterinary acupuncture</a></li><hr><p>"I cannot recommend Hillside vets enough! My pugs Teddy and Dolly love coming and they've been quite a lot! Everyone is so lovely."</p>
+<p style="text-align: right;"><strong>Teddy and Dolly</strong></p>
+			</ul>
+			</div>
+			</div>
+			
+			</div></li><li class="ligalleries"><a href="galleries.html">Galleries</a></li><li class="lipet-guidance"><a href="pet-guidance.html">Pet guidance</a><div class="ul" >
+			<style>
+			.pet-guidance {			
+			min-height: 216px;
+			width: 437px;
+			
+			background: rgba(255,255,255,1) url(http://www.hillsidevets.co.uk/files/Cat.png) no-repeat bottom right;
+			background: url(http://www.hillsidevets.co.uk/files/Cat.png) no-repeat bottom right, -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/Cat.png) no-repeat bottom right, -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(243,249,237,1)));
+			background: url(http://www.hillsidevets.co.uk/files/Cat.png) no-repeat bottom right, -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/Cat.png) no-repeat bottom right, -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/Cat.png) no-repeat bottom right, -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background:  url(http://www.hillsidevets.co.uk/files/Cat.png) no-repeat bottom right, linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f9ed', GradientType=0 );
+			
+			}
+			.pet-guidance2 {
+			width: 250px;
+			}
+			</style>
+			<div class="menux pet-guidance">
+			<div class="pet-guidance2">
+			<ul>
+			<li><a href="pet-guidance/cats.html">Cats</a></li><li><a href="pet-guidance/chickens.html">Chickens</a></li><li><a href="pet-guidance/dogs.html">Dogs</a></li><li><a href="pet-guidance/first-aid.html">First aid</a></li><li><a href="pet-guidance/holiday-check.html">Holiday checklist</a></li><li><a href="pet-guidance/micro-chipping.html">Microchipping</a></li><li><a href="pet-guidance/neutering.html">Neutering</a></li><li><a href="pet-guidance/nutrition.html">Nutrition</a></li><li><a href="pet-guidance/other-childrens-pets.html">Other children's pets</a></li><li><a href="pet-guidance/pet-dentist.html">Pet Dentistry</a></li><li><a href="pet-guidance/pet-insurance.html">Pet Insurance</a></li><li><a href="pet-guidance/pets-passport.html">PETS Passport</a></li><li><a href="pet-guidance/rabbits.html">Rabbits</a></li><hr><p>"Wonderful service. Friendly, compassionate and nothing is ever too much trouble"</p>
+<p style="text-align: right;"><strong>Karen Thomson</strong></p>
+			</ul>
+			</div>
+			</div>
+			
+			</div></li><li class="lihelpful-information"><a href="helpful-information.html">Helpful information</a><div class="ul" >
+			<style>
+			.helpful-information {			
+			min-height: 216px;
+			width: 437px;
+			
+			background: rgba(255,255,255,1) url(http://www.hillsidevets.co.uk/files/Helpful_info_1.png) no-repeat bottom right;
+			background: url(http://www.hillsidevets.co.uk/files/Helpful_info_1.png) no-repeat bottom right, -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/Helpful_info_1.png) no-repeat bottom right, -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(243,249,237,1)));
+			background: url(http://www.hillsidevets.co.uk/files/Helpful_info_1.png) no-repeat bottom right, -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/Helpful_info_1.png) no-repeat bottom right, -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/Helpful_info_1.png) no-repeat bottom right, -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background:  url(http://www.hillsidevets.co.uk/files/Helpful_info_1.png) no-repeat bottom right, linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f9ed', GradientType=0 );
+			
+			}
+			.helpful-information2 {
+			width: 250px;
+			}
+			</style>
+			<div class="menux helpful-information">
+			<div class="helpful-information2">
+			<ul>
+			<li><a href="helpful-information/newsletters.html">Newsletters</a></li><li><a href="helpful-information/our-kids-space.html">Our kids' space</a></li><li><a href="pet-guidance/holiday-check/pets-passport.html">PETS Passport</a></li><li><a href="helpful-information/rcvs-practice-standards.html">RCVS practice standards</a></li><li><a href="helpful-information/useful-links.html">Useful links</a></li><hr><p style="text-align: left;">"We have been clients now for many years and have always had first class service. Chris was wonderful with our cat Ollie through her illnesses and ensured she had a painless and dignified exit from this life."</p>
+<p style="text-align: right;"><strong>Tricia H<br /></strong></p>
+			</ul>
+			</div>
+			</div>
+			
+			</div></li><li class="licontact-us"><a href="contact-us.html">Contact us</a><div class="ul" style="left:-350px">
+			<style>
+			.contact-us {			
+			min-height: 216px;
+			width: 437px;
+			
+			background: rgba(255,255,255,1) url(http://www.hillsidevets.co.uk/files/ContactUs.png) no-repeat bottom right;
+			background: url(http://www.hillsidevets.co.uk/files/ContactUs.png) no-repeat bottom right, -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/ContactUs.png) no-repeat bottom right, -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(243,249,237,1)));
+			background: url(http://www.hillsidevets.co.uk/files/ContactUs.png) no-repeat bottom right, -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/ContactUs.png) no-repeat bottom right, -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background: url(http://www.hillsidevets.co.uk/files/ContactUs.png) no-repeat bottom right, -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			background:  url(http://www.hillsidevets.co.uk/files/ContactUs.png) no-repeat bottom right, linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(243,249,237,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f9ed', GradientType=0 );
+			
+			}
+			.contact-us2 {
+			width: 250px;
+			}
+			</style>
+			<div class="menux contact-us">
+			<div class="contact-us2">
+			<ul>
+			<li><a href="contact-us/repeat-prescriptions.html">Repeat prescriptions</a></li><li><a href="contact-us/terms-and-conditions.html">Terms and conditions</a></li><hr><p>"I cannot praise all of the Vets, Nurses and staff at Hillside highly enough. Mac the Westie is coming up 12 years old and he has been a 'patient' since he was 14 weeks old.&rdquo;</p>
+<p style="text-align: right;"><strong>Karen Thomson&nbsp;</strong></p>
+			</ul>
+			</div>
+			</div>
+			
+			</div></li></ul>
+        </nav>
+		<script>	
+			var navigation = responsiveNav("menu", { insert: "before" });
+		</script>
+    </div>
+</section>
+
+<div class="container">
+<div id="animation">
+	
+		<div id="images">
+			<div id="nivoslider" class="nivoSlider"><img src="files/Love_your_Pet_1_jq.jpg" alt="Love Your Pet" /><img src="files/VeterinaryCare_jq.jpg" alt="Veterinary Care" /><a target="_blank" href="http://www.petplan.co.uk/voucher?agent=1100051037&campaign=VETWEBVC &Code=GVET "><img src="files/petplan_jq.jpg" alt="Pet Plan Insurance" /></a><img src="files/image1_jq.jpg" alt="Home" />
+			</div>
+			<script type="text/javascript">
+			$(window).load(function() {
+				$('#nivoslider').nivoSlider({
+					effect: 'fade',
+					slices: 15,
+					animSpeed: 500,
+					pauseTime: 5000,
+					directionNav: true,
+					controlNav: false,
+					controlNavThumbs: false,
+					pauseOnHover: false
+				});
+			});
+			</script>
+		</div>
+</div>
+</div>
+
+<div class="container">
+	<div id="boxes">
+    	<div class="box">
+			<img src="templates/img/box1.jpg" width="212" height="128" alt="Our facilities">
+			
+					<div id="box12" class="section box1"><p><a class="title" href="facilities.html">Our<br /><strong>facilities</strong></a></p>
+<p>Find out more about the facilities we have at Hillside Vets &ndash; modern, clean and inviting to both&nbsp;you<br />and your pets.</p><div class="clear"></div>
+					</div>
+		</div>
+        <div class="box">
+			<img src="templates/img/box2.jpg" width="212" height="128" alt="Pet guidance">
+            
+					<div id="box23" class="section box2"><p><a class="title" href="pet-guidance.html">Pet<br /><strong>guidance</strong></a></p>
+<p>We have put together some useful pet guidance sheets which should be used for general information purposes only. Where you are concerned about your pet&rsquo;s health in any way you should always call us to make an appointment.</p><div class="clear"></div>
+					</div>
+		</div>
+        <div class="box">
+			<img src="templates/img/box3.jpg" width="212" height="128" alt="Special offers">
+            
+					<div id="box34" class="section box3"><p><a class="title" href="about-us/special-offers.html">Pet<br /><strong>special offers</strong></a></p>
+<p>The place to find our special offers - these will change from time to time. Please note, that you must be a registered client of Hillside Vets in order to take up any of our offers.</p><div class="clear"></div>
+					</div>
+		</div>
+        <div  class="box">
+			<img src="templates/img/box4.jpg" width="212" height="128" alt="Meet the team">
+            
+					<div id="box45" class="section box4"><p><a class="title" href="our-team.html">Meet<br /><strong>the team</strong></a></p>
+<p>We have an amazing young team of enthusiastic, animal loving professionals at Hillside - find out a little bit more about us here.</p><div class="clear"></div>
+					</div>
+		</div>
+        <div class="clear"></div>
+	</div>
+    <div class="fleft">
+					<div id="banner_left8" class="section banner_left"><p><a href="helpful-information/our-kids-space.html"><img src="files/OurKidsSpace.jpg" alt="" width="474" height="78" /></a></p><div class="clear"></div>
+					</div></div>
+    <div class="fright">
+					<div id="banner_right9" class="section banner_right"><p><a href="contact-us/repeat-prescriptions.html"><img src="files/RepeatPrescriptions_1.png" alt="" width="474" height="78" /></a></p><div class="clear"></div>
+					</div></div>
+    <div class="clear"></div>
+</div>
+
+
+<div class="container">
+	<section id="blog">
+    	<div class="fleft width48">
+        	
+					<div id="video7" class="section video"><p><iframe src="http://www.youtube.com/embed/Z6_ArCl9_WE" width="560" height="331" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p><div class="clear"></div>
+					</div>
+        </div>
+		
+        <div class="fright width48">
+        	<span class="title">Blog</span>
+                                                <div class="nrow">
+                        <h1><a href="blog/recent/compulsory-microchipping-act-april-2016-dogs-.html">Is your dog microchipped?</a></h1>
+						<p><a href="blog/recent/compulsory-microchipping-act-april-2016-dogs-.html">The Compulsory Microchipping Act will come into force in April this year...</a></p>
+                        <div class="ndate">28th January 2016</div>
+                        <div class="nsummary"><p>This is the only permanent way of identifying your dog (or other pet) should they become lost.</p></div>						<a href="blog/recent/compulsory-microchipping-act-april-2016-dogs-.html" class="more">read more</a>
+                    </div>
+                                    <div class="nrow">
+                        <h1><a href="blog/recent/pyometria_infected_uterus_seen_in_a_female_dog.html">A bad case of an infected uterus 'Pyometria' seen recently at the surgery</a></h1>
+						<p><a href="blog/recent/pyometria_infected_uterus_seen_in_a_female_dog.html">One of the reasons we always recommend neutering...</a></p>
+                        <div class="ndate">7th January 2016</div>
+                        <div class="nsummary"><p>This post isn't for the faint-hearted - so if you're feeling a little squeamish then just scroll on, but it's an important message that we wanted to share with you.</p>
+<p>&nbsp;</p></div>						<a href="blog/recent/pyometria_infected_uterus_seen_in_a_female_dog.html" class="more">read more</a>
+                    </div>
+                                    </div>
+        <div class="clear"></div>
+		
+	</section>
+</div>
+
+
+
+
+<div class="container">
+    <div id="testimonials">
+        <span class="title">Testimonials</span>
+        
+					<div id="home_testimonials6" class="section home_testimonials"><p>The staff are always pleasant and take time to talk. Keith is always caring and gentle towards my cats when they've visited. I like how a text message is sent when the cats need either their flea treatment or wormer.</p><div class="clear"></div>
+					</div>
+        <div class="clear"></div>
+    </div>
+	<div id="twitterfeed">
+    	<div id="dog"><img src="templates/img/twitter_dog.png" width="171" height="233"></div>
+		<a class="twitter-timeline" href="https://twitter.com/HillsideVets" data-widget-id="495130989291520000" width="350" height="220" data-theme="light" data-link-color="#759933" data-chrome="nofooter transparent">@HillsideVets</a>
+    
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    
+	</div>
+    <div class="clear"></div>
+</div>
+
+
+<div class="container">
+	<div class="banner_full">
+    	
+				<div id="banner_bottom1">
+<div class="fleft"><a href="about-us/blog.html"><img src="files/Latest_News_1.png" alt="Latest News" width="474" height="164" /></a></div>
+<div class="frighthome">
+<script src="http://www.vethelpdirect.com/review-widget.php?id=1440&amp;width=474&amp;height=164&amp;type=1&amp;count=5&amp;color=94bfc6&amp;color2= 94bfc6&amp;logo=1&amp;text=Our+Reviews"></script>
+<a id="vhd_recommendations" href="http://www.vethelpdirect.com">VetHelpDirect</a></div>
+<p><a href="http://www.petplan.co.uk/voucher?agent=1100051037&amp;campaign=VETWEBVC%20&amp;Code=GVET" target="_blank"><img src="files/box_petplan.png" alt="Pet Plan" width="977" height="78" /></a></p>
+				</div>
+    </div>
+</div>
+
+<footer>
+	<div class="container">
+    	<div class="fbox1">
+        	
+			<ul id="footmenu">
+				<li class="site-map"><a href="site-map.html">Sitemap</a></li>
+				<li class="cookie-policy"><a href="cookie-policy.html">Cookie policy</a></li>
+			</ul>
+		</div>
+        <div class="fbox2">
+			t: 01202 698899<br>
+			e: <a href="contact-us.html">mail@hillsidevets.co.uk</a>
+            <div id="foot_socials">
+                <a target="_blank" href="https://www.facebook.com/pages/Hillside-Veterinary-Centre/124657147585232"><img src="templates/img/foot_fb.png" alt="facebook"></a>
+                <a target="_blank" href="https://twitter.com/HillsideVets1"><img src="templates/img/foot_tw.png" alt="twitter"></a>
+                <a target="_blank" href="http://in.pinterest.com/hillsidevets/"><img src="templates/img/foot_pin.png" alt="pinterest"></a>
+                <a target="_blank" href="http://www.youtube.com/channel/UCHnJAyEecTbf03m96a9ADuw"><img src="templates/img/foot_yt.png" alt="youtube"></a>
+                <a target="_blank" href="https://plus.google.com/107857557347970854296/about"><img src="templates/img/foot_g.png" alt="google"></a>
+            </div>
+		</div>
+        <div class="fbox3">
+        	
+				<div id="foothours1">
+<div class="contact_l">Opening hours:<br /> Monday - Friday<br /> Wednesdays<br /> Saturday<br /> Consultations</div>
+<div class="contact_r"><br /> 8:30am - 6:30pm<br /> 8:30am - 8:00pm<br /> 8:30am - 5:00pm<br /> By appointment</div>
+<div class="clear">&nbsp;</div>
+<div>Out of hours emergency cover with<br /> Vets Now Ltd t: 01202 859933</div>
+				</div>
+		</div>
+		<div class="fbox4">
+        	<span class="newsletter_title" id="newsletter">Newsletter</span>
+        	<span class="newsletter_desc">Sign up to receive our quarterly newsletter</span>
+			
+	<a name="newsletter"></a>
+	<form action="/#newsletter" method="post" id="newsletter" class="form" >
+					<input type="hidden" value="1" name="newsletter">
+					<input type="email" value="" name="email" placeholder="Enter Your Email" class="input req" required>
+					<input type="submit" value="Sign Up" class="btnn">
+					</form>
+		</div>
+        <div class="clear"></div>
+        
+        <div id="copyright">        
+			© Copyright 2013 - 2016, Hillside Vets. All rights reserved. <a href="http://www.bespoke4business.com/" target="_blank">Web Design &amp; Development</a>: <a href="http://www.bespoke4business.com/" target="_blank">Bespoke4Business.com</a>
+		</div>
+	</div>
+</footer>
+
+
+	<div id="cookiecontrol">
+		<div id="cookiewrapper">
+			<span id="cookiepolicytxt">This site uses some unobtrusive cookies to store information on your computer. By using our site you accept our <a href="cookie-policy.html">Terms And Conditions and Privacy Policy</a>.</span>
+			<a style="cursor: pointer;" id="cookieclose">×</a>
+		</div>
+	</div>
+	<style type="text/css">
+		#cookiecontrol { position: fixed; bottom: 0; width: 100%; border-top: solid 1px #000000; background: rgba(0,0,0,0.8); color: #ffffff; z-index: 99999; }
+		#cookiewrapper { max-width: 960px; min-height: 30px; margin: 0 auto; padding: 10px 40px 10px 20px; text-align: left; position: relative; }
+		#cookiepolicytxt { font-size: 11px; }
+		#cookieclose { position: absolute; top: 0px; right: 10px; display: block; font-size: 25px; }
+		#cookieclose:hover { color: #666666; text-decoration: none; }
+		#cookiewrapper a { color: #ffffff; font-weight: bold; }
+		#cookiewrapper a:hover { color: #ff0000; font-weight: bold; }
+	</style>
+	<script src="http://www.hillsidevets.co.uk/templates/lib/jquery.cookie.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			var date = new Date();
+			date.setTime(date.getTime() + 31536000000);
+			if( $.cookie('cookieagreed') != "true" )
+				$.cookie( 'cookieagreed', 'false', { expires: date } );
+			$("#cookieclose").click(function() {
+				$.cookie( 'cookieagreed', 'true', { expires: date } );
+				$("#cookiecontrol").toggle();
+			});
+		});
+	</script>
+
+</body>
+</html>

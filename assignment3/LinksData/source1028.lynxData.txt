@@ -1,0 +1,27 @@
+   ERROR 502 - BAD GATEWAY
+
+[1]Why am I seeing this page?
+
+   The server that your request has reached is acting as a gateway or
+   proxy to fulfil the request made by your client.
+
+   Web Browser => Web Front-End => Web Back-End
+
+   This server (Web Front-End) received an invalid response from an
+   upstream (Web Back-End) server it accessed to fulfil the request.
+
+   In most cases this will not mean that the upstream server is down, but
+   rather that the upstream server and the gateway/proxy do not agree on
+   the protocol for exchanging data.
+
+   This problem is most commonly caused when there is a problem with IP
+   communications between the Web Front and Back-Ends. Before you attempt
+   to resolve this problem you should clear your browser cache completely.
+
+   Our support staff will be happy to assist you in resolving this issue.
+   Please contact our Live Support or reply to any Tickets you may have
+   received from our technicians for further assistance.
+
+References
+
+   1. file:///home/ctay/cs432/Asst3/source1028.txt

@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta name="robots" content="nofollow" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, post-check=0, pre-check=0" />
+	<meta http-equiv="Expires" content="Thu, 01 Dec 1994 16:00:00 GMT" />
+	<title>にわ(@niwa28yc)のプロフィール - ツイフィール</title>
+	<meta property="og:locale" content="ja_JP" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://twpf.jp/niwa28yc" />
+	<meta property="og:image" content="http://pbs.twimg.com/profile_images/695735639593996288/wBENwR-G_normal.png" />
+	<meta property="og:title" content="にわ(@niwa28yc)のプロフィール - ツイフィール" />
+	<meta property="og:site_name" content="ツイフィール" />
+	<meta property="og:description" content="@にわ(@niwa28yc)さんのプロフィールです。" />
+	<meta name="description" content="@にわ(@niwa28yc)さんのプロフィールです。" />
+	<link rel="alternate" media="handheld" href="http://twpf.jp/niwa28yc" />
+	<link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" type="text/css" href="/css/common.css?1407302277" />
+	<link rel="stylesheet" type="text/css" href="/css/style_default.css?1407302277" />
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.laquu.custom.js?1407302279"></script>
+	<script type="text/javascript" src="/js/style_default.js?1407302280"></script>
+	<script type="text/javascript" src="/js/showFeed.js?1407302280"></script>
+	<style type="text/css">
+		body {
+							background-image: url("http://abs.twimg.com/images/themes/theme2/bg.gif");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+						background-color: #C6E2EE !important;
+		}
+		#container a { color: #F5ABB5 !important; }
+	</style>
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push( [ '_setAccount', 'UA-11147513-7' ]);
+	_gaq.push( [ '_trackPageview' ]);
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+<div id="topbar">
+	<div class="wrapper cf">
+		<div id="topbar-logo"><a href="/"><img src="/img/twpf-logo-mini.png?1407302278" alt="" /></a></div>
+		<ul id="topbar-navi">
+			<li><a href="/about">サイトについて</a></li>
+			<li><a href="/search/profile">プロフィール検索</a></li>
+			<li><a href="#">遊ぶ▼</a>
+				<ul>
+					<li><a href="http://tonchi.jp/" target="_blank">大喜利する</a></li>
+					<li><a href="http://qa-note.com/" target="_blank">質問する</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul id="topbar-login-navi">
+							<li><a href="/signup">プロフィール作成</a></li>
+				<li><a href="/login">ログイン</a></li>
+					</ul>
+	</div>
+</div>
+<div id="container">
+	<div id="header">
+	<h1 id="h-profile">niwa28yc's Profile</h1>
+	<div id="twitter-user" class="box">
+		<div class="pad">
+			<table id="user">
+				<tr>
+					<td id="user-icon">
+						<a href="https://twitter.com/niwa28yc" title="niwa28yc" target="_blank" rel="nofollow"><img src="http://pbs.twimg.com/profile_images/695735639593996288/wBENwR-G_reasonably_small.png" alt="niwa28yc" /></a>					</td>
+					<td id="user-info">
+						<div class="uib-top uib-bottom clearfix">
+							<h2 id="h-screen-name" class="ui-top">ユーザー名</h2>
+							<p class="ui-top"><a href="https://twitter.com/niwa28yc" target="_blank" rel="nofollow">@niwa28yc</a></p>
+						</div>
+						<div class="uib-bottom clearfix">
+							<h2 id="h-name">名前</h2>
+							<p>にわ</p>
+						</div>
+																		<div class="uib-bottom clearfix">
+							<h2 id="h-web">Web</h2>
+							<p><a href="http://twpf.jp/niwa28yc" title="http://twpf.jp/niwa28yc" target="_blank" rel="nofollow">http://twpf.jp/niwa28yc</a></p>
+						</div>
+											</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<div id="contents" class="clearfix">
+	<div class="tabs">
+		<ul class="tab">
+			<li><a href="#profile">プロフィール</a></li>
+			<li><a href="#data">データ</a></li>
+								</ul>
+
+		<div id="profile" class="tab-panel">
+			<div class="box">
+				<h2 id="h-description">自己紹介</h2>
+				<div class="pad">自由気ままに呟いたり絵を描いたりしております。あんスタ朱桜司/朔間凛月/knights推し。NL好きです語ります(ナイツ×転校生多め)。騒がしいですが、ゆるっとよろしくお願いします</div>
+			</div>
+
+			<div class="box">
+				<h2 id="h-motto">もっと自己紹介</h2>
+				<div class="pad">初めまして！こんにちは。にわと申します。<br />
+成人済み。あんすたと食べることが好きです。<br />
+<br />
+当アカウントではさまざまなジャンルのものから日常のことまで雑多に呟いております。<br />
+TL上で会話をすることも多々ある故、とても騒がしいです。<br />
+<br />
+あんスタ関連のツイート多めです。<br />
+朱桜司/朔間凛月/knights箱推し(流星隊、トリスタ、2winkも好きです)<br />
+NL(あんずちゃん受け)が好き。突然NL語りますのご注意ください。<br />
+好きCP→knightsあん、まこあん、まおあん、みどあん、ちああん<br />
+あんスタのBLはあまり食べません。×ではなく+よりならOKです。<br />
+<br />
+<br />
+他、好きなもの<br />
+ゲーム：牧場物語シリーズ、英雄伝説閃の軌跡、ディスガイア、ポケモン、戦国BASARA、逆転裁判、ぼくのなつやすみ、ペルソナ４、ダンガンロンパ等<br />
+キャラクター：なめこ、ふなっしー<br />
+歌手：飛蘭、藍井エイル、黒崎真音、佐咲紗花、橋本みゆき、西沢はぐみ、織田かおり、AiRI、Duca、fhana等(女性アニソン歌手が好き)<br />
+たまに呟く程度ですが、共通の好きがありましたら是非語って頂けると嬉しいです。<br />
+<br />
+pixivやってますが、最近はツイッターメインです<br />
+<a href="http://twpf.jp/home/jump?p=http%253A%252F%252Fpixiv.me%252Fmame222" target="_blank" rel="nofollow external">http://pixiv.me/mame222</a><br />
+<br />
+呼びタメ大歓迎です(お気軽にお話して頂けると喜びます)<br />
+同じ傾向(NL好きさん、もしくは地雷ではない方)であればですが、リプ頂ければフォロバさせて頂きたく思っております。<br />
+色々と面倒な奴ではありますが、宜しくお願い致します。<br />
+<br />
+※登録日は2013年6月となっておりますが、呟き始めたのは2015年8月26日になります。</div>
+			</div>
+
+			
+			
+			
+					</div>
+
+		<div id="data" class="tab-panel">
+			<div class="box">
+				<h2 id="h-count">カウントデータ</h2>
+				<div class="pad">
+					<table id="tbl-count">
+						<tbody>
+							<tr>
+								<th>フォロー</th><td>132</td>
+								<th>お気に入り</th><td>4,939</td>
+							</tr>
+							<tr>
+								<th>フォロワー</th><td>1,031</td>
+								<th>リスト</th><td>49</td>
+							</tr>
+							<tr>
+								<th>ツイート</th><td>7,944</td>
+								<th>平均ツイート</th><td>8.1 / 日</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="box">
+				<h2 id="h-date">日付データ</h2>
+				<div class="pad">
+					<table id="tbl-date">
+						<tbody>
+							<tr>
+								<th>Twitter歴</th><td>981日</td>
+								<th>プロフ作成日</th><td>2015/12/02 15:24</td>
+							</tr>
+							<tr>
+								<th>Twitter登録日</th><td>2013/06/13 23:29</td>
+								<th>プロフ更新日</th><td>2016/01/10 12:59</td>
+							</tr>
+							<tr>
+								<th>API取得完了</th><td>2016/02/12 06:37</td>
+								<th>API取得予定</th><td>2016/02/13 06:37</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+			</div>
+
+</div>
+<div class="pr">	
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8179295293876270";
+/* twpf.jp big */
+google_ad_slot = "5297021042";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<div id="footer">
+	<p>&copy; 2010-2016 <a href="/">ツイフィール</a></p>
+</div></div>
+</body>
+</html>

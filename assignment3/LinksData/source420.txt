@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta name="viewport" content="width=780, initial-scale=1">
+
+        <meta name="description" content="Ebay bid at the last second. Easiest free sniper service. No download required. auction sniping, Auction Script, eBay bidding software, Bidding Software, auctions, ebay misspelling search, snipe it, proxy bid, bid sniping, selling on Amazon, auction bid, auto snipe, ebay bid sniper, last minute auctionmanagement, ebay sniping, letzte sekunde, powersnipe, buying on eBay, free ebay sniper, Online Auction Software, software, EZ sniper, bid sniper, auction scheduler, auction templates, scheduling, auction tool, free sniperfree ebay sniper, Sniping, eBay software, auto bid, esniper, ebay-sniper, Auction Portal Software, onlineAuction management, eBay auction sniping, ebay bidder, ebay sniping service, storefront, eBay templates, auctionsniperBidding Scheduler, eBay sniper.ebay snipe, auctionsniper, Auction Site Software, selling on eBayauction bid, Ebay Clone Software.Bidding Software, Software, bidding software, automated, last second bid, online auction software, image hosting, auction sniper, free, auction bidding, templates, auktionen, online, Auction Script Software, Auction, auction snipe, bid, auctionsniperAuction Software, AJ Auction Pro, auction software, snipe, bid napper, bidder, sniping, sniper, eBay sniper, auction snipes, allegro, store, bid snipe, agent, ebay snipe, last second bidding, free ebay sniperauction sniper, eBay bidding, last second, e snipeebay auction sniper, sniping software; free eBay sniping; free eBay auction sniperauction sniper, tool, stealerbietagent, e snipesnip, eBay sniping, eBay tool, online auction, snip it, auctionstealer, automated bid, e snipe, ebay bid snipe, automated bidding, ebay automatic bidderebay, auction websites, auction bid sniping, misspelling search, free auction sniper, sniperfree online auction site sniping software esniper ebay snipe site e snipe auctions ebay auction sniper site bid sniper free auctioneBay, automatic sniperauction, misspell search, fatfingers, ebay search, Andale, lister, esnipe, ebay bidding, ebay, ebay auction sniper, eBay bidding softwareebay snipe, ezsniper, online bidding, Ebay Auction Clone, management, free ebay snipeBidding Scheduler, bidding softwareauction, automatic, auction watch, gebotsagent, snipeauction management, eBay bargain finder, Snipe, bidding, free sniper, Ebay Clone.free ebay auction sniper, auction stealer, auction sites, service, listing tool, Php Auction Software, online store, ebay software, ebay sniper, ebay auction sniping, auction, auto bidding, auction sniping software, auction misspelling search, bid snipingauction sniper, ">
+            <meta name="keywords" content="Ebay bid at the last second. Easiest free sniper service. No download required.">
+                <meta name="author" content="Ebay Sniper">
+                    <meta charset="UTF-8">
+                        <title>Youbidder - Last Second Bid on eBay items. The free and easy Last Second Bidding sniper.</title>
+
+                        <link rel="stylesheet" type="text/css" href="/css/main.css">
+                            <link type="text/css" rel="stylesheet" href="/css/jquery.dropdown.css" />
+                            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+                            <script type="text/javascript" src="/js/main.js"></script>
+                            <script type="text/javascript" src="/js/jquery.dropdown.js"></script>
+
+                            <script src="/js/jquery.bpopup.min"></script>
+
+                            <script>
+
+                                function popUp() {
+
+                                    $('popUpDiv').bPopup();
+
+                                }
+                                // Semicolon (;) to ensure closing of earlier scripting
+
+                                // Encapsulation
+
+                                // $ is assigned to jQuery
+
+                                ;
+                                (function ($) {
+
+                                    // DOM Ready
+
+                                    $(function () {
+
+                                        // Binding a click event
+
+                                        // From jQuery v.1.7.0 use .on() instead of .bind()
+
+                                        $('#my-button').bind('click', function (e) {
+
+                                            // Prevents the default action to be triggered. 
+
+                                            e.preventDefault();
+
+                                            // Triggering bPopup when click event is fired
+
+                                            $('#element_to_pop_up').bPopup();
+
+                                        });
+
+                                    });
+
+                                })(jQuery);
+                                (function ($) {
+
+                                    // DOM Ready
+
+                                    $(function () {
+
+                                        // Binding a click event
+
+                                        // From jQuery v.1.7.0 use .on() instead of .bind()
+
+                                        $('#my-button-email').bind('click', function (e) {
+
+                                            // Prevents the default action to be triggered. 
+
+                                            e.preventDefault();
+
+                                            // Triggering bPopup when click event is fired
+
+                                            $('#element_to_pop_up_email').bPopup();
+
+                                        });
+
+                                    });
+
+                                })(jQuery);
+
+                            </script>
+
+                            <script>function validateTextNumericInRange(textInputId, i, min) {
+
+                                    var textInput = document.getElementById(textInputId + i);
+
+                                    var currencyTypeInput = document.getElementById('currencyType' + i).value;
+
+                                    var value = parseInt(textInput.value, 10);
+
+                                    if (!isNaN(value) && value < min) {
+
+                                        /*
+                                             
+                                         document.getElementById(textInputId).value = min;
+                                             
+                                         */
+
+                                        document.getElementById('snipeWarning' + i).innerHTML = '<br />Bid under Minimum Bid Required of ' + currencyTypeInput + min;
+
+                                    }
+
+                                }
+
+                            </script>    <style>
+
+                                #element_to_pop_up { display:none; }
+
+                            </style>
+
+                            </head>
+
+                            <body><div class="topHang">
+
+                                    <div class="topHangContainer">
+
+                                        <div class="hangLeft">
+
+                                            <a href="/"><img src="/images/logoTopLeft.png" align="left" class="logo" /></a>
+
+                                        </div>
+
+                                        <div class="hangRight">
+                                                <div class="loginBox">
+
+                                                    <div class="loginHeading">
+
+    
+
+                                                            <form id="ebayLogin" class="form" action="/loginEbay.php">
+
+                                                                <strong>Ebay Username</strong>:
+
+                                                                <input type="text" class="loginInput" name="username" /> 
+
+                                                                <strong>Ebay Password: </strong>
+
+                                                                <input type="password" id="passwordInput" class="loginInput" name="password" /> 
+
+                                                                <input type="hidden" name="unlimited" value="">
+                                                                    <a href="javascript:void(0);" onclick="formSubmit('ebayLogin');" class="button-login">Login</a>
+
+                                                                    <input type="submit" class="hidden">
+
+                                                                        </form>
+
+
+
+                                                                        
+                                                                        </div>
+
+                                                                        </div>
+                                                                            </div>
+
+                                                                    </div>
+
+                                                                    </div>
+
+    
+<noscript>
+Please enable Javascript <a href="https://www.google.com/search?q=how+to+enable+javascript">in your browser</a>
+</noscript>
+
+
+    <div class="pageFiller ">
+
+        <div class="pageFillerLeft">
+
+            <h1>Last Second Bid Ebay Items</h1>
+
+            <h2><span class="learnMore"><a href="" id="my-button">How It Works</a></span><!-- Button that triggers the popup -->
+
+
+                <!-- Element to pop up -->
+
+                <div id="element_to_pop_up">
+
+                    <div class="box">
+
+                        <div class="b-close link closeBox"><a href="">Close</a></div>   
+
+                        <div class="dashHeading">How it works</div>
+
+                        Youbidder automates the process of placing your Ebay auction bid in the closing few seconds. This increases your chance of winning and avoids bidding wars. 
+
+
+                        <ul>
+
+                            <li>Youbidder places your bid seconds before the auction closes</li>
+
+                            <li>It's automatic (your computer does not need to be on)</li>
+
+                            <li>You can track your auctions (notifies if you win or are outbid)</li>
+
+
+
+                            <li>No download required </li>
+
+                        </ul><a href="/Recommend-Free-Sniping-Last-Second-Ebay-Auction-Bid.html">Spread the word to Ebay users and help everyone get the price they want.</a>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+                <div ><form id="snipeForm" action="/Bid/" class="formSpace">
+
+                        <input type="text" name="item" id="snipeInput" class="snipInput" onfocus="inputFocus(this);" onblur="inputBlur(this);" style="color:#888;" value="Enter Ebay auction URL or Item ID" />
+
+                        <span class="button-link button-snipe"><a href="" onclick="replaceWord('snipeInput');
+                                                                    snipeSubmit();
+                                                                    return false;" class="">Last Second Bid <img src="/images/crosshair.png" /></a></span>
+
+                </div>
+
+                <input type="submit" class="hidden" onclick="replaceWord('snipeInput');" >
+
+                </form>
+                        <span class="learnMore"></span>
+                </div>
+
+
+
+                </div>
+
+                
+            <div class="footer">
+        <a href="/How-Last-Second-Bidding-Sniping-Works.html">How It Works</a> •
+    <a href="/Download-Free-Addon-Extension-ToolBar.html">1-Click Button</a> •
+    <a href="/Contact-Youbidder-Let-Us-Know-Any-Problems-Feature-Requests.html">Contact Us or Report a Problem</a> <br/>
+        <a href="/ProAccount/">Unlimited Last Second Bids</a> •
+
+
+    <a href="/Recommend-Free-Sniping-Last-Second-Ebay-Auction-Bid.html">Share and Earn Unlimited Last Second Bids</a>
+        <br/><a href="http://traderdamus.com" target="_blank" title="Visit and sign up for the newsletter to have your money compound automatically.">From the makers of Youbidder... Our New Site!: Traderdamus.com</a> </div>
+<div id="dropdown-useroptions" class="dropdown dropdown-tip">
+    <ul class="dropdown-menu">
+        <li>
+            <div class="align-left">We notify you ahead of time if your Last Second Bid is too low to bid at the last
+                second. Items checked hourly.
+            </div>
+        </li>
+        <li class="dropdown-divider"></li>
+        <li>
+            <div class="align-left">
+                <form id="emailNotificationForm" class="form" action="/updateEmail.php">
+
+                    <strong>Your Email:</strong><br/>
+
+                    <input type="text" class="loginInput" name="email" style="width: 150px;"
+                           value=""/>
+
+                    <a href="javascript:void(0);" onclick="formSubmit('emailNotificationForm');" class="button-login">Update</a>
+
+                    <input type="submit" class="hidden">
+
+                </form>
+                <li class="dropdown-divider"></li>
+                <li>
+                    <div class="align-left">Unplaced bids? Loading problems? If so, please let us know:<br/><br/>
+                        <center>
+                            <div class="learnMore"><a
+                                    href="/Contact-Youbidder-Let-Us-Know-Any-Problems-Feature-Requests.html">Report a
+                                    Problem</a></div>
+                        </center>
+                </li>
+            </div>
+        </li>
+
+
+    </ul>
+</div>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-48095295-1', 'youbidder.com');
+    ga('send', 'pageview');
+
+</script>
+<center>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Large Leaderboard 970x90 -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:970px;height:90px"
+         data-ad-client="ca-pub-6547315753979149"
+         data-ad-slot="1474971519"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <br/>
+        <!-- Quantcast Tag -->
+    <script type="text/javascript">
+        var _qevents = _qevents || [];
+
+        (function () {
+            var elem = document.createElement('script');
+            elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+            elem.async = true;
+            elem.type = "text/javascript";
+            var scpt = document.getElementsByTagName('script')[0];
+            scpt.parentNode.insertBefore(elem, scpt);
+        })();
+
+        _qevents.push({
+            qacct: "p-mH5HUHve3C46d"
+        });
+    </script>
+
+    <noscript>
+        <div style="display:none;">
+            <img src="//pixel.quantserve.com/pixel/p-mH5HUHve3C46d.gif" border="0" height="1" width="1"
+                 alt="Quantcast"/>
+        </div>
+    </noscript>
+    <!-- End Quantcast tag -->
+</center>
+            <div id="dropdown-1" class="dropdown dropdown-tip">
+                <ul class="dropdown-menu">
+                    <li><a href="/?sort=added">Sort by Recently Added</a></li>
+                    <li><a href="/?sort=ending">Sort by Ending Soonest</a></li>
+                </ul>
+            </div>
+
+            </body>
+
+            </html>
+

@@ -1,0 +1,293 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="copyright" content="(C) DWANGO Co., Ltd.">
+<meta name="keywords"    content="ニコニコミュニティ,ニコニコ動画,ニコニコ生放送,動画,生放送,コミュニティ,SNS">
+<meta name="description" content="ニコニコミュニティはユーザー同士でコミュニティを作成し、一緒に動画を見てコメントをつけて楽しむサイトです。">
+<title>
+ニコニコミュニティ
+</title>
+<base href="http://com.nicovideo.jp/">
+<link rel="shortcut icon" href="http://com.nicovideo.jp/img/favicon_com.ico">
+
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/css/common/common.css?131212">
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/css/common/chcom_prof.css?090727">
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/css/com/community.css?131204">
+
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/js/nicoheader/resources/siteHeader.css?150323">
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/js/nicoheader/resources/nicolib-CommonNotificationHeader.css?141023">
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/css/common/nicoheader_com_fixed.css?130319">
+<link rel="stylesheet" type="text/css" charset="utf-8" href="http://com.res.nimg.jp/css/common/cmn_ads_sidebar.css?130228">
+
+
+<link rel="alternate" charset="utf-8" type="application/rss+xml" title="コミュニティ動画" href="/video/?rss=2.0">
+
+<script type="text/javascript">
+
+if (typeof Nico === 'undefined') Nico = {};
+if (typeof Nico.messages === 'undefined') Nico.messages = {};
+
+Nico.messages.cant_fetch = '取得できませんでした';
+Nico.messages.no_res     = '書き込みはありません';
+Nico.messages.no_name    = 'ななしのよっしん';
+
+</script>
+
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/__utm.js?080117"></script><script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/common.js?090727"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/lib/prototype-1.7.2.js?150327"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/swfobject.js?4"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/nicolib.js?150128"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/ads.js?100611"></script>
+<script type="text/javascript" charset="utf-8" src="js/lib/ads-1.0.4.min.js?130130"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/combbs.js?120724"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/popup.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/nicoheader/siteHeader.js?150728"></script>
+<script type="text/javascript" charset="utf-8" src="http://com.res.nimg.jp/js/nicoheader/nicolib-CommonNotificationHeader.js?150618"></script>
+
+
+<script type="text/javascript" src="http://com.res.nimg.jp/js/lib/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">$j=jQuery.noConflict();</script>
+<script type="text/javascript" src="http://com.res.nimg.jp/js/follow.js?130207" charset="utf-8"></script>
+
+<script type="text/javascript" charset="utf-8"><!--
+
+Ads.get_segment_object = function(){
+	var segment = {};
+
+	return segment;
+
+};
+
+// -->
+</script>
+
+</head>
+
+<body>
+
+<!--site-head-->
+<div id="siteHeader">
+	<div id="siteHeaderInner">
+		<ul class="siteHeaderGlovalNavigation">
+			<li><a href="http://www.nicovideo.jp/?header" class="iconNiconico"><span>niconico</span></a></li>
+			<li><a href="http://www.nicovideo.jp/video_top?header"><span>動画</span></a></li>
+			<li><a href="http://seiga.nicovideo.jp/?header"><span>静画</span></a></li>
+			<li><a href="http://live.nicovideo.jp/?header"><span>生放送</span></a></li>
+			<li><a href="http://ch.nicovideo.jp/?header"><span>チャンネル</span></a></li>
+			<li><a href="http://ch.nicovideo.jp/portal/blomaga?header"><span>ブロマガ</span></a></li>
+			<li><a href="http://app.nicovideo.jp/?header"><span>アプリ</span></a></li>
+			<li class="siteHeaderOther" id="siteHeaderLeftMenu">
+				<a href="javascript:void(0);"><span>その他▼</span></a>
+				<ul id="siteHeaderLeftMenuContainer" style="display: none;">
+					<li><a href="http://ichiba.nicovideo.jp/?header">市場</a></li>
+					<li><a href="http://dic.nicovideo.jp/?header">大百科</a></li>
+					<li><a href="http://uad.nicovideo.jp/?header">ニコニ広告</a></li>
+					<li><a href="http://commons.nicovideo.jp/?header">コモンズ</a></li>
+					<li><a href="http://niconare.nicovideo.jp/?header">ニコナレ</a></li>
+					<li><a href="http://3d.nicovideo.jp/?header">ニコニ立体</a></li>
+					<li><a href="http://jk.nicovideo.jp/?header">実況</a></li>
+					<li><a href="http://com.nicovideo.jp/?header">コミュニティ</a></li>
+										<li><a href="http://news.nicovideo.jp/?header">ニュース</a></li>
+					<li class="menuServiceList"><a href="http://www.nicovideo.jp/top_service?header">サービス・デバイス一覧</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="siteHeaderMenuList">
+			<li id="siteHeaderNotification" class="siteHeaderLogin">
+				<a href="https://account.nicovideo.jp/login?site=community&time=1455825620&hash_key=6da8b4e7&next_url=%2Fcommunity%2Fco2744345"><span>ログイン</span></a>
+			</li>
+<!-- end notification header -->
+			<li class="siteHeaderHorizon"><a href="https://account.nicovideo.jp/register?sec=common_header&mode=landing" style="color:#F1B700;" data-site="community" class="siteHeaderRegister"><span>ニコニコ会員登録</span></a></li>
+			<li class="siteHeaderOther" id="siteHeaderRightMenu">
+				<a href="javascript:void(0);"><span>メニュー▼</span></a>
+				<ul style="display: none;" id="siteHeaderRightMenuContainer">
+					<li><a href="/my_contact" id="btn_usermenu_mycontact">マイ申請BOX</a></li>
+					<li><a href="/create" id="btn_usermenu_create">コミュニティ作成</a></li>
+					<li><a href="http://www.nicovideo.jp/my/community" id="btn_usermenu_mypage">マイページ</a></li>
+                    <li><a href="http://point.nicovideo.jp/index/bank/?from_notification=2">ポイント購入</a></li>					<li id="siteHeaderRightMenuUnfix"><a href="javascript:void(0);">ヘッダー:<span class="siteHeaderScroll">追従</span></a></li>
+					<li id="siteHeaderRightMenuFix"><a href="javascript:void(0);">ヘッダー:<span class="siteHeaderFix">固定</span></a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="site-head-wrapper">
+<div id="header" class="cfix">
+	<div class="l">
+		<div id="com_logo"><a href="/"><img src="http://com.res.nimg.jp/img/com/header/logo.png" alt="ニコニコミュニティ"></a></div>
+		
+		<div id="search">
+			<form onsubmit="location.href='http://com.nicovideo.jp/search/'+encodeURIComponent(this.s.value.replace(/^\s+|\s+$/g, '')).replace(/%20/g, '+')+'?mode=s'; return false;">
+				<input type="text" id="search_text" value="" name="s">
+				<input type="submit"value="検索" id="search_submit">
+			</form>
+		</div>
+		
+	</div>
+
+	<!--広告-->
+<div id="community_pc_top" style="width:468px; height:60px; float:right;"></div>
+<script type="text/javascript">
+
+	(function(){
+		var segment = Ads.get_segment_object();
+		new Ads.Advertisement({zone: 72, segments: segment, impression: 2}).set('community_pc_top');
+	})();
+
+</script>
+<!--広告-->
+		
+	
+</div>
+<!--// header //-->
+
+</div>
+<!--// site-head-wrapper //-->
+</div>
+<!--/site-head-->
+
+
+<!--site-body-->
+<div id="site-body">
+
+			
+<script type="text/javascript">
+cdv = getCookie("ComDescVisibly");
+if(cdv == "null") { cdv = true; }
+else if(cdv == "true") { cdv = true; }
+else if(cdv == "false") { cdv = false; }
+else { cdv = true; }
+
+function getCookie(key,  tmp1, tmp2, xx1, xx2, xx3) {
+	tmp1 = " " + document.cookie + ";";
+	xx1 = xx2 = 0;
+	len = tmp1.length;
+	while (xx1 < len) {
+		xx2 = tmp1.indexOf(";", xx1);
+		tmp2 = tmp1.substring(xx1 + 1, xx2);
+		xx3 = tmp2.indexOf("=");
+		if (tmp2.substring(0, xx3) == key) {
+			return(unescape(tmp2.substring(xx3 + 1, xx2 - xx1 - 1)));
+		}
+		xx1 = xx2 + 1;
+	}
+	return("");
+}
+function setCookie(key, val, tmp) {
+	tmp = key + "=" + escape(val) + "; ";
+	// tmp += "path=" + location.pathname + "; ";
+	tmp += "expires=Tue, 31-Dec-2030 23:59:59; ";
+	document.cookie = tmp;
+}
+function clearCookie(key) {
+	document.cookie = key + "=" + "xx; expires=Tue, 1-Jan-1980 00:00:00;";
+}
+
+function comprfVisBtn(id,visible){
+if(id == "community_description") { document.getElementById(id).style.display = visible ? "block" : "none"; }
+else { document.getElementById(id).style.display = visible ? "inline" : "none"; }
+}
+
+
+jQuery(function() {
+    jQuery('#broadcast_default_community').mouseover(function() {
+        if (jQuery(this).data('is-queried')) {
+            return;
+        }
+        jQuery(this).data('is-queried', 1);
+        jQuery.getJSON('/api/check_function_limit', {'community_id': ''}, function(res) {
+            if (res.is_limited) {
+                jQuery('#broadcast_default_community').hide();
+                jQuery('#broadcast_default_community_unable').show();
+            } else {
+                jQuery('#broadcast_default_community a').attr('href', jQuery('#broadcast_default_community a').data('original-href'));
+                jQuery('#broadcast_default_community a').css('cursor', 'pointer');
+            }
+        });
+    });
+});
+</script>
+
+
+	<!--↓エラーあり(1列)↓-->
+	<div class="body_1line">
+	<div class="mb16p4">
+<p style="margin-bottom:8px;"><img src="http://com.res.nimg.jp/img/common/tit_error.gif" alt="エラー"></p>
+<p>以下の内容をよくお読みになり、<a href="javascript:GOBACK();">前の画面</a> にお戻りください。</p>
+</div>		<div class="mb16p4">
+			<p class="error_description">
+							 お探しのコミュニティは存在しないか、削除された可能性があります。
+						</p>
+									<div style="margin-top:2em;">
+				コミュニティが削除された場合、下記いずれの理由に該当します。
+				<ul style="margin-left:2em;">
+				 <li>コミュニティオーナーが削除した</li>
+				 <li>コミュニティオーナーがniconicoを退会して30日以上経過した</li>
+				 <li>コミュニティ作成後30日以降も、メンバーがオーナー含め1名のみ</li>
+				</ul>
+			</div>
+					</div>
+	</div>
+	<!--↑エラーあり(1列)↑-->
+
+
+	</div>
+<!--/site-body-->
+
+
+<!--site-foot-->
+<div id="site-foot" style="text-align:center; padding:10px 0 20px;">
+
+	<!--site-foot-wrapper-->
+	<div class="site-foot-wrapper">
+
+		<!--normal footer menu-->
+
+		<div style="background:#F9F9F9; border:dotted #999; border-width:1px 0; margin:10px 0; padding:6px 0;">
+
+<div id="web_pc_footer"></div>
+<script type="text/javascript">
+
+	(function(){
+		var segment = Ads.get_segment_object();
+		new Ads.Advertisement({zone: 130, segments: segment, impression: 2}).set('web_pc_footer');
+	})();
+
+</script>
+
+</div>
+
+
+		<div style="padding:4px;">
+			<div style="border:dotted #999; border-width:1px 0; margin:4px 0; padding:4px 0;">
+			<p>
+				<a href="http://com.nicovideo.jp/">ニコニコミュニティTOP</a> |
+				<a target="_blank" href="https://secure.nicovideo.jp/secure/rule">niconico利用規約</a> |
+							<a href="http://qa.nicovideo.jp/category/show/482" target="_blank">
+								ニコニコミュニティ ヘルプ
+				</a>
+			</p>
+			</div>
+		</div>
+
+				<div style="padding:4px;">
+			<p class="copyright">
+			<small>&copy; DWANGO Co., Ltd.</small>
+		</p>
+		</div>
+				<!--/normal footer menu-->
+
+	</div>
+	<!--/site-foot-wrapper-->
+
+
+</div>
+<!--/site-foot-->
+
+</body>
+</html>

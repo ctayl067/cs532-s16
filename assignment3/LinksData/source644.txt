@@ -1,0 +1,799 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>미디어세상</title>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/MenuSkin/Style_15/Menu_Style.css">
+<link rel="alternate" type="application/rss+xml" title="미디어세상" href="/rss/allArticle.xml">
+<script type="text/javascript" src="/script/user.js"></script>
+<script type="text/javascript" src="/script/font.js"></script>
+<script type="text/javascript" src="/script/banner.js?0611"></script>
+<script type="text/javascript" src="/script/ad.control.js"></script>
+<script type="text/javascript" src="/script/poll.js"></script>
+<script type="text/javascript" src="/script/vod.js"></script>
+<script type="text/javascript" src="/script/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/script/jquery.cycle.js"></script>
+<script type="text/javascript" src="/script/jquery-easing-1-3.js"></script>
+<script type="text/javascript" src="/MenuSkin/Style_15/Menu_Bar.js"></script>
+<script type="text/javascript" src="/script/resizePhoto.js"></script>
+<script type="text/javascript" src="/script/floating.banner.js"></script>
+
+<script language="javascript">
+<!--
+// 현재시간  추가
+var ___currentTime = parseInt("1455826490", 10);
+
+// 즐겨찾기 스크립트
+function bookmark() {
+	window.external.AddFavorite("http://www.mediakr.com", "미디어세상")
+}
+
+/// 통합검색셀렉트
+function viewSchselopt() {
+	var schselopt = document.getElementById("schselopt_list");
+
+	if(schselopt.style.display=="block") {
+		schselopt.style.display="none";
+	} else {
+		schselopt.style.display="block";
+	}
+}
+
+function schChange(code,title) {
+	var schselopt = document.getElementById("schselopt_list");
+	var secTitle = document.getElementById("secTitle");
+
+	schselopt.style.display="none";
+
+	document.topSearchForm.sc_section_code.value=code;
+	secTitle.innerHTML = title;
+}
+
+//모바일 체크
+ad_check_mobile = "";
+var adStrUserAgent = window.navigator.userAgent;
+
+if(adStrUserAgent!= null)
+{
+	 if(
+		  adStrUserAgent.indexOf("Android") != -1 ||    //Android
+		  adStrUserAgent.indexOf("SAMSUNG") != -1 ||     //samsung
+		  adStrUserAgent.indexOf("PSP") != -1 ||         //psp
+		  adStrUserAgent.indexOf("PLAYSTATION") != -1 || //playstation
+		  adStrUserAgent.indexOf("lgtelecom") != -1 ||   //LGT
+		  adStrUserAgent.indexOf("Smartphone") != -1 ||  //스마트폰
+		  adStrUserAgent.indexOf("Symbian") != -1 ||     //심비안폰
+		  adStrUserAgent.indexOf("PPC") != -1 ||         //??
+		  adStrUserAgent.indexOf("Windows CE") != -1 ||  //PDA
+		  adStrUserAgent.indexOf("iPhone") != -1 ||      //애플폰
+		  adStrUserAgent.indexOf("iPod") != -1 )         //애플
+	 {
+		ad_check_mobile = 1;
+	 }
+	 else
+	 {
+		ad_check_mobile = 0;
+	 }
+}
+
+//검색어 입력 확인
+function SearchCheck() {
+	var flag=0;
+
+	if(document.topSearchForm.sc_word.value=="") {
+		alert("검색 할 기사를 입력하세요.");
+		document.topSearchForm.sc_word.focus();
+		flag=1;
+	}
+
+	if(flag==0) {
+		document.topSearchForm.submit();
+	}
+
+	return;
+}
+
+//검색 창 바꾸기
+function setSearchBox(idx) {
+	for (i=1;i<=1;i++) {
+	var objtab = document.getElementById("Search1");
+	var objtab2 = document.getElementById("Search2");
+	if (!objtab || !objtab2) { return; }
+		objtab.style.display = "block";
+		objtab2.style.display = "none";
+	if ( i == idx ) {
+		objtab.style.display = "none";
+		objtab2.style.display = "block";
+		document.topSearchForm.sc_word.focus();
+		}
+	}
+}
+//-->
+</script>
+
+
+<!-- 네이버 통계 S -->
+<script type="text/javascript" src="http://wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "a3ef3d8d0f9d40";
+wcs_do();
+</script>
+<!-- 네이버 통계 E -->
+
+</head>
+
+<body>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td align="center">
+
+	
+<!-- 레이어 팝업 : s -->
+<script type="text/javascript" src="/popupManagerVer2/js/flow.script.js"></script>
+<script type="text/javascript" src="/popupManagerVer2/js/dom.drag.js"></script>
+
+<script language = "javascript">	
+	function layerClose(layer) {	
+		document.getElementById(layer).style.display = "none";	
+	}
+
+	function layerEnd(layer, day) {	
+		document.getElementById(layer).style.display = "none";
+		setCookieLayer(layer, 'ok', day);
+	}
+
+	function layerEndChk(idx) {	
+		document.getElementById('layerPopup_'+idx).style.display = "none";
+		if(document.getElementById('layerChk_'+idx).checked == true){
+			var day = parseInt(document.getElementById('expires_time_'+idx).value);			
+			setCookieLayer('layerPopup_'+idx, 'ok', day);
+		}		
+	}
+	
+	function setCookieLayer( name, value, expiredays ) {
+		var todayDate = new Date();
+		todayDate.setDate( todayDate.getDate() + expiredays );
+		
+		todayDate.setHours(0);
+		todayDate.setMinutes(0);
+		todayDate.setSeconds(0);
+
+		document.cookie = name + "=" + escape( value ) + ";DOMAIN=www.mediakr.com; path=/; expires=" + todayDate.toGMTString() + ";"
+	}
+	
+</script>
+
+<!-- 레이어 팝업 처리 : s -->
+<table width="960" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td>
+			<div style="POSITION: relative; width:100%;z-index:100000;">
+			<div id="empty" style="position:absolute; display:block;"></div>
+			</div>
+		</td>
+	</tr>
+</table>
+<!--레이어 팝업 처리 : e--><!-- 레이어 팝업 : e -->
+
+<!-- 
+	윈도우 팝업 : s
+	client 모니터 사이즈를 넘기기 위해서 iframe으로 처리.
+-->
+<iframe id = "windowPopup" style = "display:none"></iframe>
+<script language = "javascript">			
+	document.getElementById("windowPopup").contentWindow.location.href = "/popupManagerVer2/windowPopup.html?windowWidth=" + screen.width + "&parentPage=/index.html";  	
+</script>
+<!-- 윈도우 팝업 : e -->
+<script type="text/javascript">
+<!--
+//메뉴 스타일 불러옴 : 메뉴 /script/menubar.js 와 같이 사용되어야 함
+//submenuStyle	: 서브메뉴 펼침 스타일 (horizon : 가로로, vertical : 세로 슬라이딩)
+var exceptIdx = new Array(); //제외할 메뉴 인덱스번호 (0부터 시작:type integer)
+var submenuStyle="horizon";
+//-->
+</script>
+
+
+<!-- 로고영역 -->
+<div id="HeadLogo">
+	<div id="Default_Warp">
+
+		<!-- 로고/배너 -->
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width=""><a href="http://www.mediakr.com" onfocus="this.blur();" title="미디어세상"><img src="http://www.mediakr.com/image2006/logo.gif" border="0" alt="미디어세상"></a></td>
+				<td align="center">		
+
+				<!-- 통합검색 -->
+				<div id="SearchForm">
+					<fieldset>
+												<form action="http://www.mediakr.com/news/articleList.html" method="post" name="topSearchForm" id="topSearchForm">
+							<input type="hidden" name="sc_area" value="A">
+							<input type="hidden" name="view_type" value="sm">
+							<input maxlength="255" name="" class="inptxt" id="Search1" value="검색 할 기사를 입력하세요." onclick="setSearchBox(1);">
+							<input maxlength="255" name="sc_word" id="Search2" style="display:none;" onkeydown="if(event.keyCode==13){SearchCheck();}">
+							<button title="기사검색" onClick="SearchCheck();setSearchBox(1);">기사검색</button>
+						</form>
+					</fieldset>
+				</div>
+
+				</td>
+				<td width="250"><!--뉴스런--><script language="javascript" src="/bannerManager/inc/1.html"></script><!--뉴스런--></td>
+			</tr>
+		</table>
+
+	</div>
+
+</div>
+
+<!-- 메뉴바영역 -->
+<div id="HeadMenu">
+	<div id="Default_Warp">
+		
+		<!-- 섹션 -->
+		<div id="MenuBar">
+			<ul id="mega-menu" class="mega-menu">
+
+				
+	<li class="megaline nobr"><a href="http://www.mediakr.com/news/articleList.html?sc_section_code=S1N4&view_type=sm"><strong>정치</strong></a>
+		<ul>
+			<li class="sub nobr"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N8&view_type=sm">정치일반</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N9&view_type=sm">청와대</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N10&view_type=sm">국회·정당</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N11&view_type=sm">외교·안보</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N12&view_type=sm">행정</a></li>
+		</ul>
+	</li>
+
+	<li class="megaline"><a href="http://www.mediakr.com/news/articleList.html?sc_section_code=S1N1&view_type=sm"><strong>경제</strong></a>
+		<ul>
+			<li class="sub nobr"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N36&view_type=sm">경제일반</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N37&view_type=sm">제계</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N38&view_type=sm">산업</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N39&view_type=sm">IT/통신</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N40&view_type=sm">자동차/조선/항공</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N41&view_type=sm">금융/증권</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N42&view_type=sm">건설/부동산</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N43&view_type=sm">소비자</a></li>
+		</ul>
+	</li>
+
+	<li class="megaline"><a href="http://www.mediakr.com/news/articleList.html?sc_section_code=S1N2&view_type=sm"><strong>사회</strong></a>
+		<ul>
+			<li class="sub nobr"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N44&view_type=sm">사회일반</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N45&view_type=sm">법조/교육</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N46&view_type=sm">보건/복지</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N47&view_type=sm">사건/사고</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N56&view_type=sm">사회ISSUE</a></li>
+		</ul>
+	</li>
+
+	<li class="megaline"><a href="http://www.mediakr.com/news/articleList.html?sc_section_code=S1N3&view_type=sm"><strong>문화</strong></a>
+		<ul>
+			<li class="sub nobr"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N48&view_type=sm">스포츠</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N49&view_type=sm">연예</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N50&view_type=sm">영화</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N51&view_type=sm">생활</a></li>
+		</ul>
+	</li>
+
+	<li class="megaline"><a href="http://www.mediakr.com/news/articleList.html?sc_section_code=S1N6&view_type=sm"><strong>기획</strong></a>
+		<ul>
+			<li class="sub nobr"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N55&view_type=sm">스페셜리포트</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N57&view_type=sm">미디어 피플</a></li>
+		</ul>
+	</li>
+
+	<li class="megaline"><a href="http://www.mediakr.com/news/articleList.html?sc_section_code=S1N7&view_type=sm"><strong>오피니언</strong></a>
+		<ul>
+			<li class="sub nobr"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N52&view_type=sm">인터뷰</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N53&view_type=sm">칼럼</a></li>
+			<li class="sub"><a href="http://www.mediakr.com/news/articleList.html?sc_sub_section_code=S2N54&view_type=sm">피플</a></li>
+		</ul>
+	</li>
+
+	<li class="megaline"><a href="http://www.mediakr.com/bbs/list.html?table=bbs_8"><strong>커뮤니티</strong></a>
+		<ul>
+			<li class="sub nobr"><a href="http://www.mediakr.com/bbs/list.html?table=bbs_8">독자마당</a></li>
+		</ul>
+	</li>
+			</ul>
+
+			<!-- 시작페이지/로그인/회원가입 -->
+			<div id="LoginBtn">
+				<ul>
+					<li class="home"><a href="#" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.mediakr.com');">시작페이지</a></li>
+					<li class="mark"><a href="javascript:bookmark()">즐겨찾기 추가</a></li>
+					<li class="login"><a href="/member/login.html">로그인</a></li>
+					<li class="member"><a href="/member/index.html">회원가입</a></li>
+					<li class="artview"><a href="/news/articleList.html?view_type=sm">전체보기</a></li>
+				</ul>
+			</div>
+			
+			<!-- SNS버튼 -->
+			<div id="SnsBtn">
+				<ul>
+					<li class="update"><strong>UPDATE</strong> : 2016.2.18 목 19:02</li>
+					<li class="sns_twi"><a href="#" target="_blank">트위터</a></li>
+					<li class="sns_fac"><a href="#" target="_blank">페이스북</a></li>
+					<li class="sns_rss"><a href="/rss/">RSS</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mHeight_B">상단여백</div>
+
+<!--메인 플로팅배너-->
+<style>/**/
+#floating_banner_body {position:relative; margin:0 auto; width:960px;}
+#floating_banner_left	{position:absolute; width:120px; z-index:100; left:-130px; top:0px;}
+#floating_banner_right {position:absolute; width:120px; z-index:100; right:-130px; top:0px;}
+</style>
+<div id="floating_banner_body">
+	<ul id="floating_banner_left" class="nd_floating_banner" data-scroll='y' data-parent-target="ND_Warp" data-top-margin="5" data-duration="300">
+		<li>
+				</li>
+	</ul>
+	<ul id="floating_banner_right" class="nd_floating_banner" data-scroll='n' data-top-margin="5" data-duration="300">
+		<li>
+				</li>
+	</ul>
+</div>
+<!--메인 플로팅배너-->
+
+<div id="ND_Warp">
+
+<table align="center" cellpadding="0" cellspacing="0" width="960" border="0">
+	<tr>
+		<td>
+			<!-- 960 //-->
+			<table cellpadding="0" cellspacing="0" border="0" width="960">
+				<tr>
+					<td>
+
+					</td>
+				</tr>
+			</table>
+			<!-- 960 //-->
+		</td>
+	</tr>
+</table>
+
+<table align="center" cellpadding="0" cellspacing="0" width="960" border="0">
+	<tr>
+		<td valign="top" width="675" colspan="3">
+			<!-- 675 //-->
+			<table cellpadding="0" cellspacing="0" border="0" width="675">
+				<tr>
+					<td>
+<div class="BoxDefault_1" style="width:675px; margin-bottom:20px; padding-bottom:20px; border-bottom:3px solid #555;">
+<dl>
+<dt></dt>
+<dd><div class="auto-article auto-ha01">
+
+<!-- 버튼 -->
+<span class="btn-box">
+<a href="#prev" id="prev_new_6" class="btn-prev" title="이전">PREV</a>
+<a href="#next" id="next_new_6" class="btn-next" title="다음">NEXT</a>
+</span>
+
+<ul id="roll_new_6">
+<li class="float-left"><div class="float-left auto-maright-15 auto-martop-3"><a href="/news/articleView.html?idxno=18195" target="_top"><img src="/news/photo/201602/18195_4594_5345.jpg" class="width-250 height-165 line" border="0" alt="한반도 준전시상태? 스텔스기 F-22로 北 압박"></a></div>
+		<strong class="dis-block size-22 auto-marbtm-5"><a href="/news/articleView.html?idxno=18195" target="_top" class="auto-fontA OnLoad">한반도 준전시상태? 스텔스기 F-22로 北 압박</a></strong><span class="auto-line-20"><a href="/news/articleView.html?idxno=18195" target="_top" class="auto-fontB">[미디어세상=장중구 기자] 세계 최강 전투기 F-22 랩터 스텔스 전투기 4대가 17일 오전 한반도에 도착했다. 이 중 2대는 복귀하고 2대는 오산 기지에 주둔하게 된다.미국의 대표 전략무기인 F-22 랩터 스텔스 전투기는 적의 레이더망에 탐지되지 않는 스텔스 성능을 갖춘 세계 최고의 전투기로 최고 속도 시속 3,060k...</a></span>
+		</li><li class="float-left"><div class="float-left auto-maright-15 auto-martop-3"><a href="/news/articleView.html?idxno=18118" target="_top"><img src="/news/photo/201602/18118_4564_1136.jpg" class="width-250 height-165 line" border="0" alt="박 대통령 “북한 변화시킬 것...북한주민 삶 외면하지 않겠다”"></a></div>
+		<strong class="dis-block size-22 auto-marbtm-5"><a href="/news/articleView.html?idxno=18118" target="_top" class="auto-fontA OnLoad">박 대통령 “북한 변화시킬 것...북한주민 삶 외면하지 않겠다”</a></strong><span class="auto-line-20"><a href="/news/articleView.html?idxno=18118" target="_top" class="auto-fontB">[미디어세상=김민서 기자] 박근혜 대통령이 북한 정권을 반드시 변화 시킬 것이라고 단언했다.박근혜 대통령은 16일 국회에서 &#39;국정에 관한 연설&#39;을 갖고 저와 정부는 북한 정권을 반드시 변화시켜서 한반도에 진정한 평화가 깃들도록 만들고, 지금 우리가 누리고 있는 자유와 인권, 번영의 과실을 북녘 땅의 주민들도...</a></span>
+		</li><li class="float-left"><div class="float-left auto-maright-15 auto-martop-3"><a href="/news/articleView.html?idxno=18028" target="_top"><img src="/news/photo/201602/18028_4536_322.jpg" class="width-250 height-165 line" border="0" alt="안철수 “정동영, 정치판 바꾸는데 역할 할 것으로 믿는다”"></a></div>
+		<strong class="dis-block size-22 auto-marbtm-5"><a href="/news/articleView.html?idxno=18028" target="_top" class="auto-fontA OnLoad">안철수 “정동영, 정치판 바꾸는데 역할 할 것으로 믿는다”</a></strong><span class="auto-line-20"><a href="/news/articleView.html?idxno=18028" target="_top" class="auto-fontB">[미디어세상=김민서 기자] 안철수 국민의당 공동대표가 더불어민주당을 탈당한 신기남 의원의 당 합류에 당 내 반대가 많다고 밝혔다.국민의당 안철수 공동대표는 14일 지역구인 서울 노원구 수락산성당에서 열린 미사에 참석한 뒤, &#39;로스쿨 아들 구제 의혹&#39;으로 더불어민주당에서 징계를 받은 뒤 더민주를 탈당한 신기남...</a></span>
+		</li></ul>
+</div>
+
+<script type="text/javascript">
+<!--
+
+(function($) {
+	$(function() {
+		
+		//rolling
+		$( '#roll_new_6' ).cycle({
+			fx:     'scrollHorz', 
+			prev:   '#prev_new_6', 
+			next:   '#next_new_6', 
+			timeout: 5000,
+			pause: 1,
+			easing: 'easeOutExpo'
+		});
+
+	});
+})(jQuery);
+
+//-->
+</script>
+
+
+</dd>
+</dl>
+</div>
+					</td>
+				</tr>
+			</table>
+			<!-- 675 //-->
+
+			<table cellpadding="0" cellspacing="0" border="0" width="675">
+    			<tr>
+       				<td valign="top" width="250">
+						<!-- 250 //-->
+						<table cellpadding="0" cellspacing="0" border="0" width="250">
+							<tr>
+								<td>
+<div class="BoxDefault_1" style="width:250px; margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #dfdfdf;">
+<dl>
+<dt><a href="/news/articleList.html?sc_sub_section_code=S2N8&view_type=sm" class="btm_Kor"><font color="#005ab7">정치</font>전망대</a></dt>
+<dd><div class="auto-article "><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=18240" target="_top" class="auto-fontA OnLoad">박지원, ‘저축은행 뒷돈 수수 혐의’ 전부 무죄 선고</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=18240" target="_top"><img src="/news/thumbnail/201602/18240_4604_2226_v150.jpg" class="width-80 height-53 line" border="0" alt="박지원, ‘저축은행 뒷돈 수수 혐의’ 전부 무죄 선고"></a></div><span><a href="/news/articleView.html?idxno=18240" target="_top" class="auto-fontC">[미디어세상=김민서 기자] 대법원이 박지원 무소속 의원의 &#39;저축은행 뒷돈 ...</a></span>
+		</div><div class="auto-article auto-padtop-10 auto-martop-10 auto-dot"><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=18196" target="_top" class="auto-fontA OnLoad">정부, "日, 위안부 합의 정신 훼손하는 언행 삼가라"</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=18196" target="_top"><img src="/news/thumbnail/201602/18196_4595_1233_v150.jpg" class="width-80 height-53 line" border="0" alt="정부, "日, 위안부 합의 정신 훼손하는 언행 삼가라""></a></div><span><a href="/news/articleView.html?idxno=18196" target="_top" class="auto-fontC">[미디어세상=이주현 기자] 정부가 일본이 유엔 인권기구에서 일본군 ‘위안부’ 강제...</a></span>
+		</div><div class="auto-article auto-padtop-10 auto-martop-10 auto-dot"><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=18182" target="_top" class="auto-fontA OnLoad">이종걸, "총선 승리해 개성공단 부활하겠다"</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=18182" target="_top"><img src="/news/thumbnail/201602/18182_4590_551_v150.jpg" class="width-80 height-53 line" border="0" alt="이종걸, "총선 승리해 개성공단 부활하겠다""></a></div><span><a href="/news/articleView.html?idxno=18182" target="_top" class="auto-fontC">[미디어세상=장중구 기자] 더불어민주당 이종걸 원내대표가 개성공단 폐쇄와 관련, ...</a></span>
+		</div></dd>
+</dl>
+</div><div class="BoxDefault_1" style="width:250px; margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #dfdfdf;">
+<dl>
+<dt><a href="/news/articleList.html?sc_sub_section_code=S2N55&view_type=sm" class="btm_Kor"><font color="#005ab7">스페셜</font>리포트</a></dt>
+<dd><div class="auto-article "><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=18143" target="_top" class="auto-fontA OnLoad">'다나의원' 겪고도... C형간염 집단감염 '악몽' 되풀이</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=18143" target="_top"><img src="/news/thumbnail/201602/18143_4571_06_v150.jpg" class="width-80 height-53 line" border="0" alt="'다나의원' 겪고도... C형간염 집단감염 '악몽' 되풀이"></a></div><span><a href="/news/articleView.html?idxno=18143" target="_top" class="auto-fontC">[미디어세상=양은미 기자] 지난해 11월 일회용 주사기 재사용으로 95명이 C형간...</a></span>
+		</div><div class="auto-article auto-padtop-10 auto-martop-10 auto-dot"><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=17080" target="_top" class="auto-fontA OnLoad">'양대지침' 후폭풍, 노동계 VS 정부 강력 충돌?</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=17080" target="_top"><img src="/news/thumbnail/201601/17080_4232_3945_v150.jpg" class="width-80 height-53 line" border="0" alt="'양대지침' 후폭풍, 노동계 VS 정부 강력 충돌?"></a></div><span><a href="/news/articleView.html?idxno=17080" target="_top" class="auto-fontC">[미디어세상=양은미 기자] 고용노동부 이기권 장관은 지난 22일, 긴급 기자회견을...</a></span>
+		</div><div class="auto-article auto-padtop-10 auto-martop-10 auto-dot"><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=16701" target="_top" class="auto-fontA OnLoad">여성지도자시대, 대만 여성 총통 차이잉원</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=16701" target="_top"><img src="/news/thumbnail/201601/16701_4121_5117_v150.jpg" class="width-80 height-53 line" border="0" alt="여성지도자시대, 대만 여성 총통 차이잉원"></a></div><span><a href="/news/articleView.html?idxno=16701" target="_top" class="auto-fontC">[미디어세상=장중구 기자] 세계는 지금 여성 지도자 시대다. 독일 역사상 최초의 ...</a></span>
+		</div></dd>
+</dl>
+</div><table width="100%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td align="center"><div class="BoxDefault_1" style="width:250px; margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #dfdfdf;">
+<dl>
+<dt style="height: 18px;margin-bottom: 10px; color: #1f2123;font-weight: bold;
+    line-height: 16px;">
+<font color="#005ab7">팟</font>캐스트
+</dt>
+<dd>
+<!--후아유_151028--><script language="javascript" src="/bannerManager/inc/2.html"></script><!--후아유_151028-->
+</dd>
+</dl>
+</div></td>
+			</tr>
+		</table><div class="BoxDefault_1" style="width:250px; margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #dfdfdf;">
+<dl>
+<dt><a href="/news/articleList.html?sc_sub_section_code=S2N37&view_type=sm" class="btm_Kor">기업<font color="#005ab7">ISSUE</font></a></dt>
+<dd><div class="auto-article"><strong class="dis-block size-12 auto-marbtm-7"><a href="/news/articleView.html?idxno=18121" target="_top" class="auto-fontA OnLoad">검찰, '비자금 의혹' KT&G 본사 압수수색</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=18121" target="_top"><img src="/news/thumbnail/201602/18121_4565_2140_v150.jpg" class="width-80 height-53 line" border="0" alt="검찰, '비자금 의혹' KT&G 본사 압수수색"></a></div><span><a href="/news/articleView.html?idxno=18121" target="_top" class="auto-fontC">[미디어세상=박희준 기자] 검찰이 KT&G가 광고회사와의 거래과정에서 비자금을 조...</a></span><div class="float-left auto-martop-10 auto-padtop-10 auto-dot auto-boll">
+				<ul>
+			<li class="dis-block size-12 "><a href="/news/articleView.html?idxno=18079" target="_top" class="auto-fontA OnLoad">"키 커진다"는 광고 제품, 알고보니 허위 광고</a></li>
+<li class="dis-block size-12 auto-martop-5"><a href="/news/articleView.html?idxno=17831" target="_top" class="auto-fontA OnLoad">전경련, 북한 미사일 발사 "깊은 우려"</a></li>
+<li class="dis-block size-12 auto-martop-5"><a href="/news/articleView.html?idxno=17687" target="_top" class="auto-fontA OnLoad">임우재 "친권 행사에 제약 있었다" 가정사 밝혀</a></li>
+</ul>
+		</div></div></dd>
+</dl>
+</div><div class="BoxDefault_1" style="width:250px; margin-bottom:20px;">
+<dl>
+<dt><a href="/news/articleList.html?sc_sub_section_code=S2N53&view_type=sm" class="btm_Kor"><font color="#005ab7">칼럼</font></a></dt>
+<dd><div class="auto-article auto-boll"><div class="float-left auto-maright-10 auto-martop-3 auto-marbtm-7"><a href="/news/articleView.html?idxno=10395" target="_top"><img src="/news/thumbnail/201505/10395_1781_1020_v150.jpg" class="width-80 height-90 line" border="0" alt="과잉금지 원칙과 적기조례"></a></div><strong class="size-11" style="font-size:12px;"><a href="/news/articleList.html?sc_serial_code=SRN2&view_type=sm" target="_top" class="auto-fontD">김형중의 핀테크</a></strong>
+			<strong class="dis-block size-12"><a href="/news/articleView.html?idxno=10395" target="_top" class="auto-fontC OnLoad">과잉금지 원칙과 적기조례</a></strong>
+			<li class="dis-block size-12"><a href="/news/articleView.html?idxno=10052" target="_top" class="auto-fontC OnLoad">핀 테크에 대한 이해와 오해</a></li></div><div class="auto-article auto-boll"><div class="float-left auto-maright-10 auto-martop-3 auto-marbtm-7"><a href="/news/articleView.html?idxno=17667" target="_top"><img src="/news/thumbnail/201602/17667_4400_5636_v150.jpg" class="width-80 height-90 line" border="0" alt="국내 자동차 튜닝산업, 일본에게 배워라!"></a></div><strong class="size-11" style="font-size:12px;"><a href="/news/articleList.html?sc_serial_code=SRN3&view_type=sm" target="_top" class="auto-fontD">김필수의 자동차 산업</a></strong>
+			<strong class="dis-block size-12"><a href="/news/articleView.html?idxno=17667" target="_top" class="auto-fontC OnLoad">국내 자동차 튜닝산업, 일본에게 배워라!</a></strong>
+			<li class="dis-block size-12"><a href="/news/articleView.html?idxno=17221" target="_top" class="auto-fontC OnLoad">온라인 중고차 선진형 유통정책 절실하다</a></li><li class="dis-block size-12"><a href="/news/articleView.html?idxno=16590" target="_top" class="auto-fontC OnLoad">더욱 치열해지는 자동차의 미래, 누가 주도권 잡나?</a></li><li class="dis-block size-12"><a href="/news/articleView.html?idxno=16085" target="_top" class="auto-fontC OnLoad">르노삼성차, 다양한 전기차 구성으로 국내 주도권을 노린다.</a></li></div><div class="auto-article auto-boll"><div class="float-left auto-maright-10 auto-martop-3 auto-marbtm-7"><a href="/news/articleView.html?idxno=17968" target="_top"><img src="/news/thumbnail/201602/17968_4512_4546_v150.jpg" class="width-80 height-90 line" border="0" alt="첼로, 겨울을 만나다"></a></div><strong class="size-11" style="font-size:12px;"><a href="/news/articleList.html?sc_serial_code=SRN5&view_type=sm" target="_top" class="auto-fontD">성지윤의 예술의 방</a></strong>
+			<strong class="dis-block size-12"><a href="/news/articleView.html?idxno=17968" target="_top" class="auto-fontC OnLoad">첼로, 겨울을 만나다</a></strong>
+			<li class="dis-block size-12"><a href="/news/articleView.html?idxno=14277" target="_top" class="auto-fontC OnLoad"><상처받은 사슴>, 위로하는 베토벤</a></li></div></dd>
+</dl>
+</div>
+								</td>
+							</tr>
+						</table>
+						<!-- 250 //-->
+        			</td>
+        			<td valign="top" width="35" style="background:url('/image2006/default/new/Default_Back_Line.gif') repeat-y center top;"></td>
+        			<td valign="top" width="390">
+						<!-- 390 //-->
+						<table cellpadding="0" cellspacing="0" border="0" width="390">
+							<tr>
+								<td>
+<div class="BoxDefault_1" style="width:390px; margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #dfdfdf;">
+<dl>
+<dt></dt>
+<dd><div class="auto-article "><div class="float-left auto-maright-10 auto-martop-3"><a href="/news/articleView.html?idxno=18214" target="_top"><img src="/news/thumbnail/201602/18214_4596_2147_v150.jpg" class="width-120 height-105 line" border="0" alt="안철수 “수준낮은 가짜보수 한심하다""></a></div><strong class="dis-block size-16 auto-marbtm-7"><a href="/news/articleView.html?idxno=18214" target="_top" class="auto-fontA OnLoad">안철수 “수준낮은 가짜보수 한심하다"</a></strong>
+		<span><a href="/news/articleView.html?idxno=18214" target="_top" class="auto-fontB">[미디어세상=김민서 기자] 안철수 국민의당 공동대표가 급격한 통일은 대박이 아닌 재앙이라고 밝혔다.국민의당 안철수 상임공동대표는 18일...</a></span>
+		<i class="dis-block auto-martop-10"><a href="/news/articleView.html?idxno=18214" target="_top"><img src='/image2006/btn_more.gif' class="nobr"></a></i>
+		</div><div class="auto-article auto-martop-15 auto-padtop-10 auto-dot"><div class="float-left auto-maright-10 auto-martop-3"><a href="/news/articleView.html?idxno=18160" target="_top"><img src="/news/thumbnail/201602/18160_4582_4840_v150.jpg" class="width-120 height-105 line" border="0" alt="김무성 “더민주, 북이 원하는 남남갈등 조장세력 돼”"></a></div><strong class="dis-block size-16 auto-marbtm-7"><a href="/news/articleView.html?idxno=18160" target="_top" class="auto-fontA OnLoad">김무성 “더민주, 북이 원하는 남남갈등 조장세력 돼”</a></strong>
+		<span><a href="/news/articleView.html?idxno=18160" target="_top" class="auto-fontB">[미디어세상=김민서 기자] 김무성 새누리당 대표가 더불어민주당이 북한에서 원하는 남남갈등 조장세력으로 자리매김했다고 비판했다.새누리당 ...</a></span>
+		<i class="dis-block auto-martop-10"><a href="/news/articleView.html?idxno=18160" target="_top"><img src='/image2006/btn_more.gif' class="nobr"></a></i>
+		</div><div class="auto-article auto-martop-15 auto-padtop-10 auto-dot"><div class="float-left auto-maright-10 auto-martop-3"><a href="/news/articleView.html?idxno=18085" target="_top"><img src="/news/thumbnail/201602/18085_4554_2040_v150.jpg" class="width-120 height-105 line" border="0" alt="문재인 “개성공단폐쇄, 어리석고 한심한 조치...화가난다”"></a></div><strong class="dis-block size-16 auto-marbtm-7"><a href="/news/articleView.html?idxno=18085" target="_top" class="auto-fontA OnLoad">문재인 “개성공단폐쇄, 어리석고 한심한 조치...화가난다”</a></strong>
+		<span><a href="/news/articleView.html?idxno=18085" target="_top" class="auto-fontB">[미디어세상=김민서 기자] 문재인 전 더불어민주당 대표가 개성공단 폐쇄에 대해 화가 난다는 입장을 표명했다.문재인 전 더불어민주당 대표...</a></span>
+		<i class="dis-block auto-martop-10"><a href="/news/articleView.html?idxno=18085" target="_top"><img src='/image2006/btn_more.gif' class="nobr"></a></i>
+		</div></dd>
+</dl>
+</div><div class="BoxDefault_1" style="width:390px; margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #dfdfdf;">
+<dl>
+<dt><a href="/news/articleList.html?sc_sub_section_code=S2N49&view_type=sm" class="btm_Kor"><font color="#005ab7">연예</font>리포트</a></dt>
+<dd><div class="auto-article  auto-marbtm-10"><div class="float-left auto-maright-10 auto-martop-3"><a href="/news/articleView.html?idxno=18242" target="_top"><img src="/news/thumbnail/201602/18242_4605_5742_v150.jpg" class="width-90 height-60 line" border="0" alt="'오예커플' 오민석, 강예원 우결 하차"></a></div>
+		<strong class="dis-block size-14 auto-marbtm-5"><a href="/news/articleView.html?idxno=18242" target="_top" class="auto-fontA OnLoad">'오예커플' 오민석, 강예원 우결 하차</a></strong>
+		<span><a href="/news/articleView.html?idxno=18242" target="_top" class="auto-fontB">[미디어세상=최영원 기자] MBC 예능 ’우리 결혼했어요4&#39;에서 ...</a></span>
+		</div><div class="auto-article auto-martop-15 auto-padtop-10 auto-dot auto-marbtm-10"><div class="float-left auto-maright-10 auto-martop-3"><a href="/news/articleView.html?idxno=18219" target="_top"><img src="/news/thumbnail/201602/18219_4600_513_v150.jpg" class="width-90 height-60 line" border="0" alt="대법원, 성현아 ‘성매매혐의 사건’ 원심깨고 다시 돌려보내"></a></div>
+		<strong class="dis-block size-14 auto-marbtm-5"><a href="/news/articleView.html?idxno=18219" target="_top" class="auto-fontA OnLoad">대법원, 성현아 ‘성매매혐의 사건’ 원심깨고 다시 돌려보내</a></strong>
+		<span><a href="/news/articleView.html?idxno=18219" target="_top" class="auto-fontB">[미디어세상=정지호 기자] 대법원이 배우 성현아의 성매매 혐의 사건에 대...</a></span>
+		</div><div class="auto-article auto-martop-15 auto-padtop-10 auto-dot auto-marbtm-10"><div class="float-left auto-maright-10 auto-martop-3"><a href="/news/articleView.html?idxno=18189" target="_top"><img src="/news/thumbnail/201602/18189_4592_587_v150.jpg" class="width-90 height-60 line" border="0" alt="응팔 '택이 아버지' 최무성, 포수로 연기 변신"></a></div>
+		<strong class="dis-block size-14 auto-marbtm-5"><a href="/news/articleView.html?idxno=18189" target="_top" class="auto-fontA OnLoad">응팔 '택이 아버지' 최무성, 포수로 연기 변신</a></strong>
+		<span><a href="/news/articleView.html?idxno=18189" target="_top" class="auto-fontB">[미디어세상=최영원 기자] 드라마 [응답하라 1988]에서 ‘택이 아버지...</a></span>
+		</div></dd>
+</dl>
+</div><div class="BoxDefault_1" style="width:390px; margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #dfdfdf;">
+<dl>
+<dt><a href="http://www.mediakr.com/news/articleList.html?sc_section_code=S1N3&view_type=sm" class="btm_Kor"><font color="#005ab7">문화</font></a></dt>
+<dd><div class="auto-article  auto-marbtm-10"><div class="float-left auto-maright-10 auto-martop-3"><a href="/news/articleView.html?idxno=18218" target="_top"><img src="/news/thumbnail/201602/18218_4598_3750_v150.jpg" class="width-90 height-60 line" border="0" alt="손열음, 8개 도시 순회 피아노 리사이틀"></a></div>
+		<strong class="dis-block size-14 auto-marbtm-5"><a href="/news/articleView.html?idxno=18218" target="_top" class="auto-fontA OnLoad">손열음, 8개 도시 순회 피아노 리사이틀</a></strong>
+		<span><a href="/news/articleView.html?idxno=18218" target="_top" class="auto-fontB">[미디어세상=서인우 기자] 피아니스트 손열음이 3년만에 피아노 독주 전국...</a></span>
+		</div><div class="auto-article auto-martop-15 auto-padtop-10 auto-dot auto-marbtm-10"><div class="float-left auto-maright-10 auto-martop-3"><a href="/news/articleView.html?idxno=18163" target="_top"><img src="/news/thumbnail/201602/18163_4583_5715_v150.jpg" class="width-90 height-60 line" border="0" alt="코리안 팝스 오케스트라 신년음악회"></a></div>
+		<strong class="dis-block size-14 auto-marbtm-5"><a href="/news/articleView.html?idxno=18163" target="_top" class="auto-fontA OnLoad">코리안 팝스 오케스트라 신년음악회</a></strong>
+		<span><a href="/news/articleView.html?idxno=18163" target="_top" class="auto-fontB">[미디어세상=서인우 기자] 최상의 기량과 기획력으로 감동의 연주를 선사하...</a></span>
+		</div><div class="auto-article auto-martop-15 auto-padtop-10 auto-dot auto-marbtm-10"><div class="float-left auto-maright-10 auto-martop-3"><a href="/news/articleView.html?idxno=18127" target="_top"><img src="/news/thumbnail/201602/18127_4567_835_v150.jpg" class="width-90 height-60 line" border="0" alt="[신간] 책쓰기 안내서 '생산적책쓰기' 출간"></a></div>
+		<strong class="dis-block size-14 auto-marbtm-5"><a href="/news/articleView.html?idxno=18127" target="_top" class="auto-fontA OnLoad">[신간] 책쓰기 안내서 '생산적책쓰기' 출간</a></strong>
+		<span><a href="/news/articleView.html?idxno=18127" target="_top" class="auto-fontB">[미디어세상=최영원 기자] 최근 학생, 주부, 직장인들이 더 나은 미래를...</a></span>
+		</div></dd>
+</dl>
+</div><div class="BoxDefault_1" style="width:390px; margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #dfdfdf;">
+<dl>
+<dt></dt>
+<dd><div class="auto-article">
+		<ul><li class=""><strong><a href="/news/articleView.html?idxno=18254" target="_top" class="dis-block size-14 auto-fontA OnLoad">김종인, "경제정당, 안보정당으로 거듭나겠다"</a></strong></li><li class="auto-martop-10"><strong><a href="/news/articleView.html?idxno=18240" target="_top" class="dis-block size-14 auto-fontA OnLoad">박지원, ‘저축은행 뒷돈 수수 혐의’ 전부 무죄 선고</a></strong></li><li class="auto-martop-10"><strong><a href="/news/articleView.html?idxno=18227" target="_top" class="dis-block size-14 auto-fontA OnLoad">김종인 “개성공단폐쇄, 한반도 평화의 완충지대 사라져”</a></strong></li><li class="auto-martop-10"><strong><a href="/news/articleView.html?idxno=18215" target="_top" class="dis-block size-14 auto-fontA OnLoad">김무성 “자기사람 심기, 존재하지 않는다”</a></strong></li><li class="auto-martop-10"><strong><a href="/news/articleView.html?idxno=18196" target="_top" class="dis-block size-14 auto-fontA OnLoad">정부, "日, 위안부 합의 정신 훼손하는 언행 삼가라"</a></strong></li>
+	</ul>
+</div></dd>
+</dl>
+</div><div class="BoxDefault_1" style="width:390px; margin-bottom:20px;">
+<dl>
+<dt></dt>
+<dd><div class="auto-article">
+		<ul><li class=""><strong><a href="/news/articleView.html?idxno=18180" target="_top" class="dis-block size-14 auto-fontA OnLoad">라이터 갖고 입산, 적발시 과태료 50만원</a></strong></li><li class="auto-martop-10"><strong><a href="/news/articleView.html?idxno=18117" target="_top" class="dis-block size-14 auto-fontA OnLoad">'제국의 위안부' 저자 박유하 교수 월급 압류</a></strong></li><li class="auto-martop-10"><strong><a href="/news/articleView.html?idxno=18070" target="_top" class="dis-block size-14 auto-fontA OnLoad">비정한 母, 딸 폭행 후 방치... 사망하자 시신 암매장</a></strong></li><li class="auto-martop-10"><strong><a href="/news/articleView.html?idxno=17981" target="_top" class="dis-block size-14 auto-fontA OnLoad">北 국지도발 대비, 주변 대피소 미리 확인해야...</a></strong></li><li class="auto-martop-10"><strong><a href="/news/articleView.html?idxno=17942" target="_top" class="dis-block size-14 auto-fontA OnLoad">사내연애 '동상이몽' 남 '추천', 여 '비추'</a></strong></li>
+	</ul>
+</div></dd>
+</dl>
+</div>
+								</td>
+							</tr>
+						</table>
+						<!-- 390 //-->
+			        </td>
+			    </tr>
+			</table>
+
+			<!-- 675 //-->
+			<table cellpadding="0" cellspacing="0" border="0" width="675">
+				<tr>
+					<td>
+	</td>
+				</tr>
+			</table>
+			<!-- 675 //-->
+		</td>
+		<td valign="top" width="35" style="background:url('/image2006/default/new/Default_Back_Line.gif') repeat-y center top;" rowspan="2"></td>
+        <td valign="top" width="250" rowspan="2">
+			<!-- 250 //-->
+			<table cellpadding="0" cellspacing="0" border="0" width="250">
+				<tr>
+					<td>
+<div class="BoxDefault_1" style="width:250px; margin-bottom:20px;">
+<dl>
+<dt><a href="/news/articleList.html?sc_serial_code=SRN1&view_type=sm" class="btm_Kor"><font color="#005ab7">포토</font>뉴스</a></dt>
+<dd>
+<script language="javascript">
+<!--
+var Info_new_14 =[
+
+	["스테파니 리, 탄력적인 몸매 드러낸 ‘언더웨어 화보’ ","/news/photo/201602/18000_4518_500.jpg","18000"], 
+	["포미닛 권소현, 군살 한 점 없는 매끈한 허리라인","/news/photo/201602/17739_4441_5612.jpg","17739"], 
+	["자기야, 우리 발렌타인데이에 데이트 할래?...설현 화","/news/photo/201602/17720_4428_4233.jpg","17720"]
+
+];
+var url_new_14;
+
+function LayerSet_new_14()
+{
+	table = "";
+	table +="<table border='0' cellspacing='0' cellpadding='0'><tr>";
+
+	for(var j=0;j < Info_new_14.length; j++)
+	{
+		if(j == 0) LayerOver_new_14(j);
+
+		if(j > 0) table += "<td width='5'></td>";
+
+		table += "<td align='center'><a href='/news/articleView.html?idxno="+Info_new_14[j][2]+"' target='_top' onfocus='this.blur();' onmouseover='LayerOver_new_14("+j+");'><img src='"+Info_new_14[j][1]+"' width='80' height='50' border='0' alt='"+Info_new_14[j][0]+"'></a></td>";
+
+		if(j == 2) {
+			table +="</tr>";
+			//	j=0;
+		}
+	}
+
+	table +="</table>";
+
+	document.getElementById("ListBox_new_14").innerHTML = table;
+}
+
+function LayerOver_new_14(lNum)
+{
+	viewBox = "<a href='/news/articleView.html?idxno="+Info_new_14[lNum][2]+"' target='_top' onfocus='this.blur();'><img src='"+Info_new_14[lNum][1]+"' width='250' height='320' border='0' alt='"+Info_new_14[lNum][0]+"'></a><div class='photoCaptionD_new_14'><div class='photoCaption_new_14'><a href='/news/articleView.html?idxno="+Info_new_14[lNum][2]+"' target='_top'>"+Info_new_14[lNum][0]+"</a></div></div>";
+	url_new_14 = Info_new_14[lNum][2];
+
+	document.getElementById("MainBox_new_14").innerHTML = viewBox;
+}
+
+var nowTab_new_14 = 0;
+function autoMove_new_14()
+{
+	LayerOver_new_14(nowTab_new_14);
+	nowTab_new_14++;
+	if(nowTab_new_14 >= Info_new_14.length) nowTab_new_14 = 0;
+	setTimeout('autoMove_new_14()',5000);
+}
+//-->
+</script>
+<style>
+.photoCaptionD_new_14 { position:relative;z-index:5 }
+.photoCaption_new_14 { width:250px; height:30px; line-height:28px; position: absolute; top:-30px; left: 0px; text-align:center; background: url("/box/box_news/photoBox_Lowbg.png") 0 0 repeat; overflow: hidden; color: #fff; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; padding:0 15px;}
+.photoCaption_new_14 a { color: #fff; text-decoration:none;}
+.photoCaption_new_14 a:hover {color: #fff; text-decoration:none; }
+</style>
+<table width="250" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td id="MainBox_new_14"></td>
+				</tr>
+				<tr>
+					<td height="5"></td>
+				</tr>
+				<tr>
+					<td id="ListBox_new_14"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	LayerSet_new_14();
+	autoMove_new_14();
+//-->
+</SCRIPT>
+</dd>
+</dl>
+</div><div class="BoxDefault_1" style="width:250px; margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #dfdfdf;">
+<dl>
+<dt><a href="/news/articleList.html?sc_sub_section_code=S2N57&view_type=sm" class="btm_Kor"><font color="#005ab7">미디어</font>피플</a></dt>
+<dd><div class="auto-article "><a href="/news/articleView.html?idxno=17785" target="_top"><img src="/news/photo/201602/17785_4451_3953.png" class="width-full  border-box line auto-marbtm-5" border="0" alt="새로움을 창조하기 위해 안개를 걷어낸 연출가 '설유진'" onclick="location.href='/news/articleView.html?idxno=17785'"></a><strong class="dis-block size-14 auto-marbtm-5"><a href="/news/articleView.html?idxno=17785" target="_top" class="auto-fontA OnLoad">새로움을 창조하기 위해 안개를 걷어낸 연출가 '설유진'</a></strong>
+		<span><a href="/news/articleView.html?idxno=17785" target="_top" class="auto-fontC">[미디어세상=양은미 기자] 한국문화예술위원회는 우리 문화예술을 이끌어갈 젊은 예술가를 육성...</a></span>
+
+		</div></dd>
+</dl>
+</div><div class="BoxDefault_1" style="width:250px; margin-bottom:20px;">
+<dl>
+<dt><a href="/news/articleList.html?sc_sub_section_code=S2N26&view_type=sm" class="btm_Kor">사회<font color="#005ab7">ISSUE</font></a></dt>
+<dd><div class="auto-article "><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=18070" target="_top" class="auto-fontA OnLoad">비정한 母, 딸 폭행 후 방치... 사망하자 시신 암매장</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=18070" target="_top"><img src="/news/thumbnail/201602/18070_4551_152_v150.jpg" class="width-80 height-53 line" border="0" alt="비정한 母, 딸 폭행 후 방치... 사망하자 시신 암매장"></a></div><span><a href="/news/articleView.html?idxno=18070" target="_top" class="auto-fontC">[미디어세상=양은미 기자] 40대 엄마가 자신의 7살 난 딸이 말을 듣지 않는다며...</a></span>
+		</div><div class="auto-article auto-padtop-10 auto-martop-10 auto-dot"><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=17697" target="_top" class="auto-fontA OnLoad">장기결석생 또 주검으로... '부천 여중생 백골 시신' 사건</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=17697" target="_top"><img src="/news/thumbnail/201602/17697_4410_2638_v150.jpg" class="width-80 height-53 line" border="0" alt="장기결석생 또 주검으로... '부천 여중생 백골 시신' 사건"></a></div><span><a href="/news/articleView.html?idxno=17697" target="_top" class="auto-fontC">[미디어세상=양은미 기자] 지난달 ‘부천 초등생 시신 훼손’ 사건의 충격이 가시기...</a></span>
+		</div><div class="auto-article auto-padtop-10 auto-martop-10 auto-dot"><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=17520" target="_top" class="auto-fontA OnLoad">'호화 출장' 아리랑TV 방석호 사장, 사표 수리</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=17520" target="_top"><img src="/news/thumbnail/201602/17520_4358_319_v150.jpg" class="width-80 height-53 line" border="0" alt="'호화 출장' 아리랑TV 방석호 사장, 사표 수리"></a></div><span><a href="/news/articleView.html?idxno=17520" target="_top" class="auto-fontC">[미디어세상=양은미 기자] 문화체육관광부가 ‘호화 출장’ 논란으로 물의를 빚은 방...</a></span>
+		</div></dd>
+</dl>
+</div><table width="100%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td align="center"><!--160106_art--><script language="javascript" src="/bannerManager/inc/3.html"></script><!--160106_art--></td>
+			</tr>
+		</table><div class="BoxDefault_1" style="width:250px; margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #dfdfdf;">
+<dl>
+<dt><a href="/news/articleList.html?sc_sub_section_code=S2N50&view_type=sm" class="btm_Kor"><font color="#005ab7">영화</font></a></dt>
+<dd><div class="auto-article "><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=18216" target="_top" class="auto-fontA OnLoad">충무로의 떠오르는 신인 남녀! 배우 박소담&류준열</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=18216" target="_top"><img src="/news/thumbnail/201602/18216_4599_3820_v150.jpg" class="width-80 height-53 line" border="0" alt="충무로의 떠오르는 신인 남녀! 배우 박소담&류준열"></a></div><span><a href="/news/articleView.html?idxno=18216" target="_top" class="auto-fontC">[미디어세상=최영원 기자] 영화 ‘설행_눈길을 걷다’와 ‘글로리데이’로 돌아오는 ...</a></span>
+		</div><div class="auto-article auto-padtop-10 auto-martop-10 auto-dot"><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=18167" target="_top" class="auto-fontA OnLoad">교황의 숨겨진 이야기가 그대로... 영화 '프란치스코'</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=18167" target="_top"><img src="/news/thumbnail/201602/18167_4585_230_v150.jpg" class="width-80 height-53 line" border="0" alt="교황의 숨겨진 이야기가 그대로... 영화 '프란치스코'"></a></div><span><a href="/news/articleView.html?idxno=18167" target="_top" class="auto-fontC">[미디어세상=최영원 기자] 원작 혹은 실화 바탕, 실존 인물을 그린 영화들이 꾸준...</a></span>
+		</div><div class="auto-article auto-padtop-10 auto-martop-10 auto-dot"><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=18108" target="_top" class="auto-fontA OnLoad">배우 김성오, 연쇄살인범 역할 위해 4주 16kg 감량</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=18108" target="_top"><img src="/news/thumbnail/201602/18108_4557_4756_v150.jpg" class="width-80 height-53 line" border="0" alt="배우 김성오, 연쇄살인범 역할 위해 4주 16kg 감량"></a></div><span><a href="/news/articleView.html?idxno=18108" target="_top" class="auto-fontC">[미디어세상=최영원 기자] 상반기 기대작으로 떠오르고 있는 추적스릴러 영화 ‘널 ...</a></span>
+		</div><div class="auto-article auto-padtop-10 auto-martop-10 auto-dot"><strong class="dis-block size-12 auto-marbtm-5"><a href="/news/articleView.html?idxno=18052" target="_top" class="auto-fontA OnLoad">마침내 그가 돌아왔다 '제이슨 본' 국내 개봉 확정</a></strong><div class="float-left auto-maright-10"><a href="/news/articleView.html?idxno=18052" target="_top"><img src="/news/thumbnail/201602/18052_4542_028_v150.jpg" class="width-80 height-53 line" border="0" alt="마침내 그가 돌아왔다 '제이슨 본' 국내 개봉 확정"></a></div><span><a href="/news/articleView.html?idxno=18052" target="_top" class="auto-fontC">[미디어세상=최영원 기자] ‘본 아이덴티티’, ‘본 슈프리머시’, ‘본 얼티메이텀...</a></span>
+		</div></dd>
+</dl>
+</div>
+					</td>
+				</tr>
+			</table>
+			<!-- 250 //-->
+        </td>
+	</tr>
+</table>
+
+<table align="center" cellpadding="0" cellspacing="0" width="960" border="0">
+	<tr>
+		<td valign="top">
+			<!-- 960 //-->
+			<table cellpadding="0" cellspacing="0" border="0" width="960">
+				<tr>
+					<td>
+
+					</td>
+				</tr>
+			</table>
+			<!-- 960 //-->
+		</td>
+	</tr>
+</table>
+
+<table width="960" border="0" cellpadding="0" cellspacing="0" align="center">
+	<tr>
+		<td style="padding:12px 0; border:1px solid #ddd;">
+		<table width="930" border="0" cellspacing="0" cellpadding="0" align="center">
+			<tr>
+				<td class="dncom">
+				<a href="http://www.mediakr.com/com/com-1.html" onfocus="this.blur()">신문사소개</a>ㆍ<a href="http://www.mediakr.com/com/jb.html" onfocus="this.blur()">기사제보</a>ㆍ<a href="http://www.mediakr.com/com/ad.html" onfocus="this.blur()">광고안내</a>ㆍ<a href="http://www.mediakr.com/com/bp.html" onfocus="this.blur()">불편신고</a>ㆍ<a href="http://www.mediakr.com/com/privacy.html" onfocus="this.blur()" class="Default_textColor"><strong>개인정보취급방침</strong></a>ㆍ<a href="http://www.mediakr.com/com/teen.html" onfocus="this.blur()">청소년보호정책</a>ㆍ<a href="http://www.mediakr.com/com/emailno.html" onfocus="this.blur()">이메일무단수집거부</a>
+				</td>
+				<td width="250" align="right">
+				<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td><a href="http://www.mediakr.com/rss/" onFocus="this.blur();"><img src="/image2006/rss_b.gif" border="0"></a></td>
+						<td><a href="http://www.mediakr.com/" onfocus="this.blur()"><img src="/image2006/dn_iconhome.gif" border="0"></a></td>
+						<td><a href="javascript:history.back()" onfocus="this.blur();"><img src="/image2006/dn_iconback.gif"  border="0"></a></td>
+						<td><a href="#top" onfocus="this.blur();"><img src="/image2006/dn_icontop.gif" border="0"></a></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="padding:15px 0;">
+		<table width="960" border="0" cellspacing="0" cellpadding="0" align="center">
+			<tr>
+				<td width="" align="center" style="padding:0 15px;"><img src="/image2006/logo_dn.gif"></td>
+				<td class="dncopy">
+				121-887 서울시 마포구 월드컵로 41-1 정일빌딩 3층(합정동 427-14) (주)미디어세상<br />
+				대표전화 : 02)3144-3834<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>팩스 : 02)3144-4734&nbsp;&nbsp;|&nbsp;&nbsp;등록번호 : 서울 아 01419<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>발행&middot;편집국장 : 노인국<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>자매지 뉴스런<br>
+				C<a href="http://www.mediakr.com/admin/adminLoginForm.html">o</a>pyright &copy; 2016 미디어세상. All rights reserved.
+				</td>
+				<td width="60" valign="bottom" align="right"><a href="http://www.ndsoft.co.kr" target="_blank" onfocus="this.blur()"><img src="/image2006/ndsoft.gif" border="0"></a></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+
+<!-- 스크롤탑 -->
+<i class="back-to-top"><a href="#top">Back to Top</a></i>
+
+<script type="text/javascript">
+<!--
+(function($) {
+	$(function() {
+
+		/*스크롤 탑*/
+		var offset = 220;
+		var duration = 500;
+		jQuery(window).scroll(function() {
+			if (jQuery(this).scrollTop() > offset) {
+				jQuery('.back-to-top').fadeIn(duration);
+			} else {
+				jQuery('.back-to-top').fadeOut(duration);
+			}
+		});
+
+		jQuery('.back-to-top').click(function(event) {
+			event.preventDefault();
+			jQuery('html, body').animate({scrollTop: 0}, duration);
+			return false;
+		})
+
+	});
+})(jQuery);
+//-->
+</script>
+
+
+</td>
+</tr>
+</table>
+
+
+</body>
+</html>
+<script type="text/javascript">
+</script>

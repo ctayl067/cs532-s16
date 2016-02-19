@@ -1,0 +1,219 @@
+
+   
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+ <title>Sosyal Medyada - Sosyal Medya Arama Motoru</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	 
+     <meta name="description" content="Sosyal Medyada Facebook Twitter Flickr Google gibi popüler sosyal ağlarda arama yaparak aradığınız sonuçlar hakkında bilgileri bulabilirsiniz. ">
+	<meta name="keywords" content="" />
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="index, follow" />
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="canonical" href="http://www.sosyalmedyada.net/-.html" />
+		
+	<link rel="shortcut icon" href="favicon.ico" />
+	<meta name="google-site-verification" content="8t-Gd5Wcsu4kv5ffpMcNWT-8J_u1Cph-hczr32ioc04" />
+	<link rel="stylesheet" href="css/add2home.css">
+	<script type="application/javascript" src="js/add2home.js" charset="utf-8"></script>
+	<script type="application/javascript" src="js/jquery.shorten.js" charset="utf-8"></script>
+	<script type="text/javascript">
+
+	var addToHomeConfig = {
+		touchIcon: true,
+	};
+	
+	$('.row .btn').on('click', function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var $collapse = $this.closest('.collapse-group').find('.collapse');
+    $collapse.collapse('toggle');
+});
+	</script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+	<link rel="stylesheet" href="css/sc-player-minimal.css">
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<link rel="stylesheet" href="css/bootstrap-lightbox.min.css">
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script language="javascript">
+$(document).ready(function() {
+	
+	$(".comment").shorten();
+	
+	$(".comment-small").shorten({showChars: 10});
+
+ });
+</script>
+<a class="jotform-feedback-link" id="jotform-feedback-40874100149348" style="padding: 7px 15px; position: fixed; bottom: 0px; font-family: verdana; font-size: 15px; color: rgb(255, 255, 255); background-color: rgb(245, 146, 2); z-index: 999; cursor: pointer; text-align: center; text-decoration: none; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 5px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 5px; right: 35px; text-shadow: none; background-position: initial initial; background-repeat: initial initial;" href="iletisim.php">İletişim</a> 
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                /**
+                * jQuery tıklama
+                **/
+                $('.searchSidebar a').click(function(){
+                    alert("'"+ $(this).html() +"'" + "  Lütfen Aramak İstediğiniz kelimeyi yazın...");
+                    /*
+                    *  return false'yi sayfayı yonlendirmesin diye kullandım.
+                    **/
+                    return false;
+                });
+                /**
+                * jQuery ile body'de ki herhangi bir yere tıklanınca
+                **/
+                $('*').click(function(e){
+                    /**
+                        * Tiklanilan elementi kontrol ettiyoruz
+                        * 
+                        * e.target =  tiklanilan element
+                        * is('.searchSidebar') =  tiklanilan element searchSidebar elementimi
+                        * 
+                        **/
+                   
+
+                });
+            });
+        </script>
+</head>
+<body>
+
+<div id="header">
+	<div class="logo">
+		<a href="http://www.sosyalmedyada.net/index.php"><img src="images/logo_s.png" /></a><br />
+	</div>
+<div class="headerContent">
+	<form action="search.php" method="get">
+
+	<input type="text" id="q" name="q" value=""/>
+	<select name="scl">
+  <option value="Twitter">Twitter'da Ara</option>
+  <option value="Facebook">Facebook'da Ara</option>
+  <option value="Instagram">Instagram'da Ara</option>
+  <option value="Flickr">Flickr'da Ara</option>
+  <option value="Youtube">Youtube'da Ara</option>
+  <option value="Vimeo">Vimeo'da Ara</option>
+  <option value="SoundCloud">SoundCloud'da Ara</option>
+  <option value="LastFM">Last.FM'da Ara</option>
+  <option value="Haberleri">Haberler'de Ara</option>
+  <option value="Reddit">Reddit'de Ara</option>
+  <option value="Deviant">Deviant Art'da Ara</option>
+</select>
+	<input type="submit" value="Arama" />
+	</form>
+	</div>
+	<span style="float: left;font-size: 15px;font-weight: normal;margin-top: 19px;margin-left: 20px;"><a href="Statistics.php?page=1">Popüler Hesaplar</a> &nbsp;&nbsp;<a href="http://www.sosyalmedyada.net/gundem.php">Sosyal Medya Gündemi</a></span> <span style="float: left;font-size: 15px;font-weight: normal;margin-top: 19px;margin-left: 20px;"><a href="http://www.sosyalmedyada.net/tt-listesi.php">Anlık TT Listesi</a></span> <span style="float: left;font-size: 15px;font-weight: normal;margin-top: 19px;margin-left: 30px;"></span>
+</div>
+<div id="contentSearch">
+<div class="searchSidebar">
+<ul class="brand hidden-phone">
+	  <li style="margin-top:2px;font-weight:bold;"><a class="animated shake" href="#"><img src="images/icons/twitter.png">Twitter</a></li> <li style="margin-top:2px;font-weight:bold;"><a class="animated shake" href="-Facebook.html"><img src="images/icons/facebook.png"> Facebook</a></li> <li style="margin-top:2px;font-weight:bold;"><a class="animated shake" href="-Instagram.html"><img src="images/icons/instagram.png"> Instagram</a></li> <li style="margin-top:2px;font-weight:bold;"><a class="animated shake" href="-Flickr.html"><img src="images/icons/flickr.png"> Flickr</a></li> <li style="margin-top:2px;font-weight:bold;"><a class="animated shake" href="-Youtube.html"><img src="images/icons/youtube.png"> Youtube</a></li> <li style="margin-top:2px;font-weight:bold;"><a class="animated shake" href="-Vimeo.html"><img src="images/icons/vimeo.png"> Vimeo</a></li> <li style="margin-top:2px;font-weight:bold;"><a class="animated shake" href="-Soundcloud.html"><img src="images/icons/soundcloud.png"> SoundCloud </a></li> <li style="margin-top:2px;font-weight:bold;"><a class="animated shake" href="-LastFM.html"><img src="images/icons/lastfm.png"> LastFM</a></li> <li style="margin-top:2px;font-weight:bold;"><a class="animated shake" href="-Haberleri.html"><img src="images/icons/rss.png">Haberler</a></li> <li style="margin-top:2px;font-weight:bold;"><a class="animated shake" href="-Reddit.html"><img src="images/icons/reddit.png"> Reddit</a></li></ul>
+
+</div>
+<div class="adsSidebar" style="width:160px;height:600px;float:right;">
+ 
+   
+</div>
+<div class="searchContent">
+    <meta charset="UTF-8" />
+
+	<div class="searchResults"><div class="span10" ><div class="span10" style="margin-left:40px"><iframe src="http://sosyalmedyada.net/soyle.php#trending" width="1000px" height="1120px" frameborder="0" scrolling="yes"></iframe></div></div>
+
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+			<script src="js/soundcloud.player.api.js"></script>
+<script src="js/sc-player.js"></script>
+<script src="js/bootstrap-lightbox.min.js"></script>
+<script src="js/jquery.timeago.js"></script>
+<script src="js/jquery.masonry.min.js"></script>
+ <script type="text/javascript">
+   var $container = $('#imagescontainer');
+
+$container.imagesLoaded( function(){
+  $container.masonry({
+    itemSelector : '.box',
+	isFitWidth: true,
+	columnWidth: 150,
+  isAnimated: true
+//	 columnWidth: function( containerWidth ) {
+//    return containerWidth / 10;
+ // }
+  });
+});
+  </script>
+
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+		$("a[rel^='prettyPhoto']").prettyPhoto();
+	});
+</script>
+<script>
+jQuery(document).ready(function() {
+  jQuery("abbr.timeago").timeago();
+});
+</script>
+		 <script>
+$('form').submit(function(){
+  $('input[name=q]').val($('input[name=q]').val().replace('http://', ''))
+  $('input[name=q]').val($('input[name=q]').val().replace('www.', ''))
+  $('input[name=q]').val($('input[name=q]').val().replace('http', ''))
+  $('input[name=q]').val($('input[name=q]').val().replace('ftp', ''))
+  $('input[name=q]').val($('input[name=q]').val().replace('ftp://', ''))
+  $('input[name=q]').val($('input[name=q]').val().replace('://', ''))
+  $('input[name=q]').val($('input[name=q]').val().replace('../', ''))
+  $('input[name=q]').val($('input[name=q]').val().replace('https://', ''))
+   $('input[name=q]').val($('input[name=q]').val().replace('"', '&quot;'))
+})
+   </script>
+   			<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=8665518; 
+var sc_invisible=1; 
+var sc_security="c53bf8dc"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="free hit
+counters" href="http://statcounter.com/free-hit-counter/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/8665518/0/c53bf8dc/1/"
+alt="free hit counters"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42568548-1', 'sosyalmedyada.net');
+  ga('send', 'pageview');
+
+</script>
+</div>
+</div>
+<div class="footer">
+
+	<div class="footerPadding">
+	<a href="https://play.google.com/store/apps/details?id=com.sosyalmedyada&hl=tr" target="_blank"><img src="http://sosyalmedyada.net/images/android-icon.png"></a> <a href="https://www.facebook.com/pages/Sosyalmedyada/117916915063485" target="_blank"><img src="facebook.png"></a> <a href="https://twitter.com/sosyal_medyada" target="_blank"><img src="twitter.png"></a> <a href="https://chrome.google.com/webstore/detail/sosyal-medyada/jmplopllcedffooebepeponileaijdgd?hl=tr" target="_blank"><img src="chromewebstore.png"></a>
+	SosyalMedyada.net &copy; 2013 Sitemizde yer alan yazı, haber, makale, foto galeri, terim açıklaması, soru-cevap, forum, video, yorum ve tüm tıbbi bilgiler sosyal ağlar üzerinde barındırılmaktadır ve sadece bilgilendirme amaçlıdır. Bu bilgiler zamanla geçerliliğini kaybedebilir. 
+<br />
+<div><marquee behavior="slide" direction="left"></marquee> 
+</div>
+</div>
+</div>
+</body>
+</html>

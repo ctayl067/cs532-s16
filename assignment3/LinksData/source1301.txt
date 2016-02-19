@@ -1,0 +1,642 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en-US"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en-US"> <![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!--><html lang="en-US"> <!--<![endif]-->
+
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>VOW 88.1FM | Hear it, Feel it, Live it</title>
+
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Add CSS3 Rules here for IE 7-9
+================================================== -->
+
+<!--[if IE]>
+<style type="text/css">
+html.ie #navigation,
+html.ie a.button,
+html.ie .cta,
+html.ie .wp-caption,
+html.ie #breadcrumbs,
+html.ie a.more-link,
+html.ie .gallery .gallery-item img,
+html.ie .gallery .gallery-item img.thumbnail,
+html.ie .widget-container,
+html.ie #author-info {behavior: url("http://vowfm.co.za/wp-content/themes/vow_theme/PIE.php");position: relative;}</style>
+<![endif]-->
+
+
+<!-- Mobile Specific Metas
+================================================== -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+<!-- Favicons
+================================================== -->
+
+<link rel="shortcut icon" href="http://vowfm.co.za/wp-content/themes/vow_theme/images/favicon.ico">
+
+<link rel="apple-touch-icon" href="http://vowfm.co.za/wp-content/themes/vow_theme/images/apple-touch-icon.png">
+
+<link rel="apple-touch-icon" sizes="72x72" href="http://vowfm.co.za/wp-content/themes/vow_theme/images/apple-touch-icon-72x72.png" />
+
+<link rel="apple-touch-icon" sizes="114x114" href="http://vowfm.co.za/wp-content/themes/vow_theme/images/apple-touch-icon-114x114.png" />
+
+<link rel="pingback" href="http://vowfm.co.za/xmlrpc.php" />
+<link rel="stylesheet" id="custom" href="http://vowfm.co.za/?get_styles=css" type="text/css" media="all" />
+
+<!--[if IE 7]><link rel='stylesheet' id='css-ie-fix' href='http://vowfm.co.za/wp-content/plugins/special-recent-posts-pro/assets/css/css-ie7-fix.css' type='text/css' media='all' /> <![endif]--><link rel="alternate" type="application/rss+xml" title="VOW 88.1FM &raquo; Feed" href="http://vowfm.co.za/index.php/feed/" />
+<link rel="alternate" type="application/rss+xml" title="VOW 88.1FM &raquo; Comments Feed" href="http://vowfm.co.za/index.php/comments/feed/" />
+<link rel='stylesheet' id='cudazi-scroll-to-top-style-css'  href='http://vowfm.co.za/wp-content/plugins/cudazi-scroll-to-top/css/widget.css?ver=3.8.13' type='text/css' media='all' />
+<link rel='stylesheet' id='ai1ec_stytle-css'  href='http://vowfm.co.za/?ai1ec_render_css=1386678838&#038;ver=3.8.13' type='text/css' media='all' />
+<link rel='stylesheet' id='all_in_one_bannerRotator_site_css-css'  href='http://vowfm.co.za/wp-content/plugins/all_in_one_bannerRotator/bannerRotator/allinone_bannerRotator.css?ver=3.8.13' type='text/css' media='all' />
+<link rel='stylesheet' id='skeleton-css'  href='http://vowfm.co.za/wp-content/themes/skeleton/skeleton.css?ver=3.8.13' type='text/css' media='screen, projection' />
+<link rel='stylesheet' id='theme-css'  href='http://vowfm.co.za/wp-content/themes/vow_theme/style.css?ver=3.8.13' type='text/css' media='screen, projection' />
+<link rel='stylesheet' id='layout-css'  href='http://vowfm.co.za/wp-content/themes/skeleton/layout.css?ver=3.8.13' type='text/css' media='screen, projection' />
+<link rel='stylesheet' id='formalize-css'  href='http://vowfm.co.za/wp-content/themes/skeleton/formalize.css?ver=3.8.13' type='text/css' media='screen, projection' />
+<link rel='stylesheet' id='superfish-css'  href='http://vowfm.co.za/wp-content/themes/skeleton/superfish.css?ver=3.8.13' type='text/css' media='screen, projection' />
+<link rel='stylesheet' id='srp-front-stylesheet-css'  href='http://vowfm.co.za/wp-content/plugins/special-recent-posts-pro/assets/css/css-front.css?ver=3.8.13' type='text/css' media='all' />
+<link rel='stylesheet' id='ditty-news-ticker-font-css'  href='http://vowfm.co.za/wp-content/plugins/ditty-news-ticker/assets/fontastic/styles.css?ver=1.4.14' type='text/css' media='all' />
+<link rel='stylesheet' id='ditty-news-ticker-css'  href='http://vowfm.co.za/wp-content/plugins/ditty-news-ticker/assets/css/style.css?ver=1.4.14' type='text/css' media='all' />
+<link rel='stylesheet' id='ditty-twitter-ticker-css'  href='http://vowfm.co.za/wp-content/plugins/ditty-twitter-ticker/assets/css/style.css?ver=2.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='new-royalslider-core-css-css'  href='http://vowfm.co.za/wp-content/plugins/new-royalslider/lib/royalslider/royalslider.css?ver=3.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='rsUni-css-css'  href='http://vowfm.co.za/wp-content/plugins/new-royalslider/lib/royalslider/skins/universal/rs-universal.css?ver=3.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='slider_rs_home-css-css'  href='http://vowfm.co.za/wp-content/plugins/new-royalslider/lib/royalslider/templates-css/rs-home-template.css?ver=3.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='slider_in_laptop-css-css'  href='http://vowfm.co.za/wp-content/plugins/new-royalslider/lib/royalslider/templates-css/rs-in-laptop-template.css?ver=3.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='http://vowfm.co.za/wp-content/plugins/tablepress/css/default.min.css?ver=1.4' type='text/css' media='all' />
+<style type='text/css'>
+.tablepress .column-1{background:#fa1;background:-moz-linear-gradient(top,#d504fa 0%,#610272 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#d504fa),color-stop(100%,#610272));background:-webkit-linear-gradient(top,#d504fa 0%,#610272 100%);background:-o-linear-gradient(top,#d504fa 0%,#610272 100%);background:-ms-linear-gradient(top,#d504fa 0%,#610272 100%);background:linear-gradient(to bottom,#d504fa 0%,#610272 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffaa11',endColorstr='#ef6301',GradientType=0);border:solid 1px #000;font-family:'DINMedium';text-transform:uppercase;text-align:center;color:#cecdcd;font-weight:700;font-size:1.5em;letter-spacing:-1px}.tablepress .column-2{background:#2c2b2b;background:-moz-linear-gradient(top,#2c2b2b 0%,#1a1a1a 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#2c2b2b),color-stop(100%,#1a1a1a));background:-webkit-linear-gradient(top,#2c2b2b 0%,#1a1a1a 100%);background:-o-linear-gradient(top,#2c2b2b 0%,#1a1a1a 100%);background:-ms-linear-gradient(top,#2c2b2b 0%,#1a1a1a 100%);background:linear-gradient(to bottom,#2c2b2b 0%,#1a1a1a 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2c2b2b',endColorstr='#1a1a1a',GradientType=0);border:solid 1px #000;font-family:'DINMedium';text-transform:uppercase}
+</style>
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://vowfm.co.za/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://vowfm.co.za/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-content/plugins/cudazi-scroll-to-top/js/widget.js?ver=3.8.13'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js?ver=3.8.13'></script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-content/plugins/all_in_one_bannerRotator/bannerRotator/js/jquery.ui.touch-punch.min.js?ver=3.8.13'></script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-content/plugins/all_in_one_bannerRotator/bannerRotator/js/allinone_bannerRotator.js?ver=3.8.13'></script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-content/plugins/all-in-one-event-calendar/app/view/admin/js/require.js?ver=1.10.9-standard' data-main='http://vowfm.co.za/wp-content/plugins/all-in-one-event-calendar/app/view/admin/js/main.js'></script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-content/themes/vow_theme/js/filterable.js?ver=3.8.13'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://vowfm.co.za/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://vowfm.co.za/wp-includes/wlwmanifest.xml" /> 
+<link rel='next' title='About Us' href='http://vowfm.co.za/index.php/about-us/' />
+<meta name="generator" content="WordPress 3.8.13" />
+<link rel='canonical' href='http://vowfm.co.za/' />
+<link rel='shortlink' href='http://vowfm.co.za/?p=64' />
+<link type="text/css" rel="stylesheet" href="http://vowfm.co.za/wp-content/plugins/posts-for-page/pfp.css" />
+
+<!-- BEGIN GADWP v4.3.4 Classic Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script type="text/javascript">
+(function($){
+    $(window).load(function() {
+        if (this._gat) {
+            tks = this._gat._getTrackers();
+            ga_track = function(p) {
+                for (i=0; i < tks.length; i++) {
+                    var n = tks[i]._getName() !== "" ? tks[i]._getName()+"." : "";
+                    a = [];
+                    for (i2=0; i2 < p.length; i2++) {
+                        var b = i2===0 ? n+p[i2] : p[i2];
+                        a.push(b);
+                    }
+                    _gaq.push(a);
+                }
+            };
+            $('a').filter(function() {
+                return this.href.match(/.*\.(zip|mp3|mpeg|pdf|doc*|ppt*|xls*|jpeg|png|gif|tiff)(\?.*)?$/);
+            }).click(function(e) {
+                ga_track(['_trackEvent', 'download', 'click', this.href]);
+            });
+            $('a[href^="mailto"]').click(function(e) {
+                ga_track(['_trackSocial', 'email', 'send', this.href]);
+             });
+            var loc = location.host.split('.');
+            while (loc.length > 2) { loc.shift(); }
+            loc = loc.join('.');
+            var localURLs = [
+                              loc,
+                              'http://vowfm.co.za'
+                            ];
+            $('a[href^="http"]').filter(function() {
+                for (var i = 0; i < localURLs.length; i++) {
+                    if (this.href.indexOf(localURLs[i]) == -1) return this.href;
+                }
+            }).click(function(e) {
+                ga_track(['_trackEvent', 'outbound', 'click', this.href]);
+            });
+        }
+    });
+})(jQuery);
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-42035800-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- END GADWP Classic Tracking -->
+
+<style type="text/css">
+	#header #site-title.graphic a {background-image: url(http://vowfm.co.za/wp-content/uploads/2013/03/logoforwebsiteredone.png);width: 150px;height: 129px;}</style>		
+<!-- Responsive Select CSS 
+================================================================ -->
+<style type="text/css" id="responsive-select-css">
+.responsiveSelectContainer select.responsiveMenuSelect, select.responsiveMenuSelect{
+	display:none;
+}
+
+@media (max-width: 760px) {
+	.responsiveSelectContainer{
+		border:none !important;
+		background:none !important;
+		box-shadow:none !important;
+	}
+	.responsiveSelectContainer ul, ul.responsiveSelectFullMenu, #megaMenu ul.megaMenu.responsiveSelectFullMenu{
+		display: none !important;
+	}
+	.responsiveSelectContainer select.responsiveMenuSelect, select.responsiveMenuSelect { 
+		display: inline-block; 
+		width:100%;
+	}
+}	
+</style>
+<!-- end Responsive Select CSS -->
+
+<!-- Responsive Select JS
+================================================================ -->
+<script type="text/javascript">
+jQuery(document).ready( function($){
+	$( '.responsiveMenuSelect' ).change(function() {
+		var loc = $(this).find( 'option:selected' ).val();
+		if( loc != '' && loc != '#' ) window.location = loc;
+	});
+	//$( '.responsiveMenuSelect' ).val('');
+});
+</script>
+<!-- end Responsive Select JS -->
+		
+</head>
+<center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Vow 1 - Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2268018940105796"
+     data-ad-slot="6853987596"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+<body class="home page page-id-64 page-template page-template-home-page-php">
+	<div id="wrap" class="container">
+	<div id="header" class="three columns">
+<div class="inner">
+<h7 id="site-title" class="graphic"><a href="http://vowfm.co.za/" title="VOW 88.1FM">VOW 88.1FM</a></h7>
+<span class="site-desc graphic">Hear it, Feel it, Live it</span>
+</div></div><!--/#header-->	<div id="searchbar" class="row four columns"><div class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="http://vowfm.co.za/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></div></div><!--searchbar--><div id="navigation" class="row thirteen columns"><div class="menu-header responsiveSelectContainer"><ul id="menu-vow_menu-1" class="menu responsiveSelectFullMenu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-64 current_page_item menu-item-490"><a href="http://vowfm.co.za/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-491"><a href="http://vowfm.co.za/index.php/about-us/">About Us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-489"><a href="#">Media</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-497"><a href="http://vowfm.co.za/index.php/news/">News</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-499"><a href="http://vowfm.co.za/index.php/image-gallery/">Image Gallery</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-500"><a href="http://vowfm.co.za/index.php/videos/">Videos</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-495"><a href="http://vowfm.co.za/index.php/events/">Events</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-494"><a href="http://vowfm.co.za/index.php/djsshows/">DJs/Shows</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496"><a href="http://vowfm.co.za/index.php/music/">Music</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-582"><a href="http://vowfm.co.za/index.php/competitions/">Competitions/Promo Ads</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-498"><a href="http://vowfm.co.za/index.php/podcasts/">Podcasts</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-643"><a href="#">Jobs</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-616"><a href="http://vowfm.co.za/index.php/jobs/vow-fm/">VOW FM JOBS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-615"><a href="http://vowfm.co.za/index.php/jobs/external/">External</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-492"><a href="http://vowfm.co.za/index.php/adverts/">Advertise</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-493"><a href="http://vowfm.co.za/index.php/contact-us/">Contact Us</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-566"><a href="http://vowfm.co.za/index.php/contact-us/">General</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-567"><a href="http://vowfm.co.za/index.php/contact-us#marketing">Marketing</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-568"><a href="http://vowfm.co.za/index.php/contact-us#music">Music</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-571"><a href="http://vowfm.co.za/index.php/contact-us#sales">Sales</a></li>
+</ul>
+</li>
+</ul><select class="responsiveMenuSelect"><option value="" selected="selected">⇒ Menu</option><option  id="menu-item-490" value="http://vowfm.co.za/">Home</option>
+<option  id="menu-item-491" value="http://vowfm.co.za/index.php/about-us/">About Us</option>
+	<option  id="menu-item-497" value="http://vowfm.co.za/index.php/news/">– News</option>
+	<option  id="menu-item-499" value="http://vowfm.co.za/index.php/image-gallery/">– Image Gallery</option>
+	<option  id="menu-item-500" value="http://vowfm.co.za/index.php/videos/">– Videos</option>
+	<option  id="menu-item-495" value="http://vowfm.co.za/index.php/events/">– Events</option>
+<option  id="menu-item-494" value="http://vowfm.co.za/index.php/djsshows/">DJs/Shows</option>
+<option  id="menu-item-496" value="http://vowfm.co.za/index.php/music/">Music</option>
+<option  id="menu-item-582" value="http://vowfm.co.za/index.php/competitions/">Competitions/Promo Ads</option>
+<option  id="menu-item-498" value="http://vowfm.co.za/index.php/podcasts/">Podcasts</option>
+	<option  id="menu-item-616" value="http://vowfm.co.za/index.php/jobs/vow-fm/">– VOW FM JOBS</option>
+	<option  id="menu-item-615" value="http://vowfm.co.za/index.php/jobs/external/">– External</option>
+<option  id="menu-item-492" value="http://vowfm.co.za/index.php/adverts/">Advertise</option>
+<option  id="menu-item-493" value="http://vowfm.co.za/index.php/contact-us/">Contact Us</option>
+	<option  id="menu-item-566" value="http://vowfm.co.za/index.php/contact-us/">– General</option>
+	<option  id="menu-item-567" value="http://vowfm.co.za/index.php/contact-us#marketing">– Marketing</option>
+	<option  id="menu-item-568" value="http://vowfm.co.za/index.php/contact-us#music">– Music</option>
+	<option  id="menu-item-571" value="http://vowfm.co.za/index.php/contact-us#sales">– Sales</option>
+</select></div></div><!--/#navigation-->		
+<a name="top" id="top"></a><div id="content" class="sixteen columns"> 
+
+				<div id="post-64" class="post-64 page type-page status-publish hentry">
+								
+								
+					<div class="row">
+						<div id="homepage_slider" class="two_thirds">
+							<div id="mtphr-dnt-221" class="mtphr-dnt mtphr-dnt-221 mtphr-dnt-twitter mtphr-dnt-scroll mtphr-dnt-scroll-left"><div class="mtphr-dnt-wrapper mtphr-dnt-clearfix"><div class="mtphr-dnt-tick-container"><div class="mtphr-dnt-tick-contents"><div class="mtphr-dnt-tick mtphr-dnt-twitter-tick mtphr-dnt-clearfix"><p>Twitter access not yet configured.</p></div></div></div></div></div>							<div class="clear">&nbsp;</div>
+							<div id="new-royalslider-1" class="royalSlider new-royalslider-1 rsUni rs-image-gallery" style="width:100%; height:440;"><div class="rsContent">
+  <a class="rsImg" href="http://vowfm.co.za/wp-content/uploads/2016/02/SONA-1024x684.png" data-rsBigImg="http://vowfm.co.za/wp-content/uploads/2016/02/SONA.png">#SONA16 Post analysis by The Conversation & VOW FM</a>
+  <div class="rsCaption">
+    <a href="http://vowfm.co.za/index.php/keeping-track-on-past-sona-promises-with-africa-check/"><h3>#SONA16 Post analysis by The Conversation & VOW FM</h3></a>
+    <p>February 11, 2016</p>
+	</div>
+  <div class="rsTmb"><img src="http://vowfm.co.za/wp-content/uploads/2016/02/SONA-96x72.png" alt="" /></div>
+  
+  
+  <a class="rsLink" href="http://vowfm.co.za/index.php/keeping-track-on-past-sona-promises-with-africa-check/">#SONA16 Post analysis by The Conversation & VOW FM</a>
+</div><div class="rsContent">
+  <a class="rsImg" href="http://vowfm.co.za/wp-content/uploads/2016/02/two.jpg" data-rsBigImg="http://vowfm.co.za/wp-content/uploads/2016/02/two.jpg">Closeup Make Your Move</a>
+  <div class="rsCaption">
+    <a href="http://vowfm.co.za/index.php/closeup-make-your-move/"><h3>Closeup Make Your Move</h3></a>
+    <p>February 9, 2016</p>
+	</div>
+  <div class="rsTmb"><img src="http://vowfm.co.za/wp-content/uploads/2016/02/two-96x72.jpg" alt="" /></div>
+  
+  
+  <a class="rsLink" href="http://vowfm.co.za/index.php/closeup-make-your-move/">Closeup Make Your Move</a>
+</div><div class="rsContent">
+  <a class="rsImg" href="http://vowfm.co.za/wp-content/uploads/2016/01/Banner.jpg" data-rsBigImg="http://vowfm.co.za/wp-content/uploads/2016/01/Banner.jpg">Be Part of the VOW FM Team</a>
+  <div class="rsCaption">
+    <a href="http://vowfm.co.za/index.php/be-part-of-the-vow-fm-team/"><h3>Be Part of the VOW FM Team</h3></a>
+    <p>January 26, 2016</p>
+	</div>
+  <div class="rsTmb"><img src="http://vowfm.co.za/wp-content/uploads/2016/01/Banner-96x72.jpg" alt="" /></div>
+  
+  
+  <a class="rsLink" href="http://vowfm.co.za/index.php/be-part-of-the-vow-fm-team/">Be Part of the VOW FM Team</a>
+</div><div class="rsContent">
+  
+  <div class="rsCaption">
+    <a href="http://vowfm.co.za/index.php/fnb-business-feature-podcast/"><h3>FNB Business Feature Podcast</h3></a>
+    <p>November 6, 2015</p>
+	</div>
+  <div class="rsTmb"></div>
+  
+  
+  <a class="rsLink" href="http://vowfm.co.za/index.php/fnb-business-feature-podcast/">FNB Business Feature Podcast</a>
+</div><div class="rsContent">
+  <a class="rsImg" href="http://vowfm.co.za/wp-content/uploads/2015/11/ZAlebs-Website.png" data-rsBigImg="http://vowfm.co.za/wp-content/uploads/2015/11/ZAlebs-Website.png">VOW FM announces a media partnership with ZAlebs for The Killer Joint Battle of the DJs</a>
+  <div class="rsCaption">
+    <a href="http://vowfm.co.za/index.php/vow-fm-announces-a-media-partnership-with-zalebs-for-the-killer-joint-battle-of-the-djs/"><h3>VOW FM announces a media partnership with ZAlebs for The Killer Joint Battle of the DJs</h3></a>
+    <p>November 2, 2015</p>
+	</div>
+  <div class="rsTmb"><img src="http://vowfm.co.za/wp-content/uploads/2015/11/ZAlebs-Website-96x72.png" alt="" /></div>
+  
+  
+  <a class="rsLink" href="http://vowfm.co.za/index.php/vow-fm-announces-a-media-partnership-with-zalebs-for-the-killer-joint-battle-of-the-djs/">VOW FM announces a media partnership with ZAlebs for The Killer Joint Battle of the DJs</a>
+</div><div class="rsContent">
+  <a class="rsImg" href="http://vowfm.co.za/wp-content/uploads/2015/09/2543_VOW-Banners_Best-Bank_600x440-Static1.jpg" data-rsBigImg="http://vowfm.co.za/wp-content/uploads/2015/09/2543_VOW-Banners_Best-Bank_600x440-Static1.jpg">Switch to SA's best Business Bank, FNB  (Advertorial)</a>
+  <div class="rsCaption">
+    <a href="http://vowfm.co.za/index.php/switch-to-sas-best-business-bank-fnb-advertorial/"><h3>Switch to SA's best Business Bank, FNB  (Advertorial)</h3></a>
+    <p>September 30, 2015</p>
+	</div>
+  <div class="rsTmb"><img src="http://vowfm.co.za/wp-content/uploads/2015/09/2543_VOW-Banners_Best-Bank_600x440-Static1-96x72.jpg" alt="" /></div>
+  
+  
+  <a class="rsLink" href="http://vowfm.co.za/index.php/switch-to-sas-best-business-bank-fnb-advertorial/">Switch to SA's best Business Bank, FNB  (Advertorial)</a>
+</div></div>						</div><!--slider-->
+						
+						<div id="dj" class="one_third last">
+							<h3 class="widget-title">On-Air Now</h3>
+							<a href="http://tunein.com/radio/Voice-of-Wits-905-s137212/" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=300,height=150'); return false;"><img src="http://vowfm.co.za/wp-content/themes/vow_theme/images/tune-in.jpg"/></a>
+								<div id="dj-rotator">
+					<h3 class="widget-title dj-header">On-Air Now</h3>
+					<a href="http://vowfm.co.za/index.php/project/living-electro-thursdays-8-11pm/" target=""><img class="dj-image 20160118152452" src="http://vowfm.co.za/wp-content/uploads/2016/01/livingelectro.jpg" width="280" height="400" alt="Living Electro with Kevin & Matt Law" title="Living Electro with Kevin & Matt Law" /></a>
+					<p class="dj-desc">Living Electro with Kevin & Matt Law</p>
+				</div>
+						</div><!--djrotator-->
+					</div>
+					
+					<hr>
+					<div class="clear"></div>
+					
+					<div class="row">
+						<div id="homepage_charts" class="one_third">
+							<div id="vow_chart">
+								<h3 class="widget-title"><a href="http://vowfm.co.za/index.php/music/vow-fm-top-40-chart/">VOW FM Top 40 Chart</a></h3>
+								
+<table id="tablepress-1" class="tablepress tablepress-id-1">
+<tbody class="row-hover">
+<tr class="row-1">
+	<td class="column-1">#1</td><td class="column-2"> THE WEEKEND - THE HILLS</td>
+</tr>
+<tr class="row-2">
+	<td class="column-1">#2 </td><td class="column-2">EMTEE - ROLL UP </td>
+</tr>
+<tr class="row-3">
+	<td class="column-1">#3</td><td class="column-2">JUSTIN BIEBER - SORRY</td>
+</tr>
+<tr class="row-4">
+	<td class="column-1">#4</td><td class="column-2">DRAKE  - HOTLINE BLING</td>
+</tr>
+<tr class="row-5">
+	<td class="column-1">#5</td><td class="column-2">ADELE - HELLO</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-1 from cache -->							</div><!--VOW Chart-->
+							
+							<div id="local12@12_chart">
+								<h3 class="widget-title"><a href="http://vowfm.co.za/index.php/music/local-1212-chart/">Local 12@12 Chart</a></h3>
+								
+<table id="tablepress-2" class="tablepress tablepress-id-2">
+<tbody class="row-hover">
+<tr class="row-1">
+	<td class="column-1">#1</td><td class="column-2">Nonku Phiri- Things we do on the weekend</td>
+</tr>
+<tr class="row-2">
+	<td class="column-1">#2</td><td class="column-2">Da L.E.S - P.A.I.D Ft AKA &amp; Burna Boy</td>
+</tr>
+<tr class="row-3">
+	<td class="column-1">#3</td><td class="column-2">Chad feat. Soko – EFT</td>
+</tr>
+<tr class="row-4">
+	<td class="column-1">#4</td><td class="column-2">Gigi Lamayne feat Khuli chana- Ice Cream remix</td>
+</tr>
+<tr class="row-5">
+	<td class="column-1">#5</td><td class="column-2">Fifi Cooper feat. Ab Crazy – Kisses</td>
+</tr>
+<tr class="row-6">
+	<td class="column-1">#6</td><td class="column-2">Shelton forbez ft. Thaiwanda – Butterfly</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-2 from cache -->							
+							</div><!--local12@12 chart-->
+							
+							<div id="newmusic_chart">
+								<h3 class="widget-title"><a href="http://vowfm.co.za/index.php/music/ttphiphopchart/">TTP HIPHOP CHART</a></h3>
+								
+<table id="tablepress-4" class="tablepress tablepress-id-4">
+<tbody class="row-hover">
+<tr class="row-1">
+	<td class="column-1">#1</td><td class="column-2">DJ SLIQE FEAT OKMALUMKOOLKAT &amp; JR - ILIFE</td>
+</tr>
+<tr class="row-2">
+	<td class="column-1">#2</td><td class="column-2">NASTY C - JUICE BACK</td>
+</tr>
+<tr class="row-3">
+	<td class="column-1">#3</td><td class="column-2">SMASHIS FEAT KID X &amp; KWESTA - NIGHT N' DAY</td>
+</tr>
+<tr class="row-4">
+	<td class="column-1">#4</td><td class="column-2">LV FEAT OKMALUMKOOLKAT - PUSH IT</td>
+</tr>
+<tr class="row-5">
+	<td class="column-1">#5</td><td class="column-2">PRIDDY UGLY - HUNNIDS</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-4 from cache -->							
+							</div><!--ttp music chart-->
+														
+						</div>
+						
+						<div class="two_thirds last">
+							<div id="homepage_gallery" class="one_half">
+							<h3 class="widget-title">Gallery</h3>
+								<div id="homepage_gallery_description">			<div class="textwidget"><p>AT VOW WE WILL REGULARLY ADD IMAGES AND VIDEOS. KEEP CHECKING OUR GALLERY TO SEE THE LATEST MATERIAL.</p>
+<p>THESE WILL FEATURE EVERYTHING UNDER THE SUN, SO CHECK OFTEN!</p>
+</div>
+		</div> 
+								<a href="/index.php/image-gallery/"><img src="http://vowfm.co.za/wp-content/themes/vow_theme/images/pics_btn.jpg"></a>
+								<div class="clear"></div>
+								<hr>
+								<a href="/index.php/videos/"><img src="http://vowfm.co.za/wp-content/themes/vow_theme/images/vids_btn.jpg"></a>
+							</div>
+							
+							<div id="homepage_competitions" class="one_half last">
+								<h3 class="widget-title">Advertising</h3>
+								<script>
+		jQuery(function() {
+			jQuery("#allinone_bannerRotator_2").allinone_bannerRotator({
+				skin:"classic",
+				width:290,
+				height:380,
+				width100Proc:false,
+				height100Proc:false,
+				randomizeImages: false,
+				firstImg:0,
+				numberOfStripes:20,
+				numberOfRows:5,
+				numberOfColumns:10,
+				defaultEffect:"leftRightFadingReverseStripes",
+				effectDuration:0.5,
+				autoPlay:5,
+				loop:true,
+				target:"_blank",
+				showAllControllers:true,
+				showNavArrows:true,
+				showOnInitNavArrows:true,
+				autoHideNavArrows:true,
+				showBottomNav:true,
+				showOnInitBottomNav:true,
+				autoHideBottomNav:true,
+				showPreviewThumbs:true,
+				enableTouchScreen:true,
+				absUrl:"http://vowfm.co.za/wp-content/plugins/all_in_one_bannerRotator/bannerRotator/",
+				showCircleTimer:true,
+				showCircleTimerIE8IE7:false,
+				circleRadius:10,
+				circleLineWidth:4,
+				circleColor:"#ffa200",
+				circleAlpha:100,
+				behindCircleColor:"#000000",
+				behindCircleAlpha:50,
+				responsive:true,
+				responsiveRelativeToBrowser:false,
+				thumbsWrapperMarginBottom:5
+			});	
+		});
+	</script>	
+            <div id="allinone_bannerRotator_2" style="display:none;"><ul class="allinone_bannerRotator_list"><li data-text-id="" data-transition="" data-bottom-thumb="" data-link="http://www.closeup.com.ng/campaigns/make-your-move/page-competition.html" data-target=""><img src="http://vowfm.co.za/wp-content/uploads/2016/02/one.jpg" alt="" /></li><li data-text-id="" data-transition="" data-bottom-thumb="" data-link="https://www.fnb.co.za/business-banking/" data-target=""><img src="http://vowfm.co.za/wp-content/uploads/2015/09/2543_VOW-Banners_Best-Bank_290x380-Static.jpg" alt="" /></li></ul></div>							</div>
+							
+							<hr>
+							<div class="clear"></div>
+							
+							<div id="homepage_contact" class="one_half">
+								<h3 class="widget-title">Get in touch</h3>
+								<p>YOU WANT TO GET YOUR MAIL READ ON AIR?</br>WANT TO GET IN TOUCH WITH THE STATION MANAGERS? HIT US UP HERE
+</p>
+								[contact-form-7 id="98" title="QuickContact"]							</div>
+							
+							<div id="homepage_social" class="one_half last">
+								<h3 class="widget-title">Get Social</h3>
+								<p>FOLLOW VOWFM, DROP US A LINE, HOP ONTO THE FOLLOWING:</p>
+								<ul class="menu">
+									<a href="https://twitter.com/vowfm" target="_blank"><li class="twitter">Follow us on Twitter</li></a>
+									<a href="https://www.facebook.com/vowfm" target="_blank"><li class="facebook">Follow us on Facebook</li></a>
+									<a href="http://www.youtube.com/user/VOW905FM" target="_blank"><li class="youtube">Subscribe to our Youtube channel</li></a>
+									<a target="_blank" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;o&#64;&#118;ow&#102;&#109;&#46;&#99;o&#46;&#122;&#97;"><li class="email">&#105;&#110;f&#111;&#64;&#118;&#111;&#119;f&#109;.&#99;o&#46;z&#97;</li></a>
+									<a target="_blank" href=""><li class="skype">Chat to us on Skype</li></a>
+									<a href="#" target="_blank"><li class="rssfeed">Follow our RSS Feed</li></a>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<hr>
+					<div class="clear"></div>
+					
+					<div id="bottom_ad_widget">			<div class="textwidget"><center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Vow 2 - Responsive - Footer -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2268018940105796"
+     data-ad-slot="6714386794"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center></div>
+		</div>				
+					<div class="entry-content">
+																							</div><!-- .entry-content -->
+				</div><!-- #post-## -->
+
+
+		</div><!-- /.columns (#content) -->
+<div class="clear"></div><div id="footer" class="noborder sixteen columns"><script>
+		jQuery(function() {
+			jQuery("#allinone_bannerRotator_").allinone_bannerRotator({
+				skin:"",
+				width:,
+				height:,
+				width100Proc:,
+				height100Proc:false,
+				randomizeImages: ,
+				firstImg:,
+				numberOfStripes:,
+				numberOfRows:,
+				numberOfColumns:,
+				defaultEffect:"",
+				effectDuration:,
+				autoPlay:,
+				loop:,
+				target:"",
+				showAllControllers:,
+				showNavArrows:,
+				showOnInitNavArrows:,
+				autoHideNavArrows:,
+				showBottomNav:,
+				showOnInitBottomNav:,
+				autoHideBottomNav:,
+				showPreviewThumbs:,
+				enableTouchScreen:,
+				absUrl:"http://vowfm.co.za/wp-content/plugins/all_in_one_bannerRotator/bannerRotator/",
+				showCircleTimer:,
+				showCircleTimerIE8IE7:,
+				circleRadius:,
+				circleLineWidth:,
+				circleColor:"#",
+				circleAlpha:,
+				behindCircleColor:"#",
+				behindCircleAlpha:,
+				responsive:,
+				responsiveRelativeToBrowser:,
+				thumbsWrapperMarginBottom:
+			});	
+		});
+	</script>	
+            <div id="allinone_bannerRotator_" style="display:none;"><ul class="allinone_bannerRotator_list"></ul></div>		<a id="scroll-to-top" href="#" title="Scroll to Top">Top</a>
+		
+<div id="credits"><div class="left_credits">Office: +27 11 717 4736 Email: <a href="mailto:&#105;&#110;&#102;&#111;&#064;&#118;&#111;&#119;&#102;&#109;&#046;&#099;&#111;&#046;&#122;&#097;">&#105;&#110;f&#111;&#064;&#118;&#111;&#119;&#102;&#109;&#046;co&#046;&#122;&#097;</a></div>
+
+<div class="right_credits">Copyright &#169; VOICE OF WITS 2013. Designed and developed by <a href="http://greenrobot.co.za/" target="_blank">GREEN ROBOT DESIGN</a>.</div><br /><a class="themeauthor" href="http://www.simplethemes.com" title="Simple WordPress Themes">WordPress Themes</a></div><script type='text/javascript' src='http://vowfm.co.za/wp-content/themes/skeleton/javascripts/app.js?ver=1.2.3'></script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-content/themes/skeleton/javascripts/superfish.js?ver=1.2.3'></script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-content/themes/skeleton/javascripts/jquery.formalize.min.js?ver=1.2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+timely.define( 'ai1ec_calendar', {"export_url":"webcal:\/\/vowfm.co.za\/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=27770","fonts":[{"name":"League Gothic","url":"http:\/\/vowfm.co.za\/wp-content\/themes-ai1ec\/vortex\/font_css\/font-league-gothic.css"},{"name":"fontawesome","url":"http:\/\/vowfm.co.za\/wp-content\/themes-ai1ec\/vortex\/font_css\/font-awesome.css"}]} );
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-content/plugins/all-in-one-event-calendar/app/view/admin/js/pages/common_frontend.js?ver=1.10.9-standard'></script>
+<script type='text/javascript' src='//platform.twitter.com/widgets.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-content/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js?ver=3.1.4'></script>
+<script id="new-royalslider-init-code" type="text/javascript">
+jQuery(document).ready(function($) {
+	$('.new-royalslider-1').royalSlider({template:'default',image_generation:{lazyLoading:!0,imageWidth:'',imageHeight:'',thumbImageWidth:96,thumbImageHeight:72},thumbs:{paddingBottom:4,thumbWidth:96,thumbHeight:72,appendSpan:!0},autoPlay:{delay:5000},fullscreen:{enabled:!0,nativeFS:!0},deeplinking:{enabled:!0},width:'100%',height:440,autoScaleSlider:!0,autoScaleSliderWidth:600,autoScaleSliderHeight:440,imageScaleMode:'fill',controlNavigation:'thumbnails',arrowsNavHideOnTouch:!0,globalCaption:!0,globalCaptionInside:!0,keyboardNavEnabled:!0,fadeinLoadedSlide:!1});
+});
+</script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-content/plugins/ditty-news-ticker/assets/js/jquery.touchSwipe.min.js?ver=1.4.14'></script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-content/plugins/ditty-news-ticker/assets/js/jquery.easing.1.3.js?ver=1.4.14'></script>
+<script type='text/javascript' src='http://vowfm.co.za/wp-content/plugins/ditty-news-ticker/assets/js/ditty-news-ticker.js?ver=1.4.14'></script>
+		<script>
+			jQuery( window ).load( function() {
+							jQuery( '#mtphr-dnt-221' ).ditty_news_ticker({
+					id : '221',
+					type : 'scroll',
+					scroll_direction : 'left',
+					scroll_speed : 10,
+					scroll_pause : 0,
+					scroll_spacing : 20,
+					scroll_init : 0,
+					rotate_type : 'fade',
+					auto_rotate : 0,
+					rotate_delay : 7,
+					rotate_pause : 0,
+					rotate_speed : 3,
+					rotate_ease : 'linear',
+					nav_reverse : 0,
+					offset : 20,
+					after_load : function( $ticker ) {
+											},
+					before_change : function( $ticker ) {
+											},
+					after_change : function( $ticker ) {
+											}
+				});
+			 			});
+		</script>
+		
+</div><!--/#footer-->
+</div><!--/#wrap.container-->
+<script type="text/javascript">  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42035800-1', 'vowfm.co.za');
+  ga('send', 'pageview');</script></body>
+</html>
+<!-- Dynamic page generated in 2.409 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2016-02-18 22:27:31 -->
+
+<!-- super cache -->

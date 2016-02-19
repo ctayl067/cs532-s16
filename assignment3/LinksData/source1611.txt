@@ -1,0 +1,1490 @@
+<!DOCTYPE html PUBLIC "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<!-- META -->
+		<META name="viewport" content=" initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+		<META http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<META name=description content="المكتبة الصوتية للقرآن الكريم تضم عدد كبير من القراء و بعدة روايات و بعدة لغات , مع روابط تحميل مباشرة لسور القران الكريم وبجودة عالية mp3 128, بالإضافة إلى الإذاعة لأجهزة الجوال و الأجهزة المحمولة وخدمة الاستماع المباشر لجميع المسلمين ">
+		<META name="keywords" content="iPhone, iPad, iPod, mp3, mp3quran.net, آيفون, آي فون, أندرويد, المكتبة الصوتية" />
+		<META name="apple-mobile-web-app-capable" content="yes">
+		<META name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="http://www.mp3quran.net/mobile/mp3quran_mobile.css" media="screen" />
+		<link rel="stylesheet" href="http://www.mp3quran.net/mobile/style/add2home.css">
+		<link rel="stylesheet" href="http://www.mp3quran.net/mobile/style/jui.css">
+		<link rel="stylesheet" href="http://www.mp3quran.net/mobile/style/jquery-ui-1.8.17.custom.css">
+		
+		<!-- link -->
+		<link rel="apple-touch-icon" href="http://www.mp3quran.net/mobile/touch-icon-iphone.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="http://www.mp3quran.net/mobile/touch-icon-ipad.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="http://www.mp3quran.net/mobile/touch-icon-iphone4.png">
+		
+		<!-- title -->
+		<title>المكتبة الصوتية للقرآن الكريم - MP3 Quran | ماهر المعيقلي</title>
+
+		<!-- script -->
+		<script type="application/javascript" src="http://www.mp3quran.net/mobile/src/add2home.js" charset="utf-8"></script>
+		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+		<script type="text/javascript" src="http://www.mp3quran.net/mobile/js/jquery.min.js"></script>
+		<script type="text/javascript" src="http://www.mp3quran.net/mobile/js/jquery-ui-1.8.17.custom.min.js"></script>
+		<script type="text/javascript" src="http://www.mp3quran.net/mobile/js/mp3quran.js"></script>
+		<script type="text/javascript" src="http://www.mp3quran.net/mobile/js/audio.js"></script>
+		<script type="text/javascript" src="http://www.mp3quran.net/mobile/js/cookies.js"></script>
+	</head>
+<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);" />
+		<script type="text/javascript">if(typeof wabtn4fg==="undefined"){wabtn4fg=1;h=document.head||document.getElementsByTagName("head")[0],s=document.createElement("script");s.type="text/javascript";s.src="whatsapp-button.js";h.appendChild(s);}</script>
+		<!-- HEADER -->
+		<div id="mp3QuranContaint">
+			<div class="header">
+				<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/index.html'">العربية</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/eng/index.html'">English</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/fr/index.html'">Français</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/ru/index.html'">Русский</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/de/index.html'">Deutsch</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/es/index.html'">Español</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/tr/index.html'">Türkçe</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/cn/index.html'">中文</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/tahi/index.html'">ไทย</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/urd/index.html'">اردو</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/bg/index.html'">বাংলা </a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/bosnia/index.html'">Bosanski</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/uyghur/index.html'">ئۇيغۇرچە</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/farsi/index.html'">فارسى</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/taj/index.html'">Тоҷикӣ</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/mal/index.html'">മലയാളം</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/pt/index.html'">Português</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/ph/index.html'">Tagalog</a>
+		<a class="languge" onclick="parent.location='http://www.mp3quran.net/mobile/in/index.html'">Indonesia</a>
+		
+				<!--
+				<img class="social"  src="http://www.mp3quran.net/t.png" alt="" title="" border="0" />
+				<img class="social"  src="http://www.mp3quran.net/fb.png" alt="" title="" border="0" />
+				<img class="social"  src="http://www.mp3quran.net/de.png" alt="" title="" border="0" />
+				social -->
+				<span></span>
+				<div class="clear"></div>
+			</div>
+		<!-- END HEADER -->
+ 
+					<div  class="clear"></div>
+					<div id="logo" style="float: right;" >
+						<img  src="http://www.mp3quran.net/mobile/images/mp3quran.jpg" border="0"   style="margin-top: 9px;height: 80px;width: 100px; margin-bottom: 20px;">
+					</div>
+										
+					<a href="http://www.sultan.org/a/"><img border="0" src="http://sultan.org/a/bb.gif" width="268" height="40" /></a>
+		<div class="content">
+		
+			<div class="readerList">
+				<div class="allreaderList">
+					<div  style="padding: 14px;">
+						<div style="color: #5f5f5f;float: left;font-size: 30px;margin-top: -27px;" onclick="readerPage ='index.html' ; moveToReader()"> << </div>
+					</div>
+					<div  style="background: #5f5f5f;color: #DADADA;text-decoration: none;font-size: 14px;  text-align: center; padding: 14px;">
+						<div style="color: #DADADA;">القارئ ماهر المعيقلي | حفص عن عاصم<br> <a href="whatsapp://send" data-text=" القارئ ماهر المعيقلي | حفص عن عاصم " data-href="" class="wa_btn wa_btn_m" style="display:none">whatsApp</a></div>
+					</div>
+					
+  
+											<div class="qari1 allReader g1" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/001.mp3' ; moveToReader()">الفاتحة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse1" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(1)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play1" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(1 , 'http://server12.mp3quran.net/maher/001.mp3')">											
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g2" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/002.mp3' ; moveToReader()">البقرة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse2" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(2)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play2" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(2 , 'http://server12.mp3quran.net/maher/002.mp3')">											
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g3" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/003.mp3' ; moveToReader()">آل عمران
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse3" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(3)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play3" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(3 , 'http://server12.mp3quran.net/maher/003.mp3')">											
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g4" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/004.mp3' ; moveToReader()">النساء
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse4" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(4)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play4" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(4 , 'http://server12.mp3quran.net/maher/004.mp3')">											
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g5" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/005.mp3' ; moveToReader()">المائدة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse5" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(5)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play5" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(5 , 'http://server12.mp3quran.net/maher/005.mp3')">											
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g6" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/006.mp3' ; moveToReader()">الأنعام
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse6" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(6)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play6" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(6 , 'http://server12.mp3quran.net/maher/006.mp3')">											
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g7" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/007.mp3' ; moveToReader()">الأعراف
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse7" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(7)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play7" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(7 , 'http://server12.mp3quran.net/maher/007.mp3')">											
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g8" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/008.mp3' ; moveToReader()">الأنفال
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse8" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(8)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play8" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(8 , 'http://server12.mp3quran.net/maher/008.mp3')">											
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g9" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/009.mp3' ; moveToReader()">التوبة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse9" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(9)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play9" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(9 , 'http://server12.mp3quran.net/maher/009.mp3')">											
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g10" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/010.mp3' ; moveToReader()">يونس
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse10" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(10)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play10" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(10 , 'http://server12.mp3quran.net/maher/010.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g11" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/011.mp3' ; moveToReader()">هود
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse11" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(11)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play11" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(11 , 'http://server12.mp3quran.net/maher/011.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g12" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/012.mp3' ; moveToReader()">يوسف
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse12" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(12)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play12" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(12 , 'http://server12.mp3quran.net/maher/012.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g13" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/013.mp3' ; moveToReader()">الرعد
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse13" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(13)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play13" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(13 , 'http://server12.mp3quran.net/maher/013.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g14" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/014.mp3' ; moveToReader()">إبراهيم
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse14" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(14)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play14" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(14 , 'http://server12.mp3quran.net/maher/014.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g15" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/015.mp3' ; moveToReader()">الحجر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse15" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(15)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play15" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(15 , 'http://server12.mp3quran.net/maher/015.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g16" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/016.mp3' ; moveToReader()">النحل
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse16" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(16)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play16" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(16 , 'http://server12.mp3quran.net/maher/016.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g17" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/017.mp3' ; moveToReader()">الإسراء
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse17" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(17)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play17" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(17 , 'http://server12.mp3quran.net/maher/017.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g18" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/018.mp3' ; moveToReader()">الكهف
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse18" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(18)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play18" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(18 , 'http://server12.mp3quran.net/maher/018.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g19" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/019.mp3' ; moveToReader()">مريم
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse19" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(19)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play19" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(19 , 'http://server12.mp3quran.net/maher/019.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g20" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/020.mp3' ; moveToReader()">طه
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse20" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(20)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play20" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(20 , 'http://server12.mp3quran.net/maher/020.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g21" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/021.mp3' ; moveToReader()">الأنبياء
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse21" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(21)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play21" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(21 , 'http://server12.mp3quran.net/maher/021.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g22" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/022.mp3' ; moveToReader()">الحج
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse22" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(22)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play22" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(22 , 'http://server12.mp3quran.net/maher/022.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g23" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/023.mp3' ; moveToReader()">المؤمنون
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse23" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(23)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play23" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(23 , 'http://server12.mp3quran.net/maher/023.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g24" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/024.mp3' ; moveToReader()">النّور
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse24" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(24)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play24" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(24 , 'http://server12.mp3quran.net/maher/024.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g25" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/025.mp3' ; moveToReader()">الفرقان
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse25" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(25)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play25" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(25 , 'http://server12.mp3quran.net/maher/025.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g26" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/026.mp3' ; moveToReader()">الشعراء
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse26" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(26)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play26" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(26 , 'http://server12.mp3quran.net/maher/026.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g27" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/027.mp3' ; moveToReader()">النّمل
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse27" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(27)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play27" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(27 , 'http://server12.mp3quran.net/maher/027.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g28" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/028.mp3' ; moveToReader()">القصص
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse28" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(28)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play28" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(28 , 'http://server12.mp3quran.net/maher/028.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g29" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/029.mp3' ; moveToReader()">العنكبوت
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse29" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(29)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play29" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(29 , 'http://server12.mp3quran.net/maher/029.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g30" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/030.mp3' ; moveToReader()">الرّوم
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse30" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(30)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play30" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(30 , 'http://server12.mp3quran.net/maher/030.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g31" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/031.mp3' ; moveToReader()">لقمان
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse31" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(31)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play31" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(31 , 'http://server12.mp3quran.net/maher/031.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g32" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/032.mp3' ; moveToReader()">السجدة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse32" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(32)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play32" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(32 , 'http://server12.mp3quran.net/maher/032.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g33" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/033.mp3' ; moveToReader()">الأحزاب
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse33" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(33)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play33" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(33 , 'http://server12.mp3quran.net/maher/033.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g34" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/034.mp3' ; moveToReader()">سبأ
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse34" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(34)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play34" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(34 , 'http://server12.mp3quran.net/maher/034.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g35" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/035.mp3' ; moveToReader()">فاطر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse35" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(35)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play35" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(35 , 'http://server12.mp3quran.net/maher/035.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g36" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/036.mp3' ; moveToReader()">يس
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse36" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(36)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play36" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(36 , 'http://server12.mp3quran.net/maher/036.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g37" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/037.mp3' ; moveToReader()">الصافات
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse37" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(37)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play37" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(37 , 'http://server12.mp3quran.net/maher/037.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g38" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/038.mp3' ; moveToReader()">ص
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse38" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(38)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play38" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(38 , 'http://server12.mp3quran.net/maher/038.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g39" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/039.mp3' ; moveToReader()">الزمر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse39" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(39)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play39" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(39 , 'http://server12.mp3quran.net/maher/039.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g40" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/040.mp3' ; moveToReader()">غافر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse40" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(40)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play40" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(40 , 'http://server12.mp3quran.net/maher/040.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g41" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/041.mp3' ; moveToReader()">فصّلت
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse41" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(41)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play41" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(41 , 'http://server12.mp3quran.net/maher/041.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g42" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/042.mp3' ; moveToReader()">الشورى
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse42" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(42)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play42" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(42 , 'http://server12.mp3quran.net/maher/042.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g43" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/043.mp3' ; moveToReader()">الزخرف
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse43" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(43)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play43" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(43 , 'http://server12.mp3quran.net/maher/043.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g44" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/044.mp3' ; moveToReader()">الدّخان
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse44" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(44)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play44" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(44 , 'http://server12.mp3quran.net/maher/044.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g45" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/045.mp3' ; moveToReader()">الجاثية
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse45" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(45)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play45" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(45 , 'http://server12.mp3quran.net/maher/045.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g46" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/046.mp3' ; moveToReader()">الأحقاف
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse46" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(46)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play46" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(46 , 'http://server12.mp3quran.net/maher/046.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g47" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/047.mp3' ; moveToReader()">محمد
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse47" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(47)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play47" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(47 , 'http://server12.mp3quran.net/maher/047.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g48" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/048.mp3' ; moveToReader()">الفتح
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse48" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(48)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play48" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(48 , 'http://server12.mp3quran.net/maher/048.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g49" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/049.mp3' ; moveToReader()">الحجرات
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse49" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(49)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play49" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(49 , 'http://server12.mp3quran.net/maher/049.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g50" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/050.mp3' ; moveToReader()">ق
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse50" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(50)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play50" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(50 , 'http://server12.mp3quran.net/maher/050.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g51" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/051.mp3' ; moveToReader()">الذاريات
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse51" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(51)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play51" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(51 , 'http://server12.mp3quran.net/maher/051.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g52" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/052.mp3' ; moveToReader()">الطور
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse52" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(52)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play52" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(52 , 'http://server12.mp3quran.net/maher/052.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g53" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/053.mp3' ; moveToReader()">النجم
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse53" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(53)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play53" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(53 , 'http://server12.mp3quran.net/maher/053.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g54" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/054.mp3' ; moveToReader()">القمر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse54" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(54)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play54" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(54 , 'http://server12.mp3quran.net/maher/054.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g55" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/055.mp3' ; moveToReader()">الرحمن
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse55" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(55)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play55" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(55 , 'http://server12.mp3quran.net/maher/055.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g56" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/056.mp3' ; moveToReader()">الواقعة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse56" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(56)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play56" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(56 , 'http://server12.mp3quran.net/maher/056.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g57" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/057.mp3' ; moveToReader()">الحديد
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse57" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(57)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play57" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(57 , 'http://server12.mp3quran.net/maher/057.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g58" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/058.mp3' ; moveToReader()">المجادلة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse58" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(58)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play58" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(58 , 'http://server12.mp3quran.net/maher/058.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g59" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/059.mp3' ; moveToReader()">الحشر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse59" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(59)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play59" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(59 , 'http://server12.mp3quran.net/maher/059.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g60" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/060.mp3' ; moveToReader()">الممتحنة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse60" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(60)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play60" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(60 , 'http://server12.mp3quran.net/maher/060.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g61" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/061.mp3' ; moveToReader()">الصف
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse61" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(61)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play61" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(61 , 'http://server12.mp3quran.net/maher/061.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g62" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/062.mp3' ; moveToReader()">الجمعة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse62" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(62)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play62" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(62 , 'http://server12.mp3quran.net/maher/062.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g63" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/063.mp3' ; moveToReader()">المنافقون
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse63" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(63)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play63" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(63 , 'http://server12.mp3quran.net/maher/063.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g64" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/064.mp3' ; moveToReader()">التغابن
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse64" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(64)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play64" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(64 , 'http://server12.mp3quran.net/maher/064.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g65" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/065.mp3' ; moveToReader()">الطلاق
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse65" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(65)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play65" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(65 , 'http://server12.mp3quran.net/maher/065.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g66" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/066.mp3' ; moveToReader()">التحريم
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse66" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(66)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play66" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(66 , 'http://server12.mp3quran.net/maher/066.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g67" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/067.mp3' ; moveToReader()">الملك
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse67" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(67)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play67" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(67 , 'http://server12.mp3quran.net/maher/067.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g68" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/068.mp3' ; moveToReader()">القلم
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse68" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(68)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play68" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(68 , 'http://server12.mp3quran.net/maher/068.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g69" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/069.mp3' ; moveToReader()">الحاقة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse69" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(69)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play69" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(69 , 'http://server12.mp3quran.net/maher/069.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g70" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/070.mp3' ; moveToReader()">المعارج
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse70" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(70)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play70" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(70 , 'http://server12.mp3quran.net/maher/070.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g71" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/071.mp3' ; moveToReader()">نوح
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse71" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(71)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play71" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(71 , 'http://server12.mp3quran.net/maher/071.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g72" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/072.mp3' ; moveToReader()">الجن
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse72" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(72)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play72" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(72 , 'http://server12.mp3quran.net/maher/072.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g73" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/073.mp3' ; moveToReader()">المزّمّل
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse73" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(73)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play73" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(73 , 'http://server12.mp3quran.net/maher/073.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g74" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/074.mp3' ; moveToReader()">المدّثر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse74" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(74)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play74" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(74 , 'http://server12.mp3quran.net/maher/074.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g75" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/075.mp3' ; moveToReader()">القيامة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse75" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(75)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play75" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(75 , 'http://server12.mp3quran.net/maher/075.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g76" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/076.mp3' ; moveToReader()">الإنسان
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse76" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(76)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play76" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(76 , 'http://server12.mp3quran.net/maher/076.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g77" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/077.mp3' ; moveToReader()">المرسلات
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse77" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(77)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play77" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(77 , 'http://server12.mp3quran.net/maher/077.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g78" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/078.mp3' ; moveToReader()">النبأ
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse78" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(78)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play78" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(78 , 'http://server12.mp3quran.net/maher/078.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g79" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/079.mp3' ; moveToReader()">النازعات
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse79" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(79)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play79" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(79 , 'http://server12.mp3quran.net/maher/079.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g80" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/080.mp3' ; moveToReader()">عبس
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse80" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(80)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play80" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(80 , 'http://server12.mp3quran.net/maher/080.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g81" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/081.mp3' ; moveToReader()">التكوير
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse81" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(81)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play81" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(81 , 'http://server12.mp3quran.net/maher/081.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g82" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/082.mp3' ; moveToReader()">الإنفطار
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse82" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(82)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play82" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(82 , 'http://server12.mp3quran.net/maher/082.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g83" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/083.mp3' ; moveToReader()">المطفّفين
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse83" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(83)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play83" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(83 , 'http://server12.mp3quran.net/maher/083.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g84" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/084.mp3' ; moveToReader()">الإنشقاق
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse84" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(84)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play84" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(84 , 'http://server12.mp3quran.net/maher/084.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g85" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/085.mp3' ; moveToReader()">البروج
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse85" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(85)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play85" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(85 , 'http://server12.mp3quran.net/maher/085.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g86" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/086.mp3' ; moveToReader()">الطارق
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse86" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(86)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play86" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(86 , 'http://server12.mp3quran.net/maher/086.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g87" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/087.mp3' ; moveToReader()">الأعلى
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse87" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(87)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play87" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(87 , 'http://server12.mp3quran.net/maher/087.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g88" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/088.mp3' ; moveToReader()">الغاشية
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse88" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(88)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play88" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(88 , 'http://server12.mp3quran.net/maher/088.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g89" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/089.mp3' ; moveToReader()">الفجر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse89" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(89)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play89" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(89 , 'http://server12.mp3quran.net/maher/089.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g90" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/090.mp3' ; moveToReader()">البلد
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse90" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(90)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play90" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(90 , 'http://server12.mp3quran.net/maher/090.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g91" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/091.mp3' ; moveToReader()">الشمس
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse91" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(91)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play91" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(91 , 'http://server12.mp3quran.net/maher/091.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g92" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/092.mp3' ; moveToReader()">الليل
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse92" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(92)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play92" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(92 , 'http://server12.mp3quran.net/maher/092.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g93" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/093.mp3' ; moveToReader()">الضحى
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse93" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(93)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play93" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(93 , 'http://server12.mp3quran.net/maher/093.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g94" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/094.mp3' ; moveToReader()">الشرح
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse94" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(94)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play94" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(94 , 'http://server12.mp3quran.net/maher/094.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g95" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/095.mp3' ; moveToReader()">التين
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse95" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(95)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play95" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(95 , 'http://server12.mp3quran.net/maher/095.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g96" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/096.mp3' ; moveToReader()">العلق
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse96" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(96)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play96" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(96 , 'http://server12.mp3quran.net/maher/096.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g97" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/097.mp3' ; moveToReader()">القدر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse97" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(97)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play97" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(97 , 'http://server12.mp3quran.net/maher/097.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g98" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/098.mp3' ; moveToReader()">البينة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse98" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(98)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play98" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(98 , 'http://server12.mp3quran.net/maher/098.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g99" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/099.mp3' ; moveToReader()">الزلزلة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse99" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(99)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play99" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(99 , 'http://server12.mp3quran.net/maher/099.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g100" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/100.mp3' ; moveToReader()">العاديات
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse100" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(100)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play100" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(100 , 'http://server12.mp3quran.net/maher/100.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g101" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/101.mp3' ; moveToReader()">القارعة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse101" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(101)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play101" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(101 , 'http://server12.mp3quran.net/maher/101.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g102" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/102.mp3' ; moveToReader()">التكاثر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse102" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(102)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play102" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(102 , 'http://server12.mp3quran.net/maher/102.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g103" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/103.mp3' ; moveToReader()">العصر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse103" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(103)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play103" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(103 , 'http://server12.mp3quran.net/maher/103.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g104" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/104.mp3' ; moveToReader()">الهمزة
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse104" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(104)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play104" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(104 , 'http://server12.mp3quran.net/maher/104.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g105" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/105.mp3' ; moveToReader()">الفيل
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse105" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(105)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play105" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(105 , 'http://server12.mp3quran.net/maher/105.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g106" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/106.mp3' ; moveToReader()">قريش
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse106" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(106)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play106" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(106 , 'http://server12.mp3quran.net/maher/106.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g107" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/107.mp3' ; moveToReader()">الماعون
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse107" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(107)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play107" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(107 , 'http://server12.mp3quran.net/maher/107.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g108" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/108.mp3' ; moveToReader()">الكوثر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse108" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(108)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play108" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(108 , 'http://server12.mp3quran.net/maher/108.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g109" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/109.mp3' ; moveToReader()">الكافرون
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse109" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(109)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play109" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(109 , 'http://server12.mp3quran.net/maher/109.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g110" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/110.mp3' ; moveToReader()">النصر
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse110" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(110)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play110" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(110 , 'http://server12.mp3quran.net/maher/110.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g111" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/111.mp3' ; moveToReader()">المسد
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse111" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(111)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play111" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(111 , 'http://server12.mp3quran.net/maher/111.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g112" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/112.mp3' ; moveToReader()">الإخلاص
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse112" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(112)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play112" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(112 , 'http://server12.mp3quran.net/maher/112.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari1 allReader g113" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/113.mp3' ; moveToReader()">الفلق
+</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse113" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(113)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play113" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(113 , 'http://server12.mp3quran.net/maher/113.mp3')">										
+											</div>
+											</div>
+											
+											<div class="qari2 allReader g114" >
+												<div  class ="qari_name" >
+												<a onclick="readerPage = 'http://server12.mp3quran.net/maher/114.mp3' ; moveToReader()">النّاس</a>
+												</div>
+												
+											<div class ="qari_itunse" >
+											<img style="visibility: hidden; height: 33px;margin-top: -11px;" id="puse114" src="http://www.mp3quran.net/radio/pause2.png" onclick="pauseAudio(114)">											
+											<img style="visibility: visible; height: 33px;margin-top: -11px;" id="play114" src="http://www.mp3quran.net/radio/play2.png" onclick="playAudio(114 , 'http://server12.mp3quran.net/maher/114.mp3')">										
+											</div>
+											</div>
+															</div>
+
+			</div>
+				
+		</div>
+
+		<div  style="
+			background: #5f5f5f;#DFDFDF\\;
+			color: #DADADA;
+			text-decoration: none;
+			font-size: 14px;  text-align: center; padding: 12px;"
+			>
+			<a href="http://www.aham1.net" style="color: #DADADA;">Developed by : www.aham1.net</a>
+			<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+			</script>
+			<script type="text/javascript">
+			_uacct = "UA-176648-2";
+			urchinTracker();
+			</script>
+			<script type="text/javascript">
+
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-176648-2']);
+			  _gaq.push(['_setDomainName', 'mp3quran.net']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+			</script>
+		</div>
+
+	</body>
+</html>

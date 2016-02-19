@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+	<head>
+		<title>Social Networking Community</title>	
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="social networking" />
+		<meta name="description" content="Some information about your site..." />
+		<meta name="robots" content="index,follow" />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="-1" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<link rel="shortcut icon" type="image/x-icon" href="http://mayodele.com/favicon.ico?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<script type="text/javascript">
+			var oCore = {'core.is_admincp': false, 'core.section_module': 'core', 'profile.is_user_profile': false, 'log.security_token': '3f06f44ff4fd5c3ba484b16957ae5d64', 'core.url_rewrite': '2', 'core.country_iso': '', 'core.can_move_on_a_y_and_x_axis' : false, 'core.default_currency': 'USD', 'core.enabled_edit_area': false, 'core.disable_hash_bang_support': false, 'core.site_wide_ajax_browsing': false, 'profile.user_id': 0};
+			var oParams = {'sJsHome': 'http://mayodele.com/','sJsHostname': 'www.mayodele.com','sSiteName': 'MayoDele','sJsStatic': 'http://mayodele.com/static/','sJsStaticImage': 'http://mayodele.com/static/image/','sImagePath': 'http://mayodele.com/theme/frontend/nebula/style/nebula/image/','sStylePath': 'http://mayodele.com/theme/frontend/nebula/style/nebula/css/','sVersion': '3.6.0rc1','sJsAjax': 'http://mayodele.com/static/ajax.php','sStaticVersion': 'f6251db514adb16bff60c5dc5954a3c3','sGetMethod': 'do','sDateFormat': 'MDY','sEgiftStyle': 'http://mayodele.com/module/egift/static/css/default/default/display.css','sGlobalTokenName': 'core','sController': 'core.index-visitor','bJsIsMobile': false,'sProgressCssFile': 'http://mayodele.com/theme/frontend/default/style/default/css/progress.css','sHostedVersionId': '','bWysiwyg': false,'sEditor': 'default','sJsCookiePath': '/','sJsCookieDomain': '','sJsCookiePrefix': 'coree065','bPhotoTheaterMode': true,'bUseHTML5Video': false,'sAdminCPLocation': '','notification.notify_ajax_refresh': 2,'im_interval_for_update': 3000,'bEnableMicroblogSite': false};
+			var oTranslations = {'core.are_you_sure': 'Are you sure?','core.yes': 'Yes','core.no': 'No','core.save': 'Save','core.cancel': 'Cancel','core.go_advanced': 'Go Advanced','core.processing': 'Processing','emoticon.emoticons': 'Emoticons','attachment.attach_files': 'Attach Files','core.close': 'Close','core.language_packages': 'Language Packages','core.move_this_block': 'Move This Block','core.uploading': 'Uploading','language.loading': 'Loading','core.saving': 'Saving...','core.loading_text_editor': 'Loading text editor','core.quote': 'Quote','core.loading': 'Loading'};
+			var oModules = {'ad': true,'admincp': true,'announcement': true,'api': true,'apps': true,'attachment': true,'ban': true,'blog': true,'captcha': true,'comment': true,'contact': true,'core': true,'custom': true,'egift': true,'emoticon': true,'error': true,'event': true,'facebook': true,'favorite': true,'feed': true,'forum': true,'friend': true,'help': true,'im': true,'input': true,'invite': true,'janrain': true,'language': true,'like': true,'link': true,'log': true,'mail': true,'marketplace': true,'mobile': true,'music': true,'newsletter': true,'notification': true,'page': true,'pages': true,'photo': true,'poke': true,'poll': true,'privacy': true,'profile': true,'quiz': true,'rate': true,'report': true,'request': true,'rss': true,'search': true,'share': true,'shoutbox': true,'subscribe': true,'tag': true,'theme': true,'tinymce': true,'track': true,'user': true,'video': true};
+			var oJsImages = {ajax_small: 'http://mayodele.com/theme/frontend/default/style/default/image/ajax/small.gif',ajax_large: 'http://mayodele.com/theme/frontend/default/style/default/image/ajax/large.gif',loading_animation: 'http://mayodele.com/theme/frontend/default/style/default/image/misc/loading_animation.gif',close: 'http://mayodele.com/theme/frontend/default/style/default/image/misc/close.gif',move: 'http://mayodele.com/theme/frontend/default/style/default/image/misc/move.png',calendar: 'http://mayodele.com/theme/frontend/default/style/default/image/jquery/calendar.gif'};
+			var oEditor = {'active': true,'toggle_image': 'http://mayodele.com/theme/frontend/default/style/default/image/editor/fullscreen.png','toggle_phrase': 'Toggle Fullscreen', images:[{image: 'http://mayodele.com/theme/frontend/default/style/default/image/editor/text_bold.png',command: 'b',phrase: 'Bold'},{image: 'http://mayodele.com/theme/frontend/default/style/default/image/editor/text_italic.png',command: 'i',phrase: 'Italic'},{image: 'http://mayodele.com/theme/frontend/default/style/default/image/editor/text_underline.png',command: 'u',phrase: 'Underline'},{0: 'separator'},{image: 'http://mayodele.com/theme/frontend/default/style/default/image/editor/text_align_left.png',command: 'left',phrase: 'Align Left'},{image: 'http://mayodele.com/theme/frontend/default/style/default/image/editor/text_align_center.png',command: 'center',phrase: 'Align Center'},{image: 'http://mayodele.com/theme/frontend/default/style/default/image/editor/text_align_right.png',command: 'right',phrase: 'Align Right'},{0: 'separator'},{image: 'http://mayodele.com/theme/frontend/default/style/default/image/editor/text_list_bullets.png',js: 'Editor.getList(\'bullet\');',phrase: 'Bullets'},{image: 'http://mayodele.com/theme/frontend/default/style/default/image/editor/text_list_numbers.png',js: 'Editor.getList(\'number\');',phrase: 'Ordered List'},{0: 'separator'}]};
+			var $Behavior = {};
+			var $Core = {};
+		</script>
+		<link rel="alternate" type="application/rss+xml" title="Latest Blogs" href="http://mayodele.com/index.php?do=/rss/id_1/" />
+		<link rel="alternate" type="application/rss+xml" title="Latest Events" href="http://mayodele.com/index.php?do=/rss/id_3/" />
+		<link rel="alternate" type="application/rss+xml" title="Latest Forum Topics" href="http://mayodele.com/index.php?do=/rss/id_4/" />
+		<link rel="alternate" type="application/rss+xml" title="Latest Videos" href="http://mayodele.com/index.php?do=/rss/id_5/" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/theme/frontend/default/style/default/css/layout.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/theme/frontend/default/style/default/css/common.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/theme/frontend/default/style/default/css/thickbox.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/theme/frontend/default/style/default/css/jquery.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/theme/frontend/default/style/default/css/pager.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/theme/frontend/default/style/default/css/imgnotes.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/theme/frontend/default/style/default/css/imgareaselect-default.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/theme/frontend/default/style/default/css/comment.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/theme/frontend/default/style/default/css/pager.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/module/photo/static/css/default/default/view.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/module/photo/static/css/default/default/edit.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/theme/frontend/default/style/default/css/comment.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/theme/frontend/default/style/default/css/editor.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+		<link rel="stylesheet" type="text/css" href="http://mayodele.com/theme/frontend/nebula/style/nebula/css/custom.css?v=f6251db514adb16bff60c5dc5954a3c3" />
+
+		<script type="text/javascript">
+					oTranslations['friend.show_more_results_for_search_term'] = 'Show more results for "{search_term}"';
+			oTranslations['user.continue'] = 'Continue';
+		</script>
+	</head>
+	<body>
+		<div id="nb_body_holder_guest">
+<div id="fb-root"></div>		
+			<div id="header">
+			
+				<div id="nb_header_menu">
+					<div class="holder">
+						<ul>	
+
+								<li rel="menu5"  ><a href="http://mayodele.com/index.php?do=/"  class=" menu_is_selected ajax_link">
+Home</a>
+								</li>
+
+								<li rel="menu47"  ><a href="http://mayodele.com/index.php?do=/friend/"  class="ajax_link">
+Friends</a>
+								</li>
+
+								<li rel="menu22"  ><a href="http://mayodele.com/index.php?do=/user/browse/"  class="ajax_link">
+Members</a>
+								</li>
+
+								<li rel="menu62"  ><a href="http://mayodele.com/index.php?do=/pages/"  class="ajax_link">
+Pages</a>
+								</li>
+
+								<li rel="menu35"  ><a href="http://mayodele.com/index.php?do=/blog/"  class="ajax_link">
+Blogs</a>
+								</li>
+
+								<li rel="menu64"  ><a href="http://mayodele.com/index.php?do=/photo/"  class="ajax_link">
+Photos</a>
+								</li>
+
+								<li rel="menu45"  ><a href="http://mayodele.com/index.php?do=/forum/"  class="ajax_link">
+Forum</a>
+								</li>
+
+								<li rel="menu69"  ><a href="http://mayodele.com/index.php?do=/poll/"  class="ajax_link">
+Polls</a>
+								</li>
+
+								<li rel="menu79"  ><a href="http://mayodele.com/index.php?do=/video/"  class="ajax_link">
+Videos</a>
+								</li>
+
+								<li rel="menu73"  ><a href="http://mayodele.com/index.php?do=/quiz/"  class="ajax_link">
+Quizzes</a>
+								</li>
+
+								<li rel="menu40"  ><a href="http://mayodele.com/index.php?do=/event/"  class="ajax_link">
+Events</a>
+								</li>
+
+								<li rel="menu59"  ><a href="http://mayodele.com/index.php?do=/music/"  class="ajax_link">
+Music</a>
+								</li>
+
+								<li rel="menu55"  ><a href="http://mayodele.com/index.php?do=/marketplace/"  class="ajax_link">
+Marketplace</a>
+								</li>
+
+								<li rel="menu1"  ><a href="http://mayodele.com/index.php?do=/apps/"  class="ajax_link">
+Apps</a>
+								</li>
+							
+							
+									
+						</ul>
+						<a href="#" class="js_add_more_menus" style="display:none;">Add More</a>
+						<a href="#" class="js_done_edit_mode" style="display:none;">Done</a>
+						<div class="clear"></div>
+					</div>
+				</div>
+			
+				<div class="holder">
+						
+					<div id="header_holder"  class="header_logo">				
+						<div id="header_left">
+						<a href="http://mayodele.com/index.php?do=/" id="logo">MayoDele</a>
+						</div>
+						<div id="header_right">
+							<div id="header_top">
+								<div id="header_menu_holder">
+								<div id="header_menu_login">
+										<form method="post" action="http://mayodele.com/index.php?do=/user/login/">
+<div><input type="hidden" name="core[security_token]" value="3f06f44ff4fd5c3ba484b16957ae5d64" /></div>											<div class="header_menu_login_left">
+												<div><input type="text" name="val[login]" value="" class="header_menu_login_input" tabindex="1" placeholder="Email" /></div>
+												<div class="header_menu_login_sub">
+													<label><input type="checkbox" name="val[remember_me]" value="" checked="checked" tabindex="4" /> Keep me logged in</label>
+												</div>
+											</div>
+											<div class="header_menu_login_right">
+												<div><input type="password" name="val[password]" value="" class="header_menu_login_input" tabindex="2" placeholder="Password" /></div>
+												<div class="header_menu_login_sub">
+													<a href="http://mayodele.com/index.php?do=/user/password/request/">Forgot your password?</a>
+												</div>
+											</div>
+											<div class="header_menu_login_button">
+												<input type="submit" value="Login" tabindex="3" />
+											</div>
+										
+</form>
+
+								</div>								
+								</div>							
+							</div>					
+						</div>
+					</div>
+				</div>		
+			</div>
+			
+			<div id="nb_body">		
+				<div id="main_core_body_holder_guest">		
+
+<script type="text/javascript">
+$Behavior.termsAndPrivacy = function()
+{
+	$('#js_terms_of_use').click(function()
+	{
+		
+		tb_show('Terms of Use', $.ajaxBox('page.view', 'height=410&width=600&title=terms')); 
+		
+		return false;
+	});
+	
+	$('#js_privacy_policy').click(function()
+	{
+		
+		tb_show('Privacy Policy', $.ajaxBox('page.view', 'height=410&width=600&title=policy')); 
+		
+		return false;
+	});
+}
+</script>
+
+
+<div class="user_register_holder">
+	<div class="holder">
+		<div class="user_register_intro">		
+<h1>MayoDele helps you connect and share with the people in your life.</h1>
+<div class="t_center">
+<img src="http://mayodele.com/theme/frontend/default/style/default/image/layout/banner.png"  alt="" /></div>
+		</div>
+		<div class="user_register_form">
+
+			<div class="user_register_title">
+Sign Up				<div class="extra_info">
+It's free and always will be.				</div>
+			</div>
+		<div id="js_registration_process" class="t_center" style="display:none;">
+			<div class="p_top_8">				
+<img src="http://mayodele.com/theme/frontend/default/style/default/image/ajax/add.gif"  alt="" />			</div>
+		</div>
+		<div id="js_signup_error_message" style="width:350px;"></div>
+			<div class="main_break" id="js_registration_holder">	
+				<form method="post" action="http://mayodele.com/index.php?do=/user/register/" id="js_form" enctype="multipart/form-data">	
+<div><input type="hidden" name="core[security_token]" value="3f06f44ff4fd5c3ba484b16957ae5d64" /></div>
+					<div id="js_signup_block">
+								<div id="js_register_step1">
+		<div class="table">
+			<div class="table_left">
+				<label for="full_name"><span class="required">&#42;</span>Full Name:</label>
+			</div>
+			<div class="table_right">
+				<input type="text" name="val[full_name]" id="full_name" value="" size="30" />
+			</div>			
+		</div>
+		<div class="separate"></div>
+		<div class="table">
+			<div class="table_left">
+				<label for="email"><span class="required">&#42;</span>Email:</label>
+			</div>
+			<div class="table_right">
+				<input type="text" name="val[email]" id="email" value="" size="30" />
+			</div>			
+		</div>
+		<div class="table">
+			<div class="table_left"></div>
+			<div class="table_right">
+				<strong>Please reenter your email again below.</strong>
+				<div class="p_top_8">
+					<input type="text" name="val[confirm_email]" id="confirm_email" value="" size="30" onblur="$('#js_form').ajaxCall('user.confirmEmail');" />
+				</div>
+				<div id="js_confirm_email_error" style="display:none;"><div class="error_message">Email&#039;s do not match.</div></div>
+			</div>			
+		</div>				
+		<div class="separate"></div>
+
+		<div class="table">
+			<div class="table_left">
+				<label for="password"><span class="required">&#42;</span>Password:</label>
+			</div>
+			<div class="table_right">
+				<input type="password" name="val[password]" id="password" value="" size="30" />
+			</div>			
+		</div>
+	</div>
+			
+					</div>		
+					<div id="js_register_capthca_image" style="display:none;">
+<div class="table_clear">
+	<div class="captcha_holder">
+		<div class="captcha_title">Captcha Challenge</div>
+			<div id="js_recaptcha_holder" style="direction:ltr;">
+<script type="text/javascript" src="http://api.recaptcha.net/challenge?k=6LfN4vkSAAAAAK3mNdISVeHM7RHvzViNaliM0D_i"></script>
+
+	<noscript>
+  		<iframe src="http://api.recaptcha.net/noscript?k=6LfN4vkSAAAAAK3mNdISVeHM7RHvzViNaliM0D_i" height="300" width="500" frameborder="0"></iframe><br/>
+  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+	</noscript>			</div>
+	</div>
+</div>
+					</div>
+					
+					
+					<div class="table_clear">
+						<input type="button" value="Sign Up" class="button_register" id="js_registration_submit" onclick="$Core.registration.submitForm();" />
+					</div>
+				
+</form>
+
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+					<div id="main_content_holder">	
+						<div id="js_controller_core_index-visitor">		
+							<div  class="holder">	
+								
+								
+								<div id="content_holder">
+									
+		
+									<div id="left">
+									
+							
+										
+									</div>	
+		
+									<div id="main_content">
+												
+
+
+										<div id="main_content_padding">
+		
+		
+											<div id="content_load_data">
+		
+		
+												<div id="content" class="content3">
+													
+<script type="text/javascript">$Behavior.pageSectionMenuRequest = function() { }</script>
+<div id="js_update_internet_explorer" style="display:none;">
+	<div class="update_internet_explorer">
+You seem to be using an older version of Internet Explorer. This site requires Internet Explorer 8 or higher. Update your browser <a href="http://www.microsoft.com/ie/" target="_blank">here</a> today to fully enjoy all the marvels of this site.	</div>
+</div>
+<div id="pem"><a name="pem"></a></div>
+<div id="core_js_messages">
+</div>
+<div id="site_content"></div>															
+												</div>
+		
+												
+												<div id="right">
+													
+												</div>
+												
+		
+												<div class="clear"></div>							
+											</div>												
+										</div>				
+									</div>
+									<div class="clear"></div>			
+								</div>		
+								
+								<div class="holder">
+									<div id="nb_footer">
+						<ul id="footer_menu">
+
+							<li class="first"><a href="http://mayodele.com/index.php?do=/about/" class="ajax_link">About</a></li>
+
+							<li><a href="http://mayodele.com/index.php?do=/policy/" class="ajax_link">Privacy</a></li>
+
+							<li><a href="http://mayodele.com/index.php?do=/invite/" class="ajax_link">Invite</a></li>
+
+							<li><a href="http://mayodele.com/index.php?do=/terms/" class="ajax_link">Terms</a></li>
+
+							<li><a href="http://mayodele.com/index.php?do=/contact/" class="ajax_link">Contact Us</a></li>
+
+							<li><a href="http://mayodele.com/index.php?do=/mobile/" class="ajax_link no_ajax_link">Mobile</a></li>
+
+							<li><a href="http://mayodele.com/index.php?do=/apps/developer/" class="ajax_link">Developers</a></li>
+						</ul>
+									<div id="nb_copyright">
+MayoDele © &middot; <a href="#" id="select_lang_pack">English (US)</a>  &middot; 									</div>				
+									</div>				
+								</div>
+							</div>							
+						</div>			
+					</div>				
+				
+		<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>		<!--[if IE ]>
+			<script type="text/javascript" src="http://mayodele.com/static/jscript/jquery/plugin/excanvas.js"></script>
+	<![endif]-->		<!--[if IE 7]>
+			<script type="text/javascript" src="http://mayodele.com/theme/frontend/default/style/default/jscript/ie7.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<![endif]-->		<script type="text/javascript" src="http://mayodele.com/static/jscript/jquery/jquery.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/jquery/ui.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/common.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/main.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/ajax.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/thickbox/thickbox.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/module/friend/static/jscript/search.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/jquery/plugin/jquery.highlightFade.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/jquery/plugin/jquery.scrollTo.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/jquery/plugin/imgnotes/jquery.tag.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/jquery/plugin/imgnotes/jquery.imgareaselect.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/jquery/plugin/imgnotes/jquery.imgnotes.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/quick_edit.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/module/photo/static/jscript/view.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/module/photo/static/jscript/photo.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/switch_legend.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/switch_menu.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/module/feed/static/jscript/feed.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/module/photo/static/jscript/index.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/jquery/plugin/jquery.bt.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/module/user/static/jscript/register.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/module/core/static/jscript/country.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/editor.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/wysiwyg/default/core.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/theme/frontend/default/style/default/jscript/main.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/theme/frontend/nebula/style/nebula/jscript/custom.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript" src="http://mayodele.com/static/jscript/player/flowplayer/core.js?v=f6251db514adb16bff60c5dc5954a3c3"></script>
+		<script type="text/javascript"> $Core.init(); </script>
+        
+				</div>		
+			</div>		
+		</div>		
+	</body>
+</html>

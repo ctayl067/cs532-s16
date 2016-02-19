@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="utf-8" />
+	
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	
+	<meta http-equiv="content-style-type" content="text/css">
+	<meta http-equiv="content-script-type" content="text/javascript">
+	
+		<meta name="keywords" content="ニコニコ動画,動画,コメント">
+		<meta name="description" content="｢ニコニコ動画｣は音楽・お笑い・アニメ・ゲームなどの動画再生中にコメントを付けて楽しむ動画コミュニティサイトです">
+	
+	<base href="http://sp.nicovideo.jp/">
+	<title>かえのんが踊ってみた！(惨劇) - niconico</title>
+	
+			<link rel="canonical" href="http://www.nicovideo.jp/mylist/54600069" />
+ 		<link rel="shortcut icon" href="http://sp.res.nimg.jp/img/favicon.ico" />
+	<link rel="apple-touch-icon" href="http://sp.res.nimg.jp/img/apple-touch-icon-114x114.png" />
+	
+	
+		<link rel="stylesheet" href="http://sp.res.nimg.jp/css/reset.css?aa2f45e363fce97db5956a68bc2e5173">
+		<link rel="stylesheet" href="http://sp.res.nimg.jp/css/common.css?373ff08af592ff7cbc67a72cd5d0dfe0">
+		<link rel="stylesheet" href="http://sp.res.nimg.jp/css/site_header.css?dda89df125a569468cf4738fb64b32af">
+	
+	
+		<script src="http://sp.res.nimg.jp/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://sp.res.nimg.jp/js/nicoapi.js?747e620179aac500bd33d22d030d1bac" type="text/javascript" charset="utf-8"></script>
+		<script src="http://sp.res.nimg.jp/js/common.js?0547fee8cfdb08fdd715d8d58cbc1047" type="text/javascript" charset="utf-8"></script>
+		<script src="http://sp.res.nimg.jp/js/jquery.showMenu.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://ads.nicovideo.jp/assets/js/adsSimple-1.3.0.min.js" type="text/javascript" charset="utf-8"></script>
+			<script src="http://sp.res.nimg.jp/asset/js/main/common/search.min.js?f8997bd0ebe1bada30fda2d02f6f7670" charset="utf-8"></script>
+			<script type="text/javascript" charset="utf-8" src="http://notification.nicovideo.jp/res/notify.js" async defer></script>
+		<script type="text/javascript" charset="utf-8" src="http://enquete.nicovideo.jp/static/js/enquete.js" async defer></script>
+	
+<script src="http://sp.res.nimg.jp/js/video_loader.js?f0eaff9ad137cbda14e369c0ea82486e" type="text/javascript" charset="utf-8"></script>
+<script src="http://sp.res.nimg.jp/js/mylist_sorter.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://sp.res.nimg.jp/js/video_list.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function () {
+	Nico_VideoListHtmlLoader.setVideoIdList([[1411373714,1401881237,1393154027,1389612839,1377592089,1370164547]]);
+	Nico_VideoListHtmlLoader.setListDomSelector("#jsVideoList");
+	Nico_VideoListHtmlLoader.setLoadButtonDomSelector("#jsMoreButton");
+	Nico_VideoListHtmlLoader.load();
+	
+	Nico_MylistSorter.watch("#jsSelectSort");
+});
+</script>
+
+</head>
+<body class="hdNoFixed">
+	
+		<header role="banner" class="header global" id="jsSiteHeader">
+	<div class="hdInner">
+		
+		<div class="hdLogo">
+			<h1 class="hdTitle"><a href="http://sp.nicovideo.jp/?cp_in=header">niconico</a></h1>
+		</div>
+		
+
+    <div class="hdNav">
+			
+			<a role="button" class="hdButton search"></a>
+			
+
+			
+			<a role="button" class="hdButton menu"></a>
+			
+		</div>
+	</div>
+
+	
+	<div class="hdContent mdSearch" id="jsHeaderSearch">
+		<div class="hdContentInner">
+			
+			<form>
+    <div class="searchArea jsSearchArea" data-container_id="jsHeaderSearch" data-cp_in_from="header">
+        <ul class="searchButtonWrap">
+            <li class="searchButton keyword jsSearchTypeButtonByKeyword active">キーワード</li>
+            <li class="searchButton tag jsSearchTypeButtonByTag">タグ</li>
+        </ul>
+        <div class="inputArea">
+            <p class="inputForm">
+                <input type="search" class="jsSearchText" value='' placeholder="キーワードまたはタグを入力" />
+            </p>
+            <span class="inputCancel hidden jsSearchTextDelete"></span>
+            <span class="inputButton jsSearchButton">検索</span>
+        </div>
+        <ol class="suggestList jsSearchSuggestArea"></ol>
+    </div>
+</form>
+			
+			<ul class="hdContentSearchNav">
+				<li>
+					<a href="http://sp.nicovideo.jp/search/" class="arrow arrow-back">カテゴリから探す</a>
+				</li>
+				<li>
+					<a href="http://sp.nicovideo.jp/ranking/fav/daily/all" class="arrow arrow-back">ランキングから探す</a>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+	
+
+	
+	<div class="hdContent mdNavigation">
+		<div class="hdContentInner">
+
+					<div class="hdContentSignup">
+				<p class="btnWrap">
+					<a href="https://account.nicovideo.jp/login?next_url=%2Fmylist%2F54600069&amp;site=spniconico&amp;time=1455827983&amp;hash_key=d4c77d93" class="btn signin"><span class="textShadow">ログイン</span></a>
+				</p>
+				<p class="btnWrap">
+					<a href="https://account.nicovideo.jp/register/simple?next_url=%2Fmylist%2F54600069&amp;site=spniconico&amp;after_landing=1&amp;sec=sp_video&amp;sub=newaccount_header" class="btn signup"><span class="textShadow">新規会員登録</span></a>
+				</p>
+			</div>
+		
+		
+
+		
+		<div class="hdContentServiceList hdContentNav">
+			<div class="hdContentHeader">
+				<h2>サービス一覧</h2>
+			</div>
+			<div class="hdContentBody">
+				<ul class="itemList">
+					<li class="item top">
+						<a href="http://sp.nicovideo.jp/?cp_in=header">niconicoトップ / 動画</a>
+					</li>
+					<li class="item live arrow arrow-back">
+						<a href="http://sp.live.nicovideo.jp/?cp_in=header">生放送</a>
+					</li>
+					<li class="item channel arrow arrow-back">
+						<a href="http://sp.ch.nicovideo.jp/?cp_in=header">チャンネル</a>
+					</li>
+					<li class="item blomaga arrow arrow-back">
+						<a href="http://sp.ch.nicovideo.jp/portal/blomaga?cp_in=header">ブロマガ</a>
+					</li>
+					<li class="item book arrow arrow-back">
+						<a href="http://sp.book.nicovideo.jp/?cp_in=header">コミック・書籍</a>
+					</li>
+					<li class="item news arrow arrow-back">
+						<a href="http://news.nicovideo.jp/?cp_in=header">ニュース</a>
+					</li>
+					<li class="item blank"></li>
+				</ul>
+			</div>
+		</div>
+		
+
+		
+	</div>
+	</div>
+</header>
+		<div class="headerButtonWrap"><p class="headerButton signin round"><a href="https://account.nicovideo.jp/login?next_url=%2Fmylist%2F54600069&amp;site=spniconico&amp;time=1455827983&amp;hash_key=d4c77d93"><span class="textShadow">ログイン</span></a></p><p class="headerButton signup round"><a href="https://account.nicovideo.jp/register/simple?next_url=%2Fmylist%2F54600069&amp;site=spniconico&amp;after_landing=1&amp;sec=sp_video&amp;sub=newaccount_hangdown"><span class="textShadow">新規会員登録</span></a></p></div>	
+
+				
+			<div class="sp_ad" id="sp_header_ad">
+			<script type="text/javascript">
+				new adsSimple.Advertisement({
+					zone: 623
+				}).set('sp_header_ad');
+			</script>
+		</div>
+		
+
+<input type="hidden" id="jsMylistgroupId" value="" />
+<input type="hidden" id="jsWatchQuery" value="?cp_in=wt_mllst" />
+
+<div class="mylist_open">
+    <section id="mov_user">
+        <dl>
+            <dd>
+                <div class="cf">
+                    <section class="mov_user_text">
+                        <h5>
+														<a href="http://sp.nicovideo.jp/user/31244390">かえのん</a>さんの公開マイリスト
+							                        </h5>
+                        <p></p>
+                    </section>
+                </div>
+            </dd>
+        </dl>
+    </section>
+</div>
+<section class="content_title">
+	<h2>かえのんが踊ってみた！(惨劇)</h2>
+</section>
+<nav class="mylistSort">
+	<div>
+		<select id="jsSelectSort">
+	<option value="1" selected="selected">登録が新しい順</option>
+	<option value="0">登録が古い順</option>
+	<option value="4">タイトル昇順</option>
+	<option value="5">タイトル降順</option>
+	<option value="2">マイリストコメント昇順</option>
+	<option value="3">マイリストコメント降順</option>
+	<option value="6">投稿が新しい順</option>
+	<option value="7">投稿が古い順</option>
+	<option value="8">再生が多い順</option>
+	<option value="9">再生が少ない順</option>
+	<option value="10">コメントが新しい順</option>
+	<option value="11">コメントが古い順</option>
+	<option value="12">コメントが多い順</option>
+	<option value="13">コメントが少ない順</option>
+	<option value="14">マイリスト登録が多い順</option>
+	<option value="15">マイリスト登録が少ない順</option>
+	<option value="16">時間が長い順</option>
+	<option value="17">時間が短い順</option>
+</select>	</div>
+</nav>
+<ol id="jsVideoList"></ol>
+<a class="listViewNext" id="jsMoreButton" style="display:none;">
+	<div>さらに読み込む...</div>
+</a>
+
+	
+					
+			<div class="sp_ad_f" id="sp_footer_ad">
+			<script type="text/javascript">
+				new adsSimple.Advertisement({
+					zone: 624
+				}).set('sp_footer_ad');
+			</script>
+		</div>
+			
+
+	
+		<section class="gradient01 footer" id="jsSpFooter">
+	<p style="padding:12px 0 0 0; margin-bottom: 12px;">
+		<a href="http://info.nicovideo.jp/sp/rule_ars/">利用規約</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://account.nicovideo.jp/rules/tokutei/premium" style="margin-right: 12px;">特定商取引法</a>
+		<a href="http://qa.nicovideo.jp/">ヘルプ</a>
+	</p>
+	<p class="user-control"><a href="http://sp.nicovideo.jp/change_mode?mode=pc&amp;uri=%2Fmylist%2F54600069">PC表示に切り替え</a><a href="https://account.nicovideo.jp/register/simple?next_url=%2Fmylist%2F54600069&amp;site=spniconico&amp;after_landing=1&amp;sec=sp_video&amp;sub=footer" style="margin-left: 10px;">新規会員登録</a></p>
+			<div class="headerButton premium round">
+			<a href="https://account.nicovideo.jp/premium/register?site=spniconico&amp;next_url=%2Fmylist%2F54600069%3Fuser_status_change%3D1&amp;sec=sp_video&amp;sub=nologin_footer">
+				<span class="textShadow">プレミアム登録</span>
+			</a>
+		</div>
+		<p style="padding:7px 0 15px 0;">&copy; DWANGO Co., Ltd.</p>
+</section>
+
+	
+
+<div id="jsSearchDataContainer"
+	data-spweb_url="http://sp.nicovideo.jp/"
+	data-suggoiss_suggest_api_url="http://sug.search.nicovideo.jp/suggestion/complete/"
+	data-counter_target_flag="false"
+	data-suggest_flag="true"
+	data-suggest_cache="true"
+></div>
+<input type="hidden" id="jsBaseUrl" value="http://sp.nicovideo.jp/" />
+<input type="hidden" id="jsRequestedTime" value="1455827983" />
+<input type="hidden" id="jsNotifyBaseUrl" value="http://notify.nicovideo.jp/" />
+<input type="hidden" id="jsSiteId" value="spniconico" />
+<input type="hidden" id="jsNotifySiteId" value="spweb" />
+<input type="hidden" id="jsOperatingSystem" value="other" />
+<input type="hidden" id="jsDevice" value="" />
+
+</body>
+</html>

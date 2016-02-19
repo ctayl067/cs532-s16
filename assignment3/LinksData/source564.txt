@@ -1,0 +1,265 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Brian J. Wong &#8212; Video Editor | Cinematographer | Storyteller</title>
+    
+    <meta name="title" content="Video and web production portfolio of Brian Wong">
+	<meta name="description" content="Portfolio of Brian Wong, an independent, freelance video and web content creator specializing in video production, storytelling, cinematography, videography, video editing, and motion graphics">
+    <meta property="og:image" content="http://brianjwong.com/img/me-linkedin.jpg" />
+    <meta name="google-site-verification" content="">
+	<meta name="author" content="Brian J Wong">
+    <meta name="Copyright" content="Brian J Wong 2015. All Rights Reserved.">
+    
+    <meta name="DC.title" content="Portfolio of Brian J. Wong">
+	<meta name="DC.subject" content="Video production, editing, storytelling">
+	<meta name="DC.creator" content="Brian Wong - http://www.brianjwong.com">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">	 
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+    <!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css"/><![endif]-->
+    <!--[if IE]><link rel="stylesheet" href="css/ie.css"/><![endif]-->
+	
+    <script type="text/javascript" src="http://use.typekit.com/rrg2tlk.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script src="js/libs/modernizr-2.0.min.js"></script>
+	<script src="js/libs/respond.min.js"></script>
+</head>
+
+<body>
+
+<div id="page-wrap">
+
+<header id="branding" class="clearfix" role="banner">
+    <div class="logo">
+        <h1><a href="http://www.brianjwong.com">Brian Wong</a></h1>
+        <h2>Video Editor | Cinematographer | Storyteller</h2>
+    </div>
+    <nav id="main" class="clearfix">
+        <h2>Main Navigation</h2>
+        <ul class="nav-main">
+            <li>
+            	<a href="#" rel="toggle[about]" title="Who I Am">About</a>
+        	</li>
+        </ul> 
+        <div class="socialContainer">
+		    <ul>  
+			  	<li>
+				    <a href="http://www.twitter.com/brianjwong" class="icon-twitter" target="_blank"></a>
+			  	</li>
+			  	<li>
+				    <a href="http://www.vimeo.com/brianjwong" class="icon-vimeo" target="_blank"></a>
+			  	</li>
+			  	<li>
+				    <a href="http://www.linkedin.com/in/brianjwong" class="icon-linkedin" target="_blank"></a>
+			  	</li>
+			  	<li>
+				    <a href="https://plus.google.com/106455501281178655967/posts" class="icon-google-plus" target="_blank"></a>
+			  	</li>
+			  	<li>
+				    <a href="http://www.instagram.com/brianjwong" class="icon-instagram" target="_blank"></a>
+			  	</li>
+			  	<li>
+				    <a href="http://www.pinterest.com/brianjwong/" class="icon-pinterest" target="_blank"></a>
+			  	</li>
+			  	<li>
+				    <a href="mailto:brianjwong00@gmail.com" class="icon-mail2" target="_blank"></a>
+			  	</li>
+			</ul>
+  		</div>
+    </nav>   
+</header>
+
+<div id="about" class="clearfix">
+    <div class="pic"><img src="img/brian3.jpg" width="200" height="200" alt="About Brian J. Wong" /></div>
+    <h2>About Me</h2>
+    <p>I am a Video Editor and Cinematographer who enjoys aligning my passions with those who want to tell great stories. My work consists mainly of producing original content for creative web and video productions. 
+    </p>
+</div>
+
+<section id="work" class="clearfix" role="main">
+ 
+<div class="work_container clearfix"> 
+
+<!-- Start Thumbnails -->
+    <article class="unit">
+        <div class="thumb">
+            <a href="work-aic.html">
+                <img src="img/thumb-aic.jpg" width="800" height="450" alt="The Art Institute of Chicago Customer Story" />
+                <h3>Art Institute of Chicago</h3>
+            </a>
+        </div>
+    </article>
+
+    <article class="unit">
+        <div class="thumb">
+            <a href="work-vinrella.html">
+                <img src="img/thumb-vinrella.jpg" width="800" height="450" alt="Vinrella Product Video" />
+                <h3>Vinrella</h3>
+            </a>
+        </div>
+    </article>
+
+    <article class="unit">
+        <div class="thumb">
+            <a href="work-powerup-app.html">
+                <img src="img/thumb-powerup-app.jpg" width="800" height="450" alt="The PowerUp App" />
+                <h3>The PowerUp App</h3>
+            </a>
+        </div>
+    </article>
+
+    <article class="unit">
+        <div class="thumb">
+            <a href="work-bettercms.html">
+                <img src="img/thumb-bettercms.jpg" width="800" height="450" alt="Introducing Better CMS" />
+                <h3>Introducing Better CMS</h3>
+            </a>
+        </div>
+    </article>
+
+    <article class="unit">
+        <div class="thumb">
+            <a href="work-capabilities.html">
+                <img src="img/thumb-capabilities.jpg" width="800" height="450" alt="Devbridge Group - Capabilities" />
+                <h3>Devbridge Group - Capabilities</h3>
+            </a>
+        </div>
+    </article>
+
+    <article class="unit">
+        <div class="thumb">
+            <a href="work-hillshire.html">
+                <img src="img/thumb-hillshire.jpg" width="800" height="450" alt="Hillshire Farm #ChefTalks" />
+                <h3>Hillshire Farm #ChefTalks</h3>
+            </a>
+        </div>
+    </article>
+
+    <article class="unit">
+        <div class="thumb">
+            <a href="work-jaguar.html">
+                <img src="img/thumb-jaguar.jpg" width="800" height="450" alt="Jaguar at Woodward Cruise" />
+                <h3>Jaguar at Woodward Cruise</h3>
+            </a>
+        </div>
+    </article>
+
+    <article class="unit">
+        <div class="thumb">
+            <a href="work-monotype.html">
+                <img src="img/thumb-monotype.jpg" width="800" height="450" alt="The Monotype (Fonts.com) Customer Story" />
+                <h3>The Monotype Customer Story</h3>
+            </a>
+        </div>
+    </article>
+
+    <article class="unit">
+        <div class="thumb">
+            <a href="work-harpsichordist.html">
+                <img src="img/thumb-harpsichordist.jpg" width="800" height="450" alt="The Harpsichordist" />
+                <h3>The Harpsichordist</h3>
+            </a>
+        </div>
+    </article>
+
+    <article class="unit">
+        <div class="thumb">
+            <a href="work-virtue.html">
+                <img src="img/thumb-virtue.jpg" width="800" height="450" alt="Virtue Cider" />
+                <h3>Virtue Cider</h3>
+            </a>
+        </div>
+    </article>
+
+    <article class="unit">
+        <div class="thumb">
+            <a href="work-powerup.html">
+                <img src="img/thumb-powerup.jpg" width="800" height="450" alt="PowerUp with Devbridge Group" />
+                <h3>PowerUp with Devbridge Group</h3>
+            </a>
+        </div>
+    </article>
+
+	<article class="unit">
+        <div class="thumb">
+        	<a href="work-hoh.html">
+                <img src="img/thumb-hoh.jpg" width="800" height="450" alt="Nike+ House of Hoops Skills Academy Chicago" />
+                <h3>Nike+/House of Hoops</h3> 
+            </a>
+        </div>
+    </article>
+
+    <article class="unit">
+        <div class="thumb">
+        	<a href="work-nec.html">
+                <img src="img/thumb-nec.jpg" width="800" height="450" alt="NEC Interactive Software Promotional Video" />
+                <h3>NEC Interactive Software</h3>
+            </a>
+        </div>
+    </article> 
+
+    <article class="unit">
+    	<div class="thumb">
+           <a href="work-market.html">
+                <img src="img/thumb-market.jpg" width="800" height="450" alt="Standard Market" />
+        	    <h3>Standard Market</h3>
+            </a>
+        </div>
+    </article>
+ 
+</div> 
+    
+</section>
+
+</div> <!--! end of #container -->
+
+<footer>
+	<small>&copy; Brian Wong 2015.</small>
+</footer>
+
+<!-- jQuery -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!--<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>->
+
+<!-- scripts concatenated and minified via ant build script-->
+<script src="js/libs/jquery.easing.1.3.js"></script>
+<script src="js/libs/animatedcollapse.js"></script>
+<script src="js/libs/jquery.quicksand.js"></script>
+<script src="js/libs/collapse.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+<!-- end scripts-->
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26888428-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
+	<script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
+<![endif]-->
+
+</body>
+</html>

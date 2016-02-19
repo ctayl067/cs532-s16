@@ -1,0 +1,1212 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ask me anything | ask.fm/zero_line</title>
+  <script>
+//<![CDATA[
+function getStack(c){var b,d;try{throw Error("getStack");}catch(e){if(b=(e.stack||e.backtrace||e.stacktrace).toString(),(b.match(/\n/g)||[]).length>c)return b}d=arguments.callee||getStack;for(b=[];d&&5>b.length;){b.push(d.toString());try{d=d.caller}catch(a){break}}b.splice(0,c);return b.join("@@@")}
+function logError(c,b,d,e,a){try{var g,h,k="";a=a||c;c=(a.message||a.description||c).toString();stack=(a.stack||a.backtrace||a.stacktrace||getStack(2)).toString();g=a.target||"";b=(b||a.fileName||a.sourceURL||g.src).toString();e=e||window.event&&window.event.errorCharacter;d=(d||a.lineNumber||a.line).toString()+(e?":"+e:"");try{localStorage.setItem("test","test"),localStorage.removeItem("test"),h=new FormData,h.append("test","test")}catch(m){k="1"}var f,l={m:c,s:stack,f:b||"",l:d||"",u:document.location,
+w:k};c="";for(f in l)c+=f+"="+encodeURIComponent(l[f])+"&";(new Image).src="/home/jserror?"+c}catch(n){}}window.onerror=logError;
+
+//]]>
+</script>
+  <script>
+//<![CDATA[
+document.domain = "ask.fm";
+//]]>
+</script>
+
+  <meta name="description" content="Ask and answer. Find out what people want to know about you!">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="image_src" href="https://ask.fm/images/155x155.png">
+
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+  <link rel="stylesheet" media="all" href="//static.ask.fm/assets/application_ltr-365b0f9293a2eed1c227586566d29cd4717750cfe07cce562b1375e3e670a3d8.css" data-turbolinks-track="true" />
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  
+  
+  <script src="//static.ask.fm/assets/turbolinks-f80d0410a41903255bb4d4dbbadd923b183883029112c284889bcc92dba73d0a.js" data-turbolinks-track="true"></script>
+  <script src="//static.ask.fm/assets/application-777d68cc41a5df0c5b93ca892e7ac2e5da271e9a9912e7041a30eea4dd5f80bb.js" data-turbolinks-track="true"></script>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="l0eTBZcGePdqvgRbQS8lgT3xpNQfWgZit+f1CDQjECE0y8eaMgKp5EoqIxMFQKNOxF/6TXP46prkRvT3P87v4g==" />
+</head>
+
+
+
+  <body class="contentBody twoColumnBody" lang="en-US" dir="ltr" data-id="profile/answers"><script>
+  window.Config && window.Config.init({"poller:interval":30000,"poller:cache_limit":10,"mass_ask:selection_limit":50,"flash:delay":3000,"ads:native:render_once":true,"media:autoplay_gif":true,"env":"production","page:category":"Guest Profile","page:type":"Answers","page:user_id":null});
+</script>
+
+<div id="loaderMother"></div>
+    <div id="topMenu">
+      
+        <div class="topBar">
+  <div class="rsp-container rsp-eql-desktop util-relative">
+    <a class="askfm-logo icon-askfm-logo topBar-left" href="/"></a>
+
+
+        <div class="topBar-right">
+          <a class="btn-action plain" data-action="PopupOpen" data-url="/signup" href="#">Sign up</a>
+          <a class="btn-action plain" data-action="PopupOpen" data-url="/login" href="#">Log in</a>
+        </div>
+
+  </div>
+
+  <div class="rsp-container rsp-lte-tablet util-relative">
+
+      <a class="askfm-logo icon-askfm-logo" href="/"></a>
+      <div class="topBar-left">
+        <a class="btn-action plain" data-action="PopupOpen" data-url="/signup" href="#">Sign up</a>
+      </div>
+      <div class="topBar-right">
+        <a class="btn-action plain" data-action="PopupOpen" data-url="/login" href="#">Log in</a>
+      </div>
+
+  </div>
+</div>
+
+  
+
+      
+<div style="display:none" class="flashMessage notice">
+  <div class="util-relative rsp-container">
+    <a href="#" data-action="FlashHide"></a>
+    <p></p>
+</div></div>
+      <div id="cookieNotice">
+  <p class="rsp-container">
+    By continuing, you consent to our use of <a target="_blank" href="http://about.ask.fm/cookie-policy/?lang=en">Cookies</a>, ok?
+    <a data-action="CookieNoticeAccept" href="#">OK</a>
+  </p>
+</div>
+
+    </div>
+
+    <div id="contentArea" class="">
+      <div class="rsp-container">
+          <div class="rsp-row top-content">
+              <div id="profileBackground" style="background-image:url(https://akimg2.ask.fm/wallpapers2/086/353/583/872/original/avatar.jpg)">
+  <div id="profileBackgroundOverlay">
+    <div id="profileHeader-wrapper">
+
+        <a style="background-image:url(https://akimg1.ask.fm/assets2/133/556/301/824/thumb_big/avatar.jpg)" data-action="ImageOpen" data-url="https://akimg1.ask.fm/assets2/133/556/301/824/normal/avatar.jpg" class="" id="profilePicture" href="/zero_line/avatar"></a>
+      
+  <a id="profileName" href="/zero_line">  <span class="blockLink head bold">제로라인</span>
+  <span class="blockLink foot bold">
+    <span dir="ltr">@zero_line</span>
+</span></a>
+
+
+
+        <div class="profileLabel">
+          <a class="profileButton icon-add-friend" data-action="PopupOpen" data-url="/login/prompt" href="#">Follow</a>
+        </div>
+        <a class="profile-header-icon left icon-flag" data-tooltip="Report" data-gtm="report-user-popup" data-action="PopupOpen" data-url="/zero_line/flag/report" href="#"></a>
+        
+
+
+    </div>
+  </div>
+</div>
+
+    
+<div id="profileButtons" class="rsp-lte-tablet">
+    <a class="btn-primary-wide" data-action="PopupOpen" data-url="/login/prompt" href="#">Ask</a>
+</div>
+
+<div class="rsp-eql-mobile">
+  <nav class="subTabBar profileTabBar">
+        <a title="Answers" class="icon icon-answer active" href="/zero_line"><div class="profileTabAnswerCount">72</div></a>
+        <a title="Likes" class="icon icon-like" href="/zero_line/best"><div class="profileTabLikeCount">0</div></a>
+        <a title="Gifts" class="icon icon-gift" href="/zero_line/gifts"><div class="profileTabGiftCount">0</div></a>
+  </nav>
+</div>
+
+<div class="rsp-gte-tablet">
+  <nav class="subTabBar-wide profileTabBar">
+      <a class="active" href="/zero_line"><div class="profileTabAnswerCount">72</div>Answers</a>
+      <a class="" href="/zero_line/best"><div class="profileTabLikeCount">0</div>Likes</a>
+      <a class="" href="/zero_line/gifts"><div class="profileTabGiftCount">0</div>Gifts</a>
+  </nav>
+</div>
+
+
+
+          </div>
+
+        <div class="rsp-row main-content util-clearfix">
+          <div class="rsp-gte-mobile main-column">
+            
+
+
+
+
+
+<div style="display:none">
+
+  <ul id="answerOptions-more" class="afm-popover right">
+    <li>
+      <a class="icon-flag" data-option="report-answer-url" data-gtm="report-topic-popup" data-action="PopupOpen" data-url="#" href="#">Report post</a>
+    </li>
+    <li>
+      <a class="icon-block" data-option="block-user-url" data-gtm="report-topic-popup" data-action="PopupOpen" data-url="#" href="#">Block user</a>
+    </li>
+  </ul>
+
+</div>
+
+
+<div id="item-poller"><a id="newItemsReady" style="display:none" data-action="ItemsPoll" data-url="/zero_line/answers/poll?score=1454428057" href="#"></a>
+
+</div>
+<div class="item-pager "><div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      바나나 머그면 나한테 바나나?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">이미 반했어</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="February 02, 2016 15:47:36 GMT" href="/zero_line/answers/136666553188">16 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136666553188">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136666553188/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      바나나는 물에 뜨나요?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">놉</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="February 02, 2016 15:40:06 GMT" href="/zero_line/answers/136666440804">16 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136666440804">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136666440804/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      캔의 핸드폰애가 꼭 들어보세요
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">어멋... 이미 마니 들었답니다....*^^* 또~~엄마야~~~~</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="February 01, 2016 15:47:32 GMT" href="/zero_line/answers/136646837348">17 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136646837348">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136646837348/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="gemini-block gemini-enabled rsp-lte-tablet" data-section="391171ff-b3c3-467e-87e2-23f17a1d3061">
+  <div class="gemini-container emphasis">
+    <div class="loader"></div>
+  </div>
+
+  <a data-action="PromoClick" data-url="/promotions/mobile-app/visit?origin=inline" class="gemini-container default" style="display:none" href="#">
+    <div class="promotion ios regular"></div>
+</a>
+  <script type="text/plain">
+    <a id="{id}" target="_blank" class="gemini-container emphasis" data-gtm="{&quot;name&quot;:&quot;gemini-ad-click&quot;,&quot;meta&quot;:[0]}" href="{click_url}">
+      <div class="button">{gemini}</div>
+      <p class="sponsor">{sponsor}</p>
+      <div class="picture" style="background-image:url({image})"></div>
+      <p class="title">{title}</p>
+      <p>{description}</p>
+</a>  </script>
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      사...........!!! 는동안 많이 버세요...
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">세상에 너무 고마워요... 님도 대박나세요!!!!!!!!!</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="February 01, 2016 15:44:57 GMT" href="/zero_line/answers/136646811236">17 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136646811236">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136646811236/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      영간씨 ㅅ..사.. 사........!
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">ㅅ..사..사...!?!?!?!?!??!!?</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="February 01, 2016 15:42:57 GMT" href="/zero_line/answers/136646779492">17 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136646779492">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136646779492/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      회랑 생선구이중 뭘 좋아해요
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">허억 생선구이요 ㅠㅠ</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="February 01, 2016 15:40:56 GMT" href="/zero_line/answers/136646737252">17 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136646737252">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136646737252/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      들켰네 나 만나면 뀨잉해라
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">시러</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="February 01, 2016 15:38:37 GMT" href="/zero_line/answers/136646626148">17 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136646626148">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136646626148/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      저도 견딜테니 홍대 걷기싫은 거리에서 오후 4시경에 외쳐주세요 목소리와 동작은 크고 우렁차게
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">동호형이지</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="February 01, 2016 15:33:28 GMT" href="/zero_line/answers/136646597476">17 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136646597476">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136646597476/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      가장 수치스러운 단어 중 하나인거 같아서요. 손동작도 귀엽게 해주세요
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">왜 저한테...? 보는 사람이 더 수치스럽..</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="February 01, 2016 15:31:48 GMT" href="/zero_line/answers/136646565220">17 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136646565220">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136646565220/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="gemini-block gemini-enabled rsp-lte-tablet" data-section="391171ff-b3c3-467e-87e2-23f17a1d3061">
+  <div class="gemini-container emphasis">
+    <div class="loader"></div>
+  </div>
+
+  <a data-action="PromoClick" data-url="/promotions/mobile-app/visit?origin=inline" class="gemini-container default" style="display:none" href="#">
+    <div class="promotion ios alternative"></div>
+</a>
+  <script type="text/plain">
+    <a id="{id}" target="_blank" class="gemini-container emphasis" data-gtm="{&quot;name&quot;:&quot;gemini-ad-click&quot;,&quot;meta&quot;:[1]}" href="{click_url}">
+      <div class="button">{gemini}</div>
+      <p class="sponsor">{sponsor}</p>
+      <div class="picture" style="background-image:url({image})"></div>
+      <p class="title">{title}</p>
+      <p>{description}</p>
+</a>  </script>
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      그럼 모든 사람에게 뀨잉♡하시면 되죠
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">으,,음.... 왜 하필 뀨잉이죠?</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="February 01, 2016 15:29:52 GMT" href="/zero_line/answers/136646532196">17 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136646532196">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136646532196/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      실제로 만나게 된다면 뀨잉뀨잉♡ 하고 외쳐주세요
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">님이 누군지 알아야 외칠 수 있는걸...</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="February 01, 2016 15:27:26 GMT" href="/zero_line/answers/136646483044">17 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136646483044">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136646483044/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      추억에 남는 예전 사진이 있나요? 올려보세요!
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">요... 추억이네...</p>
+
+  <div class="streamItemContent streamItemContent-visual">  <div class="streamItem-visualItem"><a data-action="ImageOpen" data-url="https://akphoto2.ask.fm/445/230/954/-109996966-1tpedk2-fp4rk4nsjh2281k/large/avatar.jpg" href="/zero_line/answers/136646462820/photo"><img src="https://akphoto2.ask.fm/445/230/954/-109996966-1tpedk2-fp4rk4nsjh2281k/original/avatar.jpg" /></a></div>
+</div>
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="February 01, 2016 15:25:03 GMT" href="/zero_line/answers/136646462820">17 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136646462820">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136646462820/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      습관적으로 자주 쓰는 단어나 구절이 있나요?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">ㅅ..섹스...</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 25, 2016 22:49:04 GMT" href="/zero_line/answers/136519996772">24 days ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136519996772">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136519996772/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      제가 남길게요
+
+피카츄 내놔
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">피카츄 말고 이건 드릴게 ^^</p>
+
+  <div class="streamItemContent streamItemContent-visual">  <div class="streamItem-visualItem"><a data-action="ImageOpen" data-url="https://akphoto2.ask.fm/619/170/105/-9996989-1tnqhpp-d3i540nr4nrch2f/large/avatar.jpg" href="/zero_line/answers/136342451044/photo"><img src="https://akphoto2.ask.fm/619/170/105/-9996989-1tnqhpp-d3i540nr4nrch2f/original/avatar.jpg" /></a></div>
+</div>
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 17, 2016 16:27:56 GMT" href="/zero_line/answers/136342451044">about 1 month ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136342451044">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136342451044/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      남긴거지 질문은 아니애오
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">ㅂ부들부들...</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 17, 2016 16:25:32 GMT" href="/zero_line/answers/136342400868">about 1 month ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136342400868">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136342400868/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      질문 안할거애오
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">남겨짜나오</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 17, 2016 16:19:47 GMT" href="/zero_line/answers/136342266980">about 1 month ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136342266980">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136342266980/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      가장 최근에 갔었던 콘서트는?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">콘서트... 공연은 이번 토요일 병신년회!</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 17, 2016 16:12:28 GMT" href="/zero_line/answers/136342125668">about 1 month ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136342125668">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136342125668/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      넘나 어울리는 것
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">언제 절 보셨다고....</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 05, 2016 03:30:41 GMT" href="/zero_line/answers/136052527972">about 1 month ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136052527972">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136052527972/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      장발이 잘 어울려요
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">왜 자꾸 그래요..?</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 05, 2016 03:29:04 GMT" href="/zero_line/answers/136052499300">about 1 month ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136052499300">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136052499300/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      점심 머 드실거에요??
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">몰라요... 피자 먹구싶어요 ㅜㅜ</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 05, 2016 03:22:41 GMT" href="/zero_line/answers/136052424036">about 1 month ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136052424036">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136052424036/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      첫 데이트 장소로 이상적인 곳은 어디라고 생각하나요? 왜 그렇다고 생각하나요?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">고깃집. 고기가 좋으니까....</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 05, 2016 03:14:34 GMT" href="/zero_line/answers/136052354660">about 1 month ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136052354660">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136052354660/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      둘중 꼭 만나야한다면?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">나랑 더 잘 맞는 사람</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 04, 2016 02:32:23 GMT" href="/zero_line/answers/136026944100">about 2 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136026944100">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136026944100/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      키크고 못생긴 사람 vs 키작고 평타외모
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">둘 다 안만남</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 04, 2016 02:22:17 GMT" href="/zero_line/answers/136026863460">about 2 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136026863460">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136026863460/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      안자르는게 이쁜데.. 흑흑
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">둘 다 존못이지만 가린 존못이 더..</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 04, 2016 02:16:49 GMT" href="/zero_line/answers/136026821220">about 2 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136026821220">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136026821220/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      앞머리 자르지 마세요
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">왜...요....</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="January 04, 2016 02:12:21 GMT" href="/zero_line/answers/136026779748">about 2 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/zero_line/answers/136026779748">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/zero_line/answers/136026779748/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+
+
+  <a class="viewMore" data-action="ItemsMore" data-url="/zero_line/answers/more?page=1&amp;score=1454428056" href="#">Loading…</a>
+</div>
+
+<div class="emptyResults" style="display:none">
+    <p><span dir="ltr">@zero_line</span> has no answers yet</p>
+    <h3>Ask 제로라인 a question now</h3>
+</div>
+
+          </div>
+
+            <div class="rsp-eql-desktop side-column">
+              <div class="sticky-anchor">
+                
+                  <div id="askBox" class="side-section">
+    <h3>Ask <span dir="ltr">@zero_line</span>:</h3>
+    <form id="askForm" autocomplete="off" class="new_question" data-action="FormXHRSubmit" data-gtm="ask-question" action="/zero_line/ask" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="HuwoAFS7HB/1FwElUWc5vCoagIJlTcGolryOuePKPf+9YHyf8b/NDNWDJm0VCL9z07TeGwnvLVDFHY9G6CfCPA==" />
+
+  <div class="question">
+    <textarea placeholder="What, when, why…ask" autofocus="autofocus" data-counter=".optionsBar-counter" data-limit="300" data-autocomplete="/account/friends/autocomplete" name="question[question_text]" id="question_question_text">
+</textarea>
+  </div>
+
+  <div class="optionsBar">
+      <button name="button" type="button" class="btn-primary rsp-eql-desktop" data-action="SaveQuestionAndPopupOpen" data-url="/login/prompt">Ask</button>
+
+    <div class="optionsBar-option optionsBar-counter"></div>
+
+    <input name="question[anonymous]" disabled="disabled" type="hidden" value="0" /><input disabled="disabled" class="checkbox" id="single_question_anonymous" type="checkbox" value="true" name="question[anonymous]" />
+    <label for="single_question_anonymous" class="optionsBar-askMode">
+      <span>Ask anonymously<span>
+    </label>
+  </div>
+
+  
+
+</form>
+  </div>
+
+
+                
+                
+              </div>
+              <div data-stick-to=".sticky-anchor">
+                  <div data-url="/ads/304?login=zero_line" class="askfm-ad-slot askfm-ad-slot-300x250"><a target="_blank" class="askfm-default-ad" style="display:none" href="http://support.ask.fm"><img src="//static.ask.fm/assets/house_banner_support_center-8b3116dbc871d25918db2d719082e4cc8e46ef3e81ed3dca34fbcccb8648e8e6.png" /></a></div>
+                <footer>
+  <nav class="site-links">
+    <a target="_blank" href="http://about.ask.fm?lang=en">About ASKfm</a>
+    <a target="_blank" href="http://safety.ask.fm?lang=en">Safety center</a>
+    <a target="_blank" href="http://about.ask.fm/blog/?lang=en">Blog</a>
+    <a target="_blank" href="http://support.ask.fm?lang=en">Help</a>
+    <a target="_blank" href="http://about.ask.fm/terms/?lang=en">Terms of use</a>
+    <a target="_blank" href="http://about.ask.fm/privacy-policy/?lang=en">Privacy policy</a>
+    <a target="_blank" href="http://about.ask.fm/cookie-policy/?lang=en">Cookies policy</a>
+    <a data-action="PopupOpen" data-url="/home/languages" href="#">Choose language</a>
+  </nav>
+  <div class="copyright">&copy; Ask.fm 2016</div>
+  <nav class="social-links">
+  <a class="icon-facebook-solo" target="_blank" href="https://www.facebook.com/askfmpage"></a>
+  <a class="icon-twitter-solo" target="_blank" href="https://twitter.com/askfm"></a>
+  <a class="icon-askfm-solo" target="_blank" href="http://ask.fm/askfm"></a>
+  <a class="icon-instagram-solo" target="_blank" href="https://instagram.com/askfm"></a>
+</nav>
+
+</footer>
+
+              </div>
+            </div>
+        </div>
+      </div>
+</div><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W5DVX4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><img src="//pixel.quantserve.com/pixel/p-r1DAFnUnQgqGA.gif?labels=_fp.event.Default" style="display:none;" border="0" height="1" width="1" alt="Quantcast"/></noscript>
+<noscript><img border="0" style="display:none" src="https://m.ask.fm/home/jserror?m=noscript&amp;u=https%3A%2F%2Fm.ask.fm%2Fzero_line" /></noscript></body>
+
+
+
+</html>
+
+

@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ru-RU" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="ru-RU" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="ru-RU" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ru-RU" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#"> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>LinuxMaster Club</title>
+
+<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) -->
+	<meta name="description" content="Программы для Linux. Описания. Обзоры" />
+	<meta property="og:type" content="blog" />
+	<meta property="og:title" content="LinuxMaster Club" />
+	<meta property="og:description" content="Открытый клуб ценителей свободного программного обеспечения" />
+	<meta property="og:url" content="http://linuxmasterclub.ru/" />
+	<meta property="og:site_name" content="LinuxMaster Club" />
+	<meta name="twitter:card" content="summary" />
+<!-- /SEO Ultimate -->
+
+<link rel="alternate" type="application/rss+xml" title="LinuxMaster Club &raquo; Лента" href="http://linuxmasterclub.ru/feed/" />
+<link rel="alternate" type="application/rss+xml" title="LinuxMaster Club &raquo; Лента комментариев" href="http://linuxmasterclub.ru/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/linuxmasterclub.ru\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-polls-css'  href='http://linuxmasterclub.ru/wp-content/plugins/wp-polls/polls-css.css?ver=2.72' type='text/css' media='all' />
+<style id='wp-polls-inline-css' type='text/css'>
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://linuxmasterclub.ru/wp-content/plugins/wp-polls/images/default_gradient/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+<link rel='stylesheet' id='wp-postratings-css'  href='http://linuxmasterclub.ru/wp-content/plugins/wp-postratings/postratings-css.css?ver=1.83' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdiscuz-frontend-css-css'  href='http://linuxmasterclub.ru/wp-content/plugins/wpdiscuz/assets/css/wpdiscuz.min.css?ver=3.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdiscuz-validator-css-css'  href='http://linuxmasterclub.ru/wp-content/plugins/wpdiscuz/assets/third-party/validator/validator.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdiscuz-tooltipster-css-css'  href='http://linuxmasterclub.ru/wp-content/plugins/wpdiscuz/assets/third-party/tooltipster/css/tooltipster.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dry_awp_theme_style-css'  href='http://linuxmasterclub.ru/wp-content/plugins/advanced-wp-columns/assets/css/awp-columns.css?ver=4.4.2' type='text/css' media='all' />
+<style id='dry_awp_theme_style-inline-css' type='text/css'>
+@media screen and (max-width: 1024px) {	.csColumn {		clear: both !important;		float: none !important;		text-align: center !important;		margin-left:  10% !important;		margin-right: 10% !important;		width: 80% !important;	}	.csColumnGap {		display: none !important;	}}
+</style>
+<link rel='stylesheet' id='tablepress-default-css'  href='http://linuxmasterclub.ru/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='kadence_theme-css'  href='http://linuxmasterclub.ru/wp-content/themes/virtue/assets/css/virtue.css?ver=263' type='text/css' media='all' />
+<link rel='stylesheet' id='virtue_skin-css'  href='http://linuxmasterclub.ru/wp-content/themes/virtue/assets/css/skins/default.css' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-virtue-css'  href='http://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=1451629713' type='text/css' media='all' />
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-content/plugins/wpdiscuz/assets/third-party/validator/validator.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-content/plugins/wpdiscuz/assets/third-party/cookie/jquery.cookie.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-content/plugins/wpdiscuz/assets/third-party/tooltipster/js/jquery.tooltipster.min.js?ver=1.2'></script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-content/plugins/wpdiscuz/assets/third-party/autogrow/jquery.autogrowtextarea.min.js?ver=3.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpdiscuz_ajax_obj = {"url":"http:\/\/linuxmasterclub.ru\/wp-admin\/admin-ajax.php","wpdiscuz_options":{"wc_hide_replies_text":"\u0421\u043f\u0440\u044f\u0442\u0430\u0442\u044c \u043e\u0442\u0432\u0435\u0442\u044b","wc_show_replies_text":"\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u043e\u0442\u0432\u0435\u0442\u044b","wc_msg_required_fields":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0437\u0430\u043f\u043e\u043b\u043d\u0438\u0442\u0435 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0435 \u043f\u043e\u043b\u044f","wc_invalid_field":"\u041d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u043e\u043b\u044f \u0437\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u044b \u043d\u0435\u0432\u0435\u0440\u043d\u043e","wc_invalid_captcha":"\u041d\u0435\u0432\u0435\u0440\u043d\u043e \u0432\u0432\u0435\u0434\u0435\u043d \u043a\u043e\u0434","wc_error_empty_text":"\u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0437\u0430\u043f\u043e\u043b\u043d\u0438\u0442\u0435 \u044d\u0442\u043e \u043f\u043e\u043b\u0435, \u0447\u0442\u043e\u0431\u044b \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c","wc_error_url_text":"\u0421\u0441\u044b\u043b\u043a\u0430 \u043d\u0435\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430","wc_error_email_text":"\u0410\u0434\u0440\u0435\u0441 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u044b \u043d\u0435\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u0435\u043d","wc_login_to_vote":"\u0412\u044b \u0434\u043e\u043b\u0436\u043d\u044b \u0432\u043e\u0439\u0442\u0438 , \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u043e\u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u0442\u044c","wc_deny_voting_from_same_ip":"\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u0442\u044c \u0437\u0430 \u044d\u0442\u043e\u0442 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439","wc_self_vote":"\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u0442\u044c \u0437\u0430 \u0441\u0432\u043e\u0439 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439","wc_vote_only_one_time":"\u0412\u044b \u0443\u0436\u0435 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043b\u0438 \u0437\u0430 \u044d\u0442\u043e\u0442 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439","wc_voting_error":"\u041e\u0448\u0438\u0431\u043a\u0430 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u044f","wc_captcha_show_hide":0,"wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","wc_held_for_moderate":"\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u043e\u0436\u0438\u0434\u0430\u0435\u0442 \u043c\u043e\u0434\u0435\u0440\u0430\u0446\u0438\u0438","wc_comment_edit_not_possible":"\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u043d\u043e \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u0443\u0436\u0435 \u043d\u0435\u043b\u044c\u0437\u044f \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u044c","wc_comment_not_updated":"\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u043d\u0435 \u0431\u044b\u043b \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d","wc_comment_not_edited":"\u0412\u044b \u043d\u0435 \u0441\u0434\u0435\u043b\u0430\u043b\u0438 \u043d\u0438\u043a\u0430\u043a\u0438\u0445 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439","wc_new_comment_button_text":"\u043d\u043e\u0432\u044b\u0439 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439","wc_new_comments_button_text":"\u043d\u043e\u0432\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438","wc_new_reply_button_text":"\u043d\u043e\u0432\u044b\u0439 \u043e\u0442\u0432\u0435\u0442 \u043d\u0430 \u0432\u0430\u0448 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439","wc_new_replies_button_text":"\u043d\u043e\u0432\u044b\u0435 \u043e\u0442\u0432\u0435\u0442\u044b \u043d\u0430 \u0432\u0430\u0448\u0438 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438","wc_captcha_show_hide_for_members":0,"is_email_field_required":"1","is_user_logged_in":false,"commentListLoadType":0,"commentListUpdateType":"0","commentListUpdateTimer":"30","liveUpdateGuests":"1","wc_comment_bg_color":"#FEFEFE","wc_reply_bg_color":"#F8F8F8","wordpress_comment_order":"asc","commentsVoteOrder":false,"wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","storeCommenterData":100000,"isCaptchaInSession":false,"version":"3.2.5","wc_post_id":2515,"loadLastCommentId":null}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz.min.js?ver=3.2.5'></script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-content/themes/virtue/assets/js/vendor/modernizr.min.js'></script>
+<link rel='https://api.w.org/' href='http://linuxmasterclub.ru/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://linuxmasterclub.ru/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://linuxmasterclub.ru/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<style type="text/css">#wpcomm .wc_new_comment{background:#00B38F;}#wpcomm .wc_new_reply{background:#00B38F;}#wpcomm .wc-form-wrapper{background:#F9F9F9;}#wpcomm select,#wpcomm textarea,#wpcomm input[type="text"],#wpcomm input[type="email"],#wpcomm input[type="url"]{border:#D9D9D9 1px solid;}#wpcomm .wc-comment .wc-comment-right{background:#FEFEFE;}#wpcomm .wc-reply .wc-comment-right{background:#F8F8F8;}#wpcomm .wc-comment-text{font-size:14px;color:#555;}#wpcomm .wc-blog-post_author > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-post_author > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-post_author > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-administrator > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-administrator > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-administrator > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-editor > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-editor > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-editor > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-author > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-author > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-author > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-contributor > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-contributor > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-contributor > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-subscriber > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-subscriber > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-subscriber > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-guest > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-backwpup_admin > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-backwpup_admin > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-backwpup_admin > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-backwpup_check > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-backwpup_check > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-backwpup_check > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-backwpup_helper > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-backwpup_helper > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-backwpup_helper > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-comment-footer a,#wpcomm .wc-comment-footer span.wc_editable_comment,#wpcomm .wc-comment-footer span.wc_save_edited_comment,#wpcomm span.wc_cancel_edit{color:#666666;}#wpcomm .wc-comment-footer .wc-vote-result{background:#666666;}#wpcomm .wc-reply-link,#wpcomm .wc-vote-link,#wpcomm .wc-share-link{color:#666666;}.wc-load-more-submit{border:1px solid #D9D9D9;}#wpcomm .wc-new-loaded-comment > .wc-comment-right{background:#FFFAD6;}.comments-area{width:auto;}.wpdiscuz-front-actions{background:#F9F9F9;}.wpdiscuz-subscribe-bar{background:#F9F9F9;}.wpdiscuz-sort-buttons{color:#666666;}.wpdiscuz-sort-button{color:#666666; cursor:pointer;}.wpdiscuz-sort-button:hover{color:#00B38F;cursor:pointer;}.wpdiscuz-sort-button-active{color:#00B38F!important;cursor:default!important;}#wpcomm .page-numbers{color:#555;border:#555 1px solid;}#wpcomm span.current{background:#555;}#wpcomm .wpdiscuz-readmore{cursor:pointer;color:#00B38F;}</style>
+            <style type="text/css">#logo {padding-top:25px;}#logo {padding-bottom:10px;}#logo {margin-left:0px;}#logo {margin-right:0px;}#nav-main {margin-top:40px;}#nav-main {margin-bottom:10px;}.headerfont, .tp-caption {font-family:Lato;} 
+  .topbarmenu ul li {font-family:Lato;}
+  #kadbreadcrumbs {font-family:Verdana, Geneva, sans-serif;}input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; } input[type=number] {-moz-appearance: textfield;}.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button {display: none;}.product_item .product_details h5 {text-transform: none;}.product_item .product_details h5 {min-height:40px;}</style><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><!--[if lt IE 9]>
+<script src="http://linuxmasterclub.ru/wp-content/themes/virtue/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+<style type="text/css" title="dynamic-css" class="options-output">header #logo a.brand,.logofont{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:32px;}.kad_tagline{font-family:Lato;line-height:20px;font-weight:400;font-style:normal;color:#444444;font-size:14px;}.product_item .product_details h5{font-family:Lato;line-height:20px;font-weight:700;font-style:normal;font-size:16px;}h1{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:38px;}h2{font-family:Lato;line-height:40px;font-weight:normal;font-style:normal;font-size:32px;}h3{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:28px;}h4{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:24px;}h5{font-family:Lato;line-height:24px;font-weight:700;font-style:normal;font-size:18px;}body{font-family:Verdana, Geneva, sans-serif;line-height:20px;font-weight:400;font-style:normal;font-size:14px;}#nav-main ul.sf-menu a{font-family:Lato;line-height:18px;font-weight:400;font-style:normal;font-size:12px;}#nav-second ul.sf-menu a{font-family:Lato;line-height:22px;font-weight:400;font-style:normal;font-size:18px;}.kad-nav-inner .kad-mnav, .kad-mobile-nav .kad-nav-inner li a,.nav-trigger-case{font-family:Lato;line-height:20px;font-weight:400;font-style:normal;font-size:16px;}</style><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34471182-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<meta name='yandex-verification' content='4298427cf1d8fec2' />
+<meta name="msvalidate.01" content="D39E2E58B50CF9AFA235F753FD567881" />
+<meta name='wmail-verification' content='ba32827e53a665e1cd689e68a8d0bc5e' />
+<meta name="wot-verification" content="15aa2d0106566a53c75b"/>
+<!-- Yandex.Metrika counter --><script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter33397903 = new Ya.Metrika({ id:33397903, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/33397903" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "2713576", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=2713576;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+</head>
+  <body class="home blog wide">
+    <div id="wrapper" class="container">
+    <div id="kt-skip-link"><a href="#content">Skip to Main Content</a></div><header class="banner headerclass">
+  <div id="topbar" class="topclass">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 kad-topbar-left">
+          <div class="topbarmenu clearfix">
+                                            </div>
+        </div><!-- close col-md-6 --> 
+        <div class="col-md-6 col-sm-6 kad-topbar-right">
+          <div id="topbar-search" class="topbar-widget">
+            <form role="search" method="get" id="searchform" class="form-search" action="http://linuxmasterclub.ru/">
+  <label class="hide" for="s">Искать:</label>
+  <input type="text" value="" name="s" id="s" class="search-query" placeholder="Искать">
+  <button type="submit" id="searchsubmit" class="search-icon"><i class="icon-search"></i></button>
+</form>        </div>
+        </div> <!-- close col-md-6-->
+      </div> <!-- Close Row -->
+    </div> <!-- Close Container -->
+  </div>
+  <div class="container">
+    <div class="row">
+          <div class="col-md-4 clearfix kad-header-left">
+            <div id="logo" class="logocase">
+              <a class="brand logofont" href="http://linuxmasterclub.ru/">
+                LinuxMaster Club              </a>
+                              <p class="kad_tagline belowlogo-text">Открытый клуб ценителей свободного программного обеспечения</p>
+                         </div> <!-- Close #logo -->
+       </div><!-- close logo span -->
+                <div class="col-md-8 kad-header-right">
+           <nav id="nav-main" class="clearfix">
+              <ul id="menu-osnovnoe-menyu" class="sf-menu"><li  class="menu-glavnaya current-menu-item current_page_item menu-item-1492"><a href="http://linuxmasterclub.ru/">Главная</a></li>
+<li  class="menu-katalog sf-dropdown menu-item-25"><a href="http://linuxmasterclub.ru/?page_id=20">Каталог</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-programmy menu-item-24"><a href="http://linuxmasterclub.ru/programs/">Программы</a></li>
+	<li  class="menu-igry menu-item-2283"><a href="http://linuxmasterclub.ru/games/">Игры</a></li>
+	<li  class="menu-video menu-item-1487"><a href="http://linuxmasterclub.ru/video/">Видео</a></li>
+	<li  class="menu-muzyka menu-item-1478"><a href="http://linuxmasterclub.ru/music/">Музыка</a></li>
+	<li  class="menu-izobrazheniya menu-item-1485"><a href="http://linuxmasterclub.ru/images/">Изображения</a></li>
+	<li  class="menu-elektronnye-materialy menu-item-2270"><a href="http://linuxmasterclub.ru/openaccess/">Электронные материалы</a></li>
+	<li  class="menu-sajty menu-item-1486"><a href="http://linuxmasterclub.ru/sites/">Сайты</a></li>
+</ul>
+</li>
+<li  class="menu-linux sf-dropdown menu-item-1493"><a href="http://linuxmasterclub.ru/category/linux/">Linux</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-osnovy-linux menu-item-1494"><a href="http://linuxmasterclub.ru/category/linux/linuxbasis/">Основы Linux</a></li>
+	<li  class="menu-skachat-distributivy-linux menu-item-1500"><a href="http://linuxmasterclub.ru/linuxdistros/">Скачать дистрибутивы Linux</a></li>
+</ul>
+</li>
+<li  class="menu-novosti sf-dropdown menu-item-1495"><a href="http://linuxmasterclub.ru/category/news/">Новости</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-novosti-o-programmnom-obespechenii menu-item-1499"><a href="http://linuxmasterclub.ru/category/news/newsprograms/">Новости о программном обеспечении</a></li>
+	<li  class="menu-novosti-o-operatsionnyh-sistemah menu-item-1498"><a href="http://linuxmasterclub.ru/category/news/newsos/">Новости о операционных системах</a></li>
+	<li  class="menu-novosti-o-igrah menu-item-1497"><a href="http://linuxmasterclub.ru/category/news/newsgames/">Новости о играх</a></li>
+	<li  class="menu-mirovye-novosti menu-item-1496"><a href="http://linuxmasterclub.ru/category/news/worldnews/">Мировые новости</a></li>
+</ul>
+</li>
+</ul>           </nav> 
+          </div> <!-- Close menuclass-->
+               
+    </div> <!-- Close Row -->
+               <div id="mobile-nav-trigger" class="nav-trigger">
+              <button class="nav-trigger-case mobileclass collapsed" data-toggle="collapse" data-target=".kad-nav-collapse">
+                <span class="kad-navbtn"><i class="icon-reorder"></i></span>
+                <span class="kad-menu-name">Меню</span>
+              </button>
+            </div>
+            <div id="kad-mobile-nav" class="kad-mobile-nav">
+              <div class="kad-nav-inner mobileclass">
+                <div class="kad-nav-collapse">
+                <ul id="menu-osnovnoe-menyu-1" class="kad-mnav"><li  class="menu-glavnaya current-menu-item current_page_item menu-item-1492"><a href="http://linuxmasterclub.ru/">Главная</a></li>
+<li  class="menu-katalog sf-dropdown menu-item-25"><a href="http://linuxmasterclub.ru/?page_id=20">Каталог</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-programmy menu-item-24"><a href="http://linuxmasterclub.ru/programs/">Программы</a></li>
+	<li  class="menu-igry menu-item-2283"><a href="http://linuxmasterclub.ru/games/">Игры</a></li>
+	<li  class="menu-video menu-item-1487"><a href="http://linuxmasterclub.ru/video/">Видео</a></li>
+	<li  class="menu-muzyka menu-item-1478"><a href="http://linuxmasterclub.ru/music/">Музыка</a></li>
+	<li  class="menu-izobrazheniya menu-item-1485"><a href="http://linuxmasterclub.ru/images/">Изображения</a></li>
+	<li  class="menu-elektronnye-materialy menu-item-2270"><a href="http://linuxmasterclub.ru/openaccess/">Электронные материалы</a></li>
+	<li  class="menu-sajty menu-item-1486"><a href="http://linuxmasterclub.ru/sites/">Сайты</a></li>
+</ul>
+</li>
+<li  class="menu-linux sf-dropdown menu-item-1493"><a href="http://linuxmasterclub.ru/category/linux/">Linux</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-osnovy-linux menu-item-1494"><a href="http://linuxmasterclub.ru/category/linux/linuxbasis/">Основы Linux</a></li>
+	<li  class="menu-skachat-distributivy-linux menu-item-1500"><a href="http://linuxmasterclub.ru/linuxdistros/">Скачать дистрибутивы Linux</a></li>
+</ul>
+</li>
+<li  class="menu-novosti sf-dropdown menu-item-1495"><a href="http://linuxmasterclub.ru/category/news/">Новости</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-novosti-o-programmnom-obespechenii menu-item-1499"><a href="http://linuxmasterclub.ru/category/news/newsprograms/">Новости о программном обеспечении</a></li>
+	<li  class="menu-novosti-o-operatsionnyh-sistemah menu-item-1498"><a href="http://linuxmasterclub.ru/category/news/newsos/">Новости о операционных системах</a></li>
+	<li  class="menu-novosti-o-igrah menu-item-1497"><a href="http://linuxmasterclub.ru/category/news/newsgames/">Новости о играх</a></li>
+	<li  class="menu-mirovye-novosti menu-item-1496"><a href="http://linuxmasterclub.ru/category/news/worldnews/">Мировые новости</a></li>
+</ul>
+</li>
+</ul>               </div>
+            </div>
+          </div>   
+           
+  </div> <!-- Close Container -->
+   
+     </header>      <div class="wrap contentclass" role="document">
+
+      
+    <div id="content" class="container homepagecontent">
+   		<div class="row">
+          	<div class="main col-lg-9 col-md-8" role="main">
+          	<div class="entry-content" itemprop="mainContentOfPage">
+
+      										<div class="homecontent   postlist clearfix home-margin"> 
+									                <article id="post-2515" class="post-2515 post type-post status-publish format-standard has-post-thumbnail hentry category-graphics category-graphic-editor category-catalog category-programs category-raster-graphics-editors tag-c tag-gplv3" itemscope="" itemtype="http://schema.org/BlogPosting">
+                      <div class="row">
+                                                          <div class="col-md-5">
+                                    <div class="imghoverclass img-margin-center">
+                                        <a href="http://linuxmasterclub.ru/mtpaint/" title="mtPaint">
+                                            <img src="http://linuxmasterclub.ru/wp-content/uploads/2016/01/mtPaint.-Okno-programmy-365x365.png" alt="mtPaint" itemprop="image"  class="iconhover" style="display:block;">
+                                        </a> 
+                                     </div>
+                                 </div>
+                                                      
+                      <div class="col-md-7 postcontent">
+                          <div class="postmeta updated">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">18</span>
+      Фев 2016    </div>
+</div> 
+                          <header>
+                              <a href="http://linuxmasterclub.ru/mtpaint/"><h2 class="entry-title" itemprop="name headline">mtPaint</h2></a>
+                               <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> кем  <span itemprop="author"><a href="http://linuxmasterclub.ru/author/troe/" class="fn" rel="author">troe</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> размещено в: <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/" rel="category tag">Графика</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/" rel="category tag">Графические редакторы</a>, <a href="http://linuxmasterclub.ru/category/catalog/" rel="category tag">Каталог</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/" rel="category tag">Программы</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/raster-graphics-editors/" rel="category tag">Растровые графические редакторы</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>    
+                          </header>
+                          <div class="entry-content" itemprop="articleBody">
+                              <p>mtPaint &#8212; свободный растровый графический редактор изображений &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                          </div>
+                          <footer>
+                                                              <span class="posttags color_gray"><i class="icon-tag"></i> <a href="http://linuxmasterclub.ru/tag/c/" rel="tag">C</a>, <a href="http://linuxmasterclub.ru/tag/gplv3/" rel="tag">GPLv3</a></span>
+                                                        </footer>
+                        </div><!-- Text size -->
+                  </div><!-- row-->
+              </article> <!-- Article -->                <article id="post-2513" class="post-2513 post type-post status-publish format-standard has-post-thumbnail hentry category-graphics category-graphic-editor category-catalog category-programs category-raster-graphics-editors tag-c tag-gplv2 tag-python" itemscope="" itemtype="http://schema.org/BlogPosting">
+                      <div class="row">
+                                                          <div class="col-md-5">
+                                    <div class="imghoverclass img-margin-center">
+                                        <a href="http://linuxmasterclub.ru/mypaint/" title="MyPaint">
+                                            <img src="http://linuxmasterclub.ru/wp-content/uploads/2016/01/MyPaint-logo.png" alt="MyPaint" itemprop="image"  class="iconhover" style="display:block;">
+                                        </a> 
+                                     </div>
+                                 </div>
+                                                      
+                      <div class="col-md-7 postcontent">
+                          <div class="postmeta updated">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">17</span>
+      Фев 2016    </div>
+</div> 
+                          <header>
+                              <a href="http://linuxmasterclub.ru/mypaint/"><h2 class="entry-title" itemprop="name headline">MyPaint</h2></a>
+                               <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> кем  <span itemprop="author"><a href="http://linuxmasterclub.ru/author/troe/" class="fn" rel="author">troe</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> размещено в: <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/" rel="category tag">Графика</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/" rel="category tag">Графические редакторы</a>, <a href="http://linuxmasterclub.ru/category/catalog/" rel="category tag">Каталог</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/" rel="category tag">Программы</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/raster-graphics-editors/" rel="category tag">Растровые графические редакторы</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>    
+                          </header>
+                          <div class="entry-content" itemprop="articleBody">
+                              <p>MyPaint &#8212; растровый графический редактор для цифровых художников &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                          </div>
+                          <footer>
+                                                              <span class="posttags color_gray"><i class="icon-tag"></i> <a href="http://linuxmasterclub.ru/tag/c/" rel="tag">C</a>, <a href="http://linuxmasterclub.ru/tag/gplv2/" rel="tag">GPLv2</a>, <a href="http://linuxmasterclub.ru/tag/python/" rel="tag">Python</a></span>
+                                                        </footer>
+                        </div><!-- Text size -->
+                  </div><!-- row-->
+              </article> <!-- Article -->                <article id="post-2510" class="post-2510 post type-post status-publish format-standard has-post-thumbnail hentry category-graphics category-graphic-editor category-catalog category-programs category-raster-graphics-editors tag-gplv3 tag-python" itemscope="" itemtype="http://schema.org/BlogPosting">
+                      <div class="row">
+                                                          <div class="col-md-5">
+                                    <div class="imghoverclass img-margin-center">
+                                        <a href="http://linuxmasterclub.ru/nathive/" title="Nathive">
+                                            <img src="http://linuxmasterclub.ru/wp-content/uploads/2016/01/Nathive-logo.png" alt="Nathive" itemprop="image"  class="iconhover" style="display:block;">
+                                        </a> 
+                                     </div>
+                                 </div>
+                                                      
+                      <div class="col-md-7 postcontent">
+                          <div class="postmeta updated">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">16</span>
+      Фев 2016    </div>
+</div> 
+                          <header>
+                              <a href="http://linuxmasterclub.ru/nathive/"><h2 class="entry-title" itemprop="name headline">Nathive</h2></a>
+                               <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> кем  <span itemprop="author"><a href="http://linuxmasterclub.ru/author/troe/" class="fn" rel="author">troe</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> размещено в: <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/" rel="category tag">Графика</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/" rel="category tag">Графические редакторы</a>, <a href="http://linuxmasterclub.ru/category/catalog/" rel="category tag">Каталог</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/" rel="category tag">Программы</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/raster-graphics-editors/" rel="category tag">Растровые графические редакторы</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>    
+                          </header>
+                          <div class="entry-content" itemprop="articleBody">
+                              <p>Nathive &#8212; растровый графический редактор с интуитивно понятным интерфейсом &nbsp; &nbsp;</p>
+                          </div>
+                          <footer>
+                                                              <span class="posttags color_gray"><i class="icon-tag"></i> <a href="http://linuxmasterclub.ru/tag/gplv3/" rel="tag">GPLv3</a>, <a href="http://linuxmasterclub.ru/tag/python/" rel="tag">Python</a></span>
+                                                        </footer>
+                        </div><!-- Text size -->
+                  </div><!-- row-->
+              </article> <!-- Article -->                <article id="post-2508" class="post-2508 post type-post status-publish format-standard has-post-thumbnail hentry category-graphics category-graphic-editor category-catalog category-programs category-raster-graphics-editors tag-lgplv2 tag-qt" itemscope="" itemtype="http://schema.org/BlogPosting">
+                      <div class="row">
+                                                          <div class="col-md-5">
+                                    <div class="imghoverclass img-margin-center">
+                                        <a href="http://linuxmasterclub.ru/opticks/" title="Opticks">
+                                            <img src="http://linuxmasterclub.ru/wp-content/uploads/2016/01/Opticks-logo.jpg" alt="Opticks" itemprop="image"  class="iconhover" style="display:block;">
+                                        </a> 
+                                     </div>
+                                 </div>
+                                                      
+                      <div class="col-md-7 postcontent">
+                          <div class="postmeta updated">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">15</span>
+      Фев 2016    </div>
+</div> 
+                          <header>
+                              <a href="http://linuxmasterclub.ru/opticks/"><h2 class="entry-title" itemprop="name headline">Opticks</h2></a>
+                               <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> кем  <span itemprop="author"><a href="http://linuxmasterclub.ru/author/troe/" class="fn" rel="author">troe</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> размещено в: <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/" rel="category tag">Графика</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/" rel="category tag">Графические редакторы</a>, <a href="http://linuxmasterclub.ru/category/catalog/" rel="category tag">Каталог</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/" rel="category tag">Программы</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/raster-graphics-editors/" rel="category tag">Растровые графические редакторы</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>    
+                          </header>
+                          <div class="entry-content" itemprop="articleBody">
+                              <p>Opticks &#8212; программа для дистанционного зондирования и анализа изображений &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                          </div>
+                          <footer>
+                                                              <span class="posttags color_gray"><i class="icon-tag"></i> <a href="http://linuxmasterclub.ru/tag/lgplv2/" rel="tag">LGPLv2</a>, <a href="http://linuxmasterclub.ru/tag/qt/" rel="tag">Qt</a></span>
+                                                        </footer>
+                        </div><!-- Text size -->
+                  </div><!-- row-->
+              </article> <!-- Article -->                <article id="post-2506" class="post-2506 post type-post status-publish format-standard has-post-thumbnail hentry category-graphics category-graphic-editor category-catalog category-programs category-raster-graphics-editors tag-c tag-mit" itemscope="" itemtype="http://schema.org/BlogPosting">
+                      <div class="row">
+                                                          <div class="col-md-5">
+                                    <div class="imghoverclass img-margin-center">
+                                        <a href="http://linuxmasterclub.ru/pinta/" title="Pinta">
+                                            <img src="http://linuxmasterclub.ru/wp-content/uploads/2016/01/Pinta-logo.png" alt="Pinta" itemprop="image"  class="iconhover" style="display:block;">
+                                        </a> 
+                                     </div>
+                                 </div>
+                                                      
+                      <div class="col-md-7 postcontent">
+                          <div class="postmeta updated">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">12</span>
+      Фев 2016    </div>
+</div> 
+                          <header>
+                              <a href="http://linuxmasterclub.ru/pinta/"><h2 class="entry-title" itemprop="name headline">Pinta</h2></a>
+                               <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> кем  <span itemprop="author"><a href="http://linuxmasterclub.ru/author/troe/" class="fn" rel="author">troe</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> размещено в: <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/" rel="category tag">Графика</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/" rel="category tag">Графические редакторы</a>, <a href="http://linuxmasterclub.ru/category/catalog/" rel="category tag">Каталог</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/" rel="category tag">Программы</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/raster-graphics-editors/" rel="category tag">Растровые графические редакторы</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>    
+                          </header>
+                          <div class="entry-content" itemprop="articleBody">
+                              <p>Pinta &#8212; свободный растровый графический редактор для рисования и редактирования изображений &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                          </div>
+                          <footer>
+                                                              <span class="posttags color_gray"><i class="icon-tag"></i> <a href="http://linuxmasterclub.ru/tag/c/" rel="tag">C</a>, <a href="http://linuxmasterclub.ru/tag/mit/" rel="tag">MIT</a></span>
+                                                        </footer>
+                        </div><!-- Text size -->
+                  </div><!-- row-->
+              </article> <!-- Article -->                <article id="post-2504" class="post-2504 post type-post status-publish format-standard has-post-thumbnail hentry category-graphics category-graphic-editor category-catalog category-programs category-raster-graphics-editors tag-qt tag-proprietarnaya" itemscope="" itemtype="http://schema.org/BlogPosting">
+                      <div class="row">
+                                                          <div class="col-md-5">
+                                    <div class="imghoverclass img-margin-center">
+                                        <a href="http://linuxmasterclub.ru/pixeluvo/" title="Pixeluvo">
+                                            <img src="http://linuxmasterclub.ru/wp-content/uploads/2016/01/Pixeluvo-logo.jpg" alt="Pixeluvo" itemprop="image"  class="iconhover" style="display:block;">
+                                        </a> 
+                                     </div>
+                                 </div>
+                                                      
+                      <div class="col-md-7 postcontent">
+                          <div class="postmeta updated">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">11</span>
+      Фев 2016    </div>
+</div> 
+                          <header>
+                              <a href="http://linuxmasterclub.ru/pixeluvo/"><h2 class="entry-title" itemprop="name headline">Pixeluvo</h2></a>
+                               <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> кем  <span itemprop="author"><a href="http://linuxmasterclub.ru/author/troe/" class="fn" rel="author">troe</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> размещено в: <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/" rel="category tag">Графика</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/" rel="category tag">Графические редакторы</a>, <a href="http://linuxmasterclub.ru/category/catalog/" rel="category tag">Каталог</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/" rel="category tag">Программы</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/raster-graphics-editors/" rel="category tag">Растровые графические редакторы</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>    
+                          </header>
+                          <div class="entry-content" itemprop="articleBody">
+                              <p>Pixeluvo &#8212; графический редактор с широким спектром современных функций &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                          </div>
+                          <footer>
+                                                              <span class="posttags color_gray"><i class="icon-tag"></i> <a href="http://linuxmasterclub.ru/tag/qt/" rel="tag">Qt</a>, <a href="http://linuxmasterclub.ru/tag/proprietarnaya/" rel="tag">Проприетарная</a></span>
+                                                        </footer>
+                        </div><!-- Text size -->
+                  </div><!-- row-->
+              </article> <!-- Article -->                <article id="post-2502" class="post-2502 post type-post status-publish format-standard has-post-thumbnail hentry category-graphics category-graphic-editor category-catalog category-programs category-raster-graphics-editors tag-lgplv2 tag-pascal" itemscope="" itemtype="http://schema.org/BlogPosting">
+                      <div class="row">
+                                                          <div class="col-md-5">
+                                    <div class="imghoverclass img-margin-center">
+                                        <a href="http://linuxmasterclub.ru/rassam-paint/" title="Rassam-paint">
+                                            <img src="http://linuxmasterclub.ru/wp-content/uploads/2016/01/Rassam-paint-logo.png" alt="Rassam-paint" itemprop="image"  class="iconhover" style="display:block;">
+                                        </a> 
+                                     </div>
+                                 </div>
+                                                      
+                      <div class="col-md-7 postcontent">
+                          <div class="postmeta updated">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">10</span>
+      Фев 2016    </div>
+</div> 
+                          <header>
+                              <a href="http://linuxmasterclub.ru/rassam-paint/"><h2 class="entry-title" itemprop="name headline">Rassam-paint</h2></a>
+                               <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> кем  <span itemprop="author"><a href="http://linuxmasterclub.ru/author/troe/" class="fn" rel="author">troe</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> размещено в: <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/" rel="category tag">Графика</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/" rel="category tag">Графические редакторы</a>, <a href="http://linuxmasterclub.ru/category/catalog/" rel="category tag">Каталог</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/" rel="category tag">Программы</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/raster-graphics-editors/" rel="category tag">Растровые графические редакторы</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>    
+                          </header>
+                          <div class="entry-content" itemprop="articleBody">
+                              <p>Rassam-paint &#8212; простой растровый графический редактор &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                          </div>
+                          <footer>
+                                                              <span class="posttags color_gray"><i class="icon-tag"></i> <a href="http://linuxmasterclub.ru/tag/lgplv2/" rel="tag">LGPLv2</a>, <a href="http://linuxmasterclub.ru/tag/pascal/" rel="tag">Pascal</a></span>
+                                                        </footer>
+                        </div><!-- Text size -->
+                  </div><!-- row-->
+              </article> <!-- Article -->                <article id="post-2500" class="post-2500 post type-post status-publish format-standard has-post-thumbnail hentry category-graphics category-graphic-editor category-catalog category-programs category-raster-graphics-editors tag-c tag-gpl-v2" itemscope="" itemtype="http://schema.org/BlogPosting">
+                      <div class="row">
+                                                          <div class="col-md-5">
+                                    <div class="imghoverclass img-margin-center">
+                                        <a href="http://linuxmasterclub.ru/tuxpaint/" title="Tux Paint">
+                                            <img src="http://linuxmasterclub.ru/wp-content/uploads/2016/01/Tux-Paint-logo-365x365.png" alt="Tux Paint" itemprop="image"  class="iconhover" style="display:block;">
+                                        </a> 
+                                     </div>
+                                 </div>
+                                                      
+                      <div class="col-md-7 postcontent">
+                          <div class="postmeta updated">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">9</span>
+      Фев 2016    </div>
+</div> 
+                          <header>
+                              <a href="http://linuxmasterclub.ru/tuxpaint/"><h2 class="entry-title" itemprop="name headline">Tux Paint</h2></a>
+                               <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> кем  <span itemprop="author"><a href="http://linuxmasterclub.ru/author/troe/" class="fn" rel="author">troe</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> размещено в: <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/" rel="category tag">Графика</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/" rel="category tag">Графические редакторы</a>, <a href="http://linuxmasterclub.ru/category/catalog/" rel="category tag">Каталог</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/" rel="category tag">Программы</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/raster-graphics-editors/" rel="category tag">Растровые графические редакторы</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>    
+                          </header>
+                          <div class="entry-content" itemprop="articleBody">
+                              <p>Tux Paint &#8212; простая программа рисования для детей от 3 до 12 лет &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                          </div>
+                          <footer>
+                                                              <span class="posttags color_gray"><i class="icon-tag"></i> <a href="http://linuxmasterclub.ru/tag/c/" rel="tag">C</a>, <a href="http://linuxmasterclub.ru/tag/gpl-v2/" rel="tag">GPL v2</a></span>
+                                                        </footer>
+                        </div><!-- Text size -->
+                  </div><!-- row-->
+              </article> <!-- Article -->                <article id="post-2498" class="post-2498 post type-post status-publish format-standard has-post-thumbnail hentry category-graphics category-graphic-editor category-catalog category-programs category-raster-graphics-editors tag-c tag-gpl" itemscope="" itemtype="http://schema.org/BlogPosting">
+                      <div class="row">
+                                                          <div class="col-md-5">
+                                    <div class="imghoverclass img-margin-center">
+                                        <a href="http://linuxmasterclub.ru/xpaint/" title="Xpaint">
+                                            <img src="http://linuxmasterclub.ru/wp-content/uploads/2016/01/XPaint-logo.png" alt="Xpaint" itemprop="image"  class="iconhover" style="display:block;">
+                                        </a> 
+                                     </div>
+                                 </div>
+                                                      
+                      <div class="col-md-7 postcontent">
+                          <div class="postmeta updated">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">8</span>
+      Фев 2016    </div>
+</div> 
+                          <header>
+                              <a href="http://linuxmasterclub.ru/xpaint/"><h2 class="entry-title" itemprop="name headline">Xpaint</h2></a>
+                               <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> кем  <span itemprop="author"><a href="http://linuxmasterclub.ru/author/troe/" class="fn" rel="author">troe</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> размещено в: <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/" rel="category tag">Графика</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/" rel="category tag">Графические редакторы</a>, <a href="http://linuxmasterclub.ru/category/catalog/" rel="category tag">Каталог</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/" rel="category tag">Программы</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/graphic-editor/raster-graphics-editors/" rel="category tag">Растровые графические редакторы</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>    
+                          </header>
+                          <div class="entry-content" itemprop="articleBody">
+                              <p>Xpaint &#8212; простой свободный растровый графический редактор &nbsp; &nbsp;</p>
+                          </div>
+                          <footer>
+                                                              <span class="posttags color_gray"><i class="icon-tag"></i> <a href="http://linuxmasterclub.ru/tag/c/" rel="tag">C</a>, <a href="http://linuxmasterclub.ru/tag/gpl/" rel="tag">GPL</a></span>
+                                                        </footer>
+                        </div><!-- Text size -->
+                  </div><!-- row-->
+              </article> <!-- Article -->                <article id="post-2574" class="post-2574 post type-post status-publish format-standard has-post-thumbnail hentry category-graphics category-catalog category-converters-images category-programs category-viewers-images category-utilities-images tag-c tag-gpl-v3" itemscope="" itemtype="http://schema.org/BlogPosting">
+                      <div class="row">
+                                                          <div class="col-md-5">
+                                    <div class="imghoverclass img-margin-center">
+                                        <a href="http://linuxmasterclub.ru/advanced-photo/" title="Advanced Photo">
+                                            <img src="http://linuxmasterclub.ru/wp-content/uploads/2016/01/AdvancedPhoto-logo.png" alt="Advanced Photo" itemprop="image"  class="iconhover" style="display:block;">
+                                        </a> 
+                                     </div>
+                                 </div>
+                                                      
+                      <div class="col-md-7 postcontent">
+                          <div class="postmeta updated">
+      <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+      <span class="postday">23</span>
+      Янв 2016    </div>
+</div> 
+                          <header>
+                              <a href="http://linuxmasterclub.ru/advanced-photo/"><h2 class="entry-title" itemprop="name headline">Advanced Photo</h2></a>
+                               <div class="subhead">
+    <span class="postauthortop author vcard">
+    <i class="icon-user"></i> кем  <span itemprop="author"><a href="http://linuxmasterclub.ru/author/troe/" class="fn" rel="author">troe</a></span> |</span>
+      
+    <span class="postedintop"><i class="icon-folder-open"></i> размещено в: <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/" rel="category tag">Графика</a>, <a href="http://linuxmasterclub.ru/category/catalog/" rel="category tag">Каталог</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/converters-images/" rel="category tag">Конвертеры изображений</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/" rel="category tag">Программы</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/viewers-images/" rel="category tag">Просмотрщики изображений</a>, <a href="http://linuxmasterclub.ru/category/catalog/programs/graphics/utilities-images/" rel="category tag">Утилиты для изображений</a></span>     <span class="kad-hidepostedin">|</span>
+    <span class="postcommentscount">
+    <i class="icon-comments-alt"></i> 0    </span>
+</div>    
+                          </header>
+                          <div class="entry-content" itemprop="articleBody">
+                              <p>Advanced Photo &#8212; просмотрщик изображений с функциями поворота и изменения размера &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                          </div>
+                          <footer>
+                                                              <span class="posttags color_gray"><i class="icon-tag"></i> <a href="http://linuxmasterclub.ru/tag/c/" rel="tag">C</a>, <a href="http://linuxmasterclub.ru/tag/gpl-v3/" rel="tag">GPL v3</a></span>
+                                                        </footer>
+                        </div><!-- Text size -->
+                  </div><!-- row-->
+              </article> <!-- Article --><div class="wp-pagenavi"><span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://linuxmasterclub.ru/page/2/'>2</a>
+<a class='page-numbers' href='http://linuxmasterclub.ru/page/3/'>3</a>
+<a class='page-numbers' href='http://linuxmasterclub.ru/page/4/'>4</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://linuxmasterclub.ru/page/40/'>40</a>
+<a class="next page-numbers" href="http://linuxmasterclub.ru/page/2/">»</a></div>								</div> 
+							  
+			</div>
+		</div><!-- /.main -->            
+                      <aside class="col-lg-3 col-md-4 kad-sidebar" role="complementary">
+              <div class="sidebar">
+                <section id="polls-widget-2" class="widget-1 widget-first widget widget_polls-widget"><div class="widget-inner"><div id="polls-1" class="wp-polls">
+	<form id="polls_form_1" class="wp-polls-form" action="/index.php" method="post">
+		<p style="display: none;"><input type="hidden" id="poll_1_nonce" name="wp-polls-nonce" value="a80db84b87" /></p>
+		<p style="display: none;"><input type="hidden" name="poll_id" value="1" /></p>
+		<p style="text-align: center;"><strong>Какой аудиоплеер используете?</strong></p><div id="polls-1-ans" class="wp-polls-ans"><ul class="wp-polls-ul">
+		<li><input type="radio" id="poll-answer-1" name="poll_1" value="1" /> <label for="poll-answer-1">Amarok</label></li>
+		<li><input type="radio" id="poll-answer-2" name="poll_1" value="2" /> <label for="poll-answer-2">Banshee</label></li>
+		<li><input type="radio" id="poll-answer-3" name="poll_1" value="3" /> <label for="poll-answer-3">Rhythmbox</label></li>
+		<li><input type="radio" id="poll-answer-4" name="poll_1" value="4" /> <label for="poll-answer-4">Другой</label></li>
+		</ul><p style="text-align: center;"><input type="button" name="vote" value="   Голосовать   " class="Buttons" onclick="poll_vote(1);" /></p><p style="text-align: center;"><a href="#ViewPollResults" onclick="poll_result(1); return false;" title="View Results Of This Poll">Результаты</a></p></div>
+	</form>
+</div>
+<div id="polls-1-loading" class="wp-polls-loading"><img src="http://linuxmasterclub.ru/wp-content/plugins/wp-polls/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="wp-polls-image" />&nbsp;Loading ...</div>
+<ul><li><a href="http://linuxmasterclub.ru/pollsarchive">Архив опросов</a></li></ul></div></section><section id="widget_kadence_social-2" class="widget-2 widget widget_kadence_social"><div class="widget-inner"><h3>Подписывайтесь!</h3>    <div class="virtue_social_widget clearfix">
+      
+<a href="https://www.facebook.com/LinuxMasterClub" class="facebook_link" title="Facebook" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Facebook"><i class="icon-facebook"></i></a><a href="https://twitter.com/LinuxMasterClub" class="twitter_link" title="Twitter" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Twitter"><i class="icon-twitter"></i></a><a href="https://www.instagram.com/linuxmasterclub/" class="instagram_link" title="Instagram" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Instagram"><i class="icon-instagram"></i></a><a href="https://www.google.com/+LinuxmasterclubRu" class="googleplus_link" title="GooglePlus" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="GooglePlus"><i class="icon-google-plus"></i></a><a href="https://www.flickr.com/photos/linuxmasterclub/" class="flickr_link" title="Flickr" data-toggle="tooltip" target="_blank" data-placement="top" data-original-title="Flickr"><i class="icon-flickr"></i></a><a href="http://www.youtube.com/user/LinuxMasterClub" class="youtube_link" title="YouTube" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="YouTube"><i class="icon-youtube"></i></a><a href="http://vk.com/omsklinuxclub" class="vk_link" title="VK" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="VK"><i class="icon-vk"></i></a><a href="http://feeds2.feedburner.com/LinuxMasterClub" class="rss_link" title="RSS" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="RSS"><i class="icon-rss-sign"></i></a>    </div>
+  </div></section>
+
+    <section id="feedburnerformwidget-2" class="widget-3 widget-last widget widget_feedburnerformwidget"><div class="widget-inner">
+    <!-- Plugin Feedburner Form-->
+    <div class="fb-container">
+                <div class="fbf-text">
+                        </div>
+        <form  class="fbf-widget" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=LinuxMasterClub', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+        <input class="subscription_email" type="text" name="email" placeholder="" /><input type="hidden" value="LinuxMasterClub" name="uri"/>
+        <input type="hidden" name="loc" value="ru_RU"/>
+        <input class="subscription_btn" type="submit" value ="Да"/>
+        </form>
+
+    
+        <div class="fb-counter-img"><a href="http://feeds2.feedburner.com/LinuxMasterClub" rel="nofollow"><img src="http://feeds.feedburner.com/~fc/LinuxMasterClub?bg=FF9900&amp;fg=000&amp;anim=static&amp;label=readers" height="26" width="88" style="border:0" alt="" /></a></div>
+    
+    </div>
+    <!-- Plugin Feedburner Form-->
+		</div></section>
+                  </div><!-- /.sidebar -->
+            </aside><!-- /aside -->
+                    </div><!-- /.row-->
+        </div><!-- /.content -->
+      </div><!-- /.wrap -->
+      <footer id="containerfooter" class="footerclass" role="contentinfo">
+  <div class="container">
+  	<div class="row">
+  								        						            </div>
+        <div class="footercredits clearfix">
+    		
+    		        	<p>&copy; <a href="http://linuxmasterclub.ru/history/">2012-2016</a> <a href="http://linuxmasterclub.ru/about/">LinuxMaster Club</a> Если специально не указано иное, настоящий сайт и все материалы сайта доступны по <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.ru">CC-BY-SA/3.0</a></p>
+    	</div>
+
+  </div>
+
+</footer>
+
+<div id="su-footer-links" style="text-align: center;"></div><link rel='stylesheet' id='fb_data_style-css'  href='http://linuxmasterclub.ru/wp-content/plugins/feedburner-form/control/fbstyle.css?ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/linuxmasterclub.ru\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-content/plugins/wp-polls/polls-js.js?ver=2.72'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ratingsL10n = {"plugin_url":"http:\/\/linuxmasterclub.ru\/wp-content\/plugins\/wp-postratings","ajax_url":"http:\/\/linuxmasterclub.ru\/wp-admin\/admin-ajax.php","text_wait":"Please rate only 1 post at a time.","image":"stars_crystal","image_ext":"gif","max":"5","show_loading":"1","show_fading":"1","custom":"0"};
+var ratings_mouseover_image=new Image();ratings_mouseover_image.src=ratingsL10n.plugin_url+"/images/"+ratingsL10n.image+"/rating_over."+ratingsL10n.image_ext;;
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-content/plugins/wp-postratings/postratings-js.js?ver=1.83'></script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-content/themes/virtue/assets/js/min/plugins-min.js?ver=263'></script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-content/themes/virtue/assets/js/main.js?ver=263'></script>
+<script type='text/javascript' src='http://linuxmasterclub.ru/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+    </div><!--Wrapper-->
+  </body>
+</html>

@@ -1,0 +1,550 @@
+<!DOCTYPE html><html xmlns:og="http://ogp.me/ns#"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta content="もぞっち @m_m825の人気ツイート" name="description"><meta content="summary" name="twitter:card"><meta content="twpro.jp" name="twitter:domain"><meta content="@twprofile" name="twitter:site"><meta content="@m_m825" name="twitter:creator"><meta content="もぞっち" name="og:title"><meta content="もぞっち @m_m825の人気ツイート" name="og:description"><meta content="ツイプロ" property="og:site_name"><meta content="http://twpro.jp/m_m825/image" property="og:image"><title>もぞっち @m_m825の人気ツイート - ツイプロ</title><link href="http://twpro.jp/m_m825/hot" rel="canonical"><link href="/favicon.ico" rel="shortcut icon" sizes="16x16 32x32 48x48" type="image/vnd.microsoft.icon"><link href="/favicon.png" rel="shortcut icon" type="image/png"><meta content="ja-JP" http-equiv="Content-Language"><meta content="701866760" property="fb:admins"><meta content="width=device-width,initial-scale=1.0" name="viewport"><script>window.twpro = {};
+(function(){
+  /* init twpro */
+  var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+  twpro.trim = function(t){return t == null ? "":(t+"").replace(rtrim, "")};
+  twpro.loaded = false;
+  twpro.onload = [];
+  twpro.lastVW = 0;
+  /* onerror for imgs */
+  var faces = [], faceTimer = null;
+  twpro.errorFace = function(img){
+    faces.push(img);
+    if(twpro.loaded){
+      if(faceTimer) clearTimeout(faceTimer);
+      faceTimer = setTimeout(function(){
+        twpro.checkFaces(faces);
+        faces = [];
+        faceTimer = null; 
+      }, 100);
+    }
+  };
+  twpro.onload.push(function(){
+    twpro.checkFaces(faces);
+    faces = [];
+  });
+  /* fix base font size */
+  var lastLayout = 0;
+  var doc = document.documentElement;
+  if(doc){
+    var win = window;
+    var applyVW = function(e){
+      var vw = 0, vh = 0;
+      if(e){var w = $(win); vw = w.width(); vh = w.height()}
+      else if(win.innerWidth){vw = win.innerWidth; vh = win.innerHeight}
+      else if(doc.clientWidth){vw = doc.clientWidth; vh = doc.clientHeight}
+      var sw = screen.width, sh = screen.height;
+      if((vw > vh) == (sw > sh)){vw = Math.min(sw, vw); vh = Math.min(sh, vh)}
+      else{vw = Math.min(sh, vw); vh = Math.min(sw, vh)}
+      var style = doc.style;
+      if(vw >= 980){ /* large size */
+        twpro.lastVW = 0;
+        if(style) style.fontSize = '16px';
+      }else{
+        if(vw >= 640 && vh >= 480) vw *= 0.65; /* medium */
+        if(vw != twpro.lastVW){
+          twpro.lastVW = vw;
+          if(style) style.fontSize = vw/20 + 'px';
+          if(e) lastLayout = 0;
+        }
+      }
+      var run = function(fn){e ? fn() : twpro.onload.push(fn)};
+      var checkRelayout = function(){
+        var layout = parseInt($('html').css('min-width'));
+        if(layout != lastLayout){
+          lastLayout = layout;
+          var cn = doc.className.replace(/\blayout-\d+\b/, '');
+          doc.className = (cn == '' ? '' : ' ') + 'layout-' + layout;
+          $(function(){$(window).trigger('layout')});
+        }
+      };
+      run(checkRelayout);
+    };
+    if(win.addEventListener) win.addEventListener('resize', applyVW);
+    applyVW(null);
+  }
+})();</script><link charset="UTF-8" href="/css/user_s.css?1455807388" media="screen and (max-width:61.249em)" rel="stylesheet" type="text/css"><link charset="UTF-8" href="/css/medium.css?1455807380" media="screen and (max-width:61.249em) and (min-width:40em) and (min-height:30em)" rel="stylesheet" type="text/css"><link charset="UTF-8" href="/css/user.css?1455807391" media="not screen and (max-width:61.249em)" rel="stylesheet" type="text/css"><!--[if lte IE 8]><link charset="UTF-8" href="/css/user.css?1455807391" rel="stylesheet" type="text/css"><![endif]--></head><body><div class="min" id="base" itemscope itemtype="http://data-vocabulary.org/Person"><div id="main"><div class="min" id="header"><div id="logo"><a class="logo-image" href="/"><img alt="ツイプロ" src="/images/logo/twpro2_min.png?1"></a><h2 class="screen-name"><a class="title" href="/m_m825"><span class="at">@</span><span class="sn" itemprop="nickname">m_m825</span></a></h2></div><div class="header-end"><!----></div></div><div id="body"><div class="content"><div class="user-profile"><div class="face"><img alt="もぞっち @m_m825" data-sn="m_m825" itemprop="photo" onerror="twpro.errorFace(this)" src="http://pbs.twimg.com/profile_images/671232834053386241/sOnTDpKB_400x400.jpg"></div><!--google_ad_section_start--><h1><a class="name" href="https://twitter.com/m_m825" rel="nofollow" target="_blank" title="Twitterに移動"><span itemprop="name">もぞっち</span></a><span class="no-resp"><img alt="ツイプロユーザー" height="22" src="/images/twpro-user.png" title="ツイプロユーザー" width="22"></span></h1><div class="user-desc"><div class="user-desc-head"><!----></div><div class="description">ほぼ相互垢、スパム、外国人、迷惑垢以外はフォロバします。
+保守系ツイートをよくRTします。
+愛国者。</div><div class="categories"><a class="item" href="/z/01___" itemprop="address" itemscope="" itemtype="http://data-vocabulary.org/Address" title="全国 / 北海道 / (未分類)"><img height="24" src="/images/zip_m.png" title="地域"><span itemprop="region">北海道</span><span itemprop="locality">内</span></a>&#xFEFF;</div><span class="badge on-resp"><img alt="ツイプロユーザー" height="22" src="/images/twpro-user.png" title="ツイプロユーザー" width="22"></span></div><!--google_ad_section_end--><script>twpro.onload.push(function(){
+try{
+var name = $('.user-profile h1 .name');
+var fontSize0 = null;
+$(window).on('layout', function(){
+  var offset0 = name.offset();
+  var width = name.parent().width();
+  var fontSize = null;
+  var last = name.parent().find('*:visible').last();
+  var adjust = function(count){
+    if(count == 30) return;
+    var offset = last.offset();
+    if(!offset) return;
+    var w = offset.left + last.width() - offset0.left;
+    if(w > width){
+      fontSize = parseInt(name.css('font-size'));
+      if(fontSize > 1){
+        if(!fontSize0) fontSize0 = fontSize;
+        name.css('font-size', (fontSize0 - count - 1) + 'px');
+        return adjust(count + 1);
+      }
+    }
+    if(fontSize0){
+      name.css('font-size', (fontSize - 1) + 'px');
+      name.transform(1, fontSize0/(fontSize - 1), 'left', 'center');
+    }
+  };
+  if(offset0){
+    if(fontSize0){
+      name.css('font-size', 'inherit');
+      name.cssPolyglot('transform', 'none');
+      fontSize0 = null;
+    }
+    adjust(0);
+  }
+});
+}catch(e){twpro.report(e)}
+})</script><div class="user-attr"><div class="row"><div class="item ia"><div class="h c1">活動<span class="no-resp">日数</span>:</div><div class="v c1">1279日<span class="on-resp">≒3年</span></div></div><div class="item ib"><div class="h c2">所在<span class="no-resp">地</span>:</div><div class="v c2"><div class="location">北海道</div></div></div><div class="row-end"><!----></div></div><div class="row"><div class="item ic"><div class="h c1">頻度:</div><div class="v c1">31.1回/日</div></div><div class="item id"><div class="h c2">URL:</div><div class="v c2"><div class="url"><a class="twpro" href="http://twpro.jp/m_m825/hot"><span>twpro.jp/</span>m_m825/hot</a></div></div></div><div class="row-end"><!----></div></div></div><div class="user-navi"><div class="user-values r1"><div class="value-item i1"><span class="button"><a class="off" href="/m_m825/followings"><span>フォロー</span></a></span><span class="v">5,387人</span></div><div class="value-item x2 i2"><span class="button"><a class="off" href="/m_m825/followers">フォロワー</a></span><span class="v">7,268人</span></div><div class="value-end"><!----></div></div><div class="user-values r2"><div class="value-item i3"><span class="button"><a class="off" href="/m_m825/tweets">ツイート</a></span><span class="v">39,838回</span></div><div class="value-item x11 i4"><span class="button"><a class="off" href="/m_m825/faved_tweets"><span>お気に入り</span></a></span><span class="v">55,428個</span></div><div class="value-item x09 i5"><span class="button"><a class="off" href="/m_m825/listed">リスト</a></span><span class="v">71個</span></div><div class="value-end"><!----></div></div><div class="tab-list button"><a class="profile off" href="/m_m825">紹介</a><a class="map off" href="/m_m825/follow_map" rel="nofollow"><img height="30" src="/images/map.png"><span class="label">マップ</span></a><a class="hot on sub" href="/m_m825/hot"><img height="30" src="/images/hotring.png"><span class="label">人気ツイート</span></a><a class="eye off" href="/m_m825/eye" rel="nofollow"><img height="30" src="/images/talk.png"><span class="label">会話</span></a><a class="similar off" href="/m_m825/similar">似た人</a><a class="media off" href="/m_m825/media" rel="nofollow"><img height="30" src="/images/media.png"><span class="label">画像</span></a><a class="retweets off" href="/m_m825/retweets" rel="nofollow">関心事</a><a class="question off" href="/m_m825/question" rel="nofollow">疑問</a><a class="happy off" href="/m_m825/happy" rel="nofollow">嬉しい</a><a class="sad off" href="/m_m825/sad" rel="nofollow">悲しい</a><a class="message off" href="/m_m825/message">伝言板</a> <div class="tab-list-end"><!----></div> </div></div><div class="right"><div class="ads-banner-box resp box"><style type="text/css"> #ad_ins_1{width:336px;height:280px;margin:auto;}
+@media screen and (max-width:61.249em){ #ad_ins_1{width:100%;height:100px;}}
+@media screen and (max-width:61.249em) and (min-width:320px) and (max-width:480px){
+   #ad_ins_1{width:320px;height:100px;margin:auto;}}
+@media screen and (max-width:61.249em) and (min-width:40em) and (min-height:30em) and (max-width:768px){ #ad_ins_1{
+  width:320px;height:100px;margin:auto;}}</style><div class="ads-by l">スポンサーリンク</div><div class="ads-banner"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" data-ad-client="ca-pub-0111127737795787" data-ad-region="User" data-ad-slot="8806484815" id="ad_ins_1" style="display:block"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></div></div><script>twpro.onload.push(function(){
+try{
+var prof = $('.user-profile');
+var face = prof.find('.face');
+if(twpro.hasTab){
+  var attr = prof.find('.user-attr');
+  var H = face.height(), h = attr.height() - H;
+  if(h >= H/8){
+    var desc = prof.find('.user-desc');
+    var head = desc.find('.user-desc-head');
+    if(h >= head.height()) head.remove();
+    var paddingTop = parseFloat(desc.css('padding-top')) + h;
+    var minHeight = parseFloat(desc.css('min-height'));
+    if(desc.find('*').height() == 0){
+      if(minHeight -= h < 0){paddingTop += minHeight - h; minHeight = 0}
+      desc.css('min-height', twpro.px(minHeight));
+    }
+    desc.css('padding-top', twpro.px(paddingTop));
+  }
+}
+var enlarged = false;
+face.on('click', 'img:not(.vanished)', function(){
+  if(enlarged) $(this).removeClass('enlarged');
+  else $(this).addClass('enlarged');
+  enlarged = !enlarged;
+  twpro.gaEvent('face', 'enlarge', enlarged);
+  return false;
+});
+twpro.data["notice_counters:767445048"] = function(json){
+  $.each(json, function(name, count){
+    if(!count) return;
+    var tab = $('.tab-list .' + name);
+    tab.append(twpro.aryToHTML([
+      ['div', {'class':'baloon'}, [
+        ['span', {}, count + '+']
+      ]]
+    ]));
+  });
+};
+}catch(e){twpro.report(e)}
+})</script><script>twpro.onload.push(function(){
+try{
+$('#users').on('empty', function(e, opts){
+  /* fill the space */
+  $.ajax({url:'/api/hot_users', success:function(json){
+    var users = [];
+    $(json).each(function(i,u){
+      var sn = u[1], na = u[2], pi = u[3], adult = u[4];
+      pi = adult ? '/images/adult.png?1' :
+        twpro.upgradeImage(pi, 'reasonably_small');
+      users.push(['a', {'class':'user', 'href':'/'+sn}, [
+        ['img', {'src':pi, 'data-sn':sn, 'class':'face',
+          'onerror':'twpro.errorFace(this)'}],
+        ['span', {'class':'name'}, na],
+        ['span', {'class':'sn'}, '@' + sn]
+      ]]);
+    });
+    var frameClass = 'frame';
+    if(opts){
+      if(opts['class']) frameClass += ' ' + opts['class'];
+    }
+    $('#users').after(twpro.aryToHTML([
+      ['div', {'id':'hot-users'}, [
+        ['div', {'class':frameClass}, [
+          ['div', {'class':'label'}, '人気ユーザー'],
+          ['div', {'class':'users'}, users],
+          ['div', {'class':'hot-users-end'}, '<!---->']
+        ]]
+      ]]
+    ]));
+  }, type:'POST', dataType:'json'});
+});
+}catch(e){twpro.report(e)}
+})</script><div class="tab"><div class="list-scopes"><label>期間:</label><a class="scope on" href="/m_m825/hot">全期間</a> <a class="scope off" href="/m_m825/hot_weekly">１週間</a> <a class="scope off" href="/m_m825/hot_monthly">１ヶ月</a> <a class="scope off" href="/m_m825/hot_quarter">３ヶ月</a> </div><div class="no-resp"><div class="ads-banner-box resp head"><style type="text/css">.no-resp #ad_ins_2 {width:800px;height:90px;}}
+@media screen and (max-width:61.249em){.no-resp #ad_ins_2 {display:none;}}</style><style type="text/css"> #ad_ins_2{width:728px;height:90px;margin:auto;}
+@media screen and (max-width:61.249em){ #ad_ins_2{width:100%;height:100px;}}
+@media screen and (max-width:61.249em) and (min-width:320px) and (max-width:480px){
+   #ad_ins_2{width:320px;height:100px;margin:auto;}}
+@media screen and (max-width:61.249em) and (min-width:40em) and (min-height:30em) and (max-width:768px){ #ad_ins_2{
+  width:320px;height:100px;margin:auto;}}</style><div class="ads-by l on-resp">スポンサーリンク</div><div class="ads-by l no-resp">広告</div><div class="ads-banner"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" data-ad-client="ca-pub-0111127737795787" data-ad-region="User" data-ad-slot="8806484815" id="ad_ins_2" style="display:block"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></div><div id="users"><div id="halfmark"><div id="spinner0"><img src="/images/loading.gif" width="48" height="48" /></div><div class="ads-banner-box resp middle boxes"><style type="text/css">.no-resp #ad_ins_3 {width:336px;height:280px;}}
+@media screen and (max-width:61.249em){.no-resp #ad_ins_3 {display:none;}}</style><div class="ads-by l">スポンサーリンク</div><div class="ads-banner"><div class="ad first"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" data-ad-client="ca-pub-0111127737795787" data-ad-format="auto" data-ad-region="User" data-ad-slot="8806484815" id="ad_ins_3" style="display:block"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div class="ad no-resp"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" data-ad-client="ca-pub-0111127737795787" data-ad-region="User" data-ad-slot="8806484815" id="ad_ins_3" style="display:block"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div class="ads-banner-end"><!----></div></div></div></div><div id="page0"></div></div><div id="spinner"><img src="/images/loading.gif" width="48" height="48" /></div><div class="ads-banner-box resp tail boxes"><div class="ads-by l">スポンサーリンク</div><div class="ads-banner"><div class="ad first"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" data-ad-client="ca-pub-0111127737795787" data-ad-format="auto" data-ad-region="User" data-ad-slot="8806484815" id="ad_ins_4" style="display:block"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div class="ad no-resp"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" data-ad-client="ca-pub-0111127737795787" data-ad-format="rectangle" data-ad-region="User" data-ad-slot="8069357215" id="ad_ins_4" style="display:block"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div class="ads-banner-end"><!----></div></div></div><div class="tab-foot"><div class="profile-banner no-resp"><img height="300" src="https://pbs.twimg.com/profile_banners/767445048/1448982803/1500x500" width="900"></div><div id="share"><div class="button" id="hatebu"><a class="hatena-bookmark-button" data-hatena-bookmark-lang="ja" data-hatena-bookmark-layout="vertical-balloon" href="http://b.hatena.ne.jp/entry/" rel="nofollow" title="このエントリーをはてなブックマークに追加"><img alt="このエントリーをはてなブックマークに追加" height="20" src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" style="border: none;" width="20"></a></div><div class="button" id="plusone"><div class="g-plusone" data-callback="share_gplusone" data-href="http://twpro.jp/m_m825/hot" data-lang="ja" data-size="tall"></div></div><div class="button" id="tweet-button"><a class="twitter-share-button" data-count="vertical" data-lang="ja" data-url="http://twpro.jp/m_m825/hot" href="https://twitter.com/share" rel="nofollow">ツイート</a></div><script>twpro.onload.push(function(){
+try{
+$(window).load(function(){
+  var url = "http://twpro.jp/m_m825/hot";
+  window.share_gplusone = function(data){
+    var type = (data.state == 'on' ? 'share' : 'unshare');
+    twpro.gaEvent(type, 'gplus', url);
+  }
+  twpro.require('http://b.st-hatena.com/js/bookmark_button.js');
+  if($.support.hrefNormalized){
+    twpro.require('http://apis.google.com/js/plusone.js');
+  }else{
+    $('#plusone').hide();
+  }
+  if($.support.htmlSerialize){
+    twpro.require('https://platform.twitter.com/widgets.js', function(){
+      twttr.events.bind('tweet', function(ev){
+        twpro.gaEvent('share', 'twitter', url);
+      });
+    });
+  }else{
+    $('#tweet-button').hide();
+  }
+});
+}catch(e){twpro.report(e)}
+})</script><div class="button" id="facebook-like"><script>twpro.onload.push(function(){
+try{
+$(window).load(function(){
+  $('#facebook-like.button').html(twpro.aryToHTML([
+    ['iframe', {"src":"http://www.facebook.com/plugins/like.php?href=http://twpro.jp/m_m825/hot&layout=box_count&show_faces=false&action=like&share=false&colorscheme=light&height=62&width=69","scrolling":"no","frameborder":0,"style":"border:none;overflow:hidden;height:62px;width:69px;","allowTransparency":"true"}]
+  ]))
+})
+}catch(e){twpro.report(e)}
+})</script></div></div><div class="user-data-info on-banner"><div class="parson-attrs"><span class="person-affiliation" itemprop="affiliation">Twitter</span><span class="person-title" itemprop="title">一般ユーザー（4年目）</span></div><div class="timestamp"><span class="time">取得時刻: 2016年02月10日 16:01:33</span></div></div><div class="on-resp"><div class="user-navi"><div class="user-values r1"><div class="value-item i1"><span class="button"><a class="off" href="/m_m825/followings"><span>フォロー</span></a></span><span class="v">5,387人</span></div><div class="value-item x2 i2"><span class="button"><a class="off" href="/m_m825/followers">フォロワー</a></span><span class="v">7,268人</span></div><div class="value-end"><!----></div></div><div class="user-values r2"><div class="value-item i3"><span class="button"><a class="off" href="/m_m825/tweets">ツイート</a></span><span class="v">39,838回</span></div><div class="value-item x11 i4"><span class="button"><a class="off" href="/m_m825/faved_tweets"><span>お気に入り</span></a></span><span class="v">55,428個</span></div><div class="value-item x09 i5"><span class="button"><a class="off" href="/m_m825/listed">リスト</a></span><span class="v">71個</span></div><div class="value-end"><!----></div></div><div class="tab-list button"><a class="profile off" href="/m_m825">紹介</a><a class="map off" href="/m_m825/follow_map" rel="nofollow"><img height="30" src="/images/map.png"><span class="label">マップ</span></a><a class="hot on sub" href="/m_m825/hot"><img height="30" src="/images/hotring.png"><span class="label">人気ツイート</span></a><a class="eye off" href="/m_m825/eye" rel="nofollow"><img height="30" src="/images/talk.png"><span class="label">会話</span></a><a class="similar off" href="/m_m825/similar">似た人</a><a class="media off" href="/m_m825/media" rel="nofollow"><img height="30" src="/images/media.png"><span class="label">画像</span></a><a class="retweets off" href="/m_m825/retweets" rel="nofollow">関心事</a><a class="question off" href="/m_m825/question" rel="nofollow">疑問</a><a class="happy off" href="/m_m825/happy" rel="nofollow">嬉しい</a><a class="sad off" href="/m_m825/sad" rel="nofollow">悲しい</a><a class="message off" href="/m_m825/message">伝言板</a> <div class="tab-list-end"><!----></div> </div></div><div class="profile-banner"><!----></div><style type="text/css">.tab-foot .on-resp .profile-banner{
+  background-image: url("https://pbs.twimg.com/profile_banners/767445048/1448982803/600x200");
+}</style></div></div></div></div><script>twpro.onload.push(function(){
+try{
+var tweets_flag  = true;
+var lists_flag   = false;
+var expires_url  = "/m_m825/hot/expires?1455825630";
+var fetch_flag   = !false;
+var fetch_target = "#page0";
+var split_flag   = true;
+var extraParams  = null;
+var rewind       = null;
+
+/*
+ * Decorate description
+ */
+if(fetch_flag){
+  $('.user .body').each(function(i, e){
+    $(e).html(twpro.filterDesc($(e).text()));
+  });
+}
+
+/*
+ * Render the search result in HTML
+ */
+var origin = null;
+var last_id = null;
+var jsonToHTML = function(response){
+  var page    = response.page;
+  var users   = response.users;
+  var hasNext = false ? false : response.more;
+  var time    = response.time;
+  var error   = response.message;
+  var user0   = null;
+  var htmls = [];
+
+  /* Set the origin of the timeline */
+  origin = response.origin;
+
+  /* Unshift the user0 to the top of users */
+  var key = tweets_flag || lists_flag ? 'tid' : 'id';
+  if(page == 1 && user0){
+    var top_key = user0[key], found = false;
+    for(var i=0,l=users.length; i<l; ++i){
+      var u = users[i];
+      if(u[key] == top_key){ found = true; break; }
+    }
+    if(!found){
+      users.unshift(user0);
+      $.get(expires_url);
+    }
+  }
+
+  /* Filter duplication */
+  if(users){
+    if(last_id){
+      var first_user = users[0];
+      if(first_user && first_user[key] == last_id) users.shift();
+    }
+    var last_user = users[users.length - 1];
+    if(last_user) last_id = last_user[key];
+  }
+
+  /* STATS */
+  if(twpro.checkInfo(time) && fetch_flag){
+    var d = time ? new Date(time*1000) : new Date();
+    var timestamp = ['取得時刻: ', twpro.prettyTime(d), '前'].join('');
+    var actions = [];
+    actions.push(['a', {'class':'update-timeline', 'rel':'nofollow',
+      'href':expires_url}, '更新する']);
+    htmls.push(twpro.aryToHTML([
+      ['div', {'class':'info'}, [
+        ['div', {'class':'page'}, [
+          ['span', {'class':'label'}, null],
+          ['span', {'class':'time'},
+            timestamp],
+          ['a', {'href':'https://twitter.com', 'rel':'nofollow',
+            'target':'_blank'}, [
+            ['img', {'class':'twitter', 'src':'/images/twitter.png?2'}]
+          ]]
+        ]],
+        ['div', {'class':'action'}, actions],
+        ['div', {'class':'info-end'}, '<!---->']
+      ]]
+    ]));
+  }
+
+  /* USERS */
+  if(!error){
+    var opts = (tweets_flag) ? {body:'tw', meta:'ta'} : {}
+    if(lists_flag){
+      opts.urlfor = function(u){
+        return '/' + u.sn
+      };
+      opts.namelink = function(u, h){
+        return ['a', {'href':u.url, 'target':'_blank', 'rel':'nofollow'}, [
+          ['span', {'class':'name'}, h(u.na)],
+          ['span', {'class':'screen-name'}, ' @' + u.sn]
+        ]]
+      };
+    }
+    if(split_flag && page == 1){
+      var half = Math.floor(users.length/2);
+      var mark = $('#halfmark');
+      if(half > 5){
+        var users0 = users.slice(0, half);
+        htmls.push(twpro.aryToHTML([
+          ['div', {'class':'users', 'id':['users', 0].join('-')},
+            twpro.usersToHTML(users0, opts)]
+        ]));
+        $('#spinner0').replaceWith(htmls.join(''));
+        htmls = [];
+        users = users.slice(half, users.length);
+      }else mark.hide();
+    }
+    htmls.push(twpro.aryToHTML([
+      ['div', {'class':'users', 'id':['users', page].join('-')},
+        twpro.usersToHTML(users, opts)]
+    ]));
+  }
+
+  /* MORE */
+  if(hasNext){
+    htmls.push(twpro.aryToHTML([
+      ['div', {'class':'more', 'id':['more', page].join('-')}, [
+        ['a', {'href':'#'}, 'もっと見る']
+      ]],
+      ['div', {'id':['page', page].join('')}, '']
+    ]));
+  }else{
+    if(!last_id && !error && fetch_flag){
+      error = 'データが見つかりませんでした';
+    }
+    if(error){
+      if(split_flag) $('#halfmark').hide();
+      htmls.push(twpro.aryToHTML([
+        ['div', {'class':'empty-message'}, error]
+      ]));
+      $('#users').trigger('empty');
+    }else{
+      htmls.push(twpro.aryToHTML([
+        ['div', {'class':'info'}, '以上。']
+      ]));
+    }
+  }
+
+  return htmls.join("\n");
+};
+
+var setupActions = function(){
+  switch(tweets_flag){
+  case 'home': // tweets without follow button
+    $('.user .menu .actions.empty').each(function(i, e){
+      var self = $(e);
+      var user = self.parents('.user');
+      if(!user.hasClass('rt')){
+        var tid = user.attr('id').split('-')[1];
+        self.html(twpro.buildActions(user, tid));
+        twpro.expandTweet(self, user, tid);
+        self.removeClass('empty');
+      }
+    });
+  case true: // normal tweets
+    twpro.updateActions(function(e){
+      var self = $(e);
+      var user = self.parents('.user');
+      var tid = user.attr('id').split('-')[1];
+      var replyTarget = "_blank";
+      self.append(twpro.buildActions(user, tid, {replyTarget:replyTarget}));
+      twpro.expandTweet(self, user, tid);
+    });
+  default: // users
+    twpro.updateActions();
+  }
+};
+
+var endpoint = "/m_m825/hot.json";
+var genData = function(page){
+  var data = ['page=', page + 1].join('');
+  if(origin || origin == 0) data += '&origin=' + origin;
+  if(extraParams) data += '&' + $.param(extraParams);
+  return data;
+};
+if(fetch_flag){
+  twpro.fetchResult(endpoint, 0, fetch_target,
+    genData(0), jsonToHTML, setupActions);
+}
+$(document).on('click', '#users div.more', function(e){
+  var page = parseInt(this.id.split('-')[1]);
+  var id = ["#page", page].join('');
+  if(rewind && page >= rewind){
+    twpro.gaEvent('rewind', 'GET /:sn/hot', 'true', page);
+    location.href = location.pathname + '?origin=' + last_id;
+  }else{
+    twpro.fetchResult(endpoint, page, id, genData(page),
+      jsonToHTML, setupActions);
+    twpro.gaEvent('more', 'GET /:sn/hot', 'true', page);
+  }
+  return false;
+});
+twpro.handleActions();
+twpro.fetchFollowings(function(user_ids){ setupActions() });
+twpro.viewer('#users', '.body-media .media a', 'twitter.comに移動');
+}catch(e){twpro.report(e)}
+})</script></div></div><div id="sub"><div class="frame"><div id="menu"><div class="buttons notice"><a href="#" id="notice-button"><img alt="お知らせ" src="/images/notice.png?1"></a></div><div class="buttons"><a class="button" href="/home/sync/m_m825" id="sync" rel="nofollow" title="最新情報を取得"><img src="/images/sync2.png"><span class="on-resp">データ更新</span></a><a class="button" href="/home/random" id="random" rel="nofollow" title="ランダムにユーザを見る"><img src="/images/random2.png"><span class="on-resp">ランダム</span></a><a class="button" href="/" id="search" rel="nofollow" target="_blank" title="キーワードで検索"><img src="/images/search2.png?1"></a><a class="button" href="/home/follow/m_m825" id="follow-user" rel="nofollow"><span>フォローする</span></a><div class="popup" id="search-form" style="display:none"><form action="/search"><label for="word">検索:&nbsp;</label><input id="word" name="word"></form></div><script>twpro.onload.push(function(){
+try{
+twpro.fetchFollowings(function(user_ids){
+  var user_id = 767445048;
+  var button = $('#follow-user');
+  if(user_id == $.cookie('user_id')){
+    button.html('<span>あなたです</span>');
+    button.attr({'href':'/m_m825'});
+  }else if($.inArray(user_id, user_ids) >= 0){
+    button.html('<span>フォロー解除</span>');
+    button.attr({href:"/home/unfollow/m_m825"});
+  }
+});
+var form = $('.buttons #search-form');
+var hide = function(e){
+  var parents = $(e.target).parents('.buttons #search-form');
+  if(parents.length > 0) return true;
+  twpro.hidePopups();
+  $(document).unbind('click', hide);
+  $(document).unbind('touchstart', hide);
+  return false;
+};
+$('#search.button').click(function(){
+  if(form.is(':visible')){
+    hide(form);
+  }else{
+    twpro.hidePopups();
+    form.show();
+    $(document).bind('click', hide);
+    $(document).bind('touchstart', hide);
+    twpro.focus(form.find('#word'));
+    twpro.gaEvent('menu', 'search', 'show');
+  }
+  return false;
+});
+$('#random.button').click(function(){
+  twpro.gaEvent('menu', 'random', 'user');
+});
+}catch(e){twpro.report(e)}
+})</script><span id="connect"><a href="/home" rel="nofollow"><span>マイページ</span></a></span><script>twpro.onload.push(function(){
+try{
+if(twpro.isConnected()){
+  if(location.pathname.match(/^\/home\b/)){
+    $('#connect').html(twpro.aryToHTML([
+      ['a', {href:'/home/logout', rel:'nofollow'}, [
+        ['span', {}, 'ログアウト']
+      ]]
+    ]));
+  }else{
+    $('#connect').html(twpro.aryToHTML([
+      ['a', {href:'/home', rel:'nofollow'}, [
+        ['img', {'src':'/home/profile_image', 'height': '20'}],
+        ['span', {}, 'マイページ']
+      ]]
+    ]));
+  }
+}else{
+  $('#connect').html(twpro.aryToHTML([
+    ['a', {href:'/home', rel:'nofollow'}, [
+      ['span', {}, 'ログイン']
+    ]]
+  ]));
+}
+}catch(e){twpro.report(e)}
+})</script></div></div><div id="footer"><div id="navi"><a href="#" id="go_to_top"><img height="12" src="/images/gotop.png"><span>先頭へ</span></a><a href="/ranking"><span>ランキング</span></a><a href="/hash"><span>#ハッシュタグ</span></a><a href="javascript:window.open(&#39;http://twpro.jp/s?url=&#39;+escape(location.href),&quot;_blank&quot;)" id="bookmarklet" rel="nofollow"><span>+ツイプロ</span></a><script>twpro.onload.push(function(){
+try{
+$('#bookmarklet').click(function(){
+  alert("このリンクをブックマークに追加してご利用ください。");
+  return false;
+});
+}catch(e){twpro.report(e)}
+})</script><a href="/doc"><span>ツイプロについて</span></a><a class="search" href="/"><img height="12" src="/images/search2.png"><span>検索する</span></a></div><div id="copyright"><span class="c1">Copyright &copy; 2010-2016</span> <a class="c2" href="http://www.s21g.com/"><span>s21g Inc.</span></a> <span class="c3">All Rights Reserved.</span></div><script>twpro.onload.push(function(){
+try{
+$('#go_to_top').click(function(){
+  $('html,body').animate({scrollTop: 0}, 300);
+  return false;
+});
+twpro.connect("\u0004\b[\u0007:\bextI\"\nu/hot\u0006:\u0006EF--894f0940821f95f2c917b033ed3b69393a28a17c");
+}catch(e){twpro.report(e)}
+})</script></div></div></div></div><div id="tab"><svg viewbox="0 0 100 100"><rect height="90" rx="10" ry="10" width="120" x="5" y="5"></rect><g><line x1="30" x2="80" y1="30" y2="30"></line><line x1="30" x2="80" y1="50" y2="50"></line><line x1="30" x2="80" y1="70" y2="70"></line></g></svg></div><div id="shadow"></div><script>twpro.onload.push(function(){
+try{
+var win = $(window), body = document.body, lastTop = null;
+var tab = twpro.tab, menu = $('#menu'), lastHeight = null;
+tab.find('svg').fastClick(function(){
+  $('html,body').animate({scrollTop: menu.offset().top}, 300);
+  twpro.gaEvent('tab', 'tap', 'GET /:sn/hot');
+}, twpro.tab);
+var timer = null, tabShown = true;
+var tabChecker = function(){
+  if(timer){clearInterval(timer); timer = null}
+  if(twpro.hasTab = twpro.tab.is(':visible')){
+    timer = setInterval(function(){
+      var newTop = win.scrollTop();
+      if(newTop != lastTop){
+        var bottom = win.height() + newTop;
+        var menuTop = menu.offset().top;
+        if(bottom > menuTop){
+          if(tabShown){
+            tab.animate({right: -tab.width()*1.5}, 200);
+            tabShown = false;
+          }
+        }else if(!tabShown){
+          tab.show().animate({right: '-1rem'}, 200);
+          tabShown = true;
+        }
+        lastTop = newTop;
+      }else if(lastHeight != body.clientHeight){
+        lastTop = null;
+        lastHeight = body.clientHeight;
+      }
+    }, 100);
+  }
+};
+win.resize(tabChecker);
+win.load(tabChecker);
+}catch(e){twpro.report(e)}
+})</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-2733799-16', 'twpro.jp');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');</script><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script><script charset="UTF-8" src="/js/twpro.js?1455807394" type="text/javascript"></script><script>(function(){$.each(twpro.onload, function(i, fn){fn()})})();
+$(function(){twpro.loaded = true});</script></body></html>

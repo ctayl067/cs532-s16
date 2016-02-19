@@ -1,0 +1,364 @@
+   #[1]alternate [2]alternate [3]alternate
+
+[4]Kraigo's live
+
+   Design, web, beautiful
+   Думаю обо всём
+   Верстаю, творю, развиваюсь
+   [avatar_5dcd2f983d04_96.png]
+     * [5]#handmade
+     * [6]#site
+     * [7]#practice
+     * [8]About Me
+
+     * [9]RSS
+     * [10]Архив
+     * [11]Случайный пост
+
+   ____________________ Submit
+   [12]#
+   фев 3
+   [13]#avatar [14]#owl
+
+   IFRAME: [15]like_iframe_138612183101
+
+   IFRAME: [16]photoset_iframe_138612183101
+
+   Немного истории изменения моей аватарки.
+
+   Спасибо тому, кто нарисовал оригинал.
+   [17]#
+   окт 13
+   [18]#myshows [19]#js [20]#chromextention [21]#practice
+
+   IFRAME: [22]like_iframe_131075058246
+
+   1 заметка
+
+MyShows Recent
+
+   image
+
+   Долгое время вынашивал идею, но не конкретную, а просто хотел написать
+   что-то. Когда собирался смотреть очередной сериал, я зашел
+   на [23]MyShows и выбирал еще не просмотренную серию, и меня осенило,
+   что я каждый раз делаю одно и тоже действие, которое могу упростить,
+   сделать наглядней и удобней.
+
+   Мне нужно, что бы я видел сразу весь список сериалов, у которых есть
+   новая серия. Без разницы, сколько там всего серия, я просто хочу нажать
+   на него и смотреть. Так же мне нужно легко отметить эту последнюю
+   серию.
+
+   Понял, что могу сделать расширение-помощник для Google Chrome, благо
+   опыт у меня уже есть.
+
+   Быстро набросал макет, который мне показался привлекательным, продумал
+   UX, что бы можно было достать до всего нужного за один клик и интерфейс
+   не казался наляпанным.
+
+   Решил писать на чистом JS. В голове сразу паттерны других фреймворков,
+   а как писать свою архитектуру я даже не знаю, но так оно даже
+   интересней. Что меня порадовало в расширениях - это возможность
+   получить права на кросс-доменные запросы, из-за которых раньше нужно
+   было поднимать сервер.
+
+   В общем, за выходные я сделать это простое расширение и отправил в
+   магазин (всегда мечтал это сделать), по ходу дела нашел несколько
+   глюков, исправил их и залил новую версию.
+
+   Чувствую себя разработчиков, пусть и сделал простое приложение, но
+   самое главное - нужное мне.
+
+   Жду ваших отзывов :)
+
+   Ссылка на расширение: [24]MyShows Recent
+
+   Репозиторий: Github: [25]myshows-recent
+   [26]#
+   июн 10
+   [27]#lef4dead [28]#zombie
+
+   IFRAME: [29]like_iframe_121175229636
+
+Мокренький зомби
+
+   Дверь убежки я открыл,
+   на-на-на, на-на-на.
+   Встретил зомби и убил,
+   на-на-на-на, на-на-на.
+   Френсис, Зои, Луис, Билл,
+   на-на-на, на-на-на.
+   И… нет аптек, нет аптек, нет аптек.
+
+   За углом стоит толстяк,
+   на-на-на, на-на-на.
+   Язык курильщика обмяк,
+   на-на-на-на, на-на-на.
+   Приближается волна,
+   на-на-на, на-на-на.
+   И… танк идет, танк идет, танк идет.
+
+   Апокалипсис прошел,
+   на-на-на, на-на-на.
+   Только Билл наш не дошел,
+   на-на-на-на, на-на-на.
+   Будем друга вспоминать,
+   на-на-на, на-на-на.
+   И… выживать, выживать, выживать!
+   [30]#
+   июн 2
+   [31]#game [32]#javascript [33]#practice
+
+   IFRAME: [34]like_iframe_120512489191
+
+   1 заметка
+
+Miner
+
+   [tumblr_inline_npb3ua36EG1s3x79o_400.png]
+
+   Ради очередной практики решил сделать легендарную игру “Сапёр”.
+   Получился не плохой результат и я считаю, что мой код становится
+   аккуратней.
+
+   [35]Ссылка на игру
+   [36]#
+   Май 21
+   [37]#nodejs [38]#game [39]#javascript [40]#practice
+
+   IFRAME: [41]like_iframe_119472587741
+
+   3 заметки
+
+Friendly Letters
+
+   Это истории и неделе бессонных потуг создать что-то и научиться новому.
+   Мои долгие скитания и пробы в разных языках программирования снова меня
+   привели к мысли, что я плохо разобрался в Node.js.
+
+   Наткнулся на интересную [42]статью, где описана логики небольшой игры.
+   Я честно её прочитал, просмотрел весь код и решил, что для закрепления
+   моих знаний нужно сделать что-то похожее, но самому. Наткнуться на все
+   возможные ошибки, грабли, сделать свои велосипеды и подсмотреть как
+   лучше приделать к ним педали.
+
+   [43]Читать дальше
+   [44]#
+   апр 10
+
+   IFRAME: [45]like_iframe_116019930691
+
+Lister
+
+   Мне по работе, да и вообще в связи с популярностью этого фреймворка
+   нужно было разобраться в Angular.js. Почитал некоторые статьи,
+   посмотрел видео уроки и решил, что лучшее обучение - это практика.
+   image
+
+   [46]Читать дальше
+   [47]#
+   мар 16
+   [48]#game [49]#javascript [50]#chicken [51]#practice
+
+   IFRAME: [52]like_iframe_113794683606
+
+   1 заметка
+
+Chicken game
+
+   image
+
+   В последнее время пытаюсь лучше разобраться в программировании и для
+   этого тренируюсь на простых играх. Составляю свой алгоритм, расширяю
+   функциональность и натыкаюсь на сложности, о которых уже могу прочитать
+   в интернете и разобраться на живом примере.
+
+   На этот раз я сделал вот такую игру: нажимаешь на курочку - она
+   прибавляется в общую копилку, также есть постоянная прибыль, которую
+   можно улучшить за счёт уже имеющихся курочек.
+
+   Цель - 1,000,000 курочек :)
+
+   Баланс может быть не правильный, но его можно легко поправить, было у
+   кого желание. Работает на тачскрине.
+
+   [53]Chicken game
+   [54]#
+   янв 21
+   [55]#css3 [56]#practice
+
+   IFRAME: [57]like_iframe_108729950641
+
+Profile Animation like Tumblr
+
+   image
+
+   [58]Live Demo
+   [59]#
+   янв 11
+
+   IFRAME: [60]like_iframe_107773737276
+
+   1 заметка
+
+   IFRAME:
+   [61]https://player.vimeo.com/video/116442873?title=0&byline=0&portrait=
+   0
+
+   [62]#
+   янв 6
+   [63]#munchkin [64]#webapp
+
+   IFRAME: [65]like_iframe_107305229021
+
+Манчкин, счетчик уровней
+
+   Появилась у меня увлекательная карточная игра под название Манчкин. 12
+   страниц правил, 2 дня и я был готов к победе над монстрами, получению
+   уровней и выбиванию дверей.
+
+   Для этой игры есть специальные “Счетчики уровней”, как настольные так и
+   приложения для мобильного телефон. Но они все выглядят не
+   привлекательно и есть еще у них такая проблема, как потеря текущего
+   прогресса.
+
+   В один день я решил сделать [66]свой “счетчик” в виде мобильной версии
+   сайта. Вечер потратил на логику и дизайн, и пол-ночи работал с
+   сохранением прогресса в cookie и быстром отклике на мобильном телефоне
+   с сенсорным управлением. Это оказалось полезно, теперь лучше разбираюсь
+   в событиях “пальце-ориентированных” приложениях, да и вообще, любой
+   опыт программирования полезен (хотя снился мне код, не люблю это).
+
+   Еще я добавил полезную на мой взгляд фичу - это история. Потому что со
+   мной часто происходит ситуация, когда я увлекаюсь игрой и потом не могу
+   вспомнить, записал ли я себе уровень. Также приложение меняет свой цвет
+   при каждом новом сеансе.
+
+   Выглядит в стиле Modern-ui, всё как я люблю.
+
+   Надеюсь в скором времени я проверю на деле это “приложение” и тогда
+   буду точно знать, насколько удобное оно получилось. Если Вам тоже
+   полюбилась эта игра и этот счетчик найдёт свой применение - я буду рад,
+   что сделал что-то полезное.
+
+   image
+
+   [67]Manchkin counter
+
+   Кому интересно - [68]исходник
+
+   [69]→
+   Please enable JavaScript to view the [70]comments powered by Disqus.
+   [71]blog comments powered by Disqus
+
+   “Cold flat blog” © kraigo.tumblr.com
+
+   2013–2016
+
+   [impixu?T=1455827407&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wva3JhaWdv
+   LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0
+   =&U=LDOOFJBFFN&K=b228863fb08f8864037229925ded35fb4d588e79f1256f2ec96a97
+   2438d1d167&R=]
+   [impixu?T=1455827407&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2tyYWln
+   by50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InB
+   vc3RpZCI6IjEzODYxMjE4MzEwMSIsImJsb2dpZCI6IjExODU2MTYxNyIsInNvdXJjZSI6Mz
+   N9LHsicG9zdGlkIjoiMTMxMDc1MDU4MjQ2IiwiYmxvZ2lkIjoiMTE4NTYxNjE3Iiwic291c
+   mNlIjozM30seyJwb3N0aWQiOiIxMjExNzUyMjk2MzYiLCJibG9naWQiOiIxMTg1NjE2MTci
+   LCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjEyMDUxMjQ4OTE5MSIsImJsb2dpZCI6IjExODU
+   2MTYxNyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTE5NDcyNTg3NzQxIiwiYmxvZ2lkIj
+   oiMTE4NTYxNjE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiIxMTYwMTk5MzA2OTEiLCJib
+   G9naWQiOiIxMTg1NjE2MTciLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjExMzc5NDY4MzYw
+   NiIsImJsb2dpZCI6IjExODU2MTYxNyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTA4NzI
+   5OTUwNjQxIiwiYmxvZ2lkIjoiMTE4NTYxNjE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOi
+   IxMDc3NzM3MzcyNzYiLCJibG9naWQiOiIxMTg1NjE2MTciLCJzb3VyY2UiOjMzfSx7InBvc
+   3RpZCI6IjEwNzMwNTIyOTAyMSIsImJsb2dpZCI6IjExODU2MTYxNyIsInNvdXJjZSI6MzN9
+   XSwibm9zY3JpcHQiOjF9&U=NJENMMDCFI&K=c549009bf68f7363dbb728043fdf8594339
+   cd7bf077a33c6642074b38ccef712&R=]
+
+References
+
+   Visible links
+   1. http://kraigo.tumblr.com/rss
+   2. android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=kraigo
+   3. ios-app://305343404/tumblr/x-callback-url/blog?blogName=kraigo
+   4. http://kraigo.tumblr.com/
+   5. file:///handmade
+   6. file:///site
+   7. file:///practice
+   8. file:///about
+   9. http://kraigo.tumblr.com/rss
+  10. file:///archive
+  11. file:///random
+  12. http://kraigo.tumblr.com/post/138612183101/avatars2015
+  13. http://kraigo.tumblr.com/tagged/avatar
+  14. http://kraigo.tumblr.com/tagged/owl
+  15. http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=kraigo&post_id=138612183101&color=white&rk=yD9CcyCy&root_id=138612183101
+  16. http://kraigo.tumblr.com/post/138612183101/photoset_iframe/kraigo/tumblr_o1zdasBcjs1sxcywy/500/false
+  17. http://kraigo.tumblr.com/post/131075058246/myshows-recent
+  18. http://kraigo.tumblr.com/tagged/myshows
+  19. http://kraigo.tumblr.com/tagged/js
+  20. http://kraigo.tumblr.com/tagged/chromextention
+  21. http://kraigo.tumblr.com/tagged/practice
+  22. http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=kraigo&post_id=131075058246&color=white&rk=6LaGHeDY&root_id=131075058246
+  23. http://t.umblr.com/redirect?z=http://myshows.me&t=Y2FiZTQ0NmY5YjY3ZGQzOTI2MTBlYzY3N2UyZDNhMTdlODA4OGYxYSw2TGFHSGVEWQ==
+  24. http://t.umblr.com/redirect?z=https://chrome.google.com/webstore/detail/myshows-recent/falpkmpmnjihfpbfapkjfmdmckkelbmk?hl=ru&t=ZGIxMWIyOTMxNmQ3MTljYTFmMTQ1MjUwYzhjYmI1OTcxZWEyY2YyZCw2TGFHSGVEWQ==
+  25. http://t.umblr.com/redirect?z=https://github.com/Kraigo/myshows-recent&t=NmY0ZTMxMDA5MWEzZjI4MGNlMmU4OTZhYWNkNDkyMDUwMTBhMGQyZCw2TGFHSGVEWQ==
+  26. http://kraigo.tumblr.com/post/121175229636/мокренький-зомби
+  27. http://kraigo.tumblr.com/tagged/lef4dead
+  28. http://kraigo.tumblr.com/tagged/zombie
+  29. http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=kraigo&post_id=121175229636&color=white&rk=4fzurgS3&root_id=121175229636
+  30. http://kraigo.tumblr.com/post/120512489191/miner
+  31. http://kraigo.tumblr.com/tagged/game
+  32. http://kraigo.tumblr.com/tagged/javascript
+  33. http://kraigo.tumblr.com/tagged/practice
+  34. http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=kraigo&post_id=120512489191&color=white&rk=y29KKndD&root_id=120512489191
+  35. http://t.umblr.com/redirect?z=http://codepen.io/Kraigo/full/doNxxO/&t=YTEyMGIyY2I5YTNjMTY4NDcxY2FiMzNiNWIwMDAyMzc0NzZjYmMxNSx5MjlLS25kRA==
+  36. http://kraigo.tumblr.com/post/119472587741/friendly-letters
+  37. http://kraigo.tumblr.com/tagged/nodejs
+  38. http://kraigo.tumblr.com/tagged/game
+  39. http://kraigo.tumblr.com/tagged/javascript
+  40. http://kraigo.tumblr.com/tagged/practice
+  41. http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=kraigo&post_id=119472587741&color=white&rk=OfZW0CWx&root_id=119472587741
+  42. http://t.umblr.com/redirect?z=http://frontender.info/building-multiplayer-games-with-node-js-and-socket-io/&t=NjdhNWJkNWM5OTczMTQ3NGY2NjFkZjA1MGYwNmU0ODQyZjQyMWRlZSxPZlpXMENXeA==
+  43. http://kraigo.tumblr.com/post/119472587741/friendly-letters
+  44. http://kraigo.tumblr.com/post/116019930691/lister
+  45. http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=kraigo&post_id=116019930691&color=white&rk=lPjIPZWs&root_id=116019930691
+  46. http://kraigo.tumblr.com/post/116019930691/lister
+  47. http://kraigo.tumblr.com/post/113794683606/chicken-game
+  48. http://kraigo.tumblr.com/tagged/game
+  49. http://kraigo.tumblr.com/tagged/javascript
+  50. http://kraigo.tumblr.com/tagged/chicken
+  51. http://kraigo.tumblr.com/tagged/practice
+  52. http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=kraigo&post_id=113794683606&color=white&rk=SrtIswPM&root_id=113794683606
+  53. http://t.umblr.com/redirect?z=http://codepen.io/Kraigo/full/dPKMpL/&t=NzIzZDc0MzVmNWJiODg4OWE0MGU2YTIwOTNmNWZjZTllYjZiYTZhMSxTcnRJc3dQTQ==
+  54. http://kraigo.tumblr.com/post/108729950641/profile-animation-like-tumblr
+  55. http://kraigo.tumblr.com/tagged/css3
+  56. http://kraigo.tumblr.com/tagged/practice
+  57. http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=kraigo&post_id=108729950641&color=white&rk=dePMhiCJ&root_id=108729950641
+  58. http://t.umblr.com/redirect?z=http://codepen.io/Kraigo/full/WbjJRq/&t=MGIwMGNlM2UxYWY2YzRiYTdlZjA1YmVkOGJjNGM5MmMwNjNlMGUxYyxkZVBNaGlDSg==
+  59. http://kraigo.tumblr.com/post/107773737276
+  60. http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=kraigo&post_id=107773737276&color=white&rk=b38hGEnA&root_id=107773737276
+  61. https://player.vimeo.com/video/116442873?title=0&byline=0&portrait=0
+  62. http://kraigo.tumblr.com/post/107305229021/манчкин-счетчик-уровней
+  63. http://kraigo.tumblr.com/tagged/munchkin
+  64. http://kraigo.tumblr.com/tagged/webapp
+  65. http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=kraigo&post_id=107305229021&color=white&rk=jP2KxfpD&root_id=107305229021
+  66. http://kraigo.tumblr.com/munch
+  67. http://kraigo.tumblr.com/munch
+  68. http://t.umblr.com/redirect?z=http://codepen.io/Kraigo/pen/pvNQWv&t=ZDA4NDg3ZTVlMzZjYmFkMWMwMTUwN2YxZGRmMmM0YzVlZTIzOWQ3OSxqUDJLeGZwRA==
+  69. file:///page/2
+  70. http://disqus.com/?ref_noscript
+  71. http://disqus.com/
+
+   Hidden links:
+  73. https://www.tumblr.com/reblog/138612183101/yD9CcyCy
+  74. https://www.tumblr.com/reblog/131075058246/6LaGHeDY
+  75. https://www.tumblr.com/reblog/121175229636/4fzurgS3
+  76. https://www.tumblr.com/reblog/120512489191/y29KKndD
+  77. https://www.tumblr.com/reblog/119472587741/OfZW0CWx
+  78. https://www.tumblr.com/reblog/116019930691/lPjIPZWs
+  79. https://www.tumblr.com/reblog/113794683606/SrtIswPM
+  80. https://www.tumblr.com/reblog/108729950641/dePMhiCJ
+  81. https://www.tumblr.com/reblog/107773737276/b38hGEnA
+  82. https://www.tumblr.com/reblog/107305229021/jP2KxfpD

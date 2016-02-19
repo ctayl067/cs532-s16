@@ -1,0 +1,2171 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+		<!-- Google Analytics Content Experiment code -->
+	<script>function utmx_section(){}function utmx(){}(function(){var
+	k='102679131-64',d=document,l=d.location,c=d.cookie;
+	if(l.search.indexOf('utm_expid='+k)>0)return;
+	function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+	indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+	length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+	'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+	'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+	'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+	valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+	'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+	</script><script>utmx('url','A/B');</script>
+	<!-- End of Google Analytics Content Experiment code -->
+	
+	
+		<script src="//cdn.optimizely.com/js/2923280451.js"></script>
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#35454E">
+
+	<link rel="icon" sizes="192x192" href="http://cdn.twittercounter.com/images/high-res-favicon.png">
+
+	<!-- Pinterest Verification -->
+	<meta name="p:domain_verify" content="5fd98896f20e5f5d8d80082a456e310c"/>
+
+			<link rel="search" type="application/opensearchdescription+xml" title="Search" href="http://twittercounter.com/opensearch.xml" />
+	
+				<link type="text/css" rel="stylesheet" href="http://cdn.twittercounter.com/css/global.6ea19c33329b0d95047efb468d14e1ef55b9304a.css" />
+					<link type="text/css" rel="stylesheet" href="http://cdn.twittercounter.com/css/components/profile/featured-users.6ea19c33329b0d95047efb468d14e1ef55b9304a.css" />
+					<link type="text/css" rel="stylesheet" href="http://cdn.twittercounter.com/css/components/profile/summary.6ea19c33329b0d95047efb468d14e1ef55b9304a.css" />
+				<link type="text/css" rel="stylesheet" href="http://cdn.twittercounter.com/css/libraries/you.6ea19c33329b0d95047efb468d14e1ef55b9304a.css" />
+	
+	
+	<meta name="google-site-verification" content="HpMMLdeLYRPncOY9z_xD9ro44vNwGEr-FiLmVN3ljlI" />
+
+				<link rel="canonical" href="http://twittercounter.com/violentdaylight" />
+			
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XAcFU1VVGwcCXVNTBwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+<meta http-equiv="Content-Language" content="en-us" />
+
+
+<title>Claire Brooks Twitter Stats - Twitter Counter</title>
+<meta name="description" content="Check all Claire Brooks (@violentdaylight) Twitter statistics in one place. Number of Followers, Tweets, Retweets and more for free on the #1 Twitter Stats website." />
+<meta name="keywords" content="" />
+
+<meta property="twitter:title" content="Claire Brooks Twitter Stats - Twitter Counter" />
+<meta property="twitter:description" content="Check all Claire Brooks (@violentdaylight) Twitter statistics in one place. Number of Followers, Tweets, Retweets and more for free on the #1 Twitter Stats website." />
+<!-- Twitter card meta tags (description and title can be found near the main description and title tags)-->
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@thecounter" />
+
+	<meta property="fb:page_id" content="109369489135166" />
+	<link rel="image_src" href="http://cdn.twittercounter.com/images/premium_icon.png" />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Claire Brooks Twitter Stats - Twitter Counter" />
+	<meta property="og:description" content="Check all Claire Brooks (@violentdaylight) Twitter statistics in one place. Number of Followers, Tweets, Retweets and more for free on the #1 Twitter Stats website." />
+	<meta property="og:url" content="http://twittercounter.com" />
+	<meta property="og:site_name" content="twittercounter" />
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+
+	
+	<script type="text/javascript" src="http://cdn.twittercounter.com/js/dist/initial.6ea19c33329b0d95047efb468d14e1ef55b9304a.js" charset="utf-8"></script>
+
+	
+	<script type="text/javascript">
+
+	
+		!function(){
+
+			var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error('Segment snippet included twice.');else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+
+			analytics.load('bTHWHstNbeo6DUHsDDN2j6AZEBjGR8p3');
+
+		
+			analytics.page('', {
+
+			
+				blogSnippetId: 1,
+				blogSnippetText: 'Personal Branding in 140 characters',
+
+							timeUnit: 'daily',
+				compared: 'violentdaylight',
+				metrics: 'followers,following',
+
+			
+			});
+
+		
+		}}();
+
+	
+</script>
+
+<script type="text/javascript">
+	var _veroq = _veroq || [];
+	_veroq.push(['init', {
+		api_key: "b660ab039405cb61363aa3e3170a7e377cb30840"
+	}]);
+
+	(function(){var ve = document.createElement('script');ve.type = 'text/javascript';ve.async = true;ve.src = '//d3qxef4rp70elm.cloudfront.net/m.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ve, s);})();
+</script>
+
+<script type="text/javascript">
+	(function() {
+		window._pa = window._pa || {};
+		var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+		pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/5141f95c5dc2300002000435.js";
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+	})();
+</script>
+
+
+</head>
+<body style="background: #35454E;">
+
+	<script>
+		dataLayer = [{
+
+			'pageURL': window.location.pathname,
+			'pageTitle': document.title,
+
+		
+			'pageType': 'public-profile',
+			'pageSubType': '',
+
+		
+		
+		}];
+
+		function ga (i,s,o,g,r,a,m) {
+			dataLayer.push({'eCat': o, 'eAct': g, 'eLab': r, 'eVal': '0', 'event': 'Legacy'});
+		};
+
+	</script>
+
+	<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NTJFT2"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-NTJFT2');</script>
+	<!-- End Google Tag Manager -->
+
+			<div style="background: #F3F6F8;">
+	
+		<!--[if lt IE 9]>
+			<div id="unsupported-browser-alert" style="color: #FFFFFF; background-color: #ed5f68; font-size: 18px;">
+				<div style="max-width: 1280px; margin: 0 auto; padding: 60px 20px;">
+					You are using an <strong>outdated browser</strong>. <a href="http://browsehappy.com/" style="color: #428BCA; font-weight: 700;">Upgrade your browser now</a> to better experience this site.
+				</div>
+			</div>
+		<![endif]-->
+
+		<div id="veil" class="animated"></div>
+
+<div class="header_filler "></div>
+
+<header id="main" class="header-main">
+
+	
+	<div class="header-navigation" role="navigation">
+
+		<hgroup id="logo">
+			<a href="#" title="menu" id="mob_menu">&nbsp;</a>
+			<!--<a class="tc_logo left" href="/" rel="nofollow" title="Twitter followers stats by Twitter Counter" onclick="ga('newTracker.send', 'event', 'General', 'Navigation', 'Logo', {'nonInteraction': 1}); analytics.track('Clicked Header Link', { page: 'Home', source: 'Logo' });"></a>-->
+			<a class="tc_logo left" href="/" rel="nofollow" title="Twitter followers stats by Twitter Counter" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'G > Header', 'eLab': 'Logo', 'eVal': '1', 'event': 'KPI'});"></a>
+		</hgroup>
+
+		<nav id="site-nav">
+
+		
+					<a href="/pages/featured"  title="Get Twitter followers by becoming a Featured user" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'G > Header', 'eLab': 'Get Followers', 'eVal': '1', 'event': 'KPI'}); analytics.track('Clicked Header Link', { page: 'Get Followers' });">Get followers</a>
+			<a href="/pages/features"  title="Check out Twitter Counter's features" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'G > Header', 'eLab': 'Features', 'eVal': '1', 'event': 'KPI'}); analytics.track('Clicked Header Link', { page: 'Features' });">Features</a>
+			<a href="/pages/pricing"  title="Get even more Twitter stats" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'G > Header', 'eLab': 'Pricing', 'eVal': '1', 'event': 'KPI'}); analytics.track('Clicked Header Link', { page: 'Pricing' });">Pricing</a>
+			<a href="/pages/buy-stats"  title="Buy Twitter Stats" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'G > Header', 'eLab': 'Statistics', 'eVal': '1', 'event': 'KPI'}); analytics.track('Clicked Header Link', { page: 'Statistics' });">Statistics</a>
+			<a href="/pages/100"  title="Top 100 twitter users" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'G > Header', 'eLab': 'Top 100', 'eVal': '1', 'event': 'KPI'}); analytics.track('Clicked Header Link', { page: 'Top 100 Users' });">Top 100</a>
+			<a href="/blog"  title="Twitter Counter Blog" onclick="dataLayer.push({'eCat':'Engagement : Logged  '+twcApp.getLoggedStatus(), 'eAct': 'G > Header', 'eLab': 'Blog', 'eVal': '1', 'event': 'KPI'}); analytics.track('Clicked Header Link', { page: 'Blog' });">Blog</a>
+				</nav>
+
+		<nav id="action-nav">
+
+		
+			<a href="#" id="sign-in-header" class="sign_in twc-popitup" title="Sign in with Twitter" rel="nofollow" data-url="/remote/login.php?referer=twittercounter" onclick="dataLayer.push({'eCat':'Conversion : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'G > Header', 'eLab': 'Sign In', 'eVal': '5', 'event': 'KPI'});analytics.track('Signed In', { on: 'Header' });" >
+				Sign in <span class="full"><span class="ex">with</span> Twitter</span>
+			</a>
+
+		
+		</nav>
+
+		<div class="account-list">
+			
+									<a href="/pages/pricing" class="modal-upsell add-account" title="Add an account" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'R > Nav Bar > Accounts', 'eLab': 'Add account', 'eVal': '5', 'event': 'KPI'});">
+				<i class="flaticon solid add-user-1"></i>
+				<strong>Add an account</strong>
+			</a>
+			
+					</div>
+
+		<div id="notifications" class="account-notifications-list">
+			<div class="account-notifications-header">
+				Notifications <a href="/pages/settings/notifications" class="right" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'R > Nav Bar > Notifications', 'eLab': 'Settings', 'eVal': '4', 'event': 'KPI'});"><i class="flaticon solid settings"></i> Settings</a>
+			</div>
+			<div class="notifications-loading">
+				Loading notifications
+			</div>
+			<div id="notifications-content" class="account-notifications-content">
+				<ul></ul>
+			</div>
+			<a class="account-notifications-footer" href="/pages/notifications" title="See all notifications" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'R > Nav Bar > Notifications', 'eLab': 'See all notifications', 'eVal': '3', 'event': 'KPI'});">
+				See all notifications
+			</a>
+		</div>
+
+	</div>
+
+	<div id="twc-notifier">
+		<div class="notifier-wrapper">
+			<div class="message">Notifier</div>
+			<div class="action">
+				<div class="close-btn"> <i class="flaticon solid x-1"></i> </div>
+				<div class="notifier-counter"></div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+		<div class="container_large clearfix  ws ">
+			<noscript>
+				<div class="alert">
+					<img src="http://cdn.twittercounter.com/images/icons/error.png" />
+					&nbsp;
+					Javascript is <strong>disabled</strong> in your web browser,
+					<a href="http://www.enable-javascript.com" title="Activate Javascript" onclick="ga('newTracker.send', 'event', 'User', 'Enable JavaScript'); analytics.track('Enable JavaScript', {});">activate</a> it to better experience this site.
+				</div>
+			</noscript>
+
+
+
+	<div id="left-menu" >
+		<div id="left-menu-inner" class="theiaStickySidebar">
+
+			<!-- Start Search field -->
+			<div class="form-search">
+				<form class="sidebar_search_form clearfix" role="search" action="/pages/search" method="get" onsubmit="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Top 100', 'eLab': 'User search', 'eVal': '2', 'event': 'KPI'});">
+					<input type="text" name="q" class="form-control input-medium search-query menu_left_search" placeholder="Search Twitter users" value="" size="20" />
+					<input type="hidden" name="start" value="0" />
+					<button class="menu_left_button" type="submit" onclick="ga('newTracker.send', 'event', 'Search', 'Submit Button', {'nonInteraction': 1}); analytics.track('Searched', { query: '@' + $('.search-query').val(), source: 'Button' });">
+						<i class="ss-search"></i>
+					</button>
+				</form>
+			</div>
+
+			<!-- Start Side menu -->
+			<div id="coll_menu" class="tc-accordian">
+
+								<h3 >
+						<i class="flaticon solid signal-bars-1"></i> violentdaylight's Stats <i class="flaticon solid down-2 right"></i>
+					</h3>
+
+					<div class=" tc-accordian-active">
+						<ul id="left-menu-graph" class="sidebar_list nav nav-list">
+
+						
+							<li class=" ">
+								
+								<a
+									href="#public-profile-tweets"
+									title="violentdaylight's tweets" 
+																		onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Menu click: Tweets', 'eVal': '2', 'event': 'KPI'});" 
+									>
+ 
+								Tweets
+									<span class="right"><i class="flaticon solid chat-3"></i></span>
+
+								
+								</a>
+							</li>
+
+						
+							<li class=" ">
+								
+								<a
+									href="#public-profile-followers"
+									title="violentdaylight's followers" 
+																		onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Menu click: Followers', 'eVal': '2', 'event': 'KPI'});" 
+									>
+ 
+								Followers
+									<span class="right"><i class="flaticon solid group-2"></i></span>
+
+								
+								</a>
+							</li>
+
+						
+							<li class=" ">
+								
+								<a
+									href="#public-profile-following"
+									title="violentdaylight's friends" 
+																		onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Menu click: Following', 'eVal': '2', 'event': 'KPI'});" 
+									>
+ 
+								Following
+									<span class="right"><i class="flaticon solid group-1"></i></span>
+
+								
+								</a>
+							</li>
+
+						
+							<li class=" ">
+								
+								<a
+									href="#public-profile-predictions"
+									title="violentdaylight's predictions" 
+																		onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Menu click: Predictions', 'eVal': '2', 'event': 'KPI'});" 
+									>
+ 
+								Predictions
+									<span class="right"><i class="flaticon solid group-1"></i></span>
+
+								
+								</a>
+							</li>
+
+						
+						</ul>
+					</div>
+
+									<h3 class="lm_pages">
+						<i class="flaticon solid house-3"></i> Main Menu <i class="flaticon solid right-2 right"></i>
+					</h3>
+
+					<div class="lm_pages ">
+						<ul id="left-menu-graph" class="sidebar_list nav nav-list">
+
+						
+							<li class=" ">
+								
+								<a
+									href="/pages/featured"
+									title="Get Twitter followers by becoming a Featured user" 
+																		onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Menu click: Get Followers', 'eVal': '2', 'event': 'KPI'});" 
+									>
+ 
+								Get Followers
+								</a>
+							</li>
+
+						
+							<li class=" ">
+								
+								<a
+									href="/pages/features"
+									title="Check out our features" 
+																		onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Menu click: Features', 'eVal': '2', 'event': 'KPI'});" 
+									>
+ 
+								Features
+								</a>
+							</li>
+
+						
+							<li class=" ">
+								
+								<a
+									href="/pages/pricing"
+									title="Get even more Twitter stats" 
+																		onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Menu click: Pricing', 'eVal': '2', 'event': 'KPI'});" 
+									>
+ 
+								Pricing
+								</a>
+							</li>
+
+						
+							<li class=" ">
+								
+								<a
+									href="/pages/buy-stats"
+									title="Buy Twitter Stats" 
+																		onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Menu click: Statistics', 'eVal': '2', 'event': 'KPI'});" 
+									>
+ 
+								Statistics
+								</a>
+							</li>
+
+						
+							<li class=" ">
+								
+								<a
+									href="/pages/100"
+									title="Top 100 twitter users" 
+																		onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Menu click: Top 100', 'eVal': '2', 'event': 'KPI'});" 
+									>
+ 
+								Top 100
+								</a>
+							</li>
+
+						
+							<li class=" ">
+								
+								<a
+									href="/blog"
+									title="Twitter Counter Blog" 
+																		onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Menu click: Blog', 'eVal': '2', 'event': 'KPI'});" 
+									>
+ 
+								Blog
+								</a>
+							</li>
+
+						
+						</ul>
+					</div>
+
+				
+			<div class="menu-left-login-box tc-accordian-active card-style">
+									<h3>Are you Claire Brooks?</h3>
+								<p>Sign Up for free to get a lot more insights and reports about your Twitter account</p>
+				<a href="/" id="sign-in-header" class="twc-popitup btn" title="Sign in with Twitter" rel="nofollow" data-url="/remote/login.php?referer=twittercounter" data-ga-event="[ 'User', 'LogIn', 'Menu Left', {'nonInteraction': 1} ]" onclick="analytics.track('Signed In', { on: 'Menu Left' });" >
+					<i class="ss-icon ss-social ss-twitter"></i>
+					Login with Twitter
+				</a>
+			</div>
+
+			<h3 class="menu-item-clickable account-signout-wrapper">
+				<a class="account-signin" href="/remote/login.php?referer=twittercounter" title="Sign In" onclick="ga('newTracker.send', 'event', 'User', 'Menu Left', 'Sign In', {'nonInteraction': 1}); analytics.track('Signed In', { on: 'Left Sidebar' }); popitup('/remote/login.php?referer=twittercounter'); ">
+					<i class="ss-social ss-twitter"></i> Sign In with Twitter</i>
+				</a>
+			</h3>
+
+			
+			</div>
+		</div>
+	</div>
+
+
+<div id="main_left" class="ws">
+	<div class="inner_main_left ws">
+
+		<div id="profile" class="clearfix profile profile-public">
+
+			
+<section id="profile-cover" class="clearfix card-style">
+
+    <div class="profile-cover-background" style="background-image: url('https://pbs.twimg.com/profile_banners/299774695/1395864769');"></div>
+
+    <div class="profile-cover-container">
+
+        <div class="profile-badges-container">
+                                </div>
+
+        <div class="profile-avatar-container">
+            <img alt="violentdaylight" src="http://pbs.twimg.com/profile_images/448916115519840256/qto38nWs_reasonably_small.jpeg" class="avatar" />
+        </div>
+    </div>
+
+    <div class="profile-content-container">
+        <h1>Claire Brooks<span>Twitter Stats</span></h1>
+
+        <h3>
+            <a href="http://twitter.com/violentdaylight" onclick="dataLayer.push({'eCat': 'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Outbound to Twitter', 'eVal': '1', 'event': 'KPI'});" target="_blank">@violentdaylight</a>
+
+            
+        
+                <span> - Tracking since May 17, 2011</span>
+
+                </h3>
+
+            <p class="bio">Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.</p>
+        
+            <p class="location">
+                <i class="flaticon solid location-pin"></i>Chicago, IL            </p>
+    </div>
+</section>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.badge-verified').on({
+            mouseenter: function() {
+                console.log('In');
+                var desc = $('<div>').css({
+                    position: 'absolute',
+                    top: 34,
+                    background: '#2FBEE2',
+                    width: 120,
+                    fontSize: 11,
+                    left: -78,
+                    borderRadius: 5,
+                    color: '#FFF',
+                    fontWeight: 600,
+                    lineHeight: '22px'
+                }).text('This user is verified').addClass('badge-verified-description');
+                $(this).append(desc);
+            },
+            mouseleave: function() {
+                $(this).find('.badge-verified-description').remove();
+            }
+        });
+    });
+</script>
+<style>
+.user_login_from_calender li
+{
+	margin:20px 0;
+}
+.user_login_from_calender_btn_con
+{
+	width:61%;
+	margin:0 auto;
+	
+}
+.user_login_from_calender_btn
+{
+	color:#FFF !important;
+}
+.user_login_from_calender_btn:hover
+{
+	background: none repeat scroll 0 0 #77B751 !important;
+}
+
+@media only screen and (max-width: 768px){
+	.datepicker-upgrade
+	{width:96% !important; clear: both; color: #35454e !important;}	
+}
+@media only screen and (max-width: 480px){
+
+	.datepicker-upgrade .dropdown-menu
+	 {width:295px !important; margin: 0 auto !important; left: 0!important; padding:0px !important;}
+	 
+	 .datepicker-upgrade .dropdown-menu .btn-big { font-size:14px!important;}
+}
+
+</style>
+
+<section id="profile-toolbar" class="clearfix card-style">
+
+	
+			<a href="#" id="profile-track-btn" class="left track twc-popitup" rel="nofollow" data-url="/remote/login.php?referer=twittercounter" data-ga-event="[ 'Profile', 'Track', 'Button', {'nonInteraction': 1} ]" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Add to tracker', 'eVal': '4', 'event': 'KPI'});;analytics.track('Tracked a user', { user: 'violentdaylight' });" >
+				<i class="flaticon solid eye-1"></i> Track
+			</a>
+
+		
+	
+	
+		<a class="refresh left" rel="nofollow" href="/violentdaylight?manual_update=1" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Manual update stats', 'eVal': '4', 'event': 'KPI'});ga('newTracker.send', 'event', 'Profile', 'Update Stats', 'Click', {'nonInteraction': 1});"><i class="flaticon solid refresh"></i> Update stats</a>
+	
+	
+		<a id="buy-stats_btn" class="left buy_stats" href="/pages/buy-stats/violentdaylight" onclick="dataLayer.push({'eCat':'Conversion : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Click Buy Stats CTA', 'eVal': '4', 'event': 'KPI'});">
+			<i class="flaticon solid download"></i> Buy Stats
+		</a>
+
+	
+  <div class="dropdown datepicker-upgrade">
+ 	<div id="graph-timeframe" class="right dropdown-toggle calender_login_popover"  data-toggle="dropdown" >
+		<div id="reportrange">
+			<i class="flaticon solid calendar-6"></i>
+			<span></span>
+			<b class="caret"></b>
+		</div>
+	</div>
+            <ul class="dropdown-menu user_login_from_calender" role="menu" aria-labelledby="dLabel" style="left:auto;background:#FFF;box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176) !important;width:350px;padding:0px 20px;top:45px;border: 1px solid #CCCCCC;">
+        <li><div class="twc-drp-wrapper-caret" style="left: auto; right: 0px;"></div></li>
+        <li><h2>Need historical data?</h2></li>
+        <li>Sign up for a free account to get access to historical stats for this user and more!</li>
+        <li style="text-align:center">
+        <div class="slide-bottom user_login_from_calender_btn_con">
+				<a href="#" class="btn green btn-big done twc-popitup user_login_from_calender_btn" data-url="/remote/login.php?referer=twittercounter" onclick="dataLayer.push({'eCat':'Modal Tracking : Logged Out', 'eAct': 'Need historical data box with CTA', 'eLab': 'Click', 'eVal': '5', 'event': 'KPI'});">
+						<i class="ss-social ss-icon ss-twitter"></i>Sign in with Twitter
+				</a>
+			</div>
+            </li>
+        </ul>
+             </div>
+ </section>
+<!-- end Profile Toolbar -->
+
+<section id="interaction-tweets"></section>
+
+<script id="hbtpl-tweet-list-row" type="text/x-handlebars">
+	<h2>
+		{{title}}
+		<span>{{date}}</span>
+	</h2>
+	<span class="close-btn">X</span>
+	<ul class="interaction-tweets-list">
+		{{#each tweets }}
+		<li class="interaction-tweet">
+			<div class="avatar">
+				<img src="{{avatar}}" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'R > %report%', 'eLab': 'View profile', 'eVal': '2', 'event': 'KPI'});"/>
+			</div>
+			<div class="info">
+				<div class="username">
+					<a href="/{{username}}" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'R > %report%', 'eLab': 'View profile', 'eVal': '2', 'event': 'KPI'});">@{{username}}</a>
+				</div>
+				<div class="text">{{{text}}}</div>
+			</div>
+			{{#if by }}
+			<ul class="related-tweets">
+				{{#if ../../relatedTitle }}
+				<li class="tag">
+					{{../../../relatedTitle}}:
+				</li>
+				{{/if }}
+				{{#each by }}
+				<li class="related-tweet">
+					<a href="/{{username}}">
+						<img src="{{avatar}}" />
+						@{{username}}
+					</a>
+				</li>
+				{{/each }}
+			</ul>
+			{{/if }}
+		</li>
+		{{/each }}
+	</ul>
+</script>
+
+<script type="text/javascript">
+
+	$(document).ready(function () {
+		 
+		var tweets = { mentions : {}, retweets : {}, favorites: {} },
+			$tweetCon = $('#interaction-tweets'),
+			tpl = Handlebars.compile($('#hbtpl-tweet-list-row').html()),
+			$tweetListLoader = $('<div>').addClass('loader').text('Loading');
+
+		$tweetCon.on('click', '.close-btn', function () {
+			$tweetCon.empty();
+		});
+
+		twcApp.showTweets = function (twitter_id, type, date){
+
+			$tweetCon.empty();
+			$tweetCon.prepend($tweetListLoader);
+
+			if(typeof tweets[type][date] != 'undefined'){
+				twcApp.fillContainer(type, date);
+			}else {
+				$.ajax({
+					url:"/ajax/showTweets.php",
+					type: "GET",
+					data: { 'twitter_id': twitter_id, 'type': type, 'date': date },
+					ifModified: true,
+					success: function( response ){
+						tweets[type][date] = response.data;
+						twcApp.fillContainer(type, date);
+					}
+				});
+			}
+		};
+
+		twcApp.fillContainer = function (type, date){
+
+			var title = '',
+				relatedTitle = '',
+				count = 0,
+				dateShown = moment(date, 'YYYY-MM-DD').format('MMMM Do, YYYY');
+
+			if ( type == 'retweets' || type == 'favorites' ) {
+				_.each(tweets[type][date], function ( tweet ) {
+					if ( tweet.by ) {
+						count += tweet.by.length;
+					}
+				});
+			}
+			else {
+				count = tweets[type][date].length;
+			}
+
+			switch ( type ) {
+				case 'mentions':
+					title = (count == 1) ? 'mention' : 'mentions';
+					break;
+				case 'retweets':
+					title = (count == 1) ? 'retweet' : 'retweets';
+					relatedTitle = 'Retweeted by';
+					break;
+				case 'favorites':
+					title = (count == 1) ? 'like' : 'likes';
+					relatedTitle = 'Liked by';
+					break;
+			}
+
+			title = count + ' ' + title;
+
+			var listData = {
+				title       : title,
+				date        : dateShown,
+				relatedTitle: relatedTitle,
+				tweets      : tweets[type][date]
+			};
+
+			$tweetCon.empty().append( tpl(listData) );
+		};
+		
+		$('#graph-top').on('click',function(){
+			href = $(location).attr('href');
+			chart_name = href.substr(href.lastIndexOf('/') + 1);
+			 if(chart_name == "mentions"){
+				dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'R > Interactions > Mentions', 'eLab': 'Click on the chart', 'eVal': '3', 'event': 'KPI'});
+			}
+			if(chart_name == "retweets"){
+				dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'R > Interactions > Retweets', 'eLab': 'Click on the chart', 'eVal': '3', 'event': 'KPI'});
+			}
+			if(chart_name == "favorites"){
+				dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'R > Interactions > Likes', 'eLab': 'Click on the chart', 'eVal': '3', 'event': 'KPI'});
+			}
+		});
+	});
+</script>
+
+<section class="clr card-style" id="main-stats">
+
+	<header class="card-style-header">
+		@violentdaylight Twitter Stats Overview	</header>
+
+	<div class="main-stats-inner clearfix">
+
+		<div class="left stat-item down">
+			<a href="/violentdaylight#public-profile-followers" class="stat-item-link" onclick="ga('newTracker.send', 'event', 'Profile', 'Overview', 'View Follower Stats', {'nonInteraction': 1});">
+				<div class="stat-header clearfix">
+					<!--<i class="flaticon solid group-2"></i>-->
+					<span class="metric">Followers</span>
+									</div>
+
+				<div class="stat-con clearfix ">
+					<span class="counter num">2,390</span>
+					<span class="mutation minus">
+						<b> -5</b>
+					</span>
+				</div>
+
+				<span class="view-all">View followers stats</span>
+			</a>
+		</div>
+		<div class="left stat-item same">
+			<a href="/violentdaylight#public-profile-following" class="stat-item-link" onclick="ga('newTracker.send', 'event', 'Profile', 'Overview', 'View Following Stats', {'nonInteraction': 1});">
+
+				<div class="stat-header clearfix">
+					<!--<i class="flaticon solid record-stat"></i>
+					<i class="flaticon solid group-1"></i>-->
+					<span class="metric">Following</span>
+									</div>
+
+				<div class="stat-con ">
+					<span class="counter num">2,148</span>
+					<span class="mutation ">
+						<b></b>
+					</span>
+				</div>
+
+				<span class="view-all">View following stats</a>
+			</a>
+		</div>
+		<div class="left stat-item same">
+			<a href="/pages/100" class="stat-item-link" onclick="ga('newTracker.send', 'event', 'Profile', 'Overview', 'View top 100', {'nonInteraction': 1});">
+
+				<div class="stat-header clearfix">
+					<!--<i class="flaticon solid earth-1"></i>-->
+					<span class="metric">Worldwide Rank</span>
+									</div>
+
+				<div class="stat-con">
+					<span class="num">#<span class="counter">2,554,069</span></span>
+				</div>
+
+				<span class="view-all">View top 100</span>
+			</a>
+		</div>
+
+	
+		<div class="left stat-item second-row">
+			<a href="/violentdaylight#public-profile-tweets" class="stat-item-link" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Click summary links', 'eVal': '2', 'event': 'KPI'});">
+				<div class="stat-header clearfix">
+					<!--<i class="flaticon solid group-2"></i>-->
+					<span class="metric">Tweets</span>
+				</div>
+
+				<div class="stat-con">
+					<span class="counter num">207,037</span>
+				</div>
+
+				<span class="view-all">View tweets stats</span>
+			</a>
+		</div>
+		<div class="left stat-item second-row same">
+			<div class="stat-header clearfix">
+				<!--<i class="flaticon solid record-stat"></i>
+				<i class="flaticon solid group-1"></i>-->
+				<span class="metric">Favourites</span>
+			</div>
+
+			<div class="stat-con">
+				<span class="counter num">91</span>
+			</div>
+		</div>
+		<div class="left stat-item second-row same">
+			<div class="stat-header clearfix">
+				<!--<i class="flaticon solid earth-1"></i>-->
+				<span class="metric">Listed</span>
+			</div>
+
+			<div class="stat-con">
+				<span class="counter num">130</span>
+			</div>
+		</div>
+
+	
+	</div>
+</section>
+<!-- start Daily Average -->
+<section id="average" class="card-style">
+    <b>Daily average:</b>
+    <b class="down">
+                -1    </b> followers,
+    <b class="up">
+        +        315    </b> tweets,
+    <b class="same">
+        0            </b> following.
+</section>
+<!-- end Daily Average -->
+			<h2 id="public-profile-tweets" class="profile-public-block-title">
+				Claire Brooks <span>Tweets</span>
+			</h2>
+
+			<p class="profile-public-chart-description">
+				@violentdaylight has posted 11,840 tweets
+				in the last 30 days, which translates to an average
+				of 394.7 tweets per day.
+			</p>
+
+			
+
+<section id="graph-public-tweets-container" class="card-style">
+
+	<section id="profile-filter" class="clearfix" data-type="tweets">
+	<div id="tweets-metricselector" class="left">
+		<div class="metricselector">
+
+			<div id="sel1-wrapper" class="btn-wrapper dropdown left">
+				<button class="dropdown-toggle" data-toggle="dropdown" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Switch data in the chart', 'eVal': '3', 'event': 'KPI'});">
+					<i class="flaticon solid group-1"></i>
+					<span id="sel1-label">Tweets</span>
+					<span class="caret"></span>
+				</button>
+				<ul id="sel1-options" class="dropdown-menu sel-options"></ul>
+			</div>
+
+						<label id="vs-text" class="greytext left">vs</label>
+
+			<div id="sel2-wrapper" class="btn-wrapper dropdown left">
+				<button class="dropdown-toggle" data-toggle="dropdown" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Switch data in the chart', 'eVal': '3', 'event': 'KPI'});">
+					<span id="sel2-label">
+													Select a metric
+											</span>
+					<span class="caret"></span>
+				</button>
+				<ul id="sel2-options" class="dropdown-menu sel-options"></ul>
+			</div>
+
+			<span id="sel2-clear" style="display: none;">Clear</span>
+			
+		</div>
+	</div>
+
+    
+	</section>
+
+	<section id="graph-public-tweets-wrapper" style="position: relative;">
+		<form id="graph-public-tweets-form">
+			<input type="hidden" name="ids" value="violentdaylight" />
+			<input type="hidden" name="metrics" value="tweets" />
+			<input type="hidden" name="timeunit"
+				value="daily" />
+		</form>
+
+		<div id="graph-public-tweets-graph" class="graph-resize twc-chart-placeholder" style="position: relative;"></div>
+
+			</section>
+
+	
+
+</section>
+			<h2 id="public-profile-followers" class="profile-public-block-title">
+				Claire Brooks <span>Followers</span>
+			</h2>
+
+			<p class="profile-public-chart-description">
+				@violentdaylight has 2,390 followers.
+				<br>
+				This account is #2,554,069 in the worldwide rank of the most popular Twitter users.
+			</p>
+
+			
+
+<section id="graph-public-followers-container" class="card-style">
+
+	<section id="profile-filter" class="clearfix" data-type="followers">
+	<div id="followers-metricselector" class="left">
+		<div class="metricselector">
+
+			<div id="sel1-wrapper" class="btn-wrapper dropdown left">
+				<button class="dropdown-toggle" data-toggle="dropdown" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Switch data in the chart', 'eVal': '3', 'event': 'KPI'});">
+					<i class="flaticon solid group-1"></i>
+					<span id="sel1-label">Followers</span>
+					<span class="caret"></span>
+				</button>
+				<ul id="sel1-options" class="dropdown-menu sel-options"></ul>
+			</div>
+
+						<label id="vs-text" class="greytext left">vs</label>
+
+			<div id="sel2-wrapper" class="btn-wrapper dropdown left">
+				<button class="dropdown-toggle" data-toggle="dropdown" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Switch data in the chart', 'eVal': '3', 'event': 'KPI'});">
+					<span id="sel2-label">
+													Select a metric
+											</span>
+					<span class="caret"></span>
+				</button>
+				<ul id="sel2-options" class="dropdown-menu sel-options"></ul>
+			</div>
+
+			<span id="sel2-clear" style="display: none;">Clear</span>
+			
+		</div>
+	</div>
+
+    
+	        <div class="graph-share">
+            <a
+                class="twc-popitup"
+                target="_blank"
+                data-url="http://twittercounter.com/popups/share.php?text=Blimey @violentdaylight is really hustling for more followers! Check out my follower growth at %s&amp;url=http%3A%2F%2Ftwittercounter.com%2Fviolentdaylight%3Futm_source%3Dsocial-share%26utm_medium%3Dsocial%26utm_campaign%3Dother_fgraph_followers%26utm_content%3DAudience_Following%26utm_term%3DPublic_Profile&amp;via=thecounter"
+                title="Tweet this!">
+                <i id="prediction-share-line" class="flaticon solid share-3"></i>
+            </a>
+        </div>
+	</section>
+
+	<section id="graph-public-followers-wrapper" style="position: relative;">
+		<form id="graph-public-followers-form">
+			<input type="hidden" name="ids" value="violentdaylight" />
+			<input type="hidden" name="metrics" value="followers" />
+			<input type="hidden" name="timeunit"
+				value="daily" />
+		</form>
+
+		<div id="graph-public-followers-graph" class="graph-resize twc-chart-placeholder" style="position: relative;"></div>
+
+				<a href="#" id="forecasting_cta" class="modal-upsell modal-predictions" style="top: 10px; height: calc(100% - 68px);">
+			<em></em><span>Predictions</span><em></em>
+		</a>
+			</section>
+
+	
+
+</section>
+			<h2 id="public-profile-following" class="profile-public-block-title">
+				Claire Brooks <span>Following</span>
+			</h2>
+
+			<p class="profile-public-chart-description">
+				@violentdaylight is following 2,148 Twitter accounts.
+				<br>
+									Last month this account stopped following 5 users.
+							</p>
+
+			
+
+<section id="graph-public-following-container" class="card-style">
+
+	<section id="profile-filter" class="clearfix" data-type="following">
+	<div id="following-metricselector" class="left">
+		<div class="metricselector">
+
+			<div id="sel1-wrapper" class="btn-wrapper dropdown left">
+				<button class="dropdown-toggle" data-toggle="dropdown" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Switch data in the chart', 'eVal': '3', 'event': 'KPI'});">
+					<i class="flaticon solid group-1"></i>
+					<span id="sel1-label">Following</span>
+					<span class="caret"></span>
+				</button>
+				<ul id="sel1-options" class="dropdown-menu sel-options"></ul>
+			</div>
+
+						<label id="vs-text" class="greytext left">vs</label>
+
+			<div id="sel2-wrapper" class="btn-wrapper dropdown left">
+				<button class="dropdown-toggle" data-toggle="dropdown" onclick="dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Switch data in the chart', 'eVal': '3', 'event': 'KPI'});">
+					<span id="sel2-label">
+													Select a metric
+											</span>
+					<span class="caret"></span>
+				</button>
+				<ul id="sel2-options" class="dropdown-menu sel-options"></ul>
+			</div>
+
+			<span id="sel2-clear" style="display: none;">Clear</span>
+			
+		</div>
+	</div>
+
+    
+	        <div class="graph-share">
+            <a
+                class="twc-popitup"
+                target="_blank"
+                data-url="http://twittercounter.com/popups/share.php?text=Check out @violentdaylight's twitter following strategy: %s&amp;url=http%3A%2F%2Ftwittercounter.com%2Fviolentdaylight%3Futm_source%3Dsocial-share%26utm_medium%3Dsocial%26utm_campaign%3Dother_fgraph_following%26utm_content%3DAudience_Followers%26utm_term%3DPublic_Profile&amp;via=thecounter"
+                title="Tweet this!">
+                <i id="prediction-share-line" class="flaticon solid share-3"></i>
+            </a>
+        </div>
+	</section>
+
+	<section id="graph-public-following-wrapper" style="position: relative;">
+		<form id="graph-public-following-form">
+			<input type="hidden" name="ids" value="violentdaylight" />
+			<input type="hidden" name="metrics" value="following" />
+			<input type="hidden" name="timeunit"
+				value="daily" />
+		</form>
+
+		<div id="graph-public-following-graph" class="graph-resize twc-chart-placeholder" style="position: relative;"></div>
+
+			</section>
+
+	
+
+</section>
+			<h2 id="public-profile-predictions" class="profile-public-block-title">
+				Claire Brooks <span>Predictions &amp; Milestones</span>
+			</h2>
+
+			<p class="profile-public-chart-description">
+				@violentdaylight will hit 2,331 followers
+				in the next 3 months, and 2,151 in one year.
+			</p>
+
+			<div id="prediction-charts" class="card-style clearfix">
+
+	
+		<script type="text/javascript">
+	dataLayer.push({'eCat':'Modal Tracking : Logged Out', 'eAct': 'Upsell Overlay: Predictions chart', 'eLab': 'Impression', 'eVal': '1', 'event': 'KPI'});
+	</script>
+	
+	<div class="only_for_pros" style="background: url(http://cdn.twittercounter.com/images/predictions_placeholder_bg.jpg) left center no-repeat; width: 100%; height: 327px;">
+		<div class="go_premium_box" style="width: 400px; height: 210px;">
+						<p>Curious about the future of @violentdaylight’s follower growth or yours?</p>
+			<a href="/pages/pricing" class="btn red" onclick="dataLayer.push({'eCat':'Modal Tracking : Logged Out', 'eAct': 'Upsell Overlay: Predictions chart', 'eLab': 'Click', 'eVal': '5', 'event': 'KPI'});">Go Premium</a>
+					</div>
+	</div>
+	
+</div>
+    <section class="featured-users-list card-style">
+        <header class="card-style-header">Some users that we <strong>&hearts;</strong></header>
+
+        <ul class="margin-l narrow-list" id="featured-users-target">
+            <li><div class="loader"></div></li>
+        </ul>
+    </section>
+
+
+<script type="text/template" id="featured-users-card-template">
+    <% _.each(users, function(user) { %>
+        <% user.username = user.username ? user.username : user.name; %>
+        <li class="featured-user-list-item clearfix">
+            <div class="featured-user-list-wrapper clr">
+                <div class="featured-user-list-content">
+                    <div class="avatar-wrapper">
+                        <a href="/<%= user.username %>">
+                            <img
+                                alt="<%= user.name %>"
+                                class="avatar"
+                                src="<%= user.avatar %>">
+                        </a>
+                    </div>
+
+                    <div class="name-bio">
+                        <a class="name" href="/<%= user.username %>"><%= user.name %></a>
+                        <a class="uname" href="/<%= user.username %>">@<%= user.username %></a>
+                    </div>
+                </div>
+
+                <div class="follow">
+                    <a
+                        href="https://twitter.com/<%= user.username %>"
+                        class="twitter-follow-button"
+                        data-show-count="false"
+                        data-size="default"
+                        data-lang="en">Follow @<%= user.username %></a>
+
+                    <a
+                        href="https://twitter.com/<%= user.username %>"
+                        class="twitter-follow-button"
+                        data-show-count="false"
+                        data-size="large"
+                        data-lang="en">Follow @<%= user.username %></a>
+                </div>
+            </div>
+        </li>
+    <% }); %>
+</script>
+<section id="profile-description" class="card-style">
+
+	<div class="description-content">
+
+		<h2>You are on Claire Brooks's Twitter stats page</h2>
+
+		<p>
+	We track these Twitter stats since
+	May 17, 2011	. You can see how many followers
+	Claire Brooks	lost or gained and what the prediction is for tomorrow or the next 15
+	days, together with all kinds of other stats like rank compared to all
+	Twitter users, tweets etc.
+</p>
+<p>
+	Why don't you give it a try and
+			<a href="#" class="twc-popitup" data-url="/remote/login.php?referer=twittercounter" >
+			compare
+		</a>
+		Claire Brooks		to yourself
+		? Or if you are
+	Claire Brooks	get even more feature rich &amp; up-to-date stats with <a
+		href="/pages/pricing">Premium & Pro Twitter Stats</a>.
+</p>
+<p>Twitter Counter is the #1 Twitter stats site powered by Twitter. It
+	all started in June 12, 2008 and we grew rather rapidly because of our
+	Twitter Counter badge. The button is a nice small image that shows
+	your visitors how many followers you have on Twitter. Within a year
+	the button was on many many blogs around the world and we displayed
+	more than 100 million buttons in one month. We track follower stats
+	for over 180 million users now.
+</p>
+	</div>
+
+</section>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		
+		var twcPublicProfile = {
+
+			$menuLeft: null,
+
+			dataUrl: twcApp.info.baseUrl + '/chart_data/get.php',
+
+			charts: {
+				tweets: {},
+				followers: {},
+				following: {},
+			},
+
+			selectors: {},
+
+			init: function () {
+
+				this.$menuLeft = $('#left-menu');
+
+				this.charts.tweets = {
+					$el: $('#graph-public-tweets-graph'),
+					$form: $('#graph-public-tweets-form')
+				};
+				this.charts.followers = {
+					$el: $('#graph-public-followers-graph'),
+					$form: $('#graph-public-followers-form')
+				};
+				this.charts.following = {
+					$el: $('#graph-public-following-graph'),
+					$form: $('#graph-public-following-form')
+				};
+
+				this.selectors = {
+					$tweets: $('#tweets-metricselector'),
+					$followers: $('#followers-metricselector'),
+					$following: $('#following-metricselector')
+				};
+
+				this.initSelectors();
+
+				this.initEvents();
+
+				this.loadCharts();
+			},
+
+			initEvents: function () {
+				this.$menuLeft.find('a').on('click', function (e) {
+					var href = $(this).attr('href');
+
+					if ( href.substr(0,1) === '#' ) {
+						e.preventDefault();
+						$('body').animate({ 'scrollTop': $(href).offset().top - 80 });
+					}
+				});
+			},
+
+			initSelectors: function () {
+				var _this = this;
+
+				var metricOptions = {
+					'followers': {label: 'Followers', status: 'enabled', type: 'line'},
+					'following': {label: 'Following', status: 'enabled', type: 'line'},
+					'tweets'   : {label: 'Tweets',    status: 'enabled', type: 'bar'}
+				};
+				var typeIcons = {
+					line:  '<i class="ss-upwardslinechart"></i>',
+					bar:   '<i class="ss-barchart"></i>',
+				};
+
+				this.selectors.$tweets.metricselector(
+					metricOptions,
+					{
+						typeIcons: typeIcons,
+						metric2Disabled: false,
+						defaultMetric : 'tweets',
+						defaultMetric2: null
+					},
+					function (metric1, metric2) {
+						var metrics = metric1;
+						if (metric2 != null) {
+							metrics += ',' + metric2;
+						}
+						_this.charts.tweets.$form.find('input[name="metrics"]').val(metrics);
+						_this.charts.tweets.$el.twcGraphUpdate();
+						_this.scrollToGraph('tweets');
+					}
+				);
+
+				this.selectors.$followers.metricselector(
+					metricOptions,
+					{
+						typeIcons: typeIcons,
+						metric2Disabled: false,
+						defaultMetric : 'followers',
+						defaultMetric2: null
+					},
+					function (metric1, metric2) {
+						var metrics = metric1;
+						if (metric2 != null) {
+							metrics += ',' + metric2;
+						}
+						_this.charts.followers.$form.find('input[name="metrics"]').val(metrics);
+						_this.charts.followers.$el.twcGraphUpdate();
+						_this.scrollToGraph('followers');
+					}
+				);
+
+				this.selectors.$following.metricselector(
+					metricOptions,
+					{
+						typeIcons: typeIcons,
+						metric2Disabled: false,
+						defaultMetric : 'following',
+						defaultMetric2: null
+					},
+					function (metric1, metric2) {
+						var metrics = metric1;
+						if (metric2 != null) {
+							metrics += ',' + metric2;
+						}
+						_this.charts.following.$form.find('input[name="metrics"]').val(metrics);
+						_this.charts.following.$el.twcGraphUpdate();
+						_this.scrollToGraph('following');
+					}
+				);
+
+			},
+
+			loadChart: function (metric) {
+				this.charts[metric].$el.twcGraph({
+					'dataUrl': this.dataUrl,
+					'dataForm': this.charts[metric].$form
+				},{
+					'showPrediction': true,
+					'predictionDays': 2
+				});
+			},
+
+			loadCharts: function () {
+				this.loadChart('tweets');
+				this.loadChart('followers');
+				this.loadChart('following');
+			},
+
+			updateChart: function (metric) {
+				this.charts[metric].$el.twcGraphUpdate();
+			},
+
+			updateCharts: function () {
+				this.updateChart('tweets');
+				this.updateChart('followers');
+				this.updateChart('following');
+			},
+
+			scrollToGraph: function (chartId) {
+				chartId = chartId || 'tweets';
+				$('body').animate({ 'scrollTop': this.charts[chartId].$el.offset().top - 120 });
+			}
+		};
+
+		var serverCurrentDay = twcApp.info.serverCurrentDay,
+			timeRange = twcApp.view.data.timeRange,
+			rangeSelFormat = 'MMM D, YYYY',
+			$rangeSelBtn = $('#reportrange span');
+
+		$rangeSelBtn.html(moment(timeRange.start).format(rangeSelFormat) + ' - ' + moment(timeRange.end).format(rangeSelFormat));
+		
+				$('.calender_login_popover').on('click',function()
+		{
+			dataLayer.push({'eCat':'Modal Tracking : Logged Out', 'eAct': 'Need historical data box with CTA', 'eLab': 'Impression', 'eVal': '1', 'event': 'KPI'});
+		});
+		
+		twcPublicProfile.init();
+		//date apply button
+		$('.twc-drp-input-apply button.btn').on('click',function()
+		{
+			dataLayer.push({'eCat':'Engagement : Logged  ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Change date range', 'eVal': '3', 'event': 'KPI'});
+		});
+		
+		prediction_chart = $('#prediction-chart .chart-slider');
+		prediction_chart.on({
+			mouseup: function(){
+				
+			dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Engage prediction chart', 'eVal': '3', 'event': 'KPI'});
+			}
+		});
+		
+		prediction_bar_chart = $('#prediction-bar-chart .chart-slider');
+		prediction_bar_chart.on({
+			mouseup: function(){
+				
+			dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Engage milestones chart', 'eVal': '3', 'event': 'KPI'});
+			}
+		});
+		
+		/*//prediction charts
+		$('#prediction-chart-checker').val('');
+		$('#prediction-chart-con').mouseleave(function()
+		{
+			if($('#prediction-chart-checker').val() != '')
+			{
+				 
+				dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Engage prediction chart', 'eVal': '3', 'event': 'KPI'});
+			}
+			 
+		});
+		
+		//prediction bar chart
+		$('#prediction-bar-chart-checker').val('');
+		$('#prediction-bar-chart-con').mouseleave(function()
+		{
+			if($('#prediction-bar-chart-checker').val() != '')
+			{
+				dataLayer.push({'eCat':'Engagement : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'P > Public Profiles', 'eLab': 'Engage milestones chart', 'eVal': '3', 'event': 'KPI'});
+				$('#prediction-bar-chart-checker').val('');
+			}
+			else
+			{
+				//alert('Milestones chart not changed');
+			}
+		});*/
+		
+		//switch the data in the tweet chart
+		$('#graph-public-tweets-container #sel1-wrapper #sel1-options li a').on('click',function()
+		{
+			//alert('Tweets chart data change');
+		});
+		
+		$('#graph-public-tweets-container #sel2-wrapper #sel2-options li a').on('click',function()
+		{
+			//alert('Tweets chart data change');
+		});
+		
+		//switch the data in the followers chart
+		$('#graph-public-followers-container #sel1-wrapper #sel1-options li a').on('click',function()
+		{
+			//alert('Followers chart data change');
+		});
+		
+		$('#graph-public-followers-container #sel2-wrapper #sel2-options li a').on('click',function()
+		{
+			//alert('Followers chart data change');
+		});
+		
+		//switch the data in the following chart
+		$('#graph-public-following-container #sel1-wrapper #sel1-options li a').on('click',function()
+		{
+			//alert('Following chart data change');
+		});
+		
+		$('#graph-public-following-container #sel2-wrapper #sel2-options li a').on('click',function()
+		{
+			//alert('Following chart data change');
+		});
+
+
+	});
+</script>
+
+<div id="right-menu" style="position: relative;">
+
+	<div class="theiaStickySidebar">
+	
+		
+		<div class="featured_users_header">
+			<a href="http://twittercounter.com/blog/2015/09/how-twitter-can-help-build-your-personal-brand/" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'P > Top 100', 'eLab': 'Click blog snippet', 'eVal': '2', 'event': 'KPI'});">
+				<h6>Personal Branding in 140 characters</h6>
+				<p><span id="blog-snippet">Learn how Twitter can help you build your personal brand</span> <i class="flaticon solid right-3"></i></p>
+			</a>
+		</div>
+		
+		
+		<h6>Suggested Users <a href="#" id="featured_refresh" onclick="ga('newTracker.send', 'event', 'Menu Right', 'Refresh', {'nonInteraction': 1}); analytics.track('Clicked Right Sidebar Link', { element: 'Refresh' });">Refresh</a></h6>
+		<div id="featured_users_banner" class="vertical">
+			<div class="loader"></div>
+		</div>
+
+		<div id="twittercounter-advertisement" style="padding: 15px"></div>
+
+	</div>
+
+</div>
+			</div><!-- end container-large -->
+
+			
+			<div class="blue_bar">
+				<div class="con_1040 center">
+					<h3 class="thin">Check your own Twitter Stats for <b>Free</b>!</h3>
+					<a href="#" id="sign_in" class="sign_in twc-popitup" title="Sign in with Twitter" rel="nofollow"
+						data-url="/remote/login.php?referer=twittercounter" onclick="dataLayer.push({'eCat':'Conversion : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'G > Footer', 'eLab': 'Sign In', 'eVal': '5', 'event': 'KPI'});analytics.track('Signed In', { on: 'Footer' });">
+							Sign in <span class="full"><span class="ex">with</span> Twitter</span>
+					</a>
+				</div>
+			</div>
+
+			
+			
+	<style>
+		/* This parent can be any width and height */
+		.centered_div_con {
+			text-align: center;
+			height: 196px;
+			margin-top: 30px;
+		}
+
+		/* The element to be centered, can
+		   also be of any width and height */
+		.centered_div {
+			display: inline-block;
+			vertical-align: middle;
+		}
+	</style>
+
+	<div class="twc-modal animated" id="signin_modal" style="display: none">
+		<div class="content-slide">
+
+			<h2 class="title">Check your own stats!</h2>
+			<h6 class="sub_heading">Get the most out of Twitter Counter</h6>
+
+			<div class="centered_div_con">
+				<div class="centered_div">
+
+				
+					<p><span class="number">134 <span>users</span></span> have signed in to check their stats <br /><span>in the last hour (!)</span></p>
+
+				
+				</div>
+			</div>
+
+			<div class="slide-bottom">
+				<a href="#" class="btn green btn-big done twc-popitup"
+					data-url="/remote/login.php?referer=twittercounter"
+					onclick="dataLayer.push({'eCat':'Modal Tracking : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'Check your own stats modal', 'eLab': 'Sign In', 'eVal': '5', 'event': 'KPI'});analytics.track('Signed in', { source: 'Sign in modal', text: 'Sign In (Social Proof)' });" >
+						<i class="ss-social ss-icon ss-twitter"></i>Sign in with Twitter
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		dataLayer.push({'eCat':'Modal Tracking : Logged Out', 'eAct': 'Check your own stats modal', 'eLab': 'Impression', 'eVal': '1', 'event': 'KPI'});
+	</script>
+
+<style>
+	/* This parent can be any width and height */
+	.centered_div_con {
+		text-align: center;
+		height: 196px;
+	}
+
+	/* The element to be centered, can
+	   also be of any width and height */
+	.centered_div {
+		display: inline-block;
+		vertical-align: middle;
+	}
+</style>
+<script>
+function get_modal_title()
+{
+	 model_title = $('#object-title').html();
+	 return model_title;
+}
+</script>
+
+
+<div class="twc-modal animated" id="upsell_modal" style="display: none">
+	<div class="twc-modal_close_btn">
+		<a href="#" title="" id="modal_close"><i class="flaticon solid x"></i></a>
+	</div>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="content-slide clearfix" id="introslide">
+
+						<div class="left" style="width: 48%; margin-right: 4%;">
+							<img id="object-thumb" src="" style="border-radius: 5px;" />
+						</div>
+
+						<div class="right upsell-content" style="width: 48%;">
+							<h3 id="object-title">Reach</h3>
+							<p id="object-description">Reach is the ultimate tool to discover who the biggest influencers are among your followers and who you need to engage with to get the biggest possible reach.</p>
+							<span class="object-sub">Available in: <span id="object-package" class="package">Individual</span></span>
+							<span class="object-sub">Ideal for: <span id="object-ideal" class="ideal_for">brands, agencies and trendsetters</span></span>
+
+							<div class="slide-bottom">
+							<a href="/pages/pricing" id="object-cta" class="btn red btn-big done" style="font-weight: 600;" onclick="ga('newTracker.send', 'event', 'General', 'Menu Left', 'Upgrade your plan', {'nonInteraction': 1}); analytics.track('Clicked CTA in Upsell Modal', { text: 'Upgrade your plan' }); dataLayer.push({'eCat':'Modal Tracking : Logged In', 'eAct': 'General Upsell Modal: '+get_modal_title(), 'eLab': 'Click', 'eVal': '5', 'event': 'KPI'});">
+								Upgrade your plan
+							</a>
+                            
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+			<footer id="main" class="logged-out">
+				<div class="con_1040 clearfix">
+
+					<div class="col copyright">
+						<a id="header_logo" class="footer_logo left" href="/" rel="nofollow" title="Twitter followers stats by Twitter Counter">
+							<svg width="180" height="16">
+								<image xlink:href="http://cdn.twittercounter.com/images/header_logo.svg" src="http://cdn.twittercounter.com/images/header_logo.png" width="180" height="16" />
+							</svg>
+						</a>
+						<p class="copyright_text">
+							&copy; 2008 &ndash; 2016							<br /><br />Twitter Counter is a third party application for Twitter. The Twitter name is licensed from Twitter, Inc.
+
+							<a href="http://foundedinholland.com/" class="founded-in-holland" target="_blank">
+								<svg width="150" height="20">
+									<image xlink:href="http://cdn.twittercounter.com/images/foundedinholland.svg" src="http://cdn.twittercounter.com/images/foundedinholland.png" width="150" height="20" />
+								</svg>
+							</a>
+
+							<a href="/privacy-policy.pdf" rel="nofollow" title="Privacy Policy">Privacy Policy</a>
+							&nbsp;&bull;&nbsp; <a href="/terms-of-service.pdf" rel="nofollow" title="Privacy Policy">Terms of Service</a>
+						</p>
+
+						<ul class="social-media-links">
+							<li><a href="https://www.facebook.com/twittercounter" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'G > Footer', 'eLab': 'Social > FB', 'eVal': '2', 'event': 'KPI'}); analytics.track('Clicked Social Link', { label: 'Facebook' });" target="_blank"><i class="ss-social ss-facebook"></i></a></li>
+							<li><a href="https://twitter.com/intent/user?screen_name=TheCounter" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'G > Footer', 'eLab': 'Social > Twitter', 'eVal': '2', 'event': 'KPI'}); analytics.track('Clicked Social Link', { label: 'Twitter' });" target="_blank"><i class="ss-social ss-twitter"></i></a></li>
+							<li><a href="https://plus.google.com/103129809303133745094/about" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'G > Footer', 'eLab': 'Social > Google', 'eVal': '2', 'event': 'KPI'}); analytics.track('Clicked Social Link', { label: 'Google Plus' });" target="_blank"><i class="ss-social ss-googleplus"></i></a></li>
+														<li><a href="https://instagram.com/twittercounter" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'G > Footer', 'eLab': 'Social > Instagram', 'eVal': '2', 'event': 'KPI'}); analytics.track('Clicked Social Link', { label: 'Instagram' });" target="_blank"><i class="ss-social ss-instagram"></i></a></li>
+							<li><a href="https://pinterest.com/twittercounter" onclick="dataLayer.push({'eCat':'Engagement : Logged '+twcApp.getLoggedStatus(), 'eAct': 'G > Footer', 'eLab': 'Social > Pinterest', 'eVal': '2', 'event': 'KPI'}); analytics.track('Clicked Social Link', { label: 'Pinterest' });" target="_blank"><i class="ss-social ss-pinterest"></i></a></li>
+						</uL>
+
+					</div>
+					<div class="col show-on-tablet">
+						<h4>Twitter Counter</h4>
+						<ul>
+							<li><a href="/pages/features" title="Features" onclick="ga('newTracker.send', 'event', 'Footer', 'Features', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'Features' });">Features</a></li>
+							<li><a href="/pages/pricing" title="Pricing" onclick="ga('newTracker.send', 'event', 'Footer', 'Pricing', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'Pricing' });">Pricing</a></li>
+							<li><a href="/about" title="About" onclick="ga('newTracker.send', 'event', 'Footer', 'About', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'About' });">About</a></li>
+							<li><a href="/jobs" title="Jobs" onclick="ga('newTracker.send', 'event', 'Footer', 'Jobs', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'Jobs' });">Jobs</a></li>
+							<li><a href="/blog" title="Blog" onclick="ga('newTracker.send', 'event', 'Footer', 'Blog', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'Blog' });">Blog</a></li>
+							<li><a href="http://press.twittercounter.com/" title="Press" onclick="ga('newTracker.send', 'event', 'Footer', 'Press', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'Press' });">Press</a></li>
+							<li><a href="http://help.twittercounter.com" title="Help &amp; FAQ" onclick="ga('newTracker.send', 'event', 'Footer', 'FAQ', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'FAQ' });" target="_blank">Help &amp; FAQ</a></li>
+							<li><a href="mailto:support@twittercounter.com" title="Contact &amp; Support">Contact &amp; support</a></li>
+						</ul>
+					</div>
+					<div class="col">
+						<h4>Free Tools</h4>
+						<ul>
+							<li><a href="/pages/buttons" title="Twitter Button" onclick="ga('newTracker.send', 'event', 'Footer', 'Twitter Button', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'Twitter Button' });">Twitter Button</a></li>
+							<li><a href="/pages/twitter-widget" title="Twitter Widget" onclick="ga('newTracker.send', 'event', 'Footer', 'Twitter Widget', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'Twitter Widget' });">Twitter Widget</a></li>
+							<li><a href="/pages/twittermail" title="Twitter Mail" onclick="ga('newTracker.send', 'event', 'Footer', 'Twitter Mail', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'Twitter Mail' });">Twitter Mail</a></li>
+							<li><a href="/pages/notifications" title="Milestone notifications" onclick="ga('newTracker.send', 'event', 'Footer', 'Milestone notifications', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'Milestone Notifications' });">Milestone notifications</a></li>
+														<li><a href="/pages/100" title="Top 100 Twitter Users" onclick="ga('newTracker.send', 'event', 'Footer', 'Top 100 Twitter Users', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'Top 100 Twitter Users' });">Top 100 Twitter users</a></li>
+							<li><a href="/pages/api" title="API Documentation" onclick="ga('newTracker.send', 'event', 'Footer', 'API Documentation', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'API Documentation' });">API Documentation</a></li>
+						</ul>
+					</div>
+					<div class="col">
+						<h4>Paid Tools</h4>
+						<ul>
+							<li><a href="/pages/featured" title="Get Twitter Followers" onclick="ga('newTracker.send', 'event', 'Footer', 'Get Twitter Followers', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'Get Twitter Followers' });">Get Twitter followers</a></li>
+							<li><a href="/pages/buy-stats" title="Buy Stats" onclick="ga('newTracker.send', 'event', 'Footer', 'Buy Stats', {'nonInteraction': 1}); analytics.track('Clicked Footer Link', { page: 'Buy Stats' });">Buy Stats</a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</footer>
+
+			
+			<!-- start Mobile Time Range Selector -->
+			<div id="mobile-time-range-selector"></div>			<!-- end Mobile Time Range Selector -->
+
+			<script type="text/javascript" src="http://cdn.twittercounter.com/js/dist/libraries.6ea19c33329b0d95047efb468d14e1ef55b9304a.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://cdn.twittercounter.com/js/app.6ea19c33329b0d95047efb468d14e1ef55b9304a.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://cdn.twittercounter.com/js/charts/charts.6ea19c33329b0d95047efb468d14e1ef55b9304a.js" charset="utf-8"></script>
+
+		<script type="text/javascript" src="http://cdn.twittercounter.com/js/pages/profile.6ea19c33329b0d95047efb468d14e1ef55b9304a.js" charset="utf-8"></script>
+			<script type="text/javascript" src="http://cdn.twittercounter.com/js/classes/class.graphselectors.6ea19c33329b0d95047efb468d14e1ef55b9304a.js" charset="utf-8"></script>
+	
+<script type="text/javascript">
+
+	var nav; // Global namespace
+    var loadSidebarSticky = function(){
+		// Init the sticky sidebars
+		$('#left-menu').theiaStickySidebar({
+			additionalMarginTop: 55,
+			minWidth: 1025
+		});
+
+		$('#right-menu').theiaStickySidebar({
+			additionalMarginTop: 40,
+			minWidth: 769
+		});
+    };
+
+	$(document).ready(function() {
+
+		
+		
+		// twcApp.initInfo must have been called to call twcApp.init();
+		twcApp.init();
+
+		
+		nav = $('header#main').nav({
+			fixedSidebar: false,
+			closeSidebar: function(){
+
+			},
+			openSidebar: function(){
+
+			}
+		});
+
+        loadSidebarSticky();
+	});
+</script>
+
+
+	<script>
+
+        // Config: How much users do we wanna show at
+        // the featured users side bar widget and
+        // featured users card
+        var REQUESTED_PROFILES = 10; //request 10, 5 for the card and 5 for sidebar
+
+        var FEATURED_PROFILES = 5;
+        var SIDEBAR_FEATURED_PROFILES = 5;
+
+
+
+		$('.menu_left_search').on({
+			focus: function(){
+				$('.menu_left_button').addClass('focus');
+			},
+			blur: function(){
+				if($(this).val() === ''){
+					$('.menu_left_button').removeClass('focus');
+				}
+			}
+		});
+
+        var loadFeaturedUsersCard = function(data){
+            if(!$('.featured-users-list').length) return;
+
+            var target = $('#featured-users-target')
+            target.hide();
+
+            var data     = eval(JSON.parse($('#featured_users_banner ul').data('json')));
+            var sliced   = data.slice(5, 5 + FEATURED_PROFILES);
+            data         =  sliced ? sliced : data;
+
+            var template = _.template($('#featured-users-card-template').html());
+            var compiled = template({ users: data });
+
+            target.html(compiled);
+            target.fadeIn();
+
+            var waitForTwtrr = setInterval(function(){
+                if(typeof twttr !== 'undefined') {
+                    twttr.widgets.load();
+                    clearInterval(waitForTwtrr);
+                }
+            }, 1000);
+
+        };
+
+        var createLoader = function(target, bgColor){
+			return new TWCLoading({parent: target.find('.loader'), options: { scale: (4/3), color: '#818a92', bgColor: bgColor } });
+        };
+
+		var $featuredUsersBanner = $('#featured_users_banner');
+			$featuredUsersBanner.hide();
+        var fA = REQUESTED_PROFILES;
+
+
+		function loadFeaturedUsers(){
+			if(fA !== 0){
+
+				$featuredUsersBanner.show();
+				$featuredUsersBanner.css('opacity', .5);
+
+                createLoader($featuredUsersBanner, $featuredUsersBanner.hasClass('vertical') ? '#F3F6F8' : '#E1E8ED');
+                createLoader($('#featured-users-target'), '#FFFFFF');
+
+                $.get('/featured/', {
+                    amount: fA,
+                    sidebar_amount: SIDEBAR_FEATURED_PROFILES,
+                    country_code: 'US'
+                }, function(data) {
+					$featuredUsersBanner.find('.loader').hide();
+					$featuredUsersBanner.html(data);
+					$featuredUsersBanner.css('opacity', 1);
+
+                    if($(window).width() <= 479) {
+                        $('#featured_users_banner ul li').slice(3, 6).remove()
+                    }
+
+					if( $featuredUsersBanner.find('li').length < 5 ) {
+						$('#featured_refresh').hide();
+					}
+
+                    loadSidebarSticky();
+                    loadFeaturedUsersCard();
+				});
+			}
+		}
+
+		loadFeaturedUsers();
+
+		$('#featured_refresh').on('click', function(e){
+			e.preventDefault();
+			loadFeaturedUsers();
+		})
+	</script>
+
+
+
+<script>
+
+    $(function() {
+
+        var modalOpen = false,
+                modalOpenName = '',
+                action = (Modernizr.touch) ? 'touchstart' : 'click',
+                veil = $('#veil');
+
+
+            var upsellModalTrigger = $('.modal-upsell'),
+                    upsellModal = $('#upsell_modal'),
+                    upsellModalClose = upsellModal.find('#modal_close');
+
+            function getModalContent(c) {
+                var obj = {};
+                switch (true) {
+                    case (c == 'modal-upsell modal-unfollowers'):
+                        obj = {
+                            'title': 'Unfollowers',
+                            'description': 'See who stopped following you on Twitter, ordered by their influence, and ask them why they left.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/unfollowers.jpg',
+                            'package': 'Individual, Professional, Business',
+                            'ideal_for': 'Individuals, SMBs, Non profits'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-new-followers'):
+                        obj = {
+                            'title': 'New Followers',
+                            'description': 'Keep track of your account’s growth, welcome new followers and quickly start engaging with them.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/new-followers.jpg',
+                            'package': 'Individual, Professional, Business',
+                            'ideal_for': 'Individuals, SMBs, Non profits'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-reach'):
+                        obj = {
+                            'title': 'Reach',
+                            'description': 'How far are your tweets taking you? Find out how many people are potentially exposed to your content.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/reach.jpg',
+                            'package': 'Professional, Business',
+                            'ideal_for': 'Brands, agencies and trendsetters'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-my-retweets'):
+                        obj = {
+                            'title': 'My Retweets',
+                            'description': 'Are you spreading some Twitter love? Gain insight into who you engage with the most on Twitter.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/my-retweets.jpg',
+                            'package': 'Individual, Professional, Business',
+                            'ideal_for': 'Individuals, SMBs, Non profits'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-my-mentions'):
+                        obj = {
+                            'title': 'My Mentions',
+                            'description': 'Are you interacting with the right people? Keep track of your conversations with other Twitter users and see how active you are within your community.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/my-mentions.jpg',
+                            'package': 'Individual, Professional, Business',
+                            'ideal_for': 'Individuals, SMBs, Non profits'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-interactions'):
+                        obj = {
+                            'title': 'Interaction Overview',
+                            'description': 'Maximize your impact and engagement with insights into the most effective times for you to tweet.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/overview_upgrade_modal.jpg',
+                            'package': 'Individual, Professional, Business, Unlimited',
+                            'ideal_for': 'Everyone'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-best-tweet'):
+                        obj = {
+                            'title': 'Best time to tweet',
+                            'description': 'Maximize your impact and engagement with insights into the most effective times for you to tweet.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/best_time_tweet_modal.jpg',
+                            'package': 'Individual, Professional, Business, Unlimited',
+                            'ideal_for': 'Everyone'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-mentions'):
+                        obj = {
+                            'title': 'Mentions',
+                            'description': 'Are you tweeting the right content? Keep track of all the accounts that reach out to you on Twitter and find out which of your tweets stir the most conversation.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/mentions_upgrade_modal.jpg',
+                            'package': 'Individual, Professional, Business, Unlimited',
+                            'ideal_for': 'Individuals, SMBs, Non profits'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-retweets'):
+                        obj = {
+                            'title': 'Retweets',
+                            'description': 'Who is the number one Twitter ambassador for your content? Measure which of your tweets are shared the most, how often and by whom.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/retweets_upgrade_ modal.jpg',
+                            'package': 'Individual, Professional, Business, Unlimited',
+                            'ideal_for': 'Everyone'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-favorites'):
+                        obj = {
+                            'title': 'Likes',
+                            'description': 'Learn which of your tweets are becoming Twitter’s likes and who finds your content interesting.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/favorites_upgrade_modal.jpg',
+                            'package': 'Individual, Professional, Business, Unlimited',
+                            'ideal_for': 'Everyone'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-tracker'):
+                        obj = {
+                            'title': 'Tracker',
+                            'description': 'Monitor your Twitter reputation and track hashtags, keywords and mentions. Stay on top of the Twitter buzz around major events and evaluate the success of your Twitter campaigns.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/tracker.jpg',
+                            'package': 'Individual, Professional, Business',
+                            'ideal_for': 'Brands, Agencies, Start-ups'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-profile-checker'):
+                        obj = {
+                            'title': 'Profile Checker',
+                            'description': 'Find out your profile’s strengths and weaknesses and provide you with handy recommendations on points of improvement.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/profile_checker.jpg',
+                            'package': 'Individual, Professional, Business',
+                            'ideal_for': 'Everyone'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-compare'):
+                        obj = {
+                            'title': 'Compare',
+                            'description': 'Plot your own Twitter performance next to that of your competitors and keep track of their Twitter growth and volume of tweets for an even deeper understanding of your progress.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/compare.jpg',
+                            'package': 'Individual, Professional, Business',
+                            'ideal_for': 'Brands, Agencies, Start-ups'
+                        }
+                        break;
+                    case (/modal-upsell modal-simple-compare/.test(c)):  
+                        obj = {
+                            'title': 'Quick Compare',
+                            'description': 'Whether you have a Twitter ‘nemesis’ whom you want to outperform or simply wondering how two Twitter accounts perform against each other, you can get the perspective you need.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/compare.jpg',
+                            'package': 'Individual, Professional, Business',
+                            'ideal_for': 'Brands, Agencies, Start-ups'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-pdf'):
+                        obj = {
+                            'title': 'PDF Exports',
+                            'description': 'Generate insightful reports on your account’s Twitter growth and engagement rate complete with slick graphs, and share your account’s progress with your team or clients. All in just one click!',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/favorites.jpg',
+                            'package': 'Professional, Business, Unlimited',
+                            'ideal_for': 'Brands, Agencies, Start-ups'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-export'):
+                        obj = {
+                            'title': 'Export Stats',
+                            'description': 'Export your Twitter statistics easily into one neat excel file and produce your own custom performance reports with absolute freedom!',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/export.jpg',
+                            'package': 'Professional, Business, Unlimited',
+                            'ideal_for': 'Brands, Agencies, Start-ups'
+                        }
+                        break;
+                    case (c == 'modal-upsell add-account'):
+                        obj = {
+                            'title': 'Multiple Accounts',
+                            'description': 'Do you manage several Twitter accounts? Gain access to actionable insights into all your accounts from one place and save time on your Twitter reports with easy account switching.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/multiple-accounts.jpg',
+                            'package': 'Business, Unlimited',
+                            'ideal_for': 'Brands, Agencies, Start-ups'
+                        }
+                        break;
+                    case (c == 'modal-upsell modal-predictions'):
+                        obj = {
+                            'title': 'Predictions',
+                            'description': 'See your audience growth evolve in the next days, next months or even the next millennium with predictions based on your current stats.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/predictions.jpg',
+                            'package': 'Individual, Professional, Business',
+                            'ideal_for': 'Everyone',
+                            'cta': 'Go Premium'
+                        }
+                        break;
+
+                    default:
+                        obj = {
+                            'title': 'Reach',
+                            'description': 'Reach is the ultimate tool to discover who the biggest influencers are among your followers and who you need to engage with to get the biggest possible reach.',
+                            'thumb': 'http://cdn.twittercounter.com/images/upsell-modal/reach.jpg',
+                            'package': 'Professional, Business',
+                            'ideal_for': 'Brands, agencies and trendsetters'
+                        }
+                        break;
+                }
+                return obj;
+            }
+            ;
+
+            if (Modernizr.touch) {
+                upsellModalTrigger.each(function() {
+                    var _this = $(this),
+                            hammer = new Hammer(_this[0]).on('tap', function(e) {
+                        openUpsellModal(_this, e);
+                    });
+                });
+            } else {
+                upsellModalTrigger.on(action, function(e) {
+                    openUpsellModal($(this), e);
+                });
+            }
+
+            upsellModalClose.on(action, function(e) {
+                ga('newTracker.send', 'event', 'User', 'Upsell Modal', 'X', {'nonInteraction': 1});
+                analytics.track('Close Modal', {modal: 'Upsell Modal', how: 'X'});
+                e.preventDefault();
+                closeModal();
+            });
+            var countert = 1;
+            function openUpsellModal(trigger, e) {
+                e.preventDefault();
+
+                if ($(window).width() < 1024) {
+                    nav.closeSidebar();
+                }
+
+                var contentObj = getModalContent(trigger.attr('class'));
+
+                $('#object-title').text(contentObj.title);
+                $('#object-description').text(contentObj.description);
+                $('#object-thumb').attr('src', contentObj.thumb);
+                $('#object-package').text(contentObj.package);
+                $('#object-ideal').text(contentObj.ideal_for);
+                if(typeof contentObj.cta !== 'undefined') {
+                    $('#object-cta').text(contentObj.cta);
+                }
+
+                veil.addClass('fadeIn').show();
+
+                upsellModal.addClass('fadeInUp').show();
+                modalOpen = upsellModal;
+                modalOpenName = 'Upsell Modal';
+				dataLayer.push({'eCat':'Modal Tracking : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'General Upsell Modal: '+contentObj.title, 'eLab': 'Impression', 'eVal': '1', 'event': 'KPI'});
+
+                //Changes here.
+				/*
+                $cName = trigger.attr('class');
+                if ($cName == "modal-upsell modal-pdf") {
+                    if (countert > 1) {
+                        setTimeout(function() {
+                            closeModal();
+                        }, 2000);
+                    }
+                }
+                countert++;
+				*/
+            }
+
+
+            var signinModal = $('#signin_modal');
+
+            setTimeout(function() {
+                if (modalOpen === false) {
+                    veil.addClass('fadeIn').show();
+                    signinModal.addClass('fadeInUp').show();
+                    modalOpen = signinModal;
+                    modalOpenName = 'Sign In Modal';
+                }
+            }, 6000);
+
+    
+        
+         veil.on(action, function(e) {
+         e.preventDefault();
+         ga('newTracker.send', 'event', 'User', modalOpenName, 'Close Outside Box', {'nonInteraction': 1});
+         analytics.track('Close Modal', { modal: modalOpenName, how: 'Close Outside Box' });
+         closeModal();
+         });
+         
+
+        $(document).keyup(function(e) {
+            if (e.keyCode == 27) {
+                e.preventDefault();
+                ga('newTracker.send', 'event', 'User', modalOpenName, 'ESC', {'nonInteraction': 1});
+                analytics.track('Close Modal', {modal: modalOpenName, how: 'ESC'});
+                closeModal();
+            }
+        });
+
+        function setSigninCookie() {
+            var key = 'signin-modal-hide',
+                    value = '1',
+                    expires = new Date();
+
+            expires.setTime(expires.getTime() + (1 * 24 * 60 * 60 * 1000));
+            document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+        }
+
+        function closeModal(p, forceClose) {
+
+            var p = (p === undefined) ? false : true;
+            forceClose = forceClose || false;
+
+            if (modalOpen !== false) {
+
+                if (!forceClose && $(modalOpen).data('sticky-modal')) {
+                    return;
+                }
+
+                modalOpen.removeClass('fadeInUp').addClass('fadeOutDown');
+                veil.removeClass('fadeIn').addClass('fadeOut');
+
+                if (modalOpenName == 'Intro Modal') {
+                    storeSettings(welcome_twitterID, welcome_email, welcome_sendreport, welcome_autofollow, welcome_followTheCounter, p);
+                }
+
+                modalOpen.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+					
+					if(!$(this).hasClass('fadeInUp'))
+					{
+						$(this).removeClass('fadeOutDown').hide();
+						veil.removeClass('fadeOut').css('background', 'rgba(42, 59, 68, 0.3)').hide();
+	
+						if (modalOpenName === 'Sign In Modal') {
+							setSigninCookie();
+						}
+	
+						modalOpen = false;
+						modalOpenName = '';
+					}
+                });
+				
+				 model_title = $('#object-title').html();
+				 dataLayer.push({'eCat':'Modal Tracking : Logged ' + twcApp.getLoggedStatus(), 'eAct': 'General Upsell Modal: '+model_title, 'eLab': 'Close', 'eVal': '1', 'event': 'KPI'});
+
+            } else {
+                veil.removeClass('fadeIn').hide();
+            }
+        }
+
+
+    });
+
+</script>
+  
+
+<script type="text/javascript">
+	// Crazy Egg, crazyegg.com
+	setTimeout(function(){var a=document.createElement("script");
+		var b=document.getElementsByTagName("script")[0];
+		a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0021/0830.js?"+Math.floor(new Date().getTime()/3600000);
+		a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+
+
+<script type="text/javascript">
+
+	
+	// Initialize twcApp info attribute right before the document is ready,
+	// so data can be used within all '$(document).ready' callbacks
+	twcApp.initInfo({"baseUrl":"http:\/\/twittercounter.com","env":"live","serverCurrentDay":"2016-02-18","user":{"username":null,"countryCode":"US"}});
+
+</script>
+
+		</div>
+		 <script>
+		$(document).ready(function() {
+			$('#notifications-content ul li a').on('click',function() {
+				alert('Notification clicked');        
+			});
+		});
+		</script>
+		<!-- This div contains the whole site, like magic. -->
+
+		<!-- Idea Informer tag -->
+		<script type="text/javascript">
+		reformal_wdg_w    = "713";
+		reformal_wdg_h    = "460";
+		reformal_wdg_domain    = "twittercounter";
+		reformal_wdg_mode    = 0;
+		reformal_wdg_title   = "Twitter Counter";
+		reformal_wdg_ltitle  = "WISHLIST";
+		reformal_wdg_lfont   = "Verdana, Geneva, sans-serif";
+		reformal_wdg_lsize   = "12px";
+		reformal_wdg_color   = "#5dc8e3";
+		reformal_wdg_bcolor  = "#5dc9e4";
+		reformal_wdg_tcolor  = "#FFFFFF";
+		reformal_wdg_align   = "right";
+		reformal_wdg_waction = 0;
+		reformal_wdg_vcolor  = "#85CC5A";
+		reformal_wdg_cmline  = "#e9edef";
+		reformal_wdg_glcolor  = "#2fbee2";
+		reformal_wdg_tbcolor  = "#FFFFFF";
+		reformal_wdg_bimage = "http://twittercounter.com/images/wishlist_button.png";
+		</script>
+		<script type="text/javascript" language="JavaScript" src="http://idea.informer.com/tabn2v4.js?domain=twittercounter"></script>
+
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e63e8192b8","applicationID":"4292109","transactionName":"YlYGYBFXC0cHVUVcXlscMUYKGQxaAlNJG0FdQw==","queueTime":0,"applicationTime":128,"atts":"ThEFFllNGEk=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+</html>

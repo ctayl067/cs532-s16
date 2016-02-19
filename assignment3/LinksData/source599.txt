@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta name="robots" content="nofollow" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, post-check=0, pre-check=0" />
+	<meta http-equiv="Expires" content="Thu, 01 Dec 1994 16:00:00 GMT" />
+	<title>さおちゃん(@saori129sid)のプロフィール - ツイフィール</title>
+	<meta property="og:locale" content="ja_JP" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://twpf.jp/saori129sid" />
+	<meta property="og:image" content="http://pbs.twimg.com/profile_images/671660846653706240/GXYFeEOx_normal.jpg" />
+	<meta property="og:title" content="さおちゃん(@saori129sid)のプロフィール - ツイフィール" />
+	<meta property="og:site_name" content="ツイフィール" />
+	<meta property="og:description" content="@さおちゃん(@saori129sid)さんのプロフィールです。" />
+	<meta name="description" content="@さおちゃん(@saori129sid)さんのプロフィールです。" />
+	<link rel="alternate" media="handheld" href="http://twpf.jp/saori129sid" />
+	<link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" type="text/css" href="/css/common.css?1407302277" />
+	<link rel="stylesheet" type="text/css" href="/css/style_default.css?1407302277" />
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.laquu.custom.js?1407302279"></script>
+	<script type="text/javascript" src="/js/style_default.js?1407302280"></script>
+	<script type="text/javascript" src="/js/showFeed.js?1407302280"></script>
+	<style type="text/css">
+		body {
+							background-image: url("http://abs.twimg.com/images/themes/theme1/bg.png");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+						background-color: #C0DEED !important;
+		}
+		#container a { color: #0084B4 !important; }
+	</style>
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push( [ '_setAccount', 'UA-11147513-7' ]);
+	_gaq.push( [ '_trackPageview' ]);
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+<div id="topbar">
+	<div class="wrapper cf">
+		<div id="topbar-logo"><a href="/"><img src="/img/twpf-logo-mini.png?1407302278" alt="" /></a></div>
+		<ul id="topbar-navi">
+			<li><a href="/about">サイトについて</a></li>
+			<li><a href="/search/profile">プロフィール検索</a></li>
+			<li><a href="#">遊ぶ▼</a>
+				<ul>
+					<li><a href="http://tonchi.jp/" target="_blank">大喜利する</a></li>
+					<li><a href="http://qa-note.com/" target="_blank">質問する</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul id="topbar-login-navi">
+							<li><a href="/signup">プロフィール作成</a></li>
+				<li><a href="/login">ログイン</a></li>
+					</ul>
+	</div>
+</div>
+<div id="container">
+	<div id="header">
+	<h1 id="h-profile">saori129sid's Profile</h1>
+	<div id="twitter-user" class="box">
+		<div class="pad">
+			<table id="user">
+				<tr>
+					<td id="user-icon">
+						<a href="https://twitter.com/saori129sid" title="saori129sid" target="_blank" rel="nofollow"><img src="http://pbs.twimg.com/profile_images/671660846653706240/GXYFeEOx_reasonably_small.jpg" alt="saori129sid" /></a>					</td>
+					<td id="user-info">
+						<div class="uib-top uib-bottom clearfix">
+							<h2 id="h-screen-name" class="ui-top">ユーザー名</h2>
+							<p class="ui-top"><a href="https://twitter.com/saori129sid" target="_blank" rel="nofollow">@saori129sid</a></p>
+						</div>
+						<div class="uib-bottom clearfix">
+							<h2 id="h-name">名前</h2>
+							<p>さおちゃん</p>
+						</div>
+												<div class="uib-bottom clearfix">
+							<h2 id="h-location">場所</h2>
+							<p>関西人だからって笑い提供出来ません</p>
+						</div>
+																		<div class="uib-bottom clearfix">
+							<h2 id="h-web">Web</h2>
+							<p><a href="http://twpf.jp/saori129sid" title="http://twpf.jp/saori129sid" target="_blank" rel="nofollow">http://twpf.jp/saori129sid</a></p>
+						</div>
+											</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<div id="contents" class="clearfix">
+	<div class="tabs">
+		<ul class="tab">
+			<li><a href="#profile">プロフィール</a></li>
+			<li><a href="#data">データ</a></li>
+								</ul>
+
+		<div id="profile" class="tab-panel">
+			<div class="box">
+				<h2 id="h-description">自己紹介</h2>
+				<div class="pad">20→(@<a class="tweet-url username" href="https://twitter.com/Ai_M_SH" target="_blank" rel="nofollow external">Ai_M_SH</a>)。最高のマリアージュ<br />
+ うたプリ/Free!/進撃/黒執事/鬼灯/スタミュ/ラブライブ/ｺﾞｼｯｸ/だがしかし/プリスト etc.      シド OLDCODEX<br />
+無言はﾌｫﾛしないです 買い取りのみさせていただきます！譲渡ツイは別垢→ まれに流す</div>
+			</div>
+
+			<div class="box">
+				<h2 id="h-motto">もっと自己紹介</h2>
+				<div class="pad">藤宮香織ちゃんが好き 桐生くん派  千足×桐ヶ谷  兎角×晴×鳩  千夜×シャロ  チノ天使 うたプリ後輩 先輩組 イチゴ BL ホモ 雑食 ツイ８割 ホモォォ 変態垢 シドマオくん最愛 兵長嫁← 無言フォロはガチムチモブ男に喰 ツイフィール→フォロ☆ 腐発言 RT 多ツイート多<br />
+ー ーーーーーーーーーーーーーーーーーーーー<br />
+<br />
+【交換or譲渡について】<br />
+たまにBOX買いや グッズ整理などで <br />
+交換or譲渡ツイだしてます。<br />
+<br />
+Twitter内での住所交換、金銭のやりとりなので 信頼出来る方 返信等途絶えない方 また常識のある方 のみでよろしくお願いします。また不安に感じる方は フリマアプリ内でのやり取りをお願いするかもしれませんがご了承ください。<br />
+Twitter内でのやり取りが不安の方はフリマアプリ内でのやり取り可能です(現在 オタマート メルカリのみ)<br />
+<br />
+現在はゆうちょ銀行のみ対応しています<br />
+<br />
+こちらバイトのみですが不規則なためお返事や振り込み 発送にお時間かかるかもしれませんが誠心誠意対応しますのでよろしくお願いします<br />
+<br />
+<br />
+うたの☆プリンスさまっ♪ 美風藍 来栖翔を有限回収していますので もしお手元に迷子ちゃんがいましたらお声かけよろしくお願いします！<br />
+<br />
+たまに金銭的にお断りする場合もございますが余裕ができたらお迎えに行くこともあります。<br />
+<br />
+<br />
+ツイフィール絶対確認ではございませんが読んでいただけましたら ☆をつけてくださるとありがたいです<br />
+<br />
+<br />
+ーーーーーーーーーーーーーーーーーーーーー<br />
+長いです(°▽°)<br />
+アニメ/<br />
+<br />
+進撃の巨人=兵長<br />
+黒執事= シエルファントムハイヴ伯爵はもう天使神 セバスチャン<br />
+うたの☆プリンスさまっ♪ =美風藍 先輩 トラビ プリンス達<br />
+Free!!=凜 <br />
+黒子のバスケ=黄瀬<br />
+AngelBeatr!= 日向 ゆり TK <br />
+地獄少女=きくり <br />
+けいおん！=あずにゃん <br />
+ローゼンメイデン=雛苺 真紅 <br />
+フェアリーテイル=ロキ <br />
+マクロスＦ=シェリル ジェフリー <br />
+１週間フレンズ=藤宮香織ちゃんまじで天使 <br />
+桐生くん <br />
+悪魔のリドル=<br />
+ご注文はうさぎですか？=チノ<br />
+鬼灯の冷徹=<br />
+食戟のソーマ=四宮<br />
+ラブライブ=にこ先輩 ちゅん<br />
+ダンジョンに出会いを求めるのは間違ってるだろうか= ベルくん<br />
+<br />
+他作品 <br />
+基本腐ってます。 <br />
+雑食 地雷なし<br />
+ふらふらしてます☆ミ<br />
+<br />
+シド=マオ<br />
+<br />
+声優/<br />
+<br />
+宮野真守<br />
+鈴木達央<br />
+前野智昭<br />
+下野 紘<br />
+鈴村健一<br />
+寺島拓篤<br />
+諏訪部順一<br />
+鳥海浩輔<br />
+森久保祥太郎<br />
+蒼井翔太<br />
+谷山紀章<br />
+島崎信長<br />
+福山 潤<br />
+代永 翼<br />
+梶 裕貴<br />
+神谷浩史<br />
+小野大輔<br />
+小野賢章<br />
+山下大輝<br />
+<br />
+南條愛乃<br />
+徳井青空<br />
+能登麻美子<br />
+田村ゆかり<br />
+水樹奈々<br />
+etc.<br />
+<br />
+VOCALOID厨 <br />
+基本ボカロとアニソンしか聴かないっ<br />
+<br />
+無言フォローは<br />
+基本的にフォローしないので………<br />
+出会い系やスパム系<br />
+ツイート無しや何ヵ月もツイートしてない等 はブロコッリしますので そこんところよろしくっす<br />
+<br />
+<br />
+とりあえずグズ 日常 うたプリ関連ツイート多め よろしくお願いします<br />
+<br />
+                </div>
+			</div>
+
+			
+							<!-- google_ad_section_start -->
+				<div class="box">
+					<h2 id="h-like">好きなものタグ</h2>
+					<div class="pad">
+						<ul class="tagCloud clearfix">
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E3%82%A2%E3%83%8B%E3%83%A1">アニメ</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA">進撃の巨人</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E3%81%86%E3%81%9F%E3%83%97%E3%83%AA">うたプリ</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E9%AC%BC%E7%81%AF">鬼灯</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=VOCALOID">VOCALOID</a></li>
+															<li><a href="/search/profile?target=like_tag&amp;keyword=%E5%A3%B0%E5%84%AA">声優</a></li>
+													</ul>
+					</div>
+				</div>
+				<!-- google_ad_section_end -->
+			
+			
+					</div>
+
+		<div id="data" class="tab-panel">
+			<div class="box">
+				<h2 id="h-count">カウントデータ</h2>
+				<div class="pad">
+					<table id="tbl-count">
+						<tbody>
+							<tr>
+								<th>フォロー</th><td>103</td>
+								<th>お気に入り</th><td>3,356</td>
+							</tr>
+							<tr>
+								<th>フォロワー</th><td>72</td>
+								<th>リスト</th><td>2</td>
+							</tr>
+							<tr>
+								<th>ツイート</th><td>17,843</td>
+								<th>平均ツイート</th><td>16.2 / 日</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="box">
+				<h2 id="h-date">日付データ</h2>
+				<div class="pad">
+					<table id="tbl-date">
+						<tbody>
+							<tr>
+								<th>Twitter歴</th><td>1,100日</td>
+								<th>プロフ作成日</th><td>2015/01/30 02:15</td>
+							</tr>
+							<tr>
+								<th>Twitter登録日</th><td>2013/02/14 14:01</td>
+								<th>プロフ更新日</th><td>2016/02/04 14:41</td>
+							</tr>
+							<tr>
+								<th>API取得完了</th><td>2016/02/14 14:25</td>
+								<th>API取得予定</th><td>2016/02/15 14:25</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+			</div>
+
+</div>
+<div class="pr">	
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8179295293876270";
+/* twpf.jp big */
+google_ad_slot = "5297021042";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<div id="footer">
+	<p>&copy; 2010-2016 <a href="/">ツイフィール</a></p>
+</div></div>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!doctype html>
+
+<!--[if lt IE 7]><html lang="ja" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="ja" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="ja" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ja" class="no-js">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+山田菜々公式サイト</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="icon" href="http://yamadanana.net/cms/wp-content/themes/html/favicon.png">
+<!--[if IE]>
+			<link rel="shortcut icon" href="http://yamadanana.net/cms/wp-content/themes/html/favicon.ico">
+		<![endif]-->
+
+<!--<link rel="pingback" href="http://yamadanana.net/cms/xmlrpc.php">-->
+
+	<style type="text/css">
+		#fancybox-close{right:-15px;top:-15px}
+		div#fancybox-content{border-color:#FFFFFF}
+		div#fancybox-title{background-color:#FFFFFF}
+		div#fancybox-outer{background-color:#FFFFFF}
+		div#fancybox-title-inside{color:#333333}
+	</style>
+
+	<link rel="alternate" type="application/rss+xml" title="山田菜々公式サイト &raquo; フィード" href="http://yamadanana.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="山田菜々公式サイト &raquo; コメントフィード" href="http://yamadanana.net/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/yamadanana.net\/cms\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='fancybox-css'  href='http://yamadanana.net/cms/wp-content/plugins/fancybox-for-wordpress/fancybox/fancybox.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+<script type='text/javascript' src='http://yamadanana.net/cms/wp-content/plugins/fancybox-for-wordpress/fancybox/jquery.fancybox.js'></script>
+<script type='text/javascript' src='http://yamadanana.net/cms/wp-content/themes/html/library/js/libs/modernizr.custom.min.js'></script>
+
+<!-- Fancybox for WordPress -->
+<script type="text/javascript">
+jQuery(function(){
+
+jQuery.fn.getTitle = function() { // Copy the title of every IMG tag and add it to its parent A so that fancybox can show titles
+	var arr = jQuery("a.fancybox");
+	jQuery.each(arr, function() {
+		var title = jQuery(this).children("img").attr("title");
+		jQuery(this).attr('title',title);
+	})
+}
+
+// Supported file extensions
+var thumbnails = jQuery("a:has(img)").not(".nolightbox").filter( function() { return /\.(jpe?g|png|gif|bmp)$/i.test(jQuery(this).attr('href')) });
+
+thumbnails.addClass("fancybox").attr("rel","fancybox").getTitle();
+jQuery("a.fancybox").fancybox({
+	'cyclic': false,
+	'autoScale': true,
+	'padding': 10,
+	'opacity': true,
+	'speedIn': 500,
+	'speedOut': 500,
+	'changeSpeed': 300,
+	'overlayShow': true,
+	'overlayOpacity': "0.3",
+	'overlayColor': "#666666",
+	'titleShow': true,
+	'titlePosition': 'inside',
+	'enableEscapeButton': true,
+	'showCloseButton': true,
+	'showNavArrows': true,
+	'hideOnOverlayClick': true,
+	'hideOnContentClick': false,
+	'width': 560,
+	'height': 340,
+	'transitionIn': "fade",
+	'transitionOut': "fade",
+	'centerOnScroll': true
+});
+
+
+})
+</script>
+<!-- END Fancybox for WordPress -->
+<link rel="stylesheet" type="text/css" href="http://yamadanana.net/cms/wp-content/themes/html/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="http://yamadanana.net/cms/wp-content/themes/html/css/common.css">
+<link rel="stylesheet" type="text/css" href="http://yamadanana.net/cms/wp-content/themes/html/css/common-t.css">
+<link rel="stylesheet" type="text/css" href="http://yamadanana.net/cms/wp-content/themes/html/css/common-s.css">
+<link rel="stylesheet" type="text/css" href="http://yamadanana.net/cms/wp-content/themes/html/css/jquery.fs.naver.css">
+<link rel="stylesheet" type="text/css" href="http://yamadanana.net/cms/wp-content/themes/html/css/slider-pro.min.css">
+<!--[if lt IE 9]>
+  <script src="http://yamadanana.net/cms/wp-content/themes/html/dist/html5shiv.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://yamadanana.net/cms/wp-content/themes/html/css/ie.css">
+<![endif]-->
+</head>
+
+<body class="home blog top" itemscope itemtype="http://schema.org/WebPage">
+<!-- .wrapper -->
+<div class="wrapper">
+<!-- .header -->
+<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="header-inner">
+        <h1 class="logo" itemscope itemtype="http://schema.org/Organization"> <a href="http://yamadanana.net" rel="nofollow"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/logo.png" alt="NANA YAMADA OFFICIAL SITE"/></a> </h1>
+    <div class="sns"><a href="http://blogs.yahoo.co.jp/yamada7dayo" target="_blank"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/ico_blog.png" alt="blog"/></a><a href="https://twitter.com/yamada7dayo" target="_blank"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/ico_twitter.png" alt="twitter"/></a><a href="http://7gogo.jp/lp/gtml__CUDQoWkVIvojdMdG==" target="_blank"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/ico_755.png" alt="755"/></a><a href="https://instagram.com/tannana.yamada/" target="_blank"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/ico_instagram.png" alt="Instagram" class="instagram"/></a></div>
+          </div>
+  <nav class="navi" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <div class="navi-inner" id="navre"><a href="http://yamadanana.net" class="navi-top"><span>TOP</span></a><a href="http://yamadanana.net/category/news/" class="navi-news"><span>NEWS</span></a><a href="http://yamadanana.net/schedule/" class="navi-schedule"><span>SCHEDULE</span></a><a href="http://yamadanana.net/profile/" class="navi-profile"><span>PROFILE</span></a><a href="http://fc.yamadanana.net/join.html" target="_blank" class="navi-fanclub"><span>FANCLUB</span></a></div>
+  </nav>
+</header>
+<!-- /.header -->
+<!-- .top-slider -->
+<div class="top-slider">
+  <div class="top-slider-inner">
+      <div class="slider-pro" id="slider1">
+        <div class="sp-slides">
+          <!-- Slide 1 -->
+          <div class="sp-slide"> <a href="http://www.randc.jp/artist/yamadanana/discography_detail/3281/" target="_blank"><img class="sp-image" src="http://yamadanana.net/cms/wp-content/themes/html/images/img_top_slide08.jpg"/></a> </div>
+          <!-- Slide 2 -->
+          <div class="sp-slide"> <a href="https://utaeru-pj.com/" target="_blank"><img class="sp-image" src="http://yamadanana.net/cms/wp-content/themes/html/images/img_top_slide07.jpg"/></a> </div>
+          <!-- Slide 3 -->
+          <div class="sp-slide"> <a href="http://fc.yamadanana.net/join.html" target="_blank"><img class="sp-image" src="http://yamadanana.net/cms/wp-content/themes/html/images/img_top_slide06.jpg"/></a> </div>
+          <!-- Slide 4 -->
+          <div class="sp-slide"> <img class="sp-image" src="http://yamadanana.net/cms/wp-content/themes/html/images/img_top_slide05.jpg"/> </div>
+          <!-- Slide 5 -->
+          <div class="sp-slide"> <img class="sp-image" src="http://yamadanana.net/cms/wp-content/themes/html/images/img_top_slide04.jpg"/> </div>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- /.top-slider --> 
+<!-- .contents -->
+<div class="contents" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+  <div class="top-news_schedule">
+    <section class="top-news">
+      <h1 class="ttl-top-news"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/ttl_top_news.png" alt="NEWS"/></h1>
+      <dl>
+                                <dt><img src="http://yamadanana.net/cms/wp-content/themes/html/images/ico_other.png" alt=""/>2015.10.20</dt>
+        <dd><a href="http://yamadanana.net/news/other/%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc%e7%99%ba%e5%a3%b2%e8%a8%98%e5%bf%b5%e3%81%8a%e6%b8%a1%e3%81%97%e4%bc%9a%e9%96%8b%e5%82%ac%ef%bc%81/">カレンダー発売記念お渡し会開催！</a></dd>
+                              </dl>
+      <div class="top-twitter"><a class="twitter-timeline" href="https://twitter.com/yamada7dayo" data-widget-id="634657517499387905">@yamada7dayoさんのツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+    </section>
+    <section class="top-schedule">
+      <h1 class="ttl-top-schedule"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/ttl_top_schedule.png" alt="SCHEDULE"/></h1>
+      <div class="cal_wrapper">
+      <div class="googlecal">
+      <iframe
+src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=313&amp;wkst=1&amp;hl=ja&amp;bgcolor=%23FFFFFF&amp;src=mepcj5hof4vd7mid57quca01v8%40group.calendar.google.com&amp;color=%23333333&amp;
+src=k4681qr7231j8bq66d9sitf9tc%40group.calendar.google.com&amp;color=%232952A3&amp;
+src=e7fvbml2ese0n4jonjvitg263s%40group.calendar.google.com&amp;color=%23BE6D00&amp;
+src=ojde1b681i42pv0ctmkuhdb080%40group.calendar.google.com&amp;color=%235A6986&amp;
+src=u2i0rv71faovjpk0dsbbn95u7s%40group.calendar.google.com&amp;color=%231B887A&amp;
+src=yamadaschedule%40gmail.com&amp;color=%23A32929&amp;
+ctz=Asia%2FTokyo" width="463" height="313" scrolling="no" frameborder="0" style="border-width:0; margin:0 auto;"></iframe>
+</div>
+</div>
+    </section>
+  </div>
+  <div class="top-tv_stage">
+    <section class="top-tv">
+      <h1 class="ttl-top-tv"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/ttl_top_program.png" alt="レギュラー番組"/></h1>
+      <h2 class="ttl-top-tv-sub">テレビ</h2>
+      <div class="top-tv-inner">
+        <div><a href="http://s.mxtv.jp/variety/car_adventure/" target="_blank"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/bnr_car_adventure.jpg" alt="MX「自動車冒険隊」"/></a>
+          <h3>MX「自動車冒険隊」</h3>
+            <p>毎週水曜日 23:30～24:00</p>
+        </div>
+        <div><a href="http://www.ktv.jp/shoku/index.html" target="_blank"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/bnr_shoku.jpg" alt="KTV「発見！ウワサの食卓」"/></a>
+          <h3 style=" letter-spacing:-1px;">KTV「発見！ウワサの食卓」</h3>
+          <p>毎週火曜日  21:00～21:54<br>
+            不定期出演</p>
+        </div>
+        <div><a href="http://kawaiian.tv/program/idream/" target="_blank"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/bnr_idream.jpg" alt="KwaiianTV「アイドリーーーム！」"/></a>
+          <h3>KwaiianTV<br>
+            「アイドリーーーム！」</h3>
+          <p>毎週日曜日（21:00～22:00）</p>
+        </div>
+
+        <div><a href="http://www.necoweb.com/neco/program/detail.php?id=3201" target="_blank"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/bnr_onigiris.jpg" alt="チャンネルNECO「出番ですよ！オニギリズ」モンちゃん役"/></a>
+          <h3>チャンネルNECO<br>
+            <span style=" letter-spacing:-1px;">「出番ですよ！オニギリズ」</span><br>
+            モンちゃん役</h3>
+        </div>
+      </div>
+      <h2 class="ttl-top-tv-sub">ニコニコ生放送</h2>
+      <div class="top-tv-inner">
+        <div><a href="http://ch.nicovideo.jp/nanaomi" target="_blank"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/bnr_nanaomi.jpg" alt="直美と菜々のこの先生きのこる大作戦"/></a>
+          <h3>直美と菜々の<br>
+            この先生きのこる大作戦</h3>
+          <p>月2回不定期</p>
+        </div>
+      </div>
+    </section>
+    <section class="top-stage">
+      <h1 class="ttl-top-stage"><img src="http://yamadanana.net/cms/wp-content/themes/html/images/ttl_top_stage.png" alt="舞台/劇場"/></h1>
+
+      <section class="top-stage-list top-stage-list03">
+        <h2 class="ttl-top-stage-sub">大宮ラクーンよしもと劇場</h2>
+        <p>大宮セブンメンバーとして不定期出演</p>
+      </section>
+    </section>
+  </div>
+</div>
+<!-- /.contents -->
+
+<!-- .footer -->
+<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter"> <small> &copy;Yoshimoto Creative Agency Co., Ltd.</small> </footer>
+<!-- /.footer -->
+</div>
+<!-- /.wrapper -->
+<script type='text/javascript' src='http://yamadanana.net/cms/wp-content/themes/html/library/js/scripts.js'></script>
+<script src="http://yamadanana.net/cms/wp-content/themes/html/js/jquery.sliderPro.min.js"></script> 
+<script>
+  $(document).ready(function(){
+        $( '#slider1' ).sliderPro({
+			width: 980,
+			height: 400,
+			slideDistance: 0,
+			arrows: true,
+			fadeArrows: true,
+			buttons: false
+		});
+  });
+</script>
+<script src="http://yamadanana.net/cms/wp-content/themes/html/js/jquery.heightLine.js"></script>
+<script>
+$(window).load(function() {
+	$(".top-tv_stage>section").heightLine({
+		minWidth:768
+	});
+});
+</script>
+<script src="http://yamadanana.net/cms/wp-content/themes/html/js/jquery.fs.naver.js"></script>
+<script type="text/javascript">
+$(function() {
+    $("#navre").naver({
+    labels: {
+      closed: "メニュー",
+      open: "閉じる"
+    },
+    maxWidth: "767px"
+  });
+});
+</script>
+</body>
+</html>
+<!-- end of site. what a ride! -->

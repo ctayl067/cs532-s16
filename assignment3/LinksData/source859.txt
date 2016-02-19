@@ -1,0 +1,2580 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8 ie7"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9 ie8"> <![endif]-->
+<!--[if gt IE 8]><html class="no-js gt-ie8"><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+
+<meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XQYFVVZSGwUBVFdRAgU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function s(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);return i}function c(t,e){d[t]=f(t).concat(e)}function f(t){return d[t]||[]}function u(){return r(s)}var d={};return{on:c,emit:s,create:u,listeners:f,context:e,_events:d}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:25,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),a.xhrWrappable&&t(4),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:26,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").create(),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:27,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:27,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:27,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:27,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,l,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-",o)}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:27,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=this.lastSize||n(t);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t){var e=t.responseType,n="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return r(n)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),l=t(3),p=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=0,l&&(l>34||10>l)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof p&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:16,4:12,5:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:25,2:26,handle:"D5DuLP"}],16:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),p=e.exports={offset:i(),origin:u,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var h=0},{1:25,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],25:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],26:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],27:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(l){throw f(e+"err",[n,i,l],s),l}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:26,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+<meta name="google-site-verification" content="Gv-yWuhgx0ps9IeWz3RVq3DH4JXCdtYtu7NgUz3Vrbc" />
+<meta property="og:image" content="http://assets.audiomack.com/ski-life-entertainment/b87a87b2bc880d09bd71e9b5c5e2530f-275-275.jpeg" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+
+<link rel="shortcut icon" href="https://s.audiomack.com/images/favicon.jpg" type="image/jpeg" />
+<link rel="alternate" type="application/rss+xml" title="Trending Music Feed" href="/rss/trending" />
+<link rel="apple-touch-icon" href="https://s.audiomack.com/images/am-icon-144x144.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="https://s.audiomack.com/images/am-icon-144x144.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="https://s.audiomack.com/images/am-icon-144x144.png"/>
+
+<meta name="description" content="Listen and download new songs and albums from S.K.I Life on Audiomack." >
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<title>S.K.I Life New Songs &amp; Albums | Audiomack</title>
+
+<!-- Load CSS Files -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://s.audiomack.com/css/audiomack-cb1455305010.css"  />
+
+<!-- Load JS files -->
+<script type="text/javascript">
+	// site wide
+	var audiomack = {};
+	// page specific
+	audiomack.keytoplay = false;
+	audiomack.logged_in = 0;
+	audiomack.music_token = 'kBPUw5p1MVscn2wELK7dDPcAk1apk+vh/CXzBxKZlWsd3fvF';
+	audiomack.csrf_token =  '4c5d579ce8798308a261667ab787dbce'
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://s.audiomack.com/js/audiomack.min-cb1455305010.js"></script>
+<script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+<link href="https://s.audiomack.com/css/player-jw-cb1455305010.css" media="screen" rel="stylesheet" type="text/css" >
+
+<link href="http://www.audiomack.com/artist/ski-life-entertainment" rel="canonical" >
+	
+		<script type="text/javascript">
+			cmnunt_site = 'cmn_audiomack';
+			cmnunt_silo = 's_mus';
+			cmnunt_subsilo = '';
+			cmnunt_tier = 't2,to,internal';
+			cmnunt_zone = 'music';
+			cmnunt_kw = '';
+			cmnunt_exclude = '';
+		</script>
+		<script type="text/javascript" src="//cdn.complexmedianetwork.com/js/cmnUNT.js?v=2"></script>
+
+	
+<!-- Google Analytics -->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-28559780-2', 'auto');
+	ga('set', 'contentGroup1', 'global');
+	ga('require', 'displayfeatures');
+	ga('send', 'pageview');
+	ga('send', 'event', 'Protocol', window.location.protocol, '', 1, {'nonInteraction': 1});
+</script>
+<!-- End Google Analytics -->
+
+<script>
+  +function(l,y,t,i,c,s) {
+    l['LocalyticsGlobal'] = i;
+    l[i] = function() { (l[i].q = l[i].q || []).push(arguments) };
+    l[i].t = +new Date;
+    (s = y.createElement(t)).type = 'text/javascript';
+    s.src = '//web.localytics.com/v3/localytics.js';
+    (c = y.getElementsByTagName(t)[0]).parentNode.insertBefore(s, c);
+        ll('init', '35e9d04d9c2a50144cd80af-fea2841e-9e74-11e5-878a-00736b041834', {} /* Options */);
+  }(window, document, 'script', 'll');
+</script>
+
+<meta property="fb:app_id" content="915618071782957" />
+
+<script type="text/javascript">
+	(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-v1.6.11.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"init data first addListener removeListener setIdentity logout track link sendSMS referrals credits creditHistory applyCode validateCode getCode redeem banner closeBanner".split(" "), 0);
+branch.init('key_live_gbkLpNvFF9SblzVxOXpmfponsEhcA1oT');
+
+    function sendSMS(form) {
+        var phone = form.phone.value;
+        var linkData = {
+            tags: [],
+            channel: 'Website',
+            feature: 'TextMeTheApp',
+            data: {
+                "foo": "bar"
+            }
+        };
+        var options = {};
+        var callback = function(err, result) {
+            if (err) {
+                alert("Sorry, something went wrong.");
+            }
+            else {
+                alert("SMS sent!");
+            }
+        };
+        branch.sendSMS(phone, linkData, options, callback);
+        form.phone.value = "";
+    }
+</script>
+
+</head>
+
+	
+	<body class="">
+
+	<div id="site-wrap">
+
+				<div id="nav-wrap">
+
+	<header id="header">
+
+    	<div class="header-left left">
+
+	    	<a onClick="ga('send', 'event', 'Header', 'Logo', 'Logo');" class="site-logo left" href="/"></a>
+
+	    	<div class="menu-trigger-wrap left">
+
+	    		<span class="mega-menu-trigger"></span>
+
+	    	</div><!--/.menu-trigger-wrap-->
+
+	    	<div class="trends right">
+
+	    		<ul class="inline-list">
+
+	    			<li class="trending"><a onClick="ga('send', 'event', 'Header', 'Main Menu', 'Trending');" href="/trending"><i data-toggle="tooltip" title="" data-original-title="Trending" data-placement="bottom" class="glyphicons fire"></i></a></li>
+
+	    			<li class="top-songs"><a onClick="ga('send', 'event', 'Header', 'Main Menu', 'Top Songs');" href="/songs/week"><i data-toggle="tooltip" title="" data-original-title="Top Songs" data-placement="bottom" class="glyphicons music"></i></a></li>
+
+	    			<li class="top-albums"><a onClick="ga('send', 'event', 'Header', 'Main Menu', 'Top Albums');" href="/albums/week"><i data-toggle="tooltip" title="" data-original-title="Top Albums" data-placement="bottom" class="glyphicons albums"></i></a></li>
+
+	    			<li class="top-playlists"><a onClick="ga('send', 'event', 'Header', 'Main Menu', 'Top Playlists');" href="/playlists/week"><i data-toggle="tooltip" title="" data-original-title="Top Playlists" data-placement="bottom" class="glyphicons playlist"></i></a></li>
+
+	    			<li class="top-artists"><a onClick="ga('send', 'event', 'Header', 'Main Menu', 'Top Artists');" href="/artists/popular"><i data-toggle="tooltip" title="" data-original-title="Top Accounts" data-placement="bottom" class="glyphicons user"></i></a></li>
+
+	    		</ul><!--/.inline-list-->
+
+	    	</div><!--/.trends-->
+
+	   	</div><!--/.header-left-->
+
+    	<div class="header-inner">
+
+    		<div class="inner-content">
+
+    			<div style="position:absolute;width:100%;height:100%;padding-right:179px">
+
+    				<div class="listplayer-wrap not-visible">
+
+    					    						<div id="listplayer" class="am-jwplayer">Loading player...</div>
+<div id="listplayer-video-ad">
+	<div id="video-ad">
+		<video id="video-ad-content"></video>
+	</div>
+	<p id="video-ad-message">Your music will start shortly.  Watching the advertisement supports the artist.</p>
+</div>
+    					
+    				</div><!--/.listplayer-wrap-->
+
+    				<div class="search-form-wrap visible">
+
+		    			<form id="site-search" class="search-form site-search" action="/search" method="get">
+
+		    				<input type="text" class="search search-autosuggest" autocomplete="off" value="" name="q" placeholder="Search for artists, songs, albums!" required/>
+
+		    				<div class="search-box"></div>
+
+		    				<input type="submit" class="submit-button" value=""/>
+
+		    			</form>
+
+		    		</div><!--/.search-form-wrap-->
+
+		    		<span class="close-trigger trigger inactive close-player">
+
+			    		<i class="search-icon fa fa-search"></i>
+
+			    		<i class="player-icon glyphicons play"></i>
+
+		    		</span>
+
+	   			</div>
+
+	    		<div class="account-box right">
+
+	    			
+		    			<div class="logged-out">
+
+		    				<p><a onClick="ga('send', 'event', 'Header', 'Logged Out Menu', 'Signup');" href="/account/create"><span class="glyphicon glyphicon-user"></span> Sign Up</a> / <a onClick="ga('send', 'event', 'Header', 'Logged Out Menu', 'Login');" data-toggle="modal" data-target="#login" href="#">Sign In</a></p>
+
+		    			</div><!--/.logged-out-->
+
+	    			
+	    		</div><!--/.accoun-box-->
+
+   			</div><!--/.inner-content-->
+
+    	</div><!--/.header-inner-->
+
+    </header><!--/#header-->
+
+    <div class="mega-menu">
+
+    	<div class="container">
+
+    		<div class="menu-trigger-wrap right perm-active">
+
+	    		<span class="mega-menu-trigger"></span>
+
+	    	</div><!--/.menu-trigger-wrap-->
+
+    		<div class="menu-top">
+
+    			<div class="widgets-left left">
+
+	    			<div class="widget browse-widget">
+
+	    				<h3 class="widget-title">Browse Music</h3>
+
+	    				<ul class="menu">
+
+	    					<li class="open">
+
+	    						<span>All Genres</span>
+
+	    						<ul class="sub-menu" style="display:block">
+
+	    							<li class="home"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'All genres home');" href="/"><i class="glyphicons home"></i> Home</a></li>
+
+	    							<li class="trending"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'All genres Trending');" href="/trending"><i class="glyphicons fire"></i> Trending</a></li>
+
+	    							<li class="top-songs"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'All genres Top Songs');" href="/songs/week"><i class="glyphicons music"></i> Top Songs</a></li>
+
+	    							<li class="top-albums"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'All genres Top Albums');" href="/albums/week"><i class="glyphicons albums"></i> Top Albums</a></li>
+
+	    							<li class="top-playlists"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'All genres Top Playlists');" href="/playlists/week"><i class="glyphicons playlist"></i> Top Playlists</a></li>
+
+	    							<li class="recently-added"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'All genres Recently Added');" href="/recent"><i class="glyphicons alarm"></i> Recently Added</a></li>
+
+	    						</ul><!--/.sub-menu-->
+
+	    					</li>
+
+	    					<li>
+
+	    						<span>Hip-Hop/R&amp;B</span>
+
+	    						<ul class="sub-menu">
+
+	    							<li class="home"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Hip-Hop Home');" href="/rap"><i class="glyphicons home"></i> Home</a></li>
+
+	    							<li class="trending"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Hip-Hop Trending');" href="/rap/trending"><i class="glyphicons fire"></i> Trending</a></li>
+
+	    							<li class="top-songs"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Hip-Hop Top Songs');" href="/rap/songs/week"><i class="glyphicons music"></i> Top Songs</a></li>
+
+	    							<li class="top-albums"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Hip-Hop Top Albums');" href="/rap/albums/week"><i class="glyphicons albums"></i> Top Albums</a></li>
+
+	    							<li class="top-playlists"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Hip-Hop Top Playlists');" href="/rap/playlists/week"><i class="glyphicons playlist"></i> Top Playlists</a></li>
+
+	    							<li class="recently-added"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Hip-Hop Recently Added');" href="/rap/recent"><i class="glyphicons alarm"></i> Recently Added</a></li>
+
+	    						</ul><!--/.sub-menu-->
+
+	    					</li>
+
+	    					<li>
+
+	    						<span>Electronic</span>
+
+	    						<ul class="sub-menu">
+
+	    							<li class="home"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Electronic Home');" href="/electronic"><i class="glyphicons home"></i> Home</a></li>
+
+	    							<li class="trending"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Electronic Trending');" href="/electronic/trending"><i class="glyphicons fire"></i> Trending</a></li>
+
+	    							<li class="top-songs"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Electronic Top Songs');" href="/electronic/songs/week"><i class="glyphicons music"></i> Top Songs</a></li>
+
+	    							<li class="top-albums"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Electronic Top Albums');" href="/electronic/albums/week"><i class="glyphicons albums"></i> Top Albums</a></li>
+
+	    							<li class="top-playlists"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Electronic Top Playlists');" href="/electronic/playlists/week"><i class="glyphicons playlist"></i> Top Playlists</a></li>
+
+	    							<li class="recently-added"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Electronic Recently Added');" href="/electronic/recent"><i class="glyphicons alarm"></i> Recently Added</a></li>
+
+	    						</ul><!--/.sub-menu-->
+
+	    					</li>
+
+	    					<li>
+
+	    						<span>Reggae</span>
+
+	    						<ul class="sub-menu">
+
+	    							<li class="home"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Reggae Home');" href="/dancehall"><i class="glyphicons home"></i> Home</a></li>
+
+	    							<li class="trending"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Reggae Trending');" href="/dancehall/trending"><i class="glyphicons fire"></i> Trending</a></li>
+
+	    							<li class="top-songs"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Reggae Top Songs');" href="/dancehall/songs/week"><i class="glyphicons music"></i> Top Songs</a></li>
+
+	    							<li class="top-albums"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Reggae Top Albums');" href="/dancehall/albums/week"><i class="glyphicons albums"></i> Top Albums</a></li>
+
+	    							<li class="top-playlists"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Reggae Top Playlists');" href="/dancehall/playlists/week"><i class="glyphicons playlist"></i> Top Playlists</a></li>
+
+	    							<li class="recently-added"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Reggae Recently Added');" href="/dancehall/recent"><i class="glyphicons alarm"></i> Recently Added</a></li>
+
+	    						</ul><!--/.sub-menu-->
+
+	    					</li>
+
+	    					<li>
+
+	    						<span>Podcast</span>
+
+	    						<ul class="sub-menu">
+
+	    							<li class="home"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Podcast Home');" href="/podcast"><i class="glyphicons home"></i> Home</a></li>
+
+	    							<li class="trending"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Podcast Trending');" href="/podcast/trending"><i class="glyphicons fire"></i> Trending</a></li>
+
+	    							<li class="top-songs"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Podacst Top Songs');" href="/podcast/songs/week"><i class="glyphicons music"></i> Top Podcasts</a></li>
+
+	    							<li class="recently-added"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Podcast Recently Added');" href="/podcast/recent"><i class="glyphicons alarm"></i> Recently Added</a></li>
+
+	    						</ul><!--/.sub-menu-->
+
+	    					</li>
+
+	    				</ul><!--/.menu-->
+
+	    			</div><!--/.widget-->
+
+    			</div><!--/.widgets-left-->
+
+    			<div class="widgets-right right">
+
+    				<div class="group">
+
+		    			<div class="widget featured-songs-widget">
+
+		    				<h3 class="widget-title">Top Songs Today</h3>
+
+		    				<div class="featured-loop">
+
+		    				
+		    					<div class="featured-item">
+
+		    						<div class="image left">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Song');" href="/song/youngthug/worth-it-young-thug"><img src="http://assets.audiomack.com/youngthug/edccb6c000f9f0cfd09baef7950e11ee-275-275.jpeg" alt="" style="width:65px;height:65px;"/></a>
+
+		    						</div><!--/.image-->
+
+		    						<div class="featured-info">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Song');" href="/song/youngthug/worth-it-young-thug">
+
+			    							<h2 class="artist-title">Young Thug</h2>
+
+			    							<h3 class="song-title">Worth It</h3>
+
+		    							</a>
+
+		    							<p class="uploaded">Uploaded by <a href="/artist/youngthug">Young Thug</a></p>
+
+		    						</div><!--/.featured-info-->
+
+		    					</div><!--/.featured-item-->
+
+		    				
+		    					<div class="featured-item">
+
+		    						<div class="image left">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Song');" href="/song/grandhustlegang/money-talk"><img src="http://assets.audiomack.com/grandhustlegang/9490dcd779af4a3162073f291a917f4e-275-275.jpeg" alt="" style="width:65px;height:65px;"/></a>
+
+		    						</div><!--/.image-->
+
+		    						<div class="featured-info">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Song');" href="/song/grandhustlegang/money-talk">
+
+			    							<h2 class="artist-title">T.I.</h2>
+
+			    							<h3 class="song-title">Money Talk</h3>
+
+		    							</a>
+
+		    							<p class="uploaded">Uploaded by <a href="/artist/grandhustlegang">Hustle Gang</a></p>
+
+		    						</div><!--/.featured-info-->
+
+		    					</div><!--/.featured-item-->
+
+		    				
+		    					<div class="featured-item">
+
+		    						<div class="image left">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Song');" href="/song/xclusiveszone/izzo-freestyle"><img src="http://assets.audiomack.com/xclusiveszone/3130b750d1f0dcda0da7a2ec833b0a23-275-275.jpeg" alt="" style="width:65px;height:65px;"/></a>
+
+		    						</div><!--/.image-->
+
+		    						<div class="featured-info">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Song');" href="/song/xclusiveszone/izzo-freestyle">
+
+			    							<h2 class="artist-title">G Herbo</h2>
+
+			    							<h3 class="song-title">Izzo Freestyle</h3>
+
+		    							</a>
+
+		    							<p class="uploaded">Uploaded by <a href="/artist/xclusiveszone">Xclusives Zone</a></p>
+
+		    						</div><!--/.featured-info-->
+
+		    					</div><!--/.featured-item-->
+
+		    				
+		    					<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'View more songs');" class="more" href="/songs/day">View more songs</a>
+
+		    				</div><!--/.featured-loop-->
+
+		    			</div><!--/.widget-->
+
+		    			<div class="widget featured-albums-widget right">
+
+		    				<h3 class="widget-title">Top Albums Today</h3>
+
+		    				<div class="featured-loop">
+
+		    					
+		    					<div class="featured-item">
+
+		    						<div class="image left">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Album');" href="/album/leakeditnet/wish-me-well-2"><img src="http://assets.audiomack.com/leakeditnet/165501aa463e66a9df3efc3393630e9a-275-275.jpeg" alt="" style="width:65px;height:65px;"/></a>
+
+		    						</div><!--/.image-->
+
+		    						<div class="featured-info">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Album');" href="/album/leakeditnet/wish-me-well-2">
+
+			    							<h2 class="artist-title">YFN Lucci</h2>
+
+			    							<h3 class="song-title">Wish Me Well 2</h3>
+
+		    							</a>
+
+		    							<p class="uploaded">Uploaded by <a href="/artist/leakeditnet">Leakedit.net</a></p>
+
+		    						</div><!--/.featured-info-->
+
+		    					</div><!--/.featured-item-->
+
+		    				
+		    					<div class="featured-item">
+
+		    						<div class="image left">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Album');" href="/album/inabundance/road-to-evol"><img src="http://assets.audiomack.com/inabundance/306259864951b44edf6887392e4d5472-275-275.png" alt="" style="width:65px;height:65px;"/></a>
+
+		    						</div><!--/.image-->
+
+		    						<div class="featured-info">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Album');" href="/album/inabundance/road-to-evol">
+
+			    							<h2 class="artist-title">Future</h2>
+
+			    							<h3 class="song-title">Road To Evol</h3>
+
+		    							</a>
+
+		    							<p class="uploaded">Uploaded by <a href="/artist/inabundance">InAbundance</a></p>
+
+		    						</div><!--/.featured-info-->
+
+		    					</div><!--/.featured-item-->
+
+		    				
+		    					<div class="featured-item">
+
+		    						<div class="image left">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Album');" href="/album/the-djbooth/purple-reign"><img src="http://assets.audiomack.com/the-djbooth/bacc08266bea6fea3909c1a7b5a626e2-275-275.jpeg" alt="" style="width:65px;height:65px;"/></a>
+
+		    						</div><!--/.image-->
+
+		    						<div class="featured-info">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Album');" href="/album/the-djbooth/purple-reign">
+
+			    							<h2 class="artist-title">Future</h2>
+
+			    							<h3 class="song-title">Purple Reign</h3>
+
+		    							</a>
+
+		    							<p class="uploaded">Uploaded by <a href="/artist/the-djbooth">The DJBooth</a></p>
+
+		    						</div><!--/.featured-info-->
+
+		    					</div><!--/.featured-item-->
+
+		    				
+
+
+		    					<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'View more albums');" class="more" href="/albums/day">View more albums</a>
+
+		    				</div><!--/.featured-loop-->
+
+		    			</div><!--/.widget-->
+
+    				</div><!--/.group-->
+
+	    			<div class="ban-block text-center">
+
+	    				<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Android / iOS big banner');" href="https://bnc.lt/desktop-menu"><img src="https://s.audiomack.com/images/am-app-728x90.jpg" alt="#"/></a>
+
+	    			</div><!--/.ad-block-->
+
+    			</div><!--/.widgets-right-->
+
+    		</div><!--/.menu-top-->
+
+   			<div class="menu-bottom">
+
+   				<ul class="app-links inline-list left">
+
+   					<li class="label left">Download our app on</li>
+
+   					<li class="google-play"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Android App Link');" href="https://bnc.lt/desktop-menu"></a></li>
+
+   					<li class="app-store"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'iOS App Link');" href="https://bnc.lt/desktop-menu"></a></li>
+
+   				</ul><!--/.app-links-->
+
+    			<ul class="social-links inline-list right">
+
+	    			<li class="label">Follow Audiomack on</li>
+
+	    			<li><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Twitter');" href="https://twitter.com/audiomack"><span class="fa fa-twitter"></span></a></li>
+
+	    			<li><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Facebook');" href="https://www.facebook.com/audiomack"><span class="fa fa-facebook"></span></a></li>
+
+	    			<li><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Instagram');" href="https://www.instagram.com/audiomack"><span class="fa fa-instagram"></span></a></li>
+
+	    			<li><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Google Plus');" href="http://plus.google.com/113996177993476717786"><span class="fa fa-google-plus"></span></a></li>
+
+    			</ul><!--/.social-links-->
+
+   			</div><!--/.menu-bottom-->
+
+    	</div><!--/.container-->
+
+    </div><!--/.mega-menu-->
+
+    
+</div><!--/#nav-wrap-->
+
+
+								<div class="banner-ad ad-space top-ad" id="cmn_head_styles">
+			<div id="cmn_ad_tag_head" class="fw_audiomack">
+				<script type="text/javascript">cmnUNT('3x3', tile_num++, 1);</script>
+			</div>
+		</div><!--/.banner-ad-->
+			
+		<div id="cmn_wrap">
+
+			<div id="main">
+
+				
+
+	<div id="profile">
+
+		<div class="container">
+
+			<div class="share-page">
+
+			<ul>
+
+					<li class="label">Share this page:</li>
+
+					<li class="facebook">
+
+						<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+
+					</li><!--/.facebook-->
+
+					<li class="twitter">
+
+						<a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					</li><!--/.twitter-->
+
+					<li class="gplus">
+					
+						<a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+
+					</li><!--/.gplus-->
+
+				</ul>
+				
+				<script>
+				
+					var $twitter_link = $('.share-page .twitter a'),
+						$facebook_link = $('.share-page .facebook a'),
+						$gplus_link = $('.share-page .gplus a');
+						
+						$twitter_link.attr('href', 'https://twitter.com/share?url=' + window.location.href +'&amp;text=S.K.I Life  via @skilifesa');
+						$facebook_link.attr('href', 'https://facebook.com/sharer/sharer.php?u=' + window.location.href + '');
+						$gplus_link.attr('href', 'https://plus.google.com/share?url=' + window.location.href +  '');
+				
+				</script>
+
+		</div><!--/.share-page-->
+
+<div class="profile-header">
+
+	<div class="background-image">
+
+		<div class="inner">
+
+			<img src="http://assets.audiomack.com/ski-life-entertainment/b87a87b2bc880d09bd71e9b5c5e2530f-275-275.jpeg" style="width:100%;height:auto" alt="S.K.I Life"/>
+
+		</div><!--/.inner-->
+
+	</div><!--/.background-image-->
+
+	<div class="row">
+
+		<div class="profile-image col-xs-4">
+
+			
+				<a class="lightbox-trigger" href="http://assets.audiomack.com/ski-life-entertainment/afa885cff9162c413a48f3ff391adbbd.jpeg" data-toggle="lightbox" >
+
+					<img src="http://assets.audiomack.com/ski-life-entertainment/85b0d070f0208a8957fa5e8fd160bed0-260-260.jpeg" alt="S.K.I Life"/>
+
+					<i class="fa fa-search-plus"></i>
+
+				</a>
+
+			
+		</div><!--/.profile-image-->
+
+		<div class="profile-info col-xs-5">
+
+			<h1 class="profile-title">
+
+				S.K.I Life
+				
+				
+			</h1>
+
+			<ul class="details">
+
+				
+				
+									<li class="genre">
+						<span>Hometown:</span> Johannesburg, South Africa					</li>
+				
+									<li class="genre">
+						<span>Label:</span> S.K.I Life Entertainment					</li>
+				
+									<li class="description">
+						<span>Bio:</span> Based in Johannesburg, South Africa. S.K.I Life is a 4-man youth group that prides itself on versatility and innovation. Comprising of 3 rappers and a
+													<a href="#" class="read-more" data-container="body" data-trigger="click" data-toggle="popover" data-placement="bottom" title="Bio" data-content="Based in Johannesburg, South Africa. S.K.I Life is a 4-man youth group that prides itself on versatility and innovation. Comprising of 3 rappers and a vocalist, it holds numerous achievements and regional success. Primarily a Hip-Hop orientated, S.K.I Life’s spectrum boasts an array of genres including Afro-Pop, House, Kwaito and RnB. 
+Artists are as follows:
+
+D.EE
+B-Venxm
+DiegoZA
+Tony'x
+
+Contact on info@skilifeent.com and +2774 809 8883">Read more</a>
+						
+					</li>
+				
+			</ul><!--/.details-->
+
+			<ul class="follow">
+			
+				<li class="tag"><strong>Follow on : </strong></li>
+
+								
+					<li class="twitter">
+					
+						<a target="_blank" href="https://twitter.com/skilifesa"><i class="fa fa-twitter"></i></a>
+						
+					</li>
+					
+				
+								
+					<li class="facebook">
+						
+						<a target="_blank" href="https://www.facebook.com/SkiLifeEntertainment"><i class="fa fa-facebook"></i></a>
+						
+					</li>
+				
+				
+								
+					<li class="instagram">
+
+						<a target="_blank" href="http://www.instagram.com/skilifesa"><i class="fa fa-instagram"></i></a>
+
+					</li>
+				
+				
+			</ul><!--/.follow-->
+
+		</div><!--/.profile-info-->
+
+		<div class="profile-stats col-xs-3">
+
+			<div class="table">
+
+				<div class="table-cell">
+
+					<ul>
+
+													<li>Followers: <span>1</span></li>
+						
+													<li>Uploads &amp; Re-Ups: <span>9</span></li>
+						
+						
+						<li>Member Since: <span>Jul '15</span></li>
+
+													<li class="follow"><a href="/artist/ski-life-entertainment/follow"  data-music_id="1085267" data-action="follow" class="follow-artist launch_login_modal"></a></li>
+						
+					</ul>
+
+				</div><!--/.table-cell-->
+
+			</div><!--/.table-->
+
+		</div><!--/.profile-stats-->
+
+	</div><!--/.row-->
+
+</div><!--/.profile-header-->
+			<div class="profile-content two-col row">
+
+				<div class="sub-nav-wrap col-xs-12">
+
+					<nav class="artist-subnav clearfix">
+	<a href="/artist/ski-life-entertainment" class="active">Uploads<span> (9)</span></a>
+	<a href="/artist/ski-life-entertainment/favorites">Favorites<span> (0)</span></a>
+	<a href="/artist/ski-life-entertainment/playlists">Playlists<span> (0)</span></a>
+	<a href="/artist/ski-life-entertainment/following">Following<span> (3)</span></a>
+	<a href="/artist/ski-life-entertainment/followers">Followers<span> (1)</span></a>
+	<a href="/artist/ski-life-entertainment/feed">Feed</a>
+</nav><!-- /.artist-subnav -->
+				</div><!--/.sub-nav-wrap-->
+
+				<div class="left-content left col-xs-8">
+					
+					<div class="recent-tracks section">
+
+						<div class="section-content">
+
+							
+							<div class="feed">
+
+																	
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Frusti-runnerz-radio-edit&amp;text=S.K.I+Life+-+Rusti+Runnerz+%28Radio+Edit%29" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Frusti-runnerz-radio-edit" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/song/ski-life-entertainment/rusti-runnerz-radio-edit" class="player_image"
+						data-id="music-1682689"
+						data-artist="S.K.I Life"
+						data-title="Rusti Runnerz (Radio Edit)"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll=""
+						data-uploader="1085267"
+						data-url="/song/ski-life-entertainment/rusti-runnerz-radio-edit"
+												data-plays="6"
+						data-favorites="0"
+						>
+					
+						<img src="http://assets.audiomack.com/ski-life-entertainment/e8e840ab0ef64be961c891b3a089823a-150-150.jpeg" width="160" height="160" alt="S.K.I Life - Rusti Runnerz (Radio Edit)"/>
+
+						
+							<div class="overlay">
+
+								<a class="play"><span class="glyphicon glyphicon-play"></span></a>
+
+							</div><!--/.overlay-->
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="table">
+
+						<div class="table-cell">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Song</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=S.K.I+Life">S.K.I Life</a>
+
+									<a class="thicker" href="/song/ski-life-entertainment/rusti-runnerz-radio-edit">Rusti Runnerz (Radio Edit)</a>
+
+								</h3>
+
+							
+							
+								
+									<p class="producer track-meta">Producer: B-Venxm</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Uploaded on Nov 25, 2015
+									
+									by 
+											<a class="follow-artist-ski-life-entertainment" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="1085267" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/ski-life-entertainment/follow">Follow</a>' href="/artist/ski-life-entertainment">S.K.I Life</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.table-cell-->
+
+					  </div><!--/.table-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/song/ski-life-entertainment/rusti-runnerz-radio-edit" class="interaction plays play"
+									data-id="music-1682689"
+									data-artist="S.K.I Life"
+									data-title="Rusti Runnerz (Radio Edit)"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll=""
+									data-uploader="1085267"
+									data-url="/song/ski-life-entertainment/rusti-runnerz-radio-edit"
+																		data-plays="6"
+									data-plays-raw="6"
+									data-favorites="0"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">6</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="1682689"><i class="glyphicon glyphicon-star"></i> Fav (0)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="1682689"><i class="glyphicons retweet"></i> Re-Up (0)</a>
+
+						
+						
+						
+							
+								<a class="interaction playlist launch_login_modal" data-action="favorite" data-music_id="1682689" ><i class="glyphicon glyphicon-plus"></i> Playlist (0)</a>
+
+							
+						
+						
+						
+							<a id="download-14558267149103" class="interaction download" href="http://music.audiomack.com/tracks/ski-life-entertainment/rusti-runnerz-1.mp3?Expires=1455830314&Signature=MOj5W~4efXunOmN9aOao9o19wWE6nXit~9OD50tTYz~sIY2gqzwkr~RyMXL4eSSrh5~EomtlCOHJLdWgDGi3x~66ECWnNW26B6PEKWsqIfbkr6EZgmSvhAwKuLgzQR1KnXcqtDnhVq0o4CaERDWURXjFY0Ht6Dcpm6c7piu6EKE_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA" data-url="/song/ski-life-entertainment/rusti-runnerz-radio-edit" data-follow-download=""><i class="glyphicon glyphicon-save"></i> Download</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+			
+			
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Frusti-runnerz&amp;text=S.K.I+Life+-+Rusti+Runnerz" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Frusti-runnerz" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/song/ski-life-entertainment/rusti-runnerz" class="player_image"
+						data-id="music-1581299"
+						data-artist="S.K.I Life"
+						data-title="Rusti Runnerz"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll="no"
+						data-uploader="1085267"
+						data-url="/song/ski-life-entertainment/rusti-runnerz"
+												data-plays="198"
+						data-favorites="0"
+						>
+					
+						<img src="http://assets.audiomack.com/ski-life-entertainment/e8e840ab0ef64be961c891b3a089823a-150-150.jpeg" width="160" height="160" alt="S.K.I Life - Rusti Runnerz"/>
+
+						
+							<div class="overlay">
+
+								<a class="play"><span class="glyphicon glyphicon-play"></span></a>
+
+							</div><!--/.overlay-->
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="table">
+
+						<div class="table-cell">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Song</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=S.K.I+Life">S.K.I Life</a>
+
+									<a class="thicker" href="/song/ski-life-entertainment/rusti-runnerz">Rusti Runnerz</a>
+
+								</h3>
+
+							
+							
+								
+									<p class="producer track-meta">Producer: B-Venom</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Uploaded on Oct 16, 2015
+									
+									by 
+											<a class="follow-artist-ski-life-entertainment" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="1085267" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/ski-life-entertainment/follow">Follow</a>' href="/artist/ski-life-entertainment">S.K.I Life</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.table-cell-->
+
+					  </div><!--/.table-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/song/ski-life-entertainment/rusti-runnerz" class="interaction plays play"
+									data-id="music-1581299"
+									data-artist="S.K.I Life"
+									data-title="Rusti Runnerz"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll="no"
+									data-uploader="1085267"
+									data-url="/song/ski-life-entertainment/rusti-runnerz"
+																		data-plays="198"
+									data-plays-raw="198"
+									data-favorites="0"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">198</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="1581299"><i class="glyphicon glyphicon-star"></i> Fav (0)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="1581299"><i class="glyphicons retweet"></i> Re-Up (0)</a>
+
+						
+						
+						
+							
+								<a class="interaction playlist launch_login_modal" data-action="favorite" data-music_id="1581299" ><i class="glyphicon glyphicon-plus"></i> Playlist (0)</a>
+
+							
+						
+						
+						
+							<a id="download-14558267149165" class="interaction download" href="http://music.audiomack.com/tracks/ski-life-entertainment/rusti-runnerz.mp3?Expires=1455830314&Signature=TE4ad-tYvgKTjQXt5NyWKC~4Xzg-SVYM4VhkQmtjHxwHI0wWaaAghHHUGiSq1Q1n604CdzlYLCg8QjiIpb1W1NuoDQkPQDywFgwaHTnr2DNSB8CbAMw0dKZc9YT0gP-4azkGnXRU~Jr6gq4q--EtjCkvuEez2HcRtZOTYgzAiiQ_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA" data-url="/song/ski-life-entertainment/rusti-runnerz" data-follow-download="no"><i class="glyphicon glyphicon-save"></i> Download</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+			
+			
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Ftwisted&amp;text=S.K.I+Life+-+Twisted" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Ftwisted" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/song/ski-life-entertainment/twisted" class="player_image"
+						data-id="music-1361081"
+						data-artist="S.K.I Life"
+						data-title="Twisted"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll="no"
+						data-uploader="1085267"
+						data-url="/song/ski-life-entertainment/twisted"
+												data-plays="128"
+						data-favorites="0"
+						>
+					
+						<img src="http://assets.audiomack.com/ski-life-entertainment/f4e0a0a8c6e9afff2c6804e04d4ad28e-150-150.jpeg" width="160" height="160" alt="S.K.I Life - Twisted"/>
+
+						
+							<div class="overlay">
+
+								<a class="play"><span class="glyphicon glyphicon-play"></span></a>
+
+							</div><!--/.overlay-->
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="table">
+
+						<div class="table-cell">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Song</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=S.K.I+Life">S.K.I Life</a>
+
+									<a class="thicker" href="/song/ski-life-entertainment/twisted">Twisted</a>
+
+								</h3>
+
+							
+							
+								
+									<p class="producer track-meta">Producer: B-Venom</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Uploaded on Jul 27, 2015
+									
+									by 
+											<a class="follow-artist-ski-life-entertainment" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="1085267" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/ski-life-entertainment/follow">Follow</a>' href="/artist/ski-life-entertainment">S.K.I Life</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.table-cell-->
+
+					  </div><!--/.table-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/song/ski-life-entertainment/twisted" class="interaction plays play"
+									data-id="music-1361081"
+									data-artist="S.K.I Life"
+									data-title="Twisted"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll="no"
+									data-uploader="1085267"
+									data-url="/song/ski-life-entertainment/twisted"
+																		data-plays="128"
+									data-plays-raw="128"
+									data-favorites="0"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">128</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="1361081"><i class="glyphicon glyphicon-star"></i> Fav (0)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="1361081"><i class="glyphicons retweet"></i> Re-Up (0)</a>
+
+						
+						
+						
+							
+								<a class="interaction playlist launch_login_modal" data-action="favorite" data-music_id="1361081" ><i class="glyphicon glyphicon-plus"></i> Playlist (1)</a>
+
+							
+						
+						
+						
+							<a id="download-14558267149226" class="interaction download" href="http://music.audiomack.com/tracks/ski-life-entertainment/twisted.mp3?Expires=1455830314&Signature=LPlhijR3sA7ksUodvPrWDpwQb36Hny~16tRhwP4FLlD-gmeTGIGzZ~HDXNlsvYIHhZKDmiXGrLdat-My6TUR3vg7S02gLvMnyvvXMRMJIK4NzHHaWnG1GrPlmGx8QjrtEAsJnSvEzGHaAzT3AH7nUeZykoysI-PQO6IGd9zSnyI_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA" data-url="/song/ski-life-entertainment/twisted" data-follow-download="no"><i class="glyphicon glyphicon-save"></i> Download</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+			
+			
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Finsomnia-feat-b-venom-darne-the-urban-lunatic&amp;text=D.EE+-+Insomnia+%28Feat.+B-Venom%2C+Darne+%26+The+Urban+Lunatic%29" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Finsomnia-feat-b-venom-darne-the-urban-lunatic" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/song/ski-life-entertainment/insomnia-feat-b-venom-darne-the-urban-lunatic" class="player_image"
+						data-id="music-1342825"
+						data-artist="D.EE"
+						data-title="Insomnia (Feat. B-Venom, Darne &amp; The Urban Lunatic)"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll=""
+						data-uploader="1085267"
+						data-url="/song/ski-life-entertainment/insomnia-feat-b-venom-darne-the-urban-lunatic"
+												data-plays="65"
+						data-favorites="0"
+						>
+					
+						<img src="http://assets.audiomack.com/ski-life-entertainment/8733b495edeb7a5676edef7fe95ea721-150-150.jpeg" width="160" height="160" alt="D.EE - Insomnia (Feat. B-Venom, Darne &amp; The Urban Lunatic)"/>
+
+						
+							<div class="overlay">
+
+								<a class="play"><span class="glyphicon glyphicon-play"></span></a>
+
+							</div><!--/.overlay-->
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="table">
+
+						<div class="table-cell">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Song</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=D.EE">D.EE</a>
+
+									<a class="thicker" href="/song/ski-life-entertainment/insomnia-feat-b-venom-darne-the-urban-lunatic">Insomnia (Feat. B-Venom, Darne &amp; The Urban Lunatic)</a>
+
+								</h3>
+
+							
+							
+								<h4 class="featuring">
+
+									Feat.
+
+									
+																						<a href="/search?q=B-Venom">B-Venom</a>, 
+									
+																						<a href="/search?q=Darne">Darne</a> & 
+									
+																						<a href="/search?q=The+Urban+Lunatic">The Urban Lunatic</a>
+									
+								</h4>
+								
+									<p class="producer track-meta">Producer: B-Venom</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Uploaded on Jul 20, 2015
+									
+									by 
+											<a class="follow-artist-ski-life-entertainment" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="1085267" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/ski-life-entertainment/follow">Follow</a>' href="/artist/ski-life-entertainment">S.K.I Life</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.table-cell-->
+
+					  </div><!--/.table-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/song/ski-life-entertainment/insomnia-feat-b-venom-darne-the-urban-lunatic" class="interaction plays play"
+									data-id="music-1342825"
+									data-artist="D.EE"
+									data-title="Insomnia (Feat. B-Venom, Darne &amp; The Urban Lunatic)"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll=""
+									data-uploader="1085267"
+									data-url="/song/ski-life-entertainment/insomnia-feat-b-venom-darne-the-urban-lunatic"
+																		data-plays="65"
+									data-plays-raw="65"
+									data-favorites="0"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">65</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="1342825"><i class="glyphicon glyphicon-star"></i> Fav (0)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="1342825"><i class="glyphicons retweet"></i> Re-Up (0)</a>
+
+						
+						
+						
+							
+								<a class="interaction playlist launch_login_modal" data-action="favorite" data-music_id="1342825" ><i class="glyphicon glyphicon-plus"></i> Playlist (0)</a>
+
+							
+						
+						
+						
+							<a id="download-14558267149287" class="interaction download" href="http://music.audiomack.com/tracks/ski-life-entertainment/insomnia-feat-b-venom-darne-the-urban-lunatic.mp3?Expires=1455830314&Signature=W0KNQx2zaAeBiVTqzA9oeCkYidBrOoLtNgbq3-gGURZRVdxztsuZya0wBuKJt5YqKRM-juPD036tr~d5I3mvv9IF518MNiamIgSQ6NJPY~ZvMcasDiJi6MkPVkR3W4k0gemRh9srVHxTwNfNw5z5JUJKwBCoiWIw~PWntlvYYwU_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA" data-url="/song/ski-life-entertainment/insomnia-feat-b-venom-darne-the-urban-lunatic" data-follow-download=""><i class="glyphicon glyphicon-save"></i> Download</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+			
+			
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Fwe-know-it&amp;text=D.EE+-+We+Know+It" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Fwe-know-it" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/song/ski-life-entertainment/we-know-it" class="player_image"
+						data-id="music-1342827"
+						data-artist="D.EE"
+						data-title="We Know It"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll=""
+						data-uploader="1085267"
+						data-url="/song/ski-life-entertainment/we-know-it"
+												data-plays="34"
+						data-favorites="0"
+						>
+					
+						<img src="http://assets.audiomack.com/ski-life-entertainment/82580398ec91834db4dae3dcf9631388-150-150.jpeg" width="160" height="160" alt="D.EE - We Know It"/>
+
+						
+							<div class="overlay">
+
+								<a class="play"><span class="glyphicon glyphicon-play"></span></a>
+
+							</div><!--/.overlay-->
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="table">
+
+						<div class="table-cell">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Song</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=D.EE">D.EE</a>
+
+									<a class="thicker" href="/song/ski-life-entertainment/we-know-it">We Know It</a>
+
+								</h3>
+
+							
+							
+								
+									<p class="producer track-meta">Producer: B-Venom</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Uploaded on Jul 20, 2015
+									
+									by 
+											<a class="follow-artist-ski-life-entertainment" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="1085267" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/ski-life-entertainment/follow">Follow</a>' href="/artist/ski-life-entertainment">S.K.I Life</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.table-cell-->
+
+					  </div><!--/.table-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/song/ski-life-entertainment/we-know-it" class="interaction plays play"
+									data-id="music-1342827"
+									data-artist="D.EE"
+									data-title="We Know It"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll=""
+									data-uploader="1085267"
+									data-url="/song/ski-life-entertainment/we-know-it"
+																		data-plays="34"
+									data-plays-raw="34"
+									data-favorites="0"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">34</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="1342827"><i class="glyphicon glyphicon-star"></i> Fav (0)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="1342827"><i class="glyphicons retweet"></i> Re-Up (0)</a>
+
+						
+						
+						
+							
+								<a class="interaction playlist launch_login_modal" data-action="favorite" data-music_id="1342827" ><i class="glyphicon glyphicon-plus"></i> Playlist (0)</a>
+
+							
+						
+						
+						
+							<a id="download-14558267149348" class="interaction download" href="http://music.audiomack.com/tracks/ski-life-entertainment/we-know-it.mp3?Expires=1455830314&Signature=Smutm8f3TT6f854wraVo1xgkPY~czjB7Dh~QO-XeyRn1CgMe~SIciBh7GoP0htlXd0yiXQmcWaXLobkUzkQyBPbpvA6k4L4PIbj6bZQCTvK1uJw2YdVW3txSFdVw5SU3HQII-x09dH1F0zhDOwY7s7ktUvt9J0HnXNZCm-UpXPM_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA" data-url="/song/ski-life-entertainment/we-know-it" data-follow-download=""><i class="glyphicon glyphicon-save"></i> Download</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+			
+			
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Fpulane&amp;text=D.EE+-+Pulane" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Fpulane" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/song/ski-life-entertainment/pulane" class="player_image"
+						data-id="music-1342826"
+						data-artist="D.EE"
+						data-title="Pulane"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll="no"
+						data-uploader="1085267"
+						data-url="/song/ski-life-entertainment/pulane"
+												data-plays="27"
+						data-favorites="0"
+						>
+					
+						<img src="http://assets.audiomack.com/ski-life-entertainment/05ef17bc63015684090747ba6c6f2905-150-150.jpeg" width="160" height="160" alt="D.EE - Pulane"/>
+
+						
+							<div class="overlay">
+
+								<a class="play"><span class="glyphicon glyphicon-play"></span></a>
+
+							</div><!--/.overlay-->
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="table">
+
+						<div class="table-cell">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Song</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=D.EE">D.EE</a>
+
+									<a class="thicker" href="/song/ski-life-entertainment/pulane">Pulane</a>
+
+								</h3>
+
+							
+							
+								
+									<p class="producer track-meta">Producer: B-Venom</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Uploaded on Jul 20, 2015
+									
+									by 
+											<a class="follow-artist-ski-life-entertainment" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="1085267" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/ski-life-entertainment/follow">Follow</a>' href="/artist/ski-life-entertainment">S.K.I Life</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.table-cell-->
+
+					  </div><!--/.table-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/song/ski-life-entertainment/pulane" class="interaction plays play"
+									data-id="music-1342826"
+									data-artist="D.EE"
+									data-title="Pulane"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll="no"
+									data-uploader="1085267"
+									data-url="/song/ski-life-entertainment/pulane"
+																		data-plays="27"
+									data-plays-raw="27"
+									data-favorites="0"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">27</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="1342826"><i class="glyphicon glyphicon-star"></i> Fav (0)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="1342826"><i class="glyphicons retweet"></i> Re-Up (0)</a>
+
+						
+						
+						
+							
+								<a class="interaction playlist launch_login_modal" data-action="favorite" data-music_id="1342826" ><i class="glyphicon glyphicon-plus"></i> Playlist (0)</a>
+
+							
+						
+						
+						
+							<a id="download-14558267149409" class="interaction download" href="http://music.audiomack.com/tracks/ski-life-entertainment/pulane.mp3?Expires=1455830314&Signature=Bu9nYCSyuLjXBTsWx32HC9pVfSkUNaReZUgu51Cp2zx5eF06vrDm1ztaP6bFNOhFmEr4h8u0WdngeExE8vSed8RDnloXTeSDZie99REvS5YhYzo6Z7UOBiWxjESs4EuxbIL5B3jeoOWBpF1o1D-AFeM07VlY7hblYadZP7u8Hxk_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA" data-url="/song/ski-life-entertainment/pulane" data-follow-download="no"><i class="glyphicon glyphicon-save"></i> Download</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+			
+			
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Fnkao-tsaya&amp;text=S.K.I+Life+-+Nkao+Tsaya" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Fnkao-tsaya" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/song/ski-life-entertainment/nkao-tsaya" class="player_image"
+						data-id="music-1342812"
+						data-artist="S.K.I Life"
+						data-title="Nkao Tsaya"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll=""
+						data-uploader="1085267"
+						data-url="/song/ski-life-entertainment/nkao-tsaya"
+												data-plays="39"
+						data-favorites="0"
+						>
+					
+						<img src="http://assets.audiomack.com/ski-life-entertainment/e7e52a48515216523add8246bab25c17-150-150.jpeg" width="160" height="160" alt="S.K.I Life - Nkao Tsaya"/>
+
+						
+							<div class="overlay">
+
+								<a class="play"><span class="glyphicon glyphicon-play"></span></a>
+
+							</div><!--/.overlay-->
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="table">
+
+						<div class="table-cell">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Song</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=S.K.I+Life">S.K.I Life</a>
+
+									<a class="thicker" href="/song/ski-life-entertainment/nkao-tsaya">Nkao Tsaya</a>
+
+								</h3>
+
+							
+							
+								
+									<p class="producer track-meta">Producer: B-Venom</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Uploaded on Jul 20, 2015
+									
+									by 
+											<a class="follow-artist-ski-life-entertainment" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="1085267" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/ski-life-entertainment/follow">Follow</a>' href="/artist/ski-life-entertainment">S.K.I Life</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.table-cell-->
+
+					  </div><!--/.table-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/song/ski-life-entertainment/nkao-tsaya" class="interaction plays play"
+									data-id="music-1342812"
+									data-artist="S.K.I Life"
+									data-title="Nkao Tsaya"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll=""
+									data-uploader="1085267"
+									data-url="/song/ski-life-entertainment/nkao-tsaya"
+																		data-plays="39"
+									data-plays-raw="39"
+									data-favorites="0"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">39</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="1342812"><i class="glyphicon glyphicon-star"></i> Fav (0)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="1342812"><i class="glyphicons retweet"></i> Re-Up (0)</a>
+
+						
+						
+						
+							
+								<a class="interaction playlist launch_login_modal" data-action="favorite" data-music_id="1342812" ><i class="glyphicon glyphicon-plus"></i> Playlist (1)</a>
+
+							
+						
+						
+						
+							<a id="download-14558267149471" class="interaction download" href="http://music.audiomack.com/tracks/ski-life-entertainment/nkao-tsaya.mp3?Expires=1455830314&Signature=OlfV5401moXpP6vxABkc702qZ1RGc2DOig4b7e2r0~BNxEmY7Uw~BNj4z-jfiO1sVHwNKdBuQvb6ZSsgS5uJukHeZ8Tno9IKsYLa4imVJOI1gkH6afDba~nw0mFMVrDyeeLq~9J9zyeY83CMBiOz9pcJtIiLMNHCJv-vuvPU3fI_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA" data-url="/song/ski-life-entertainment/nkao-tsaya" data-follow-download=""><i class="glyphicon glyphicon-save"></i> Download</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+			
+			
+				
+					<a href="/song/ski-life-entertainment/nkao-tsaya#video" class="video-icon"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="62.174px" height="53.37px" viewBox="389.858 270.955 62.174 53.37" enable-background="new 389.858 270.955 62.174 53.37"
+	 xml:space="preserve">
+<g>
+	<path d="M449.122,270.955h-56.354c-1.606,0-2.911,1.301-2.911,2.912v37.542c0,1.608,1.305,2.909,2.911,2.909h21.177v3.252h-7.8
+		l-3.733,6.755h37.063l-3.73-6.755h-7.801v-3.252h21.178c1.608,0,2.909-1.301,2.909-2.909v-37.542
+		C452.031,272.256,450.731,270.955,449.122,270.955z M446.208,308.5h-50.526v-31.724h50.526V308.5L446.208,308.5z"/>
+	<polygon points="416.102,283.02 416.102,302.256 428.547,292.638 	"/>
+</g>
+</svg>
+</a>
+
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Fwe-gone&amp;text=S.K.I+Life+-+We+Gone" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Fwe-gone" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/song/ski-life-entertainment/we-gone" class="player_image"
+						data-id="music-1342811"
+						data-artist="S.K.I Life"
+						data-title="We Gone"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll="no"
+						data-uploader="1085267"
+						data-url="/song/ski-life-entertainment/we-gone"
+												data-plays="34"
+						data-favorites="0"
+						>
+					
+						<img src="http://assets.audiomack.com/ski-life-entertainment/b87a87b2bc880d09bd71e9b5c5e2530f-275-275.jpeg" width="160" height="160" alt="S.K.I Life - We Gone"/>
+
+						
+							<div class="overlay">
+
+								<a class="play"><span class="glyphicon glyphicon-play"></span></a>
+
+							</div><!--/.overlay-->
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="table">
+
+						<div class="table-cell">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Song</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=S.K.I+Life">S.K.I Life</a>
+
+									<a class="thicker" href="/song/ski-life-entertainment/we-gone">We Gone</a>
+
+								</h3>
+
+							
+							
+								
+									<p class="producer track-meta">Producer: B-Venom</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Uploaded on Jul 20, 2015
+									
+									by 
+											<a class="follow-artist-ski-life-entertainment" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="1085267" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/ski-life-entertainment/follow">Follow</a>' href="/artist/ski-life-entertainment">S.K.I Life</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.table-cell-->
+
+					  </div><!--/.table-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/song/ski-life-entertainment/we-gone" class="interaction plays play"
+									data-id="music-1342811"
+									data-artist="S.K.I Life"
+									data-title="We Gone"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll="no"
+									data-uploader="1085267"
+									data-url="/song/ski-life-entertainment/we-gone"
+																		data-plays="34"
+									data-plays-raw="34"
+									data-favorites="0"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">34</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="1342811"><i class="glyphicon glyphicon-star"></i> Fav (0)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="1342811"><i class="glyphicons retweet"></i> Re-Up (0)</a>
+
+						
+						
+						
+							
+								<a class="interaction playlist launch_login_modal" data-action="favorite" data-music_id="1342811" ><i class="glyphicon glyphicon-plus"></i> Playlist (0)</a>
+
+							
+						
+						
+						
+							<a id="download-14558267149491" class="interaction download" href="http://music.audiomack.com/tracks/ski-life-entertainment/we-gone.mp3?Expires=1455830314&Signature=jIzTnuKKSMPM1hfBIcwqmDVLzuopJRvcucjcbZ27Hoky4TILPZGecdIJ3cKNU5CwoqH3dqjfB4~32tliCB0zI7hybRrR21ntfa25ZGP~0It-lfCzBUR5MK5t-xMCj5cNjihU~JbNIPVZu3dbTz9OoVidO5~276aQqNnoN8IXycI_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA" data-url="/song/ski-life-entertainment/we-gone" data-follow-download="no"><i class="glyphicon glyphicon-save"></i> Download</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+			
+			
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Fnever-ready&amp;text=S.K.I+Life+-+Never+Ready" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.audiomack.com%2Fsong%2Fski-life-entertainment%2Fnever-ready" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/song/ski-life-entertainment/never-ready" class="player_image"
+						data-id="music-1342810"
+						data-artist="S.K.I Life"
+						data-title="Never Ready"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll="no"
+						data-uploader="1085267"
+						data-url="/song/ski-life-entertainment/never-ready"
+												data-plays="71"
+						data-favorites="1"
+						>
+					
+						<img src="http://assets.audiomack.com/ski-life-entertainment/958a5baba78c0b65fd6cb75525b4d78b-150-150.jpeg" width="160" height="160" alt="S.K.I Life - Never Ready"/>
+
+						
+							<div class="overlay">
+
+								<a class="play"><span class="glyphicon glyphicon-play"></span></a>
+
+							</div><!--/.overlay-->
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="table">
+
+						<div class="table-cell">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Song</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=S.K.I+Life">S.K.I Life</a>
+
+									<a class="thicker" href="/song/ski-life-entertainment/never-ready">Never Ready</a>
+
+								</h3>
+
+							
+							
+								
+									<p class="producer track-meta">Producer: B-Venom</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Uploaded on Jul 10, 2015
+									
+									by 
+											<a class="follow-artist-ski-life-entertainment" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="1085267" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/ski-life-entertainment/follow">Follow</a>' href="/artist/ski-life-entertainment">S.K.I Life</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.table-cell-->
+
+					  </div><!--/.table-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/song/ski-life-entertainment/never-ready" class="interaction plays play"
+									data-id="music-1342810"
+									data-artist="S.K.I Life"
+									data-title="Never Ready"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll="no"
+									data-uploader="1085267"
+									data-url="/song/ski-life-entertainment/never-ready"
+																		data-plays="71"
+									data-plays-raw="71"
+									data-favorites="1"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">71</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="1342810"><i class="glyphicon glyphicon-star"></i> Fav (1)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="1342810"><i class="glyphicons retweet"></i> Re-Up (0)</a>
+
+						
+						
+						
+							
+								<a class="interaction playlist launch_login_modal" data-action="favorite" data-music_id="1342810" ><i class="glyphicon glyphicon-plus"></i> Playlist (1)</a>
+
+							
+						
+						
+						
+							<a id="download-14558267149555" class="interaction download" href="http://music.audiomack.com/tracks/ski-life-entertainment/never-ready.mp3?Expires=1455830314&Signature=JMtE8G~dC5zslCDiHmuN6nuarGE95sBBC2l4EyDqF-9vygyZCP7kbzhIRGnNrqVOcvUKYX-Wi7MgFqssTUJfAc82Jgh77le9o~gE2ihCTdY1sK3DxDjN~6dIkqSGWW9Fu4TG9ElEGucE9eiwP3MpHmjN7zgypg52-4rt7SlN4Sw_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA" data-url="/song/ski-life-entertainment/never-ready" data-follow-download="no"><i class="glyphicon glyphicon-save"></i> Download</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+			
+			
+				
+			
+		</div><!--/.single-feed-item-->
+		
+	
+	
+							</div><!--/.feed-->
+
+														<div class="feed-pagination">
+							
+								<div class="row">
+								
+																			<span class="page-number col-xs-3"></span>
+																		
+																			<span class="page-number col-xs-6">Showing 1 through 9 of 9</span>
+																		
+																	
+								</div><!--/.row-->
+							
+							</div><!--/.feed-pagination-->
+							
+							<div id="pagination-loader" style="display: none;">
+
+								<span class="loading-icon active">
+												
+									<span class="circle circle-1"></span>
+										
+									<span class="circle circle-2"></span>
+										
+									<span class="circle circle-3"></span>
+												
+								</span>
+
+							</div>
+						</div><!--/.section-content-->
+
+					</div><!--/.recent-tracks-->
+
+				</div><!--/.left-content-->
+
+				
+				<div class="right-content sidebar col-xs-4 view-sidebar">
+
+	<div class="ad-widget widget">
+
+		<div class="widget-content">
+
+						<script type="text/javascript">cmnUNT('300x250,300x600', tile_num++);</script>
+	
+		</div><!--/.widget-content-->
+
+	</div><!---/.widget-->
+
+
+	
+		
+		<div class="artist-social featured-widget widget">
+		
+			<div class="top-bar">
+
+				<span class="icon star-icon"></span>
+
+				<h4 class="top-bar-title widget-title">Follow S.K.I Life</h4>
+
+			</div><!--/.top-bar-->
+			
+			<div class="widget-content">
+			
+				<a target="_blank" class="fb-link player-icon" href="https://www.facebook.com/SkiLifeEntertainment"><i class="fa fa-facebook"></i></a><a target="_blank" class="twitter-link player-icon" href="http://www.twitter.com/skilifesa"><i class="fa fa-twitter"></i></a><a target="_blank" class="instagram-link player-icon" href="http://www.instagram.com/skilifesa"><i class="fa fa-instagram"></i></a>			
+			</div><!--/.widget-content-->
+		
+		</div><!--/.artist-social-->
+	
+	
+</div><!--/.right-content-->
+
+			</div><!--/.profile-content-->
+
+		</div><!--/.container-->
+
+	</div><!--/#profile-->
+
+<script src="/js/infinite-scroll.js"></script>
+			</div><!--/#main-->
+
+		</div><!--END CMN_WRAP-->
+
+					<div style="text-align:center;margin-bottom:25px">
+
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Footer - 728x90 -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:728px;height:90px"
+				     data-ad-client="ca-pub-3858157454086512"
+				     data-ad-slot="3761977983"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+
+			</div>
+		
+				<footer id="footer" class="footer">
+
+			<div class="container">
+
+				<div class="company left">
+
+					<span class="footer-logo">Audiomack</span>
+
+					<p>Copyright &copy; 2016 Audiomack LLC. <br/>All Rights Reserved.</p>
+
+					<ul class="social inline-list">
+
+						<li class="twitter"><a href="https://twitter.com/audiomack"><i class="fa fa-twitter"></i></a></li>
+
+						<li class="facebook"><a href="https://www.facebook.com/audiomack"><i class="fa fa-facebook"></i></a></li>
+
+						<li class="instagram"><a href="https://www.instagram.com/audiomack"><i class="fa fa-instagram"></i></a></li>
+
+						<li class="gplus"><a href="http://plus.google.com/113996177993476717786"><i class="fa fa-google-plus"></i></a></li>
+
+					</ul><!--/.social-->
+
+				</div><!--/.company-->
+
+				<div class="widgets-wrap">
+
+					<div class="menu-widgets">
+
+						<div class="widget">
+
+							<ul>
+
+								<li><a href="/">Home</a></li>
+
+								<li><a href="/trending">Trending</a></li>
+
+								<li><a href="/songs">Top Songs</a></li>
+
+								<li><a href="/albums">Top Albums</a></li>
+
+								<li><a href="/playlists">Top Playlists</a></li>
+
+						</div><!--/.widget-->
+
+						<div class="widget">
+
+							<ul>
+
+								<li><a href="#" data-toggle="modal" data-target="#login">Sign up / Sign In</a></li>
+
+								<li><a href="/legal">Legal &amp; DMCA</a></li>
+
+								<li><a href="/privacy-policy">Privacy Policy</a></li>
+
+								<li><a href="/about/terms-of-service">Terms of Service</a></li>
+
+								<li><a href="/contact-us">Contact / Support</a></li>
+
+						</div><!--/.widget-->
+
+						<div class="widget">
+
+							<ul>
+
+								<li><a href="/account/create">About</a></li>
+
+								<li><a href="http://blog.audiomack.com">Blog</a></li>
+
+								<li><a href="/wordpress">Wordpress</a></li>
+
+								<li><a href="https://itunes.apple.com/us/app/audiomack/id921765888?ls=1&mt=8">iOS App</a></li>
+
+								<li><a href="https://play.google.com/store/apps/details?id=com.audiomack">Android App</a></li>
+
+						</div><!--/.widget-->
+
+					</div><!--/.menu-widgets-->
+
+				</div><!--/.widgets-wrap-->
+
+			</div><!--/.container-->
+
+		</footer><!--/footer-->
+
+		<div id="login" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" style="font-weight:700; text-transform: uppercase; font-size:16px;"><span class="glyphicon glyphicon-user" style="padding-right:10px"></span>Login</h4>
+					</div>
+
+					<div class="modal-body" style="max-height: 550px">
+
+						<img class="am-modal-logo" src="https://s.audiomack.com/images/logo-dark@2x.png" alt="Audiomack"/>
+
+						<form return="/artist/ski-life-entertainment" id="login-header" method="post">
+
+							<div class="form-group">
+
+								<input type="text" name="email" id="bootstrap-email" value="" class="form-control" required="" placeholder="Email Address">
+								<label id="email-error" style="color: red; font-weight: normal;"/>
+
+							</div><!--/.form-group-->
+
+							<div class="form-group">
+
+								<input type="password" name="password" id="bootstrap-password" value="" placeholder="Password" class="form-control" required="">
+								<label id="password-error" style="color: red; font-weight: normal;"/>
+
+							</div><!--/.form-group-->
+							<input type="submit" name="bootstrap[login]" id="bootstrap-login" value="Login" buttons="danger info primary success warning inverse link" class="btn-large btn btn-default btn-warning" />
+
+						</form>
+
+						<span class="line"></span>
+
+						<p><a class="forgot_password" href="/account/forgot-password">Forgot Password?</a></p>
+
+						<p>Don't have an account? <a href="/account/create">Create one</a> now.</p>
+
+					</div>
+					<div class="modal-footer">
+					</div>
+				</div><!-- /.modal-content -->
+			 </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+				<script type="text/javascript">
+		$(document).ready(function(e) {
+
+			$('#login-header').submit(function(e) {
+			e.preventDefault();
+			var values = $(this).serialize();
+			$.ajax({
+				url: '/account/login/modal',
+				data: values,
+				cache: false,
+				success: function(data) {
+					if(data['error'] != undefined) {
+						if(data['error']['email'] != undefined) {
+							$('#email-error').html(data['error']['email']);
+						} else {
+							$('#email-error').html('');
+						}
+
+						if(data['error']['password']!= undefined) {
+							$('#password-error').html(data['error']['password']);
+						} else {
+							$('#password-error').html('');
+						}
+					} else {
+						if ($('#login-header').attr('return')) {
+							location.href = $('#login-header').attr('return');
+						} else {
+							location.reload();
+						}
+					}
+				},
+				type: 'POST'
+			});
+		});
+
+		});
+
+
+
+
+	</script>
+
+	</div><!--/#site-wrap-->
+
+		
+		<script type="text/javascript" src="https://s.audiomack.com/js/bootstrapValidator.min.js"></script>
+					<script>
+
+				(function() {
+				
+				window.cToolbarInit = function() {
+				
+				cToolbar.load({
+				  mobileRightButton: 'sms', 
+				  facebookUsername: 'audiomack',
+				  facebookName: 'audiomack',
+				  twitterHandle: 'audiomack',
+				  twitterName: 'audiomack',
+				  youtubeChannel: 'audiomackvideo',
+				  youtubeChannelName: 'audiomack',
+				  desktopBackground: 'solid', 
+				  desktopSocialButtons: ["facebook","twitter"],
+				  channel: 'Music'
+				});
+				};
+				
+				var ns = document.createElement('script');
+				ns.type = 'text/javascript';
+				ns.async = true;
+				ns.src = '//toolbar.complex.com/dist/ctoolbar.min.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ns, s);
+				
+				})();
+				
+				</script>
+		
+
+		<!--Comscore Beacon-->
+		<script>document.write(unescape("%3Cscript src=\'" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js\' %3E%3C/script%3E"));</script>
+		<script>
+			COMSCORE.beacon({
+				c1:2,
+				c2:6685975,
+				c3:"",
+				c4:"www.audiomack.com/artist/ski-life-entertainment",
+				c5:"",
+				c6:"",
+				c15:""
+			});
+		</script>
+		<noscript><img src="//b.scorecardresearch.com/p?c1=2&amp;c2=6685975&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" /></noscript>
+		<!-- / Comscore Beacon-->
+
+		<script type="text/javascript">
+		$(document).keypress(function(e) {
+
+			if(!$(document.activeElement).is('input')) {
+				if(audiomack.keytoplay) {
+					if (e.keyCode == 32) {
+						e.preventDefault();
+				    	$('#play-button').click();
+					};
+				}
+			}
+		});
+
+				$(document).ready(function(e) {
+			var url = window.location.href;
+
+			if(url.match('#launch_login_modal')) {
+				$('#login').modal('show');
+			}
+
+			});
+				</script>
+
+		<div class="full-screen-loader">
+
+			<div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active is-upgraded" data-upgraded=",MaterialSpinner"><div class="mdl-spinner__layer mdl-spinner__layer-1"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div><div class="mdl-spinner__layer mdl-spinner__layer-2"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div><div class="mdl-spinner__layer mdl-spinner__layer-3"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div><div class="mdl-spinner__layer mdl-spinner__layer-4"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div></div>
+
+		</div><!--/.full-screen-loader-->
+
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f0bc7fac1c","applicationID":"6106354","transactionName":"ZABRYxBXWxJWVkEIWF1KclQWX1oPGFFQB1ZGCUcYA0RBCERBRk5BWgBE","queueTime":0,"applicationTime":258,"atts":"SEdSFVhNSBw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

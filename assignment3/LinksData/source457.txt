@@ -1,0 +1,769 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+
+
+
+
+skin by PEEUM
+
+
+
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="진심을 너에게" href="http://disfor.tistory.com/rss" />
+<link rel="stylesheet" media="screen" type="text/css" href="http://ts.daumcdn.net/custom/blog/154/1547963/skin/style.css?_T_=1449217244" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>진심을 너에게</title>
+<style type="text/css">
+#lightbox {
+	background-color: #eee;
+	padding: 10px;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+}
+#overlay {
+	text-align: left;
+	background-image: url(http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/overlay.png);
+}
+#lightboxCaption {
+	color: #333;
+	background-color: #eee;
+	font-size: 90%;
+	text-align: center;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+}
+* html #overlay {
+	background-color: #000;
+	background-image: url(http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/blank.gif);
+	filter: Alpha(opacity=50);
+}
+
+</style>
+<script src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/lightbox_plus_ope.js" type="text/javascript"></script>
+<script type="text/javascript">
+function loadlightbox() {
+	if(document.getElementById("lightbox").outerHTML) {}
+	else {
+	document.getElementById("lightbox").outerHTML = "";
+	document.getElementById("overlay").outerHTML = "";
+	}
+}
+addEvent(window,"load",function() {
+	var lightbox = new LightBox({
+		loadingimg:'http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/loading.gif',
+		expandimg:'http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/expand.gif',
+		shrinkimg:'http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/shrink.gif',
+		effectimg:'http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/zzoop.gif',
+		effectpos:{x:-40,y:-20},
+		effectclass:'effectable',
+		closeimg:'http://i1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/lightbox/images/close.gif'
+	});
+});
+</script>
+
+<style type="text/css">
+		#daumSearchBox {
+			height: 21px;
+			background-image : url(http://i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+			margin: 5px auto ;
+			padding: 0;
+		}
+		#daumSearchBox input {
+			background: none;
+			margin : 0;
+			padding : 0;
+			border : 0;
+		}
+		#daumSearchBox #daumLogo {
+			width: 34px;
+			height: 21px;
+			float: left;
+			margin-right: 5px;
+			background-image : url(http://i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+		}
+		#daumSearchBox #show_q {
+			background-color: transparent;
+			border: none;
+			font: 12px Gulim, Sans-serif;
+			color: #555;
+			margin-top: 4px;
+			margin-right: 15px;
+			float: left;
+		}
+
+		#daumSearchBox #show_btn {
+			background-image : url(http://i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+			width: 37px;
+			height: 21px;
+			float: left;
+			margin:0;
+			cursor:pointer;
+			text-indent:-1000em;
+		}
+	</style>
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/TistoryProfileLayer/style.css" />
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/plugins/TistoryProfileLayer/profile.js"></script>
+<script type="text/javascript">var asyncProfileItems = [];</script>
+	<style type="text/css">
+		.another_category { border: 1px solid #E5E5E5; padding: 10px 10px 5px; margin:10px 0; clear: both; }
+		.another_category h4 { font-size: 12px !important; margin: 0 !important; border-bottom: 1px solid #E5E5E5 !important; padding: 2px 0 6px !important; }
+		.another_category h4 a { font-weight: bold !important; }
+		.another_category table { table-layout: fixed; border-collapse: collapse; width: 100% !important; margin-top: 10px !important; }
+		* html .another_category table { width: auto !important; }
+		*:first-child+html .another_category table { width: auto !important; }
+		.another_category th, .another_category td { padding: 0 0 4px !important; }
+		.another_category th { text-align: left; font-size: 12px !important; font-weight: normal;  word-break: break-all; overflow: hidden; line-height: 1.5; }
+		.another_category td { text-align: right; width: 80px; font-size: 11px; }
+		.another_category th a { font-weight: normal; text-decoration: none; border: none !important; }
+		.another_category th a.current{ font-weight: bold; text-decoration: none !important; border-bottom: 1px solid !important; }
+		.another_category th span { font-weight: normal; text-decoration: none; font: 10px Tahoma, Sans-serif; border: none !important; }
+
+		.another_category_color_gray, .another_category_color_gray h4 { border-color: #E5E5E5 !important; }
+		.another_category_color_gray * { color: #909090 !important; }
+		.another_category_color_gray th a.current{border-color:#909090 !important;}
+		.another_category_color_gray h4, .another_category_color_gray h4 a { color: #737373 !important; }
+
+
+		.another_category_color_red, .another_category_color_red h4 { border-color: #F6D4D3 !important;  }
+		.another_category_color_red * { color: #E86869 !important; }
+		.another_category_color_red th a.current{border-color:#E86869 !important;}
+		.another_category_color_red h4, .another_category_color_red h4 a { color: #ED0908 !important; }
+
+
+		.another_category_color_green, .another_category_color_green h4 { border-color: #CCE7C8 !important; }
+		.another_category_color_green * { color: #64C05B !important; }
+		.another_category_color_green th a.current{border-color:#64C05B !important;}
+		.another_category_color_green h4, .another_category_color_green h4 a { color: #3EA731 !important; }
+
+
+		.another_category_color_blue, .another_category_color_blue h4 { border-color: #C8DAF2 !important; }
+		.another_category_color_blue * { color: #477FD6 !important; }
+		.another_category_color_blue th a.current{border-color:#477FD6 !important;}
+		.another_category_color_blue h4, .another_category_color_blue h4 a { color: #1960CA !important; }
+
+
+		.another_category_color_violet, .another_category_color_violet h4 { border-color: #E1CEEC !important;  }
+		.another_category_color_violet * { color:#9D64C5 !important; }
+		.another_category_color_violet th a.current{border-color:#9D64C5 !important;}
+		.another_category_color_violet h4, .another_category_color_violet h4 a { color: #7E2CB5 !important; }
+	</style>
+<script type="text/javascript">
+//<![CDATA[
+var servicePath = "";
+var blogURL = "";
+var s_trackbackUrlCopied = "엮인글 주소가 복사되었습니다";
+var s_trackbackUrlCopyFailed = "엮인글 주소를 복사하지 못했습니다";
+var SCRIPT_VERSION = '2021';
+//]]>
+</script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/lib/jigu/jigu-latest.min.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/T.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/EAF2.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/common.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/gallery.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/flash.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/PHON.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/swfobject.js"></script>
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/style/dialog.css" />
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/style/menubar.css"/><style type="text/css">.tt_article_useless_p_margin p {padding-top:0 !important;padding-bottom:0 !important;margin-top:0 !important;margin-bottom:0 !important;}</style></head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div id="overlay" style="display:none;position:fixed;top:0px;left:0px;z-index:150;width:100%;height:100%;"></div>
+<div id="lightbox" style="display:none;position:absolute;z-index:160;"></div>
+<div style="margin:0px; padding:0px; border:none; background:none; float:none; clear:none; z-index:0"></div>
+
+<script type="text/javascript">
+//<![CDATA[
+	var TOP_SSL_URL = 'https://www.tistory.com';
+
+	function processShortcut(event) {
+			if (isIE)
+		{
+			event = window.event;
+			event.target = event.srcElement;
+		}
+
+		if (event.altKey || event.ctrlKey || event.metaKey)
+			return;
+		switch (event.target.nodeName) {
+			case "INPUT":
+			case "SELECT":
+			case "TEXTAREA":
+				return;
+		}
+		switch (event.keyCode) {
+			case 81: //Q
+
+				window.location = "/admin";
+				break;
+			case 83: //S
+				window.location = "?page=2";
+				break;
+			case 90: //Z
+				window.location = "#recentEntries";
+				break;
+			case 88: //X
+				window.location = "#recentComments";
+				break;
+			case 67: //C
+				window.location = "#recentTrackback";
+				break;
+		}
+	}
+	document.onkeydown = processShortcut;
+
+	function addComment(caller, entryId) {
+		var oForm = findFormObject(caller);
+		if (!oForm)
+			return false;
+		var request = new HTTPRequest("POST", oForm.action);
+		request.onSuccess = function () {
+			if(entryId == 0)
+				window.location = blogURL + "/guestbook";
+			else {
+				document.getElementById("entry" + entryId + "Comment").innerHTML = this.getText("/response/commentBlock");
+				if(document.getElementById("recentComments"))
+					document.getElementById("recentComments").innerHTML = this.getText("/response/recentCommentBlock");
+				if(document.getElementById("commentCount" + entryId))
+					document.getElementById("commentCount" + entryId).innerHTML = this.getText("/response/commentView");
+				if(document.getElementById("commentCountOnRecentEntries" + entryId))
+					document.getElementById("commentCountOnRecentEntries" + entryId).innerHTML = "(" + this.getText("/response/commentCount") + ")";
+			}
+			if(typeof window.needCommentCaptcha !== "undefined"){
+				captchaPlugin.init('complete');
+			}
+		}
+		request.onError = function() {
+			var description = this.getText("/response/description");
+			if (description) { alert(description); }
+		}
+		var queryString = "key=tistory";
+		var captchaInput = document.getElementById('inputCaptcha');
+		if (oForm["name"])
+			queryString += "&name=" + encodeURIComponent(oForm["name"].value);
+		if (oForm["password"])
+			queryString += "&password=" + encodeURIComponent(oForm["password"].value);
+		if (oForm["homepage"])
+			queryString += "&homepage=" + encodeURIComponent(oForm["homepage"].value);
+		if (oForm["secret"] && oForm["secret"].checked)
+			queryString += "&secret=1";
+		if (oForm["comment"])
+			queryString += "&comment=" + encodeURIComponent(oForm["comment"].value);
+		if (captchaInput) {
+			if (!captchaInput.value) {
+				alert('그림문자가 입력되지 않았습니다.');
+				return false;
+			}
+			queryString += "&captcha=" + encodeURIComponent(captchaInput.value);
+		}
+		request.send(queryString);
+	}
+	var openWindow='';
+	function alignCenter(win,width,height) {
+		if(navigator.userAgent.indexOf("Chrome") == -1)
+			win.moveTo(screen.width/2-width/2,screen.height/2-height/2);
+	}
+
+	function deleteComment(id) {
+		var width = 450;
+		var height = 360;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/comment/delete/" + id, "tatter", "width="+width+",height="+height+",location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function commentComment(parent, guestbookPage) {
+		var width = 450;
+		var height = 360;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/comment/comment/" + parent + (guestbookPage ? "?guestbookPage=" + guestbookPage: ""), "tatter", "width="+width+",height="+height+",location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function editEntry(parent,child) {
+		var width =  1169;
+		var height = 600;
+		if(openWindow != '') openWindow.close();
+		openWindow = window.open("/admin/entry/edit/" + parent + "?popupEditor&returnURL=CLOSEME","tatter", "width="+1169+",height="+600+",location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function guestbookComment(parent) {
+		var width = 450;
+		var height = 360;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/comment/comment/" + parent, "tatter", "width="+width+",height="+height+",location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function sendTrackback(id) {
+		var width = 700;
+		var height = 500;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/trackback/send/" + id, "tatter", "width=580,height=400,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0");
+				openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function deleteTrackback(id,entryId) {
+		if (confirm("트랙백을 삭제하기 위해서는 로그인이 필요합니다.\n로그인 하시겠습니까?\t")) {
+			window.location = "https://www.tistory.com/login/";
+			return false;
+		} else {
+			return false;
+		}
+	}
+
+	function reloadEntry(id) {
+		var password = document.getElementById("entry" + id + "password");
+		if (!password)
+			return;
+		document.cookie = "GUEST_PASSWORD=" + encodeURIComponent(password.value) + ";path=";
+
+		window.location.href = window.location.href;
+	}
+	loadedComments = new Array();
+	loadedTrackbacks = new Array();
+	function viewTrigger(id, category, categoryId) {
+		var request = new HTTPRequest("GET", "/"+category+"/view/" + id);
+		var target = document.getElementById('entry'+id+(category == 'comment' ? 'Comment' : 'Trackback'));
+		if(target == null)
+			return false;
+		request.onSuccess = function() {
+			target.innerHTML = this.getText("/response/result");
+			target.style.display = 'block';
+			highlight();
+			category == 'comment' ? loadedComments[id] = true : loadedTrackbacks[id] = true;
+			if(categoryId > -1)
+				location = location.toString();
+			if(category == 'trackback') {
+				var holder = document.getElementById('TrackbackCopyHolder' + id);
+				if(holder) {
+					holder.innerHTML = AC_FL_RunContentNotWriteGetString(
+						'src','http://s1.daumcdn.net/cfs.tistory/resource/2021/blog/script/copyTrackback',
+						'Flashvars','url=http://disfor.tistory.com/trackback/' + id + '&mode=whiteButton',
+						'width','29',
+						'height','18',
+						'id', 'TrackbackCopyButton' + id,
+						'wmode','transparent',
+						'allowScriptAccess','always',
+						'type','application/x-shockwave-flash',
+						'pluginspage','http://www.macromedia.com/go/getflashplayer'
+					);
+				}
+			}
+			if(typeof window.needCommentCaptcha !== "undefined"){
+				captchaPlugin.init();
+			}
+		}
+		request.onError = function() {
+			alert('실패 했습니다');
+		}
+		request.send();
+	}
+	function highlight() {
+		var hash = new RegExp("^#(comment\\d+)").exec(window.location.hash);
+		if(hash && (el = document.getElementById(hash[1])))
+			highlightElement(hash[1], 0, el.style.backgroundColor);
+	}
+	function highlightElement(id, amount, origColor) {
+		var el = document.getElementById(id);
+		if (!el) {
+			return;
+		}
+		el.style.backgroundColor = amount % 2 ? "#FFFF44" : origColor;
+		if (++amount < 7) {
+			setTimeout("highlightElement('" + id + "', " + amount + ", '" + origColor + "')", 200);
+		}
+	}
+	function toggleLayerForEntry(id, category, categoryId, mode) {
+		if((category == 'comment' ? loadedComments[id] : loadedTrackbacks[id])) {
+			try {
+				var obj = document.getElementById('entry'+id+(category == 'comment' ? 'Comment' : 'Trackback'));
+				if(mode == undefined)
+					obj.style.display = (obj.style.display == "none") ? "block" : "none";
+				else
+					obj.style.display = (mode == 'show') ? "block" : "none";
+			} catch (e) {
+
+			}
+			return true;
+		} else {
+			if(categoryId) {
+				viewTrigger(id,category, categoryId);
+			} else {
+				viewTrigger(id,category, -1);
+			}
+		}
+	}
+	function ObserverForAnchor(evetObj) {
+		var lo = location.toString();
+		var queryString = lo.substr(lo.lastIndexOf('/')+1);
+		if(queryString.indexOf('#')>-1) {
+			var qsElements = queryString.split('#');
+			if(qsElements[1].indexOf('comment')>-1) {
+				var category = 'comment';
+			} else if(qsElements[1].indexOf('trackback')>-1) {
+				var category = 'trackback';
+			}
+			if(category) {
+				entryid = qsElements[0];
+				categoryId = qsElements[1].substr(category.length);
+				toggleLayerForEntry(entryid,category,categoryId, 'show');
+			}
+		}
+	}
+
+	STD.addEventListener(window);
+	window.addEventListener("load", ObserverForAnchor, false);
+//]]>
+</script>
+<div style="margin:0px; padding:0px; border:none; background:none; float:none; clear:none; z-index:0"></div>
+
+	<div id="container">
+    <div id="sidebar">
+<div class="menubar">
+   <ul>
+      <li><a href="#" id="current"><img src="http://ts.daumcdn.net/custom/blog/154/1547963/skin/images/menu.png" width="40" height="40"  alt=""/></a>
+         <ul>
+           <li><a href="/category/cinémathèque">cinémathèque</a></li>
+           <li><a href="/category/about a boy">about a boy</a></li>
+           <li><a href="/category/기고">기고</a></li>
+           <li><a href="/guestbook">흔적</a></li>
+         </ul>
+      </li>
+   </ul>
+</div>
+<div id="smenu">
+  <a href="/admin/entry/post"></a>
+  <a href="/admin"></a>
+</div>
+</div>
+<!-- sidebar close -->
+	  <div id="content">
+
+
+
+
+
+
+		
+
+
+			
+
+
+
+			
+<!--Copyright for PEEUM all rights reserved.-->	
+			
+
+			
+
+				<div class="entry">
+<div class="titleWrap">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Cquote2_black.svg/50px-Cquote2_black.svg.png" width="26" height="19"><br><br><br>
+<span style="font-size:40px; font-family:'나눔명조';">집회시위, 꿀잼이면 때려도 괜찮아?</span><br><br>
+<span class="date">낮달아래키스ㆍ2015.12.03 05:00
+    </span>
+						
+					</div>
+
+                    				  <div class="article">
+						<div class="tt_article_useless_p_margin"><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">지난 주말</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, TV</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">채널을 돌리다가 마침 하고 있던</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> &lt;</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">복면가왕</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">&gt;</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">을 처음 봤다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.
+</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">복면 뒤에 숨겨진 정체 모를 얼굴의 노래 실력에 대한 흥미는 뒷전이었고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">복면을 완성하는
+코스튬 때문에 배꼽을 잡고 웃었다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">특히 백미는 손에 꼭 쥔 생선을 절대 놓지 않고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">가슴 아파도</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">'</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">를 열창한 펭귄이었다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.
+</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그리고 생각했다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">저렇게 재미있게 코스튬을 하고 시위를 하러 나가면 어떨까</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">? '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">복면 쓰면</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> IS'</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">라는 불호령이 떨어지자마자 여당 경찰청장 법무장관
+너나 할 것 없이 공주님을 구하기 위해 나선 흑기사들을 비웃어 줄 겸</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">재미있고 신박한 코스튬을 하고
+시위에 나가보면 어떨까</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">마치 할로윈처럼</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">파티처럼</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">현대예술처럼</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">설치미술처럼</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">퍼포먼스처럼</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">코믹월드의 덕후처럼</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">다스베이더</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">,
+</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">키스 해링</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">뱅크시</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">슈퍼마리오</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">에반게리온</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">아이언맨</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">가이
+포크스</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">무엇이라도 될 수 있으니까</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span></p><p><span><br /></span></p><p><br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:900px;;height:auto;max-width:100%"><span dir="http://cfile5.uf.tistory.com/original/250E0837565F49F321599A" rel="lightbox" target="_blank"><img src="http://cfile5.uf.tistory.com/image/250E0837565F49F321599A" style="cursor: pointer;max-width:100%;height:auto" width="900" height="506"  /></span></span></p><p><span><br /></span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">&nbsp;</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">11</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">월 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">14</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">일의 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">‘</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">민중총궐기 대회</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">’</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">는 큰 후유증을 남겼다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그때까지 뜨거운 감자였던 역사 교과서 국정화는 순식간에 논의에서 증발해 버리고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> "</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">과잉진압 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">VS </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">폭력시위</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">"</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">의
+대결구도만 남았다는 점에서 박근혜 정부와 여당은 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">‘</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">매우 만족</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">'</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">할만한
+결과였지만 그들을 제외한 모두에게는 상처만이 남은 날이었다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그날 집회로 얻은 것은 실제로 정말</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">아무것도 없다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">'</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">&nbsp;</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">차벽과 물대포</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그리고 최루액 등 과도한 경찰력 사용에 대한 비판과
+별개로 그날 전개된 집회의 양상에 대한 실망감과 비판도 폭발했다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">이 실망감에 대한 잘 정리된 글 </span><b><span style="color: rgb(70, 65, 217); font-size: 10pt; font-family: Dotum, 돋움;">&lt;</span><a href="https://brunch.co.kr/@funder2000/86 http://www.huffingtonpost.kr/hyunwoo-park-/story_b_8695696.html" target="_blank" class="tx-link"><span style="color: rgb(70, 65, 217); font-size: 10pt; font-family: Dotum, 돋움;">처맞을 각오하고 쓰는 한국 집회 비판</span></a></b><span><span style="color: rgb(70, 65, 217);"><b><span style="font-size: 10pt; font-family: Dotum, 돋움;">&gt;</span></b></span><span style="font-size: 10pt; font-family: Dotum, 돋움;">&nbsp;</span></span><span style="font-size: 10pt; font-family: Dotum, 돋움;">을 볼 수 있다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">나는 이 글이 견지하고 있는 입장에 대부분 동의한다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">특히 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">“</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">청와대엔 아무 것도 없다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">”</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">고
+꼬집은 부분에 더 특별한 동의를 보내며</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, "</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">청와대로 가자</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">"</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">는
+밑도 끝도 없고 책임질 수도 없는 구호를 던지는 민주노총 지도부가 매우 멍청하다고 생각한다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">다시 한
+번 힘주어 말한다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">이 날 대회를 주도한 지도부는 매우 어리석고 무책임하고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">무능하다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">반면 경찰을 앞세운 당국의 대응전략은 매우 영리하다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">경찰은 더이상
+과거처럼 방패로 밀고 들어와서 곤봉을 후려치거나 스크럼을 짜고 있는 사람들을 붙잡아 가지 않는다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">대신
+차벽으로 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">(</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">대열 대 대열로서의</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">) </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">물리적 충돌을 원천봉쇄 해놓고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그 안에서 갈 곳 없이 막혀버린 군중의 에너지가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">알아서 자폭하기를</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">' </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">기다린다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그리고 남아버린 박살난 경찰버스와 경찰의 집기</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">부상 당한 경찰의 모습 따위를</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> (</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">이미 주는대로 받아쓰고 있는</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">) </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">미디어에 퍼트린 뒤</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">폭력 시위에 의해 멍든 공권력을</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">연기한다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">'. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">즉</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">피해자
+코스프레</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">'</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">를 한다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">결과적으로 어쨌든 이것은 굉장히 유효하며</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">매우 효과적이다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. 5</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">일</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> 2</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">차</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">민중대궐기</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">' </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">집회를 앞두고 시민단체들이</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> "</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">평화적 집회를 하겠다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">"</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">고 먼저 말한 것은 그 방증이다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">실제 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">11</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">월 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">14</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">일</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> 1</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">차 집회에서 물리적 충돌을 일으켰던 사람들은 소수였지만 경찰은 일부가 전체인양 싸잡아서 그날 집회시위 전체가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">폭력시위꾼</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">'</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">의</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">불법폭력집회</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">' </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">난동쯤 되는 것으로 왜곡시키는데에 성공했다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">&nbsp;</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">이에 반해</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">민주노총 지도부를 위시한 당일 집회의 연단에 나섰던 자들은
+얼마나 유효한 전략을 구사했는가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">? '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">민중</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">'</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">이나</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">총궐기</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">'</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">처럼 평소에 쓰지도</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">공감하기도
+힘든 선동적인 어휘를 사용하고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">민중가요를 틀어놓고 율동을 추고 으쌰으쌰 하는 것 외에는 정말 주장을
+표현할 방법이 달리 없었던 것인가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">?</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">&nbsp;</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">하여 다시 처음으로 돌아와서 우리는 질문할 수 밖에 없는 것이다</span><span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span><br /><span id="callbacknestdisfortistorycom96533" style="width:1px; height:1px; float:right"><embed  allowscriptaccess="always"  id="bootstrapperdisfortistorycom96533"  src="http://disfor.tistory.com/plugin/CallBack_bootstrapperSrc?nil_profile=tistory&amp;nil_type=copied_post"  width="1"  height="1"  wmode="transparent"  type="application/x-shockwave-flash"  EnableContextMenu="false"  FlashVars="&amp;callbackId=disfortistorycom96533&amp;host=http://disfor.tistory.com&amp;embedCodeSrc=http%3A%2F%2Fdisfor.tistory.com%2Fplugin%2FCallBack_bootstrapper%3F%26src%3Dhttp%3A%2F%2Fs1.daumcdn.net%2Fcfs.tistory%2Fresource%2F2021%2Fblog%2Fplugins%2FCallBack%2Fcallback%26id%3D9%26callbackId%3Ddisfortistorycom96533%26destDocId%3Dcallbacknestdisfortistorycom96533%26host%3Dhttp%3A%2F%2Fdisfor.tistory.com%26float%3Dleft" swLiveConnect="true"/></span><span style="font-size: 10pt; font-family: Dotum, 돋움;">
+"</span></span><span style="font-size: 10pt; font-family: Dotum, 돋움;">왜 우리는</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">재미있고 축제 같은 평화적인</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">' </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">시위를
+할 수는 없는가</span><span><span style="font-size: 10pt; font-family: Dotum, 돋움;">?"</span><br /><span style="font-size: 10pt; font-family: Dotum, 돋움;">
+</span></span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그렇게 하면 경찰도 물대포나 최루액을 쏘지는 않을 것 아냐</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">? </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">의경들한테 물총도 좀 쏘고
+꽃도 달고 다니고 기념사진도 찍고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그렇게 해서 선진국 국민이 된 것처럼 기분도 좀 내고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그렇게 되면 푸른집에 계신 그 분들도 당황할지 모르잖아</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">? </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">우리가
+이렇게 세련되고 평화롭게 시위할줄 몰랐찌이</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">-? </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">하고 말이지</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span></p><p><span><br /></span></p><p><br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:624px;;height:auto;max-width:100%"><span dir="http://cfile5.uf.tistory.com/original/232B7A36565F4A252210B1" rel="lightbox" target="_blank"><img src="http://cfile5.uf.tistory.com/image/232B7A36565F4A252210B1" style="max-width:100%;height:auto" width="624" height="303" /></span></span></p><p><span><br /></span></p><p><br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:610px;;height:auto;max-width:100%"><span dir="http://cfile8.uf.tistory.com/original/2172D543565F4D112EAB10" rel="lightbox" target="_blank"><img src="http://cfile8.uf.tistory.com/image/2172D543565F4D112EAB10" style="max-width:100%;height:auto" width="610" height="358" /></span><span class="cap1" style="display:block;max-width:100%;width:610px;">2013년 터키 탁심 광장의 침묵 시위</span></span></p><p><span><br /></span></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:634px;;height:auto;max-width:100%"><span dir="http://cfile6.uf.tistory.com/original/21725B43565F4D122F37B6" rel="lightbox" target="_blank"><img src="http://cfile6.uf.tistory.com/image/21725B43565F4D122F37B6" style="max-width:100%;height:auto" width="634" height="421" /></span><span class="cap1" style="display:block;max-width:100%;width:634px;">2013년 터키, 키스 시위</span></span></p><p><span><br /></span></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><span dir="http://cfile21.uf.tistory.com/original/2172AD43565F4D132EC90B" rel="lightbox" target="_blank"><img src="http://cfile21.uf.tistory.com/image/2172AD43565F4D132EC90B" style="max-width:100%;height:auto" width="700" height="432" /></span></span></p><p><span><br /></span></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:640px;;height:auto;max-width:100%"><span dir="http://cfile27.uf.tistory.com/original/2472EB43565F4D142E5FE6" rel="lightbox" target="_blank"><img src="http://cfile27.uf.tistory.com/image/2472EB43565F4D142E5FE6" style="max-width:100%;height:auto" width="640" height="375" /></span></span></p><p><span><br /></span></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:550px;;height:auto;max-width:100%"><span dir="http://cfile4.uf.tistory.com/original/26731243565F4D162E9688" rel="lightbox" target="_blank"><img src="http://cfile4.uf.tistory.com/image/26731243565F4D162E9688" style="max-width:100%;height:auto" width="550" height="390" /></span></span></p><p><span><br /></span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">하지만</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">이것은 대단히 순진한 생각일 수도 있다는 것</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">우리가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> "</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">바위처럼</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">" </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">틀어놓고
+율동을 추는 대신 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">EXID </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">위아래를 추고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">운송노조 조끼
+대신 뉴욕에서 어제 막 도착한 힙터지는</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> 2015 FW </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">최신 할로윈 코스튬을 입고 나온다고 해서 경찰과
+당국의 태도가 극적으로 달라지거라 생각한다면 큰 오산이다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. '</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">평화로운</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">'
+</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">시위에 대해서 당국이 어떻게 대해왔는지에 대한 경험치는</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">찾아보면 이미 충분히 쌓여있다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">&nbsp;</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">장애인처럼 원천적으로 물리력을 사용하기 힘든 시위자에 대해서도 예외가 없다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.
+2008</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">년 촛불집회 당시에도</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">유모차를 끌고 나온 엄마들을 조사하고 협박했던 경찰들이다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">자녀를 데리고 본인의 정치사회적 의사표현을 하기 위해 거리로 나온 부모들이 그곳에서 폭력적이거나 체제전복을
+기도했는가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">? </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">유모차로 경찰버스를 들이받고 분유병에 심지를 꽂고 화염병을 만들어 투척이라도 했단 말인가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">? </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">아무도 그런 일은 하지 않았지만 경찰은 평범한 시민들을 조사하고 겁주고 괴롭혔다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span></p><p><span><br /></span></p><p><br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:600px;;height:auto;max-width:100%"><span dir="http://cfile24.uf.tistory.com/original/27214B3B565F4B322730A5" rel="lightbox" target="_blank"><img src="http://cfile24.uf.tistory.com/image/27214B3B565F4B322730A5" style="max-width:100%;height:auto" width="600" height="340" /></span></span></p><p><span><br /></span></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:570px;;height:auto;max-width:100%"><span dir="http://cfile21.uf.tistory.com/original/21232B3B565F4B34264494" rel="lightbox" target="_blank"><img src="http://cfile21.uf.tistory.com/image/21232B3B565F4B34264494" style="max-width:100%;height:auto" width="570" height="380" /></span></span></p><p><span><br /></span></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:550px;;height:auto;max-width:100%"><span dir="http://cfile27.uf.tistory.com/original/2423263B565F4B352642A3" rel="lightbox" target="_blank"><img src="http://cfile27.uf.tistory.com/image/2423263B565F4B352642A3" style="max-width:100%;height:auto" width="550" height="365" /></span></span></p><p><span><br /></span></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:499px;;height:auto;max-width:100%"><span dir="http://cfile25.uf.tistory.com/original/2723033B565F4B3725D590" rel="lightbox" target="_blank"><img src="http://cfile25.uf.tistory.com/image/2723033B565F4B3725D590" style="max-width:100%;height:auto" width="499" height="324" /></span></span></p><p><span><br /></span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">&nbsp;</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">이 맥락에서</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">나는 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">“</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">정치적
+의사표현이라는 본질</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">”</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">로서 집회시위의 당연한 권리를 옹호한 정소연 변호사의 글 </span><b><span><a href="https://brunch.co.kr/@sy876/7" target="_blank" class="tx-link"><span style="color: rgb(70, 65, 217); font-size: 10pt; font-family: Dotum, 돋움;">&lt;</span></a></span><a href="https://brunch.co.kr/@sy876/7" target="_blank" class="tx-link"><span style="color: rgb(70, 65, 217); font-size: 10pt; font-family: Dotum, 돋움;">민주주의 국가에서의 집회</span></a></b><span><a href="https://brunch.co.kr/@sy876/7" target="_blank" class="tx-link"><span style="color: rgb(70, 65, 217);"><b><span style="font-size: 10pt; font-family: Dotum, 돋움;">&gt;</span></b></span></a><span style="font-size: 10pt; font-family: Dotum, 돋움;"> </span></span><span style="font-size: 10pt; font-family: Dotum, 돋움;">에도
+동의한다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">모든 집회시위가 힙 터질 수는 없다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. FTA</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">에
+반대하며 지방에서 상경해 투쟁하는 고령의 농민들에게 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">“</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">왜 코스튬을 하고 세련되고 평화롭게 시위하지는
+못합니까</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">?”</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">라고 되물을 염치가 내게는 없다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">집회시위가 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">‘</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">꿀잼</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">’</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">이고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">보기도 좋다면
+정말 좋겠지만</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그것은 희망사항이고 선택사항일 뿐이다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">모두가
+그렇게 될 수도 없고 할 필요도 없다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">저마다의 의사표현 방법이 다른 것이고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그 표현이 어떻든지 존중하는 것이 우리가 국가라는 공동체에 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">‘</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">헌법</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">’</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">이라는 이름으로 약속 받은 것이다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">불법인 것은</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> 2011</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">년 헌재에 의해 위헌 판결을 받은 차벽이지 헌법</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> 21</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">조에 보장된
+집회시위의 자유가 아니다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">&nbsp;</span></p><p><span style="background:#D9D9D9;mso-shading:white;
+mso-pattern:gray-15 auto"><span style="font-size: 10pt; font-family: Dotum, 돋움;">제</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">21</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">조</span><span style="font-size: 10pt; font-family: Dotum, 돋움;"> ① </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">모든
+국민은 언론</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">·</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">출판의 자유와 집회</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">·</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">결사의 자유를 가진다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span></span></p><p><span style="background:#D9D9D9;mso-shading:white;
+mso-pattern:gray-15 auto"><span style="font-size: 10pt; font-family: Dotum, 돋움;">②언론·출판에 대한 허가나 검열과 집회</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">·</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">결사에 대한 허가는
+인정되지 아니한다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span></span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">&nbsp;</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">평화적인 집회시위를 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">‘</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">예쁘고 보기 좋게</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">’ </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">하는 시민만이 존중 받고 보호 받을 자격이 있는가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">? ‘</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">불법폭력시위</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">’</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">는 강경진압해도 괜찮은가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">? </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">조건절을 설정하는 이 말과 같은 논리</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">(</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">궤변</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">)</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">를 주장하는 예는 무수히 많다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.
+</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">맞을만 하니까 때렸다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">왕따 당할만하니까 당했겠지</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. (</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">가해자가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">) </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">오죽했으면 그랬을까</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">넌 그 얼굴로 밤에 다녀도 안전하겠다 등의</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">- </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">폭력과 불의를 정당화하는 그 숱한 역겨움의 향연들을 우리는 얼마나 많이 목격해왔던가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. ‘</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">평화롭지 않은 시위는 떄려잡아야 한다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">’</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">는 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">‘</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">예쁘지 않거나 조신하지 않은 아내는 떄려도 된다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">’</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">로부터 과연 얼마나
+멀리 떨어져 있는 생각인가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">&nbsp;</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span></p><p><span style="font-size: 10pt; font-family: Dotum, 돋움;">프랑스 사람들이 언제 루이 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">16</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">세에게 허가 받고 시위했나</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">? </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그들이 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">“</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">왕이시여</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">지금부터
+저희는 평화롭게 시위하겠습니다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">이번주 토요일 바스티유 감옥 앞에서 할 예정입니다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그러니 부디 자유와 빵을 허락해 주십시오</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.”</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">라고 예의 바르게 말을
+한 뒤 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">“</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그렇지 않으면 단두대에서 목을 치겠습니다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">”</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">라고 공손히
+덧붙였는가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">? </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">안중근</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">윤봉길</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">김구가 일본 총독부 앞에서 평화롭게 대한독립을 주장했다면 일제가 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">“</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">옷또</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">평화롭고 선진적인 조센징 스고이네 안타다치 독립 ㅇㅇ ㅋ</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">” </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">했을건가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그래</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그것들도 모두 그때는 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">‘</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">불법</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">’</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">이었다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. (</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">다시 말하지만 심지어 이것은 불법조차 아니다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">) </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">하지만 시간에 따라서 변하는 법이 어떻게 사람의 앞에 있을 수 있는가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">누가
+의사표현을 하는 인간을 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">‘</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">불법</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">’</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">으로 규정하는가</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">우리의 시위가 아무리 </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">‘</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">촌스럽고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">,</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">개노답</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">,</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">핵노잼</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">’</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">이어도</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그것은
+그 자체로 존중받아야한다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그것이 민주주의기 때문이다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">폭력시위가
+보기 싫다고</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">? </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">그렇다면 평양으로 가시라</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">당신이 그토록 싫어하는
+폭력시위가 평양엔 없다</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">김정은이 싫어하니까</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">. </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">한국에선 지금
+이것을</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">, </span><span style="font-size: 10pt; font-family: Dotum, 돋움;">누가 싫어하고 있나</span><span style="font-size: 10pt; font-family: Dotum, 돋움;">.</span></p><div class="entry-ccl" style="clear: both; text-align: right; margin-bottom: 10px">
+	<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko" target="_blank" style="text-decoration: none">
+	<img id="ccl-icon-9-0" class="entry-ccl-by" src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/editor/ccl_black01.png" onmouseover="tistoryCcl.show(this, 1)" onmouseout="tistoryCcl.hide()" alt="저작자 표시"/>
+	<img id="ccl-icon-9-1" class="entry-ccl-nc" src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/editor/ccl_black02.png" onmouseover="tistoryCcl.show(this, 1)" onmouseout="tistoryCcl.hide()" alt="비영리"/>
+	<img id="ccl-icon-9-2" class="entry-ccl-nd" src="http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/editor/ccl_black03.png" onmouseover="tistoryCcl.show(this, 1)" onmouseout="tistoryCcl.hide()" alt="변경 금지"/>
+	<!--
+	<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<Work rdf:about="">
+			<license rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.0/kr/" />
+		</Work>
+		<License rdf:about="http://creativecommons.org/licenses/by-nc-nd/">
+			<permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+			<permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+			<requires rdf:resource="http://web.resource.org/cc/Notice"/>
+			<requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+			<prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/>
+		</License>
+	</rdf:RDF>
+	-->
+	</a>
+</div>
+<script type="text/javascript">
+if(/MSIE [0-6]\./.test(navigator.userAgent)){for(var i=0;i<3;i++){var el=document.getElementById('ccl-icon-9-'+i);el.style.filter='progid:DXImageTransform.Microsoft.AlphaImageLoader(src="'+el.src+'",sizingMethod="image")';el.src='http://i1.daumcdn.net/cfs.tistory/resource/2021/static/admin/form/s.gif';}}
+</script>
+<div class="another_category another_category_color_gray">
+<h4>'<a href="/category/기고">기고</a>' 카테고리의 다른 글</h4>
+<table>
+<tr>
+<th>
+<a href="http://disfor.tistory.com/9"  class ="current" >집회시위, 꿀잼이면 때려도 괜찮아?</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2015.12.03</td>
+</tr>
+<tr>
+<th>
+<a href="http://disfor.tistory.com/8" >매드맥스 코리아 : 분노의 취향</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2015.12.03</td>
+</tr>
+<tr>
+<th>
+<a href="http://disfor.tistory.com/7" >단결하라, 행동하라, 호모포비아!</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2015.12.01</td>
+</tr>
+<tr>
+<th>
+<a href="http://disfor.tistory.com/6" >엠마 왓슨 보기가 부끄럽다</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2015.09.22</td>
+</tr>
+</table></div></div>
+				  </div>
+                                    
+				  <div id="entry9Comment" style="display:block"><!--Copyright for PEEUM all rights reserved.-->
+					<div class="comment">
+							<div class="commentList">
+								
+							</div><!-- commentList close -->
+
+							<form method="post" action="/comment/add/9" onsubmit="return false" style="margin: 0">
+								<div class="commentWrite">
+									
+                                    
+                                      <input name="name" type="text" placeholder="name" value="" />
+                                        <input name="password" type="password" placeholder="password" value="" maxlength="8" />
+                                        <input name="homepage" type="text" class="homepage" placeholder="homepage" value="http://"/>
+                                    
+									
+									<p>
+										<textarea name="comment" onkeyup="this.style.height='26px'; this.style.height = this.scrollHeight + 'px';"></textarea>
+									</p>
+									<p>
+										<input type="submit" value="submit" onclick="addComment(this, 9); return false;" class="submit" />
+                                    <span class="secret">
+                                        <input type="checkbox" class="checkbox text" id="secret" name="secret" />
+                                        <label for="secret" class="label_secret" style="cursor:pointer">secret</label>
+                                    </span>
+									</p>
+								</div>
+</p>
+								<!-- commentWrite close -->
+							</form>
+
+				    </div>
+					</p>
+					  <!-- comment close -->
+				  </div><script type="text/javascript">loadedComments[9]=true;highlight()</script>
+				</div><!-- entry close -->
+			<!--Copyright for PEEUM all rights reserved.-->
+			
+	  </div>
+      <!-- content close -->
+      
+
+<div class="paging">
+<a  class="no-more-prev" id="prev">←</a>
+<span class="numbox">
+
+<a  class="num"><span class="selected" >1</span></a>
+
+<a href='?page=2' class="num"><span>2</span></a>
+
+<a href='?page=3' class="num"><span>3</span></a>
+
+<a href='?page=4' class="num"><span>4</span></a>
+
+<a href='?page=5' class="num"><span>5</span></a>
+ <span class="interword">...</span> 
+<a href='?page=7' class="num"><span>7</span></a>
+
+</span>
+<a href='?page=2' class="" id="next">→</a>
+</div>
+
+<div class="top">
+<a href="#">↑</a>
+</div>
+<div id="copyright">ⓒ <a href="http://peeum.com/">PEEUM</a></div>
+  </div>
+	<!-- container close -->
+
+	<script id="DragSearchJs" type="text/javascript" src="http://s1.daumcdn.net/img.search/front/js/searchDragSelection.js?nil_ch=tistory" charset="euc-kr"></script>
+<script type="text/javascript">if (asyncProfileItems) {tistoryProfile.getSidebarInfo(asyncProfileItems);}</script>
+<script charset="utf-8" type="text/javascript" src="http://m1.daumcdn.net/tiara/js/td.min.js"></script>
+
+        <script type="text/javascript">
+        //<!--<![CDATA
+        	var __pageTracker = {};
+        	if (typeof __Tiara != "undefined" && typeof __Tiara.__getTracker != "undefined") {
+        		__pageTracker = __Tiara.__getTracker();
+        	} else {
+        		__pageTracker.__trackPageview = function() {};
+        		__pageTracker.__addParam = function() {};
+        		__pageTracker.__setTitle = function() {};
+        	}
+
+        	__pageTracker.__setTitle("진심을 너에게 :: 집회시위, 꿀잼이면 때려도 괜찮아?");
+        	__pageTracker.__addParam("svcdomain","user.tistory.com");
+        	__pageTracker.__addParam("category","");
+        	__pageTracker.__addParam("articleno","9");
+        	__pageTracker.__addParam("plink","http://disfor.tistory.com/9");
+        	__pageTracker.__addParam("date","2015-12-03 05:00:20");
+        	__pageTracker.__addParam("author","disfor");
+        	__pageTracker.__addParam("length ","41145");
+        	__pageTracker.__addParam("isauthor","N");
+        	__pageTracker.__addParam("ishidden","1");
+        	__pageTracker.__addParam("comments","0");
+        	__pageTracker.__addParam("param1","0");
+        	__pageTracker.__addParam("param2","e");
+        	__pageTracker.__addParam("param3","");
+        	
+
+        	window.setTimeout("try { __pageTracker.__trackPageview('http://disfor.tistory.com/'); } catch(e) {}", 1);
+        //]]>-->
+        </script>
+
+        <script type="text/javascript">
+        window.roosevelt_params_queue = window.roosevelt_params_queue || [];
+        window.roosevelt_params_queue.push({
+        	channel_id: "dk", channel_label: "tistory"
+        });
+        </script>
+        <script type="text/javascript" src="//adimg.daumcdn.net/rt/dk_bt/roosevelt_dk_bt.js" async></script><div id="tistorytoolbarid" style="position:absolute;height:20px;top:4px;right:0px;background-color:transparent;background-image:none;z-index:11;">
+	<div class="tistorytoolbar tt_menubar_login">
+		<div class="tt_menubar_whiteBar">
+			<div id="ttMenubarInnerWrap" class="tt_menubar_inner">
+				<div class="tt_menubar_bg_toolbar"></div>
+				<h2 style="display:none;">티스토리 툴바</h2>
+				<div class="tt_menubar_mainmenu"><a class="tt_menubar_link_tit tt_menubar_link_tit_daum tt_menubar_link_tit_eng" href="http://www.daum.net/?nil_ref=tistory" target="_blank">Daum</a></div>
+				<div class="tt_menubar_bg_bar"></div>
+				<div class="tt_menubar_mainmenu"><a class="tt_menubar_link_tit tt_menubar_link_tit_eng" href="http://www.tistory.com">Tistory</a></div>
+				<div class="tt_menubar_bg_bar"></div>
+				<div class="tt_menubar_logout"><a class="tt_menubar_link_tit" href="https://www.tistory.com/login">로그인</a></div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://cfs.tistory.com/custom/blog/149/1492291/skin/images/jquery.masonry.min.js"></script>
+<script src="http://ts.daumcdn.net/custom/blog/154/1547963/skin/images/ygal.js"></script>
+</html>

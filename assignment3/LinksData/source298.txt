@@ -1,0 +1,254 @@
+<!DOCTYPE html>    
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="de"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+       <meta name="viewport" content="width=device-width, width=960" />
+    <title>HAYDIKALKAYAGAYURUGUNESE - Ana Sayfa</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://theme.webme.com/designs/clean/css/default3.css" />
+            <script type="text/javascript">
+        var dateTimeOffset = new Date().getTimezoneOffset();
+        
+        (function () {
+            var onload = function () {
+                var elements = [];
+                
+                if (document.getElementsByClassName) {
+                    elements = document.getElementsByClassName("localtime");
+                } else {
+                    var re = new RegExp('(^| )localtime( |$)');
+                    var els = document.getElementsByTagName("*");
+                    for (var i=0,j=els.length; i<j; i++) {
+                        if (re.test(els[i].className))
+                            elements.push(els[i]);
+                    }
+                }
+                
+                for (var i = 0; i < elements.length; i++) {    
+                    var timeLocal = new Date(parseInt(elements[i].getAttribute("data-timestamp")));
+                    var hour = timeLocal.getHours();
+                    var ap = "am";
+                    if (hour > 11) {
+                        ap = "pm";
+                    }
+                    else if (hour > 12) {
+                        hour = hour - 12;
+                    }
+                    
+                    var string = elements[i].getAttribute("data-template");
+                    string = string.replace("[Y]", timeLocal.getFullYear());
+                    string = string.replace("[m]", ('0' + (timeLocal.getMonth() + 1)).slice(-2));
+                    string = string.replace("[d]", ('0' + timeLocal.getDate()).slice(-2));
+                    string = string.replace("[H]", ('0' + timeLocal.getHours()).slice(-2));
+                    string = string.replace("[g]", ('0' + hour).slice(-2));
+                    string = string.replace("[i]", ('0' + timeLocal.getMinutes()).slice(-2));
+                    string = string.replace("[s]", ('0' + timeLocal.getSeconds()).slice(-2));
+                    string = string.replace("[a]", ap);
+                    elements[i].childNodes[0].nodeValue = string;
+                }
+            };
+            
+            if (window.addEventListener)
+                window.addEventListener("DOMContentLoaded", onload);
+            else if (window.attachEvent)
+                window.attachEvent("onload", onload);
+        })();
+        </script><link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.HAYDIKALKAYAGAYURUGUNESE.tr.gg/" >
+<link href="http://wtheme.webme.com/img/main/ios_icons/apple-touch-icon.png" rel="apple-touch-icon" />
+<link href="http://wtheme.webme.com/img/main/ios_icons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="http://wtheme.webme.com/img/main/ios_icons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="http://wtheme.webme.com/img/main/ios_icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<meta property="og:type" content="bedava-sitem:page" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-48793753-2']);
+  _gaq.push(['_setCustomVar',
+      1,
+      'package',
+      'free',
+      3
+   ]);
+_gaq.push(['_setCustomVar',
+      2,
+      'design',
+      'clean',
+      3
+   ]);
+_gaq.push(['_setCustomVar',
+      3,
+      'module',
+      'false',
+      3
+   ]);
+_gaq.push(['_setCustomVar',
+      4,
+      'afa',
+      'unchecked',
+      3
+   ]);
+_gaq.push(['_setCustomVar',
+      5,
+      'll',
+      '0M',
+      3
+   ]);
+
+  _gaq.push (['_gat._anonymizeIp']);
+  _gaq.push(['_setDomainName', 'tr.gg']);  
+  _gaq.push(['_setAllowLinker', true]);  
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    <style type="text/css">
+    #content {
+        min-width: 1000px;
+        min-height: 600px;        
+    }
+        #header-image {
+        background-image: url('http://img.webme.com/pic/h/haydikalkayagayurugunese/3561.jpg');
+    }
+        #masthead #header-image {
+        background-color: #F8334A ;
+    }
+        #masthead #header-image {
+        height: 300px;
+    }
+        #secondmenu a, #access a {
+        background-image: url('http://img.webme.com/pic/h/haydikalkayagayurugunese/besiktas jk.jpg');
+    }
+        #access li:hover > a,
+    #access a:focus {
+        background-image: url('http://theme.webme.com/designs/clean/arrows/orange_down.png');
+    }    
+    #access .active > a {
+        background-image: url('http://theme.webme.com/designs/clean/arrows/orange_down.png');
+    }
+        h1, h1 a {
+        color: #DA3737;
+    }
+    #masthead #claim .site-description {
+        color:#DA3737;
+    }
+        a {
+        color: #EEA913;
+        text-decoration: none;
+    }
+       
+    body {
+        background-image: url('http://img.webme.com/pic/h/haydikalkayagayurugunese/9vjIHdi.jpg');
+    } 
+        #webme_footer_textlink_dont_hide {
+z-index: 10000;
+color: black;
+background-color: ;
+}        </style>    
+</head>
+<body class="">
+    <div id="banner-top">                    <style type="text/css">
+            #ad-c81e br {
+                            display: none;
+                    }
+                    </style>
+                    <table height="102" id="ad-c81e">
+                        <tr>
+                            <td height="102">
+                                <IFRAME FRAMEBORDER="0" MARGINWIDTH="0" MARGINHEIGHT="0" SCROLLING="NO" WIDTH="728" HEIGHT="90" SRC="http://fcdn.webme.com/selfpromotion.php?size=siebenhundertachtundzwanzig"></IFRAME>
+                            </td>
+                        </tr>
+                    </table>
+</div>
+    <div id="banner-right"><IFRAME FRAMEBORDER="0" MARGINWIDTH="0" MARGINHEIGHT="0" SCROLLING="NO" WIDTH="160" HEIGHT="600" SRC="http://fcdn.webme.com/selfpromotion.php?size=einhundertsechzig"></IFRAME></div>
+    <div id="stage">
+        <div id="masthead">
+            <div id="inner-masthead">
+                <div id="claim">
+                    <div id="inner-claim">
+                        <img class="logo" src="http://img.webme.com/pic/h/haydikalkayagayurugunese/CYxnQN6WMAEyesC.jpg">                        <div class="site-title">HO&#350;  GELD&#304;N&#304;Z</div>
+                        <div class="site-description"></div>
+                    </div>
+                </div>
+                <div id="header-image">
+                </div>
+                            </div>
+        </div>
+
+          
+        <div id="access">      
+            <ul class="main-menu">
+                
+<li id="checked_menu">
+                    <a href="/Ana-Sayfa.htm"><b><span style="color:#8ed465;">Ana Sayfa</span></b></a>
+                    
+                    </li>
+<li>
+                    <a href="/V%26%23304%3BDEOLAR--MARSLAR.htm"><b><span style="color:#87cf5d;">V&#304;DEOLAR  MARSLAR</span></b></a>
+                    
+                    </li>
+<li>
+                    <a href="/HABERLER.htm"><b><span style="color:#83c95b;">HABERLER</span></b></a>
+                    
+                    </li>
+<li>
+                    <a href="/MACLAR.htm"><b><span style="color:#83c95b;">MACLAR</span></b></a>
+                    
+                    </li>
+<li>
+                    <a href="/BJK-TV.htm"><b><span style="color:#85cc5b;">BJK TV</span></b></a>
+                    
+                    </li>
+<li>
+                    <a href="/EFFECT-PHOTOSHOP.htm"><b><span style="color:#83ca59;">EFFECT PHOTOSHOP</span></b></a>
+                    
+                    </li>
+                    
+
+            </ul>
+        </div>
+        
+    
+        <div id="container">
+        
+            <div id="content">
+            
+                <div id="main">
+                    <h1>Ana Sayfa</h1>
+                    <h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HO&#350; GELD&#304;N&#304;Z &nbsp;<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="http://img.webme.com/pic/h/haydikalkayagayurugunese/3561.jpg" alt="" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</h1>
+<br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bX4VdL1tf80?list=PLg_2n7cdsWhDt6StMluqvwldbfPl2mog0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                
+                <div id="sidebar">
+                    
+                    <div class="widget">
+                        
+                    </div>
+                    
+                </div>
+            
+            </div>
+            
+        </div>
+        
+        <div id="footer">
+            <ul>
+                        <li>Bug&#252;n 1 ziyaret&#231;i (2 klik) ki&#351;i burdayd&#305;!</li>                        <br>
+               
+            <li><a href="http://www.bedava-sitem.com?utm_source=selfpromotion&amp;utm_campaign=footer&amp;utm_medium=footertextlink" target="_blank" style="font-size:15px;background-color: white;" id="webme_footer_textlink_dont_hide" rel="nofollow">=&gt; Sen de &#252;cretsiz bir internet sitesi kurmak ister misin? O zaman buray&#305; t&#305;kla! &lt;=</a></li>
+                        </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

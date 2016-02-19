@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ゆーとんは桜プールの底に沈んだ(@yuuuuton) - Twilog</title>
+<meta name="description" content="ゆーとんは桜プールの底に沈んだ(@yuuuuton)のTwilog">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="icon" type="image/png" sizes="32x32" href="http://twilog.org/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_bigger.jpeg">
+<link rel="alternate" type="application/rss+xml" title="ゆーとんは桜プールの底に沈んだ(@yuuuuton) - Twilog" href="http://twilog.org/rss-feed/yuuuuton">
+
+<link rel="stylesheet" href="http://twilog.org/css-dir/user.css?i=1">
+
+<style type="text/css">
+body {background:#9AE4E8 url(http://pbs.twimg.com/profile_background_images/574263159415906304/mq9EAwNU.jpeg) repeat fixed 0 0; color:#333;}
+a,a:hover {color:#0000FF;}
+.side-list-icon,.nav-link a,.cal-nav a {background-color:#0000FF !important;}
+.tl-del a,.tl-del a:hover,.tl-name a:hover strong {color:#0000FF !important;}
+
+</style>
+
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+<script>
+
+$(function(){
+
+	$('a[href=#pagetop]').click(function(){
+		$('html, body').animate({scrollTop:0}, 'fast');
+		return false;
+	});
+	$("#user-search-form").submit(function(){
+		user_search();
+		return false;
+	});
+	$("#uf").submit(function(){ $("#ub").attr("disabled","disabled"); });
+
+	add_twbutton();
+	$("#ub").removeAttr("disabled");
+
+	c_id = "";
+	c_str = document.cookie+";";
+	start = c_str.indexOf("update_id=");
+	if (start != -1){
+		end = c_str.indexOf(";", start);
+		c_id = c_str.substring(start+10, end);
+		if(c_id=="yuuuuton") return;
+	}
+
+	exp=new Date(); exp.setTime(exp.getTime()+1000*60*5);
+	document.cookie = "update_id=yuuuuton; expires=" + exp.toGMTString();
+
+	url = "http://twilog.org/check-update.rb?c=86026224&l=700334387817086976&s=1561990";
+	$.ajax({
+		dataType : "jsonp",
+		url: url,
+		success: function(data) {
+			if(data.tw<0) return;
+
+			if(data.tw==0) {
+				$("#ub").attr("disabled","disabled").css("cursor","default").val("情報は最新です");
+				return;
+			}
+			$("#info").slideDown();
+		}
+	});
+	
+
+
+});
+
+function user_search(){
+	var user_id = $("#user-search-form input[type=text]").val();
+
+	user_id = user_id.replace(/^[ ]+|[ ]+$/g, "");
+	if(user_id=="") {
+		alert("Twitter IDを入力してください");
+		return;
+	}else if(!user_id.match(/^@?[a-zA-Z0-9_]+$/)) {
+		alert("不正なTwitter IDです");
+		return;
+	}
+
+	user_id = user_id.replace("@","");
+	location.href = "http://twilog.org/"+user_id;
+}
+
+
+function word_search(){
+	var param = {}
+	param["word"] = encodeURIComponent($("#wsearch input[name='word']").val());
+	param["ao"] = ($("#ao-a").is(":checked")) ? "a" : "o";
+
+	var ar = [];
+	for(k in param){
+		if(param[k]=="") continue;
+		ar.push(k + "=" + param[k]);
+	}
+	location.href = "http://twilog.org/yuuuuton/search?" + ar.join("&");
+}
+
+
+var srcbtn_date = false;
+
+function show_srcbtn(date){
+
+	if(!srcbtn_date){
+		var str = "<p class=\"mb5\">ソースを取得</p>";
+		str += "<p class=\"bt-src bt-common\"><a href=\"javascript:show_srcbox('')\">div・p</a></p>";
+		str += "<p class=\"bt-src bt-common\"><a href=\"javascript:show_srcbox('ul')\">ul・li</a></p>";
+		str += "<p class=\"bt-src bt-common\"><a href=\"javascript:show_srcbox('p')\">p</a></p>";
+		$("#s"+date).html(str).fadeIn("fast"); srcbtn_date = date;;
+	} else {
+		if(srcbtn_date==date){
+			$("#s"+date).fadeOut("fast"); srcbtn_date = false;
+		} else {
+			$("#s"+srcbtn_date).fadeOut("fast"); $("#s"+date).fadeIn("fast"); srcbtn_date = date;
+		}
+	}
+
+}
+
+function show_srcbox(type){
+
+	var date = srcbtn_date;
+	$("#s"+date).fadeOut("fast"); srcbtn_date = false;
+
+	$("#source-box").fadeOut("fast",function(){
+		$("#source-box").html("<img src='http://twilog.org/img-dir/r/ajax-loader.gif' class='mt50'>")
+	    wx = $(window).scrollLeft() + Math.floor(($(window).width() - $('#source-box').outerWidth()) / 2);
+	    wy = $(window).scrollTop() + Math.floor(($(window).height() - $('#source-box').outerHeight()) / 2);
+	    $("#source-box").css({ "top": wy, "left": wx }).fadeIn("fast");
+
+		$.ajax({
+			url : "http://twilog.org/source.rb?word=" ,
+			data : { "id":"yuuuuton", "date":date, "cate":"", "param":"desc-", "type":type },
+			success : get_source_success,
+			error : function(){
+				alert("Error!!"); close_srcbox();
+			}
+
+		});
+	});
+}
+
+function get_source_success(src){ $("#source-box").html(src); }
+function close_srcbox(){ $("#source-box").fadeOut("fast"); }
+
+function add_twbutton(){
+	$("article.tl-tweet").each(function(){
+		var id = $(this).attr("id").substr(2);
+
+		var p_elem = $("<p/>").attr("class","tw-buttons");
+		var a_elem = $("<a/>").html("&nbsp;").attr({"href":"javascript:void(0);","class":"tb-rep","title":"返信"}).click({url:"https://twitter.com/intent/tweet?in_reply_to="+id},open_window);
+		$(p_elem).append(a_elem);
+		a_elem = $("<a/>").html("&nbsp;").attr({"href":"javascript:void(0);","class":"tb-rt","title":"リツイート"}).click({url:"https://twitter.com/intent/retweet?tweet_id="+id},open_window);
+		$(p_elem).append(a_elem);
+		a_elem = $("<a/>").html("&nbsp;").attr({"href":"javascript:void(0);","class":"tb-fav","title":"いいね"}).click({url:"https://twitter.com/intent/favorite?tweet_id="+id},open_window);
+		$(p_elem).append(a_elem);
+		$(this).append(p_elem);
+	});
+}
+
+
+function open_window(e){
+	var ww=550; var hh=520;
+    var x = (screen.width - ww) / 2; var y = (screen.height - hh) / 2;
+    open(e.data.url, "childWindow", "width="+ww+",height="+hh+",left="+x+",top="+y);
+}
+
+
+
+</script>
+</head>
+
+<body>
+
+<header>
+<section>
+<p id="ti-twilog"><a href="http://twilog.org/">Twilog</a></p>
+<ul>
+	<li><a href="http://twilog.org/page-about">このサイトについて</a></li>
+	<li><a href="http://twilog.org/page-help">ヘルプ</a></li>
+	<li><a href="http://twilog.org/page-register">新規登録</a></li>
+	<li><a href="http://twilog.org/settings.rb">ログイン</a></li>
+
+</ul>
+
+<form action="http://twilog.org/tl-tweets.rb" method="get" id="user-search-form">
+<input type="text" name="id" value="" placeholder="Twitter ID">
+<input type="submit" value="検索">
+</form>
+</section>
+</header>
+
+
+<div id="container">
+<div id="content">
+
+<ul class="breadcrumb">
+	<li class="home"><a href="http://twilog.org/">Twilog ホーム</a></li>
+	<li>@yuuuuton</li>
+</ul>
+
+
+<section id="user-info">
+<p id="user-info-bg"><img src="https://pbs.twimg.com/profile_banners/86026224/1427457312/ipad" width="610" height="305"></p>
+<p id="user-info-shadow">&nbsp;</p>
+<div id="user-info-content">
+<p id="user-info-icon"><a href="http://twilog.org/yuuuuton" title="@yuuuutonのTwilogへ"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_bigger.jpeg" alt="@yuuuuton" width="73" height="73"></a></p>
+<h1><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></h1>
+<ul class="user-follow">
+	<li><a href="https://twitter.com/yuuuuton/following" target="_blank">290</a>フォロー</li>
+	<li><a href="https://twitter.com/yuuuuton/followers" target="_blank">286</a>フォロワー</li>
+	<li><a href="https://twitter.com/yuuuuton/memberships" target="_blank">12</a>リスト</li>
+</ul>
+<ul class="user-info-col">
+<li class="user-info-place">遙凛ムックおめでとう ありがとう世界</li>
+<li class="user-info-web"><a href="http://twilog.org/yuuuuton" target="_blank">http://twilog.org/yuuuuton</a></li>
+<li class="user-info-comment">成人済み社会人 燭へし審神者。アニメ実況・日常ツイ多/ワンピ(サンジ・ZS・SN)/黒バス(黄黒･青火)/Ｋ(猿美)/タイバニ(空折/兎虎)/デュラ(静臨)/WJ/声優(宮野・神谷)/仁亀 HOT:うたプリ(トキヤ)/Free! 松岡凛ちゃんモンペの遙凛BBA 遙凛ラリアおめでとうダブルベッドおめでとう遙凛ピックおめ</li>
+</ul>
+</div>
+</section><!-- /user-info -->
+
+<section class="box-stats">
+<table>
+	<tr>
+		<td class="title"><a href="http://twilog.org/yuuuuton/stats">Stats</a></td>
+		<td class="stats"><strong>Twitter歴</strong><br>2,305日<span>（2009/10/29より）</span></td>
+		<td class="stats"><strong>ツイート数</strong><br>231,618<span>（100.4件/日）</span></td>
+	</tr>
+</table>
+</section><!-- /box-stats -->
+
+
+<section class="box-sort mb10 mt15">
+<div>
+<p>ツイートの並び順 :</p>
+<ul>
+	<li class="w4em"><span>通常</span></li>
+	<li class="w4em"><a href="http://twilog.org/yuuuuton/asc">朝→夜</a></li>
+	<li class="w4em"><a href="http://twilog.org/yuuuuton/allasc">古→新</a></li>
+</ul>
+</div>
+
+<div>
+<p>表示するツイート :</p>
+<ul>
+	<li class="w4em"><span>全て</span></li>
+	<li><a href="http://twilog.org/yuuuuton/norep" title="先頭に@のあるツイートを除く">Replyを除く</a></li>
+	<li><a href="http://twilog.org/yuuuuton/nomen" title="文中に@のあるツイートを除く">Mentionを除く</a></li>
+	<li><a href="http://twilog.org/yuuuuton/rt">公式RTのみ</a></li>
+	<li><a href="http://twilog.org/yuuuuton/nort">公式RTを除く</a></li>
+</ul>
+</div>
+
+
+</section><!-- /box-sort -->
+
+
+<div style="text-align:center; margin-bottom:15px;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Twilog メイン上部 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-2613098592193304"
+	 data-ad-region="ad1"
+     data-ad-slot="4733284342"
+ 	 data-color-link = "0000FF"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+
+
+
+
+<ul class="nav-link mb10 mt0">
+	<li class="nav-prev"><span>前のページ</span></li>
+	<li class="nav-user"><a href="http://twilog.org/yuuuuton">@yuuuuton</a></li>
+	<li class="nav-next"><a href="http://twilog.org/yuuuuton/2">次のページ</a></li>
+</ul>
+
+
+<div id="info" class="mb10" style="display:none;"><p class="box-balloon"><a href="http://twilog.org/update.rb?id=yuuuuton&order=&filter=&kind=reg"><span>新しいツイートが投稿されています</span></a></p></div>
+<h3 class="title01" id="d160219">
+<a href="http://twilog.org/yuuuuton/date-160219">2016年02月19日(金)</a><span>2 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160219');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160219" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw700334387817086976">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700334387817086976" target="_blank">5時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">みゆくんお誕生日おめでとう*･゜ﾟ･*:.｡..｡.:*･゜(ﾟ∀ﾟ)ﾟ･*:.｡. .｡.:*･゜ﾟ･*</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700334387817086976" target="_blank">00:01:44</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700334258959724545">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700334258959724545" target="_blank">5時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/koeotacom" target="_blank"><img src="http://pbs.twimg.com/profile_images/2809233513/d28a902a1a772d657d76329997cf5fce_normal.png" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/koeotacom" target="_blank"><strong>声ヲタ.com（声優情報&RT&誕生日）</strong><span>@koeotacom</span></a></p>
+<p class="tl-text"> ▼誕生日：入野自由さん（1988年2月19日誕）お誕生日おめでとうございます！！.☆.。♪.:*・゜ ﾟ+♪。.*:・'゜☆。.:*:・'゜☆゜'・:*♪:.。.*:・'゜☆。.:*:・'゜☆゜'・:♪<p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700334258959724545" target="_blank">00:01:13</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+<h3 class="title01" id="d160218">
+<a href="http://twilog.org/yuuuuton/date-160218">2016年02月18日(木)</a><span>92 tweets</span><a href="javascript:void(0);" onclick="show_srcbtn('160218');return false;" title="ソースを取得" class="bt-source">source</a>
+<p id="s160218" class="sbt-box"></p>
+</h3>
+
+<section class="tl-tweets">
+<article class="tl-tweet" id="tw700324153157496832">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700324153157496832" target="_blank">6時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">女は化粧して顔面工事できるからずるいよね 男は真っ向勝負じゃんこわいわ〜〜女に生まれてよかった〜</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700324153157496832" target="_blank">23:21:04</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700323396198879232">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700323396198879232" target="_blank">6時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">詐欺じゃん！！と思ったけどこれみんな元が変顔だからな</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700323396198879232" target="_blank">23:18:03</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700323264489324544">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700323264489324544" target="_blank">6時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/vmc_7" target="_blank"><img src="http://pbs.twimg.com/profile_images/699184253997744129/xhAUxt-c_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/vmc_7" target="_blank"><strong>ウルトラマン</strong><span>@vmc_7</span></a></p>
+<p class="tl-text"> 化粧と言う名の魔法 <span class="invisible">https://</span><a href="https://t.co/a2WtjZ0m6V" target="_blank">pic.twitter.com/a2WtjZ0m6V</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700323264489324544" target="_blank">23:17:32</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700322522378539009">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700322522378539009" target="_blank">6時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">ひぇ、あ、あ、</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700322522378539009" target="_blank">23:14:35</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700322430401687553">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700322430401687553" target="_blank">6時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/jjiroooo" target="_blank"><img src="http://pbs.twimg.com/profile_images/680928596219707393/M55ZzWd8_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/jjiroooo" target="_blank"><strong>ジロウ</strong><span>@jjiroooo</span></a></p>
+<p class="tl-text"> ちゅ〜！ <span class="invisible">https://</span><a href="https://t.co/StJnl6CIzn" target="_blank">pic.twitter.com/StJnl6CIzn</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700322430401687553" target="_blank">23:14:13</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700320156132597760">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700320156132597760" target="_blank">6時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">はい常守確保〜〜 咬朱かわいい</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700320156132597760" target="_blank">23:05:11</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700320047323942913">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700320047323942913" target="_blank">6時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/omuronnv3" target="_blank"><img src="http://pbs.twimg.com/profile_images/656838569919557632/pyOqQK-j_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/omuronnv3" target="_blank"><strong>ゴディ</strong><span>@omuronnv3</span></a></p>
+<p class="tl-text"> 夜はまだ寒いですね！ <span class="invisible">https://</span><a href="https://t.co/4fokG1zo6h" target="_blank">pic.twitter.com/4fokG1zo6h</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700320047323942913" target="_blank">23:04:45</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700318981098373121">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700318981098373121" target="_blank">6時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text"><a href="https://twitter.com/yuica1104" target="_blank">@yuica1104</a> だって怒りに変換しないとキャパオーバーして笑いと涙が止まらなくなるからｗｗｗ困った困った&#128519;&#128519;ｗｗ<br>完全に新キャラに移行しちゃったら寂しいね(;_;)</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700318981098373121" target="_blank">23:00:31</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700317601734402049">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700317601734402049" target="_blank">6時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">ほかいも！</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700317601734402049" target="_blank">22:55:02</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700308744308043776">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700308744308043776" target="_blank">7時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">やばいわｗｗｗｗお風呂はいろ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700308744308043776" target="_blank">22:19:50</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700308670597337088">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700308670597337088" target="_blank">7時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/karasuma_kojiro" target="_blank"><img src="http://pbs.twimg.com/profile_images/700306074486738945/MzM5H3Ej_normal.png" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/karasuma_kojiro" target="_blank"><strong>渡空燕丸＠リトルノア4コマ</strong><span>@karasuma_kojiro</span></a></p>
+<p class="tl-text"> 英語読みのアダ名と言えば「こいつはグリーンリバーライトでカッコいいけど、どうせ俺のことはチャイルドバーゲンとか言うんだろ！」って子安さんの発言を思い出してしまい。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700308670597337088" target="_blank">22:19:32</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700308464350814208">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700308464350814208" target="_blank">7時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">きすみが旭に「旭はばかだなあ！」って言うのと同じ感覚ｗｗｗ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700308464350814208" target="_blank">22:18:43</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700308224675749888">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700308224675749888" target="_blank">7時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">nmkwはばかだなあｗｗｗｗｗｗ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700308224675749888" target="_blank">22:17:46</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700308158783234048">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700308158783234048" target="_blank">7時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/gude_mochi" target="_blank"><img src="http://pbs.twimg.com/profile_images/644445784415465472/AarzSRh__normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/gude_mochi" target="_blank"><strong>えぬこ</strong><span>@gude_mochi</span></a></p>
+<p class="tl-text"> 緑川に「僕はグリーンリバーライト、君は？」と聞かれて「ウェーブリバービックすけ」と答えた浪川大輔の話でもします？<p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700308158783234048" target="_blank">22:17:30</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700304650755448832">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700304650755448832" target="_blank">7時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">向かい合う青と赤とかさ･･･控えめに言って最高じゃん･･･</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700304650755448832" target="_blank">22:03:34</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700304477610332161">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700304477610332161" target="_blank">7時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">これはアカンｗｗｗｗしかしこうやって比べてみると遙凛ちゃんの作画綺麗すぎて</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700304477610332161" target="_blank">22:02:53</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700304317866115073">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700304317866115073" target="_blank">7時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/ssg_ice" target="_blank"><img src="http://pbs.twimg.com/profile_images/695936856685285376/Y--hw69d_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/ssg_ice" target="_blank"><strong>(´ᾥ ` )</strong><span>@ssg_ice</span></a></p>
+<p class="tl-text"> あかん(アカン) <span class="invisible">https://</span><a href="https://t.co/HTJdtlERXa" target="_blank">pic.twitter.com/HTJdtlERXa</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700304317866115073" target="_blank">22:02:15</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700302427665268736">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700302427665268736" target="_blank">7時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">ああ、ああ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700302427665268736" target="_blank">21:54:44</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700302356118810628">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700302356118810628" target="_blank">7時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/hrsmc6" target="_blank"><img src="http://pbs.twimg.com/profile_images/698188872480456705/DBBNy35c_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/hrsmc6" target="_blank"><strong>秋和@春コミ[東2フ02ab]</strong><span>@hrsmc6</span></a></p>
+<p class="tl-text"> 何度も言ってるけどこういうことなんですよ(ガチギレ) <span class="invisible">https://</span><a href="https://t.co/GTVSGTYrZM" target="_blank">pic.twitter.com/GTVSGTYrZM</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700302356118810628" target="_blank">21:54:27</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700296028524662784">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700296028524662784" target="_blank">8時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">これは遙凛すぎる</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700296028524662784" target="_blank">21:29:18</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700295938863050753">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700295938863050753" target="_blank">8時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/fashionpressnet" target="_blank"><img src="http://pbs.twimg.com/profile_images/491483872677228544/fuq52Rp2_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/fashionpressnet" target="_blank"><strong>Fashion Press</strong><span>@fashionpressnet</span></a></p>
+<p class="tl-text"> 横浜・八景島シーパラダイス「楽園のアクアリウム」がリニューアル、花々が咲き誇る春の水族館に <a href="https://t.co/IWy1RiPOQ3" target="_blank" title="http://www.fashion-press.net/news/19670"><span class="invisible">http://</span>www.fashion-press.net/news/19670</a> <span class="invisible">https://</span><a href="https://t.co/O3Y2rX1CWF" target="_blank">pic.twitter.com/O3Y2rX1CWF</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700295938863050753" target="_blank">21:28:57</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700284094295347200">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700284094295347200" target="_blank">8時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">完璧……！！！&#128519;&#128519;&#128519;</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700284094295347200" target="_blank">20:41:53</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700284016532926464">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700284016532926464" target="_blank">8時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/Maosika_" target="_blank"><img src="http://pbs.twimg.com/profile_images/693084022352670721/kinHJJCG_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/Maosika_" target="_blank"><strong>りゅう</strong><span>@Maosika_</span></a></p>
+<p class="tl-text"> よっしゃ、これは俺のチャンスだ！<br>魅力的なキメ顔をみんなに伝えられるぜ！<br>行くぞ、しっかり見とけ。<br>キリッ&#128527;<br>だよなだよな、カッコいいよな。<br>おっと失神するなよ？<br>じゃなっ！<br><br>ディズニーが完璧に仕上げてきやがった <span class="invisible">https://</span><a href="https://t.co/pQoXwqvFS9" target="_blank">pic.twitter.com/pQoXwqvFS9</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700284016532926464" target="_blank">20:41:34</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700283291023204352">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700283291023204352" target="_blank">8時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">ニコ生またやるのかｗｗ見たい</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700283291023204352" target="_blank">20:38:41</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700283124609986561">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700283124609986561" target="_blank">8時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/DDO_official_JP" target="_blank"><img src="http://pbs.twimg.com/profile_images/560663668006719488/mE3_HumL_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/DDO_official_JP" target="_blank"><strong>ドラゴンズドグマ オンライン 公式</strong><span>@DDO_official_JP</span></a></p>
+<p class="tl-text"> 【2/27(土)21時～DDON TV生放送】<br>シーズン1.3直前スペシャルの今回は、ゲストに人気声優の神谷浩史さんと金田朋子さんをお招きして2部構成でお届けします！<br><a href="https://t.co/YEwM2kBPh4" target="_blank" title="https://members.dd-on.jp/info/detail/4/648"><span class="invisible">https://</span>members.dd-on.jp/info/detail/4/<span class="invisible">48</span>…</a><br><a href="https://twitter.com/hashtag/DDON?src=hash" target="_blank">#DDON</a> <span class="invisible">https://</span><a href="https://t.co/aaDUWesQLe" target="_blank">pic.twitter.com/aaDUWesQLe</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700283124609986561" target="_blank">20:38:02</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700282110079184899">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700282110079184899" target="_blank">9時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text"><a href="https://twitter.com/yuica1104" target="_blank">@yuica1104</a> そうでしょ〜〜！すごすぎてもはや憤怒&#128519;&#128519;&#128162;&#128162;結婚おめでとう&#128514;&#128514;<br>アニメでも絡むといいねえ！にやにやするね！ｗ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700282110079184899" target="_blank">20:34:00</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700280296504070144">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700280296504070144" target="_blank">9時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">どひゃーーー</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700280296504070144" target="_blank">20:26:47</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700280207492534273">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700280207492534273" target="_blank">9時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/kanbabichio" target="_blank"><img src="http://pbs.twimg.com/profile_images/699226510402592768/9xiLOl2f_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/kanbabichio" target="_blank"><strong>凛誕17日目り46a</strong><span>@kanbabichio</span></a></p>
+<p class="tl-text"> 北米版Free!es、控えめにいってさいこ～；；え、この絵の原画初めてみたんですけど…！ジャケットの絵が一枚絵で見やすくなってるのもうれしい；； <span class="invisible">https://</span><a href="https://t.co/AhfVcBOJ0y" target="_blank">pic.twitter.com/AhfVcBOJ0y</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700280207492534273" target="_blank">20:26:26</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700276658922790912">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700276658922790912" target="_blank">9時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/jujoukingyo" target="_blank"><img src="http://pbs.twimg.com/profile_images/378800000510809102/bde4e67f328ab6d0ca6cbe9f86bbbb10_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/jujoukingyo" target="_blank"><strong>だいたいいる十条にるや</strong><span>@jujoukingyo</span></a></p>
+<p class="tl-text"> お寺の虫干しの時の公開に行かれた方のブログの記事に「寺に来る以前の所有者は天井からつるし数珠丸を飾っていたが、夜な夜な刀から数珠を押し揉む音が聞こえた」っていう怪談がお坊さんから聞いた話として載ってるんですが、青江派本当に怪奇と相性いいな<p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700276658922790912" target="_blank">20:12:20</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700276608096022528">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700276608096022528" target="_blank">9時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/jujoukingyo" target="_blank"><img src="http://pbs.twimg.com/profile_images/378800000510809102/bde4e67f328ab6d0ca6cbe9f86bbbb10_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/jujoukingyo" target="_blank"><strong>だいたいいる十条にるや</strong><span>@jujoukingyo</span></a></p>
+<p class="tl-text"> あー！！しんけん方もそうだったけど、数珠丸の立ち絵、太刀の持ち方が杖の持ちかただ、佩刀してない！！元主が身延山で数珠をかけて杖として使ってた逸話拾われてる！！嬉しい<p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700276608096022528" target="_blank">20:12:08</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700276507222999041">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700276507222999041" target="_blank">9時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">なにこれｗｗ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700276507222999041" target="_blank">20:11:44</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700276465540018177">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700276465540018177" target="_blank">9時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/Gundam_TV" target="_blank"><img src="http://pbs.twimg.com/profile_images/680425545260138496/ORLIhiji_normal.png" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/Gundam_TV" target="_blank"><strong>GM㌠(GHOST MAN)</strong><span>@Gundam_TV</span></a></p>
+<p class="tl-text"> ロックマンでしか見たことねーよ こんな動き <span class="invisible">https://</span><a href="https://t.co/D5RrSIaC21" target="_blank">pic.twitter.com/D5RrSIaC21</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700276465540018177" target="_blank">20:11:34</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700267908698546177">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700267908698546177" target="_blank">10時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">ただいましてた！</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700267908698546177" target="_blank">19:37:34</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700250153551163392">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700250153551163392" target="_blank">11時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">ななきゅっぱ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700250153551163392" target="_blank">18:27:01</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700250110987382784">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700250110987382784" target="_blank">11時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/psychopass_tv" target="_blank"><img src="http://pbs.twimg.com/profile_images/2485304552/ugea95ks08nnmn58m892_normal.png" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/psychopass_tv" target="_blank"><strong>PSYCHO-PASSサイコパス 公式</strong><span>@psychopass_tv</span></a></p>
+<p class="tl-text"> 【グッズ情報】自動変形するドミネーターの予約を開始しております。通常バージョンとスペシャルエディションの2タイプを御用意！是非チェックしで下さい！<a href="https://twitter.com/hashtag/pp_anime?src=hash" target="_blank">#pp_anime</a> <br><a href="https://t.co/Q22WUtySvk" target="_blank" title="https://dominator.cerevo.com/ja/"><span class="invisible">https://</span>dominator.cerevo.com/ja/</a> <span class="invisible">https://</span><a href="https://t.co/68wUV6Di8O" target="_blank">pic.twitter.com/68wUV6Di8O</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700250110987382784" target="_blank">18:26:51</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700249453421158400">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700249453421158400" target="_blank">11時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/morinaga_ayami" target="_blank"><img src="http://pbs.twimg.com/profile_images/626050634945462273/F4gC1PSW_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/morinaga_ayami" target="_blank"><strong>森長あやみ@ぶんぶく1巻発売中！</strong><span>@morinaga_ayami</span></a></p>
+<p class="tl-text"> 飛行機事故にあう赤ん坊の分岐 <span class="invisible">https://</span><a href="https://t.co/QIiTquQ4Kr" target="_blank">pic.twitter.com/QIiTquQ4Kr</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700249453421158400" target="_blank">18:24:14</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700247722507390976">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700247722507390976" target="_blank">11時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text"><a href="https://twitter.com/yuica1104" target="_blank">@yuica1104</a> 表紙これだよ…！やばいね！！！やっぱ遙凛ゼクシィ&#128557;&#128557;&#127800;&#127800;運命&#128519;&#128519;&#128519;<br>ゆいかのせいで荒坂脳になってる自分がいるｗｗ <span class="invisible">https://</span><a href="https://t.co/eOoYmAFtnV" target="_blank">pic.twitter.com/eOoYmAFtnV</a></p>
+<p class="tl-image"><a href="https://t.co/eOoYmAFtnV" target="_blank"><img src="https://pbs.twimg.com/media/CbfHleCVAAAhMI2.jpg:small" class="tl-image" width="266" height="340"></a></p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700247722507390976" target="_blank">18:17:21</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700244284415422464">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700244284415422464" target="_blank">11時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">疲れた…！しごおわだ〜</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700244284415422464" target="_blank">18:03:41</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700227209210925056">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700227209210925056" target="_blank">12時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">うまくいって本当によかった 社内でスキップするレベル</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700227209210925056" target="_blank">16:55:50</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700227035034062848">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700227035034062848" target="_blank">12時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">ヤバイミスした奴(おじさん)に「なんとかなったよ」って電話したら「もうゆーとんさんに頭上がんないよ…これからは無茶な依頼もなんでもやるからどんどん使って…」って泣きそうな声で言われたｗｗｗｗよかった</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700227035034062848" target="_blank">16:55:09</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700225951548833792">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700225951548833792" target="_blank">12時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">うっおおおおおよかったーーーー今日の重大案件が片付きそう</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700225951548833792" target="_blank">16:50:51</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700193181233623040">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700193181233623040" target="_blank">14時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">おいまじか…</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700193181233623040" target="_blank">14:40:38</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700166839301570560">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700166839301570560" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">あー様にきてほしいとても</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700166839301570560" target="_blank">12:55:57</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700166786998673409">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700166786998673409" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/urakusoG" target="_blank"><img src="http://pbs.twimg.com/profile_images/669707147945512960/FcSRmMqq_normal.png" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/urakusoG" target="_blank"><strong>有楽そG</strong><span>@urakusoG</span></a></p>
+<p class="tl-text"> このままでは刀剣乱舞に石田彰とか保志総一朗とか子安武人とか置鮎龍太郎とか関俊彦とか来てしまう<p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700166786998673409" target="_blank">12:55:45</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700166641754071041">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700166641754071041" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">こっちみんなｗｗｗ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700166641754071041" target="_blank">12:55:10</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700166590810050560">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700166590810050560" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/RyokoShiraishi_" target="_blank"><img src="http://pbs.twimg.com/profile_images/684048659097370624/onWbLcgu_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/RyokoShiraishi_" target="_blank"><strong>白石涼子</strong><span>@RyokoShiraishi_</span></a></p>
+<p class="tl-text"> 興奮冷めやらぬうちに、ネタ写真を。これ、本番1幕中(笑)に楽屋廊下で撮影。<br>浪川さんにリクエストに答えていただきました！何でもやってくれる…<br><br>天津様になぜか壁ドンされる密花。<br>そして仕返してみたw<br><br>…私の身長は155cmです！ <span class="invisible">https://</span><a href="https://t.co/VUqnBQ1P1w" target="_blank">pic.twitter.com/VUqnBQ1P1w</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700166590810050560" target="_blank">12:54:58</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700165086162214912">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700165086162214912" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/hachi_100tl" target="_blank"><img src="http://pbs.twimg.com/profile_images/640664967243366400/HL8RBrr8_normal.png" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/hachi_100tl" target="_blank"><strong>ハチ。</strong><span>@hachi_100tl</span></a></p>
+<p class="tl-text"> 電車でリーマン2人が「あー！彼女欲しい！正直、こんな遅くなっても嫌な顔せずに、家であったかいごはん作って待っててくれるだけでいい！大事にするから！」「俺んちにいるけど、写メ見る？」「マジかよお前？！見せて！」ってスマホ覗き込んだリーマンの「炊飯器じゃねぇか…」のつぶやき面白すぎた<p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700165086162214912" target="_blank">12:48:59</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700163455215493122">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700163455215493122" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">わーお！</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700163455215493122" target="_blank">12:42:30</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700163400769236992">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700163400769236992" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/ryom_xxxKTxxx" target="_blank"><img src="http://pbs.twimg.com/profile_images/697307557442879488/nj_0O23c_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/ryom_xxxKTxxx" target="_blank"><strong>りょむ。</strong><span>@ryom_xxxKTxxx</span></a></p>
+<p class="tl-text"> 服お揃いだよ……………ｶﾞﾀｶﾞﾀｯ <span class="invisible">https://</span><a href="https://t.co/q7NXnE8dJH" target="_blank">pic.twitter.com/q7NXnE8dJH</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700163400769236992" target="_blank">12:42:17</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700163178001338368">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700163178001338368" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">グリリバだ〜！</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700163178001338368" target="_blank">12:41:24</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700163123899072512">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700163123899072512" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/tkrb_ht" target="_blank"><img src="http://pbs.twimg.com/profile_images/644866996299919360/9wrB2Yu3_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/tkrb_ht" target="_blank"><strong>【公式】刀剣乱舞-本丸通信-</strong><span>@tkrb_ht</span></a></p>
+<p class="tl-text"> この度、発表となりました「数珠丸恒次(じゅずまるつねつぐ)」は、刀剣乱舞-ONLINE- Pocketの事前登録150万人突破で審神者の皆さんへプレゼントとなります！是非この機会に事前登録を△△登録はこちらから<a href="https://t.co/z7LuSPdAyE" target="_blank" title="http://www.tohken-pocket.jp/"><span class="invisible">http://</span>www.tohken-pocket.jp<span class="invisible">/</span></a> <a href="https://twitter.com/hashtag/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E?src=hash" target="_blank">#刀剣乱舞</a> <a href="https://twitter.com/hashtag/%E3%81%A8%E3%81%86%E3%82%89%E3%81%B6?src=hash" target="_blank">#とうらぶ</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700163123899072512" target="_blank">12:41:11</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700163088629141504">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700163088629141504" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/tkrb_ht" target="_blank"><img src="http://pbs.twimg.com/profile_images/644866996299919360/9wrB2Yu3_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/tkrb_ht" target="_blank"><strong>【公式】刀剣乱舞-本丸通信-</strong><span>@tkrb_ht</span></a></p>
+<p class="tl-text"> 【新しい刀剣男士公開】2/2<br>祈るように伏せられた眼差しから、その心の機微を読み解くことは難しい。<br><br>「……人を斬る道具が、仏道を守る。この在り方は、間違っているのでしょうか……」(cv.緑川光) <a href="https://twitter.com/hashtag/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E?src=hash" target="_blank">#刀剣乱舞</a> <a href="https://twitter.com/hashtag/%E3%81%A8%E3%81%86%E3%82%89%E3%81%B6?src=hash" target="_blank">#とうらぶ</a> <span class="invisible">https://</span><a href="https://t.co/1dZVPfUWgf" target="_blank">pic.twitter.com/1dZVPfUWgf</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700163088629141504" target="_blank">12:41:03</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700163072753668096">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700163072753668096" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/tkrb_ht" target="_blank"><img src="http://pbs.twimg.com/profile_images/644866996299919360/9wrB2Yu3_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/tkrb_ht" target="_blank"><strong>【公式】刀剣乱舞-本丸通信-</strong><span>@tkrb_ht</span></a></p>
+<p class="tl-text"> 【新しい刀剣男士公開】1/2<br>「数珠丸恒次(じゅずまるつねつぐ)」<br>天下五剣のひとつで、青江恒次作との説がある太刀。<br>鎌倉時代の僧、日蓮が護身用として所持していたと伝わり、<br>柄に数珠が巻かれていたことが名の由来ともされている。 <a href="https://twitter.com/hashtag/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E?src=hash" target="_blank">#刀剣乱舞</a> <a href="https://twitter.com/hashtag/%E3%81%A8%E3%81%86%E3%82%89%E3%81%B6?src=hash" target="_blank">#とうらぶ</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700163072753668096" target="_blank">12:40:59</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700162725335289858">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700162725335289858" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">へー！わかりやす！登録するかあ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700162725335289858" target="_blank">12:39:36</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700162634885148672">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700162634885148672" target="_blank">16時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/TOUKEN_Pocket" target="_blank"><img src="http://pbs.twimg.com/profile_images/696527864145907715/cjPxkti5_normal.png" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/TOUKEN_Pocket" target="_blank"><strong>刀剣乱舞Pocket事前登録専用</strong><span>@TOUKEN_Pocket</span></a></p>
+<p class="tl-text"> 【事前登録キャンペーン開催中】<br>「マンガ 刀剣乱舞-ONLINE- Pocket事前登録のしかた」を<br>読んで事前登録しよう(マンガ：鈴木次郎氏)<br>登録はこちら→<a href="https://t.co/uKPrQeM27O" target="_blank" title="http://www.tohken-pocket.jp"><span class="invisible">http://</span>www.tohken-pocket.jp</a><br><a href="https://twitter.com/hashtag/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E?src=hash" target="_blank">#刀剣乱舞</a> <a href="https://twitter.com/hashtag/%E3%81%A8%E3%81%86%E3%82%89%E3%81%B6?src=hash" target="_blank">#とうらぶ</a> <span class="invisible">https://</span><a href="https://t.co/gqcWFHOU2Q" target="_blank">pic.twitter.com/gqcWFHOU2Q</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700162634885148672" target="_blank">12:39:15</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700145152342396928">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700145152342396928" target="_blank">18時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/AKARI_aikatsu" target="_blank"><img src="http://pbs.twimg.com/profile_images/698761053002272768/DV6tQ70B_normal.png" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/AKARI_aikatsu" target="_blank"><strong>大空あいん【あかり兄公式アカウント】</strong><span>@AKARI_aikatsu</span></a></p>
+<p class="tl-text"> 後輩「林原めぐみさんって凄かったらしいけどどんだけなんすか？」<br><br>ワイ「今の世代にわかりやすく言うと」<br><br>後輩「言うと？」<br><br>ワイ「ゆかりんとほっちゃんと水樹奈々を足して」<br><br>後輩「足して」<br><br>ワイ「割らない」<br><br>後輩「割らない」<p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700145152342396928" target="_blank">11:29:47</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700144762527952897">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700144762527952897" target="_blank">18時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">6つ子なのに兄さんってほんとずるいよね</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700144762527952897" target="_blank">11:28:14</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700144643539759104">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700144643539759104" target="_blank">18時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/mouflonsun" target="_blank"><img src="http://pbs.twimg.com/profile_images/673643404639600640/zVqTuc28_normal.png" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/mouflonsun" target="_blank"><strong>ムフロン</strong><span>@mouflonsun</span></a></p>
+<p class="tl-text"> なでなでする長男される長男 <span class="invisible">https://</span><a href="https://t.co/bnXXml2XP7" target="_blank">pic.twitter.com/bnXXml2XP7</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700144643539759104" target="_blank">11:27:45</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700144310566539264">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700144310566539264" target="_blank">18時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/0_kana" target="_blank"><img src="http://pbs.twimg.com/profile_images/682173064847593473/5zeYnC_S_normal.png" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/0_kana" target="_blank"><strong>kana</strong><span>@0_kana</span></a></p>
+<p class="tl-text"> 「フォローしてきた人に話しかけたらフォロー外されたんだけど何がしたいんだ」に「奇妙な昆虫を観察しようと思ったらこっちに飛んできたので部屋を閉めたでござる」ってレス付いてたの凄いツボ。<p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700144310566539264" target="_blank">11:26:26</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700124604350607361">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700124604350607361" target="_blank">19時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">癒された</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700124604350607361" target="_blank">10:08:08</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700124574277500928">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700124574277500928" target="_blank">19時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/pyonpyoko_hare" target="_blank"><img src="http://pbs.twimg.com/profile_images/698527284748165120/_2w6hDvE_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/pyonpyoko_hare" target="_blank"><strong>Hare</strong><span>@pyonpyoko_hare</span></a></p>
+<p class="tl-text"> 「「「「「「どうぞ、お好きなピカを！！」」」」」」<br><a href="https://twitter.com/hashtag/%E3%81%8A%E3%81%9D%E6%9D%BE?src=hash" target="_blank">＃おそ松</a> <span class="invisible">https://</span><a href="https://t.co/2FEOAnmEo7" target="_blank">pic.twitter.com/2FEOAnmEo7</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700124574277500928" target="_blank">10:08:00</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700124518648426496">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700124518648426496" target="_blank">19時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">ヤッベーゾ↑↑もうだめ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700124518648426496" target="_blank">10:07:47</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700124323755876352">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700124323755876352" target="_blank">19時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">ばか！！！！！あいつ！！！！なんてミスしてくれたんだ…！！！！うおおおおやばいすぎて笑いが込み上げる</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700124323755876352" target="_blank">10:07:01</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700099158879793152">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700099158879793152" target="_blank">21時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">やばいｗｗｗ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700099158879793152" target="_blank">08:27:01</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700099104848805889">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700099104848805889" target="_blank">21時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yori716" target="_blank"><img src="http://pbs.twimg.com/profile_images/591129022769172482/S51quDpk_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yori716" target="_blank"><strong>より</strong><span>@yori716</span></a></p>
+<p class="tl-text"> 重い(確信) <span class="invisible">https://</span><a href="https://t.co/J8OR5mLHec" target="_blank">pic.twitter.com/J8OR5mLHec</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700099104848805889" target="_blank">08:26:48</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700099067171344385">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700099067171344385" target="_blank">21時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">しゅっしゃ！</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700099067171344385" target="_blank">08:26:39</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700088761741279236">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700088761741279236" target="_blank">21時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">バイオゴリラ(元審神者)「私の戦闘力は530000です」</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700088761741279236" target="_blank">07:45:42</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700088518509350912">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700088518509350912" target="_blank">21時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/PonJu_osashimi" target="_blank"><img src="http://pbs.twimg.com/profile_images/693111638841372672/FyQpmZiU_normal.png" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/PonJu_osashimi" target="_blank"><strong>ぽんじゅ</strong><span>@PonJu_osashimi</span></a></p>
+<p class="tl-text"> 刀剣のレベルが一つ上がる毎に体と心が人のものになる。レベルが上がる程手入れで傷を治すのに時間がかかり感情が増えていくが、どれだけ人に近づいても彼らは九十九（つくも）。レベルは99で止まり、最後の一つで人にはなれない、神にも戻れない。<br>対する審神者はバイオゴリラに進化するのであった<p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700088518509350912" target="_blank">07:44:44</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700086037993762816">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700086037993762816" target="_blank">22時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/cooliceco" target="_blank"><img src="http://pbs.twimg.com/profile_images/686076707275579392/Pp5II5PP_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/cooliceco" target="_blank"><strong>ゆりぽん</strong><span>@cooliceco</span></a></p>
+<p class="tl-text"> 小型 <span class="invisible">https://</span><a href="https://t.co/TTybxAV8aI" target="_blank">pic.twitter.com/TTybxAV8aI</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/700086037993762816" target="_blank">07:34:53</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700085723731365888">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700085723731365888" target="_blank">22時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">今日寒いけどあんまり寒くないね</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700085723731365888" target="_blank">07:33:38</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700083641586573312">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700083641586573312" target="_blank">22時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">信号渡るために朝から50mダッシュしてグロッキー</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700083641586573312" target="_blank">07:25:21</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw700083493326295040">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/700083493326295040" target="_blank">22時間前</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">おはよう</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/700083493326295040" target="_blank">07:24:46</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699995239918866433">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699995239918866433" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">おやすみーちゃん( ˘ω˘ )</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699995239918866433" target="_blank">01:34:05</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699992575478861824">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699992575478861824" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">まあ普及したとしてパインアメではお返ししないよね</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699992575478861824" target="_blank">01:23:29</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699992451130327040">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699992451130327040" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/pain_ame" target="_blank"><img src="http://pbs.twimg.com/profile_images/696949568899018752/lFfqxJUL_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/pain_ame" target="_blank"><strong>パインアメの【パイン株式会社】</strong><span>@pain_ame</span></a></p>
+<p class="tl-text"> ( ˙-˙)。oO(説明しよう！日本のホワイトデーは1980年に全国飴菓子工業組合の発案により生まれた記念日なのである！ゆえにお返しはキャンディを贈るのが王道なのである！毎年言ってるけど全然普及しないのはなぜなんだ)<p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/699992451130327040" target="_blank">01:23:00</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699992296226316288">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699992296226316288" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">さー寝よ寝よ 不動くん本日きません</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699992296226316288" target="_blank">01:22:23</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699987083671134213">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699987083671134213" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">サークルで使うシャトルの注文もしたよ いいかい 君たちの楽しいは裏でのこういう支えがあって成り立ってるんだ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699987083671134213" target="_blank">01:01:40</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699986176090861568">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699986176090861568" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">オーストラリアロケハンレポート</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699986176090861568" target="_blank">00:58:04</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699982612568215552">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699982612568215552" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">紘子ノートの4巻と5巻ポチ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699982612568215552" target="_blank">00:43:54</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699981878502141952">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699981878502141952" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text"><a href="https://twitter.com/shuumai" target="_blank">@shuumai</a> いいなー</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699981878502141952" target="_blank">00:40:59</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699981444181954560">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699981444181954560" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/denkiobake" target="_blank"><img src="http://pbs.twimg.com/profile_images/698302237106262017/h-csaz5I_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/denkiobake" target="_blank"><strong>ハルヒナ</strong><span>@denkiobake</span></a></p>
+<p class="tl-text"> 待ち合わせ場所で凛を待ってる遙を「(かっこいいな…)」と思いながらしばらく見つめてる凛目線の遙 <span class="invisible">https://</span><a href="https://t.co/XI0pd63E53" target="_blank">pic.twitter.com/XI0pd63E53</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/699981444181954560" target="_blank">00:39:15</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699981290230026240">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699981290230026240" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">遙凛の民にとっては一年中桜の季節だけど、こうやって実際に周りがじわじわと桜色になっていくのを見るととてつもない幸福感に包まれる</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699981290230026240" target="_blank">00:38:39</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699978937665867778">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699978937665867778" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text"><a href="https://twitter.com/yuica1104" target="_blank">@yuica1104</a> あれは完全にゼクシィの表紙だったｗ2人の間に「for the future」って書いてあるしほんとやばいｗｗ&#128519;&#128519;&#127800;&#127800;&#128591;そう！なんていうかほもじゃなくて遙凛なの！！ｗ<br>小野田チャンは愛されてっからいいのよ&#128519;&#128519;</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699978937665867778" target="_blank">00:29:18</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699975972745969666">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699975972745969666" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">うぇーいｗｗｗ</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699975972745969666" target="_blank">00:17:31</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699975944346300416">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699975944346300416" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/2c4bsf" target="_blank"><img src="http://pbs.twimg.com/profile_images/695945025390153728/BldVL395_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/2c4bsf" target="_blank"><strong>かと</strong><span>@2c4bsf</span></a></p>
+<p class="tl-text"> この二遊間ほんま好き<br>倉持と小湊コンビよすぎ<br>まじかっけー <span class="invisible">https://</span><a href="https://t.co/nqOtgHkGJO" target="_blank">pic.twitter.com/nqOtgHkGJO</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/699975944346300416" target="_blank">00:17:24</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699975695800270849">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699975695800270849" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/kaishi1205" target="_blank"><img src="http://pbs.twimg.com/profile_images/696143532621320193/5AWWy1tf_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/kaishi1205" target="_blank"><strong>かいし</strong><span>@kaishi1205</span></a></p>
+<p class="tl-text"> リアルダイヤのAじゃん笑笑 <a href="https://t.co/NbqnzVUxSh" target="_blank" title="https://vine.co/v/hv5W5mXgKFx"><span class="invisible">https://</span>vine.co/v/hv5W5mXgKFx</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/699975695800270849" target="_blank">00:16:25</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699975559225315328">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699975559225315328" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">懐かしすぎてため息</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699975559225315328" target="_blank">00:15:52</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699975515822624770">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699975515822624770" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">野ブタパワー注☆入</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699975515822624770" target="_blank">00:15:42</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699975437309468672">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699975437309468672" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/aikame_223" target="_blank"><img src="http://pbs.twimg.com/profile_images/697629399596666880/sEPt9cp8_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/aikame_223" target="_blank"><strong>あいか@亀亀</strong><span>@aikame_223</span></a></p>
+<p class="tl-text"> ヒガンバナ終わりに怪盗山猫12秒スポット&#128570;<br>野ブタパワーって&#128055;<br><a href="https://twitter.com/hashtag/%E6%80%AA%E7%9B%97%E5%B1%B1%E7%8C%AB?src=hash" target="_blank">#怪盗山猫</a> <span class="invisible">https://</span><a href="https://t.co/KGUmy7Jzdz" target="_blank">pic.twitter.com/KGUmy7Jzdz</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/699975437309468672" target="_blank">00:15:23</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699973776016945152">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699973776016945152" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">確かに大倶利伽羅はバニーみある かわいい</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699973776016945152" target="_blank">00:08:47</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699973669930401792">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699973669930401792" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/02_horseplay" target="_blank"><img src="http://pbs.twimg.com/profile_images/649526626405904384/PakWk38Y_normal.jpg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/02_horseplay" target="_blank"><strong>オトーフ</strong><span>@02_horseplay</span></a></p>
+<p class="tl-text"> 【審神者虎徹】大倶利伽羅と <span class="invisible">https://</span><a href="https://t.co/b0PXHk8IZo" target="_blank">pic.twitter.com/b0PXHk8IZo</a><p class="tl-retweet">Retweeted by <a href="https://twitter.com/yuuuuton" target="_blank">ゆーとんは桜プールの底に沈んだ</a></p></p>
+
+<p class="tl-posted">retweeted at <a href="https://twitter.com/yuuuuton/status/699973669930401792" target="_blank">00:08:22</a></p>
+</article><!-- /tl-tweet -->
+
+<article class="tl-tweet" id="tw699972812476297218">
+<p class="tl-time"><a href="https://twitter.com/yuuuuton/status/699972812476297218" target="_blank">2月18日</a></p>
+<p class="tl-icon"><a href="https://twitter.com/yuuuuton" target="_blank"><img src="http://pbs.twimg.com/profile_images/565853245793243136/6an-JfNe_normal.jpeg" alt="@yuuuuton" width="48" height="48"></a></p>
+<p class="tl-name"><a href="https://twitter.com/yuuuuton" target="_blank"><strong>ゆーとんは桜プールの底に沈んだ</strong><span>@yuuuuton</span></a></p>
+<p class="tl-text">ほかいま！</p>
+
+<p class="tl-posted">posted at <a href="https://twitter.com/yuuuuton/status/699972812476297218" target="_blank">00:04:58</a></p>
+</article><!-- /tl-tweet -->
+
+
+</section><!-- /tl-tweets -->
+
+
+<ul class="nav-link mb10 mt0">
+	<li class="nav-prev"><span>前のページ</span></li>
+	<li class="nav-user"><a href="http://twilog.org/yuuuuton">@yuuuuton</a></li>
+	<li class="nav-next"><a href="http://twilog.org/yuuuuton/2">次のページ</a></li>
+</ul>
+
+
+
+<div class="ta-c" style="margin:25px auto">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-2613098592193304";
+/* Twilog ボトムレクタングル */
+google_ad_slot = "4924708346";
+google_ad_width = 336;
+google_ad_height = 280;
+google_ad_region = "ad1";
+google_color_link = "0000FF";
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+
+
+
+
+<img src="http://ad.twi-log.com/img-dir/kk5-1t29.gif" style="width:1px;height:1px;">
+
+</div><!-- /content -->
+
+<aside id="sidebar">
+
+<section class="sidebox sidebox-update">
+<form id="uf" action="http://twilog.org/update.rb" method="get">
+<input type="submit" id="ub" value="最新の情報に更新する">
+<input type="hidden" name="id" value="yuuuuton">
+<input type="hidden" name="order" value="">
+<input type="hidden" name="filter" value="">
+<input type="hidden" name="kind" value="reg">
+</form>
+<p><span>last update 02/19 00:12</span></p>
+</section>
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-2613098592193304";
+/* Twilog サイド300x250 */
+google_ad_slot = "1706159544";
+google_ad_width = 300;
+google_ad_height = 250;
+google_ad_region = "ad1";
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+<section class="sidebox sidebox-search">
+<h2 class="side-title">Search</h2>
+<div class="side-pd">
+<!-- -->
+<form id="wsearch" action="http://twilog.org/tl-tweets.rb" method="get" onsubmit="word_search();return false;">
+<input type="hidden" name="id" value="yuuuuton">
+<input type="hidden" name="param" value="desc">
+<input type="text" id="sch-word" name="word" value="" placeholder="ツイート検索" class="input01">
+<input type="submit" value="検索" class="submit01">
+<div id="search-opt">
+<p class="ta-c mb0">
+<input type="radio" id="ao-a" name="ao" value="a" checked> <label for="ao-a">AND検索</label>　
+<input type="radio" id="ao-o" name="ao" value="o"> <label for="ao-o">OR検索</label>
+</p>
+<!-- -->
+</div>
+</form>
+</div><!-- /side-pd -->
+</section>
+
+<section class="sidebox sidebox-cal">
+<p class="cal-title">2016年2月</p>
+<ul class="cal-nav">
+	<li class="ic-arrow-l"><a href="http://twilog.org/yuuuuton/month-1601">前の月へ</a></li>
+	<li class="ic-arrow-r"><span>次の月へ</span></li>
+</ul>
+<table id="cal">
+<tr><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th><th>日</th></tr>
+<tr><td><a href="http://twilog.org/yuuuuton/date-160201">1</a></td><td><a href="http://twilog.org/yuuuuton/date-160202">2</a></td><td><a href="http://twilog.org/yuuuuton/date-160203">3</a></td><td><a href="http://twilog.org/yuuuuton/date-160204">4</a></td><td><a href="http://twilog.org/yuuuuton/date-160205">5</a></td><td><a href="http://twilog.org/yuuuuton/date-160206">6</a></td><td><a href="http://twilog.org/yuuuuton/date-160207">7</a></td></tr>
+<tr><td><a href="http://twilog.org/yuuuuton/date-160208">8</a></td><td><a href="http://twilog.org/yuuuuton/date-160209">9</a></td><td><a href="http://twilog.org/yuuuuton/date-160210">10</a></td><td><a href="http://twilog.org/yuuuuton/date-160211">11</a></td><td><a href="http://twilog.org/yuuuuton/date-160212">12</a></td><td><a href="http://twilog.org/yuuuuton/date-160213">13</a></td><td><a href="http://twilog.org/yuuuuton/date-160214">14</a></td></tr>
+<tr><td><a href="http://twilog.org/yuuuuton/date-160215">15</a></td><td><a href="http://twilog.org/yuuuuton/date-160216">16</a></td><td><a href="http://twilog.org/yuuuuton/date-160217">17</a></td><td><a href="http://twilog.org/yuuuuton/date-160218">18</a></td><td><a href="http://twilog.org/yuuuuton/date-160219">19</a></td><td>20</td><td>21</td></tr>
+<tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
+<tr><td>29</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+<p class="cal-link"><a href="http://twilog.org/yuuuuton/date-150219">1年前の今日のツイートを見る</a></p>
+
+</section>
+
+<section class="sidebox">
+<h2 class="side-title">Recent</h2>
+<ul class="side-list wide">
+<li><a href="http://twilog.org/yuuuuton/date-160219">02月19日(金) <span>2</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/date-160218">02月18日(木) <span>92</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/date-160217">02月17日(水) <span>117</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/date-160216">02月16日(火) <span>79</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/date-160215">02月15日(月) <span>97</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/date-160214">02月14日(日) <span>151</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/date-160213">02月13日(土) <span>115</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/date-160212">02月12日(金) <span>42</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/date-160211">02月11日(木) <span>90</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/date-160210">02月10日(水) <span>52</span></a></li>
+
+</ul>
+<p class="side-more">&nbsp;</p>
+</section>
+
+
+<section class="sidebox">
+<h2 class="side-title">Archives</h2>
+<ul class="side-list">
+<li><a href="http://twilog.org/yuuuuton/monthlist-1602" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1602">2016年02月<span>1613</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1601" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1601">2016年01月<span>3239</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1512" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1512">2015年12月<span>3120</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1511" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1511">2015年11月<span>3080</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1510" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1510">2015年10月<span>2900</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1509" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1509">2015年09月<span>2711</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1508" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1508">2015年08月<span>3038</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1507" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1507">2015年07月<span>2897</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1506" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1506">2015年06月<span>2917</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1505" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1505">2015年05月<span>2692</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1504" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1504">2015年04月<span>2777</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1503" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1503">2015年03月<span>3365</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1502" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1502">2015年02月<span>2672</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1501" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1501">2015年01月<span>2919</span></a></li><li><a href="http://twilog.org/yuuuuton/monthlist-1412" class="side-list-icon" title="日別ツイート一覧"><img src="http://img.twi-log.com/img-dir/user-ic-list.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/month-1412">2014年12月<span>2674</span></a></li>
+</ul>
+<p class="side-more"><a href="http://twilog.org/yuuuuton/archives">すべて表示 &raquo;</a></p>
+</section>
+
+
+<section class="sidebox">
+<h2 class="side-title">Friends</h2>
+<ul class="side-list">
+<li><a href="http://twilog.org/megpan_" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/friends-megpan_">@megpan_<span>6598</span></a></li>
+<li><a href="http://twilog.org/haruuune" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/friends-haruuune">@haruuune<span>3976</span></a></li>
+<li><a href="http://twilog.org/xxxymsn" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/friends-xxxymsn">@xxxymsn<span>2701</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/yuuuuton/friends-tigre_coniglio">@tigre_coniglio<span>1224</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/yuuuuton/friends-tredue">@tredue<span>1064</span></a></li>
+<li><a href="http://twilog.org/yuica1104" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/friends-yuica1104">@yuica1104<span>912</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/yuuuuton/friends-isak02">@isak02<span>818</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/yuuuuton/friends-07040223">@07040223<span>717</span></a></li>
+<li><a href="http://twilog.org/x_chihaya" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/friends-x_chihaya">@x_chihaya<span>628</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/yuuuuton/friends-kumakuma33">@kumakuma33<span>593</span></a></li>
+<li><a href="http://twilog.org/camellia_9" class="side-list-icon" title="このユーザーのTwilogへ"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></a><a href="http://twilog.org/yuuuuton/friends-camellia_9">@camellia_9<span>587</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/yuuuuton/friends-akane21_">@akane21_<span>454</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/yuuuuton/friends-hinaoitana">@hinaoitana<span>432</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/yuuuuton/friends-itooy">@itooy<span>394</span></a></li>
+<li><span class="side-list-noicon"><img src="http://img.twi-log.com/img-dir/user-ic-user.png" alt="" width="27" height="18"></span><a href="http://twilog.org/yuuuuton/friends-tsuna_bot">@tsuna_bot<span>362</span></a></li>
+
+</ul>
+<p class="side-more"><a href="http://twilog.org/yuuuuton/friends">すべて表示 &raquo;</a></p>
+
+</section>
+
+<section class="sidebox">
+<h2 class="side-title">Hashtags</h2>
+<ul class="side-list wide">
+<li><a href="http://twilog.org/yuuuuton/hashtags-dgs">#dgs<span>8074</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-radiosmile">#radiosmile<span>1971</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-nicovideo">#nicovideo<span>967</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-otohen">#otohen<span>697</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-tigerbunny">#tigerbunny<span>483</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-mamoradi">#mamoradi<span>351</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-TV_Free">#TV_Free<span>320</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-smiley2">#smiley2<span>224</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E">#刀剣乱舞<span>140</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-kurobascup19">#kurobascup19<span>134</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-nicoch">#nicoch<span>127</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-%E3%81%A8%E3%81%86%E3%82%89%E3%81%B6">#とうらぶ<span>112</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-zanmai">#zanmai<span>111</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-nicoradi">#nicoradi<span>109</span></a></li>
+<li><a href="http://twilog.org/yuuuuton/hashtags-utapri">#utapri<span>108</span></a></li>
+
+</ul>
+<p class="side-more"><a href="http://twilog.org/yuuuuton/hashtags">すべて表示 &raquo;</a></p>
+
+</section>
+
+
+<section class="sidebox sidebox-stats">
+<h2 class="side-title">Stats</h2>
+<p><a href="http://twilog.org/yuuuuton/stats">Twilog Stats</a></p>
+</section>
+
+
+<section class="sidebox sidebox-feed">
+<h2 class="side-title">Feed</h2>
+<p><a href="http://twilog.org/rss-feed/yuuuuton" target="_blank">RSS feed</a></p>
+</section>
+
+
+
+<div id="ad-side-bottom" style="height:250px">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-2613098592193304";
+/* Twilog サイド下部300x250 */
+google_ad_slot = "2430856343";
+google_ad_width = 300;
+google_ad_height = 250;
+google_ad_region = "ad2";
+google_color_link = "0000FF";
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+
+
+
+
+
+</aside><!-- /sidebar -->
+</div><!-- /container -->
+
+<div class="f-pagetop">
+<p><a href="#pagetop">このページの先頭へ</a></p>
+</div>
+
+<div id="source-box"></div>
+
+<footer>
+<section>
+<p id="ti-f-twilog"><a href="http://twilog.org/">Twilog</a></p>
+<ul>
+	<li><a href="http://twilog.org/page-about">このサイトについて</a></li>
+	<li><a href="http://twilog.org/page-help">ヘルプ</a></li>
+	<li><a href="http://twilog.org/page-rule">利用規約</a></li>
+	<li><a href="http://twilog.org/page-about#author">運営者・お問い合わせ</a></li>
+</ul>
+<p><small>&copy; 2009-2016 <a href="http://www.ropross.net/" target="_blank">ropross.net</a>.
+Created by <a href="http://twitter.com/ropross" target="_blank">@ropross</a></small></p>
+</section>
+</footer>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-16209355-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

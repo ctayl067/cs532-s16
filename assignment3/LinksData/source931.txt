@@ -1,0 +1,618 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+	<head>
+		<title>Fearless Records - Home</title>
+		
+		<meta name="Description" content="Official site for Fearless Records. Artists include Pierce The Veil, Mayday Parade, Motionless In White, Breathe Carolina, blessthefall and more. Find releases, merchandise, artist info and videos.">
+
+		<link rel="stylesheet" type="text/css" href="/css/reset.css" />		<link rel="stylesheet" type="text/css" href="/css/fearless.css" />		<link rel="stylesheet" type="text/css" href="/css/prettyPhoto.css" />		<script type="text/javascript" src="/js/cufon-yui.js"></script>		<script type="text/javascript" src="/js/bryant_500-bryant_700.font.js"></script>		<script type="text/javascript" src="/js/swfobject.js"></script>		<script type="text/javascript" src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/slides.min.jquery.js"></script>		<script type="text/javascript" src="/js/TweenLite.min.js"></script>		<script type="text/javascript" src="/js/CSSPlugin.min.js"></script>		<script type="text/javascript" src="/js/jquery.prettyPhoto.js"></script>		
+		<script type="text/javascript">
+			Cufon.replace('h2'); // Works without a selector engine
+			Cufon.replace('h3'); // Works without a selector engine
+			Cufon.replace('.fonty'); // Requires a selector engine for IE 6-7, see above
+			Cufon.replace('.labelz'); // Requires a selector engine for IE 6-7, see above
+		</script>
+		
+		<script type="text/javascript">
+		
+		function jumpMenu(list) {
+		  location.href = list.options[list.selectedIndex].value
+		}
+		-->
+		</script>
+
+		
+		<script type="text/javascript" src="/js/swfobject.js"></script>		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5591879-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+		
+	</head>
+	<body>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=243697922337915";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+	<script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+  });
+</script>
+	
+	<div id="container">
+		<div id="topBack">
+		<div id="topHeader">
+			<ul id="topHeadList">
+				<!--<li>Search</li>-->
+				<li class="radioButton"><a href="http://visitor.r20.constantcontact.com/d.jsp?llr=sy7ok8bab&p=oi&m=1101502313234" target="_blank"><img src="/img/mailing-list-button.png" alt="" /></a></li>
+				<li class="radioButton"><a onclick="myRef = window.open('/radio.php','mywin',
+'left=50,top=50,width=600,height=400,toolbar=0,resizable=0,scrollbars=0');
+myRef.focus()" target="newWin"><img src="/img/launch-radio.png" alt="" /></a></li>
+				<li class="radioButton"><div class="fb-like" data-href="https://www.facebook.com/fearlessrecords" data-width="100" data-layout="button_count" data-show-faces="false" data-send="false"></div></li>
+				<li class="youtubebutton"><script src="https://apis.google.com/js/plusone.js"></script>
+
+<div class="g-ytsubscribe" data-channel="FearlessRecords" data-layout="default"></div></li>
+				<div class="cb"></div>
+			</ul>
+			<div class="cb"></div>
+		</div>
+		</div>
+		
+		<div id="mainMenu">
+			<div class="insider">
+				<h1><a href="/">Fearless Records</a></h1>
+				<ul id="menuList">
+					<li id="artistz"><a href="/artists">Artists</a></li>
+					<li id="newz"><a href="/news">News</a></li>
+					<li id="shopz"><a href="http://smarturl.it/FearlessRecordsMerch" target="_blank">Shop</a></li>
+					<li id="releasez"><a href="/releases">Releases</a></li>
+					<li id="videoz"><a href="/videos">Videos</a></li>
+					<li id="contactz"><a href="/contact">Contact</a></li>
+					<div class="cb"></div>
+				</ul>
+				<div class="cb"></div>
+			</div>
+		</div>
+		
+		
+		
+		<script>
+    	$(function(){
+    		
+    		/* Home Feature Slideshow
+    		---------------------------*/
+    	
+    		// Set up feature slideshow
+			$('#feature').slides({
+				play: 5000,
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				effect: 'fade',
+				crossfade: true,
+				fadeSpeed: 500,
+				generatePagination: false
+			});
+			
+			// Listen for rollover on thumbs
+			$("ul.pagination li").hover(
+				function () {
+					TweenLite.to(this, 0.2, {top:"0px"});
+				},
+				function () {
+					if (this.className != "current") {
+						TweenLite.to(this, 0.2, {top:"5px"});
+					}
+				}
+			);
+			
+			// Listen for click, make sure everything animates down
+			$("ul.pagination li a").click(
+				function () {
+					console.log("CLICK");
+					$("ul.pagination li").each(
+						function (index) {
+							if (this.className != "current") {
+								TweenLite.to(this, 0.2, {top:"5px"});
+							}
+						}
+					);
+				}
+			);
+			
+			
+			/* RELEASES
+    		---------------------------*/
+    		
+    		// Horizontal scrolling
+    		var releasesMoving = false;
+    		var numReleases = $("ul#releases-list li").length - 6;
+    		var numReleases2 = $("ul#releases-list2 li").length - 6;
+    		var releaseNumber = 0;
+    		
+			$("#left-btn").click(
+				function () {
+				    if (!releasesMoving && releaseNumber > 0) {
+					    releasesMoving = true;
+					    releaseNumber --;
+					    TweenLite.to($("ul#releases-list"), 0.3, {left:"+=151px", onComplete:onReleasesMoveComplete});
+				    }
+				}
+			);
+			$("#right-btn").click(
+				function () {
+					if (!releasesMoving && releaseNumber < numReleases) {
+						releasesMoving = true;
+						releaseNumber ++;
+						TweenLite.to($("ul#releases-list"), 0.3, {left:"-=151px", onComplete:onReleasesMoveComplete});
+					}
+				}
+			);
+
+			$("#left-btn2").click(
+				function () {
+				    if (!releasesMoving && releaseNumber > 0) {
+					    releasesMoving = true;
+					    releaseNumber --;
+					    TweenLite.to($("ul#releases-list2"), 0.3, {left:"+=151px", onComplete:onReleasesMoveComplete});
+				    }
+				}
+			);
+			$("#right-btn2").click(
+				function () {
+					if (!releasesMoving && releaseNumber < numReleases2) {
+						releasesMoving = true;
+						releaseNumber ++;
+						TweenLite.to($("ul#releases-list2"), 0.3, {left:"-=151px", onComplete:onReleasesMoveComplete});
+					}
+				}
+			);
+			
+			function onReleasesMoveComplete() {
+				releasesMoving = false;
+			}
+			
+			// Create Coming Soon and Pre-Order Now
+			$("ul#releases-list li.comingSoon a img").after('<div class="releaseComingSoon">COMING SOON</div>');
+			$("ul#releases-list li.preOrder a img").after('<div class="releasePreOrder">PRE-ORDER NOW</div>');
+			$("ul#releases-list2 li.comingSoon a img").after('<div class="releaseComingSoon">COMING SOON</div>');
+			$("ul#releases-list2 li.preOrder a img").after('<div class="releasePreOrder">PRE-ORDER NOW</div>');
+			
+			
+			/* MERCH
+    		---------------------------*/
+    		
+    		// Vertical scrolling
+    		var merchMoving = false;
+    		var numRows = Math.ceil($("ul#merch-list li").length / 2) - 2;
+    		var rowNumber = 0;
+    		
+			$("#up-btn").click(
+				function () {
+				    if (!merchMoving && rowNumber > 0) {
+					    merchMoving = true;
+					    rowNumber --;
+					    TweenLite.to($("ul#merch-list"), 0.3, {top:"+=107px", onComplete:onMerchMoveComplete});
+				    }
+				}
+			);
+			$("#down-btn").click(
+				function () {
+					if (!merchMoving && rowNumber < numRows) {
+						merchMoving = true;
+						rowNumber ++;
+						TweenLite.to($("ul#merch-list"), 0.3, {top:"-=107px", onComplete:onMerchMoveComplete});
+					}
+				}
+			);
+			
+			function onMerchMoveComplete() {
+				merchMoving = false;
+			}
+			
+		});
+  </script>
+
+<div id="feature">
+	<div class="slides_container">
+				<a href="http://movementsofficial.com"><img src="http://fearlessrecords.com/uploads/feature-images/Movements_Fearless_1.jpg" width="1000" /></a>
+				<a href="http://thewhitenoiseband.com"><img src="http://fearlessrecords.com/uploads/feature-images/TWN_Aren_tYouGlad_Fearless.jpg" width="1000" /></a>
+				<a href="http://thesummersetband.com"><img src="http://fearlessrecords.com/uploads/feature-images/TSS_Fearless_new.jpg" width="1000" /></a>
+				<a href="http://wearethewordalive.com"><img src="http://fearlessrecords.com/uploads/feature-images/TWA_Fearless0.jpg" width="1000" /></a>
+				<a href="https://www.youtube.com/watch?v=ngNJGkcpdgk"><img src="http://fearlessrecords.com/uploads/feature-images/ABR_Fearless2.jpg" width="1000" /></a>
+				<a href="http://smarturl.it/preorderTA"><img src="http://fearlessrecords.com/uploads/feature-images/TA_Fearless_US.jpg" width="1000" /></a>
+			</div>
+	<ul class="pagination">
+				<li><a href="#"><img src="http://fearlessrecords.com/uploads/feature-images/icon.movements_80.jpg" width="80" /><div>Movements</div></a></li>
+				<li><a href="#"><img src="http://fearlessrecords.com/uploads/feature-images/icon.twn_80.jpg" width="80" /><div>The White Noise</div></a></li>
+				<li><a href="#"><img src="http://fearlessrecords.com/uploads/feature-images/icon.tss80.jpg" width="80" /><div>The Summer Set</div></a></li>
+				<li><a href="#"><img src="http://fearlessrecords.com/uploads/feature-images/icon.twa80.jpg" width="80" /><div>The Word Alive</div></a></li>
+				<li><a href="#"><img src="http://fearlessrecords.com/uploads/feature-images/icon.abr_ashley80.jpg" width="80" /><div>August Burns Red</div></a></li>
+				<li><a href="#"><img src="http://fearlessrecords.com/uploads/feature-images/icon.TA80.jpg" width="80" /><div>Tonight Alive</div></a></li>
+			</ul>
+</div>
+
+
+		<div id="homeNews">
+			<div class="insider">
+				<h2>News</h2>
+				<div class="viewAll"><a href="/news">view all</a></div>
+				<div class="cb"></div>
+				
+				<ul id="homeNewsList">
+										<li>
+						<div class="newsImage">
+							<a href="/post/715"><img src="/img/../uploads/artist-images/thumb.movements_3400.jpg" alt="" /></a>						</div>
+						
+						<h3><a href="/post/715">New Single Released From Movements </a></h3>
+						<div class="newsPreview2">
+							<p>Movements release new single &quot;Nineteen&quot;</p>
+							<div class="readMo">
+								<a href="/post/715"><img src="/img/read-more.jpg" alt="" /></a>							</div>
+						</div>
+					</li>
+										<li>
+						<div class="newsImage">
+							<a href="/post/714"><img src="/img/../uploads/artist-images/thumb.twn_340.jpg" alt="" /></a>						</div>
+						
+						<h3><a href="/post/714">The White Noise Debut EP</a></h3>
+						<div class="newsPreview2">
+							<p>The White Noise announce debut ep <em>Aren&rsquo;t You Glad?</em> and launch pre-orders.</p>
+...							<div class="readMo">
+								<a href="/post/714"><img src="/img/read-more.jpg" alt="" /></a>							</div>
+						</div>
+					</li>
+										<li>
+						<div class="newsImage">
+							<a href="/post/713"><img src="/img/../uploads/artist-images/thumb.tss340.jpg" alt="" /></a>						</div>
+						
+						<h3><a href="/post/713">Stories For Monday</a></h3>
+						<div class="newsPreview2">
+							<p>The Summer Set announce new album <em>Stories For Monday</em> and launch pre-orders.</p>
+							<div class="readMo">
+								<a href="/post/713"><img src="/img/read-more.jpg" alt="" /></a>							</div>
+						</div>
+					</li>
+										<li>
+						<div class="newsImage">
+							<a href="/post/712"><img src="/img/../uploads/artist-images/thumb.movements_3400.jpg" alt="" /></a>						</div>
+						
+						<h3><a href="/post/712">Pre-order Outgrown Things</a></h3>
+						<div class="newsPreview2">
+							<p>Movements launch pre-orders for new EP <em>Outgrown Things</em> .</p>
+							<div class="readMo">
+								<a href="/post/712"><img src="/img/read-more.jpg" alt="" /></a>							</div>
+						</div>
+					</li>
+										<div class="cb"></div>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="homeReleases">
+			<div class="insider">
+				<h2>Releases</h2>
+				<div class="viewAll"><a href="/releases">view all</a></div>
+				<div class="cb"></div>
+				
+				<div id="releases">
+			<div id="releases-list-container">
+				<ul id="releases-list">
+										<li class="preOrder">
+						<a href="http://fearlessrecords.com/releases/view/247"><img src="http://fearlessrecords.com/uploads/release-images/flash.album340.jpg" /></a>
+					</li>
+										<li class="preOrder">
+						<a href="http://fearlessrecords.com/releases/view/245"><img src="http://fearlessrecords.com/uploads/release-images/flash.twa340.jpg" /></a>
+					</li>
+										<li class="preOrder">
+						<a href="http://fearlessrecords.com/releases/view/246"><img src="http://fearlessrecords.com/uploads/release-images/flash.MVMNTS_EP_Cover_340px.jpg" /></a>
+					</li>
+										<li class="preOrder">
+						<a href="http://fearlessrecords.com/releases/view/240"><img src="http://fearlessrecords.com/uploads/release-images/flash.limitless340.jpg" /></a>
+					</li>
+										<li class="preOrder">
+						<a href="http://fearlessrecords.com/releases/view/248"><img src="http://fearlessrecords.com/uploads/release-images/flash.TWN_Album.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/237"><img src="http://fearlessrecords.com/uploads/release-images/flash.ink_340.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/235"><img src="http://fearlessrecords.com/uploads/release-images/flash.ww_blueprints_340.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/244"><img src="http://fearlessrecords.com/uploads/release-images/flash.PGX_Cover_340px.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/234"><img src="http://fearlessrecords.com/uploads/release-images/flash.GS_Demons_340px.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/222"><img src="http://fearlessrecords.com/uploads/release-images/flash.MP_BlackLines_digital.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/238"><img src="http://fearlessrecords.com/uploads/release-images/flash.MEeI_SickWorld_340px.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/219"><img src="http://fearlessrecords.com/uploads/release-images/flash.BTF_ToThoseLeftBehind_340.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/227"><img src="http://fearlessrecords.com/uploads/release-images/flash.twn_bloom340.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/215"><img src="http://fearlessrecords.com/uploads/release-images/flash.heartvsmind.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/217"><img src="http://fearlessrecords.com/uploads/release-images/flash.abrdeluxe.jpg" /></a>
+					</li>
+									</ul>
+			</div><!-- end releases list container -->
+			
+			<button id="left-btn" class="arrowButton">Left</button>
+			<button id="right-btn" class="arrowButton">Right</button>
+			
+		</div><!-- end releases -->
+			</div>
+		
+		</div>
+
+		<div id="homeReleases2">
+			<div class="insider">
+				<h2>Vinyl</h2>
+				<div class="viewAll"><a href="/releases/format/Vinyl">view all</a></div>
+				<div class="cb"></div>
+				
+				<div id="releases2">
+			<div id="releases-list-container2">
+				<ul id="releases-list2">
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/242"><img src="http://fearlessrecords.com/uploads/release-images/flash.OAA_Vinyl_Product.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/241"><img src="http://fearlessrecords.com/uploads/release-images/flash.product_image.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/236"><img src="http://fearlessrecords.com/uploads/release-images/flash.ww_vinyl.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/243"><img src="http://fearlessrecords.com/uploads/release-images/flash.ABR_vinyl_product.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/224"><img src="http://fearlessrecords.com/uploads/release-images/flash.mp340.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/239"><img src="http://fearlessrecords.com/uploads/release-images/flash.VINYL_Product_Image.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/223"><img src="http://fearlessrecords.com/uploads/release-images/flash.PTV_Pink_340px.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/225"><img src="http://fearlessrecords.com/uploads/release-images/flash.BTF_1000px_Vinyl.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/232"><img src="http://fearlessrecords.com/uploads/release-images/flash.ALIR_Vinyl_612.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/233"><img src="http://fearlessrecords.com/uploads/release-images/flash.ATT00001.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/226"><img src="http://fearlessrecords.com/uploads/release-images/flash.469x470.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/231"><img src="http://fearlessrecords.com/uploads/release-images/flash.ABR_blk.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/228"><img src="http://fearlessrecords.com/uploads/release-images/flash.VinylClear.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/229"><img src="http://fearlessrecords.com/uploads/release-images/flash.abr_vinylcoke.jpg" /></a>
+					</li>
+										<li >
+						<a href="http://fearlessrecords.com/releases/view/230"><img src="http://fearlessrecords.com/uploads/release-images/flash.soldout_abr_seablue.jpg" /></a>
+					</li>
+									</ul>
+			</div><!-- end releases list container -->
+			
+			<button id="left-btn2" class="arrowButton">Left</button>
+			<button id="right-btn2" class="arrowButton">Right</button>
+			
+		</div><!-- end vinyl -->
+		</div>
+		
+		</div>	</div>
+	
+	<div id="footer">
+		<div id="footInside">
+			<div id="footCenter">
+				<div id="footLeft">
+					<div id="footVideos">
+						<h3>Featured Videos</h3>
+						<div style="text-align: center; margin: auto">
+														<div id="footVideoMain">
+							<a href="https://www.youtube.com/watch?v=1nq0wNSmLXA" rel="prettyPhoto" title="<strong>Wage War - Twenty One</strong><br/>&lt;p&gt;Taken from the album &lt;em&gt;Blueprints&lt;/em&gt; &amp;copy; 2015 Fearless Records.&lt;/p&gt;
+"><img src="/img/../uploads/video-images/ww_blueprints.jpg" alt="" /></a>
+							</div>
+							<div class="cb"></div>
+																					<div class="footVideoThumb">
+								<a href="https://www.youtube.com/watch?v=enAcAXAXdfg" rel="prettyPhoto" title="<strong>Ice Nine Kills - Communion Of The Cursed</strong><br/>Taken from the album &lt;em&gt;Every Trick In The Book&lt;/em&gt; &amp;copy; 2015 Fearless Records "><img src="/img/../uploads/video-images/icon.ink_cotc.jpg" alt="" /></a>
+							</div>
+																					<div class="footVideoThumb">
+								<a href="http://www.youtube.com/watch?v=odNCtE-I8o4" rel="prettyPhoto" title="<strong>Punk Goes - We Came As Romans - I Knew You Were Trouble</strong><br/>&lt;p&gt;Taken from &lt;em&gt;Punk Goes Pop Vol. 6&lt;/em&gt; &amp;copy; 2014 Fearless Records&lt;/p&gt;
+"><img src="/img/../uploads/video-images/icon.wcar_pgp6.jpg" alt="" /></a>
+							</div>
+																					<div class="footVideoThumb">
+								<a href="https://www.youtube.com/watch?v=pi8ttSZbkyc" rel="prettyPhoto" title="<strong>I Prevail - Crossroads</strong><br/>&lt;p&gt;Taken from &lt;em&gt;Heart Vs. Mind&lt;/em&gt; &amp;copy; 2015 Fearless Records&lt;/p&gt;
+"><img src="/img/../uploads/video-images/icon.IP.jpg" alt="" /></a>
+							</div>
+																					<div class="footVideoThumbEnd">
+								<a href="https://www.youtube.com/watch?v=2o52BE2sBB4&feature=youtu.be" rel="prettyPhoto" title="<strong>The Word Alive - Trapped (Stream)</strong><br/>&lt;p&gt;Taken from the album &lt;em&gt;Dark Matter &amp;copy;&amp;nbsp;&lt;/em&gt;Fearless Records&lt;/p&gt;
+"><img src="/img/../uploads/video-images/icon.twa_trapped.jpg" alt="" /></a>
+							</div>
+																					<div class="cb"></div>
+						</div>
+					</div>
+					<!--<div id="footTour">
+						<h3>On Tour Now</h3>
+						<ul>
+													</ul>
+					</div>-->
+					<div id="footMerch">
+						<h3>New Merch</h3>
+
+						<div id="merch">
+			<div id="merch-list-container">
+				<ul id="merch-list">
+															<li class="top ">
+						<a href="http://fearless.merchnow.com/products/199749/get-lost-find-yourself-cd">
+							<img src="http://fearlessrecords.com/uploads/track-images/CNCC_470x470_CD.jpg" />
+						</a>
+					</li>
+															<li class="top last">
+						<a href="http://fearless.merchnow.com/products/202251/flowers-black-t-shirt">
+							<img src="http://fearlessrecords.com/uploads/track-images/floraltshirt.jpg" />
+						</a>
+					</li>
+															<li class=" ">
+						<a href="http://fearless.merchnow.com/products/213681/moth-white">
+							<img src="http://fearlessrecords.com/uploads/track-images/mothwhite.jpg" />
+						</a>
+					</li>
+															<li class=" last">
+						<a href="http://fearless.merchnow.com/products/211845/blessthefall-to-those-left-behind-black">
+							<img src="http://fearlessrecords.com/uploads/track-images/BTF_1000px_ShirtD.jpg" />
+						</a>
+					</li>
+															<li class=" ">
+						<a href="http://fearless.merchnow.com/products/181213/hold-on-pain-ends-lp">
+							<img src="http://fearlessrecords.com/uploads/track-images/vinyl.jpeg" />
+						</a>
+					</li>
+															<li class=" last">
+						<a href="http://piercetheveil.merchnow.com/products/143389">
+							<img src="http://fearlessrecords.com/uploads/track-images/hotsauce150x95.jpg" />
+						</a>
+					</li>
+															<li class=" ">
+						<a href="http://fearless.merchnow.com/products/216395/ix-ix-black">
+							<img src="http://fearlessrecords.com/uploads/track-images/INK_1000px_Tee3.jpg" />
+						</a>
+					</li>
+															<li class=" last">
+						<a href="http://fearless.merchnow.com/products/202259/found-in-far-away-places-coke-bottle-green-vinyl-lp">
+							<img src="http://fearlessrecords.com/uploads/track-images/vinylcokegreen.jpg" />
+						</a>
+					</li>
+															<li class=" ">
+						<a href="http://fearless.merchnow.com/products/202230/shapes-black-t-shirt">
+							<img src="http://fearlessrecords.com/uploads/track-images/shapestshirt.jpg" />
+						</a>
+					</li>
+															<li class=" last">
+						<a href="http://motionlessinwhite.merchnow.com/products/181505">
+							<img src="http://fearlessrecords.com/uploads/track-images/MIW_bundles_CD.jpg" />
+						</a>
+					</li>
+															<li class=" ">
+						<a href="http://fearless.merchnow.com/products/211838/blessthefall-sword-rose-white-girls">
+							<img src="http://fearlessrecords.com/uploads/track-images/BTF_1000px_ShirtB.jpg" />
+						</a>
+					</li>
+															<li class=" last">
+						<a href="http://motionlessinwhite.merchnow.com/products/181460">
+							<img src="http://fearlessrecords.com/uploads/track-images/MIW_bundles_Tank.jpg" />
+						</a>
+					</li>
+															<li class=" ">
+						<a href="http://fearless.merchnow.com/products/211833/blessthefall-cross-swords-black-sleeveless-shirt">
+							<img src="http://fearlessrecords.com/uploads/track-images/BTF_1000px_ShirtA.jpg" />
+						</a>
+					</li>
+															<li class=" last">
+						<a href="http://fearless.merchnow.com/products/211429/black-lines-black-w-bone-splatter">
+							<img src="http://fearlessrecords.com/uploads/track-images/MP_VinylBlack_470x470.jpg" />
+						</a>
+					</li>
+															<li class=" ">
+						<a href="http://fearless.merchnow.com/products/181475/reincarnate-coffin-black-t-shirt">
+							<img src="http://fearlessrecords.com/uploads/track-images/MIW_bundles_Tee.jpg" />
+						</a>
+					</li>
+															<li class=" last">
+						<a href="http://fearless.merchnow.com/products/v2/213467/detroit-black">
+							<img src="http://fearlessrecords.com/uploads/track-images/ip_merch.jpg" />
+						</a>
+					</li>
+															
+				</ul>
+			</div><!-- end merch list container -->
+			
+			<button id="up-btn" class="arrowVerticalButton">Up</button>
+			<button id="down-btn" class="arrowVerticalButton">Down</button>
+			
+		</div>
+
+					</div>
+					<div class="cb"></div>
+				</div>
+				
+				<div id="footRight">
+					<div class="insider">
+						<div id="footMail">
+							<h3>Join The Mailing List</h3>
+							<form ACTION="http://visitor.constantcontact.com/d.jsp" METHOD="POST" target="_blank" />
+							<input type="hidden" name="m" value="1101502313234">
+							<input type="hidden" name="p" value="oi">
+							<input type="text" name="ea" value="email address" maxlength="128" alt="email|0"  id="Email Address" class="newsletter emailAd" /><input type="image" src="/img/joinbutton.gif" name="submit" id="emailJoin" />
+							<div class="cb"></div>
+							</form>
+						</div>
+						
+						<div id="footMore">
+							<h3>More Fearless</h3>
+							<a href="http://twitter.com/fearlessrecords" target="_blank"><img src="/img/morefearless_01.gif" alt="" /></a><br/>
+							<a href="http://www.facebook.com/fearlessrecords" target="_blank"><img src="/img/morefearless_02.gif" alt="" /></a><br/>
+							<a href="http://www.youtube.com/fearlessrecords" target="_blank"><img src="/img/morefearless_03.gif" alt="" /></a><br/>
+							<a href="http://open.spotify.com/user/fearlessrecords" target="_blank"><img src="/img/morefearless_04.gif" alt="" /></a><br/>
+							<a href="http://www.last.fm/label/Fearless%2520Records" target="_blank"><img src="/img/morefearless_05.gif" alt="" /></a><br/>
+							<a href="http://instagram.com/fearlessrecords" target="_blank"><img src="/img/morefearless_06.gif" alt="" /></a>						</div>
+					</div>
+				</div>
+				<div class="cb"></div>
+			</div>
+		</div>
+	</div>		
+	
+	<div id="footBottom">
+		<div class="insider">
+		<ul>
+			<li>Copyright &copy; 2011</li>
+			<li><a href="http://www.redmusic.com/" target="_blank">Distributed by RED</a></li>
+			<li><a href="/privacy.html" target="_blank">Privacy Policy</a></li>
+			<li><a href="/contact">Contact</a></li>
+			<li class="end"><a href="http://visitor.r20.constantcontact.com/d.jsp?llr=sy7ok8bab&p=oi&m=1101502313234" target="_blank">Join Mailing List</a></li>
+			
+			<div class="right" id="of-foot"><a href="http://www.outerlooprecords.com" target="_blank"><img src="/img/outerloop-footer.png" alt="" /></a></div>
+			<div class="right" id="of-foot"><a href="http://www.oldfriendsrecords.com" target="_blank"><img src="/img/of-foot-logo.png" alt="" /></a></div>
+			<div class="cb"></div>
+		</ul>
+		</div>
+	</div>
+	</body>
+</html>
+

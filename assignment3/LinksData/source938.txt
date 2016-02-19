@@ -1,0 +1,1092 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+			<title>CjScotland</title>
+	
+	<!-- Basic Meta Data -->
+	<meta name="copyright" content="Design is copyright 2008 - 2016 The Theme Foundry" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="http://www.cjscotland.co.uk/wp-content/themes/vigilance/images/favicon.ico" />
+
+	<!--Stylesheets-->
+	<link href="http://www.cjscotland.co.uk/wp-content/themes/vigilance/style.css" type="text/css" media="screen" rel="stylesheet" />
+	<!--[if lt IE 8]><link rel="stylesheet" type="text/css" media="screen" href="http://www.cjscotland.co.uk/wp-content/themes/vigilance/stylesheets/ie.css" /><![endif]-->
+	<!--[if lte IE 6]><link rel="stylesheet" type="text/css" media="screen" href="http://www.cjscotland.co.uk/wp-content/themes/vigilance/stylesheets/ie6.css" /><![endif]-->
+
+	<!--WordPress-->
+	<link rel="alternate" type="application/rss+xml" title="CjScotland RSS Feed" href="http://www.cjscotland.co.uk/feed/" />
+	<link rel="pingback" href="http://www.cjscotland.co.uk/xmlrpc.php" />
+
+	<!--WP Hook-->
+		
+<!-- All in One SEO Pack 2.2.6.1 by Michael Torbert of Semper Fi Web Design[-1,-1] -->
+<meta name="description"  content="I started this project back in October 2003 when online information about Scottish criminal justice was sparse and difficult to access. CjScotland was" />
+
+<meta name="keywords"  content="uncategorized,knife,rural crime,stop and search,civil liberties,human rights,police,scotland,prison,automatic early release,parole,early release,criminal justice bill 2013,criminal justice reform,management of offenders etc act 2005,prison sentences,prisoners (control of release) bill,sentencing reform,alcohol,drugs,drugs, alcohol, gambling,disclosure,domestic abuse,gender and crime,terrorism,europe and justice,historic abuse,children and justice,reparation and restorative justice,victim information and support,victims and witnesses,victims and witnesses act 2014,prisoner vote,prisons and prisoners,scottish independence referendum (franchise) bill,statistics,crime,courts,criminal proceedings,sentencing,community sentences,double jeopardy,prosecution,world\'s end,double jeopardy act 2011,evidence,procurators fiscal" />
+<link rel='next' href='http://www.cjscotland.co.uk/page/2/' />
+
+<link rel="canonical" href="http://www.cjscotland.co.uk/" />
+<!-- /all in one seo pack -->
+<!-- This site is powered by Shareaholic - https://shareaholic.com -->
+<script type='text/javascript' data-cfasync='false'>
+  //<![CDATA[
+    _SHR_SETTINGS = {"endpoints":{"local_recs_url":"http:\/\/www.cjscotland.co.uk\/wp-admin\/admin-ajax.php?action=shareaholic_permalink_related","share_counts_url":"http:\/\/www.cjscotland.co.uk\/wp-admin\/admin-ajax.php?action=shareaholic_share_counts_api"}};
+
+    (function() {
+      var shr = document.createElement('script');
+      shr.setAttribute('data-cfasync', 'false');
+      shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+      shr.type = 'text/javascript'; shr.async = 'true';
+      shr.onload = shr.onreadystatechange = function() {
+        var rs = this.readyState;
+        if (rs && rs != 'complete' && rs != 'loaded') return;
+        var site_id = '4a683cbecccbf9ecd49eaa417157d89a';
+        var page_config = {"endpoints":{"local_recs_url":"http:\/\/www.cjscotland.co.uk\/wp-admin\/admin-ajax.php?action=shareaholic_permalink_related","share_counts_url":"http:\/\/www.cjscotland.co.uk\/wp-admin\/admin-ajax.php?action=shareaholic_share_counts_api"},"apps":{"share_buttons":{"get_share_counts":  function(url, services, cb) {
+    Shareaholic.Utils.ajax({
+      cache: true,
+      cache_ttl: '1 minute',
+      url: 'http://www.cjscotland.co.uk/wp-admin/admin-ajax.php',
+      data: { action: 'shareaholic_share_counts_api', url: url, services: services },
+      success: function(res) {
+        if(res && res.data) {
+          cb(res.data, true);
+        }
+      }
+    })
+  }}}};
+        try { Shareaholic.init(site_id, page_config); } catch (e) {}
+      };
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(shr, s);
+    })();
+  //]]>
+</script>
+
+<!-- Shareaholic Content Tags -->
+<meta name='shareaholic:site_name' content='CjScotland' />
+<meta name='shareaholic:language' content='en-US' />
+<meta name='shareaholic:site_id' content='4a683cbecccbf9ecd49eaa417157d89a' />
+<meta name='shareaholic:wp_version' content='7.6.0.2' />
+
+<!-- Shareaholic Content Tags End -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.cjscotland.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='gtranslate-style-css'  href='http://www.cjscotland.co.uk/wp-content/plugins/gtranslate/gtranslate-style16.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='openid-css'  href='http://www.cjscotland.co.uk/wp-content/plugins/openid/f/openid.css?ver=519' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://www.cjscotland.co.uk/wp-content/plugins/wp-polls/polls-css.css?ver=2.68' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.cjscotland.co.uk/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.cjscotland.co.uk/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.cjscotland.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cjscotland.co.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cjscotland.co.uk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+<style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://www.cjscotland.co.uk/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+</style>
+</head>
+<body class="home blog">
+	<div class="skip-content"><a href="#content">Skip to content</a></div>
+	<div id="wrapper">
+		<div id="header" class="clear">
+			<!--<div id="rss">
+			<a href="http://cjscotland.co.uk/feed"><img src="http://www.cjscotland.co.uk/wp-content/uploads/2011/09/cjscotland-rss-feed.png" /><br />RSS Feed</a>
+			</div>-->
+			<h1 id="title"><a href="http://www.cjscotland.co.uk">CjScotland</a></h1>			<div id="description">
+				<h2>An independent resource about criminal justice in Scotland</h2>
+			</div><!--end description-->
+			<div id="nav">
+				<ul>
+					<li class="page_item current_page_item"><a href="http://www.cjscotland.co.uk">Home</a></li>
+											<li class="page_item page-item-2"><a href="http://www.cjscotland.co.uk/about/">About</a></li>
+<li class="page_item page-item-614 page_item_has_children"><a href="http://www.cjscotland.co.uk/articles/">Articles</a></li>
+<li class="page_item page-item-1441 page_item_has_children"><a href="http://www.cjscotland.co.uk/holyrood/">Holyrood</a></li>
+														</ul>
+			</div><!--end nav-->
+		</div><!--end header-->
+		<div id="content" class="pad">
+		
+	<div id="menu">
+		<img src="http://www.cjscotland.co.uk/wp-content/themes/vigilance/images/top-banner/fence.jpg" width="596"  height="200"  alt="criminal justice in Scotland"/>
+	</div><!--end menu-->
+
+				<div id="post-11230" class="post-11230 post type-post status-publish format-standard hentry category-uncategorized">
+			<div class="post-header">
+				<h2><a href="http://www.cjscotland.co.uk/2015/09/quite-possibly-the-last-post/" rel="bookmark" title="Permanent Link to Quite possibly the last post">Quite possibly the last post</a></h2>
+				<div class="date"><span>2015</span> September 14</div>
+				<div class="comments"><span>Comments Off<span class="screen-reader-text"> on Quite possibly the last post</span></span></div>
+			</div><!--end post header-->
+			<div class="meta clear">
+				<div class="tags"></div>
+				<div class="author">by Mary Munro</div>
+			</div><!--end meta-->
+			<div class="entry clear">
+								<p><img src="http://www.cjscotland.co.uk/wp-content/uploads/2015/09/Version-2-150x150.jpg" alt="Mary Munro" width="150" height="150" class="alignright size-thumbnail wp-image-11231" />I started this project back in October 2003 when online information about Scottish criminal justice was sparse and difficult to access. </p>
+<p>CjScotland was encumbered with all manner of ambitions but there was no way of knowing then that social media and the taken-for-granted online presence of government, agencies and organisations would evolve as they have done. There was also no way of anticipating how the political talk about justice would change, in this jurisdiction at least, to a much more nuanced and progressive approach, albeit that there are still arguments to be won and the talk has not as yet been translated into substantial and irreversible change.</p>
+<p>In recent years my energies have been diverted by teaching, book editing (see below) and my (voluntary) role as managing editor of the <a href="http://www.scottishjusticematters.com" target="_blank">Scottish Justice Matters</a> project. Inevitably this blog became neglected and so the time has come to make it clear, in case anyone stumbles on this pages, that there isn&#8217;t going to be another update. </p>
+<p>CjScotland will continue to develop on <a href="https://twitter.com/CjScotland" target="_blank">Twitter</a> with media and source links to news and information about criminal justice in Scotland.</p>
+<p>If you would like to read more about Scottish criminal justice in book form then have a look at <em><a href="https://www.routledge.com/products/9780415750301" target="_blank">Crime, Justice and Sociey in Scotland</a></em> eds. Hazel Croall, Gerry Mooney and Mary Munro, Routledge (August 2015) and it predecessor, complementary volume, <em><a href="http://www.amazon.co.uk/Criminal-Justice-Scotland-Hazel-Croall/dp/1843927861" target="_blank">Criminal Justice in Scotland</a></em> Willan (2010).</p>
+<p>Best wishes</p>
+<p><em>Mary Munro</em></p>
+											</div><!--end entry-->
+			<div class="post-footer">
+				<p>from &rarr; <a href="http://www.cjscotland.co.uk/category/uncategorized/" rel="category tag">Uncategorized</a></p>
+			</div><!--end post footer-->
+		</div><!--end post-->
+			<div id="post-2287" class="post-2287 post type-post status-publish format-standard hentry category-civil_liberties category-human_rights category-police tag-knife tag-rural-crime tag-stop-and-search">
+			<div class="post-header">
+				<h2><a href="http://www.cjscotland.co.uk/2015/02/police-stop-and-search-in-scotland/" rel="bookmark" title="Permanent Link to Police stop and search in Scotland: headlines, links">Police stop and search in Scotland: headlines, links</a></h2>
+				<div class="date"><span>2015</span> February 26</div>
+				<div class="comments"><a href="http://www.cjscotland.co.uk/2015/02/police-stop-and-search-in-scotland/#comments">1 Comment</a></div>
+			</div><!--end post header-->
+			<div class="meta clear">
+				<div class="tags">tags: <a href="http://www.cjscotland.co.uk/tag/knife/" rel="tag">knife</a>, <a href="http://www.cjscotland.co.uk/tag/rural-crime/" rel="tag">rural crime</a>, <a href="http://www.cjscotland.co.uk/tag/stop-and-search/" rel="tag">stop and search</a></div>
+				<div class="author">by KatrinaM</div>
+			</div><!--end meta-->
+			<div class="entry clear">
+								<p><em>Update</em></p>
+<p><strong>&#8220;First Minister Sturgeon backs Police Scotland boss Sir Stephen House&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-31644824" title="BBC" target="_blank">BBC</a></p>
+<p><em>Following posted on 25.2.15</em></p>
+<p><strong>&#8220;Police to improve stop-and-search data after error&#8221;</strong> <a href="http://www.scotsman.com/news/scotland/top-stories/police-to-improve-stop-and-search-data-after-error-1-3700725" title="Scotsman" target="_blank">Scotsman</a></p>
+<p><em>Following posted on 23.2.15</em></p>
+<blockquote class="twitter-tweet" lang="en"><p>Alison McInnes asks Nicola Sturgeon about the SG/PS hampering academic research into stop and search <a href="https://twitter.com/hashtag/fmqs?src=hash">#fmqs</a></p>
+<p>&mdash; Paul Hutcheon (@paulhutcheon) <a href="https://twitter.com/paulhutcheon/status/570920809214181376">February 26, 2015</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><strong>&#8220;Over half of Scots back police ‘stop and search’&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/over-half-of-scots-back-police-stop-and-search-1-3698169" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Scots back police ‘stop and search’&#8221;</strong> <a href="http://www.thecourier.co.uk/news/scotland/scots-back-police-stop-and-search-1.842257" title="Courier" target="_blank">Courier</a><br />
+<strong>&#8220;Emails show leading academic liaised with Police Scotland over stop-and-search article&#8221;</strong> <a href="http://www.heraldscotland.com/politics/scottish-politics/how-a-leading-academic-backed-police-scotland-on-the-eve-of-a-critical-st.119017777" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Revealed: Police Scotland and Scottish Government tried to hamper research into stop-and-search&#8221;</strong> <a href="http://www.heraldscotland.com/politics/scottish-politics/how-the-single-force-and-the-scottish-government-tried-to-hamper-pioneeri.119017730" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;House must change, or go&#8221;</strong> <a href="http://www.heraldscotland.com/comment/sunday-herald-view/house-must-change-or-go.119023542" title="Herald" target="_blank">Herald</a></p>
+<p><em>Following posted on 20.2.15</em></p>
+<p><strong>&#8220;Police scrutiny vital but must be focused&#8221;</strong> <a href="http://www.heraldscotland.com/comment/herald-view/police-scrutiny-vital-but-must-be-focused.118909088" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Police Scotland chief under fire from MSPs&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/police-scotland-chief-under-fire-from-msps-1-3695796" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Scotland’s police chief grilled over search and stop row&#8221;</strong> <a href="http://www.express.co.uk/news/uk/559322/Scotland-s-police-chief-grilled-over-search-and-stop-row" title="Scottish Express" target="_blank">Scottish Express</a><br />
+<strong>&#8220;Police chief faces criticism from justice sub-committee&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1018974.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a><br />
+<strong>&#8220;Police chief seeks to defend record amid stop and search &#8216;mistake'&#8221;</strong> <a href="https://www.holyrood.com/articles/news/police-chief-seeks-defend-record-amid-stop-and-search-mistake" title="Holyrood.com" target="_blank">Holyrood.com</a></p>
+<p><em>Following posted on 19.2.15</em></p>
+<p><strong>&#8220;Police chiefs must explain &#8216;sorry mess'&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-31525040" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Willie Rennie: trust in police has been shattered by its handling of data on stop-and-search&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/willie-rennie-trust-in-police-has-been-shattered-by-its-handling-of-data-on-stop-and-.1424354217" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Scotland&#8217;s police chief admits stop-and-search data was lost and huge communication problem in force as he gets grilled by MSPs&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/scotlands-police-chief-admits-stop-and-search-5194253" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Police lost 20,000 stop-search records after &#8216;wrong button pressed&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-31525040" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;How easy is it to accidentally delete thousands of police records?&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-31539723" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Sir Stephen House under attack over his Police Scotland record&#8221;</strong> <a href="http://www.telegraph.co.uk/news/uknews/scotland/11423742/Sir-Stephen-House-under-attack-over-his-Police-Scotland-record.html" title="Telegraph" target="_blank">Telegraph</a></p>
+<p><em>Following posted on 18.2.15</em></p>
+<p><strong>&#8220;As the controversy about stop and searches rumbles on, it seems fair to suggest there is a lack of clarity around current police practice.&#8221;</strong> <a href="http://www.heraldscotland.com/comment/columnists/herald-agenda.118659529" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Emails published by information boss contradict police stop-search claims&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-31519228" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Police not forced to release ‘inaccurate’ data&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/police-not-forced-to-release-inaccurate-data-1-3694933" title="Scotsman" target="_blank">Scotsman</a></p>
+<p><em>Following posted on 14.2.15</em></p>
+<p><strong>&#8220;Never mind the numbers, are Police Scotland searches effective?&#8221;</strong> <a href="http://www.heraldscotland.com/comment/herald-view/never-mind-the-numbers-are-police-scotland-searches-effective.118476187" title="Herald" target="_blank">Herald</a></p>
+<p><em>Following posted on 13.2.15</em></p>
+<p><strong>&#8220;Police Scotland stop-search claim &#8216;inaccurate'&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-31462987" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Police must do more to secure trust&#8221;</strong> <a href="http://www.scotsman.com/news/leaders-police-must-do-more-to-secure-trust-1-3690180" title="Scotsman" target="_blank">Scotsman</a></p>
+<p><em>Following posted on 10.2.15</em></p>
+<p><strong>&#8220;Chief Constable calls for debate on how to replace stop-and-search&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/chief-constable-calls-for-consensus-for-policing-after-the-end-of-consensual-searches.118178062" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Sir Stephen House calls for stop-search consensus&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-31365283" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Toothless police watchdogs failing&#8221;</strong> <a href="http://www.scotsman.com/news/comment-toothless-police-watchdogs-failing-1-3686260" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Davidson: Police chiefs leaving public in dark&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/davidson-police-chiefs-leaving-public-in-dark-1-3686528" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Davidson slams police &#8216;arrogance'&#8221;</strong> <a href="http://www.thecourier.co.uk/news/scotland/davidson-slams-police-arrogance-1.833880" title="Courier" target="_blank">Courier</a><br />
+<strong>&#8220;Scottish Police Federation chief: Stop and search caused the London riots, but we still need it in Scotland&#8221;</strong> <a href="https://commonspace.scot/articles/320/scottish-police-federation-chief-stop-and-search-caused-the-london-riots-but-we-still-need-it-in-scotland" title="commonspace.com" target="_blank">commonspace.com</a></p>
+<p><strong>&#8220;A Response to Calum Steele …&#8221;</strong> <a href="https://pashanky.wordpress.com/2015/02/10/a-response-to-calum-steele/" title="pashanky.wordpress.com" target="_blank">pashanky.wordpress.com</a><br />
+<strong>&#8220;Smug Scottish Police Federation spit out the dummy on stop and search&#8221;</strong> <a href="http://lallandspeatworrier.blogspot.co.uk/2015/02/smug-scottish-police-federation-spit.html" title="lallandspeatworrier.blogspot.co.uk" target="_blank">lallandspeatworrier.blogspot.co.uk</a><br />
+<strong>&#8220;Police rank-and-file body warns of &#8220;frightening political ignorance&#8221; over stop-and-search powers&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/police-rank-and-file-body-warns-of-frightening-political-ignorance-over-stop-and-sear.118113007" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Police body: MSPs ‘ignorant’ over stop and search&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/police-body-msps-ignorant-over-stop-and-search-1-3685007" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Police powers defended as union warns of &#8216;political interference'&#8221;</strong> <a href="http://news.stv.tv/scotland/309696-scottish-police-federation-defends-policy-of-consensual-stop-and-search/" title="STV" target="_blank">STV</a><br />
+<strong>&#8220;Stop-and-search: Police officers accuse politicians of ignorance&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-31318543" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Stop and search debate shows no end&#8221;</strong> <a href="https://www.holyrood.com/articles/comment/stop-and-search-debate-shows-no-end" title="Holyrood.com" target="_blank">Holyrood.com</a><br />
+<a href="http://www.spf.org.uk/2015/02/gen-sec-writes-to-msps-re-search/"><img src="http://www.cjscotland.co.uk/wp-content/uploads/2015/02/SPF-letter-to-MSPs-Feb-2015-300x200.jpg" alt="SPF letter to MSPs Feb 2015" width="300" height="200" class="alignright size-medium wp-image-11207" /></a><br />
+<strong>&#8220;Gen Sec writes to MSPs re Search&#8221;</strong> <a href="http://www.spf.org.uk/2015/02/gen-sec-writes-to-msps-re-search/" title="Scottish Police Federation" target="_blank">Scottish Police Federation</a></p>
+<p><em>Following posted on 8.2.15</em></p>
+<p><strong>&#8220;Stop and search in Scotland: legality and accountability (Kath Murray)&#8221;</strong> <a href="http://scottishjusticematters.com/stop-and-search-in-scotland-legality-and-accountability/" title="Scottish Justice Matters" target="_blank">Scottish Justice Matters</a><br />
+<strong>&#8220;Need for wider review of the policing landscape&#8221;</strong> <a href="http://www.heraldscotland.com/comment/sunday-herald-view/need-for-wider-review-of-the-policing-landscape.117970339" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Bid to outlaw &#8216;consensual&#8217; stop and search to be made within days&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/bid-to-outlaw-consensual-stop-and-search-to-be-made-within-days.117945040" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Discomfort over stop and search policy&#8221;</strong> <a href="http://www.heraldscotland.com/politics/scottish-politics/discomfort-over-stop-and-search-policy.117967771" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Lib Dems&#8217; legal bid to ban consensual stop-and-search&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-scotland-politics-31255681" title="BBC" target="_blank">BBC</a></p>
+<p><em>Following posted on 6.2.15</em></p>
+<p><strong>&#8220;Human rights welcome for police &#8220;stop and search&#8221; rethink&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1018906.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a><br />
+<strong>&#8220;SNP’s law and order&#8221;</strong> <a href="http://www.scotsman.com/news/leaders-snp-s-law-and-order-twitter-trolls-1-3681883" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Policing by consent&#8221;</strong> <a href="http://www.heraldscotland.com/comment/columnists/robbie-dinwoodie-policing-by-consent.117782563" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Sturgeon: Police Scotland is considering ending stop and search&#8221;</strong> <a href="http://www.eveningtimes.co.uk/news/u/sturgeon-police-scotland-is-considering-ending-stop-and-search.1423143483" title="Evening Times" target="_blank">Evening Times</a><br />
+<strong>&#8220;Calls for Holyrood to outlaw police stop-searches&#8221;</strong> <a href="http://www.edinburghnews.scotsman.com/news/calls-for-holyrood-to-outlaw-police-stop-searches-1-3683258" title="Evening News" target="_blank">Evening News</a><br />
+<strong>&#8220;Police Scotland stop and search hundreds of young children &#8211; despite pledge to scrap controversial tactic&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/police-scotland-stop-search-hundreds-5103214" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Stop and search pays off for football cops&#8221;</strong> <a href="http://www.eveningtimes.co.uk/news/stop-and-search-pays-off-for-football-cops-196348n.117614065" title="Evening Times" target="_blank">Evening Times</a><br />
+<strong>&#8220;Scotland&#8217;s human rights tsar demands: scrap stop and search without suspicion&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/scotlands-human-rights-tsar-demands-scrap-stop-and-search-without-suspicion.117420658" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;End stop and search without suspicion now&#8221;</strong> <a href="http://www.heraldscotland.com/comment/sunday-herald-view/end-stop-and-search-without-suspicion-now.117433373" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Police search hundreds of children despite commitment&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-31022269" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Where now for police stop-and-search?&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-31150538" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Hundreds of under-12s searched by Police Scotland&#8221;</strong> <a href="http://www.scotsman.com/news/scotland/top-stories/hundreds-of-under-12s-searched-by-police-scotland-1-3680609" title="Scotsman" target="_blank">Scotsman</a></p>
+<p><em>Following posted on 2.2.15</em></p>
+<p><strong>&#8220;End stop and search without suspicion now&#8221;</strong> <a href="http://www.heraldscotland.com/comment/sunday-herald-view/end-stop-and-search-without-suspicion-now.117433373" title="Herald" target="_blank">Herald</a></p>
+<p><em><strong>For headlines to 2009, press releases and links</strong> </em> <a href="http://www.cjscotland.co.uk/2015/02/police-stop-and-search-in-scotland/#more-2287" class="more-link">read more&#8230;</a></p>
+											</div><!--end entry-->
+			<div class="post-footer">
+				<p>from &rarr; <a href="http://www.cjscotland.co.uk/category/crime_prevention/civil_liberties/" rel="category tag">Civil Liberties</a>, <a href="http://www.cjscotland.co.uk/category/europe_justice/human_rights/" rel="category tag">Human rights</a>, <a href="http://www.cjscotland.co.uk/category/police/" rel="category tag">Police</a></p>
+			</div><!--end post footer-->
+		</div><!--end post-->
+			<div id="post-1139" class="post-1139 post type-post status-publish format-standard hentry category-criminal-justice-bill-2013 category-cj_reform category-management_offenders_act_2005 category-prison_sentences category-prisoners-control-of-release-bill category-sentencing_reform tag-early-release">
+			<div class="post-header">
+				<h2><a href="http://www.cjscotland.co.uk/2015/02/the-politics-of-automatic-early-release-from-prison/" rel="bookmark" title="Permanent Link to The politics of early release from prison: Sturgeon announces amendments to legislation">The politics of early release from prison: Sturgeon announces amendments to legislation</a></h2>
+				<div class="date"><span>2015</span> February 4</div>
+				<div class="comments"><span>Comments Off<span class="screen-reader-text"> on The politics of early release from prison: Sturgeon announces amendments to legislation</span></span></div>
+			</div><!--end post header-->
+			<div class="meta clear">
+				<div class="tags">tags: <a href="http://www.cjscotland.co.uk/tag/early-release/" rel="tag">early release</a></div>
+				<div class="author">by Mary Munro</div>
+			</div><!--end meta-->
+			<div class="entry clear">
+								<p><em>Update</em></p>
+<blockquote class="twitter-tweet" lang="en"><p>That&#39;s me telt on penal policy by our ever vigilant FM <a href="https://twitter.com/NicolaSturgeon">@NicolaSturgeon</a>.  Had very constructive chat later.  <a href="http://t.co/xaKun8eBsx">pic.twitter.com/xaKun8eBsx</a></p>
+<p>&mdash; Iain Macwhirter (@iainmacwhirter) <a href="https://twitter.com/iainmacwhirter/status/563014871588298752">February 4, 2015</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><strong>&#8220;Sturgeon announces end of automatic early release for prisoners&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/sturgeon-announces-end-of-automatic-early-release-for-prisoners.1422961869" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;End of early jail release for serious offenders&#8221;</strong> <a href="http://www.eveningtimes.co.uk/news/end-of-early-jail-release-for-serious-offenders-196354n.117645448" title="Evening Times" target="_blank">Evening Times</a><br />
+<strong>&#8220;New SNP plans to abolish automatic early release for worst criminals don’t go far enough, blast critics&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/politics/new-snp-plans-abolish-automatic-5101556" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;First minister announces end of automatic early release&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-31109682" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Automatic early release for dangerous prisoners scrapped in Scotland&#8221;</strong> <a href="http://news.stv.tv/scotland/308923-automatic-early-release-dangerous-prisoners-scrapped-in-scotland/" title="STV" target="_blank">STV</a><br />
+<strong>&#8220;Prisoner early release move ‘insulting to victims’&#8221;</strong> <a href="http://www.express.co.uk/news/uk/556022/Prisoner-early-release-move-insulting-to-victims" title="Scottish Express" target="_blank">Scottish Express</a><br />
+<strong>&#8220;Automatic early release of dangerous prisoners to end in Scotland&#8221;</strong> <a href="http://www.telegraph.co.uk/news/uknews/law-and-order/11386638/Automatic-early-release-of-dangerous-prisoners-to-end-in-Scotland.html" title="Telegraph" target="_blank">Telegraph</a><br />
+<strong>&#8220;Sturgeon announces end of automatic early release for serious offenders&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1018882.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a><br />
+<strong>&#8220;Automatic early release to be scrapped for long-term prisoners&#8221;</strong> <a href="https://www.holyrood.com/articles/news/automatic-early-release-be-scrapped-long-term-prisoners" title="Holyrood.com" target="_blank">Holyrood.com</a></p>
+<p><em>Following posted on 14.1.15</em></p>
+<p><strong>&#8220;“No merit” in ending of early prison release&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/no-merit-in-ending-of-early-prison-release-1-3659865" title="Scotsman" target="_blank">Scotsman</a></p>
+<p><em>Following posted on 2.12.14</em></p>
+<p><strong>&#8220;Early release is an affront to justice&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/record-view-early-release-affront-4730362" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Grieving dad asks if three years in prison is long enough for killer who let his daughter &#8216;bleed to death in the snow'&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/grieving-dad-asks-three-years-4729898" title="Daily Record" target="_blank">Daily Record</a></p>
+<p><em>Following posted on 20.11.14</em></p>
+<p><strong>&#8220;Nicola Sturgeon urged to scrap automatic early release&#8221;</strong> <a href="http://www.telegraph.co.uk/news/uknews/scotland/scottish-politics/11244025/Nicola-Sturgeon-urged-to-scrap-automatic-early-release.html" title="Telegraph" target="_blank">Telegraph</a></p>
+<p><em>Following posted on 16.4.14</em></p>
+<p><strong>&#8220;Automatic early release should end&#8221;</strong> <a href="http://www.scotsman.com/news/leaders-automatic-early-release-should-end-1-3511386" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Holyrood bill makes new attempt to limit automatic early release&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1014373.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a></p>
+<p><em>Following posted on 4.4.14</em></p>
+<p><strong>&#8220;Prisons early release questioned&#8221;</strong> <a href="http://www.heraldscotland.com/politics/wider-political-news/prisons-early-release-questioned.23871283" title="Herald" target="_blank">Herald</a></p>
+<p><em>Following posted on 6.1.14</em></p>
+<p><strong>&#8220;SNP &#8216;fooling&#8217; public over pledge to alter early releases&#8221;</strong> <a href="http://www.heraldscotland.com/politics/wider-political-news/snp-fooling-public-over-pledge-to-alter-early-releases.23093010" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Early prison release scandal: Nine killers and 183 sex offenders will be free in less than two years&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/early-prison-release-scandal-nine-2986225" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Fury as football yob jailed for nine months after bloody mass brawl in train station has been freed after just eight WEEKS&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/football-yob-jailed-nine-months-2992221" title="Daily Record" target="_blank">Daily Record</a> <em>(confusing Home Detention Curfew with automatic early release)</em></p>
+<p><em>Following posted on 4.9.13</em></p>
+<blockquote><p>&#8220;One other change to the justice system will be of interest to the Parliament. We have all now accepted the need to end the system of automatic early release that was brought in by the Conservative Government in 1993 and left in place by the Labour and Liberal Democrat coalition here at Holyrood. It does not command public confidence.</p>
+<p>We are now in a position to end automatic early release for sexual offenders who are sentenced to more than four years and for serious violent offenders. That follows the work to stabilise the prison population and then reduce it over time by implementing other recommendations of the McLeish commission, such as introducing strong community-based sentences for less serious offenders. Further steps will follow as we continue the successful implementation of our justice reform programme.&#8221; <a href="http://www.scottish.parliament.uk/parliamentarybusiness/28862.aspx?r=8463&#038;mode=html" target="_blank">FM Alex Salmond Scottish Parliament Official Report 3.9.13</a> </p></blockquote>
+<p><strong>&#8220;Scottish Government to scrap early prison release&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/scottish-government-to-scrap-early-prison-release-1-3073413" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Salmond woos voters with populist policies&#8221;</strong> <a href="http://www.scotsman.com/news/leaders-salmond-woos-voters-with-populist-policies-1-3073661" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Scottish ministers to end automatic early release for &#8216;worst&#8217; offenders&#8221;</strong> <a href="http://www.telegraph.co.uk/news/uknews/scotland/10284589/Scottish-ministers-to-end-automatic-early-release-for-worst-offenders.html" title="Telegraph" target="_blank">Telegraph</a><br />
+<strong>&#8220;Soft justice on the way out at last&#8221;</strong> <a href="http://www.express.co.uk/news/uk/426706/Soft-justice-on-the-way-out-at-last" title="Scottish Express" target="_blank">Scottish Express</a><br />
+<strong>&#8220;Unexciting, yes, but still full of substance&#8221;</strong> <a href="http://www.heraldscotland.com/politics/political-news/unexciting-yes-but-still-full-of-substance.22053781" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Minister Kenny MacAskill welcomes prisoner release plan&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-scotland-politics-23956596" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Prisoner plan &#8216;will target most dangerous&#8217;, says minister Kenny MacAskill (audio)&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-scotland-politics-23956594" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Alex Salmond outlines SNP government plans for year ahead&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-scotland-politics-23931772" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Early prison release changes hailed&#8221;</strong> <a href="http://www.thecourier.co.uk/news/scotland/early-prison-release-changes-hailed-1.127160" title="Courier" target="_blank">Courier</a></p>
+<p><em>Following posted on 2.1.13</em></p>
+<p><strong>&#8220;Scandal of early release for rapists&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/scandal-of-early-release-1514039" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Early release for sex attackers will stop victims reporting crime, say support groups&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/early-release-for-sex-attackers-will-stop-1513020" title="Daily Record" target="_blank">Daily Record</a></p>
+<p><em>Following posted on 31.12.12</em></p>
+<p><strong>&#8220;Teen paedophile&#8217;s early release puts spotlight on &#8216;inadequate&#8217; early release system&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/teen-paedophiles-early-release-puts-1512125" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Justice system scandal: Call to end early release rules as killers &#038; rapists prepare to walk free after just two years&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/justice-system-scandal-call-to-end-1512114" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;SNP under fire as more prisoners face early release&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/snp-under-fire-as-more-prisoners-face-early-release.19799757" title="Herald" target="_blank">Herald</a></p>
+<p><em>Following posted on 15.10.12</em></p>
+<p><strong>&#8220;Victims neglected, complains MSP John Lamont&#8221;</strong> <a href="http://www.scotsman.com/the-scotsman/scotland/victims-neglected-complains-msp-john-lamont-1-2571875" title="Scotsman" target="_blank">Scotsman</a></p>
+<p><em>Following posted on 10.9.12</em></p>
+<p><strong>&#8220;Bottle killers are freed&#8221;</strong> <a href="http://www.express.co.uk/posts/view/344880" title="Scottish Express" target="_blank">Scottish Express</a></p>
+<p><em>Following posted on 7.9.12</em></p>
+<p><strong>&#8220;Hundreds of killers and rapists let out of jail early&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/killers-rapists-automatic-release-scandal-1309793" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Hundreds of killers and rapists freed early under early-release scheme&#8221;</strong> <a href="http://www.scotsman.com/the-scotsman/politics/hundreds-of-killers-and-rapists-freed-early-under-early-release-scheme-1-2512201" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Fury over killers let out early&#8221;</strong> <a href="http://www.thescottishsun.co.uk/scotsol/homepage/news/4525163/Fury-over-killers-let-out-early.html" title="Scottish Sun" target="_blank">Scottish Sun</a><br />
+<strong>&#8220;Thousands of rapists and killers released early from Scottish prisons&#8221;</strong> <a href="http://www.telegraph.co.uk/news/uknews/scotland/9526470/Thousands-of-rapists-and-killers-released-early-from-Scottish-prisons.html" title="Telegraph" target="_blank">Telegraph</a><br />
+<strong>&#8220;Violent thugs still walking early from Scottish prisons&#8221;</strong> <a href="http://www.express.co.uk/posts/view/344508/Violent-thugs-still-walking-early-from-Scottish-prisons" title="Scottish Express" target="_blank">Scottish Express</a><br />
+<strong>&#8220;Row over release of prisoners&#8221;</strong> <a href="http://www.heraldscotland.com/politics/political-news/row-over-release-of-prisoners.18806816" title="Herald" target="_blank">Herald</a></p>
+<p><em>Following posted on 20.1.12</em></p>
+<p><strong>&#8220;Early release frees 50,000 in five years&#8221;</strong> <a href="www.express.co.uk/posts/view/296794/Early-release-frees-50-000-in-five-years" title="Scottish Express" target="_blank">Scottish Express</a><br />
+<strong>&#8220;48,000 inmates released early&#8221;</strong> <a href="http://www.thescottishsun.co.uk/scotsol/homepage/news/4074109/48000-inmates-released-early.html" title="Scottish Sun" target="_blank">Scottish Sun</a></p>
+<p><em><strong>For headlines on this topic back to 2004, press releases and links to sources</strong></em> <a href="http://www.cjscotland.co.uk/2015/02/the-politics-of-automatic-early-release-from-prison/#more-1139" class="more-link">read more&#8230;</a></p>
+											</div><!--end entry-->
+			<div class="post-footer">
+				<p>from &rarr; <a href="http://www.cjscotland.co.uk/category/legislation/criminal-justice-bill-2013/" rel="category tag">Criminal Justice Bill 2013</a>, <a href="http://www.cjscotland.co.uk/category/cj_reform/" rel="category tag">Criminal justice reform</a>, <a href="http://www.cjscotland.co.uk/category/legislation/management_offenders_act_2005/" rel="category tag">Management of Offenders etc Act 2005</a>, <a href="http://www.cjscotland.co.uk/category/sentencing/prison_sentences/" rel="category tag">Prison sentences</a>, <a href="http://www.cjscotland.co.uk/category/legislation/prisoners-control-of-release-bill/" rel="category tag">Prisoners (Control of Release) Bill</a>, <a href="http://www.cjscotland.co.uk/category/sentencing/sentencing_reform/" rel="category tag">Sentencing reform</a></p>
+			</div><!--end post footer-->
+		</div><!--end post-->
+			<div id="post-572" class="post-572 post type-post status-publish format-standard hentry category-cj_reform category-drugs_alcohol_gambling tag-alcohol tag-drugs">
+			<div class="post-header">
+				<h2><a href="http://www.cjscotland.co.uk/2014/12/scottish-government-policy-on-lowering-drink-drive-alcohol-limit/" rel="bookmark" title="Permanent Link to Scottish Government policy on lowering drink drive alcohol limit: changes now in force">Scottish Government policy on lowering drink drive alcohol limit: changes now in force</a></h2>
+				<div class="date"><span>2014</span> December 18</div>
+				<div class="comments"><span>Comments Off<span class="screen-reader-text"> on Scottish Government policy on lowering drink drive alcohol limit: changes now in force</span></span></div>
+			</div><!--end post header-->
+			<div class="meta clear">
+				<div class="tags">tags: <a href="http://www.cjscotland.co.uk/tag/alcohol/" rel="tag">alcohol</a>, <a href="http://www.cjscotland.co.uk/tag/drugs/" rel="tag">drugs</a></div>
+				<div class="author">by Mary Munro</div>
+			</div><!--end meta-->
+			<div class="entry clear">
+								<p><em>Update</em></p>
+<p><strong>&#8220;Drink Driving in Scotland – Problems When the Law Outpaces Technology&#8221;</strong> <a href="http://www.scotslawblog.com/criminal-law/drink-driving-scotland-law-technology-problems/" title="Scots Law Blog" target="_blank">Scots Law Blog</a><br />
+<strong>&#8220;New drink driving limit has a positive impact&#8221;</strong> <a href="http://www.heraldscotland.com/comment/herald-view/new-drink-driving-limit-has-a-positive-impact.114827531" title="Herald" target="_blank">Herald</a></p>
+<p><em>Following posted on 8.12.14</em></p>
+<p><iframe width="560" height="315" src="//www.youtube.com/embed/aPfpvfAWX68" frameborder="0" allowfullscreen></iframe></p>
+<p><strong>&#8220;Politicians: New drink drive law ‘a diversion’&#8221;</strong> <a href="http://www.express.co.uk/news/uk/544180/Politicians-speak-out-first-drivers-caught-new-drink-drive-law" title="Scottish Express" target="_blank">Scottish Express</a><br />
+<strong>&#8220;Scotland sets example to UK on drink driving limits&#8221;</strong> <a href="http://www.heraldscotland.com/comment/herald-view/scotland-sets-example-to-uk-on-drink-driving-limits.114012759" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Prosecutors drop convention of not pursuing drink-drivers just over limit&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/prosecutors-drop-convention-of-not-pursuing-drink-drivers-just-over-limit.113992738" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Legal expert hails new drink drink limit&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/legal-expert-hails-new-drink-drink-limit.114015413" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Scotland cuts drink-drive alcohol limit&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-30329743" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Drink-drive limit cut across Scotland prompting police to warn drivers who cross the border if they have had one drink they could be over the limit&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/crime/drink-drive-limit-cut-across-scotland-4751540" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Drink-drive limit cut in Scotland&#8221;</strong> <a href="http://www.scotsman.com/news/transport/drink-drive-limit-cut-in-scotland-1-3625838" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Reduced drink-drive limit ‘will save lives’&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/reduced-drink-drive-limit-will-save-lives-1-3623711" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Stricter drink-drive limit comes into force in Scotland&#8221;</strong> <a href="http://www.theguardian.com/uk-news/2014/dec/05/stricter-drink-drive-limit-force-scotland" title="Guardian" target="_blank">Guardian</a><br />
+<strong>&#8220;Scottish police begin enforcing new drink-drive limit north of the border&#8221;</strong> <a href="http://www.telegraph.co.uk/motoring/road-safety/11275323/Scottish-police-begin-enforcing-new-drink-drive-limit-north-of-the-border.html" title="Telegraph" target="_blank">Telegraph</a></p>
+<p><em>Following posted on 19.11.14</em></p>
+<p><strong>&#8220;Scots drink-drive limits bring warnings at Border&#8221;</strong> <a href="http://www.scotsman.com/news/transport/scots-drink-drive-limits-bring-warnings-at-border-1-3608218" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Sober at the wheel in England, but over the limit north of border: Tightened drink-drive laws in Scotland &#8216;could catch drivers unaware'&#8221;</strong> <a href="http://www.dailymail.co.uk/news/article-2839982/Sober-wheel-England-limit-north-border-Drink-drive-law-tightened-Scotland.html" title="Scottish Daily Mail" target="_blank">Scottish Daily Mail</a><br />
+<strong>&#8220;Holyrood approves new lower drink-drive limit to &#8216;make roads safer'&#8221;</strong> <a href="http://news.stv.tv/scotland-decides/300139-holyrood-approves-new-lower-drink-drive-limit-to-make-roads-safer/" title="STV" target="_blank">STV</a><br />
+<strong>&#8220;MSPs agree drink-drive limit change following debate&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-30090003" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;MacAskill refuses to cut drink drive penalties&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/macaskill-refuses-to-cut-drink-drive-penalties.1416345341" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Signs at Border to warn of new drink-drive limit&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/signs-at-border-to-warn-of-new-drink-drive-limit.25898429" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Room for confusion over the new drink-drive limit&#8221;</strong> <a href="http://www.heraldscotland.com/comment/herald-view/room-for-confusion-over-the-new-drink-drive-limit.25866728" title="Herald" target="_blank">Herald</a></p>
+<p><em>Following posted on 24.10.14</em></p>
+<p><strong>&#8220;Morning-after motorists may be over limit under new laws&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/morning-after-motorists-may-be-over-limit-under-new-laws.25688619" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Scotland to reduce drink-drive limit&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-scotland-politics-29750001" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Drivers who drink as little as one pint of beer could end up in dock under plans to lower drink-drive limit&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/drivers-who-drink-little-one-4502724" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Scottish drink-drive limit to be reduced&#8221;</strong> <a href="http://www.telegraph.co.uk/news/uknews/scotland/11184916/Scottish-drink-drive-limit-to-be-reduced.html" title="Telegraph" target="_blank">Telegraph</a><br />
+<strong>&#8220;Scotland drink-drive limit to be reduced&#8221;</strong> <a href="http://www.theguardian.com/uk-news/2014/oct/24/scotland-drink-driving-limit-reduced" title="Guardian" target="_blank">Guardian</a><br />
+<strong>&#8220;Scotland to cut drink drive limit in time for Christmas after 1 in 10 road deaths are linked to alcohol&#8221;</strong> <a href="http://www.dailymail.co.uk/news/article-2806641/Scotland-cut-drink-drive-limit-time-Christmas-1-10-road-deaths-linked-alcohol.html" title="Scottish Daily Mail" target="_blank">Scottish Daily Mail</a><br />
+<strong>&#8220;Scots drink-drive limit to be lowered from 5 December&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1014635.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a></p>
+<p><em>Following posted on 25.8.14</em></p>
+<p><strong>&#8220;Plans to cut drink-drive limit by Christmas under threat&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/plans-to-cut-drink-drive-limit-by-christmas-under-threat.25123453" title="Herald" target="_blank">Herald</a></p>
+<p><em>Following posted on 3.6.14</em></p>
+<p><strong>&#8220;New drink drive legislation in Scotland could see a single pint put motorists over the limit&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/new-drink-drive-legislation-scotland-3787357" title="Daily Record" target="_blank">Daily Record</a></p>
+<p> <a href="http://www.cjscotland.co.uk/2014/12/scottish-government-policy-on-lowering-drink-drive-alcohol-limit/#more-572" class="more-link">read more&#8230;</a></p>
+											</div><!--end entry-->
+			<div class="post-footer">
+				<p>from &rarr; <a href="http://www.cjscotland.co.uk/category/cj_reform/" rel="category tag">Criminal justice reform</a>, <a href="http://www.cjscotland.co.uk/category/drugs_alcohol_gambling/" rel="category tag">Drugs, alcohol, gambling</a></p>
+			</div><!--end post footer-->
+		</div><!--end post-->
+			<div id="post-11046" class="post-11046 post type-post status-publish format-standard hentry category-domestic_abuse category-gender category-uncategorized tag-disclosure tag-domestic-abuse">
+			<div class="post-header">
+				<h2><a href="http://www.cjscotland.co.uk/2014/12/clares-law-domestic-abuse-disclosure-in-scotland/" rel="bookmark" title="Permanent Link to &#8216;Clare&#8217;s Law&#8217; domestic abuse disclosure in Scotland: pilot underway">&#8216;Clare&#8217;s Law&#8217; domestic abuse disclosure in Scotland: pilot underway</a></h2>
+				<div class="date"><span>2014</span> December 17</div>
+				<div class="comments"><span>Comments Off<span class="screen-reader-text"> on &#8216;Clare&#8217;s Law&#8217; domestic abuse disclosure in Scotland: pilot underway</span></span></div>
+			</div><!--end post header-->
+			<div class="meta clear">
+				<div class="tags">tags: <a href="http://www.cjscotland.co.uk/tag/disclosure/" rel="tag">disclosure</a>, <a href="http://www.cjscotland.co.uk/tag/domestic-abuse/" rel="tag">domestic abuse</a></div>
+				<div class="author">by Mary Munro</div>
+			</div><!--end meta-->
+			<div class="entry clear">
+								<p><em>Update</em></p>
+<p><strong>&#8220;Women check up on partners in ‘Clare’s Law’ pilot&#8221;</strong> <a title="Scotsman" href="http://www.scotsman.com/news/politics/top-stories/women-check-up-on-partners-in-clare-s-law-pilot-1-3635292" target="_blank">Scotsman</a><br />
+<strong>&#8220;Police receive 15 requests in domestic abuse partner check&#8221;</strong> <a title="STV" href="http://news.stv.tv/west-central/303828-women-check-on-partners-15-times-in-new-domestic-abuse-pilot-scheme/" target="_blank">STV</a></p>
+<p><em>Following posted on 20.11.14</em></p>
+<blockquote class="twitter-tweet" lang="en"><p>Supt Kerr opens this morning&#8217;s launch of the Disclosure Scheme for Domestic Abuse Scotland in <a href="https://twitter.com/hashtag/Ayrshire?src=hash">#Ayrshire</a> <a href="https://twitter.com/hashtag/DSDAS?src=hash">#DSDAS</a> <a href="http://t.co/F8ybHgYdyd">pic.twitter.com/F8ybHgYdyd</a></p>
+<p>— AyrshirePolice (@AyrshirePolice) <a href="https://twitter.com/AyrshirePolice/status/537193506323046400">November 25, 2014</a></p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<p><strong>&#8220;Fitting response to tackle violence against women&#8221;</strong> <a title="Herald" href="http://www.heraldscotland.com/comment/herald-view/fitting-response-to-tackle-violence-against-women.25960325" target="_blank">Herald</a><br />
+<strong>&#8220;Clare’s Law to be launched in Scotland&#8221;</strong> <a title="Scotsman" href="http://www.scotsman.com/news/scotland/top-stories/clare-s-law-to-be-launched-in-scotland-1-3614963" target="_blank">Scotsman</a><br />
+<strong>&#8220;Victim’s father hails Scots ‘Clare’s Law’&#8221;</strong> <a title="Scotsman" href="http://www.scotsman.com/news/politics/top-stories/victim-s-father-hails-scots-clare-s-law-1-3611190" target="_blank">Scotsman</a><br />
+<strong>&#8220;Pilot Clare&#8217;s Law to help end violence towards women&#8221;</strong> <a title="Herald" href="http://www.heraldscotland.com/news/crime-courts/pilot-clares-law-to-help-end-violence-towards-women.25968684" target="_blank">Herald</a><br />
+<strong>&#8220;The fightback against domestic abuse: Clare&#8217;s Law pilot begins here today&#8221;</strong> <a title="Herald" href="http://www.heraldscotland.com/news/home-news/the-fightback-against-domestic-abuse-clares-law-pilot-begins-here-today.1416896027" target="_blank">Herald</a><br />
+<strong>&#8220;Clare&#8217;s Law pilot introduced in Aberdeen and Ayrshire&#8221;</strong> <a title="BBC" href="http://www.bbc.co.uk/news/uk-scotland-30191757" target="_blank">BBC</a><br />
+<strong>&#8220;Hope for &#8216;Clare&#8217;s Law&#8217; ahead of Aberdeen and Ayrshire pilot&#8221;</strong> <a title="BBC" href="http://www.bbc.co.uk/news/uk-scotland-north-east-orkney-shetland-30143593" target="_blank">BBC</a><br />
+<strong>&#8220;Clare&#8217;s Law pilot scheme to tackle domestic abuse to be launched in Ayrshire and Aberdeen&#8221;</strong> <a title="Daily Record" href="http://www.dailyrecord.co.uk/news/politics/clares-law-pilot-scheme-tackle-4690397" target="_blank">Daily Record</a><br />
+<strong>&#8220;Pilot scheme for &#8216;Clare&#8217;s Law&#8217; system to tackle domestic abuse&#8221;</strong> <a title="STV" href="http://news.stv.tv/north/300399-pilot-scheme-for-clares-law-system-to-tackle-domestic-abuse/" target="_blank">STV</a></p>
+<p><em>Following posted on 1.11.14</em></p>
+<p><strong>&#8220;Clare&#8217;s Law to reveal history of alleged domestic violence&#8221; </strong> <a href="http://www.heraldscotland.com/news/crime-courts/clares-law-to-reveal-history-of-alleged-domestic-violence.25745991" title="Herald" target="_blank">Herald</a></p>
+<p><em>Following posted on 19.8.14</em></p>
+<p><strong>Fronts in the campaign against domestic abuse</strong> <a href="http://www.heraldscotland.com/comment/herald-view/fronts-in-the-campaign-against-domestic-abuse.25047502" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Clare&#8217;s Law trial to allow violent partner checks&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/clares-law-trial-to-allow-violent-partner-checks.25080646" title="Herald" target="_blank">Herald</a><br />
+<strong>?Clare&#8217;s Law on domestic abuse to be piloted in Aberdeen, Ayrshire&#8221;</strong> <a href="http://www.heraldscotland.com/news/crime-courts/clares-law-on-domestic-abuse-to-be-piloted-in-aberdeen-ayrshire.1408361752" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Aberdeen and Ayrshire to pilot &#8216;Clare&#8217;s Law&#8217; to tackle domestic violence&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-north-east-orkney-shetland-28835303" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Pilot areas for abuse scheme&#8221;</strong> <a href="http://www.thecourier.co.uk/news/scotland/pilot-areas-for-abuse-scheme-1.529353" title="Courier" target="_blank">Courier</a><br />
+<strong>&#8220;Scots test run of Clare’s Law to warn of domestic abuse threat&#8221;</strong> <a href="http://www.express.co.uk/news/uk/500959/Scots-test-run-of-Clare-s-Law-to-warn-of-domestic-abuse-threat" title="Scottish Express" target="_blank">Scottish Express</a><br />
+<strong>&#8220;&#8221;Clare&#8217;s law&#8221; pilot areas confirmed&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1014377.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a></p>
+<p><em>Following posted on 24.6.14</em></p>
+<p><strong>&#8220;Clare’s Law scheme could save lives&#8221;</strong> <a title="Scotsman" href="http://www.scotsman.com/news/chris-marshall-clare-s-law-scheme-could-save-lives-1-3463204" target="_blank">Scotsman</a><br />
+<strong>&#8220;&#8216;Clare&#8217;s Law&#8217; pilot group to meet&#8221;</strong> <a title="Herald" href="http://www.heraldscotland.com/news/home-news/clares-law-pilot-group-to-meet.1403627719" target="_blank">Herald</a><br />
+<strong>&#8220;&#8216;Clare&#8217;s Law&#8217; pilot group to meet&#8221;</strong> <a title="Courier" href="http://www.thecourier.co.uk/news/scotland/clare-s-law-pilot-group-to-meet-1.439209" target="_blank">Courier</a><br />
+<strong>&#8220;First meeting of ‘Clare’s Law’ pilot group&#8221;</strong> <a title="Holyrood.com" href="http://www.holyrood.com/2014/06/first-meeting-of-clares-law-pilot-group/" target="_blank">Holyrood.com</a></p>
+<p><em>Following posted on 9.5.14</em></p>
+<p><strong>&#8220;Clare&#8217;s Law Scottish pilot will bid to cut domestic violence&#8221;</strong> <a title="Herald" href="http://www.heraldscotland.com/news/home-news/clares-law-scottish-pilot-will-bid-to-cut-domestic-violence.24182847" target="_blank">Herald</a><br />
+<strong>&#8220;Steps to tackle domestic violence are welcome&#8221;</strong> <a title="Herald" href="http://www.heraldscotland.com/comment/herald-view/steps-to-tackle-domestic-violence-are-welcome.24155691" target="_blank">Herald</a><br />
+<strong>&#8220;Scotland to pilot &#8216;Clare&#8217;s Law&#8217; to tackle domestic violence&#8221;</strong> <a title="BBC" href="http://www.bbc.co.uk/news/uk-scotland-27315418" target="_blank">BBC</a><br />
+<strong>&#8220;Scottish ‘Clare’s Law’ to tackle domestic abuse&#8221;</strong> <a title="Scotsman" href="http://www.scotsman.com/news/politics/top-stories/scottish-clare-s-law-to-tackle-domestic-abuse-1-3403399" target="_blank">Scotsman</a><br />
+<strong>&#8220;Need for caution on domestic abuse measure&#8221;</strong> <a title="Scotsman" href="http://www.scotsman.com/news/leaders-need-for-caution-on-domestic-abuse-measure-1-3404349" target="_blank">Scotsman</a><br />
+<strong>&#8220;People given right to know if partner has domestic abuse history&#8221;</strong> <a title="STV" href="http://news.stv.tv/scotland/274536-clares-law-on-history-of-domestic-abuse-to-be-tested-in-scotland/" target="_blank">STV</a><br />
+<strong>&#8220;Law will expose thugs who beat up their partners&#8221;</strong> <a title="Scottish Express" href="http://www.express.co.uk/scotland/474855/Law-will-expose-thugs-who-beat-up-their-partners" target="_blank">Scottish Express</a><br />
+<strong>&#8220;Scotland to pilot Clare&#8217;s Law to identify domestic abusers&#8221;</strong> <a title="Telegraph" href="http://www.telegraph.co.uk/news/politics/10818566/Scotland-to-pilot-Clares-Law-to-identify-domestic-abusers.html" target="_blank">Telegraph</a><br />
+<strong>&#8220;Scotland should look deeper than Clare’s law when tackling domestic violence&#8221;</strong> <a title="The Conversation" href="http://theconversation.com/scotland-should-look-deeper-than-clares-law-when-tackling-domestic-violence-26613" target="_blank">The Conversation</a></p>
+<p><em>Following posted on 28.3.14</em></p>
+<p><strong>&#8220;Scotland needs a Clare&#8217;s Law right now, says Tory leader Davidson&#8221;</strong> <a title="Herald" href="http://www.heraldscotland.com/politics/wider-political-news/scotland-needs-a-clares-law-right-now-says-tory-leader-davidson.23813926" target="_blank">Herald</a></p>
+<p><em>Following posted on 3.9.13</em></p>
+<p><strong>&#8220;Clare&#8217;s Law alone would not keep women safe from harm&#8221;</strong> <a title="Herald" href="http://www.heraldscotland.com/comment/columnists/clares-law-alone-would-not-keep-women-safe-from-harm.22035592" target="_blank">Herald</a></p>
+<p><em>Following posted on 1.9.13</em></p>
+<p><strong>&#8220;Kenny MacAskill supports abuse law in Scotland&#8221;</strong> <a title="Scotsman" href="http://www.scotsman.com/news/politics/top-stories/kenny-macaskill-supports-abuse-law-in-scotland-1-3070086" target="_blank">Scotsman</a></p>
+<p><em>Following posted on 20.5.13</em></p>
+<p><strong>&#8220;Ministers rule out Clare&#8217;s Law&#8221;</strong> <a title="Herald" href="http://www.heraldscotland.com/politics/political-news/ministers-rule-out-clares-law.21172654" target="_blank">Herald</a><br />
+<strong>&#8220;Superintendents to back Clare’s Law&#8221;</strong> <a title="Law Society Journal Online" href="http://www.journalonline.co.uk/News/1012628.aspx" target="_blank">Law Society Journal Online</a><br />
+<strong>&#8220;Violent men: A woman’s right to know&#8221;</strong> <a title="Scotsman" href="http://www.scotsman.com/scotland-on-sunday/violent-men-a-woman-s-right-to-know-1-2936478" target="_blank">Scotsman</a><br />
+<strong>&#8220;No hiding place for abusive men&#8221;</strong> <a title="Scotsman" href="http://www.scotsman.com/scotland-on-sunday/opinion/comment/leaders-no-hiding-place-for-abusive-men-1-2936448" target="_blank">Scotsman</a><br />
+<strong>&#8220;Women could be told of men&#8217;s violent pasts&#8221;</strong> <a title="Herald" href="http://www.heraldscotland.com/news/home-news/women-could-be-told-of-mens-violent-pasts.21126935" target="_blank">Herald</a></p>
+<p><span style="text-decoration: underline;">Press release</span></p>
+<p><strong>&#8220;New crackdown on domestic abuse&#8221;</strong> <a href="http://news.scotland.gov.uk/News/New-crackdown-on-domestic-abuse-127c.aspx" title="Scot. Gov. (December 2014)" target="_blank">Scot. Gov. (December 2014)</a></p>
+<p><strong>&#8220;Domestic abuse pilot areas announced&#8221;</strong> <a href="http://news.scotland.gov.uk/News/Domestic-abuse-pilot-areas-announced-fe9.aspx" title="Scot. Gov. (August 2014)" target="_blank">Scot. Gov. (August 2014)</a></p>
+<p><strong>&#8220;Multi-agency group to progress Scottish &#8216;Clare&#8217;s Law&#8217; pilot&#8221;</strong> <a title="Police Scotland" href="http://www.scotland.police.uk/whats-happening/news/2014/june/scottish-clares-law-pilot" target="_blank">Police Scotland (June 2014)</a></p>
+											</div><!--end entry-->
+			<div class="post-footer">
+				<p>from &rarr; <a href="http://www.cjscotland.co.uk/category/gender/domestic_abuse/" rel="category tag">Domestic abuse</a>, <a href="http://www.cjscotland.co.uk/category/gender/" rel="category tag">Gender and crime</a>, <a href="http://www.cjscotland.co.uk/category/uncategorized/" rel="category tag">Uncategorized</a></p>
+			</div><!--end post footer-->
+		</div><!--end post-->
+			<div id="post-6496" class="post-6496 post type-post status-publish format-standard hentry category-civil_liberties category-europe_justice category-human_rights tag-terrorism">
+			<div class="post-header">
+				<h2><a href="http://www.cjscotland.co.uk/2014/12/extraordinary-rendition-and-scotland-headlines-2005-7/" rel="bookmark" title="Permanent Link to Extraordinary rendition and Scotland: some headlines 2005 to present">Extraordinary rendition and Scotland: some headlines 2005 to present</a></h2>
+				<div class="date"><span>2014</span> December 17</div>
+				<div class="comments"><span>Comments Off<span class="screen-reader-text"> on Extraordinary rendition and Scotland: some headlines 2005 to present</span></span></div>
+			</div><!--end post header-->
+			<div class="meta clear">
+				<div class="tags">tags: <a href="http://www.cjscotland.co.uk/tag/terrorism/" rel="tag">terrorism</a></div>
+				<div class="author">by Mary Munro</div>
+			</div><!--end meta-->
+			<div class="entry clear">
+								<p><em>Update</em></p>
+<blockquote class="twitter-tweet" lang="en"><p>Lord Advocate says US Senate report will be part of investigation into rendition flights <a href="http://t.co/qXLpg5wOO0">http://t.co/qXLpg5wOO0</a></p>
+<p>&mdash; COPFS (@COPFS) <a href="https://twitter.com/COPFS/status/542682077284823041">December 10, 2014</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><strong>&#8220;Scottish Police to seek details of US Senate report on CIA torture&#8221;</strong> <a href="http://www.heraldscotland.com/news/crime-courts/scottish-police-to-seek-details-of-us-senate-report-on-cia-torture.114458816" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Scottish prosecutors order police to &#8216;consider&#8217; US Senate&#8217;s report on CIA torture&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/scottish-prosecutors-order-police-to-consider-us-senates-report-on-cia-torture.114389006" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Police Scotland to examine CIA torture report&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-highlands-islands-30414775" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Police Scotland to study US Senate report into CIA torture&#8221;</strong> <a href="https://www.pressandjournal.co.uk/fp/news/scotland/427379/police-scotland-to-study-us-senate-report-into-cia-torture/" title="Press and Journal" target="_blank">Press and Journal</a><br />
+<strong>&#8220;US torture report probed by Scots police looking into CIA flights&#8221;</strong> <a href="http://news.stv.tv/scotland/302995-us-torture-report-probed-by-scots-police-looking-into-cia-flights/" title="STV" target="_blank">STV</a><br />
+<strong>&#8220;No easy answers on US rendition flights&#8221;</strong> <a href="http://www.scotsman.com/news/leaders-no-easy-answers-on-us-rendition-flights-1-3631245" title="Scotsman" target="_blank">Scotsman</a></p>
+<p><em>Following posted on 28.5.14</em></p>
+<p><strong>&#8220;Police must attempt to get a copy of rendition report&#8221;</strong> <a href="http://www.scotsman.com/news/chris-marshall-police-must-attempt-to-get-a-copy-of-rendition-report-1-3424478" title="Scotsman" target="_blank">Scotsman</a></p>
+<p><em>Following posted on 20.12.13</em></p>
+<p><strong>&#8220;Inquiry finds evidence UK involved in suspect rendition&#8221;</strong> <a href="http://www.heraldscotland.com/politics/wider-political-news/inquiry-finds-evidence-uk-involved-in-suspect-rendition.23005905" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;MPs take over inquiry into use of Scottish airports for CIA flights&#8221;</strong> <a href="http://news.stv.tv/west-central/257574-prestwick-airports-use-as-cia-torture-flight-base-part-of-mps-probe/" title="STV" target="_blank">STV</a></p>
+<p><em>Following posted on 10.6.13</em></p>
+<p><strong>&#8220;Scotland&#8217;s stand over CIA torture flights must be seen through&#8221;</strong> <a href="http://www.guardian.co.uk/commentisfree/2013/jun/09/scotlands-stand-on-cia-flights" title="Guardian" target="_blank">Guardian</a></p>
+<p><em>Following posted on 7.6.13</em></p>
+<p><strong>&#8220;MacDonald&#8217;s praise over rendition action&#8221;</strong> <a href="http://www.heraldscotland.com/politics/political-news/macdonalds-praise-over-rendition-action.21274232" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Top Scottish prosecutor wants rendition planes inquiry&#8221;</strong> <a href="http://www.thecourier.co.uk/news/scotland/top-scottish-prosecutor-wants-rendition-planes-inquiry-1.99783" title="Courier" target="_blank">Courier</a><br />
+<strong>&#8220;Urgent probe ordered into new illegal rendition claims&#8221;</strong> <a href="http://www.pressandjournal.co.uk/Article.aspx/3267000" title="Press and Journal" target="_blank">Press and Journal</a><br />
+<strong>&#8220;Questions that must be answered on rendition&#8221;</strong> <a href="http://www.heraldscotland.com/comment/herald-view/questions-that-must-be-answered-on-rendition.21260451" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Police probe ordered into Scots torture-flight claims&#8221;</strong> <a href="http://www.heraldscotland.com/politics/political-news/police-probe-ordered-into-scots-torture-flight-claims.21273534" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Rendition flights claim to be investigated by Police Scotland&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-scotland-politics-22788443" title="BBC" target="_blank">BBC</a></p>
+<p><em>Following posted on 6.6.13</em></p>
+<p><strong>&#8220;Action on US rendition claim&#8221;</strong> <a href="http://www.pressandjournal.co.uk/Article.aspx/3256515" title="Press and Journal" target="_blank">Press and Journal</a></p>
+<p><strong>&#8220;Plea to examine rendition data&#8221;</strong> <a href="http://www.heraldscotland.com/politics/political-news/plea-to-examine-rendition-data.21170504" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;&#8216;Conclusive proof&#8217; CIA torture flights landed at Scottish airports&#8221;</strong> <a href="http://news.stv.tv/north/226942-conclusive-proof-cia-rendition-flights-landed-at-scottish-airports/" title="STV" target="_blank">STV</a><br />
+<strong>&#8220;&#8216;New proof of city link to CIA torture flights’&#8221;</strong> <a href="http://www.pressandjournal.co.uk/Article.aspx/3253871" title="Press and Journal" target="_blank">Press and Journal</a><br />
+<strong>&#8220;Dundee and Leuchars used by planes linked to CIA rendition flights&#8221;</strong> <a href="http://www.thecourier.co.uk/news/scotland/dundee-and-leuchars-used-by-planes-linked-to-cia-rendition-flights-1.96929" title="Courier" target="_blank">Courier</a><br />
+<strong>&#8220;Probe urged over Scottish role in rendition flights&#8221;</strong> <a href="http://www.scotsman.com/the-scotsman/politics/probe-urged-over-scottish-role-in-rendition-flights-1-2945812" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;SNP demands answers over alleged CIA torture planes&#8221;</strong> <a href="http://www.pressandjournal.co.uk/Article.aspx/3254737" title="Press and Journal" target="_blank">Press and Journal</a><br />
+<strong>&#8220;Scottish airports &#8216;used for rendition flights'&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/scottish-airports-used-for-rendition-flights.21197368" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;North Scottish airports &#8216;used for rendition flights'&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-22680924" title="BBC" target="_blank">BBC</a></p>
+<blockquote><p>&#8220;I am aware of the information that was provided by the rendition project involving researchers at the University of Kent and Kingston University. I consider that that information—and any other information that is additional to that considered by the police in 2007—should be the subject of police consideration. I will therefore ask Police Scotland to give consideration to that information.&#8221; Frank Mullholland, Lord Advocate, <a href="http://www.scottish.parliament.uk/parliamentarybusiness/28862.aspx?r=8198&#038;mode=html#iob_74343" target="_blank">Law Officers&#8217; Questions Scottish Parliament 5.6.13</a></p></blockquote>
+<p><i>Following posted on 5.2.13</i></p>
+<p><strong>&#8220;Prestwick Airport “crucial staging post” in rendition and torture&#8221;</strong> <a href="http://www.firmmagazine.com/news/3128/Prestwick_Airport_%E2%80%9Ccrucial_staging_post%E2%80%9D_in_rendition_and_torture.html" title="The Firm Magazine" target="_blank">The Firm Magazine</a><br />
+<strong>&#8220;CIA rendition report author believes UK could face human rights court&#8221;</strong> <a href="http://www.guardian.co.uk/world/2013/feb/05/cia-rendition-report-uk-court" title="Guardian" target="_blank">Guardian</a><br />
+<strong>&#8220;Rendition: How 54 nations – and &#8216;Axis of Evil&#8217; – cooperated with CIA in wake of 9/11&#8221;</strong> <a href="http://www.independent.co.uk/news/world/americas/rendition-how-54-nations--and-axis-of-evil--cooperated-with-cia-in-wake-of-911-8482283.html" title="Independent" target="_blank">Independent</a></p>
+<p> <a href="http://www.cjscotland.co.uk/2014/12/extraordinary-rendition-and-scotland-headlines-2005-7/#more-6496" class="more-link">read more&#8230;</a></p>
+											</div><!--end entry-->
+			<div class="post-footer">
+				<p>from &rarr; <a href="http://www.cjscotland.co.uk/category/crime_prevention/civil_liberties/" rel="category tag">Civil Liberties</a>, <a href="http://www.cjscotland.co.uk/category/europe_justice/" rel="category tag">Europe and justice</a>, <a href="http://www.cjscotland.co.uk/category/europe_justice/human_rights/" rel="category tag">Human rights</a></p>
+			</div><!--end post footer-->
+		</div><!--end post-->
+			<div id="post-837" class="post-837 post type-post status-publish format-standard hentry category-children_justice category-reparation_rj category-vic_info_support category-victims_witnesses category-victims-and-witnesses-act-2014 tag-historic-abuse">
+			<div class="post-header">
+				<h2><a href="http://www.cjscotland.co.uk/2014/12/development-of-policy-and-responses-to-historic-and-institutional-abuse-of-children-latest/" rel="bookmark" title="Permanent Link to Development of policy and responses to historic and institutional abuse of children. Inquiry announced.">Development of policy and responses to historic and institutional abuse of children. Inquiry announced.</a></h2>
+				<div class="date"><span>2014</span> December 17</div>
+				<div class="comments"><span>Comments Off<span class="screen-reader-text"> on Development of policy and responses to historic and institutional abuse of children. Inquiry announced.</span></span></div>
+			</div><!--end post header-->
+			<div class="meta clear">
+				<div class="tags">tags: <a href="http://www.cjscotland.co.uk/tag/historic-abuse/" rel="tag">historic abuse</a></div>
+				<div class="author">by Mary Munro</div>
+			</div><!--end meta-->
+			<div class="entry clear">
+								<p><em>Update</em></p>
+<blockquote class="twitter-tweet" lang="en"><p>We have welcomed today&#39;s <a href="https://twitter.com/scotgov">@scotgov</a> announcement of a national inquiry into historic child abuse <a href="http://t.co/cAjvYDePuW">http://t.co/cAjvYDePuW</a></p>
+<p>&mdash; ScottishHumanRights (@ScotHumanRights) <a href="https://twitter.com/ScotHumanRights/status/545255567426871296">December 17, 2014</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><strong>&#8220;Inquiry announced for child abuse in Scots care&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/inquiry-announced-for-child-abuse-in-scots-care-1-3637210" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;National inquiry into historic child sex abuse in Scotland announced&#8221;</strong> <a href="http://news.stv.tv/scotland-decides/303895-national-child-sex-abuse-inquiry-announced-by-scottish-government/" title="STV" target="_blank">STV</a><br />
+<strong>&#8220;Pledge to bring Scotland’s child abusers to justice&#8221;</strong><br />
+<a href="http://www.express.co.uk/news/uk/547548/Angela-Constance-promises-bring-Scotland-s-child-abusers-justice" title="Scottish Express" target="_blank">Scottish Express</a><br />
+<strong>&#8220;Defending the victims of abuse: Minister announces public inquiry&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/defending-the-victims-of-abuse-minister-announces-public-inquiry.1418838294" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Sex abuse survivors deserve facts&#8221;</strong> <a href="http://www.scotsman.com/news/chris-marshall-sex-abuse-survivors-deserve-facts-1-3636363" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Historical abuse inquiry announced by Scottish government&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-30515198" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Scotland to get public inquiry into historical institutional child abuse&#8221;</strong> <a href="https://www.holyrood.com/articles/news/scotland-get-public-inquiry-historical-institutional-child-abuse" title="Holyrood.com" target="_blank">Holyrood.com</a></p>
+<p><em>Following posted on 10.11.14</em></p>
+<p><strong>&#8220;Child sex abuse inquiry planned for Scotland&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/child-sex-abuse-inquiry-planned-for-scotland-1-3599024" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Scotland set to get child abuse inquiry&#8221;</strong> <a href="http://www.express.co.uk/news/uk/533487/Scotland-historic-sex-child-abuse-inquiry-plans" title="Scottish Express" target="_blank">Scottish Express</a></p>
+<p><em>Following posted on 28.10.14</em></p>
+<p><strong>&#8220;Survivors of historic child abuse slam ministers for failing to commit to full-scale public inquiry into scandal&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/survivors-historic-child-abuse-slam-4520317" title="Daily Record" target="_blank">Daily Record</a></p>
+<p><em>Following posted on 14.08.14</em></p>
+<p><strong>&#8220;Child sex abuse victims demand public inquiry into historic allegations during meeting with Holyrood ministers&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/child-sex-abuse-victims-demand-4047725" title="Daily Record" target="_blank">Daily Record</a></p>
+<p><em>Following posted on 27.05.14</em></p>
+<p><strong>&#8220;Victims call for public inquiry into historical sex abuse allegations in residential schools across Scotland&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/victims-call-public-inquiry-historical-3611399" title="Daily Record" target="_blank">Daily Record</a></p>
+<p><em>Following posted on 14.05.14</em></p>
+<p><strong>&#8220;Welcome move on part of Church&#8221;</strong> <a href="http://www.heraldscotland.com/comment/herald-view/welcome-move-on-part-of-church.24219813" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Traumatised Scot tells of horrific abuse as a child at the hands of priests at residential school&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/traumatised-scot-tells-horrific-abuse-3548358" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Priest dismissed after being found guilty of &#8216;canonical offences'&#8221;</strong> <a href="http://news.stv.tv/scotland/275388-father-thomas-mullen-dismissed-from-church-after-canonical-offences/" title="STV" target="_blank">STV</a></p>
+<p><em>Following posted on 30.04.14</em></p>
+<p><strong>&#8220;Inquiry into cases of sexual abuse in homes&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/inquiry-into-cases-of-sexual-abuse-in-homes.24068464" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Labour MSP set to make fresh calls for public inquiry into historic abuse in children&#8217;s care homes&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/labour-msp-set-make-fresh-3467878" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Record View: Time to show home abuse victims we care&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/record-view-time-show-home-3467955" title="Daily Record" target="_blank">Daily Record</a></p>
+<p><em>Following posted on 11.2.14</em></p>
+<p><strong>&#8220;Special teams ‘should probe historic child abuse’&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/special-teams-should-probe-historic-child-abuse-1-3301492" title="Scotsman" target="_blank">Scotsman</a></p>
+<p> <a href="http://www.cjscotland.co.uk/2014/12/development-of-policy-and-responses-to-historic-and-institutional-abuse-of-children-latest/#more-837" class="more-link">read more&#8230;</a></p>
+											</div><!--end entry-->
+			<div class="post-footer">
+				<p>from &rarr; <a href="http://www.cjscotland.co.uk/category/children_justice/" rel="category tag">Children and justice</a>, <a href="http://www.cjscotland.co.uk/category/reparation_rj/" rel="category tag">Reparation and restorative justice</a>, <a href="http://www.cjscotland.co.uk/category/victims_witnesses/vic_info_support/" rel="category tag">Victim information and support</a>, <a href="http://www.cjscotland.co.uk/category/victims_witnesses/" rel="category tag">Victims and witnesses</a>, <a href="http://www.cjscotland.co.uk/category/legislation/victims-and-witnesses-act-2014/" rel="category tag">Victims and Witnesses Act 2014</a></p>
+			</div><!--end post footer-->
+		</div><!--end post-->
+			<div id="post-1604" class="post-1604 post type-post status-publish format-standard hentry category-europe_justice category-human_rights category-prisons category-scottish-independence-referendum-franchise-bill tag-prisoner-vote">
+			<div class="post-header">
+				<h2><a href="http://www.cjscotland.co.uk/2014/12/votes-for-prisoners-in-scotland/" rel="bookmark" title="Permanent Link to Votes for prisoners: UK Supreme Court judgment on referendum vote">Votes for prisoners: UK Supreme Court judgment on referendum vote</a></h2>
+				<div class="date"><span>2014</span> December 17</div>
+				<div class="comments"><span>Comments Off<span class="screen-reader-text"> on Votes for prisoners: UK Supreme Court judgment on referendum vote</span></span></div>
+			</div><!--end post header-->
+			<div class="meta clear">
+				<div class="tags">tags: <a href="http://www.cjscotland.co.uk/tag/prisoner-vote/" rel="tag">prisoner vote</a></div>
+				<div class="author">by Mary Munro</div>
+			</div><!--end meta-->
+			<div class="entry clear">
+								<p><em>Update</em></p>
+<p><strong>&#8220;Judges backing for prisoners referendum voting human rights claim&#8221;</strong> <a href="http://news.stv.tv/scotland-decides/303934-judges-backing-for-prisoners-referendum-voting-human-rights-claim/" title="STV" target="_blank">STV</a></p>
+<p><em>Following posted on 26.9.14</em></p>
+<p><strong>&#8220;UK&#8217;s threat to quit &#8216;led Euro court to back down on votes for prisoners&#8217;: Strasbourg runs scared as it puts issue off until September&#8221;</strong> <a href="http://www.dailymail.co.uk/news/article-2770227/UK-s-threat-quit-led-Euro-court-votes-prisoners-Strasbourg-runs-scared-puts-issue-September.html" title="Scottish Daily Mail" target="_blank">Scottish Daily Mail</a></p>
+<p><em>Following posted on 12.8.14</em></p>
+<p><strong>&#8220;When X should mark the spot for prisoners&#8221;</strong> <a href="http://www.heraldscotland.com/comment/herald-view/when-x-should-mark-the-spot-for-prisoners.25022857" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;European Court of Human Rights: prison vote ban breached rights&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/european-court-of-human-rights-prison-vote-ban-breached-rights.1407835781" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;The Guardian view on voting rights for prisoners&#8221;</strong> <a href="http://www.theguardian.com/commentisfree/2014/aug/12/guardian-view-voting-rights-prisoners" title="Guardian" target="_blank">Guardian</a><br />
+<strong>&#8220;UK prisoners denied the vote should not be paid compensation, ECHR rules&#8221;</strong> <a href="http://www.theguardian.com/politics/2014/aug/12/uk-prisoners-denied-vote-no-compensation-european-court-of-human-rights" title="Guardian" target="_blank">Guardian</a><br />
+<strong>&#8220;Cameron warned over &#8216;sabre-rattling&#8217; with European court of human rights&#8221;</strong> <a href="http://www.theguardian.com/law/2014/aug/13/grieve-cameron-european-court-of-human-rights" title="Guardian" target="_blank">Guardian</a><br />
+<strong>&#8220;Prisoners win human rights claim, but no damages, over voting rights&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1014356.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a></p>
+<p><em>Following posted on 30.7.14</em></p>
+<p><strong>&#8220;The Supreme Court upholds referendum ban on prisoner voting&#8221;</strong> <a href="http://ukscblog.com/heather-green-supreme-court-upholds-referendum-ban-prisoner-voting/" title="UK Supreme Court Blog" target="_blank">UK Supreme Court Blog</a></p>
+<p><em>Following posted on 28.7.14</em></p>
+<p><strong>&#8220;It&#8217;s inhuman that prisoners are denied a vote&#8221;</strong> <a href="http://www.theguardian.com/commentisfree/2014/jul/27/inhuman-prisoners-denied-vote" title="Guardian" target="_blank">Guardian</a><br />
+<strong>&#8220;Which is hereby pronounced for doom&#8221;</strong> <a href="http://lallandspeatworrier.blogspot.co.uk/2014/07/which-is-hereby-pronounced-for-doom.html" title="Lallands Peat Worrier" target="_blank">Lallands Peat Worrier</a></p>
+<p><em>Following posted on 25.7.14</em></p>
+<blockquote class="twitter-tweet" lang="en"><p>We secured a commitment from SPS that guidance on Scottish indyref will be given to those prisoners entitled to vote <a href="http://t.co/Ah9uneCP1l">http://t.co/Ah9uneCP1l</a></p>
+<p>&mdash; HowardLeagueScotland (@howardleague_sc) <a href="https://twitter.com/howardleague_sc/statuses/492228057114353664">July 24, 2014</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><strong>&#8220;Prisoners and the right to vote&#8221;</strong> <a href="http://www.heraldscotland.com/comment/herald-view/prisoners-and-the-right-to-vote.24827298" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Scottish independence: Killers fail to get referendum vote&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-28442439" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Independence: Murderers lose court battle for vote&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/independence-murderers-lose-court-battle-for-vote-1-3487340" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Prisoners lose Supreme Court bid to overturn referendum vote ban&#8221;</strong> <a href="http://news.stv.tv/politics/283801-prisoners-lose-supreme-court-bid-to-overturn-referendum-vote-ban/" title="STV" target="_blank">STV</a><br />
+<strong>&#8220;Prisoners&#8217; appeal to vote in Scottish independence referendum rejected&#8221;</strong> <a href="http://www.independent.co.uk/news/uk/scottish-independence/prisoners-appeal-to-vote-in-scottish-independence-referendum-rejected-9627158.htm" title="Independent" target="_blank">Independent</a><br />
+<strong>&#8220;Killers lose bid to vote in Scottish independence referendum&#8221;</strong> <a href="http://www.telegraph.co.uk/news/uknews/10989412/Killers-lose-bid-to-vote-in-Scottish-independence-referendum.html" title="Telegraph" target="_blank">Telegraph</a><br />
+<strong>&#8220;Scottish prisoners refused right to vote in referendum by supreme court&#8221;</strong> <a href="http://www.theguardian.com/politics/2014/jul/24/scottish-prisoners-vote-referendum-supreme-court" title="Guardian" target="_blank">Guardian</a><br />
+<strong>&#8220;Prisoners lose final appeal on referendum voting rights&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1014274.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a></p>
+<p><em>Following posted on 4.7.14</em></p>
+<blockquote class="twitter-tweet" lang="en"><p>Prisoner voting rights:Guidance &amp; information on Scottish independence referendum for prisoners entitled to vote <a href="http://t.co/alST7oO0Za">http://t.co/alST7oO0Za</a></p>
+<p>&mdash; HowardLeagueScotland (@howardleague_sc) <a href="https://twitter.com/howardleague_sc/statuses/484659379539431424">July 3, 2014</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><strong>&#8220;Scottish independence: Killers fail to win referendum vote&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-scotland-politics-28128599" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Scottish independence: Killers lose vote battle&#8221;</strong> <a href="http://www.scotsman.com/scottish-independence/scottish-independence-killers-lose-vote-battle/" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Scottish Independence: Killers lose bid to vote&#8221;</strong> <a href="http://www.edinburghnews.scotsman.com/news/crime/scottish-independence-killers-lose-bid-to-vote-1-3463651" title="Evening News" target="_blank">Evening News</a><br />
+<strong>&#8220;Murderer loses legal fight to vote in referendum&#8221;</strong> <a href="https://www.pressandjournal.co.uk/fp/news/north-east/273893/murderer-loses-legal-fight-to-vote-in-referendum/" title="Press and Journal" target="_blank">Press and Journal</a><br />
+<strong>&#8220;Appeal court affirms referendum prisoner voting ban&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1014183.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a><br />
+<strong>&#8220;#Indyref Prison Blues&#8221;</strong> <a href="http://lallandspeatworrier.blogspot.co.uk/2014/07/indyref-prison-blues.html" title="Lallands Peat Worrier" target="_blank">Lallands Peat Worrier</a></p>
+<p><em>Following posted on 19.12.13</em></p>
+<p><strong>&#8220;Murderers lose legal bid for right to vote in independence referendum&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/murderers-lose-legal-bid-right-2943927" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Prisoners fail to overturn ban on voting in Scottish independence referendum&#8221;</strong> <a href="http://www.theguardian.com/politics/2013/dec/19/prisoners-fails-ban-voting-scottish-independence" title="Guardian" target="_blank">Guardian</a><br />
+<strong>&#8220;Scottish independence: prisoners’ vote rejected&#8221;</strong> <a href="http://www.scotsman.com/news/politics/top-stories/scottish-independence-prisoners-vote-rejected-1-3239971" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Prisoners lose challenge to referendum voting bar&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1013467.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a><br />
+<strong>&#8220;Murderers lose legal battle over voting in 2014 poll&#8221;</strong> <a href="http://www.heraldscotland.com/news/crime-courts/murderers-lose-legal-battle-over-voting-in-2014-poll.22996388" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Scottish independence: Killers lose referendum vote bid&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-25446924" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Scottish Independence: Murderers lose bid to vote&#8221;</strong> <a href="http://www.edinburghnews.scotsman.com/news/scottish-independence-murderers-lose-bid-to-vote-1-3239532" title="Evening News" target="_blank">Evening News</a></p>
+<p><em>Following posted on 18.12.13</em></p>
+<blockquote><p>&#8220;Taking all these conclusions into account, we recommend that the Government introduce a Bill at the start of the 2014-15 session, which should provide that all prisoners serving sentences of 12 months or less should be entitled to vote in all UK parliamentary, local and European elections; and moreover that prisoners should be entitled to apply, up to 6 months before their scheduled release date, to be registered to vote in the constituency into which they are due to be released.&#8221; <a href="http://www.publications.parliament.uk/pa/jt201314/jtselect/jtdraftvoting/103/10302.htm" title="Joint Committee on the Draft Voting Eligibility (Prisoners) Bill - First Report " target="_blank">Joint Committee on the Draft Voting Eligibility (Prisoners) Bill &#8211; First Report</a></p></blockquote>
+<p><strong>&#8220;Prisoners serving less than a year should be allowed to vote, says Parliamentary committee&#8221;</strong> <a href="http://www.independent.co.uk/news/uk/crime/prisoners-serving-less-than-a-year-should-be-allowed-to-vote-says-parliamentary-committee-9011525.html" title="Independent" target="_blank">Independent</a><br />
+<strong>&#8220;MPs back giving vote to prisoners&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/mps-back-giving-vote-to-prisoners.22982526" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Short-term prisoners should have the vote, committee says&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1013459.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a></p>
+<p><em>Following posted on 20.11.13</em></p>
+<p><strong>&#8220;Convicted killers bid for independence referendum vote&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1013347.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a><br />
+<strong>&#8220;Scotland&#8217;s referendum is not democratic if prisoners are excluded&#8221;</strong> <a href="http://www.theguardian.com/commentisfree/2013/nov/18/scotland-referendum-prisoners-excluded" title="Guardian" target="_blank">Guardian</a></p>
+<p> <a href="http://www.cjscotland.co.uk/2014/12/votes-for-prisoners-in-scotland/#more-1604" class="more-link">read more&#8230;</a></p>
+											</div><!--end entry-->
+			<div class="post-footer">
+				<p>from &rarr; <a href="http://www.cjscotland.co.uk/category/europe_justice/" rel="category tag">Europe and justice</a>, <a href="http://www.cjscotland.co.uk/category/europe_justice/human_rights/" rel="category tag">Human rights</a>, <a href="http://www.cjscotland.co.uk/category/prisons/" rel="category tag">Prisons and prisoners</a>, <a href="http://www.cjscotland.co.uk/category/legislation/scottish-independence-referendum-franchise-bill/" rel="category tag">Scottish Independence Referendum (Franchise) Bill</a></p>
+			</div><!--end post footer-->
+		</div><!--end post-->
+			<div id="post-781" class="post-781 post type-post status-publish format-standard hentry category-community_sentences category-courts category-prison_sentences category-sentencing tag-knife tag-sentencing-2 tag-statistics">
+			<div class="post-header">
+				<h2><a href="http://www.cjscotland.co.uk/2014/12/criminal-proceedings-in-scottish-courts-from-2002-3-media-comment-press-releases-and-documents/" rel="bookmark" title="Permanent Link to Criminal Proceedings in Scottish Courts from 2002-3: media comment, press releases and documents">Criminal Proceedings in Scottish Courts from 2002-3: media comment, press releases and documents</a></h2>
+				<div class="date"><span>2014</span> December 16</div>
+				<div class="comments"><span>Comments Off<span class="screen-reader-text"> on Criminal Proceedings in Scottish Courts from 2002-3: media comment, press releases and documents</span></span></div>
+			</div><!--end post header-->
+			<div class="meta clear">
+				<div class="tags">tags: <a href="http://www.cjscotland.co.uk/tag/knife/" rel="tag">knife</a>, <a href="http://www.cjscotland.co.uk/tag/sentencing-2/" rel="tag">sentencing</a>, <a href="http://www.cjscotland.co.uk/tag/statistics/" rel="tag">statistics</a></div>
+				<div class="author">by Mary Munro</div>
+			</div><!--end meta-->
+			<div class="entry clear">
+								<p><a href="http://http://www.scotland.gov.uk/Publications/2014/12/1343/0"><img src="http://www.cjscotland.co.uk/wp-content/uploads/2014/12/People-by-charge-proved-and-main-penalty-2004-14-300x172.jpg" alt="People by charge proved and main penalty 2004-14" width="300" height="172" class="aligncenter size-medium wp-image-11175" /></a><em>Update</em></p>
+<p><strong>&#8220;4% rise in the number of people taken to court in Scotland&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/4-rise-in-the-number-of-people-taken-to-court-in-scotland.1418739838" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Police Scotland accused of waging war on motorists after crackdown sends convictions soaring&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/police-scotland-accused-waging-war-4825194" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Police accused of war on motorists as convictions for traffic offences rise&#8221;</strong> <a href="http://www.express.co.uk/news/uk/547327/Police-motorists-convictions-for-traffic-offences-rise" title="Scottish Express" target="_blank">Scottish Express</a><br />
+<strong>&#8220;Police Scotland accused of picking on &#8216;easy target&#8217; drivers&#8221;</strong> <a href="http://www.telegraph.co.uk/news/uknews/scotland/11297682/Police-Scotland-accused-of-picking-on-easy-target-drivers.html" title="Telegraph" target="_blank">Telegraph</a><br />
+<strong>&#8220;Sex crimes convictions in Scotland soar by a fifth&#8221;</strong> <a href="http://www.scotsman.com/news/scotland/top-stories/sex-crimes-convictions-in-scotland-soar-by-a-fifth-1-3635615" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Recorded sexual crimes reach 43-year high&#8221;</strong> <a href="https://www.holyrood.com/articles/news/recorded-sexual-crimes-reach-43-year-high" title="Holyrood.com" target="_blank">Holyrood.com</a></p>
+<p><strong>&#8220;Rape conviction rate drops&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/rape-conviction-rate-drops.114750483" title="Herald" target="_blank">Herald</a></p>
+<p> <a href="http://www.cjscotland.co.uk/2014/12/criminal-proceedings-in-scottish-courts-from-2002-3-media-comment-press-releases-and-documents/#more-781" class="more-link">read more&#8230;</a></p>
+											</div><!--end entry-->
+			<div class="post-footer">
+				<p>from &rarr; <a href="http://www.cjscotland.co.uk/category/sentencing/community_sentences/" rel="category tag">Community sentences</a>, <a href="http://www.cjscotland.co.uk/category/courts/" rel="category tag">Courts</a>, <a href="http://www.cjscotland.co.uk/category/sentencing/prison_sentences/" rel="category tag">Prison sentences</a>, <a href="http://www.cjscotland.co.uk/category/sentencing/" rel="category tag">Sentencing</a></p>
+			</div><!--end post footer-->
+		</div><!--end post-->
+			<div id="post-6687" class="post-6687 post type-post status-publish format-standard hentry category-courts category-double_jeopardy_bill category-evidence category-pfs tag-double_jeopardy tag-prosecution tag-worlds-end">
+			<div class="post-header">
+				<h2><a href="http://www.cjscotland.co.uk/2014/12/double-jeopardy-and-re-investigation-of-worlds-end-murders/" rel="bookmark" title="Permanent Link to Double jeopardy and re-investigation of World&#8217;s End murders: Sinclair convicted">Double jeopardy and re-investigation of World&#8217;s End murders: Sinclair convicted</a></h2>
+				<div class="date"><span>2014</span> December 14</div>
+				<div class="comments"><span>Comments Off<span class="screen-reader-text"> on Double jeopardy and re-investigation of World&#8217;s End murders: Sinclair convicted</span></span></div>
+			</div><!--end post header-->
+			<div class="meta clear">
+				<div class="tags">tags: <a href="http://www.cjscotland.co.uk/tag/double_jeopardy/" rel="tag">double jeopardy</a>, <a href="http://www.cjscotland.co.uk/tag/prosecution/" rel="tag">prosecution</a>, <a href="http://www.cjscotland.co.uk/tag/worlds-end/" rel="tag">World's End</a></div>
+				<div class="author">by Mary Munro</div>
+			</div><!--end meta-->
+			<div class="entry clear">
+								<p><em>Update</em></p>
+<p><strong>&#8220;World&#8217;s End Murders: The system failed Helen Scott, Christine Eadie and their families, says ex-police chief Tom Wood&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/worlds-end-murders-system-failed-4808217" title="Daily Record" target="_blank">Daily Record</a></p>
+<p><strong>&#8220;Angus Sinclair was first serial killer Frank Mulholland questioned in court: &#8216;At times it was chilling&#8217; &#8220;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/angus-sinclair-first-serial-killer-4724949" title="Daily Record" target="_blank">Daily Record</a></p>
+<p><strong>&#8220;World’s End Murder Trial – Finding the Balance in Double Jeopardy&#8221;</strong> <a href="http://www.scotslawblog.com/criminal-law/worlds-end-murder-trial-double-jeopardy/" title="Scots Law Blog" target="_blank">Scots Law Blog</a><br />
+<strong>&#8220;High Court releases &#8220;World&#8217;s End&#8221; double jeopardy ruling&#8221;</strong> <a href="http://www.journalonline.co.uk/News/1015701.aspx" title="Law Society Journal Online" target="_blank">Law Society Journal Online</a></p>
+<p><strong>&#8220;World&#8217;s End Trial: Scotland&#8217;s top prosecutor vows to put serial killer Angus Sinclair back in dock for five unsolved murders&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/worlds-end-trial-scotlands-top-4637593" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;World&#8217;s End murder trial: Mammoth hunt to find serial killer proves justice has no sell-by date in Scotland&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/worlds-end-murder-trial-mammoth-4631854" title="Daily Record" target="_blank">Daily Record</a></p>
+<p><em>Following posted on 14.10.14</em></p>
+<p><strong>&#8220;World&#8217;s End murder trial opens in Edinburgh&#8221;</strong> <a href="http://www.heraldscotland.com/news/crime-courts/worlds-end-murder-trial-opens-in-edinburgh.25590285" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;World&#8217;s End murders: Man on trial over 1977 deaths&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-29598224" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;World&#8217;s End murder trial: Man denies beating, raping and strangling teenagers Christine Eadie and Helen Scott 37 years ago&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/worlds-end-murder-trial-man-4433536" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;World’s End jury shown ‘disturbing’ images&#8221;</strong> <a href="http://www.edinburghnews.scotsman.com/news/world-s-end-jury-shown-disturbing-images-1-3571295" title="Evening News" target="_blank">Evening News</a><br />
+<strong>&#8220;Man goes on trial accused of World&#8217;s End murders 37 years ago&#8221;</strong> <a href="http://news.stv.tv/scotland/295615-angus-sinclair-on-trial-for-murder-of-christine-eadie-and-helen-scott/" title="STV" target="_blank">STV</a><br />
+<strong>&#8220;Jury shown photographs of teenage victims in World’s End murder trial&#8221;</strong> <a href="http://www.express.co.uk/news/uk/522387/Jury-shown-photographs-of-teenage-victims-in-World-s-End-murder-trial" title="Scottish Express" target="_blank">Scottish Express</a></p>
+<p><em>Following posted on 26.6.14</em></p>
+<p><strong>&#8220;World&#8217;s End murders: Angus Sinclair&#8217;s retrial date set&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-2803566" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Date set for re-trial of man cleared of 1977 World&#8217;s End murders&#8221;</strong> <a href="http://news.stv.tv/east-central/280615-re-trial-date-set-for-worlds-end-murder-suspect-angus-sinclair/" title="STV" target="_blank">STV</a></p>
+<p><em>Following posted on 15.4.14</em></p>
+<p><strong>&#8220;Man faces new trial over 1977 World&#8217;s End murders&#8221;</strong> <a href="http://www.heraldscotland.com/news/crime-courts/man-faces-new-trial-over-1977-worlds-end-murders.23979050" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;World&#8217;s End murders: Angus Sinclair could face retrial&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-27041587" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;World&#8217;s End pub murders: Angus Sinclair could face retrial over 1977 deaths of teenagers Christine Eadie and Helen Scott&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/worlds-end-pub-murders-angus-3418378" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;Man cleared of World’s End murders faces retrial after court ruling&#8221;</strong> <a href="http://news.stv.tv/east-central/271776-man-cleared-of-worlds-end-murders-faces-retrial-after-court-ruling/" title="STV" target="_blank">STV</a></p>
+<p><em>Following posted on 2.10.13</em></p>
+<p><strong>&#8220;Retrial bid in first case since end of double jeopardy&#8221;</strong> <a href="http://www.heraldscotland.com/news/crime-courts/retrial-bid-in-first-case-since-end-of-double-jeopardy.22309046" title="Herald" target="_blank">Herald</a></p>
+<p><em>Following posted on 15.5.13</em></p>
+<p><strong>&#8220;World&#8217;s End: Decision on Angus Sinclair retrial to be made in autum&#8221;</strong> <a href="http://local.stv.tv/edinburgh/225303-worlds-end-decision-on-angus-sinclair-retrial-to-be-made-in-autumn/" title="STV" target="_blank">STV</a><br />
+<strong>&#8220;Date set for World&#8217;s End hearing&#8221;</strong> <a href="http://www.heraldscotland.com/news/crime-courts/date-set-for-worlds-end-hearing.21082700" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;World&#8217;s End murders: Hearing to decide if Angus Sinclair will face retrial&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-22525060" title="BBC" target="_blank">BBC</a></p>
+<p><em>Following posted on 6.2.13</em></p>
+<p><strong>&#8220;Second World&#8217;s End Murder trial to take place following changes to the double-jeopardy law&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/second-worlds-end-trial-to-take-1587146" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;World’s End murders: Angus Sinclair trial attempt&#8221;</strong> <a href="http://www.scotsman.com/edinburgh-evening-news/latest-news/world-s-end-murders-angus-sinclair-trial-attempt-1-2775645" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;World’s End trial No2 in KO bid&#8221;</strong> <a href="http://www.thescottishsun.co.uk/scotsol/homepage/news/4781060/Worlds-End-trial-No2-in-KO-bid.html" title="Scottish Sun" target="_blank">Scottish Sun</a><br />
+<strong>&#8220;World&#8217;s End murder accused opposes double jeopardy re-trial bid&#8221;</strong> <a href="http://news.stv.tv/scotland/212753-worlds-end-murder-accused-angus-sinclair-opposes-re-trial-bid/" title="STV" target="_blank">STV</a><br />
+<strong>&#8220;Sinclair opposes World&#8217;s End retrial&#8221;</strong> <a href="http://www.heraldscotland.com/news/crime-courts/sinclair-opposes-worlds-end-retrial.20124354" title="Herald" target="_blank">Herald</a></p>
+<p><em>Following posted on 21.12.12</em></p>
+<p><strong>&#8220;World&#8217;s End killings: Angus Sinclair could face second trial over 1977 murders&#8221;</strong> <a href="http://www.dailyrecord.co.uk/news/scottish-news/worlds-end-killings-angus-sinclair-1498553" title="Daily Record" target="_blank">Daily Record</a><br />
+<strong>&#8220;World’s End accused faces trial&#8230; again&#8221;</strong> <a href="http://www.thescottishsun.co.uk/scotsol/homepage/news/4708257/Worlds-End-accused-faces-trial-again.html" title="Scottish Sun" target="_blank">Scottish Sun</a><br />
+<strong>&#8220;Tougher test of evidence under double jeopardy than in first-time trial&#8221;</strong> <a href="http://www.scotsman.com/the-scotsman/scotland/tougher-test-of-evidence-under-double-jeopardy-than-in-first-time-trial-1-2702623" title="Scotsman" target="_blank">Scotsman</a><br />
+<strong>&#8220;Bid to try World’s End murder suspect again&#8221;</strong> <a href="http://www.express.co.uk/posts/view/366260/Bid-to-try-World-s-End-murder-suspect-again" title="Scottish Express" target="_blank">Scottish Express</a><br />
+<strong>&#8220;Application lodged to retry Angus Sinclair for World&#8217;s End murders&#8221;</strong> <a href="http://news.stv.tv/scotland/206866-application-lodged-to-retry-angus-sinclair-for-worlds-end-murders/" title="STV" target="_blank">STV</a><br />
+<strong>&#8220;&#8221;World&#8217;s End&#8221; murders to be retried under two trials law&#8221;</strong> <a href="http://www.firmmagazine.com/news/3093/%22World%27s_End%22_murders_to_be_retried_under_two_trials_law.html" title="The Firm Magazine" target="_blank">The Firm Magazine</a><br />
+<strong>&#8220;Retrial made possible by law change&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/retrial-made-possible-by-law-change.19739980" title="Herald" target="_blank">Herald</a><br />
+<strong>&#8220;Prosecutors move for Angus Sinclair to face second World&#8217;s End trial&#8221;</strong> <a href="http://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-20796650" title="BBC" target="_blank">BBC</a><br />
+<strong>&#8220;Victim&#8217;s father welcomes double jeopardy changes&#8221;</strong> <a href="http://www.heraldscotland.com/news/home-news/victims-father-welcomes-double-jeopardy-changes.19745565" title="Herald" target="_blank">Herald</a></p>
+<p><em>Following posted on 15.3.12</em></p>
+<p><strong>&#8220;Man cleared of World&#8217;s End murders of two girls could stand trial again under double jeopardy laws&#8221;</strong> <a title="Daily Record" href="http://www.dailyrecord.co.uk/news/scottish-news/2012/03/14/man-cleared-of-world-s-end-murders-of-two-girls-could-stand-trial-again-under-double-jeopardy-laws-86908-23788432/" target="_blank">Daily Record</a><br />
+<strong>&#8220;World’s End murders accused set for retrial&#8221;</strong> <a title="Scotsman" href="http://www.scotsman.com/edinburgh-evening-news/edinburgh/world-s-end-murders-accused-set-for-retrial-1-2172855" target="_blank">Scotsman</a><br />
+<strong>&#8220;World’s End murder accused may face trial for second time&#8221;</strong> <a title="Scottish Express" href="http://www.express.co.uk/posts/view/308245/World-s-End-murder-accused-may-face-trial-for-second-time" target="_blank">Scottish Express</a><br />
+<strong>&#8220;Sinclair could face retrial over World&#8217;s End murders&#8221;</strong> <a title="Herald" href="http://www.heraldscotland.com/news/crime-courts/sinclair-could-face-retrial-over-worlds-end-murders.17028058" target="_blank">Herald</a><br />
+<strong>&#8220;Crown in Angus Sinclair World&#8217;s End retrial move&#8221;</strong> <a title="BBC" href="http://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-17371936" target="_blank">BBC</a><br />
+<strong>&#8220;World’s End killings: new police probe&#8221;</strong> <a title="Scottish Sun" href="http://www.thescottishsun.co.uk/scotsol/homepage/news/4195823/Worlds-End-killings-new-police-probe.html" target="_blank">Scottish Sun</a><br />
+<strong>&#8220;Double jeopardy &amp; the World&#8217;s End case&#8230; &#8220;</strong> <a title="Lallands Peat Worrier" href="http://lallandspeatworrier.blogspot.com/2012/03/double-jeopardy-worlds-end-case.html" target="_blank">Lallands Peat Worrier</a></p>
+<p><span style="text-decoration: underline;">Press releases</span></p>
+<p><strong>&#8220;Crown Applies to Retry Angus Sinclair under Double Jeopardy Legislation&#8221;</strong> <a href="http://www.crownoffice.gov.uk/News/Releases/2012/12/Crown-Applies-Retry-Angus-Sinclair-under-Double-Jeopardy-Legislation" title="COPFS (December 2012)" target="_blank">COPFS (December 2012)</a><br />
+<strong>&#8220;&#8216;World&#8217;s End&#8217; Murders Reinvestigated under Double Jeopardy Legislation&#8221;</strong> <a href="http://www.crownoffice.gov.uk/News/Releases/2012/03/Worlds-End-Murders-Reinvestigated-under-Double-Jeopardy-Legislation" title="COPFS (March 2012)" target="_blank">COPFS (March 2012)</a></p>
+<p><span style="text-decoration: underline;">See also</span></p>
+<p><a href="http://www.scotcourts.gov.uk/search-judgments/judgment?id=f283b5a6-8980-69d2-b500-ff0000d74aa7" title="Application  under the Double Jeopardy (Scotland) Act 2011 by HMA v Angus Robertson Sinclair (March 2014)" target="_blank">Application  under the Double Jeopardy (Scotland) Act 2011 by HMA v Angus Robertson Sinclair (March 2014)</a></p>
+											</div><!--end entry-->
+			<div class="post-footer">
+				<p>from &rarr; <a href="http://www.cjscotland.co.uk/category/courts/" rel="category tag">Courts</a>, <a href="http://www.cjscotland.co.uk/category/legislation/double_jeopardy_bill/" rel="category tag">Double Jeopardy Act 2011</a>, <a href="http://www.cjscotland.co.uk/category/courts/evidence/" rel="category tag">Evidence</a>, <a href="http://www.cjscotland.co.uk/category/courts/pfs/" rel="category tag">Procurators Fiscal</a></p>
+			</div><!--end post footer-->
+		</div><!--end post-->
+			<div class="navigation index">
+			<div class="alignleft"><a href="http://www.cjscotland.co.uk/page/2/" >&laquo; Older Entries</a></div>
+			<div class="alignright"></div>
+		</div><!--end navigation-->
+	</div><!--end content-->
+<div id="sidebar">
+			<ul>
+		<li id="search-3" class="widget widget_search"><h2 class="widgettitle">Search</h2>
+<form method="get" id="search_form" action="http://www.cjscotland.co.uk/">
+	<div>
+		<input type="text" value="type and press enter" name="s" id="s" onfocus="if (this.value == 'type and press enter' ) {this.value = '';}" onblur="if (this.value == '' ) {this.value = 'type and press enter';}" />
+		<input type="hidden" value="Search" />
+	</div>
+</form>
+</li><li id="categories-3" class="widget widget_categories"><h2 class="widgettitle">Categories</h2><label class="screen-reader-text" for="cat">Categories</label><select name='cat' id='cat' class='postform' >
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="3">Antisocial behaviour</option>
+	<option class="level-0" value="4">Children and justice</option>
+	<option class="level-1" value="5">&nbsp;&nbsp;&nbsp;Children&#8217;s hearings</option>
+	<option class="level-0" value="6">Community Justice Authorities</option>
+	<option class="level-0" value="7">Corporate issues</option>
+	<option class="level-1" value="8">&nbsp;&nbsp;&nbsp;Environment</option>
+	<option class="level-1" value="9">&nbsp;&nbsp;&nbsp;Fraud and corruption</option>
+	<option class="level-1" value="10">&nbsp;&nbsp;&nbsp;Health and Safety</option>
+	<option class="level-0" value="11">Courts</option>
+	<option class="level-1" value="177">&nbsp;&nbsp;&nbsp;Appeals</option>
+	<option class="level-1" value="12">&nbsp;&nbsp;&nbsp;Bail/remand</option>
+	<option class="level-1" value="13">&nbsp;&nbsp;&nbsp;Diversion</option>
+	<option class="level-1" value="98">&nbsp;&nbsp;&nbsp;Evidence</option>
+	<option class="level-1" value="237">&nbsp;&nbsp;&nbsp;Juries</option>
+	<option class="level-1" value="14">&nbsp;&nbsp;&nbsp;Miscarriages of justice</option>
+	<option class="level-1" value="15">&nbsp;&nbsp;&nbsp;Procurators Fiscal</option>
+	<option class="level-1" value="16">&nbsp;&nbsp;&nbsp;Summary Justice</option>
+	<option class="level-0" value="17">Crime data</option>
+	<option class="level-1" value="119">&nbsp;&nbsp;&nbsp;Crime surveys</option>
+	<option class="level-1" value="18">&nbsp;&nbsp;&nbsp;Recording crime</option>
+	<option class="level-0" value="19">Crime prevention</option>
+	<option class="level-1" value="20">&nbsp;&nbsp;&nbsp;CCTV</option>
+	<option class="level-1" value="21">&nbsp;&nbsp;&nbsp;Civil Liberties</option>
+	<option class="level-2" value="22">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Identity cards</option>
+	<option class="level-1" value="23">&nbsp;&nbsp;&nbsp;Community initiatives</option>
+	<option class="level-0" value="24">Criminal justice reform</option>
+	<option class="level-0" value="25">Criminal justice social work</option>
+	<option class="level-0" value="26">Drugs, alcohol, gambling</option>
+	<option class="level-0" value="27">Europe and justice</option>
+	<option class="level-1" value="28">&nbsp;&nbsp;&nbsp;Human rights</option>
+	<option class="level-0" value="29">Gender and crime</option>
+	<option class="level-1" value="30">&nbsp;&nbsp;&nbsp;Domestic abuse</option>
+	<option class="level-1" value="31">&nbsp;&nbsp;&nbsp;Prostitution</option>
+	<option class="level-1" value="32">&nbsp;&nbsp;&nbsp;rape</option>
+	<option class="level-0" value="33">Hate crimes</option>
+	<option class="level-0" value="34">Legislation</option>
+	<option class="level-1" value="315">&nbsp;&nbsp;&nbsp;Air Weapons and Licensing (Scotland) Bill</option>
+	<option class="level-1" value="284">&nbsp;&nbsp;&nbsp;Alcohol (Public Health and Criminal Justice) Bill</option>
+	<option class="level-1" value="35">&nbsp;&nbsp;&nbsp;Alcohol (Scotland) Act 2010</option>
+	<option class="level-1" value="263">&nbsp;&nbsp;&nbsp;Alcohol Minimum Pricing Bill</option>
+	<option class="level-1" value="36">&nbsp;&nbsp;&nbsp;Antisocial Behaviour etc Act 2004</option>
+	<option class="level-1" value="37">&nbsp;&nbsp;&nbsp;Children&#8217;s Hearings Act 2011</option>
+	<option class="level-1" value="287">&nbsp;&nbsp;&nbsp;Civil Justice and Criminal Legal Assistance Act</option>
+	<option class="level-1" value="38">&nbsp;&nbsp;&nbsp;Commissioner for Victims and Witnesses Bill</option>
+	<option class="level-1" value="245">&nbsp;&nbsp;&nbsp;Convention Rights Proceedings (Amend) Bill</option>
+	<option class="level-1" value="39">&nbsp;&nbsp;&nbsp;Coroners and Justice Bill</option>
+	<option class="level-1" value="40">&nbsp;&nbsp;&nbsp;Corporate Manslaughter and Corp. Homicide Act</option>
+	<option class="level-1" value="304">&nbsp;&nbsp;&nbsp;Courts Reform (Scotland) Bill</option>
+	<option class="level-1" value="278">&nbsp;&nbsp;&nbsp;Criminal Cases (Punishment and Review) Bill</option>
+	<option class="level-1" value="41">&nbsp;&nbsp;&nbsp;Criminal Justice and Licensing Act 2010</option>
+	<option class="level-1" value="309">&nbsp;&nbsp;&nbsp;Criminal Justice Bill 2013</option>
+	<option class="level-1" value="43">&nbsp;&nbsp;&nbsp;Criminal Procedure (Legal Assist, Det., Appeals)</option>
+	<option class="level-1" value="44">&nbsp;&nbsp;&nbsp;Criminal Proceedings etc (Reform) Act 2007</option>
+	<option class="level-1" value="45">&nbsp;&nbsp;&nbsp;Criminal Sentencing (Equity Fines) Bill</option>
+	<option class="level-1" value="300">&nbsp;&nbsp;&nbsp;Culpable Homicide (Scotland) Bill 2006</option>
+	<option class="level-1" value="46">&nbsp;&nbsp;&nbsp;Custodial Sentences and Weapons Act 2007</option>
+	<option class="level-1" value="47">&nbsp;&nbsp;&nbsp;Domestic Abuse Bill</option>
+	<option class="level-1" value="48">&nbsp;&nbsp;&nbsp;Double Jeopardy Act 2011</option>
+	<option class="level-1" value="49">&nbsp;&nbsp;&nbsp;Emergency Workers Act 2005</option>
+	<option class="level-1" value="50">&nbsp;&nbsp;&nbsp;End of Life Assistance Bill</option>
+	<option class="level-1" value="51">&nbsp;&nbsp;&nbsp;Forced Marriage etc. Act 2011</option>
+	<option class="level-1" value="52">&nbsp;&nbsp;&nbsp;Judiciary and Courts Act 2008</option>
+	<option class="level-1" value="265">&nbsp;&nbsp;&nbsp;Legal Aid &amp; Scottish Civil Justice Council Bill</option>
+	<option class="level-1" value="53">&nbsp;&nbsp;&nbsp;Licensing Act 2005</option>
+	<option class="level-1" value="54">&nbsp;&nbsp;&nbsp;Management of Offenders etc Act 2005</option>
+	<option class="level-1" value="55">&nbsp;&nbsp;&nbsp;Offences (Aggravation by Prejudice) Act 2009</option>
+	<option class="level-1" value="232">&nbsp;&nbsp;&nbsp;Offensive Behaviour at Football etc Act</option>
+	<option class="level-1" value="264">&nbsp;&nbsp;&nbsp;Police and Fire Reform Bill</option>
+	<option class="level-1" value="56">&nbsp;&nbsp;&nbsp;Police, Public Order and CJ Act 2006</option>
+	<option class="level-1" value="318">&nbsp;&nbsp;&nbsp;Prisoners (Control of Release) Bill</option>
+	<option class="level-1" value="57">&nbsp;&nbsp;&nbsp;Prohibition of Female Genital Mutilation Act 2005</option>
+	<option class="level-1" value="58">&nbsp;&nbsp;&nbsp;Prostitution (Public Places) Act 2007</option>
+	<option class="level-1" value="60">&nbsp;&nbsp;&nbsp;Protect. of Children and Prevent. Sexual Offences Act 2005</option>
+	<option class="level-1" value="61">&nbsp;&nbsp;&nbsp;Protection of Vulnerable Groups (Scotland) Act 2007</option>
+	<option class="level-1" value="109">&nbsp;&nbsp;&nbsp;Protection of Workers Bill</option>
+	<option class="level-1" value="261">&nbsp;&nbsp;&nbsp;Rights of Children and Young People</option>
+	<option class="level-1" value="62">&nbsp;&nbsp;&nbsp;Scottish Commission for Human Rights Act 2006</option>
+	<option class="level-1" value="305">&nbsp;&nbsp;&nbsp;Scottish Independence Referendum (Franchise) Bill</option>
+	<option class="level-1" value="65">&nbsp;&nbsp;&nbsp;Sexual Offences (Scotland) Act 2009</option>
+	<option class="level-1" value="302">&nbsp;&nbsp;&nbsp;Smoking Health and Social Care (Scotland) Act 2005</option>
+	<option class="level-1" value="66">&nbsp;&nbsp;&nbsp;Tobacco and Primary Medical Services Bill</option>
+	<option class="level-1" value="67">&nbsp;&nbsp;&nbsp;Treatment of Drug Users (Scotland) Bill</option>
+	<option class="level-1" value="286">&nbsp;&nbsp;&nbsp;Victims and Witnesses Act 2014</option>
+	<option class="level-1" value="68">&nbsp;&nbsp;&nbsp;Violent Crime Reduction Bill</option>
+	<option class="level-1" value="69">&nbsp;&nbsp;&nbsp;Vulnerable Witnesses (Scotland) Act 2004</option>
+	<option class="level-1" value="70">&nbsp;&nbsp;&nbsp;Wildlife and Natural Environment Act 2011</option>
+	<option class="level-0" value="71">Media</option>
+	<option class="level-0" value="72">Mentally disordered offenders</option>
+	<option class="level-0" value="285">Mike Nellis&#8217;s posts</option>
+	<option class="level-0" value="73">Miscellaneous</option>
+	<option class="level-0" value="74">Non-custodial justice projects</option>
+	<option class="level-0" value="104">organised crime</option>
+	<option class="level-0" value="228">Parliamentary bulletins</option>
+	<option class="level-0" value="75">Police</option>
+	<option class="level-1" value="76">&nbsp;&nbsp;&nbsp;campaigns</option>
+	<option class="level-0" value="77">Prisons and prisoners</option>
+	<option class="level-1" value="78">&nbsp;&nbsp;&nbsp;Inspection reports</option>
+	<option class="level-1" value="79">&nbsp;&nbsp;&nbsp;Privatisation</option>
+	<option class="level-0" value="80">Reparation and restorative justice</option>
+	<option class="level-0" value="81">Sentencing</option>
+	<option class="level-1" value="82">&nbsp;&nbsp;&nbsp;Asset recovery</option>
+	<option class="level-1" value="160">&nbsp;&nbsp;&nbsp;Community payback</option>
+	<option class="level-1" value="83">&nbsp;&nbsp;&nbsp;Community sentences</option>
+	<option class="level-1" value="84">&nbsp;&nbsp;&nbsp;Fines</option>
+	<option class="level-1" value="85">&nbsp;&nbsp;&nbsp;Prison sentences</option>
+	<option class="level-1" value="86">&nbsp;&nbsp;&nbsp;Sentencing reform</option>
+	<option class="level-1" value="87">&nbsp;&nbsp;&nbsp;surveillance</option>
+	<option class="level-0" value="220">Trident</option>
+	<option class="level-0" value="1">Uncategorized</option>
+	<option class="level-0" value="88">Victims and witnesses</option>
+	<option class="level-1" value="89">&nbsp;&nbsp;&nbsp;Victim information and support</option>
+	<option class="level-1" value="90">&nbsp;&nbsp;&nbsp;Vulnerable witnesses</option>
+	<option class="level-0" value="91">Young people</option>
+</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			location.href = "http://www.cjscotland.co.uk/?cat=" + dropdown.options[ dropdown.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+</li><li id="text-4" class="widget widget_text"><h2 class="widgettitle">What is CjScotland?</h2>			<div class="textwidget"><p>Founded in October 2003, CjScotland is a handcrafted database of sources about crime and justice issues in Scotland and, where relevant, the rest of the UK and Europe. </p>
+<p>Please note that some media, press release and broadcast links are short-lived. You can use the headlines for archive searches but may have to pay to access the original piece. </p>
+<p>"A sense of an accessible Scottish debate being developed at last, and many different interests being tied together."</p>
+<p><a href="http://twitter.com/CjScotland" class="twitter-follow-button" data-show-count="false">Follow @CjScotland</a><br />
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script></p>
+<p><a href="http://cjscotland.co.uk/feed"><img src="http://www.cjscotland.co.uk/wp-content/uploads/2011/09/cjscotland-rss-feed.png" /><br />RSS Feed</a></p>
+</div>
+		</li><li id="text-5" class="widget widget_text"><h2 class="widgettitle">Why has the URL changed?</h2>			<div class="textwidget"><p>This is a temporary fix. Our established site at <a href="http;//www.cjscotland.org.uk">cjscotland.org.uk</a> is in process of migration here. When the migration is complete then the default URL will revert to org.uk. All cjscotland.co.uk bookmarks will continue to work at that point.</p>
+<p>Transfer so far: posts back to end of September <strong>2006</strong>.</p>
+<p>From the database: </p>
+<p><a href="http://www.cjscotland.co.uk/2011/09/slopping-out-segregation-and-prisoners-rights-headlines-and-links-from-2004/">‘Slopping out’, segregation and prisoners’ rights: headlines and links from 2004</a></p>
+<p><a href="http://www.cjscotland.co.uk/2007/05/election-2007-justice-headlines/">Election 2007: justice headlines</a></p>
+<p><a href="http://www.cjscotland.co.uk/2007/04/prisoner-votes-march-2004-to-april-2007/">Prisoner votes: March 2004 to April 2007</a></p>
+<p><a href="http://www.cjscotland.co.uk/2007/12/the-closure-of-the-airborne-initiative-2004-7/">The closure of the Airborne Initiative 2004-7 </a>.</p>
+<p><a href="http://bit.ly/wKCBuX">Community wardens and the regulation of antisocial behaviour 2003-7</a></p>
+<p><a href="http://www.cjscotland.co.uk/2006/11/spread-of-cctv-across-scotland-2003-6-headlines/">Spread of CCTV across Scotland 2003-6: headlines</a></p>
+</div>
+		</li>		<li id="recent-posts-3" class="widget widget_recent_entries">		<h2 class="widgettitle">Recent Posts</h2>		<ul>
+					<li>
+				<a href="http://www.cjscotland.co.uk/2015/09/quite-possibly-the-last-post/">Quite possibly the last post</a>
+						</li>
+					<li>
+				<a href="http://www.cjscotland.co.uk/2015/02/police-stop-and-search-in-scotland/">Police stop and search in Scotland: headlines, links</a>
+						</li>
+					<li>
+				<a href="http://www.cjscotland.co.uk/2015/02/the-politics-of-automatic-early-release-from-prison/">The politics of early release from prison: Sturgeon announces amendments to legislation</a>
+						</li>
+					<li>
+				<a href="http://www.cjscotland.co.uk/2014/12/scottish-government-policy-on-lowering-drink-drive-alcohol-limit/">Scottish Government policy on lowering drink drive alcohol limit: changes now in force</a>
+						</li>
+					<li>
+				<a href="http://www.cjscotland.co.uk/2014/12/clares-law-domestic-abuse-disclosure-in-scotland/">&#8216;Clare&#8217;s Law&#8217; domestic abuse disclosure in Scotland: pilot underway</a>
+						</li>
+					<li>
+				<a href="http://www.cjscotland.co.uk/2014/12/extraordinary-rendition-and-scotland-headlines-2005-7/">Extraordinary rendition and Scotland: some headlines 2005 to present</a>
+						</li>
+					<li>
+				<a href="http://www.cjscotland.co.uk/2014/12/development-of-policy-and-responses-to-historic-and-institutional-abuse-of-children-latest/">Development of policy and responses to historic and institutional abuse of children. Inquiry announced.</a>
+						</li>
+					<li>
+				<a href="http://www.cjscotland.co.uk/2014/12/votes-for-prisoners-in-scotland/">Votes for prisoners: UK Supreme Court judgment on referendum vote</a>
+						</li>
+					<li>
+				<a href="http://www.cjscotland.co.uk/2014/12/criminal-proceedings-in-scottish-courts-from-2002-3-media-comment-press-releases-and-documents/">Criminal Proceedings in Scottish Courts from 2002-3: media comment, press releases and documents</a>
+						</li>
+					<li>
+				<a href="http://www.cjscotland.co.uk/2014/12/double-jeopardy-and-re-investigation-of-worlds-end-murders/">Double jeopardy and re-investigation of World&#8217;s End murders: Sinclair convicted</a>
+						</li>
+				</ul>
+		</li><li id="tag_cloud-3" class="widget widget_tag_cloud"><h2 class="widgettitle">Tags</h2><div class="tagcloud"><a href='http://www.cjscotland.co.uk/tag/aberdeen/' class='tag-link-143' title='25 topics' style='font-size: 9.91578947368pt;'>Aberdeen</a>
+<a href='http://www.cjscotland.co.uk/tag/alcohol/' class='tag-link-128' title='115 topics' style='font-size: 19.4947368421pt;'>alcohol</a>
+<a href='http://www.cjscotland.co.uk/tag/antisocial/' class='tag-link-95' title='26 topics' style='font-size: 10.2105263158pt;'>antisocial</a>
+<a href='http://www.cjscotland.co.uk/tag/asbo/' class='tag-link-217' title='20 topics' style='font-size: 8.58947368421pt;'>asbo</a>
+<a href='http://www.cjscotland.co.uk/tag/budget/' class='tag-link-159' title='32 topics' style='font-size: 11.5368421053pt;'>budget</a>
+<a href='http://www.cjscotland.co.uk/tag/cctv/' class='tag-link-319' title='27 topics' style='font-size: 10.5052631579pt;'>CCTV</a>
+<a href='http://www.cjscotland.co.uk/tag/childrens-hearings/' class='tag-link-134' title='19 topics' style='font-size: 8.29473684211pt;'>Children&#039;s hearings</a>
+<a href='http://www.cjscotland.co.uk/tag/community-service-orders/' class='tag-link-110' title='27 topics' style='font-size: 10.5052631579pt;'>community service orders</a>
+<a href='http://www.cjscotland.co.uk/tag/disclosure/' class='tag-link-167' title='22 topics' style='font-size: 9.17894736842pt;'>disclosure</a>
+<a href='http://www.cjscotland.co.uk/tag/domestic-abuse/' class='tag-link-154' title='60 topics' style='font-size: 15.5157894737pt;'>domestic abuse</a>
+<a href='http://www.cjscotland.co.uk/tag/drugs/' class='tag-link-168' title='118 topics' style='font-size: 19.7894736842pt;'>drugs</a>
+<a href='http://www.cjscotland.co.uk/tag/dundee/' class='tag-link-176' title='29 topics' style='font-size: 10.9473684211pt;'>Dundee</a>
+<a href='http://www.cjscotland.co.uk/tag/edinburgh/' class='tag-link-184' title='31 topics' style='font-size: 11.3894736842pt;'>Edinburgh</a>
+<a href='http://www.cjscotland.co.uk/tag/evidence-2/' class='tag-link-100' title='41 topics' style='font-size: 13.0105263158pt;'>evidence</a>
+<a href='http://www.cjscotland.co.uk/tag/fines-2/' class='tag-link-183' title='25 topics' style='font-size: 9.91578947368pt;'>fines</a>
+<a href='http://www.cjscotland.co.uk/tag/firearm/' class='tag-link-166' title='18 topics' style='font-size: 8pt;'>firearm</a>
+<a href='http://www.cjscotland.co.uk/tag/forensic/' class='tag-link-141' title='18 topics' style='font-size: 8pt;'>forensic</a>
+<a href='http://www.cjscotland.co.uk/tag/gangs/' class='tag-link-196' title='35 topics' style='font-size: 12.1263157895pt;'>gangs</a>
+<a href='http://www.cjscotland.co.uk/tag/glasgow/' class='tag-link-93' title='76 topics' style='font-size: 16.9894736842pt;'>Glasgow</a>
+<a href='http://www.cjscotland.co.uk/tag/homicide/' class='tag-link-148' title='40 topics' style='font-size: 12.8631578947pt;'>homicide</a>
+<a href='http://www.cjscotland.co.uk/tag/housing/' class='tag-link-140' title='25 topics' style='font-size: 9.91578947368pt;'>housing</a>
+<a href='http://www.cjscotland.co.uk/tag/knife/' class='tag-link-155' title='67 topics' style='font-size: 16.1052631579pt;'>knife</a>
+<a href='http://www.cjscotland.co.uk/tag/legal-aid/' class='tag-link-135' title='29 topics' style='font-size: 10.9473684211pt;'>legal aid</a>
+<a href='http://www.cjscotland.co.uk/tag/lockerbie/' class='tag-link-230' title='24 topics' style='font-size: 9.76842105263pt;'>Lockerbie</a>
+<a href='http://www.cjscotland.co.uk/tag/megrahi/' class='tag-link-139' title='53 topics' style='font-size: 14.6315789474pt;'>Megrahi</a>
+<a href='http://www.cjscotland.co.uk/tag/organised-crime/' class='tag-link-321' title='32 topics' style='font-size: 11.5368421053pt;'>organised crime</a>
+<a href='http://www.cjscotland.co.uk/tag/police-2/' class='tag-link-114' title='168 topics' style='font-size: 22pt;'>police</a>
+<a href='http://www.cjscotland.co.uk/tag/police-restructuring/' class='tag-link-116' title='28 topics' style='font-size: 10.6526315789pt;'>police restructuring</a>
+<a href='http://www.cjscotland.co.uk/tag/prison/' class='tag-link-195' title='20 topics' style='font-size: 8.58947368421pt;'>prison</a>
+<a href='http://www.cjscotland.co.uk/tag/prisoners/' class='tag-link-243' title='44 topics' style='font-size: 13.4526315789pt;'>prisoners</a>
+<a href='http://www.cjscotland.co.uk/tag/prisons-2/' class='tag-link-175' title='89 topics' style='font-size: 17.8736842105pt;'>prisons</a>
+<a href='http://www.cjscotland.co.uk/tag/prosecution/' class='tag-link-163' title='68 topics' style='font-size: 16.2526315789pt;'>prosecution</a>
+<a href='http://www.cjscotland.co.uk/tag/racism/' class='tag-link-188' title='41 topics' style='font-size: 13.0105263158pt;'>racism</a>
+<a href='http://www.cjscotland.co.uk/tag/re-offending/' class='tag-link-157' title='44 topics' style='font-size: 13.4526315789pt;'>re-offending</a>
+<a href='http://www.cjscotland.co.uk/tag/research/' class='tag-link-129' title='118 topics' style='font-size: 19.7894736842pt;'>research</a>
+<a href='http://www.cjscotland.co.uk/tag/sectarianism/' class='tag-link-137' title='41 topics' style='font-size: 13.0105263158pt;'>sectarianism</a>
+<a href='http://www.cjscotland.co.uk/tag/sentencing-2/' class='tag-link-131' title='56 topics' style='font-size: 15.0736842105pt;'>sentencing</a>
+<a href='http://www.cjscotland.co.uk/tag/sexual-offender/' class='tag-link-145' title='71 topics' style='font-size: 16.5473684211pt;'>sexual offender</a>
+<a href='http://www.cjscotland.co.uk/tag/social-networking/' class='tag-link-158' title='18 topics' style='font-size: 8pt;'>social networking</a>
+<a href='http://www.cjscotland.co.uk/tag/statistics/' class='tag-link-147' title='147 topics' style='font-size: 21.1157894737pt;'>statistics</a>
+<a href='http://www.cjscotland.co.uk/tag/surveillance/' class='tag-link-161' title='80 topics' style='font-size: 17.2842105263pt;'>surveillance</a>
+<a href='http://www.cjscotland.co.uk/tag/terrorism/' class='tag-link-191' title='43 topics' style='font-size: 13.3052631579pt;'>terrorism</a>
+<a href='http://www.cjscotland.co.uk/tag/victims/' class='tag-link-133' title='34 topics' style='font-size: 11.8315789474pt;'>victims</a>
+<a href='http://www.cjscotland.co.uk/tag/violence/' class='tag-link-153' title='132 topics' style='font-size: 20.3789473684pt;'>violence</a>
+<a href='http://www.cjscotland.co.uk/tag/wildlife/' class='tag-link-152' title='32 topics' style='font-size: 11.5368421053pt;'>wildlife</a></div>
+</li>	</ul>
+					<ul class="thin-sidebar">		<li id="archives-3" class="widget widget_archive"><h2 class="widgettitle">Archives</h2>		<label class="screen-reader-text" for="archives-dropdown-3">Archives</label>
+		<select id="archives-dropdown-3" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+			
+			<option value="">Select Month</option>
+				<option value='http://www.cjscotland.co.uk/2015/09/'> September 2015 </option>
+	<option value='http://www.cjscotland.co.uk/2015/02/'> February 2015 </option>
+	<option value='http://www.cjscotland.co.uk/2014/12/'> December 2014 </option>
+	<option value='http://www.cjscotland.co.uk/2014/10/'> October 2014 </option>
+	<option value='http://www.cjscotland.co.uk/2014/09/'> September 2014 </option>
+	<option value='http://www.cjscotland.co.uk/2014/08/'> August 2014 </option>
+	<option value='http://www.cjscotland.co.uk/2014/07/'> July 2014 </option>
+	<option value='http://www.cjscotland.co.uk/2014/06/'> June 2014 </option>
+	<option value='http://www.cjscotland.co.uk/2014/05/'> May 2014 </option>
+	<option value='http://www.cjscotland.co.uk/2014/04/'> April 2014 </option>
+	<option value='http://www.cjscotland.co.uk/2014/03/'> March 2014 </option>
+	<option value='http://www.cjscotland.co.uk/2014/02/'> February 2014 </option>
+	<option value='http://www.cjscotland.co.uk/2014/01/'> January 2014 </option>
+	<option value='http://www.cjscotland.co.uk/2013/12/'> December 2013 </option>
+	<option value='http://www.cjscotland.co.uk/2013/11/'> November 2013 </option>
+	<option value='http://www.cjscotland.co.uk/2013/10/'> October 2013 </option>
+	<option value='http://www.cjscotland.co.uk/2013/09/'> September 2013 </option>
+	<option value='http://www.cjscotland.co.uk/2013/08/'> August 2013 </option>
+	<option value='http://www.cjscotland.co.uk/2013/07/'> July 2013 </option>
+	<option value='http://www.cjscotland.co.uk/2013/06/'> June 2013 </option>
+	<option value='http://www.cjscotland.co.uk/2013/05/'> May 2013 </option>
+	<option value='http://www.cjscotland.co.uk/2013/04/'> April 2013 </option>
+	<option value='http://www.cjscotland.co.uk/2013/03/'> March 2013 </option>
+	<option value='http://www.cjscotland.co.uk/2013/02/'> February 2013 </option>
+	<option value='http://www.cjscotland.co.uk/2013/01/'> January 2013 </option>
+	<option value='http://www.cjscotland.co.uk/2012/12/'> December 2012 </option>
+	<option value='http://www.cjscotland.co.uk/2012/11/'> November 2012 </option>
+	<option value='http://www.cjscotland.co.uk/2012/10/'> October 2012 </option>
+	<option value='http://www.cjscotland.co.uk/2012/09/'> September 2012 </option>
+	<option value='http://www.cjscotland.co.uk/2012/08/'> August 2012 </option>
+	<option value='http://www.cjscotland.co.uk/2012/07/'> July 2012 </option>
+	<option value='http://www.cjscotland.co.uk/2012/06/'> June 2012 </option>
+	<option value='http://www.cjscotland.co.uk/2012/05/'> May 2012 </option>
+	<option value='http://www.cjscotland.co.uk/2012/04/'> April 2012 </option>
+	<option value='http://www.cjscotland.co.uk/2012/03/'> March 2012 </option>
+	<option value='http://www.cjscotland.co.uk/2012/02/'> February 2012 </option>
+	<option value='http://www.cjscotland.co.uk/2012/01/'> January 2012 </option>
+	<option value='http://www.cjscotland.co.uk/2011/12/'> December 2011 </option>
+	<option value='http://www.cjscotland.co.uk/2011/11/'> November 2011 </option>
+	<option value='http://www.cjscotland.co.uk/2011/10/'> October 2011 </option>
+	<option value='http://www.cjscotland.co.uk/2011/09/'> September 2011 </option>
+	<option value='http://www.cjscotland.co.uk/2011/08/'> August 2011 </option>
+	<option value='http://www.cjscotland.co.uk/2011/07/'> July 2011 </option>
+	<option value='http://www.cjscotland.co.uk/2011/06/'> June 2011 </option>
+	<option value='http://www.cjscotland.co.uk/2011/05/'> May 2011 </option>
+	<option value='http://www.cjscotland.co.uk/2011/04/'> April 2011 </option>
+	<option value='http://www.cjscotland.co.uk/2011/03/'> March 2011 </option>
+	<option value='http://www.cjscotland.co.uk/2011/02/'> February 2011 </option>
+	<option value='http://www.cjscotland.co.uk/2011/01/'> January 2011 </option>
+	<option value='http://www.cjscotland.co.uk/2010/12/'> December 2010 </option>
+	<option value='http://www.cjscotland.co.uk/2010/11/'> November 2010 </option>
+	<option value='http://www.cjscotland.co.uk/2010/10/'> October 2010 </option>
+	<option value='http://www.cjscotland.co.uk/2010/09/'> September 2010 </option>
+	<option value='http://www.cjscotland.co.uk/2010/08/'> August 2010 </option>
+	<option value='http://www.cjscotland.co.uk/2010/07/'> July 2010 </option>
+	<option value='http://www.cjscotland.co.uk/2010/06/'> June 2010 </option>
+	<option value='http://www.cjscotland.co.uk/2010/05/'> May 2010 </option>
+	<option value='http://www.cjscotland.co.uk/2010/04/'> April 2010 </option>
+	<option value='http://www.cjscotland.co.uk/2010/03/'> March 2010 </option>
+	<option value='http://www.cjscotland.co.uk/2010/02/'> February 2010 </option>
+	<option value='http://www.cjscotland.co.uk/2010/01/'> January 2010 </option>
+	<option value='http://www.cjscotland.co.uk/2009/12/'> December 2009 </option>
+	<option value='http://www.cjscotland.co.uk/2009/11/'> November 2009 </option>
+	<option value='http://www.cjscotland.co.uk/2009/10/'> October 2009 </option>
+	<option value='http://www.cjscotland.co.uk/2009/09/'> September 2009 </option>
+	<option value='http://www.cjscotland.co.uk/2009/08/'> August 2009 </option>
+	<option value='http://www.cjscotland.co.uk/2009/07/'> July 2009 </option>
+	<option value='http://www.cjscotland.co.uk/2009/06/'> June 2009 </option>
+	<option value='http://www.cjscotland.co.uk/2009/05/'> May 2009 </option>
+	<option value='http://www.cjscotland.co.uk/2009/04/'> April 2009 </option>
+	<option value='http://www.cjscotland.co.uk/2009/03/'> March 2009 </option>
+	<option value='http://www.cjscotland.co.uk/2009/02/'> February 2009 </option>
+	<option value='http://www.cjscotland.co.uk/2009/01/'> January 2009 </option>
+	<option value='http://www.cjscotland.co.uk/2008/12/'> December 2008 </option>
+	<option value='http://www.cjscotland.co.uk/2008/11/'> November 2008 </option>
+	<option value='http://www.cjscotland.co.uk/2008/10/'> October 2008 </option>
+	<option value='http://www.cjscotland.co.uk/2008/09/'> September 2008 </option>
+	<option value='http://www.cjscotland.co.uk/2008/08/'> August 2008 </option>
+	<option value='http://www.cjscotland.co.uk/2008/07/'> July 2008 </option>
+	<option value='http://www.cjscotland.co.uk/2008/06/'> June 2008 </option>
+	<option value='http://www.cjscotland.co.uk/2008/05/'> May 2008 </option>
+	<option value='http://www.cjscotland.co.uk/2008/04/'> April 2008 </option>
+	<option value='http://www.cjscotland.co.uk/2008/03/'> March 2008 </option>
+	<option value='http://www.cjscotland.co.uk/2008/02/'> February 2008 </option>
+	<option value='http://www.cjscotland.co.uk/2008/01/'> January 2008 </option>
+	<option value='http://www.cjscotland.co.uk/2007/12/'> December 2007 </option>
+	<option value='http://www.cjscotland.co.uk/2007/11/'> November 2007 </option>
+	<option value='http://www.cjscotland.co.uk/2007/10/'> October 2007 </option>
+	<option value='http://www.cjscotland.co.uk/2007/09/'> September 2007 </option>
+	<option value='http://www.cjscotland.co.uk/2007/08/'> August 2007 </option>
+	<option value='http://www.cjscotland.co.uk/2007/07/'> July 2007 </option>
+	<option value='http://www.cjscotland.co.uk/2007/06/'> June 2007 </option>
+	<option value='http://www.cjscotland.co.uk/2007/05/'> May 2007 </option>
+	<option value='http://www.cjscotland.co.uk/2007/04/'> April 2007 </option>
+	<option value='http://www.cjscotland.co.uk/2007/03/'> March 2007 </option>
+	<option value='http://www.cjscotland.co.uk/2007/02/'> February 2007 </option>
+	<option value='http://www.cjscotland.co.uk/2007/01/'> January 2007 </option>
+	<option value='http://www.cjscotland.co.uk/2006/12/'> December 2006 </option>
+	<option value='http://www.cjscotland.co.uk/2006/11/'> November 2006 </option>
+	<option value='http://www.cjscotland.co.uk/2006/10/'> October 2006 </option>
+	<option value='http://www.cjscotland.co.uk/2006/09/'> September 2006 </option>
+	<option value='http://www.cjscotland.co.uk/2006/08/'> August 2006 </option>
+	<option value='http://www.cjscotland.co.uk/2005/10/'> October 2005 </option>
+	<option value='http://www.cjscotland.co.uk/2004/10/'> October 2004 </option>
+	<option value='http://www.cjscotland.co.uk/2003/11/'> November 2003 </option>
+
+		</select>
+</li><li id="text-7" class="widget widget_text">			<div class="textwidget"></div>
+		</li>	</ul></div><!--end sidebar-->	<div id="footer">
+		<p class="right">Copyright 2016  </p>
+		<p><a href="http://thethemefoundry.com/vigilance/">Vigilance Theme</a> by <a href="http://thethemefoundry.com">The Theme Foundry</a> | Maintained by:<a href="http://www.contactonlineltd.co.uk">Contact</a></p>
+	</div><!--end footer-->
+</div><!--end wrapper-->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/www.cjscotland.co.uk\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.cjscotland.co.uk/wp-content/plugins/wp-polls/polls-js.js?ver=2.68'></script>
+</body>
+</html>

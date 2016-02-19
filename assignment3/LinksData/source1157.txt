@@ -1,0 +1,2744 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ธัญวลัย | นิยาย นวนิยาย นิยายออนไลน์ เขียนนิยายออนไลน์</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://cdn-tunwalai.obapi.io/files/responsive/favicon.ico" />
+
+    <meta http-equiv="Content-Language" content="th" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.tunwalai.com/story/80221/sex-its-not-over?page=1" />
+    <meta property="og:title" content="SEX it&#39;s not over" />
+    <meta property="og:image" content="http://cdn-tunwalai.obapi.io/files/story/80221/635904520922390540-story.jpg" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"90725dcc51","applicationID":"16233277","transactionName":"YldaMUQDWkIDVkMKX1sddTN1TWdFDUdOIF9bRkoKWg5RQ01xUhdRXF5L","queueTime":0,"applicationTime":477,"ttGuid":"D251B47BE50CE24C","agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function c(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),c=a.length,u=0;c>u;u++)a[u].apply(i,r);return i}function u(t,e){p[t]=f(t).concat(e)}function f(t){return p[t]||[]}function s(){return r(c)}var p={};return{on:u,emit:c,create:s,listeners:f,context:e,_events:p}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!v++){var t=l.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(p,function(e,n){t[e]||(t[e]=n)});var n="https"===s.split(":")[0]||t.sslForHttp;l.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=l.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),c=t(1),u=window,f=u.document;t(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),l=e.exports={offset:i(),origin:s,features:{},xhrWrappable:d};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],12:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],13:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}]},{},["G9z0Bl"]);</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css" rel="stylesheet" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.css" rel="stylesheet" />
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="//cdn.tunwalai.com/bundles/css?v=KI3L-RUwWU9BB1Wr27GXKXjLN20PD4t9jyqUYSdXRBU1" rel="stylesheet"/>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment-with-locales.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.1/highcharts.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.2/jquery.flexslider-min.js"></script>
+<script src="//cdn.tunwalai.com/bundles/javascript?v=SmhZxj0yLjzSflw-H9hhxGn5j27OxOXBvhhlZfOpOTE1"></script>
+
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments);
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-2006083-12', 'auto', {} );
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '188592658144601');
+fbq('track', "PageView");</script>
+<noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=188592658144601&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function () {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+    googletag.cmd.push(function () {
+        googletag.pubads().collapseEmptyDivs();
+    });
+</script>
+
+<!-- Calling for ads script -->
+<script src="https://js.mtburn.com/advs-instream.js"></script>
+<script>MTBADVS.InStream.Default.run()</script>
+
+<!-- Google adsence -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+    
+
+    <style>
+        .paywall-button {
+            background: url('http://cdn-tunwalai.obapi.io/files/responsive/tunwalai-20.png');
+            background-size: contain;
+            background-color: #544320;
+            border-radius: 0;
+            border: 0;
+            font-size: 17px;
+            padding: 0 15px;
+            height: 39px;
+            line-height: 41px;
+            color: #fff;
+            text-align: center;
+            display: block;
+        }
+
+            .paywall-button:hover {
+                text-decoration: none;
+                color: #FFF;
+            }
+
+            .paywall-button .fa {
+                float: left;
+                margin: 11px 5px;
+            }
+
+        .font-default {
+            font-size: 18px;
+            line-height: 41px;
+        }
+
+        #paywall-dialog {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    </style>
+
+    
+
+
+</head>
+<body>
+
+    <div id="wrap-shadow" class="container">
+
+        <!-- menu -->
+        <div id="main-stats" style="display:none;">
+    <script type="text/javascript" language="javascript1.1" src="http://tracker.stats.in.th/tracker.php?sid=59840"></script>
+    <noscript><a href="http://www.stats.in.th/">www.Stats.in.th</a></noscript>
+
+    <script type="text/javascript" src="http://hits.truehits.in.th/data/t0031274.js"></script>
+    <noscript>
+        <a href="http://truehits.net/stat.php?id=t0031274"> <img src="http://hits.truehits.in.th/noscript.php?id=t0031274" alt="Thailand Web Stat" border="0" width="14" height="17" /></a>
+        <a href="http://truehits.net/">Truehits.net</a>
+    </noscript>
+</div>
+
+
+<div id="main-head" class="row">
+
+    <div class="col-xs-12">
+
+        <div id="logo" class="col-md-3 hidden-sm hidden-xs">
+            <a href="/" title="ธัญวลัย"><img src="http://cdn-tunwalai.obapi.io/files/responsive/logo_valentine2016.png" /></a>
+        </div>
+
+        <div id="logo" class="col-xs-12 hidden-md hidden-lg clearfix text-center">
+            <a href="/" title="ธัญวลัย"><img src="http://cdn-tunwalai.obapi.io/files/responsive/logo_valentine2016.png" /></a>
+        </div>
+
+        <ul id="main-head-menu" class="menu-mobile visible-xs">
+
+            <li style="display:block;">
+
+                <a href="#" style="display:block;text-align:right;">Menu </a>
+
+                <ul id="main-head-menu" class="nav nav-pills nav-justified" style="display:none;margin-top:-30px;">
+
+                        <li><a title="หน้าแรก" href="/"><i class="fa fa-home"></i> หน้าแรก</a></li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#" title="หมวดหมู่นิยาย">
+                                <i class="fa fa-bars"></i> หมวดหมู่นิยาย <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="/categories/search/1/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%A2%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99" title="นิยาย รักวัยรุ่น">นิยาย รักวัยรุ่น</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/2/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%82%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%84" title="นิยาย รัก,โรแมนติค">นิยาย รัก,โรแมนติค</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/3/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%95%E0%B8%A5%E0%B8%81%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%A1%E0%B8%94%E0%B8%B5%E0%B9%89" title="นิยาย ตลก,คอมเมดี้">นิยาย ตลก,คอมเมดี้</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/4/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B9%81%E0%B8%AD%E0%B9%87%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%9A%E0%B8%B9%E0%B9%8A%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%9C%E0%B8%A5%E0%B8%B2%E0%B8%8D" title="นิยาย แอ็คชั่น,บู๊ล้างผลาญ">นิยาย แอ็คชั่น,บู๊ล้างผลาญ</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/5/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%AA%E0%B8%A2%E0%B8%AD%E0%B8%87%E0%B8%82%E0%B8%A7%E0%B8%B1%E0%B8%8D%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%97" title="นิยาย สยองขวัญ,สั่นประสาท">นิยาย สยองขวัญ,สั่นประสาท</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/6/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%A5%E0%B8%B6%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%B7%E0%B8%9A%E0%B8%AA%E0%B8%A7%E0%B8%99-%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%AA%E0%B8%A7%E0%B8%99" title="นิยาย ลึกลับ,สืบสวน สอบสวน">นิยาย ลึกลับ,สืบสวน สอบสวน</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/7/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%AD%E0%B8%B5%E0%B9%82%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%81-18" title="นิยาย อีโรติก 18+">นิยาย อีโรติก 18+</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/9/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B9%81%E0%B8%9F%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%8B%E0%B8%B5" title="นิยาย แฟนตาซี">นิยาย แฟนตาซี</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/10/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-y" title="นิยาย y">นิยาย y</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/11/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B9%88%E0%B8%B2" title="นิยาย ชีวิต/ดราม่า">นิยาย ชีวิต/ดราม่า</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/12/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99" title="นิยาย เรื่องสั้น">นิยาย เรื่องสั้น</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/20/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%97%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%84%E0%B8%9B" title="นิยาย ทั่วไป">นิยาย ทั่วไป</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/21/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B9%81%E0%B8%9F%E0%B8%99%E0%B8%9F%E0%B8%B4%E0%B8%84" title="นิยาย แฟนฟิค">นิยาย แฟนฟิค</a>
+                                    </li>
+                                    <li>
+                                        <a href="/categories/search/0/%E0%B8%97%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%94" title="ทั้งหมด">ทั้งหมด</a>
+                                    </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#" title="คู่มือธัญวลัย">
+                                <i class="fa fa-book"></i> คู่มือธัญวลัย <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="/blog/88" title="ธัญวลัยคือ?">ธัญวลัยคือ?</a>
+                                    <a href="/blog/57" title="ไกด์ไลน์การลงผลงาน">ไกด์ไลน์การลงผลงาน </a>
+                                    <a href="/blog/28" title="วิธีลงนิยาย">วิธีลงนิยาย</a>
+                                    <a href="/blog/55" title="วิธีสมัครสมาชิก">วิธีสมัครสมาชิก</a>
+                                    <a href="/blog/81" title="ระบบสนับสนุนคือ?">ระบบสนับสนุนคือ?</a>
+                                    <a href="/blog/82" title="วิธีการใช้งานระบบสนับสนุน">วิธีการใช้งานระบบสนับสนุน</a>
+                                    <a href="/blog/56" title="เติมเหรียญยังไง?">เติมเหรียญยังไง?</a>
+                                    <a href="/blog/54" title="วิธีใส่เพจ Facebook">วิธีใส่เพจ Facebook</a>
+                                    <a href="/contact" title="ติดต่อเรา">ติดต่อเรา</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="http://www.tunwalai.com/story/80221/sex-its-not-over?page=1" class="rs-link visible-xs">
+                                <i class="fa fa-refresh"></i> ดูในรูปแบบคอมพิวเตอร์
+                            </a>
+                        </li>
+
+                </ul>
+
+            </li>
+
+        </ul>
+
+        <ul id="main-head-menu" class="nav nav-pills nav-justified hidden-xs">
+
+                <li><a title="หน้าแรก" href="/"><i class="fa fa-home"></i> หน้าแรก</a></li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#" title="หมวดหมู่นิยาย">
+                        <i class="fa fa-bars"></i> หมวดหมู่นิยาย <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="/categories/search/1/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%A2%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99" title="นิยาย รักวัยรุ่น">นิยาย รักวัยรุ่น</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/2/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%82%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%84" title="นิยาย รัก,โรแมนติค">นิยาย รัก,โรแมนติค</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/3/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%95%E0%B8%A5%E0%B8%81%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%A1%E0%B8%94%E0%B8%B5%E0%B9%89" title="นิยาย ตลก,คอมเมดี้">นิยาย ตลก,คอมเมดี้</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/4/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B9%81%E0%B8%AD%E0%B9%87%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%9A%E0%B8%B9%E0%B9%8A%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%9C%E0%B8%A5%E0%B8%B2%E0%B8%8D" title="นิยาย แอ็คชั่น,บู๊ล้างผลาญ">นิยาย แอ็คชั่น,บู๊ล้างผลาญ</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/5/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%AA%E0%B8%A2%E0%B8%AD%E0%B8%87%E0%B8%82%E0%B8%A7%E0%B8%B1%E0%B8%8D%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%97" title="นิยาย สยองขวัญ,สั่นประสาท">นิยาย สยองขวัญ,สั่นประสาท</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/6/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%A5%E0%B8%B6%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%B7%E0%B8%9A%E0%B8%AA%E0%B8%A7%E0%B8%99-%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%AA%E0%B8%A7%E0%B8%99" title="นิยาย ลึกลับ,สืบสวน สอบสวน">นิยาย ลึกลับ,สืบสวน สอบสวน</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/7/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%AD%E0%B8%B5%E0%B9%82%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%81-18" title="นิยาย อีโรติก 18+">นิยาย อีโรติก 18+</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/9/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B9%81%E0%B8%9F%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%8B%E0%B8%B5" title="นิยาย แฟนตาซี">นิยาย แฟนตาซี</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/10/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-y" title="นิยาย y">นิยาย y</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/11/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B9%88%E0%B8%B2" title="นิยาย ชีวิต/ดราม่า">นิยาย ชีวิต/ดราม่า</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/12/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99" title="นิยาย เรื่องสั้น">นิยาย เรื่องสั้น</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/20/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B8%97%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%84%E0%B8%9B" title="นิยาย ทั่วไป">นิยาย ทั่วไป</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/21/%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A2-%E0%B9%81%E0%B8%9F%E0%B8%99%E0%B8%9F%E0%B8%B4%E0%B8%84" title="นิยาย แฟนฟิค">นิยาย แฟนฟิค</a>
+                            </li>
+                            <li>
+                                <a href="/categories/search/0/%E0%B8%97%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%94" title="ทั้งหมด">ทั้งหมด</a>
+                            </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#" title="คู่มือธัญวลัย">
+                        <i class="fa fa-book"></i> คู่มือธัญวลัย <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li>
+                            <a href="/blog/88" title="ธัญวลัยคือ?">ธัญวลัยคือ?</a>
+                            <a href="/blog/57" title="ไกด์ไลน์การลงผลงาน">ไกด์ไลน์การลงผลงาน </a>
+                            <a href="/blog/28" title="วิธีลงนิยาย">วิธีลงนิยาย</a>
+                            <a href="/blog/55" title="วิธีสมัครสมาชิก">วิธีสมัครสมาชิก</a>
+                            <a href="/blog/81" title="ระบบสนับสนุนคือ?">ระบบสนับสนุนคือ?</a>
+                            <a href="/blog/82" title="วิธีการใช้งานระบบสนับสนุน">วิธีการใช้งานระบบสนับสนุน</a>
+                            <a href="/blog/56" title="เติมเหรียญยังไง?">เติมเหรียญยังไง?</a>
+                            <a href="/blog/54" title="วิธีใส่เพจ Facebook">วิธีใส่เพจ Facebook</a>
+                            <a href="/contact" title="ติดต่อเรา">ติดต่อเรา</a>
+                        </li>
+                    </ul>
+                </li>
+        </ul>
+
+    </div>
+
+</div>
+
+        <!-- /menu -->
+
+        <div class="row">
+            
+
+
+    <a href="#" class="main-login-button col-sm-5 col-xs-12 btn" data-toggle="modal"><i class="fa fa-user"></i> เข้าสู่ระบบ</a>
+
+<form action="/all/search" method="post">        <div id="main-search-form" class=" col-sm-7 col-xs-12">
+            <input type="text" name="keyword" id="main-search-input" class="form-control" placeholder="ชื่อนิยาย / ชื่อนักเขียน">
+            <button class="btn btn btn-sm" id="main-search-button" type="submit"><i class="fa fa-search fa-lg"></i></button>
+        </div>
+</form>
+        </div>
+
+        <div class="row" style="position: relative;">
+
+            <img src="http://cdn-tunwalai.obapi.io/files/read.jpg" style="max-width:100%;" alt="">
+
+                        <a href="/profile/321967/at_monkey" title="at_monkey">
+                            <img id="main-story-profile-img" src="http://cdn-tunwalai.obapi.io/files/profile/321967/635907020940973708-member.jpg" class="img-circle" alt="">
+                        </a>
+                        <a href="/profile/321967/at_monkey" title="at_monkey">
+                            <div id="main-story-profile-name">
+                                <h3>at_monkey</h3>
+                            </div>
+                        </a>
+        </div>
+        
+        <div class="row">
+            
+
+
+
+
+<div class="col-xs-12 clearfix" style="margin-top:20px;">
+    
+
+</div>
+
+<div id="main-story-bar" class="main-size_lg-width col-lg-9 col-xs-12">
+
+
+    <div id="main-story_left" class="col-sm-8 col-xs-12">
+
+        <div id="title" class="col-xs-12">
+            <div id="title-left">
+                <i class="fa fa-book"></i> SEX it&#39;s not over
+            </div>
+        </div>
+
+    </div>
+
+    <div id="main-story_right" class="col-sm-4 col-xs-12">
+        <!-- Trigger the modal with a button -->
+        <button title="ให้ดาวแก่นักเขียนคนนี้" type="button" class="donate btn btn-tunwalai btn-lg" data-toggle="modal" data-target="#myModal1" style="border-top:none;">
+            ให้ <img src="http://cdn-tunwalai.obapi.io/files/responsive/star_90x90.png" width="48" height="48" style="margin-top:-10px;"> แก่นักเขียนคนนี้
+        </button>
+    </div>
+
+</div>
+
+<div id="main-content" class="clearfix">
+    <div class="clearfix">
+
+        <div id="main-story-bar" class="main-story-width col-lg-9 col-md-12">
+            <div class="col-sm-8 col-xs-12">
+                <div id="main-story-content">
+                    <div id="story-content">
+
+                        <div class="col-sm-4 text-center hidden-xs">
+                            <img src="http://cdn-tunwalai.obapi.io/files/story/80221/635904520922390540-story.jpg" />
+
+                        </div>
+
+                        <div class="col-sm-8 col-xs-12">
+                            <p title="SEX it&#39;s not over"><strong>ชื่อเรื่อง :</strong> SEX it&#39;s not over</p>
+                            <p title="V x SUGA x JUNGKOOK   | 3P |" style="height:49px; overflow:hidden;"><strong>คำค้น :</strong> V x SUGA x JUNGKOOK   | 3P |</p>
+                            <p><strong>หมวดหมู่ :</strong> นิยาย y</p>
+                            <p><strong>จำนวนตอน :</strong> 1</p>
+                            <p><strong>คนเข้าชมเดือนนี้ :</strong> 985</p>
+                            <p><strong>คนเข้าชมทั้งหมด :</strong> 985</p>
+                            <p><strong>คะแนนถูกใจทั้งหมด :</strong> 21</p>
+                            <p><strong>คะแนนโหวตทั้งหมด :</strong> 95</p>
+                            <p><strong>ความคิดเห็น :</strong> 19</p>
+                            <p><strong>ปรับปรุงล่าสุด :</strong> 10 ก.พ. 2559 00:01 น.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                        <div id="follow" class="col-xs-12" style="border-right:none;">
+                            <a href="/story/likestory?storyId=80221" title="เริ่มติดตาม" class="col-xs-12">เริ่มติดตาม</a>
+                        </div>
+                </div>
+
+                <div class="clearfix hidden-xs" style="text-align:center;">
+                    <a id="facebook_share" title="facebook share" class="col-sm-4" onclick="callDialogFb()"><img width="57" height="57" alt="facebook button" src="http://cdn-tunwalai.obapi.io/files/social/facebook.png"></a>
+                    <a id="twitter_share" title="twitter share" class="col-sm-4" href="//twitter.com/share?url=http://www.tunwalai.com/story/80221/sex-its-not-over?page=1&text=SEX it&#39;s not over by at_monkey" target="_blank"><img width="57" height="57" alt="twitter button" src="http://cdn-tunwalai.obapi.io/files/social/twitter.png"></a>
+                    <a id="google_share" title="google share" class="col-sm-4" href="//plus.google.com/share?url=http://www.tunwalai.com/story/80221/sex-its-not-over?page=1" target="_blank"><img width="57" height="57" alt="google button" src="http://cdn-tunwalai.obapi.io/files/social/google.png"></a>
+                </div>
+
+
+            </div>
+
+            <div class="col-sm-4 col-xs-12">
+                <div class="story-title-bar clearfix">
+                    <h3>
+                        ยอดสนับสนุนเรื่อง
+                    </h3>
+                </div>
+                <div id="main-story-like">
+                    <h2 style="color:#ffa826; font-weight:bold; margin:0; padding:10px 25px;">
+                        <span><img src="http://cdn-tunwalai.obapi.io/files/responsive/star_90x90.png" width="40" height="40"> &times; 0</span><br />
+                        <span><img src="http://cdn-tunwalai.obapi.io/files/responsive/key_90x90.png" width="40" height="40"> &times; 0</span><br />
+                        <span><img src="http://cdn-tunwalai.obapi.io/files/responsive/coin_90x90.png" class="icon-coin" width="40" height="40" /> &times; 0</span><br />
+                    </h2>
+                </div>
+
+                <div class="story-title-bar clearfix">
+                    <h3>
+                        คะแนนถูกใจ
+                    </h3>
+                </div>
+
+                <div id="main-story-like" class="col-xs-12">
+                    <h1 id="story-like-content">21 <i class="fa fa-hand-o-right"></i></h1>
+                </div>
+                <div id="story-like-button" class="col-xs-12">
+                    <a href="/like?itemId=80221&amp;memId=0" title="กดถูกใจนิยายเรื่องนี้">
+                        <h3>กดถูกใจนิยายเรื่องนี้</h3>
+                    </a>
+                </div>
+
+                <div id="main-story-vote-bar" class="col-xs-12">
+                    95 คะแนน 19 โหวต
+                </div>
+
+<form action="/story/80221?memId=0" id="advance-vote-form" method="post">                    <div id="main-story-vote" class="col-xs-12">
+                        <input name="score" id="score-five" type="radio" value="5" />
+                        <label for="score-five" class="col-xs-12" id="story-vote_button">
+                            <i class="fa fa-check-square"></i>
+                            <i class="fa fa-square"></i>
+                            5 คะแนน
+                        </label>
+
+                        <input name="score" id="score-four" type="radio" value="4" />
+                        <label for="score-four" class="col-xs-12" id="story-vote_button">
+                            <i class="fa fa-check-square"></i>
+                            <i class="fa fa-square"></i>
+                            4 คะแนน
+                        </label>
+
+                        <input name="score" id="score-three" type="radio" value="3" />
+                        <label for="score-three" class="col-xs-12" id="story-vote_button">
+                            <i class="fa fa-check-square"></i>
+                            <i class="fa fa-square"></i>
+                            3 คะแนน
+                        </label>
+
+                        <input name="score" id="score-two" type="radio" value="2" />
+                        <label for="score-two" class="col-xs-12" id="story-vote_button">
+                            <i class="fa fa-check-square"></i>
+                            <i class="fa fa-square"></i>
+                            2 คะแนน
+                        </label>
+
+                        <input name="score" id="score-one" type="radio" value="1" />
+                        <label for="score-one" class="col-xs-12" id="story-vote_button">
+                            <i class="fa fa-check-square"></i>
+                            <i class="fa fa-square"></i>
+                            1 คะแนน
+                        </label>
+
+                    </div>
+                    <div class="clearfix">
+                        <input type="submit" value="ให้คะแนน" id="story-vote-button" title="ให้คะแนน" />
+                    </div>
+</form>            </div>
+        </div>
+
+        <div class="social_share">
+            <div class="visible-xs">
+                <a style="background-color:#4a6ea8; height: 61px; padding: 10px 0;" class="col-xs-3" onclick="callDialogFb()"><img alt="facebook button" src="http://cdn-tunwalai.obapi.io/files/social/m-facebook1.png" style="width:27px !important;"></a>
+                <a style="background-color:#29bb0f; height: 61px; padding: 10px 0;" class="col-xs-3" href="line://msg/text/http://www.tunwalai.com/story/80221/sex-its-not-over?page=1"><img alt="line button" src="http://cdn-tunwalai.obapi.io/files/social/m-line1.png"></a>
+                <a style="background-color:#19bfe5; height: 61px; padding: 10px 0;" class="col-xs-3" href="//twitter.com/share?url=http://www.tunwalai.com/story/80221/sex-its-not-over?page=1&text=SEX it&#39;s not over by at_monkey" target="_blank"><img alt="twitter button" src="http://cdn-tunwalai.obapi.io/files/social/m-twitter1.png"></a>
+                <a style="background-color:#da4835; height: 61px; padding: 10px 0;" class="col-xs-3" href="//plus.google.com/share?url=http://www.tunwalai.com/story/80221/sex-its-not-over?page=1" target="_blank"><img alt="goo button" src="http://cdn-tunwalai.obapi.io/files/social/m-google1.png"></a>
+            </div>
+        </div>
+
+        <div id="share_link" style="display:none;">
+            แบ่งปัน <i class="fa fa-share-alt"></i>
+        </div>
+
+        <div class="clearfix">
+            
+
+        </div>
+
+        <div id="main-story-detail-width" class="col-lg-9 col-xs-12" style="margin-bottom: 20px; margin-top: 15px;">
+
+            <div class="story-title-bar clearfix">
+                <h3>
+                    บทนำ
+                </h3>
+            </div>
+            <div id="main-story-detail" class="col-xs-12">
+                <div id="story-detail">
+                    <p><span style="font-family: 'comic sans ms', sans-serif;"><strong><span style="font-size: 24px;">-</span></strong></span><strong style="font-family: 'comic sans ms', sans-serif; font-size: 24px;">SHORT FICTION</strong><strong style="font-family: 'comic sans ms', sans-serif;"><span style="font-size: 24px;">-</span></strong></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif;"><strong><span style="font-size: 24px;">SEX it's not over</span></strong></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><strong><span style="font-family: 'comic sans ms', sans-serif;"><span style="font-size: 16px;">V x SUGA x JUNGKOOK   | 3P |<img src="http://cdn-tunwalai.obapi.io/files/member/321967/1844561324-member.jpg" alt="#" /></span></span></strong></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">เราอาจจะมีสายเลือดร่วมกัน </span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">แต่ก็ไม่ได้แปลว่าแก่นกายของฉัน จะเข้ากับช่องทางของนายไม่ได้นะจองกุก"</span></p>
+<p class="MsoNormal"><strong><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;"> -<span style="line-height: 115%;" lang="TH">คิม แทฮยอง-</span></span></strong></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> <img src="http://cdn-tunwalai.obapi.io/files/member/321967/1754633627-member.jpg" alt="#" /></p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;"> </span></p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">เซ็กส์ของพวกนาย จะมันส์กันแค่สองคนงั้นหรอ"</span></span></p>
+<p class="MsoNormal"><strong><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">-<span style="line-height: 115%;" lang="TH">มิน ยุนกิ-</span></span></strong></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> <img src="http://cdn-tunwalai.obapi.io/files/member/321967/858318148-member.jpg" alt="#" /></p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;"> </span></p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">พวกมึงมันบ้า"</span></span></p>
+<p class="MsoNormal"><strong><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">-<span style="line-height: 115%;" lang="TH">จอนจองกุก-</span></span></strong></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างสูงประกบริมฝีปากบางแน่น </span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">จิกกัดริมฝีปากล่างของร่างขาวจนเลือดออก</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างสูงลากลิ้นร้อนเข้าไปในปาก ชิมรสหวานของน้ำกามของตน </span><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px; line-height: 115%;">ซึ่งก่อนหน้านี้ได้ปลดปล่อยในปากของร่างขาวแล้ว</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;"> </span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">อื้มมม..."</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างขาวผละริมฝีปากออกจากร่างสูงทันที่</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">เมื่อได้ยินเสียงเคาะประตูจากด้านนอกดังขึ้น</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ก๊อกๆๆ </span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">วีฮยองครับ</span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ผมขอเข้าไปเอาจอยเกมได้มั้ยอ่ะ</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ผมลืมไว้ที่ห้องฮยอง"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">เอาไงต่อ"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างขาวเอ่ยถามร่างสูงที่อยู่ด้านบน</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ทั้งสองกำลังร่วมรักกันแต่ยังไม่สำเร็จ ก็ดันมีเด็กน้อยมาขัดจังหวะเสียก่อน</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">เอาต่อดิ ปล่อยมัน"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างสูงเอ่ยบอกร่างขาวที่นอนอยู่ด้านล่างพร้อมกับหยิบขวดเจลและเทใส่มือปาดเข้าโพรงหลัง</span><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px; line-height: 115%;">พร้อมสอดแก่นกายเข้าร่างขาวอย่างจัง</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">" <span style="line-height: 115%;" lang="TH">อ๊ะ!! " ร่างขาวครางออกมาเล็กน้อย</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">วีฮยองครับบบ</span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ได้ยินอยู่รึเปล่าาาา" </span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">อ่าาาส์ ยังแน่นเหมือนเดิมเลยนะยุนกิอ่า"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">อืม"</span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างขาวออกเสียงในลำคอพร้อมกระตุกยิ้มพอใจ</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">ฮยองงงงงง วีฮยองงง เปิดหน่อยดิเฮ้ย"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">เสียงเตียงที่ดังสนั่นด้วยแรงกระแทกจากร่างสูง</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ทำให้ทั้งสองไม่ได้สนใจเด็กน้อยที่อยู่ด้านนอกเลย</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">อ่าาาาาาส..........อืมมม"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">อ๊ะ....อื้ออ"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;"><span style="line-height: 115%;" lang="TH">ร่างสูงกระแทกเน้น</span>2-3<span style="line-height: 115%;" lang="TH">ทีพร้อมปลดปล่อยออกมาเต็มช่องทางของร่างขาว ร่างขาวก็ปลดปล่อยออกมาพร้อมกัน</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ตุ๊บๆๆ!!</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">ไอ้วี</span></span></p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;"><span style="line-height: 115%;" lang="TH">กูน้องมึงนะ เปิดประตูสิว่ะ กูจะเล่นเกม"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">เอากับเมียอยู่</span></span></p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;"><span style="line-height: 115%;" lang="TH">หรือมึงอยากจะเอาด้วยกันสามคน หืม!</span>?"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างสูงผูกผ้าเช็ดตัวท่อนล่างแล้วเดินไปเปิดประตูรับจองกุก</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">เออ เอากันก็ไม่บอก </span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ให้รอนาน"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">จองกุกเดินเข้าไปในห้องของวี เพื่อไปเอาจอยเกมของตน แต่ก็กลับพบร่างขาวที่นอนเปลือยอยู่</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">มีเพียงผ้าห่มปิดช่วงล่างไว้เท่านั้น</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">มองเมียกูทำไม เ-ี่ยนหรอ ถ้าอยากมาก ก็ลองกับกูก่อนดีมั้ยล่ะ ฮ่าๆๆ"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">มึงนี่มัน......กูน้องมึงนะ"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">แล้วไงว่ะ  </span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ถึงเราจะมีสายเลือดร่วมกัน ก็ไม่ได้แปลว่าจ่อนของกูกับช่องทางมึงจะเข้ากันไม่ได้นะ"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"......" </span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างขาวเดินมาหยิบผ้าเช็ดตัวเพื่อคาดเอว</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">เขาเดินไปหาร่างสูงและสวมกอดจากด้านหลัง</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">มือบางทำการลูบเม็ดทับทิมสีเข้ม อีกมือนึงก็ลูบไล้หน้าท้องช่วงล่างจนร่างสูงบิดเกลียวด้วยความเสียว</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">จองกุกอ่า</span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">สองคนมันน่าเบื่อจะตายอยู่แล้ว"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ยุนกิพูดขณะที่ลูบไล้ร่างสูงที่ยืนแข็งอยู่</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">อ่าาาายุนกิ ผมทำให้คุณเบื่อหรอ</span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">เด็กนี่มันปอดจะตาย ฮ่าๆๆ"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างสูงพูดพร้อมเอี้ยวตัวไปประทับริมฝีปากกับร่างขาวสวมกอดอยู่ด้านหลังจนเกิดเสียงลิ้นตวัดเกลียวร่วมกัน</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">ผมน่ะหรอปอด</span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">จะลองดูมั้ยล่ะ"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">คำท้าทายจากพี่ชายทำให้เด็กหนุ่มรู้สึกร้อนรุ่มในใจไม่น้อย เพราะเขาก็ได้เห็นฉากรักของพี่ชายกับคู่นอนของเขามาบ่อยครั้ง  </span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">ลองกับกูก่อนมั้ยน้องชาย นี่เมียกู มาแบ่งกันกินกับมึงจะสนุกหรอ"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">ฮยองก็เคยลองกับผมมาแล้วหนิ</span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ถ้าผมได้ยุนกิฮยองอีกคน จะเป็นไรไป"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">กูเหนื่อยแย่ดิ ทำเมียตั้งสองคน</span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">แถมอีกคนเป็นน้องชายของตัวเองที่โครตน่ารัก ฮ่าๆ"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">มึงคิดกับกูแต่เรื่องแบบนี้หรอ </span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">มึงเห็นกูเป็นน้องรึเปล่า"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">ไม่วะ  กูเห็นมึงเป็นเมีย</span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ตั้งแต่วันที่กูได้มึงวะ น้องชายสุดที่รัก"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">เวร!!"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ปั๊ง!! </span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">จองกุกเดินออกจากห้องไป และปิดประตูเสียงดังสนั่น</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">ไปแกล้งเด็กมัน หนีไปแล้วเห็นมั้ย"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างขาวยังคงลูบไล้ร่างสูงอยู่เช่นเคย</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">จนร่างสูงเกิดอารมณ์อีกครั้ง</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">อ่าาา ยั่วผมแบบนี้ อีกรอบดีมั้ยนะ ฮ่าๆๆ"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างสูงไม่รอช้า รีบอุ้มร่างขาวไปที่เตียงและล้มลงนอนอีกครั้ง</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">การร่วมรักของทั้งคู่ยังคงต่อเนื่องไม่รู้จักเหน็ดเหนื่อย</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">กูโตแล้วนะ ไม่ใช่เด็กที่มึงจะรังแกอีกแล้ว"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">จองกุกที่หนีเข้าห้องของตัวเองไป เพราะเหนื่อยใจกับพี่ชายตน</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างสูงสวมกอดร่างบางจากด้านหลังบนเตียงหนานุ่มที่มีเพียงเค้าสองคน </span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">กิจกรรมเหน็ดเหนื่อยได้จบลงเมื่อครู่ ร่างบางนอนหอบหายใจแห้งสนิท </span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">เค้าได้สูญเสียเรี่ยวแรงไปมากพอสมควร</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างสูงก็เช่นกัน เพราะวีเองก็เพิ่งเสร็จกิจกรรมกับยุนกิมาก่อนหน้านั้นอีกด้วย</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">จองกุกอ่า</span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ฮยองรักนายนะ น้องชายของฮยองน่ารักที่สุดแล้ว"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างสูงพูดพร้อมกระชับกอดให้แน่นกว่าเดิม</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">กูเหนื่อย อย่ากอดแน่นมากดิ</span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">แค่ยอมให้มึงทำแบบนี้กับกูฟรีก็เจ็บด้านหลังจะแย่อยู่แล้ว"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">เดี๋ยวนี้หัดพูดจากูมึงแบบนี้หรอ หืม!</span>?</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ลงโทษสะดีมั้ย "</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างสูงพูดไปพร้อมใช้ปลายนิ้วสัมผัสช่องทางพิศวาสของร่างบาง จนสะดุ้งเฮือก</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">พอเลยๆๆฮยอง ผมไม่ไหวแล้ว"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างบางหน้าซีดเซียว บ่งบอกว่าไม่ไหวแล้วจริงๆ</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">งั้นฮยองไปหาเมียล่ะนะ</span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ฝันดีนะน้องชาย"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างสูงพูดพร้อมส่งริมฝีปากร้อนประทับเบาๆแก่เด็กหนุ่ม เพื่อเป็นการบอกฝันดี </span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">เซ็กซ์ของพวกนาย จะมันส์กันอยู่แค่สองคนงั้นหรอ"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ยังไม่ทันที่วีจะก้าวขาลงจากเตียง</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ก็พบกับยุนกิที่เดินเข้ามาในห้องของจองกุกด้วยชุดนอนขาสั้น และเปลือยท่อนบน</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">เมียต๋าาาา   ผมกำลังจะไปหาพอดีเลย"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">ไหวรึเปล่าผัวคนกาม </span></span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">อยากลองกับเด็กจะแย่อยู่แล้ว"</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">พวกมึงมันบ้า  ไอ่เวร!!"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">จองกุกยันตัวลุกขึ้นนั่งเบาๆ และด่าทอชายทั้งสอง</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">เพราะด้านหลังนั้นก็เจ็บแสบไม่น้อย</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ถึงครั้งนี้กับวีจะไม่ใช่ครั้งแรกก็ตาม</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">เด็กมันอ่อยอ่ะ รุมเลยดีมั้ยนะ"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">ฮ่าๆๆ เอาเลยครับ เมียคนกาม "</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ร่างสูงหัวเราะเบาๆ แต่ร่างบางนั้น หน้าซีดเซียว</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">เห็นทีจะไม่สนุกด้วย</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">ชายผู้เป็นรุกทั้งสอง จับร่างบางกดลงกับเตียง</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">และกิจกรรมอันเหน็ดเหนื่อยก็เริ่มขึ้นอีกครั้ง</span></p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">และมันคงจะจบลงไม่ง่ายนัก</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">"<span style="line-height: 115%;" lang="TH">กูเกลียดพวกมึง"</span></span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;">........................................</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><span style="font-size: 16px; line-height: 115%; font-family: 'comic sans ms', sans-serif;" lang="TH">เรื่องแรกของไรท์เองครัช</span></p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;"><span style="line-height: 115%;" lang="TH">ลองช๊อตฟิคก่อนงะ แต่ง</span>3P <span style="line-height: 115%;" lang="TH">ไม่ค่อยเก่ง สั้นไปด้วยมั้ย ยังไม่กล้า nc มาก </span></span></p>
+<p class="MsoNormal"><span style="font-family: 'comic sans ms', sans-serif; font-size: 16px;"><span style="line-height: 115%;" lang="TH">เม้นก็ได้นะ ประสบการณ์ไม่ค่อยมี 5555</span></span></p>
+<p class="MsoNormal"> </p>
+                </div>
+            </div>
+
+                <div id="main-add-chapter-button" class="col-xs-12">
+                    <div id="add-chapter-button">
+                        <a href="#main-story-bottom" title="แสดงความคิดเห็น"><h3>แสดงความคิดเห็น</h3></a>
+                    </div>
+                </div>
+
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2" style="margin-top:20px;">
+                <!-- Trigger the modal with a button -->
+                <button title="ให้ดาวแก่นักเขียนคนนี้" type="button" class="donate btn btn-tunwalai btn-lg" data-toggle="modal" data-target="#myModal2">
+                    ให้ <img src="http://cdn-tunwalai.obapi.io/files/responsive/star_90x90.png" width="48" height="48" style="margin-top:-10px;"> แก่นักเขียนคนนี้
+                </button>
+            </div>
+
+        </div>
+
+        <div class="clearfix">
+            
+
+        </div>
+
+        <div class="main-list-chapter col-lg-9 col-md-12 hidden-xs hidden-sm">
+            <table class="table table-bordered">
+                <thead>
+                    <tr id="title-bar">
+                        <th style="text-align:center;">ชื่อตอน</th>
+                        <th style="text-align:center;">วันที่ลง</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+
+                        <tr>
+                            <td width="60%">
+                                <a href="/chapter/410971/sex-its-not-over-special-18" target="_blank" title="SEX it&#39;s not over (special) 18+">SEX it&#39;s not over (special) 18+</a>
+                            </td>
+                            <td width="20%" align="center">10 ก.พ. 2559 00:01 น.</td>
+                            <td width="20%" class="content"><img src="http://cdn-tunwalai.obapi.io/files/responsive/eye.png" /> 240 &nbsp;&nbsp; <img src="http://cdn-tunwalai.obapi.io/files/responsive/comment.png" /> 4 </td>
+                        </tr>
+
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="main-list-chapter col-xs-12 visible-xs visible-sm">
+            <table class="table table-bordered">
+                <thead>
+                    <tr id="title-bar">
+                        <th>ชื่อตอน</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                        <tr>
+                            <td>
+                                <a href="/chapter/410971/sex-its-not-over-special-18" target="_blank" title="SEX it&#39;s not over (special) 18+">SEX it&#39;s not over (special) 18+</a>
+
+
+                            </td>
+                        </tr>
+
+
+                </tbody>
+            </table>
+        </div>
+
+        
+
+        <div class="clearfix">
+            
+
+        </div>
+
+        <div id="main-story-bottom" class="col-xs-12" style="margin-top:20px;">
+                <h4 id="comment-input-validate" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกชื่อ</h4>
+                <h4 id="comment-message-validate" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกความคิดเห็น</h4>
+                    <a href="#" class="main-login-button col-sm-5 col-xs-12 btn" data-toggle="modal" title="เข้าสู่ระบบ"><i class="fa fa-user"></i> เข้าสู่ระบบ</a>
+                <form>
+                        <div id="main-comment-name" class="col-sm-1 col-xs-3 btn">ชื่อ</div>
+                        <div id="main-comment-form" class="col-sm-6 col-xs-9">
+                            <input type="text" id="main-comment-input-0" name="commentName" class="main-comment-input form-control" value="Guest_128.82.4.182" disabled="disabled" />
+                        </div>
+
+                    <div id="main-wsybb" class="col-xs-12">
+                        <textarea id="editor" name="commentMessage" placeholder="แสดงความคิดเห็น" rows="4" style="width:100%"></textarea>
+                    </div>
+
+                    <input type="hidden" id="myField" />
+                    <input type="hidden" name="memberId" value="321967" />
+                    <input type="hidden" name="storyId" value="80221" />
+                    <input type="hidden" name="allowComment" value="0" />
+                    <input type="hidden" name="page" value="1" />
+
+                    <button id="comment-button" type="submit" onclick="return sendFormComment(this.form)">ส่ง</button>
+                </form>
+        </div>
+
+        <div id="main-comment-width" class="col-sm-9 col-xs-12" style="margin-top:25px;">
+            <div class="main-top_comment clearfix">
+                <span>19 ความคิดเห็น</span>
+            </div>
+
+            
+
+
+
+
+<div id="comment">
+    <div id="main-list-group" class="col-xs-12">
+
+        <ul class="list-group" style="box-shadow:none;">
+                <li class="list-group-item">
+
+                        <a href="/profile/152815/disastrous" title="disastrous ♠">
+                            <img src="http://cdn-tunwalai.obapi.io/files/profile/152815/152815-member.jpg" height="40" width="40" alt="" />
+                        </a>
+
+                    <strong>ความคิดเห็นที่ 19</strong>
+
+                    <div class="clearfix"></div>
+                    <div class="comment-detail">
+                        โดย
+
+                                <a href="/profile/152815/disastrous" title="disastrous ♠">disastrous ♠</a>
+                        
+                    </div>
+
+                    <div class="comment-message">
+                        <p>งงบ้างนิดหน่อย แต่ก็พออ่านรู้เรื่องค่ะ 555 เป็นกำลังใจให้นะ สู้ๆ แต่งโอเคมากกก วีหื่นแรวงงง &#128541;</p>
+                            <p>จากตอน : <a href="/chapter/410971/sex-its-not-over-special-18" title="SEX it&#39;s not over (special) 18+" target="_blank">SEX it&#39;s not over (special) 18+</a></p>
+                        <time>
+                            <i class="fa fa-desktop"></i> 49.229.67.147 &nbsp;
+                            <span class="badge time-ago" data-time-ago="2016-02-10T00:39:47.0300000">10 ก.พ. 2559 00:39 น.</span>
+                        </time>
+
+                            <div style="padding-top:10px;">
+                                <h4 class="comment-reply" title="ตอบกลับ" onclick="toggleCommentReply(2649880);"><i class="fa fa-share"></i> ตอบกลับ</h4>
+                            </div>
+
+                    </div>
+                </li>
+                <div class="clearfix"></div>
+                <div style="width:95%; float:right;">
+                        <div id="main-comment-reply-2649880" style="display:none; float:right; padding-bottom:10px;">
+                            <div style="margin-top:10px;"></div>
+
+                            <h4 id="comment-input-validate-2649880" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกชื่อ</h4>
+                            <h4 id="comment-message-validate-2649880" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกความคิดเห็น</h4>
+
+                            <form>
+                                    <div class="main-comment-name col-xs-3 btn">ชื่อ</div>
+                                        <div class="main-comment-form col-xs-9">
+                                            <input type="text" id="main-comment-input-2649880" name="commentName" class="main-comment-input form-control" value="Guest_128.82.4.182" disabled="disabled" />
+                                        </div>
+
+                                <div class="main-wsybb col-xs-12">
+                                    <textarea id="main-comment-message-2649880" class="form-control" name="commentMessage" placeholder="แสดงความคิดเห็น" rows="4" style="width:100%; background-color:#d1d3d4;"></textarea>
+                                </div>
+
+                                <input type="hidden" id="myField" />
+                                <input type="hidden" name="commentId" value="2649880" />
+                                <input type="hidden" name="memberId" value="321967" />
+                                <input type="hidden" name="storyId" value="80221" />
+                                <input type="hidden" name="allowComment" value="0" />
+                                <input type="hidden" name="page" value="1" />
+
+                                <button class="comment-button" type="submit" onclick="return sendFormCommentReply(this.form, 2649880)">ส่ง</button>
+                            </form>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+                    <div style="margin:15px 0;">
+                        <div data-advs-adspot-id="NTM4OjIzNDM" style="display:none"></div>
+                    </div>
+                <li class="list-group-item">
+
+                        <img src="http://cdn-tunwalai.obapi.io/files/member/default.jpg" alt="Guest" height="40" width="40" />
+
+                    <strong>ความคิดเห็นที่ 18</strong>
+
+                    <div class="clearfix"></div>
+                    <div class="comment-detail">
+                        โดย
+
+                                <a href="/profile/186666/%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%A7%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%83%E0%B8%AA" title="ฟ้าสวยน้ำใส">ฟ้าสวยน้ำใส</a>
+                        
+                    </div>
+
+                    <div class="comment-message">
+                        <p><img src="http://cdn-tunwalai.obapi.io/files/emotions/18.gif" /></p>
+                            <p>จากตอน : <a href="/chapter/410971/sex-its-not-over-special-18" title="SEX it&#39;s not over (special) 18+" target="_blank">SEX it&#39;s not over (special) 18+</a></p>
+                        <time>
+                            <i class="fa fa-desktop"></i> 64.233.173.211 &nbsp;
+                            <span class="badge time-ago" data-time-ago="2016-02-09T22:16:43.8570000">09 ก.พ. 2559 22:16 น.</span>
+                        </time>
+
+                            <div style="padding-top:10px;">
+                                <h4 class="comment-reply" title="ตอบกลับ" onclick="toggleCommentReply(2649140);"><i class="fa fa-share"></i> ตอบกลับ</h4>
+                            </div>
+
+                    </div>
+                </li>
+                <div class="clearfix"></div>
+                <div style="width:95%; float:right;">
+                        <div id="main-comment-reply-2649140" style="display:none; float:right; padding-bottom:10px;">
+                            <div style="margin-top:10px;"></div>
+
+                            <h4 id="comment-input-validate-2649140" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกชื่อ</h4>
+                            <h4 id="comment-message-validate-2649140" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกความคิดเห็น</h4>
+
+                            <form>
+                                    <div class="main-comment-name col-xs-3 btn">ชื่อ</div>
+                                        <div class="main-comment-form col-xs-9">
+                                            <input type="text" id="main-comment-input-2649140" name="commentName" class="main-comment-input form-control" value="Guest_128.82.4.182" disabled="disabled" />
+                                        </div>
+
+                                <div class="main-wsybb col-xs-12">
+                                    <textarea id="main-comment-message-2649140" class="form-control" name="commentMessage" placeholder="แสดงความคิดเห็น" rows="4" style="width:100%; background-color:#d1d3d4;"></textarea>
+                                </div>
+
+                                <input type="hidden" id="myField" />
+                                <input type="hidden" name="commentId" value="2649140" />
+                                <input type="hidden" name="memberId" value="321967" />
+                                <input type="hidden" name="storyId" value="80221" />
+                                <input type="hidden" name="allowComment" value="0" />
+                                <input type="hidden" name="page" value="1" />
+
+                                <button class="comment-button" type="submit" onclick="return sendFormCommentReply(this.form, 2649140)">ส่ง</button>
+                            </form>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+                    <div style="margin-top:15px;"></div>
+                <li class="list-group-item">
+
+                        <img src="http://cdn-tunwalai.obapi.io/files/member/default.jpg" alt="Guest" height="40" width="40" />
+
+                    <strong>ความคิดเห็นที่ 17</strong>
+
+                    <div class="clearfix"></div>
+                    <div class="comment-detail">
+                        โดย
+
+Guest_101.108.50.55                        
+                    </div>
+
+                    <div class="comment-message">
+                        <p>3P กามมาก &#160;55555555<br />ชอบๆๆ เห็นภาพเลยค่ะไรท์</p>
+                            <p>จากตอน : <a href="/chapter/410971/sex-its-not-over-special-18" title="SEX it&#39;s not over (special) 18+" target="_blank">SEX it&#39;s not over (special) 18+</a></p>
+                        <time>
+                            <i class="fa fa-desktop"></i> 101.108.50.55 &nbsp;
+                            <span class="badge time-ago" data-time-ago="2016-02-09T21:25:41.5170000">09 ก.พ. 2559 21:25 น.</span>
+                        </time>
+
+                            <div style="padding-top:10px;">
+                                <h4 class="comment-reply" title="ตอบกลับ" onclick="toggleCommentReply(2648681);"><i class="fa fa-share"></i> ตอบกลับ</h4>
+                            </div>
+
+                    </div>
+                </li>
+                    <li class="list-group-item" style="width:95%; float:right;">
+
+                            <a href="/profile/321967/at_monkey" title="at_monkey">
+                                <img src="http://cdn-tunwalai.obapi.io/files/profile/321967/635907020940973708-member.jpg" height="40" width="40" alt="" />
+                            </a>
+
+                        <strong>ความคิดเห็นที่ 1</strong>
+
+                        <div class="clearfix"></div>
+                        <div class="comment-detail">
+                            โดย
+
+                                    <a href="/profile/321967/at_monkey" title="at_monkey">at_monkey</a>
+                            
+                        </div>
+
+                        <div class="comment-message">
+                            <p>อูยยย55555</p>
+                            <time>
+                                <i class="fa fa-desktop"></i> 171.4.166.12 &nbsp;
+                                <span class="badge time-ago" data-time-ago="2016-02-09T22:21:19.0500000">09 ก.พ. 2559 22:21 น.</span>
+                            </time>
+                        </div>
+                    </li>
+                <div class="clearfix"></div>
+                <div style="width:95%; float:right;">
+                        <div id="main-comment-reply-2648681" style="display:none; float:right; padding-bottom:10px;">
+                            <div style="margin-top:10px;"></div>
+
+                            <h4 id="comment-input-validate-2648681" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกชื่อ</h4>
+                            <h4 id="comment-message-validate-2648681" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกความคิดเห็น</h4>
+
+                            <form>
+                                    <div class="main-comment-name col-xs-3 btn">ชื่อ</div>
+                                        <div class="main-comment-form col-xs-9">
+                                            <input type="text" id="main-comment-input-2648681" name="commentName" class="main-comment-input form-control" value="Guest_128.82.4.182" disabled="disabled" />
+                                        </div>
+
+                                <div class="main-wsybb col-xs-12">
+                                    <textarea id="main-comment-message-2648681" class="form-control" name="commentMessage" placeholder="แสดงความคิดเห็น" rows="4" style="width:100%; background-color:#d1d3d4;"></textarea>
+                                </div>
+
+                                <input type="hidden" id="myField" />
+                                <input type="hidden" name="commentId" value="2648681" />
+                                <input type="hidden" name="memberId" value="321967" />
+                                <input type="hidden" name="storyId" value="80221" />
+                                <input type="hidden" name="allowComment" value="0" />
+                                <input type="hidden" name="page" value="1" />
+
+                                <button class="comment-button" type="submit" onclick="return sendFormCommentReply(this.form, 2648681)">ส่ง</button>
+                            </form>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+                    <div style="margin-top:15px;"></div>
+                <li class="list-group-item">
+
+                        <img src="http://cdn-tunwalai.obapi.io/files/member/default.jpg" alt="Guest" height="40" width="40" />
+
+                    <strong>ความคิดเห็นที่ 16</strong>
+
+                    <div class="clearfix"></div>
+                    <div class="comment-detail">
+                        โดย
+
+Guest_110.169.225.36                        
+                    </div>
+
+                    <div class="comment-message">
+                        <p><img src="http://cdn-tunwalai.obapi.io/files/emotions/Yellow-Head00002.gif" />&#160;&#160;ซี้ดดดสส์..อ่าาาสส์ สนุกค่าาา ชอบๆๆๆๆๆ &#128537;&#128537;</p>
+                            <p>จากตอน : <a href="/chapter/410971/sex-its-not-over-special-18" title="SEX it&#39;s not over (special) 18+" target="_blank">SEX it&#39;s not over (special) 18+</a></p>
+                        <time>
+                            <i class="fa fa-desktop"></i> 110.169.225.36 &nbsp;
+                            <span class="badge time-ago" data-time-ago="2016-02-09T21:17:48.9100000">09 ก.พ. 2559 21:17 น.</span>
+                        </time>
+
+                            <div style="padding-top:10px;">
+                                <h4 class="comment-reply" title="ตอบกลับ" onclick="toggleCommentReply(2648607);"><i class="fa fa-share"></i> ตอบกลับ</h4>
+                            </div>
+
+                    </div>
+                </li>
+                    <li class="list-group-item" style="width:95%; float:right;">
+
+                            <a href="/profile/321967/at_monkey" title="at_monkey">
+                                <img src="http://cdn-tunwalai.obapi.io/files/profile/321967/635907020940973708-member.jpg" height="40" width="40" alt="" />
+                            </a>
+
+                        <strong>ความคิดเห็นที่ 1</strong>
+
+                        <div class="clearfix"></div>
+                        <div class="comment-detail">
+                            โดย
+
+                                    <a href="/profile/321967/at_monkey" title="at_monkey">at_monkey</a>
+                            
+                        </div>
+
+                        <div class="comment-message">
+                            <p>จ้า 55555</p>
+                            <time>
+                                <i class="fa fa-desktop"></i> 171.4.166.12 &nbsp;
+                                <span class="badge time-ago" data-time-ago="2016-02-09T22:21:33.7200000">09 ก.พ. 2559 22:21 น.</span>
+                            </time>
+                        </div>
+                    </li>
+                <div class="clearfix"></div>
+                <div style="width:95%; float:right;">
+                        <div id="main-comment-reply-2648607" style="display:none; float:right; padding-bottom:10px;">
+                            <div style="margin-top:10px;"></div>
+
+                            <h4 id="comment-input-validate-2648607" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกชื่อ</h4>
+                            <h4 id="comment-message-validate-2648607" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกความคิดเห็น</h4>
+
+                            <form>
+                                    <div class="main-comment-name col-xs-3 btn">ชื่อ</div>
+                                        <div class="main-comment-form col-xs-9">
+                                            <input type="text" id="main-comment-input-2648607" name="commentName" class="main-comment-input form-control" value="Guest_128.82.4.182" disabled="disabled" />
+                                        </div>
+
+                                <div class="main-wsybb col-xs-12">
+                                    <textarea id="main-comment-message-2648607" class="form-control" name="commentMessage" placeholder="แสดงความคิดเห็น" rows="4" style="width:100%; background-color:#d1d3d4;"></textarea>
+                                </div>
+
+                                <input type="hidden" id="myField" />
+                                <input type="hidden" name="commentId" value="2648607" />
+                                <input type="hidden" name="memberId" value="321967" />
+                                <input type="hidden" name="storyId" value="80221" />
+                                <input type="hidden" name="allowComment" value="0" />
+                                <input type="hidden" name="page" value="1" />
+
+                                <button class="comment-button" type="submit" onclick="return sendFormCommentReply(this.form, 2648607)">ส่ง</button>
+                            </form>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+                    <div style="margin-top:15px;"></div>
+                <li class="list-group-item">
+
+                        <img src="http://cdn-tunwalai.obapi.io/files/member/default.jpg" alt="Guest" height="40" width="40" />
+
+                    <strong>ความคิดเห็นที่ 15</strong>
+
+                    <div class="clearfix"></div>
+                    <div class="comment-detail">
+                        โดย
+
+Guest_1.47.68.198                        
+                    </div>
+
+                    <div class="comment-message">
+                        <p>ไรททททท์ จาเอาnc ง่าาาาไรททททท์&#160;<img src="http://cdn-tunwalai.obapi.io/files/emotions/11.gif" /></p>
+                        <time>
+                            <i class="fa fa-desktop"></i> 1.47.68.198 &nbsp;
+                            <span class="badge time-ago" data-time-ago="2016-02-08T15:11:25.0670000">08 ก.พ. 2559 15:11 น.</span>
+                        </time>
+
+                            <div style="padding-top:10px;">
+                                <h4 class="comment-reply" title="ตอบกลับ" onclick="toggleCommentReply(2641603);"><i class="fa fa-share"></i> ตอบกลับ</h4>
+                            </div>
+
+                    </div>
+                </li>
+                <div class="clearfix"></div>
+                <div style="width:95%; float:right;">
+                        <div id="main-comment-reply-2641603" style="display:none; float:right; padding-bottom:10px;">
+                            <div style="margin-top:10px;"></div>
+
+                            <h4 id="comment-input-validate-2641603" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกชื่อ</h4>
+                            <h4 id="comment-message-validate-2641603" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกความคิดเห็น</h4>
+
+                            <form>
+                                    <div class="main-comment-name col-xs-3 btn">ชื่อ</div>
+                                        <div class="main-comment-form col-xs-9">
+                                            <input type="text" id="main-comment-input-2641603" name="commentName" class="main-comment-input form-control" value="Guest_128.82.4.182" disabled="disabled" />
+                                        </div>
+
+                                <div class="main-wsybb col-xs-12">
+                                    <textarea id="main-comment-message-2641603" class="form-control" name="commentMessage" placeholder="แสดงความคิดเห็น" rows="4" style="width:100%; background-color:#d1d3d4;"></textarea>
+                                </div>
+
+                                <input type="hidden" id="myField" />
+                                <input type="hidden" name="commentId" value="2641603" />
+                                <input type="hidden" name="memberId" value="321967" />
+                                <input type="hidden" name="storyId" value="80221" />
+                                <input type="hidden" name="allowComment" value="0" />
+                                <input type="hidden" name="page" value="1" />
+
+                                <button class="comment-button" type="submit" onclick="return sendFormCommentReply(this.form, 2641603)">ส่ง</button>
+                            </form>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+                    <div style="margin:15px 0;">
+                        <div data-advs-adspot-id="NTM4OjIzNDM" style="display:none"></div>
+                    </div>
+                <li class="list-group-item">
+
+                        <img src="http://cdn-tunwalai.obapi.io/files/member/default.jpg" alt="Guest" height="40" width="40" />
+
+                    <strong>ความคิดเห็นที่ 14</strong>
+
+                    <div class="clearfix"></div>
+                    <div class="comment-detail">
+                        โดย
+
+Guest_27.55.157.83                        
+                    </div>
+
+                    <div class="comment-message">
+                        <p><img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00027.gif" />ชอบบบๆ เอาnc เยอะๆๆๆๆ</p>
+                        <time>
+                            <i class="fa fa-desktop"></i> 27.55.157.83 &nbsp;
+                            <span class="badge time-ago" data-time-ago="2016-02-08T13:52:52.3500000">08 ก.พ. 2559 13:52 น.</span>
+                        </time>
+
+                            <div style="padding-top:10px;">
+                                <h4 class="comment-reply" title="ตอบกลับ" onclick="toggleCommentReply(2641333);"><i class="fa fa-share"></i> ตอบกลับ</h4>
+                            </div>
+
+                    </div>
+                </li>
+                    <li class="list-group-item" style="width:95%; float:right;">
+
+                            <a href="/profile/321967/at_monkey" title="at_monkey">
+                                <img src="http://cdn-tunwalai.obapi.io/files/profile/321967/635907020940973708-member.jpg" height="40" width="40" alt="" />
+                            </a>
+
+                        <strong>ความคิดเห็นที่ 1</strong>
+
+                        <div class="clearfix"></div>
+                        <div class="comment-detail">
+                            โดย
+
+                                    <a href="/profile/321967/at_monkey" title="at_monkey">at_monkey</a>
+                            
+                        </div>
+
+                        <div class="comment-message">
+                            <p>ขอncต่อกันมาเยอะเลย ขอบคุนจ้า 555</p>
+                            <time>
+                                <i class="fa fa-desktop"></i> 27.55.157.83 &nbsp;
+                                <span class="badge time-ago" data-time-ago="2016-02-08T14:09:45.4300000">08 ก.พ. 2559 14:09 น.</span>
+                            </time>
+                        </div>
+                    </li>
+                <div class="clearfix"></div>
+                <div style="width:95%; float:right;">
+                        <div id="main-comment-reply-2641333" style="display:none; float:right; padding-bottom:10px;">
+                            <div style="margin-top:10px;"></div>
+
+                            <h4 id="comment-input-validate-2641333" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกชื่อ</h4>
+                            <h4 id="comment-message-validate-2641333" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกความคิดเห็น</h4>
+
+                            <form>
+                                    <div class="main-comment-name col-xs-3 btn">ชื่อ</div>
+                                        <div class="main-comment-form col-xs-9">
+                                            <input type="text" id="main-comment-input-2641333" name="commentName" class="main-comment-input form-control" value="Guest_128.82.4.182" disabled="disabled" />
+                                        </div>
+
+                                <div class="main-wsybb col-xs-12">
+                                    <textarea id="main-comment-message-2641333" class="form-control" name="commentMessage" placeholder="แสดงความคิดเห็น" rows="4" style="width:100%; background-color:#d1d3d4;"></textarea>
+                                </div>
+
+                                <input type="hidden" id="myField" />
+                                <input type="hidden" name="commentId" value="2641333" />
+                                <input type="hidden" name="memberId" value="321967" />
+                                <input type="hidden" name="storyId" value="80221" />
+                                <input type="hidden" name="allowComment" value="0" />
+                                <input type="hidden" name="page" value="1" />
+
+                                <button class="comment-button" type="submit" onclick="return sendFormCommentReply(this.form, 2641333)">ส่ง</button>
+                            </form>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+                    <div style="margin-top:15px;"></div>
+                <li class="list-group-item">
+
+                        <img src="http://cdn-tunwalai.obapi.io/files/member/default.jpg" alt="Guest" height="40" width="40" />
+
+                    <strong>ความคิดเห็นที่ 13</strong>
+
+                    <div class="clearfix"></div>
+                    <div class="comment-detail">
+                        โดย
+
+Guest_223.24.14.34                        
+                    </div>
+
+                    <div class="comment-message">
+                        <p>นี่ครั้งแรกจริงหรอไรท์ แต่งสุดยอดมากนี่ขนาดไม่ค่อยเอ็นซีเท่าไร มาอัพอีกน้า จะรอ &gt;_&lt;<br /><br /><br /></p>
+                        <time>
+                            <i class="fa fa-desktop"></i> 223.24.14.34 &nbsp;
+                            <span class="badge time-ago" data-time-ago="2016-02-08T13:52:31.3370000">08 ก.พ. 2559 13:52 น.</span>
+                        </time>
+
+                            <div style="padding-top:10px;">
+                                <h4 class="comment-reply" title="ตอบกลับ" onclick="toggleCommentReply(2641331);"><i class="fa fa-share"></i> ตอบกลับ</h4>
+                            </div>
+
+                    </div>
+                </li>
+                    <li class="list-group-item" style="width:95%; float:right;">
+
+                            <a href="/profile/321967/at_monkey" title="at_monkey">
+                                <img src="http://cdn-tunwalai.obapi.io/files/profile/321967/635907020940973708-member.jpg" height="40" width="40" alt="" />
+                            </a>
+
+                        <strong>ความคิดเห็นที่ 1</strong>
+
+                        <div class="clearfix"></div>
+                        <div class="comment-detail">
+                            โดย
+
+                                    <a href="/profile/321967/at_monkey" title="at_monkey">at_monkey</a>
+                            
+                        </div>
+
+                        <div class="comment-message">
+                            <p>จ้าขอบคุนมาก ดีใจมากเลย</p>
+                            <time>
+                                <i class="fa fa-desktop"></i> 27.55.157.83 &nbsp;
+                                <span class="badge time-ago" data-time-ago="2016-02-08T14:09:20.3500000">08 ก.พ. 2559 14:09 น.</span>
+                            </time>
+                        </div>
+                    </li>
+                <div class="clearfix"></div>
+                <div style="width:95%; float:right;">
+                        <div id="main-comment-reply-2641331" style="display:none; float:right; padding-bottom:10px;">
+                            <div style="margin-top:10px;"></div>
+
+                            <h4 id="comment-input-validate-2641331" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกชื่อ</h4>
+                            <h4 id="comment-message-validate-2641331" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกความคิดเห็น</h4>
+
+                            <form>
+                                    <div class="main-comment-name col-xs-3 btn">ชื่อ</div>
+                                        <div class="main-comment-form col-xs-9">
+                                            <input type="text" id="main-comment-input-2641331" name="commentName" class="main-comment-input form-control" value="Guest_128.82.4.182" disabled="disabled" />
+                                        </div>
+
+                                <div class="main-wsybb col-xs-12">
+                                    <textarea id="main-comment-message-2641331" class="form-control" name="commentMessage" placeholder="แสดงความคิดเห็น" rows="4" style="width:100%; background-color:#d1d3d4;"></textarea>
+                                </div>
+
+                                <input type="hidden" id="myField" />
+                                <input type="hidden" name="commentId" value="2641331" />
+                                <input type="hidden" name="memberId" value="321967" />
+                                <input type="hidden" name="storyId" value="80221" />
+                                <input type="hidden" name="allowComment" value="0" />
+                                <input type="hidden" name="page" value="1" />
+
+                                <button class="comment-button" type="submit" onclick="return sendFormCommentReply(this.form, 2641331)">ส่ง</button>
+                            </form>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+                    <div style="margin-top:15px;"></div>
+                <li class="list-group-item">
+
+                        <img src="http://cdn-tunwalai.obapi.io/files/member/default.jpg" alt="Guest" height="40" width="40" />
+
+                    <strong>ความคิดเห็นที่ 12</strong>
+
+                    <div class="clearfix"></div>
+                    <div class="comment-detail">
+                        โดย
+
+Guest_110.164.59.2                        
+                    </div>
+
+                    <div class="comment-message">
+                        <p><img src="http://cdn-tunwalai.obapi.io/files/emotions/Yellow-Head00002.gif" /><img src="http://cdn-tunwalai.obapi.io/files/emotions/Yellow-Head00002.gif" /><img src="http://cdn-tunwalai.obapi.io/files/emotions/Yellow-Head00002.gif" /><img src="http://cdn-tunwalai.obapi.io/files/emotions/Yellow-Head00002.gif" /><img src="http://cdn-tunwalai.obapi.io/files/emotions/Yellow-Head00002.gif" /></p>
+                        <time>
+                            <i class="fa fa-desktop"></i> 110.164.59.2 &nbsp;
+                            <span class="badge time-ago" data-time-ago="2016-02-08T10:33:42.7070000">08 ก.พ. 2559 10:33 น.</span>
+                        </time>
+
+                            <div style="padding-top:10px;">
+                                <h4 class="comment-reply" title="ตอบกลับ" onclick="toggleCommentReply(2640717);"><i class="fa fa-share"></i> ตอบกลับ</h4>
+                            </div>
+
+                    </div>
+                </li>
+                <div class="clearfix"></div>
+                <div style="width:95%; float:right;">
+                        <div id="main-comment-reply-2640717" style="display:none; float:right; padding-bottom:10px;">
+                            <div style="margin-top:10px;"></div>
+
+                            <h4 id="comment-input-validate-2640717" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกชื่อ</h4>
+                            <h4 id="comment-message-validate-2640717" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกความคิดเห็น</h4>
+
+                            <form>
+                                    <div class="main-comment-name col-xs-3 btn">ชื่อ</div>
+                                        <div class="main-comment-form col-xs-9">
+                                            <input type="text" id="main-comment-input-2640717" name="commentName" class="main-comment-input form-control" value="Guest_128.82.4.182" disabled="disabled" />
+                                        </div>
+
+                                <div class="main-wsybb col-xs-12">
+                                    <textarea id="main-comment-message-2640717" class="form-control" name="commentMessage" placeholder="แสดงความคิดเห็น" rows="4" style="width:100%; background-color:#d1d3d4;"></textarea>
+                                </div>
+
+                                <input type="hidden" id="myField" />
+                                <input type="hidden" name="commentId" value="2640717" />
+                                <input type="hidden" name="memberId" value="321967" />
+                                <input type="hidden" name="storyId" value="80221" />
+                                <input type="hidden" name="allowComment" value="0" />
+                                <input type="hidden" name="page" value="1" />
+
+                                <button class="comment-button" type="submit" onclick="return sendFormCommentReply(this.form, 2640717)">ส่ง</button>
+                            </form>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+                    <div style="margin-top:15px;"></div>
+                <li class="list-group-item">
+
+                        <img src="http://cdn-tunwalai.obapi.io/files/member/default.jpg" alt="Guest" height="40" width="40" />
+
+                    <strong>ความคิดเห็นที่ 11</strong>
+
+                    <div class="clearfix"></div>
+                    <div class="comment-detail">
+                        โดย
+
+Guest_110.164.59.2                        
+                    </div>
+
+                    <div class="comment-message">
+                        <p><img src="http://cdn-tunwalai.obapi.io/files/emotions/900168017.gif" />อัพบ่อยๆนะเตง เค้าจิรอ</p>
+                        <time>
+                            <i class="fa fa-desktop"></i> 110.164.59.2 &nbsp;
+                            <span class="badge time-ago" data-time-ago="2016-02-08T10:31:13.1430000">08 ก.พ. 2559 10:31 น.</span>
+                        </time>
+
+                            <div style="padding-top:10px;">
+                                <h4 class="comment-reply" title="ตอบกลับ" onclick="toggleCommentReply(2640711);"><i class="fa fa-share"></i> ตอบกลับ</h4>
+                            </div>
+
+                    </div>
+                </li>
+                    <li class="list-group-item" style="width:95%; float:right;">
+
+                            <a href="/profile/321967/at_monkey" title="at_monkey">
+                                <img src="http://cdn-tunwalai.obapi.io/files/profile/321967/635907020940973708-member.jpg" height="40" width="40" alt="" />
+                            </a>
+
+                        <strong>ความคิดเห็นที่ 1</strong>
+
+                        <div class="clearfix"></div>
+                        <div class="comment-detail">
+                            โดย
+
+                                    <a href="/profile/321967/at_monkey" title="at_monkey">at_monkey</a>
+                            
+                        </div>
+
+                        <div class="comment-message">
+                            <p>มันเป็นช๊อตฟิคที่ตามจริงจบแล้วอ่าค่ะ แต่ถ้ารีเควสมาเราจะต่อncให้ เดี๋ยวลองดูนะ</p>
+                            <time>
+                                <i class="fa fa-desktop"></i> 27.55.157.83 &nbsp;
+                                <span class="badge time-ago" data-time-ago="2016-02-08T14:08:33.7900000">08 ก.พ. 2559 14:08 น.</span>
+                            </time>
+                        </div>
+                    </li>
+                <div class="clearfix"></div>
+                <div style="width:95%; float:right;">
+                        <div id="main-comment-reply-2640711" style="display:none; float:right; padding-bottom:10px;">
+                            <div style="margin-top:10px;"></div>
+
+                            <h4 id="comment-input-validate-2640711" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกชื่อ</h4>
+                            <h4 id="comment-message-validate-2640711" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกความคิดเห็น</h4>
+
+                            <form>
+                                    <div class="main-comment-name col-xs-3 btn">ชื่อ</div>
+                                        <div class="main-comment-form col-xs-9">
+                                            <input type="text" id="main-comment-input-2640711" name="commentName" class="main-comment-input form-control" value="Guest_128.82.4.182" disabled="disabled" />
+                                        </div>
+
+                                <div class="main-wsybb col-xs-12">
+                                    <textarea id="main-comment-message-2640711" class="form-control" name="commentMessage" placeholder="แสดงความคิดเห็น" rows="4" style="width:100%; background-color:#d1d3d4;"></textarea>
+                                </div>
+
+                                <input type="hidden" id="myField" />
+                                <input type="hidden" name="commentId" value="2640711" />
+                                <input type="hidden" name="memberId" value="321967" />
+                                <input type="hidden" name="storyId" value="80221" />
+                                <input type="hidden" name="allowComment" value="0" />
+                                <input type="hidden" name="page" value="1" />
+
+                                <button class="comment-button" type="submit" onclick="return sendFormCommentReply(this.form, 2640711)">ส่ง</button>
+                            </form>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+                    <div style="margin:15px 0;">
+                        <div data-advs-adspot-id="NTM4OjIzNDM" style="display:none"></div>
+                    </div>
+                <li class="list-group-item">
+
+                        <img src="http://cdn-tunwalai.obapi.io/files/member/default.jpg" alt="Guest" height="40" width="40" />
+
+                    <strong>ความคิดเห็นที่ 10</strong>
+
+                    <div class="clearfix"></div>
+                    <div class="comment-detail">
+                        โดย
+
+Guest_110.164.59.2                        
+                    </div>
+
+                    <div class="comment-message">
+                        <p>ไรท์แลดูมีประสบการณ์นะคะ<br />ลงครั้งแรกจริงเหรอคะ</p>
+                        <time>
+                            <i class="fa fa-desktop"></i> 110.164.59.2 &nbsp;
+                            <span class="badge time-ago" data-time-ago="2016-02-08T10:30:18.2100000">08 ก.พ. 2559 10:30 น.</span>
+                        </time>
+
+                            <div style="padding-top:10px;">
+                                <h4 class="comment-reply" title="ตอบกลับ" onclick="toggleCommentReply(2640706);"><i class="fa fa-share"></i> ตอบกลับ</h4>
+                            </div>
+
+                    </div>
+                </li>
+                    <li class="list-group-item" style="width:95%; float:right;">
+
+                            <a href="/profile/321967/at_monkey" title="at_monkey">
+                                <img src="http://cdn-tunwalai.obapi.io/files/profile/321967/635907020940973708-member.jpg" height="40" width="40" alt="" />
+                            </a>
+
+                        <strong>ความคิดเห็นที่ 1</strong>
+
+                        <div class="clearfix"></div>
+                        <div class="comment-detail">
+                            โดย
+
+                                    <a href="/profile/321967/at_monkey" title="at_monkey">at_monkey</a>
+                            
+                        </div>
+
+                        <div class="comment-message">
+                            <p>ใช่จ่ะ ไรท์ลงครั้งแรก ขอบคุนมากนะคะ</p>
+                            <time>
+                                <i class="fa fa-desktop"></i> 27.55.157.83 &nbsp;
+                                <span class="badge time-ago" data-time-ago="2016-02-08T14:07:43.2700000">08 ก.พ. 2559 14:07 น.</span>
+                            </time>
+                        </div>
+                    </li>
+                <div class="clearfix"></div>
+                <div style="width:95%; float:right;">
+                        <div id="main-comment-reply-2640706" style="display:none; float:right; padding-bottom:10px;">
+                            <div style="margin-top:10px;"></div>
+
+                            <h4 id="comment-input-validate-2640706" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกชื่อ</h4>
+                            <h4 id="comment-message-validate-2640706" class="text-danger text-right" style="display:none;"><i class="fa fa-exclamation-circle"></i> กรุณากรอกความคิดเห็น</h4>
+
+                            <form>
+                                    <div class="main-comment-name col-xs-3 btn">ชื่อ</div>
+                                        <div class="main-comment-form col-xs-9">
+                                            <input type="text" id="main-comment-input-2640706" name="commentName" class="main-comment-input form-control" value="Guest_128.82.4.182" disabled="disabled" />
+                                        </div>
+
+                                <div class="main-wsybb col-xs-12">
+                                    <textarea id="main-comment-message-2640706" class="form-control" name="commentMessage" placeholder="แสดงความคิดเห็น" rows="4" style="width:100%; background-color:#d1d3d4;"></textarea>
+                                </div>
+
+                                <input type="hidden" id="myField" />
+                                <input type="hidden" name="commentId" value="2640706" />
+                                <input type="hidden" name="memberId" value="321967" />
+                                <input type="hidden" name="storyId" value="80221" />
+                                <input type="hidden" name="allowComment" value="0" />
+                                <input type="hidden" name="page" value="1" />
+
+                                <button class="comment-button" type="submit" onclick="return sendFormCommentReply(this.form, 2640706)">ส่ง</button>
+                            </form>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+                    <div style="margin-top:15px;"></div>
+        </ul>
+
+    </div>
+</div>
+
+            <div class="pagination-container"><ul class="pagination"><li class="active"><a>1</a></li><li><a href="/story/80221/sex-its-not-over?page=2&amp;anchor=#main-comment-width">2</a></li><li class="PagedList-skipToNext"><a href="/story/80221/sex-its-not-over?page=2&amp;anchor=#main-comment-width" rel="next">»</a></li></ul></div>
+        </div>
+
+        <div class="clearfix"></div>
+        <br /><br />
+
+    </div>
+</div>
+
+
+
+
+<div id="dialog-modal-show-emotions" title="เลือกอีโมชั่นที่ต้องการ" style="display: none">
+    <div id="emotion-ui">
+        <ul style="padding:0px;">
+
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/1.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/1.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/1.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/11.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/11.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/11.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/1158925_4598997.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/1158925_4598997.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/1158925_4598997.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/14.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/14.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/14.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/15.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/15.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/15.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/16.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/16.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/16.gif" onclick='Emotions(this);' />
+                </li>
+                    <div class="clear"></div>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/18.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/18.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/18.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/2.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/2.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/2.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/3.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/3.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/3.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/5.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/5.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/5.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/6.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/6.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/6.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/64_1.png" alt="http://cdn-tunwalai.obapi.io/files/emotions/64_1.png" title="http://cdn-tunwalai.obapi.io/files/emotions/64_1.png" onclick='Emotions(this);' />
+                </li>
+                    <div class="clear"></div>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/64_19.png" alt="http://cdn-tunwalai.obapi.io/files/emotions/64_19.png" title="http://cdn-tunwalai.obapi.io/files/emotions/64_19.png" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/64_20.png" alt="http://cdn-tunwalai.obapi.io/files/emotions/64_20.png" title="http://cdn-tunwalai.obapi.io/files/emotions/64_20.png" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/64_28.png" alt="http://cdn-tunwalai.obapi.io/files/emotions/64_28.png" title="http://cdn-tunwalai.obapi.io/files/emotions/64_28.png" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/64_35.png" alt="http://cdn-tunwalai.obapi.io/files/emotions/64_35.png" title="http://cdn-tunwalai.obapi.io/files/emotions/64_35.png" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/64_38.png" alt="http://cdn-tunwalai.obapi.io/files/emotions/64_38.png" title="http://cdn-tunwalai.obapi.io/files/emotions/64_38.png" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/64_6.png" alt="http://cdn-tunwalai.obapi.io/files/emotions/64_6.png" title="http://cdn-tunwalai.obapi.io/files/emotions/64_6.png" onclick='Emotions(this);' />
+                </li>
+                    <div class="clear"></div>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/900168017.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/900168017.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/900168017.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/907151836.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/907151836.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/907151836.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/908077191.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/908077191.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/908077191.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/909228961.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/909228961.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/909228961.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/913288247.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/913288247.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/913288247.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/919002014.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/919002014.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/919002014.gif" onclick='Emotions(this);' />
+                </li>
+                    <div class="clear"></div>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/928425071.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/928425071.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/928425071.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/931321481.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/931321481.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/931321481.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/932442791.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/932442791.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/932442791.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/933419740.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/933419740.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/933419740.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/935369370.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/935369370.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/935369370.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/937005481.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/937005481.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/937005481.gif" onclick='Emotions(this);' />
+                </li>
+                    <div class="clear"></div>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/940224679.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/940224679.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/940224679.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/940275056.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/940275056.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/940275056.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/944503837.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/944503837.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/944503837.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/946193729.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/946193729.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/946193729.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/950535617.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/950535617.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/950535617.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/951204049.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/951204049.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/951204049.gif" onclick='Emotions(this);' />
+                </li>
+                    <div class="clear"></div>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/951236191.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/951236191.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/951236191.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/952284046.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/952284046.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/952284046.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/954168845.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/954168845.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/954168845.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/958168993.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/958168993.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/958168993.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/958426314.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/958426314.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/958426314.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/9bbc76d5.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/9bbc76d5.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/9bbc76d5.gif" onclick='Emotions(this);' />
+                </li>
+                    <div class="clear"></div>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00021.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00021.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00021.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000210.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000210.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000210.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000211.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000211.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000211.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000213.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000213.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000213.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000214.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000214.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000214.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000217.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000217.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000217.gif" onclick='Emotions(this);' />
+                </li>
+                    <div class="clear"></div>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000219.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000219.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000219.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000220.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000220.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000220.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000221.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000221.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000221.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000222.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000222.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon000222.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00023.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00023.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00023.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00024.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00024.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00024.gif" onclick='Emotions(this);' />
+                </li>
+                    <div class="clear"></div>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00025.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00025.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00025.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00027.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00027.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Cartoon00027.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Green-Ant00002.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Green-Ant00002.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Green-Ant00002.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Handsom00006.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Handsom00006.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Handsom00006.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Huahed00015.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Huahed00015.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Huahed00015.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Kikucow00005.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Kikucow00005.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Kikucow00005.gif" onclick='Emotions(this);' />
+                </li>
+                    <div class="clear"></div>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Lady00002.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Lady00002.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Lady00002.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Moo00002.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Moo00002.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Moo00002.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Panda00002.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Panda00002.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Panda00002.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Pink Pig00002.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Pink Pig00002.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Pink Pig00002.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Pirate00002.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Pirate00002.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Pirate00002.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/TLC_090-20080408_Thai.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/TLC_090-20080408_Thai.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/TLC_090-20080408_Thai.gif" onclick='Emotions(this);' />
+                </li>
+                    <div class="clear"></div>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Tiger00021.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Tiger00021.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Tiger00021.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/Yellow-Head00002.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/Yellow-Head00002.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/Yellow-Head00002.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/a550924622.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/a550924622.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/a550924622.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/eta.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/eta.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/eta.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/f529a952.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/f529a952.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/f529a952.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/f5f49335.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/f5f49335.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/f5f49335.gif" onclick='Emotions(this);' />
+                </li>
+                    <div class="clear"></div>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/owo2z.gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/owo2z.gif" title="http://cdn-tunwalai.obapi.io/files/emotions/owo2z.gif" onclick='Emotions(this);' />
+                </li>
+                <li>
+                    <img src="http://cdn-tunwalai.obapi.io/files/emotions/yv01..gif" alt="http://cdn-tunwalai.obapi.io/files/emotions/yv01..gif" title="http://cdn-tunwalai.obapi.io/files/emotions/yv01..gif" onclick='Emotions(this);' />
+                </li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript">
+    document.getElementById('myField').value = 'spam-comment';
+
+    //$(function () {
+    //    $("input[name=spam]").val('spam-comment');
+    //});
+</script>
+
+<script>
+    var emotionModal = function (command, value, queryState) {
+        $("#dialog-modal-show-emotions").dialog("open");
+    }
+
+    $(document).ready(function () {
+        var wbbOpt = {
+            buttons: "emotion",
+            allButtons: {
+                emotion: {
+                    title: "Emotion",
+                    buttonHTML: "<img src=\"/Images/smiley-smile.gif\"/>",
+                    cmd: emotionModal,
+                    transform: {
+                        '<img src="{SRC}" />': '[img]{SRC}[/img]'
+                    }
+                }
+            }
+        }
+        $("#editor").wysibb(wbbOpt);
+    });
+
+    var wWidth = $(window).width();
+    if (wWidth > 600) {
+        $("#dialog-modal-show-emotions").dialog({
+            width: 590,
+            height: 500,
+            modal: true,
+            autoOpen: false
+        });
+    }
+    else if (wWidth < 330) {
+        $("#dialog-modal-show-emotions").dialog({
+            width: 220,
+            height: 250,
+            modal: true,
+            autoOpen: false
+        });
+    }
+    else {
+        $("#dialog-modal-show-emotions").dialog({
+            width: wWidth * 0.8,
+            height: 300,
+            modal: true,
+            autoOpen: false
+        });
+    }
+
+
+    function Emotions(emotions) {
+        var src = emotions.src;
+        if (src == null) src = "#";
+
+        $("#editor").data('wbb').wbbInsertCallback("emotion", { SRC: src });
+        $("#dialog-modal-show-emotions").dialog("close");
+    }
+</script>
+
+    <div class="popup" style="display: none;">
+        <div class="popupWindow">
+            <div class="popup_txt">
+                <p>
+                    เนื้อหาต่อไปนี้เหมาะสำหรับผู้เข้าชมที่มีอายุ 18 ปีขึ้นไป
+                    โดยมีเนื้อหาที่เกี่ยวข้องกับความรุนแรง อาชญากรรม คำหยาบคาย
+                    และภาษาที่แสดงอารมณ์ทางเพศ
+                    หากท่านมีอายุ 18 ปีขึ้นไป กรุณากดยืนยัน
+                </p>
+            </div>
+            <div id="popup_img">
+                <div id="popup_img_no" class="popup_img_no">No</div>
+                <div id="popup_img_yes" class="popup_img_yes">Yes</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            $(".popup_img_yes").click(function () {
+                $(".popup").hide();
+                $.cookie('popup_img_yes', 'clicked', { path: '/' });
+            });
+            $(".popup_img_no").click(function () {
+                window.open("/", "_self");
+            });
+
+            $(".popup").show();
+        });
+    </script>
+
+<script>
+    var signalData = {
+        navigation: {
+            story: {
+                title: "SEX it&#39;s not over",
+                category: "นิยาย y",
+                view: 985,
+            }
+        }
+    };
+
+    $(function(){
+        var width = $(window).width();
+        if (width < 767) {
+            $("#share_link").show();
+        }
+    });
+
+    $("#share_link").click(function() {
+        $(".social_share").toggleClass("expanded");
+    });
+
+    function toggleCommentReply(id) {
+        var width = $(window).width();
+        if (width < 767) {
+            $("#share_link").hide();
+        }
+
+        var element = $("#main-comment-reply-" + id);
+        element.show();
+
+
+        setTimeout(function(){
+            element.scrollintoview({
+                duration: "slow",
+                mode: "top",
+                complete: function () {
+                    setTimeout(function(){ $("#main-comment-message-" + id).focus(); }, 200);
+                }
+            });
+        }, 100);
+
+
+    }
+
+    function sendFormCommentReply(form, id) {
+        var name = $("#main-comment-input-" + id).val();
+        var message = $("#main-comment-message-" + id).val();
+
+        $("#comment-input-validate-" + id).hide();
+        $("#comment-message-validate-" + id).hide();
+
+        if (name == '' || message == '') {
+            if (name == '') {
+                $("#comment-input-validate-" + id).show();
+            }
+            if (message == '') {
+                $("#comment-message-validate-" + id).show();
+            }
+            return false;
+        }
+
+        $.ajax({
+            type: "POST",
+            data: $(form).serializeArray(),
+            url: "/story/commentreply",
+            dataType: 'html',
+            success: function (response) {
+                $('#comment').html(response);
+            },
+            error: function (response) {
+                alert("error!");
+            }
+        });
+        form.reset();
+
+        var width = $(window).width();
+        if (width < 767) {
+            $("#share_link").show();
+        }
+        return false;
+    }
+
+    function sendFormComment(form) {
+        var name = $("#main-comment-input-0").val();
+        var message = $("#editor").bbcode();
+
+        $("#comment-input-validate").hide();
+        $("#comment-message-validate").hide();
+
+        if (name == '' || message == '') {
+            if (name == '') {
+                $("#comment-input-validate").show();
+            }
+            if (message == '') {
+                $("#comment-message-validate").show();
+            }
+            return false;
+        }
+
+        $("#editor").sync();
+        $.ajax({
+            type: "POST",
+            data: $(form).serializeArray(),
+            url: "/story/comment",
+            dataType: 'html',
+            success: function (response) {
+                $('#comment').html(response);
+                if (1 > 1) {
+                    window.location = '/story/details?itemId=80221&page=1#main-comment-width';
+                }
+            },
+            error: function (response) {
+                alert("error!");
+            }
+        });
+        form.reset();
+        $("#editor").htmlcode('');
+        if (1 == 1) {
+            $("#main-comment-width").scrollintoview({ duration: "normal" });
+        }
+        return false;
+    }
+</script>
+
+<!-- Template of ads units. -->
+<script type="text/advs-instream-template" data-adspot-id="NTM4OjIzNDM">
+    <li class="list-group-item" style="border-top: 2px solid #ffa826;  border-bottom: 2px solid #ffa826;">
+        <a href="{{click_url}}" target="_blank">
+            <img src="{{icon_image_url}}" height="40" width="40" alt="" />
+
+            <div class="comment-detail" style="margin-top:-35px; padding-left:47px;">
+                <p>{{title}}</p>
+            </div>
+
+            <div class="comment-message">
+                <p>{{description}}</p>
+                <time>
+                    {{displayed_advertiser}}
+                    <span class="badge">&nbsp;โฆษณา&nbsp;</span>
+                </time>
+            </div>
+        </a>
+    </li>
+</script>
+
+<div id="myModal1" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">
+            ให้ <img src="http://cdn-tunwalai.obapi.io/files/responsive/star_90x90.png" width="35" height="35" style="margin-top:-5px;"> แก่นักเขียนคนนี้
+        </h3>
+    </div>
+    <div class="modal-body col-xs-12 text-center">
+        <h3>ไม่สามารถให้ดาวได้ นักเขียนไม่ได้อยู่ในระบบสนับสนุน</h3>
+    </div>
+    <div class="clearfix"></div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-tunwalai" data-dismiss="modal" style="width:180px; display:block; margin:0 auto;">ปิด</button>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+    </div>
+</div>
+<div id="myModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">
+            ให้ <img src="http://cdn-tunwalai.obapi.io/files/responsive/star_90x90.png" width="35" height="35" style="margin-top:-5px;"> แก่นักเขียนคนนี้
+        </h3>
+    </div>
+    <div class="modal-body col-xs-12 text-center">
+        <h3>ไม่สามารถให้ดาวได้ นักเขียนไม่ได้อยู่ในระบบสนับสนุน</h3>
+    </div>
+    <div class="clearfix"></div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-tunwalai" data-dismiss="modal" style="width:180px; display:block; margin:0 auto;">ปิด</button>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+    </div>
+</div>
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+<div class="clearfix"></div>
+<div id="main-footer" class="clearfix">
+
+    <div class="text-center">
+        
+
+    </div>
+
+    <div class="col-sm-12 hidden-xs clearfix">
+
+        <div class="col-sm-4">
+            <a href="https://www.facebook.com/pages/tunwalaicom/188941474512932" target="_blank">
+                <img src="http://cdn-tunwalai.obapi.io/files/responsive/following.png" style="padding-left:56px;padding-top:11px;" />
+            </a>
+        </div>
+
+        <div class="col-sm-2"></div>
+
+        <div class="col-sm-6" style="padding:0;">
+            <div id="content-footer">
+
+                <a href="/contact" title="ติดต่อเรา">ติดต่อเรา </a>
+
+                    <a href="http://www.tunwalai.com/story/80221/sex-its-not-over?page=1" class="rs-link visible-xs">
+                        / ดูในรูปแบบคอมพิวเตอร์
+                    </a>
+            </div>
+        </div>
+
+        <div class="col-xs-12" style="text-align: justify;padding-top:15px;">
+            Copyright <i class="fa fa-copyright"></i> 2016 <a href="/" title="Tunwalai">Tunwalai</a> - ข้อความทีท่านได้อ่านจาก เว็บเพจนี้ เกิดขึ้นจากการเขียนโดยสาธารณชน และ เผยแพร่โดยอัตโนมัติ ผู้ดูแลเว็บไซต์แห่งนี้ ไม่ได้เห็นด้วย และไม่ขอรับผิดชอบ ต่อข้อความใดๆ ทั้งสิ้น ดังนั้นผู้อ่านทุกท่าน โปรดใช้วิจารณญาณ ในการกลั่นกรองด้วยตนเอง และ ถ้าหากท่านพบเห็นข้อความใดๆ ที่ ขัดต่อกฎหมาย และ ศีลธรรม กรุณาแจ้งมาที่ tunwalai@ookbee.com เพื่อทีมงานจะได้ ดำเนินการในทันที ขอขอบพระคุณ ทั้งนี้ทางเว็บขอสงวนสิทธิ์และปกป้อง ข้อความ งานเขียน ภาพ เสียง เนื้อหา ส่วนประกอบใดๆก็ตาม ของนักเขียนทุกท่าน ตามประมวลกฎหมายปี 2537
+        </div>
+
+    </div>
+
+    <div class="col-xs-12 visible-xs text-center clearfix">
+
+        <div class="row">
+            <div class="text-right col-xs-4" style="padding:0;">
+                <div id="content-footer-min">
+                    <a href="/contact" title="ติดต่อเรา">ติดต่อเรา </a>
+                </div>
+            </div>
+
+            <div id="content-footer-min" class="text-left col-xs-8" style="padding-left:5px;">
+                    <a href="http://www.tunwalai.com/story/80221/sex-its-not-over?page=1" class="rs-link visible-xs">
+                        / ดูในรูปแบบคอมพิวเตอร์
+                    </a>
+            </div>
+        </div>
+
+        <a href="https://www.facebook.com/pages/tunwalaicom/188941474512932" target="_blank">
+            <img src="http://cdn-tunwalai.obapi.io/files/responsive/following.png" style="padding-top:5px;" />
+        </a>
+
+        <div class="col-xs-12" style="text-align: justify;padding-top:15px;">
+            Copyright <i class="fa fa-copyright"></i> 2016 <a href="/" title="Tunwalai">Tunwalai</a> - ข้อความทีท่านได้อ่านจาก เว็บเพจนี้ เกิดขึ้นจากการเขียนโดยสาธารณชน และ เผยแพร่โดยอัตโนมัติ ผู้ดูแลเว็บไซต์แห่งนี้ ไม่ได้เห็นด้วย และไม่ขอรับผิดชอบ ต่อข้อความใดๆ ทั้งสิ้น ดังนั้นผู้อ่านทุกท่าน โปรดใช้วิจารณญาณ ในการกลั่นกรองด้วยตนเอง และ ถ้าหากท่านพบเห็นข้อความใดๆ ที่ ขัดต่อกฎหมาย และ ศีลธรรม กรุณาแจ้งมาที่ tunwalai@ookbee.com เพื่อทีมงานจะได้ ดำเนินการในทันที ขอขอบพระคุณ ทั้งนี้ทางเว็บขอสงวนสิทธิ์และปกป้อง ข้อความ งานเขียน ภาพ เสียง เนื้อหา ส่วนประกอบใดๆก็ตาม ของนักเขียนทุกท่าน ตามประมวลกฎหมายปี 2537
+        </div>
+
+    </div>
+
+    <div id="footer"></div>
+</div>
+
+<div id="fb-root"></div>
+
+
+
+
+        </div>
+
+    </div>
+
+    
+
+<script>
+    $(".main-login-button").click(function () {
+        window.location.href = '/Home/CallServiceLogin';
+    });
+</script>﻿
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.countdown').each(function () {
+            var remainingTime = $(this).data("seconds");
+            countDown($(this), remainingTime);
+        });
+    });
+
+    function countDown(target, remainingTime) {
+        if (remainingTime > 0) {
+            target.text(secondsToTime(remainingTime));
+            setTimeout(function () { countDown(target, remainingTime - 1); }, 1000);
+        }
+        else {
+            target.closest("button").removeAttr("disabled");
+            target.html("<span>ใช้</sapn> &times; 1");
+        }
+    }
+
+    function secondsToTime(secs) {
+        var hours = Math.floor(secs / (60 * 60));
+
+        var divisor_for_minutes = secs % (60 * 60);
+        var minutes = Math.floor(divisor_for_minutes / 60);
+
+        var divisor_for_seconds = divisor_for_minutes % 60;
+        var seconds = Math.floor(divisor_for_seconds);
+
+        return hours + ':' + pad(minutes, 2) + ':' + pad(seconds, 2);
+    }
+
+    function pad(num, size) {
+        var s = num + "";
+        while (s.length < size) s = "0" + s;
+        return s;
+    }
+</script>
+
+<script type="text/javascript">
+    $('.menu-mobile').children("li").each(function (i, item) {
+        var link = $(item).children('a');
+        if ($(item).find("ul").length > 0) {
+            var list = $(item).children('ul');
+            var ele = $("<i class='fa fa-chevron-down'></i>");
+            link.append(ele);
+            link.click(function (e) {
+                list.toggle();
+                e.preventDefault();
+            });
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    $('#forgotModal').on('shown.bs.modal', function () {
+        $('#forgotForm').bootstrapValidator('resetForm', true);
+    });
+
+    $(document).ready(function () {
+        $('#forgotForm').bootstrapValidator({
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The email is required',
+                            excluded: [':disabled']
+                        }
+                    }
+                }
+            }
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+
+    $('#myTab a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });
+
+    $(function () {
+        $('#myTab a:last').tab('show');
+
+        moment.locale('th');
+        $('.time-ago').each(function () {
+            var item = $(this);
+            item.attr('title', item.text());
+            item.text(moment(item.data('time-ago')).fromNow());
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $("img")
+        .filter(function (i, img) { return img.src.match(/\/\/image.dek-d.com\//); })
+        .one("error", function () {
+            var img = $(this);
+            $.ajax("/Story/UploadImageDekDFromS3", {
+                data: { url: img.data("old-src") },
+                success: function () {
+                    img.attr("src", img.attr("src"));
+                }
+            });
+        })
+        .each(function (i, img) {
+            $(img).data("old-src", img.src);
+            img.src = img.src.replace(/\/\/image.dek-d.com\//, "//ookbeetunwalai.s3.amazonaws.com/cache/image.dek-d.com/");
+        });
+</script>
+
+    <script type="text/javascript">
+    (function () {
+        var tagjs = document.createElement("script");
+        var s = document.getElementsByTagName("script")[0];
+        tagjs.async = true;
+        tagjs.src = "//s.btstatic.com/tag.js#site=nCWxr2r";
+        s.parentNode.insertBefore(tagjs, s);
+    }());
+    </script>
+    <noscript>
+        <iframe src="//s.thebrighttag.com/iframe?c=nCWxr2r" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </noscript>
+
+<script type="text/javascript">
+    $(function () {
+        //$(document).on("contextmenu", null, function (e) {
+        //    e.preventDefault();
+        //});
+        $(document).on("selectstart", null, function (e) {
+            if (!$(e.target).hasClass("wysibb-body")) { e.preventDefault(); }
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".rs-link").click(function (e) {
+            $.cookie('desktop_mode', 'clicked', { path: '/' });
+        });
+
+        $(".rs-link_clear").click(function (e) {
+            $.removeCookie('desktop_mode', { path: '/' });
+        });
+    });
+</script>
+
+
+<script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '865242723507373',
+            xfbml: true,
+            version: 'v2.2'
+        });
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script>
+    function callDialogFb() {
+        FB.ui({
+            method: 'share',
+            href: 'http://www.tunwalai.com/story/80221/sex-its-not-over?page=1',
+        }, function (response) { });
+    }
+</script>
+
+
+
+
+</body>
+</html>
+

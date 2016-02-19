@@ -1,0 +1,624 @@
+
+<!DOCTYPE html>
+
+<!-- BEGIN html -->
+<html lang="es-ES">
+
+<!-- Icy Pixels | Powered by WordPress -->
+
+<!-- BEGIN head -->
+<head>
+
+    <!-- Retrieve Theme Options for further use -->
+    
+    <!-- Basic Page Needs -->
+    <title>Pedro Antonio Sánchez - PP Región de Murcia</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    
+    <!-- RSS & Pingbacks -->
+    <link rel="alternate" type="application/rss+xml" title="Pedro Antonio Sánchez RSS Feed" href="http://www.pedroantonio.org/feed/" />
+    <link rel="pingback" href="http://www.pedroantonio.org/xmlrpc.php" />
+    
+    <!-- Theme Hook -->
+    <meta name='robots' content='noindex,follow' />
+<link rel="alternate" type="application/rss+xml" title="Pedro Antonio Sánchez &raquo; Feed" href="http://www.pedroantonio.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Pedro Antonio Sánchez &raquo; RSS de los comentarios" href="http://www.pedroantonio.org/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Pedro Antonio Sánchez &raquo; iCal Feed" href="http://www.pedroantonio.org/events/?ical=1" />
+<link rel='stylesheet' id='aqpb-view-css-css'  href='http://www.pedroantonio.org/wp-content/plugins/aqua-page-builder/assets/stylesheets/aqpb-view.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mailchimpSF_main_css-css'  href='http://www.pedroantonio.org/?mcsf_action=main_css&#038;ver=4.1.1' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='http://www.pedroantonio.org/wp-content/plugins/mailchimp/css/ie.css' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='bp-parent-css-css'  href='http://www.pedroantonio.org/wp-content/themes/senator/css/buddypress.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.pedroantonio.org/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='select2-css'  href='//www.pedroantonio.org/wp-content/plugins/woocommerce/assets/css/select2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.pedroantonio.org/wp-content/plugins/wp-pagenavi/pagenavi-css.css' type='text/css' media='all' />
+<link rel='stylesheet' id='icy-google-font-css'  href='http://fonts.googleapis.com/css?family=Great+Vibes%7CVidaloka%7CPlayfair+Display%7CRoboto%3A400%2C700%2C300%27+rel%3D%27stylesheet%27+type%3D%27text%2Fcss&#038;ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='style_css-css'  href='http://www.pedroantonio.org/wp-content/themes/senator/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='http://www.pedroantonio.org/wp-content/themes/senator/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='pagenavi-css'  href='http://www.pedroantonio.org/wp-content/themes/senator/css/pagenavi-css.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider_css-css'  href='http://www.pedroantonio.org/wp-content/themes/senator/css/flexslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-css'  href='http://www.pedroantonio.org/wp-content/themes/senator/woocommerce/css/woocommerce.css' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-social-icons-font-css'  href='http://www.pedroantonio.org/wp-content/plugins/simple-social-icons/css/style.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_Confirm = {"are_you_sure":"\u00bfEst\u00e1s seguro?"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/plugins/buddypress/bp-core/js/confirm.min.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/plugins/buddypress/bp-core/js/widget-members.min.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/plugins/buddypress/bp-core/js/jquery-query.min.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/plugins/buddypress/bp-core/js/jquery-cookie.min.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/plugins/buddypress/bp-core/deprecated/js/jquery-scroll-to.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_DTheme = {"accepted":"Aceptado","close":"Cerrar","comments":"comentarios","leave_group_confirm":"Are you sure you want to leave this group?","mark_as_fav":"Favorito","my_favs":"Mis favoritos","rejected":"Rechazado","remove_fav":"Eliminar favorito","show_all":"Mostrar todo","show_all_comments":"Mostrar todos los comentarios para este hilo.","show_x_comments":"Mostrar todos los %d comentarios","unsaved_changes":"Tu perfil tiene cambios no guardados. Si abandonas esta p\u00e1gina, los cambios se perder\u00e1n. ","view":"Ver"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/themes/senator/js/buddypress.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/themes/senator/woocommerce/js/woocommerce.custom.min.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.pedroantonio.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.pedroantonio.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.1" />
+<meta name="generator" content="WooCommerce 2.3.7" />
+<link rel='canonical' href='http://www.pedroantonio.org/' />
+<link rel='shortlink' href='http://www.pedroantonio.org/' />
+
+	<script type="text/javascript">var ajaxurl = 'http://www.pedroantonio.org/wp-admin/admin-ajax.php';</script>
+
+<!-- Custom Styling -->
+<style type="text/css">
+button:hover,input[type="submit"]:hover,input[type="button"],input[type="submit"],.more-link,.icy-button.donate,.woocommerce a.button,.woocommerce-page a.button,.woocommerce button.button,.woocommerce-page button.button,.woocommerce input.button,.woocommerce-page input.button,.woocommerce #respond input#submit,.woocommerce-page #respond input#submit,.woocommerce #content input.button,.woocommerce-page #content input.button,.woocommerce a.button.alt,.woocommerce-page a.button.alt,.woocommerce button.button.alt,.woocommerce-page button.button.alt,.woocommerce input.button.alt,.woocommerce-page input.button.alt,.woocommerce #respond input#submit.alt,.woocommerce-page #respond input#submit.alt,.woocommerce #content input.button.alt,.woocommerce-page #content input.button.alt,ul.products a.add_to_cart_button,ul.products a.button,.dropdown_widget .buttons .button.checkout,.buttons .button.checkout, .wp-pagenavi a:hover, .wp-pagenavi span.current, #buddypress form#whats-new-form #whats-new-submit input { background-color: #019fe0; }ninput:focus,textarea:focus, input[type="button"],input[type="submit"],.more-link,.more-link:hover,input[type="button"]:hover,input[type="submit"]:hover,.navigation-posts a:hover,.woocommerce a.button,.woocommerce-page a.button,.woocommerce button.button,.woocommerce-page button.button,.woocommerce input.button,.woocommerce-page input.button,.woocommerce #respond input#submit,.woocommerce-page #respond input#submit,.woocommerce #content input.button,.woocommerce-page #content input.button,.woocommerce a.button:hover,.woocommerce-page a.button:hover,.woocommerce button.button:hover,.woocommerce-page button.button:hover,.woocommerce input.button:hover,.woocommerce-page input.button:hover,.woocommerce #respond input#submit:hover,.woocommerce-page #respond input#submit:hover,.woocommerce #content input.button:hover,.woocommerce-page #content input.button:hover,.woocommerce a.button.alt,.woocommerce-page a.button.alt,.woocommerce button.button.alt,.woocommerce-page button.button.alt,.woocommerce input.button.alt,.woocommerce-page input.button.alt,.woocommerce #respond input#submit.alt,.woocommerce-page #respond input#submit.alt,.woocommerce #content input.button.alt,.woocommerce-page #content input.button.alt,.woocommerce a.button.alt:hover,.woocommerce-page a.button.alt:hover,.woocommerce button.button.alt:hover,.woocommerce-page button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce-page input.button.alt:hover,.woocommerce #respond input#submit.alt:hover,.woocommerce-page #respond input#submit.alt:hover,.woocommerce #content input.button.alt:hover,.woocommerce-page #content input.button.alt:hover,ul.products a.add_to_cart_button,ul.products a.button,ul.products a.add_to_cart_button:hover,ul.products a.button:hover,.dropdown_widget .buttons .button.checkout,.buttons .button.checkout, .buttons .button.checkout:hover { border-color: #019fe0; }n.more-link:hover,input[type="button"]:hover,input[type="submit"]:hover,.navigation-posts a:hover,.entry-title:hover h1,span.reply-to a,span.reply-to a:hover,.woocommerce a.button:hover,.woocommerce-page a.button:hover,.woocommerce button.button:hover,.woocommerce-page button.button:hover,.woocommerce input.button:hover,.woocommerce-page input.button:hover,.woocommerce #respond input#submit:hover,.woocommerce-page #respond input#submit:hover,.woocommerce #content input.button:hover,.woocommerce-page #content input.button:hover,.woocommerce a.button.alt:hover,.woocommerce-page a.button.alt:hover,.woocommerce button.button.alt:hover,.woocommerce-page button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce-page input.button.alt:hover,.woocommerce #respond input#submit.alt:hover,.woocommerce-page #respond input#submit.alt:hover,.woocommerce #content input.button.alt:hover,.woocommerce-page #content input.button.alt:hover,ul.products a.add_to_cart_button:hover,ul.products a.button:hover,ul.products a.button:hover i, .buttons .button.checkout:hover { color: #019fe0; }n.icy-donation-amounts ul#amounts li .amount, #wp-calendar tbody td:hover, .blogposts-grid.thumbnails .blog-item .block-content .category a, .blogposts-grid.thumbnails .blog-item .block-content .category,.woocommerce ul.products li.product .onsale, .woocommerce-page ul.products li.product .onsale, .tribe-events-meta-group .tribe-events-single-section-title, ul.tribe-events-sub-nav a, .tribe-events-back a, .tribe-events-list-widget .tribe-events-widget-link a,.tribe-events-adv-list-widget .tribe-events-widget-link a , .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"], .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"]>a,#tribe_events_filters_wrapper input[type=submit], .tribe-events-button, .entry-content .tribe-events-button, .tribe-events-button.tribe-inactive, .entry-content .tribe-events-button:hover, .tribe-events-button:hover, .tribe-events-button.tribe-active:hover, .tribe-events-calendar thead th, .widget .tribe-mini-calendar-nav td, .widget .tribe-mini-calendar .tribe-events-present, .widget .tribe-mini-calendar .tribe-mini-calendar-today, .tribe-mini-calendar .tribe-events-has-events div[id*="daynum-"] a:before, .tribe-mini-calendar td.tribe-events-has-events a:hover, .tribe-mini-calendar .tribe-events-has-events:hover a:hover, .tribe-mini-calendar-event .list-date, h3.tribe-events-related-events-title, .tribe-venue-widget-venue-name, ul.tribe-events-sub-nav a, .tribe-events-back a, .tribe-events-list-widget .tribe-events-widget-link a, .tribe-events-adv-list-widget .tribe-events-widget-link a, #buddypress div.item-list-tabs ul li a span { background-color: #f8f8f8; }n.icy-donation-amounts ul#amounts li .amount,.icy-donation-amounts ul#amounts li .amount.pressed,.icy-donation-amounts ul#amounts li .amount:hover, .woocommerce ul.products li.product a:hover img,.woocommerce-page ul.products li.product a:hover img, ul.tribe-events-sub-nav a, .tribe-events-back a, .tribe-events-list-widget .tribe-events-widget-link a, .tribe-events-adv-list-widget .tribe-events-widget-link a , ul.tribe-events-sub-nav a:hover, .tribe-events-back a:hover, .tribe-events-list-widget .tribe-events-widget-link a:hover, .tribe-events-adv-list-widget .tribe-events-widget-link a:hover, .icy-event-datetime, .widget .tribe-mini-calendar-nav td, div.tribe-countdown-number, ul.tribe-events-sub-nav a, .tribe-events-back a, .tribe-events-list-widget .tribe-events-widget-link a, .tribe-events-adv-list-widget .tribe-events-widget-link a , ul.tribe-events-sub-nav a:hover, .tribe-events-back a:hover, .tribe-events-list-widget .tribe-events-widget-link a:hover, .tribe-events-adv-list-widget .tribe-events-widget-link a:hover { border-color: #f8f8f8; }n.navigation-posts a, .widget-title span,.icy-block-title .first_word,.aq-block-title .first_word, .blogposts-grid .blog-item .meta .small, .blogposts-grid .blog-item .meta .big,.blogposts-grid .blog-item .meta .post-comments a, .blogposts-grid.timeline .day-info .day, .blogposts-grid.timeline .day-info .month, .icy-donation-form .description .body-text, .icy-mailchimp-text .body-text, .icy-donation-amounts ul#amounts li .amount.pressed, .icy-donation-amounts ul#amounts li .amount:hover, .woocommerce ul.cart_list li a,.woocommerce-page ul.cart_list li a,.woocommerce ul.product_list_widget li a,.woocommerce-page ul.product_list_widget li a,.cart_dropdown_first .cart_subtotal, .dropdown_widget ul.cart_list li a , .woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price, .woocommerce .woocommerce-result-count,.woocommerce-page .woocommerce-result-count, .woocommerce .product .entry-summary .price,.woocommerce .sidebar .price_label , .woocommerce ul.cart_list li a,.woocommerce-page ul.cart_list li a,.woocommerce ul.product_list_widget li a,.woocommerce-page ul.product_list_widget li a,.cart_dropdown_first .cart_subtotal, .dropdown_widget ul.cart_list li a, .events-meta-section .icy-button, .events-meta-section p.first-row, ul.tribe-events-sub-nav a:hover, .tribe-events-back a:hover, .tribe-events-list-widget .tribe-events-widget-link a:hover, .tribe-events-adv-list-widget .tribe-events-widget-link a:hover, #tribe-bar-form input[type="text"], #tribe-bar-form ::-webkit-input-placeholder, #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a, .tribe-events-calendar td.tribe-events-past div[id*="tribe-events-daynum-"], .tribe-events-calendar td.tribe-events-past div[id*="tribe-events-daynum-"]>a, .tribe-events-list-separator-month span, .tribe-mini-calendar th, .tribe-mini-calendar .tribe-events-has-events a, .tribe-mini-calendar .tribe-events-has-events a, .tribe-events-day .tribe-events-day-time-slot h5, ul.tribe-events-sub-nav a:hover, .tribe-events-back a:hover, .tribe-events-list-widget .tribe-events-widget-link a:hover, .tribe-events-adv-list-widget .tribe-events-widget-link a:hover, #buddypress #activity-stream .activity-header p, #buddypress .standard-form label,#buddypress .standard-form span.label, #buddypress span.activity, #buddypress div.item-list-tabs#subnav ul li.last, #buddypress div.profile h4, .widget.buddypress ul.item-list li a { color: #f8f8f8; }n</style>
+<style type="text/css" media="screen"> .simple-social-icons ul li a, .simple-social-icons ul li a:hover { background-color: #999999 !important; border-radius: 3px; color: #ffffff !important; border: 0px #ffffff solid !important; font-size: 18px; padding: 9px; }  .simple-social-icons ul li a:hover { background-color: #666666 !important; border-color: #ffffff !important; color: #ffffff !important; }</style> 
+    
+    <!-- html5.js for IE less than 9 -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- css3-mediaqueries.js for IE less than 9 -->
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+    <![endif]-->
+    
+<script type="text/javascript" src="http://www.pedroantonio.org/dist/whatsapp-button.js"></script> 
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-553f44cb042d3787" async></script>-->
+
+
+  
+</head>
+<!-- END head section -->
+
+<!-- START body -->
+<body class="home-page home page page-id-188 page-template-default body-content unknown icy-pixels tribe-theme-senator page-template-page-php no-js">
+
+<!-- START #top -->    
+<header class="clearfix row-fluid">
+
+    <!-- START .hello-bar -->
+    <section id="cab" class="hello-bar wrapper clearfix icy-widget-area">
+
+            <div class="message-wrapper span4" style="margin:0; padding:0;">            
+                
+                                         
+                                
+                    <div id="text-3" class="widget widget_text">
+                                
+                    <div class="textwidget"><a href="http://www.ppmurcia.org" target="_blank"><img src="http://www.pedroantonio.org/img/logo_pp_murcia.jpg" border="0" class="logo_pp"></a>
+                    </div>
+                    
+                    </div>                
+                            
+                
+            </div> 
+    
+            <div class="social-icons-wrapper span4">
+
+                                
+                
+                    <div id="simple-social-icons-3" class="widget simple-social-icons"><ul class="alignright"><li><a href="https://www.change.org/es/decision-makers/pedro-antonio-sanchez" target="_blank"><img src="http://www.pedroantonio.org/img/change.png" border="0" style="margin-top:3px;"></a></li><li class="social-facebook"><a href="https://www.facebook.com/pedroantonio.sanchezlopez?fref=ts" target="_blank"></a></li><li class="social-twitter"><a href="https://twitter.com/PedroAntonio_RM" target="_blank"></a></li><li class="social-youtube"><a href="https://www.youtube.com/channel/UCWIvdSOG0lY9V8CUnyB5vrg" target="_blank"></a></li><br><li><a href="http://www.pedroantonio.org/src/programa_lectura_facil.pdf" target="_blank" style="width:150px;"><img src="http://www.pedroantonio.org/img/bt_programa_facil.png" border="0" style="margin-top:3px;"></a></li></ul>
+                    </div>
+                                  
+                
+            </div>  
+            
+            
+
+            
+
+    <!-- END .hello-bar -->
+    </section>
+
+</header>
+<!-- END header -->
+
+<!-- START .row-fluid -->
+<section id="top" class="row-fluid">
+
+    <div class="wrapper">
+
+        <div class="logo-wrapper extend">
+            <!-- START #logo -->
+            <a href="http://www.pedroantonio.org" class="logo">
+                                                    
+                    <span class="text_logo">
+					<b class="tit1">Pedro</b><b class="tit2">Antonio</b>
+                    </span>
+                    
+                                <!-- END #logo -->
+            </a>
+        <!-- END .logo-wrapper -->
+        </div>
+        <div class="icy-menu-trigger-wrapper">
+            <span class="nav-btn icy-menu-trigger">Menú</span>         
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- START #primary-nav -->
+<nav id="primary-nav" class="primary-nav row-fluid" role="navigation">                
+        <ul id="menu-menu-1" class="menu"><li id="menu-item-419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-419"><a href="http://www.pedroantonio.org/hola/">¡Hola!</a></li>
+<li id="menu-item-416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-416"><a href="http://www.pedroantonio.org/la-politica-es-otra-cosa/">La política es otra cosa</a></li>
+<li id="menu-item-445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-445"><a href="http://www.pedroantonio.org/donde-estoy-hoy/">Dónde estoy hoy</a></li>
+<li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-423"><a href="http://www.pedroantonio.org/medidas/">Medidas</a></li>
+<li id="menu-item-493" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493"><a href="http://www.pedroantonio.org/category/noticias/">Noticias</a></li>
+<li id="menu-item-474" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-474"><a target="_blank" href="https://www.osoigo.com/es/p/pedro-antonio-sanchez.html">Propón y pregunta</a></li>
+</ul>  
+
+<!-- LLAMADA <a data-hover="Shop" href="http://www.pedroantonio.org/?page_id=387">blabla</a> -->
+
+
+</nav>
+<!-- END #primary-nav -->   
+
+<nav id="icy-nav" class="mobile-navigation" role="navigation">                
+<ul id="menu-menu-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-419"><a href="http://www.pedroantonio.org/hola/">¡Hola!</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-416"><a href="http://www.pedroantonio.org/la-politica-es-otra-cosa/">La política es otra cosa</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-445"><a href="http://www.pedroantonio.org/donde-estoy-hoy/">Dónde estoy hoy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-423"><a href="http://www.pedroantonio.org/medidas/">Medidas</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493"><a href="http://www.pedroantonio.org/category/noticias/">Noticias</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-474"><a target="_blank" href="https://www.osoigo.com/es/p/pedro-antonio-sanchez.html">Propón y pregunta</a></li>
+</ul></nav>   
+
+
+<!-- START #main-container -->
+<section class="row-fluid main-container">
+	<!-- START .primary -->
+	<section class="wrapper primary">
+		<!-- START .content -->
+		<section class="span12 content">		
+
+		        
+        	<!--BEGIN article -->
+        	<article class="post-188 page type-page status-publish hentry" id="post-188">                       
+
+	            <!--BEGIN .entry-content -->
+	            <div class="entry-content">	            
+	                        
+	                <div id="aq-template-wrapper-401" class="aq-template-wrapper aq_row"><div id="aq-block-401-1" class="aq-block aq-block-icy_text_block aq_span12 aq-first clearfix"><div class="left-aligned"><div id="aq-block-401-6" class="aq-block aq-block-icy_posts_block aq_span12 aq-first clearfix">
+<section class="icy-blogposts-wrapper icy-block">
+<ul style="position: relative; height: 999.2px;" class="blogposts-grid blog-block masonry row-fluid">
+<p>		            		<!--BEGIN .post --></p>
+<li style="position: absolute; left: 0px; top: 0px; border:none;" class="post-331 post type-post status-publish format-gallery has-post-thumbnail hentry category-issues category-news tag-commitment tag-rewards  post-1 blog-item-grid blog-item masonry grid-sizer three" id="post-331">
+<div class="row-fluid">
+<section class="span12 table-cell entry-content">
+<p><a href="http://www.pedroantonio.org/?page_id=413"><img style="border:5px solid #fff;" src="http://www.pedroantonio.org/img/img2.jpg" onmouseover="this.src='http://www.pedroantonio.org/img/img2-2.jpg'" onmouseout="this.src='http://www.pedroantonio.org/img/img2.jpg'" /></a>				        		                                           									    </p>
+</section></div>
+</li>
+<p>		            		<!--BEGIN .post --></p>
+<li style="position: absolute; left: 0px; top: 0px; border:none;" class="post-331 post type-post status-publish format-gallery has-post-thumbnail hentry category-issues category-news tag-commitment tag-rewards  post-1 blog-item-grid blog-item masonry grid-sizer three" id="post-331">
+<div class="row-fluid">
+<section class="span12 table-cell entry-content">
+<p><a href="http://www.pedroantonio.org/?page_id=433"><img style="border:5px solid #fff;" src="http://www.pedroantonio.org/img/img3.jpg" onmouseover="this.src='http://www.pedroantonio.org/img/img3-2.jpg'" onmouseout="this.src='http://www.pedroantonio.org/img/img3.jpg'" /></a>				        		                                         									    </p>
+</section></div>
+</li>
+<p>		            		<!--BEGIN .post --></p>
+<li style="position: absolute; right: 0px; top: 0px; border:none;" class="post-331 post type-post status-publish format-gallery has-post-thumbnail hentry category-issues category-news tag-commitment tag-rewards  post-1 blog-item-grid blog-item masonry grid-sizer three" id="post-331">
+<div class="row-fluid">
+<section class="span12 table-cell entry-content">
+<p><a href="http://www.pedroantonio.org/?page_id=421"><img style="border:5px solid #fff;" src="http://www.pedroantonio.org/img/img4.jpg" onmouseover="this.src='http://www.pedroantonio.org/img/img4-2.jpg'" onmouseout="this.src='http://www.pedroantonio.org/img/img4.jpg'" /></a>				        		                                        									    </p>
+</section></div>
+</li>
+</ul>
+</section>
+</div>
+</div></div><div id="aq-block-401-2" class="aq-block aq-block-icy_text_block aq_span12 aq-first clearfix"><div class="left-aligned"><div id="aq-block-401-6" class="aq-block aq-block-icy_posts_block aq_span12 aq-first clearfix">
+<section class="icy-blogposts-wrapper icy-block">
+<ul style="position: relative; height: 999.2px;" class="blogposts-grid blog-block masonry row-fluid">
+<p>		            		<!--BEGIN .post --></p>
+<li style="position: absolute; left: 0px; top: 0px; border:none;" class="post-331 post type-post status-publish format-gallery has-post-thumbnail hentry category-issues category-news tag-commitment tag-rewards  post-1 blog-item-grid blog-item masonry grid-sizer three" id="post-331">
+<div class="row-fluid">
+<section class="span12 table-cell entry-content">
+<p><iframe width="300" height="400" src="https://www.youtube.com/embed/kfPp2yvUeYc" frameborder="0" allowfullscreen></iframe>     		                                           									    </p>
+</section></div>
+</li>
+<p>		            		<!--BEGIN .post --></p>
+<li style="position: absolute; left: 0px; top: 0px; border:none;" class="post-331 post type-post status-publish format-gallery has-post-thumbnail hentry category-issues category-news tag-commitment tag-rewards  post-1 blog-item-grid blog-item masonry grid-sizer three" id="post-331">
+<div class="row-fluid">
+<section class="span12 table-cell entry-content">
+<div style="width:370px; height:400px;">
+<iframe src="https://www.osoigo.com/widget/politician/2995" width="100%" height="100%" frameborder="0"></iframe>
+</div>
+</section></div>
+</li>
+<p>		            		<!--BEGIN .post --></p>
+<li style="position: absolute; right: 0px; top: 0px; border:none;" class="post-331 post type-post status-publish format-gallery has-post-thumbnail hentry category-issues category-news tag-commitment tag-rewards  post-1 blog-item-grid blog-item masonry grid-sizer three" id="post-331">
+<div class="row-fluid">
+<section class="span12 table-cell entry-content">
+<p> <a class="twitter-timeline" href="https://twitter.com/PedroAntonio_RM" data-widget-id="591296247870402561">Tweets por el @PedroAntonio_RM.</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 			        		                                        									    </p>
+</section></div>
+</li>
+</ul>
+</section>
+</div>
+</div></div><div id="aq-block-401-3" class="aq-block aq-block-icy_posts_block aq_span12 aq-first clearfix">			
+
+			<section class="icy-blogposts-wrapper icy-block">
+
+				<h1 class="icy-block-title">
+					<span class="first_word"></span>
+					<span class="second_word">A DESTACAR</span>
+				</h1>		
+
+				<ul class="blogposts-grid blog-block masonry row-fluid">						
+
+			    	
+		            		<!--BEGIN .post -->
+							<li class="post-974 post type-post status-publish format-standard has-post-thumbnail hentry category-a-destacar category-noticias  post-1 blog-item-grid blog-item masonry grid-sizer three" id="post-974">								
+
+							    				    
+
+							    <div class="row-fluid blog-article">							     
+							           
+							        <section class="span12 table-cell entry-content">     							            
+
+							            <figure class="picture row-fluid">   
+
+							            	<div class="media">
+
+											       
+										        	<a href="http://www.pedroantonio.org/pedro-antonio-propone-medio-centenar-de-reformas-para-abrir-una-nueva-etapa-de-dialogo-politico-y-codecision-ciudadana/" title="Permalink to: Pedro Antonio propone medio centenar de reformas &#8220;para abrir una nueva etapa de diálogo político y codecisión ciudadana&#8221;">
+										        		<img width="900" height="598" src="http://www.pedroantonio.org/wp-content/uploads/2015/06/img_8143-900x598.jpg" class="attachment-thumbnail-blog wp-post-image" alt="img_8143" />           
+													</a>					        		
+										           
+
+										    </div>
+
+									        <!--<a class="article-link" href="">
+								                <h1 class="entry-title"></h1>     
+								            </a>-->
+
+								             <!-- GRAVATAR AQUÍ!!!!!!!!!!!!!!!!!! -->
+										    <figure class="author-avatar">
+										    	<a href="http://www.pedroantonio.org/pedro-antonio-propone-medio-centenar-de-reformas-para-abrir-una-nueva-etapa-de-dialogo-politico-y-codecision-ciudadana/" title="leer más">
+													<img src="http://www.pedroantonio.org/img/gravatar.jpg" class="avatar user-1-avatar avatar-92 photo" alt="leer más" height="92" width="92">
+												</a>
+											</figure>
+												     
+									    </figure>                                         									    
+
+									               
+
+							            							                <section class="post-meta primary-meta">							                        						                                                   
+
+						                        <div class="share-icons">                
+						                            <a onclick="window.open('http://twitter.com/home?status=Pedro%20Antonio%20propone%20medio%20centenar%20de%20reformas%20%26%238220%3Bpara%20abrir%20una%20nueva%20etapa%20de%20di%C3%A1logo%20pol%C3%ADtico%20y%20codecisi%C3%B3n%20ciudadana%26%238221%3B%20-%20http://www.pedroantonio.org/pedro-antonio-propone-medio-centenar-de-reformas-para-abrir-una-nueva-etapa-de-dialogo-politico-y-codecision-ciudadana/','twitter','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return false;" href="http://twitter.com/home?status=Pedro%20Antonio%20propone%20medio%20centenar%20de%20reformas%20%26%238220%3Bpara%20abrir%20una%20nueva%20etapa%20de%20di%C3%A1logo%20pol%C3%ADtico%20y%20codecisi%C3%B3n%20ciudadana%26%238221%3B%20-%20http://www.pedroantonio.org/pedro-antonio-propone-medio-centenar-de-reformas-para-abrir-una-nueva-etapa-de-dialogo-politico-y-codecision-ciudadana/" title="Pedro Antonio propone medio centenar de reformas &#8220;para abrir una nueva etapa de diálogo político y codecisión ciudadana&#8221;" target="blank" class="icy-social icon twitter"></a>
+						                            <a onclick="window.open('http://www.facebook.com/share.php?u=http://www.pedroantonio.org/pedro-antonio-propone-medio-centenar-de-reformas-para-abrir-una-nueva-etapa-de-dialogo-politico-y-codecision-ciudadana/','facebook','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return false;" href="http://www.facebook.com/share.php?u=http://www.pedroantonio.org/pedro-antonio-propone-medio-centenar-de-reformas-para-abrir-una-nueva-etapa-de-dialogo-politico-y-codecision-ciudadana/" title="Pedro Antonio propone medio centenar de reformas &#8220;para abrir una nueva etapa de diálogo político y codecisión ciudadana&#8221;" target="blank" class="icy-social icon facebook"></a>
+						                        </div>                                                                                                       
+							                </section>  
+
+							            <article class="article-content">  
+                                        
+                                        <a class="article-link" href="http://www.pedroantonio.org/pedro-antonio-propone-medio-centenar-de-reformas-para-abrir-una-nueva-etapa-de-dialogo-politico-y-codecision-ciudadana/">
+								                <h1 style="font-size:19px; line-height:23px; color:#019fe0;">Pedro Antonio propone medio centenar de reformas &#8220;para abrir una nueva etapa de diálogo político y codecisión ciudadana&#8221;</h1>     
+								            </a> 
+                                            
+                                                                         
+							                <p>El candidato del PP a la presidencia de la Comunidad Autónoma, Pedro Antonio, ha propuesto medio centenar de reformas “valientes,&#8230;</p>
+							            </article>  
+
+						            	<!--<section class="post-meta secondary-meta">  
+
+					                        <span class="meta-info">
+					                            <span class="icon-time"></span>							                            
+					                            <strong></strong>
+					                        </span>
+
+					                    </section>-->
+						                        
+							        </section>   
+
+							    </div>
+
+							</li>
+						
+		            		<!--BEGIN .post -->
+							<li class="post-970 post type-post status-publish format-standard has-post-thumbnail hentry category-a-destacar category-noticias  post-2 blog-item-grid blog-item masonry grid-sizer three" id="post-970">								
+
+							    				    
+
+							    <div class="row-fluid blog-article">							     
+							           
+							        <section class="span12 table-cell entry-content">     							            
+
+							            <figure class="picture row-fluid">   
+
+							            	<div class="media">
+
+											       
+										        	<a href="http://www.pedroantonio.org/discurso-de-investidura-de-pedro-antonio/" title="Permalink to: Discurso de investidura de Pedro Antonio">
+										        		<img width="900" height="599" src="http://www.pedroantonio.org/wp-content/uploads/2015/06/PedroAntonio-900x599.jpg" class="attachment-thumbnail-blog wp-post-image" alt="PedroAntonio" />           
+													</a>					        		
+										           
+
+										    </div>
+
+									        <!--<a class="article-link" href="">
+								                <h1 class="entry-title"></h1>     
+								            </a>-->
+
+								             <!-- GRAVATAR AQUÍ!!!!!!!!!!!!!!!!!! -->
+										    <figure class="author-avatar">
+										    	<a href="http://www.pedroantonio.org/discurso-de-investidura-de-pedro-antonio/" title="leer más">
+													<img src="http://www.pedroantonio.org/img/gravatar.jpg" class="avatar user-1-avatar avatar-92 photo" alt="leer más" height="92" width="92">
+												</a>
+											</figure>
+												     
+									    </figure>                                         									    
+
+									               
+
+							            							                <section class="post-meta primary-meta">							                        						                                                   
+
+						                        <div class="share-icons">                
+						                            <a onclick="window.open('http://twitter.com/home?status=Discurso%20de%20investidura%20de%20Pedro%20Antonio%20-%20http://www.pedroantonio.org/discurso-de-investidura-de-pedro-antonio/','twitter','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return false;" href="http://twitter.com/home?status=Discurso%20de%20investidura%20de%20Pedro%20Antonio%20-%20http://www.pedroantonio.org/discurso-de-investidura-de-pedro-antonio/" title="Discurso de investidura de Pedro Antonio" target="blank" class="icy-social icon twitter"></a>
+						                            <a onclick="window.open('http://www.facebook.com/share.php?u=http://www.pedroantonio.org/discurso-de-investidura-de-pedro-antonio/','facebook','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return false;" href="http://www.facebook.com/share.php?u=http://www.pedroantonio.org/discurso-de-investidura-de-pedro-antonio/" title="Discurso de investidura de Pedro Antonio" target="blank" class="icy-social icon facebook"></a>
+						                        </div>                                                                                                       
+							                </section>  
+
+							            <article class="article-content">  
+                                        
+                                        <a class="article-link" href="http://www.pedroantonio.org/discurso-de-investidura-de-pedro-antonio/">
+								                <h1 style="font-size:19px; line-height:23px; color:#019fe0;">Discurso de investidura de Pedro Antonio</h1>     
+								            </a> 
+                                            
+                                                                         
+							                <p>Aquí puedes descargar en formato PDF el discurso de investidura de Pedro Antonio, pronunciado ante el Pleno de la Asamblea&#8230;</p>
+							            </article>  
+
+						            	<!--<section class="post-meta secondary-meta">  
+
+					                        <span class="meta-info">
+					                            <span class="icon-time"></span>							                            
+					                            <strong></strong>
+					                        </span>
+
+					                    </section>-->
+						                        
+							        </section>   
+
+							    </div>
+
+							</li>
+						
+		            		<!--BEGIN .post -->
+							<li class="post-958 post type-post status-publish format-standard has-post-thumbnail hentry category-a-destacar category-noticias  post-3 blog-item-grid blog-item masonry grid-sizer three" id="post-958">								
+
+							    				    
+
+							    <div class="row-fluid blog-article">							     
+							           
+							        <section class="span12 table-cell entry-content">     							            
+
+							            <figure class="picture row-fluid">   
+
+							            	<div class="media">
+
+											       
+										        	<a href="http://www.pedroantonio.org/pedro-antonio-propone-que-la-reforma-de-la-ley-electoral-se-someta-a-consulta-ciudadana/" title="Permalink to: Pedro Antonio propone que la reforma de la ley electoral se someta a consulta ciudadana">
+										        		<img width="900" height="600" src="http://www.pedroantonio.org/wp-content/uploads/2015/06/2015.06.15_pas_asamblea-900x600.jpeg" class="attachment-thumbnail-blog wp-post-image" alt="2015.06.15_pas_asamblea" />           
+													</a>					        		
+										           
+
+										    </div>
+
+									        <!--<a class="article-link" href="">
+								                <h1 class="entry-title"></h1>     
+								            </a>-->
+
+								             <!-- GRAVATAR AQUÍ!!!!!!!!!!!!!!!!!! -->
+										    <figure class="author-avatar">
+										    	<a href="http://www.pedroantonio.org/pedro-antonio-propone-que-la-reforma-de-la-ley-electoral-se-someta-a-consulta-ciudadana/" title="leer más">
+													<img src="http://www.pedroantonio.org/img/gravatar.jpg" class="avatar user-1-avatar avatar-92 photo" alt="leer más" height="92" width="92">
+												</a>
+											</figure>
+												     
+									    </figure>                                         									    
+
+									               
+
+							            							                <section class="post-meta primary-meta">							                        						                                                   
+
+						                        <div class="share-icons">                
+						                            <a onclick="window.open('http://twitter.com/home?status=Pedro%20Antonio%20propone%20que%20la%20reforma%20de%20la%20ley%20electoral%20se%20someta%20a%20consulta%20ciudadana%20-%20http://www.pedroantonio.org/pedro-antonio-propone-que-la-reforma-de-la-ley-electoral-se-someta-a-consulta-ciudadana/','twitter','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return false;" href="http://twitter.com/home?status=Pedro%20Antonio%20propone%20que%20la%20reforma%20de%20la%20ley%20electoral%20se%20someta%20a%20consulta%20ciudadana%20-%20http://www.pedroantonio.org/pedro-antonio-propone-que-la-reforma-de-la-ley-electoral-se-someta-a-consulta-ciudadana/" title="Pedro Antonio propone que la reforma de la ley electoral se someta a consulta ciudadana" target="blank" class="icy-social icon twitter"></a>
+						                            <a onclick="window.open('http://www.facebook.com/share.php?u=http://www.pedroantonio.org/pedro-antonio-propone-que-la-reforma-de-la-ley-electoral-se-someta-a-consulta-ciudadana/','facebook','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return false;" href="http://www.facebook.com/share.php?u=http://www.pedroantonio.org/pedro-antonio-propone-que-la-reforma-de-la-ley-electoral-se-someta-a-consulta-ciudadana/" title="Pedro Antonio propone que la reforma de la ley electoral se someta a consulta ciudadana" target="blank" class="icy-social icon facebook"></a>
+						                        </div>                                                                                                       
+							                </section>  
+
+							            <article class="article-content">  
+                                        
+                                        <a class="article-link" href="http://www.pedroantonio.org/pedro-antonio-propone-que-la-reforma-de-la-ley-electoral-se-someta-a-consulta-ciudadana/">
+								                <h1 style="font-size:19px; line-height:23px; color:#019fe0;">Pedro Antonio propone que la reforma de la ley electoral se someta a consulta ciudadana</h1>     
+								            </a> 
+                                            
+                                                                         
+							                <p>El candidato del PP a la Comunidad de Murcia, Pedro Antonio, ha recordado que comienza “la legislatura más reformista y&#8230;</p>
+							            </article>  
+
+						            	<!--<section class="post-meta secondary-meta">  
+
+					                        <span class="meta-info">
+					                            <span class="icon-time"></span>							                            
+					                            <strong></strong>
+					                        </span>
+
+					                    </section>-->
+						                        
+							        </section>   
+
+							    </div>
+
+							</li>
+						            	</ul>
+
+			</section>
+
+				
+							          
+			</div></div>
+	                            
+	                	           <!--END .entry-content -->
+	            </div>	
+
+	        </article>		
+
+						
+
+					
+					<!-- END .content -->
+		</section>
+
+	<!-- END .primary -->
+	</section>	
+
+  	
+
+
+<!--END .wrapper -->
+</section>
+
+
+    <!-- START .secondary-footer -->
+    <footer class="secondary-footer row-fluid icy-widget-area">
+        <div class="wrapper">
+
+            <section class="span8">
+
+                <section class="row-fluid copyright span3">                
+                            <ul class="alignleft">
+                                <li><a href="http://www.pedroantonio.org/?page_id=560" class="afooter">AVISO LEGAL</a></li>
+                            </ul>
+                </section>
+                
+                <section class="row-fluid copyright span4">                
+                            <ul class="alignleft">
+                                <li><a href="http://www.pedroantonio.org/?page_id=417" class="afooter">¡HOLA!</a></li>
+                                <li><a href="https://www.osoigo.com/es/p/pedro-antonio-sanchez.html" class="afooter" target="_blank">PROPÓN Y PREGUNTA</a></li>
+                                <li><a href="http://www.pedroantonio.org/?page_id=413" class="afooter">LA POLÍTICA ES OTRA COSA</a></li>
+                                <li><a href="http://www.pedroantonio.org/?page_id=433" class="afooter">DÓNDE ESTOY HOY</a></li>
+                                <li><a href="http://www.pedroantonio.org/?page_id=421" class="afooter">MEDIDAS</a></li>
+                                <li><a href="http://www.pedroantonio.org/?cat=60" class="afooter">NOTICIAS</a></li>
+                            </ul>
+                </section>
+                
+                <section class="row-fluid copyright span2">                
+                            <ul class="alignleft">
+                                <li><a href="http://www.ppmurcia.org/inicio.asp?ipag=1" target="_blank"><img src="http://www.pedroantonio.org/img/logo_footer.png" /></a></li>
+                            </ul>
+                </section>                
+                
+                <section class="row-fluid copyright span3">                
+                            <ul class="alignleft">
+                                <li class="txt_contacto2">CONTACTO</li>
+                                <li class="txt_contacto">C/ GONZÁLEZ ADALID 2</li>
+                                <li class="txt_contacto">30001 MURCIA</li>
+                                <li class="txt_contacto">T. 968 21 22 69</li>
+                                <li><a href="mailto:info@pedroantonio.org" class="afooter2">info@pedroantonio.org</a></li>
+                            </ul>
+                </section>                              
+                           
+            </section>
+
+            <section class="secondary-nav span4 social-icons-wrapper">
+                <div id="simple-social-icons-3" class="widget simple-social-icons"><ul class="alignright"><li><a href="https://www.change.org/es/decision-makers/pedro-antonio-sanchez" target="_blank"><img src="http://www.pedroantonio.org/img/change.png" border="0" style="margin-top:3px;"></a></li><li class="social-facebook"><a href="https://www.facebook.com/pedroantonio.sanchezlopez?fref=ts" target="_blank"></a></li><li class="social-twitter"><a href="https://twitter.com/PedroAntonio_RM" target="_blank"></a></li><li class="social-youtube"><a href="https://www.youtube.com/channel/UCWIvdSOG0lY9V8CUnyB5vrg" target="_blank"></a></li></ul>
+                    </div>
+            </section>
+
+        </div>
+    <!-- END .secondary-footer -->
+    </footer>
+
+    <!-- Theme Hook -->
+	
+<!-- Generated in 1,892 seconds. (71 q) -->
+
+	<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/plugins/aqua-page-builder/assets/javascripts/aqpb-view.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-includes/js/comment-reply.min.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.pedroantonio.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Enviando..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","i18n_view_cart":"View Cart","cart_url":"","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.pedroantonio.org/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js'></script>
+<script type='text/javascript' src='//www.pedroantonio.org/wp-content/plugins/woocommerce/assets/js/select2/select2.min.js'></script>
+<script type='text/javascript' src='//www.pedroantonio.org/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.pedroantonio.org/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js'></script>
+<script type='text/javascript' src='//www.pedroantonio.org/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.pedroantonio.org/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/themes/senator/js/modernizr.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/themes/senator/js/superfish.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/themes/senator/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/themes/senator/js/jquery.icyscripts.min.js'></script>
+<script type='text/javascript' src='http://www.pedroantonio.org/wp-content/themes/senator/js/jquery.custom.js'></script>
+<!--END body-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61889800-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>        
+<!--END html-->
+</html>

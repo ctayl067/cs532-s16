@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Ranch Ricavo</title>
+
+<link rel="stylesheet" href="http://www.ranchricavo.it/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.1.8.3" type="text/css" media="all" />
+  <meta name="description" content="La forza che ci muove è la passione per il nostro sogno">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href='//fonts.googleapis.com/css?family=Lobster&v1' rel='stylesheet' type='text/css'>
+    
+  <link rel="stylesheet" href="http://www.ranchricavo.it/wp-content/plugins/ultimate-coming-soon-page/inc/template/style.css">
+
+    <style type="text/css">
+    body{
+        background: #ffffff url('http://www.ranchricavo.it/wp-content/uploads/2014/06/1500x800-495x400.jpg') repeat;
+                  background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: top center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+            }
+        #coming-soon-container{
+        font-family:Helvetica, Arial, sans-serif;
+    }
+            #teaser-headline{
+        font-family:"Lobster",sans-serif;
+    }
+    
+        #coming-soon-container, #coming-soon-footer{
+        color:#fff;
+                text-shadow: #333 1px 1px 0px;
+            }
+    
+    .box {
+    float: left;
+    background-color: rgba(82, 77, 71, 0.56);
+    color: #FFF!important;
+    border-bottom: 3px solid #d3cec2;
+    border-top: 3px solid #d3cec2;
+    margin: 2px;
+    padding: 2px;
+    width: 242px;
+    height: 150px;
+}  </style>
+  </head>
+
+<body id="coming-soon-page">
+
+  <div id="coming-soon-container">
+    <div id="coming-soon-main" role="main">
+        <div id="coming-soon">
+                        <img id="teaser-image" src="http://www.ranchricavo.it/wp-content/uploads/2015/01/logo-nero-png-450x156.png" alt="Teaser" usemap="#teaser-image" />
+                        <h1 id="teaser-headline">SITO IN MANUTENZIONE - WEBSITE MAINTENANCE </h1>
+            <div id="teaser-description"><p><!--
+
+<div class="box" style="text-align: center;"><strong>SOGGIORNI
+ELENA</strong>
+info@ranchricavo.it</div>
+
+
+
+<div class="box" style="text-align: center;"><strong>TREKKING
+SARA</strong>
+info@ranchricavo.it</div>
+
+
+
+<div class="box" style="text-align: center;"><strong>FOREIGN  TOURISTS
+SILVIA</strong>
+silvia@ranchricavo.it</div>
+
+
+
+<div class="box" style="text-align: center;"><strong>INFORMAZIONI
+MARCO</strong>
+Cell. 3392264400
+marco@ranchricavo.it</div>
+
+
+--></p>
+</div>
+                        
+
+        </div>
+    </div> <!--! end of #main -->
+  </div> <!--! end of #container -->
+  <div id="coming-soon-footer">
+       <script src="http://www.ranchricavo.it/wp-includes/js/jquery/jquery.js"></script>
+  <script src="http://www.ranchricavo.it/wp-content/plugins/ultimate-coming-soon-page/inc/template/script.js"></script>
+  <!--[if lt IE 7 ]>
+      <script src="http://www.ranchricavo.it/wp-content/plugins/ultimate-coming-soon-page/inc/template/dd_belatedpng.js"></script>
+      <script>DD_belatedPNG.fix('img, .png_bg');</script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script>
+  jQuery(document).ready(function($){
+        $('#supersized').css('display','fixed');
+    $.supersized({
+      slides:[ {image : 'http://www.ranchricavo.it/wp-content/uploads/2014/06/1500x800-495x400.jpg'} ]
+    });
+      });
+    $('input').placeholder();
+  </script>
+  <![endif]-->
+</body>
+</html>
+
+
+
+<!-- Ultimate Coming Soon Page by SeedProd. Learn more: http://www.seedprod.com -->
+

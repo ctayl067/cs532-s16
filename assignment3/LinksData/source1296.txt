@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <title>treastrain</title>
+	<meta name="author" content="treastrain / Tanaka Ryoga">
+	<meta name="reply-to" content="treastrain&#64;treastrain.jp">
+	<meta name="copyright" content="&copy; treastrain / Tanaka Ryoga 2016">
+	<meta name="generator" content="mi, ndon">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+	<style type="text/css">
+@font-face {
+    font-family: "myFont";
+    src: url("NotoSansCJKJP_Profile.woff") format('woff');
+    }
+    .myFontClass {
+    font-family: "myFont";
+    }
+    </style>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60600408-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+  <section id="top" name="top"></section>
+<input type="radio" name="font-size" id="lang-ja" value="1" checked>
+<input type="radio" name="font-size" id="lang-en" value="2">
+	<div id="section-topbar">
+		<div id="topbar-inner">
+			<div class="container">
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="#top" title="About"><img class="img-responsive-h" src="assets/img/Logo_ts-w.svg" alt="treastrain"></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
+						</ul><!--/ uL#nav -->
+					</div><!-- /.dropdown -->
+					<div class="clear"></div>
+				</div><!--/.row -->
+			</div><!--/.container -->
+			<div class="clear"></div>
+		</div><!--/ #topbar-inner -->
+	</div><!--/ #section-topbar -->
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<h1><img class="img-responsive" src="assets/img/Logo_ts-w.svg" alt="treastrain"></h1>
+					<h3 lang="ja"><span class="myFontClass">プロフィールページ</span> | <span class="myFontClass">日本語</span> | <label for="lang-en">English</label><br><br><a href="https://twitter.com/treastrain" class="twitter-follow-button" data-show-count="false" data-lang="ja" data-size="large">@treastrainさんをフォロー</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></h3>
+					<h3 lang="en">Profile Page | <label for="lang-ja"><span class="myFontClass">日本語</span></label> | English<br><br><a href="https://twitter.com/treastrain" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @treastrain</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></h3>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.#headerwrap -->
+	<section id="work" name="work"></section>
+	<!--PORTFOLIO DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>INFO</h5>
+				</div>
+				<div class="col-lg-9">
+					<p lang="ja"><more><span class="myFontClass">ブログじゃない。伝えたい事だけをまとめたサイト。</span><a href="http://press.treastrain.jp">treastrain Press <span class="myFontClass">へはこちら。</a></span><br></more> 
+				</p>
+				<p lang="en"><more>This is not a blog. Information that I do want to tell. <a href="http://press.treastrain.jp">Access to treastrain Press</a>.<br></more> 
+				</p>
+				<hr>
+			</div>
+				<div class="col-lg-9 col-lg-offset-3">
+					<p lang="ja"><more>treastrain Press <span class="myFontClass">では、</span>iOS Firmware ( ipsw )<span class="myFontClass">のダウンロードも行えます。</span><br></more> 
+				</p>
+				<p lang="en"><more>This is not a blog. Information that I do want to tell. <a href="http://press.treastrain.jp">Access to treastrain Press</a>.<br></more> 
+				</p>
+				<hr>
+			</div>
+		</div><!--/.row -->
+		<br>
+		<br>
+	</div><!--/.container -->
+	<section id="about" name="about"></section>
+	<div id="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p lang="ja">treastrain <span class="myFontClass">といいます。読み方は"ティーアールイーストレイン"です。 <br>
+小学校低学年で自由にパソコンを使えるようになりました。 <br>
+小学4年の頃にはホームページを作成して公開していました。 <br>
+小学5年の頃、当時発売され始めた画面をタッチするタイプの<br>
+スマートフォンを見て、
+アップル社の</span> iPod touch <span class="myFontClass">に興味を持ち、<br>
+両親に購入してもらいました。 <br>
+中学校になると、中古の</span> MacBook Air <span class="myFontClass">を買ってもらったところから<br>
+俗に言うアップル信者となり、周囲の人に布教を始めました。 <br>
+また、小さい頃からの経験を活かして、友人の機械など、<br>
+ソフトウェアの面での不具合を解決する手助けをするようになりました。 <br>
+中学校高学年の時には、映像作品を作ることにも興味を持ち、<br>
+通っていた中学校などで放映するための映像を製作しました。 <br>
+また、そのころから</span> Google+ <span class="myFontClass">で活動を始め、<br>
+様々な人とインターネット上で知り合ったことで<br>
+活動の幅が広がっています。 <br>
+趣味はパソコンをいじったりすることはもちろんですが、<br>写真を撮ることも好きです。後は、新幹線。かっこ良すぎます。</span></p>
+					<p lang="en">
+					<!-- tíːάɚíːstreɪn -->
+					Sorry. This section is currently being translated.
+					</p>
+				</div>
+				
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
+	<!--AWARDS DESCRIPTION -->
+	<!-- <div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>AWARDS</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Best Web Design</t><br/>
+						Black Tie Site <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>NOVEMBER 2013</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Designer of the Year</t><br/>
+						Awwwards Site
+					</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>2013</sm></p>
+				</div>
+		
+		</div><!--/.row -->
+	</div><!--/.container -->
+	<section id="work" name="work"></section>
+	<!--PORTFOLIO DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>PORTFOLIO</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><a href="http://press.treastrain.jp"><img class="img-responsive" src="assets/img/Logo_press_applenews.svg" alt=""></a></p>
+				</div>
+				<div class="col-lg-3">
+					<p><a href="http://press.treastrain.jp">treastrain Press</a></p>
+				<p lang="ja"><more><span class="myFontClass">ブログじゃない。伝えたい事だけをまとめたサイト。</span><br></more> 
+				</p>
+				<p lang="en"><more>This is not a blog. Information that I do want to tell.<br></more> 
+				</p>
+				<hr>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><a href="http://wakasa.treastrain.jp"><img class="img-responsive" src="assets/img/wakasa-label.svg" alt=""></a></p>
+				</div>
+				<div class="col-lg-3">
+					<p><a href="http://wakasa.treastrain.jp">Wakasa</a></p>
+				<p lang="ja"><more><span class="myFontClass">「いつも使っているニュースアプリ」のとなりに置いて欲しいニュースキュレーションアプリ。</span><br></more> 
+				</p>
+				<p lang="en"><more>News app go to the next generation.<br></more> 
+				</p>
+				<hr>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><a href="http://sacuri.treastrain.jp"><img class="img-responsive" src="assets/img/base-title.svg" alt=""></a></p>
+				</div>
+				<div class="col-lg-3">
+						<p><a href="http://sacuri.treastrain.jp">Sacuri</a></p>
+					<p lang="ja"><more>OS<span class="myFontClass">、アプリケーションの最新バージョンを使う人のための方位磁針。</span><br></more> 
+					</p>
+					<p lang="en"><more>Compass for people who use the latest version of the application and OS.<br></more> 
+					</p>
+				<hr>
+				</div>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><a href="http://nativer.treastrain.jp"><img class="img-responsive" src="assets/img/nativer_logo_black.svg" alt=""></a></p>
+				</div>
+				<div class="col-lg-3">
+						<p><a href="http://nativer.treastrain.jp">Nativer</a></p>
+					<p lang="ja"><more>Web <span class="myFontClass">サイト・</span>Web <span class="myFontClass">アプリとネイティブアプリケーションの垣根をなくす。</span><br/></more> 
+					</p>
+					<p lang="en"><more>Eliminate the barriers between "Web site / Web apps" and "native applications".<br/></more> 
+					</p>
+				</div>
+		
+		</div><!--/.row -->
+		<br>
+		<br>
+	</div><!--/.container -->
+	<section id="resume" name="resume"></section>
+	<!--SKILLS DESCRIPTION -->
+	<div id="skillswrap">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>SKILLS</h5>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="javascript" height="130" width="130"></canvas>
+						<p>HTML</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 75,
+										color:"#1abc9c"
+									},
+									{
+										value : 25,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="bootstrap" height="130" width="130"></canvas>
+						<p>JavaScript/CSS</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 40,
+										color:"#1abc9c"
+									},
+									{
+										value : 60,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="wordpress" height="130" width="130"></canvas>
+						<p lang="ja"><span class="myFontClass">日本語</span></p>
+						<p lang="en">Japanese</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 95,
+										color:"#1abc9c"
+									},
+									{
+										value : 5,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="html" height="130" width="130"></canvas>
+						<p lang="ja"><span class="myFontClass">映像や画像の編集</span></p>
+						<p lang="en">Editing of video and image</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 80,
+										color:"#1abc9c"
+									},
+									{
+										value : 20,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="photoshop" height="130" width="130"></canvas>
+						<p>WordPress</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 50,
+										color:"#1abc9c"
+									},
+									{
+										value : 50,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="illustrator" height="130" width="130"></canvas>
+						<p lang="ja"><span class="myFontClass">記事の執筆/文章校正/広報活動</span></p>
+						<p lang="en">Article writing<br>Grammar<br>Public relations</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 col-lg-offset-3">
+						<p lang="ja"><span class="myFontClass">現在は</span> Swift <span class="myFontClass">と</span> Xcode <span class="myFontClass">を勉強中。</span></p>
+						<p lang="en">And studying Swift and Xcode now.</p>
+					</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #skillswrap -->
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>NIT</t><br/>
+						National Institute of Technology, Hachinohe College<br/>
+						<i>Department of Electrical and Computer Engineering</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p lang="ja"><sm><span class="myFontClass">2019年3月 卒業予定</span></sm><br/>
+					<imp><sm><span class="myFontClass">在学中</span></sm></imp>
+					</p>
+					<p lang="en"><sm>GRADUATING IN MARCH 2019</sm><br/>
+					<imp><sm>IN PROGRESS</sm></imp>
+					</p>
+				</div>
+	
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+	
+	
+	<!--WORK DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>PROJECTS</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Developer, Designer and Writer</t><br/>
+						<a href="http://queensya.com">Queensya</a>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p lang="ja"><sm>2014/6/11 ~ <span class="myFontClass">現在</span></sm></p>
+					<p lang="en"><sm>JUNE 11, 2014 - CURRENT</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p lang="ja"><t>Writer</t><br/>
+						<a><span class="myFontClass">未来の眼</span></a>
+					</p>
+					<p lang="en"><t>Writer</t><br/>
+						<a>Mirai-no-Me</a>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p lang="ja"><sm>2014/8/29 ~ 2015/12</sm></p>
+					<p lang="en"><sm>AUGUST 29, 2014 - DECEMBER, 2015</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Writer, Designer, Planner and Developer</t><br/>
+						<a href="http://www.mana-corp.com">Mana Lab</a>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p lang="ja"><sm>2015/2/1 ~ <span class="myFontClass">現在</span></sm></p>
+					<p lang="en"><sm>FEBRUARY 1, 2015 - CURRENT</sm></p>
+				</div>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Writer</t><br/>
+						<a href="http://tobira.socialstudy.biz">Tobira</a>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p lang="ja"><sm>2015/12/27 ~ <span class="myFontClass">現在</span></sm></p>
+					<p lang="en"><sm>DECEMBER 12, 2015 - CURRENT</sm></p>
+				</div>
+		</div><!--/.row -->
+		<br>
+		<!-- <hr> -->
+	</div><!--/.container -->
+
+
+	<section id="contact" name="contact"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p lang="ja"><t><span class="myFontClass">メール</span></t><br/>
+						<span class="myFontClass">一般の方のお問い合わせは</span> <a href="mailto:treastrain&#64;treastrain.jp">treastrain&#64;treastrain.jp</a> <span class="myFontClass">へお願いします。</span><br/>
+					</p>
+					<p lang="en"><t>Email</t><br/>
+						<a href="mailto:treastrain&#64;treastrain.jp">treastrain&#64;treastrain.jp</a><br/>
+					</p>
+					<p><t>Google+</t><br/>
+						<a href="http://google.com/+RyogaTanaka">Ryoga Tanaka</a><br/>
+					</p>
+					<p lang="ja"><t>Twitter</t><br/>
+						<a href="https://twitter.com/treastrain"><span class="myFontClass">日本語</span>: Eastrain(ja) @treastrain</a><br/>
+						<a href="https://twitter.com/treastrain_en"><span class="myFontClass">英語</span>: Eastrain(en) @treastrain_en</a><br/>
+						<a class="twitter-timeline" href="https://twitter.com/treastrain" data-widget-id="644563249233461248">@treastrainさんのツイート</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</p>
+					<p lang="en"><t>Twitter</t><br/>
+						<a href="https://twitter.com/treastrain_en">English: Eastrain(en) @treastrain_en</a><br/>
+						<a href="https://twitter.com/treastrain">Japanese: Eastrain(ja) @treastrain</a><br/>
+					</p>
+					<p><t>755</t><br/>
+						<a href="http://7gogo.jp/lp/tuwreTYuNVeWkVIvojdMdG==">treastrain</a><br/>
+					</p>
+					<p><t>LINE@</t><br/>
+						<a href="http://line.me/ti/p/%40vpd0188v">treastrain</a><br/>
+					</p>
+					<p><t>Ask.fm</t><br/>
+						<a href="http://ask.fm/treastrain">treastrain</a><br/>
+					</p>
+				</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
+	
+	<div id="c">
+		<div class="container">
+			<p>&copy; treastrain / Tanaka Ryoga All Rights Reserved.</p>
+			<p class="copy">Credit of the template of this page: <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
+		</div>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>

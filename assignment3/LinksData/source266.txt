@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Project -Project Dxxx- の公式サイト" />
+<meta name="keywords" content="PPD, リズムゲーム, コミュニティ" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />    
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>PPD=Project -Project Dxxx-</title>
+                    <link href="/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/ligature-symbols.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/common.css" media="screen" rel="stylesheet" type="text/css" />    
+                                    <script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/search.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap-tab-collapse.js"></script>
+<script type="text/javascript" src="/js/autohide-menu.js"></script>
+<script type="text/javascript" src="/js/bootstrap-activate-first-tab.js"></script>
+<script type="text/javascript" src="/js/autofit-scale.js"></script>
+<script type="text/javascript" src="/js/nav.js"></script>    <script type="text/javascript">
+        var rankHeader = "";
+        var rankFooter = "位";
+        var rankRank = "順位";
+        var rankScore = "スコア";
+        var rankPlayer = "プレイヤー";
+    </script>
+</head>
+<body>
+<script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        PPD
+      </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="/download">
+            <span class="hidden-md hidden-sm">
+              ダウンロード            </span>
+            <span class="visible-md visible-sm" data-toggle="tooltip" data-placement="bottom" data-container="body" title="ダウンロード">
+              <span class="glyphicon glyphicon-download" aria-hidden="true"></span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="/score-library">
+            <span class="hidden-md hidden-sm">
+              譜面ライブラリ            </span>
+            <span class="visible-md visible-sm" data-toggle="tooltip" data-placement="bottom" data-container="body" title="譜面ライブラリ">
+              <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="/script-library">
+            <span class="hidden-md hidden-sm">
+              スクリプト/Mod            </span>
+            <span class="visible-md visible-sm" data-toggle="tooltip" data-placement="bottom" data-container="body" title="スクリプト/Mod">
+              <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+            </span>
+          </a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <span class="hidden-md hidden-sm">
+              その他 <span class="caret"></span>
+            </span>
+            <span class="visible-md visible-sm" data-toggle="tooltip" data-placement="bottom" data-container="body" title="その他">
+              <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+            </span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/player-ranking">
+                プレイヤーランキング              </a>
+            </li>
+            <li>
+              <a href="/contest">
+                コンテスト              </a>
+            </li>
+            <li>
+              <a href="/item-shop">
+                アイテムショップ              </a>
+            </li>
+            <li>
+              <a href="/item-gacha">
+                アイテムガチャ              </a>
+            </li>
+            <li>
+              <a href="/replay-shop">
+                リプレイショップ              </a>
+            </li>
+            <li>
+              <a href="/perfect-trial">
+                パーフェクトトライアル              </a>
+            </li>
+            <li>
+              <a href="/script-challenge">
+                スクリプトチャレンジ              
+              </a>
+            <li>
+              <a href="/forum">
+                フォーラム              
+              </a>
+            </li>
+            <li>
+              <a href="/help">
+                ヘルプ              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <form id="searchForm" class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <div class="input-group">
+            <div id="searchDropdown" class="btn input-group-addon dropdown-toggle" data-toggle="dropdown">
+              <span class="caret"></span>
+            </div>
+            <ul id="searchDropdownMenu" class="dropdown-menu" role="menu" aria-labelledby="searchDropdown">
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#" type="Score">
+                  譜面                </a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#" type="Tag">
+                  タグ                </a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#" type="Script">
+                  スクリプト/Mod                </a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#" type="Forum">
+                  フォーラム                </a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#" type="User">
+                  プレイヤー                </a>
+              </li>
+            </ul>
+            <input id="searchTextbox" name="word" type="text" class="form-control" search-suffix="検索" value=""/>
+          </div>
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+                <li>
+          <a href="/account-register">
+            サインアップ          </a>
+        </li>
+        <li>
+          <a href="/login">
+            ログイン          </a>
+        </li>
+                <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            Language
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/navigation/lang/lang/jp">
+                日本語
+              </a>
+            </li>
+            <li>
+              <a href="/navigation/lang/lang/en">
+                English
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav><div class="container">
+    <div class="jumbotron">
+  <div class="container">
+    <h1>
+      PPDへようこそ！    </h1>
+    <p>
+      PPDは無料の音ゲーです。      <br/>
+      アカウント登録することで譜面アップロードなど様々な機能を使用することができます。    </p>
+    <p>
+      <a class="btn btn-primary btn-lg" href=""
+        /account-register" role="button">
+        サインアップ&raquo;
+      </a>
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <h2>
+      譜面の共有    </h2>
+    <p>
+      PPDEditorで作った譜面のアップロード、譜面の差し替え、作成中の譜面の情報、譜面の予約投稿ができます。      公式サーバーにアップロードされた譜面が更新されたときにプレイヤーはゲーム内で更新情報を受け取ることができます。    </p>
+  </div>
+  <div class="col-md-4">
+    <h2>
+      ランキング対応    </h2>
+    <p>
+      サーバーにアップロードされた全ての譜面の難易度毎にランキングが存在します。      ランクインするとランキングポイントと<a href="/money">PPDY</a>を入手できます。      <a href="/money">PPDY</a>はPPDコミュニティで使用される通貨です。    </p>
+  </div>
+  <div class="col-md-4">
+    <h2>
+      スクリプト/Modの共有    </h2>
+    <p>
+      PPDアプリケーションの見た目を変えたい場合、Modを入手/作成する必要があります。      公式サーバーにアップロードされたModが更新されたときにプレイヤーはゲーム内で更新情報を受け取ることができます。      PPDの動作をカスタマイズするために譜面に埋め込まれるスクリプトも入手することができます。    </p>
+  </div>
+</div>
+</div>
+<hr/>
+<footer class="footer">
+    <div class="container">
+        <p class="text-center">
+            Copyright 2012-2015 PPD. All Rights Reserved.
+        </p>
+        <p class="text-center">
+            <a href="/rule">利用規約</a>
+            <a href="/support">お問い合わせ</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>
+

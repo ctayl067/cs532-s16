@@ -1,0 +1,647 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<title>Octava Radio | Σσσσσ...Άκουσε</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Favicon -->
+			<link rel="shortcut icon" href="http://www.octavaradio.gr/wp-content/uploads/2014/08/favicon.jpg">
+		<link rel="apple-touch-icon" href="http://www.octavaradio.gr/wp-content/uploads/2014/08/favicon.jpg" />
+		
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<link rel="alternate" type="application/rss+xml" title="Octava Radio | Σσσσσ...Άκουσε &raquo; Feed" href="http://www.octavaradio.gr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Octava Radio | Σσσσσ...Άκουσε &raquo; Comments Feed" href="http://www.octavaradio.gr/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.octavaradio.gr\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap_tab-css'  href='http://www.octavaradio.gr/wp-content/plugins/easy-responsive-tabs/assets/css/bootstrap_tab.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap_dropdown-css'  href='http://www.octavaradio.gr/wp-content/plugins/easy-responsive-tabs/assets/css/bootstrap_dropdown.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ert_tab_icon_css-css'  href='http://www.octavaradio.gr/wp-content/plugins/easy-responsive-tabs/assets/css/res_tab_icon.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='stereoclub-style-css'  href='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/style.css?ver=2013-07-18' type='text/css' media='all' />
+<link rel='stylesheet' id='fonts-css'  href='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/css/customicons/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/css/flexslider.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='grid-css'  href='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/css/grid.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='meanmenu-css'  href='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/css/meanmenu.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='keyframes-css'  href='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/css/keyframes.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/inc/prettyPhoto/css/prettyPhoto.css?ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/plugins/alligator-popup/js/popup.js?ver=1.2.0'></script>
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?v=3.exp&#038;sensor=false&#038;ver=1'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/js/base.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/js/supersized.3.2.7.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/js/supersized.shutter.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/inc/audiojs/audio.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://www.octavaradio.gr/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.octavaradio.gr/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.octavaradio.gr/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<meta name="generator" content="Custom Login v3.2.4" />
+<!-- <meta name="NextGEN" version="2.1.23" /> -->
+<style>#responsive-menu .appendLink, #responsive-menu .responsive-menu li a, #responsive-menu #responsive-menu-title a,#responsive-menu .responsive-menu, #responsive-menu div, #responsive-menu .responsive-menu li, #responsive-menu{box-sizing: content-box !important;-moz-box-sizing: content-box !important;-webkit-box-sizing: content-box !important;-o-box-sizing: content-box !important}.RMPushOpen{width: 100% !important;overflow-x: hidden !important;height: 100% !important}.RMPushSlide{position: relative;left: 75%}#responsive-menu{position: absolute;width: 75%;left: -75%;top: 0px;background: #43494C;z-index: 9999;box-shadow: 0px 1px 8px #333333;font-size: 13px !important;max-width: 999px;display: none}#responsive-menu.admin-bar-showing{padding-top: 32px}#click-menu.admin-bar-showing{margin-top: 32px}#responsive-menu #rm-additional-content{padding: 10px 5% !important;width: 90% !important;color: #FFFFFF}#responsive-menu .appendLink{right: 0px !important;position: absolute !important;border: 1px solid #3C3C3C !important;padding: 12px 10px !important;color: #FFFFFF !important;background: #43494C !important;height: 20px !important;line-height: 20px !important;border-right: 0px !important}#responsive-menu .appendLink:hover{cursor: pointer;background: #3C3C3C !important;color: #FFFFFF !important}#responsive-menu .responsive-menu, #responsive-menu div, #responsive-menu .responsive-menu li,#responsive-menu{text-align: left !important}#responsive-menu .RMImage{vertical-align: middle;margin-right: 10px;display: inline-block}#responsive-menu.RMOpened{}#responsive-menu,#responsive-menu input{}#responsive-menu #responsive-menu-title{width: 95% !important;font-size: 14px !important;padding: 20px 0px 20px 5% !important;margin-left: 0px !important;background: #43494C !important;white-space: nowrap !important}#responsive-menu #responsive-menu-title,#responsive-menu #responsive-menu-title a{color: #81d742 !important;text-decoration: none !important;overflow: hidden !important}#responsive-menu #responsive-menu-title a:hover{color: #FFFFFF !important;text-decoration: none !important}#responsive-menu .appendLink,#responsive-menu .responsive-menu li a,#responsive-menu #responsive-menu-title a{transition: 1s all;-webkit-transition: 1s all;-moz-transition: 1s all;-o-transition: 1s all}#responsive-menu .responsive-menu{width: 100% !important;list-style-type: none !important;margin: 0px !important}#responsive-menu .responsive-menu li.current-menu-item > a,#responsive-menu .responsive-menu li.current-menu-item > .appendLink,#responsive-menu .responsive-menu li.current_page_item > a,#responsive-menu .responsive-menu li.current_page_item > .appendLink{background: #43494C !important;color: #FFFFFF !important}#responsive-menu .responsive-menu li.current-menu-item > a:hover,#responsive-menu .responsive-menu li.current-menu-item > .appendLink:hover,#responsive-menu .responsive-menu li.current_page_item > a:hover,#responsive-menu .responsive-menu li.current_page_item > .appendLink:hover{background: #43494C !important;color: #FFFFFF !important}#responsive-menu.responsive-menu ul{margin-left: 0px !important}#responsive-menu .responsive-menu li{list-style-type: none !important;position: relative !important}#responsive-menu .responsive-menu ul li:last-child{padding-bottom: 0px !important}#responsive-menu .responsive-menu li a{padding: 12px 0px 12px 5% !important;width: 95% !important;display: block !important;height: 20px !important;line-height: 20px !important;overflow: hidden !important;white-space: nowrap !important;color: #FFFFFF !important;border-top: 1px solid #3C3C3C !important;text-decoration: none !important}#click-menu{text-align: center;cursor: pointer;font-size: 13px !important;display: none;position: absolute;right: 5%;top: 10px;color: #FFFFFF;padding: 5px;z-index: 9999}#responsive-menu #responsiveSearch{display: block !important;width: 95% !important;padding-left: 5% !important;border-top: 1px solid #3C3C3C !important;clear: both !important;padding-top: 10px !important;padding-bottom: 10px !important;height: 40px !important;line-height: 40px !important}#responsive-menu #responsiveSearchSubmit{display: none !important}#responsive-menu #responsiveSearchInput{width: 91% !important;padding: 5px 0px 5px 3% !important;-webkit-appearance: none !important;border-radius: 2px !important;border: 1px solid #3C3C3C !important}#responsive-menu .responsive-menu,#responsive-menu div,#responsive-menu .responsive-menu li{width: 100% !important;margin-left: 0px !important;padding-left: 0px !important}#responsive-menu .responsive-menu li li a{padding-left: 10% !important;width: 90% !important;overflow: hidden !important}#responsive-menu .responsive-menu li li li a{padding-left: 15% !important;width: 85% !important;overflow: hidden !important}#responsive-menu .responsive-menu li li li li a{padding-left: 20% !important;width: 80% !important;overflow: hidden !important}#responsive-menu .responsive-menu li li li li li a{padding-left: 25% !important;width: 75% !important;overflow: hidden !important}#responsive-menu .responsive-menu li a:hover{background: #3C3C3C !important;color: #FFFFFF !important;list-style-type: none !important;text-decoration: none !important}#click-menu #RMX{display: none;font-size: 24px;line-height: 27px !important;height: 27px !important;color: #FFFFFF !important}#click-menu .threeLines{width: 33px !important;height: 27px !important;margin: auto !important}#click-menu .threeLines .line{height: 5px !important;margin-bottom: 6px !important;background: #FFFFFF !important;width: 100% !important}#click-menu .threeLines .line.last{margin-bottom: 0px !important}@media only screen and ( min-width : 0px ) and ( max-width : 800px ){#click-menu{display: block}}</style>
+<meta property='og:title' content='' />
+<meta property='og:site_name' content='Octava Radio | Σσσσσ...Άκουσε' />
+<meta property='og:url' content='http://www.octavaradio.gr/maske-party-octava-radio-vg24/' />
+<meta property='og:type' content='article' />				<style>
+			/* Link Color */
+			a, a:visited { color: #aa0114;}
+			
+			/* Hover Link Color */
+			a:focus, a:active, a:hover { color: #820000; }
+			
+			/* Accent Background Color */
+			.entry-header, #site-navigation  ul li a:hover, #site-navigation  ul li.current_page_item a, .header-search-form, .widget .tagcloud a, .grid figcaption, .audiojs .progress, #contact-form .submit-button, .latest-item .entry-footer .button-readmore a, .latest-item .entry-footer .buy span a, .flex-direction-nav a, #commentform #submit, #progress-bar, .share-items .share-item-icon-search a:hover, #site-navigation ul.sub-menu li:hover, .grid figcaption a, .entry-meta .buy span a, .WPlookAnounce, .toggle-event  .category-selected a, .entry-header-comments .reply a, .mean-container a.meanmenu-reveal span, .toggle-event .expand-button .buy .tour-status, .menu-language-menu-container ul li a {background: #820000;}
+			.nav-previous-icon, .nav-next-icon, .widget_search #searchsubmit, .error404 .search-button {background-color: #820000;}
+			.audiojs .play-pause p.play, .audiojs .play-pause p.pause {color: #820000;}
+			/* Accent Text Color */
+			.entry-header, .header-search-form input, .WPlookAnounce .announce-body, .WPlookAnounce .announce-body a {color: #ffffff;}
+
+			/* Secondary color */
+			#site-navigation  ul, .share-items li, #nextslide, #prevslide, #status-info, #site-info, .single-post .entry-meta, .entry-meta-map, .widget_search #searchform #s, .error404 #searchform #s, .menu-language-menu-container ul li a:hover, .more-options .share-buttons  { background: #000000;}
+			
+		</style>
+		<style type="text/css"></style>
+</head>
+<body class="home blog">
+	
+	<!-- Progress Bar -->					
+			<div id="progress-back" class="load-item">
+			<div id="progress-bar"></div>
+		</div>
+	 
+
+	<div id="page">
+		<div id="header-bg"></div>
+		<div id="patern"></div>
+		<div id="page-view">
+			
+			<!-- Header -->
+			<header id="branding" class="site-header" role="banner">
+				<div class="container_12">
+					<!-- Site title and description -->
+					<div class="fleft grid_4 branding">
+						<h1 id="site-title">
+							<a href="http://www.octavaradio.gr/" title="Octava Radio | Σσσσσ&#8230;Άκουσε - " rel="home">
+																<img src="http://www.octavaradio.gr/wp-content/uploads/2014/08/Ανώνυμο-1.png">
+															</a>
+						</h1>
+						<h2 id="site-description"></h2>
+					</div>
+					<!-- Search and Share icons -->
+					<div class="grid_8 socialnetworking">
+													
+							 
+
+							<ul class="share-items">
+																<li class="share-item-icon-search">
+									<a target="_blank" title="Search"><i class="icon-search"></i></a>
+									<!-- Search Form -->
+									<div class="header-search-form">
+										<form method="get" id="header-searchform" action="http://www.octavaradio.gr/">
+											<div>
+												<input class="radius" type="text" size="" name="s" id="s" value="Type your searching word" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+												<input type="submit" class="search-button" id="searchsubmit" value="Search" />
+											</div>
+										</form>
+									</div>
+								</li>
+																
+																											<li class="share-item-icon-facebook"><a target="_blank" title="Facebook" href="https://www.facebook.com/OctavaRadio"><i class="icon-facebook"></i></a></li>
+																			<li class="share-item-icon-twitter"><a target="_blank" title="Twitter" href="https://twitter.com/octavaradio"><i class="icon-twitter"></i></a></li>
+																			<li class="share-item-icon-youtube"><a target="_blank" title="Youtube" href="https://www.youtube.com/channel/UCCFCIqFsT2bnOcljFqYoP4w"><i class="icon-youtube"></i></a></li>
+																								</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</header>
+			
+			<!-- Main Menu -->
+			<div class="container_12 main-menu-section">
+				<nav role="navigation" class="site-navigation main-navigation grid_12" id="site-navigation">
+					<div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-1061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1061"><a href="http://www.octavaradio.gr/about/">Octava Radio</a>
+<ul class="sub-menu">
+	<li id="menu-item-6405" class="menu-item menu-item-type-taxonomy menu-item-object-wpl_dj_category menu-item-6405"><a href="http://www.octavaradio.gr/dj-category/shows/">Εκπομπες</a></li>
+	<li id="menu-item-1027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1027"><a href="http://www.octavaradio.gr/%cf%80%cf%81%ce%bf%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%b1/">Προγραμμα</a></li>
+	<li id="menu-item-6407" class="menu-item menu-item-type-taxonomy menu-item-object-wpl_dj_category menu-item-6407"><a href="http://www.octavaradio.gr/dj-category/producers/">Παραγωγοι</a></li>
+</ul>
+</li>
+<li id="menu-item-1018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1018"><a href="http://www.octavaradio.gr/chat-room/">Chat Room</a></li>
+<li id="menu-item-6761" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6761"><a href="#">Multimedia</a>
+<ul class="sub-menu">
+	<li id="menu-item-1261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1261"><a href="http://www.octavaradio.gr/photo/">Photos</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2496"><a href="http://www.octavaradio.gr/livestudio-4/">Live @ Studio</a></li>
+		<li id="menu-item-3312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3312"><a href="http://www.octavaradio.gr/saltimpagoi-live/">Saltimpagoi Live</a></li>
+		<li id="menu-item-2784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2784"><a href="http://www.octavaradio.gr/%ce%ac%ce%b3%cf%81%ce%b9%ce%b5%cf%82-%cf%86%cf%81%ce%ac%ce%bf%cf%85%ce%bb%ce%b5%cf%82-live/">Αγριες Φραουλες Live</a></li>
+		<li id="menu-item-2661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2661"><a href="http://www.octavaradio.gr/%ce%b4-%ce%bf-%ce%b3-%ce%bc-%ce%b1-live-2/">Δ.Ο.Γ.Μ.Α. Live</a></li>
+		<li id="menu-item-2140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2140"><a href="http://www.octavaradio.gr/octava-1st-winter-party/">Octava 1st Winter Party</a></li>
+		<li id="menu-item-1264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1264"><a href="http://www.octavaradio.gr/gallery/pyrovolakis/">Πυροβολακης Live</a></li>
+		<li id="menu-item-1513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1513"><a href="http://www.octavaradio.gr/ads/">Ads</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1262"><a href="http://www.octavaradio.gr/videos-2/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-6397" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6397"><a href="http://www.octavaradio.gr/category/deltia-typou/">Δελτια Τυπου</a></li>
+<li id="menu-item-6399" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6399"><a href="http://www.octavaradio.gr/category/live-reviews/">Live Reviews</a></li>
+<li id="menu-item-6431" class="menu-item menu-item-type-taxonomy menu-item-object-wpl_dj_category menu-item-6431"><a href="http://www.octavaradio.gr/dj-category/new-releases/">New Releases</a></li>
+<li id="menu-item-6594" class="menu-item menu-item-type-taxonomy menu-item-object-wpl_events_category menu-item-6594"><a href="http://www.octavaradio.gr/events-category/program/">Events</a></li>
+<li id="menu-item-6584" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6584"><a href="http://www.octavaradio.gr/contact-us/">contact us</a></li>
+</ul></div>				</nav>
+			</div>
+
+	<!-- Teaser Text -->
+	<div class="container_12 teaser">
+
+		<div id="slidecaption" class="grid_12"></div>
+
+		<div class="grid_12 margin-battom slider-arrow">
+			<a id="prevslide" class="load-item"></a>
+			<a id="nextslide" class="load-item"></a>
+			<div class="clear"></div>
+		</div>
+		<div class="celar"></div>
+	</div>
+
+<!-- Main -->
+<div id="main" class="site-main container_12">
+	
+	<!-- Left column -->
+	<div id="primary" class="grid_8">
+					<div class="widget-title">
+				<div class="entry-header">
+					<h1 class="entry-title">Latest posts</h1>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="entry-content-list">
+				
+																			
+						
+
+						<article id="post-8719" class="latest-item post-8719 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							
+							<div class="grid_4 alpha omega">
+																	<figure>
+										<a title="Maske Party Octava Radio &#038; VG24" href="http://www.octavaradio.gr/maske-party-octava-radio-vg24/">
+											<img width="320" height="170" src="http://www.octavaradio.gr/wp-content/uploads/2016/02/2be27e71-f6c2-4ae6-9e61-540e935e1e4c-320x170.jpg" class="attachment-medium-ver-thumb size-medium-ver-thumb wp-post-image" alt="2be27e71-f6c2-4ae6-9e61-540e935e1e4c" />										</a>
+									</figure>
+															</div>
+
+							<div class="grid_4 alpha omega">
+								<div class="entry-description">
+									<h1 class="entry-head"><a title="Maske Party Octava Radio &#038; VG24" href="http://www.octavaradio.gr/maske-party-octava-radio-vg24/">Maske Party Octava Radio &#038; VG24</a></h1>
+									<div class="short-description">
+										<p>Άλλο ένα μεγάλο Αποκριάτικο Party με την υπογραφή του Octava Radio. Ένα event που το περιμένουμε όλοι ανεξαρτήτως ηλικίας. Πολύ μουσική&#8230; ποτό&#8230; ατελείωτος χορός και ένας μεγάλος διαγωνισμός για την καλύτερη στολή σας περιμένουν όλους εσάς που θα έρθετε...</p>
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+							<div class="entry-footer">
+							
+								<time class="fleft" datetime="2016-02-11T00:07:40+00:00"><a href="http://www.octavaradio.gr/maske-party-octava-radio-vg24/"><i class="icon-calendar"></i> 11/02/2016</a></time> 
+								<span class="author fleft"><a href="http://www.octavaradio.gr/author/velis/"><i class="icon-user"></i> Octava Radio</a></span>
+								<span class="likes fleft"><span class="post-like"><a href="#" data-post_id="8719"><span class="like icon-heart2"></span></a> <span class="count">1 Like</span></span></span>
+								<span class="views fleft"><i class="icon-eye"></i>79 Views</span>
+
+								<span class="button-readmore fright"><a href="http://www.octavaradio.gr/maske-party-octava-radio-vg24/" title="read more">read more</a></span>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8713" class="list-block-item post-8713 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/02/19.02-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="19.02" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/02/19.02-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/02/19.02-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/02/19.02-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/%ce%bd%ce%af%ce%ba%ce%bf%cf%82-%ce%bf%ce%b9%ce%ba%ce%bf%ce%bd%ce%bf%ce%bc%ce%af%ce%b4%ce%b7%cf%82-%ce%ba%cf%85%cf%81%ce%b9%ce%b1%ce%ba%ce%ae-%cf%83%cf%80%ce%b1%ce%bd%ce%bf%cf%8d-live-%cf%81%cf%85/">Νίκος Οικονομίδης &#038; Κυριακή Σπανού Live @ Ρυθμός Stage 19.02.2016</a></h1>
+									<div class="short-description">
+										<p>Η μουσική σκηνή &#8220;Ρυθμός Stage&#8221; συναντά την παράδοση.   Από την Παρασκευή 19 Φεβρουαρίου και κάθε Παρασκευή ο &#8220;Ρυθμός...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8727" class="list-block-item post-8727 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/02/kati-ellades-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="kati ellades" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/02/kati-ellades-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/02/kati-ellades-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/02/kati-ellades-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/%ce%bf-%ce%b8%ce%bf%ce%b4%cf%89%cf%81%ce%ae%cf%82-%ce%bd%ce%b9%ce%ba%ce%bf%ce%bb%ce%ac%ce%bf%cf%85-%cf%84%ce%bf-%cf%83%cf%87%ce%ae%ce%bc%ce%b1-%ce%b7%cf%87%cf%8c%cf%84%cf%81%ce%bf%cf%80%ce%bf/">Ο Θοδωρής Νικολάου &#038; το σχήμα &#8220;Ηχότροπον&#8221; Live @ Ρυθμός Stage 21.02.2016</a></h1>
+									<div class="short-description">
+										<p>Την Κυριακή 21 Φεβρουαρίου η φιλόξενη σκηνή του &#8220;Ρυθμός Stage&#8221; θα παρουσιάσει τον Θοδωρή Νικολάου και το μουσικό σχήμα...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8730" class="list-block-item post-8730 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/02/lonely-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="lonely" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/02/lonely-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/02/lonely-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/02/lonely-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/%ce%b1%ce%bd%cf%84%cf%8e%ce%bd%ce%b7%cf%82-%ce%b2%ce%bb%ce%ac%cf%87%ce%bf%cf%82-team-lonely-nights-21-02/">Αντώνης Βλάχος &#038; Team @ Lonely Nights 21.02</a></h1>
+									<div class="short-description">
+										<p>Επειδή μια φορά δεν είναι ποτέ αρκετή, ο ερευνητής Αντώνης Βλάχος και η ομάδα του θα βρεθούν στο στούντιο...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8733" class="list-block-item post-8733 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/02/884b1534-68c0-438f-93fb-7ba8d8daa78e-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="884b1534-68c0-438f-93fb-7ba8d8daa78e" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/02/884b1534-68c0-438f-93fb-7ba8d8daa78e-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/02/884b1534-68c0-438f-93fb-7ba8d8daa78e-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/02/884b1534-68c0-438f-93fb-7ba8d8daa78e-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/murder-angels-visions-of-metal-25-02/">Murder Angels @ Visions of Metal 25.02</a></h1>
+									<div class="short-description">
+										<p>Έρχονται κατευθείαν από την Λάρισα στο στούντιο του Octava Radio. Ο λόγος για τους νεοφώτιστους Murder Angels στην ελληνική...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8695" class="list-block-item post-8695 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-1-2-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="Untitled-1" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-1-2-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-1-2-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-1-2-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/%ce%b1%ce%bb%ce%ad%ce%be%ce%b1%ce%bd%ce%b4%cf%81%ce%bf%cf%82-%ce%b1%ce%bd%cf%84%cf%89%ce%bd%ce%af%ce%bf%cf%85-live-%ce%b1%cf%81%ce%b1%cf%87%cf%84%ce%bf%cf%80%ce%bf%cf%84%ce%b5%ce%af%ce%bf-%cf%80/">Αλέξανδρος Αντωνίου Live @ Αραχτοποτείο (Παρασκευές) από 05.02.2016</a></h1>
+									<div class="short-description">
+										<p>Από 5 Φεβρουαρίου και κάθε Παρασκευή, ο Αλέξανδρος Αντωνίου σ-οινο-μοτεί ακουστικά στο Αραχτοποτείο! &nbsp; Σε έναν χώρο όπου οι φωνές...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8692" class="list-block-item post-8692 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-2-4-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="Untitled-2" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-2-4-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-2-4-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-2-4-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/%ce%bc%ce%ac%ce%bd%ce%bf%cf%82-%ce%b1%cf%87%ce%b1%ce%bb%ce%b9%ce%bd%cf%89%cf%84%cf%8c%cf%80%ce%bf%cf%85%ce%bb%ce%bf%cf%82-%ce%b8%ce%bf%ce%b4%cf%89%cf%81%ce%ae%cf%82-%ce%ba%ce%bf%cf%84%ce%bf%ce%bd/">Μάνος Αχαλινωτόπουλος, Θοδωρής Κοτονιάς &#038; Σοφία Μάνου Live @ Ρυθμός Stage 25.02 &#038; 03,10,17.03.2016</a></h1>
+									<div class="short-description">
+										<p>Τρεις διαφορετικές μουσικές προσωπικότητες, ο Μάνος Αχαλινωτόπουλος, ο Θοδωρής Κοτονιάς και η Σοφία Μάνου συναντιούνται στη σκηνή του &#8220;Ρυθμός...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8710" class="list-block-item post-8710 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/02/28.02-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="28.02" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/02/28.02-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/02/28.02-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/02/28.02-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/%ce%bb%ce%b5%cf%85%cf%84%ce%ad%cf%81%ce%b7%cf%82-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-live-%cf%83%cf%84%ce%b1%cf%85%cf%81%cf%8c%cf%82-%cf%84%ce%bf%cf%85-%ce%bd%cf%8c%cf%84%ce%bf%cf%85-club-28-02-2016/">Λευτέρης Μέρος Live @ Σταυρός του Νότου Club 28.02.2016</a></h1>
+									<div class="short-description">
+										<p>Ο Λευτέρης Μέρος ‘σαλπάρει μ ένα καράβι’ ….. τραγούδια για το “ club του Σταυρού Του Νότου “  μαζί με τη...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8677" class="list-block-item post-8677 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2015/11/plessas-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="plessas" srcset="http://www.octavaradio.gr/wp-content/uploads/2015/11/plessas-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2015/11/plessas-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2015/11/plessas-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/%ce%bc%ce%af%ce%bc%ce%b7%cf%82-%cf%80%ce%bb%ce%ad%cf%83%cf%83%ce%b1%cf%82-live-%cf%81%cf%85%ce%b8%ce%bc%cf%8c%cf%82-stage-06-13-02-2016/">Μίμης Πλέσσας Live @ Ρυθμός Stage 13.02.2016</a></h1>
+									<div class="short-description">
+										<p>Ο Μίμης Πλέσσας είναι ένας από τους σημαντικότερους &#8216;Eλληνες συνθέτες! Πολυγραφότατος, μας έχει χαρίσει μερικά από τα ωραιότερα τραγούδια...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8686" class="list-block-item post-8686 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-1-1-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="Untitled-1" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-1-1-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-1-1-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-1-1-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/%cf%84%cf%81%cf%8d%cf%80%ce%b9%ce%b1-%ce%ba%ce%b1%cf%80%ce%ad%ce%bb%ce%b1-live-route-32-12-02-2016/">Τρύπια Καπέλα Live @ Route 32 12.02.2016</a></h1>
+									<div class="short-description">
+										<p>Την παρασκευή 12 Φεβρουαρίου τα Τρύπια Καπέλα στο ROUTE 32 Rock&#8217;n&#8217;blues (Λ. Βουλιαγμένης 32, Αθήνα) θα παρουσιάσουν το τρίτο σε σειρά άλμπουμ του γκροούπ...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8716" class="list-block-item post-8716 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/02/12.02-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="12.02" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/02/12.02-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/02/12.02-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/02/12.02-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/%ce%b4%ce%b7%ce%bc%ce%ae%cf%84%cf%81%ce%b7%cf%82-%ce%ba%ce%bf%cf%81%ce%b3%ce%b9%ce%b1%ce%bb%ce%ac%cf%82-live-%cf%81%cf%85%ce%b8%ce%bc%cf%8c%cf%82-stage-12-02-2016/">Δημήτρης Κοργιαλάς Live @ Ρυθμός Stage 12.02.2016</a></h1>
+									<div class="short-description">
+										<p>Ο Δημήτρης Κοργιαλάς στο Ρυθμός Stage  Παρασκευή 12 Φεβρουαρίου Ειδική συμμετοχή: Sunny Μπαλτζή Μαζί τους ο Μιχάλης Κεχαγιάς &nbsp;...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8683" class="list-block-item post-8683 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-3-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="Untitled-3" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-3-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-3-400x400.png 400w, http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-3-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-3-300x300.png 300w, http://www.octavaradio.gr/wp-content/uploads/2016/02/Untitled-3.png 500w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/ravencult-visions-of-metal-11-02/">Ravencult @ Visions of Metal 11.02</a></h1>
+									<div class="short-description">
+										<p>Πρώτη συνέντευξη για το 2016 και ποδαρικό μας κάνουν οι Black Metallers&#8230;Ravencult !!! Την Πέμπτη 11 Φεβρουαρίου έρχονται στο...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8647" class="list-block-item post-8647 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/01/0207-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="0207" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/01/0207-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/01/0207-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/01/0207-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/%cf%80%ce%b1%ce%bd%ce%b1%ce%b3%ce%b9%cf%8e%cf%84%ce%b7%cf%82-%ce%ba%ce%bf%cf%85%cf%84%ce%bf%cf%8d%ce%b6%ce%bf%cf%82-%cf%86%cf%89%ce%ba%ce%ac%cf%82-%ce%bc%ce%bf%cf%85%cf%81%cf%84%ce%b6%ce%ac%ce%ba/">Παναγιώτης Κουτούζος &#038; Φωκάς Μουρτζάκης Live @ Ρυθμός Stage 07.02.2016</a></h1>
+									<div class="short-description">
+										<p>Δύο νέα παιδιά, ο Παναγιώτης Κουτούζος και ο Φωκάς Μουρτζάκης, ενώνοντας την Κρήτη με την υπόλοιπη Ελλάδα, θα μας...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8660" class="list-block-item post-8660 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/01/Untitled-1-5-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="Untitled-1" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/01/Untitled-1-5-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/01/Untitled-1-5-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/01/Untitled-1-5-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/%cf%80%ce%b1%ce%bd%cf%84%ce%b5%ce%bb%ce%ae%cf%82-%ce%b1%ce%bc%cf%80%ce%b1%ce%b6%ce%ae%cf%82-%ce%b3%ce%b5%cf%81%ce%ac%cf%83%ce%b9%ce%bc%ce%bf%cf%82-%ce%b3%ce%b5%ce%bd%ce%bd%ce%b1%cf%84%ce%ac%cf%82/">Παντελής Αμπαζής &#038; Γεράσιμος Γεννατάς @ Faust 04.02.2016</a></h1>
+									<div class="short-description">
+										<p>Με διάθεση ζαμανφού και σερσελαφάμ, ένας άντρας δυό μέτρα κοτζάμ, ο μποέμ τραγουδοποιός Παντελής Αμπαζής, παρέα με τον γνωστό...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+										
+											
+						<article id="post-8641" class="list-block-item post-8641 post type-post status-publish format-gallery has-post-thumbnail hentry category-3 post_format-post-format-gallery">
+							<div class="margins">
+																	<div class="entry-thumb">
+										<img width="80" height="80" src="http://www.octavaradio.gr/wp-content/uploads/2016/01/0201-80x80.png" class="attachment-small-thumb size-small-thumb wp-post-image" alt="0201" srcset="http://www.octavaradio.gr/wp-content/uploads/2016/01/0201-150x150.png 150w, http://www.octavaradio.gr/wp-content/uploads/2016/01/0201-80x80.png 80w, http://www.octavaradio.gr/wp-content/uploads/2016/01/0201-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" />									</div>
+								
+								<div class="entry-description">
+									<h1 class="entry-head"><a href="http://www.octavaradio.gr/%ce%b8%ce%b5%cf%8c%ce%b4%cf%89%cf%81%ce%bf%cf%82-%ce%ba%ce%bf%cf%85%ce%ad%ce%bb%ce%b7%cf%82-live-%cf%81%cf%85%ce%b8%ce%bc%cf%8c%cf%82-stage-01-02-2016/">Θεόδωρος Κουέλης Live @ Ρυθμός Stage 01.02.2016</a></h1>
+									<div class="short-description">
+										<p>Ο Θεόδωρος Κουέλης στο &#8220;Ρυθμός Stage&#8220; Δευτέρα 1 Φεβρουαρίου &#8221;ΔΕΝ ΕΙΜΑΣΤΕ ΜΟΝΟΙ&#8221; ΜΕΡΟΣ Α&#8217;  Συμμετέχουν οι Μαρία Αναματερού, Αρετή...</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</article>
+
+												
+					
+					<div class="clear"></div>
+
+								<nav class="entry-pagination" id="postnav">
+				<div class="nav-previous"></div>
+				<div class="nav-next"><a href="http://www.octavaradio.gr/page/2/" ><span class="nav-next-text">Older</span> <span class="nav-next-icon"></span></a></div>
+				<div class="clear"></div>
+			</nav><!-- #nav -->
+						
+				</div>
+
+				
+	</div>
+	
+	<div id="secondary" class="grid_4 widget-area" role="complementary">
+	<aside id="adwidget_htmlwidget-2" class="widget AdWidget_HTMLWidget"><div style='text-align: center;'><a href="http://octavaradio.gr/live.php" class="popup" data-height="60" data-width="355" data-scrollbars="0"
+data-locations="0" alt="listen us live popup"><img src="http://www.octavaradio.gr/wp-content/uploads/2012/08/Ανώνυμο-2.png
+"/></a>
+                   </div></aside><aside id="adwidget_htmlwidget-3" class="widget AdWidget_HTMLWidget"><div style='text-align: center;'><a href="href="http://46.4.238.84:9998/listen.pls"><img src="http://www.octavaradio.gr/players/images/winamp.png" width="64" height="64"/></a>
+ 
+ 
+<a href="players/playlist.asx"><img src="http://www.octavaradio.gr/players/images/mediaplayer.png" width="64" height="64"/></a>
+ 
+ 
+<a href="players/playlist.qtl"><img src="http://www.octavaradio.gr/players/images/quicktime.png" width="64" height="64"/></a>
+ 
+ 
+<a href="players/playlist.ram"><img src="http://www.octavaradio.gr/players/images/realplayer.png" width="64" height="64"/></a>
+<a href="http://www.e-radio.gr/Octava-Radio-Athens-i1012/live"><img src="http://www.octavaradio.gr/wp-content/uploads/2012/08/ERadioLogo.png" ></a>
+<a href="http://live24.gr/radio/generic.jsp?sid=1668"><img src="http://www.octavaradio.gr/wp-content/uploads/2012/08/Untitled-1.png" ></a></div></aside><aside id="adwidget_imagewidget-14" class="widget AdWidget_ImageWidget"><a target="_blank" href='http://mousikasardam.gr/' alt='Ad'><img  src='http://www.octavaradio.gr/wp-content/uploads/2015/05/11215394_10205913304366901_760946805_o-400x400.jpg' alt='Ad' /></a></aside><aside id="adwidget_imagewidget-13" class="widget AdWidget_ImageWidget"><a target="_blank" href='http://www.southernrock.gr/' alt='Ad'><img  src='http://www.octavaradio.gr/wp-content/uploads/2014/09/Untitled-2.png' alt='Ad' /></a></aside><aside id="adwidget_imagewidget-11" class="widget AdWidget_ImageWidget"><a target="_blank" href='https://www.facebook.com/pages/%CE%A4%CE%B5%CF%87%CE%BD%CE%B9%CE%BA%CE%AE-%CE%A5%CF%80%CE%BF%CF%83%CF%84%CE%AE%CF%81%CE%B9%CE%BE%CE%B7-%CE%A5%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CF%84%CF%8E%CE%BD-%CE%BA%CE%B1%CE%B9-%CE%94%CE%B9%CE%BA%CF%84%CF%8D%CF%89%CE%BD/428994433896205?__mref=message_bubble' alt='Ad'><img  src='http://www.octavaradio.gr/wp-content/uploads/2012/08/11128730_10206472054135296_58074804_n.jpg' alt='Ad' /></a></aside><aside id="adwidget_imagewidget-4" class="widget AdWidget_ImageWidget"><a target="_blank" href='http://www.evart.gr/' alt='Ad'><img  src='http://www.octavaradio.gr/wp-content/uploads/2012/08/10822329_10204718875466925_1864417371_n.jpg' alt='Ad' /></a></aside><aside id="adwidget_imagewidget-7" class="widget AdWidget_ImageWidget"><a target="_blank" href='http://www.tranzistoraki.com/' alt='Ad'><img  src='http://www.octavaradio.gr/wp-content/uploads/2014/09/Tranzistoraki_logo-400x88.jpg' alt='Ad' /></a></aside><aside id="adwidget_imagewidget-8" class="widget AdWidget_ImageWidget"><a target="_blank" href='https://www.facebook.com/AsfalistikoGrafeioDimitraGiannaki' alt='Ad'><img  src='http://www.octavaradio.gr/wp-content/uploads/2014/09/Ασφαλιστικό-Γραφείο.jpg' alt='Ad' /></a></aside></div>	<div class="clear"></div>	
+</div>
+
+
+			<!-- Footer Widget area -->
+			<footer id="colophon" class="site-footer container_12">
+				
+				<!-- Site info -->
+				<div id="site-info" class="grid_12"><div class="margins">
+					Copyright © 2014 All Rights reserved Octava Radio<br/> Designed by <a href="http://cubric.gr" target="_blank">Cubric Internet Services</a></div></div>
+
+			</footer>
+		</div>
+	</div>
+	
+	
+	<!-- ngg_resource_manager_marker --><script type='text/javascript' src='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/js/jquery.flexslider-min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/js/jquery.equalHeights.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/js/jquery.meanmenu.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/js/jquery.fitvids.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/js/modernizr.custom.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/js/toucheffects.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/inc/prettyPhoto/js/jquery.prettyPhoto.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_var = {"url":"http:\/\/www.octavaradio.gr\/wp-admin\/admin-ajax.php","nonce":"7f6609caee"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/themes/stereoclub-wpl/js/post-like.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/plugins/easy-responsive-tabs/assets/js/bootstrap-dropdown.js?ver=3.0'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/plugins/easy-responsive-tabs/assets/js/bootstrap-tab.js?ver=3.0'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/plugins/easy-responsive-tabs/assets/js/bootstrap-tabdrop.js?ver=3.0'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-content/plugins/easy-responsive-tabs/assets/js/ert_js.php?ver=3.0'></script>
+<script type='text/javascript' src='http://www.octavaradio.gr/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+    <!-- Start of StatCounter Code -->
+    <script>
+    <!-- 
+        var sc_project=7311154; 
+        var sc_security="1dbc67ba"; 
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+    //-->
+document.write("<sc"+"ript src='" +scJsHost +"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics" href="https://statcounter.com/"><img class="statcounter" src="https://c.statcounter.com/7311154/0/1dbc67ba/0/" alt="web analytics" /></a></div></noscript>   
+    <!-- End of StatCounter Code -->
+<!-- Added by Responsive Menu Plugin for WordPress - http://responsive.menu -->
+
+<div id="responsive-menu" >
+
+    
+        <div id="responsive-menu-title">
+
+            
+                                
+            Menu Title                
+                        
+        </div>
+    
+    <div class="menu-main-menu-container"><ul id="menu-main-menu" class="responsive-menu"><li id="menu-item-6296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6296"><a href="http://www.octavaradio.gr/about/">Octava Radio</a>
+<ul class="sub-menu">
+	<li id="menu-item-6297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6297"><a href="http://www.octavaradio.gr/%ce%b5%ce%ba%cf%80%ce%bf%ce%bc%cf%80%ce%ad%cf%82/">Εκπομπές</a></li>
+	<li id="menu-item-6298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6298"><a href="http://www.octavaradio.gr/%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%89%ce%b3%ce%bf%ce%af-2/">Παραγωγοί</a></li>
+	<li id="menu-item-6299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6299"><a href="http://www.octavaradio.gr/%cf%80%cf%81%ce%bf%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%b1/">Πρόγραμμα</a></li>
+</ul>
+</li>
+<li id="menu-item-6300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6300"><a href="http://www.octavaradio.gr/chat-room/">Chat Room</a></li>
+<li id="menu-item-6301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6301"><a href="http://www.octavaradio.gr/multimedia/">Multimedia</a>
+<ul class="sub-menu">
+	<li id="menu-item-6302" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6302"><a href="http://www.octavaradio.gr/livestudio/">live@studio</a></li>
+	<li id="menu-item-6303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6303"><a href="http://www.octavaradio.gr/octava-1st-winter-party/">Octava 1st Winter Party</a></li>
+	<li id="menu-item-6304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6304"><a href="http://www.octavaradio.gr/saltimpagoi-live/">Saltimpagoi Live</a></li>
+	<li id="menu-item-6305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6305"><a href="http://www.octavaradio.gr/livestudio-4/">Live @ Studio</a></li>
+	<li id="menu-item-6306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6306"><a href="http://www.octavaradio.gr/%ce%ac%ce%b3%cf%81%ce%b9%ce%b5%cf%82-%cf%86%cf%81%ce%ac%ce%bf%cf%85%ce%bb%ce%b5%cf%82-live/">Άγριες Φράουλες Live</a></li>
+	<li id="menu-item-6307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6307"><a href="http://www.octavaradio.gr/%ce%b4-%ce%bf-%ce%b3-%ce%bc-%ce%b1-live-2/">Δ.Ο.Γ.Μ.Α. Live</a></li>
+</ul>
+</li>
+<li id="menu-item-6308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6308"><a href="http://www.octavaradio.gr/new-releases/">New Releases</a></li>
+<li id="menu-item-6311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6311"><a href="http://www.octavaradio.gr/news/">Reviews</a>
+<ul class="sub-menu">
+	<li id="menu-item-6309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6309"><a href="http://www.octavaradio.gr/live-reviews/">Live Reviews</a></li>
+	<li id="menu-item-6310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6310"><a href="http://www.octavaradio.gr/live-reviews-1/">Live Reviews 1</a></li>
+</ul>
+</li>
+</ul></div>
+        <form action="http://www.octavaradio.gr" id="responsiveSearch" method="get" role="search">
+
+            <input type="search" name="s" value="" placeholder="Search" id="responsiveSearchInput">
+            <input type="submit" id="responsiveSearchSubmit" />
+            
+        </form>                        
+                        
+       
+</div><!-- Added by Responsive Menu Plugin for WordPress - http://responsive.menu -->
+
+<div id="click-menu" 
+     class=" 
+     overlay"
+     role="button" 
+     aria-label="Responsive Menu Button"
+     >
+
+
+
+    <div class="threeLines" id="RM3Lines">       
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+
+
+</div><script>var $RMjQuery = jQuery.noConflict();$RMjQuery( document ).ready( function(){var isOpen = false;$RMjQuery( document ).on( 'click', '#click-menu', function(){$RMjQuery( '#responsive-menu' ).css( 'height', $RMjQuery( document ).height() );!isOpen ? openRM() : closeRM()});function openRM(){var MenuWidth = $RMjQuery('#responsive-menu').width();$RMjQuery( '#responsive-menu' ).css( 'display', 'block' );$RMjQuery( '#responsive-menu' ).addClass( 'RMOpened' );$RMjQuery( '#click-menu' ).addClass( 'click-menu-active' );$RMjQuery( '#responsive-menu' ).stop().animate({left: "0"}, 500, 'linear', function(){$RMjQuery( '#responsive-menu' ).css( 'height', $RMjQuery( document ).height() );isOpen = true})}function closeRM(){$RMjQuery( '#responsive-menu' ).animate({left: -$RMjQuery( '#responsive-menu' ).width()}, 500, 'linear', function(){$RMjQuery( '#responsive-menu' ).css( 'display', 'none' );$RMjQuery( '#responsive-menu' ).removeClass( 'RMOpened' );$RMjQuery( '#click-menu' ).removeClass( 'click-menu-active' );isOpen = false})}$RMjQuery( window ).resize( function(){$RMjQuery( '#responsive-menu' ).stop( true, true );$RMjQuery( '#responsive-menu' ).css( 'height', $RMjQuery( document ).height() );if( $RMjQuery( window ).width() > 800 ){if( $RMjQuery( '#responsive-menu' ).css( 'left' ) != -$RMjQuery( '#responsive-menu' ).width() ){closeRM()}}});$RMjQuery( '#responsive-menu ul ul' ).css( 'display', 'none' );$RMjQuery( '#responsive-menu .current_page_ancestor.menu-item-has-children' ).children( 'ul' ).css( 'display', 'block' );$RMjQuery( '#responsive-menu .current-menu-ancestor.menu-item-has-children' ).children( 'ul' ).css( 'display', 'block' );$RMjQuery( '#responsive-menu .current-menu-item.menu-item-has-children' ).children( 'ul' ).css( 'display', 'block' );$RMjQuery( '#responsive-menu .current_page_ancestor.page_item_has_children' ).children( 'ul' ).css( 'display', 'block' );$RMjQuery( '#responsive-menu .current-menu-ancestor.page_item_has_children' ).children( 'ul' ).css( 'display', 'block' );$RMjQuery( '#responsive-menu .current-menu-item.page_item_has_children' ).children( 'ul' ).css( 'display', 'block' );var clickLink = '<span class=\"appendLink rm-append-inactive\"></span>';var clickedLink = '<span class=\"appendLink rm-append-active\"></span>';$RMjQuery( '#responsive-menu .responsive-menu li' ).each( function(){if( $RMjQuery( this ).children( 'ul' ).length > 0 ){if( $RMjQuery( this ).find( '> ul' ).css( 'display' ) == 'none' ){$RMjQuery( this ).prepend( clickLink )}else{$RMjQuery( this ).prepend( clickedLink )}}});$RMjQuery( '.appendLink' ).on( 'click', function(){$RMjQuery( this ).nextAll( '#responsive-menu ul ul' ).slideToggle();$RMjQuery( this ).html( $RMjQuery( this ).hasClass( 'rm-append-active' ) ? '' : '' );$RMjQuery( this ).toggleClass( 'rm-append-active rm-append-inactive' );$RMjQuery( '#responsive-menu' ).css( 'height', $RMjQuery( document ).height() )});$RMjQuery( '.rm-click-disabled' ).on( 'click', function(){$RMjQuery( this ).nextAll( '#responsive-menu ul ul' ).slideToggle();$RMjQuery( this ).siblings( '.appendLink' ).html( $RMjQuery( this ).hasClass( 'rm-append-active' ) ? '' : '' );$RMjQuery( this ).toggleClass( 'rm-append-active rm-append-inactive' );$RMjQuery( '#responsive-menu' ).css( 'height', $RMjQuery( document ).height() )});$RMjQuery( '.rm-append-inactive' ).siblings( 'ul' ).css( 'display', 'none' )});</script>		
+					<script>
+				jQuery(function(jQuery){
+					jQuery.supersized({
+						// Functionality
+						slide_interval			:	7000,		// Length between transitions
+						transition				:	1,			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+						transition_speed		:	2000,		// Speed of transition
+
+						// Components							
+						slide_links				:	'false',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+						slides					:
+							[	// Slideshow Images
+
+																	{image :' http://www.octavaradio.gr/wp-content/uploads/2014/08/1590508.jpg ', title :' <h1>  </h1> <h2>  </h2>'},																	{image :' http://www.octavaradio.gr/wp-content/uploads/2014/08/Octavara.jpg ', title :' <h1> Octava Radio </h1> <h2> ... Το No1 Εναλλακτικό Web Radio!!! </h2>'},																	{image :' http://www.octavaradio.gr/wp-content/uploads/2014/08/radio24onair.jpg ', title :' <h1>  </h1> <h2>  </h2>'},																	{image :' http://www.octavaradio.gr/wp-content/uploads/2014/08/3400482826_4debaa6b18.jpeg ', title :' <h1>  </h1> <h2>  </h2>'},																	{image :' http://www.octavaradio.gr/wp-content/uploads/2014/08/20110910_rtl3433_hdr-edit-1.jpg ', title :' <h1>  </h1> <h2>  </h2>'},															]
+					});
+				});
+			</script>
+			</body>
+</html>
